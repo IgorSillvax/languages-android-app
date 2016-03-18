@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <string name="app_name">APKPure</string>
+
+    <string name="action_settings">设置</string>
+    <string name="action_search">搜索</string>
+    <string name="action_management">管理</string>
+
+    <string name="press_back_key_quit">再一次返回键退出</string>
+
+    <string name="featured">精选</string>
+    <string name="games">游戏</string>
+    <string name="apps">应用</string>
+    <string name="categories">分类</string>
+    <string name="updates">更新</string>
+
+    <string name="something_happened">&gt;_&lt;\n出错了。</string>
+
+    <string name="load_failed_error">哎呀！发生错误了。</string>
+    <string name="load_failed_empty">无内容。</string>
+    <string name="load_failed_all_up_to_date">所有应用程序已是最新。</string>
+    <string name="load_failed_no_results">抱歉！未找到结果。</string>
+    <string name="refresh">刷新</string>
+
+    <string name="management">管理</string>
+    <string name="app_updates">应用更新</string>
+    <string name="app_management">应用管理</string>
+    <string name="app_uninstall">应用卸载</string>
+    <string name="apk_management">APK 管理</string>
+    <string name="apk_xapk_management">APK / XAPK 管理</string>
+    <string name="download_management">下载管理</string>
+    <string name="settings">设置</string>
+    <string name="about">关于</string>
+    <string name="about_title">关于 <xliff:g id="app_name" example="APKPure">%1$s</xliff:g></string>
+    <string name="about_message">
+        <![CDATA[<b>版本：</b> %1$s<br><br><b>官方网站：</b> <a href="%2$s">%2$s</a><br><b>联系我们：</b> <a href="mailto:%3$s">%3$s</a>]]>
+    </string>
+    <string name="check_update">检查更新</string>
+    <string name="quit">退出</string>
+    <string name="want_to_quit">您确定要退出吗？</string>
+
+    <string name="install">安装</string>
+    <string name="open">打开</string>
+    <string name="delete">删除</string>
+    <string name="want_to_delete_file">您确定要删除此文件吗？</string>
+    <string name="file_has_been_deleted">文件已被删除。</string>
+    <string name="failed_to_delete_file">删除文件失败</string>
+    <string name="install__label_">安装 - <xliff:g id="app_label" example="APKPure">%1$s</xliff:g></string>
+    <string name="user_canceled">用户已取消。</string>
+    <string name="io_error">IO 接口错误，可能是可用空间不足无法完成安装。</string>
+    <string name="file_format_error">文件格式错误。</string>
+    <string name="parsing_xapk">正在解析 XAPK …</string>
+    <string name="installing_obb">正在安装 OBB 文件 …</string>
+    <string name="extracting_apk">正在提取 APK 文件 …</string>
+    <string name="installing_apk">正在安装 APK …</string>
+
+    <string name="uninstall">卸载</string>
+    <string name="uninstalled">已卸载</string>
+    <string name="last_update__date_">最后更新：<xliff:g id="date">%1$s</xliff:g></string>
+
+    <string name="all">所有</string>
+
+    <string name="screenshots">截图</string>
+    <string name="description">描述</string>
+    <string name="whatsnew">更新内容</string>
+    <string name="information">信息</string>
+    <string name="version_">版本：</string>
+    <string name="updated_">更新日期：</string>
+    <string name="size_">大小：</string>
+    <string name="permissions_">权限：</string>
+    <string name="type_">类型：</string>
+    <string name="category_">分类：</string>
+    <string name="more">更多</string>
+    <string name="permissions">权限</string>
+    <string name="other">其他</string>
+    <string name="apk">APK</string>
+    <string name="xapk">XAPK</string>
+    <string name="unknown">未知</string>
+    <string name="_ellipsis_">&#160;&#8230;&#160;</string>
+
+    <string name="market_response_error_success">成功。</string>
+    <string name="market_response_error_invalid_result">无效的结果。</string>
+    <string name="market_response_error_network_connect_error">网络连接错误。</string>
+    <string name="market_response_error_network_read_error">网络读取错误。</string>
+    <string name="market_response_error_invalid_response_code">无效的响应代码。</string>
+    <string name="market_response_error_invalid_response_body">无效的响应正文。</string>
+    <string name="market_response_error_unknown_error__error_">未知错误(<xliff:g id="error" example="SUCCESS">%1$s</xliff:g>)。</string>
+
+    <string name="no_more">无更多内容。</string>
+
+    <string name="update">更新</string>
+    <string name="version__version___size_">版本：<xliff:g id="version" example="1.0.0">%1$s</xliff:g>, <xliff:g id="size" example="1024 kB">%2$s</xliff:g></string>
+    <plurals name="_count__new_update_is_available">
+        <item quantity="one"><xliff:g id="count" example="1">%1$d</xliff:g> 个应用可更新</item>
+        <item quantity="other"><xliff:g id="count" example="2">%1$d</xliff:g> 个应用可更新</item>
+    </plurals>
+
+    <string name="launching_please_wait">正在启动，请稍候…</string>
+
+    <plurals name="_count__item_is_downloading">
+        <item quantity="one"><xliff:g id="count" example="1">%1$d</xliff:g> 个应用正在下载</item>
+        <item quantity="other"><xliff:g id="count" example="2">%1$d</xliff:g> 个应用正在下载</item>
+    </plurals>
+    <string name="downloads_complete">下载完成</string>
+    <string name="touch_for_view_all_downloads">点击查看所有下载</string>
+    <string name="_name__download_failed"><xliff:g id="name" example="APKPure">%1$s</xliff:g> 下载失败</string>
+    <string name="touch_to_download_it_again">点击重新下载</string>
+
+    <string name="download_percent"><xliff:g id="percent" example="50">%1$d</xliff:g> %%</string>
+    <string name="pause">暂停</string>
+    <string name="continue_">继续</string>
+    <string name="restart">重新下载</string>
+    <string name="download">下载</string>
+    <string name="downloading">正在下载</string>
+    <string name="waiting">请稍候</string>
+    <string name="preparing">准备中</string>
+    <string name="completed">完成</string>
+    <string name="paused">暂停</string>
+    <string name="failed">失败</string>
+    <string name="file_invalid">文件无效</string>
+    <string name="file_missing">文件不存在</string>
+    <string name="expired">已到期</string>
+    <string name="detail">详情</string>
+    <string name="remove">删除</string>
+    <string name="want_to_remove_download_item">您确定要删除此下载项吗？</string>
+
+    <string name="search">搜索</string>
+    <string name="search_for_apps">搜索应用</string>
+    <string name="trending_searches">热门搜索</string>
+
+    <string name="improvement_plan_title">用户体验改善计划</string>
+    <string name="improvement_plan_message">
+        <![CDATA[帮助提交 Android 设备信息，我们 <b>不会收集</b> 您的个人信息（包括姓名，地址，电子邮件地址等等）。]]>
+    </string>
+    <string name="join_us">加入我们</string>
+    <string name="skip">跳过</string>
+
+    <string name="_name__is_up_to_date"><xliff:g id="name" example="APKPure">%1$s</xliff:g> 已是最新版本。</string>
+    <string name="new_version_available_title">发现新版本</string>
+    <string name="new_version_available_message">
+        <![CDATA[<b>最新版本：</b> %1$s<br><br><b>更新内容：</b><br>%2$s]]>
+    </string>
+
+    <string name="report__">反馈…</string>
+    <string name="report_problem__">反馈问题…</string>
+    <string name="report_problem_subject">反馈问题</string>
+    <string name="report_problem_text">问题主题：\n%1$s\n\n问题详情：\n%2$s</string>
+
+    <string name="installation_failed">安装失败</string>
+    <string name="invalid_app_detail">无效的应用详细信息。</string>
+    <string name="invalid_app_asset">无效的应用资产信息。</string>
+    <string name="failed_to_request_app_detail">请求应用详情信息失败。</string>
+    <string name="failed_to_request_app_asset">请求应用资产信息失败。</string>
+    <string name="incompatible_this_app">
+        <![CDATA[<big><b><font color="red">您的设备与此应用程序不兼容，</font></b></big><br><br>您确定要继续吗？]]>
+    </string>
+    <string name="this_app_not_usable">
+        <![CDATA[<big><b><font color="red">此应用可能无法使用，</font></b></big><br><br>您确定要继续吗？]]>
+    </string>
+
+    <string name="setting">设置</string>
+    <string name="external_storage_not_usable">
+        <![CDATA[<big><b>我们需要访问外部存储，请确保外部存储可用。</b></big>]]>
+    </string>
+    <string name="external_storage_permission_denied">
+        <![CDATA[<big><b>我们需要访问外部存储。请确保已授予访问权限。</b></big>]]>
+    </string>
+
+    <string name="share">分享</string>
+    <string name="share_app_url">下载 <xliff:g id="app_name" example="APKPure">%1$s</xliff:g> APK (来自 @<xliff:g id="social_network_name" example="APKPure">%2$s</xliff:g>), <xliff:g id="app_url" example="https://apkpure.com/p/com.apkpure.aegon">%3$s</xliff:g></string>
+
+    <string name="_name__version_history"><xliff:g id="name" example="APKPure">%1$s</xliff:g> 的版本历史</string>
+    <string name="update__date___size_">更新：<xliff:g id="date" example="Mar 3, 2016">%1$s</xliff:g>, <xliff:g id="size" example="1024 kB">%2$s</xliff:g></string>
+</resources>

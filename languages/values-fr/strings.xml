@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <string name="app_name">APKPure</string>
+
+    <string name="action_settings">Paramètre</string>
+    <string name="action_search">Rechercher</string>
+    <string name="action_management">Gérer</string>
+
+    <string name="press_back_key_quit">Pressez encore une fois retour pour quitter.</string>
+
+    <string name="featured">Mise en avant</string>
+    <string name="games">Jeux</string>
+    <string name="apps">Application</string>
+    <string name="categories">Catégories</string>
+    <string name="updates">Mise a jour</string>
+
+    <string name="something_happened">&gt;_&lt;\nQuelque chose c\'est passez</string>
+
+    <string name="load_failed_error">Desoler mais une erreur est survenu.</string>
+    <string name="load_failed_empty">Il y a rien ici.</string>
+    <string name="load_failed_all_up_to_date">Toutes vos applications sont a jour.</string>
+    <string name="load_failed_no_results">Désolée mais aucun résultat trouve.</string>
+    <string name="refresh">Rafraîchir</string>
+
+    <string name="management">Management</string>
+    <string name="app_updates">Mettre a jour ses applications</string>
+    <string name="app_management">Gérer ses applis</string>
+    <string name="app_uninstall">Désinstaller des application</string>
+    <string name="apk_management">Gérer les applications</string>
+    <string name="apk_xapk_management">Gerer les apk et les xapk</string>
+    <string name="download_management">Gérer les téléchargement</string>
+    <string name="settings">Paramètre</string>
+    <string name="about">Information</string>
+    <string name="about_title">Information <xliff:g id="app_name" example="APKPure">%1$s</xliff:g></string>
+    <string name="about_message">
+        <![CDATA[<b>Version:</b> %1$s<br><br><b>Site web:</b> <a href="%2$s">%2$s</a><br><b>Nous contacter:</b> <a href="mailto:%3$s">%3$s</a>]]>
+    </string>
+    <string name="check_update">Verifier les mises a jour</string>
+    <string name="quit">Quitter</string>
+    <string name="want_to_quit">Etes vous sur de quitter l\'application?</string>
+
+    <string name="install">Installer</string>
+    <string name="open">Ouvrir</string>
+    <string name="delete">Supprimer</string>
+    <string name="want_to_delete_file">Voulez vous supprimer ce fichier?</string>
+    <string name="file_has_been_deleted">Ce fichier a bien été supprimée.</string>
+    <string name="failed_to_delete_file">Échec de la suppression du fichier.</string>
+    <string name="install__label_">Installer - <xliff:g id="app_label" example="APKPure">%1$s</xliff:g></string>
+    <string name="user_canceled">Utilisateur annule.</string>
+    <string name="io_error">IO erreur cela est peut être du au manque d\'espace disponible.</string>
+    <string name="file_format_error">Erreur format du fichier.</string>
+    <string name="parsing_xapk">Analyse XAPK …</string>
+    <string name="installing_obb">Installation des fichier obb …</string>
+    <string name="extracting_apk">Extraction de l\'apk …</string>
+    <string name="installing_apk">Installation de l\'apk …</string>
+
+    <string name="uninstall">Désinstaller</string>
+    <string name="uninstalled">Désinstallé</string>
+    <string name="last_update__date_">Dernière mise a jour: <xliff:g id="date">%1$s</xliff:g></string>
+
+    <string name="all">Tout</string>
+
+    <string name="screenshots">Images</string>
+    <string name="description">Description</string>
+    <string name="whatsnew">Nouveautés</string>
+    <string name="information">Information</string>
+    <string name="version_">Version:</string>
+    <string name="updated_">Updated:</string>
+    <string name="size_">Taille:</string>
+    <string name="permissions_">Permissions:</string>
+    <string name="type_">Type:</string>
+    <string name="category_">Catégorie:</string>
+    <string name="more">Plus</string>
+    <string name="permissions">Permissions</string>
+    <string name="other">Autre</string>
+    <string name="apk">APK</string>
+    <string name="xapk">XAPK</string>
+    <string name="unknown">Inconnu</string>
+    <string name="_ellipsis_">&#160;&#8230;&#160;</string>
+
+    <string name="market_response_error_success">Succès</string>
+    <string name="market_response_error_invalid_result">En attente d\'unrrésultats valide.</string>
+    <string name="market_response_error_network_connect_error">Erreur réseau</string>
+    <string name="market_response_error_network_read_error">Erreur réseau.</string>
+    <string name="market_response_error_invalid_response_code">Code reponse invalide.</string>
+    <string name="market_response_error_invalid_response_body">Le corps reponse invalide.</string>
+    <string name="market_response_error_unknown_error__error_">Erreur Inconnu (<xliff:g id="error" example="SUCCESS">%1$s</xliff:g>).</string>
+
+    <string name="no_more">Rien de plus.</string>
+
+    <string name="update">Mettre a jour</string>
+    <string name="version__version___size_">Version: <xliff:g id="version" example="1.0.0">%1$s</xliff:g>, <xliff:g id="size" example="1024 kB">%2$s</xliff:g></string>
+    <plurals name="_count__new_update_is_available">
+        <item quantity="one"><xliff:g id="count" example="1">%1$d</xliff:g> Une mise a jour est Disponible</item>
+        <item quantity="other"><xliff:g id="count" example="2">%1$d</xliff:g> Des mises a jour sont disponible</item>
+    </plurals>
+
+    <string name="launching_please_wait">LANCEMENT ATTENDEZ &#8230;</string>
+
+    <plurals name="_count__item_is_downloading">
+        <item quantity="one"><xliff:g id="count" example="1">%1$d</xliff:g> Application en cours de téléchargement</item>
+        <item quantity="other"><xliff:g id="count" example="2">%1$d</xliff:g> Applications en cours de téléchargement</item>
+    </plurals>
+    <string name="downloads_complete">Téléchargement fini</string>
+    <string name="touch_for_view_all_downloads">Touchée pour voir tous les téléchargements</string>
+    <string name="_name__download_failed"><xliff:g id="name" example="APKPure">%1$s</xliff:g> erreur téléchargement</string>
+    <string name="touch_to_download_it_again">Toucher pour télécharger a nouveau</string>
+
+    <string name="download_percent"><xliff:g id="percent" example="50">%1$d</xliff:g> %%</string>
+    <string name="pause">Pause</string>
+    <string name="continue_">Continuer</string>
+    <string name="restart">Recommencer</string>
+    <string name="download">Télécharger</string>
+    <string name="downloading">En cours de téléchargement</string>
+    <string name="waiting">Attendez</string>
+    <string name="preparing">Préparation</string>
+    <string name="completed">Complété</string>
+    <string name="paused">Pause</string>
+    <string name="failed">Erreur</string>
+    <string name="file_invalid">Fichier invalide</string>
+    <string name="file_missing">Fichier manquant</string>
+    <string name="expired">Expirée</string>
+    <string name="detail">Détail</string>
+    <string name="remove">Supprimer</string>
+    <string name="want_to_remove_download_item">Voulez vous supprimer ces fichiers?</string>
+
+    <string name="search">Rechercher</string>
+    <string name="search_for_apps">Rechercher des applications</string>
+    <string name="trending_searches">Rechercher des tendances</string>
+
+    <string name="improvement_plan_title">Plan pour améliorer les performances</string>
+    <string name="improvement_plan_message">
+        <![CDATA[Aidez nous en nous envoyant des informations sur votre appareil <b>on ne vas pas collecter</b> vos informations personnels (nom, adresse, numero de securite social ou autre).]]>
+    </string>
+    <string name="join_us">Rejoint nous</string>
+    <string name="skip">Passez</string>
+
+    <string name="_name__is_up_to_date"><xliff:g id="name" example="APKPure">%1$s</xliff:g> Est a jour.</string>
+    <string name="new_version_available_title">Nouvelle version Disponible</string>
+    <string name="new_version_available_message">
+        <![CDATA[<b>Derniere version:</b> %1$s<br><br><b>Quoi de neuf:</b><br>%2$s]]>
+    </string>
+
+    <string name="report__">Reporter&#8230;</string>
+    <string name="report_problem__">Reporter un problème&#8230;</string>
+    <string name="report_problem_subject">Reporter un problème</string>
+    <string name="report_problem_text">Problème sujet:\n%1$s\n\Détail du problème:\n%2$s</string>
+
+    <string name="installation_failed">Installation échoué</string>
+    <string name="invalid_app_detail">Les détails de l\'application sont invalides.</string>
+    <string name="invalid_app_asset">Les details de l\'asset sont invalides.</string>
+    <string name="failed_to_request_app_detail">Erreur pour obtenir les détails de l\'application.</string>
+    <string name="failed_to_request_app_asset">Erreur pour obtenir les détails de l\'asset.</string>
+    <string name="incompatible_this_app">
+        <![CDATA[<big><b><font color="red">Votre téléphone est pas compatible.</font></b></big><br><br>Voulez vous continuer?]]>
+    </string>
+    <string name="this_app_not_usable">
+        <![CDATA[<big><b><font color="red">Cette appli peut ne pas fonctionner.</font></b></big><br><br>Voulez vous continuer?]]>
+    </string>
+
+    <string name="setting">Paramètre</string>
+    <string name="external_storage_not_usable">
+        <![CDATA[<big><b>Nous devons accéder a la carte mémoire assurez vous d\'avoir une carte fonctionnel.</b></big>]]>
+    </string>
+    <string name="external_storage_permission_denied">
+        <![CDATA[<big><b>On as besoin d\'accéder a la carte mémoire. Assurez vous que la permission est pas refusée.</b></big>]]>
+    </string>
+
+    <string name="share">Partager</string>
+    <string name="share_app_url">Télécharger <xliff:g id="app_name" example="APKPure">%1$s</xliff:g> APK (from @<xliff:g id="social_network_name" example="APKPure">%2$s</xliff:g>), <xliff:g id="app_url" example="https://apkpure.com/p/com.apkpure.aegon">%3$s</xliff:g></string>
+
+    <string name="_name__version_history"><xliff:g id="name" example="APKPure">%1$s</xliff:g> Historique des versions</string>
+    <string name="update__date___size_">Mise a jour: <xliff:g id="date" example="Mar 3, 2016">%1$s</xliff:g>, <xliff:g id="size" example="1024 kB">%2$s</xliff:g></string>
+</resources>

@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <string name="app_name">APKPure</string>
+
+    <string name="action_settings">Настройки</string>
+    <string name="action_search">Поиск</string>
+    <string name="action_management">Управление</string>
+
+    <string name="press_back_key_quit">Для выхода коснитесь ещё раз</string>
+
+    <string name="featured">Лучшее</string>
+    <string name="games">Игры</string>
+    <string name="apps">Приложения</string>
+    <string name="categories">Категории</string>
+    <string name="updates">Обновления</string>
+
+    <string name="something_happened">&gt;_&lt;\Что-то пошло не так</string>
+
+    <string name="load_failed_error">Ой! Произошла ошибка</string>
+    <string name="load_failed_empty">Здесь ничего нет.</string>
+    <string name="load_failed_all_up_to_date">Все приложения обновлены.</string>
+    <string name="load_failed_no_results">Простите! По Вашему запросу ничего не найдено.</string>
+    <string name="refresh">Обновить</string>
+
+    <string name="management">Управление</string>
+    <string name="app_updates">Доступные обновления</string>
+    <string name="app_management">Управление приложениями</string>
+    <string name="app_uninstall">Удаление приложений</string>
+    <string name="apk_management">Управление с APK-файлами </string>
+    <string name="apk_xapk_management">Управление с APK / XAPK-файлами</string>
+    <string name="download_management">Управление загрузками</string>
+    <string name="settings">Настройки</string>
+    <string name="about">Справка</string>
+    <string name="about_title">Отзывы о <xliff:g id="app_name" example="APKPure">%1$s</xliff:g></string>
+    <string name="about_message">
+        <![CDATA[<b>Version:</b> %1$s<br><br><b>Наш Вебсайт</b> <a href="%2$s">%2$s</a><br><b>Свяжитесь с нами: </b> <a href="mailto:%3$s">%3$s</a>]]>
+    </string>
+    <string name="check_update">Проверить обновление</string>
+    <string name="quit">Выйти</string>
+    <string name="want_to_quit">Вы точно хотите выйти?</string>
+
+    <string name="install">Установить</string>
+    <string name="open">Открыть</string>
+    <string name="delete">Удалить</string>
+    <string name="want_to_delete_file">Удалить файл?</string>
+    <string name="file_has_been_deleted">Файл успешно удалён.</string>
+    <string name="failed_to_delete_file">Не удалось удалить файл.</string>
+    <string name="install__label_">Установка - <xliff:g id="app_label" example="APKPure">%1$s</xliff:g></string>
+    <string name="user_canceled">Отменено</string>
+    <string name="io_error">Ошибка. Не достаточно свободного места на Вашем устройстве.</string>
+    <string name="file_format_error">Не поддерживаемый формат.</string>
+    <string name="parsing_xapk">Разбор XAPK вЂ¦</string>
+    <string name="installing_obb">Установка OBB-файлов вЂ¦</string>
+    <string name="extracting_apk">Извлечение APK-файла вЂ¦</string>
+    <string name="installing_apk">Установка APK вЂ¦</string>
+
+    <string name="uninstall">Удалить</string>
+    <string name="uninstalled">Удалено</string>
+    <string name="last_update__date_">Последнее обновление: <xliff:g id="date">%1$s</xliff:g></string>
+
+    <string name="all">All</string>
+
+    <string name="screenshots">Скриншоты</string>
+    <string name="description">Описание</string>
+    <string name="whatsnew">Что нового</string>
+    <string name="information">Инфо</string>
+    <string name="version_">Версия:</string>
+    <string name="updated_">Обновлено:</string>
+    <string name="size_">Размер:</string>
+    <string name="permissions_">Разрешения:</string>
+    <string name="type_">Тип:</string>
+    <string name="category_">Категория:</string>
+    <string name="more">показать полностью</string>
+    <string name="permissions">Разрешения</string>
+    <string name="other">Другое</string>
+    <string name="apk">APK</string>
+    <string name="xapk">XAPK</string>
+    <string name="unknown">Неизвестный</string>
+    <string name="_ellipsis_">&#160;&#8230;&#160;</string>
+
+    <string name="market_response_error_success">Успех</string>
+    <string name="market_response_error_invalid_result">Неверный результат</string>
+    <string name="market_response_error_network_connect_error">Ошибка подключения сети.</string>
+    <string name="market_response_error_network_read_error">Нет ответа</string>
+    <string name="market_response_error_invalid_response_code">Неверный код сети.</string>
+    <string name="market_response_error_invalid_response_body">Неверное тело ответа.</string>
+    <string name="market_response_error_unknown_error__error_">Неизвестная ошибка (<xliff:g id="error" example="SUCCESS">%1$s</xliff:g>).</string>
+
+    <string name="no_more">Больше нет.</string>
+
+    <string name="update">Обновить</string>
+    <string name="version__version___size_">Версия: <xliff:g id="version" example="1.0.0">%1$s</xliff:g>, <xliff:g id="size" example="1024 kB">%2$s</xliff:g></string>
+    <plurals name="_count__new_update_is_available">
+        <item quantity="one"><xliff:g id="count" example="1">%1$d</xliff:g> доступно новое обновление</item>
+        <item quantity="other"><xliff:g id="count" example="2">%1$d</xliff:g> доступны новые обновления</item>
+    </plurals>
+
+    <string name="launching_please_wait">ЗАПУСКАЕТСЯ, ПОЖАЛУЙСТА ПОДОЖДИТЕ&#8230;</string>
+
+    <plurals name="_count__item_is_downloading">
+        <item quantity="one"><xliff:g id="count" example="1">%1$d</xliff:g> загружается</item>
+        <item quantity="other"><xliff:g id="count" example="2">%1$d</xliff:g> загружаются</item>
+    </plurals>
+    <string name="downloads_complete">Загружены полностью</string>
+    <string name="touch_for_view_all_downloads">Коснитесь, чтобы увидеть все загрузки</string>
+    <string name="_name__download_failed"><xliff:g id="name" example="APKPure">%1$s</xliff:g> Не удалось скачать</string>
+    <string name="touch_to_download_it_again">Нажмите, чтобы скачать заново</string>
+
+    <string name="download_percent"><xliff:g id="percent" example="50">%1$d</xliff:g> %%</string>
+    <string name="pause">Пауза</string>
+    <string name="continue_">Продолжить</string>
+    <string name="restart">Заново</string>
+    <string name="download">Скачать</string>
+    <string name="downloading">Скачивается</string>
+    <string name="waiting">В ожидании</string>
+    <string name="preparing">Подготовливается</string>
+    <string name="completed">Завершён</string>
+    <string name="paused">Приостановлено</string>
+    <string name="failed">Не удалось</string>
+    <string name="file_invalid">Некорректный файл</string>
+    <string name="file_missing">Отсутствует файл</string>
+    <string name="expired">Устарело</string>
+    <string name="detail">Детали</string>
+    <string name="remove">Удалить</string>
+    <string name="want_to_remove_download_item">Вы точно хотите удалить эту загрузку?</string>
+
+    <string name="search">Поиск</string>
+    <string name="search_for_apps">Поиск приложений</string>
+    <string name="trending_searches">Часто ищут</string>
+
+    <string name="improvement_plan_title">План улучшения</string>
+    <string name="improvement_plan_message">
+        <![CDATA[Помогите нам подавать информацию о Вашем устройстве, Мы <b>не собираем</b> Ваши личные данные (имена, адреса, e-mail адреса, номер социального страхования, или др. личные данные).]]>
+    </string>
+    <string name="join_us">Свяжитесь с Нами</string>
+    <string name="skip">Пропустить</string>
+
+    <string name="_name__is_up_to_date"><xliff:g id="name" example="APKPure">%1$s</xliff:g> обновлён до последней версии.</string>
+    <string name="new_version_available_title">Доступна новая версия </string>
+    <string name="new_version_available_message">
+        <![CDATA[<b>Новая версия:</b> %1$s<br><br><b>Что нового:</b><br>%2$s]]>
+    </string>
+
+    <string name="report__">Отчёт&#8230;</string>
+    <string name="report_problem__">Отчёт о проблеме&#8230;</string>
+    <string name="report_problem_subject">Отчёт проблемы:</string>
+    <string name="report_problem_text">Описание проблемы:\n%1$s\n\nProblem detail:\n%2$s</string>
+
+    <string name="installation_failed">Не установлено.</string>
+    <string name="invalid_app_detail">Некорректное приложение</string>
+    <string name="invalid_app_asset">Ошибка ресурса приложении.</string>
+    <string name="failed_to_request_app_detail">Ошибка детали приложения.</string>
+    <string name="failed_to_request_app_asset">Ошибка запроса ресурса приложении.</string>
+    <string name="incompatible_this_app">
+        <![CDATA[<big><b><font color="red">В Вашем устройтве не поддерживается данное приложение.</font></b></big><br><br>Хотите продолжить?]]>
+    </string>
+    <string name="this_app_not_usable">
+        <![CDATA[<big><b><font color="red">Это приложение может быть не применимым.</font></b></big><br><br>Хотите продолжить?]]>
+    </string>
+
+    <string name="setting">Настроить</string>
+    <string name="external_storage_not_usable">
+        <![CDATA[<big><b>Нам нужен доступ к Вашему внешнему запоминающему устройству. Убедитесь, что можно использовать.</b></big>]]>
+    </string>
+    <string name="external_storage_permission_denied">
+        <![CDATA[<big><b>Нам нужен доступ к Вашему внешнему запоминающему устройству. Убедитесь, что не отказано в доступе.</b></big>]]>
+    </string>
+
+    <string name="share">Поделиться</string>
+    <string name="share_app_url">Скачать <xliff:g id="app_name" example="APKPure">%1$s</xliff:g> APK (from @<xliff:g id="social_network_name" example="APKPure">%2$s</xliff:g>), <xliff:g id="app_url" example="https://apkpure.com/p/com.apkpure.aegon">%3$s</xliff:g></string>
+
+    <string name="_name__version_history"><xliff:g id="name" example="APKPure">%1$s</xliff:g> История весий</string>
+    <string name="update__date___size_">Обновлено: <xliff:g id="date" example="Mar 3, 2016">%1$s</xliff:g>, <xliff:g id="size" example="1024 kB">%2$s</xliff:g></string>
+</resources>
