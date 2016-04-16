@@ -1,6 +1,5 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources
-    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<?xml version='1.0' encoding='utf-8'?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
     <string name="app_name" translatable="false">APKPure</string>
 
@@ -78,7 +77,7 @@
     <string name="apk">APK</string>
     <string name="xapk">XAPK</string>
     <string name="unknown">Unknown</string>
-    <string name="_ellipsis_">&#160;&#8230;&#160;</string>
+    <string name="_ellipsis_"> … </string>
 
     <string name="market_response_error_success">Success.</string>
     <string name="market_response_error_invalid_result">Invalid result.</string>
@@ -97,7 +96,7 @@
         <item quantity="other"><xliff:g id="count" example="2">%1$d</xliff:g> new updates are available</item>
     </plurals>
 
-    <string name="launching_please_wait">LAUNCHING, PLEASE WAIT&#8230;</string>
+    <string name="launching_please_wait">LAUNCHING, PLEASE WAIT…</string>
 
     <plurals name="_count__item_is_downloading">
         <item quantity="one"><xliff:g id="count" example="1">%1$d</xliff:g> item is downloading</item>
@@ -143,8 +142,8 @@
         <![CDATA[<b>Latest Version:</b> %1$s<br><br><b>What\'s New:</b><br>%2$s]]>
     </string>
 
-    <string name="report__">Report&#8230;</string>
-    <string name="report_problem__">Report Problem&#8230;</string>
+    <string name="report__">Report…</string>
+    <string name="report_problem__">Report Problem…</string>
     <string name="report_problem_subject">Report problem</string>
     <string name="report_problem_text">Problem topic:\n%1$s\n\nProblem detail:\n%2$s</string>
 
