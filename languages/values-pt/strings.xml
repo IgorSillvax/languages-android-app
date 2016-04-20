@@ -141,7 +141,7 @@
 </plurals>
     <string xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" name="_name__download_failed"><xliff:g id="name" example="APKPure"> 1 %1$s\n</xliff:g> 2</string>
     <string xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" name="download_percent"><xliff:g id="percent" example="50"> 1 %1$d\n</xliff:g> 2 %%</string>
-    <string name="improvement_plan_message">" Ajude-nos com a enviar Android Device Info, Fazemos\n&lt;B&gt; 1 não recolher\n&lt;/ B&gt; 2 informações de identificação pessoal (nome, endereço, endereço de e-mail, número de segurança social, ou outros identificadores únicos). "</string>
+    <string name="improvement_plan_message"> Ajude-nos com a enviar Android Device Info, Fazemos\n<b> 1 não recolher\n</b> 2 informações de identificação pessoal (nome, endereço, endereço de e-mail, número de segurança social, ou outros identificadores únicos). </string>
     <string xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" name="_name__is_up_to_date">&lt;xliff: G xmlns: XLIFF = \"urn: oásis: nomes: tc: xliff: Documento: 1.2\" id = \"nome\" exemplo = \"APKPure\"&gt; 1% 1 $ s\n&lt;/ Xliff: g&gt; 2 é até à data.<xliff:g id="name" example="APKPure">%1$s</xliff:g> is up to date.</string>
     <string name="new_version_available_message">" &lt;B&gt; Última Versão: &lt;/ b&gt;% 1$ S &lt;br&gt; &lt;b&gt; O que há de novo: &lt;/ b&gt; &lt;br&gt;% 2 $ s "</string>
 
@@ -150,8 +150,8 @@
     <string name="incompatible_this_app">" &lt;Big&gt; &lt;b&gt; &lt;font color = red&gt;O dispositivo não é compatível com este aplicativo. &lt;/ Font&gt; &lt;/ b&gt; &lt;/ big&gt; &lt;br&gt; Você deseja continuar? "</string>
     <string name="this_app_not_usable">" &lt;Big&gt; &lt;b&gt; &lt;font color = red&gt;Este aplicativo pode não serutilizável. &lt;/ Font&gt; &lt;/ b&gt; &lt;/ big&gt; &lt;br&gt; Você quer continuar? "</string>
 
-    <string name="external_storage_not_usable">" &lt;Big&gt; 1 &lt;b&gt; 2\nNós precisamos de aceder ao seu armazenamento externo. Por favor, verifique se ele é utilizável. &lt;/ B&gt; 3\n&lt;/ Big&gt; 4 "</string>
-    <string name="external_storage_permission_denied">" &lt;Big&gt; 1 &lt;b&gt; 2 Precisamos acessar o seu armazenamento externo. Por favor verifique se a permissão não é negado. &lt;/ Em&gt; 3 &lt;/ big&gt; 4 "</string>
+    <string name="external_storage_not_usable"> <big> 1 <b> 2\nNós precisamos de aceder ao seu armazenamento externo. Por favor, verifique se ele é utilizável. </b> 3\n</big> 4 </string>
+    <string name="external_storage_permission_denied"> <big> 1 <b> 2 Precisamos acessar o seu armazenamento externo. Por favor verifique se a permissão não é negado. </b> 3 </big> 4 </string>
 
     <string xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" name="share_app_url">&lt;XLIFF: g xmlns: XLIFF = \"urn: oásis: nomes: tc: xliff: Documento: 1.2\" id = exemplo \"app_name\" = \"\"&gt; APKPure 1% 1 $ s\n&lt;/ Xliff: g&gt; 2 APK (de @\n&lt;XLIFF: g xmlns: XLIFF = \"urn: oásis: nomes: tc: xliff: Documento: 1.2\" id = exemplo \"social_network_name\" = \"\"&gt; APKPure 3% 2 $ s\n&lt;/ Xliff: g&gt; 4),\n&lt;Xliff: G xmlns: XLIFF = \"urn: oásis: nomes: tc: xliff: documento: 1.2\" id = \"APP_URL\" exemplo = \"https://apkpure.com/p/com.apkpure.aegon\"&gt; 5% 3 $ s\n&lt;/ Xliff: g&gt; 6<xliff:g id="app_name" example="APKPure">%1$s</xliff:g> APK (from @<xliff:g id="social_network_name" example="APKPure">%2$s</xliff:g>), <xliff:g id="app_url" example="https://apkpure.com/p/com.apkpure.aegon">%3$s</xliff:g></string>
 
