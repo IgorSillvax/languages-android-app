@@ -2,8 +2,6 @@
 <resources
     xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
-    <string name="app_name">APKPure</string>
-
     <string name="action_settings">設定</string>
     <string name="action_search">搜尋</string>
     <string name="action_management">管理</string>
@@ -173,4 +171,7 @@
 
     <string name="_name__version_history"><xliff:g id="name" example="APKPure">%1$s</xliff:g> 的版本歷史</string>
     <string name="update__date___size_">更新：<xliff:g id="date" example="Mar 3, 2016">%1$s</xliff:g>, <xliff:g id="size" example="1024 kB">%2$s</xliff:g></string>
+    <string name="language">語言</string>
+    <string name="auto">跟隨系統</string>
+    <string name="general">一般</string>
 </resources>
