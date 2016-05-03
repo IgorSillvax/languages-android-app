@@ -76,7 +76,7 @@
     <string name="apk">APK</string>
     <string name="xapk">XAPK</string>
     <string name="unknown">未知</string>
-    <string name="_ellipsis_">&#160;&#8230;&#160;</string>
+    <string name="_ellipsis_"> … </string>
 
     <string name="market_response_error_success">成功しました。</string>
     <string name="market_response_error_invalid_result">無効結果。</string>
@@ -95,7 +95,7 @@
         <item quantity="other"><xliff:g id="count" example="2">%1$d</xliff:g>最新アップデート利用できる</item>
     </plurals>
 
-    <string name="launching_please_wait">言語、お待ちください&#8230;</string>
+    <string name="launching_please_wait">言語、お待ちください…</string>
 
     <plurals name="_count__item_is_downloading">
         <item quantity="one"><xliff:g id="count" example="1">%1$d</xliff:g>項目はダウンロード中</item>
@@ -141,8 +141,8 @@
         <![CDATA[<b>Latest Version:</b> %1$s<br><br><b>最新情報:</b><br>%2$s]]>
     </string>
 
-    <string name="report__">報告&#8230;</string>
-    <string name="report_problem__">問題報告&#8230;</string>
+    <string name="report__">報告…</string>
+    <string name="report_problem__">問題報告…</string>
     <string name="report_problem_subject">問題報告する</string>
     <string name="report_problem_text">問題トピック:\n%1$s\n\n問題詳細:\n%2$s</string>
 

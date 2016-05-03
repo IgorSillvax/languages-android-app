@@ -76,7 +76,7 @@
     <string name="apk">APK</string>
     <string name="xapk">XAPK</string>
     <string name="unknown">Ismeretlen</string>
-    <string name="_ellipsis_">&#160;&#8230;&#160;</string>
+    <string name="_ellipsis_"> … </string>
 
     <string name="market_response_error_success">Sikeres</string>
     <string name="market_response_error_invalid_result">Érvénytelen eredmény.</string>
@@ -95,7 +95,7 @@
         <item quantity="other"><xliff:g id="count" example="2">%1$d</xliff:g> új frissítés érhető el</item>
     </plurals>
 
-    <string name="launching_please_wait">INDÍTÁS, KIS TÜRELMET...</string>
+    <string name="launching_please_wait">INDÍTÁS, KIS TÜRELMET…</string>
 
     <plurals name="_count__item_is_downloading">
         <item quantity="one"><xliff:g id="count" example="1">%1$d</xliff:g> elem kerül letöltésre</item>
@@ -141,8 +141,8 @@
         <![CDATA[<b>Legújabb verzió:</b> %1$s<br><br><b>Újdonságok:</b><br>%2$s]]>
 </string>
 
-    <string name="report__">Jelentés#8230;</string>
-    <string name="report_problem__">Hiba jelentése&#8230;</string>
+    <string name="report__">Jelentés…</string>
+    <string name="report_problem__">Hiba jelentése…</string>
     <string name="report_problem_subject">Hiba jelentése</string>
     <string name="report_problem_text">Hiba témája:\n%1$s\n\nHiba részletei:\n%2$s</string>
 

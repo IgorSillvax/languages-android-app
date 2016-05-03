@@ -76,7 +76,7 @@
     <string name="apk">APK</string>
     <string name="xapk">XAPK</string>
     <string name="unknown">Inconnu</string>
-    <string name="_ellipsis_">&#160;&#8230;&#160;</string>
+    <string name="_ellipsis_"> … </string>
 
     <string name="market_response_error_success">Succès</string>
     <string name="market_response_error_invalid_result">En attente d\'unrrésultats valide.</string>
@@ -95,7 +95,7 @@
         <item quantity="other"><xliff:g id="count" example="2">%1$d</xliff:g> Des mises a jour sont disponible</item>
     </plurals>
 
-    <string name="launching_please_wait">LANCEMENT ATTENDEZ &#8230;</string>
+    <string name="launching_please_wait">LANCEMENT ATTENDEZ …</string>
 
     <plurals name="_count__item_is_downloading">
         <item quantity="one"><xliff:g id="count" example="1">%1$d</xliff:g> Application en cours de téléchargement</item>
@@ -141,8 +141,8 @@
         <![CDATA[<b>Derniere version:</b> %1$s<br><br><b>Quoi de neuf:</b><br>%2$s]]>
     </string>
 
-    <string name="report__">Reporter&#8230;</string>
-    <string name="report_problem__">Reporter un problème&#8230;</string>
+    <string name="report__">Reporter…</string>
+    <string name="report_problem__">Reporter un problème…</string>
     <string name="report_problem_subject">Reporter un problème</string>
     <string name="report_problem_text">Problème sujet:\n%1$s\n\Détail du problème:\n%2$s</string>
 
