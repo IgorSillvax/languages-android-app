@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version='1.0' encoding='UTF-8'?>
 <resources><string name="app_name">APKPure</string>
 
     <string name="action_settings">Configuração</string>
@@ -156,4 +156,8 @@
     <string xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" name="share_app_url">&lt;XLIFF: g xmlns: XLIFF = \"urn: oásis: nomes: tc: xliff: Documento: 1.2\" id = exemplo \"app_name\" = \"\"&gt; APKPure 1% 1 $ s\n&lt;/ Xliff: g&gt; 2 APK (de @\n&lt;XLIFF: g xmlns: XLIFF = \"urn: oásis: nomes: tc: xliff: Documento: 1.2\" id = exemplo \"social_network_name\" = \"\"&gt; APKPure 3% 2 $ s\n&lt;/ Xliff: g&gt; 4),\n&lt;Xliff: G xmlns: XLIFF = \"urn: oásis: nomes: tc: xliff: documento: 1.2\" id = \"APP_URL\" exemplo = \"https://apkpure.com/p/com.apkpure.aegon\"&gt; 5% 3 $ s\n&lt;/ Xliff: g&gt; 6<xliff:g id="app_name" example="APKPure">%1$s</xliff:g> APK (from @<xliff:g id="social_network_name" example="APKPure">%2$s</xliff:g>), <xliff:g id="app_url" example="https://apkpure.com/p/com.apkpure.aegon">%3$s</xliff:g></string>
 
     <string xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" name="update__date___size_">&lt;XLIFF: g xmlns: XLIFF = \"urn: oásis: nomes: tc: xliff: Documento: 1.2\" id = exemplo, \"data\" = \"3 Mar, 2016\"&gt; 1% 1 $ s\n&lt;/ Xliff: g&gt; 2,\n&lt;Xliff: G xmlns: XLIFF = \"urn: oásis: nomes: tc: xliff: documento: 1.2\" id = \"tamanho\" exemplo = \"1024\"&gt; kB 3% 2 $ s\n&lt;/ Xliff: g&gt; 4<xliff:g id="date" example="Mar 3, 2016">%1$s</xliff:g>, <xliff:g id="size" example="1024 kB">%2$s</xliff:g></string>
-</resources>
+<string name="general">Geral</string>
+    <string name="language">Linguagem</string>
+    <string name="auto">Automatico</string>
+
+    </resources>
