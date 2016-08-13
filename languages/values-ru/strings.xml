@@ -1,6 +1,5 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources
-    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<?xml version='1.0' encoding='UTF-8'?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
     <string name="action_settings">Настройки</string>
     <string name="action_search">Поиск</string>
@@ -14,7 +13,7 @@
     <string name="categories">Категории</string>
     <string name="updates">Обновления</string>
 
-    <string name="something_happened">&gt;_&lt;\Что-то пошло не так</string>
+    <string name="something_happened">&gt;_&lt;то-то пошло не так</string>
 
     <string name="load_failed_error">Ой! Произошла ошибка</string>
     <string name="load_failed_empty">Здесь ничего нет.</string>
@@ -91,16 +90,20 @@
     <string name="update">Обновить</string>
     <string name="version__version___size_">Версия: <xliff:g id="version" example="1.0.0">%1$s</xliff:g>, <xliff:g id="size" example="1024 kB">%2$s</xliff:g></string>
     <plurals name="_count__new_update_is_available">
-        <item quantity="one"><xliff:g id="count" example="1">%1$d</xliff:g> доступно новое обновление</item>
-        <item quantity="other"><xliff:g id="count" example="2">%1$d</xliff:g> доступны новые обновления</item>
-    </plurals>
+	<item quantity="one"><xliff:g id="count" example="1">%1$d</xliff:g> доступно новое обновление</item>
+	<item quantity="few"><xliff:g id="count" example="2">%1$d</xliff:g> доступны новые обновления</item>
+	<item quantity="many"/>
+	<item quantity="other"/>
+</plurals>
 
     <string name="launching_please_wait">ЗАПУСКАЕТСЯ, ПОЖАЛУЙСТА ПОДОЖДИТЕ…</string>
 
     <plurals name="_count__item_is_downloading">
-        <item quantity="one"><xliff:g id="count" example="1">%1$d</xliff:g> загружается</item>
-        <item quantity="other"><xliff:g id="count" example="2">%1$d</xliff:g> загружаются</item>
-    </plurals>
+	<item quantity="one"><xliff:g id="count" example="1">%1$d</xliff:g> загружается</item>
+	<item quantity="few"><xliff:g id="count" example="2">%1$d</xliff:g> загружаются</item>
+	<item quantity="many"></item>
+	<item quantity="other"></item>
+</plurals>
     <string name="downloads_complete">Загружены полностью</string>
     <string name="touch_for_view_all_downloads">Коснитесь, чтобы увидеть все загрузки</string>
     <string name="_name__download_failed"><xliff:g id="name" example="APKPure">%1$s</xliff:g> Не удалось скачать</string>
@@ -171,4 +174,8 @@
 
     <string name="_name__version_history"><xliff:g id="name" example="APKPure">%1$s</xliff:g> История весий</string>
     <string name="update__date___size_">Обновлено: <xliff:g id="date" example="Mar 3, 2016">%1$s</xliff:g>, <xliff:g id="size" example="1024 kB">%2$s</xliff:g></string>
-</resources>
+<string name="general"/>
+    <string name="language"/>
+    <string name="auto"/>
+
+    </resources>
