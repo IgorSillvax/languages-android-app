@@ -1,18 +1,17 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<resources
-    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<?xml version='1.0' encoding='UTF-8'?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
     <string name="action_settings">Configuración</string>
     <string name="action_search">Buscar</string>
-    <string name="installation_failed">La instalacion ha fallado</string>
+    <string name="installation_failed">Instalación fallida</string>
     <string name="action_management">management</string>
 
-    <string name="press_back_key_quit">press back again to quit the aplication</string>
+    <string name="press_back_key_quit">Presione la tecla de atrás para salir.</string>
 
     <string name="featured">featured</string>
-    <string name="games">Games</string>
-    <string name="apps">Aplications</string>
-    <string name="categories">Categories</string>
+    <string name="games">Juegos</string>
+    <string name="apps">Aplicaciones</string>
+    <string name="categories">Categorías</string>
     <string name="updates">Actualizaciones</string>
 
     <string name="something_happened">&gt;_&lt;\nAlgo ha ocurrido.</string>
@@ -32,7 +31,7 @@
     <string name="download_management">Administrador de Descargas</string>
     <string name="settings">Configuraciones</string>
     <string name="about">Acerca de</string>
-    <string name="about_title">About <xliff:g id="app_name" example="APKPure">%1$s</xliff:g></string>
+    <string name="about_title">Acerca de <xliff:g id="app_name" example="APKPure">%1$s</xliff:g></string>
     <string name="about_message">
         <![CDATA[<b>Version:</b> %1$s<br><br><b>sitio_web:</b> <a href=%2$s>%2$s</a><br><b>Contactanos:</b> <a href=mailto:%3$s>%3$s</a>]]>
     </string>
@@ -95,7 +94,7 @@
 	    <item quantity="other"><xliff:g id="count" example="2">%1$d</xliff:g> Hay Nuevas Actualizaciones Disponibles</item>
     </plurals>
 
-    <string name="launching_please_wait">Abriendo, Por Favor Espere …</string>
+    <string name="launching_please_wait">Abriendo, espere por favor …</string>
 
     <string name="auto">Auto</string>
 
@@ -154,12 +153,8 @@
     <string name="invalid_app_asset">La informacion de los activos de la Aplicacion no es Valida.</string>
     <string name="failed_to_request_app_detail">Error al solicitar información detallada de aplicación.</string>
     <string name="failed_to_request_app_asset">Error al solicitar información de los activos de aplicaciones.</string>
-    <string name="incompatible_this_app">
-        <![CDATA[<big><b><font color="%1$d">Your device isn\'t compatible with this app.</font></b></big><br><br>Esta seguro de que quiere continuar?]]>
-    </string>
-    <string name="this_app_not_usable">
-        <![CDATA[<big><b><font color="%1$d">esta aplicación puede no ser usada.</font></b></big><br><br>Esta seguro de que quiere continuar?]]>
-    </string>
+    <string name="incompatible_this_app">" &lt;big&gt;&lt;b&gt;&lt;font color=%1$d&gt;El dispositivo no es compatible con esta aplicación.&lt;/font&gt;&lt;/b&gt;&lt;/big&gt;&lt;br&gt;&lt;br&gt;Esta seguro de que quiere continuar? "</string>
+    <string name="this_app_not_usable">" &lt;big&gt;&lt;b&gt;&lt;font color=%1$d&gt;Esta aplicación puede no ser utilizable.&lt;/font&gt;&lt;/b&gt;&lt;/big&gt;&lt;br&gt;&lt;br&gt;Esta seguro de que quiere continuar? "</string>
 
     <string name="setting">Configuracion</string>
     <string name="external_storage_not_usable">
@@ -176,4 +171,21 @@
     <string name="update__date___size_">Actualizacion: <xliff:g id="date" example="Mar 3, 2016">%1$s</xliff:g>, <xliff:g id="size" example="1024 kB">%2$s</xliff:g></string>
 
     <string name="parsing_xapk">Analisis sintetico de XAPK …</string>
-</resources>
+<string name="properties">Propiedades</string>
+    <string name="properties_message">" &lt;b&gt;Camino:&lt;/b&gt; %1$s&lt;br&gt;&lt;b&gt;Tamaño:&lt;/b&gt; %2$s&lt;br&gt;&lt;b&gt;Última modificación:&lt;/b&gt; %3$s "</string>
+    <string name="delete_downloaded_file">Eliminar el archivo descargado</string>
+
+    <string name="update_all">Actualizar todo</string>
+    <string name="update___count__">Actualizar (<xliff:g id="count" example="3"> 1%1$d</xliff:g> 2)</string>
+    <string name="ignore">Ignorar</string>
+    <string name="unignore">De ignorar</string>
+    <string name="select">Selecto</string>
+    <string name="cancel">Cancelar</string>
+    <string name="ignored">Ignorados</string>
+    <plurals name="total__count__apps__size_">
+	<item quantity="one">" Total: &lt;b&gt;&lt;font color=%1$d&gt;%2$d&lt;/font&gt;&lt;/b&gt; aplicación, &lt;b&gt;&lt;font color=%1$d&gt;%3$s&lt;/font&gt;&lt;/b&gt; "</item>
+	<item quantity="other">" Total: &lt;b&gt;&lt;font color=%1$d&gt;%2$d&lt;/font&gt;&lt;/b&gt; aplicaciones, &lt;b&gt;&lt;font color=%1$d&gt;%3$s&lt;/font&gt;&lt;/b&gt; "</item>
+</plurals>
+    <string name="total_zero_app">" Total: &lt;b&gt;&lt;font color=%1$d&gt;0&lt;/font&gt;&lt;/b&gt; aplicación "</string>
+
+    </resources>
