@@ -5,7 +5,7 @@
     <string name="action_search">Поиск</string>
     <string name="action_management">Управление</string>
 
-    <string name="press_back_key_quit">Для выхода коснитесь ещё раз</string>
+    <string name="press_back_key_quit">Для выхода коснитесь ещё раз.</string>
 
     <string name="featured">Рекомендуемые</string>
     <string name="games">Игры</string>
@@ -13,9 +13,9 @@
     <string name="categories">Категории</string>
     <string name="updates">Обновления</string>
 
-    <string name="something_happened">&gt;_&lt;\Что-то пошло не так</string>
+    <string name="something_happened">&gt;_&lt;\nЧто-то пошло не так.</string>
 
-    <string name="load_failed_error">Ой! Произошла ошибка</string>
+    <string name="load_failed_error">Ой! Произошла ошибка.</string>
     <string name="load_failed_empty">Здесь ничего нет.</string>
     <string name="load_failed_all_up_to_date">Все приложения обновлены.</string>
     <string name="load_failed_no_results">Простите! По Вашему запросу ничего не найдено.</string>
@@ -45,7 +45,7 @@
     <string name="file_has_been_deleted">Файл успешно удалён.</string>
     <string name="failed_to_delete_file">Не удалось удалить файл.</string>
     <string name="install__label_">Установка - <xliff:g id="app_label" example="APKPure">%1$s</xliff:g></string>
-    <string name="user_canceled">Отменено</string>
+    <string name="user_canceled">Отменено пользователем.</string>
     <string name="io_error">Ошибка. Не достаточно свободного места на Вашем устройстве.</string>
     <string name="file_format_error">Не поддерживаемый формат.</string>
     <string name="parsing_xapk">Разбор XAPK …</string>
@@ -77,10 +77,10 @@
     <string name="unknown">Неизвестный</string>
     <string name="_ellipsis_"> … </string>
 
-    <string name="market_response_error_success">Успех</string>
-    <string name="market_response_error_invalid_result">Неверный результат</string>
+    <string name="market_response_error_success">Успех.</string>
+    <string name="market_response_error_invalid_result">Неверный результат.</string>
     <string name="market_response_error_network_connect_error">Ошибка подключения сети.</string>
-    <string name="market_response_error_network_read_error">Нет ответа</string>
+    <string name="market_response_error_network_read_error">Нет ответа.</string>
     <string name="market_response_error_invalid_response_code">Неверный код сети.</string>
     <string name="market_response_error_invalid_response_body">Неверное тело ответа.</string>
     <string name="market_response_error_unknown_error__error_">Неизвестная ошибка (<xliff:g id="error" example="SUCCESS">%1$s</xliff:g>).</string>
@@ -150,7 +150,7 @@
     <string name="report_problem_text">Описание проблемы:\n%1$s\n\nProblem detail:\n%2$s</string>
 
     <string name="installation_failed">Ошибка установки</string>
-    <string name="invalid_app_detail">Некорректное приложение</string>
+    <string name="invalid_app_detail">Некорректное приложение.</string>
     <string name="invalid_app_asset">Ошибка ресурса приложении.</string>
     <string name="failed_to_request_app_detail">Ошибка детали приложения.</string>
     <string name="failed_to_request_app_asset">Ошибка запроса ресурса приложении.</string>
