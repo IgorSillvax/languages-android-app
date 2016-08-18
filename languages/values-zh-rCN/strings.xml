@@ -42,6 +42,10 @@
     <string name="install">安装</string>
     <string name="open">打开</string>
     <string name="delete">删除</string>
+    <string name="properties">属性</string>
+    <string name="properties_message">
+        <![CDATA[<b>路径：</b> %1$s<br><b>文件大小：</b> %2$s<br><b>最后修改时间：</b> %3$s]]>
+    </string>
     <string name="want_to_delete_file">您确定要删除此文件吗？</string>
     <string name="file_has_been_deleted">文件已被删除。</string>
     <string name="failed_to_delete_file">删除文件失败</string>
@@ -123,6 +127,7 @@
     <string name="detail">详情</string>
     <string name="remove">删除</string>
     <string name="want_to_remove_download_item">您确定要删除此下载项吗？</string>
+    <string name="delete_downloaded_file">删除已下载文件</string>
 
     <string name="search">搜索</string>
     <string name="search_for_apps">搜索应用</string>
@@ -152,10 +157,10 @@
     <string name="failed_to_request_app_detail">请求应用详情信息失败。</string>
     <string name="failed_to_request_app_asset">请求应用资产信息失败。</string>
     <string name="incompatible_this_app">
-        <![CDATA[<big><b><font color="red">您的设备与此应用程序不兼容，</font></b></big><br><br>您确定要继续吗？]]>
+        <![CDATA[<big><b><font color="%1$d">您的设备与此应用程序不兼容。</font></b></big><br><br>您确定要继续吗？]]>
     </string>
     <string name="this_app_not_usable">
-        <![CDATA[<big><b><font color="red">此应用可能无法使用，</font></b></big><br><br>您确定要继续吗？]]>
+        <![CDATA[<big><b><font color="%1$d">此应用可能无法使用。</font></b></big><br><br>您确定要继续吗？]]>
     </string>
 
     <string name="setting">设置</string>
@@ -171,7 +176,24 @@
 
     <string name="_name__version_history"><xliff:g id="name" example="APKPure">%1$s</xliff:g> 的版本历史</string>
     <string name="update__date___size_">更新：<xliff:g id="date" example="Mar 3, 2016">%1$s</xliff:g>, <xliff:g id="size" example="1024 kB">%2$s</xliff:g></string>
+
+    <string name="update_all">全部更新</string>
+    <string name="update___count__">更新 (<xliff:g id="count" example="3">%1$d</xliff:g>)</string>
+    <string name="ignore">忽略</string>
+    <string name="unignore">取消忽略</string>
+    <string name="select">选择</string>
+    <string name="cancel">取消</string>
+    <string name="ignored">已忽略</string>
+    <plurals name="total__count__apps__size_">
+        <item quantity="other">
+            <![CDATA[总计：<b><font color="%1$d">%2$d</font></b> 个应用，<b><font color="%1$d">%3$s</font></b>]]>
+        </item>
+    </plurals>
+    <string name="total_zero_app">
+        <![CDATA[总计：<b><font color="%1$d">0</font></b> 个应用]]>
+    </string>
+
+    <string name="general">通用</string>
     <string name="language">语言</string>
     <string name="auto">跟随系统</string>
-    <string name="general">通用</string>
 </resources>

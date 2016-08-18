@@ -1,5 +1,6 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<resources><string name="app_name">APKPure</string>
+<?xml version="1.0" encoding="UTF-8"?>
+<resources
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
     <string name="action_settings">Cài đặt</string>
     <string name="action_search">Tìm kiếm</string>
@@ -30,8 +31,10 @@
     <string name="download_management">Quản lý Tải về</string>
     <string name="settings">Cài đặt</string>
     <string name="about">Thông tin</string>
-    <string xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" name="about_title">Về <xliff:g id="app_name" example="APKPure">%1$s</xliff:g></string>
-    <string name="about_message">" &lt;b&gt;Phiên bản:&lt;/b&gt; %1$s&lt;br&gt;&lt;br&gt;&lt;b&gt;Website:&lt;/b&gt; &lt;a href=%2$s&gt;%2$s&lt;/a&gt;&lt;br&gt;&lt;b&gt;Liên hệ với chúng tôi:&lt;/b&gt; &lt;a href=mailto:%3$s&gt;%3$s&lt;/a&gt; "</string>
+    <string name="about_title">Về <xliff:g id="app_name" example="APKPure">%1$s</xliff:g></string>
+    <string name="about_message">
+        <![CDATA[<b>Phiên bản:</b> %1$s<br><br><b>Website:</b> <a href=%2$s>%2$s</a><br><b>Liên hệ với chúng tôi:</b> <a href=mailto:%3$s>%3$s</a>]]>
+    </string>
     <string name="check_update">Kiểm tra cập nhật</string>
     <string name="quit">Thoát</string>
     <string name="want_to_quit">Bạn muốn thoát chứ?</string>
@@ -42,7 +45,7 @@
     <string name="want_to_delete_file">Bạn muốn xóa tệp này?</string>
     <string name="file_has_been_deleted">Tệp đã được xóa.</string>
     <string name="failed_to_delete_file">Xóa tệp đã thất bại.</string>
-    <string xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" name="install__label_">Cài đặt - <xliff:g id="app_label" example="APKPure">%1$s</xliff:g></string>
+    <string name="install__label_">Cài đặt - <xliff:g id="app_label" example="APKPure">%1$s</xliff:g></string>
     <string name="user_canceled">Người dùng đã hủy.</string>
     <string name="io_error">IO lỗi. Có thể là không có đủ không gian trống cho việc cài đặt thành công.</string>
     <string name="file_format_error">Định dạng tệp lỗi.</string>
@@ -53,7 +56,7 @@
 
     <string name="uninstall">Gỡ cài đặt</string>
     <string name="uninstalled">Đã gỡ cài đặt</string>
-    <string xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" name="last_update__date_">Cập nhật cuối: <xliff:g id="date">%1$s</xliff:g></string>
+    <string name="last_update__date_">Cập nhật cuối: <xliff:g id="date">%1$s</xliff:g></string>
 
     <string name="all">Tất cả</string>
 
@@ -81,29 +84,29 @@
     <string name="market_response_error_network_read_error">Đọc dữ liệu lỗi.</string>
     <string name="market_response_error_invalid_response_code">Mã phản hồi không hợp lệ.</string>
     <string name="market_response_error_invalid_response_body">Thân phản ứng không hợp lệ.</string>
-    <string xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" name="market_response_error_unknown_error__error_">Lỗi không rõ (<xliff:g id="error" example="SUCCESS">%1$s</xliff:g>).</string>
+    <string name="market_response_error_unknown_error__error_">Lỗi không rõ (<xliff:g id="error" example="SUCCESS">%1$s</xliff:g>).</string>
 
     <string name="no_more">Không còn nữa.</string>
 
     <string name="update">Cập nhật</string>
-    <string xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" name="version__version___size_">Phiên bản: <xliff:g id="version" example="1.0.0">%1$s</xliff:g>, <xliff:g id="size" example="1024 kB">%2$s</xliff:g></string>
-    <plurals xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" name="_count__new_update_is_available">
-	<item quantity="one"><xliff:g id="count" example="1">%1$d</xliff:g> cập nhật mới khả dụng</item>
-	<item quantity="other"/>
-</plurals>
+    <string name="version__version___size_">Phiên bản: <xliff:g id="version" example="1.0.0">%1$s</xliff:g>, <xliff:g id="size" example="1024 kB">%2$s</xliff:g></string>
+    <plurals name="_count__new_update_is_available">
+	    <item quantity="one"><xliff:g id="count" example="1">%1$d</xliff:g> cập nhật mới khả dụng</item>
+	    <item quantity="other"/>
+    </plurals>
 
     <string name="launching_please_wait">ĐANG HIỂN THỊ, ĐỢI CHÚT NHA…</string>
 
-    <plurals xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" name="_count__item_is_downloading">
-	<item quantity="one"><xliff:g id="count" example="1">%1$d</xliff:g> item đã được tải</item>
-	<item quantity="other"/>
-</plurals>
+    <plurals name="_count__item_is_downloading">
+	    <item quantity="one"><xliff:g id="count" example="1">%1$d</xliff:g> item đã được tải</item>
+	    <item quantity="other"/>
+    </plurals>
     <string name="downloads_complete">Tải về hoàn tất</string>
     <string name="touch_for_view_all_downloads">Chạm để xem tất cả tải về</string>
-    <string xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" name="_name__download_failed"><xliff:g id="name" example="APKPure">%1$s</xliff:g> tải về thất bại</string>
+    <string name="_name__download_failed"><xliff:g id="name" example="APKPure">%1$s</xliff:g> tải về thất bại</string>
     <string name="touch_to_download_it_again">Chạm để tải lại</string>
 
-    <string xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" name="download_percent"><xliff:g id="percent" example="50">%1$d</xliff:g>%%</string>
+    <string name="download_percent"><xliff:g id="percent" example="50">%1$d</xliff:g>%%</string>
     <string name="pause">Tạm dừng</string>
     <string name="continue_">Tiếp tục</string>
     <string name="restart">Tải lại</string>
@@ -126,13 +129,17 @@
     <string name="trending_searches">Xu hướng Tìm kiếm</string>
 
     <string name="improvement_plan_title">Kế hoạch Cải thiện hiệu suất</string>
-    <string name="improvement_plan_message"> Giúp chúng tôi với trình Thông tin thiết bị Android, Chúng tôi làm <b> 1 không thu thập </b> 2 thông tin nhận dạng cá nhân (tên, địa chỉ, địa chỉ e-mail, số an sinh xã hội, hoặc các định dạng khác duy nhất). </string>
+    <string name="improvement_plan_message">
+        <![CDATA[Giúp chúng tôi với trình Thông tin thiết bị Android, Chúng tôi làm <b>không thu thập</b> thông tin nhận dạng cá nhân (tên, địa chỉ, địa chỉ e-mail, số an sinh xã hội, hoặc các định dạng khác duy nhất).]]>
+    </string>
     <string name="join_us">Tham gia với chúng tôi</string>
     <string name="skip">Bỏ qua</string>
 
-    <string xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" name="_name__is_up_to_date"><xliff:g id="name" example="APKPure">%1$s</xliff:g> đã cập nhật.</string>
+    <string name="_name__is_up_to_date"><xliff:g id="name" example="APKPure">%1$s</xliff:g> đã cập nhật.</string>
     <string name="new_version_available_title">Cập nhật mới khả dụng</string>
-    <string name="new_version_available_message">" &lt;b&gt;Phiên bản mới nhất:&lt;/b&gt; %1$s&lt;br&gt;&lt;br&gt;&lt;b&gt;Có gì mới:&lt;/b&gt;&lt;br&gt;%2$s "</string>
+    <string name="new_version_available_message">
+        <![CDATA[<b>Phiên bản mới nhất:</b> %1$s<br><br><b>Có gì mới:</b><br>%2$s]]>
+    </string>
 
     <string name="report__">Bài báo cáo…</string>
     <string name="report_problem__">Báo cáo Vấn đề…</string>
@@ -144,20 +151,29 @@
     <string name="invalid_app_asset">Thông tin tài sản ứng dụng không hợp lệ.</string>
     <string name="failed_to_request_app_detail">Không thể yêu cầu thông tin chi tiết ứng dụng.</string>
     <string name="failed_to_request_app_asset">Không yêu cầu thông tin tài sản ứng dụng.</string>
-    <string name="incompatible_this_app">" &lt;big&gt;&lt;b&gt;&lt;font color=red&gt;Điện thoại của bạn không tương thích với các ứng dụng này.&lt;/font&gt;&lt;/b&gt;&lt;/big&gt;&lt;br&gt;&lt;br&gt;Bạn muốn tiếp tục? "</string>
-    <string name="this_app_not_usable">" &lt;big&gt;&lt;b&gt;&lt;font color=red&gt;Ứng dụng này có thể không sử dụng được.&lt;/font&gt;&lt;/b&gt;&lt;/big&gt;&lt;br&gt;Bạn có muốn tiếp tục không? "</string>
+    <string name="incompatible_this_app">
+        <![CDATA[<big><b><font color=red>Điện thoại của bạn không tương thích với các ứng dụng này.</font></b></big><br><br>Bạn muốn tiếp tục?]]>
+    </string>
+    <string name="this_app_not_usable">
+        <![CDATA[<big><b><font color=red>Ứng dụng này có thể không sử dụng được.</font></b></big><br>Bạn có muốn tiếp tục không?]]>
+    </string>
 
     <string name="setting">Cài đặt</string>
-    <string name="external_storage_not_usable"> <big><b>Chúng tôi cần phải truy cập lưu trữ bên ngoài của bạn. Hãy chắc chắn rằng nó có thể sử dụng.</b></big> </string>
-    <string name="external_storage_permission_denied"> <big><b>Chúng tôi cần phải truy cập lưu trữ bên ngoài của bạn. Hãy chắc chắn rằng sự cho phép không được từ chối.</b></big> </string>
+    <string name="external_storage_not_usable">
+        <![CDATA[<big><b>Chúng tôi cần phải truy cập lưu trữ bên ngoài của bạn. Hãy chắc chắn rằng nó có thể sử dụng.</b></big>]]>
+    </string>
+    <string name="external_storage_permission_denied">
+        <![CDATA[<big><b>Chúng tôi cần phải truy cập lưu trữ bên ngoài của bạn. Hãy chắc chắn rằng sự cho phép không được từ chối.</b></big>]]>
+    </string>
 
     <string name="share">Chia sẻ</string>
-    <string xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" name="share_app_url">Tải về <xliff:g id="app_name" example="APKPure">%1$s</xliff:g> APK (từ @<xliff:g id="social_network_name" example="APKPure">%2$s</xliff:g>), <xliff:g id="app_url" example="https://apkpure.com/p/com.apkpure.aegon">%3$s</xliff:g></string>
+    <string name="share_app_url">Tải về <xliff:g id="app_name" example="APKPure">%1$s</xliff:g> APK (từ @<xliff:g id="social_network_name" example="APKPure">%2$s</xliff:g>), <xliff:g id="app_url" example="https://apkpure.com/p/com.apkpure.aegon">%3$s</xliff:g></string>
 
-    <string xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" name="_name__version_history"><xliff:g id="name" example="APKPure">%1$s</xliff:g> Lịch sử Phiên bản</string>
-    <string xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" name="update__date___size_">Cập nhật: <xliff:g id="date" example="Mar 3, 2016">%1$s</xliff:g>, <xliff:g id="size" example="1024 kB">%2$s</xliff:g></string>
-<string name="general">Chung</string>
+    <string name="_name__version_history"><xliff:g id="name" example="APKPure">%1$s</xliff:g> Lịch sử Phiên bản</string>
+    <string name="update__date___size_">Cập nhật: <xliff:g id="date" example="Mar 3, 2016">%1$s</xliff:g>, <xliff:g id="size" example="1024 kB">%2$s</xliff:g></string>
+
+    <string name="general">Chung</string>
     <string name="language">Ngôn ngữ</string>
     <string name="auto">Tự động</string>
 
-    </resources>
+</resources>

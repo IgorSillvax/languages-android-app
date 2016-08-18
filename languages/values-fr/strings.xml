@@ -152,10 +152,10 @@
     <string name="failed_to_request_app_detail">Erreur pour obtenir les détails de l\'application.</string>
     <string name="failed_to_request_app_asset">Erreur pour obtenir les détails de l\'asset.</string>
     <string name="incompatible_this_app">
-        <![CDATA[<big><b><font color="red">Votre téléphone est pas compatible.</font></b></big><br><br>Voulez vous continuer?]]>
+        <![CDATA[<big><b><font color="%1$d">Votre téléphone est pas compatible.</font></b></big><br><br>Voulez vous continuer?]]>
     </string>
     <string name="this_app_not_usable">
-        <![CDATA[<big><b><font color="red">Cette appli peut ne pas fonctionner.</font></b></big><br><br>Voulez vous continuer?]]>
+        <![CDATA[<big><b><font color="%1$d">Cette appli peut ne pas fonctionner.</font></b></big><br><br>Voulez vous continuer?]]>
     </string>
 
     <string name="setting">Paramètre</string>

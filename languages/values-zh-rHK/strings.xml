@@ -1,5 +1,6 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<?xml version="1.0" encoding="utf-8"?>
+<resources
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
     <string name="action_settings">設定</string>
     <string name="action_search">搜尋</string>
@@ -41,6 +42,10 @@
     <string name="install">安裝</string>
     <string name="open">打開</string>
     <string name="delete">刪除</string>
+    <string name="properties">屬性</string>
+    <string name="properties_message">
+        <![CDATA[<b>路徑：</b> %1$s<br><b>檔案大小：</b> %2$s<br><b>最後修改時間：</b> %3$s]]>
+    </string>
     <string name="want_to_delete_file">您確定要刪除此檔案嗎？</string>
     <string name="file_has_been_deleted">檔案已被刪除。</string>
     <string name="failed_to_delete_file">刪除檔案失敗</string>
@@ -122,6 +127,7 @@
     <string name="detail">詳情</string>
     <string name="remove">移除</string>
     <string name="want_to_remove_download_item">您確定要移除此下載項嗎？</string>
+    <string name="delete_downloaded_file">刪除已下載檔案</string>
 
     <string name="search">搜尋</string>
     <string name="search_for_apps">搜尋應用</string>
@@ -151,10 +157,10 @@
     <string name="failed_to_request_app_detail">請求應用詳情訊息失敗。</string>
     <string name="failed_to_request_app_asset">請求應用資產訊息失敗。</string>
     <string name="incompatible_this_app">
-        <![CDATA[<big><b><font color="red">您的設備與此應用程式不兼容，</font></b></big><br><br>您確定要繼續嗎？]]>
+        <![CDATA[<big><b><font color="%1$d">您的設備與此應用程式不兼容。</font></b></big><br><br>您確定要繼續嗎？]]>
     </string>
     <string name="this_app_not_usable">
-        <![CDATA[<big><b><font color="red">此應用可能無法使用，</font></b></big><br><br>您確定要繼續嗎？]]>
+        <![CDATA[<big><b><font color="%1$d">此應用可能無法使用。</font></b></big><br><br>您確定要繼續嗎？]]>
     </string>
 
     <string name="setting">設定</string>
@@ -170,7 +176,24 @@
 
     <string name="_name__version_history"><xliff:g id="name" example="APKPure">%1$s</xliff:g> 的版本歷史</string>
     <string name="update__date___size_">更新：<xliff:g id="date" example="Mar 3, 2016">%1$s</xliff:g>, <xliff:g id="size" example="1024 kB">%2$s</xliff:g></string>
+
+    <string name="update_all">全部更新</string>
+    <string name="update___count__">更新 (<xliff:g id="count" example="3">%1$d</xliff:g>)</string>
+    <string name="ignore">忽略</string>
+    <string name="unignore">取消忽略</string>
+    <string name="select">選擇</string>
+    <string name="cancel">取消</string>
+    <string name="ignored">已忽略</string>
+    <plurals name="total__count__apps__size_">
+        <item quantity="other">
+            <![CDATA[總計：<b><font color="%1$d">%2$d</font></b> 個應用，<b><font color="%1$d">%3$s</font></b>]]>
+        </item>
+    </plurals>
+    <string name="total_zero_app">
+        <![CDATA[總計：<b><font color="%1$d">0</font></b> 個應用]]>
+    </string>
+
+    <string name="general">一般</string>
     <string name="language">語言</string>
     <string name="auto">跟隨系統</string>
-    <string name="general">一般</string>
 </resources>

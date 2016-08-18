@@ -1,5 +1,6 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<?xml version="1.0" encoding="utf-8"?>
+<resources
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
     <string name="action_settings">الإعدادات</string>
     <string name="action_search">البحث</string>
@@ -151,10 +152,10 @@
     <string name="failed_to_request_app_detail">فشل في الوصول لمعلومات التطبيق.</string>
     <string name="failed_to_request_app_asset">فشل في طلب الوصول لعناصر التطبيق.</string>
     <string name="incompatible_this_app">
-        <![CDATA[<big><b><font color="red">إن جهازك لا يتوافق مع هذا الاصدار من التطبيق.</font></b></big><br><br>هل تريد المتابعة?]]>
+        <![CDATA[<big><b><font color="%1$d">إن جهازك لا يتوافق مع هذا الاصدار من التطبيق.</font></b></big><br><br>هل تريد المتابعة?]]>
     </string>
     <string name="this_app_not_usable">
-        <![CDATA[<big><b><font color="red">هذا التطبيق قد لايكون صالح للاستخدام.</font></b></big><br><br>هل تريد المتابعة?]]>
+        <![CDATA[<big><b><font color="%1$d">هذا التطبيق قد لايكون صالح للاستخدام.</font></b></big><br><br>هل تريد المتابعة?]]>
     </string>
 
     <string name="setting">الضبط</string>
@@ -170,8 +171,4 @@
 
     <string name="_name__version_history"><xliff:g id="name" example="APKPure">%1$s</xliff:g> إصدارات سابقة من</string>
     <string name="update__date___size_">تحديث: <xliff:g id="date" example="Mar 3, 2016">%1$s</xliff:g>, <xliff:g id="size" example="1024 kB">%2$s</xliff:g></string>
-<string name="general">عام</string>
-    <string name="language">اللغة</string>
-    <string name="auto">بشكل تلقائي</string>
-
-    </resources>
+</resources>

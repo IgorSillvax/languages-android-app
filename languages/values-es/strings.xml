@@ -1,5 +1,8 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<resources><string name="action_settings">Configuración</string>
+<?xml version="1.0" encoding="UTF-8"?>
+<resources
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <string name="action_settings">Configuración</string>
     <string name="action_search">Buscar</string>
     <string name="installation_failed">La instalacion ha fallado</string>
     <string name="action_management">management</string>
@@ -29,8 +32,10 @@
     <string name="download_management">Administrador de Descargas</string>
     <string name="settings">Configuraciones</string>
     <string name="about">Acerca de</string>
-    <string xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" name="about_title"><xliff:g id="app_name" example="APKPure"> %1$s</xliff:g></string>
-    <string name="about_message">" &lt;b&gt;Version:&lt;/b&gt; %1$s&lt;br&gt;&lt;br&gt;&lt;b&gt;sitio_web:&lt;/b&gt; &lt;a href=%2$s&gt;%2$s&lt;/a&gt;&lt;br&gt;&lt;b&gt;Contactanos:&lt;/b&gt; &lt;a href=mailto:%3$s&gt;%3$s&lt;/a&gt; "</string>
+    <string name="about_title">About <xliff:g id="app_name" example="APKPure">%1$s</xliff:g></string>
+    <string name="about_message">
+        <![CDATA[<b>Version:</b> %1$s<br><br><b>sitio_web:</b> <a href=%2$s>%2$s</a><br><b>Contactanos:</b> <a href=mailto:%3$s>%3$s</a>]]>
+    </string>
     <string name="check_update">Comprobar Actualizaciones</string>
     <string name="quit">Salir</string>
     <string name="want_to_quit">Estas seguro de que quieres salir?</string>
@@ -41,7 +46,7 @@
     <string name="want_to_delete_file">Estas seguro de querer borrar este archivo?</string>
     <string name="file_has_been_deleted">El archivo ha sido borrado.</string>
     <string name="failed_to_delete_file">Error al borrar el archivo.</string>
-    <string name="install__label_">Instalar - <xliff:g xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" id="app_label" example="APKPure"> %1$s</xliff:g></string>
+    <string name="install__label_">Instalar - <xliff:g id="app_label" example="APKPure">%1$s</xliff:g></string>
     <string name="user_canceled">Cancelado por el Usuario.</string>
     <string name="io_error">Error IO. Puede ser que no tenga suficiente almacenamiento para que la instalacion proceda.</string>
     <string name="file_format_error">Error de Formato.</string>
@@ -51,7 +56,7 @@
 
     <string name="uninstall">Desinstalar</string>
     <string name="uninstalled">Desinstalado</string>
-    <string name="last_update__date_">"Ultima Actualizacion:  "<xliff:g xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" id="date"> %1$s</xliff:g></string>
+    <string name="last_update__date_">Ultima Actualizacion: <xliff:g id="date">%1$s</xliff:g></string>
 
     <string name="all">Todos</string>
 
@@ -71,7 +76,7 @@
     <string name="apk">APK</string>
     <string name="xapk">XAPK</string>
     <string name="unknown">Desconocido</string>
-    <string name="_ellipsis_"> ... </string>
+    <string name="_ellipsis_"> … </string>
 
     <string name="market_response_error_success">Exito.</string>
     <string name="market_response_error_invalid_result">Resultado Invalido.</string>
@@ -79,16 +84,16 @@
     <string name="market_response_error_network_read_error">Error de Lectura de Red.</string>
     <string name="market_response_error_invalid_response_code">Codigo de Respuesta Invalido.</string>
     <string name="market_response_error_invalid_response_body">Cuerpo de Respuesta Invalido.</string>
-    <string name="market_response_error_unknown_error__error_">Error Desconocido (<xliff:g xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" id="error" example="SUCCESS"> %1$s</xliff:g> ).</string>
+    <string name="market_response_error_unknown_error__error_">Error Desconocido (<xliff:g id="error" example="SUCCESS">%1$s</xliff:g> ).</string>
 
     <string name="no_more">No Hay Mas.</string>
 
     <string name="update">Actualizacion</string>
-    <string xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" name="version__version___size_">version <xliff:g id="version" example="1.0.0"> %1$s</xliff:g> , <xliff:g id="size" example="1024 kB"> %2$s</xliff:g></string>
-    <plurals xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" name="_count__new_update_is_available">
-	<item quantity="one"><xliff:g id="count" example="1"> %1$d</xliff:g> Una Nueva Actualizacion Esta Disponible</item>
-	<item quantity="other"><xliff:g id="count" example="2"> %1$d</xliff:g> Hay Nuevas Actualizaciones Disponibles</item>
-</plurals>
+    <string name="version__version___size_">version <xliff:g id="version" example="1.0.0">%1$s</xliff:g>, <xliff:g id="size" example="1024 kB">%2$s</xliff:g></string>
+    <plurals name="_count__new_update_is_available">
+	    <item quantity="one"><xliff:g id="count" example="1">%1$d</xliff:g> Una Nueva Actualizacion Esta Disponible</item>
+	    <item quantity="other"><xliff:g id="count" example="2">%1$d</xliff:g> Hay Nuevas Actualizaciones Disponibles</item>
+    </plurals>
 
     <string name="launching_please_wait">Abriendo, Por Favor Espere …</string>
 
@@ -96,16 +101,16 @@
 
     <string name="general">General</string>
     <string name="language">Lenguaje</string>
-    <plurals xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" name="_count__item_is_downloading">
-	<item quantity="one"><xliff:g id="count" example="1"> %1$d</xliff:g> El Articulo se Esta Descargando</item>
-	<item quantity="other"><xliff:g id="count" example="2"> %1$d</xliff:g> Los Articulos Se Estan Descargando</item>
-</plurals>
+    <plurals name="_count__item_is_downloading">
+	    <item quantity="one"><xliff:g id="count" example="1">%1$d</xliff:g> El Articulo se Esta Descargando</item>
+	    <item quantity="other"><xliff:g id="count" example="2">%1$d</xliff:g> Los Articulos Se Estan Descargando</item>
+    </plurals>
     <string name="downloads_complete">Descargas Completadas</string>
     <string name="touch_for_view_all_downloads">Toca Para Ver Todas Las Descargas</string>
-    <string xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" name="_name__download_failed"><xliff:g id="name" example="APKPure"> %1$s</xliff:g> La Descarga Ha Fallado</string>
+    <string name="_name__download_failed"><xliff:g id="name" example="APKPure">%1$s</xliff:g> La Descarga Ha Fallado</string>
     <string name="touch_to_download_it_again">Toca De Nuevo Para Descargarlo Otra Vez</string>
 
-    <string xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" name="download_percent"><xliff:g id="percent" example="50"> %1$d</xliff:g> %%</string>
+    <string name="download_percent"><xliff:g id="percent" example="50">%1$d</xliff:g> %%</string>
     <string name="pause">Pausa</string>
     <string name="continue_">Continuar</string>
     <string name="restart">Reestablecer</string>
@@ -128,13 +133,17 @@
     <string name="trending_searches">Lo Mas Buscado</string>
 
     <string name="improvement_plan_title">Plan de Mejora del Rendimiento</string>
-    <string name="improvement_plan_message"> Ayudanos Subiendo Informacion de tu Dispocitivo Android, Nosotros <b> no recopilaremos </b> informacion personal suya (nombre, direccion, correo electronico, numero de seguridad social, u otro tipo de informacion personal) </string>
+    <string name="improvement_plan_message">
+        <![CDATA[Ayudanos Subiendo Informacion de tu Dispocitivo Android, Nosotros <b>no recopilaremos</b> informacion personal suya (nombre, direccion, correo electronico, numero de seguridad social, u otro tipo de informacion personal).]]>
+    </string>
     <string name="join_us">Unete</string>
     <string name="skip">Saltar</string>
 
-    <string xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" name="_name__is_up_to_date"><xliff:g id="name" example="APKPure"> %1$s</xliff:g> Esta Actualizado.</string>
+    <string name="_name__is_up_to_date"><xliff:g id="name" example="APKPure">%1$s</xliff:g> Esta Actualizado.</string>
     <string name="new_version_available_title">Hay una Nueva Version Disponible</string>
-    <string name="new_version_available_message">" &lt;b&gt;Ultima Version:&lt;/b&gt; %1$s&lt;br&gt;&lt;br&gt;&lt;b&gt;Mas Nuevo:&lt;/b&gt;&lt;br&gt;%2$s "</string>
+    <string name="new_version_available_message">
+        <![CDATA[<b>Ultima Version:</b> %1$s<br><br><b>Mas Nuevo:</b><br>%2$s]]>
+    </string>
 
     <string name="report__">Reporte…</string>
     <string name="report_problem__">Reportar Problema…</string>
@@ -144,19 +153,27 @@
     <string name="invalid_app_detail">Informacion a Detalle de la Aplicacion es Invalida.</string>
     <string name="invalid_app_asset">La informacion de los activos de la Aplicacion no es Valida.</string>
     <string name="failed_to_request_app_detail">Error al solicitar información detallada de aplicación.</string>
-    <string name="failed_to_request_app_asset">Error al solicitar información de los activos de aplicaciones .</string>
-    <string name="incompatible_this_app">" &lt;big&gt;&lt;b&gt;&lt;font color=red&gt;Your device isn\'t compatible with this app.&lt;/font&gt;&lt;/b&gt;&lt;/big&gt;&lt;br&gt;&lt;br&gt; Esta seguro de que quiere continuar? "</string>
-    <string name="this_app_not_usable">" &lt;big&gt;&lt;b&gt;&lt;font color=red&gt;esta aplicación puede no ser usada. &lt;/font&gt;&lt;/b&gt;&lt;/big&gt;&lt;br&gt;&lt;br&gt; Esta seguro de que quiere continuar? "</string>
+    <string name="failed_to_request_app_asset">Error al solicitar información de los activos de aplicaciones.</string>
+    <string name="incompatible_this_app">
+        <![CDATA[<big><b><font color="%1$d">Your device isn\'t compatible with this app.</font></b></big><br><br>Esta seguro de que quiere continuar?]]>
+    </string>
+    <string name="this_app_not_usable">
+        <![CDATA[<big><b><font color="%1$d">esta aplicación puede no ser usada.</font></b></big><br><br>Esta seguro de que quiere continuar?]]>
+    </string>
 
     <string name="setting">Configuracion</string>
-    <string name="external_storage_not_usable"> <big> <b> Nesesitamos acceso a su Almacenamiento externo. Por Favor asegurese de que se pueda usar. </b> </big> </string>
-    <string name="external_storage_permission_denied"> <big> <b> Nesecitamos acceso a su Almacenamiento Externo. Por Favor asegurese de que el permiso este denegado. </b> </big> </string>
+    <string name="external_storage_not_usable">
+        <![CDATA[<big><b>Nesesitamos acceso a su Almacenamiento externo. Por Favor asegurese de que se pueda usar.</b></big>]]>
+    </string>
+    <string name="external_storage_permission_denied">
+        <![CDATA[<big><b>Nesecitamos acceso a su Almacenamiento Externo. Por Favor asegurese de que el permiso este denegado.</b></big>]]>
+    </string>
 
     <string name="share">Compartir</string>
-    <string xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" name="share_app_url">Descargar <xliff:g id="app_name" example="APKPure"> 1%1$s</xliff:g> 2 APK (from @<xliff:g id="social_network_name" example="APKPure"> 3%2$s</xliff:g> 4), <xliff:g id="app_url" example="https://apkpure.com/p/com.apkpure.aegon"> 5%3$s</xliff:g> 6</string>
+    <string name="share_app_url">Descargar <xliff:g id="app_name" example="APKPure">%1$s</xliff:g> APK (from @<xliff:g id="social_network_name" example="APKPure">%2$s</xliff:g>), <xliff:g id="app_url" example="https://apkpure.com/p/com.apkpure.aegon">%3$s</xliff:g></string>
 
-    <string xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" name="_name__version_history"><xliff:g id="name" example="APKPure"> %1$s</xliff:g> Versiones Anteriores</string>
-    <string xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" name="update__date___size_">Actualizacion: <xliff:g id="date" example="Mar 3, 2016"> %1$s</xliff:g> , <xliff:g id="size" example="1024 kB"> %2$s</xliff:g></string>
+    <string name="_name__version_history"><xliff:g id="name" example="APKPure">%1$s</xliff:g> Versiones Anteriores</string>
+    <string name="update__date___size_">Actualizacion: <xliff:g id="date" example="Mar 3, 2016">%1$s</xliff:g>, <xliff:g id="size" example="1024 kB">%2$s</xliff:g></string>
 
     <string name="parsing_xapk">Analisis sintetico de XAPK …</string>
-    </resources>
+</resources>

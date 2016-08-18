@@ -1,5 +1,6 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<?xml version="1.0" encoding="utf-8"?>
+<resources 
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
     <string name="action_settings">Beállítások</string>
     <string name="action_search">Keresés</string>
@@ -151,10 +152,10 @@
     <string name="failed_to_request_app_detail">Nem sikerült lekérni az alkalmazás részletes információit.</string>
     <string name="failed_to_request_app_asset">Nem sikerült lekérni az alkalmazásra vonatkozó információkat.</string>
     <string name="incompatible_this_app">
-        <![CDATA[<big><b><font color="red">Az Ön készüléke nem kompatibilis ezzel az alkalmazással.</font></b></big><br><br>Folytatja?]]>
+        <![CDATA[<big><b><font color="%1$d">Az Ön készüléke nem kompatibilis ezzel az alkalmazással.</font></b></big><br><br>Folytatja?]]>
     </string>
     <string name="this_app_not_usable">
-        <![CDATA[<big><b><font color="red">Ez az alkalmazás lehet, hogy nem használható.</font></b></big><br><br>Folytatja?]]>
+        <![CDATA[<big><b><font color="%1$d">Ez az alkalmazás lehet, hogy nem használható.</font></b></big><br><br>Folytatja?]]>
     </string>
 
     <string name="setting">Beállítás</string>

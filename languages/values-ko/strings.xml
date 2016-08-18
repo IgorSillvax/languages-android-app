@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <string name="action_settings">설정</string>
+    <string name="action_search">찾기</string>
+    <string name="action_management">관리</string>
+
+    <string name="press_back_key_quit">나가기 위해서는 뒤로 가기 버튼을 누르시오.</string>
+
+    <string name="featured">인기 앱</string>
+    <string name="games">게임 앱</string>
+    <string name="apps">전체 앱</string>
+    <string name="categories">카테고리</string>
+    <string name="updates">업데이트</string>
+
+    <string name="something_happened">&gt;_&lt;\n뭔가 발생함.</string>
+
+    <string name="load_failed_error">로딩 에러.</string>
+    <string name="load_failed_empty">로딩 에러. 아무것도 없습니다.</string>
+    <string name="load_failed_all_up_to_date">업데이트 되어야 함.</string>
+    <string name="load_failed_no_results">죄송합니다! 아무 결과가 발견되지 않았습니다.</string>
+    <string name="refresh">다시 시행하세요</string>
+
+    <string name="management">관리</string>
+    <string name="app_updates">앱 업데이트</string>
+    <string name="app_management">앱 관리</string>
+    <string name="app_uninstall">앱 지우기</string>
+    <string name="apk_management">앱 관리</string>
+    <string name="apk_xapk_management">앱 관리</string>
+    <string name="download_management">다운로드 관리</string>
+    <string name="settings">설정</string>
+    <string name="about">버전 정보</string>
+    <string name="about_title">버전 정보 <xliff:g id="app_name" example="APKPure">%1$s</xliff:g></string>
+    <string name="about_message">
+        <![CDATA[<b>Version:</b> %1$s<br><br><b>Website:</b> <a href="%2$s">%2$s</a><br><b>Contact Us:</b> <a href="mailto:%3$s">%3$s</a>]]>
+    </string>
+    <string name="check_update">업데이트 체크</string>
+    <string name="quit">나가기</string>
+    <string name="want_to_quit">나가기 원하세요?</string>
+
+    <string name="install">설치</string>
+    <string name="open">열기</string>
+    <string name="delete">지우기</string>
+    <string name="properties">특성</string>
+    <string name="want_to_delete_file">이 파일을 지우기 원하세요?</string>
+    <string name="file_has_been_deleted">파일이 지워졌습니다.</string>
+    <string name="failed_to_delete_file">파일 지우기 실패함.</string>
+    <string name="install__label_">라벨 설치 - <xliff:g id="app_label" example="APKPure">%1$s</xliff:g></string>
+    <string name="user_canceled">이용자가 취소함.</string>
+    <string name="io_error">io 에러</string>
+    <string name="file_format_error">파일 포맷 에러.</string>
+    <string name="parsing_xapk">앱 파싱중 …</string>
+    <string name="installing_obb">파일 설치중 …</string>
+    <string name="extracting_apk">앱 파일 추출 중 …</string>
+    <string name="installing_apk">앱 설치 중 …</string>
+
+    <string name="uninstall">지우기</string>
+    <string name="uninstalled">지워짐</string>
+    <string name="last_update__date_">최근 업데이트 날짜: <xliff:g id="date">%1$s</xliff:g></string>
+
+    <string name="all">모두</string>
+
+    <string name="screenshots">스크린샷</string>
+    <string name="description">설명</string>
+    <string name="whatsnew">새로운 것</string>
+    <string name="information">정보</string>
+    <string name="version_">버전:</string>
+    <string name="updated_">업데이트 됨:</string>
+    <string name="size_">크기:</string>
+    <string name="permissions_">허용:</string>
+    <string name="type_">타입:</string>
+    <string name="category_">카테고리:</string>
+    <string name="more">더 보기</string>
+    <string name="permissions">허용</string>
+    <string name="other">다른</string>
+    <string name="apk">앱</string>
+    <string name="xapk">앱</string>
+    <string name="unknown">알수 없는</string>
+    <string name="_ellipsis_"> … </string>
+
+    <string name="market_response_error_success">성공.</string>
+    <string name="market_response_error_invalid_result">유효하지 않은 결과.</string>
+    <string name="market_response_error_network_connect_error">네트워크 연결 에러.</string>
+    <string name="market_response_error_network_read_error">네트워크 읽기 에러.</string>
+    <string name="market_response_error_invalid_response_code">유효하지 않은 응답 코드.</string>
+    <string name="market_response_error_invalid_response_body">유효하지 않은 바디.</string>
+    <string name="market_response_error_unknown_error__error_">알수 없는 에러 (<xliff:g id="error" example="SUCCESS">%1$s</xliff:g>).</string>
+
+    <string name="no_more">더 이상 없음.</string>
+
+    <string name="update">업데이트</string>
+    <string name="version__version___size_">버전: <xliff:g id="version" example="1.0.0">%1$s</xliff:g>, <xliff:g id="size" example="1024 kB">%2$s</xliff:g></string>
+    <plurals name="_count__new_update_is_available">
+        <item quantity="one"><xliff:g id="count" example="1">%1$d</xliff:g> 새로운 업데이트가 사용 가능합니다</item>
+        <item quantity="other"><xliff:g id="count" example="2">%1$d</xliff:g> 새로운 업데이트가 사용 가능합니다</item>
+    </plurals>
+
+    <string name="launching_please_wait">시작중, 기다려 주세요…</string>
+
+    <plurals name="_count__item_is_downloading">
+        <item quantity="one"><xliff:g id="count" example="1">%1$d</xliff:g> 아이템이 다운로드 중입니다</item>
+        <item quantity="other"><xliff:g id="count" example="2">%1$d</xliff:g> 아이템이 다운로드 중입니다</item>
+    </plurals>
+    <string name="downloads_complete">다운로드가 끝남</string>
+    <string name="touch_for_view_all_downloads">모든 다운로드를 보기 위해 터치하시오</string>
+    <string name="_name__download_failed"><xliff:g id="name" example="APKPure">%1$s</xliff:g> 다운로드 실패함</string>
+    <string name="touch_to_download_it_again">다시 다운로드하기 위해 터치하시오</string>
+
+    <string name="download_percent"><xliff:g id="percent" example="50">%1$d</xliff:g> %%</string>
+    <string name="pause">멈추기</string>
+    <string name="continue_">계속하기</string>
+    <string name="restart">다시 시작하기</string>
+    <string name="download">다운로드 하기</string>
+    <string name="downloading">다운로드 중입니다</string>
+    <string name="waiting">기다리는 중입니다</string>
+    <string name="preparing">준비하고 있습니다</string>
+    <string name="completed">완료됨</string>
+    <string name="paused">멈춤</string>
+    <string name="failed">실패</string>
+    <string name="file_invalid">파일이 유효하지 않음</string>
+    <string name="file_missing">파일 찾기 싪패</string>
+    <string name="expired">만료됨</string>
+    <string name="detail">세부사항</string>
+    <string name="remove">지우기</string>
+    <string name="want_to_remove_download_item">이 다운로드 아이템을 지우기를 원하세요?</string>
+
+    <string name="search">찾기</string>
+    <string name="search_for_apps">앱 찾기</string>
+    <string name="trending_searches">최근 찾기</string>
+
+    <string name="improvement_plan_title">성능 향상 계획</string>
+    <string name="improvement_plan_message">
+        <![CDATA[Help us with submit Android Device Info, We do <b>not collect</b> personally-identifiable information (name, address, e-mail address, social security number, or other unique identifiers).]]>
+    </string>
+    <string name="join_us">가입하시오</string>
+    <string name="skip">건너 뛰세요</string>
+
+    <string name="_name__is_up_to_date"><xliff:g id="name" example="APKPure">%1$s</xliff:g> is up to date.</string>
+    <string name="new_version_available_title">새 버전이 가능함</string>
+    <string name="new_version_available_message">
+        <![CDATA[<b>Latest Version:</b> %1$s<br><br><b>What\'s New:</b><br>%2$s]]>
+    </string>
+
+    <string name="report__">보고하시요…</string>
+    <string name="report_problem__">문제점을 보고하시요…</string>
+    <string name="report_problem_subject">문제점을 보고하시요</string>
+    <string name="report_problem_text">Problem topic:\n%1$s\n\nProblem detail:\n%2$s</string>
+
+    <string name="installation_failed">설치 실패함</string>
+    <string name="invalid_app_detail">유효하지 않은 앱 정보.</string>
+    <string name="invalid_app_asset">유효하지 않은 앱 정보.</string>
+    <string name="failed_to_request_app_detail">앱 정보 요청 실패함.</string>
+    <string name="failed_to_request_app_asset">앱 정보 요청 실패함.</string>
+    <string name="incompatible_this_app">
+        <![CDATA[<big><b><font color="%1$d">Your device isn\'t compatible with this app.</font></b></big><br><br>Do you want to continue?]]>
+    </string>
+    <string name="this_app_not_usable">
+        <![CDATA[<big><b><font color="%1$d">This app may not be usable.</font></b></big><br><br>Do you want to continue?]]>
+    </string>
+
+    <string name="setting">설정</string>
+    <string name="external_storage_not_usable">
+        <![CDATA[<big><b>We need to access your external storage. Please make sure it\'s usable.</b></big>]]>
+    </string>
+    <string name="external_storage_permission_denied">
+        <![CDATA[<big><b>We need to access your external storage. Please make sure the permission is not denied.</b></big>]]>
+    </string>
+
+    <string name="share">공유하기</string>
+    <string name="share_app_url">앱 주소 공유하기<xliff:g id="app_name" example="APKPure">%1$s</xliff:g> APK (from @<xliff:g id="social_network_name" example="APKPure">%2$s</xliff:g>), <xliff:g id="app_url" example="https://apkpure.com/p/com.apkpure.aegon">%3$s</xliff:g></string>
+
+    <string name="_name__version_history"><xliff:g id="name" example="APKPure">%1$s</xliff:g> 버전 히스토리</string>
+    <string name="update__date___size_">Update: <xliff:g id="date" example="Mar 3, 2016">%1$s</xliff:g>, <xliff:g id="size" example="1024 kB">%2$s</xliff:g></string>
+
+    <string name="update_all">모두 업데이트</string>
+    <string name="update___count__">업데이트 (<xliff:g id="count" example="3">%1$d</xliff:g>)</string>
+    <string name="ignore">무시하기</string>
+    <string name="unignore">무시하지 마시오</string>
+    <string name="select">선택하기</string>
+    <string name="cancel">취소하기</string>
+    <string name="ignored">무시된</string>
+    <plurals name="total__count__apps__size_">
+        <item quantity="one">
+            <![CDATA[Total: <b><font color="%1$d">%2$d</font></b> app, <b><font color="%1$d">%3$s</font></b>]]>
+        </item>
+        <item quantity="other">
+            <![CDATA[Total: <b><font color="%1$d">%2$d</font></b> apps, <b><font color="%1$d">%3$s</font></b>]]>
+        </item>
+    </plurals>
+    <string name="total_zero_app">
+        <![CDATA[Total: <b><font color="%1$d">0</font></b> app]]>
+    </string>
+
+    <string name="general">일반</string>
+    <string name="language">언어</string>
+    <string name="auto">자동</string>
+</resources>
