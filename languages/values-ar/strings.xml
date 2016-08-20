@@ -5,30 +5,30 @@
     <string name="action_search">البحث</string>
     <string name="action_management">إدارة</string>
 
-    <string name="press_back_key_quit">اضغط على زر الرجوع مرة أخرى للخروج من التطبيق.</string>
+    <string name="press_back_key_quit">اضغط على زر الرجوع مرة أخرى للخروج .</string>
 
     <string name="featured">مميز</string>
     <string name="games">الألعاب</string>
     <string name="apps">التطبيقات</string>
-    <string name="categories">الأقسام</string>
-    <string name="updates">التحديثات</string>
+    <string name="categories">فئات</string>
+    <string name="updates">تحديثات</string>
 
-    <string name="something_happened">&gt;_&lt;\nحدث خطأ ما.</string>
+    <string name="something_happened">&gt;_&lt;\nشيء ما حدث.</string>
 
-    <string name="load_failed_error">عذراً! حدث خطأ ما.</string>
+    <string name="load_failed_error">عذراً ! حدث خطأ ما.</string>
     <string name="load_failed_empty">لايوجد شيء هنا.</string>
     <string name="load_failed_all_up_to_date">جميع التطبيقات محدثة.</string>
-    <string name="load_failed_no_results">عذراً! لاتوجد نتائج للبحث.</string>
+    <string name="load_failed_no_results">عذراً ! لاتوجد نتائج .</string>
     <string name="refresh">تحديث</string>
 
     <string name="management">إدارة</string>
-    <string name="app_updates">تحديث التطبيقات</string>
+    <string name="app_updates">تحديثات التطبيق</string>
     <string name="app_management">إدارة التطبيق</string>
-    <string name="app_uninstall">إلغاء تثبيت التطبيقات</string>
+    <string name="app_uninstall">إلغاء تثبيت التطبيق</string>
     <string name="apk_management">إدارة التطبيقات</string>
     <string name="apk_xapk_management">APK / XAPK إدارة</string>
-    <string name="download_management">إدارة التطبيقات المحملة</string>
-    <string name="settings">الضبط</string>
+    <string name="download_management">إدارة التحميلات</string>
+    <string name="settings">إعدادات</string>
     <string name="about">حول</string>
     <string name="about_title">حول <xliff:g id="app_name" example="APKPure">%1$s</xliff:g></string>
     <string name="about_message">
@@ -36,17 +36,17 @@
     </string>
     <string name="check_update">التحقق من وجود تحديث</string>
     <string name="quit">خروج</string>
-    <string name="want_to_quit">تأكيد الخروج؟</string>
+    <string name="want_to_quit">هل أنت متاكد من انك تريد الخروج ؟</string>
 
     <string name="install">تثبيت</string>
     <string name="open">فتح</string>
     <string name="delete">حذف</string>
     <string name="want_to_delete_file">هل تريد حذف الملف؟</string>
-    <string name="file_has_been_deleted"> تم حذف الملف.</string>
-    <string name="failed_to_delete_file">فشل في حذف ملف.</string>
+    <string name="file_has_been_deleted">تم حذف الملف.</string>
+    <string name="failed_to_delete_file">فشل في حذف الملف.</string>
     <string name="install__label_">تثبيت - <xliff:g id="app_label" example="APKPure">%1$s</xliff:g></string>
     <string name="user_canceled">تم الإلغاء من قبل المستخدم.</string>
-    <string name="io_error">قد لا تتوفر على مساحة كافية لتثبيت التطبيق IO error.</string>
+    <string name="io_error">خطاء في القراءة\\الكتابة . قد لا تتوفر على مساحة كافية لتثبيت التطبيق بنجاح .</string>
     <string name="file_format_error">خطأ في صيغة الملف.</string>
     <string name="parsing_xapk">جاري تحليل XAPK …</string>
     <string name="installing_obb">جاري تثبيت ملفات OBB …</string>
@@ -57,17 +57,17 @@
     <string name="uninstalled">تم إلغاء التثبيت</string>
     <string name="last_update__date_">آخر تحديث: <xliff:g id="date">%1$s</xliff:g></string>
 
-    <string name="all">جميع</string>
+    <string name="all">الكل</string>
 
-    <string name="screenshots">لقطات مصورة</string>
+    <string name="screenshots">لقطات</string>
     <string name="description">الوصف</string>
-    <string name="whatsnew">ما الجديد </string>
-    <string name="information">معلومات حول التطبيق</string>
-    <string name="version_">الإصدار:</string>
+    <string name="whatsnew">ما الجديد</string>
+    <string name="information">معلومات</string>
+    <string name="version_">الإصدار :</string>
     <string name="updated_">محدث:</string>
     <string name="size_">الحجم:</string>
     <string name="permissions_">الأذونات:</string>
-    <string name="type_">الصيغة:</string>
+    <string name="type_">النوع :</string>
     <string name="category_">الفئة:</string>
     <string name="more">المزيد</string>
     <string name="permissions">الأذونات</string>
@@ -80,34 +80,42 @@
     <string name="market_response_error_success">نجح.</string>
     <string name="market_response_error_invalid_result">نتيجة غير صالحة.</string>
     <string name="market_response_error_network_connect_error">خطأ في الإتصال بالشبكة.</string>
-    <string name="market_response_error_network_read_error">فشل في قراءة المعلومات.</string>
+    <string name="market_response_error_network_read_error">فشل في القراءة .</string>
     <string name="market_response_error_invalid_response_code">رمز الاستجابة غير صالح.</string>
     <string name="market_response_error_invalid_response_body">خطأ في التطبيق.</string>
-    <string name="market_response_error_unknown_error__error_">خطأ غير معروف. (<xliff:g id="error" example="SUCCESS">%1$s</xliff:g>).</string>
+    <string name="market_response_error_unknown_error__error_">خطأ غير معروف (<xliff:g id="error" example="SUCCESS">%1$s</xliff:g>).</string>
 
-    <string name="no_more">.</string>
+    <string name="no_more">لايوجد مزيد .</string>
 
     <string name="update">تحديث</string>
     <string name="version__version___size_">الإصدار: <xliff:g id="version" example="1.0.0">%1$s</xliff:g>, <xliff:g id="size" example="1024 kB">%2$s</xliff:g></string>
     <plurals name="_count__new_update_is_available">
-        <item quantity="one"><xliff:g id="count" example="1">%1$d</xliff:g>  يوجد تحديث جديد متاح للتحميل</item>
-        <item quantity="other"><xliff:g id="count" example="2">%1$d</xliff:g>   يوجد تحديثات جديدة متاحة للتحميل</item>
-    </plurals>
+	<item quantity="zero"><xliff:g id="count" example="1">%1$d</xliff:g> ليس هنالك تحديث</item>
+	<item quantity="one"><xliff:g id="count" example="1">%1$d</xliff:g> هنالك تحديث جديد</item>
+	<item quantity="two"><xliff:g id="count" example="1">%1$d</xliff:g> هنالك تحديثان جديد</item>
+	<item quantity="few"><xliff:g id="count" example="1">%1$d</xliff:g> هنالك عدد من التحديثات الجديدة</item>
+	<item quantity="many"><xliff:g id="count" example="1">%1$d</xliff:g> هنالك تحديثات جديدة</item>
+	<item quantity="other"><xliff:g id="count" example="1">%1$d</xliff:g> هنالك تحديثات جديدة</item>
+</plurals>
 
     <string name="launching_please_wait">جاري التشغيل, رجاءا إنتظر …</string>
 
     <plurals name="_count__item_is_downloading">
-        <item quantity="one"><xliff:g id="count" example="1">%1$d</xliff:g> جاري تحميل التطبيق</item>
-        <item quantity="other"><xliff:g id="count" example="2">%1$d</xliff:g> جاري تحميل التطبيقات</item>
-    </plurals>
+	<item quantity="zero"><xliff:g id="count" example="1">%1$d</xliff:g> جاري التحميل</item>
+	<item quantity="one"><xliff:g id="count" example="2">%1$d</xliff:g> جاري تحميل التطبيق</item>
+	<item quantity="two"><xliff:g id="count" example="2">%1$d</xliff:g> جاري تحميل التطبيقان</item>
+	<item quantity="few"><xliff:g id="count" example="2">%1$d</xliff:g>جاري تحميل التطبيقات</item>
+	<item quantity="many"><xliff:g id="count" example="2">%1$d</xliff:g>جاري تحميل التطبيقات</item>
+	<item quantity="other"><xliff:g id="count" example="2">%1$d</xliff:g>جاري تحميل التطبيقات</item>
+</plurals>
     <string name="downloads_complete">تم الإنتهاء من التحميل</string>
     <string name="touch_for_view_all_downloads">إنقر هنا لعرض جميع التحميلات</string>
     <string name="_name__download_failed"><xliff:g id="name" example="APKPure">%1$s</xliff:g> فشل التحميل</string>
     <string name="touch_to_download_it_again">إضغط هنا لإعادة التحميل</string>
 
     <string name="download_percent"><xliff:g id="percent" example="50">%1$d</xliff:g> %%</string>
-    <string name="pause">إيقاف</string>
-    <string name="continue_">تابع</string>
+    <string name="pause">إيقاف مؤقت</string>
+    <string name="continue_">متابعة</string>
     <string name="restart">إعادة التحميل</string>
     <string name="download">تحميل</string>
     <string name="downloading">جاري التحميل</string>
@@ -134,7 +142,7 @@
     <string name="join_us">انضم إلينا</string>
     <string name="skip">تخطي</string>
 
-    <string name="_name__is_up_to_date">.<xliff:g id="name" example="APKPure">%1$s</xliff:g> محدث لآخر إصدار</string>
+    <string name="_name__is_up_to_date"><xliff:g id="name" example="APKPure">%1$s</xliff:g> محدث لآخر إصدار.</string>
     <string name="new_version_available_title">يوجد إصدار جديد</string>
     <string name="new_version_available_message">
         <![CDATA[<b>آخر إصدار:</b> %1$s<br><br><b>مالجديد:</b><br>%2$s]]>
@@ -151,7 +159,7 @@
     <string name="failed_to_request_app_detail">فشل في الوصول لمعلومات التطبيق.</string>
     <string name="failed_to_request_app_asset">فشل في طلب الوصول لعناصر التطبيق.</string>
     <string name="incompatible_this_app">" &lt;big&gt;&lt;b&gt;&lt;font color=%1$d&gt;جهازك غير متوافق مع هذا التطبيق.&lt;/font&gt;&lt;/b&gt;&lt;/big&gt;&lt;br&gt;&lt;br&gt;هل تريد المتابعة? "</string>
-    <string name="this_app_not_usable">" &lt;big&gt;&lt;b&gt;&lt;font color=%1$d&gt;هذا التطبيق قد لايكون صالح للاستخدام.&lt;/font&gt;&lt;/b&gt;&lt;/big&gt;&lt;br&gt;&lt;br&gt;هل تريد المتابعة? "</string>
+    <string name="this_app_not_usable">" &lt;big&gt;&lt;b&gt;&lt;font color=%1$d&gt; هذا التطبيق قد لايكون صالح للاستخدام.&lt;/font&gt;&lt;/b&gt;&lt;/big&gt;&lt;br&gt;&lt;br&gt; هل تريد المتابعة? "</string>
 
     <string name="setting">الضبط</string>
     <string name="external_storage_not_usable">
@@ -167,7 +175,7 @@
     <string name="_name__version_history"><xliff:g id="name" example="APKPure">%1$s</xliff:g> إصدارات سابقة من</string>
     <string name="update__date___size_">تحديث: <xliff:g id="date" example="Mar 3, 2016">%1$s</xliff:g>, <xliff:g id="size" example="1024 kB">%2$s</xliff:g></string>
 <string name="properties">خصائص</string>
-    <string name="properties_message">" &lt;b&gt;الموقع:&lt;/b&gt; %1$s&lt;br&gt;&lt;b&gt;حجم:&lt;/b&gt; %2$s&lt;br&gt;&lt;b&gt;أحر تعديل:&lt;/b&gt; %3$s "</string>
+    <string name="properties_message">" &lt;b&gt;المسار:&lt;/b&gt; %1$s&lt;br&gt;&lt;b&gt;حجم:&lt;/b&gt; %2$s&lt;br&gt;&lt;b&gt;أحر تعديل:&lt;/b&gt; %3$s "</string>
     <string name="delete_downloaded_file">حذف الملف المحمل</string>
 
     <string name="update_all">تحديث الكل</string>
