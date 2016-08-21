@@ -1,6 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<resources
-    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<?xml version='1.0' encoding='UTF-8'?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
     <string name="action_settings">Impostazioni</string>
     <string name="action_search">Cerca</string>
@@ -95,7 +94,7 @@
 	    <item quantity="other"><xliff:g id="count" example="2">%1$d</xliff:g> aggiornamenti disponibili</item>
     </plurals>
 
-    <string name="launching_please_wait">AVVIO, ATTENDERE…</string>
+    <string name="launching_please_wait">Avvio, attendere…</string>
 
     <plurals name="_count__item_is_downloading">
 	<item quantity="one"><xliff:g id="count" example="1">%1$d</xliff:g> elemento in download</item>
@@ -176,4 +175,21 @@
     <string name="language">Lingua</string>
     <string name="auto">Auto</string>
 
-</resources>
+<string name="properties">Proprietà</string>
+    <string name="properties_message">" &lt;b&gt;Percorso:&lt;/b&gt; %1$s&lt;br&gt;&lt;b&gt;Size:&lt;/b&gt; %2$s&lt;br&gt;&lt;b&gt;Ultima modifica:&lt;/b&gt; %3$s "</string>
+    <string name="delete_downloaded_file">Elimina file scaricato</string>
+
+    <string name="update_all">Aggiorna tutto</string>
+    <string name="update___count__">Aggiorna (<xliff:g id="count" example="3">%1$d</xliff:g>)</string>
+    <string name="ignore">Ignora</string>
+    <string name="unignore">Riattiva</string>
+    <string name="select">Seleziona</string>
+    <string name="cancel">Annulla</string>
+    <string name="ignored">Ignorati</string>
+    <plurals name="total__count__apps__size_">
+	<item quantity="one">" Totale: &lt;b&gt;&lt;font color=%1$d&gt;%2$d&lt;/font&gt;&lt;/b&gt; app, &lt;b&gt;&lt;font color=%1$d&gt;%3$s&lt;/font&gt;&lt;/b&gt; "</item>
+	<item quantity="other">" Totale: &lt;b&gt;&lt;font color=%1$d&gt;%2$d&lt;/font&gt;&lt;/b&gt; app, &lt;b&gt;&lt;font color=%1$d&gt;%3$s&lt;/font&gt;&lt;/b&gt; "</item>
+</plurals>
+    <string name="total_zero_app">" Totale: &lt;b&gt;&lt;font color=%1$d&gt;0&lt;/font&gt;&lt;/b&gt; app "</string>
+
+    </resources>
