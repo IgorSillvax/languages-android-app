@@ -201,6 +201,12 @@
     <string name="general">General</string>
     <string name="language">Language</string>
     <string name="auto">Auto</string>
+    <string name="installation">Installation</string>
+    <string name="show_notification_after_installation">Show notification after installation</string>
+    <string name="delete_packages_after_installation">Delete packages after installation</string>
+
+    <string name="_name__installation_completed"><xliff:g id="name" example="APKPure">%1$s</xliff:g> installation completed</string>
+    <string name="touch_to_open">Touch to open.</string>
 
     <string-array name="language_entries" translatable="false">
         <item>@string/auto</item>
