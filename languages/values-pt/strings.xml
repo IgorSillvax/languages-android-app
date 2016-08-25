@@ -48,16 +48,16 @@
         <![CDATA[<b>Path:</b> %1$s<br><b>Size:</b> %2$s<br><b>Última modificação:</b> %3$s]]>
     </string>
     <string name="want_to_delete_file">Você deseja excluir este arquivo?</string>
-    <string name="file_has_been_deleted">O arquivo foi apagado. </string>
+    <string name="file_has_been_deleted">O arquivo foi apagado.</string>
     <string name="failed_to_delete_file">Falha ao excluir o arquivo.</string>
     <string name="install__label_">Instalar - <xliff:g id="app_label" example="APKPure">%1$s</xliff:g></string>
     <string name="user_canceled">Usuário Cancelado.</string>
     <string name="io_error">de erro IO. Pode ser que não há espaço livre suficiente para a instalação de sucesso.</string>
-    <string name="file_format_error">erro do formato do arquivo</string>
-    <string name="parsing_xapk">Analisando XAPK ...</string>
-    <string name="installing_obb">Instalação de arquivos OBB ...</string>
-    <string name="extracting_apk">Extraindo arquivo APK ...</string>
-    <string name="installing_apk">Instalando APK ...</string>
+    <string name="file_format_error">Erro do formato do arquivo.</string>
+    <string name="parsing_xapk">Analisando XAPK …</string>
+    <string name="installing_obb">Instalação de arquivos OBB …</string>
+    <string name="extracting_apk">Extraindo arquivo APK …</string>
+    <string name="installing_apk">Instalando APK …</string>
 
     <string name="uninstall">Desinstalar</string>
     <string name="uninstalled">Desinstalado</string>
@@ -65,7 +65,7 @@
 
     <string name="all">Todos</string>
 
-    <string name="screenshots">SCREENSHOTS</string>
+    <string name="screenshots">Captura de Tela</string>
     <string name="description">Descrição</string>
     <string name="whatsnew">O que há de novo</string>
     <string name="information">Informação</string>
@@ -83,15 +83,15 @@
     <string name="unknown">Desconhecido</string>
     <string name="_ellipsis_"> … </string>
 
-    <string name="market_response_error_success">Sucess.</string>
+    <string name="market_response_error_success">Sucesso.</string>
     <string name="market_response_error_invalid_result">resultado inválido.</string>
-    <string name="market_response_error_network_connect_error">Erro ao Conectar na Rede</string>
+    <string name="market_response_error_network_connect_error">Erro ao Conectar na Rede.</string>
     <string name="market_response_error_network_read_error">Erro de Leitura da Rede.</string>
     <string name="market_response_error_invalid_response_code">código de resposta inválido.</string>
-    <string name="market_response_error_invalid_response_body">corpo de resposta inválido.</string>
+    <string name="market_response_error_invalid_response_body">Corpo de resposta inválido.</string>
     <string name="market_response_error_unknown_error__error_">Erro desconhecido (<xliff:g id="error" example="SUCCESS">%1$s</xliff:g>).</string>
 
-    <string name="no_more">Não mais</string>
+    <string name="no_more">Não mais.</string>
 
     <string name="update">Atualizar</string>
     <string name="version__version___size_">Versão: <xliff:g id="version" example="1.0.0">%1$s</xliff:g>, <xliff:g id="size" example="1024 kB">%2$s</xliff:g></string>
@@ -106,7 +106,7 @@
         <item quantity="one"><xliff:g id="count" example="1">%1$d</xliff:g> item está baixando</item>
         <item quantity="other"><xliff:g id="count" example="2">%1$d</xliff:g> itens estão baixando</item>
     </plurals>
-    <string name="downloads_complete"> downloads completos</string>
+    <string name="downloads_complete">Downloads completo</string>
     <string name="touch_for_view_all_downloads">Toque para Ver todos os downloads</string>
     <string name="_name__download_failed"><xliff:g id="name" example="APKPure">%1$s</xliff:g> transferência falhou</string>
     <string name="touch_to_download_it_again">Toque para baixá-lo novamente</string>
@@ -115,7 +115,7 @@
     <string name="pause">Pausa</string>
     <string name="continue_">Continuar</string>
     <string name="restart">Reiniciar</string>
-    <string name="download">Baixar.</string>
+    <string name="download">Baixar</string>
     <string name="downloading">Baixando</string>
     <string name="waiting">Esperando</string>
     <string name="preparing">Preparando</string>
@@ -149,7 +149,7 @@
 
     <string name="report__">Relatório…</string>
     <string name="report_problem__">Reportar problema…</string>
-    <string name="report_problem_subject">Reportar problema…</string>
+    <string name="report_problem_subject">Reportar problema</string>
     <string name="report_problem_text">tópico problema:\n%1$s\n\ndetalhe do problema::\n%2$s</string>
 
     <string name="installation_failed">Instalação falhada</string>
@@ -179,21 +179,15 @@
     <string name="update_all">Atualizar tudo</string>
     <string name="update___count__">Atualização (<xliff:g id="count" example="3">%1$d</xliff:g>)</string>
     <string name="ignore">Ignorar</string>
-    <string name="unignore">Unignore</string>
+    <string name="unignore">Ignore</string>
     <string name="select">Selecionar</string>
     <string name="cancel">Cancelar</string>
     <string name="ignored">Ignorar</string>
     <plurals name="total__count__apps__size_">
-        <item quantity="one">
-            <![CDATA[Total: <b><font color="%1$d">%2$d</font></b> app, <b><font color="%1$d">%3$s</font></b>]]>
-        </item>
-        <item quantity="other">
-            <![CDATA[Total: <b><font color="%1$d">%2$d</font></b> apps, <b><font color="%1$d">%3$s</font></b>]]>
-        </item>
-    </plurals>
-    <string name="total_zero_app">
-        <![CDATA[Total: <b><font color="%1$d">0</font></b> app]]>
-    </string>
+	<item quantity="one">" Total: &lt;b&gt;&lt;fazer cor=%1$d&gt;%2$d&lt;/fazer&gt;&lt;/b&gt; app, &lt;b&gt;&lt;fazer cor=%1$d&gt;%3$s&lt;/fazer&gt;&lt;/b&gt; "</item>
+	<item quantity="other">" Total: &lt;b&gt;&lt;fazer cor=%1$d&gt;%2$d&lt;/fazer&gt;&lt;/b&gt; apps, &lt;b&gt;&lt;fazer cor=%1$d&gt;%3$s&lt;/fazer&gt;&lt;/b&gt; "</item>
+</plurals>
+    <string name="total_zero_app">" Total: &lt;b&gt;&lt;fazer cor=%1$d&gt;0&lt;/fazer&gt;&lt;/b&gt; app "</string>
 
     <string name="general">Geral</string>
     <string name="language">Idioma</string>
