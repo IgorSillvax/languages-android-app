@@ -1,6 +1,5 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources
-    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<?xml version='1.0' encoding='UTF-8'?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
     <string name="app_name" translatable="false">APKPure</string>
 
@@ -10,10 +9,10 @@
 
     <string name="press_back_key_quit">Pressione a tecla Voltar mais uma vez para sair.</string>
 
-    <string name="featured">Destaque</string>
-    <string name="games">Jogos</string>
-    <string name="apps">Aplicativos</string>
-    <string name="categories">Categorias</string>
+    <string name="featured">DESTAQUE</string>
+    <string name="games">JOGOS</string>
+    <string name="apps">APLICATIVOS</string>
+    <string name="categories">CATEGORIAS</string>
     <string name="updates">Atualizações</string>
 
     <string name="something_happened">&gt;_&lt;\nAlgo aconteceu.</string>
@@ -66,7 +65,7 @@
 
     <string name="all">Todos</string>
 
-    <string name="screenshots">Screenshots</string>
+    <string name="screenshots">SCREENSHOTS</string>
     <string name="description">Descrição</string>
     <string name="whatsnew">O que há de novo</string>
     <string name="information">Informação</string>
@@ -101,7 +100,7 @@
         <item quantity="other"><xliff:g id="count" example="2">%1$d</xliff:g>novas atualizações estão disponíveis </item>
     </plurals>
 
-    <string name="launching_please_wait">Lançamento, aguarde ...</string>
+    <string name="launching_please_wait">Lançamento, aguarde…</string>
 
     <plurals name="_count__item_is_downloading">
         <item quantity="one"><xliff:g id="count" example="1">%1$d</xliff:g> item está baixando</item>
@@ -114,7 +113,7 @@
 
     <string name="download_percent"><xliff:g id="percent" example="50">%1$d</xliff:g> %%</string>
     <string name="pause">Pausa</string>
-    <string name="continue_">Continue</string>
+    <string name="continue_">Continuar</string>
     <string name="restart">Reiniciar</string>
     <string name="download">Baixar.</string>
     <string name="downloading">Baixando</string>
@@ -158,9 +157,7 @@
     <string name="invalid_app_asset">informações de ativos aplicativo inválido.</string>
     <string name="failed_to_request_app_detail">Falha ao solicitar informações detalhadas do  app.</string>
     <string name="failed_to_request_app_asset">Falha ao solicitar informações do aplicativo.</string>
-    <string name="incompatible_this_app">
-        <![CDATA[<big><b><font color="%1$d">O dispositivo não é compatível com este aplicativo.</font></b></big><br><br>Você quer continuar?]]>
-    </string>
+    <string name="incompatible_this_app">" big&gt;&lt;b&gt;&lt;font color=% 1 $ d&gt; O dispositivo não é compatível com este aplicativo. &lt;/ font&gt; &lt;/ b&gt; &lt;/ big&gt;&lt;br&gt; Você quer continuar? "</string>
     <string name="this_app_not_usable">
         <![CDATA[<big><b><font color="%1$d">este aplicativo não pode ser útil.</font></b></big><br><br>Você quer continuar?]]>
     </string>
@@ -201,4 +198,11 @@
     <string name="general">Geral</string>
     <string name="language">Idioma</string>
     <string name="auto">Automatico</string>
-</resources>
+<string name="installation">Instalação</string>
+    <string name="show_notification_after_installation">Mostrar notificação após a instalação</string>
+    <string name="delete_packages_after_installation">Apagar pacotes após a instalação</string>
+
+    <string name="_name__installation_completed"><xliff:g id="Nome" exemplo="APKPure"> 1 %1$s</xliff:g> 2 Instalação completa</string>
+    <string name="touch_to_open">Toque para abrir.</string>
+
+    </resources>
