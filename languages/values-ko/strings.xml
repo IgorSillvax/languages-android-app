@@ -1,6 +1,5 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources
-    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<?xml version='1.0' encoding='UTF-8'?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
     <string name="action_settings">설정</string>
     <string name="action_search">찾기</string>
@@ -14,27 +13,25 @@
     <string name="categories">카테고리</string>
     <string name="updates">업데이트</string>
 
-    <string name="something_happened">&gt;_&lt;\n뭔가 발생함.</string>
+    <string name="something_happened">&gt;_&lt;\n어떤 문제가 있어요...</string>
 
-    <string name="load_failed_error">로딩 에러.</string>
-    <string name="load_failed_empty">로딩 에러. 아무것도 없습니다.</string>
-    <string name="load_failed_all_up_to_date">업데이트 되어야 함.</string>
-    <string name="load_failed_no_results">죄송합니다! 아무 결과가 발견되지 않았습니다.</string>
-    <string name="refresh">다시 시행하세요</string>
+    <string name="load_failed_error">아이쿠! 로딩 에러...</string>
+    <string name="load_failed_empty">이곳에는 아무것도 없군요.</string>
+    <string name="load_failed_all_up_to_date">모든 앱이 업데이트 되어야함.</string>
+    <string name="load_failed_no_results">죄송해요! 찾을수 없네요...</string>
+    <string name="refresh">새로고침</string>
 
     <string name="management">관리</string>
     <string name="app_updates">앱 업데이트</string>
     <string name="app_management">앱 관리</string>
     <string name="app_uninstall">앱 지우기</string>
     <string name="apk_management">앱 관리</string>
-    <string name="apk_xapk_management">앱 관리</string>
+    <string name="apk_xapk_management">APK/XAPK 관리</string>
     <string name="download_management">다운로드 관리</string>
     <string name="settings">설정</string>
-    <string name="about">버전 정보</string>
+    <string name="about">정보</string>
     <string name="about_title">버전 정보 <xliff:g id="app_name" example="APKPure">%1$s</xliff:g></string>
-    <string name="about_message">
-        <![CDATA[<b>Version:</b> %1$s<br><br><b>Website:</b> <a href="%2$s">%2$s</a><br><b>Contact Us:</b> <a href="mailto:%3$s">%3$s</a>]]>
-    </string>
+    <string name="about_message">" &lt;b&gt;버전:&lt;/b&gt; %1$s&lt;br&gt;&lt;br&gt;&lt;b&gt;웹사이트:&lt;/b&gt; &lt;a href=%2$s&gt;%2$s&lt;/a&gt;&lt;br&gt;&lt;b&gt;연락처:&lt;/b&gt; &lt;a href=mailto:%3$s&gt;%3$s&lt;/a&gt; "</string>
     <string name="check_update">업데이트 체크</string>
     <string name="quit">나가기</string>
     <string name="want_to_quit">나가기 원하세요?</string>
@@ -136,16 +133,14 @@
     <string name="join_us">가입하시오</string>
     <string name="skip">건너 뛰세요</string>
 
-    <string name="_name__is_up_to_date"><xliff:g id="name" example="APKPure">%1$s</xliff:g> is up to date.</string>
+    <string name="_name__is_up_to_date"><xliff:g id="name" example="APKPure">%1$s</xliff:g> 이(가) 업데이트가 필요합니다!</string>
     <string name="new_version_available_title">새 버전이 가능함</string>
-    <string name="new_version_available_message">
-        <![CDATA[<b>Latest Version:</b> %1$s<br><br><b>What\'s New:</b><br>%2$s]]>
-    </string>
+    <string name="new_version_available_message">" &lt;b&gt;최근 버전:&lt;/b&gt; %1$s&lt;br&gt;&lt;br&gt;&lt;b&gt;새로운 기능:&lt;/b&gt;&lt;br&gt;%2$s "</string>
 
-    <string name="report__">보고하시요…</string>
-    <string name="report_problem__">문제점을 보고하시요…</string>
-    <string name="report_problem_subject">문제점을 보고하시요</string>
-    <string name="report_problem_text">Problem topic:\n%1$s\n\nProblem detail:\n%2$s</string>
+    <string name="report__">보고서…</string>
+    <string name="report_problem__">문제점을 보고…</string>
+    <string name="report_problem_subject">문제점을 보고</string>
+    <string name="report_problem_text">문제 토픽:\n%1$s\n\n자세한 문제:\n%2$s</string>
 
     <string name="installation_failed">설치 실패함</string>
     <string name="invalid_app_detail">유효하지 않은 앱 정보.</string>
@@ -195,4 +190,7 @@
     <string name="general">일반</string>
     <string name="language">언어</string>
     <string name="auto">자동</string>
-</resources>
+<string name="search_history">역사</string>
+    <string name="clear_search_history">역사 초기화</string>
+
+    </resources>
