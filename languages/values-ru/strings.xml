@@ -1,5 +1,6 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<?xml version="1.0" encoding="utf-8"?>
+<resources
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
     <string name="action_settings">Настройки</string>
     <string name="action_search">Поиск</string>
@@ -90,20 +91,20 @@
     <string name="update">Обновить</string>
     <string name="version__version___size_">Версия: <xliff:g id="version" example="1.0.0">%1$s</xliff:g>, <xliff:g id="size" example="1024 kB">%2$s</xliff:g></string>
     <plurals name="_count__new_update_is_available">
-	<item quantity="one"><xliff:g id="count" example="1">%1$d</xliff:g> доступно новое обновление</item>
-	<item quantity="few"><xliff:g id="count" example="2">%1$d</xliff:g> доступны новые обновления</item>
-	<item quantity="many"><xliff:g id="count" example="2">%1$d</xliff:g> доступны новые обновления</item>
-	<item quantity="other"/>
-</plurals>
+        <item quantity="one"><xliff:g id="count" example="1">%1$d</xliff:g> доступно новое обновление</item>
+        <item quantity="few"><xliff:g id="count" example="2">%1$d</xliff:g> доступны новые обновления</item>
+        <item quantity="many"><xliff:g id="count" example="2">%1$d</xliff:g> доступны новые обновления</item>
+        <item quantity="other"/>
+    </plurals>
 
     <string name="launching_please_wait">Запускается, пожалуйста подождите…</string>
 
     <plurals name="_count__item_is_downloading">
-	<item quantity="one"><xliff:g id="count" example="1">%1$d</xliff:g> загружается</item>
-	<item quantity="few"><xliff:g id="count" example="2">%1$d</xliff:g> загружаются</item>
-	<item quantity="many"><xliff:g id="count" example="2">%1$d</xliff:g> загружаются</item>
-	<item quantity="other"/>
-</plurals>
+        <item quantity="one"><xliff:g id="count" example="1">%1$d</xliff:g> загружается</item>
+        <item quantity="few"><xliff:g id="count" example="2">%1$d</xliff:g> загружаются</item>
+        <item quantity="many"><xliff:g id="count" example="2">%1$d</xliff:g> загружаются</item>
+        <item quantity="other"/>
+    </plurals>
     <string name="downloads_complete">Загружены полностью</string>
     <string name="touch_for_view_all_downloads">Коснитесь, чтобы увидеть все загрузки</string>
     <string name="_name__download_failed"><xliff:g id="name" example="APKPure">%1$s</xliff:g> Не удалось скачать</string>
@@ -154,8 +155,12 @@
     <string name="invalid_app_asset">Ошибка ресурса приложении.</string>
     <string name="failed_to_request_app_detail">Ошибка детали приложения.</string>
     <string name="failed_to_request_app_asset">Ошибка запроса ресурса приложении.</string>
-    <string name="incompatible_this_app">" &lt;big&gt;&lt;b&gt;&lt;font color=%1$d&gt;Ваше устройство не совместимо с этим приложением.&lt;/font&gt;&lt;/b&gt;&lt;/big&gt;&lt;br&gt;&lt;br&gt;Хотите продолжить? "</string>
-    <string name="this_app_not_usable">" &lt;big&gt;&lt;b&gt;&lt;font color=%1$d&gt;Это приложение может не работать.&lt;/font&gt;&lt;/b&gt;&lt;/big&gt;&lt;br&gt;&lt;br&gt;Хотите продолжить? "</string>
+    <string name="incompatible_this_app">
+        <![CDATA[<big><b><font color="%1$d">Ваше устройство не совместимо с этим приложением.</font></b></big><br><br>Хотите продолжить?]]>
+    </string>
+    <string name="this_app_not_usable">
+        <![CDATA[<big><b><font color="%1$d">Это приложение может не работать.</font></b></big><br><br>Хотите продолжить?]]>
+    </string>
 
     <string name="setting">Настроить</string>
     <string name="external_storage_not_usable">
@@ -170,12 +175,14 @@
 
     <string name="_name__version_history"><xliff:g id="name" example="APKPure">%1$s</xliff:g> История весий</string>
     <string name="update__date___size_">Обновлено: <xliff:g id="date" example="Mar 3, 2016">%1$s</xliff:g>, <xliff:g id="size" example="1024 kB">%2$s</xliff:g></string>
-<string name="general">Основное</string>
+    <string name="general">Основное</string>
     <string name="language">Язык</string>
     <string name="auto">Авто</string>
 
     <string name="properties">Характеристики</string>
-    <string name="properties_message">" &lt;b&gt;Путь:&lt;/b&gt; %1$s&lt;br&gt;&lt;b&gt;Размер:&lt;/b&gt; %2$s&lt;br&gt;&lt;b&gt;Изменён:&lt;/b&gt; %3$s "</string>
+    <string name="properties_message">
+        <![CDATA[<b>Путь:</b> %1$s<br><b>Размер:</b> %2$s<br><b>Изменён:</b> %3$s]]>
+    </string>
     <string name="delete_downloaded_file">Удалить загруженные файлы</string>
 
     <string name="update_all">Обновить всё</string>
@@ -186,9 +193,15 @@
     <string name="cancel">Отмена</string>
     <string name="ignored">Игнорируемые</string>
     <plurals name="total__count__apps__size_">
-	<item quantity="one">" Всего: &lt;b&gt;&lt;font color=%1$d&gt;%2$d&lt;/font&gt;&lt;/b&gt; приложение, &lt;b&gt;&lt;font color=%1$d&gt;%3$s&lt;/font&gt;&lt;/b&gt; "</item>
-	<item quantity="other">" Всего: &lt;b&gt;&lt;font color=%1$d&gt;%2$d&lt;/font&gt;&lt;/b&gt; приложений, &lt;b&gt;&lt;font color=%1$d&gt;%3$s&lt;/font&gt;&lt;/b&gt; "</item>
-</plurals>
-    <string name="total_zero_app">" Всего: &lt;b&gt;&lt;font color=%1$d&gt;0&lt;/font&gt;&lt;/b&gt; приложений "</string>
+        <item quantity="one">
+            <![CDATA[Всего: <b><font color="%1$d">%2$d</font></b> приложение, <b><font color="%1$d">%3$s</font></b>]]>
+        </item>
+        <item quantity="other">
+            <![CDATA[Всего: <b><font color="%1$d">%2$d</font></b> приложений, <b><font color="%1$d">%3$s</font></b>]]>
+        </item>
+    </plurals>
+    <string name="total_zero_app">
+        <![CDATA[Всего: <b><font color="%1$d">0</font></b> приложений]]>
+    </string>
 
     </resources>

@@ -1,5 +1,6 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<?xml version="1.0" encoding="utf-8"?>
+<resources
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
     <string name="action_settings">Configuración</string>
     <string name="action_search">Buscar</string>
@@ -153,8 +154,12 @@
     <string name="invalid_app_asset">La informacion de los activos de la Aplicacion no es Valida.</string>
     <string name="failed_to_request_app_detail">Error al solicitar información detallada de aplicación.</string>
     <string name="failed_to_request_app_asset">Error al solicitar información de los activos de aplicaciones.</string>
-    <string name="incompatible_this_app">" &lt;big&gt;&lt;b&gt;&lt;font color=%1$d&gt;El dispositivo no es compatible con esta aplicación.&lt;/font&gt;&lt;/b&gt;&lt;/big&gt;&lt;br&gt;&lt;br&gt;Esta seguro de que quiere continuar? "</string>
-    <string name="this_app_not_usable">" &lt;big&gt;&lt;b&gt;&lt;font color=%1$d&gt;Esta aplicación puede no ser utilizable.&lt;/font&gt;&lt;/b&gt;&lt;/big&gt;&lt;br&gt;&lt;br&gt;Esta seguro de que quiere continuar? "</string>
+    <string name="incompatible_this_app">
+        <![CDATA[<big><b><font color="%1$d">El dispositivo no es compatible con esta aplicación.</font></b></big><br><br>Esta seguro de que quiere continuar?]]>
+    </string>
+    <string name="this_app_not_usable">
+        <![CDATA[<big><b><font color="%1$d">Esta aplicación puede no ser utilizable.</font></b></big><br><br>Esta seguro de que quiere continuar?]]>
+    </string>
 
     <string name="setting">Configuracion</string>
     <string name="external_storage_not_usable">
@@ -171,8 +176,10 @@
     <string name="update__date___size_">Actualizacion: <xliff:g id="date" example="Mar 3, 2016">%1$s</xliff:g>, <xliff:g id="size" example="1024 kB">%2$s</xliff:g></string>
 
     <string name="parsing_xapk">Analisis sintetico de XAPK …</string>
-<string name="properties">Propiedades</string>
-    <string name="properties_message">" &lt;b&gt;Camino:&lt;/b&gt; %1$s&lt;br&gt;&lt;b&gt;Tamaño:&lt;/b&gt; %2$s&lt;br&gt;&lt;b&gt;Última modificación:&lt;/b&gt; %3$s "</string>
+    <string name="properties">Propiedades</string>
+    <string name="properties_message">
+        <![CDATA[<b>Camino:</b> %1$s<br><b>Tamaño:</b> %2$s<br><b>Última modificación:</b> %3$s]]>
+    </string>
     <string name="delete_downloaded_file">Eliminar el archivo descargado</string>
 
     <string name="update_all">Actualizar todo</string>
@@ -183,9 +190,14 @@
     <string name="cancel">Cancelar</string>
     <string name="ignored">Ignorados</string>
     <plurals name="total__count__apps__size_">
-	<item quantity="one">" Total: &lt;b&gt;&lt;font color=%1$d&gt;%2$d&lt;/font&gt;&lt;/b&gt; aplicación, &lt;b&gt;&lt;font color=%1$d&gt;%3$s&lt;/font&gt;&lt;/b&gt; "</item>
-	<item quantity="other">" Total: &lt;b&gt;&lt;font color=%1$d&gt;%2$d&lt;/font&gt;&lt;/b&gt; aplicaciones, &lt;b&gt;&lt;font color=%1$d&gt;%3$s&lt;/font&gt;&lt;/b&gt; "</item>
-</plurals>
-    <string name="total_zero_app">" Total: &lt;b&gt;&lt;font color=%1$d&gt;0&lt;/font&gt;&lt;/b&gt; aplicación "</string>
-
-    </resources>
+        <item quantity="one">
+            <![CDATA[Total: <b><font color="%1$d">%2$d</font></b> aplicación, <b><font color="%1$d">%3$s</font></b>]]>
+        </item>
+        <item quantity="other">
+            <![CDATA[Total: <b><font color="%1$d">%2$d</font></b> aplicaciones, <b><font color="%1$d">%3$s</font></b>]]>
+        </item>
+    </plurals>
+    <string name="total_zero_app">
+        <![CDATA[Total: <b><font color="%1$d">0</font></b> aplicación]]>
+    </string>
+</resources>
