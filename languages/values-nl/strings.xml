@@ -1,21 +1,24 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<resources><string name="updates">Updates\n\nBijwerken</string>
+<?xml version="1.0" encoding="utf-8"?>
+<resources
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <string name="updates">Bijwerken</string>
 
     <string name="action_settings">Instellingen</string>
     <string name="action_search">Zoeken</string>
-    <string name="action_management">Beheer\n\nBeheren</string>
+    <string name="action_management">Beheren</string>
 
     <string name="press_back_key_quit">Druk nogmaals op de Back-toets en sluit af.</string>
 
-    <string name="featured">Aanbevolen\n\nMarkeren</string>
+    <string name="featured">Aanbevolen</string>
     <string name="games">Spellen</string>
-    <string name="apps">Apps\n\nToepassing</string>
+    <string name="apps">Toepassing</string>
     <string name="categories">Categorieën</string>
     <string name="something_happened">&gt;_&lt;\nEr is iets gebeurd.</string>
 
     <string name="load_failed_error">Oeps! Er is een fout opgetreden.</string>
     <string name="load_failed_empty">Er is hier niets.</string>
-    <string name="load_failed_all_up_to_date">Alle apps zijn up -to-date.\n\nAl uw apps zijn up -to-date.</string>
+    <string name="load_failed_all_up_to_date">Alle apps zijn up-to-date.\n\nAl uw apps zijn up-to-date.</string>
     <string name="load_failed_no_results">Sorry! Geen resultaten gevonden.</string>
     <string name="refresh">Vernieuwen</string>
 
@@ -28,8 +31,10 @@
     <string name="download_management">Download-beheer</string>
     <string name="settings">Instellingen</string>
     <string name="about">Over</string>
-    <string xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" name="about_title">Over <xliff:g id="app_name" example="APKPure">%1$s</xliff:g></string>
-    <string name="about_message">" &lt;b&gt;Versie:&lt;/b&gt; %1$s&lt;br&gt;&lt;br&gt;&lt;b&gt;Website:&lt;/b&gt; &lt;a href=%2$s&gt;%2$s&lt;/a&gt;&lt;br&gt;&lt;b&gt;Neem contact op:&lt;/b&gt; &lt;a href=mailto:%3$s&gt;%3$s&lt;/a&gt; "</string>
+    <string name="about_title">Over <xliff:g id="app_name" example="APKPure">%1$s</xliff:g></string>
+    <string name="about_message">
+        <![CDATA[<b>Versie:</b> %1$s<br><br><b>Website:</b> <a href=%2$s>%2$s</a><br><b>Neem contact op:</b> <a href=mailto:%3$s>%3$s</a>]]>
+    </string>
     <string name="check_update">Bekijk Update</string>
     <string name="quit">Afsluiten</string>
     <string name="want_to_quit">Weet je zeker dat je wil afsluiten?</string>
@@ -38,11 +43,13 @@
     <string name="open">Openen</string>
     <string name="delete">Verwijderen</string>
     <string name="properties">Eigenschappen</string>
-    <string name="properties_message">" &lt;b&gt;Doel:&lt;/b&gt; %1$s&lt;br&gt;&lt;b&gt;Grootte:&lt;/b&gt; %2$s&lt;br&gt;&lt;b&gt;Laatst Gewijzigd:&lt;/b&gt; %3$s "</string>
+    <string name="properties_message">
+        <![CDATA[<b>Doel:</b> %1$s<br><b>Grootte:</b> %2$s<br><b>Laatst Gewijzigd:</b> %3$s]]>
+    </string>
     <string name="want_to_delete_file">Wil je dit bestand verwijderen?</string>
     <string name="file_has_been_deleted">Het bestand is verwijderd.</string>
     <string name="failed_to_delete_file">Bestand verwijderen mislukt.</string>
-    <string xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" name="install__label_">Installeren - <xliff:g id="app_label" example="APKPure">%1$s</xliff:g></string>
+    <string name="install__label_">Installeren - <xliff:g id="app_label" example="APKPure">%1$s</xliff:g></string>
     <string name="user_canceled">Gebruiker heeft geannuleerd.</string>
     <string name="io_error">IO-fout. Er is wellicht te weinig beschikbare ruimte om de installatie te voltooien.</string>
     <string name="file_format_error">Bestandsindelingfout.</string>
@@ -53,7 +60,7 @@
 
     <string name="uninstall">Deïnstalleren</string>
     <string name="uninstalled">Gedeïnstalleerd</string>
-    <string xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" name="last_update__date_">Laatste update: <xliff:g id="date">%1$s</xliff:g></string>
+    <string name="last_update__date_">Laatste update: <xliff:g id="date">%1$s</xliff:g></string>
 
     <string name="all">Alles</string>
 
@@ -81,29 +88,29 @@
     <string name="market_response_error_network_read_error">Netwerkleesfout.</string>
     <string name="market_response_error_invalid_response_code">Ongeldige reactiecode.</string>
     <string name="market_response_error_invalid_response_body">Ongeldige reactieinhoud.</string>
-    <string xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" name="market_response_error_unknown_error__error_">Onbekende fout (<xliff:g id="error" example="SUCCESS">%1$s</xliff:g>).</string>
+    <string name="market_response_error_unknown_error__error_">Onbekende fout (<xliff:g id="error" example="SUCCESS">%1$s</xliff:g>).</string>
 
     <string name="no_more">Niets meer.</string>
 
     <string name="update">Updaten</string>
-    <string xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" name="version__version___size_">Versie: <xliff:g id="version" example="1.0.0">%1$s</xliff:g>, <xliff:g id="size" example="1024 kB">%2$s</xliff:g></string>
-    <plurals xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" name="_count__new_update_is_available">
-	<item quantity="one"><xliff:g id="count" example="1">%1$d</xliff:g> nieuwe update is beschikbaar</item>
-	<item quantity="other"><xliff:g id="count" example="2">%1$d</xliff:g> nieuwe updates zijn beschikbaar</item>
-</plurals>
+    <string name="version__version___size_">Versie: <xliff:g id="version" example="1.0.0">%1$s</xliff:g>, <xliff:g id="size" example="1024 kB">%2$s</xliff:g></string>
+    <plurals name="_count__new_update_is_available">
+        <item quantity="one"><xliff:g id="count" example="1">%1$d</xliff:g> nieuwe update is beschikbaar</item>
+        <item quantity="other"><xliff:g id="count" example="2">%1$d</xliff:g> nieuwe updates zijn beschikbaar</item>
+    </plurals>
 
     <string name="launching_please_wait">Aan het starten, een moment geduld…</string>
 
-    <plurals xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" name="_count__item_is_downloading">
-	<item quantity="one"><xliff:g id="count" example="1">%1$d</xliff:g> item wordt gedownload</item>
-	<item quantity="other"><xliff:g id="count" example="2">%1$d</xliff:g> items worden gedownload</item>
-</plurals>
+    <plurals name="_count__item_is_downloading">
+        <item quantity="one"><xliff:g id="count" example="1">%1$d</xliff:g> item wordt gedownload</item>
+        <item quantity="other"><xliff:g id="count" example="2">%1$d</xliff:g> items worden gedownload</item>
+    </plurals>
     <string name="downloads_complete">Downloads voltooid</string>
     <string name="touch_for_view_all_downloads">Raak aan om alle downloads te zien</string>
-    <string xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" name="_name__download_failed"><xliff:g id="name" example="APKPure">%1$s</xliff:g> download mislukt</string>
+    <string name="_name__download_failed"><xliff:g id="name" example="APKPure">%1$s</xliff:g> download mislukt</string>
     <string name="touch_to_download_it_again">Raak aan om opnieuw te downloaden</string>
 
-    <string xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" name="download_percent"><xliff:g id="percent" example="50">%1$d</xliff:g>%%</string>
+    <string name="download_percent"><xliff:g id="percent" example="50">%1$d</xliff:g>%%</string>
     <string name="pause">Pauseren</string>
     <string name="continue_">Verder gaan</string>
     <string name="restart">Herstarten</string>
@@ -131,9 +138,11 @@
     <string name="join_us">Word Lid</string>
     <string name="skip">Overslaan</string>
 
-    <string xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" name="_name__is_up_to_date"><xliff:g id="name" example="APKPure">%1$s</xliff:g> is up-to-date.</string>
+    <string name="_name__is_up_to_date"><xliff:g id="name" example="APKPure">%1$s</xliff:g> is up-to-date.</string>
     <string name="new_version_available_title">Nieuwe Versie Beschikbaar</string>
-    <string name="new_version_available_message">" &lt;b&gt;Laatste Versie:&lt;/b&gt; %1$s&lt;br&gt;&lt;br&gt;&lt;b&gt;Wat Is Er Nieuw:&lt;/b&gt;&lt;br&gt;%2$s "</string>
+    <string name="new_version_available_message">
+        <![CDATA[<b>Laatste Versie:</b> %1$s<br><br><b>Wat Is Er Nieuw:</b><br>%2$s]]>
+    </string>
 
     <string name="report__">Melden…</string>
     <string name="report_problem__">Een probleem melden…</string>
@@ -145,31 +154,41 @@
     <string name="invalid_app_asset">Ongeldige appinformatie-invoer.</string>
     <string name="failed_to_request_app_detail">Opvragen app-detailinformatie mislukt.</string>
     <string name="failed_to_request_app_asset">Opvragen app-invoerinformatie mislukt.</string>
-    <string name="incompatible_this_app">" &lt;big&gt;&lt;b&gt;&lt;font color=%1$d&gt;Je apparaat is niet compatibel met deze app.&lt;/font&gt;&lt;/b&gt;&lt;/big&gt;&lt;br&gt;&lt;br&gt;Wil je doorgaan? "</string>
-    <string name="this_app_not_usable">" &lt;big&gt;&lt;b&gt;&lt;font color=%1$d&gt;Deze app is mogelijk onbruikbaar.&lt;/font&gt;&lt;/b&gt;&lt;/big&gt;&lt;br&gt;&lt;br&gt;Wil je doorgaan? "</string>
+    <string name="incompatible_this_app">
+        <![CDATA[<big><b><font color="%1$d">Je apparaat is niet compatibel met deze app.</font></b></big><br><br>Wil je doorgaan?]]>
+    </string>
+    <string name="this_app_not_usable">
+        <![CDATA[<big><b><font color="%1$d">Deze app is mogelijk onbruikbaar.</font></b></big><br><br>Wil je doorgaan?]]>
+    </string>
 
     <string name="setting">Instelling</string>
     <string name="external_storage_not_usable"> <big><b>We hebben toegang nodig tot je externe opslag. Zorg er alsjeblieft voor dat het te gebruiken is.</b></big> </string>
     <string name="external_storage_permission_denied"> <big><b>We hebben toegang nodig tot je externe opslag. Zorg er alsjeblieft voor dat de machtiging niet is geweigerd.</b></big> </string>
 
     <string name="share">Delen</string>
-    <string xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" name="share_app_url">Download <xliff:g id="app_name" example="APKPure">%1$s</xliff:g> APK (via @<xliff:g id="social_network_name" example="APKPure">%2$s</xliff:g>), <xliff:g id="app_url" example="https://apkpure.com/p/com.apkpure.aegon">%3$s</xliff:g></string>
+    <string name="share_app_url">Download <xliff:g id="app_name" example="APKPure">%1$s</xliff:g> APK (via @<xliff:g id="social_network_name" example="APKPure">%2$s</xliff:g>), <xliff:g id="app_url" example="https://apkpure.com/p/com.apkpure.aegon">%3$s</xliff:g></string>
 
-    <string xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" name="_name__version_history"><xliff:g id="name" example="APKPure">%1$s</xliff:g> Versiegeschiedenis</string>
-    <string xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" name="update__date___size_">Updaten: <xliff:g id="date" example="Mar 3, 2016">%1$s</xliff:g>, <xliff:g id="size" example="1024 kB">%2$s</xliff:g></string>
+    <string name="_name__version_history"><xliff:g id="name" example="APKPure">%1$s</xliff:g> Versiegeschiedenis</string>
+    <string name="update__date___size_">Updaten: <xliff:g id="date" example="Mar 3, 2016">%1$s</xliff:g>, <xliff:g id="size" example="1024 kB">%2$s</xliff:g></string>
 
     <string name="update_all">Alles Updaten</string>
-    <string xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" name="update___count__">Update (<xliff:g id="count" example="3">%1$d</xliff:g>)</string>
+    <string name="update___count__">Update (<xliff:g id="count" example="3">%1$d</xliff:g>)</string>
     <string name="ignore">Negeren</string>
     <string name="unignore">Niet meer negeren</string>
     <string name="select">Selecteren</string>
     <string name="cancel">Annuleren</string>
     <string name="ignored">Genegeerd</string>
     <plurals name="total__count__apps__size_">
-	<item quantity="one">" Totaal: &lt;b&gt;&lt;font color=%1$d&gt;%2$d&lt;/font&gt;&lt;/b&gt; app, &lt;b&gt;&lt;font color=%1$d&gt;%3$s&lt;/font&gt;&lt;/b&gt; "</item>
-	<item quantity="other">" Totaal: &lt;b&gt;&lt;font color=%1$d&gt;%2$d&lt;/font&gt;&lt;/b&gt; apps, &lt;b&gt;&lt;font color=%1$d&gt;%3$s&lt;/font&gt;&lt;/b&gt; "</item>
-</plurals>
-    <string name="total_zero_app">" Totaal: &lt;b&gt;&lt;font color=%1$d&gt;0&lt;/font&gt;&lt;/b&gt; app "</string>
+        <item quantity="one">
+            <![CDATA[Totaal: <b><font color="%1$d">%2$d</font></b> app, <b><font color="%1$d">%3$s</font></b>]]>
+        </item>
+        <item quantity="other">
+            <![CDATA[Totaal: <b><font color="%1$d">%2$d</font></b> apps, <b><font color="%1$d">%3$s</font></b>]]>
+        </item>
+    </plurals>
+    <string name="total_zero_app">
+        <![CDATA[Totaal: <b><font color="%1$d">0</font></b> app]]>
+    </string>
 
     <string name="general">Algemeen</string>
     <string name="language">Taal</string>
@@ -179,7 +198,6 @@
     <string name="show_notification_after_installation">Laat notificatie zien na installatie</string>
     <string name="delete_packages_after_installation">Verwijder APK-bestanden na installatie</string>
 
-    <string xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" name="_name__installation_completed"><xliff:g id="name" example="APKPure">%1$s</xliff:g> installatie voltooid</string>
+    <string name="_name__installation_completed"><xliff:g id="name" example="APKPure">%1$s</xliff:g> installatie voltooid</string>
     <string name="touch_to_open">Raak aan om te openen.</string>
-
-    </resources>
+</resources>
