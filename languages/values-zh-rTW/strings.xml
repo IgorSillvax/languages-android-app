@@ -1,15 +1,16 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<?xml version="1.0" encoding="utf-8"?>
+<resources
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
     <string name="action_settings">設定</string>
     <string name="action_search">搜尋</string>
     <string name="action_management">管理</string>
 
-    <string name="press_back_key_quit">再一次返回鍵退出。</string>
+    <string name="press_back_key_quit">再壹次返回鍵退出。</string>
 
     <string name="featured">精選</string>
     <string name="games">遊戲</string>
-    <string name="apps">Apps</string>
+    <string name="apps">應用</string>
     <string name="categories">分類</string>
     <string name="updates">更新</string>
 
@@ -19,12 +20,12 @@
     <string name="load_failed_empty">無內容。</string>
     <string name="load_failed_all_up_to_date">所有應用程式已是最新。</string>
     <string name="load_failed_no_results">抱歉！未找到結果。</string>
-    <string name="refresh">重新整理</string>
+    <string name="refresh">刷新</string>
 
     <string name="management">管理</string>
-    <string name="app_updates">更新應用程式</string>
-    <string name="app_management">管理應用程式</string>
-    <string name="app_uninstall">解除安裝應用程式</string>
+    <string name="app_updates">應用更新</string>
+    <string name="app_management">應用管理</string>
+    <string name="app_uninstall">應用卸載</string>
     <string name="apk_management">APK 管理</string>
     <string name="apk_xapk_management">APK / XAPK 管理</string>
     <string name="download_management">下載管理</string>
@@ -41,7 +42,7 @@
     <string name="install">安裝</string>
     <string name="open">打開</string>
     <string name="delete">刪除</string>
-    <string name="properties">內容</string>
+    <string name="properties">屬性</string>
     <string name="properties_message">
         <![CDATA[<b>路徑：</b> %1$s<br><b>檔案大小：</b> %2$s<br><b>最後修改時間：</b> %3$s]]>
     </string>
@@ -52,13 +53,13 @@
     <string name="user_canceled">用戶已取消。</string>
     <string name="io_error">IO 接口錯誤，可能是可用空間不足無法完成安裝。</string>
     <string name="file_format_error">檔案格式錯誤。</string>
-    <string name="parsing_xapk">正在剖析 XAPK …</string>
+    <string name="parsing_xapk">正在解析 XAPK …</string>
     <string name="installing_obb">正在安裝 OBB 檔案 …</string>
-    <string name="extracting_apk">正在解壓縮 APK 檔案 …</string>
+    <string name="extracting_apk">正在提取 APK 檔案 …</string>
     <string name="installing_apk">正在安裝 APK …</string>
 
-    <string name="uninstall">解除安裝</string>
-    <string name="uninstalled">已解除安裝</string>
+    <string name="uninstall">卸載</string>
+    <string name="uninstalled">已卸載</string>
     <string name="last_update__date_">最後更新：<xliff:g id="date">%1$s</xliff:g></string>
 
     <string name="all">所有</string>
@@ -66,7 +67,7 @@
     <string name="screenshots">截圖</string>
     <string name="description">描述</string>
     <string name="whatsnew">更新內容</string>
-    <string name="information">資訊</string>
+    <string name="information">訊息</string>
     <string name="version_">版本：</string>
     <string name="updated_">更新日期：</string>
     <string name="size_">大小：</string>
@@ -94,14 +95,16 @@
     <string name="update">更新</string>
     <string name="version__version___size_">版本：<xliff:g id="version" example="1.0.0">%1$s</xliff:g>, <xliff:g id="size" example="1024 kB">%2$s</xliff:g></string>
     <plurals name="_count__new_update_is_available">
-	<item quantity="other"><xliff:g id="count" example="1">%1$d</xliff:g> 個應用程式可更新</item>
-</plurals>
+        <item quantity="one"><xliff:g id="count" example="1">%1$d</xliff:g> 個應用可更新</item>
+        <item quantity="other"><xliff:g id="count" example="2">%1$d</xliff:g> 個應用可更新</item>
+    </plurals>
 
     <string name="launching_please_wait">正在啟動，請稍候…</string>
 
     <plurals name="_count__item_is_downloading">
-	<item quantity="other"><xliff:g id="count" example="1">%1$d</xliff:g> 個應用程式正在下載</item>
-</plurals>
+        <item quantity="one"><xliff:g id="count" example="1">%1$d</xliff:g> 個應用正在下載</item>
+        <item quantity="other"><xliff:g id="count" example="2">%1$d</xliff:g> 個應用正在下載</item>
+    </plurals>
     <string name="downloads_complete">下載完成</string>
     <string name="touch_for_view_all_downloads">點擊查看所有下載</string>
     <string name="_name__download_failed"><xliff:g id="name" example="APKPure">%1$s</xliff:g> 下載失敗</string>
@@ -120,17 +123,19 @@
     <string name="failed">失敗</string>
     <string name="file_invalid">檔案無效</string>
     <string name="file_missing">檔案不存在</string>
-    <string name="expired">逾期</string>
+    <string name="expired">已到期</string>
     <string name="detail">詳情</string>
     <string name="remove">移除</string>
-    <string name="want_to_remove_download_item">您確定要移除此項下載嗎？</string>
+    <string name="want_to_remove_download_item">您確定要移除此下載項嗎？</string>
     <string name="delete_downloaded_file">刪除已下載檔案</string>
 
     <string name="search">搜尋</string>
-    <string name="search_for_apps">搜尋應用程式</string>
+    <string name="search_for_apps">搜尋應用</string>
     <string name="trending_searches">熱門搜尋</string>
+    <string name="search_history">搜尋歷史</string>
+    <string name="clear_search_history">清空歷史記錄</string>
 
-    <string name="improvement_plan_title">使用者體驗改善計劃</string>
+    <string name="improvement_plan_title">用戶體驗改善計劃</string>
     <string name="improvement_plan_message">
         <![CDATA[幫助提交 Android 設備訊息，我們 <b>不會收集</b> 您的個人訊息（包括姓名，地址，電子郵件地址等等）。]]>
     </string>
@@ -143,20 +148,22 @@
         <![CDATA[<b>最新版本：</b> %1$s<br><br><b>更新內容：</b><br>%2$s]]>
     </string>
 
-    <string name="report__">回報…</string>
-    <string name="report_problem__">報告問題…</string>
-    <string name="report_problem_subject">報告問題</string>
+    <string name="report__">反饋…</string>
+    <string name="report_problem__">反饋問題…</string>
+    <string name="report_problem_subject">反饋問題</string>
     <string name="report_problem_text">問題主題：\n%1$s\n\n問題詳情：\n%2$s</string>
 
     <string name="installation_failed">安裝失敗</string>
-    <string name="invalid_app_detail">無效的應用程式詳細資訊。</string>
-    <string name="invalid_app_asset">無效的應用程式資產資訊。</string>
-    <string name="failed_to_request_app_detail">請求應用程式詳情資訊失敗。</string>
-    <string name="failed_to_request_app_asset">請求應用程式資產資訊失敗。</string>
+    <string name="invalid_app_detail">無效的應用詳細訊息。</string>
+    <string name="invalid_app_asset">無效的應用資產訊息。</string>
+    <string name="failed_to_request_app_detail">請求應用詳情訊息失敗。</string>
+    <string name="failed_to_request_app_asset">請求應用資產訊息失敗。</string>
     <string name="incompatible_this_app">
         <![CDATA[<big><b><font color="%1$d">您的設備與此應用程式不兼容。</font></b></big><br><br>您確定要繼續嗎？]]>
     </string>
-    <string name="this_app_not_usable">" &lt;big&gt;&lt;b&gt;&lt;font color=%1$d&gt;此應用程式可能無法使用。&lt;/font&gt;&lt;/b&gt;&lt;/big&gt;&lt;br&gt;&lt;br&gt;您確定要繼續嗎？ "</string>
+    <string name="this_app_not_usable">
+        <![CDATA[<big><b><font color="%1$d">此應用可能無法使用。</font></b></big><br><br>您確定要繼續嗎？]]>
+    </string>
 
     <string name="setting">設定</string>
     <string name="external_storage_not_usable">
@@ -180,16 +187,20 @@
     <string name="cancel">取消</string>
     <string name="ignored">已忽略</string>
     <plurals name="total__count__apps__size_">
-	<item quantity="other">" 總計：&lt;b&gt;&lt;font color=%1$d&gt;%2$d&lt;/font&gt;&lt;/b&gt; 個應用程式，&lt;b&gt;&lt;font color=%1$d&gt;%3$s&lt;/font&gt;&lt;/b&gt; "</item>
-</plurals>
-    <string name="total_zero_app">" 總計：&lt;b&gt;&lt;font color=%1$d&gt;0&lt;/font&gt;&lt;/b&gt; 個應用程式 "</string>
+        <item quantity="other">
+            <![CDATA[總計：<b><font color="%1$d">%2$d</font></b> 個應用，<b><font color="%1$d">%3$s</font></b>]]>
+        </item>
+    </plurals>
+    <string name="total_zero_app">
+        <![CDATA[總計：<b><font color="%1$d">0</font></b> 個應用]]>
+    </string>
 
     <string name="general">一般</string>
     <string name="language">語言</string>
-    <string name="auto">自動選擇</string>
+    <string name="auto">跟隨系統</string>
     <string name="installation">安裝</string>
     <string name="show_notification_after_installation">安裝完成後顯示通知</string>
-    <string name="delete_packages_after_installation">安裝完成後刪除安裝套件</string>
+    <string name="delete_packages_after_installation">安裝完成後刪除安裝包檔案</string>
 
     <string name="_name__installation_completed"><xliff:g id="name" example="APKPure">%1$s</xliff:g> 安裝已完成</string>
     <string name="touch_to_open">點擊打開。</string>
