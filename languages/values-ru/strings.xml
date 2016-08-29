@@ -1,6 +1,5 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources
-    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<?xml version='1.0' encoding='UTF-8'?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
     <string name="action_settings">Настройки</string>
     <string name="action_search">Поиск</string>
@@ -26,15 +25,13 @@
     <string name="app_updates">Доступные обновления</string>
     <string name="app_management">Управление приложениями</string>
     <string name="app_uninstall">Удаление приложений</string>
-    <string name="apk_management">Управление с APK-файлами </string>
-    <string name="apk_xapk_management">Управление с APK / XAPK-файлами</string>
+    <string name="apk_management">Управление APK-файлами</string>
+    <string name="apk_xapk_management">Управление APK / XAPK-файлами</string>
     <string name="download_management">Управление загрузками</string>
     <string name="settings">Настройки</string>
     <string name="about">Справка</string>
     <string name="about_title">О программе <xliff:g id="app_name" example="APKPure">%1$s</xliff:g></string>
-    <string name="about_message">
-        <![CDATA[<b>Version:</b> %1$s<br><br><b>Наш Вебсайт</b> <a href="%2$s">%2$s</a><br><b>Свяжитесь с нами: </b> <a href="mailto:%3$s">%3$s</a>]]>
-    </string>
+    <string name="about_message">" &lt;b&gt;Версия:&lt;/b&gt; %1$s&lt;br&gt;&lt;br&gt;&lt;b&gt;Наш Вебсайт:&lt;/b&gt; &lt;a href=%2$s&gt;%2$s&lt;/a&gt;&lt;br&gt;&lt;b&gt;Свяжитесь с нами:&lt;/b&gt; &lt;a href=mailto:%3$s&gt;%3$s&lt;/a&gt; "</string>
     <string name="check_update">Проверить обновление</string>
     <string name="quit">Выйти</string>
     <string name="want_to_quit">Вы точно хотите выйти?</string>
@@ -76,7 +73,7 @@
     <string name="apk">APK</string>
     <string name="xapk">XAPK</string>
     <string name="unknown">Неизвестный</string>
-    <string name="_ellipsis_"> … </string>
+    <string name="_ellipsis_"> … </string>
 
     <string name="market_response_error_success">Успех.</string>
     <string name="market_response_error_invalid_result">Неверный результат.</string>
@@ -105,9 +102,9 @@
         <item quantity="many"><xliff:g id="count" example="2">%1$d</xliff:g> загружаются</item>
         <item quantity="other"/>
     </plurals>
-    <string name="downloads_complete">Загружены полностью</string>
+    <string name="downloads_complete">Загрузки завершены</string>
     <string name="touch_for_view_all_downloads">Коснитесь, чтобы увидеть все загрузки</string>
-    <string name="_name__download_failed"><xliff:g id="name" example="APKPure">%1$s</xliff:g> Не удалось скачать</string>
+    <string name="_name__download_failed"><xliff:g id="name" example="APKPure">%1$s</xliff:g> не удалось скачать</string>
     <string name="touch_to_download_it_again">Нажмите, чтобы скачать заново</string>
 
     <string name="download_percent"><xliff:g id="percent" example="50">%1$d</xliff:g> %%</string>
@@ -117,12 +114,12 @@
     <string name="download">Скачать</string>
     <string name="downloading">Скачивается</string>
     <string name="waiting">В ожидании</string>
-    <string name="preparing">Подготовливается</string>
-    <string name="completed">Завершён</string>
+    <string name="preparing">Подготавливается</string>
+    <string name="completed">Завершено</string>
     <string name="paused">Приостановлено</string>
     <string name="failed">Не удалось</string>
     <string name="file_invalid">Некорректный файл</string>
-    <string name="file_missing">Отсутствует файл</string>
+    <string name="file_missing">Файл отсутствует</string>
     <string name="expired">Устарело</string>
     <string name="detail">Детали</string>
     <string name="remove">Удалить</string>
@@ -132,15 +129,13 @@
     <string name="search_for_apps">Поиск приложений</string>
     <string name="trending_searches">Часто ищут</string>
 
-    <string name="improvement_plan_title">План улучшения</string>
-    <string name="improvement_plan_message">
-        <![CDATA[Помогите нам подавать информацию о Вашем устройстве, Мы <b>не собираем</b> Ваши личные данные (имена, адреса, e-mail адреса, номер социального страхования, или др. личные данные).]]>
-    </string>
-    <string name="join_us">Свяжитесь с Нами</string>
+    <string name="improvement_plan_title">План улучшения эффективности</string>
+    <string name="improvement_plan_message"> Помогите нам, отправив информацию о вашем устройстве. Мы <b>не собираем</b> ваши личные данные (имена, адреса, e-mail адреса, номер социального страхования, или др. личные данные). </string>
+    <string name="join_us">Присоединяйтесь к нам</string>
     <string name="skip">Пропустить</string>
 
-    <string name="_name__is_up_to_date"><xliff:g id="name" example="APKPure">%1$s</xliff:g> обновлён до последней версии.</string>
-    <string name="new_version_available_title">Доступна новая версия </string>
+    <string name="_name__is_up_to_date"><xliff:g id="name" example="APKPure">%1$s</xliff:g> обновлено до последней версии.</string>
+    <string name="new_version_available_title">Доступна новая версия</string>
     <string name="new_version_available_message">
         <![CDATA[<b>Новая версия:</b> %1$s<br><br><b>Что нового:</b><br>%2$s]]>
     </string>
@@ -148,12 +143,12 @@
     <string name="report__">Отчёт…</string>
     <string name="report_problem__">Отчёт о проблеме…</string>
     <string name="report_problem_subject">Сообщить о проблеме</string>
-    <string name="report_problem_text">Описание проблемы:\n%1$s\n\nProblem detail:\n%2$s</string>
+    <string name="report_problem_text">Тема проблемы:\n%1$s\n\nОписание проблемы:\n%2$s</string>
 
     <string name="installation_failed">Ошибка установки</string>
-    <string name="invalid_app_detail">Некорректное приложение.</string>
-    <string name="invalid_app_asset">Ошибка ресурса приложении.</string>
-    <string name="failed_to_request_app_detail">Ошибка детали приложения.</string>
+    <string name="invalid_app_detail">Неправильная информация о приложении.</string>
+    <string name="invalid_app_asset">Ошибка ресурса приложения.</string>
+    <string name="failed_to_request_app_detail">Не удалось получить информацию о приложении.</string>
     <string name="failed_to_request_app_asset">Ошибка запроса ресурса приложении.</string>
     <string name="incompatible_this_app">
         <![CDATA[<big><b><font color="%1$d">Ваше устройство не совместимо с этим приложением.</font></b></big><br><br>Хотите продолжить?]]>
@@ -163,17 +158,13 @@
     </string>
 
     <string name="setting">Настроить</string>
-    <string name="external_storage_not_usable">
-        <![CDATA[<big><b>Нам нужен доступ к Вашему внешнему запоминающему устройству. Убедитесь, что можно использовать.</b></big>]]>
-    </string>
-    <string name="external_storage_permission_denied">
-        <![CDATA[<big><b>Нам нужен доступ к Вашему внешнему запоминающему устройству. Убедитесь, что не отказано в доступе.</b></big>]]>
-    </string>
+    <string name="external_storage_not_usable"> <big><b>Нам нужен доступ к вашему внешнему запоминающему устройству. Пожалуйста, убедитесь в том, что его можно использовать.</b></big> </string>
+    <string name="external_storage_permission_denied"> <big><b>Нам нужен доступ к вашему внешнему запоминающему устройству. Пожалуйста, убедитесь в том, что вам не отказано в доступе.</b></big> </string>
 
     <string name="share">Поделиться</string>
     <string name="share_app_url">Скачать <xliff:g id="app_name" example="APKPure">%1$s</xliff:g> APK (from @<xliff:g id="social_network_name" example="APKPure">%2$s</xliff:g>), <xliff:g id="app_url" example="https://apkpure.com/p/com.apkpure.aegon">%3$s</xliff:g></string>
 
-    <string name="_name__version_history"><xliff:g id="name" example="APKPure">%1$s</xliff:g> История весий</string>
+    <string name="_name__version_history"><xliff:g id="name" example="APKPure">%1$s</xliff:g> История версий</string>
     <string name="update__date___size_">Обновлено: <xliff:g id="date" example="Mar 3, 2016">%1$s</xliff:g>, <xliff:g id="size" example="1024 kB">%2$s</xliff:g></string>
     <string name="general">Основное</string>
     <string name="language">Язык</string>
@@ -183,7 +174,7 @@
     <string name="properties_message">
         <![CDATA[<b>Путь:</b> %1$s<br><b>Размер:</b> %2$s<br><b>Изменён:</b> %3$s]]>
     </string>
-    <string name="delete_downloaded_file">Удалить загруженные файлы</string>
+    <string name="delete_downloaded_file">Удалить загруженный файл</string>
 
     <string name="update_all">Обновить всё</string>
     <string name="update___count__">Обновить (<xliff:g id="count" example="3">%1$d</xliff:g>)</string>
@@ -193,15 +184,25 @@
     <string name="cancel">Отмена</string>
     <string name="ignored">Игнорируемые</string>
     <plurals name="total__count__apps__size_">
-        <item quantity="one">
-            <![CDATA[Всего: <b><font color="%1$d">%2$d</font></b> приложение, <b><font color="%1$d">%3$s</font></b>]]>
-        </item>
-        <item quantity="other">
-            <![CDATA[Всего: <b><font color="%1$d">%2$d</font></b> приложений, <b><font color="%1$d">%3$s</font></b>]]>
-        </item>
-    </plurals>
+	<item quantity="one">" Всего: &lt;b&gt;&lt;font color=%1$d&gt;%2$d&lt;/font&gt;&lt;/b&gt; приложение, &lt;b&gt;&lt;font color=%1$d&gt;%3$s&lt;/font&gt;&lt;/b&gt; "</item>
+	<item quantity="few">" Всего: &lt;b&gt;&lt;font color=%1$d&gt;%2$d&lt;/font&gt;&lt;/b&gt; приложений, &lt;b&gt;&lt;font color=%1$d&gt;%3$s&lt;/font&gt;&lt;/b&gt; "</item>
+	<item quantity="many">" Всего: &lt;b&gt;&lt;font color=%1$d&gt;%2$d&lt;/font&gt;&lt;/b&gt; приложений, &lt;b&gt;&lt;font color=%1$d&gt;%3$s&lt;/font&gt;&lt;/b&gt; "</item>
+	<item quantity="other"/>
+</plurals>
     <string name="total_zero_app">
         <![CDATA[Всего: <b><font color="%1$d">0</font></b> приложений]]>
     </string>
+
+    <string name="waiting_to_download">Ожидание загрузки</string>
+    <string name="deleted">Удалено</string>
+    <string name="search_history">История</string>
+    <string name="clear_search_history">Очистить историю</string>
+
+    <string name="installation">Установка</string>
+    <string name="show_notification_after_installation">Показать уведомление после установки</string>
+    <string name="delete_packages_after_installation">Удалить пакеты после установки</string>
+
+    <string name="_name__installation_completed"><xliff:g id="name" example="APKPure">%1$s</xliff:g> установка завершена</string>
+    <string name="touch_to_open">Коснитесь, чтобы открыть.</string>
 
     </resources>
