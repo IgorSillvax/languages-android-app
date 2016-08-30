@@ -1,5 +1,6 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<?xml version="1.0" encoding="utf-8"?>
+<resources
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
     <string name="updates">Bijwerken</string>
 
@@ -32,7 +33,7 @@
     <string name="about">Over</string>
     <string name="about_title">Over <xliff:g id="app_name" example="APKPure">%1$s</xliff:g></string>
     <string name="about_message">
-        <![CDATA[<b>Versie:</b> %1$s<br><br><b>Website:</b> <a href=%2$s>%2$s</a><br><b>Neem contact op:</b> <a href=mailto:%3$s>%3$s</a>]]>
+        <![CDATA[<b>Versie:</b> %1$s<br><br><b>Website:</b> <a href=%2$s>%2$s</a><br><b>Email:</b> <a href=mailto:%3$s>%3$s</a>]]>
     </string>
     <string name="check_update">Bekijk Update</string>
     <string name="quit">Afsluiten</string>
@@ -203,8 +204,7 @@
     <string name="clear_search_history">Geschiedenis wissen</string>
     <string name="waiting_to_download">Aan het wachten om te downloaden</string>
     <string name="deleted">Verwijderd</string>
-<string name="flag_as_inappropriate">Markeren als ongepast</string>
+    <string name="flag_as_inappropriate">Markeren als ongepast</string>
     <string name="contact_us">Neem Contact Op</string>
     <string name="report_content">Inhoud Melden</string>
-
-    </resources>
+</resources>
