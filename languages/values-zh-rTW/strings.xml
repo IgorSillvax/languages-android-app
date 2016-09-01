@@ -42,11 +42,13 @@
     <string name="install">安裝</string>
     <string name="open">打開</string>
     <string name="delete">刪除</string>
+    <string name="delete_all">刪除全部</string>
     <string name="properties">屬性</string>
     <string name="properties_message">
         <![CDATA[<b>路徑：</b> %1$s<br><b>檔案大小：</b> %2$s<br><b>最後修改時間：</b> %3$s]]>
     </string>
     <string name="want_to_delete_file">您確定要刪除此檔案嗎？</string>
+    <string name="want_to_delete_all_files">您確定要刪除全部檔案嗎？</string>
     <string name="file_has_been_deleted">檔案已被刪除。</string>
     <string name="failed_to_delete_file">刪除檔案失敗。</string>
     <string name="install__label_">安裝 - <xliff:g id="app_label" example="APKPure">%1$s</xliff:g></string>
@@ -113,7 +115,9 @@
 
     <string name="download_percent"><xliff:g id="percent" example="50">%1$d</xliff:g> %%</string>
     <string name="pause">暫停</string>
+    <string name="pause_all">暫停全部</string>
     <string name="continue_">繼續</string>
+    <string name="continue_all">繼續全部</string>
     <string name="restart">重新下載</string>
     <string name="download">下載</string>
     <string name="downloading">正在下載</string>
@@ -129,7 +133,9 @@
     <string name="expired">已到期</string>
     <string name="detail">詳情</string>
     <string name="remove">移除</string>
+    <string name="remove_all">移除全部</string>
     <string name="want_to_remove_download_item">您確定要移除此下載項嗎？</string>
+    <string name="want_to_remove_all_download_items">您確定要移除全部下載項嗎？</string>
     <string name="delete_downloaded_file">刪除已下載檔案</string>
 
     <string name="search">搜尋</string>
@@ -191,6 +197,8 @@
     <string name="unignore">取消忽略</string>
     <string name="select">選擇</string>
     <string name="cancel">取消</string>
+    <string name="select_all">選擇全部</string>
+    <string name="deselect_all">取消選擇全部</string>
     <string name="ignored">已忽略</string>
     <plurals name="total__count__apps__size_">
         <item quantity="other">
