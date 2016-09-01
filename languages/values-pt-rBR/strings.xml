@@ -1,2 +1,200 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources></resources>
+<?xml version='1.0' encoding='UTF-8'?>
+<resources><string name="action_settings">Configurações</string>
+    <string name="action_search">Pesquisar</string>
+    <string name="action_management">Gestão</string>
+
+    <string name="press_back_key_quit">Pressione a tecla Voltar mais uma vez para sair.</string>
+
+    <string name="featured">DESTAQUE</string>
+    <string name="games">JOGOS</string>
+    <string name="apps">APLICATIVOS</string>
+    <string name="categories">CATEGORIAS</string>
+    <string name="updates">Atualizações</string>
+
+    <string name="something_happened">Algo aconteceu.</string>
+
+    <string name="load_failed_error">Ops! Ocorreu um erro.</string>
+    <string name="load_failed_empty">Nada aqui.</string>
+    <string name="load_failed_all_up_to_date">Todos os aplicativos são até à data.</string>
+    <string name="load_failed_no_results">Desculpa! Nenhum resultado encontrado.</string>
+    <string name="refresh">Atualizar</string>
+
+    <string name="management">Gestão</string>
+    <string name="app_updates">Atualizações de aplicativos</string>
+    <string name="app_management">Gerenciador de Aplicativos</string>
+    <string name="app_uninstall">Desinstalar App</string>
+    <string name="apk_management">Gerenciador de Apk</string>
+    <string name="apk_xapk_management">Gerenciador de APK / XAPK</string>
+    <string name="download_management">Gerenciador de download</string>
+    <string name="settings">Configurações</string>
+    <string name="about">Sobre</string>
+    <string xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" name="about_title">Sobre <xliff:g id="app_name" example="APKPure">%1$s</xliff:g></string>
+    <string name="about_message">" &lt;b&gt;Versão:&lt;/b&gt; %1$s&lt;br&gt;&lt;br&gt;&lt;b&gt;Website:&lt;/b&gt; &lt;a href=%2$s&gt;%2$s&lt;/a&gt;&lt;br&gt;&lt;b&gt;Email:&lt;/b&gt; &lt;a href=mailto:%3$s&gt;%3$s&lt;/a&gt; "</string>
+    <string name="check_update">Checar Atualização</string>
+    <string name="quit">Sair</string>
+    <string name="want_to_quit">Você tem certeza que quer sair?</string>
+
+    <string name="install">Instalar</string>
+    <string name="open">Abrir</string>
+    <string name="delete">Apagar</string>
+    <string name="delete_all">Apagar tudo</string>
+    <string name="properties">Propriedades</string>
+    <string name="properties_message">" &lt;b&gt;Path:&lt;/b&gt; %1$s&lt;br&gt;&lt;b&gt;Size:&lt;/b&gt; %2$s&lt;br&gt;&lt;b&gt;Última modificação:&lt;/b&gt; %3$s "</string>
+    <string name="want_to_delete_file">Você deseja excluir este arquivo?</string>
+    <string name="want_to_delete_all_files">Você quer apagar todos os arquivos?</string>
+    <string name="file_has_been_deleted">O arquivo foi apagado.</string>
+    <string name="failed_to_delete_file">Falha ao excluir o arquivo.</string>
+    <string xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" name="install__label_">Instalar - <xliff:g id="app_label" example="APKPure">%1$s</xliff:g></string>
+    <string name="user_canceled">Usuário Cancelado.</string>
+    <string name="io_error">de erro IO. Pode ser que não há espaço livre suficiente para a instalação de sucesso.</string>
+    <string name="file_format_error">Erro do formato do arquivo.</string>
+    <string name="parsing_xapk">Analisando XAPK …</string>
+    <string name="installing_obb">Instalação de arquivos OBB …</string>
+    <string name="extracting_apk">Extraindo arquivo APK …</string>
+    <string name="installing_apk">Instalando APK …</string>
+
+    <string name="uninstall">Desinstalar</string>
+    <string name="uninstalled">Desinstalado</string>
+    <string xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" name="last_update__date_">Última atualização:<xliff:g id="date">%1$s</xliff:g></string>
+
+    <string name="all">Todos</string>
+
+    <string name="screenshots">Captura de Tela</string>
+    <string name="description">Descrição</string>
+    <string name="whatsnew">O que há de novo</string>
+    <string name="information">Informação</string>
+    <string name="version_">Versão:</string>
+    <string name="updated_">Atualizado:</string>
+    <string name="size_">Tamanho:</string>
+    <string name="permissions_">Permissões:</string>
+    <string name="type_">Tipo:</string>
+    <string name="category_">Categoria:</string>
+    <string name="more">Mais</string>
+    <string name="permissions">Permissões</string>
+    <string name="other">Outros</string>
+    <string name="apk">APK</string>
+    <string name="xapk">XAPK</string>
+    <string name="unknown">Desconhecido</string>
+    <string name="flag_as_inappropriate">Marcado como inapropriado</string>
+    <string name="_ellipsis_"> … </string>
+
+    <string name="market_response_error_success">Sucesso.</string>
+    <string name="market_response_error_invalid_result">resultado inválido.</string>
+    <string name="market_response_error_network_connect_error">Erro ao Conectar na Rede.</string>
+    <string name="market_response_error_network_read_error">Erro de Leitura da Rede.</string>
+    <string name="market_response_error_invalid_response_code">código de resposta inválido.</string>
+    <string name="market_response_error_invalid_response_body">Corpo de resposta inválido.</string>
+    <string xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" name="market_response_error_unknown_error__error_">Erro desconhecido (<xliff:g id="error" example="SUCCESS">%1$s</xliff:g>).</string>
+
+    <string name="no_more">Não mais.</string>
+
+    <string name="update">Atualizar</string>
+    <string xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" name="version__version___size_">Versão: <xliff:g id="version" example="1.0.0">%1$s</xliff:g>, <xliff:g id="size" example="1024 kB">%2$s</xliff:g></string>
+    <plurals xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" name="_count__new_update_is_available">
+	<item quantity="one"><xliff:g id="count" example="1">%1$d</xliff:g> nova atualização está disponível</item>
+	<item quantity="other"><xliff:g id="count" example="2">%1$d</xliff:g>novas atualizações estão disponíveis</item>
+</plurals>
+
+    <string name="launching_please_wait">Lançamento, aguarde…</string>
+
+    <plurals xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" name="_count__item_is_downloading">
+	<item quantity="one"><xliff:g id="count" example="1">%1$d</xliff:g> item está baixando</item>
+	<item quantity="other"><xliff:g id="count" example="2">%1$d</xliff:g> itens estão baixando</item>
+</plurals>
+    <string name="downloads_complete">Downloads completo</string>
+    <string name="touch_for_view_all_downloads">Toque para Ver todos os downloads</string>
+    <string xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" name="_name__download_failed"><xliff:g id="name" example="APKPure">%1$s</xliff:g> transferência falhou</string>
+    <string name="touch_to_download_it_again">Toque para baixá-lo novamente</string>
+
+    <string xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" name="download_percent"><xliff:g id="percent" example="50">%1$d</xliff:g> %%</string>
+    <string name="pause">Pausa</string>
+    <string name="pause_all">Pausar Todos</string>
+    <string name="continue_">Continuar</string>
+    <string name="continue_all">Continuar Todos</string>
+    <string name="restart">Reiniciar</string>
+    <string name="download">Baixar</string>
+    <string name="downloading">Baixando</string>
+    <string name="waiting">Esperando</string>
+    <string name="preparing">Preparando</string>
+    <string name="completed">Completo</string>
+    <string name="paused">Pausado</string>
+    <string name="failed">Falha</string>
+    <string name="file_invalid">arquivo inválido</string>
+    <string name="file_missing">arquivo de falta</string>
+    <string name="waiting_to_download">Esperando para baixar</string>
+    <string name="deleted">Excluído</string>
+    <string name="expired">Expirado</string>
+    <string name="detail">Detalhe</string>
+    <string name="remove">Remover</string>
+    <string name="remove_all">Deletar tudo</string>
+    <string name="want_to_remove_download_item">Você deseja remover este item download?</string>
+    <string name="want_to_remove_all_download_items">Você deseja remover todos os itens baixados?</string>
+    <string name="delete_downloaded_file">Excluir arquivo baixado</string>
+
+    <string name="search">Pesquisar</string>
+    <string name="search_for_apps">Pesquisar Apps</string>
+    <string name="trending_searches">Principais pesquisas</string>
+    <string name="search_history">Histórico</string>
+    <string name="clear_search_history">Apagar o histórico</string>
+
+    <string name="improvement_plan_title">Plano de Melhoria de Desempenho</string>
+    <string name="improvement_plan_message"> Ajude-nos enviando Informações do Seu Android, Nós <b>não recolhemos</b> informações de identificação pessoal (nome, endereço, endereço de e-mail, número de segurança social, ou outros identificadores exclusivos). </string>
+    <string name="join_us">Junte-se a nós</string>
+    <string name="skip">Pular</string>
+
+    <string xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" name="_name__is_up_to_date"><xliff:g id="name" example="APKPure">%1$s</xliff:g> Está atualizado.</string>
+    <string name="new_version_available_title">Nova versão disponível</string>
+    <string name="new_version_available_message">" &lt;b&gt;Última versão:&lt;/b&gt; %1$s&lt;br&gt;&lt;br&gt;&lt;b&gt;O que há de novo:&lt;/b&gt;&lt;br&gt;%2$s "</string>
+
+    <string name="report__">Relatório…</string>
+    <string name="report_problem__">Reportar problema…</string>
+    <string name="report_problem_subject">Reportar problema</string>
+    <string name="report_problem_text">tópico problema:\n%1$s\n\ndetalhe do problema::\n%2$s</string>
+    <string name="contact_us__">Entre Em Contato Conosco…</string>
+    <string name="contact_us">Entre Em Contato Conosco</string>
+    <string name="report_content">Relatório do conteúdo</string>
+
+    <string name="installation_failed">Falha na instalação</string>
+    <string name="invalid_app_detail">Informações do aplicativo detalhe inválido.</string>
+    <string name="invalid_app_asset">informações de ativos aplicativo inválido.</string>
+    <string name="failed_to_request_app_detail">Falha ao solicitar informações detalhadas do app.</string>
+    <string name="failed_to_request_app_asset">Falha ao solicitar informações do aplicativo.</string>
+    <string name="incompatible_this_app">" &lt;big&gt;&lt;b&gt;&lt;font color=%1$d&gt;dispositivo não é compatível com este aplicativo.&lt;/font&gt;&lt;/b&gt;&lt;/big&gt;&lt;br&gt;&lt;br&gt;Você quer continuar? "</string>
+    <string name="this_app_not_usable">" &lt;big&gt;&lt;b&gt;&lt;font color=%1$d&gt;este aplicativo não pode ser útil.&lt;/font&gt;&lt;/b&gt;&lt;/big&gt;&lt;br&gt;&lt;br&gt;Você quer continuar? "</string>
+
+    <string name="setting">Configuração</string>
+    <string name="external_storage_not_usable"> <big><b>precisamos para acessar seu armazenamento externo. por favor, certifique-se de que \'S pode ser usado.</b></big> </string>
+    <string name="external_storage_permission_denied"> <big><b>precisamos para acessar seu armazenamento externo. por favor, certifique-se a permissão não é negado.</b></big> </string>
+
+    <string name="share">Compartilhar</string>
+    <string xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" name="share_app_url">Download <xliff:g id="app_name" example="APKPure">%1$s</xliff:g> APK (A partir de @<xliff:g id="social_network_name" example="APKPure">%2$s</xliff:g>), <xliff:g id="app_url" example="https://apkpure.com/p/com.apkpure.aegon">%3$s</xliff:g></string>
+
+    <string xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" name="_name__version_history"><xliff:g id="name" example="APKPure">%1$s</xliff:g> Histórico de versões</string>
+    <string xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" name="update__date___size_">Atualização: <xliff:g id="date" example="Mar 3, 2016">%1$s</xliff:g>, <xliff:g id="size" example="1024 kB">%2$s</xliff:g></string>
+
+    <string name="update_all">Atualizar tudo</string>
+    <string xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" name="update___count__">Atualização (<xliff:g id="count" example="3">%1$d</xliff:g>)</string>
+    <string name="ignore">Ignorar</string>
+    <string name="unignore">Ignore</string>
+    <string name="select">Selecionar</string>
+    <string name="cancel">Cancelar</string>
+    <string name="select_all">Selecionar tudo</string>
+    <string name="deselect_all">Desmarcar todos</string>
+    <string name="ignored">Ignorar</string>
+    <plurals name="total__count__apps__size_">
+	<item quantity="one">" Total: &lt;b&gt;&lt;Fonte color=%1$d&gt;%2$d&lt;/Fonte&gt;&lt;/b&gt; apps, &lt;b&gt;&lt;Fonte cor=%1$d&gt;%3$s&lt;/Fonte&gt;&lt;/b&gt; "</item>
+	<item quantity="other">" Total: &lt;b&gt;&lt;Fonte cor=%1$d&gt;%2$d&lt;/Fonte&gt;&lt;/b&gt; apps, &lt;b&gt;&lt;Fonte cor=%1$d&gt;%3$s&lt;/Fonte&gt;&lt;/b&gt; "</item>
+</plurals>
+    <string name="total_zero_app">" Total: &lt;b&gt;&lt;Fonte Cor=%1$d&gt;0&lt;/Fonte&gt;&lt;/b&gt;    app "</string>
+
+    <string name="general">Geral</string>
+    <string name="language">Idioma</string>
+    <string name="auto">Automático</string>
+    <string name="installation">Instalação</string>
+    <string name="show_notification_after_installation">Mostrar notificação após a instalação</string>
+    <string name="delete_packages_after_installation">Apagar pacotes após a instalação</string>
+
+    <string xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" name="_name__installation_completed"><xliff:g id="name" example="APKPure">%1$s</xliff:g> instalação completa</string>
+    <string name="touch_to_open">Toque para abrir.</string>
+
+    </resources>
