@@ -1,6 +1,5 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources
-    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<?xml version='1.0' encoding='UTF-8'?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
     <string name="action_settings">Impostazioni</string>
     <string name="action_search">Cerca</string>
@@ -200,4 +199,29 @@
     <string name="total_zero_app">
         <![CDATA[Totale: <b><font color="%1$d">0</font></b> app]]>
     </string>
-</resources>
+<string name="delete_all">Elimina tutto</string>
+    <string name="want_to_delete_all_files">Vuoi eliminare tutti i file?</string>
+    <string name="flag_as_inappropriate">Segna come inappropriato</string>
+    <string name="pause_all">Ferma tutto</string>
+    <string name="continue_all">Riprendi tutto</string>
+    <string name="waiting_to_download">In attesa di scaricare</string>
+    <string name="deleted">Eliminato</string>
+    <string name="remove_all">Rimuovi tutto</string>
+    <string name="want_to_remove_all_download_items">Vuoi rimuovere quel che hai scaricato?</string>
+    <string name="search_history">Cronologia</string>
+    <string name="clear_search_history">Azzera Cronologia</string>
+
+    <string name="contact_us__">Contattaci…</string>
+    <string name="contact_us">Contattaci</string>
+    <string name="report_content">Segnala Contenuto</string>
+
+    <string name="select_all">Seleziona tutto</string>
+    <string name="deselect_all">Deseleziona tutto</string>
+    <string name="installation">Installazione</string>
+    <string name="show_notification_after_installation">Mostra notifica dopo l\'installazione</string>
+    <string name="delete_packages_after_installation">Elimina i pacchetti dopo l\'installazione</string>
+
+    <string name="_name__installation_completed"><xliff:g id="name" example="APKPure">%1$s</xliff:g> installazione completata</string>
+    <string name="touch_to_open">Tocca per aprire.</string>
+
+    </resources>
