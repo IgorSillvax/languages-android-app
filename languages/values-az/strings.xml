@@ -1,2 +1,200 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources></resources>
+<?xml version='1.0' encoding='UTF-8'?>
+<resources><string name="action_settings">Ayarlar</string>
+    <string name="action_search">Axtar</string>
+    <string name="action_management">İdarəetmə</string>
+
+    <string name="press_back_key_quit">Çıxmaq bir daha basın.</string>
+
+    <string name="featured">Önə Çıxan</string>
+    <string name="games">Oyunlar</string>
+    <string name="apps">Tətbiqlər</string>
+    <string name="categories">Kateqoriyalar</string>
+    <string name="updates">Güncəllənmələr</string>
+
+    <string name="something_happened">&gt;_&lt;\nSəhv baş verdi.</string>
+
+    <string name="load_failed_error">Stop! Bir səhv baş verdi.</string>
+    <string name="load_failed_empty">Bu burda bir şey deyildir.</string>
+    <string name="load_failed_all_up_to_date">Bütün Tətbiqləri güncəlləşdir.</string>
+    <string name="load_failed_no_results">Bağışliyın! Heçnə tapılmadı.</string>
+    <string name="refresh">Yenilə</string>
+
+    <string name="management">İdarəetmə</string>
+    <string name="app_updates">Tətbiq Gücllənmələri</string>
+    <string name="app_management">Tətbiq İdarəetmə</string>
+    <string name="app_uninstall">Tətbiq Silmək</string>
+    <string name="apk_management">Tətbiq İdarəetmə</string>
+    <string name="apk_xapk_management">APK / XAPK İdarəetmə</string>
+    <string name="download_management">Yükləmələr</string>
+    <string name="settings">Ayarlar</string>
+    <string name="about">Haqqında</string>
+    <string xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" name="about_title">Haqqında <xliff:g id="app_name" example="APKPure">%1$s</xliff:g></string>
+    <string name="about_message">" &lt;b&gt;Versiya:&lt;/b&gt; %1$s&lt;br&gt;&lt;br&gt;&lt;b&gt;Sayt:&lt;/b&gt; &lt;a href=%2$s&gt;%2$s&lt;/a&gt;&lt;br&gt;&lt;b&gt;Email:&lt;/b&gt; &lt;a href=mailto:%3$s&gt;%3$s&lt;/a&gt; "</string>
+    <string name="check_update">Güncəllənməni Yoxla</string>
+    <string name="quit">Çıxış</string>
+    <string name="want_to_quit">Çıxmaq isdədiyinizə əminsiz?</string>
+
+    <string name="install">Quraşdır</string>
+    <string name="open">Aç</string>
+    <string name="delete">Sil</string>
+    <string name="delete_all">Hamsını Sil</string>
+    <string name="properties">Xüsusiyyətləri</string>
+    <string name="properties_message">" &lt;b&gt;Yol:&lt;/b&gt; %1$s&lt;br&gt;&lt;b&gt;Ölçü:&lt;/b&gt; %2$s&lt;br&gt;&lt;b&gt;Son Düzəliş:&lt;/b&gt; %3$s "</string>
+    <string name="want_to_delete_file">Bu Fayl Silmək İstiyirsiz?</string>
+    <string name="want_to_delete_all_files">Siz bütün faylları silmək istəyirsiniz?</string>
+    <string name="file_has_been_deleted">Fayl Silindi.</string>
+    <string name="failed_to_delete_file">Fayl Silinmədi.</string>
+    <string xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" name="install__label_">Quraşdır - <xliff:g id="app_label" example="APKPure">%1$s</xliff:g></string>
+    <string name="user_canceled">İsdifadəçi ləğv etdi.</string>
+    <string name="auto">Avtomatik</string>
+    <string name="language">Dil Seçimi</string>
+    <string name="general">Normalda</string>
+    <string name="touch_to_open">Kontakt la açmaq.</string>
+
+    <string name="report_problem_subject">Problem bildir</string>
+    <string name="new_version_available_message">" &lt;b&gt;Son Versiya:&lt;/b&gt; %1$s&lt;br&gt;&lt;br&gt;&lt;b&gt;Yeni Nə Var:&lt;/b&gt;&lt;br&gt;%2$s "</string>
+
+    <string name="report__">Bildir…</string>
+    <string name="report_problem__">Problem Bildir…</string>
+    <string name="new_version_available_title">Yeni Versiya Var</string>
+    <string name="skip">Keç</string>
+
+    <string xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" name="_name__is_up_to_date"><xliff:g id="name" example="APKPure">%1$s</xliff:g> güncəl.</string>
+    <string name="join_us">Bizə Qatıl</string>
+    <string name="search_history">Tarix</string>
+    <string name="clear_search_history">Tarixi Təmizlə</string>
+
+    <string name="improvement_plan_title">Performası Yaxşılaşdırma Pılanı</string>
+    <string name="search_for_apps">Tətbiq Axtar</string>
+    <string name="trending_searches">Top Axtarışlar</string>
+    <string name="search">Axtar</string>
+    <string name="want_to_remove_download_item">Bu Yükləməni Silmək istiyirsiz?</string>
+    <string name="want_to_remove_all_download_items">Siz bütün yükləmə fayllardan çıxarmaq istədiyinizə əminsiz?</string>
+    <string name="detail">Ətraflı</string>
+    <string name="remove">Qaldır</string>
+    <string name="remove_all">Hamsını Sil</string>
+    <string name="deleted">Silindi</string>
+    <string name="expired">Vaxtı doldu</string>
+    <string name="file_invalid">Fayl etibarsızdır</string>
+    <string name="file_missing">Fayl əksik</string>
+    <string name="waiting_to_download">Yükləmək üçün gözləmə</string>
+    <string name="paused">Fasilə</string>
+    <string name="failed">Uğursuz</string>
+    <string name="waiting">Gözləyir</string>
+    <string name="preparing">Hazırlanır</string>
+    <string name="completed">Tamamlandı</string>
+    <string name="download">Yüklə</string>
+    <string name="downloading">Yüklənir</string>
+    <string name="installation_failed">Quraşdırma Uğursuzdur</string>
+    <string name="invalid_app_detail">Uyğunsuz olan tətbiq məllumatları.</string>
+    <string name="extracting_apk">APK Fayl Çıxarılır …</string>
+    <string name="installing_apk">APK Yüklənir …</string>
+
+    <string name="uninstall">Qaldır</string>
+    <string name="uninstalled">Qaldırıldı</string>
+    <string xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" name="last_update__date_">Son güncəllənmə: <xliff:g id="date">%1$s</xliff:g></string>
+
+    <string name="all">Hamsı</string>
+
+    <string name="screenshots">Ekran Görüntüləri</string>
+    <string name="description">Açıqlama</string>
+    <string name="whatsnew">Yeni Nə Var</string>
+    <string name="information">Məllumat</string>
+    <string name="version_">Versiya:</string>
+    <string name="updated_">Güncəlləndi:</string>
+    <string name="size_">Ölçü:</string>
+    <string name="permissions_">İcazələr:</string>
+    <string name="type_">Növ:</string>
+    <string name="category_">Kateqoriya:</string>
+    <string name="more">daha çox</string>
+    <string name="permissions">İcazələr</string>
+    <string name="other">Digər</string>
+    <string name="apk">APK</string>
+    <string name="xapk">XAPK</string>
+    <string name="unknown">Naməlum</string>
+    <string name="market_response_error_success">Uğurlu.</string>
+    <string name="market_response_error_invalid_result">Uğursuz nəticə.</string>
+    <string name="market_response_error_network_connect_error">İnternet bağlantısı xətası.</string>
+    <string name="market_response_error_network_read_error">İnternet oxuma xətası.</string>
+    <string name="market_response_error_invalid_response_code">Keçərsiz doğrulama kodu.</string>
+    <string name="no_more">Daha yoxdur.</string>
+
+    <string name="update">Güncəllə</string>
+    <string xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" name="version__version___size_">Versiya: <xliff:g id="version" example="1.0.0">%1$s</xliff:g>, <xliff:g id="size" example="1024 kB">%2$s</xliff:g></string>
+    <string name="downloads_complete">Yükləmə Tamamlandı</string>
+    <string name="touch_for_view_all_downloads">Bütün Yükləmələri Görmək üçün toxun</string>
+    <string name="touch_to_download_it_again">Təkrar yükləmək üçün toxun</string>
+
+    <string xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" name="download_percent"><xliff:g id="percent" example="50">%1$d</xliff:g> %%</string>
+    <string name="pause">Fasilə</string>
+    <string name="pause_all">Hamsına Fasilə ver</string>
+    <string name="continue_">Davam et</string>
+    <string name="continue_all">Hamsına Davam et</string>
+    <string name="restart">Yenidən başlat</string>
+    <string name="total_zero_app">" Cəmi "</string>
+
+    <string name="select_all">Hamsını Seç</string>
+    <string name="deselect_all">Hamsını Seçmə</string>
+    <string name="ignored">Bloklandı</string>
+    <plurals name="total__count__apps__size_">
+	<item quantity="one">" Cəmi: &lt;b&gt;&lt;font color=%1$d&gt;%2$d&lt;/font&gt;&lt;/b&gt; app, &lt;b&gt;&lt;font color=%1$d&gt;%3$s&lt;/font&gt;&lt;/b&gt; "</item>
+	<item quantity="other">" Cəmi: &lt;b&gt;&lt;font color=%1$d&gt;%2$d&lt;/font&gt;&lt;/b&gt; apps, &lt;b&gt;&lt;font color=%1$d&gt;%3$s&lt;/font&gt;&lt;/b&gt; "</item>
+</plurals>
+    <string xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" name="_name__download_failed"><xliff:g id="name" example="APKPure">%1$s</xliff:g> yükləmə uğursuz</string>
+    <string name="io_error">Yanlışı Seçim Çevrəsi. Orada ki, uğur qazanmak üçün qurulmak üçün kifayyət qədər yer yoxdur.</string>
+    <string name="file_format_error">Bilinməyən fayl növü.</string>
+    <string name="parsing_xapk">XAPK Analiz edilir …</string>
+    <string name="installing_obb">OBB Fayl Yüklənir …</string>
+    <string name="flag_as_inappropriate">Kimi yersiz bayrağı</string>
+    <string name="_ellipsis_"> … </string>
+
+    <string name="market_response_error_invalid_response_body">Cavab orqan etibarsız.</string>
+    <string xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" name="market_response_error_unknown_error__error_">Naməlum səhv (<xliff:g id="error" example="SUCCESS">%1$s</xliff:g>).</string>
+
+    <plurals xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" name="_count__new_update_is_available">
+	<item quantity="one"><xliff:g id="count" example="1">%1$d</xliff:g> yeni güncəlləmə isdifadə edilə bilər</item>
+	<item quantity="other"><xliff:g id="count" example="2">%1$d</xliff:g> yeni güncəlləmə isdifadə edilə bilər</item>
+</plurals>
+
+    <string name="launching_please_wait">Buraxılması, lütfən gözləyin…</string>
+
+    <plurals xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" name="_count__item_is_downloading">
+	<item quantity="one"><xliff:g id="count" example="1">%1$d</xliff:g> tem yükləyir</item>
+	<item quantity="other"><xliff:g id="count" example="2">%1$d</xliff:g>tem yükləyir</item>
+</plurals>
+    <string name="delete_downloaded_file">Silən fayl yükləmək</string>
+
+    <string name="improvement_plan_message"> Göndərmək Android Qurğu İnfo ilə bizə kömək Edirik <b> deyil toplayır </b> şəxsən-eyniləşdirmək (adı, ünvanı, e-mail ünvanı, sosial sığorta nömrəsi və ya digər nadir identifiers) informasiya. </string>
+    <string name="report_problem_text">Problem mövzu:\n%1$s\n\nProblem ətraflı:\n%2$s</string>
+    <string name="contact_us__">Bizimlə Əlaqə…</string>
+    <string name="contact_us">Bizimlə Əlaqə</string>
+    <string name="report_content">Hesabatın Məzmunu</string>
+
+    <string name="invalid_app_asset">Etibarsız aktivlərin informasiya tətbiqi.</string>
+    <string name="failed_to_request_app_detail">Sorğu tətbiq ətraflı məlumata bilməyib.</string>
+    <string name="failed_to_request_app_asset">Sorğu tətbiq aktivlərin məlumata bilməyib.</string>
+    <string name="incompatible_this_app">" &lt;big&gt;&lt;b&gt;&lt;font color=%1$d&gt;Sizin telefonunuz bu planşet kompüterlər üçün xüsusi əlavəsi ilə bir araya sığmır.&lt;/font&gt;&lt;/b&gt;&lt;/big&gt;&lt;br&gt;&lt;br&gt;Davam etdirmək istəyirsiniz? "</string>
+    <string name="this_app_not_usable">" &lt;big&gt;&lt;b&gt;&lt;font color=%1$d&gt;Bu tətbiq faydalı ola bilməz.&lt;/font&gt;&lt;/b&gt;&lt;/big&gt;&lt;br&gt;&lt;br&gt;Davam etdirmək istəyirsiniz? "</string>
+
+    <string name="setting">Qurğu</string>
+    <string name="external_storage_not_usable"> <big><b>Biz sizin xarici anbarın çıxmaq lazımdır. Görəcəksiniz, bu istifadə edilə bilər.</b></big> </string>
+    <string name="external_storage_permission_denied"> <big><b>Biz sizin xarici anbarın çıxmaq lazımdır. Xahiş edirəm, mütləq icazə danılmazdır.</b></big> </string>
+
+    <string name="share">Paylaş</string>
+    <string xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" name="share_app_url">&lt;/xliff:g&gt;&lt;xliff:g xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\" id=\"social_network_name\" example=\"APKPure\"&gt;<xliff:g id="app_name" example="APKPure">%1$s</xliff:g> APK (from @<xliff:g id="social_network_name" example="APKPure">%2$s</xliff:g>), <xliff:g id="app_url" example="https://apkpure.com/p/com.apkpure.aegon">%3$s</xliff:g></string>
+
+    <string xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" name="_name__version_history"><xliff:g id="name" example="APKPure">%1$s</xliff:g> Köhnə Versiyalar</string>
+    <string xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" name="update__date___size_">Güncəll: <xliff:g id="date" example="Mar 3, 2016">%1$s</xliff:g>, <xliff:g id="size" example="1024 kB">%2$s</xliff:g></string>
+
+    <string name="update_all">Hamsını Güncəlləşdir</string>
+    <string xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" name="update___count__">Güncəll (<xliff:g id="count" example="3">%1$d</xliff:g>)</string>
+    <string name="ignore">Blok</string>
+    <string name="unignore">Bloklama</string>
+    <string name="select">Seç</string>
+    <string name="cancel">Ləğv et</string>
+    <string name="installation">Qurğu</string>
+    <string name="show_notification_after_installation">Quraşdırıldıqdan sonra bildiriş göstərin</string>
+    <string name="delete_packages_after_installation">Paketləri quraşdırıldıqdan sonra sil</string>
+
+    <string xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" name="_name__installation_completed"><xliff:g id="name" example="APKPure">%1$s</xliff:g> Quraşdırılması başa çatıb</string>
+    </resources>
