@@ -48,7 +48,7 @@
     <string name="user_canceled">İsdifadəçi ləğv etdi.</string>
     <string name="auto">Avtomatik</string>
     <string name="language">Dil Seçimi</string>
-    <string name="general">Normalda</string>
+    <string name="general">Ümumi</string>
     <string name="touch_to_open">Kontakt la açmaq.</string>
 
     <string name="report_problem_subject">Problem bildir</string>
@@ -85,8 +85,8 @@
     <string name="completed">Tamamlandı</string>
     <string name="download">Yüklə</string>
     <string name="downloading">Yüklənir</string>
-    <string name="installation_failed">Quraşdırma Uğursuzdur</string>
-    <string name="invalid_app_detail">Uyğunsuz olan tətbiq məllumatları.</string>
+    <string name="installation_failed">Quraşdırma Uğursuz</string>
+    <string name="invalid_app_detail">Naməlum tətbiq məllumatları.</string>
     <string name="extracting_apk">APK Fayl Çıxarılır …</string>
     <string name="installing_apk">APK Yüklənir …</string>
 
@@ -181,7 +181,7 @@
     <string name="external_storage_permission_denied"> <big><b>Biz sizin xarici anbarın çıxmaq lazımdır. Xahiş edirəm, mütləq icazə danılmazdır.</b></big> </string>
 
     <string name="share">Paylaş</string>
-    <string xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" name="share_app_url">&lt;/xliff:g&gt;&lt;xliff:g xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\" id=\"social_network_name\" example=\"APKPure\"&gt;<xliff:g id="app_name" example="APKPure">%1$s</xliff:g> APK (from @<xliff:g id="social_network_name" example="APKPure">%2$s</xliff:g>), <xliff:g id="app_url" example="https://apkpure.com/p/com.apkpure.aegon">%3$s</xliff:g></string>
+    <string xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" name="share_app_url">Yüklə <xliff:g id="app_name" example="APKPure">%1$s</xliff:g> APK (from @<xliff:g id="social_network_name" example="APKPure">%2$s</xliff:g>), <xliff:g id="app_url" example="https://apkpure.com/p/com.apkpure.aegon">%3$s</xliff:g></string>
 
     <string xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" name="_name__version_history"><xliff:g id="name" example="APKPure">%1$s</xliff:g> Köhnə Versiyalar</string>
     <string xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" name="update__date___size_">Güncəll: <xliff:g id="date" example="Mar 3, 2016">%1$s</xliff:g>, <xliff:g id="size" example="1024 kB">%2$s</xliff:g></string>
