@@ -1,28 +1,27 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources
-    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<?xml version='1.0' encoding='UTF-8'?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
-    <string name="action_settings">Paramètre</string>
+    <string name="action_settings">Paramètres</string>
     <string name="action_search">Rechercher</string>
     <string name="action_management">Gérer</string>
 
     <string name="press_back_key_quit">Pressez encore une fois retour pour quitter.</string>
 
-    <string name="featured">Mise en avant</string>
+    <string name="featured">Mis en avant</string>
     <string name="games">Jeux</string>
-    <string name="apps">Application</string>
+    <string name="apps">Applications</string>
     <string name="categories">Catégories</string>
-    <string name="updates">Mise a jour</string>
+    <string name="updates">Mise à jour</string>
 
-    <string name="something_happened">&gt;_&lt;\nQuelque chose c\'est passez</string>
+    <string name="something_happened">&gt;_&lt;\nQuelque chose s\'est passé.</string>
 
-    <string name="load_failed_error">Desoler mais une erreur est survenu.</string>
+    <string name="load_failed_error">Désolé mais une erreur est survenue.</string>
     <string name="load_failed_empty">Il y a rien ici.</string>
     <string name="load_failed_all_up_to_date">Toutes vos applications sont a jour.</string>
     <string name="load_failed_no_results">Désolée mais aucun résultat trouve.</string>
     <string name="refresh">Rafraîchir</string>
 
-    <string name="management">Management</string>
+    <string name="management">Gestion</string>
     <string name="app_updates">Mettre a jour ses applications</string>
     <string name="app_management">Gérer ses applis</string>
     <string name="app_uninstall">Désinstaller des application</string>
@@ -31,18 +30,18 @@
     <string name="download_management">Gérer les téléchargement</string>
     <string name="settings">Paramètre</string>
     <string name="about">Information</string>
-    <string name="about_title">Information <xliff:g id="app_name" example="APKPure">%1$s</xliff:g></string>
+    <string name="about_title">À Propos de <xliff:g id="app_name" example="APKPure">%1$s</xliff:g></string>
     <string name="about_message">
         <![CDATA[<b>Version:</b> %1$s<br><br><b>Site web:</b> <a href="%2$s">%2$s</a><br><b>Email:</b> <a href="mailto:%3$s">%3$s</a>]]>
     </string>
     <string name="check_update">Verifier les mises a jour</string>
     <string name="quit">Quitter</string>
-    <string name="want_to_quit">Etes vous sur de quitter l\'application?</string>
+    <string name="want_to_quit">Êtes vous sûr de quitter l\'application ?</string>
 
     <string name="install">Installer</string>
     <string name="open">Ouvrir</string>
     <string name="delete">Supprimer</string>
-    <string name="want_to_delete_file">Voulez vous supprimer ce fichier?</string>
+    <string name="want_to_delete_file">Voulez-vous supprimer ce fichier ?</string>
     <string name="file_has_been_deleted">Ce fichier a bien été supprimée.</string>
     <string name="failed_to_delete_file">Échec de la suppression du fichier.</string>
     <string name="install__label_">Installer - <xliff:g id="app_label" example="APKPure">%1$s</xliff:g></string>
@@ -64,12 +63,12 @@
     <string name="description">Description</string>
     <string name="whatsnew">Nouveautés</string>
     <string name="information">Information</string>
-    <string name="version_">Version:</string>
-    <string name="updated_">Updated:</string>
-    <string name="size_">Taille:</string>
-    <string name="permissions_">Permissions:</string>
-    <string name="type_">Type:</string>
-    <string name="category_">Catégorie:</string>
+    <string name="version_">Version :</string>
+    <string name="updated_">Mis à jour :</string>
+    <string name="size_">Taille :</string>
+    <string name="permissions_">Permissions :</string>
+    <string name="type_">Type :</string>
+    <string name="category_">Catégorie :</string>
     <string name="more">Plus</string>
     <string name="permissions">Permissions</string>
     <string name="other">Autre</string>
@@ -78,9 +77,9 @@
     <string name="unknown">Inconnu</string>
     <string name="_ellipsis_"> … </string>
 
-    <string name="market_response_error_success">Succès</string>
+    <string name="market_response_error_success">Succès.</string>
     <string name="market_response_error_invalid_result">En attente d\'unrrésultats valide.</string>
-    <string name="market_response_error_network_connect_error">Erreur réseau</string>
+    <string name="market_response_error_network_connect_error">Erreur de connexion au réseau.</string>
     <string name="market_response_error_network_read_error">Erreur réseau.</string>
     <string name="market_response_error_invalid_response_code">Code reponse invalide.</string>
     <string name="market_response_error_invalid_response_body">Le corps reponse invalide.</string>
@@ -89,32 +88,32 @@
     <string name="no_more">Rien de plus.</string>
 
     <string name="update">Mettre a jour</string>
-    <string name="version__version___size_">Version: <xliff:g id="version" example="1.0.0">%1$s</xliff:g>, <xliff:g id="size" example="1024 kB">%2$s</xliff:g></string>
+    <string name="version__version___size_">Version : <xliff:g id="version" example="1.0.0">%1$s</xliff:g>, <xliff:g id="size" example="1024 kB">%2$s</xliff:g></string>
     <plurals name="_count__new_update_is_available">
         <item quantity="one"><xliff:g id="count" example="1">%1$d</xliff:g> Une mise a jour est Disponible</item>
         <item quantity="other"><xliff:g id="count" example="2">%1$d</xliff:g> Des mises a jour sont disponible</item>
     </plurals>
 
-    <string name="launching_please_wait">LANCEMENT ATTENDEZ …</string>
+    <string name="launching_please_wait">Lancement, veuillez patienter…</string>
 
     <plurals name="_count__item_is_downloading">
         <item quantity="one"><xliff:g id="count" example="1">%1$d</xliff:g> Application en cours de téléchargement</item>
         <item quantity="other"><xliff:g id="count" example="2">%1$d</xliff:g> Applications en cours de téléchargement</item>
     </plurals>
     <string name="downloads_complete">Téléchargement fini</string>
-    <string name="touch_for_view_all_downloads">Touchée pour voir tous les téléchargements</string>
-    <string name="_name__download_failed"><xliff:g id="name" example="APKPure">%1$s</xliff:g> erreur téléchargement</string>
-    <string name="touch_to_download_it_again">Toucher pour télécharger a nouveau</string>
+    <string name="touch_for_view_all_downloads">Toucher pour voir tous les téléchargements</string>
+    <string name="_name__download_failed"><xliff:g id="name" example="APKPure">%1$s</xliff:g> erreur de téléchargement</string>
+    <string name="touch_to_download_it_again">Toucher pour télécharger à nouveau</string>
 
     <string name="download_percent"><xliff:g id="percent" example="50">%1$d</xliff:g> %%</string>
-    <string name="pause">Pause</string>
+    <string name="pause">Mettre en Pause</string>
     <string name="continue_">Continuer</string>
     <string name="restart">Recommencer</string>
     <string name="download">Télécharger</string>
     <string name="downloading">En cours de téléchargement</string>
     <string name="waiting">Attendez</string>
     <string name="preparing">Préparation</string>
-    <string name="completed">Complété</string>
+    <string name="completed">Terminé</string>
     <string name="paused">Pause</string>
     <string name="failed">Erreur</string>
     <string name="file_invalid">Fichier invalide</string>
@@ -122,7 +121,7 @@
     <string name="expired">Expirée</string>
     <string name="detail">Détail</string>
     <string name="remove">Supprimer</string>
-    <string name="want_to_remove_download_item">Voulez vous supprimer ces fichiers?</string>
+    <string name="want_to_remove_download_item">Voulez-vous supprimer ces fichiers ?</string>
 
     <string name="search">Rechercher</string>
     <string name="search_for_apps">Rechercher des applications</string>
@@ -135,7 +134,7 @@
     <string name="join_us">Rejoint nous</string>
     <string name="skip">Passez</string>
 
-    <string name="_name__is_up_to_date"><xliff:g id="name" example="APKPure">%1$s</xliff:g> Est a jour.</string>
+    <string name="_name__is_up_to_date"><xliff:g id="name" example="APKPure">%1$s</xliff:g> est à jour.</string>
     <string name="new_version_available_title">Nouvelle version Disponible</string>
     <string name="new_version_available_message">
         <![CDATA[<b>Derniere version:</b> %1$s<br><br><b>Quoi de neuf:</b><br>%2$s]]>
@@ -146,17 +145,13 @@
     <string name="report_problem_subject">Reporter un problème</string>
     <string name="report_problem_text">Problème sujet:\n%1$s\n\Détail du problème:\n%2$s</string>
 
-    <string name="installation_failed">Installation échoué</string>
+    <string name="installation_failed">L\'installation a échoué</string>
     <string name="invalid_app_detail">Les détails de l\'application sont invalides.</string>
     <string name="invalid_app_asset">Les details de l\'asset sont invalides.</string>
     <string name="failed_to_request_app_detail">Erreur pour obtenir les détails de l\'application.</string>
     <string name="failed_to_request_app_asset">Erreur pour obtenir les détails de l\'asset.</string>
-    <string name="incompatible_this_app">
-        <![CDATA[<big><b><font color="%1$d">Votre téléphone est pas compatible.</font></b></big><br><br>Voulez vous continuer?]]>
-    </string>
-    <string name="this_app_not_usable">
-        <![CDATA[<big><b><font color="%1$d">Cette appli peut ne pas fonctionner.</font></b></big><br><br>Voulez vous continuer?]]>
-    </string>
+    <string name="incompatible_this_app">" &lt;big&gt;&lt;b&gt;&lt;font color=%1$d&gt;Votre téléphone n\'est pas compatible avec cette application.&lt;/font&gt;&lt;/b&gt;&lt;/big&gt;&lt;br&gt;&lt;br&gt;Voulez vous continuer ? "</string>
+    <string name="this_app_not_usable">" &lt;big&gt;&lt;b&gt;&lt;font color=%1$d&gt;Cette application peut ne pas fonctionner.&lt;/font&gt;&lt;/b&gt;&lt;/big&gt;&lt;br&gt;&lt;br&gt;Voulez vous continuer ? "</string>
 
     <string name="setting">Paramètre</string>
     <string name="external_storage_not_usable">
@@ -171,4 +166,49 @@
 
     <string name="_name__version_history"><xliff:g id="name" example="APKPure">%1$s</xliff:g> Historique des versions</string>
     <string name="update__date___size_">Mise a jour: <xliff:g id="date" example="Mar 3, 2016">%1$s</xliff:g>, <xliff:g id="size" example="1024 kB">%2$s</xliff:g></string>
-</resources>
+<string name="general">Général</string>
+    <string name="language">Langue</string>
+    <string name="auto">Auto</string>
+    <string name="delete_all">Tout supprimer</string>
+    <string name="properties">Propriétés</string>
+    <string name="properties_message">" &lt;b&gt;Chemin : &lt;/b&gt;%1$s&lt;br&gt;&lt;b&gt;Taille : &lt;/b&gt;%2$s&lt;br&gt;&lt;b&gt;Dernière modification : &lt;/b&gt;%3$s "</string>
+    <string name="want_to_delete_all_files">Voulez-vous supprimer tout les fichiers ?</string>
+    <string name="flag_as_inappropriate">Marqué comme étant inapproprié</string>
+    <string name="pause_all">Mettre tout en Pause</string>
+    <string name="continue_all">Tout Continuer</string>
+    <string name="waiting_to_download">En attente de téléchargement</string>
+    <string name="deleted">Supprimer</string>
+    <string name="remove_all">Tout Supprimer</string>
+    <string name="want_to_remove_all_download_items">Voulez-vous supprimer tout les téléchargements ?</string>
+    <string name="delete_downloaded_file">Supprimer le fichier téléchargé</string>
+
+    <string name="search_history">Historique</string>
+    <string name="clear_search_history">Supprimer l\'historique</string>
+
+    <string name="contact_us__">Contactez-nous…</string>
+    <string name="contact_us">Contactez-nous</string>
+    <string name="report_content">Signaler le contenu</string>
+
+    <string name="update_all">Tout mettre à jour</string>
+    <string name="update___count__">Mise à jour (<xliff:g id="count" example="3">%1$d</xliff:g>)</string>
+    <string name="ignore">Ignorer</string>
+    <string name="unignore">Dé-Ignorer</string>
+    <string name="select">Selectionner</string>
+    <string name="cancel">Annuler</string>
+    <string name="select_all">Tout Selectionner</string>
+    <string name="deselect_all">Tout Déselectionner</string>
+    <string name="ignored">Ignoré</string>
+    <plurals name="total__count__apps__size_">
+	<item quantity="one">" Total : &lt;b&gt;&lt;font color=%1$d&gt;%2$d&lt;/font&gt;&lt;/b&gt; application, &lt;b&gt;&lt;font color=%1$d&gt;%3$s&lt;/font&gt;&lt;/b&gt; "</item>
+	<item quantity="other">" Total : &lt;b&gt;&lt;font color=%1$d&gt;%2$d&lt;/font&gt;&lt;/b&gt; applications, &lt;b&gt;&lt;font color=%1$d&gt;%3$s&lt;/font&gt;&lt;/b&gt; "</item>
+</plurals>
+    <string name="total_zero_app">" Total : &lt;b&gt;&lt;font color=%1$d&gt;0&lt;/font&gt;&lt;/b&gt; application "</string>
+
+    <string name="installation">Installation</string>
+    <string name="show_notification_after_installation">Montrer la notification après l\'installation</string>
+    <string name="delete_packages_after_installation">Supprimer les paquets après l\'installation</string>
+
+    <string name="_name__installation_completed"><xliff:g id="name" example="APKPure">%1$s</xliff:g> installation terminée</string>
+    <string name="touch_to_open">Touchez pour ouvrir.</string>
+
+    </resources>
