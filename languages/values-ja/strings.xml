@@ -1,6 +1,5 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources
-    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<?xml version='1.0' encoding='UTF-8'?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
     <string name="action_settings">設定</string>
     <string name="action_search">検索</string>
@@ -136,17 +135,17 @@
     <string name="skip">スキップ</string>
 
     <string name="_name__is_up_to_date"><xliff:g id="name" example="APKPure">%1$s</xliff:g>は更新されます。</string>
-    <string name="new_version_available_title">ニューバージョン利用可能</string>
+    <string name="new_version_available_title">アップデートがあります</string>
     <string name="new_version_available_message">
         <![CDATA[<b>Latest Version:</b> %1$s<br><br><b>最新情報:</b><br>%2$s]]>
     </string>
 
     <string name="report__">報告…</string>
-    <string name="report_problem__">問題報告…</string>
-    <string name="report_problem_subject">問題報告する</string>
+    <string name="report_problem__">問題を報告…</string>
+    <string name="report_problem_subject">問題を報告する</string>
     <string name="report_problem_text">問題トピック:\n%1$s\n\n問題詳細:\n%2$s</string>
 
-    <string name="installation_failed">インストール失敗しました。</string>
+    <string name="installation_failed">インストールに失敗しました</string>
     <string name="invalid_app_detail">アプのリ詳細インフォメーションを無効にします。</string>
     <string name="invalid_app_asset">アプリのメリットインフォメーションを無効にします。</string>
     <string name="failed_to_request_app_detail">アプリの詳細インフォメーションをリクエスト失敗しました。</string>
@@ -171,4 +170,8 @@
 
     <string name="_name__version_history"><xliff:g id="name" example="APKPure">%1$s</xliff:g>以前バージョン</string>
     <string name="update__date___size_">アップデート: <xliff:g id="date" example="Mar 3, 2016">%1$s</xliff:g>, <xliff:g id="size" example="1024 kB">%2$s</xliff:g></string>
-</resources>
+<string name="contact_us">お問い合わせ</string>
+    <string name="contact_us__">問い合わせる…</string>
+    <string name="report_content">コンテンツを報告</string>
+
+    </resources>
