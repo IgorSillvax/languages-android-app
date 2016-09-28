@@ -1,6 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<resources
-    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<?xml version='1.0' encoding='UTF-8'?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
     <string name="action_settings">Cài đặt</string>
     <string name="action_search">Tìm kiếm</string>
@@ -17,7 +16,7 @@
     <string name="something_happened">&gt;_&lt;\nĐôi khi có lỗi.</string>
 
     <string name="load_failed_error">Ôi!! Đã có lỗi xảy ra.</string>
-    <string name="load_failed_empty">Nó không có ở đây.</string>
+    <string name="load_failed_empty">Không có gì ở đây.</string>
     <string name="load_failed_all_up_to_date">Tất cả các ứng dụng được cập nhật.</string>
     <string name="load_failed_no_results">Xin lỗi! Không tìm thấy kết quả.</string>
     <string name="refresh">Làm mới</string>
@@ -176,4 +175,30 @@
     <string name="language">Ngôn ngữ</string>
     <string name="auto">Tự động</string>
 
-</resources>
+<string name="pause_all">Dừng Toàn Bộ</string>
+    <string name="continue_all">Tiếp tục tất cả</string>
+    <string name="waiting_to_download">Đang chờ tải</string>
+    <string name="deleted">Đã xóa</string>
+    <string name="remove_all">Di chuyển toàn bộ</string>
+    <string name="delete_downloaded_file">Xóa mục đã tải về</string>
+
+    <string name="search_history">Lịch sử</string>
+    <string name="clear_search_history">Xóa Lịch sử</string>
+
+    <string name="contact_us__">Liên hệ với chúng tôi…</string>
+    <string name="report_content">Báo cáo nội dung</string>
+
+    <string name="update_all">Cập nhật toàn bộ</string>
+    <string name="ignore">Bỏ qua</string>
+    <string name="select">Chọn</string>
+    <string name="cancel">Hủy</string>
+    <string name="select_all">Chọn Toàn bộ</string>
+    <string name="deselect_all">Bỏ chọn toàn bộ</string>
+    <string name="ignored">Đã bỏ qua</string>
+    <string name="installation">Cài đặt</string>
+    <string name="show_notification_after_installation">Hiện thông báo sau khi cài đặt</string>
+    <string name="touch_to_open">Chạm đẻ mở.</string>
+
+    <string name="delete_all">Xóa toàn bộ</string>
+    <string name="properties">Đặc tính</string>
+    </resources>
