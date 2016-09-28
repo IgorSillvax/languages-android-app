@@ -15,39 +15,37 @@
 
     <string name="something_happened">&gt;_&lt;\nQuelque chose s\'est passé.</string>
 
-    <string name="load_failed_error">Désolé mais une erreur est survenue.</string>
+    <string name="load_failed_error">Oups ! Une erreur est survenue.</string>
     <string name="load_failed_empty">Il y a rien ici.</string>
-    <string name="load_failed_all_up_to_date">Toutes vos applications sont a jour.</string>
-    <string name="load_failed_no_results">Désolée mais aucun résultat trouve.</string>
+    <string name="load_failed_all_up_to_date">Toutes vos applications sont à jour.</string>
+    <string name="load_failed_no_results">Désolé ! Aucun résultat n\'a été trouvé.</string>
     <string name="refresh">Rafraîchir</string>
 
     <string name="management">Gestion</string>
-    <string name="app_updates">Mettre a jour ses applications</string>
-    <string name="app_management">Gérer ses applis</string>
-    <string name="app_uninstall">Désinstaller des application</string>
-    <string name="apk_management">Gérer les applications</string>
-    <string name="apk_xapk_management">Gerer les apk et les xapk</string>
-    <string name="download_management">Gérer les téléchargement</string>
-    <string name="settings">Paramètre</string>
-    <string name="about">Information</string>
-    <string name="about_title">À Propos de <xliff:g id="app_name" example="APKPure">%1$s</xliff:g></string>
-    <string name="about_message">
-        <![CDATA[<b>Version:</b> %1$s<br><br><b>Site web:</b> <a href="%2$s">%2$s</a><br><b>Email:</b> <a href="mailto:%3$s">%3$s</a>]]>
-    </string>
-    <string name="check_update">Verifier les mises a jour</string>
+    <string name="app_updates">Mettre à jour les Applications</string>
+    <string name="app_management">Gérer les Applications</string>
+    <string name="app_uninstall">Désinstaller les Applications</string>
+    <string name="apk_management">Gérer les Applications</string>
+    <string name="apk_xapk_management">Gérer les APK et les XAPK</string>
+    <string name="download_management">Gestion des Téléchargements</string>
+    <string name="settings">Paramètres</string>
+    <string name="about">À propos</string>
+    <string name="about_title">À propos d\'<xliff:g id="app_name" example="APKPure">%1$s</xliff:g></string>
+    <string name="about_message">" &lt;b&gt;Version : &lt;/b&gt;%1$s&lt;br&gt;&lt;br&gt;&lt;b&gt;Site Web : &lt;/b&gt;&lt;a href=%2$s&gt;%2$s&lt;/a&gt;&lt;br&gt;&lt;b&gt;Email : &lt;/b&gt;&lt;a href=mailto:%3$s&gt;%3$s&lt;/a&gt; "</string>
+    <string name="check_update">Vérifiez les Mise à Jour</string>
     <string name="quit">Quitter</string>
-    <string name="want_to_quit">Êtes vous sûr de quitter l\'application ?</string>
+    <string name="want_to_quit">Êtes vous sûr de vouloir quitter l\'application ?</string>
 
     <string name="install">Installer</string>
     <string name="open">Ouvrir</string>
     <string name="delete">Supprimer</string>
     <string name="want_to_delete_file">Voulez-vous supprimer ce fichier ?</string>
-    <string name="file_has_been_deleted">Ce fichier a bien été supprimée.</string>
-    <string name="failed_to_delete_file">Échec de la suppression du fichier.</string>
+    <string name="file_has_been_deleted">Le fichier a été supprimé.</string>
+    <string name="failed_to_delete_file">Impossible de supprimer le fichier.</string>
     <string name="install__label_">Installer - <xliff:g id="app_label" example="APKPure">%1$s</xliff:g></string>
-    <string name="user_canceled">Utilisateur annule.</string>
-    <string name="io_error">IO erreur cela est peut être du au manque d\'espace disponible.</string>
-    <string name="file_format_error">Erreur format du fichier.</string>
+    <string name="user_canceled">L\'utilisateur a annulé.</string>
+    <string name="io_error">Erreur IO. Peut être qu\'il n\'y a pas suffisamment d\'espace libre pour réussir l\'installation.</string>
+    <string name="file_format_error">Erreur de format de fichier.</string>
     <string name="parsing_xapk">Analyse XAPK …</string>
     <string name="installing_obb">Installation des fichier obb …</string>
     <string name="extracting_apk">Extraction de l\'apk …</string>
@@ -169,10 +167,10 @@
 <string name="general">Général</string>
     <string name="language">Langue</string>
     <string name="auto">Auto</string>
-    <string name="delete_all">Tout supprimer</string>
+    <string name="delete_all">Tout Supprimer</string>
     <string name="properties">Propriétés</string>
     <string name="properties_message">" &lt;b&gt;Chemin : &lt;/b&gt;%1$s&lt;br&gt;&lt;b&gt;Taille : &lt;/b&gt;%2$s&lt;br&gt;&lt;b&gt;Dernière modification : &lt;/b&gt;%3$s "</string>
-    <string name="want_to_delete_all_files">Voulez-vous supprimer tout les fichiers ?</string>
+    <string name="want_to_delete_all_files">Voulez-vous supprimer tous les fichiers ?</string>
     <string name="flag_as_inappropriate">Marqué comme étant inapproprié</string>
     <string name="pause_all">Mettre tout en Pause</string>
     <string name="continue_all">Tout Continuer</string>
