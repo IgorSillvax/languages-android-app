@@ -5,60 +5,59 @@
     <string name="action_search">찾기</string>
     <string name="action_management">관리</string>
 
-    <string name="press_back_key_quit">나가기 위해서는 뒤로 가기 버튼을 누르시오.</string>
+    <string name="press_back_key_quit">\'뒤로\' 버튼을 한번더 눌러 종료합니다.</string>
 
-    <string name="featured">인기 앱</string>
+    <string name="featured">추천</string>
     <string name="games">게임</string>
     <string name="apps">전체 앱</string>
     <string name="categories">카테고리</string>
     <string name="updates">업데이트</string>
 
-    <string name="something_happened">&gt;_&lt;\n어떤 문제가 있어요.</string>
+    <string name="something_happened">&gt;_&lt;
+문제가 발생 하였습니다.</string>
 
-    <string name="load_failed_error">아이쿠! 로딩 에러.</string>
-    <string name="load_failed_empty">이곳에는 아무것도 없군요.</string>
-    <string name="load_failed_all_up_to_date">모든 앱이 업데이트 되어야함.</string>
-    <string name="load_failed_no_results">죄송해요! 찾을수 없네요.</string>
+    <string name="load_failed_error">아이쿠! 오류가 있네요.</string>
+    <string name="load_failed_empty">여기는 아무것도 없군요.</string>
+    <string name="load_failed_all_up_to_date">전체 앱을 업데이트합니다.</string>
+    <string name="load_failed_no_results">미안! 찾을수 없네요.</string>
     <string name="refresh">새로고침</string>
 
     <string name="management">관리</string>
     <string name="app_updates">앱 업데이트</string>
     <string name="app_management">앱 관리</string>
-    <string name="app_uninstall">앱 지우기</string>
-    <string name="apk_management">앱 관리</string>
+    <string name="app_uninstall">앱 삭제</string>
+    <string name="apk_management">APK 관리</string>
     <string name="apk_xapk_management">APK/XAPK 관리</string>
     <string name="download_management">다운로드 관리</string>
     <string name="settings">설정</string>
     <string name="about">정보</string>
-    <string name="about_title">버전 정보 <xliff:g id="app_name" example="APKPure">%1$s</xliff:g></string>
-    <string name="about_message">
-        <![CDATA[<b>버전:</b> %1$s<br><br><b>웹사이트:</b> <a href=%2$s>%2$s</a><br><b>Email:</b> <a href=mailto:%3$s>%3$s</a>]]>
-    </string>
+    <string name="about_title">정보 <xliff:g id="app_name" example="APKPure">%1$s</xliff:g></string>
+    <string name="about_message">" &lt;b&gt;버전:&lt;/b&gt; %1$s&lt;br&gt;&lt;br&gt;&lt;b&gt;웹사이트:&lt;/b&gt; &lt;a href=%2$s&gt;%2$s&lt;/a&gt;&lt;br&gt;&lt;b&gt;이메일:&lt;/b&gt; &lt;a href=mailto:%3$s&gt;%3$s&lt;/a&gt; "</string>
     <string name="check_update">업데이트 체크</string>
-    <string name="quit">나가기</string>
-    <string name="want_to_quit">나가기 원하세요?</string>
+    <string name="quit">끝내기</string>
+    <string name="want_to_quit">종료 하시겠습니까?</string>
 
     <string name="install">설치</string>
     <string name="open">열기</string>
-    <string name="delete">지우기</string>
+    <string name="delete">삭제</string>
     <string name="properties">특성</string>
-    <string name="want_to_delete_file">이 파일을 지우기 원하세요?</string>
-    <string name="file_has_been_deleted">파일이 지워졌습니다.</string>
-    <string name="failed_to_delete_file">파일 지우기 실패함.</string>
-    <string name="install__label_">라벨 설치 - <xliff:g id="app_label" example="APKPure">%1$s</xliff:g></string>
-    <string name="user_canceled">이용자가 취소하였습니다.</string>
-    <string name="io_error">IO 에러. 설치를 성공하기 위한 저장 공간이 부족할 수도 있습니다.</string>
+    <string name="want_to_delete_file">이 파일을 삭제 하시겠습니까?</string>
+    <string name="file_has_been_deleted">파일이 삭제되었습니다.</string>
+    <string name="failed_to_delete_file">파일 삭제 실패함.</string>
+    <string name="install__label_">설치 - <xliff:g id="app_label" example="APKPure">%1$s</xliff:g></string>
+    <string name="user_canceled">취소하였습니다.</string>
+    <string name="io_error">IO 에러. 설치에 필요한 저장 공간이 부족할 수도 있습니다.</string>
     <string name="file_format_error">파일 포맷 에러.</string>
-    <string name="parsing_xapk">앱 파싱중 …</string>
+    <string name="parsing_xapk">XAPK 파싱중 …</string>
     <string name="installing_obb">OBB 파일 설치중 …</string>
-    <string name="extracting_apk">앱 파일 추출 중 …</string>
-    <string name="installing_apk">앱 설치 중 …</string>
+    <string name="extracting_apk">APK 파일을 가져옵니다 …</string>
+    <string name="installing_apk">APK 설치 중 …</string>
 
-    <string name="uninstall">삭제하기</string>
+    <string name="uninstall">삭제</string>
     <string name="uninstalled">삭제됨</string>
     <string name="last_update__date_">최근 업데이트 날짜: <xliff:g id="date">%1$s</xliff:g></string>
 
-    <string name="all">모두</string>
+    <string name="all">전체</string>
 
     <string name="screenshots">스크린샷</string>
     <string name="description">설명</string>
@@ -73,8 +72,8 @@
     <string name="more">더 보기</string>
     <string name="permissions">허용</string>
     <string name="other">다른</string>
-    <string name="apk">앱</string>
-    <string name="xapk">앱</string>
+    <string name="apk">APK</string>
+    <string name="xapk">XAPK</string>
     <string name="unknown">알수 없는</string>
     <string name="_ellipsis_"> … </string>
 
@@ -83,7 +82,7 @@
     <string name="market_response_error_network_connect_error">네트워크 연결 에러.</string>
     <string name="market_response_error_network_read_error">네트워크 읽기 에러.</string>
     <string name="market_response_error_invalid_response_code">유효하지 않은 응답 코드.</string>
-    <string name="market_response_error_invalid_response_body">유효하지 않은 바디.</string>
+    <string name="market_response_error_invalid_response_body">잘못된 응답내용</string>
     <string name="market_response_error_unknown_error__error_">알수 없는 에러 (<xliff:g id="error" example="SUCCESS">%1$s</xliff:g>).</string>
 
     <string name="no_more">더 이상 없음.</string>
@@ -91,23 +90,21 @@
     <string name="update">업데이트</string>
     <string name="version__version___size_">버전: <xliff:g id="version" example="1.0.0">%1$s</xliff:g>, <xliff:g id="size" example="1024 kB">%2$s</xliff:g></string>
     <plurals name="_count__new_update_is_available">
-        <item quantity="one"><xliff:g id="count" example="1">%1$d</xliff:g> 새로운 업데이트가 사용 가능합니다</item>
-        <item quantity="other"><xliff:g id="count" example="2">%1$d</xliff:g> 새로운 업데이트가 사용 가능합니다</item>
-    </plurals>
+	<item quantity="other"><xliff:g id="count" example="1">%1$d</xliff:g> 새로운 업데이트를 사용할 수 있습니다</item>
+</plurals>
 
     <string name="launching_please_wait">시작중, 기다려 주세요…</string>
 
     <plurals name="_count__item_is_downloading">
-        <item quantity="one"><xliff:g id="count" example="1">%1$d</xliff:g> 아이템이 다운로드 중입니다</item>
-        <item quantity="other"><xliff:g id="count" example="2">%1$d</xliff:g> 아이템이 다운로드 중입니다</item>
-    </plurals>
+	<item quantity="other"><xliff:g id="count" example="1">%1$d</xliff:g> 아이템이 다운로드 중입니다</item>
+</plurals>
     <string name="downloads_complete">다운로드 완료</string>
     <string name="touch_for_view_all_downloads">다운로드된 전체를 보려면 터치하시오</string>
     <string name="_name__download_failed"><xliff:g id="name" example="APKPure">%1$s</xliff:g> 다운로드 실패함</string>
     <string name="touch_to_download_it_again">다시 다운로드를 하려면 터치하시오</string>
 
     <string name="download_percent"><xliff:g id="percent" example="50">%1$d</xliff:g> %%</string>
-    <string name="pause">멈춤</string>
+    <string name="pause">중지</string>
     <string name="continue_">계속</string>
     <string name="restart">다시 시작</string>
     <string name="download">다운로드</string>
@@ -122,20 +119,20 @@
     <string name="expired">만료됨</string>
     <string name="detail">세부사항</string>
     <string name="remove">지우기</string>
-    <string name="want_to_remove_download_item">이 다운로드 아이템을 지울까요?</string>
+    <string name="want_to_remove_download_item">이 다운로드 항목을 삭제 하시겠습니까?</string>
 
     <string name="search">찾기</string>
     <string name="search_for_apps">앱 찾기</string>
     <string name="trending_searches">최근 찾기</string>
 
     <string name="improvement_plan_title">성능 향상 계획</string>
-    <string name="improvement_plan_message"> Help us with submit Android Device Info, We do <b>not collect</b> 개인정보(이름, 주소, 이메일, 기타 다른정보). </string>
+    <string name="improvement_plan_message"> Help us with submit Android Device Info, We do <b>not collect</b> 개인정보(이름, 주소, 이메일, 기타 개인 신상정보). </string>
     <string name="join_us">가입하시오</string>
-    <string name="skip">건너 뛰세요</string>
+    <string name="skip">무시</string>
 
-    <string name="_name__is_up_to_date"><xliff:g id="name" example="APKPure">%1$s</xliff:g> 이(가) 업데이트가 필요합니다!</string>
+    <string name="_name__is_up_to_date"><xliff:g id="name" example="APKPure">%1$s</xliff:g> 이(가) 업데이트됩니다.</string>
     <string name="new_version_available_title">새 버전이 있습니다</string>
-    <string name="new_version_available_message">" &lt;b&gt;최근 버전:&lt;/b&gt; %1$s&lt;br&gt;&lt;br&gt;&lt;b&gt;최신 정보:&lt;/b&gt;&lt;br&gt;%2$s "</string>
+    <string name="new_version_available_message">" &lt;b&gt;최신 버전:&lt;/b&gt; %1$s&lt;br&gt;&lt;br&gt;&lt;b&gt;최신 정보:&lt;/b&gt;&lt;br&gt;%2$s "</string>
 
     <string name="report__">보고서…</string>
     <string name="report_problem__">문제점을 보고…</string>
@@ -182,9 +179,9 @@
     <string name="search_history">기록</string>
     <string name="clear_search_history">기록 초기화</string>
 <string name="delete_all">전체 삭제</string>
-    <string name="properties_message">" &lt;b&gt;길:&lt;/b&gt; %1$s&lt;br&gt;&lt;b&gt;크기:&lt;/b&gt; %2$s&lt;br&gt;&lt;b&gt;최근 변경됨:&lt;/b&gt; %3$s "</string>
-    <string name="want_to_delete_all_files">모든 파일을 지우기 원하세요?</string>
-    <string name="pause_all">전체 멈춤</string>
+    <string name="properties_message">" &lt;b&gt;Path:&lt;/b&gt; %1$s&lt;br&gt;&lt;b&gt;Size:&lt;/b&gt; %2$s&lt;br&gt;&lt;b&gt;최근 변경됨:&lt;/b&gt; %3$s "</string>
+    <string name="want_to_delete_all_files">모든 파일을 삭제 할까요?</string>
+    <string name="pause_all">전체 일시정지</string>
     <string name="continue_all">전체 계속</string>
     <string name="waiting_to_download">다운로드 중이니 기다리세요</string>
     <string name="deleted">삭제</string>
