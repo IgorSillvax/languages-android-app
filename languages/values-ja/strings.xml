@@ -5,7 +5,7 @@
     <string name="action_search">検索</string>
     <string name="action_management">管理</string>
 
-    <string name="press_back_key_quit">2回戻りキーを押せば退出する</string>
+    <string name="press_back_key_quit">もう一度「戻る」ボタンを押すと終了。</string>
 
     <string name="featured">特徴</string>
     <string name="games">ゲーム</string>
@@ -16,7 +16,7 @@
     <string name="something_happened">&gt;_&lt;\n問題が発生されました。</string>
 
     <string name="load_failed_error">エラーがありました。</string>
-    <string name="load_failed_empty">ここは何もありません。</string>
+    <string name="load_failed_empty">これらはここにありません。</string>
     <string name="load_failed_all_up_to_date">全てのアプリをアップデートします。</string>
     <string name="load_failed_no_results">大変すみませんが結果が見つかりません。</string>
     <string name="refresh">最新の情報に更新</string>
@@ -94,7 +94,7 @@
         <item quantity="other"><xliff:g id="count" example="2">%1$d</xliff:g>最新アップデート利用できる</item>
     </plurals>
 
-    <string name="launching_please_wait">言語、お待ちください…</string>
+    <string name="launching_please_wait">起動しています、お待ちください…</string>
 
     <plurals name="_count__item_is_downloading">
         <item quantity="one"><xliff:g id="count" example="1">%1$d</xliff:g>項目はダウンロード中</item>
@@ -146,16 +146,12 @@
     <string name="report_problem_text">問題トピック:\n%1$s\n\n問題詳細:\n%2$s</string>
 
     <string name="installation_failed">インストールに失敗しました</string>
-    <string name="invalid_app_detail">アプのリ詳細インフォメーションを無効にします。</string>
+    <string name="invalid_app_detail">アプリの詳細インフォメーションを無効にします。</string>
     <string name="invalid_app_asset">アプリのメリットインフォメーションを無効にします。</string>
     <string name="failed_to_request_app_detail">アプリの詳細インフォメーションをリクエスト失敗しました。</string>
     <string name="failed_to_request_app_asset">メリットインフォメーションをリクエスト失敗しました。</string>
-    <string name="incompatible_this_app">
-        <![CDATA[<big><b><font color="%1$d">このデバイスはアプリに適応していません。</font></b></big><br><br>これからも続きますか？]]>
-    </string>
-    <string name="this_app_not_usable">
-        <![CDATA[<big><b><font color="%1$d">このアプリは利用できません。</font></b></big><br><br>これからも続きますか]]>
-    </string>
+    <string name="incompatible_this_app">" &lt;big&gt;&lt;b&gt;&lt;font color=%1$d&gt;このデバイスはアプリに適応していません。&lt;/font&gt;&lt;/b&gt;&lt;/big&gt;&lt;br&gt;&lt;br&gt;続けますか？ "</string>
+    <string name="this_app_not_usable">" &lt;big&gt;&lt;b&gt;&lt;font color=%1$d&gt;このアプリは利用できない可能性があります。&lt;/font&gt;&lt;/b&gt;&lt;/big&gt;&lt;br&gt;&lt;br&gt;続けますか？ "</string>
 
     <string name="setting">設定</string>
     <string name="external_storage_not_usable">
@@ -174,4 +170,45 @@
     <string name="contact_us__">問い合わせる…</string>
     <string name="report_content">コンテンツを報告</string>
 
+    <string name="delete_all">全て削除</string>
+    <string name="properties">プロパティ</string>
+    <string name="want_to_delete_all_files">すべてのファイルを削除しますか？</string>
+    <string name="pause_all">すべて一時停止</string>
+    <string name="continue_all">すべて続ける</string>
+    <string name="waiting_to_download">ダウンロードを待っています</string>
+    <string name="deleted">削除済み</string>
+    <string name="remove_all">すべて削除</string>
+    <string name="want_to_remove_all_download_items">ダウンロードした物をすべて削除しますか？</string>
+    <string name="delete_downloaded_file">ダウンロードされたファイルを削除</string>
+
+    <string name="search_history">履歴</string>
+    <string name="clear_search_history">履歴を削除</string>
+
+    <string name="update_all">すべてアップデート</string>
+    <string name="ignore">無視</string>
+    <string name="unignore">無視を解除</string>
+    <string name="select">選択</string>
+    <string name="cancel">キャンセル</string>
+    <string name="select_all">すべて選択</string>
+    <string name="deselect_all">すべて選択解除</string>
+    <string name="ignored">無視されています</string>
+    <plurals name="total__count__apps__size_">
+	<item quantity="one">" 合計: &lt;b&gt;&lt;font color=%1$d&gt;%2$d&lt;/font&gt;&lt;/b&gt; アプリ, &lt;b&gt;&lt;font color=%1$d&gt;%3$s&lt;/font&gt;&lt;/b&gt; "</item>
+	<item quantity="other"/>
+</plurals>
+    <string name="total_zero_app">" 合計: &lt;b&gt;&lt;font color=%1$d&gt;0&lt;/font&gt;&lt;/b&gt; アプリ "</string>
+
+    <string name="general">一般</string>
+    <string name="language">言語</string>
+    <string name="auto">自動</string>
+    <string name="installation">インストール</string>
+    <string name="show_notification_after_installation">インストール後に通知します</string>
+    <string name="delete_packages_after_installation">インストール後にパッケージを削除します</string>
+
+    <string name="_name__installation_completed"><xliff:g id="name" example="APKPure">%1$s</xliff:g> インストール完了</string>
+    <string name="touch_to_open">タッチで開く。</string>
+
+    <string name="properties_message">" &lt;b&gt;パッチ:&lt;/b&gt; %1$s&lt;br&gt;&lt;b&gt;サイズ:&lt;/b&gt; %2$s&lt;br&gt;&lt;b&gt;最終更新日:&lt;/b&gt; %3$s "</string>
+    <string name="flag_as_inappropriate">不適切なフラグ</string>
+    <string name="update___count__">アップデート (<xliff:g id="カウント" 例="3">%1$d</xliff:g>)</string>
     </resources>
