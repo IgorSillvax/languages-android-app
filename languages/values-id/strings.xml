@@ -1,9 +1,9 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<resources><string name="action_settings">Pengaturan</string>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2"><string name="action_settings">Pengaturan</string>
     <string name="action_search">Pencarian</string>
-    <string name="press_back_key_quit">Tekan tombol kembali sekali lagi untuk keluar</string>
+    <string name="press_back_key_quit">Tekan tombol kembali dua kali untuk keluar</string>
 
-    <string name="featured">Terpopuler</string>
+    <string name="featured">Fitur</string>
     <string name="games">Permainan</string>
     <string name="apps">Aplikasi</string>
     <string name="categories">Kategori</string>
@@ -39,7 +39,7 @@
     <string name="user_canceled">User gagal.</string>
     <string name="action_management">Kelola</string>
 
-    <string xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" name="about_title">&lt;xliff:g xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\" id=\"nama_aplikasi\" contoh=\"APKPure\"&gt;<xliff:g id="app_name" example="APKPure">%1$s</xliff:g></string>
+    <string name="about_title">&lt;xliff:g xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\" id=\"nama_aplikasi\" contoh=\"APKPure\"&gt;<xliff:g id="app_name" example="APKPure">%1$s</xliff:g></string>
     <string name="language">Bahasa</string>
     <string name="auto">Otomatis</string>
 
@@ -64,4 +64,100 @@
     <string name="_ellipsis_"> … </string>
 
     <string name="market_response_error_success">Berhasil.</string>
+    <string name="delete_all">Hapus semua</string>
+    <string name="properties">Properties</string>
+    <string name="want_to_delete_all_files">Apakah kamu ingin menghapus semua file ?</string>
+    <string name="io_error">IO error. Memory tidak cukup untuk melanjutkan proses instalasi</string>
+    <string name="file_format_error">format data salah</string>
+    <string name="parsing_xapk">Instalasi XAPK</string>
+    <string name="installing_obb">Pemasangan File OBB</string>
+    <string name="extracting_apk">Extrak File APk</string>
+    <string name="uninstall">uninstall</string>
+    <string name="uninstalled">telah diuninstall</string>
+    <string name="last_update__date_">Update terakhir&lt;xliff:g xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\" id=\"date\"&gt; %1$s&lt;/xliff:
+g&gt;<xliff:g id="date">%1$s</xliff:g></string>
+
+    <string name="all">semua</string>
+
+    <string name="screenshots">ambil gambar</string>
+    <string name="whatsnew">Yang baru ?</string>
+    <string name="updated_">diperbaharui</string>
+    <string name="more">lainya</string>
+    <string name="unknown">Tidak diketahui</string>
+    <string name="flag_as_inappropriate">Tandai sebagai hal yang tidak pantas</string>
+    <string name="market_response_error_invalid_result">hasil tidak sesuai</string>
+    <string name="market_response_error_network_connect_error">jaringan Koneksi bermasalah</string>
+    <string name="market_response_error_network_read_error">Pembacaan jaringan bermasalah</string>
+    <string name="market_response_error_invalid_response_code">kode respon invalid</string>
+    <string name="market_response_error_invalid_response_body">Respon sumber invalid</string>
+    <string name="no_more">Tidak ada</string>
+
+    <string name="update">Pembaharuan</string>
+    <string name="downloads_complete">downloads berhasil</string>
+    <string name="touch_for_view_all_downloads">tekan untuk lihat semua downloads</string>
+    <string name="touch_to_download_it_again">Tekan untuk download ulang</string>
+
+    <string name="pause">Pause</string>
+    <string name="pause_all">Pause semua</string>
+    <string name="continue_">lanjutkan</string>
+    <string name="continue_all">lanjutkan semua</string>
+    <string name="restart">Muat ulang</string>
+    <string name="download">Unduh</string>
+    <string name="downloading">Proses unduh</string>
+    <string name="waiting">menunggu</string>
+    <string name="preparing">persiapan</string>
+    <string name="completed">complete</string>
+    <string name="paused">ditunda</string>
+    <string name="failed">gagal</string>
+    <string name="file_invalid">file tidak sesua</string>
+    <string name="file_missing">file hilang</string>
+    <string name="waiting_to_download">menunggu untuk mendownload</string>
+    <string name="deleted">dihapus</string>
+    <string name="expired">kadaluarsa</string>
+    <string name="detail">Detail</string>
+    <string name="remove">hapus</string>
+    <string name="remove_all">hapus semua</string>
+    <string name="want_to_remove_download_item">Apakah kamu ingin menghapus file download ini ?</string>
+    <string name="want_to_remove_all_download_items">apakah kamu ingin menghapus semua file download ini ?</string>
+    <string name="delete_downloaded_file">hapus file yang didownload</string>
+
+    <string name="search">cari</string>
+    <string name="search_for_apps">cari aplikasi</string>
+    <string name="trending_searches">cari yang populer</string>
+    <string name="search_history">riwayat</string>
+    <string name="clear_search_history">hapus riwayat</string>
+
+    <string name="improvement_plan_title">Rencana Peningkatan Kinerja</string>
+    <string name="join_us">Gabung bersama kami</string>
+    <string name="skip">lewat</string>
+
+    <string name="new_version_available_title">tersedia versi baru</string>
+    <string name="report__">lapor</string>
+    <string name="report_problem__">Lapor masalah</string>
+    <string name="report_problem_subject">lapor masalah</string>
+    <string name="report_problem_text">Masalah topic
+
+masalah detail</string>
+    <string name="contact_us__">Kontak kami</string>
+    <string name="contact_us">Hubungi kami</string>
+    <string name="report_content">Laporkan konten</string>
+
+    <string name="invalid_app_asset">Informasi app tidak sesuai</string>
+    <string name="failed_to_request_app_detail">Gagal meminta detail informasi aplikasi</string>
+    <string name="failed_to_request_app_asset">gagal meminta aplikasi informasi data</string>
+    <string name="update_all">Pembaharui Semua</string>
+    <string name="ignore">abaikan</string>
+    <string name="unignore">jangan abaikan</string>
+    <string name="select">pilih</string>
+    <string name="cancel">batal</string>
+    <string name="select_all">pilih semua</string>
+    <string name="deselect_all">hapus semua</string>
+    <string name="general">umum</string>
+    <string name="ignored">diabaikan</string>
+    <string name="installation">pemasangan</string>
+    <string name="show_notification_after_installation">tampilan pemberitahuan setelah pemasangan</string>
+    <string name="delete_packages_after_installation">hapus paket setelah pemasangan</string>
+
+    <string name="touch_to_open">tekan untuk membuka</string>
+
     </resources>
