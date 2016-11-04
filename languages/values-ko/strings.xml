@@ -1,5 +1,6 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<?xml version="1.0" encoding="utf-8"?>
+<resources
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
     <string name="action_settings">설정</string>
     <string name="action_search">찾기</string>
@@ -13,8 +14,7 @@
     <string name="categories">카테고리</string>
     <string name="updates">업데이트</string>
 
-    <string name="something_happened">&gt;_&lt;
-문제가 발생 하였습니다.</string>
+    <string name="something_happened">&gt;_&lt;\n문제가 발생 하였습니다.</string>
 
     <string name="load_failed_error">아이쿠! 오류가 있네요.</string>
     <string name="load_failed_empty">여기는 아무것도 없군요.</string>
@@ -32,7 +32,9 @@
     <string name="settings">설정</string>
     <string name="about">정보</string>
     <string name="about_title">정보 <xliff:g id="app_name" example="APKPure">%1$s</xliff:g></string>
-    <string name="about_message">" &lt;b&gt;버전:&lt;/b&gt; %1$s&lt;br&gt;&lt;br&gt;&lt;b&gt;웹사이트:&lt;/b&gt; &lt;a href=%2$s&gt;%2$s&lt;/a&gt;&lt;br&gt;&lt;b&gt;이메일:&lt;/b&gt; &lt;a href=mailto:%3$s&gt;%3$s&lt;/a&gt; "</string>
+    <string name="about_message">
+        <![CDATA[<b>버전:</b> %1$s<br><br><b>웹사이트:</b> <a href=%2$s>%2$s</a><br><b>이메일:</b> <a href=mailto:%3$s>%3$s</a>]]>
+    </string>
     <string name="check_update">업데이트 체크</string>
     <string name="quit">끝내기</string>
     <string name="want_to_quit">종료 하시겠습니까?</string>
@@ -90,14 +92,14 @@
     <string name="update">업데이트</string>
     <string name="version__version___size_">버전: <xliff:g id="version" example="1.0.0">%1$s</xliff:g>, <xliff:g id="size" example="1024 kB">%2$s</xliff:g></string>
     <plurals name="_count__new_update_is_available">
-	<item quantity="other"><xliff:g id="count" example="1">%1$d</xliff:g> 새로운 업데이트를 사용할 수 있습니다</item>
-</plurals>
+	    <item quantity="other"><xliff:g id="count" example="1">%1$d</xliff:g> 새로운 업데이트를 사용할 수 있습니다</item>
+    </plurals>
 
     <string name="launching_please_wait">시작중, 기다려 주세요…</string>
 
     <plurals name="_count__item_is_downloading">
-	<item quantity="other"><xliff:g id="count" example="1">%1$d</xliff:g> 아이템이 다운로드 중입니다</item>
-</plurals>
+	    <item quantity="other"><xliff:g id="count" example="1">%1$d</xliff:g> 아이템이 다운로드 중입니다</item>
+    </plurals>
     <string name="downloads_complete">다운로드 완료</string>
     <string name="touch_for_view_all_downloads">다운로드된 전체를 보려면 터치하시오</string>
     <string name="_name__download_failed"><xliff:g id="name" example="APKPure">%1$s</xliff:g> 다운로드 실패함</string>
@@ -126,34 +128,41 @@
     <string name="trending_searches">최근 찾기</string>
 
     <string name="improvement_plan_title">성능 향상 계획</string>
-    <string name="improvement_plan_message"> Help us with submit Android Device Info, We do <b>not collect</b> 개인정보(이름, 주소, 이메일, 기타 개인 신상정보). </string>
+    <string name="improvement_plan_message">
+        <![CDATA[Help us with submit Android Device Info, We do <b>not collect</b> 개인정보(이름, 주소, 이메일, 기타 개인 신상정보).]]>
+    </string>
     <string name="join_us">가입하시오</string>
     <string name="skip">무시</string>
 
     <string name="_name__is_up_to_date"><xliff:g id="name" example="APKPure">%1$s</xliff:g> 이(가) 업데이트됩니다.</string>
     <string name="new_version_available_title">새 버전이 있습니다</string>
-    <string name="new_version_available_message">" &lt;b&gt;최신 버전:&lt;/b&gt; %1$s&lt;br&gt;&lt;br&gt;&lt;b&gt;최신 정보:&lt;/b&gt;&lt;br&gt;%2$s "</string>
+    <string name="new_version_available_message">
+        <![CDATA[<b>최신 버전:</b> %1$s<br><br><b>최신 정보:</b><br>%2$s]]>
+    </string>
 
     <string name="report__">보고서…</string>
     <string name="report_problem__">문제점을 보고…</string>
     <string name="report_problem_subject">문제점을 보고</string>
-    <string name="report_problem_text">문제점:
-%1$s
-
-자세한 문제:
-%2$s</string>
+    <string name="report_problem_text">문제점:\n%1$s\n\n자세한 문제:\n%2$s</string>
 
     <string name="installation_failed">설치 실패함</string>
     <string name="invalid_app_detail">자세한 앱정보가 없습니다.</string>
     <string name="invalid_app_asset">유효하지 않은 앱 정보.</string>
     <string name="failed_to_request_app_detail">앱 정보 요청 실패함.</string>
     <string name="failed_to_request_app_asset">앱 정보 요청 실패함.</string>
-    <string name="incompatible_this_app">" &lt;big&gt;&lt;b&gt;&lt;font color=%1$d&gt;이 앱은 당신의 기기와 호환되지 않습니다&lt;/font&gt;&lt;/b&gt;&lt;/big&gt;&lt;br&gt;&lt;br&gt;계속 하실라우? "</string>
-    <string name="this_app_not_usable">" &lt;big&gt;&lt;b&gt;&lt;font color=%1$d&gt;이 앱은 사용할 수 없습니다.&lt;/font&gt;&lt;/b&gt;&lt;/big&gt;&lt;br&gt;&lt;br&gt;계속 하시겠습니까? "</string>
+    <string name="incompatible_this_app">
+        <![CDATA[<big><b><font color=%1$d>이 앱은 당신의 기기와 호환되지 않습니다</font></b></big><br><br>계속 하실라우?]]>
+    </string>
+    <string name="this_app_not_usable">
+        <![CDATA[<big><b><font color=%1$d>이 앱은 사용할 수 없습니다.</font></b></big><br><br>계속 하시겠습니까?]]>
+    </string>
 
     <string name="setting">설정</string>
-    <string name="external_storage_not_usable"> <big><b> 외부 저장 장치가 있어야 합니다. 외부 저장 장치를 사용할 수 있는지 확인하시기 바랍니다.</b></big> </string>
-    <string name="external_storage_permission_denied"> <big><b>외부 저장 장치에 연결 해야합니다. 엑세스 권한이 거부되어 있는지 확인 하십시오.</b></big> </string>
+    <string name="external_storage_not_usable">
+        <![CDATA[<big><b> 외부 저장 장치가 있어야 합니다. 외부 저장 장치를 사용할 수 있는지 확인하시기 바랍니다.</b></big>]]></string>
+    <string name="external_storage_permission_denied">
+        <![CDATA[<big><b>외부 저장 장치에 연결 해야합니다. 엑세스 권한이 거부되어 있는지 확인 하십시오.</b></big>]]>
+    </string>
 
     <string name="share">공유</string>
     <string name="share_app_url">다운로드<xliff:g id="app_name" example="APKPure">%1$s</xliff:g> APK (from @<xliff:g id="social_network_name" example="APKPure">%2$s</xliff:g>), <xliff:g id="app_url" example="https://apkpure.com/p/com.apkpure.aegon">%3$s</xliff:g></string>
@@ -169,17 +178,23 @@
     <string name="cancel">취소</string>
     <string name="ignored">무시됨</string>
     <plurals name="total__count__apps__size_">
-	<item quantity="other">" 전체: &lt;b&gt;&lt;font color=%1$d&gt;%2$d&lt;/font&gt;&lt;/b&gt; 앱, &lt;b&gt;&lt;font color=%1$d&gt;%3$s&lt;/font&gt;&lt;/b&gt; "</item>
-</plurals>
-    <string name="total_zero_app">" 전체: &lt;b&gt;&lt;font color=%1$d&gt;0&lt;/font&gt;&lt;/b&gt; 앱 "</string>
+	    <item quantity="other">
+            <![CDATA[전체: <b><font color=%1$d>%2$d</font></b> 앱, <b><font color=%1$d>%3$s</font></b>]]>
+        </item>
+    </plurals>
+    <string name="total_zero_app">
+        <![CDATA[전체: <b><font color=%1$d>0</font></b> 앱]]>
+    </string>
 
     <string name="general">일반</string>
     <string name="language">언어</string>
     <string name="auto">자동</string>
     <string name="search_history">기록</string>
     <string name="clear_search_history">기록 초기화</string>
-<string name="delete_all">전체 삭제</string>
-    <string name="properties_message">" &lt;b&gt;Path:&lt;/b&gt; %1$s&lt;br&gt;&lt;b&gt;Size:&lt;/b&gt; %2$s&lt;br&gt;&lt;b&gt;최근 변경됨:&lt;/b&gt; %3$s "</string>
+    <string name="delete_all">전체 삭제</string>
+    <string name="properties_message">
+        <![CDATA[<b>Path:</b> %1$s<br><b>Size:</b> %2$s<br><b>최근 변경됨:</b> %3$s]]>
+    </string>
     <string name="want_to_delete_all_files">모든 파일을 삭제 할까요?</string>
     <string name="pause_all">전체 일시정지</string>
     <string name="continue_all">전체 계속</string>
@@ -203,4 +218,4 @@
     <string name="touch_to_open">열려면 터치합니다.</string>
 
     <string name="flag_as_inappropriate">올바르지 않은 플래그</string>
-    </resources>
+</resources>

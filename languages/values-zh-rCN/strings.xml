@@ -131,12 +131,15 @@
     <string name="waiting_to_download">等待下载</string>
     <string name="deleted">已删除</string>
     <string name="expired">已到期</string>
+    <string name="installed">已安装</string>
     <string name="detail">详情</string>
     <string name="remove">删除</string>
     <string name="remove_all">删除全部</string>
     <string name="want_to_remove_download_item">您确定要删除此下载项吗？</string>
     <string name="want_to_remove_all_download_items">您确定要删除全部下载项吗？</string>
     <string name="delete_downloaded_file">删除已下载文件</string>
+    <string name="download_over_cellular">通过蜂窝网络下载</string>
+    <string name="download_over_cellular_content">您正在通过移动网络进行下载。是否要继续？</string>
 
     <string name="search">搜索</string>
     <string name="search_for_apps">搜索应用</string>
@@ -150,6 +153,10 @@
     </string>
     <string name="join_us">加入我们</string>
     <string name="skip">跳过</string>
+
+    <string name="participate_ultra_download_beta_test_title">启用超级下载并享受更快的下载速度</string>
+    <string name="participate_ultra_download_beta_test_content">超级下载目前还是测试版本，如果在使用中发现问题请告诉我们。你可以在设置页面很方便的关闭这个功能。</string>
+    <string name="enable">启用</string>
 
     <string name="_name__is_up_to_date"><xliff:g id="name" example="APKPure">%1$s</xliff:g> 已是最新版本。</string>
     <string name="new_version_available_title">发现新版本</string>
@@ -212,6 +219,9 @@
     <string name="general">通用</string>
     <string name="language">语言</string>
     <string name="auto">跟随系统</string>
+    <string name="download_via_wifi_only">只通过 Wi-Fi 下载</string>
+    <string name="enable_ultra_download">启用超级下载</string>
+    <string name="enable_ultra_download_summary">超级下载目前还是测试版本，如果在使用中发现问题请告诉我们。</string>
     <string name="installation">安装</string>
     <string name="show_notification_after_installation">安装完成后显示通知</string>
     <string name="delete_packages_after_installation">安装完成后删除安装包文件</string>

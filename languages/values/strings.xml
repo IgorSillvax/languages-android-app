@@ -133,12 +133,15 @@
     <string name="waiting_to_download">Waiting to download</string>
     <string name="deleted">Deleted</string>
     <string name="expired">Expired</string>
+    <string name="installed">Installed</string>
     <string name="detail">Detail</string>
     <string name="remove">Remove</string>
     <string name="remove_all">Remove All</string>
     <string name="want_to_remove_download_item">Do you want to remove this download item?</string>
     <string name="want_to_remove_all_download_items">Do you want to remove all download items?</string>
     <string name="delete_downloaded_file">Delete downloaded file</string>
+    <string name="download_over_cellular">Download over Cellular</string>
+    <string name="download_over_cellular_content">You are about to download over your mobile network. Would you like to continue?</string>
 
     <string name="search">Search</string>
     <string name="search_for_apps">Search for Apps</string>
@@ -152,6 +155,10 @@
     </string>
     <string name="join_us">Join Us</string>
     <string name="skip">Skip</string>
+
+    <string name="participate_ultra_download_beta_test_title">Enable Ultra Download and enjoy a faster downloading speed</string>
+    <string name="participate_ultra_download_beta_test_content">Ultra Download is in beta testing, let us know if you encounter any problems. You can easily disable it under Settings.</string>
+    <string name="enable">Enable</string>
 
     <string name="_name__is_up_to_date"><xliff:g id="name" example="APKPure">%1$s</xliff:g> is up to date.</string>
     <string name="new_version_available_title">New Version Available</string>
@@ -217,6 +224,9 @@
     <string name="general">General</string>
     <string name="language">Language</string>
     <string name="auto">Auto</string>
+    <string name="download_via_wifi_only">Download via Wi-Fi only</string>
+    <string name="enable_ultra_download">Enable Ultra Download</string>
+    <string name="enable_ultra_download_summary">Ultra Download is in beta testing, let us know if you encounter any problems.</string>
     <string name="installation">Installation</string>
     <string name="show_notification_after_installation">Show notification after installation</string>
     <string name="delete_packages_after_installation">Delete packages after installation</string>
@@ -226,6 +236,7 @@
 
     <string-array name="language_entries" translatable="false">
         <item>@string/auto</item>
+        <item>Azərbaycan dili</item>
         <item>English</item>
         <item>Español</item>
         <item>Français</item>
@@ -234,9 +245,11 @@
         <item>Magyar</item>
         <item>Nederlands</item>
         <item>Português</item>
+        <item>Português Brasileiro</item>
         <item>Tiếng Việt</item>
         <item>Русский</item>
         <item>العربية</item>
+        <item>فارسی‎</item>
         <item>한국어</item>
         <item>简体中文</item>
         <item>繁體中文 (香港)</item>
@@ -245,6 +258,7 @@
     </string-array>
     <string-array name="language_entry_values" translatable="false">
         <item>__auto__</item>
+        <item>az</item>
         <item>en</item>
         <item>es</item>
         <item>fr</item>
@@ -253,9 +267,11 @@
         <item>hu</item>
         <item>nl</item>
         <item>pt</item>
+        <item>pt-BR</item>
         <item>vi</item>
         <item>ru</item>
         <item>ar</item>
+        <item>fa</item>
         <item>ko</item>
         <item>zh-CN</item>
         <item>zh-HK</item>

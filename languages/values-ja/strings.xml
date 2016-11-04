@@ -150,8 +150,12 @@
     <string name="invalid_app_asset">アプリのメリットインフォメーションを無効にします。</string>
     <string name="failed_to_request_app_detail">アプリの詳細インフォメーションをリクエスト失敗しました。</string>
     <string name="failed_to_request_app_asset">メリットインフォメーションをリクエスト失敗しました。</string>
-    <string name="incompatible_this_app">" &lt;big&gt;&lt;b&gt;&lt;font color=%1$d&gt;このデバイスはアプリに適応していません。&lt;/font&gt;&lt;/b&gt;&lt;/big&gt;&lt;br&gt;&lt;br&gt;続けますか？ "</string>
-    <string name="this_app_not_usable">" &lt;big&gt;&lt;b&gt;&lt;font color=%1$d&gt;このアプリは利用できない可能性があります。&lt;/font&gt;&lt;/b&gt;&lt;/big&gt;&lt;br&gt;&lt;br&gt;続けますか？ "</string>
+    <string name="incompatible_this_app">
+        <![CDATA[<big><b><font color=%1$d>このデバイスはアプリに適応していません。</font></b></big><br><br>続けますか？]]>
+    </string>
+    <string name="this_app_not_usable">
+        <![CDATA[<big><b><font color=%1$d>このアプリは利用できない可能性があります。</font></b></big><br><br>続けますか？]]>
+    </string>
 
     <string name="setting">設定</string>
     <string name="external_storage_not_usable">
@@ -166,7 +170,7 @@
 
     <string name="_name__version_history"><xliff:g id="name" example="APKPure">%1$s</xliff:g>以前バージョン</string>
     <string name="update__date___size_">アップデート: <xliff:g id="date" example="Mar 3, 2016">%1$s</xliff:g>, <xliff:g id="size" example="1024 kB">%2$s</xliff:g></string>
-<string name="contact_us">お問い合わせ</string>
+    <string name="contact_us">お問い合わせ</string>
     <string name="contact_us__">問い合わせる…</string>
     <string name="report_content">コンテンツを報告</string>
 
@@ -193,10 +197,13 @@
     <string name="deselect_all">すべて選択解除</string>
     <string name="ignored">無視されています</string>
     <plurals name="total__count__apps__size_">
-	<item quantity="one">" 合計: &lt;b&gt;&lt;font color=%1$d&gt;%2$d&lt;/font&gt;&lt;/b&gt; アプリ, &lt;b&gt;&lt;font color=%1$d&gt;%3$s&lt;/font&gt;&lt;/b&gt; "</item>
-	<item quantity="other"/>
-</plurals>
-    <string name="total_zero_app">" 合計: &lt;b&gt;&lt;font color=%1$d&gt;0&lt;/font&gt;&lt;/b&gt; アプリ "</string>
+	    <item quantity="other">
+            <![CDATA[合計: <b><font color=%1$d>%2$d</font></b> アプリ, <b><font color=%1$d>%3$s</font></b>]]>
+        </item>
+    </plurals>
+    <string name="total_zero_app">
+        <![CDATA[合計: <b><font color=%1$d>0</font></b> アプリ]]>
+    </string>
 
     <string name="general">一般</string>
     <string name="language">言語</string>
@@ -208,7 +215,9 @@
     <string name="_name__installation_completed"><xliff:g id="name" example="APKPure">%1$s</xliff:g> インストール完了</string>
     <string name="touch_to_open">タッチで開く。</string>
 
-    <string name="properties_message">" &lt;b&gt;パッチ:&lt;/b&gt; %1$s&lt;br&gt;&lt;b&gt;サイズ:&lt;/b&gt; %2$s&lt;br&gt;&lt;b&gt;最終更新日:&lt;/b&gt; %3$s "</string>
+    <string name="properties_message">
+        <![CDATA[<b>パッチ:</b> %1$s<br><b>サイズ:</b> %2$s<br><b>最終更新日:</b> %3$s]]>
+    </string>
     <string name="flag_as_inappropriate">不適切なフラグ</string>
     <string name="update___count__">アップデート (<xliff:g id="カウント" 例="3">%1$d</xliff:g>)</string>
-    </resources>
+</resources>

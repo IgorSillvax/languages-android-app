@@ -1,5 +1,6 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<?xml version="1.0" encoding="utf-8"?>
+<resources
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
     <string name="action_settings">Cài đặt</string>
     <string name="action_search">Tìm kiếm</string>
@@ -175,7 +176,7 @@
     <string name="language">Ngôn ngữ</string>
     <string name="auto">Tự động</string>
 
-<string name="pause_all">Dừng Toàn Bộ</string>
+    <string name="pause_all">Dừng Toàn Bộ</string>
     <string name="continue_all">Tiếp tục tất cả</string>
     <string name="waiting_to_download">Đang chờ tải</string>
     <string name="deleted">Đã xóa</string>
@@ -201,4 +202,4 @@
 
     <string name="delete_all">Xóa toàn bộ</string>
     <string name="properties">Đặc tính</string>
-    </resources>
+</resources>

@@ -1,5 +1,6 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<?xml version="1.0" encoding="utf-8"?>
+<resources
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
     <string name="action_settings">Configuración</string>
     <string name="action_search">Buscar</string>
@@ -199,7 +200,7 @@
     <string name="total_zero_app">
         <![CDATA[Total: <b><font color="%1$d">0</font></b> aplicación]]>
     </string>
-<string name="delete_all">Eliminar todo</string>
+    <string name="delete_all">Eliminar todo</string>
     <string name="want_to_delete_all_files">Deseas eliminar todos los archivos?</string>
     <string name="flag_as_inappropriate">Marcado como inapropiado</string>
     <string name="pause_all">Pausar todo</string>
@@ -223,5 +224,4 @@
 
     <string name="_name__installation_completed"><xliff:g id="name" example="APKPure">%1$s</xliff:g> instalacion completada</string>
     <string name="touch_to_open">Toca para abrir.</string>
-
-    </resources>
+</resources>

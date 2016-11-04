@@ -1,5 +1,6 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<?xml version="1.0" encoding="utf-8"?>
+<resources
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
     <string name="action_settings">Configurações</string>
     <string name="action_search">Pesquisar</string>
@@ -184,10 +185,16 @@
     <string name="cancel">Cancelar</string>
     <string name="ignored">Ignorar</string>
     <plurals name="total__count__apps__size_">
-	<item quantity="one">" Total: &lt;b&gt;&lt;Fonte color=%1$d&gt;%2$d&lt;/Fonte&gt;&lt;/b&gt; apps, &lt;b&gt;&lt;Fonte cor=%1$d&gt;%3$s&lt;/Fonte&gt;&lt;/b&gt; "</item>
-	<item quantity="other">" Total: &lt;b&gt;&lt;Fonte cor=%1$d&gt;%2$d&lt;/Fonte&gt;&lt;/b&gt; apps, &lt;b&gt;&lt;Fonte cor=%1$d&gt;%3$s&lt;/Fonte&gt;&lt;/b&gt; "</item>
-</plurals>
-    <string name="total_zero_app">" Total: &lt;b&gt;&lt;Fonte Cor=%1$d&gt;0&lt;/Fonte&gt;&lt;/b&gt;    app "</string>
+        <item quantity="one">
+            <![CDATA[Total: <b><font color="%1$d">%2$d</font></b> app, <b><font color="%1$d">%3$s</font></b>]]>
+        </item>
+        <item quantity="other">
+            <![CDATA[Total: <b><font color="%1$d">%2$d</font></b> apps, <b><font color="%1$d">%3$s</font></b>]]>
+        </item>
+    </plurals>
+    <string name="total_zero_app">
+        <![CDATA[Total: <b><font color="%1$d">0</font></b> app]]>
+    </string>
 
     <string name="general">Geral</string>
     <string name="language">Idioma</string>
@@ -198,7 +205,7 @@
 
     <string name="_name__installation_completed"><xliff:g id="name" example="APKPure">%1$s</xliff:g> instalação completa</string>
     <string name="touch_to_open">Toque para abrir.</string>
-<string name="delete_all">Apagar tudo</string>
+    <string name="delete_all">Apagar tudo</string>
     <string name="want_to_delete_all_files">Você quer apagar todos os arquivos?</string>
     <string name="flag_as_inappropriate">Marcado como inapropriado</string>
     <string name="pause_all">Pausar Todos</string>
@@ -216,4 +223,4 @@
 
     <string name="select_all">Selecionar tudo</string>
     <string name="deselect_all">Desmarcar todos</string>
-    </resources>
+</resources>

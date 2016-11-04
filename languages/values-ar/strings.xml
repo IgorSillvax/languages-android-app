@@ -1,5 +1,6 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<?xml version="1.0" encoding="utf-8"?>
+<resources
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
     <string name="action_settings">الإعدادات</string>
     <string name="action_search">البحث</string>
@@ -218,7 +219,7 @@
     <string name="general">عام</string>
     <string name="language">اللغة</string>
     <string name="auto">تلقائي</string>
-<string name="delete_all">حذف الكل</string>
+    <string name="delete_all">حذف الكل</string>
     <string name="want_to_delete_all_files">هل تريد حذف جميع الملفات؟</string>
     <string name="flag_as_inappropriate">تحديد كغير مناسب</string>
     <string name="pause_all">ايقاف الجميع</string>
@@ -242,5 +243,4 @@
     <string name="touch_to_open">انقر للتشغيل.</string>
 
     <string name="report_content">تبليغ عن محتوى</string>
-
-    </resources>
+</resources>
