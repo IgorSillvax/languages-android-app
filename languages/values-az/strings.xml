@@ -1,6 +1,5 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources
-    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<?xml version='1.0' encoding='UTF-8'?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
     <string name="action_settings">Ayarlar</string>
     <string name="action_search">Axtar</string>
@@ -140,7 +139,9 @@
     <string name="continue_">Davam et</string>
     <string name="continue_all">Hamsına Davam et</string>
     <string name="restart">Yenidən başlat</string>
-    <string name="total_zero_app">" Cəmi "</string>
+    <string name="total_zero_app">"
+ Cəmi: &lt;b&gt;&lt;font color=%1$d&gt;0&lt;/font&gt;&lt;/b&gt; app
+ "</string>
 
     <string name="select_all">Hamsını Seç</string>
     <string name="deselect_all">Hamsını Seçmə</string>
@@ -177,7 +178,9 @@
     </plurals>
     <string name="delete_downloaded_file">Silən fayl yükləmək</string>
 
-    <string name="improvement_plan_message"> Göndərmək Android Qurğu İnfo ilə bizə kömək Edirik <b> deyil toplayır </b> şəxsən-eyniləşdirmək (adı, ünvanı, e-mail ünvanı, sosial sığorta nömrəsi və ya digər nadir identifiers) informasiya. </string>
+    <string name="improvement_plan_message">
+ Göndərmək Android Qurğu İnfo ilə bizə kömək Edirik <b> deyil toplayır </b> şəxsən-eyniləşdirmək (adı, ünvanı, e-mail ünvanı, sosial sığorta nömrəsi və ya digər nadir identifiers informasiya).
+ </string>
     <string name="report_problem_text">Problem mövzu:\n%1$s\n\nProblem ətraflı:\n%2$s</string>
     <string name="contact_us__">Bizimlə Əlaqə…</string>
     <string name="contact_us">Bizimlə Əlaqə</string>
@@ -213,9 +216,20 @@
     <string name="unignore">Bloklama</string>
     <string name="select">Seç</string>
     <string name="cancel">Ləğv et</string>
-    <string name="installation">Qurğu</string>
+    <string name="installation">Quraşdırma</string>
     <string name="show_notification_after_installation">Quraşdırıldıqdan sonra bildiriş göstərin</string>
     <string name="delete_packages_after_installation">Paketləri quraşdırıldıqdan sonra sil</string>
 
     <string name="_name__installation_completed"><xliff:g id="name" example="APKPure">%1$s</xliff:g> Quraşdırılması başa çatıb</string>
-</resources>
+<string name="installed">Quraşdırılmış</string>
+    <string name="download_over_cellular">Telfon uzərində Yüklə</string>
+    <string name="download_over_cellular_content">Siz mobil şəbəkə üzərində yüklə hazırlaşırsınız. Davam etdirmək istərdiniz?</string>
+
+    <string name="participate_ultra_download_beta_test_title">Sürətli Yükləməyə İmkan verən Ultra sürətli yükləmə sürətlə Yüklə və həzz al</string>
+    <string name="participate_ultra_download_beta_test_content">Ultra Yüklə beta sınaqdadır, əgər hər hansı problemlər yaranarkən bizə məlumat verib. Siz asanlıqla Parlametrlərin altında bu verilməsini dayandıra bilərsiniz.</string>
+    <string name="enable">İcazə Vermək</string>
+
+    <string name="download_via_wifi_only">Yalnız Wi-Fi vasitəsilə yüklə</string>
+    <string name="enable_ultra_download">Ultra Yükləməyə İcazə Vermək</string>
+    <string name="enable_ultra_download_summary">Ultra Yükləmə beta sınaqdadır, əgər hər hansı problemlər yaranarkən bizə məlumat verin.</string>
+    </resources>
