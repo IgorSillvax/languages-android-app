@@ -1,6 +1,5 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources
-    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<?xml version='1.0' encoding='UTF-8'?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
     <string name="action_settings">Impostazioni</string>
     <string name="action_search">Cerca</string>
@@ -224,4 +223,15 @@
 
     <string name="_name__installation_completed"><xliff:g id="name" example="APKPure">%1$s</xliff:g> installazione completata</string>
     <string name="touch_to_open">Tocca per aprire.</string>
-</resources>
+<string name="installed">Installata</string>
+    <string name="download_over_cellular">Scarica via Rete Mobile</string>
+    <string name="download_over_cellular_content">Stai per scaricare via Rete Dati Mobile. Vuoi continuare?</string>
+
+    <string name="participate_ultra_download_beta_test_title">Abilita il Download Ultra e goditi la maggiore velocità di download</string>
+    <string name="participate_ultra_download_beta_test_content">Download Ultra è ancora Beta, facci sapere se incontri problemi. Puoi facilmente disabilitarlo dalle Impostazioni.</string>
+    <string name="enable">Abilita</string>
+
+    <string name="download_via_wifi_only">Scarica solo via Wi-Fi</string>
+    <string name="enable_ultra_download">Abilita Download Ultra</string>
+    <string name="enable_ultra_download_summary">Download Ultra è ancora Beta, facci sapere se incontri problemi.</string>
+    </resources>
