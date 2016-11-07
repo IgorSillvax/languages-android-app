@@ -34,7 +34,7 @@
     <string name="about_message">
         <![CDATA[<b>Versione:</b> %1$s<br><br><b>Sito web:</b> <a href=%2$s>%2$s</a><br><b>Email:</b> <a href=mailto:%3$s>%3$s</a>]]>
     </string>
-    <string name="check_update">Aggiornamenti</string>
+    <string name="check_update">Aggiorna</string>
     <string name="quit">Esci</string>
     <string name="want_to_quit">Sei sicuro di voler uscire?</string>
 
@@ -110,9 +110,9 @@
     <string name="continue_">Continua</string>
     <string name="restart">Riavvia</string>
     <string name="download">Scarica</string>
-    <string name="downloading">Scarico</string>
-    <string name="waiting">Attendo</string>
-    <string name="preparing">Preparo</string>
+    <string name="downloading">Scarico...</string>
+    <string name="waiting">Attendere</string>
+    <string name="preparing">Preparazione</string>
     <string name="completed">Completato</string>
     <string name="paused">In pausa</string>
     <string name="failed">Fallito</string>
@@ -140,9 +140,9 @@
         <![CDATA[<b>Ultima Versione:</b> %1$s<br><br><b>Novità:</b><br>%2$s]]>
     </string>
 
-    <string name="report__">Rapporto…</string>
-    <string name="report_problem__">Problema Rapporto…</string>
-    <string name="report_problem_subject">Problema Rapporto</string>
+    <string name="report__">Segnalo…</string>
+    <string name="report_problem__">Segnalo Problema…</string>
+    <string name="report_problem_subject">Segnala problema</string>
     <string name="report_problem_text">Tipo di problema:\n%1$s\n\nDettagli del problema:\n%2$s</string>
 
     <string name="installation_failed">Installazione fallita</string>
@@ -176,9 +176,9 @@
     <string name="auto">Auto</string>
 
     <string name="properties">Proprietà</string>
-    <string name="properties_message">
-        <![CDATA[<b>Percorso:</b> %1$s<br><b>Size:</b> %2$s<br><b>Ultima modifica:</b> %3$s]]>
-    </string>
+    <string name="properties_message">"
+ &lt;b&gt;Percorso:&lt;/b&gt; %1$s&lt;br&gt;&lt;b&gt;Dimensione:&lt;/b&gt; %2$s&lt;br&gt;&lt;b&gt;Ultima modifica:&lt;/b&gt; %3$s
+ "</string>
     <string name="delete_downloaded_file">Elimina file scaricato</string>
 
     <string name="update_all">Aggiorna tutto</string>
