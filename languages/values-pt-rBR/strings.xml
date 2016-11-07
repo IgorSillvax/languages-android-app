@@ -1,6 +1,5 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources
-    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<?xml version='1.0' encoding='UTF-8'?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
     <string name="action_settings">Configurações</string>
     <string name="action_search">Pesquisar</string>
@@ -145,7 +144,9 @@
     <string name="clear_search_history">Apagar o histórico</string>
 
     <string name="improvement_plan_title">Plano de Melhoria de Desempenho</string>
-    <string name="improvement_plan_message"> Ajude-nos enviando Informações do Seu Android, Nós <b>não recolhemos</b> informações de identificação pessoal (nome, endereço, endereço de e-mail, número de segurança social, ou outros identificadores exclusivos). </string>
+    <string name="improvement_plan_message">
+ Ajude-nos enviando Informações do Seu Android, Nós <b>não recolhemos</b> informações de identificação pessoal (nome, endereço, endereço de e-mail, número de segurança social, ou outros identificadores exclusivos).
+ </string>
     <string name="join_us">Junte-se a nós</string>
     <string name="skip">Pular</string>
 
@@ -219,4 +220,15 @@
 
     <string name="_name__installation_completed"><xliff:g id="name" example="APKPure">%1$s</xliff:g> instalação completa</string>
     <string name="touch_to_open">Toque para abrir.</string>
-</resources>
+<string name="installed">Instalado</string>
+    <string name="download_over_cellular">Transferir por telemóvel</string>
+    <string name="download_over_cellular_content">Você está prestes a fazer o download na sua rede móvel. Você gostaria de continuar?</string>
+
+    <string name="participate_ultra_download_beta_test_title">Ativar Ultra Download e desfrutar de uma velocidade de downloads mais rápidos</string>
+    <string name="participate_ultra_download_beta_test_content">Ultra Download está em teste beta, deixe-nos saber se você encontrar quaisquer problemas. Você pode facilmente desativá-lo em Configurações.</string>
+    <string name="enable">Ativado</string>
+
+    <string name="download_via_wifi_only">Transferir apenas através de Wi-Fi</string>
+    <string name="enable_ultra_download">Ativar Ultra Download</string>
+    <string name="enable_ultra_download_summary">Ultra Download está em teste beta, deixe-nos saber se você encontrar quaisquer problemas.</string>
+    </resources>
