@@ -105,10 +105,10 @@
     <string name="launching_please_wait">در‌حال راه‌اندازی، لطفا صبر کنید…</string>
 
     <plurals name="_count__item_is_downloading">
-	    <item quantity="one"><xliff:g id="count" example="1">%1$d</xliff:g> آیتم در حال دانلود است</item>
-	    <item quantity="other"><xliff:g id="count" example="2">%1$d</xliff:g> آیتم‌ها در حال دانلود هستند</item>
-    </plurals>
-    <string name="downloads_complete">دانلود‌های کامل</string>
+	<item quantity="one"><xliff:g id="count" example="1">%1$d</xliff:g> آیتم در حال دانلود است</item>
+	<item quantity="other"><xliff:g id="count" example="2">%1$d</xliff:g> آیتم‌ در حال دانلود است</item>
+</plurals>
+    <string name="downloads_complete">دانلود‌ کامل شد</string>
     <string name="touch_for_view_all_downloads">برای مشاهده تمام دانلود‌ها، لمس کنید</string>
     <string name="_name__download_failed"><xliff:g id="name" example="APKPure">%1$s</xliff:g> دانلود نشد</string>
     <string name="touch_to_download_it_again">برای دانلود دوباره لمس کنید</string>
@@ -226,7 +226,7 @@
     <string name="download_via_wifi_only">دانلود فقط از طریق Wi-Fi</string>
     <string name="enable_ultra_download">فعال کردن دانلود فوق العاده</string>
     <string name="enable_ultra_download_summary">دانلود فوق العاده در مرحله تست می‌باشد. اگر به هرگونه مشکلی برخورد کردید به ما اطلاع دهید.</string>
-    <string name="download_over_cellular_content">دانلود شما از اینترنت تلفن شما استفاده میکند. ایا مایل به ادامه دادن میباشید؟</string>
+    <string name="download_over_cellular_content">دانلود شما از اینترنت تلفن شما استفاده می‌کند. آیا مایل به ادامه دادن می‌باشید؟</string>
 
     <string name="download_over_cellular">دانلود با اینترنت موبایل</string>
     </resources>
