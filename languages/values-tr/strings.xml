@@ -88,7 +88,7 @@
 	<item quantity="other"><xliff:g id="count" example="2">%1$d</xliff:g> yeni güncelleme kullanılabilir</item>
 </plurals>
 
-    <string name="launching_please_wait">BAŞLATILIYOR, LÜTFEN BEKLEYİN…</string>
+    <string name="launching_please_wait">Başlatılıyor, lütfen bekleyin…</string>
 
     <plurals name="_count__item_is_downloading">
 	<item quantity="one"><xliff:g id="count" example="1">%1$d</xliff:g> öğe indiriliyor</item>
@@ -126,7 +126,9 @@
     <string name="skip">Geç</string>
 
     <string name="new_version_available_title">Yeni Sürümü Mevcut</string>
-    <string name="new_version_available_message">" &lt;b&gt;Son Sürüm:&lt;/b&gt; %1$s&lt;br&gt;&lt;br&gt;&lt;b&gt;Yenilikler:&lt;/b&gt;&lt;br&gt;%2$s "</string>
+    <string name="new_version_available_message">"
+ &lt;b&gt;Son Sürüm:&lt;/b&gt; %1$s&lt;br&gt;&lt;br&gt;&lt;b&gt;Yenilikler:&lt;/b&gt;&lt;br&gt;%2$s
+ "</string>
 
     <string name="report__">Bildir…</string>
     <string name="report_problem__">Sorun Bildir…</string>
@@ -144,16 +146,92 @@
     <string name="load_failed_all_up_to_date">Tüm uygulamalar güncel.</string>
     <string name="share_app_url"><xliff:g id="app_name" example="APKPure">%1$s</xliff:g> APK (from @<xliff:g id="social_network_name" example="APKPure">%2$s</xliff:g>), <xliff:g id="app_url" example="https://apkpure.com/p/com.apkpure.aegon">%3$s</xliff:g></string>
 
-    <string name="this_app_not_usable">" &lt;big&gt;&lt;b&gt;&lt;font color=red&gt;Bu uygulama kullanışlı olmayabilir.&lt;/font&gt;&lt;/b&gt;&lt;/big&gt;&lt;br&gt;&lt;br&gt;Devam etmek istiyor musunuz? "</string>
+    <string name="this_app_not_usable">"
+ &lt;big&gt;&lt;b&gt;&lt;font color=red&gt;Bu uygulama kullanışlı olmayabilir.&lt;/font&gt;&lt;/b&gt;&lt;/big&gt;&lt;br&gt;&lt;br&gt;Devam etmek istiyor musunuz?
+ "</string>
 
-    <string name="incompatible_this_app">" &lt;big&gt;&lt;b&gt;&lt;font color=red&gt;Cihazınız bu uygulama ile uyumlu değil.&lt;/font&gt;&lt;/b&gt;&lt;/big&gt;&lt;br&gt;&lt;br&gt;Devam etmek istiyor musunuz? "</string>
+    <string name="incompatible_this_app">"
+ &lt;big&gt;&lt;b&gt;&lt;font color=red&gt;Cihazınız bu uygulama ile uyumlu değil.&lt;/font&gt;&lt;/b&gt;&lt;/big&gt;&lt;br&gt;&lt;br&gt;Devam etmek istiyor musunuz?
+ "</string>
     <string name="_name__is_up_to_date"><xliff:g id="name" example="APKPure">%1$s</xliff:g> güncel.</string>
     <string name="load_failed_empty">Burada hiçbir şey yok.</string>
     <string name="io_error">Hata. Kurulum için gerekli boş alan olmayabilir.</string>
-    <string name="improvement_plan_message"/>
+    <string name="improvement_plan_message">
+ Android Cihaz Bilgisini göndermekte bize yardımcı olun, kişisel bilgilerinizi (isim, adres, e-posta adresi, sosyal güvenlik numarası vb.) <b>almayacağız</b>.
+ </string>
     <string name="properties">Mülkleri</string>
     <string name="delete_all">Hepsini Kaldır</string>
     <string name="properties_message">"
  &lt;b&gt;Yol:&lt;/b&gt; %1$s&lt;br&gt;&lt;b&gt;Boyut:&lt;/b&gt; %2$s&lt;br&gt;&lt;b&gt;Son Düzenleme:&lt;/b&gt; %3$s
  "</string>
+    <string name="want_to_delete_all_files">Tüm dosyaları silnek istiyormusunuz?</string>
+    <string name="flag_as_inappropriate">Uygunsuz olarak işaretle</string>
+    <string name="pause_all">Tümünü Durdur</string>
+    <string name="continue_all">Tümünü Sürdür</string>
+    <string name="waiting_to_download">İndirme bekleniyor</string>
+    <string name="deleted">Silindi</string>
+    <string name="installed">Yüklendi</string>
+    <string name="remove_all">Tümünü Kaldır</string>
+    <string name="want_to_remove_all_download_items">İndirilen tüm öğeleri kaldırmak istiyormusunuz?</string>
+    <string name="delete_downloaded_file">İndirilen dosyayı sil</string>
+    <string name="download_over_cellular">Mobil veri üzerinden indir</string>
+    <string name="download_over_cellular_content">Mobil verinizi kullanarak indirmek üzeresiniz. Devam etmek istiyormusunuz?</string>
+
+    <string name="search_history">Geçmiş</string>
+    <string name="clear_search_history">Geçmişi Temizle</string>
+
+    <string name="participate_ultra_download_beta_test_title">Ultra İndirme\'yi etkinleştirerek hızlı bir indirme deneyimini yaşayın</string>
+    <string name="participate_ultra_download_beta_test_content">Ultra İndirme test aşamasında, herhangi bir problem olursa lütfen bize bildirin. Bu seçeneği, Ayarlar bölümünden kolayca devre dışı bırakabilirsiniz.</string>
+    <string name="enable">Etkinleştir</string>
+
+    <string name="report_problem_text">Problem konusu:
+%1$s
+
+Problem ayrıntısı:
+%2$s</string>
+    <string name="contact_us__">Bizimle İletişime Geçin…</string>
+    <string name="contact_us">Bizimle İletişime Geçin</string>
+    <string name="report_content">İçeriği Rapor Et</string>
+
+    <string name="invalid_app_asset">Geçersiz uygulama bilgisi.</string>
+    <string name="failed_to_request_app_detail">Uygulama bilgisi isteği başarısız oldu.</string>
+    <string name="failed_to_request_app_asset">Uygulama veri bilgisi isteği başarısız oldu.</string>
+    <string name="external_storage_not_usable">
+ <big><b>Dahili hafızanıza erişmemiz gerek. Lütfen buna izin verin.</b></big>
+ </string>
+    <string name="external_storage_permission_denied">
+ <big><b>Dahili hafızanıza erişmemiz gerek. Lütfen buna izin verdiğinizden emin olun.</b></big>
+ </string>
+
+    <string name="update__date___size_">Güncelleştirme: <xliff:g id="date" example="Mar 3, 2016">%1$s</xliff:g>, <xliff:g id="size" example="1024 kB">%2$s</xliff:g></string>
+
+    <string name="update_all">Tümünü Güncelleştir</string>
+    <string name="update___count__">Güncelleştir (<xliff:g id="count" example="3">%1$d</xliff:g>)</string>
+    <string name="ignore">Yoksay</string>
+    <string name="unignore">Yoksaydan Kaldır</string>
+    <string name="select">Seç</string>
+    <string name="cancel">İptal Et</string>
+    <string name="select_all">Tümünü Seç</string>
+    <string name="deselect_all">Tüm Seçimi Kaldır</string>
+    <string name="ignored">Yoksayıldı</string>
+    <plurals name="total__count__apps__size_">
+	<item quantity="one">"
+ Toplam: &lt;b&gt;&lt;font color=%1$d&gt;%2$d&lt;/font&gt;&lt;/b&gt; app, &lt;b&gt;&lt;font color=%1$d&gt;%3$s&lt;/font&gt;&lt;/b&gt;
+ "</item>
+	<item quantity="other"/>
+</plurals>
+    <string name="total_zero_app">"
+ Toplam: &lt;b&gt;&lt;font color=%1$d&gt;0&lt;/font&gt;&lt;/b&gt; app
+ "</string>
+
+    <string name="download_via_wifi_only">Sadece Wi-Fi üzerinden indir</string>
+    <string name="enable_ultra_download">Ultra İndirmeyi Etkinleştir</string>
+    <string name="enable_ultra_download_summary">Ultra İndirme test aşamasında, herhang bir problem olursa lütfen bize bildirin.</string>
+    <string name="installation">Kurulum</string>
+    <string name="show_notification_after_installation">Kurulumdan sonra bildirimleri göster</string>
+    <string name="delete_packages_after_installation">Kurulumdan sonra paketleri sil</string>
+
+    <string name="_name__installation_completed"><xliff:g id="name" example="APKPure">%1$s</xliff:g> kurulum tamamlandı</string>
+    <string name="touch_to_open">Açmak için dokun.</string>
+
     </resources>
