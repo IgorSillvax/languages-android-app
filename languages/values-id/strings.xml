@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2"><string name="action_settings">Pengaturan</string>
     <string name="action_search">Pencarian</string>
-    <string name="press_back_key_quit">Tekan tombol kembali dua kali untuk keluar</string>
+    <string name="press_back_key_quit">Tekan kembali tombol kembali sekali lagi untuk keluar</string>
 
     <string name="featured">Fitur</string>
     <string name="games">Pertandingan</string>
@@ -45,8 +45,8 @@
 
     <string name="share">Bagikan</string>
     <string name="setting">Pengaturan</string>
-    <string name="installation_failed">Instalasi Gagal</string>
-    <string name="invalid_app_detail">Detail Informasi aplikasi salah</string>
+    <string name="installation_failed">Kesalahan instalasi</string>
+    <string name="invalid_app_detail">Informasi detail aplikasi salah.</string>
     <string name="about_message">" &lt;b&gt;Versi:&lt;/b&gt; %1$s&lt;br&gt;&lt;br&gt;&lt;b&gt;Website:&lt;/b&gt; &lt;a href=%2$s&gt;%2$s&lt;/a&gt;&lt;br&gt;&lt;b&gt;Email:&lt;/b&gt; &lt;a href=mailto:%3$s&gt;%3$s&lt;/a&gt; "</string>
     <string name="installing_apk">Memasang APK…</string>
 
@@ -67,8 +67,8 @@
     <string name="delete_all">Hapus semua</string>
     <string name="properties">Properties</string>
     <string name="want_to_delete_all_files">Apakah kamu ingin menghapus semua file ?</string>
-    <string name="io_error">IO error. Memory tidak cukup untuk melanjutkan proses instalasi</string>
-    <string name="file_format_error">format data salah</string>
+    <string name="io_error">IO error. Penyimpanan tidak cukup untuk melanjutkan proses instalasi</string>
+    <string name="file_format_error">Kesalahan format file.</string>
     <string name="parsing_xapk">Instalasi XAPK</string>
     <string name="installing_obb">Pemasangan File OBB</string>
     <string name="extracting_apk">Extrak File APK</string>
@@ -80,16 +80,16 @@ g&gt;<xliff:g id="date">%1$s</xliff:g></string>
     <string name="all">semua</string>
 
     <string name="screenshots">ambil gambar</string>
-    <string name="whatsnew">Yang baru ?</string>
-    <string name="updated_">diperbaharui</string>
+    <string name="whatsnew">Apa yang baru ?</string>
+    <string name="updated_">Diperbaharui</string>
     <string name="more">lainya</string>
     <string name="unknown">Tidak diketahui</string>
     <string name="flag_as_inappropriate">Tandai sebagai hal yang tidak pantas</string>
-    <string name="market_response_error_invalid_result">hasil tidak sesuai</string>
-    <string name="market_response_error_network_connect_error">jaringan Koneksi bermasalah</string>
+    <string name="market_response_error_invalid_result">Hasil tidak valid</string>
+    <string name="market_response_error_network_connect_error">Jaringan gagal terhubung</string>
     <string name="market_response_error_network_read_error">Pembacaan jaringan bermasalah</string>
-    <string name="market_response_error_invalid_response_code">kode respon invalid</string>
-    <string name="market_response_error_invalid_response_body">Respon sumber invalid</string>
+    <string name="market_response_error_invalid_response_code">Kode respon tidak valid</string>
+    <string name="market_response_error_invalid_response_body">Respon sumber tidak valid</string>
     <string name="no_more">Tidak ada</string>
 
     <string name="update">Pembaharuan</string>
@@ -97,8 +97,8 @@ g&gt;<xliff:g id="date">%1$s</xliff:g></string>
     <string name="touch_for_view_all_downloads">tekan untuk lihat semua downloads</string>
     <string name="touch_to_download_it_again">Tekan untuk download ulang</string>
 
-    <string name="pause">Pause</string>
-    <string name="pause_all">Pause semua</string>
+    <string name="pause">Tunda</string>
+    <string name="pause_all">Tunda semua</string>
     <string name="continue_">lanjutkan</string>
     <string name="continue_all">lanjutkan semua</string>
     <string name="restart">Muat ulang</string>
@@ -132,8 +132,8 @@ g&gt;<xliff:g id="date">%1$s</xliff:g></string>
     <string name="skip">lewat</string>
 
     <string name="new_version_available_title">tersedia versi baru</string>
-    <string name="report__">lapor</string>
-    <string name="report_problem__">Lapor masalah</string>
+    <string name="report__">Lapor…</string>
+    <string name="report_problem__">Lapor masalah…</string>
     <string name="report_problem_subject">lapor masalah</string>
     <string name="report_problem_text">Masalah topic
 
@@ -144,7 +144,7 @@ masalah detail</string>
 
     <string name="invalid_app_asset">Informasi app tidak sesuai</string>
     <string name="failed_to_request_app_detail">Gagal meminta detail informasi aplikasi</string>
-    <string name="failed_to_request_app_asset">gagal meminta aplikasi informasi data</string>
+    <string name="failed_to_request_app_asset">Gagal meminta informasi aset aplikasi</string>
     <string name="update_all">Pembaharui Semua</string>
     <string name="ignore">abaikan</string>
     <string name="unignore">jangan abaikan</string>
@@ -158,6 +158,18 @@ masalah detail</string>
     <string name="show_notification_after_installation">tampilan pemberitahuan setelah pemasangan</string>
     <string name="delete_packages_after_installation">hapus paket setelah pemasangan</string>
 
-    <string name="touch_to_open">tekan untuk membuka</string>
+    <string name="touch_to_open">Tekan untuk membuka</string>
 
+    <string name="enable_ultra_download_summary">Ultra download dalam pengujian beta, beritahu kami jika Anda menemukan masalah.</string>
+    <string name="enable_ultra_download">Aktifkan Ultra Download</string>
+    <string name="download_via_wifi_only">Download dengan Wi-Fi saja</string>
+    <string name="launching_please_wait">Peluncuran, harap tunggu …</string>
+
+    <string name="installed">Terpasang</string>
+    <string name="download_over_cellular">mengunduh dari Seluler</string>
+    <string name="download_over_cellular_content">Anda akan mengunduh melalui jaringan seluler. Apakah Anda ingin melanjutkan?</string>
+
+    <string name="enable">Aktifkan</string>
+
+    <string name="participate_ultra_download_beta_test_content">Ultra download dalam pengujian beta, beritahu kami jika Anda menemukan masalah. Anda dapat dengan mudah menonaktifkan dibawah Pengaturan.</string>
     </resources>
