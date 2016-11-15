@@ -16,7 +16,7 @@
     <string name="something_happened">&gt;_&lt;\nValami történt.</string>
 
     <string name="load_failed_error">Hoppá! Hiba történt.</string>
-    <string name="load_failed_empty">Itt nincs semmi tartalom.</string>
+    <string name="load_failed_empty">Itt nincs tartalom.</string>
     <string name="load_failed_all_up_to_date">Az összes alkalmazás naprakész.</string>
     <string name="load_failed_no_results">Sajnáljuk! Nincs találat.</string>
     <string name="refresh">Frissítés</string>
@@ -30,28 +30,28 @@
     <string name="download_management">Letöltések kezelése</string>
     <string name="settings">Beállítások</string>
     <string name="about">Névjegy</string>
-    <string name="about_title"><xliff:g id="app_name" example="APKPure">%1$s névjegy</xliff:g></string>
-    <string name="about_message">
-        <![CDATA[<b>Verzió:</b> %1$s<br><br><b>Weboldal:</b> <a href="%2$s">%2$s</a><br><b>Email:</b> <a href="mailto:%3$s">%3$s</a>]]>
-    </string>
+    <string name="about_title"><xliff:g id="app_name" example="APKPure">%1$s</xliff:g> névjegy</string>
+    <string name="about_message">"
+ &lt;b&gt;Verzió:&lt;/b&gt; %1$s&lt;br&gt;&lt;br&gt;&lt;b&gt;Weboldal:&lt;/b&gt; &lt;a href=%2$s&gt;%2$s&lt;/a&gt;&lt;br&gt;&lt;b&gt;E-mail:&lt;/b&gt; &lt;a href=mailto:%3$s&gt;%3$s&lt;/a&gt;
+ "</string>
     <string name="check_update">Frissítések ellenőrzése</string>
     <string name="quit">Kilépés</string>
-    <string name="want_to_quit">Valóban kilép?</string>
+    <string name="want_to_quit">Valóban ki szeretne lépni?</string>
 
     <string name="install">Telepítés</string>
     <string name="open">Megnyitás</string>
     <string name="delete">Törlés</string>
-    <string name="want_to_delete_file">Valóban törli ezt a fájlt?</string>
+    <string name="want_to_delete_file">Valóban törölni szeretné ezt a fájlt?</string>
     <string name="file_has_been_deleted">A fájl törölve lett.</string>
     <string name="failed_to_delete_file">Nem sikerült törölni a fájlt.</string>
     <string name="install__label_">Telepítés - <xliff:g id="app_label" example="APKPure">%1$s</xliff:g></string>
-    <string name="user_canceled">Felhasználói megszakítás.</string>
+    <string name="user_canceled">Felhasználó által megszakítva.</string>
     <string name="io_error">IO hiba. Lehet, hogy nincs elegendő szabad hely a sikeres telepítéshez.</string>
-    <string name="file_format_error">Fájlformátum hiba.</string>
+    <string name="file_format_error">Hibás fájlformátum.</string>
     <string name="parsing_xapk">XAPK elemzése …</string>
     <string name="installing_obb">OBB fájlok telepítése …</string>
     <string name="extracting_apk">APK fájl kibontása …</string>
-    <string name="installing_apk">APK telepítése …</string>
+    <string name="installing_apk">APK fájl telepítése …</string>
 
     <string name="uninstall">Eltávolítás</string>
     <string name="uninstalled">Eltávolítva</string>
@@ -77,9 +77,9 @@
     <string name="unknown">Ismeretlen</string>
     <string name="_ellipsis_"> … </string>
 
-    <string name="market_response_error_success">Sikeres</string>
+    <string name="market_response_error_success">Sikeres.</string>
     <string name="market_response_error_invalid_result">Érvénytelen eredmény.</string>
-    <string name="market_response_error_network_connect_error">Hálózati hiba.</string>
+    <string name="market_response_error_network_connect_error">Csatlakozási hiba.</string>
     <string name="market_response_error_network_read_error">Hálózati olvasási hiba.</string>
     <string name="market_response_error_invalid_response_code">Érvénytelen válaszkód.</string>
     <string name="market_response_error_invalid_response_body">Érvénytelen választörzs.</string>
@@ -88,7 +88,7 @@
     <string name="no_more">Nincs több.</string>
 
     <string name="update">Frissítés</string>
-    <string name="version__version___size_">Verzió: <xliff:g id="version" example="1.0.0">%1$s</xliff:g>, <xliff:g id="size" example="1024 kB">%2$s</xliff:g></string>
+    <string name="version__version___size_">Verzió:: <xliff:g id="version" example="1.0.0">%1$s</xliff:g>, <xliff:g id="size" example="1024 kB">%2$s</xliff:g></string>
     <plurals name="_count__new_update_is_available">
         <item quantity="one"><xliff:g id="count" example="1">%1$d</xliff:g> új frissítés érhető el</item>
         <item quantity="other"><xliff:g id="count" example="2">%1$d</xliff:g> új frissítés érhető el</item>
@@ -103,7 +103,7 @@
     <string name="downloads_complete">A letöltés befejeződött</string>
     <string name="touch_for_view_all_downloads">Érintse meg az összes letöltés megjelenítéséhez</string>
     <string name="_name__download_failed"><xliff:g id="name" example="APKPure">%1$s</xliff:g> letöltési hiba</string>
-    <string name="touch_to_download_it_again">Érintse meg újra a letöltéshez</string>
+    <string name="touch_to_download_it_again">Érintse meg a letöltés megismétléséhez</string>
 
     <string name="download_percent"><xliff:g id="percent" example="50">%1$d</xliff:g> %%</string>
     <string name="pause">Szünet</string>
@@ -113,10 +113,10 @@
     <string name="downloading">Letöltés</string>
     <string name="waiting">Várakozás</string>
     <string name="preparing">Előkészítés</string>
-    <string name="completed">Kész</string>
+    <string name="completed">Befejeződött</string>
     <string name="paused">Szüneteltetve</string>
     <string name="failed">Sikertelen</string>
-    <string name="file_invalid">Érvénytelen fájl</string>
+    <string name="file_invalid">A fájl érvénytelen</string>
     <string name="file_missing">A fájl hiányzik</string>
     <string name="expired">Lejárt</string>
     <string name="detail">Részletek</string>
@@ -127,14 +127,14 @@
     <string name="search_for_apps">Alkalmazások keresése</string>
     <string name="trending_searches">Gyakori keresések</string>
 
-    <string name="improvement_plan_title">Teljesítmény fejlesztési terv</string>
+    <string name="improvement_plan_title">Teljesítményfejlesztési terv</string>
     <string name="improvement_plan_message">
         <![CDATA[Segítse munkánkat az Android eszközinformációk elküldésével. <b>Nem gyűjtünk</b> semmilyen személyazonosításra alkalmas adatot (név, cím, e-mail cím, társadalombiztosítási szám, vagy más egyedi azonosító).]]>
     </string>
     <string name="join_us">Csatlakozzon hozzánk</string>
     <string name="skip">Kihagyás</string>
 
-    <string name="_name__is_up_to_date"><xliff:g id="name" example="APKPure">%1$s</xliff:g> naprakész.</string>
+    <string name="_name__is_up_to_date">Az <xliff:g id="name" example="APKPure">%1$s</xliff:g> naprakész.</string>
     <string name="new_version_available_title">Új verzió érhető el</string>
     <string name="new_version_available_message">
         <![CDATA[<b>Legújabb verzió:</b> %1$s<br><br><b>Újdonságok:</b><br>%2$s]]>
@@ -142,20 +142,20 @@
 
     <string name="report__">Jelentés…</string>
     <string name="report_problem__">Hiba jelentése…</string>
-    <string name="report_problem_subject">Hiba jelentése</string>
+    <string name="report_problem_subject">Hibajelentés</string>
     <string name="report_problem_text">Hiba témája:\n%1$s\n\nHiba részletei:\n%2$s</string>
 
-    <string name="installation_failed">A telepítés sikertelen volt</string>
-    <string name="invalid_app_detail">Érvénytelen alkalmazás részletek.</string>
-    <string name="invalid_app_asset">Érvénytelen alkalmazás információk.</string>
-    <string name="failed_to_request_app_detail">Nem sikerült lekérni az alkalmazás részletes információit.</string>
-    <string name="failed_to_request_app_asset">Nem sikerült lekérni az alkalmazásra vonatkozó információkat.</string>
-    <string name="incompatible_this_app">
-        <![CDATA[<big><b><font color="%1$d">Az Ön készüléke nem kompatibilis ezzel az alkalmazással.</font></b></big><br><br>Folytatja?]]>
-    </string>
-    <string name="this_app_not_usable">
-        <![CDATA[<big><b><font color="%1$d">Ez az alkalmazás lehet, hogy nem használható.</font></b></big><br><br>Folytatja?]]>
-    </string>
+    <string name="installation_failed">Sikertelen telepítés</string>
+    <string name="invalid_app_detail">Érvénytelen alkalmazásrészlet információk.</string>
+    <string name="invalid_app_asset">Érvénytelen alkalmazás eszközinformációk.</string>
+    <string name="failed_to_request_app_detail">Nem sikerült lekérni az alkalmazásrészlet információkat.</string>
+    <string name="failed_to_request_app_asset">Nem sikerült lekérni az alkalmazás eszközinformációit.</string>
+    <string name="incompatible_this_app">"
+ &lt;big&gt;&lt;b&gt;&lt;font color=%1$d&gt;Az Ön készüléke nem kompatibilis ezzel az alkalmazással.&lt;/font&gt;&lt;/b&gt;&lt;/big&gt;&lt;br&gt;&lt;br&gt;Folytatni szeretné?
+ "</string>
+    <string name="this_app_not_usable">"
+ &lt;big&gt;&lt;b&gt;&lt;font color=%1$d&gt;Ez az alkalmazás lehet, hogy nem használható.&lt;/font&gt;&lt;/b&gt;&lt;/big&gt;&lt;br&gt;&lt;br&gt;Folytatni szeretné?
+ "</string>
 
     <string name="setting">Beállítás</string>
     <string name="external_storage_not_usable">
@@ -175,9 +175,9 @@
     <string name="delete_all">Összes törlése</string>
     <string name="properties">Tulajdonságok</string>
     <string name="properties_message">"
- &lt;b&gt;Hely:&lt;/b&gt; %1$s&lt;br&gt;&lt;b&gt;Méret:&lt;/b&gt; %2$s&lt;br&gt;&lt;b&gt;Utoljára módosítva:&lt;/b&gt; %3$s
+ &lt;b&gt;Hely:&lt;/b&gt; %1$s&lt;br&gt;&lt;b&gt;Méret:&lt;/b&gt; %2$s&lt;br&gt;&lt;b&gt;Utolsó módosítás:&lt;/b&gt; %3$s
  "</string>
-    <string name="want_to_delete_all_files">Valóban törli az összes fájlt?</string>
+    <string name="want_to_delete_all_files">Valóban törölni szeretné az összes fájlt?</string>
     <string name="flag_as_inappropriate">Megjelölés kifogásolhatóként</string>
     <string name="pause_all">Összes szüneteltetése</string>
     <string name="continue_all">Összes folytatása</string>
@@ -185,7 +185,7 @@
     <string name="deleted">Törölve</string>
     <string name="installed">Telepítve</string>
     <string name="remove_all">Összes eltávolítása</string>
-    <string name="want_to_remove_all_download_items">Eltávolítja az összes letöltött elemet?</string>
+    <string name="want_to_remove_all_download_items">Valóban eltávolítja az összes letöltött elemet?</string>
     <string name="delete_downloaded_file">Letöltött fájl törlése</string>
     <string name="download_over_cellular">Letöltés mobilhálózaton keresztül</string>
     <string name="download_over_cellular_content">A mobilhálózaton keresztül való letöltést választotta. Folytatni szeretné?</string>
@@ -225,7 +225,7 @@
     <string name="general">Általános</string>
     <string name="language">Nyelv</string>
     <string name="auto">Automatikus</string>
-    <string name="download_via_wifi_only">Letöltés csak Wi-Fi-n</string>
+    <string name="download_via_wifi_only">Letöltés csak Wi-Fi-n keresztül</string>
     <string name="enable_ultra_download">Ultra letöltés engedélyezése</string>
     <string name="enable_ultra_download_summary">Az Ultra letöltés béta tesztelési fázisban van. Kérjük, tudassa velünk, ha bármilyen problémát tapasztal.</string>
     <string name="installation">Telepítés</string>
