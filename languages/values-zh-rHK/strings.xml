@@ -228,4 +228,28 @@
 
     <string name="_name__installation_completed"><xliff:g id="name" example="APKPure">%1$s</xliff:g> 安裝已完成</string>
     <string name="touch_to_open">點擊打開。</string>
+
+    <string name="auto_service_install_accessibility_title">自動安裝</string>
+    <string name="auto_service_install_accessibility_summary">支持 Android 4.1 以上，無需 Root 權限。</string>
+
+    <string name="auto_service_dialog_title">開啟自動安裝</string>
+    <string name="auto_service_dialog_message">開啟功能需要你授權確認，本功能不會帶來任何風險。</string>
+
+    <string name="auto_service_title">APKPure 自動安裝</string>
+    <string name="auto_service_description">打開「APKPure 自動安裝」，可確保 APKPure「自動安裝」功能的順暢運行。\n\n「自動安裝」可以在批量安裝和升級應用時，幫你點擊所有按鈕，無需一直盯着手機。\n\n打開服務時，系統會彈出通知，請點擊「確定」。\n\n為保證以上功能正常使用，請將 APKPure 放入清理工具白名單中。\n\n以上功能無需 Root 權限，支持 Android 4.1 以上系統。APKPure 承諾不會通過本功能搜集任何隱私信息。如有問題請聯繫我們。</string>
+
+    <string name="auto_service_install">安裝</string>
+    <string name="auto_service_ensure">確定</string>
+    <string name="auto_service_next">下一步</string>
+    <string name="auto_service_exchange">替換</string>
+    <string name="auto_service_complete">完成</string>
+
+    <string name="auto_service_install__material_">安裝</string>
+    <string name="auto_service_ensure__material_">確定</string>
+    <string name="auto_service_next__material_">下一步</string>
+    <string name="auto_service_exchange__material_">替換</string>
+    <string name="auto_service_complete__material_">完成</string>
+
+    <string name="auto_install_via_root_title">自動安裝（Root 模式）</string>
+    <string name="auto_install_via_root_summary">僅限 Root 設備。</string>
 </resources>

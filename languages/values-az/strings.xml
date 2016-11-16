@@ -1,5 +1,6 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<?xml version="1.0" encoding="utf-8"?>
+<resources
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
     <string name="action_settings">Parlametrlər</string>
     <string name="action_search">Axtar</string>
@@ -139,21 +140,21 @@
     <string name="continue_">Davam et</string>
     <string name="continue_all">Hamsını Davam etdir</string>
     <string name="restart">Yenidən başlat</string>
-    <string name="total_zero_app">"
- Cəmi: &lt;b&gt;&lt;font color=%1$d&gt;0&lt;/font&gt;&lt;/b&gt; app
- "</string>
+    <string name="total_zero_app">
+        <![CDATA[Cəmi: <b><font color="%1$d">0</font></b> app]]>
+    </string>
 
     <string name="select_all">Hamsını Seç</string>
     <string name="deselect_all">Hamsını Seçmə</string>
     <string name="ignored">Bloklandı</string>
     <plurals name="total__count__apps__size_">
-	<item quantity="one">"
- Cəmi: &lt;b&gt;&lt;font color=%1$d&gt;%2$d&lt;/font&gt;&lt;/b&gt; tətbiq, &lt;b&gt;&lt;font color=%1$d&gt;%3$s&lt;/font&gt;&lt;/b&gt;
- "</item>
-	<item quantity="other">"
- Cəmi: &lt;b&gt;&lt;font color=%1$d&gt;%2$d&lt;/font&gt;&lt;/b&gt; tətbiq, &lt;b&gt;&lt;font color=%1$d&gt;%3$s&lt;/font&gt;&lt;/b&gt;
- "</item>
-</plurals>
+        <item quantity="one">
+            <![CDATA[Cəmi: <b><font color="%1$d">%2$d</font></b> tətbiq, <b><font color="%1$d">%3$s</font></b>]]>
+        </item>
+        <item quantity="other">
+            <![CDATA[Cəmi: <b><font color="%1$d">%2$d</font></b> tətbiq, <b><font color="%1$d">%3$s</font></b>]]>
+        </item>
+    </plurals>
     <string name="_name__download_failed"><xliff:g id="name" example="APKPure">%1$s</xliff:g> yükləmə uğursuz</string>
     <string name="io_error">Yanlışı Seçim Çevrəsi. Orada ki, uğur qazanmak üçün qurulmak üçün kifayyət qədər yer yoxdur.</string>
     <string name="file_format_error">Bilinməyən fayl növü.</string>
@@ -166,21 +167,21 @@
     <string name="market_response_error_unknown_error__error_">Naməlum səhv (<xliff:g id="error" example="SUCCESS">%1$s</xliff:g>).</string>
 
     <plurals name="_count__new_update_is_available">
-	<item quantity="one"><xliff:g id="count" example="1">%1$d</xliff:g> yeni yeniləmə isdifadə edilə bilər</item>
-	<item quantity="other"><xliff:g id="count" example="2">%1$d</xliff:g> yeni yeniləmə isdifadə edilə bilər</item>
-</plurals>
+	    <item quantity="one"><xliff:g id="count" example="1">%1$d</xliff:g> yeni yeniləmə isdifadə edilə bilər</item>
+	    <item quantity="other"><xliff:g id="count" example="2">%1$d</xliff:g> yeni yeniləmə isdifadə edilə bilər</item>
+    </plurals>
 
     <string name="launching_please_wait">Buraxılması, lütfən gözləyin…</string>
 
     <plurals name="_count__item_is_downloading">
-	<item quantity="one"><xliff:g id="count" example="1">%1$d</xliff:g> fayl yüklənir</item>
-	<item quantity="other"><xliff:g id="count" example="2">%1$d</xliff:g> yüklənir</item>
-</plurals>
+	    <item quantity="one"><xliff:g id="count" example="1">%1$d</xliff:g> fayl yüklənir</item>
+	    <item quantity="other"><xliff:g id="count" example="2">%1$d</xliff:g> yüklənir</item>
+    </plurals>
     <string name="delete_downloaded_file">Faylı yaddaşdan sil</string>
 
     <string name="improvement_plan_message">
- Göndərmək Android Qurğu İnfo ilə bizə kömək Edirik <b> deyil toplayır </b> şəxsən-eyniləşdirmək (adı, ünvanı, e-mail ünvanı, sosial sığorta nömrəsi və ya digər nadir identifiers informasiya).
- </string>
+        <![CDATA[Göndərmək Android Qurğu İnfo ilə bizə kömək Edirik <b>deyil toplayır</b> şəxsən-eyniləşdirmək (adı, ünvanı, e-mail ünvanı, sosial sığorta nömrəsi və ya digər nadir identifiers informasiya).]]>
+    </string>
     <string name="report_problem_text">Problem mövzu:\n%1$s\n\nProblem ətraflı:\n%2$s</string>
     <string name="contact_us__">Bizimlə Əlaqə…</string>
     <string name="contact_us">Bizimlə Əlaqə</string>
@@ -221,7 +222,7 @@
     <string name="delete_packages_after_installation">Paketləri quraşdırıldıqdan sonra sil</string>
 
     <string name="_name__installation_completed"><xliff:g id="name" example="APKPure">%1$s</xliff:g> Quraşdırılması başa çatıb</string>
-<string name="installed">Quraşdırılmış</string>
+    <string name="installed">Quraşdırılmış</string>
     <string name="download_over_cellular">Şəbəkə uzərində Yüklə</string>
     <string name="download_over_cellular_content">Siz mobil şəbəkə üzərində yükləməyə hazırlaşırsınız. Davam etdirmək istərdiniz?</string>
 
@@ -232,4 +233,4 @@
     <string name="download_via_wifi_only">Yalnız Wi-Fi vasitəsilə yüklə</string>
     <string name="enable_ultra_download">Ultra Yükləməyə İcazə Vermək</string>
     <string name="enable_ultra_download_summary">Ultra Yükləmə beta sınaqdadır, əgər hər hansı problemlər yaranarkən bizə məlumat verin.</string>
-    </resources>
+</resources>

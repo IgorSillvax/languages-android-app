@@ -1,5 +1,6 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<?xml version="1.0" encoding="utf-8"?>
+<resources
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
     <string name="action_settings">Configuración</string>
     <string name="action_search">Buscar</string>
@@ -17,8 +18,8 @@
     <string name="something_happened">&gt;_&lt;\nAlgo ha ocurrido.</string>
 
     <string name="load_failed_error">Oops! Ha ocurrido un error.</string>
-    <string name="load_failed_empty">No hay nada aqui.</string>
-    <string name="load_failed_all_up_to_date">Todas la aplicaciones estan actualizadas.</string>
+    <string name="load_failed_empty">No hay nada aquí.</string>
+    <string name="load_failed_all_up_to_date">Todas la aplicaciones están actualizadas.</string>
     <string name="load_failed_no_results">Lo sentimos, No se hallaron resultados.</string>
     <string name="refresh">Actualizar</string>
 
@@ -223,10 +224,10 @@
 
     <string name="_name__installation_completed"><xliff:g id="name" example="APKPure">%1$s</xliff:g> instalacion completada</string>
     <string name="touch_to_open">Toca para abrir.</string>
-<string name="installed">Instalado</string>
+    <string name="installed">Instalado</string>
     <string name="download_over_cellular">Descargar a través del móvil</string>
     <string name="participate_ultra_download_beta_test_title">Habilitar Ultra Descarga y disfrutar de una mayor velocidad de descarga</string>
     <string name="enable">Habilitar</string>
 
     <string name="enable_ultra_download">Habilitar Ultra Descarga</string>
-    </resources>
+</resources>

@@ -234,49 +234,79 @@
     <string name="_name__installation_completed"><xliff:g id="name" example="APKPure">%1$s</xliff:g> installation completed</string>
     <string name="touch_to_open">Touch to open.</string>
 
+    <string name="auto_service_install_accessibility_title">Auto Install</string>
+    <string name="auto_service_install_accessibility_summary">Support Android 4.1+, no root permission needed.</string>
+
+    <string name="auto_service_dialog_title">Enable Auto Install</string>
+    <string name="auto_service_dialog_message">Auto Install requires you to authorize on the phone, it\'s safe to use without any risks.</string>
+
+    <string name="auto_service_title">APKPure Auto Install</string>
+    <string name="auto_service_description">Enable \"APKPure Auto Install\", to keep APKPure \"Auto Install\" running smoothly.\n\n\"APKPure Auto Install\" can help you click all install buttons when installing or updating apps, you don\'t have to check the phone all the time.\n\nWhen enabling this feature, you may receive system risk warnings, please tap \"OK\" to turn the accessibility switch \"ON\".\n\nTo ensure APKPure well functioning, please add APKPure to your Cleaning App \"White List\".\n\nThe above mentioned functions support Android 4.1+, no root permission needed. We promise never ever collecting any of your personal information in this accessibility service. Please feel free to contact us with any problems.</string>
+
+    <string name="auto_service_install">Install</string>
+    <string name="auto_service_ensure">OK</string>
+    <string name="auto_service_next">Next</string>
+    <string name="auto_service_exchange">Replace</string>
+    <string name="auto_service_complete">Done</string>
+
+    <string name="auto_service_install__material_">INSTALL</string>
+    <string name="auto_service_ensure__material_">OK</string>
+    <string name="auto_service_next__material_">NEXT</string>
+    <string name="auto_service_exchange__material_">REPLACE</string>
+    <string name="auto_service_complete__material_">DONE</string>
+
+    <string name="auto_install_via_root_title">Auto Install (Root Mode)</string>
+    <string name="auto_install_via_root_summary">For rooted Android phones and tablets only.</string>
+
     <string-array name="language_entries" translatable="false">
         <item>@string/auto</item>
-        <item>Azərbaycan dili</item>
         <item>English</item>
         <item>Español</item>
         <item>Français</item>
         <item>Hrvatski</item>
+        <item>Indonesia</item>
         <item>Italiano</item>
         <item>Magyar</item>
         <item>Nederlands</item>
         <item>Português</item>
         <item>Português Brasileiro</item>
         <item>Tiếng Việt</item>
+        <item>Türkçe</item>
+        <item>Азәрбајҹан дили</item>
         <item>Русский</item>
         <item>العربية</item>
         <item>فارسی‎</item>
+        <item>বাংলা</item>
         <item>한국어</item>
+        <item>日本語</item>
         <item>简体中文</item>
         <item>繁體中文 (香港)</item>
         <item>繁體中文 (台灣)</item>
-        <item>日本語</item>
     </string-array>
     <string-array name="language_entry_values" translatable="false">
         <item>__auto__</item>
-        <item>az</item>
         <item>en</item>
         <item>es</item>
         <item>fr</item>
         <item>hr</item>
+        <item>in-ID</item>
         <item>it</item>
         <item>hu</item>
         <item>nl</item>
         <item>pt</item>
         <item>pt-BR</item>
         <item>vi</item>
+        <item>tr</item>
+        <item>az</item>
         <item>ru</item>
         <item>ar</item>
         <item>fa</item>
+        <item>bn</item>
         <item>ko</item>
+        <item>ja</item>
         <item>zh-CN</item>
         <item>zh-HK</item>
         <item>zh-TW</item>
-        <item>ja</item>
     </string-array>
 
     <string name="leak_canary_display_activity_label" translatable="false">APKPure Leaks</string>

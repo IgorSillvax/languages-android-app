@@ -110,7 +110,7 @@
     <string name="continue_">Continua</string>
     <string name="restart">Riavvia</string>
     <string name="download">Scarica</string>
-    <string name="downloading">Scarico...</string>
+    <string name="downloading">Scarico…</string>
     <string name="waiting">Attendere</string>
     <string name="preparing">Preparazione</string>
     <string name="completed">Completato</string>
@@ -176,9 +176,9 @@
     <string name="auto">Auto</string>
 
     <string name="properties">Proprietà</string>
-    <string name="properties_message">"
- &lt;b&gt;Percorso:&lt;/b&gt; %1$s&lt;br&gt;&lt;b&gt;Dimensione:&lt;/b&gt; %2$s&lt;br&gt;&lt;b&gt;Ultima modifica:&lt;/b&gt; %3$s
- "</string>
+    <string name="properties_message">
+        <![CDATA[<b>Percorso:</b> %1$s<br><b>Dimensione:</b> %2$s<br><b>Ultima modifica:</b> %3$s]]>
+    </string>
     <string name="delete_downloaded_file">Elimina file scaricato</string>
 
     <string name="update_all">Aggiorna tutto</string>
@@ -223,7 +223,7 @@
 
     <string name="_name__installation_completed"><xliff:g id="name" example="APKPure">%1$s</xliff:g> installazione completata</string>
     <string name="touch_to_open">Tocca per aprire.</string>
-<string name="installed">Installata</string>
+    <string name="installed">Installata</string>
     <string name="download_over_cellular">Scarica via Rete Mobile</string>
     <string name="download_over_cellular_content">Stai per scaricare via Rete Dati Mobile. Vuoi continuare?</string>
 
@@ -234,4 +234,4 @@
     <string name="download_via_wifi_only">Scarica solo via Wi-Fi</string>
     <string name="enable_ultra_download">Abilita Download Ultra</string>
     <string name="enable_ultra_download_summary">Download Ultra è ancora Beta, facci sapere se incontri problemi.</string>
-    </resources>
+</resources>

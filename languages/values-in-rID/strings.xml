@@ -1,5 +1,8 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2"><string name="action_settings">Mengatur</string>
+<?xml version="1.0" encoding="utf-8"?>
+<resources
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <string name="action_settings">Mengatur</string>
     <string name="action_search">Cari</string>
     <string name="press_back_key_quit">Tekan tombol kembali dan berhenti.</string>
 
@@ -9,8 +12,7 @@
     <string name="categories">Kategori</string>
     <string name="updates">Terkini</string>
 
-    <string name="something_happened">&gt;_&lt;
-Terjadi sesuatu.</string>
+    <string name="something_happened">&gt;_&lt;\nTerjadi sesuatu.</string>
 
     <string name="load_failed_error">Oops! Terjadi kesalahan.</string>
     <string name="load_failed_empty">Ini tidak ada disini.</string>
@@ -48,9 +50,9 @@ Terjadi sesuatu.</string>
     <string name="setting">Mengatur</string>
     <string name="installation_failed">Gagal Instalasi</string>
     <string name="invalid_app_detail">Informasi detail App tak berlaku.</string>
-    <string name="about_message">"
- &lt;b&gt;Visi:&lt;/b&gt; %1$s&lt;br&gt;&lt;br&gt;&lt;b&gt;Website:&lt;/b&gt; &lt;a href=%2$s&gt;%2$s&lt;/a&gt;&lt;br&gt;&lt;b&gt;Email:&lt;/b&gt; &lt;a href=mailto:%3$s&gt;%3$s&lt;/a&gt;
- "</string>
+    <string name="about_message">
+        <![CDATA[<b>Visi:</b> %1$s<br><br><b>Website:</b> <a href=%2$s>%2$s</a><br><b>Email:</b> <a href=mailto:%3$s>%3$s</a>]]>
+    </string>
     <string name="installing_apk">Instalasi APK …</string>
 
     <string name="description">Deskripsi</string>
@@ -77,7 +79,7 @@ Terjadi sesuatu.</string>
     <string name="extracting_apk">Mengekstrak APK File …</string>
     <string name="uninstall">Belum instal</string>
     <string name="uninstalled">Uninstall</string>
-    <string name="last_update__date_">Update terbaru:<xliff:g id="date">%1$s</xliff:g></string>
+    <string name="last_update__date_">Update terbaru: <xliff:g id="date">%1$s</xliff:g></string>
 
     <string name="all">Semua</string>
 
@@ -137,11 +139,7 @@ Terjadi sesuatu.</string>
     <string name="report__">Lapor…</string>
     <string name="report_problem__">Llaporkan masalah…</string>
     <string name="report_problem_subject">Llaporkan masalah</string>
-    <string name="report_problem_text">masalah topik:
-%1$s
-
-masalah detail:
-%2$s</string>
+    <string name="report_problem_text">masalah topik:\n%1$s\n\nmasalah detail:\n%2$s</string>
     <string name="contact_us__">Hubungi Kami…</string>
     <string name="contact_us">Hubungi Kami</string>
     <string name="report_content">Laporkan konten</string>
@@ -167,7 +165,7 @@ masalah detail:
     <string name="enable_ultra_download_summary">Ultra Download dalam pengujian beta, beritahukan kami tahu jika Anda menemui masalah.</string>
     <string name="enable_ultra_download">Mengaktifkan download</string>
     <string name="download_via_wifi_only">Download melalui Wi-fi hanya</string>
-    <string name="launching_please_wait">Meluncurkan,silahkan tunggu…</string>
+    <string name="launching_please_wait">Meluncurkan, silahkan tunggu…</string>
 
     <string name="installed">Instal</string>
     <string name="download_over_cellular">Download melalui seluler</string>
@@ -175,60 +173,60 @@ masalah detail:
 
     <string name="enable">Aktifkan</string>
 
-    <string name="participate_ultra_download_beta_test_content">"Download dalam pengujian beta, beritahukan kami  jika Anda menemui masalah .Anda dapat mudah menonaktifkan dalam pengaturan."</string>
-    <string name="properties_message">"
- &lt;b&gt;Jalan:&lt;/b&gt; %1$s&lt;br&gt;&lt;b&gt;Ukuran:&lt;/b&gt; %2$s&lt;br&gt;&lt;b&gt;Ubah terbaru:&lt;/b&gt; %3$s
- "</string>
+    <string name="participate_ultra_download_beta_test_title">Boleh download dan menikmati kecepatan download yang baik</string>
+    <string name="participate_ultra_download_beta_test_content">Download dalam pengujian beta, beritahukan kami jika Anda menemui masalah .Anda dapat mudah menonaktifkan dalam pengaturan.</string>
+    <string name="properties_message">
+        <![CDATA[<b>Jalan:</b> %1$s<br><b>Ukuran:</b> %2$s<br><b>Ubah terbaru:</b> %3$s]]>
+    </string>
     <string name="install__label_">Intall - <xliff:g id="app_label" example="APKPure">%1$s</xliff:g></string>
     <string name="market_response_error_unknown_error__error_">Kesalahan tak tahu (<xliff:g id="error" example="SUCCESS">%1$s</xliff:g>).</string>
 
-    <string name="version__version___size_">Visi:<xliff:g id="version" example="1.0.0">%1$s</xliff:g>, <xliff:g id="size" example="1024 kB">%2$s</xliff:g></string>
+    <string name="version__version___size_">Visi: <xliff:g id="version" example="1.0.0">%1$s</xliff:g>, <xliff:g id="size" example="1024 kB">%2$s</xliff:g></string>
     <plurals name="_count__new_update_is_available">
-	<item quantity="other"><xliff:g id="count" example="1">%1$d</xliff:g> Update baru berlaku</item>
-</plurals>
+	    <item quantity="other"><xliff:g id="count" example="1">%1$d</xliff:g> Update baru berlaku</item>
+    </plurals>
 
     <plurals name="_count__item_is_downloading">
-	<item quantity="other"><xliff:g id="count" example="2">%1$d</xliff:g> Item sedang download</item>
-</plurals>
-    <string name="_name__download_failed"><xliff:g id="name" example="APKPure">%1$s</xliff:g>Gagal download</string>
+	    <item quantity="other"><xliff:g id="count" example="2">%1$d</xliff:g> Item sedang download</item>
+    </plurals>
+    <string name="_name__download_failed"><xliff:g id="name" example="APKPure">%1$s</xliff:g> Gagal download</string>
     <string name="download_percent"><xliff:g id="percent" example="50">%1$d</xliff:g> %%</string>
-    <string name="improvement_plan_message">"
- Membantu kami dengan mengirimkan Android Device Info, kita lakukan  "<b> tak kumpulkan</b>" informasi pribada  (nama,alamat,email,nomor jaminan sosial,atau pengenaan unuk lain).
- "</string>
-    <string name="participate_ultra_download_beta_test_title">Boleh download dan menikmati kecepatan download yang baik</string>
-    <string name="_name__is_up_to_date"><xliff:g id="name" example="APKPure">%1$s</xliff:g>berbaru sama waktu.</string>
+    <string name="improvement_plan_message">
+        <![CDATA[Membantu kami dengan mengirimkan Android Device Info, kita lakukan <b>tak kumpulkan</b> informasi pribada (nama, alamat, email, nomor jaminan sosial, atau pengenaan unuk lain).]]>
+    </string>
+    <string name="_name__is_up_to_date"><xliff:g id="name" example="APKPure">%1$s</xliff:g> berbaru sama waktu.</string>
     <string name="new_version_available_message">"
- &lt;b&gt;Visi terbaru:&lt;/b&gt; %1$s&lt;br&gt;&lt;br&gt;&lt;b&gt;Apa yang baru:&lt;/b&gt;&lt;br&gt;%2$s
- "</string>
+        <![CDATA[<b>Visi terbaru:</b> %1$s<br><br><b>Apa yang baru:</b><br>%2$s]]>
+    </string>
 
-    <string name="incompatible_this_app">"
- &lt;big&gt;&lt;b&gt;&lt;font color=%1$d&gt;Perangkat Anda tidak kompatibel dengan app ini.&lt;/font&gt;&lt;/b&gt;&lt;/big&gt;&lt;br&gt;&lt;br&gt;Anda ingin melanjutkan?
- "</string>
-    <string name="this_app_not_usable">"
- &lt;big&gt;&lt;b&gt;&lt;font color=%1$d&gt;Aplikasi tidak boleh digunakan.&lt;/font&gt;&lt;/b&gt;&lt;/big&gt;&lt;br&gt;&lt;br&gt;Anda ingin melanjutkan?
- "</string>
+    <string name="incompatible_this_app">
+        <![CDATA[<big><b><font color="%1$d">Perangkat Anda tidak kompatibel dengan app ini.</font></b></big><br><br>Anda ingin melanjutkan?]]>
+    </string>
+    <string name="this_app_not_usable">
+        <![CDATA[<big><b><font color="%1$d">Aplikasi tidak boleh digunakan.</font></b></big><br><br>Anda ingin melanjutkan?]]>
+    </string>
 
     <string name="external_storage_not_usable">
- <big><b> Kita perlu mengakses penyimpanan eksternal Anda. Harap pastikan digunakan..</b></big>
- </string>
+        <![CDATA[<big><b>Kita perlu mengakses penyimpanan eksternal Anda. Harap pastikan digunakan.</b></big>]]>
+    </string>
     <string name="external_storage_permission_denied">
- <big><b>Kita perlu mengakses penyimpanan eksternal Anda. Harap pastikan tak ditolak.</b></big>
- </string>
+        <![CDATA[<big><b>Kita perlu mengakses penyimpanan eksternal Anda. Harap pastikan tak ditolak.</b></big>]]>
+    </string>
 
-    <string name="share_app_url">Download <xliff:g id="app_name" example="APKPure">%1$s</xliff:g> APK (来自 @<xliff:g id="social_network_name" example="APKPure">%2$s</xliff:g>), <xliff:g id="app_url" example="https://apkpure.org/p/com.apkpure.aegon">%3$s</xliff:g></string>
+    <string name="share_app_url">Download <xliff:g id="app_name" example="APKPure">%1$s</xliff:g> APK (from @<xliff:g id="social_network_name" example="APKPure">%2$s</xliff:g>), <xliff:g id="app_url" example="https://apkpure.org/p/com.apkpure.aegon">%3$s</xliff:g></string>
 
     <string name="_name__version_history"><xliff:g id="name" example="APKPure">%1$s</xliff:g> Sejarah visi</string>
-    <string name="update__date___size_">Update:<xliff:g id="date" example="Mar 3, 2016">%1$s</xliff:g>, <xliff:g id="size" example="1024 kB">%2$s</xliff:g></string>
+    <string name="update__date___size_">Update: <xliff:g id="date" example="Mar 3, 2016">%1$s</xliff:g>, <xliff:g id="size" example="1024 kB">%2$s</xliff:g></string>
 
-    <string name="update___count__">Update (<xliff:g id="count" example="3"> 1%1$d</xliff:g> 2)</string>
+    <string name="update___count__">Update (<xliff:g id="count" example="3">%1$d</xliff:g>)</string>
     <plurals name="total__count__apps__size_">
-	<item quantity="other">"
- Total:  &lt;b&gt;&lt;font color=%1$d&gt;%2$d&lt;/font&gt;&lt;/b&gt; app, &lt;b&gt;&lt;font color=%1$d&gt;%3$s&lt;/font&gt;&lt;/b&gt;
- "</item>
-</plurals>
-    <string name="total_zero_app">"
- Total: &lt;b&gt;&lt;warna font =%1$d&gt;0&lt;/font&gt;&lt;/b&gt; app
- "</string>
+	    <item quantity="other">
+            <![CDATA[Total: <b><font color="%1$d">%2$d</font></b> app, <b><font color="%1$d">%3$s</font></b>]]>
+        </item>
+    </plurals>
+    <string name="total_zero_app">
+        <![CDATA[Total: <b><font color="%1$d">0</font></b> app]]>
+    </string>
 
     <string name="_name__installation_completed"><xliff:g id="name" example="APKPure">%1$s</xliff:g> Selesai Instalasi</string>
-    </resources>
+</resources>

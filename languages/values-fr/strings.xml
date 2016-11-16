@@ -1,5 +1,6 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<?xml version="1.0" encoding="utf-8"?>
+<resources
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
     <string name="action_settings">Paramètres</string>
     <string name="action_search">Rechercher</string>
@@ -143,10 +144,7 @@
     <string name="report__">Rapport…</string>
     <string name="report_problem__">Rapporter un problème…</string>
     <string name="report_problem_subject">Reporter un problème</string>
-    <string name="report_problem_text">Problème sujet:
-%1$s
-étail du problème:
-%2$s</string>
+    <string name="report_problem_text">Problème sujet:\n%1$s\n\nétail du problème:\n%2$s</string>
 
     <string name="installation_failed">L\'installation a échoué</string>
     <string name="invalid_app_detail">Les détails de l\'application sont invalides.</string>
@@ -165,8 +163,8 @@
         <![CDATA[<big><b>Nous devons accéder a la carte mémoire assurez vous d\'avoir une carte fonctionnel.</b></big>]]>
     </string>
     <string name="external_storage_permission_denied">
- <big><b>On as besoin d\'accéder a la carte mémoire. Assurez vous que la permission n\'est pas refusée.</b></big>
- </string>
+        <![CDATA[<big><b>On as besoin d\'accéder a la carte mémoire. Assurez vous que la permission n\'est pas refusée.</b></big>]]>
+    </string>
 
     <string name="share">Partager</string>
     <string name="share_app_url">Télécharger <xliff:g id="app_name" example="APKPure">%1$s</xliff:g> APK (from @<xliff:g id="social_network_name" example="APKPure">%2$s</xliff:g>), <xliff:g id="app_url" example="https://apkpure.com/p/com.apkpure.aegon">%3$s</xliff:g></string>
@@ -181,14 +179,14 @@
     <string name="properties_message">
         <![CDATA[<b>Chemin:</b> %1$s<br><b>Taille:</b> %2$s<br><b>Dernière modification:</b> %3$s]]>
     </string>
-    <string name="want_to_delete_all_files">Voulez-vous supprimer tous les fichiers ?</string>
+    <string name="want_to_delete_all_files">Voulez-vous supprimer tous les fichiers?</string>
     <string name="flag_as_inappropriate">Marqué comme étant inapproprié</string>
     <string name="pause_all">Mettre tout en Pause</string>
     <string name="continue_all">Tout Continuer</string>
     <string name="waiting_to_download">En attente de téléchargement</string>
     <string name="deleted">Supprimer</string>
     <string name="remove_all">Tout Supprimer</string>
-    <string name="want_to_remove_all_download_items">Voulez-vous retirer tout les téléchargements ?</string>
+    <string name="want_to_remove_all_download_items">Voulez-vous retirer tout les téléchargements?</string>
     <string name="delete_downloaded_file">Supprimer le fichier téléchargé</string>
 
     <string name="search_history">Historique</string>
@@ -226,24 +224,15 @@
     <string name="_name__installation_completed"><xliff:g id="name" example="APKPure">%1$s</xliff:g> installation terminée</string>
     <string name="touch_to_open">Touchez pour ouvrir.</string>
 
-<string name="installed">Installée</string>
+    <string name="installed">Installée</string>
     <string name="download_over_cellular">Téléchargement cellulaire</string>
     <string name="download_over_cellular_content">Vous êtes sur le point de télécharger à partir de vos données mobile. Voulez-vous continuer ?</string>
 
-    <string name="participate_ultra_download_beta_test_title">"Activer le telechargement Ultra  et profiter
-d\'une vitesse de téléchargement
-plus rapide"</string>
-    <string name="participate_ultra_download_beta_test_content">Ultra Download est en test bêta,
-laissez-nous savoir si vous
-rencontrez des problèmes. Vous
-pouvez facilement le désactiver
-sous Paramètres.</string>
+    <string name="participate_ultra_download_beta_test_title">"Activer le telechargement Ultra  et profiter d\'une vitesse de téléchargement plus rapide"</string>
+    <string name="participate_ultra_download_beta_test_content">Ultra Download est en test bêta, laissez-nous savoir si vous rencontrez des problèmes. Vous pouvez facilement le désactiver sous Paramètres.</string>
     <string name="enable">Activer</string>
 
-    <string name="download_via_wifi_only">Téléchargement via Wi-Fi
-uniquement</string>
+    <string name="download_via_wifi_only">Téléchargement via Wi-Fi uniquement</string>
     <string name="enable_ultra_download">activer Ultra Download</string>
-    <string name="enable_ultra_download_summary">Ultra Download est en test bêta,
-laissez-nous savoir si vous
-rencontrez des problèmes.</string>
-    </resources>
+    <string name="enable_ultra_download_summary">Ultra Download est en test bêta,laissez-nous savoir si vous rencontrez des problèmes.</string>
+</resources>

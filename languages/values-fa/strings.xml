@@ -31,9 +31,9 @@
     <string name="settings">تنظیمات</string>
     <string name="about">درباره</string>
     <string name="about_title">درباره <xliff:g id="app_name" example="APKPure">%1$s</xliff:g></string>
-    <string name="about_message">"
- &lt;b&gt;نسخه:&lt;/b&gt; %1$s&lt;br&gt;&lt;br&gt;&lt;b&gt;وب‌سایت:&lt;/b&gt; &lt;a href=%2$s&gt;%2$s&lt;/a&gt;&lt;br&gt;&lt;b&gt;ایمیل:&lt;/b&gt; &lt;a href=mailto:%3$s&gt;%3$s&lt;/a&gt;&lt;br&gt;&lt;b&gt;مترجم: گودرز جعفری&lt;/b&gt; &lt;a href=mailto:Jafari@NoavaranJavan.com&lt;/a&gt;
- "</string>
+    <string name="about_message">
+        <![CDATA[<b>نسخه:</b> %1$s<br><br><b>وب‌سایت:</b> <a href=%2$s>%2$s</a><br><b>ایمیل:</b> <a href=mailto:%3$s>%3$s</a><br><b>مترجم: گودرز جعفری</b> <a href=mailto:Jafari@NoavaranJavan.com</a>]]>
+    </string>
     <string name="check_update">بررسی به‌روزرسانی</string>
     <string name="quit">خروج</string>
     <string name="want_to_quit">آیا مطمئن هستید که می‌خواهید خارج شوید؟</string>
@@ -105,9 +105,9 @@
     <string name="launching_please_wait">در‌حال راه‌اندازی، لطفا صبر کنید…</string>
 
     <plurals name="_count__item_is_downloading">
-	<item quantity="one"><xliff:g id="count" example="1">%1$d</xliff:g> آیتم در حال دانلود است</item>
-	<item quantity="other"><xliff:g id="count" example="2">%1$d</xliff:g> آیتم‌ در حال دانلود است</item>
-</plurals>
+	    <item quantity="one"><xliff:g id="count" example="1">%1$d</xliff:g> آیتم در حال دانلود است</item>
+	    <item quantity="other"><xliff:g id="count" example="2">%1$d</xliff:g> آیتم‌ در حال دانلود است</item>
+    </plurals>
     <string name="downloads_complete">دانلود‌ کامل شد</string>
     <string name="touch_for_view_all_downloads">برای مشاهده تمام دانلود‌ها، لمس کنید</string>
     <string name="_name__download_failed"><xliff:g id="name" example="APKPure">%1$s</xliff:g> دانلود نشد</string>
@@ -218,7 +218,7 @@
     <string name="this_app_not_usable">
         <![CDATA[<big><b><font color=%1$d>این برنامه ممکن است قابل استفاده نباشد.</font></b></big><br><br>می‌خواهید ادامه دهید؟]]>
     </string>
-<string name="installed">نصب شده است</string>
+    <string name="installed">نصب شده است</string>
     <string name="participate_ultra_download_beta_test_title">فعال کردن دانلود فوق العاده و از سرعت سریع دانلود لذت ببرید</string>
     <string name="participate_ultra_download_beta_test_content">دانلود فوق العاده در مرحله تست می‌باشد، اگر به هرگونه مشکلی برخورد کردید به ما اطلاع دهید. شما به راحتی می‌توانید در تنظیمات غیرفعال کنید.</string>
     <string name="enable">فعال کردن</string>
@@ -229,4 +229,4 @@
     <string name="download_over_cellular_content">دانلود شما از اینترنت تلفن شما استفاده می‌کند. آیا مایل به ادامه دادن می‌باشید؟</string>
 
     <string name="download_over_cellular">دانلود با اینترنت موبایل</string>
-    </resources>
+</resources>
