@@ -1,6 +1,5 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources
-    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<?xml version='1.0' encoding='UTF-8'?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
     <string name="action_settings">Configuración</string>
     <string name="action_search">Buscar</string>
@@ -230,4 +229,41 @@
     <string name="enable">Habilitar</string>
 
     <string name="enable_ultra_download">Habilitar Ultra Descarga</string>
-</resources>
+<string name="auto_service_exchange__material_">Reemplazar</string>
+    <string name="auto_service_complete__material_">Hecho</string>
+
+    <string name="auto_install_via_root_title">Instalación automática (Modo root)</string>
+    <string name="auto_install_via_root_summary">Exclusivo para teléfonos con acceso root y tablet.</string>
+
+    <string name="download_over_cellular_content">Estás a punto de descargar por la red móvil de tu operador, ¿Deseas continuar?</string>
+
+    <string name="participate_ultra_download_beta_test_content">Ultra Download esta en version beta. déjanos saber si encuentras algún problema. puedes desactivar esta opción fácilmente en los ajustes.</string>
+    <string name="download_via_wifi_only">Descargar solo por WiFi.</string>
+    <string name="enable_ultra_download_summary">Ultra Download esta en versión beta. Déjanos saber si encuentras algún problema.</string>
+    <string name="auto_service_install_accessibility_title">Instalación automática.</string>
+    <string name="auto_service_install_accessibility_summary">Soporta Android a partir de versión 4.1, no se requieren permisos root.</string>
+
+    <string name="auto_service_dialog_title">Habilitar Auto instalación.</string>
+    <string name="auto_service_dialog_message">Auto instalación requiere que autorices en tu teléfono. Es seguro de usar y no conlleva ningún riesgo.</string>
+
+    <string name="auto_service_title">Auto instalación de APKPure</string>
+    <string name="auto_service_description">Habilitar \"Auto instalación de APKPure\", para mantener la \"Auto instalación\" de APKPure fluida.
+
+La \"Auto instalación de APKPure\" puede ayudarte a darle clic a todos los botones de instalar cuando instalas o actualizas aplicaciones. no tienes que estar atento en el teléfono todo el tiempo.
+
+Cuando habilitas esta opción, recibiras una advertencia del sistema, por favor darle a \"OK\" para colocar la accesibilidad en \"ON\".
+
+Para asegurar el buen funcionamiento de APKPure, por favor agrega la aplicación a tu \"lista blanca\" de aplicaciones seguras.
+
+Las opciones de arriba soportadas a partir de Android 4.1+, no requieren permisos root. Prometemos que nunca vamos a colectar tu información personal con este servicio de accesibilidad. Por favor siéntete libre de contactarnos si surge algún problema.</string>
+
+    <string name="auto_service_install">Instalar</string>
+    <string name="auto_service_ensure">OK</string>
+    <string name="auto_service_next">Siguiente</string>
+    <string name="auto_service_exchange">Reemplazar</string>
+    <string name="auto_service_complete">Hecho</string>
+
+    <string name="auto_service_install__material_">Instalar</string>
+    <string name="auto_service_ensure__material_">OK</string>
+    <string name="auto_service_next__material_">Siguiente</string>
+    </resources>
