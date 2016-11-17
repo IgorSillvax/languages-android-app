@@ -1,6 +1,5 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources
-    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<?xml version='1.0' encoding='UTF-8'?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
     <string name="action_settings">Parlametrlər</string>
     <string name="action_search">Axtar</string>
@@ -233,4 +232,36 @@
     <string name="download_via_wifi_only">Yalnız Wi-Fi vasitəsilə yüklə</string>
     <string name="enable_ultra_download">Ultra Yükləməyə İcazə Vermək</string>
     <string name="enable_ultra_download_summary">Ultra Yükləmə beta sınaqdadır, əgər hər hansı problemlər yaranarkən bizə məlumat verin.</string>
-</resources>
+<string name="auto_service_install_accessibility_title">Avtomatik Quraşdır</string>
+    <string name="auto_service_install_accessibility_summary">Dəstəkləyir 4.1 + Android, root ehtiyac yoxdur girişə icazə lazımdır.</string>
+
+    <string name="auto_service_dialog_title">Avtomatik Quraşdırmaqa imkan verəcək</string>
+    <string name="auto_service_dialog_message">Avtomatik Quraşdırma telefonda icazə verməyi tələb edir, bu, hər hansı risklərin istifadəsi təhlükəsizdir.</string>
+
+    <string name="auto_service_title">APKPure Avtomatik Quraşdır</string>
+    <string name="auto_service_install">Quraşdır</string>
+    <string name="auto_service_ensure">OK</string>
+    <string name="auto_service_next">İrəli</string>
+    <string name="auto_service_exchange">Dəyişmək</string>
+    <string name="auto_service_complete">Hazır</string>
+
+    <string name="auto_service_install__material_">QURAŞDIR</string>
+    <string name="auto_service_ensure__material_">OK</string>
+    <string name="auto_service_next__material_">İRƏLİ</string>
+    <string name="auto_service_exchange__material_">DƏYİŞMƏK</string>
+    <string name="auto_service_complete__material_">HAZIR</string>
+
+    <string name="auto_install_via_root_title">Avtomatik Quraşdır (Root Rejimi)</string>
+    <string name="auto_install_via_root_summary">Yalnız Root olunmuş Android telfon və ya planşet.</string>
+
+    <string name="auto_service_description">APKPure rəvan çalışan \"Avtomatik Quraşdır\" saxlamaq \"APKPure Avtomatik Quraşdır\" imkan verir.
+
+bütün quraşdırma və ya tətbiqləri yenilənməsi düymələri bərpa basın kömək edə bilər \"APKPure Avtomatik Quraşdır\", telefon hər zaman yoxlamaq yoxdur.
+
+Bu xüsusiyyət imkan zaman, sistem risk xəbərdarlıq ala bilər, accessibility keçid \"ON\" çevirmək üçün \"OK\" kran edin.
+
+də fəaliyyət göstərən APKPure təmin etmək üçün, sizin Cleaning Tətbiq \"Ağ siyahı\" APKPure əlavə edin.
+
+Yuxarıda qeyd funksiyaları Android 4.1+, lazım heç bir kök icazə dəstəkləyir. Biz heç vaxt bu accessibility xidmət sizin şəxsi məlumat hər hansı toplanması vədlər. Hər hansı bir problem ilə qarşılaşsaz bizimlə əlaqədən çekinmeyin.</string>
+
+    </resources>
