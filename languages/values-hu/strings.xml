@@ -1,6 +1,5 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources
-    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<?xml version='1.0' encoding='UTF-8'?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
     <string name="action_settings">Beállítások</string>
     <string name="action_search">Keresés</string>
@@ -234,4 +233,36 @@
     <string name="delete_packages_after_installation">Csomagok törlése telepítés után</string>
 
     <string name="_name__installation_completed"><xliff:g id="name" example="APKPure">%1$s</xliff:g> telepítése befejeződött</string>
-</resources>
+<string name="auto_service_install_accessibility_title">Automatikus telepítés</string>
+    <string name="auto_service_install_accessibility_summary">Android 4.1+ támogatás, nincs szükség root jogosultságra.</string>
+
+    <string name="auto_service_dialog_title">Automatikus telepítés engedélyezése</string>
+    <string name="auto_service_dialog_message">Az automatikus telepítést engedélyeznie kell a telefonon. Ez teljesen biztonságos és nem jelent semmilyen kockázatot.</string>
+
+    <string name="auto_service_title">APKPure automatikus telepítés</string>
+    <string name="auto_service_description">Engedélyezze az \"APKPure automatikus telepítés\" opcióját az APKPure \"automatikus telepítés\" egyenletes futtatásának fenntartásához.
+
+Az \"APKPure automatikus telepítés\" funkciója segíthet rákattintani az összes telepítés gombra az alkalmazások telepítése vagy frissítése során, így nem kell minden alkalommal ellenőriznie telefonját.
+
+A funkció engedélyezésekor, kockázati figyelmeztetéseket kaphat a rendszertől. Kérjük, koppintson az \"OK\" gombra a kisegítő lehetőségek \"BE\"kapcsolásához.
+
+A megfelelő működéshez, vegye fel az APKPure-t saját tisztító alkalmazása \"Engedélyezési listájára\".
+
+A fent említett funkciókat az Android 4.1+ támogatja, nincs szükség root jogosultságra. Ígérjük, hogy soha nem gyűjtünk semmilyen személyes információt ebben a kisegítő lehetőségek szolgáltatásban. Kérjük, ne habozzon kapcsolatba lépni velünk, ha bármilyen problémát tapasztal.</string>
+
+    <string name="auto_service_install">Telepítés</string>
+    <string name="auto_service_ensure">OK</string>
+    <string name="auto_service_next">Következő</string>
+    <string name="auto_service_exchange">Csere</string>
+    <string name="auto_service_complete">Kész</string>
+
+    <string name="auto_service_install__material_">TELEPÍTÉS</string>
+    <string name="auto_service_ensure__material_">OK</string>
+    <string name="auto_service_next__material_">KÖVETKEZŐ</string>
+    <string name="auto_service_exchange__material_">CSERE</string>
+    <string name="auto_service_complete__material_">KÉSZ</string>
+
+    <string name="auto_install_via_root_title">Automatikus telepítés (Root mód)</string>
+    <string name="auto_install_via_root_summary">Csak rootolt androidos telefonokhoz és táblagépekhez.</string>
+
+    </resources>
