@@ -182,12 +182,14 @@
 
     <string name="version__version___size_">Visi: <xliff:g id="version" example="1.0.0">%1$s</xliff:g>, <xliff:g id="size" example="1024 kB">%2$s</xliff:g></string>
     <plurals name="_count__new_update_is_available">
-	    <item quantity="other"><xliff:g id="count" example="1">%1$d</xliff:g> Update baru berlaku</item>
-    </plurals>
+	<item quantity="one"><xliff:g id="count" example="1">%1$d</xliff:g> Update baru berlaku</item>
+	<item quantity="other"><xliff:g id="count" example="2">%1$d</xliff:g>Update baru berlaku</item>
+</plurals>
 
     <plurals name="_count__item_is_downloading">
-	    <item quantity="other"><xliff:g id="count" example="2">%1$d</xliff:g> Item sedang download</item>
-    </plurals>
+	<item quantity="one"><xliff:g id="count" example="2">%1$d</xliff:g> Item sedang download</item>
+	<item quantity="other"><xliff:g id="count" example="2">%1$d</xliff:g>Item sedang download</item>
+</plurals>
     <string name="_name__download_failed"><xliff:g id="name" example="APKPure">%1$s</xliff:g> Gagal download</string>
     <string name="download_percent"><xliff:g id="percent" example="50">%1$d</xliff:g> %%</string>
     <string name="improvement_plan_message">
@@ -219,14 +221,48 @@
 
     <string name="update___count__">Update (<xliff:g id="count" example="3">%1$d</xliff:g>)</string>
     <plurals name="total__count__apps__size_">
-	    <item quantity="other">
-            <![CDATA[Total: <b><font color="%1$d">%2$d</font></b> app, <b><font color="%1$d">%3$s</font></b>]]>
-        </item>
-    </plurals>
+	<item quantity="one">"
+ Total: &lt;b&gt;&lt;font color=%1$d&gt;%2$d&lt;/font&gt;&lt;/b&gt; app, &lt;b&gt;&lt;font color=%1$d&gt;%3$s&lt;/font&gt;&lt;/b&gt;
+ "</item>
+	<item quantity="other">"
+ Total: &lt;b&gt;&lt;font color=%1$d&gt;%2$d&lt;/font&gt;&lt;/b&gt; apps, &lt;b&gt;&lt;font color=%1$d&gt;%3$s&lt;/font&gt;&lt;/b&gt;
+ "</item>
+</plurals>
     <string name="total_zero_app">
         <![CDATA[Total: <b><font color="%1$d">0</font></b> app]]>
     </string>
 
     <string name="_name__installation_completed"><xliff:g id="name" example="APKPure">%1$s</xliff:g> Selesai Instalasi</string>
-<string name="auto_service_install_accessibility_title">"  "</string>
+<string name="auto_service_install_accessibility_title">Auto Instal</string>
+    <string name="auto_service_title">APKPure Auto Instal</string>
+    <string name="auto_service_install">Instal</string>
+    <string name="auto_service_ensure">OK</string>
+    <string name="auto_service_next">Berikutnya</string>
+    <string name="auto_service_exchange">Menggantikan</string>
+    <string name="auto_service_complete">Selesai</string>
+
+    <string name="auto_service_install__material_">INSTAL</string>
+    <string name="auto_service_ensure__material_">OK</string>
+    <string name="auto_service_next__material_">BERIKUTNYA</string>
+    <string name="auto_service_exchange__material_">MENGGANTIKAN</string>
+    <string name="auto_service_complete__material_">SELESAI</string>
+
+    <string name="auto_install_via_root_title">Auto Instal (Mode Akar)</string>
+    <string name="auto_service_install_accessibility_summary">Dukungan Android 4.1+, tidak akar izin diperlukan.</string>
+
+    <string name="auto_service_dialog_title">Aktifkan Auto Instal</string>
+    <string name="auto_install_via_root_summary">Untuk telepon Android dan tablet berakar saja.</string>
+
+    <string name="auto_service_dialog_message">Auto Instal mengharuskan Anda untuk mengotorisasi di telepon, itu aman untuk digunakan tanpa resiko.</string>
+
+    <string name="auto_service_description">Aktifkan \"APKPure Auto Install\", untuk tetap APKPure \"Auto Instal\" berjalan lancar.
+
+\"APKPure Auto Instal\" dapat membantu Anda klik semua instal tombol ketika instalasi atau mengupdate aplikasi, Anda tidak harus mengecek telepon sepanjang waktu.
+
+Ketika mengaktifkan fitur ini, Anda mungkin menerima peringatan risiko sistem, ketuk detak \"OK\" untuk mengaktifkan switch aksesibilitas \"ON\".
+
+Untuk memastikan APKPure baik fungsi, tambahkan APKPure untuk Anda Pembersih App \"Daftar Putih\".
+
+Fungsi di atas disebutkan dukungan Android 4.1+,, tidak akar izin diperlukan. Kami berjanji tidak pernah mengumpulkan informasi pribadi Anda di layanan aksesibilitas ini. Silahkan merasa bebas untuk kontak kami dengan apa saja masalah.</string>
+
     </resources>
