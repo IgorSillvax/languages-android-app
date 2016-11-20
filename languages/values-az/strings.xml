@@ -17,7 +17,7 @@
 
     <string name="load_failed_error">Stop! Bir səhv baş verdi.</string>
     <string name="load_failed_empty">Burda heç bir yükləmə yoxdur.</string>
-    <string name="load_failed_all_up_to_date">Bütün Tətbiqləri güncəlləşdir.</string>
+    <string name="load_failed_all_up_to_date">Bütün Tətbiqləri yeniləşdir.</string>
     <string name="load_failed_no_results">Bağışliyın! Heçnə tapılmadı.</string>
     <string name="refresh">Yenilə</string>
 
@@ -55,7 +55,7 @@
     <string name="auto">Avtomatik</string>
     <string name="language">Dil Seçimi</string>
     <string name="general">Ümumi</string>
-    <string name="touch_to_open">Kontakt la açmaq.</string>
+    <string name="touch_to_open">Açmaq üçün toxun.</string>
 
     <string name="report_problem_subject">Problem bildir</string>
     <string name="new_version_available_message">
@@ -67,7 +67,7 @@
     <string name="new_version_available_title">Yeni Versiya Var</string>
     <string name="skip">Keç</string>
 
-    <string name="_name__is_up_to_date"><xliff:g id="name" example="APKPure">%1$s</xliff:g> güncəl.</string>
+    <string name="_name__is_up_to_date"><xliff:g id="name" example="APKPure">%1$s</xliff:g> yenilənib.</string>
     <string name="join_us">Bizə Qatıl</string>
     <string name="search_history">Tarix</string>
     <string name="clear_search_history">Tarixi Təmizlə</string>
@@ -139,9 +139,9 @@
     <string name="continue_">Davam et</string>
     <string name="continue_all">Hamsını Davam etdir</string>
     <string name="restart">Yenidən başlat</string>
-    <string name="total_zero_app">
-        <![CDATA[Cəmi: <b><font color="%1$d">0</font></b> app]]>
-    </string>
+    <string name="total_zero_app">"
+ Cəmi: &lt;b&gt;&lt;font color=%1$d&gt;0&lt;/font&gt;&lt;/b&gt; tətbiq
+ "</string>
 
     <string name="select_all">Hamsını Seç</string>
     <string name="deselect_all">Hamsını Seçmə</string>
@@ -186,23 +186,23 @@
     <string name="contact_us">Bizimlə Əlaqə</string>
     <string name="report_content">Hesabatın Məzmunu</string>
 
-    <string name="invalid_app_asset">Etibarsız aktivlərin informasiya tətbiqi.</string>
-    <string name="failed_to_request_app_detail">Sorğu tətbiq ətraflı məlumata bilməyib.</string>
-    <string name="failed_to_request_app_asset">Sorğu tətbiq aktivlərin məlumata bilməyib.</string>
-    <string name="incompatible_this_app">
-        <![CDATA[<big><b><font color=%1$d>Sizin telefonunuz bu planşet kompüterlər üçün xüsusi əlavəsi ilə bir araya sığmır.</font></b></big><br><br>Davam etdirmək istəyirsiniz?]]>
-    </string>
-    <string name="this_app_not_usable">
-        <![CDATA[<big><b><font color=%1$d>Bu tətbiq faydalı ola bilməz.</font></b></big><br><br>Davam etdirmək istəyirsiniz?]]>
-    </string>
+    <string name="invalid_app_asset">Keçərsiz tətbiq məllumatrı.</string>
+    <string name="failed_to_request_app_detail">Tətbiq məllumat istəyi uğursuz oldu.</string>
+    <string name="failed_to_request_app_asset">Tətbiqin internet məllumatı istəyi uğursuz oldu.</string>
+    <string name="incompatible_this_app">"
+ &lt;big&gt;&lt;b&gt;&lt;font color=%1$d&gt;Sizin cihazınız bu tətbiqi dəstəkləmir.&lt;/font&gt;&lt;/b&gt;&lt;/big&gt;&lt;br&gt;&lt;br&gt;Davam etdirmək istəyirsiniz?
+ "</string>
+    <string name="this_app_not_usable">"
+ &lt;big&gt;&lt;b&gt;&lt;font color=%1$d&gt;Bu tətbiq faydalı ola bilməyə bilər.&lt;/font&gt;&lt;/b&gt;&lt;/big&gt;&lt;br&gt;&lt;br&gt;Davam etdirmək istəyirsiniz?
+ "</string>
 
     <string name="setting">Qurğu</string>
     <string name="external_storage_not_usable">
-        <![CDATA[<big><b>Biz sizin xarici anbarın çıxmaq lazımdır. Görəcəksiniz, bu istifadə edilə bilər.</b></big>]]>
-    </string>
+ <big><b>Bizə sizin daxili yaddaşa giriş icazəsi lazımdır. Xahiş edirik buna icazə verin.</b></big>
+ </string>
     <string name="external_storage_permission_denied">
-        <![CDATA[<big><b>Biz sizin xarici anbarın çıxmaq lazımdır. Xahiş edirəm, mütləq icazə danılmazdır.</b></big>]]>
-    </string>
+ <big><b>Biz sizin daxili yaddaşa girmək üçün icazə lazımdır. Xahiş edirəm, icazə verdiyinizdən əmin olun.</b></big>
+ </string>
 
     <string name="share">Paylaş</string>
     <string name="share_app_url">Yüklə <xliff:g id="app_name" example="APKPure">%1$s</xliff:g> APK (from @<xliff:g id="social_network_name" example="APKPure">%2$s</xliff:g>), <xliff:g id="app_url" example="https://apkpure.com/p/com.apkpure.aegon">%3$s</xliff:g></string>
@@ -212,8 +212,8 @@
 
     <string name="update_all">Hamsını Yeniləşdir</string>
     <string name="update___count__">Yenilə (<xliff:g id="count" example="3">%1$d</xliff:g>)</string>
-    <string name="ignore">Blok</string>
-    <string name="unignore">Bloklama</string>
+    <string name="ignore">Blokla</string>
+    <string name="unignore">"Blokdan  Çıxart"</string>
     <string name="select">Seç</string>
     <string name="cancel">Ləğv et</string>
     <string name="installation">Quraşdırma</string>
@@ -222,8 +222,8 @@
 
     <string name="_name__installation_completed"><xliff:g id="name" example="APKPure">%1$s</xliff:g> Quraşdırılması başa çatıb</string>
     <string name="installed">Quraşdırılmış</string>
-    <string name="download_over_cellular">Şəbəkə uzərində Yüklə</string>
-    <string name="download_over_cellular_content">Siz mobil şəbəkə üzərində yükləməyə hazırlaşırsınız. Davam etdirmək istərdiniz?</string>
+    <string name="download_over_cellular">Mobil Şəbəkə uzərindən Yüklə</string>
+    <string name="download_over_cellular_content">Siz mobil şəbəkə üzərindən yükləməyə hazırlaşırsınız. Davam etdirmək istərdiniz?</string>
 
     <string name="participate_ultra_download_beta_test_title">Sürətli Yükləməyə İmkan verən Ultra sürətli yükləmə sürətlə Yüklə və həzz al</string>
     <string name="participate_ultra_download_beta_test_content">Ultra Yüklə beta sınaqdadır, əgər hər hansı problemlər yaranarkən bizə məlumat verib. Siz asanlıqla Parlametrlərin altında bu verilməsini dayandıra bilərsiniz.</string>
@@ -231,14 +231,14 @@
 
     <string name="download_via_wifi_only">Yalnız Wi-Fi vasitəsilə yüklə</string>
     <string name="enable_ultra_download">Ultra Yükləməyə İcazə Vermək</string>
-    <string name="enable_ultra_download_summary">Ultra Yükləmə beta sınaqdadır, əgər hər hansı problemlər yaranarkən bizə məlumat verin.</string>
+    <string name="enable_ultra_download_summary">Ultra Yükləmə beta sınaqdadır, əgər hər hansı problemlər yaranarsa bizə məlumat verin.</string>
 <string name="auto_service_install_accessibility_title">Avtomatik Quraşdır</string>
-    <string name="auto_service_install_accessibility_summary">Dəstəkləyir 4.1 + Android, root ehtiyac yoxdur girişə icazə lazımdır.</string>
+    <string name="auto_service_install_accessibility_summary">Dəstəkləyir 4.1 + Android, root ehtiyac yoxdur.</string>
 
-    <string name="auto_service_dialog_title">Avtomatik Quraşdırmaqa imkan verəcək</string>
-    <string name="auto_service_dialog_message">Avtomatik Quraşdırma telefonda icazə verməyi tələb edir, bu, hər hansı risklərin istifadəsi təhlükəsizdir.</string>
+    <string name="auto_service_dialog_title">Avtomatik Quraşdırmayaı Aktivləşdir</string>
+    <string name="auto_service_dialog_message">Avtomatik Quraşdırma telefonda icazə tələb edir, bu, hər hansı risklərin istifadəsi təhlükəsizdir.</string>
 
-    <string name="auto_service_title">APKPure Avtomatik Quraşdır</string>
+    <string name="auto_service_title">APKPure Avtomatik Quraşdırma</string>
     <string name="auto_service_install">Quraşdır</string>
     <string name="auto_service_ensure">OK</string>
     <string name="auto_service_next">İrəli</string>
@@ -251,17 +251,17 @@
     <string name="auto_service_exchange__material_">DƏYİŞMƏK</string>
     <string name="auto_service_complete__material_">HAZIR</string>
 
-    <string name="auto_install_via_root_title">Avtomatik Quraşdır (Root Rejimi)</string>
-    <string name="auto_install_via_root_summary">Yalnız Root olunmuş Android telfon və ya planşet.</string>
+    <string name="auto_install_via_root_title">Avtomatik Quraşdırma (Root Modu)</string>
+    <string name="auto_install_via_root_summary">Yalnız Root olunmuş Android telfonlar və planşetlər üçün.</string>
 
-    <string name="auto_service_description">APKPure rəvan çalışan \"Avtomatik Quraşdır\" saxlamaq \"APKPure Avtomatik Quraşdır\" imkan verir.
+    <string name="auto_service_description">"\"APKPure Avtomatik Quraşdırma\"nı aktifləştirərək, \"Avtomatik Quraşdırma\"nı problemsiz işləməsini təmin edin.
 
-bütün quraşdırma və ya tətbiqləri yenilənməsi düymələri bərpa basın kömək edə bilər \"APKPure Avtomatik Quraşdır\", telefon hər zaman yoxlamaq yoxdur.
+\"APKPure Avtomatik Quraşdırma\" sizə yeniləmək isdədiyiniz tətbiqləri tək bir toxunma ilə avtomatik olaraq yenilənməsini təmin edər, artıq hər dəfə telefonunuzu yoxlamaq məcburətində deyilsiniz.
 
-Bu xüsusiyyət imkan zaman, sistem risk xəbərdarlıq ala bilər, accessibility keçid \"ON\" çevirmək üçün \"OK\" kran edin.
+Bu funksiyanı aktifləştirdiyiniz zaman, sistem xəbərdarlıqlarını görəbilirsiniz, giriş imkanı vermək üçün xahiş edirik  \"Bəle\" butonuna basın.
 
-də fəaliyyət göstərən APKPure təmin etmək üçün, sizin Cleaning Tətbiq \"Ağ siyahı\" APKPure əlavə edin.
+APKPure\'nin düzgün işləməsini təmin etmək üçün xahiş edirik Təmizlik Tətbiqində APKPure\'yi \"Ağ Sıra\" ya əlavə edin.
 
-Yuxarıda qeyd funksiyaları Android 4.1+, lazım heç bir kök icazə dəstəkləyir. Biz heç vaxt bu accessibility xidmət sizin şəxsi məlumat hər hansı toplanması vədlər. Hər hansı bir problem ilə qarşılaşsaz bizimlə əlaqədən çekinmeyin.</string>
+Yuxarıdaki funksiyalar Android 4.1+ versiyada dəstəklənməktədir, root ehtiyac yoxdur. Sizə hiç bir şəxsi məllumatları toplamayacağımıza dair söz veririk. Xahiş edirik bizimlə əlaqəyə keçerken rahat olun."</string>
 
     </resources>
