@@ -1,5 +1,6 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<?xml version="1.0" encoding="utf-8"?>
+<resources
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
     <string name="action_settings">Ayarlar</string>
     <string name="action_search">Ara</string>
@@ -234,22 +235,14 @@
     <string name="_name__installation_completed"><xliff:g id="name" example="APKPure">%1$s</xliff:g> kurulum tamamlandı</string>
     <string name="touch_to_open">Açmak için dokun.</string>
 
-<string name="auto_service_install_accessibility_title">Otomatik Kurulum</string>
+    <string name="auto_service_install_accessibility_title">Otomatik Kurulum</string>
     <string name="auto_service_install_accessibility_summary">Android 4.1+ destekleniyor, root erişimine ihtiyaç yok.</string>
 
     <string name="auto_service_dialog_title">Otomatik Kuulumu Aktifleştir</string>
     <string name="auto_service_dialog_message">Otomatik Kurulum\'a gerekli erişimleri sağlamalısınız, hiçbir risk barındırmadan güvenli bir şekilde kullanabilirsiniz.</string>
 
     <string name="auto_service_title">APKPure Otomatik Kurulum</string>
-    <string name="auto_service_description">\"APKPure Otomatik Kurulum\"u aktifleştirerek, \"Otomatik Kurulum\"un sorunsuz çalışmasını sağlayın.
-
-\"APKPure Otomatik Kurulum\" size güncelleme gerektiren uygulamaların tek bir tıklamayla otomatik olarak güncellenmesini sağlar, artık sürekli telefonunuzu kontrol etmek zorunda değilsiniz.
-
-Bu özelliği aktifleştirdiğiniz zaman, sistem uyarılarını görebilirsiniz, erişilebilirliği sağlamak için lütfen \"Tamam\" butonuna tıklayın.
-
-APKPure\'nin düzgün çalışmasını sağlamak için lütfen Temizlik Uygulamanızda APKPure\'yi \"Beyaz Lise\" ye ekleyin.
-
-Yukarıdaki özellikler Android 4.1+ sürümlerde desteklenmektedir, root erişimine gereksinim duymaz. Size hiçbir kişisel bilgilerinizi toplamayacağımıza dair söz veriyoruz. Lütfen bizimle iletişime geçerken rahat olun.</string>
+    <string name="auto_service_description">\"APKPure Otomatik Kurulum\"u aktifleştirerek, \"Otomatik Kurulum\"un sorunsuz çalışmasını sağlayın.\n\n\"APKPure Otomatik Kurulum\" size güncelleme gerektiren uygulamaların tek bir tıklamayla otomatik olarak güncellenmesini sağlar, artık sürekli telefonunuzu kontrol etmek zorunda değilsiniz.\n\nBu özelliği aktifleştirdiğiniz zaman, sistem uyarılarını görebilirsiniz, erişilebilirliği sağlamak için lütfen \"Tamam\" butonuna tıklayın.\n\nAPKPure\'nin düzgün çalışmasını sağlamak için lütfen Temizlik Uygulamanızda APKPure\'yi \"Beyaz Lise\" ye ekleyin.\n\nYukarıdaki özellikler Android 4.1+ sürümlerde desteklenmektedir, root erişimine gereksinim duymaz. Size hiçbir kişisel bilgilerinizi toplamayacağımıza dair söz veriyoruz. Lütfen bizimle iletişime geçerken rahat olun.</string>
 
     <string name="auto_service_install">Yükle</string>
     <string name="auto_service_ensure">Tamam</string>
@@ -266,4 +259,4 @@ Yukarıdaki özellikler Android 4.1+ sürümlerde desteklenmektedir, root erişi
     <string name="auto_install_via_root_title">Otomatik Kurulum (Root Modu)</string>
     <string name="auto_install_via_root_summary">Sadece root edilmiş Android telefonlar ve tabletler için.</string>
 
-    </resources>
+</resources>
