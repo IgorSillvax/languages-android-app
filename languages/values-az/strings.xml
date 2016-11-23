@@ -28,7 +28,7 @@
     <string name="apk_management">Tətbiq İdarəetmə</string>
     <string name="apk_xapk_management">APK / XAPK İdarəetmə</string>
     <string name="download_management">Yükləmələr</string>
-    <string name="settings">Ayarlar</string>
+    <string name="settings">Parlametrlər</string>
     <string name="about">Haqqında</string>
     <string name="about_title">Haqqında <xliff:g id="app_name" example="APKPure">%1$s</xliff:g></string>
     <string name="about_message">
@@ -72,7 +72,7 @@
     <string name="search_history">Tarix</string>
     <string name="clear_search_history">Tarixi Təmizlə</string>
 
-    <string name="improvement_plan_title">Performası Yaxşılaşdırma Pılanı</string>
+    <string name="improvement_plan_title">Performas Yaxşılaşdırma Planı</string>
     <string name="search_for_apps">Tətbiq Axtar</string>
     <string name="trending_searches">Top Axtarışlar</string>
     <string name="search">Axtar</string>
@@ -179,15 +179,15 @@
     <string name="delete_downloaded_file">Faylı yaddaşdan sil</string>
 
     <string name="improvement_plan_message">
-        <![CDATA[Göndərmək Android Qurğu İnfo ilə bizə kömək Edirik <b>deyil toplayır</b> şəxsən-eyniləşdirmək (adı, ünvanı, e-mail ünvanı, sosial sığorta nömrəsi və ya digər nadir identifiers informasiya).]]>
-    </string>
+ Android Cihaz Məllumatlarını göndərməktə bizə köməkçi olun, şəxsi məllumatlarınızı (ad, unvan, e-poct unvanı, sosyal güvənlik nömrəsi və digər.) <b>almayacağız</b>.
+ </string>
     <string name="report_problem_text">Problem mövzu:\n%1$s\n\nProblem ətraflı:\n%2$s</string>
     <string name="contact_us__">Bizimlə Əlaqə…</string>
     <string name="contact_us">Bizimlə Əlaqə</string>
     <string name="report_content">Hesabatın Məzmunu</string>
 
-    <string name="invalid_app_asset">Keçərsiz tətbiq məllumatrı.</string>
-    <string name="failed_to_request_app_detail">Tətbiq məllumat istəyi uğursuz oldu.</string>
+    <string name="invalid_app_asset">Keçərsiz tətbiq məllumatları.</string>
+    <string name="failed_to_request_app_detail">Tətbiqin məllumat istəyi uğursuz oldu.</string>
     <string name="failed_to_request_app_asset">Tətbiqin internet məllumatı istəyi uğursuz oldu.</string>
     <string name="incompatible_this_app">"
  &lt;big&gt;&lt;b&gt;&lt;font color=%1$d&gt;Sizin cihazınız bu tətbiqi dəstəkləmir.&lt;/font&gt;&lt;/b&gt;&lt;/big&gt;&lt;br&gt;&lt;br&gt;Davam etdirmək istəyirsiniz?
@@ -225,17 +225,17 @@
     <string name="download_over_cellular">Mobil Şəbəkə uzərindən Yüklə</string>
     <string name="download_over_cellular_content">Siz mobil şəbəkə üzərindən yükləməyə hazırlaşırsınız. Davam etdirmək istərdiniz?</string>
 
-    <string name="participate_ultra_download_beta_test_title">Sürətli Yükləməyə İmkan verən Ultra sürətli yükləmə sürətlə Yüklə və həzz al</string>
-    <string name="participate_ultra_download_beta_test_content">Ultra Yüklə beta sınaqdadır, əgər hər hansı problemlər yaranarkən bizə məlumat verib. Siz asanlıqla Parlametrlərin altında bu verilməsini dayandıra bilərsiniz.</string>
+    <string name="participate_ultra_download_beta_test_title">Ultra Yükləməyi aktivləşdirərək sürətli yükləməkdən həz alın</string>
+    <string name="participate_ultra_download_beta_test_content">Ultra Yükləmə test sınaqdadır, əgər hər hansı problemlər yaranarsa bizə məlumat verib. Siz asanlıqla Parlametrlərin altında bunu dayandıra bilərsiniz.</string>
     <string name="enable">İcazə Vermək</string>
 
     <string name="download_via_wifi_only">Yalnız Wi-Fi vasitəsilə yüklə</string>
     <string name="enable_ultra_download">Ultra Yükləməyə İcazə Vermək</string>
     <string name="enable_ultra_download_summary">Ultra Yükləmə beta sınaqdadır, əgər hər hansı problemlər yaranarsa bizə məlumat verin.</string>
-<string name="auto_service_install_accessibility_title">Avtomatik Quraşdır</string>
+<string name="auto_service_install_accessibility_title">Avtomatik Quraşdırma</string>
     <string name="auto_service_install_accessibility_summary">Dəstəkləyir 4.1 + Android, root ehtiyac yoxdur.</string>
 
-    <string name="auto_service_dialog_title">Avtomatik Quraşdırmayaı Aktivləşdir</string>
+    <string name="auto_service_dialog_title">Avtomatik Quraşdırmayı Aktivləşdir</string>
     <string name="auto_service_dialog_message">Avtomatik Quraşdırma telefonda icazə tələb edir, bu, hər hansı risklərin istifadəsi təhlükəsizdir.</string>
 
     <string name="auto_service_title">APKPure Avtomatik Quraşdırma</string>
