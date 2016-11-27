@@ -1,6 +1,5 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources
-    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<?xml version='1.0' encoding='UTF-8'?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
     <string name="action_settings">Paramètres</string>
     <string name="action_search">Rechercher</string>
@@ -235,4 +234,36 @@
     <string name="download_via_wifi_only">Téléchargement via Wi-Fi uniquement</string>
     <string name="enable_ultra_download">activer Ultra Download</string>
     <string name="enable_ultra_download_summary">Ultra Download est en test bêta,laissez-nous savoir si vous rencontrez des problèmes.</string>
-</resources>
+<string name="auto_service_install_accessibility_title">Installation automatique</string>
+    <string name="auto_service_install_accessibility_summary">Pour Android 4.1 et +, pas besoin de root.</string>
+
+    <string name="auto_service_dialog_title">Activer l\'installation automatique</string>
+    <string name="auto_service_dialog_message">L\'installation automatique requiert votre autorisation. C\'est un moyen sûr de l\'utiliser sans risque.</string>
+
+    <string name="auto_service_install">Installer</string>
+    <string name="auto_service_ensure">OK</string>
+    <string name="auto_service_next">Suivant</string>
+    <string name="auto_service_exchange">Remplacer</string>
+    <string name="auto_service_complete">Terminé</string>
+
+    <string name="auto_service_install__material_">Installer</string>
+    <string name="auto_service_ensure__material_">OK</string>
+    <string name="auto_service_next__material_">Suivant</string>
+    <string name="auto_service_exchange__material_">Remplacer</string>
+    <string name="auto_service_complete__material_">Terminé</string>
+
+    <string name="auto_install_via_root_title">Installation automatique (Root requis)</string>
+    <string name="auto_install_via_root_summary">Seulement pour les smartphones et tablettes Android rootés.</string>
+
+    <string name="auto_service_title">Installation automatique APKPure</string>
+    <string name="auto_service_description">Activez l\'installation automatique APKPure pour que l\'installation automatique fonctionne correctement.
+
+L\'installation automatique APKPure évite de vous faire perdre du temps à regarder si des mises à jour sont disponibles, et le fait à votre place.
+
+Quand vous activez ce paramètre, vous recevez une alerte du système : appuyez sur OK pour activer le paramètre d\'accessibilité.
+
+Pour garantir le bon fonctionnement de APKPure, merci d\'ajouter APKPure à la \"liste blanche\" de votre application de nettoyage.
+
+Les fonctions mentionnées ci-dessus supportent Android 4.1 et +, sans besoin de root. Nous promettons de ne jamais collecter vos information personnelles dans ce service d\'accessibilité. N\'hésitez pas à nous contactez pour tout problème éventuel.</string>
+
+    </resources>
