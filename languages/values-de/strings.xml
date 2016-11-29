@@ -14,9 +14,9 @@
     <string name="load_failed_all_up_to_date">Alle Anwendungen sind auf dem neuesten Stand.</string>
     <string name="app_updates">Anwendungsaktualisierungen</string>
     <string name="settings">Einstellungen</string>
-    <string name="press_back_key_quit">Zum Beenden erneut die Zurücktaste drücken.</string>
+    <string name="press_back_key_quit">Drücke erneut Zurück zum Beenden.</string>
 
-    <string name="featured">Angesagt</string>
+    <string name="featured">Empfohlen</string>
     <string name="load_failed_no_results">Sorry! Keine Ergebnisse gefunden.</string>
     <string name="refresh">Aktualisieren</string>
 
@@ -221,4 +221,49 @@
  Gesamt: &lt;b&gt;&lt;font color=%1$d&gt;%2$d&lt;/font&gt;&lt;/b&gt; Anwendungen, &lt;b&gt;&lt;font color=%1$d&gt;%3$s&lt;/font&gt;&lt;/b&gt;
  "</item>
 </plurals>
+    <string name="total_zero_app">"
+ Gesamt: &lt;b&gt;&lt;font color=%1$d&gt;0&lt;/font&gt;&lt;/b&gt; Anwendung
+ "</string>
+
+    <string name="enable_ultra_download">Ultra-Download einschalten</string>
+    <string name="enable_ultra_download_summary">Ultra-Download ist in der Betaphase, teile uns eventuelle Probleme mit.</string>
+    <string name="installation">Installation</string>
+    <string name="show_notification_after_installation">Benachrichtigung nach Installation zeigen</string>
+    <string name="delete_packages_after_installation">Pakete nach der Installation löschen</string>
+
+    <string name="_name__installation_completed"><xliff:g id="name" example="APKPure">%1$s</xliff:g> Installation abgeschlossen</string>
+    <string name="touch_to_open">Berühre zum Öffnen.</string>
+
+    <string name="auto_service_install_accessibility_title">Automatische Installation</string>
+    <string name="auto_service_install_accessibility_summary">Unterstützt ab Android 4.1, kein Root-Zugriff nötig.</string>
+
+    <string name="auto_service_dialog_title">Automatische Installation einschalten</string>
+    <string name="auto_service_dialog_message">Automatische Installation muss auf dem Gerät freigegeben werden, die Nutzung ist risikofrei.</string>
+
+    <string name="auto_service_title">APKPure Automatische Installation</string>
+    <string name="auto_service_description">\"APKPure Automatische Installation\" für eine reibungslose Nutzung freischalten.
+
+\"APKPure Automatische Installation\" installiert und aktualisiert deine Anwendungen, du musst das Gerät nicht mehr regelmäßig prüfen.
+
+Dein System zeigt eventuell Warnungen zu dieser Funktion an, bitte drücke \"OK\" um den Zugriff auf \"EIN\" zu schalten.
+
+Bitte füge für die beste Funktionalität APKPure zur Ausnahmeliste eventueller Cleaning-Anwendungen zu.
+
+Die genannten Funktionen werden ab Android 4.1 unterstützt, es ist kein Root-Zugriff nötig. Wir versprechen dir, während der Nutzung dieses Service keine persönlichen Daten zu sammeln. Kontaktiere uns gerne bei Problemen.</string>
+
+    <string name="auto_service_install">Installieren</string>
+    <string name="auto_service_ensure">OK</string>
+    <string name="auto_service_next">Weiter</string>
+    <string name="auto_service_exchange">Ersetzen</string>
+    <string name="auto_service_complete">Fertig</string>
+
+    <string name="auto_service_install__material_">INSTALLIEREN</string>
+    <string name="auto_service_ensure__material_">OK</string>
+    <string name="auto_service_next__material_">WEITER</string>
+    <string name="auto_service_exchange__material_">ERSETZEN</string>
+    <string name="auto_service_complete__material_">FERTIG</string>
+
+    <string name="auto_install_via_root_title">Automatische Installation (Root-Zugriff)</string>
+    <string name="auto_install_via_root_summary">Nur für Android-Geräte mit Root-Zugriff.</string>
+
     </resources>
