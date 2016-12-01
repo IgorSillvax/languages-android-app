@@ -1,6 +1,5 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources
-    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<?xml version='1.0' encoding='UTF-8'?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
     <string name="action_settings">সেটিংস</string>
     <string name="action_search">খুঁজুন</string>
@@ -100,9 +99,9 @@
     <string name="update">হালনাগাদ</string>
     <string name="version__version___size_">ভার্সন: <xliff:g id="version" example="1.0.0">%1$s</xliff:g>, <xliff:g id="size" example="১০২৪ কেবি">%2$s</xliff:g></string>
     <plurals name="_count__new_update_is_available">
-	    <item quantity="one"><xliff:g id="count" example="1">%1$d</xliff:g> new update is available</item>
-	    <item quantity="other"><xliff:g id="count" example="2">%1$d</xliff:g> new updates are available</item>
-    </plurals>
+	<item quantity="one"><xliff:g id="count" example="1">%1$d</xliff:g> new update is available</item>
+	<item quantity="other"><xliff:g id="count" example="2">%1$d</xliff:g> new updates are available</item>
+</plurals>
 
     <string name="launching_please_wait">খুলা হচ্ছে, দয়া করে অপেক্ষা করুন…</string>
 
