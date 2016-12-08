@@ -79,6 +79,9 @@
     <string name="more">更多</string>
     <string name="permissions">權限</string>
     <string name="other">其他</string>
+    <string name="similar_or_related">相關推薦</string>
+    <string name="more_from_developer">此開發者的其他應用</string>
+    <string name="more_large">更多</string>
     <string name="apk">APK</string>
     <string name="xapk">XAPK</string>
     <string name="unknown">未知</string>
@@ -171,6 +174,7 @@
     <string name="contact_us__">聯繫我們…</string>
     <string name="contact_us">聯繫我們</string>
     <string name="report_content">舉報內容</string>
+    <string name="feedback">反饋</string>
 
     <string name="installation_failed">安裝失敗</string>
     <string name="invalid_app_detail">無效的應用詳細訊息。</string>
@@ -219,6 +223,7 @@
     <string name="general">一般</string>
     <string name="language">語言</string>
     <string name="auto">跟隨系統</string>
+    <string name="changing_language">正在切換語言，請稍候…</string>
     <string name="download_via_wifi_only">僅透過 Wi-Fi 下載</string>
     <string name="enable_ultra_download">啟用超級下載</string>
     <string name="enable_ultra_download_summary">超級下載目前還是測試版本，如果在使用中發現問題請告訴我們。</string>
@@ -252,4 +257,11 @@
 
     <string name="auto_install_via_root_title">自動安裝（Root 模式）</string>
     <string name="auto_install_via_root_summary">僅限 Root 設備。</string>
+
+    <string name="download_complete_installation_setting">下載後安裝選項</string>
+    <string-array name="download_complete_installation_setting_entries">
+        <item>總是安裝</item>
+        <item>僅前台狀態下安裝</item>
+        <item>從不安裝</item>
+    </string-array>
 </resources>

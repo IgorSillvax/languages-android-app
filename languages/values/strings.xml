@@ -37,7 +37,7 @@
     <string name="about_message">
         <![CDATA[<b>Version:</b> %1$s<br><br><b>Website:</b> <a href="%2$s">%2$s</a><br><b>Email:</b> <a href="mailto:%3$s">%3$s</a>]]>
     </string>
-    <string name="check_update">Check Update</string>
+    <string name="check_update">Check update</string>
     <string name="quit">Quit</string>
     <string name="want_to_quit">Are you sure you want to quit?</string>
 
@@ -81,6 +81,9 @@
     <string name="more">more</string>
     <string name="permissions">Permissions</string>
     <string name="other">Other</string>
+    <string name="similar_or_related">Similar Or Related</string>
+    <string name="more_from_developer">More From Developer</string>
+    <string name="more_large">More</string>
     <string name="apk">APK</string>
     <string name="xapk">XAPK</string>
     <string name="unknown">Unknown</string>
@@ -173,6 +176,7 @@
     <string name="contact_us__">Contact Us…</string>
     <string name="contact_us">Contact Us</string>
     <string name="report_content">Report Content</string>
+    <string name="feedback">Feedback</string>
 
     <string name="installation_failed">Installation Failed</string>
     <string name="invalid_app_detail">Invalid app detail information.</string>
@@ -224,6 +228,7 @@
     <string name="general">General</string>
     <string name="language">Language</string>
     <string name="auto">Auto</string>
+    <string name="changing_language">Changing language, please wait…</string>
     <string name="download_via_wifi_only">Download via Wi-Fi only</string>
     <string name="enable_ultra_download">Enable Ultra Download</string>
     <string name="enable_ultra_download_summary">Ultra Download is in beta testing, let us know if you encounter any problems.</string>
@@ -234,7 +239,7 @@
     <string name="_name__installation_completed"><xliff:g id="name" example="APKPure">%1$s</xliff:g> installation completed</string>
     <string name="touch_to_open">Touch to open.</string>
 
-    <string name="auto_service_install_accessibility_title">Auto Install</string>
+    <string name="auto_service_install_accessibility_title">Auto install</string>
     <string name="auto_service_install_accessibility_summary">Support Android 4.1+, no root permission needed.</string>
 
     <string name="auto_service_dialog_title">Enable Auto Install</string>
@@ -308,6 +313,19 @@
         <item>zh-HK</item>
         <item>zh-TW</item>
     </string-array>
+
+    <string name="download_complete_installation_setting">Installation option after downloading</string>
+    <string-array name="download_complete_installation_setting_entries">
+        <item>Always install</item>
+        <item>Only install when app in front</item>
+        <item>Never install</item>
+    </string-array>
+    <string-array name="download_complete_installation_setting_entry_values" translatable="false">
+        <item>install_now</item>
+        <item>background_not_install</item>
+        <item>never_install</item>
+    </string-array>
+    <string name="download_complete_installation_setting_default_value" translatable="false">install_now</string>
 
     <string name="leak_canary_display_activity_label" translatable="false">APKPure Leaks</string>
 </resources>

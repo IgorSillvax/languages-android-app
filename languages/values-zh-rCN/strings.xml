@@ -79,6 +79,9 @@
     <string name="more">更多</string>
     <string name="permissions">权限</string>
     <string name="other">其他</string>
+    <string name="similar_or_related">相关推荐</string>
+    <string name="more_from_developer">此开发者的其他应用</string>
+    <string name="more_large">更多</string>
     <string name="apk">APK</string>
     <string name="xapk">XAPK</string>
     <string name="unknown">未知</string>
@@ -171,6 +174,7 @@
     <string name="contact_us__">联系我们…</string>
     <string name="contact_us">联系我们</string>
     <string name="report_content">举报内容</string>
+    <string name="feedback">反馈</string>
 
     <string name="installation_failed">安装失败</string>
     <string name="invalid_app_detail">无效的应用详细信息。</string>
@@ -219,13 +223,13 @@
     <string name="general">通用</string>
     <string name="language">语言</string>
     <string name="auto">跟随系统</string>
+    <string name="changing_language">正在切换语言，请稍候…</string>
     <string name="download_via_wifi_only">只通过 Wi-Fi 下载</string>
     <string name="enable_ultra_download">启用超级下载</string>
     <string name="enable_ultra_download_summary">超级下载目前还是测试版本，如果在使用中发现问题请告诉我们。</string>
     <string name="installation">安装</string>
     <string name="show_notification_after_installation">安装完成后显示通知</string>
     <string name="delete_packages_after_installation">安装完成后删除安装包文件</string>
-
     <string name="_name__installation_completed"><xliff:g id="name" example="APKPure">%1$s</xliff:g> 安装已完成</string>
     <string name="touch_to_open">点击打开。</string>
 
@@ -252,4 +256,11 @@
 
     <string name="auto_install_via_root_title">自动安装（Root 模式）</string>
     <string name="auto_install_via_root_summary">仅限 Root 设备。</string>
+
+    <string name="download_complete_installation_setting">下载后安装选项</string>
+    <string-array name="download_complete_installation_setting_entries">
+        <item>总是安装</item>
+        <item>仅前台状态下安装</item>
+        <item>从不安装</item>
+    </string-array>
 </resources>
