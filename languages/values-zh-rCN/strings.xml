@@ -1,5 +1,6 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<?xml version="1.0" encoding="utf-8"?>
+<resources
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
     <string name="action_settings">设置</string>
     <string name="action_search">搜索</string>
@@ -210,7 +211,7 @@
     <string name="select_all">选择全部</string>
     <string name="deselect_all">取消选择全部</string>
     <string name="ignored">已忽略</string>
-    <plurals name="auto_service_install_accessibility_title">
+    <plurals name="total__count__apps__size_">
         <item quantity="other">
             <![CDATA[总计：<b><font color="%1$d">%2$d</font></b> 个应用，<b><font color="%1$d">%3$s</font></b>]]>
         </item>
