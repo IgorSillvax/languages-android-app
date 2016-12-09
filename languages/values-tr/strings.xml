@@ -1,6 +1,5 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources
-    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<?xml version='1.0' encoding='UTF-8'?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
     <string name="action_settings">Ayarlar</string>
     <string name="action_search">Ara</string>
@@ -235,7 +234,7 @@
     <string name="_name__installation_completed"><xliff:g id="name" example="APKPure">%1$s</xliff:g> kurulum tamamlandı</string>
     <string name="touch_to_open">Açmak için dokun.</string>
 
-    <string name="auto_service_install_accessibility_title">Otomatik Kurulum</string>
+    <string name="auto_service_install_accessibility_title">Otomatik kurulum</string>
     <string name="auto_service_install_accessibility_summary">Android 4.1+ destekleniyor, root erişimine ihtiyaç yok.</string>
 
     <string name="auto_service_dialog_title">Otomatik Kuulumu Aktifleştir</string>
@@ -259,4 +258,9 @@
     <string name="auto_install_via_root_title">Otomatik Kurulum (Root Modu)</string>
     <string name="auto_install_via_root_summary">Sadece root edilmiş Android telefonlar ve tabletler için.</string>
 
-</resources>
+<string name="similar_or_related">Benzer Veya İlişkili</string>
+    <string name="more_from_developer">Daha çok Çalışıp Hazırlayan</string>
+    <string name="more_large">Daha fazla</string>
+    <string name="feedback">Geri Bildirim</string>
+
+    </resources>
