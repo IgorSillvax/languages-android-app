@@ -22,7 +22,7 @@
     <string name="refresh">تازه کردن</string>
 
     <string name="management">مدیریت</string>
-    <string name="app_updates">به‌روز رسانی برنامه‌</string>
+    <string name="app_updates">به‌روزرسانی برنامه‌</string>
     <string name="app_management">مدیریت برنامه</string>
     <string name="app_uninstall">لغو نصب برنامه</string>
     <string name="apk_management">مدیریت ای‌پی‌کا</string>
@@ -73,13 +73,13 @@
     <string name="_ellipsis_"> … </string>
 
     <string name="version__version___size_">نسخه: <xliff:g id="version" example="1.0.0">%1$s</xliff:g>, <xliff:g id="size" example="1024 kB">%2$s</xliff:g></string>
-    <string name="no_more">بیشتر نه.</string>
+    <string name="no_more">دیگر چیز بیشتری وجود ندارد.</string>
 
     <string name="update">به‌روزرسانی</string>
     <plurals name="_count__new_update_is_available">
-	    <item quantity="one"><xliff:g id="count" example="1">%1$d</xliff:g> به‌روزرسانی جدید در دسترس است</item>
-	    <item quantity="other"><xliff:g id="count" example="2">%1$d</xliff:g> به‌روزرسانی جدید در دسترس هستند</item>
-    </plurals>
+	<item quantity="one"><xliff:g id="count" example="1">%1$d</xliff:g> به‌روزرسانی جدید در دسترس است</item>
+	<item quantity="other"><xliff:g id="count" example="2">%1$d</xliff:g> به‌روزرسانی جدید در دسترس است</item>
+</plurals>
 
     <string name="language">زبان</string>
     <string name="user_canceled">کاربر لغو شده است.</string>
