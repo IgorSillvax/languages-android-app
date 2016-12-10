@@ -17,7 +17,7 @@
 
     <string name="load_failed_error">Ops! Ocorreu um erro.</string>
     <string name="load_failed_empty">Nada aqui.</string>
-    <string name="load_failed_all_up_to_date">Todos os aplicativos são até à data.</string>
+    <string name="load_failed_all_up_to_date">Todos os apps estão atualizados.</string>
     <string name="load_failed_no_results">Desculpa! Nenhum resultado encontrado.</string>
     <string name="refresh">Atualizar</string>
 
@@ -34,7 +34,7 @@
     <string name="about_message">
         <![CDATA[<b>Versão:</b> %1$s<br><br><b>Website:</b> <a href=%2$s>%2$s</a><br><b>Email:</b> <a href=mailto:%3$s>%3$s</a>]]>
     </string>
-    <string name="check_update">Checar Atualização</string>
+    <string name="check_update">Checar atualização</string>
     <string name="quit">Sair</string>
     <string name="want_to_quit">Você tem certeza que quer sair?</string>
 
@@ -51,7 +51,7 @@
     <string name="file_has_been_deleted">O arquivo foi apagado.</string>
     <string name="failed_to_delete_file">Falha ao excluir o arquivo.</string>
     <string name="install__label_">Instalar - <xliff:g id="app_label" example="APKPure">%1$s</xliff:g></string>
-    <string name="user_canceled">Usuário Cancelado.</string>
+    <string name="user_canceled">Usuário cancelado.</string>
     <string name="io_error">de erro IO. Pode ser que não há espaço livre suficiente para a instalação de sucesso.</string>
     <string name="file_format_error">Erro do formato do arquivo.</string>
     <string name="parsing_xapk">Analisando XAPK …</string>
@@ -85,10 +85,10 @@
     <string name="_ellipsis_"> … </string>
 
     <string name="market_response_error_success">Sucesso.</string>
-    <string name="market_response_error_invalid_result">resultado inválido.</string>
-    <string name="market_response_error_network_connect_error">Erro ao Conectar na Rede.</string>
-    <string name="market_response_error_network_read_error">Erro de Leitura da Rede.</string>
-    <string name="market_response_error_invalid_response_code">código de resposta inválido.</string>
+    <string name="market_response_error_invalid_result">Resultado inválido.</string>
+    <string name="market_response_error_network_connect_error">Erro ao conectar na rede.</string>
+    <string name="market_response_error_network_read_error">Erro de leitura da rede.</string>
+    <string name="market_response_error_invalid_response_code">Código de resposta inválido.</string>
     <string name="market_response_error_invalid_response_body">Corpo de resposta inválido.</string>
     <string name="market_response_error_unknown_error__error_">Erro desconhecido (<xliff:g id="error" example="SUCCESS">%1$s</xliff:g>).</string>
 
@@ -97,9 +97,9 @@
     <string name="update">Atualizar</string>
     <string name="version__version___size_">Versão: <xliff:g id="version" example="1.0.0">%1$s</xliff:g>, <xliff:g id="size" example="1024 kB">%2$s</xliff:g></string>
     <plurals name="_count__new_update_is_available">
-	    <item quantity="one"><xliff:g id="count" example="1">%1$d</xliff:g> nova atualização está disponível</item>
-	    <item quantity="other"><xliff:g id="count" example="2">%1$d</xliff:g>novas atualizações estão disponíveis</item>
-    </plurals>
+	<item quantity="one"><xliff:g id="count" example="1">%1$d</xliff:g> Nova atualização está disponível</item>
+	<item quantity="other"><xliff:g id="count" example="2">%1$d</xliff:g>Novas atualizações estão disponíveis</item>
+</plurals>
 
     <string name="launching_please_wait">Lançamento, aguarde…</string>
 
@@ -108,9 +108,9 @@
 	    <item quantity="other"><xliff:g id="count" example="2">%1$d</xliff:g> itens estão baixando</item>
     </plurals>
     <string name="downloads_complete">Downloads completo</string>
-    <string name="touch_for_view_all_downloads">Toque para Ver todos os downloads</string>
-    <string name="_name__download_failed"><xliff:g id="name" example="APKPure">%1$s</xliff:g> transferência falhou</string>
-    <string name="touch_to_download_it_again">Toque para baixá-lo novamente</string>
+    <string name="touch_for_view_all_downloads">Toque para ver todos os downloads</string>
+    <string name="_name__download_failed"><xliff:g id="name" example="APKPure">%1$s</xliff:g> Transferência falhou</string>
+    <string name="touch_to_download_it_again">Toque para fazer o download novamente</string>
 
     <string name="download_percent"><xliff:g id="percent" example="50">%1$d</xliff:g> %%</string>
     <string name="pause">Pausa</string>
@@ -125,15 +125,15 @@
     <string name="completed">Completo</string>
     <string name="paused">Pausado</string>
     <string name="failed">Falha</string>
-    <string name="file_invalid">arquivo inválido</string>
-    <string name="file_missing">arquivo de falta</string>
+    <string name="file_invalid">Arquivo inválido</string>
+    <string name="file_missing">Arquivo em falta</string>
     <string name="waiting_to_download">Esperando para baixar</string>
     <string name="deleted">Excluído</string>
     <string name="expired">Expirado</string>
     <string name="detail">Detalhe</string>
     <string name="remove">Remover</string>
     <string name="remove_all">Deletar tudo</string>
-    <string name="want_to_remove_download_item">Você deseja remover este item download?</string>
+    <string name="want_to_remove_download_item">Pretende remover este item da transferência?</string>
     <string name="want_to_remove_all_download_items">Você deseja remover todos os itens baixados?</string>
     <string name="delete_downloaded_file">Excluir arquivo baixado</string>
 
@@ -145,8 +145,8 @@
 
     <string name="improvement_plan_title">Plano de Melhoria de Desempenho</string>
     <string name="improvement_plan_message">
-        <![CDATA[Ajude-nos enviando Informações do Seu Android, Nós <b>não recolhemos</b> informações de identificação pessoal (nome, endereço, endereço de e-mail, número de segurança social, ou outros identificadores exclusivos).]]>
-    </string>
+ Ajude-nos a enviar informações do dispositivo Android, <b> 1 Não coletamos </b> 2 informações pessoais como (nome, endereço, endereço de e-mail, número de segurança social ou outros identificadores exclusivos).
+ </string>
     <string name="join_us">Junte-se a nós</string>
     <string name="skip">Pular</string>
 
@@ -159,22 +159,26 @@
     <string name="report__">Relatório…</string>
     <string name="report_problem__">Reportar problema…</string>
     <string name="report_problem_subject">Reportar problema</string>
-    <string name="report_problem_text">tópico problema:\n%1$s\n\ndetalhe do problema::\n%2$s</string>
-    <string name="contact_us__">Entre Em Contato Conosco…</string>
-    <string name="contact_us">Entre Em Contato Conosco</string>
+    <string name="report_problem_text">Tópico problema:
+%1$s
+
+Detalhe do problema::
+%2$s</string>
+    <string name="contact_us__">Entre em contato conosco…</string>
+    <string name="contact_us">Entre em contato conosco</string>
     <string name="report_content">Relatório do conteúdo</string>
 
     <string name="installation_failed">Falha na instalação</string>
     <string name="invalid_app_detail">Informações do aplicativo inválido.</string>
-    <string name="invalid_app_asset">informações de ativos aplicativo inválido.</string>
+    <string name="invalid_app_asset">Informações de ativos aplicativo inválido.</string>
     <string name="failed_to_request_app_detail">Falha ao solicitar informações detalhadas do app.</string>
     <string name="failed_to_request_app_asset">Falha ao solicitar informações do aplicativo.</string>
-    <string name="incompatible_this_app">
-        <![CDATA[<big><b><font color="%1$d>dispositivo não é compatível com este aplicativo.</font></b></big><br><br>Você quer continuar?]]>
-    </string>
-    <string name="this_app_not_usable">
-        <![CDATA[<big><b><font color="%1$d">este aplicativo não pode ser útil.</font></b></big><br><br>Você quer continuar?]]>
-    </string>
+    <string name="incompatible_this_app">"
+ &lt;big&gt;&lt;b&gt;&lt;font color=%1$d&gt;Dispositivo não é compatível com este aplicativo.&lt;/font&gt;&lt;/b&gt;&lt;/big&gt;&lt;br&gt;&lt;br&gt;Você quer continuar?
+ "</string>
+    <string name="this_app_not_usable">"
+ &lt;big&gt;&lt;b&gt;&lt;font color=%1$d&gt;Este aplicativo não pode ser útil.&lt;/font&gt;&lt;/b&gt;&lt;/big&gt;&lt;br&gt;&lt;br&gt;Você quer continuar?
+ "</string>
 
     <string name="setting">Configuração</string>
     <string name="external_storage_not_usable">
@@ -200,13 +204,13 @@
     <string name="deselect_all">Desmarcar todos</string>
     <string name="ignored">Ignorar</string>
     <plurals name="total__count__apps__size_">
-	    <item quantity="one">
-            <![CDATA[Total: <b><font color="%1$d">%2$d</font></b> app, <b><font color="%1$d">%3$s</font></b>]]>
-        </item>
-	    <item quantity="other">
-            <![CDATA[Total: <b><font color="%1$d">%2$d</font></b> apps, <b><font color="%1$d">%3$s</font></b>]]>
-        </item>
-    </plurals>
+	<item quantity="one">"
+ Total: &lt;b&gt;&lt;font cor=%1$d&gt;%2$d&lt;/font&gt;&lt;/b&gt; app, &lt;b&gt;&lt;font color=%1$d&gt;%3$s&lt;/font&gt;&lt;/b&gt;
+ "</item>
+	<item quantity="other">"
+ Total: &lt;b&gt;&lt;font cor=%1$d&gt;%2$d&lt;/font&gt;&lt;/b&gt; apps, &lt;b&gt;&lt;font color=%1$d&gt;%3$s&lt;/font&gt;&lt;/b&gt;
+ "</item>
+</plurals>
     <string name="total_zero_app">
         <![CDATA[Total: <b><font color="%1$d">0</Font></b> app]]>
     </string>
@@ -218,7 +222,7 @@
     <string name="show_notification_after_installation">Mostrar notificação após a instalação</string>
     <string name="delete_packages_after_installation">Apagar pacotes após a instalação</string>
 
-    <string name="_name__installation_completed"><xliff:g id="name" example="APKPure">%1$s</xliff:g> instalação completa</string>
+    <string name="_name__installation_completed"><xliff:g id="name" example="APKPure">%1$s</xliff:g> Instalação completa</string>
     <string name="touch_to_open">Toque para abrir.</string>
     <string name="installed">Instalado</string>
     <string name="download_over_cellular">Transferir por telemóvel</string>
@@ -228,7 +232,7 @@
     <string name="participate_ultra_download_beta_test_content">Ultra Download está em teste beta, deixe-nos saber se você encontrar quaisquer problemas. Você pode facilmente desativá-lo em Configurações.</string>
     <string name="enable">Ativado</string>
 
-    <string name="download_via_wifi_only">Transferir apenas através de Wi-Fi</string>
+    <string name="download_via_wifi_only">Baixar apenas através do Wi-Fi</string>
     <string name="enable_ultra_download">Ativar Ultra Download</string>
     <string name="enable_ultra_download_summary">Ultra Download está em teste beta, deixe-nos saber se você encontrar quaisquer problemas.</string>
 <string name="similar_or_related">Semelhante ou relacionado</string>
