@@ -1,3 +1,270 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<resources><string name="action_settings">ফেল</string>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2"><string name="action_settings">सेटिंग्स</string>
+    <string name="action_search">खोजें</string>
+    <string name="action_management">प्रबंधन</string>
+
+    <string name="press_back_key_quit">दुबारा पीछे जाएं कुंजी दबाएं व छोड़ें।</string>
+
+    <string name="featured">फीचर्ड</string>
+    <string name="games">गेम्स</string>
+    <string name="apps">ऐप्स</string>
+    <string name="categories">श्रेणियां</string>
+    <string name="updates">अपडेट्स</string>
+
+    <string name="something_happened">&gt;_&lt;कुछ हुआ है।</string>
+
+    <string name="load_failed_error">ओह! एक त्रुटि हो गई।</string>
+    <string name="load_failed_empty">यहां कुछ नहीं है।</string>
+    <string name="load_failed_all_up_to_date">सभी ऐप्स अप टू डेट हैं।</string>
+    <string name="load_failed_no_results">माफ करना! कोई परिणाम नहीं मिले।</string>
+    <string name="refresh">ताजा करें</string>
+
+    <string name="app_updates">ऐप अपडेट्स</string>
+    <string name="management">प्रबंधन</string>
+    <string name="app_management">ऐप प्रबंधन</string>
+    <string name="app_uninstall">ऐप अनइन्सटॉल</string>
+    <string name="apk_management">APK प्रबंधन</string>
+    <string name="apk_xapk_management">APK / XAPK प्रबंधन</string>
+    <string name="download_management">डाउनलोड प्रबंधन</string>
+    <string name="settings">सेटिंग्स</string>
+    <string name="about">के बारे में</string>
+    <string name="about_title">के बारे में <xliff:g id="app_name" example="APKPure">%1$s</xliff:g></string>
+    <string name="about_message">"
+ &lt;b&gt;संस्करण:&lt;/b&gt; %1$s&lt;br&gt;&lt;br&gt;&lt;b&gt;वेबसाइट:&lt;/b&gt; &lt;a href=%2$s&gt;%2$s&lt;/a&gt;&lt;br&gt;&lt;b&gt;ईमेल:&lt;/b&gt; &lt;a href=mailto:%3$s&gt;%3$s&lt;/a&gt;
+ "</string>
+    <string name="check_update">अपडेट देखें</string>
+    <string name="quit">छोड़ें</string>
+    <string name="want_to_quit">क्या आप सचमुच छोड़ना चाहते हैं?</string>
+
+    <string name="install">इंस्टॉल करें</string>
+    <string name="open">खोलें</string>
+    <string name="delete">मिटाएं</string>
+    <string name="delete_all">सभी मिटाएं</string>
+    <string name="properties">प्रॉपर्टीज</string>
+    <string name="properties_message">"
+ &lt;b&gt;मार्ग:&lt;/b&gt; %1$s&lt;br&gt;&lt;b&gt;आकार:&lt;/b&gt; %2$s&lt;br&gt;&lt;b&gt;पिछला संशोधित:&lt;/b&gt; %3$s
+ "</string>
+    <string name="want_to_delete_file">क्या आप यह फाइल मिटाना चाहते हैं?</string>
+    <string name="want_to_delete_all_files">क्या आप सभी फाइलें मिटाना चाहते हैं?</string>
+    <string name="file_has_been_deleted">फाइल मिटाई गई है।</string>
+    <string name="failed_to_delete_file">फाइल मिटाने में असफल।</string>
+    <string name="install__label_">इन्सटॉल करें - <xliff:g id="app_label" example="APKPure">%1$s</xliff:g></string>
+    <string name="user_canceled">उपयोगकर्ता रद्द किया।</string>
+    <string name="io_error">IO त्रुटि। शायद सफलतापूर्वक इन्सटॉलेशन के लिए पर्याप्त खाली स्थान नहीं है।</string>
+    <string name="file_format_error">फाइल फॉरमैट त्रुटि</string>
+    <string name="parsing_xapk">"XAPK पार्स  हो रहा है …"</string>
+    <string name="installing_obb">OBB फाइलें इन्सटॉल हो रही हैं …</string>
+    <string name="extracting_apk">"APK फाइल  …"</string>
+    <string name="installing_apk">APK इन्स्टॉल हो रहा है …</string>
+
+    <string name="uninstall">अनइन्स्टॉल करें</string>
+    <string name="uninstalled">अनइन्स्टॉल किया</string>
+    <string name="last_update__date_">पिछला अपडेट: <xliff:g id="date">%1$s</xliff:g></string>
+
+    <string name="all">सभी</string>
+
+    <string name="screenshots">स्क्रीनशॉट</string>
+    <string name="description">वर्णन</string>
+    <string name="whatsnew">नया क्या है</string>
+    <string name="information">जानकारी</string>
+    <string name="version_">संस्करण:</string>
+    <string name="updated_">अपडेट किया:</string>
+    <string name="size_">आकार:</string>
+    <string name="permissions_">अनुमतियां:</string>
+    <string name="type_">प्रकार:</string>
+    <string name="category_">श्रेणी:</string>
+    <string name="more">अधिक</string>
+    <string name="permissions">अनुमतियां</string>
+    <string name="other">अन्य</string>
+    <string name="similar_or_related">समान या सबंधित</string>
+    <string name="more_from_developer">विकासकार से अधिक</string>
+    <string name="more_large">अधिक</string>
+    <string name="apk">APK</string>
+    <string name="xapk">XAPK</string>
+    <string name="unknown">अज्ञात</string>
+    <string name="flag_as_inappropriate">अनुपयुक्त के रूप में चिह्नित करें</string>
+    <string name="_ellipsis_"> … </string>
+
+    <string name="market_response_error_success">सफल।</string>
+    <string name="market_response_error_invalid_result">अवैध परिणाम।</string>
+    <string name="market_response_error_network_connect_error">नेटवर्क कनेक्ट त्रुटि।</string>
+    <string name="market_response_error_network_read_error">नेटवर्क रीड त्रुटि।</string>
+    <string name="market_response_error_invalid_response_code">अवैध जवाब कोड।</string>
+    <string name="market_response_error_invalid_response_body">अवैध जवाब बॉडी।</string>
+    <string name="market_response_error_unknown_error__error_">अज्ञात त्रुटि (<xliff:g id="error" example="SUCCESS">%1$s</xliff:g>)।</string>
+
+    <string name="no_more">और नहीँ।</string>
+
+    <string name="update">अपडेट</string>
+    <string name="version__version___size_">संस्करण: <xliff:g id="version" example="1.0.0">%1$s</xliff:g>, <xliff:g id="size" example="1024 kB">%2$s</xliff:g></string>
+    <plurals name="_count__new_update_is_available">
+	<item quantity="one"><xliff:g id="count" example="1">%1$d</xliff:g> नई अपडेट उपलब्ध है</item>
+	<item quantity="other"><xliff:g id="count" example="2">%1$d</xliff:g> नई अपडेट्स उपलब्ध हैं</item>
+</plurals>
+
+    <string name="launching_please_wait">लॉन्च हो रही हैं, कृपया इंतजार करें…</string>
+
+    <plurals name="_count__item_is_downloading">
+	<item quantity="one"><xliff:g id="count" example="1">%1$d</xliff:g> आइटम डाउनलोड हो रही है</item>
+	<item quantity="other"><xliff:g id="count" example="2">%1$d</xliff:g> आइटमें डाउनलोड हो रही हैं</item>
+</plurals>
+    <string name="downloads_complete">डाउनलोड्स पूरी हुईं</string>
+    <string name="touch_for_view_all_downloads">सभी डाउनलोड्स देखने के लिए छुएं</string>
+    <string name="_name__download_failed"><xliff:g id="name" example="APKPure">%1$s</xliff:g> डाउनलोड असफल</string>
+    <string name="touch_to_download_it_again">इसे दुबारा डाउनलोड करने के लिए छुएं</string>
+
+    <string name="download_percent"><xliff:g id="percent" example="50">%1$d</xliff:g> %%</string>
+    <string name="pause">रोकें</string>
+    <string name="pause_all">सभी को रोकें</string>
+    <string name="continue_">जारी रखें</string>
+    <string name="continue_all">सभी को जारी रखें</string>
+    <string name="restart">रीस्टार्ट करें</string>
+    <string name="download">डाउनलोड करें</string>
+    <string name="downloading">डाउनलोड हो रहा है</string>
+    <string name="waiting">इंतजार हो रहा है</string>
+    <string name="preparing">तैयारी हो रही है</string>
+    <string name="completed">पूरा हुआ</string>
+    <string name="paused">रोका गया</string>
+    <string name="failed">असफल</string>
+    <string name="file_invalid">फाइल अवैध</string>
+    <string name="file_missing">फाइल गायब</string>
+    <string name="waiting_to_download">डाउनलोड करने के लिए इंतजार हो रहा है</string>
+    <string name="deleted">मिटाया गया</string>
+    <string name="expired">अवधि समाप्त</string>
+    <string name="installed">इन्सटॉल हुआ</string>
+    <string name="detail">विवरण</string>
+    <string name="remove">हटाएं</string>
+    <string name="remove_all">सभी को हटाएं</string>
+    <string name="want_to_remove_download_item">क्या आप यह डाउनलोड आइटम हटाना चाहते हैं?</string>
+    <string name="want_to_remove_all_download_items">क्या आप सभी डाउनलोड आइटमें हटाना चाहते हैं?</string>
+    <string name="delete_downloaded_file">डाउनलोड की गई फाइल मिटाएं</string>
+    <string name="download_over_cellular">सेल्युलर पर डाउनलोड करें</string>
+    <string name="download_over_cellular_content">आप अपने मोबाइल नेटवर्क पर डाउनलोड करने वाले हैं। क्या आप जारी रखना चाहते हैं?</string>
+
+    <string name="search">खोजें</string>
+    <string name="search_for_apps">ऐप्स खोजें</string>
+    <string name="trending_searches">प्रचलित खोजें</string>
+    <string name="search_history">इतिहास</string>
+    <string name="clear_search_history">इतिहास साफ करें</string>
+
+    <string name="improvement_plan_title">प्रदर्शन सुधार योजना</string>
+    <string name="improvement_plan_message">
+ एंडरॉयड डिवाइस की जानकारी प्रस्तुत करने में हमारी मदद करें, हम लेते<b>इकट्ठा नॉट</b> निजी रूप से पहचान वाली जानकारी (नाम, पता, ई-मेल पता, सोशल सिक्युरिटी नंबर या अन्य विशिष्ट पहचानकर्ता)।
+ </string>
+    <string name="join_us">हमसे जुड़ें</string>
+    <string name="skip">छोड़ें</string>
+
+    <string name="participate_ultra_download_beta_test_title">अल्ट्रा डाउनलोड सक्षम करें और एक तेज डाउनलोडिंग स्पीड का आनंद लें</string>
+    <string name="participate_ultra_download_beta_test_content">अल्ट्रा डाउनलोड बीटा टेस्टिंग में है, यदि आपको कोई समस्या होती है तो हमें बताएं। आप इसे सेटिंग्स के तहत आसानी से अक्षम कर सकते हैं।</string>
+    <string name="enable">सक्षम करें</string>
+
+    <string name="_name__is_up_to_date"><xliff:g id="name" example="APKPure"> %1$s</xliff:g> अप टू डेट है।</string>
+    <string name="new_version_available_title">नया संस्करण उपलब्ध है</string>
+    <string name="new_version_available_message">"
+ &lt;b&gt;नवीनतम संस्करण:&lt;/b&gt; %1$s&lt;br&gt;&lt;br&gt;&lt;b&gt;नया क्या है:&lt;/b&gt;&lt;br&gt;%2$s
+ "</string>
+
+    <string name="report__">रिपोर्ट…</string>
+    <string name="report_problem__">समस्या की रिपोर्ट करें…</string>
+    <string name="report_problem_subject">समस्या की रिपोर्ट करें</string>
+    <string name="report_problem_text">समस्या का विषय:
+%1$s
+
+समस्या का विवरण:
+%2$s</string>
+    <string name="contact_us__">हमें संपर्क करें…</string>
+    <string name="contact_us">हमें संपर्क करें</string>
+    <string name="report_content">रिपोर्ट सामग्री</string>
+    <string name="feedback">फीडबैक</string>
+
+    <string name="installation_failed">इन्स्टॉलेशन असफल</string>
+    <string name="invalid_app_detail">अवैध ऐप विवरण जानकारी।</string>
+    <string name="invalid_app_asset">अवैध ऐप संपत्ति जानकारी।</string>
+    <string name="failed_to_request_app_detail">ऐप एसेट जानकारी का निवेदन करने में असफल।</string>
+    <string name="failed_to_request_app_asset">ऐप एसेट जानकारी का निवेदन करने में असफल।</string>
+    <string name="incompatible_this_app">"
+ &lt;big&gt;&lt;b&gt;&lt;font color=%1$d&gt;आपकी डिवाइस इस ऐप के अनुकूल नहीं है।&lt;/font&gt;&lt;/b&gt;&lt;/big&gt;&lt;br&gt;&lt;br&gt;क्या आप जारी रखना चाहते हैं?
+ "</string>
+    <string name="this_app_not_usable">"
+ &lt;big&gt;&lt;b&gt;&lt;font color=%1$d&gt;यह ऐप उपयोगी नहीं हो सकता।&lt;/font&gt;&lt;/b&gt;&lt;/big&gt;&lt;br&gt;&lt;br&gt;क्या आप जारी रखना चाहते हैं?
+ "</string>
+
+    <string name="setting">सेटिंग</string>
+    <string name="external_storage_not_usable">
+ <big><b>हमें आपकी बाहरी स्टोरेज तक पहुंच की जरूरत है। कृपया सुनिश्चित करें कि यह उपयोगी है।</b></big>
+ </string>
+    <string name="external_storage_permission_denied">
+ <big><b>हमें आपकी बाहरी स्टोरेज तक पहुंच की जरूरत है। कृपया सुनिश्चित करें कि अनुमति से इन्कार नहीं किया गया है।</b></big>
+ </string>
+
+    <string name="share">सांझा करें</string>
+    <string name="share_app_url">डाउनलोड करें <xliff:g id="app_name" example="APKPure">%1$s</xliff:g> APK (from @<xliff:g id="social_network_name" example="APKPure">%2$s</xliff:g>), <xliff:g id="app_url" example="https://apkpure.com/p/com.apkpure.aegon">%3$s</xliff:g></string>
+
+    <string name="_name__version_history"><xliff:g id="name" example="APKPure">%1$s</xliff:g> संस्करण इतिहास</string>
+    <string name="update__date___size_">अपडेट: <xliff:g id="date" example="Mar 3, 2016">%1$s</xliff:g>, <xliff:g id="size" example="1024 kB">%2$s</xliff:g></string>
+
+    <string name="update_all">सभी अपडेट करें</string>
+    <string name="update___count__">अपडेट (<xliff:g id="count" example="3">%1$d</xliff:g>)</string>
+    <string name="ignore">नजरअंदाज करें</string>
+    <string name="unignore">नजरअंदाज न करें</string>
+    <string name="select">चुनें</string>
+    <string name="cancel">रद्द करें</string>
+    <string name="select_all">सभी चुनें</string>
+    <string name="deselect_all">सभी अचयनित करें</string>
+    <string name="ignored">नजरअंदाज किया</string>
+    <plurals name="total__count__apps__size_">
+	<item quantity="one">"
+ कुल: &lt;b&gt;&lt;font color=%1$d&gt;%2$d&lt;/font&gt;&lt;/b&gt; ऐप, &lt;b&gt;&lt;font color=%1$d&gt;%3$s&lt;/font&gt;&lt;/b&gt;
+ "</item>
+	<item quantity="other">"
+ कुल: &lt;b&gt;&lt;font color=%1$d&gt;%2$d&lt;/font&gt;&lt;/b&gt; ऐप्स, &lt;b&gt;&lt;font color=%1$d&gt;%3$s&lt;/font&gt;&lt;/b&gt;
+ "</item>
+</plurals>
+    <string name="total_zero_app">"
+ कुल: &lt;b&gt;&lt;font color=%1$d&gt;0&lt;/font&gt;&lt;/b&gt; ऐप
+ "</string>
+
+    <string name="general">सामान्य</string>
+    <string name="language">भाषा</string>
+    <string name="auto">स्व</string>
+    <string name="changing_language">भाषा बदली जा रही है, कृपया इंतजार करें…</string>
+    <string name="download_via_wifi_only">केवल वाई-फाई द्वारा डाउनलोड करें</string>
+    <string name="enable_ultra_download">अल्ट्रा डाउनलोड सक्षम करें</string>
+    <string name="enable_ultra_download_summary">अल्ट्रा डाउनलोड बीटा टेस्टिंग में है, यदि आपको कोई समस्या होती है तो हमें बताएं।</string>
+    <string name="installation">इन्स्टॉलेशन</string>
+    <string name="show_notification_after_installation">इन्स्टॉलेशन के बाद सूचना दिखाएं</string>
+    <string name="delete_packages_after_installation">इन्स्टॉलेशन के बाद पैकेज मिटाएं</string>
+
+    <string name="_name__installation_completed"><xliff:g id="name" example="APKPure">%1$s</xliff:g> इन्स्टॉलेशन पूरी हुई</string>
+    <string name="touch_to_open">खोलने के लिए छुएं।</string>
+
+    <string name="auto_service_install_accessibility_title">स्व इन्स्टॉल</string>
+    <string name="auto_service_install_accessibility_summary">एंडरॉयड 4.1+ का समर्थन करें, किसी रूट अनुमति की जरूरत नहीं है।</string>
+
+    <string name="auto_service_dialog_title">स्व इन्स्टॉल सक्षम करें</string>
+    <string name="auto_service_dialog_message">स्व इन्स्टॉल को जरूरत है कि आप फोन पर अनुमति दें, किसी भी जोखिमों के बिना प्रयोग करना सुरक्षित है।</string>
+
+    <string name="auto_service_title">APKPure स्व इन्स्टॉल</string>
+    <string name="auto_service_description">"APKPure \"स्व इन्स्टॉल\" को निर्विघ्न चलता रखने के लिए \"APKPure स्व इन्स्टॉल\" को सक्षम करें। 
+\"APKPure स्व इन्स्टॉल\" सभी इन्स्टॉल बटन क्लिक करने में आपकी मदद कर सकता है, ऐप्स को इन्स्टॉल या अपडेट करते समय, आपको हमेश फोन नहीं देखना पड़ेगा।
+इस विशेषता को सक्षम करने के बाद,  आप सिस्टम चेतावनियां प्राप्त कर सकते हैं, कृपया सुलभता स्विच \"चालू\" करने के लिए \"ठीक है\" को टैप करें। 
+यह सुनिश्चित करने के लिए कि APKPure सही काम कर रहा है, कृपया APKPure को अपने क्लीनिंग ऐप की \"व्हाइट सूची\" में डालें। 
+उपरोक्त फंक्शन Android 4.1+ पर चलते हैं, किसी रूट अनुमति की जरूरत नहीं। हम इस सुलभता सेवा में आपकी किसी भी निजी जानकारी को कभी भी एकत्र न करने का वादा करते हैं। कृपया किसी भी समस्या के लिए हमसे बेझिझक संपर्क करें।"</string>
+
+    <string name="auto_service_install">इंस्टॉल करें</string>
+    <string name="auto_service_ensure">ठीक है</string>
+    <string name="auto_service_next">अगला</string>
+    <string name="auto_service_exchange">बदली करें</string>
+    <string name="auto_service_complete">हो गया</string>
+
+    <string name="auto_service_install__material_">इन्स्टॉल करें</string>
+    <string name="auto_service_ensure__material_">ठीक है</string>
+    <string name="auto_service_next__material_">अगला</string>
+    <string name="auto_service_exchange__material_">बदली करें</string>
+    <string name="auto_service_complete__material_">हो गया</string>
+
+    <string name="auto_install_via_root_title">स्व इन्स्टॉल (रूट मोड)</string>
+    <string name="auto_install_via_root_summary">केवल रूट किए एंडरॉयड फोनों व टैबलेट्स के लिए।</string>
+
+    <string name="download_complete_installation_setting">डाउनलोड करने के बाद इन्स्टॉलेशन विक्लप</string>
     </resources>
