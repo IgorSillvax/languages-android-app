@@ -1,5 +1,8 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2"><string name="action_settings">सेटिंग्स</string>
+<?xml version="1.0" encoding="utf-8"?>
+<resources
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <string name="action_settings">सेटिंग्स</string>
     <string name="action_search">खोजें</string>
     <string name="action_management">प्रबंधन</string>
 
@@ -11,8 +14,7 @@
     <string name="categories">श्रेणियां</string>
     <string name="updates">अपडेट्स</string>
 
-    <string name="something_happened">&gt;_&lt;
-कुछ हुआ है।</string>
+    <string name="something_happened">&gt;_&lt;कुछ हुआ है।</string>
 
     <string name="load_failed_error">ओह! एक त्रुटि हो गई।</string>
     <string name="load_failed_empty">यहां कुछ नहीं है।</string>
@@ -30,9 +32,9 @@
     <string name="settings">सेटिंग्स</string>
     <string name="about">के बारे में</string>
     <string name="about_title">के बारे में <xliff:g id="app_name" example="APKPure">%1$s</xliff:g></string>
-    <string name="about_message">"
- &lt;b&gt;संस्करण:&lt;/b&gt; %1$s&lt;br&gt;&lt;br&gt;&lt;b&gt;वेबसाइट:&lt;/b&gt; &lt;a href=%2$s&gt;%2$s&lt;/a&gt;&lt;br&gt;&lt;b&gt;ईमेल:&lt;/b&gt; &lt;a href=mailto:%3$s&gt;%3$s&lt;/a&gt;
- "</string>
+    <string name="about_message">
+        <![CDATA[<b>संस्करण:</b> %1$s<br><br><b>वेबसाइट:</b> <a href=%2$s>%2$s</a><br><b>ईमेल:</b> <a href=mailto:%3$s>%3$s</a>]]>
+    </string>
     <string name="check_update">अपडेट देखें</string>
     <string name="quit">छोड़ें</string>
     <string name="want_to_quit">क्या आप सचमुच छोड़ना चाहते हैं?</string>
@@ -42,9 +44,9 @@
     <string name="delete">मिटाएं</string>
     <string name="delete_all">सभी मिटाएं</string>
     <string name="properties">प्रॉपर्टीज</string>
-    <string name="properties_message">"
- &lt;b&gt;मार्ग:&lt;/b&gt; %1$s&lt;br&gt;&lt;b&gt;आकार:&lt;/b&gt; %2$s&lt;br&gt;&lt;b&gt;पिछला संशोधित:&lt;/b&gt; %3$s
- "</string>
+    <string name="properties_message">
+        <![CDATA[<b>मार्ग:</b> %1$s<br><b>आकार:</b> %2$s<br><b>पिछला संशोधित:</b> %3$s]]>
+    </string>
     <string name="want_to_delete_file">क्या आप यह फाइल मिटाना चाहते हैं?</string>
     <string name="want_to_delete_all_files">क्या आप सभी फाइलें मिटाना चाहते हैं?</string>
     <string name="file_has_been_deleted">फाइल मिटाई गई है।</string>
@@ -99,16 +101,16 @@
     <string name="update">अपडेट</string>
     <string name="version__version___size_">संस्करण: <xliff:g id="version" example="1.0.0">%1$s</xliff:g>, <xliff:g id="size" example="1024 kB">%2$s</xliff:g></string>
     <plurals name="_count__new_update_is_available">
-	<item quantity="one"><xliff:g id="count" example="1">%1$d</xliff:g> नई अपडेट उपलब्ध है</item>
-	<item quantity="other"><xliff:g id="count" example="2">%1$d</xliff:g> नई अपडेट्स उपलब्ध हैं</item>
-</plurals>
+	    <item quantity="one"><xliff:g id="count" example="1">%1$d</xliff:g> नई अपडेट उपलब्ध है</item>
+	    <item quantity="other"><xliff:g id="count" example="2">%1$d</xliff:g> नई अपडेट्स उपलब्ध हैं</item>
+    </plurals>
 
     <string name="launching_please_wait">लॉन्च हो रही हैं, कृपया इंतजार करें…</string>
 
     <plurals name="_count__item_is_downloading">
-	<item quantity="one"><xliff:g id="count" example="1">%1$d</xliff:g> आइटम डाउनलोड हो रही है</item>
-	<item quantity="other"><xliff:g id="count" example="2">%1$d</xliff:g> आइटमें डाउनलोड हो रही हैं</item>
-</plurals>
+	    <item quantity="one"><xliff:g id="count" example="1">%1$d</xliff:g> आइटम डाउनलोड हो रही है</item>
+	    <item quantity="other"><xliff:g id="count" example="2">%1$d</xliff:g> आइटमें डाउनलोड हो रही हैं</item>
+    </plurals>
     <string name="downloads_complete">डाउनलोड्स पूरी हुईं</string>
     <string name="touch_for_view_all_downloads">सभी डाउनलोड्स देखने के लिए छुएं</string>
     <string name="_name__download_failed"><xliff:g id="name" example="APKPure">%1$s</xliff:g> डाउनलोड असफल</string>
@@ -150,8 +152,8 @@
 
     <string name="improvement_plan_title">प्रदर्शन सुधार योजना</string>
     <string name="improvement_plan_message">
- एंडरॉयड डिवाइस की जानकारी प्रस्तुत करने में हमारी मदद करें, हम लेते<b>इकट्ठा नॉट</b> निजी रूप से पहचान वाली जानकारी (नाम, पता, ई-मेल पता, सोशल सिक्युरिटी नंबर या अन्य विशिष्ट पहचानकर्ता)।
- </string>
+        <![CDATA[एंडरॉयड डिवाइस की जानकारी प्रस्तुत करने में हमारी मदद करें, हम लेते<b>इकट्ठा नॉट</b> निजी रूप से पहचान वाली जानकारी (नाम, पता, ई-मेल पता, सोशल सिक्युरिटी नंबर या अन्य विशिष्ट पहचानकर्ता)।]]>
+    </string>
     <string name="join_us">हमसे जुड़ें</string>
     <string name="skip">छोड़ें</string>
 
@@ -161,18 +163,14 @@
 
     <string name="_name__is_up_to_date"><xliff:g id="name" example="APKPure"> %1$s</xliff:g> अप टू डेट है।</string>
     <string name="new_version_available_title">नया संस्करण उपलब्ध है</string>
-    <string name="new_version_available_message">"
- &lt;b&gt;नवीनतम संस्करण:&lt;/b&gt; %1$s&lt;br&gt;&lt;br&gt;&lt;b&gt;नया क्या है:&lt;/b&gt;&lt;br&gt;%2$s
- "</string>
+    <string name="new_version_available_message">
+        <![CDATA[<b>नवीनतम संस्करण:</b> %1$s<br><br><b>नया क्या है:</b><br>%2$s]]>
+    </string>
 
     <string name="report__">रिपोर्ट…</string>
     <string name="report_problem__">समस्या की रिपोर्ट करें…</string>
     <string name="report_problem_subject">समस्या की रिपोर्ट करें</string>
-    <string name="report_problem_text">समस्या का विषय:
-%1$s
-
-समस्या का विवरण:
-%2$s</string>
+    <string name="report_problem_text">समस्या का विषय:\n%1$s\n\nसमस्या का विवरण:\n%2$s</string>
     <string name="contact_us__">हमें संपर्क करें…</string>
     <string name="contact_us">हमें संपर्क करें</string>
     <string name="report_content">रिपोर्ट सामग्री</string>
@@ -183,20 +181,20 @@
     <string name="invalid_app_asset">अवैध ऐप संपत्ति जानकारी।</string>
     <string name="failed_to_request_app_detail">ऐप एसेट जानकारी का निवेदन करने में असफल।</string>
     <string name="failed_to_request_app_asset">ऐप एसेट जानकारी का निवेदन करने में असफल।</string>
-    <string name="incompatible_this_app">"
- &lt;big&gt;&lt;b&gt;&lt;font color=%1$d&gt;आपकी डिवाइस इस ऐप के अनुकूल नहीं है।&lt;/font&gt;&lt;/b&gt;&lt;/big&gt;&lt;br&gt;&lt;br&gt;क्या आप जारी रखना चाहते हैं?
- "</string>
-    <string name="this_app_not_usable">"
- &lt;big&gt;&lt;b&gt;&lt;font color=%1$d&gt;यह ऐप उपयोगी नहीं हो सकता।&lt;/font&gt;&lt;/b&gt;&lt;/big&gt;&lt;br&gt;&lt;br&gt;क्या आप जारी रखना चाहते हैं?
- "</string>
+    <string name="incompatible_this_app">
+        <![CDATA[<big><b><font color="%1$d">आपकी डिवाइस इस ऐप के अनुकूल नहीं है।</font></b></big><br><br>क्या आप जारी रखना चाहते हैं?]]>
+    </string>
+    <string name="this_app_not_usable">
+        <![CDATA[<big><b><font color="%1$d">यह ऐप उपयोगी नहीं हो सकता।</font></b></big><br><br>क्या आप जारी रखना चाहते हैं?]]>
+    </string>
 
     <string name="setting">सेटिंग</string>
     <string name="external_storage_not_usable">
- <big><b>हमें आपकी बाहरी स्टोरेज तक पहुंच की जरूरत है। कृपया सुनिश्चित करें कि यह उपयोगी है।</b></big>
- </string>
+        <![CDATA[<big><b>हमें आपकी बाहरी स्टोरेज तक पहुंच की जरूरत है। कृपया सुनिश्चित करें कि यह उपयोगी है।</b></big>]]>
+    </string>
     <string name="external_storage_permission_denied">
- <big><b>हमें आपकी बाहरी स्टोरेज तक पहुंच की जरूरत है। कृपया सुनिश्चित करें कि अनुमति से इन्कार नहीं किया गया है।</b></big>
- </string>
+        <![CDATA[<big><b>हमें आपकी बाहरी स्टोरेज तक पहुंच की जरूरत है। कृपया सुनिश्चित करें कि अनुमति से इन्कार नहीं किया गया है।</b></big>]]>
+    </string>
 
     <string name="share">सांझा करें</string>
     <string name="share_app_url">डाउनलोड करें <xliff:g id="app_name" example="APKPure">%1$s</xliff:g> APK (from @<xliff:g id="social_network_name" example="APKPure">%2$s</xliff:g>), <xliff:g id="app_url" example="https://apkpure.com/p/com.apkpure.aegon">%3$s</xliff:g></string>
@@ -214,16 +212,16 @@
     <string name="deselect_all">सभी अचयनित करें</string>
     <string name="ignored">नजरअंदाज किया</string>
     <plurals name="total__count__apps__size_">
-	<item quantity="one">"
- कुल: &lt;b&gt;&lt;font color=%1$d&gt;%2$d&lt;/font&gt;&lt;/b&gt; ऐप, &lt;b&gt;&lt;font color=%1$d&gt;%3$s&lt;/font&gt;&lt;/b&gt;
- "</item>
-	<item quantity="other">"
- कुल: &lt;b&gt;&lt;font color=%1$d&gt;%2$d&lt;/font&gt;&lt;/b&gt; ऐप्स, &lt;b&gt;&lt;font color=%1$d&gt;%3$s&lt;/font&gt;&lt;/b&gt;
- "</item>
-</plurals>
-    <string name="total_zero_app">"
- कुल: &lt;b&gt;&lt;font color=%1$d&gt;0&lt;/font&gt;&lt;/b&gt; ऐप
- "</string>
+        <item quantity="one">
+            <![CDATA[कुल: <b><font color="%1$d">%2$d</font></b> ऐप, <b><font color="%1$d">%3$s</font></b>]]>
+        </item>
+        <item quantity="other">
+            <![CDATA[कुल: <b><font color="%1$d">%2$d</font></b> ऐप्स, <b><font color="%1$d">%3$s</font></b>]]>
+        </item>
+    </plurals>
+    <string name="total_zero_app">
+        <![CDATA[कुल: <b><font color="%1$d">0</font></b> ऐप]]>
+    </string>
 
     <string name="general">सामान्य</string>
     <string name="language">भाषा</string>
@@ -246,11 +244,7 @@
     <string name="auto_service_dialog_message">स्व इन्स्टॉल को जरूरत है कि आप फोन पर अनुमति दें, किसी भी जोखिमों के बिना प्रयोग करना सुरक्षित है।</string>
 
     <string name="auto_service_title">APKPure स्व इन्स्टॉल</string>
-    <string name="auto_service_description">"APKPure \"स्व इन्स्टॉल\" को निर्विघ्न चलता रखने के लिए \"APKPure स्व इन्स्टॉल\" को सक्षम करें। 
-\"APKPure स्व इन्स्टॉल\" सभी इन्स्टॉल बटन क्लिक करने में आपकी मदद कर सकता है, ऐप्स को इन्स्टॉल या अपडेट करते समय, आपको हमेश फोन नहीं देखना पड़ेगा।
-इस विशेषता को सक्षम करने के बाद,  आप सिस्टम चेतावनियां प्राप्त कर सकते हैं, कृपया सुलभता स्विच \"चालू\" करने के लिए \"ठीक है\" को टैप करें। 
-यह सुनिश्चित करने के लिए कि APKPure सही काम कर रहा है, कृपया APKPure को अपने क्लीनिंग ऐप की \"व्हाइट सूची\" में डालें। 
-उपरोक्त फंक्शन Android 4.1+ पर चलते हैं, किसी रूट अनुमति की जरूरत नहीं। हम इस सुलभता सेवा में आपकी किसी भी निजी जानकारी को कभी भी एकत्र न करने का वादा करते हैं। कृपया किसी भी समस्या के लिए हमसे बेझिझक संपर्क करें।"</string>
+    <string name="auto_service_description">APKPure \"स्व इन्स्टॉल\" को निर्विघ्न चलता रखने के लिए \"APKPure स्व इन्स्टॉल\" को सक्षम करें।\n\n\"APKPure स्व इन्स्टॉल\" सभी इन्स्टॉल बटन क्लिक करने में आपकी मदद कर सकता है, ऐप्स को इन्स्टॉल या अपडेट करते समय, आपको हमेश फोन नहीं देखना पड़ेगा।\n\nइस विशेषता को सक्षम करने के बाद, आप सिस्टम चेतावनियां प्राप्त कर सकते हैं, कृपया सुलभता स्विच \"चालू\" करने के लिए \"ठीक है\" को टैप करें।\n\nयह सुनिश्चित करने के लिए कि APKPure सही काम कर रहा है, कृपया APKPure को अपने क्लीनिंग ऐप की \"व्हाइट सूची\" में डालें।\nउपरोक्त फंक्शन Android 4.1+ पर चलते हैं, किसी रूट अनुमति की जरूरत नहीं। हम इस सुलभता सेवा में आपकी किसी भी निजी जानकारी को कभी भी एकत्र न करने का वादा करते हैं। कृपया किसी भी समस्या के लिए हमसे बेझिझक संपर्क करें।</string>
 
     <string name="auto_service_install">इंस्टॉल करें</string>
     <string name="auto_service_ensure">ठीक है</string>
@@ -268,4 +262,4 @@
     <string name="auto_install_via_root_summary">केवल रूट किए एंडरॉयड फोनों व टैबलेट्स के लिए।</string>
 
     <string name="download_complete_installation_setting">डाउनलोड करने के बाद इन्स्टॉलेशन विक्लप</string>
-    </resources>
+</resources>

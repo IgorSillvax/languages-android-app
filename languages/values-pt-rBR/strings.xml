@@ -97,9 +97,9 @@
     <string name="update">Atualizar</string>
     <string name="version__version___size_">Versão: <xliff:g id="version" example="1.0.0">%1$s</xliff:g>, <xliff:g id="size" example="1024 kB">%2$s</xliff:g></string>
     <plurals name="_count__new_update_is_available">
-	<item quantity="one"><xliff:g id="count" example="1">%1$d</xliff:g> Nova atualização está disponível</item>
-	<item quantity="other"><xliff:g id="count" example="2">%1$d</xliff:g>Novas atualizações estão disponíveis</item>
-</plurals>
+	    <item quantity="one"><xliff:g id="count" example="1">%1$d</xliff:g> Nova atualização está disponível</item>
+	    <item quantity="other"><xliff:g id="count" example="2">%1$d</xliff:g>Novas atualizações estão disponíveis</item>
+    </plurals>
 
     <string name="launching_please_wait">Lançamento, aguarde…</string>
 
@@ -145,8 +145,8 @@
 
     <string name="improvement_plan_title">Plano de Melhoria de Desempenho</string>
     <string name="improvement_plan_message">
- Ajude-nos a enviar informações do dispositivo Android, <b> 1 Não coletamos </b> 2 informações pessoais como (nome, endereço, endereço de e-mail, número de segurança social ou outros identificadores exclusivos).
- </string>
+        <![CDATA[Ajude-nos a enviar informações do dispositivo Android, <b> 1 Não coletamos </b> 2 informações pessoais como (nome, endereço, endereço de e-mail, número de segurança social ou outros identificadores exclusivos).]]>
+    </string>
     <string name="join_us">Junte-se a nós</string>
     <string name="skip">Pular</string>
 
@@ -159,11 +159,7 @@
     <string name="report__">Relatório…</string>
     <string name="report_problem__">Reportar problema…</string>
     <string name="report_problem_subject">Reportar problema</string>
-    <string name="report_problem_text">Tópico problema:
-%1$s
-
-Detalhe do problema::
-%2$s</string>
+    <string name="report_problem_text">Tópico problema:\n%1$s\n\nDetalhe do problema:\n%2$s</string>
     <string name="contact_us__">Entre em contato conosco…</string>
     <string name="contact_us">Entre em contato conosco</string>
     <string name="report_content">Relatório do conteúdo</string>
@@ -173,12 +169,12 @@ Detalhe do problema::
     <string name="invalid_app_asset">Informações de ativos aplicativo inválido.</string>
     <string name="failed_to_request_app_detail">Falha ao solicitar informações detalhadas do app.</string>
     <string name="failed_to_request_app_asset">Falha ao solicitar informações do aplicativo.</string>
-    <string name="incompatible_this_app">"
- &lt;big&gt;&lt;b&gt;&lt;font color=%1$d&gt;Dispositivo não é compatível com este aplicativo.&lt;/font&gt;&lt;/b&gt;&lt;/big&gt;&lt;br&gt;&lt;br&gt;Você quer continuar?
- "</string>
-    <string name="this_app_not_usable">"
- &lt;big&gt;&lt;b&gt;&lt;font color=%1$d&gt;Este aplicativo não pode ser útil.&lt;/font&gt;&lt;/b&gt;&lt;/big&gt;&lt;br&gt;&lt;br&gt;Você quer continuar?
- "</string>
+    <string name="incompatible_this_app">
+        <![CDATA[<big><b><font color="%1$d">Dispositivo não é compatível com este aplicativo.</font></b></big><br><br>Você quer continuar?]]>
+    </string>
+    <string name="this_app_not_usable">
+        <![CDATA[<big><b><font color="%1$d">Este aplicativo não pode ser útil.</font></b></big><br><br>Você quer continuar?]]>
+    </string>
 
     <string name="setting">Configuração</string>
     <string name="external_storage_not_usable">
@@ -204,15 +200,15 @@ Detalhe do problema::
     <string name="deselect_all">Desmarcar todos</string>
     <string name="ignored">Ignorar</string>
     <plurals name="total__count__apps__size_">
-	<item quantity="one">"
- Total: &lt;b&gt;&lt;font cor=%1$d&gt;%2$d&lt;/font&gt;&lt;/b&gt; app, &lt;b&gt;&lt;font color=%1$d&gt;%3$s&lt;/font&gt;&lt;/b&gt;
- "</item>
-	<item quantity="other">"
- Total: &lt;b&gt;&lt;font cor=%1$d&gt;%2$d&lt;/font&gt;&lt;/b&gt; apps, &lt;b&gt;&lt;font color=%1$d&gt;%3$s&lt;/font&gt;&lt;/b&gt;
- "</item>
-</plurals>
+        <item quantity="one">
+            <![CDATA[Total: <b><font color="%1$d">%2$d</font></b> app, <b><font color="%1$d">%3$s</font></b>]]>
+        </item>
+        <item quantity="other">
+            <![CDATA[Total: <b><font color="%1$d">%2$d</font></b> apps, <b><font color="%1$d">%3$s</font></b>]]>
+        </item>
+    </plurals>
     <string name="total_zero_app">
-        <![CDATA[Total: <b><font color="%1$d">0</Font></b> app]]>
+        <![CDATA[Total: <b><font color="%1$d">0</font></b> app]]>
     </string>
 
     <string name="general">Geral</string>
@@ -235,7 +231,7 @@ Detalhe do problema::
     <string name="download_via_wifi_only">Baixar apenas através do Wi-Fi</string>
     <string name="enable_ultra_download">Ativar Ultra Download</string>
     <string name="enable_ultra_download_summary">Ultra Download está em teste beta, deixe-nos saber se você encontrar quaisquer problemas.</string>
-<string name="similar_or_related">Semelhante ou relacionado</string>
+    <string name="similar_or_related">Semelhante ou relacionado</string>
     <string name="more_from_developer">Mais do desenvolvedor</string>
     <string name="more_large">Mais</string>
     <string name="feedback">Comentários</string>
@@ -248,15 +244,7 @@ Detalhe do problema::
     <string name="auto_service_dialog_message">A Instalação Automática exige que você autorize no telefone, é seguro usar sem riscos.</string>
 
     <string name="auto_service_title">Instalação automática do APKPure</string>
-    <string name="auto_service_description">Ative a Instalação automática do APKPure, para manter a Instalação automática do APKPure funcionando sem problemas.
-
-A Instalação automática do APKPure pode ajudá-lo a clicar em todos os botões de instalação ao instalar ou atualizar aplicativos, não é necessário verificar o telefone o tempo todo.
-
-Ao ativar esse recurso, você pode receber avisos de risco do sistema, toque em \"OK\" para ativar o botão de acessibilidade \"ON\".
-
-Para garantir o bom funcionamento do APKPure, adicione o APKPure à sua \"Lista Branca\" de Limpeza.
-
-As funções acima mencionadas suportam o Android 4.1 ou superior, sem necessidade de permissão de root. Prometemos nunca recolher qualquer informação pessoal neste serviço de acessibilidade. Sinta por favor livre contatar-nos com todos os problemas.</string>
+    <string name="auto_service_description">Ative a Instalação automática do APKPure, para manter a Instalação automática do APKPure funcionando sem problemas.\n\nA Instalação automática do APKPure pode ajudá-lo a clicar em todos os botões de instalação ao instalar ou atualizar aplicativos, não é necessário verificar o telefone o tempo todo.\n\nAo ativar esse recurso, você pode receber avisos de risco do sistema, toque em \"OK\" para ativar o botão de acessibilidade \"ON\".\n\nPara garantir o bom funcionamento do APKPure, adicione o APKPure à sua \"Lista Branca\" de Limpeza.\n\nAs funções acima mencionadas suportam o Android 4.1 ou superior, sem necessidade de permissão de root. Prometemos nunca recolher qualquer informação pessoal neste serviço de acessibilidade. Sinta por favor livre contatar-nos com todos os problemas.</string>
 
     <string name="auto_service_install">Instalar</string>
     <string name="auto_service_ensure">OK</string>
@@ -274,4 +262,4 @@ As funções acima mencionadas suportam o Android 4.1 ou superior, sem necessida
     <string name="auto_install_via_root_summary">Apenas para telefones e tablets com Root.</string>
 
     <string name="download_complete_installation_setting">Opção de instalação após o download</string>
-    </resources>
+</resources>
