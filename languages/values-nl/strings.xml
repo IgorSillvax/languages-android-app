@@ -1,6 +1,5 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources
-    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<?xml version='1.0' encoding='UTF-8'?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
     <string name="updates">Bijwerken</string>
 
@@ -134,7 +133,9 @@
     <string name="trending_searches">Trends in zoekopdrachten</string>
 
     <string name="improvement_plan_title">Prestatieverbeteringsplan</string>
-    <string name="improvement_plan_message"> Help ons door Androidtoestelinformatie te sturen, We verzamelen <b>geen</b> persoonlijk identificeerbare gegevens (naam, adres, e-mailadres, sofi-nummer, of andere unieke identificatienummers). </string>
+    <string name="improvement_plan_message">
+ Help ons door Android toestelinformatie te sturen, We verzamelen <b>geen</b> persoonlijk identificeerbare gegevens (naam, adres, e-mailadres, telefoonnummer, of andere unieke identificatienummers).
+ </string>
     <string name="join_us">Word Lid</string>
     <string name="skip">Overslaan</string>
 
@@ -162,8 +163,12 @@
     </string>
 
     <string name="setting">Instelling</string>
-    <string name="external_storage_not_usable"> <big><b>We hebben toegang nodig tot je externe opslag. Zorg er alsjeblieft voor dat het te gebruiken is.</b></big> </string>
-    <string name="external_storage_permission_denied"> <big><b>We hebben toegang nodig tot je externe opslag. Zorg er alsjeblieft voor dat de machtiging niet is geweigerd.</b></big> </string>
+    <string name="external_storage_not_usable">
+ <big><b>We hebben toegang nodig tot je externe opslag. Zorg er alsjeblieft voor dat het te gebruiken is.</b></big>
+ </string>
+    <string name="external_storage_permission_denied">
+ <big><b>We hebben toegang nodig tot je externe opslag. Zorg er alsjeblieft voor dat de machtiging niet is geweigerd.</b></big>
+ </string>
 
     <string name="share">Delen</string>
     <string name="share_app_url">Download <xliff:g id="app_name" example="APKPure">%1$s</xliff:g> APK (via @<xliff:g id="social_network_name" example="APKPure">%2$s</xliff:g>), <xliff:g id="app_url" example="https://apkpure.com/p/com.apkpure.aegon">%3$s</xliff:g></string>
@@ -216,4 +221,46 @@
     <string name="contact_us__">Neem Contact Op…</string>
     <string name="select_all">Selecteer Alles</string>
     <string name="deselect_all">Deselecteer Alles</string>
-</resources>
+<string name="similar_or_related">soortgelijke of verwante</string>
+    <string name="more_from_developer">Meer van Ontwikkelaar</string>
+    <string name="more_large">Meer</string>
+    <string name="installed">Geïnstalleerd</string>
+    <string name="download_over_cellular">Download over 4G</string>
+    <string name="download_over_cellular_content">Je gaat downloaden via uw mobiele netwerk. Wilt u doorgaan?</string>
+
+    <string name="participate_ultra_download_beta_test_title">schakel Ultra Download in en geniet van een snellere download snelheid</string>
+    <string name="participate_ultra_download_beta_test_content">Ultra Download is in beta testen, laat het ons weten als u problemen ondervindt. U kunt het gemakkelijk onder Instellingen.</string>
+    <string name="enable">inschakelen</string>
+
+    <string name="feedback">Feedback</string>
+
+    <string name="changing_language">Het veranderen van de taal, even geduld …</string>
+    <string name="download_via_wifi_only">Download alleen over Wifi</string>
+    <string name="enable_ultra_download">Schakel Ultra Download in</string>
+    <string name="enable_ultra_download_summary">Ultra Download is in beta testen, laat het ons weten als u problemen ondervindt.</string>
+    <string name="auto_service_install_accessibility_title">Automatisch installeren</string>
+    <string name="auto_service_install_accessibility_summary">Ondersteuning voor Android 4.1 en hoger, geen wortel toestemming nodig.</string>
+
+    <string name="auto_service_dialog_title">Schakel Automatische installatie in</string>
+    <string name="auto_service_dialog_message">Auto Install vereist dat u toe te staan aan de telefoon, het is veilig om te gebruiken zonder risico\'s.</string>
+
+    <string name="auto_service_title">APKPure automatische installeerder</string>
+    <string name="auto_service_install">Installeren</string>
+    <string name="auto_service_ensure">OK</string>
+    <string name="auto_service_next">Volgende</string>
+    <string name="auto_service_exchange">Vervangen</string>
+    <string name="auto_service_complete">Klaar</string>
+
+    <string name="auto_service_install__material_">INSTALLEREN</string>
+    <string name="auto_service_ensure__material_">OK</string>
+    <string name="auto_service_next__material_">VOLGENDE</string>
+    <string name="auto_service_exchange__material_">VERVANGEN</string>
+    <string name="auto_service_complete__material_">KLAAR</string>
+
+    <string name="auto_install_via_root_title">Automatisch Installeren (wortel modus)</string>
+    <string name="auto_install_via_root_summary">Alleen voor gewortelde Android-telefoons en tablets.</string>
+
+    <string name="download_complete_installation_setting">Installatie-optie na het downloaden</string>
+    <string name="auto_service_description">Kan niet meer</string>
+
+    </resources>
