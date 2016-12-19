@@ -34,7 +34,7 @@
     <string name="about_message">
         <![CDATA[<b>버전:</b> %1$s<br><br><b>웹사이트:</b> <a href=%2$s>%2$s</a><br><b>이메일:</b> <a href=mailto:%3$s>%3$s</a>]]>
     </string>
-    <string name="check_update">업데이트 체크</string>
+    <string name="check_update">업데이트 확인</string>
     <string name="quit">끝내기</string>
     <string name="want_to_quit">종료 하시겠습니까?</string>
 
@@ -144,8 +144,8 @@
     <string name="report_problem_subject">문제점을 보고</string>
     <string name="report_problem_text">문제점:\n%1$s\n\n자세한 문제:\n%2$s</string>
 
-    <string name="installation_failed">설치 실패함</string>
-    <string name="invalid_app_detail">자세한 앱정보가 없습니다.</string>
+    <string name="installation_failed">설치 실패</string>
+    <string name="invalid_app_detail">자세한 앱 정보가 없습니다.</string>
     <string name="invalid_app_asset">유효하지 않은 앱 정보.</string>
     <string name="failed_to_request_app_detail">앱 정보 요청 실패함.</string>
     <string name="failed_to_request_app_asset">앱 정보 요청 실패함.</string>
@@ -200,8 +200,8 @@
     <string name="waiting_to_download">다운로드 중이니 기다리세요</string>
     <string name="deleted">삭제</string>
     <string name="remove_all">전체 지우기</string>
-    <string name="want_to_remove_all_download_items">다운로드 한 모든 항목을 제거 하시겠습니까?</string>
-    <string name="delete_downloaded_file">다운로드 한 파일을 삭제</string>
+    <string name="want_to_remove_all_download_items">다운로드한 모든 항목을 제거 하시겠습니까?</string>
+    <string name="delete_downloaded_file">다운로드한 파일을 삭제</string>
 
     <string name="contact_us__">문의 …</string>
     <string name="contact_us">문의</string>
@@ -217,4 +217,30 @@
     <string name="touch_to_open">열려면 터치합니다.</string>
 
     <string name="flag_as_inappropriate">올바르지 않은 플래그</string>
-</resources>
+<string name="installed">설치됨</string>
+    <string name="participate_ultra_download_beta_test_title">울트라 다운로드를 활성화하고 더 빠른 다운로드 속도를 즐기세요</string>
+    <string name="enable">활성화</string>
+
+    <string name="feedback">피드백</string>
+
+    <string name="changing_language">언어를 바꾸는 중, 기다려 주세요…</string>
+    <string name="enable_ultra_download">울트라 다운로드 활성화</string>
+    <string name="auto_service_install_accessibility_title">자동 설치</string>
+    <string name="auto_service_install_accessibility_summary">안드로이드 4.1 이상 지원, 루트 권한 불필요.</string>
+
+    <string name="auto_service_dialog_title">자동 설치 활성화</string>
+    <string name="auto_service_title">APKPure 자동 설치</string>
+    <string name="auto_service_install">설치</string>
+    <string name="auto_service_ensure">확인</string>
+    <string name="auto_service_next">다음</string>
+    <string name="auto_service_complete">완료</string>
+
+    <string name="auto_service_install__material_">설치</string>
+    <string name="auto_service_ensure__material_">확인</string>
+    <string name="auto_service_next__material_">다음</string>
+    <string name="auto_service_complete__material_">완료</string>
+
+    <string name="auto_install_via_root_title">자동 설치(루트 권한 모드)</string>
+    <string name="auto_install_via_root_summary">루트 권한이 있는 안드로이드 폰과 태블릿에서만 가능.</string>
+
+    </resources>
