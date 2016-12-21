@@ -25,7 +25,7 @@
     <string name="app_updates">Atualizações de aplicativos</string>
     <string name="app_management">Gerenciador de Aplicativos</string>
     <string name="app_uninstall">Desinstalar App</string>
-    <string name="apk_management">Gerenciador de Apk</string>
+    <string name="apk_management">Gerenciador de APK</string>
     <string name="apk_xapk_management">Gerenciador de APK / XAPK</string>
     <string name="download_management">Gerenciador de download</string>
     <string name="settings">Configurações</string>
@@ -52,7 +52,7 @@
     <string name="failed_to_delete_file">Falha ao excluir o arquivo.</string>
     <string name="install__label_">Instalar - <xliff:g id="app_label" example="APKPure">%1$s</xliff:g></string>
     <string name="user_canceled">Usuário cancelado.</string>
-    <string name="io_error">de erro IO. Pode ser que não há espaço livre suficiente para a instalação de sucesso.</string>
+    <string name="io_error">Erro IO. Pode ser que não há espaço livre suficiente para a instalação de sucesso.</string>
     <string name="file_format_error">Erro do formato do arquivo.</string>
     <string name="parsing_xapk">Analisando XAPK …</string>
     <string name="installing_obb">Instalação de arquivos OBB …</string>
@@ -107,16 +107,16 @@
 	    <item quantity="one"><xliff:g id="count" example="1">%1$d</xliff:g> item está baixando</item>
 	    <item quantity="other"><xliff:g id="count" example="2">%1$d</xliff:g> itens estão baixando</item>
     </plurals>
-    <string name="downloads_complete">Downloads completo</string>
+    <string name="downloads_complete">Download completo</string>
     <string name="touch_for_view_all_downloads">Toque para ver todos os downloads</string>
     <string name="_name__download_failed"><xliff:g id="name" example="APKPure">%1$s</xliff:g> Transferência falhou</string>
     <string name="touch_to_download_it_again">Toque para fazer o download novamente</string>
 
     <string name="download_percent"><xliff:g id="percent" example="50">%1$d</xliff:g> %%</string>
     <string name="pause">Pausa</string>
-    <string name="pause_all">Pausar Todos</string>
+    <string name="pause_all">Pausar todos</string>
     <string name="continue_">Continuar</string>
-    <string name="continue_all">Continuar Todos</string>
+    <string name="continue_all">Continuar todos</string>
     <string name="restart">Reiniciar</string>
     <string name="download">Baixar</string>
     <string name="downloading">Baixando</string>
@@ -130,7 +130,7 @@
     <string name="waiting_to_download">Esperando para baixar</string>
     <string name="deleted">Excluído</string>
     <string name="expired">Expirado</string>
-    <string name="detail">Detalhe</string>
+    <string name="detail">Detalhes</string>
     <string name="remove">Remover</string>
     <string name="remove_all">Deletar tudo</string>
     <string name="want_to_remove_download_item">Pretende remover este item da transferência?</string>
@@ -143,10 +143,10 @@
     <string name="search_history">Histórico</string>
     <string name="clear_search_history">Apagar o histórico</string>
 
-    <string name="improvement_plan_title">Plano de Melhoria de Desempenho</string>
+    <string name="improvement_plan_title">Plano de melhoria de desempenho</string>
     <string name="improvement_plan_message">
-        <![CDATA[Ajude-nos a enviar informações do dispositivo Android, <b> 1 Não coletamos </b> 2 informações pessoais como (nome, endereço, endereço de e-mail, número de segurança social ou outros identificadores exclusivos).]]>
-    </string>
+ Ajude-nos a enviar informações do dispositivo Android, <b> Não coletamos </b> informações pessoais, como: (Nome, endereço, endereço de e-mail, número de segurança social ou outros identificadores exclusivos).
+ </string>
     <string name="join_us">Junte-se a nós</string>
     <string name="skip">Pular</string>
 
@@ -200,16 +200,16 @@
     <string name="deselect_all">Desmarcar todos</string>
     <string name="ignored">Ignorar</string>
     <plurals name="total__count__apps__size_">
-        <item quantity="one">
-            <![CDATA[Total: <b><font color="%1$d">%2$d</font></b> app, <b><font color="%1$d">%3$s</font></b>]]>
-        </item>
-        <item quantity="other">
-            <![CDATA[Total: <b><font color="%1$d">%2$d</font></b> apps, <b><font color="%1$d">%3$s</font></b>]]>
-        </item>
-    </plurals>
-    <string name="total_zero_app">
-        <![CDATA[Total: <b><font color="%1$d">0</font></b> app]]>
-    </string>
+	<item quantity="one">"
+ Total: &lt;b&gt;&lt;fonte color=%1$d&gt;%2$d&lt;/font&gt;&lt;/b&gt; app, &lt;b&gt;&lt;font color=%1$d&gt;%3$s&lt;/font&gt;&lt;/b&gt;
+ "</item>
+	<item quantity="other">"
+ Total: &lt;b&gt;&lt;fonte color=%1$d&gt;%2$d&lt;/font&gt;&lt;/b&gt; apps, &lt;b&gt;&lt;font color=%1$d&gt;%3$s&lt;/font&gt;&lt;/b&gt;
+ "</item>
+</plurals>
+    <string name="total_zero_app">"
+ Total: &lt;b&gt;&lt;fonte color=%1$d&gt;0&lt;/font&gt;&lt;/b&gt; app
+ "</string>
 
     <string name="general">Geral</string>
     <string name="language">Idioma</string>
@@ -240,8 +240,8 @@
     <string name="auto_service_install_accessibility_title">Instalação automática</string>
     <string name="auto_service_install_accessibility_summary">Suporte Android 4.1 ou superior, sem necessidade de permissão de root.</string>
 
-    <string name="auto_service_dialog_title">Ativar a Instalação Automática</string>
-    <string name="auto_service_dialog_message">A Instalação Automática exige que você autorize no telefone, é seguro usar sem riscos.</string>
+    <string name="auto_service_dialog_title">Ativar a Instalação automática</string>
+    <string name="auto_service_dialog_message">A Instalação automática exige que você autorize no telefone, é seguro usar sem riscos.</string>
 
     <string name="auto_service_title">Instalação automática do APKPure</string>
     <string name="auto_service_description">Ative a Instalação automática do APKPure, para manter a Instalação automática do APKPure funcionando sem problemas.\n\nA Instalação automática do APKPure pode ajudá-lo a clicar em todos os botões de instalação ao instalar ou atualizar aplicativos, não é necessário verificar o telefone o tempo todo.\n\nAo ativar esse recurso, você pode receber avisos de risco do sistema, toque em \"OK\" para ativar o botão de acessibilidade \"ON\".\n\nPara garantir o bom funcionamento do APKPure, adicione o APKPure à sua \"Lista Branca\" de Limpeza.\n\nAs funções acima mencionadas suportam o Android 4.1 ou superior, sem necessidade de permissão de root. Prometemos nunca recolher qualquer informação pessoal neste serviço de acessibilidade. Sinta por favor livre contatar-nos com todos os problemas.</string>
