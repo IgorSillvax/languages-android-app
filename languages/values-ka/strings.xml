@@ -1,2 +1,271 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources></resources>
+<?xml version='1.0' encoding='UTF-8'?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2"><string name="action_settings">პარამეტრები</string>
+    <string name="action_search">ძებნა</string>
+    <string name="action_management">მართვა</string>
+
+    <string name="press_back_key_quit">გამოსართავად კიდევ ერთხელ დააჭირეთ</string>
+
+    <string name="featured">მთავარი</string>
+    <string name="games">თამაშები</string>
+    <string name="apps">აპლიკაციები</string>
+    <string name="categories">კატეგორიები</string>
+    <string name="updates">განახლება</string>
+
+    <string name="load_failed_empty">აქ არაფერია</string>
+    <string name="load_failed_all_up_to_date">ყველა apps დღემდე</string>
+    <string name="load_failed_no_results">არაფერი მოიძებნა</string>
+    <string name="refresh">განახლება</string>
+
+    <string name="management">კონტროლი</string>
+    <string name="app_updates">აპლიკაციების განახლება</string>
+    <string name="app_management">აპლიკაციებია კონტროლი</string>
+    <string name="app_uninstall">აპლოკაციების წაშლა</string>
+    <string name="apk_management">APK კონტროლი</string>
+    <string name="apk_xapk_management">APK / XAPK კონტროლი</string>
+    <string name="download_management">გადმოწერის კონტროლი</string>
+    <string name="settings">კონტროლი</string>
+    <string name="about">შესახებ</string>
+    <string name="about_title">შესახებ <xliff:g id="app_name" example="APKPure">%1$s</xliff:g></string>
+    <string name="about_message">"
+ &lt;b&gt;ვერსია:&lt;/b&gt; %1$s&lt;br&gt;&lt;br&gt;&lt;b&gt;საიტი:&lt;/b&gt; &lt;a href=%2$s&gt;%2$s&lt;/a&gt;&lt;br&gt;&lt;b&gt;მეილი:&lt;/b&gt; &lt;a href=mailto:%3$s&gt;%3$s&lt;/a&gt;
+ "</string>
+    <string name="check_update">მზადება განახლებისთვის</string>
+    <string name="quit">გასვლა</string>
+    <string name="install">დაყენება</string>
+    <string name="open">გახსნა</string>
+    <string name="delete">წაშლა</string>
+    <string name="delete_all">ყველას წაშლა</string>
+    <string name="properties">თვისებები</string>
+    <string name="properties_message">"
+ &lt;b&gt;ნაწილი:&lt;/b&gt; %1$s&lt;br&gt;&lt;b&gt;ზომა:&lt;/b&gt; %2$s&lt;br&gt;&lt;b&gt;ბოლო განახლება:&lt;/b&gt; %3$s
+ "</string>
+    <string name="want_to_delete_file">გინდა წაშალო?</string>
+    <string name="want_to_delete_all_files">გინდა ყველა წაშალო?</string>
+    <string name="file_has_been_deleted">წაშლილია.</string>
+    <string name="failed_to_delete_file">ფაილი წაშლილია.</string>
+    <string name="install__label_">დაყენება - <xliff:g id="app_label" example="APKPure">%1$s</xliff:g></string>
+    <string name="user_canceled">გაუქმდა.</string>
+    <string name="io_error">არ ეტევაააა.</string>
+    <string name="file_format_error">არ ერგება.</string>
+    <string name="parsing_xapk">დამუშავების XAPK …</string>
+    <string name="installing_obb">დაყენება OBB…</string>
+    <string name="extracting_apk">დაყენება APK.…</string>
+    <string name="installing_apk">დაყენება APK …</string>
+
+    <string name="uninstall">წაშლა</string>
+    <string name="uninstalled">წაშლილია</string>
+    <string name="last_update__date_">ბოლო განახლება : <xliff:g id="date">%1$s</xliff:g></string>
+
+    <string name="all">ყველა</string>
+
+    <string name="screenshots">ფოტოები</string>
+    <string name="description">აღწერა</string>
+    <string name="whatsnew">რა არის ახალი</string>
+    <string name="information">ინფორმაცია</string>
+    <string name="version_">ვერსია :</string>
+    <string name="updated_">განახლდა :</string>
+    <string name="size_">ზომა :</string>
+    <string name="permissions_">უფლებები:</string>
+    <string name="type_">ტიპი :</string>
+    <string name="category_">კატეგორია :</string>
+    <string name="more">მეტი</string>
+    <string name="permissions">უფლება</string>
+    <string name="other">სხვა</string>
+    <string name="similar_or_related">მსგავსი ან შემცვლელი</string>
+    <string name="more_from_developer">მეტი დეველოპერზე</string>
+    <string name="more_large">მეტი</string>
+    <string name="apk">APK</string>
+    <string name="xapk">XAPK</string>
+    <string name="unknown">უცნობი</string>
+    <string name="flag_as_inappropriate">არასასურველის მონიშვნა</string>
+    <string name="_ellipsis_"> … </string>
+
+    <string name="market_response_error_success">შესრულებულია.</string>
+    <string name="market_response_error_invalid_result">ვერ მოიძებნა.</string>
+    <string name="market_response_error_network_connect_error">ინტერნერტი არაა.</string>
+    <string name="market_response_error_network_read_error">ინტი არაა.</string>
+    <string name="market_response_error_invalid_response_code">არასწორი კოდი.</string>
+    <string name="market_response_error_invalid_response_body">არასწორი პასუხი სხეულის.</string>
+    <string name="market_response_error_unknown_error__error_">შეცდომა (<xliff:g id="error" example="SUCCESS">%1$s</xliff:g>).</string>
+
+    <string name="no_more">მეტი არაა.</string>
+
+    <string name="update">განახლება</string>
+    <string name="version__version___size_">ვერსია : <xliff:g id="version" example="1.0.0">%1$s</xliff:g>, <xliff:g id="size" example="1024 kB">%2$s</xliff:g></string>
+    <plurals name="_count__new_update_is_available">
+	<item quantity="one"><xliff:g id="count" example="1">%1$d</xliff:g> განახლება შესაძლებელია</item>
+	<item quantity="other"/>
+</plurals>
+
+    <string name="launching_please_wait">მოიცადეთ…</string>
+
+    <plurals name="_count__item_is_downloading">
+	<item quantity="one"><xliff:g id="count" example="1">%1$d</xliff:g> მიმდონარეობს გადმოწერა</item>
+	<item quantity="other"/>
+</plurals>
+    <string name="downloads_complete">"გადმოწერა  დასრულდა"</string>
+    <string name="touch_for_view_all_downloads">ყველა გადმოწერის ნახვა</string>
+    <string name="_name__download_failed"><xliff:g id="name" example="APKPure">%1$s</xliff:g> ჩაიშალა</string>
+    <string name="touch_to_download_it_again">გამეორება</string>
+
+    <string name="download_percent"><xliff:g id="percent" example="50">%1$d</xliff:g> %%</string>
+    <string name="pause">პაუზა</string>
+    <string name="pause_all">ყველას პაუზა</string>
+    <string name="continue_">გაგრძელება</string>
+    <string name="continue_all">ყველას გაგრძელება</string>
+    <string name="restart">გამეორება</string>
+    <string name="download">გადმოწერა</string>
+    <string name="downloading">იწერება</string>
+    <string name="waiting">მოიცადეთ</string>
+    <string name="preparing">გამოთვლა</string>
+    <string name="completed">დასრულდააა</string>
+    <string name="paused">გაჩერებულია</string>
+    <string name="failed">ჩაიშალა</string>
+    <string name="file_invalid">შეცდომა</string>
+    <string name="file_missing">ფაილი დაიკარგა</string>
+    <string name="waiting_to_download">მოიცადეთ</string>
+    <string name="deleted">წაიშალა</string>
+    <string name="expired">ამოიწურა</string>
+    <string name="installed">დაყენებულია</string>
+    <string name="detail">შესახებ</string>
+    <string name="remove">მოშორება</string>
+    <string name="remove_all">ყველას მოშორება</string>
+    <string name="want_to_remove_download_item">გინდა წაშალო?</string>
+    <string name="want_to_remove_all_download_items">გინდა ყველა წაშალო?</string>
+    <string name="delete_downloaded_file">წაიშალოს გადმოწერილიც</string>
+    <string name="download_over_cellular">გამოთვლა</string>
+    <string name="download_over_cellular_content">გინდა მობილურის ინტერნეტით გადმოწერო?</string>
+
+    <string name="search">ძიება</string>
+    <string name="search_for_apps">აპლიკაციების ძიება</string>
+    <string name="trending_searches">ძიება</string>
+    <string name="search_history">ისტორია</string>
+    <string name="clear_search_history">ისტორიის წაშლა</string>
+
+    <string name="improvement_plan_title">შესრულების გაუმჯობესების გეგმა</string>
+    <string name="improvement_plan_message">
+ Help us with submit Android Device Info, We do <b>not collect</b> personally-identifiable information (name, address, e-mail address, social security number, or other unique identifiers).
+ </string>
+    <string name="join_us">ჩვენზე</string>
+    <string name="skip">გამოტოვება</string>
+
+    <string name="participate_ultra_download_beta_test_title">ულტრა გადმოწერა</string>
+    <string name="participate_ultra_download_beta_test_content">ულტრა გადმოწერა სატესტო რეჟიმშიაა.</string>
+    <string name="enable">ჩართვა</string>
+
+    <string name="_name__is_up_to_date"><xliff:g id="name" example="APKPure">%1$s</xliff:g>"  მეხსიერება."</string>
+    <string name="new_version_available_title">ახალი ვერსია</string>
+    <string name="new_version_available_message">"
+ &lt;b&gt;ბოლო ვერსია &lt;/b&gt; %1$s&lt;br&gt;&lt;br&gt;&lt;b&gt;რაა ახალი:&lt;/b&gt;&lt;br&gt;%2$s
+ "</string>
+
+    <string name="report__">გამოქვეყნება.…</string>
+    <string name="report_problem__">პრობლემა…</string>
+    <string name="report_problem_subject">პრობლემა</string>
+    <string name="report_problem_text">პრობლემის ტიპი:
+%პრობლემა :
+%2$s</string>
+    <string name="contact_us__">გვეკო ტაქტე…</string>
+    <string name="contact_us">გვეკონტაქტე</string>
+    <string name="report_content">ანგარიშის შინაარსის</string>
+    <string name="feedback">კავშირი</string>
+
+    <string name="installation_failed">დაყენება ჩაიშალა</string>
+    <string name="invalid_app_detail">არასწორი პროგრამა.</string>
+    <string name="invalid_app_asset">არასწორი app აქტივი ინფორმაცია.</string>
+    <string name="failed_to_request_app_detail">მოთხოვნა ვერ მოხერხდა app დეტალური ინფორმაცია.</string>
+    <string name="failed_to_request_app_asset">მოთხოვნა ვერ მოხერხდა app აქტივი ინფორმაცია.</string>
+    <string name="incompatible_this_app">"
+ &lt;big&gt;&lt;b&gt;&lt;ფერი =%1$d&gt;არასაკმარისი მონაცემები .&lt;/font&gt;&lt;/b&gt;&lt;/big&gt;&lt;br&gt;&lt;br&gt;გინდა გაგრძელება?
+ "</string>
+    <string name="this_app_not_usable">"
+ &lt;big&gt;&lt;b&gt;&lt;ფერი=%1$d&gt;არადაიმედო APP.&lt;/font&gt;&lt;/b&gt;&lt;/big&gt;&lt;br&gt;&lt;br&gt;გინდა განაგრძო?
+ "</string>
+
+    <string name="setting">პარამეტრები</string>
+    <string name="external_storage_not_usable">
+ <big><b>ნებართვა მეხსიერებაზე .</b></big>
+ </string>
+    <string name="external_storage_permission_denied">
+ <big><b>ნებართვა მეხსიერებაზე.</b></big>
+ </string>
+
+    <string name="share">გაზიარება</string>
+    <string name="share_app_url">გადმოწერა <xliff:g id="app_name" example="APKPure">%1$s</xliff:g> APK (from @<xliff:g id="social_network_name" example="APKPure">%2$s</xliff:g>), <xliff:g id="app_url" example="https://apkpure.com/p/com.apkpure.aegon">%3$s</xliff:g></string>
+
+    <string name="_name__version_history"><xliff:g id="name" example="APKPure">%1$s</xliff:g>" Version  ისტორია"</string>
+    <string name="update__date___size_">განახლება: <xliff:g id="date" example="Mar 3, 2016">%1$s</xliff:g>, <xliff:g id="size" example="1024 kB">%2$s</xliff:g></string>
+
+    <string name="update_all">ყველას განახლება</string>
+    <string name="update___count__">განახლება (<xliff:g id="count" example="3">%1$d</xliff:g>)</string>
+    <string name="ignore">უარყოფა</string>
+    <string name="unignore">უარყოფის გაუქმება</string>
+    <string name="select">მონიშვნა</string>
+    <string name="cancel">გაუქმება</string>
+    <string name="select_all">ყველას მონიშვნა</string>
+    <string name="deselect_all">—მონიშვნის უარყოფა</string>
+    <string name="ignored">უარყოფა</string>
+    <plurals name="total__count__apps__size_">
+	<item quantity="one">"
+ სულ: &lt;b&gt;&lt;ფერი=%1$d&gt;%2$d&lt;/font&gt;&lt;/b&gt; app, &lt;b&gt;&lt;font color=%1$d&gt;%3$s&lt;/font&gt;&lt;/b&gt;
+ "</item>
+	<item quantity="other"/>
+</plurals>
+    <string name="total_zero_app">"
+ სულ: &lt;b&gt;&lt;font ფერი=%1$d&gt;0&lt;/font&gt;&lt;/b&gt; app
+ "</string>
+
+    <string name="general">მთავარი</string>
+    <string name="language">ენა</string>
+    <string name="auto">ავთო</string>
+    <string name="changing_language">ენა იცვლება მოითმინეთ…</string>
+    <string name="download_via_wifi_only">გადმოწერა წიფით</string>
+    <string name="enable_ultra_download">ულტრა გადმოწერა</string>
+    <string name="enable_ultra_download_summary">ულტრა გადმოწერა იტესტება.</string>
+    <string name="installation">დაყენება</string>
+    <string name="show_notification_after_installation">გამაგებინე დაყენების შემდეგ</string>
+    <string name="delete_packages_after_installation">წაშალე დაყენების შემდეგ</string>
+
+    <string name="_name__installation_completed"><xliff:g id="name" example="APKPure">%1$s</xliff:g> დაყენება დასრულდა</string>
+    <string name="touch_to_open">გასახსნედად დააჭირე.</string>
+
+    <string name="auto_service_install_accessibility_title">თვით დაყენება</string>
+    <string name="auto_service_install_accessibility_summary">"თავსებადია 4.1+  ANDROID."</string>
+
+    <string name="auto_service_dialog_title">ნებართვა თვით ინსტალაციაზე</string>
+    <string name="auto_service_dialog_message">თვით ინსტალაცია უსაფრთხოა.</string>
+
+    <string name="auto_service_title">APKPure თვით ინატალაცია</string>
+    <string name="auto_service_description">ჩართვა \"APKPure ავტომატური დაყენება\", რათა APKPure \"ავტომატური დაყენება\" გაშვებული შეუფერხებლად.
+
+\"APKPure ავტომატური დაყენება\" დაგეხმარებათ დააჭირეთ ყველა დააყენოთ ღილაკები როდესაც დაყენების ან განაახლოთ apps, თქვენ არ უნდა შეამოწმოს ტელეფონში ყველა დრო.
+
+როდესაც საშუალებას მისცემს ამ ფუნქციის, თქვენ შეიძლება მიიღოთ სისტემის რისკის გაფრთხილება, გთხოვთ დააჭირეთ ღილაკს \"OK\", რომ ხელმისაწვდომობის შეცვლა \"შესახებ\".
+
+იმისათვის, რომ APKPure კარგად ფუნქციონირებადი, გთხოვთ დაამატოთ APKPure თქვენი დასუფთავების App \"თეთრი სია\".
+
+აღნიშნული ფუნქციების მხარდაჭერა Android 4.1+, არ root ნებართვა საჭირო. გპირდებით, რომ არასოდეს შეგროვება ნებისმიერი თქვენი პირადი ინფორმაცია ამ ხელმისაწვდომობის მომსახურებას. გთხოვთ მოგერიდებათ დაგვიკავშირდეთ არანაირი პრობლემა.</string>
+
+    <string name="auto_service_install">დაყენება</string>
+    <string name="auto_service_ensure">ოკ</string>
+    <string name="auto_service_next">შემდეგი</string>
+    <string name="auto_service_exchange">ჩანაცვლება</string>
+    <string name="auto_service_install__material_">დაყენება</string>
+    <string name="auto_service_next__material_">მერეე</string>
+    <string name="auto_service_exchange__material_">ჩანაცვლენა</string>
+    <string name="auto_service_complete">დამთავრება</string>
+
+    <string name="auto_service_ensure__material_">ოკკ</string>
+    <string name="auto_service_complete__material_">დამთავრება</string>
+
+    <string name="auto_install_via_root_title">თვით ინსტალაცია რუთით</string>
+    <string name="auto_install_via_root_summary">მხოლოდ დარუთული ტელეფონისთვის.</string>
+
+    <string name="download_complete_installation_setting">ინსტალაცია გადმოწერის შემდეგ</string>
+    <string name="something_happened">&gt;_&lt;
+რაღაცა ნიტოაა.</string>
+
+    <string name="load_failed_error">უიიი</string>
+    <string name="want_to_quit">მართლა გინდა გასვლა?</string>
+
+    </resources>
