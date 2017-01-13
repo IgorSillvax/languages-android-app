@@ -3,7 +3,7 @@
     <string name="action_search">ძებნა</string>
     <string name="action_management">მართვა</string>
 
-    <string name="press_back_key_quit">გამოსართავად კიდევ ერთხელ დააჭირეთ</string>
+    <string name="press_back_key_quit">გამოსართავად კიდევ ერთხელ დააჭირეთ.</string>
 
     <string name="featured">მთავარი</string>
     <string name="games">თამაშები</string>
@@ -11,9 +11,9 @@
     <string name="categories">კატეგორიები</string>
     <string name="updates">განახლება</string>
 
-    <string name="load_failed_empty">აქ არაფერია</string>
-    <string name="load_failed_all_up_to_date">ყველა apps დღემდე</string>
-    <string name="load_failed_no_results">არაფერი მოიძებნა</string>
+    <string name="load_failed_empty">აქ არაფერია.</string>
+    <string name="load_failed_all_up_to_date">ყველა აპლიკაცია დღემდე.</string>
+    <string name="load_failed_no_results">არაფერი მოიძებნა.</string>
     <string name="refresh">განახლება</string>
 
     <string name="management">კონტროლი</string>
@@ -143,8 +143,9 @@
     <string name="clear_search_history">ისტორიის წაშლა</string>
 
     <string name="improvement_plan_title">შესრულების გაუმჯობესების გეგმა</string>
-    <string name="improvement_plan_message">
- Help us with submit Android Device Info, We do <b>not collect</b> personally-identifiable information (name, address, e-mail address, social security number, or other unique identifiers).
+    <string name="improvement_plan_message">"
+ დაგვეხმარეთ შექმნაში ერთად წარუდგინოს Android მოწყობილობა ინფორმაცია, ჩვენ არ &lt;b&gt; არ შეაგროვოს &lt;/ b&gt; პირადად ამოცნობადი ინფორმაცია (სახელი, მისამართი, ელექტრონული ფოსტის მისამართი, სოციალური დაცვის ნომერი, ან სხვა უნიკალური იდენტიფიკატორები).
+ "<b>not collect</b> personally-identifiable information (name, address, e-mail address, social security number, or other unique identifiers).
  </string>
     <string name="join_us">ჩვენზე</string>
     <string name="skip">გამოტოვება</string>
@@ -265,7 +266,7 @@
     <string name="something_happened">&gt;_&lt;
 რაღაცა ნიტოაა.</string>
 
-    <string name="load_failed_error">უიიი</string>
+    <string name="load_failed_error">უიიი!! შეცდომაა.</string>
     <string name="want_to_quit">მართლა გინდა გასვლა?</string>
 
     </resources>
