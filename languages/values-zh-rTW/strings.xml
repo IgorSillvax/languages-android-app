@@ -258,10 +258,48 @@
     <string name="auto_install_via_root_title">自動安裝（Root 模式）</string>
     <string name="auto_install_via_root_summary">僅限 Root 設備。</string>
 
+    <plurals name="app_detail_see_all_replies">
+        <item quantity="one">全部<xliff:g id="count" example="1">%1$d</xliff:g>條回復</item>
+        <item quantity="other">全部<xliff:g id="count" example="2">%1$d</xliff:g>條回復</item>
+    </plurals>
+    <string name="app_detail_customer_reviews">用戶評論</string>
+    <string name="app_detail_comment_type_web">網站</string>
+    <string name="app_submit_submit">提交中。。。</string>
+    <string name="app_submit_anonymous_comment">匿名評論</string>
+    <string name="app_submit_title_toast">請填寫標題!</string>
+    <string name="app_submit_msg_toast">請填寫評論!</string>
+    <string name="app_submit_name_toast">請填寫昵稱!</string>
+    <string name="app_submit_email_toast">請填寫正確的郵箱地址!</string>
+    <string name="app_submit_star_toast">請選擇星級!</string>
+    <string name="app_submit_title_hint">填寫標題</string>
+    <string name="app_submit_msg_hint">輸入您的評論</string>
+    <string name="app_submit_nickname">昵稱</string>
+    <string name="app_submit_email">電子郵箱</string>
+    <string name="app_submit_submit_title">提交</string>
+    <string name="app_submit_reply_to">回復</string>
+
+    <string name="app_detail_tab_one">詳情</string>
+    <string name="app_detail_tab_two">評價</string>
+    <string name="app_detail_tab_three">相關</string>
+
+    <array name="app_detail_comment_order_array">
+        <item>推薦</item>
+        <item>最新</item>
+        <item>最早</item>
+    </array>
+
     <string name="download_complete_installation_setting">下載後安裝選項</string>
     <string-array name="download_complete_installation_setting_entries">
         <item>總是安裝</item>
         <item>僅前台狀態下安裝</item>
         <item>從不安裝</item>
     </string-array>
+
+    <string name="reply">回復</string>
+    <string name="input_reply_content">請輸入回復內容:</string>
+    <string name="publish">發表</string>
+
+    <string name="load_end">沒有更多數據</string>
+    <string name="load_failed_click_retry">載入失敗，點擊重試</string>
+    <string name="loading">正在載入&#8230;</string>
 </resources>
