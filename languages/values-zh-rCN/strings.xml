@@ -257,10 +257,53 @@
     <string name="auto_install_via_root_title">自动安装（Root 模式）</string>
     <string name="auto_install_via_root_summary">仅限 Root 设备。</string>
 
+    <plurals name="app_detail_see_all_replies">
+        <item quantity="one">全部<xliff:g id="count" example="1">%1$d</xliff:g>条回复</item>
+        <item quantity="other">全部<xliff:g id="count" example="2">%1$d</xliff:g>条回复</item>
+    </plurals>
+
+    <string name="app_detail_customer_reviews">用户评论</string>
+    <string name="app_detail_comment_type_web">网站</string>
+    <string name="app_submit_submit">提交中。。。</string>
+    <string name="app_submit_anonymous_comment">匿名评论</string>
+    <string name="app_submit_title_toast">请填写标题!</string>
+    <string name="app_submit_msg_toast">请填写评论!</string>
+    <string name="app_submit_name_toast">请填写昵称!</string>
+    <string name="app_submit_email_toast">请填写正确的邮箱地址!</string>
+    <string name="app_submit_star_toast">请选择星级!</string>
+    <string name="app_submit_title_hint">填写标题</string>
+    <string name="app_submit_msg_hint">输入您的评论</string>
+    <string name="app_submit_nickname">昵称</string>
+    <string name="app_submit_email">电子邮箱</string>
+    <string name="app_submit_submit_title">提交</string>
+    <string name="app_submit_reply_to">回复</string>
+
+    <string name="app_detail_tab_one">详情</string>
+    <string name="app_detail_tab_two">评价</string>
+    <string name="app_detail_tab_three">相关</string>
+
+    <array name="app_detail_comment_order_array">
+        <item>推荐</item>
+        <item>最新</item>
+        <item>最早</item>
+    </array>
+
     <string name="download_complete_installation_setting">下载后安装选项</string>
     <string-array name="download_complete_installation_setting_entries">
         <item>总是安装</item>
         <item>仅前台状态下安装</item>
         <item>从不安装</item>
     </string-array>
+
+    <string name="reply">回复</string>
+    <string name="input_reply_content">请输入回复内容:</string>
+    <string name="publish">发表</string>
+
+    <string name="load_end">没有更多数据</string>
+    <string name="load_failed_click_retry">加载失败，点击重试</string>
+    <string name="loading">正在加载&#8230;</string>
+
+    <string name="scan_qr_ceode_hint">使用此功能前，您必须同意打开相机的权限</string>
+    <string name="zxing_msg_default_status">请将二维码置于取景框内扫描</string>
+    <string name="zxing_msg_parser_status">扫描失败,请重试</string>
 </resources>

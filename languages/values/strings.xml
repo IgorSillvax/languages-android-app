@@ -262,6 +262,37 @@
     <string name="auto_install_via_root_title">Auto Install (Root Mode)</string>
     <string name="auto_install_via_root_summary">For rooted Android phones and tablets only.</string>
 
+    <plurals name="app_detail_see_all_replies">
+        <item quantity="one">See All <xliff:g id="count" example="1">%1$d</xliff:g> reply</item>
+        <item quantity="other">See All <xliff:g id="count" example="2">%1$d</xliff:g> replies</item>
+    </plurals>
+
+    <string name="app_detail_customer_reviews">Customer Reviews</string>
+    <string name="app_detail_comment_type_web">web</string>
+    <string name="app_submit_submit">Submit…</string>
+    <string name="app_submit_anonymous_comment">Anonymous comments</string>
+    <string name="app_submit_title_toast">Your must write title!</string>
+    <string name="app_submit_msg_toast">Your must write something!</string>
+    <string name="app_submit_name_toast">Please fill in nickname!</string>
+    <string name="app_submit_email_toast">Please fill in the correct email address!</string>
+    <string name="app_submit_star_toast">Your must submit star!</string>
+    <string name="app_submit_title_hint">Please write title</string>
+    <string name="app_submit_msg_hint">Please write your opinion</string>
+    <string name="app_submit_nickname">Nickname</string>
+    <string name="app_submit_email">Email</string>
+    <string name="app_submit_submit_title">submit</string>
+    <string name="app_submit_reply_to">reply to</string>
+
+    <string name="app_detail_tab_one">Details</string>
+    <string name="app_detail_tab_two">Reviews</string>
+    <string name="app_detail_tab_three">Related</string>
+
+    <array name="app_detail_comment_order_array">
+        <item>Best</item>
+        <item>Newest</item>
+        <item>Oldest</item>
+    </array>
+
     <string-array name="language_entries" translatable="false">
         <item>@string/auto</item>
         <item>English</item>
@@ -329,4 +360,17 @@
     <string name="download_complete_installation_setting_default_value" translatable="false">install_now</string>
 
     <string name="leak_canary_display_activity_label" translatable="false">APKPure Leaks</string>
+
+    <string name="reply">Reply</string>
+    <string name="input_reply_content">The input content of the reply:</string>
+    <string name="publish">Publish</string>
+
+    <string name="load_end">No more data</string>
+    <string name="load_failed_click_retry">Failure load, click retry</string>
+    <string name="loading">Loading&#8230;</string>
+
+    <string name="scan_qr_code_hint">Before using "Scan QR Code" you need to grant camera permission
+        which is required for scanning QR code.</string>
+    <string name="zxing_msg_default_status">Please place the QR code inside the viewfinder to scan it.</string>
+    <string name="zxing_msg_parser_status">Scanning failed, please try to scan the QR code again.</string>
 </resources>
