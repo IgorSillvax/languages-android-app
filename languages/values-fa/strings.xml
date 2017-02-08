@@ -260,4 +260,41 @@
 
     <string name="changing_language">در حال تغییر زبان، لطفا صبر کنید…</string>
     <string name="download_complete_installation_setting">گزینه نصب پس از دانلود</string>
+    <plurals name="app_detail_see_all_replies">
+	<item quantity="one">مشاهده تمام <xliff:g id="count" example="1">%1$d</xliff:g> پاسخ</item>
+	<item quantity="other">مشاهده تمام <xliff:g id="count" example="2">%1$d</xliff:g> پاسخ‌ها</item>
+</plurals>
+
+    <string name="app_detail_customer_reviews">نظرات مشتریان</string>
+    <string name="app_detail_comment_type_web">وب</string>
+    <string name="app_submit_submit">ارسال…</string>
+    <string name="app_submit_anonymous_comment">نظرات ناشناس</string>
+    <string name="app_submit_title_toast">شما باید عنوان را وارد کنید !</string>
+    <string name="app_submit_msg_toast">شما باید چیزی بنویسید !</string>
+    <string name="app_submit_name_toast">لطفا یک نام مستعاروارد کنید !</string>
+    <string name="app_submit_email_toast">لطفا یک ایمیل معتبر وارد کنید !</string>
+    <string name="app_submit_star_toast">شما باید ستاره را انتخاب کنید !</string>
+    <string name="app_submit_title_hint">لطفا عنوان را وارد کنید</string>
+    <string name="app_submit_msg_hint">لطفا نظر خود را بنویسید</string>
+    <string name="app_submit_nickname">نام مستعار</string>
+    <string name="app_submit_email">ایمیل</string>
+    <string name="app_submit_submit_title">ارسال</string>
+    <string name="app_submit_reply_to">پاسخ دادن به</string>
+
+    <string name="app_detail_tab_one">جزئیات</string>
+    <string name="app_detail_tab_two">نقد و بررسی‌ها</string>
+    <string name="app_detail_tab_three">مربوط</string>
+
+    <string name="reply">پاسخ</string>
+    <string name="publish">انتشار</string>
+
+    <string name="load_end">محتوای بیشتری موجود نیست</string>
+    <string name="load_failed_click_retry">بارگذاری ناموفق بود، برای تلاش دوباره کلیک کنید</string>
+    <string name="loading">در حال بارگذاری…</string>
+
+    <string name="scan_qr_code_hint">قبل از استفاده اسکن کد QR باید شما به دوربین خود مجوز استفاده بدهید
+ تا بتوانید کد QR را اسکن کند.</string>
+    <string name="zxing_msg_parser_status">اسکن ناموفق بود، لطفا برای اسکن کد QR دوباره تلاش کنید.</string>
+<string name="input_reply_content">محتوای واردی برای پاسخ:</string>
+    <string name="zxing_msg_default_status">لطفا محل کد QR را در قسمت منظره یاب برای اسکن قرار دهید.</string>
     </resources>
