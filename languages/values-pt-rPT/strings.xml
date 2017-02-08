@@ -90,4 +90,42 @@ Algo aconteceu.</string>
     <string name="market_response_error_invalid_result">resultado inválido.</string>
     <string name="market_response_error_network_connect_error">Erro ao Conectar na Rede.</string>
     <string name="market_response_error_network_read_error">Erro de Leitura da Rede.</string>
+    <string name="market_response_error_invalid_response_code">Código de resposta inválido.</string>
+    <string name="market_response_error_invalid_response_body">Corpo de resposta inválido.</string>
+    <string name="market_response_error_unknown_error__error_">Erro desconhecido
+<xliff:g id="error" example="SUCCESS"> 1 %1$s
+</xliff:g> 2 ).</string>
+
+    <string name="no_more">Não mais.</string>
+
+    <string name="update">Atualizar</string>
+    <string name="version__version___size_">Versão:
+<xliff:g id="version" example="1.0.0"> 1 %1$s
+</xliff:g> 2 ,
+<xliff:g id="size" example="1024 kB"> 3 %2$s
+</xliff:g> 4</string>
+    <plurals name="_count__new_update_is_available">
+	<item quantity="one"><xliff:g id="count" example="1"> 1 %1$d
+</xliff:g> 2
+Nova atualização está disponível</item>
+	<item quantity="other"><xliff:g id="count" example="2"> 3 %1$d
+</xliff:g> 4
+Nova atualização está disponível</item>
+</plurals>
+
+    <string name="launching_please_wait">Lançamento, aguarde…</string>
+
+    <plurals name="_count__item_is_downloading">
+	<item quantity="one"><xliff:g id="count" example="1"> 1 %1$d
+</xliff:g> 2
+O item está sendo baixado</item>
+	<item quantity="other"><xliff:g id="count" example="2"> 3 %1$d
+</xliff:g> 4
+Os itens estão sendo baixados</item>
+</plurals>
+    <string name="downloads_complete">Downloads completos</string>
+    <string name="touch_for_view_all_downloads">Toque para ver todos os downloads</string>
+    <string name="_name__download_failed"><xliff:g id="name" example="APKPure"> 1 %1$s
+</xliff:g> 2
+Falha no download</string>
     </resources>
