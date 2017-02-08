@@ -262,4 +262,45 @@
     <string name="auto_install_via_root_summary">Apenas para telefones e tablets com Root.</string>
 
     <string name="download_complete_installation_setting">Opção de instalação após o download</string>
+<plurals name="app_detail_see_all_replies">
+	<item quantity="one">Ver tudo
+&lt;Xliff: g xmlns: xliff = \"urna: oasis: nomes: tc: xliff: documento: 1.2\" id = \"count\" example = \"2\"&gt; 3% 1 $ d
+&lt;/ Xliff: g&gt; 4 respostas</item>
+	<item quantity="other">Ver tudo
+&lt;Xliff: g xmlns: xliff = \"urna: oasis: nomes: tc: xliff: documento: 1.2\" id = \"count\" example = \"2\"&gt; 3% 1$d
+&lt;/ Xliff: g&gt; 4 respostas</item>
+</plurals>
+
+    <string name="app_detail_customer_reviews">Avaliações de Clientes</string>
+    <string name="app_detail_comment_type_web">Web</string>
+    <string name="app_submit_submit">Enviar…</string>
+    <string name="app_submit_anonymous_comment">Comentários anônimos</string>
+    <string name="app_submit_title_toast">Você deve escrever o título!</string>
+    <string name="app_submit_msg_toast">Você deve escrever algo!</string>
+    <string name="app_submit_name_toast">Por favor, preencha o apelido!</string>
+    <string name="app_submit_email_toast">Preencha o endereço de e-mail correto!</string>
+    <string name="app_submit_star_toast">Você deve enviar estrela!</string>
+    <string name="app_submit_title_hint">Escreva o título</string>
+    <string name="app_submit_msg_hint">Por favor escreva sua opinião</string>
+    <string name="app_submit_nickname">Nickname</string>
+    <string name="app_submit_email">Email</string>
+    <string name="app_submit_submit_title">Enviar</string>
+    <string name="app_submit_reply_to">Responder a</string>
+
+    <string name="app_detail_tab_one">Detalhes</string>
+    <string name="app_detail_tab_two">Reviews</string>
+    <string name="app_detail_tab_three">Reviews</string>
+
+    <string name="reply">Resposta</string>
+    <string name="input_reply_content">O conteúdo de entrada da resposta:</string>
+    <string name="publish">Publicar</string>
+
+    <string name="load_end">Sem mais dados</string>
+    <string name="load_failed_click_retry">Falha ao carregar, clique em nova tentativa</string>
+    <string name="loading">Carregando…</string>
+
+    <string name="scan_qr_code_hint">Antes de usar o Scan QR Code, você precisa conceder a permissão da câmera↵
+Que é necessário para digitalizar o código QR.</string>
+    <string name="zxing_msg_default_status">Coloque o código QR dentro do visor para digitalizá-lo.</string>
+    <string name="zxing_msg_parser_status">A digitalização falhou, tente digitalizar o código QR novamente.</string>
 </resources>
