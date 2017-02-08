@@ -34,7 +34,7 @@
     <string name="about_message">
         <![CDATA[<b>Version : </b>%1$s<br><br><b>Site Web : </b><a href=%2$s>%2$s</a><br><b>Email : </b><a href=mailto:%3$s>%3$s</a>]]>
     </string>
-    <string name="check_update">Vérifiez les Mise à Jour</string>
+    <string name="check_update">Vérifier les Mises à Jour</string>
     <string name="quit">Quitter</string>
     <string name="want_to_quit">Êtes vous sûr de vouloir quitter l\'application ?</string>
 
@@ -265,5 +265,48 @@ Quand vous activez ce paramètre, vous recevez une alerte du système : appuyez 
 Pour garantir le bon fonctionnement de APKPure, merci d\'ajouter APKPure à la \"liste blanche\" de votre application de nettoyage.
 
 Les fonctions mentionnées ci-dessus supportent Android 4.1 et +, sans besoin de root. Nous promettons de ne jamais collecter vos information personnelles dans ce service d\'accessibilité. N\'hésitez pas à nous contactez pour tout problème éventuel.</string>
+
+    <string name="similar_or_related">Similaires ou connexes</string>
+    <string name="more_from_developer">Plus de la part du développeur</string>
+    <string name="more_large">Plus</string>
+    <string name="feedback">Retour d\'info</string>
+
+    <string name="changing_language">Changement de language, s\'il vous plait patientez…</string>
+    <string name="app_detail_customer_reviews">Commentaires des utilisateurs</string>
+    <string name="app_detail_comment_type_web">web</string>
+    <string name="app_submit_submit">Soumettre…</string>
+    <string name="app_submit_anonymous_comment">Commentaires anonymes</string>
+    <string name="app_submit_title_toast">Vous devez écrire un titre !</string>
+    <string name="app_submit_msg_toast">Vous devez écrire quelque chose !</string>
+    <string name="app_submit_name_toast">S\'il vous plait écrivez un pseudo !</string>
+    <string name="app_submit_email_toast">S\'il vous plait écrivez une adresse email correcte !</string>
+    <string name="app_submit_star_toast">Vous devez soumettre une étoile !</string>
+    <string name="app_submit_title_hint">S\'il vous plait écrivez un titre</string>
+    <string name="app_submit_msg_hint">S\'il vous plait écrivez votre opinion</string>
+    <string name="app_submit_nickname">Prénom</string>
+    <string name="app_submit_email">Email</string>
+    <string name="app_submit_submit_title">Soumettre</string>
+    <string name="app_submit_reply_to">Répondre à</string>
+
+    <string name="app_detail_tab_one">Details</string>
+    <string name="app_detail_tab_two">Avis</string>
+    <string name="app_detail_tab_three">Rapporté</string>
+
+    <string name="download_complete_installation_setting">Option d\'installation après le téléchargement</string>
+    <string name="reply">Répondre</string>
+    <string name="input_reply_content">Le contenu de la réponse :</string>
+    <string name="publish">Publier</string>
+
+    <string name="load_end">Plus de données</string>
+    <string name="load_failed_click_retry">Échec du chargement, clickez sur rééssayer</string>
+    <string name="loading">Chargement…</string>
+
+    <string name="scan_qr_code_hint">Avant d\'utiliser le scan pour le QR Code, vous devez autoriser la permission de la caméra si elle est requise pour scanner un QR Code.</string>
+    <string name="zxing_msg_default_status">S\'il vous plait placez le QR Code dans le cadre pour le scanner.</string>
+    <string name="zxing_msg_parser_status">Échec du scan, s\'il vous plait essayez de rescanner le QR Code.</string>
+<plurals name="app_detail_see_all_replies">
+	<item quantity="one">See All <xliff:g id="count" example="1"> %1$d</xliff:g> 2 reply</item>
+	<item quantity="other">See All <xliff:g id="count" example="2"> %1$d</xliff:g> 4 replies</item>
+</plurals>
 
     </resources>
