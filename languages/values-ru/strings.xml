@@ -1,6 +1,5 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources
-    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<?xml version='1.0' encoding='UTF-8'?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
     <string name="action_settings">Настройки</string>
     <string name="action_search">Поиск</string>
@@ -233,4 +232,50 @@
 
     <string name="select_all">Выбрать всё</string>
     <string name="deselect_all">Убрать выделение со всего</string>
-</resources>
+<string name="more_large">Показать полностью</string>
+    <string name="installed">Установлено</string>
+    <string name="download_over_cellular">Загрузка через мобильную сеть</string>
+    <string name="download_over_cellular_content">Вы собираетесь загружать через мобильную сеть. Продолжить?</string>
+
+    <string name="participate_ultra_download_beta_test_title">Включите режим Ультра Загрузки и наслаждайтесь большей скоростью загрузки</string>
+    <string name="participate_ultra_download_beta_test_content">Режим Ультра Загрузки находится в стадии бета-тестирования, дайте нам знать, если у вас возникнут какие-либо проблемы. Вы можете отключить его в Настройках.</string>
+    <string name="enable">Включить</string>
+
+    <string name="similar_or_related">Похожие или Связанные</string>
+    <string name="more_from_developer">Ещё От Разработчика</string>
+    <string name="feedback">Отзыв</string>
+
+    <string name="changing_language">Смена языка, пожалуйста подождите…</string>
+    <string name="download_via_wifi_only">Загрузка только через Wi-Fi</string>
+    <string name="enable_ultra_download">Включить режим Ультра Загрузки</string>
+    <string name="enable_ultra_download_summary">Режим Ультра Загрузки находится в стадии бета-тестирования, дайте нам знать, если у вас возникнут какие-либо проблемы.</string>
+    <string name="auto_service_install_accessibility_title">Автоматическая установка</string>
+    <string name="auto_service_install_accessibility_summary">Поддерживается Android 4.1+, права суперпользователя не требуются.</string>
+
+    <string name="auto_service_dialog_title">Включить Автоматическую Установку</string>
+    <string name="auto_service_dialog_message">Автоматическая установка требует авторизации на телефоне, это безопасно для использования без каких-либо рисков.</string>
+
+    <string name="auto_service_title">Автоматическая Установка APKPure</string>
+    <string name="auto_service_description">Включите \"Автоматическую Установку APKPure \", чтобы поддержать бесперебойную работу \"Автоматической Установки\" APKPure.
+
+\"Автоматическая Установка APKPure\" может помочь вам нажать все кнопки установки во время установки или обновления приложений, вам не нужно постоянно проверять свой телефон.
+
+Во время активации данной функции вы можете получить уведомление системы безопасности, пожалуйста нажмите кнопку \"OK\" чтобы предоставить доступ.
+
+Чтобы быть уверенным что APKPure работает корректно, пожалуйста добавьте APKPure в \"Белый Список\" вашего приложения очистки.
+
+Упомянутые выше функции поддерживают Android 4.1+, права суперпользователя не требуются. Мы обещаем никогда не собирать любых ваших персональных данных в данном сервисе. Пожалуйста, не стесняйтесь обращаться к нам с любыми проблемами.</string>
+
+    <string name="auto_service_install">Установить</string>
+    <string name="auto_service_ensure">Ок</string>
+    <string name="auto_service_next">Далее</string>
+    <string name="auto_service_exchange">Замена</string>
+    <string name="auto_service_complete">Готово</string>
+
+    <string name="auto_service_install__material_">УСТАНОВКА</string>
+    <string name="auto_service_ensure__material_">ОК</string>
+    <string name="auto_service_next__material_">ДАЛЕЕ</string>
+    <string name="auto_service_exchange__material_">ЗАМЕНА</string>
+    <string name="auto_service_complete__material_">ГОТОВО</string>
+
+    </resources>
