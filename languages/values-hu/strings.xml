@@ -264,4 +264,41 @@
 
     <string name="changing_language">Nyelv váltása, kis türelmet…</string>
     <string name="download_complete_installation_setting">Telepítés lehetőség a letöltés után</string>
+    <plurals name="app_detail_see_all_replies">
+	<item quantity="one">A(z) <xliff:g id="count" example="1">%1$d</xliff:g> válasz mindegyikének megtekintése</item>
+	<item quantity="other">A(z) <xliff:g id="count" example="2">%1$d</xliff:g> válasz mindegyikének megtekintése</item>
+</plurals>
+
+    <string name="app_detail_customer_reviews">Vásárlói vélemények</string>
+    <string name="app_detail_comment_type_web">web</string>
+    <string name="app_submit_submit">Küldés…</string>
+    <string name="app_submit_anonymous_comment">Névtelen hozzászólások</string>
+    <string name="app_submit_title_toast">A címet be kell írnia!</string>
+    <string name="app_submit_msg_toast">Be kell írnia valamit!</string>
+    <string name="app_submit_name_toast">Kérjük, írja be a felhasználónevet!</string>
+    <string name="app_submit_email_toast">Kérjük, írja be a megfelelő e-mail címet!</string>
+    <string name="app_submit_title_hint">Kérjük, írjon címet</string>
+    <string name="app_submit_msg_hint">Kérjük, írja meg véleményét</string>
+    <string name="app_submit_nickname">Felhasználónév</string>
+    <string name="app_submit_email">E-mail cím</string>
+    <string name="app_submit_submit_title">Küldés</string>
+    <string name="app_submit_reply_to">Válasz</string>
+
+    <string name="app_detail_tab_one">Részletek</string>
+    <string name="app_detail_tab_two">Vélemények</string>
+    <string name="app_detail_tab_three">Kapcsolódó</string>
+
+    <string name="reply">Válasz</string>
+    <string name="input_reply_content">A válasz tartalma:</string>
+    <string name="publish">Közzététel</string>
+
+    <string name="load_end">Nincs több adat</string>
+    <string name="load_failed_click_retry">Betöltési hiba, kattintson az újrapróbálkozáshoz</string>
+    <string name="loading">Betöltés…</string>
+
+    <string name="scan_qr_code_hint">A QR-kód beolvasás előtt meg kell adnia a kamera engedélyt,
+ amely szükséges a QR-kód beolvasásához.</string>
+    <string name="zxing_msg_default_status">Kérjük, helyezze a QR-kódot a keresőbe a beolvasáshoz.</string>
+    <string name="zxing_msg_parser_status">Sikertelen beolvasás. Kérjük, próbálja meg újra beolvasni a QR-kódot.</string>
+<string name="app_submit_star_toast">Csillaggal is értékelnie kell!</string>
     </resources>
