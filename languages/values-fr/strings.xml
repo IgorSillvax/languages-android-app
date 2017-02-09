@@ -3,7 +3,7 @@
 
     <string name="action_settings">Paramètres</string>
     <string name="action_search">Rechercher</string>
-    <string name="action_management">Gérer</string>
+    <string name="action_management">Gestion</string>
 
     <string name="press_back_key_quit">Pressez encore une fois retour pour quitter.</string>
 
@@ -16,7 +16,7 @@
     <string name="something_happened">&gt;_&lt;\nQuelque chose s\'est passé.</string>
 
     <string name="load_failed_error">Oups ! Une erreur est survenue.</string>
-    <string name="load_failed_empty">Il y a rien ici.</string>
+    <string name="load_failed_empty">Il n\'y a rien ici.</string>
     <string name="load_failed_all_up_to_date">Toutes vos applications sont à jour.</string>
     <string name="load_failed_no_results">Désolé ! Aucun résultat n\'a été trouvé.</string>
     <string name="refresh">Rafraîchir</string>
@@ -26,10 +26,10 @@
     <string name="app_management">Gérer les Applications</string>
     <string name="app_uninstall">Désinstaller les Applications</string>
     <string name="apk_management">Gérer les Applications</string>
-    <string name="apk_xapk_management">Gérer les APK et les XAPK</string>
+    <string name="apk_xapk_management">Gérer l\'APK et l\'XAPK</string>
     <string name="download_management">Gestion des Téléchargements</string>
     <string name="settings">Paramètres</string>
-    <string name="about">À propos</string>
+    <string name="about">À propos de</string>
     <string name="about_title">À propos d\'<xliff:g id="app_name" example="APKPure">%1$s</xliff:g></string>
     <string name="about_message">
         <![CDATA[<b>Version : </b>%1$s<br><br><b>Site Web : </b><a href=%2$s>%2$s</a><br><b>Email : </b><a href=mailto:%3$s>%3$s</a>]]>
@@ -59,12 +59,12 @@
 
     <string name="all">Tout</string>
 
-    <string name="screenshots">Images</string>
+    <string name="screenshots">Captures d\'écran</string>
     <string name="description">Description</string>
-    <string name="whatsnew">Nouveautés</string>
+    <string name="whatsnew">Quoi de neuf</string>
     <string name="information">Information</string>
     <string name="version_">Version :</string>
-    <string name="updated_">Mis à jour :</string>
+    <string name="updated_">mise à jour:</string>
     <string name="size_">Taille :</string>
     <string name="permissions_">Permissions :</string>
     <string name="type_">Type :</string>
@@ -78,7 +78,7 @@
     <string name="_ellipsis_"> … </string>
 
     <string name="market_response_error_success">Succès.</string>
-    <string name="market_response_error_invalid_result">En attente d\'unrrésultats valide.</string>
+    <string name="market_response_error_invalid_result">Résultat Invalide.</string>
     <string name="market_response_error_network_connect_error">Erreur de connexion au réseau.</string>
     <string name="market_response_error_network_read_error">Erreur réseau.</string>
     <string name="market_response_error_invalid_response_code">Code reponse invalide.</string>
@@ -106,16 +106,16 @@
     <string name="touch_to_download_it_again">Toucher pour télécharger à nouveau</string>
 
     <string name="download_percent"><xliff:g id="percent" example="50">%1$d</xliff:g> %%</string>
-    <string name="pause">Mettre en Pause</string>
+    <string name="pause">Pause</string>
     <string name="continue_">Continuer</string>
-    <string name="restart">Recommencer</string>
+    <string name="restart">Redémarrer</string>
     <string name="download">Télécharger</string>
     <string name="downloading">En cours de téléchargement</string>
     <string name="waiting">Attendez</string>
     <string name="preparing">Préparation</string>
     <string name="completed">Terminé</string>
     <string name="paused">Pause</string>
-    <string name="failed">Erreur</string>
+    <string name="failed">Échoué</string>
     <string name="file_invalid">Fichier invalide</string>
     <string name="file_missing">Fichier manquant</string>
     <string name="expired">Expirée</string>
@@ -125,7 +125,7 @@
 
     <string name="search">Rechercher</string>
     <string name="search_for_apps">Rechercher des applications</string>
-    <string name="trending_searches">Rechercher des tendances</string>
+    <string name="trending_searches">Tendances de Recherches</string>
 
     <string name="improvement_plan_title">Plan pour améliorer les performances</string>
     <string name="improvement_plan_message">
@@ -189,16 +189,16 @@
     <string name="delete_downloaded_file">Supprimer le fichier téléchargé</string>
 
     <string name="search_history">Historique</string>
-    <string name="clear_search_history">Supprimer l\'historique</string>
+    <string name="clear_search_history">Effacer les données de navigation</string>
 
     <string name="contact_us__">Contactez-nous…</string>
     <string name="contact_us">Contactez-nous</string>
-    <string name="report_content">Signaler le contenu</string>
+    <string name="report_content">Contenu du Rapport</string>
 
     <string name="update_all">Tout mettre à jour</string>
     <string name="update___count__">Mise à jour (<xliff:g id="count" example="3">%1$d</xliff:g>)</string>
     <string name="ignore">Ignorer</string>
-    <string name="unignore">Dés-Ignorer</string>
+    <string name="unignore">Admettre</string>
     <string name="select">Selectionner</string>
     <string name="cancel">Annuler</string>
     <string name="select_all">Tout Selectionner</string>
@@ -217,14 +217,14 @@
     </string>
 
     <string name="installation">Installation</string>
-    <string name="show_notification_after_installation">Montrer la notification après l\'installation</string>
+    <string name="show_notification_after_installation">Afficher la notification après l\'installation</string>
     <string name="delete_packages_after_installation">Supprimer les paquets après l\'installation</string>
 
     <string name="_name__installation_completed"><xliff:g id="name" example="APKPure">%1$s</xliff:g> installation terminée</string>
     <string name="touch_to_open">Touchez pour ouvrir.</string>
 
     <string name="installed">Installée</string>
-    <string name="download_over_cellular">Téléchargement cellulaire</string>
+    <string name="download_over_cellular">Télécharger sur Cellulaire</string>
     <string name="download_over_cellular_content">Vous êtes sur le point de télécharger à partir de vos données mobile. Voulez-vous continuer ?</string>
 
     <string name="participate_ultra_download_beta_test_title">"Activer le telechargement Ultra  et profiter d\'une vitesse de téléchargement plus rapide"</string>
@@ -238,7 +238,7 @@
     <string name="auto_service_install_accessibility_summary">Pour Android 4.1 et +, pas besoin de root.</string>
 
     <string name="auto_service_dialog_title">Activer l\'installation automatique</string>
-    <string name="auto_service_dialog_message">L\'installation automatique requiert votre autorisation. C\'est un moyen sûr de l\'utiliser sans risque.</string>
+    <string name="auto_service_dialog_message">L\'installation automatique nécessite votre autorisation sur le téléphone, il est sûr d\'utiliser sans aucun risque.</string>
 
     <string name="auto_service_install">Installer</string>
     <string name="auto_service_ensure">OK</string>
@@ -255,7 +255,7 @@
     <string name="auto_install_via_root_title">Installation automatique (Root requis)</string>
     <string name="auto_install_via_root_summary">Seulement pour les smartphones et tablettes Android rootés.</string>
 
-    <string name="auto_service_title">Installation automatique APKPure</string>
+    <string name="auto_service_title">Installation automatique d\'APKPure</string>
     <string name="auto_service_description">Activez l\'installation automatique APKPure pour que l\'installation automatique fonctionne correctement.
 
 L\'installation automatique APKPure évite de vous faire perdre du temps à regarder si des mises à jour sont disponibles, et le fait à votre place.
