@@ -43,20 +43,20 @@
     <string name="delete">Apagar</string>
     <string name="delete_all">Apagar tudo</string>
     <string name="properties">Propriedades</string>
-    <string name="properties_message">
-        <![CDATA[<b>Path:</b> %1$s<br><b>Size:</b> %2$s<br><b>Última modificação:</b> %3$s]]>
-    </string>
+    <string name="properties_message">"
+ &lt;b&gt;Path:&lt;/b&gt; %1$s&lt;br&gt;&lt;b&gt;Tamanho:&lt;/b&gt; %2$s&lt;br&gt;&lt;b&gt;Última modificação:&lt;/b&gt; %3$s
+ "</string>
     <string name="want_to_delete_file">Você deseja excluir este arquivo?</string>
     <string name="want_to_delete_all_files">Você quer apagar todos os arquivos?</string>
     <string name="file_has_been_deleted">O arquivo foi apagado.</string>
     <string name="failed_to_delete_file">Falha ao excluir o arquivo.</string>
     <string name="install__label_">Instalar - <xliff:g id="app_label" example="APKPure">%1$s</xliff:g></string>
     <string name="user_canceled">Usuário cancelado.</string>
-    <string name="io_error">Erro IO. Pode ser que não há espaço livre suficiente para a instalação de sucesso.</string>
+    <string name="io_error">Erro IO. Pode ser que não há espaço livre suficiente para uma instalação bem sucedida.</string>
     <string name="file_format_error">Erro do formato do arquivo.</string>
     <string name="parsing_xapk">Analisando XAPK …</string>
     <string name="installing_obb">Instalação de arquivos OBB…</string>
-    <string name="extracting_apk">Extraindo arquivo APK …</string>
+    <string name="extracting_apk">Extraindo arquivo APK…</string>
     <string name="installing_apk">Instalando APK …</string>
 
     <string name="uninstall">Desinstalar</string>
@@ -65,7 +65,7 @@
 
     <string name="all">Todos</string>
 
-    <string name="screenshots">Captura de Tela</string>
+    <string name="screenshots">Capturas de tela</string>
     <string name="description">Descrição</string>
     <string name="whatsnew">O que há de novo</string>
     <string name="information">Informação</string>
@@ -77,7 +77,7 @@
     <string name="category_">Categoria:</string>
     <string name="more">Mais</string>
     <string name="permissions">Permissões</string>
-    <string name="other">Outros</string>
+    <string name="other">Outro</string>
     <string name="apk">APK</string>
     <string name="xapk">XAPK</string>
     <string name="unknown">Desconhecido</string>
@@ -97,23 +97,23 @@
     <string name="update">Atualizar</string>
     <string name="version__version___size_">Versão: <xliff:g id="version" example="1.0.0">%1$s</xliff:g>, <xliff:g id="size" example="1024 kB">%2$s</xliff:g></string>
     <plurals name="_count__new_update_is_available">
-	    <item quantity="one"><xliff:g id="count" example="1">%1$d</xliff:g> Nova atualização está disponível</item>
-	    <item quantity="other"><xliff:g id="count" example="2">%1$d</xliff:g>Novas atualizações estão disponíveis</item>
-    </plurals>
+	<item quantity="one"><xliff:g id="count" example="1">%1$d</xliff:g> Nova atualização está disponível</item>
+	<item quantity="other"><xliff:g id="count" example="2">%1$d</xliff:g> Novas atualizações estão disponíveis</item>
+</plurals>
 
     <string name="launching_please_wait">Lançamento, aguarde…</string>
 
     <plurals name="_count__item_is_downloading">
-	    <item quantity="one"><xliff:g id="count" example="1">%1$d</xliff:g> item está baixando</item>
-	    <item quantity="other"><xliff:g id="count" example="2">%1$d</xliff:g> itens estão baixando</item>
-    </plurals>
+	<item quantity="one"><xliff:g id="count" example="1">%1$d</xliff:g> O item está sendo baixado</item>
+	<item quantity="other"><xliff:g id="count" example="2">%1$d</xliff:g> Os itens estão sendo baixados</item>
+</plurals>
     <string name="downloads_complete">Download completo</string>
     <string name="touch_for_view_all_downloads">Toque para ver todos os downloads</string>
     <string name="_name__download_failed"><xliff:g id="name" example="APKPure">%1$s</xliff:g> Transferência falhou</string>
     <string name="touch_to_download_it_again">Toque para fazer o download novamente</string>
 
     <string name="download_percent"><xliff:g id="percent" example="50">%1$d</xliff:g> %%</string>
-    <string name="pause">Pausa</string>
+    <string name="pause">Pausar</string>
     <string name="pause_all">Pausar todos</string>
     <string name="continue_">Continuar</string>
     <string name="continue_all">Continuar todos</string>
@@ -145,7 +145,7 @@
 
     <string name="improvement_plan_title">Plano de melhoria de desempenho</string>
     <string name="improvement_plan_message">
- Ajude-nos a enviar informações do dispositivo Android, <b> Não coletamos </b> informações pessoais, como: (Nome, endereço, endereço de e-mail, número de segurança social ou outros identificadores exclusivos).
+ Ajude-nos enviando informações do dispositivo Android, <b> Não coletamos </b> informações pessoais, como: (Nome, endereço, endereço de e-mail, número de segurança social ou outros identificadores exclusivos).
  </string>
     <string name="join_us">Junte-se a nós</string>
     <string name="skip">Pular</string>
@@ -159,7 +159,11 @@
     <string name="report__">Relatório…</string>
     <string name="report_problem__">Reportar problema…</string>
     <string name="report_problem_subject">Reportar problema</string>
-    <string name="report_problem_text">Tópico problema:\n%1$s\n\nDetalhe do problema:\n%2$s</string>
+    <string name="report_problem_text">Tópico do problema:
+%1$s
+
+Detalhe do problema:
+%2$s</string>
     <string name="contact_us__">Entre em contato conosco…</string>
     <string name="contact_us">Entre em contato conosco</string>
     <string name="report_content">Relatório do conteúdo</string>
@@ -178,14 +182,14 @@
 
     <string name="setting">Configuração</string>
     <string name="external_storage_not_usable">
-        <![CDATA[<big><b>precisamos para acessar seu armazenamento externo. por favor, certifique-se de que \'S pode ser usado.</b></big>]]>
-    </string>
+ <big><b>Precisamos para acessar seu armazenamento externo. Por favor, certifique-se de que \'S pode ser usado.</b></big>
+ </string>
     <string name="external_storage_permission_denied">
-        <![CDATA[<big><b>precisamos para acessar seu armazenamento externo. por favor, certifique-se a permissão não é negado.</b></big>]]>
-    </string>
+ <big><b>Precisamos para acessar seu armazenamento externo. Por favor, certifique-se se a permissão não é negada.</b></big>
+ </string>
 
     <string name="share">Compartilhar</string>
-    <string name="share_app_url">Download <xliff:g id="app_name" example="APKPure">%1$s</xliff:g> APK (A partir de @<xliff:g id="social_network_name" example="APKPure">%2$s</xliff:g>), <xliff:g id="app_url" example="https://apkpure.com/p/com.apkpure.aegon">%3$s</xliff:g></string>
+    <string name="share_app_url">Download <xliff:g id="app_name" example="APKPure">%1$s</xliff:g> APK (Pelo <xliff:g id="social_network_name" example="APKPure">%2$s</xliff:g>), <xliff:g id="app_url" example="https://apkpure.com/p/com.apkpure.aegon">%3$s</xliff:g></string>
 
     <string name="_name__version_history"><xliff:g id="name" example="APKPure">%1$s</xliff:g> Histórico de versões</string>
     <string name="update__date___size_">Atualização: <xliff:g id="date" example="Mar 3, 2016">%1$s</xliff:g>, <xliff:g id="size" example="1024 kB">%2$s</xliff:g></string>
@@ -198,7 +202,7 @@
     <string name="cancel">Cancelar</string>
     <string name="select_all">Selecionar tudo</string>
     <string name="deselect_all">Desmarcar todos</string>
-    <string name="ignored">Ignorar</string>
+    <string name="ignored">Ignorado</string>
     <plurals name="total__count__apps__size_">
 	<item quantity="one">"
  Total: &lt;b&gt;&lt;fonte color=%1$d&gt;%2$d&lt;/font&gt;&lt;/b&gt; app, &lt;b&gt;&lt;font color=%1$d&gt;%3$s&lt;/font&gt;&lt;/b&gt;
@@ -231,7 +235,7 @@
     <string name="download_via_wifi_only">Baixar apenas através do Wi-Fi</string>
     <string name="enable_ultra_download">Ativar Ultra Download</string>
     <string name="enable_ultra_download_summary">Ultra Download está em teste beta, deixe-nos saber se você encontrar quaisquer problemas.</string>
-    <string name="similar_or_related">Semelhante ou relacionado</string>
+    <string name="similar_or_related">Semelhante ou Relacionado</string>
     <string name="more_from_developer">Mais do desenvolvedor</string>
     <string name="more_large">Mais</string>
     <string name="feedback">Comentários</string>
@@ -263,17 +267,11 @@
 
     <string name="download_complete_installation_setting">Opção de instalação após o download</string>
 <plurals name="app_detail_see_all_replies">
-	<item quantity="one">Ver tudo
-<xliff:g id="count" example="2"> 
-3 %1$d
-</xliff:g> 4 Respostas</item>
-	<item quantity="other">Ver tudo
-<xliff:g id="count" example="2"> 
-3 %1$d
-</xliff:g> 4 respostas</item>
+	<item quantity="one">Ver tudo <xliff:g id="count" example="1"> %1$d</xliff:g>"  Respostas"</item>
+	<item quantity="other">Ver tudo <xliff:g id="count" example="2"> %1$d</xliff:g>"  Respostas"</item>
 </plurals>
 
-    <string name="app_detail_customer_reviews">Avaliações de Clientes</string>
+    <string name="app_detail_customer_reviews">Avaliações dos usuários</string>
     <string name="app_detail_comment_type_web">Web</string>
     <string name="app_submit_submit">Enviar…</string>
     <string name="app_submit_anonymous_comment">Comentários anônimos</string>
@@ -281,7 +279,7 @@
     <string name="app_submit_msg_toast">Você deve escrever algo!</string>
     <string name="app_submit_name_toast">Por favor, preencha o apelido!</string>
     <string name="app_submit_email_toast">Preencha o endereço de e-mail correto!</string>
-    <string name="app_submit_star_toast">Você deve enviar estrela!</string>
+    <string name="app_submit_star_toast">Você deve enviar uma estrela!</string>
     <string name="app_submit_title_hint">Escreva o título</string>
     <string name="app_submit_msg_hint">Por favor escreva sua opinião</string>
     <string name="app_submit_nickname">Apelido</string>
@@ -290,8 +288,8 @@
     <string name="app_submit_reply_to">Responder a</string>
 
     <string name="app_detail_tab_one">Detalhes</string>
-    <string name="app_detail_tab_two">Revisões</string>
-    <string name="app_detail_tab_three">Reviews</string>
+    <string name="app_detail_tab_two">Comentários</string>
+    <string name="app_detail_tab_three">Relacionados</string>
 
     <string name="reply">Resposta</string>
     <string name="input_reply_content">O conteúdo de entrada da resposta:</string>
@@ -302,7 +300,7 @@
     <string name="loading">Carregando…</string>
 
     <string name="scan_qr_code_hint">Antes de usar o Scan QR Code, você precisa conceder a permissão da câmera↵
-Que é necessário para digitalizar o código QR.</string>
-    <string name="zxing_msg_default_status">Coloque o código QR dentro do visor para digitalizá-lo.</string>
-    <string name="zxing_msg_parser_status">A digitalização falhou, tente digitalizar o código QR novamente.</string>
+Que é necessário para escanear o código QR.</string>
+    <string name="zxing_msg_default_status">Coloque o código QR dentro do visor para escaneá-lo.</string>
+    <string name="zxing_msg_parser_status">O escaneamento falhou, tente escanear o código QR novamente.</string>
 </resources>
