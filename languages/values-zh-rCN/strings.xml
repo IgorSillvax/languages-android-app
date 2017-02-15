@@ -279,21 +279,30 @@
     <string name="app_submit_reply_to">回复</string>
 
     <string name="app_detail_tab_one">详情</string>
-    <string name="app_detail_tab_two">评价</string>
+    <string name="app_detail_tab_two">评论</string>
     <string name="app_detail_tab_three">相关</string>
 
     <array name="app_detail_comment_order_array">
-        <item>推荐</item>
-        <item>最新</item>
-        <item>最早</item>
+        <item>@string/app_detail_comment_order_array_newest</item>
+        <item>@string/app_detail_comment_order_array_best</item>
+        <item>@string/app_detail_comment_order_array_oldest</item>
     </array>
 
+    <string name="app_detail_comment_order_array_newest">最新</string>
+    <string name="app_detail_comment_order_array_best">推荐</string>
+    <string name="app_detail_comment_order_array_oldest">最早</string>
+
     <string name="download_complete_installation_setting">下载后安装选项</string>
+
     <string-array name="download_complete_installation_setting_entries">
-        <item>总是安装</item>
-        <item>仅前台状态下安装</item>
-        <item>从不安装</item>
+        <item>@string/download_complete_installation_setting_entries_always</item>
+        <item>@string/download_complete_installation_setting_entries_only</item>
+        <item>@string/download_complete_installation_setting_entries_never</item>
     </string-array>
+
+    <string name="download_complete_installation_setting_entries_always">总是安装</string>
+    <string name="download_complete_installation_setting_entries_only">仅前台状态下安装</string>
+    <string name="download_complete_installation_setting_entries_never">从不安装</string>
 
     <string name="reply">回复</string>
     <string name="input_reply_content">请输入回复内容:</string>
