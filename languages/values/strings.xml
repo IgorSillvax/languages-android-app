@@ -1,9 +1,10 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<?xml version="1.0" encoding="utf-8"?>
+<resources
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
     <string name="app_name" translatable="false">APKPure</string>
 
-    <string name="action_settings">Inställningar</string>
+    <string name="action_settings">Settings</string>
     <string name="action_search">Search</string>
     <string name="action_management">Management</string>
 
@@ -267,7 +268,7 @@
         <item quantity="other">See All <xliff:g id="count" example="2">%1$d</xliff:g> replies</item>
     </plurals>
 
-    <string name="app_detail_customer_reviews">Customer Reviews</string>
+    <string name="app_detail_customer_reviews">Customer Comments</string>
     <string name="app_detail_comment_type_web">web</string>
     <string name="app_submit_submit">Submit…</string>
     <string name="app_submit_anonymous_comment">Anonymous comments</string>
@@ -284,14 +285,18 @@
     <string name="app_submit_reply_to">reply to</string>
 
     <string name="app_detail_tab_one">Details</string>
-    <string name="app_detail_tab_two">Reviews</string>
+    <string name="app_detail_tab_two">Comments</string>
     <string name="app_detail_tab_three">Related</string>
 
     <array name="app_detail_comment_order_array">
-        <item>Best</item>
-        <item>Newest</item>
-        <item>Oldest</item>
+        <item>@string/app_detail_comment_order_array_newest</item>
+        <item>@string/app_detail_comment_order_array_best</item>
+        <item>@string/app_detail_comment_order_array_oldest</item>
     </array>
+
+    <string name="app_detail_comment_order_array_newest">Newest</string>
+    <string name="app_detail_comment_order_array_best">Best</string>
+    <string name="app_detail_comment_order_array_oldest">Oldest</string>
 
     <string-array name="language_entries" translatable="false">
         <item>@string/auto</item>
@@ -347,16 +352,23 @@
     </string-array>
 
     <string name="download_complete_installation_setting">Installation option after downloading</string>
+
     <string-array name="download_complete_installation_setting_entries">
-        <item>Always install</item>
-        <item>Only install when app in front</item>
-        <item>Never install</item>
+        <item>@string/download_complete_installation_setting_entries_always</item>
+        <item>@string/download_complete_installation_setting_entries_only</item>
+        <item>@string/download_complete_installation_setting_entries_never</item>
     </string-array>
+
+    <string name="download_complete_installation_setting_entries_always">Always install</string>
+    <string name="download_complete_installation_setting_entries_only">Only install when app in front</string>
+    <string name="download_complete_installation_setting_entries_never">Never install</string>
+
     <string-array name="download_complete_installation_setting_entry_values" translatable="false">
         <item>install_now</item>
         <item>background_not_install</item>
         <item>never_install</item>
     </string-array>
+
     <string name="download_complete_installation_setting_default_value" translatable="false">install_now</string>
 
     <string name="leak_canary_display_activity_label" translatable="false">APKPure Leaks</string>

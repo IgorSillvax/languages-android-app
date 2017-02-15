@@ -279,21 +279,30 @@
     <string name="app_submit_reply_to">回復</string>
 
     <string name="app_detail_tab_one">詳情</string>
-    <string name="app_detail_tab_two">評價</string>
+    <string name="app_detail_tab_two">評論</string>
     <string name="app_detail_tab_three">相關</string>
 
     <array name="app_detail_comment_order_array">
-        <item>推薦</item>
-        <item>最新</item>
-        <item>最早</item>
+        <item>@string/app_detail_comment_order_array_newest</item>
+        <item>@string/app_detail_comment_order_array_best</item>
+        <item>@string/app_detail_comment_order_array_oldest</item>
     </array>
 
+    <string name="app_detail_comment_order_array_newest">最新</string>
+    <string name="app_detail_comment_order_array_best">推薦</string>
+    <string name="app_detail_comment_order_array_oldest">最早</string>
+
     <string name="download_complete_installation_setting">下載後安裝選項</string>
+
     <string-array name="download_complete_installation_setting_entries">
-        <item>總是安裝</item>
-        <item>僅前台狀態下安裝</item>
-        <item>從不安裝</item>
+        <item>@string/download_complete_installation_setting_entries_always</item>
+        <item>@string/download_complete_installation_setting_entries_only</item>
+        <item>@string/download_complete_installation_setting_entries_never</item>
     </string-array>
+
+    <string name="download_complete_installation_setting_entries_always">總是安裝</string>
+    <string name="download_complete_installation_setting_entries_only">僅前台狀態下安裝</string>
+    <string name="download_complete_installation_setting_entries_never">從不安裝</string>
 
     <string name="reply">回復</string>
     <string name="input_reply_content">請輸入回復內容:</string>
