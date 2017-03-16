@@ -167,6 +167,7 @@
         <![CDATA[<b>最新版本：</b> %1$s<br><br><b>更新内容：</b><br>%2$s]]>
     </string>
 
+    <string name="report">举报</string>
     <string name="report__">反馈…</string>
     <string name="report_problem__">反馈问题…</string>
     <string name="report_problem_subject">反馈问题</string>
@@ -198,6 +199,7 @@
 
     <string name="share">分享</string>
     <string name="share_app_url">下载 <xliff:g id="app_name" example="APKPure">%1$s</xliff:g> APK (来自 @<xliff:g id="social_network_name" example="APKPure">%2$s</xliff:g>), <xliff:g id="app_url" example="https://apkpure.com/p/com.apkpure.aegon">%3$s</xliff:g></string>
+    <string name="share_app_url_comment"> <xliff:g id="user_name" example="APKPure">%1$s</xliff:g> 评论了 <xliff:g id="app_name" example="APKPure">%2$s</xliff:g> (来自 @<xliff:g id="social_network_name" example="APKPure">%3$s</xliff:g>), <xliff:g id="app_url" example="https://apkpure.com/p/com.apkpure.aegon">%4$s</xliff:g></string>
 
     <string name="_name__version_history"><xliff:g id="name" example="APKPure">%1$s</xliff:g> 的版本历史</string>
     <string name="update__date___size_">更新：<xliff:g id="date" example="Mar 3, 2016">%1$s</xliff:g>, <xliff:g id="size" example="1024 kB">%2$s</xliff:g></string>
@@ -277,6 +279,10 @@
     <string name="app_submit_email">电子邮箱</string>
     <string name="app_submit_submit_title">提交</string>
     <string name="app_submit_reply_to">回复</string>
+    <string name="app_detail_reply_comment">评论(%d)</string>
+    <string name="app_detail_reply_esc">正序</string>
+    <string name="app_detail_reply_desc">倒序</string>
+    <string name="app_detail_reply_floor">%d楼</string>
 
     <string name="app_detail_tab_one">详情</string>
     <string name="app_detail_tab_two">评论</string>
@@ -285,12 +291,10 @@
     <array name="app_detail_comment_order_array">
         <item>@string/app_detail_comment_order_array_newest</item>
         <item>@string/app_detail_comment_order_array_best</item>
-        <item>@string/app_detail_comment_order_array_oldest</item>
     </array>
 
     <string name="app_detail_comment_order_array_newest">最新</string>
     <string name="app_detail_comment_order_array_best">推荐</string>
-    <string name="app_detail_comment_order_array_oldest">最早</string>
 
     <string name="download_complete_installation_setting">下载后安装选项</string>
 
@@ -307,6 +311,8 @@
     <string name="reply">回复</string>
     <string name="input_reply_content">请输入回复内容:</string>
     <string name="publish">发表</string>
+    <string name="reply_dialog_marked_words">长按图片可删除图片</string>
+    <string name="reply_comment">回复评论</string>
 
     <string name="load_end">没有更多数据</string>
     <string name="load_failed_click_retry">加载失败，点击重试</string>
@@ -315,4 +321,15 @@
     <string name="scan_qr_code_hint">使用此功能前，您必须同意打开相机的权限</string>
     <string name="zxing_msg_default_status">请将二维码置于取景框内扫描</string>
     <string name="zxing_msg_parser_status">扫描失败,请重试</string>
+
+    <string name="tip_permission_camera_storage">没有使用相机和SD卡的权限，请在权限管理中开启</string>
+    <string name="permission_denied">访问被拒绝!</string>
+
+    <string name="login_title">登录</string>
+    <string name="sign_out">退出登录</string>
+
+    <string name="delete_comment">删除评论</string>
+    <string name="delete_comment_msg">你想要删除这条评论吗?</string>
+    <string name="login_select_way_to_login">请选择登录方式</string>
+    <string name="upload_cancel">上传已取消</string>
 </resources>
