@@ -2,6 +2,8 @@
 <resources
     xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
+    <string name="app_name" translatable="false">APKPure</string>
+
     <string name="action_settings">設定</string>
     <string name="action_search">搜尋</string>
     <string name="action_management">管理</string>
@@ -12,6 +14,7 @@
     <string name="games">遊戲</string>
     <string name="apps">應用</string>
     <string name="categories">分類</string>
+    <string name="recommend">最新發現</string>
     <string name="updates">更新</string>
 
     <string name="something_happened">&gt;_&lt;\n出錯了。</string>
@@ -267,7 +270,7 @@
     <string name="app_detail_customer_reviews">用戶評論</string>
     <string name="app_detail_comment_type_web">網站</string>
     <string name="app_submit_submit">提交中。。。</string>
-    <string name="app_submit_anonymous_comment">匿名評論</string>
+    <string name="app_submit_anonymous_comment">添加評論</string>
     <string name="app_submit_title_toast">請填寫標題!</string>
     <string name="app_submit_msg_toast">請填寫評論!</string>
     <string name="app_submit_name_toast">請填寫昵稱!</string>
@@ -289,10 +292,12 @@
     <string name="app_detail_tab_three">相關</string>
 
     <array name="app_detail_comment_order_array">
+        <item>@string/app_detail_comment_order_array_recent</item>
         <item>@string/app_detail_comment_order_array_newest</item>
         <item>@string/app_detail_comment_order_array_best</item>
     </array>
 
+    <string name="app_detail_comment_order_array_recent">最近回復</string>
     <string name="app_detail_comment_order_array_newest">最新</string>
     <string name="app_detail_comment_order_array_best">推薦</string>
 
@@ -313,6 +318,8 @@
     <string name="publish">發表</string>
     <string name="reply_dialog_marked_words">長按圖片可刪除圖片</string>
     <string name="reply_comment">回複評論</string>
+    <string name="save_original_image">保存原圖</string>
+    <string name="already_save">已保存<xliff:g id="path" example="ApKPure/photo">%1$s</xliff:g></string>
 
     <string name="load_end">沒有更多數據</string>
     <string name="load_failed_click_retry">載入失敗，點擊重試</string>
@@ -332,4 +339,81 @@
     <string name="delete_comment_msg">你想要刪除這條評論嗎?</string>
     <string name="login_select_way_to_login">請選擇登錄方式</string>
     <string name="upload_cancel">上傳已取消</string>
+    <string name="is_comment">正在發表評論&#8230;</string>
+    <string name="comment_cancel">評論已取消</string>
+    <string name="comment_replying">提交中&#8230;</string>
+    <!--update password-->
+    <string name="update_pwd_title">修改密碼</string>
+    <string name="update_pwd_current_pwd_et">舊密碼</string>
+    <string name="update_pwd_new_pwd_et">新密碼</string>
+    <string name="update_pwd_Confirm_pwd_et">確認密碼</string>
+    <string name="upload_avatar">正在上傳&#8230;</string>
+    <string name="update_pwd_current_null_tv">舊密碼不能為空</string>
+    <string name="update_pwd_Confirm_null_tv">確認密碼不能為空</string>
+    <string name="update_pwd_new_pwd_null_tv">新密碼不能為空</string>
+    <string name="update_pwd_new_confrim_tv">兩次輸入密碼不一致</string>
+    <string name="update_pwd_save_bt">保存</string>
+
+    <!-- UserInfoEdit -->
+    <string name="user_info_edit_title">個人信息</string>
+    <string name="user_info_edit_portrait_tv">頭像</string>
+    <string name="user_info_edit_username_tv">用戶名</string>
+    <string name="user_info_edit_nickname_tv">昵稱</string>
+    <string name="user_info_edit_email_tv">郵箱</string>
+    <string name="user_info_edit_gender_tv">性别</string>
+    <string name="user_info_edit_birthday_tv">生日</string>
+    <string name="user_info_edit_change_pwd_tv">修改密碼</string>
+    <string name="user_info_edit_login_out_tv">退出登錄</string>
+    <string name="user_info_edit_not_choose">空</string>
+    <string name="user_info_edit_gender_male">男</string>
+    <string name="user_info_edit_gender_female">女</string>
+    <string name="user_info_edit_portrait_album">從相冊選擇</string>
+    <string name="user_info_edit_portrait_take_photo">拍照</string>
+    <string name="user_info_edit_portrait_error">該圖片類型不支持上傳</string>
+    <string name="user_info_edit_ok">確認</string>
+    <string name="user_info_edit_cancel">取消</string>
+
+
+    <!--updateNickname-->
+    <string name="update_nick_title">修改昵稱</string>
+    <string name="update_email_title">修改郵箱</string>
+    <string name="update_nick_name_et">請輸入你的昵稱</string>
+    <string name="update_nick_name_tv">昵稱不能為空</string>
+    <string name="update_email_name_et">請輸入你的郵箱</string>
+    <string name="update_eamil_name_tv">郵箱不能為空</string>
+    <string name="update_save_success">保存成功!</string>
+    <string name="update_nickname_error">昵稱已經在使用，請修改昵稱。</string>
+
+    <!--crop image-->
+    <string name="crop__cancel" ignore="ButtonCase">取消</string>
+    <string name="crop__done">完成</string>
+    <string name="crop__pick_error">無效的圖片</string>
+    <string name="crop__saving">正在保存照片…</string>
+    <string name="crop__wait">請等待…</string>
+
+    <string name="set_contributor">貢獻者</string>
+    <string name="set_permissions">許可權說明</string>
+
+    <string name="sign_in_services">點擊註冊即代表同意我們的服務條款和隱私政策。</string>
+    <string name="sign_in_services_key">服務條款</string>
+    <string name="sign_in_services_key_policy">隱私政策</string>
+
+    <string name="user_sign_up">註冊</string>
+    <string name="user_name_hint">用戶名</string>
+    <string name="user_email_hint">郵箱</string>
+    <string name="user_password">密碼(6–32位)</string>
+    <string name="user_password_confirm">確認密碼</string>
+
+    <string name="user_name_error">不能包含特殊字元</string>
+    <string name="user_nickname_error">不能包含特殊字元</string>
+    <string name="user_email_error">郵箱格式錯誤</string>
+    <string name="user_password_error">密碼格式不正確</string>
+    <string name="user_confirm_error">兩次密碼不相同</string>
+
+    <string name="login_user_name">用戶名</string>
+    <string name="login_user_password">密碼</string>
+    <string name="login_user_sign_in">登錄</string>
+    <string name="login_choose">或使用您的賬戶登陸</string>
+    <string name="login_new_user">新用戶註冊</string>
+    <string name="login_post_as_a_guest">以遊客身份回復</string>
 </resources>

@@ -2,6 +2,8 @@
 <resources
     xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
+    <string name="app_name" translatable="false">APKPure</string>
+
     <string name="action_settings">设置</string>
     <string name="action_search">搜索</string>
     <string name="action_management">管理</string>
@@ -12,6 +14,7 @@
     <string name="games">游戏</string>
     <string name="apps">应用</string>
     <string name="categories">分类</string>
+    <string name="recommend">最新发现</string>
     <string name="updates">更新</string>
 
     <string name="something_happened">&gt;_&lt;\n出错了。</string>
@@ -95,6 +98,7 @@
     <string name="market_response_error_invalid_response_code">无效的响应代码。</string>
     <string name="market_response_error_invalid_response_body">无效的响应正文。</string>
     <string name="market_response_error_unknown_error__error_">未知错误(<xliff:g id="error" example="SUCCESS">%1$s</xliff:g>)。</string>
+
 
     <string name="no_more">无更多内容。</string>
 
@@ -267,7 +271,7 @@
     <string name="app_detail_customer_reviews">用户评论</string>
     <string name="app_detail_comment_type_web">网站</string>
     <string name="app_submit_submit">提交中。。。</string>
-    <string name="app_submit_anonymous_comment">匿名评论</string>
+    <string name="app_submit_anonymous_comment">添加评论</string>
     <string name="app_submit_title_toast">请填写标题!</string>
     <string name="app_submit_msg_toast">请填写评论!</string>
     <string name="app_submit_name_toast">请填写昵称!</string>
@@ -289,10 +293,12 @@
     <string name="app_detail_tab_three">相关</string>
 
     <array name="app_detail_comment_order_array">
+        <item>@string/app_detail_comment_order_array_recent</item>
         <item>@string/app_detail_comment_order_array_newest</item>
         <item>@string/app_detail_comment_order_array_best</item>
     </array>
 
+    <string name="app_detail_comment_order_array_recent">最近回复</string>
     <string name="app_detail_comment_order_array_newest">最新</string>
     <string name="app_detail_comment_order_array_best">推荐</string>
 
@@ -313,6 +319,8 @@
     <string name="publish">发表</string>
     <string name="reply_dialog_marked_words">长按图片可删除图片</string>
     <string name="reply_comment">回复评论</string>
+    <string name="save_original_image">保存原图</string>
+    <string name="already_save">已保存<xliff:g id="path" example="ApKPure/photo">%1$s</xliff:g></string>
 
     <string name="load_end">没有更多数据</string>
     <string name="load_failed_click_retry">加载失败，点击重试</string>
@@ -332,4 +340,80 @@
     <string name="delete_comment_msg">你想要删除这条评论吗?</string>
     <string name="login_select_way_to_login">请选择登录方式</string>
     <string name="upload_cancel">上传已取消</string>
+    <string name="is_comment">正在发表评论&#8230;</string>
+    <string name="comment_cancel">评论已取消</string>
+    <string name="comment_replying">提交中&#8230;</string>
+
+    <!--update password-->
+    <string name="update_pwd_title">修改密码</string>
+    <string name="update_pwd_current_pwd_et">旧密码</string>
+    <string name="update_pwd_new_pwd_et">新密码</string>
+    <string name="update_pwd_Confirm_pwd_et">确认密码</string>
+    <string name="update_pwd_current_null_tv">旧密码不能为空</string>
+    <string name="update_pwd_Confirm_null_tv">确认密码不能为空</string>
+    <string name="update_pwd_new_pwd_null_tv">新密码不能为空</string>
+    <string name="update_pwd_new_confrim_tv">两次输入密码不一致</string>
+    <string name="update_pwd_save_bt">保存</string>
+
+    <!-- UserInfoEdit -->
+    <string name="user_info_edit_title">个人信息</string>
+    <string name="upload_avatar">正在上传&#8230;</string>
+    <string name="user_info_edit_portrait_tv">头像</string>
+    <string name="user_info_edit_username_tv">用户名</string>
+    <string name="user_info_edit_nickname_tv">昵称</string>
+    <string name="user_info_edit_email_tv">邮箱</string>
+    <string name="user_info_edit_gender_tv">性别</string>
+    <string name="user_info_edit_birthday_tv">生日</string>
+    <string name="user_info_edit_change_pwd_tv">修改密码</string>
+    <string name="user_info_edit_login_out_tv">退出登录</string>
+    <string name="user_info_edit_not_choose">空</string>
+    <string name="user_info_edit_gender_male">男</string>
+    <string name="user_info_edit_gender_female">女</string>
+    <string name="user_info_edit_portrait_album">从相册选择</string>
+    <string name="user_info_edit_portrait_take_photo">拍照</string>
+    <string name="user_info_edit_portrait_error">该图片类型不支持上传</string>
+    <string name="user_info_edit_ok">确认</string>
+    <string name="user_info_edit_cancel">取消</string>
+    <!--crop image-->
+    <string name="crop__cancel" ignore="ButtonCase">取消</string>
+    <string name="crop__done">完成</string>
+    <string name="crop__pick_error">无效的图片</string>
+    <string name="crop__saving">正在保存照片…</string>
+    <string name="crop__wait">请等待…</string>
+    <!--updateNickname-->
+    <string name="update_nick_title">修改昵称</string>
+    <string name="update_email_title">修改邮箱</string>
+    <string name="update_nick_name_et">请输入你的昵称</string>
+    <string name="update_nick_name_tv">昵称不能为空</string>
+    <string name="update_email_name_et">请输入你的邮箱</string>
+    <string name="update_eamil_name_tv">邮箱不能为空</string>
+    <string name="update_save_success">保存成功!</string>
+    <string name="update_nickname_error">昵称已经在使用，请修改昵称。</string>
+
+    <string name="set_contributor">贡献者</string>
+    <string name="set_permissions">权限说明</string>
+
+    <string name="sign_in_services">点击注册即代表同意我们的服务条款和隐私政策。</string>
+    <string name="sign_in_services_key">服务条款</string>
+    <string name="sign_in_services_key_policy">隐私政策</string>
+
+    <string name="user_sign_up">注册</string>
+    <string name="user_name_hint">用户名</string>
+    <string name="user_email_hint">邮箱</string>
+    <string name="user_password">密码(6–32位)</string>
+    <string name="user_password_confirm">确认密码</string>
+
+    <string name="user_name_error">不能包含特殊字符</string>
+    <string name="user_nickname_error">不能包含特殊字符</string>
+    <string name="user_email_error">邮箱格式错误</string>
+    <string name="user_password_error">密码格式不正确</string>
+    <string name="user_confirm_error">两次密码不相同</string>
+
+    <string name="login_user_name">用户名</string>
+    <string name="login_user_password">密码</string>
+    <string name="login_user_sign_in">登录</string>
+    <string name="login_choose">或使用您的账户登陆</string>
+    <string name="login_new_user">新用户注册</string>
+    <string name="login_post_as_a_guest">以游客身份回复</string>
+
 </resources>
