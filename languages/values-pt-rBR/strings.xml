@@ -30,7 +30,8 @@
     <string name="download_management">Gerenciador de download</string>
     <string name="settings">Configurações</string>
     <string name="about">Sobre</string>
-    <string name="about_title">Sobre <xliff:g id="app_name" example="APKPure">%1$s</xliff:g></string>
+    <string name="about_title">Sobre <xliff:g example="APKPure" id="app_name">
+1%1$s</xliff:g> 2</string>
     <string name="about_message">
         <![CDATA[<b>Versão:</b> %1$s<br><br><b>Website:</b> <a href=%2$s>%2$s</a><br><b>Email:</b> <a href=mailto:%3$s>%3$s</a>]]>
     </string>
@@ -50,7 +51,8 @@
     <string name="want_to_delete_all_files">Você quer apagar todos os arquivos?</string>
     <string name="file_has_been_deleted">O arquivo foi apagado.</string>
     <string name="failed_to_delete_file">Falha ao excluir o arquivo.</string>
-    <string name="install__label_">Instalar - <xliff:g id="app_label" example="APKPure">%1$s</xliff:g></string>
+    <string name="install__label_">Inatalar - <xliff:g example="APKPure" id="app_label">
+1%1$s</xliff:g> 2</string>
     <string name="user_canceled">Usuário cancelado.</string>
     <string name="io_error">Erro IO. Pode ser que não há espaço livre suficiente para uma instalação bem sucedida.</string>
     <string name="file_format_error">Erro do formato do arquivo.</string>
@@ -90,29 +92,30 @@
     <string name="market_response_error_network_read_error">Erro de leitura da rede.</string>
     <string name="market_response_error_invalid_response_code">Código de resposta inválido.</string>
     <string name="market_response_error_invalid_response_body">Corpo de resposta inválido.</string>
-    <string name="market_response_error_unknown_error__error_">Erro desconhecido (<xliff:g id="error" example="SUCCESS">%1$s</xliff:g>).</string>
+    <string name="market_response_error_unknown_error__error_">Erro desconhecido (<xliff:g example="SUCCESS" id="error">
+1%1$s</xliff:g> 2).</string>
 
     <string name="no_more">Não mais.</string>
 
     <string name="update">Atualizar</string>
-    <string name="version__version___size_">Versão: <xliff:g id="version" example="1.0.0">%1$s</xliff:g>, <xliff:g id="size" example="1024 kB">%2$s</xliff:g></string>
+    <string name="version__version___size_">Versão: <xliff:g example="1.0.0" id="version"> 1%1$s</xliff:g> 2, <xliff:g example="1024 kB" id="size"> 3%2$s</xliff:g> 4</string>
     <plurals name="_count__new_update_is_available">
-	<item quantity="one"><xliff:g id="count" example="1">%1$d</xliff:g> Nova atualização está disponível</item>
-	<item quantity="other"><xliff:g id="count" example="2">%1$d</xliff:g> Novas atualizações estão disponíveis</item>
+	<item quantity="one"><xliff:g example="1" id="count"> 1%1$d</xliff:g> 2 Novas atualizações estão disponíveis</item>
+	<item quantity="other"><xliff:g example="2" id="count"> 3%1$d</xliff:g> 4 Novas atualizações estão disponíveis</item>
 </plurals>
 
     <string name="launching_please_wait">Lançamento, aguarde…</string>
 
     <plurals name="_count__item_is_downloading">
-	<item quantity="one"><xliff:g id="count" example="1">%1$d</xliff:g> O item está sendo baixado</item>
-	<item quantity="other"><xliff:g id="count" example="2">%1$d</xliff:g> Os itens estão sendo baixados</item>
+	<item quantity="one"><xliff:g example="1" id="count"> 1%1$d</xliff:g> 2 itens estão sendo baixado</item>
+	<item quantity="other"><xliff:g example="2" id="count"> 3%1$d</xliff:g> 4 itens estão sendo baixados</item>
 </plurals>
     <string name="downloads_complete">Download completo</string>
     <string name="touch_for_view_all_downloads">Toque para ver todos os downloads</string>
     <string name="_name__download_failed"><xliff:g id="name" example="APKPure">%1$s</xliff:g> Transferência falhou</string>
     <string name="touch_to_download_it_again">Toque para fazer o download novamente</string>
 
-    <string name="download_percent"><xliff:g id="percent" example="50">%1$d</xliff:g> %%</string>
+    <string name="download_percent"><xliff:g example="50" id="percent"> 1%1$d</xliff:g> 2 %%</string>
     <string name="pause">Pausar</string>
     <string name="pause_all">Pausar todos</string>
     <string name="continue_">Continuar</string>
@@ -150,7 +153,8 @@
     <string name="join_us">Junte-se a nós</string>
     <string name="skip">Pular</string>
 
-    <string name="_name__is_up_to_date"><xliff:g id="name" example="APKPure">%1$s</xliff:g> Está atualizado.</string>
+    <string name="_name__is_up_to_date"><xliff:g example="APKPure" id="name">
+1%1$s</xliff:g> 2 Estão atualizado.</string>
     <string name="new_version_available_title">Nova versão disponível</string>
     <string name="new_version_available_message">
         <![CDATA[<b>Última versão:</b> %1$s<br><br><b>O que há de novo:</b><br>%2$s]]>
@@ -191,11 +195,13 @@ Detalhe do problema:
     <string name="share">Compartilhar</string>
     <string name="share_app_url">Download <xliff:g id="app_name" example="APKPure">%1$s</xliff:g> APK (Pelo <xliff:g id="social_network_name" example="APKPure">%2$s</xliff:g>), <xliff:g id="app_url" example="https://apkpure.com/p/com.apkpure.aegon">%3$s</xliff:g></string>
 
-    <string name="_name__version_history"><xliff:g id="name" example="APKPure">%1$s</xliff:g> Histórico de versões</string>
-    <string name="update__date___size_">Atualização: <xliff:g id="date" example="Mar 3, 2016">%1$s</xliff:g>, <xliff:g id="size" example="1024 kB">%2$s</xliff:g></string>
+    <string name="_name__version_history"><xliff:g example="APKPure" id="name">
+1%1$s</xliff:g> 2 Histórico de Versões</string>
+    <string name="update__date___size_">Atualização: <xliff:g example="Mar 3, 2016" id="date">
+1%1$s</xliff:g> 2, <xliff:g example="1024 kB" id="size"> 3%2$s</xliff:g> 4</string>
 
     <string name="update_all">Atualizar tudo</string>
-    <string name="update___count__">Atualização (<xliff:g id="count" example="3">%1$d</xliff:g>)</string>
+    <string name="update___count__">Atualização (<xliff:g example="3" id="count"> 1%1$d</xliff:g> 2)</string>
     <string name="ignore">Ignorar</string>
     <string name="unignore">Ignore</string>
     <string name="select">Selecionar</string>
@@ -222,7 +228,8 @@ Detalhe do problema:
     <string name="show_notification_after_installation">Mostrar notificação após a instalação</string>
     <string name="delete_packages_after_installation">Apagar pacotes após a instalação</string>
 
-    <string name="_name__installation_completed"><xliff:g id="name" example="APKPure">%1$s</xliff:g> Instalação completa</string>
+    <string name="_name__installation_completed"><xliff:g example="APKPure" id="name">
+1%1$s</xliff:g> 2 Instalações concluídas</string>
     <string name="touch_to_open">Toque para abrir.</string>
     <string name="installed">Instalado</string>
     <string name="download_over_cellular">Transferir por telemóvel</string>
@@ -267,14 +274,14 @@ Detalhe do problema:
 
     <string name="download_complete_installation_setting">Opção de instalação após o download</string>
 <plurals name="app_detail_see_all_replies">
-	<item quantity="one">Ver tudo <xliff:g id="count" example="1"> %1$d</xliff:g>"  Respostas"</item>
-	<item quantity="other">Ver tudo <xliff:g id="count" example="2"> %1$d</xliff:g>"  Respostas"</item>
+	<item quantity="one">Ver tudo <xliff:g example="1" id="count"> 1%1$d</xliff:g> 2 Respostas</item>
+	<item quantity="other">Ver tudo <xliff:g example="2" id="count"> 3%1$d</xliff:g> 4 Respostas</item>
 </plurals>
 
     <string name="app_detail_customer_reviews">Avaliações dos usuários</string>
     <string name="app_detail_comment_type_web">Web</string>
     <string name="app_submit_submit">Enviar…</string>
-    <string name="app_submit_anonymous_comment">Comentários anônimos</string>
+    <string name="app_submit_anonymous_comment">Adicionar um comentário</string>
     <string name="app_submit_title_toast">Você deve escrever o título!</string>
     <string name="app_submit_msg_toast">Você deve escrever algo!</string>
     <string name="app_submit_name_toast">Por favor, preencha o apelido!</string>
@@ -303,4 +310,117 @@ Detalhe do problema:
 Que é necessário para escanear o código QR.</string>
     <string name="zxing_msg_default_status">Coloque o código QR dentro do visor para escaneá-lo.</string>
     <string name="zxing_msg_parser_status">O escaneamento falhou, tente escanear o código QR novamente.</string>
+<string name="recommend">Descobrir</string>
+    <string name="report">Relatório</string>
+    <string name="share_app_url_comment"> <xliff:g example="APKPure" id="user_name">
+1%1$s</xliff:g> 2 Comentários sobre
+<xliff:g example="APKPure" id="app_name">
+3%2$s</xliff:g> 4 (Através do @<xliff:g example="APKPure" id="social_network_name"> 5%3$s</xliff:g> 6), <xliff:g example="https://apkpure.com/p/com.apkpure.aegon" id="app_url">
+7%4$s</xliff:g> 8</string>
+
+    <string name="app_detail_reply_comment">Comentário(%d)</string>
+    <string name="app_detail_reply_esc">Sequência positiva</string>
+    <string name="app_detail_reply_desc">Reversa</string>
+    <string name="app_detail_reply_floor">%dPavimento</string>
+
+    <string name="app_detail_comment_order_array_recent">Recente</string>
+    <string name="app_detail_comment_order_array_newest">O mais novo</string>
+    <string name="app_detail_comment_order_array_best">O melhor</string>
+
+    <string name="download_complete_installation_setting_entries_always">Sempre instalar</string>
+    <string name="download_complete_installation_setting_entries_only">Instalar apenas quando o aplicativo estiver na frente</string>
+    <string name="download_complete_installation_setting_entries_never">Nunca instalar</string>
+
+    <string name="reply_dialog_marked_words">De acordo com a imagem pode ser excluído</string>
+    <string name="reply_comment">Responder ao comentário</string>
+    <string name="save_original_image">Preserve a imagem original</string>
+    <string name="already_save">Salva<xliff:g id="path" example="ApKPure/photo">
+1%1$s</xliff:g> 2</string>
+
+    <string name="tip_permission_camera_storage">Sem permissão para usar a câmera e o cartão SD, Abrir o gerenciamento de direitos</string>
+    <string name="permission_denied">Acesso negado!</string>
+
+    <string name="login_title">Entrar</string>
+    <string name="sign_out">Sair</string>
+
+    <string name="delete_comment">Deletar comentário</string>
+    <string name="delete_comment_msg">Tem certeza de que deseja excluir este comentário?</string>
+    <string name="upload_cancel">O carregamento foi cancelado</string>
+    <string name="login_select_way_to_login">Escolha a forma de iniciar a sessão</string>
+
+    <string name="user_info_edit_title">Perfil</string>
+    <string name="user_info_edit_portrait_tv">Foto do perfil</string>
+    <string name="user_info_edit_username_tv">Nome de usuário</string>
+    <string name="user_info_edit_nickname_tv">Apelido</string>
+    <string name="user_info_edit_email_tv">Email</string>
+    <string name="user_info_edit_gender_tv">Gênero</string>
+    <string name="user_info_edit_birthday_tv">Aniversário</string>
+    <string name="user_info_edit_change_pwd_tv">Trocar a senha</string>
+    <string name="user_info_edit_login_out_tv">Sair</string>
+    <string name="user_info_edit_not_choose">Desconhecido</string>
+    <string name="user_info_edit_gender_male">Masculino</string>
+    <string name="user_info_edit_gender_female">Feminino</string>
+    <string name="user_info_edit_portrait_album">Selecionar foto da galeria</string>
+    <string name="user_info_edit_portrait_take_photo">Tirar foto usando a câmera</string>
+    <string name="user_info_edit_portrait_error">O tipo de imagem não é suportado</string>
+    <string name="user_info_edit_ok">OK</string>
+    <string name="user_info_edit_cancel">Cancelar</string>
+
+    <string name="update_nick_title">Alterar apelido</string>
+    <string name="update_email_title">Alterar email</string>
+    <string name="update_nick_name_et">Digite seu novo apelido</string>
+    <string name="update_nick_name_tv">O novo apelido não pode ficar em branco</string>
+    <string name="update_email_name_et">Digite seu email</string>
+    <string name="update_eamil_name_tv">O email não pode ficar em branco</string>
+    <string name="update_nickname_error">Apelido já usado, escolha outro!</string>
+
+    <string name="update_pwd_title">Trocar minha senha</string>
+    <string name="update_pwd_current_pwd_et">Senha Antiga</string>
+    <string name="update_pwd_new_pwd_et">Nova senha</string>
+    <string name="update_pwd_Confirm_pwd_et">Confirme a nova senha</string>
+    <string name="upload_avatar">Carregando…</string>
+    <string name="update_pwd_current_null_tv">A senha antiga não pode ficar em branco</string>
+    <string name="update_pwd_Confirm_null_tv">Confirmar a senha não pode ficar em branco</string>
+    <string name="update_pwd_new_pwd_null_tv">Nova senha não pode ficar em branco</string>
+    <string name="update_pwd_new_confrim_tv">As senhas inseridas não são iguais</string>
+    <string name="update_pwd_save_bt">Salvo</string>
+    <string name="update_save_success">Salvo com sucesso!</string>
+    <string name="crop__cancel" ignore="ButtonCase">Cancelar</string>
+    <string name="crop__done">Feito</string>
+    <string name="crop__pick_error">Tipo de arquivo de imagem inválido</string>
+    <string name="crop__saving">Salvando foto…</string>
+    <string name="crop__wait">Por favor, espere…</string>
+
+    <string name="is_comment">O comentário é…</string>
+    <string name="comment_cancel">O comentário foi cancelado</string>
+    <string name="comment_replying">Enviando resposta…</string>
+    <string name="register_term_of_service">APKPure Termo de Serviço</string>
+
+    <string name="set_contributor">Contribuintes</string>
+    <string name="set_permissions">Permissões</string>
+    
+    <string name="sign_in_services">Ao assinar você concorda com nossos Termos e Política de Privacidade.</string>
+
+    <string name="sign_in_services_key">Termos</string>
+    <string name="sign_in_services_key_policy">Política de Privacidade</string>
+
+    <string name="user_sign_up">Inscrever-se</string>
+    <string name="user_name_hint">Nome de usuário</string>
+    <string name="user_email_hint">Email</string>
+    <string name="user_password">Senha(6–32)</string>
+    <string name="user_password_confirm">Confirme a Senha</string>
+
+    <string name="user_name_error">O nome de usuário não deve conter caracteres especiais, símbolos ou espaços</string>
+    <string name="user_nickname_error">Apelido não deve conter caracteres especiais, símbolos ou espaços</string>
+    <string name="user_email_error">Este endereço de email é inválido</string>
+    <string name="user_password_error">Esta senha é inválida</string>
+    <string name="user_confirm_error">As senhas devem corresponder</string>
+
+    <string name="login_user_name">Nome de usuário</string>
+    <string name="login_user_password">Senha</string>
+    <string name="login_user_sign_in">Entrar com</string>
+    <string name="login_choose">Ou faça login com sua conta</string>
+    <string name="login_new_user">Registrar novo usuário</string>
+    <string name="login_post_as_a_guest">Postar como convidado</string>
+
 </resources>
