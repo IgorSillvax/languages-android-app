@@ -21,7 +21,7 @@
     <string name="load_failed_no_results">Desculpa! Nenhum resultado encontrado.</string>
     <string name="refresh">Atualizar</string>
 
-    <string name="management">Gestão</string>
+    <string name="management">Gerenciamento</string>
     <string name="app_updates">Atualizações de aplicativos</string>
     <string name="app_management">Gerenciador de Aplicativos</string>
     <string name="app_uninstall">Desinstalar App</string>
@@ -45,7 +45,7 @@
     <string name="delete_all">Apagar tudo</string>
     <string name="properties">Propriedades</string>
     <string name="properties_message">"
- &lt;b&gt;Path:&lt;/b&gt; %1$s&lt;br&gt;&lt;b&gt;Tamanho:&lt;/b&gt; %2$s&lt;br&gt;&lt;b&gt;Última modificação:&lt;/b&gt; %3$s
+ &lt;b&gt;Caminho:&lt;/b&gt; %1$s&lt;br&gt;&lt;b&gt;Tamanho:&lt;/b&gt; %2$s&lt;br&gt;&lt;b&gt;Última modificação:&lt;/b&gt; %3$s
  "</string>
     <string name="want_to_delete_file">Você deseja excluir este arquivo?</string>
     <string name="want_to_delete_all_files">Você quer apagar todos os arquivos?</string>
@@ -98,28 +98,28 @@
     <string name="no_more">Não mais.</string>
 
     <string name="update">Atualizar</string>
-    <string name="version__version___size_">Versão: <xliff:g example="1.0.0" id="version"> 1%1$s</xliff:g> 2, <xliff:g example="1024 kB" id="size"> 3%2$s</xliff:g> 4</string>
+    <string name="version__version___size_">Versão: <xliff:g example="1.0.0" id="version"> %1$s</xliff:g>"  , "<xliff:g example="1024 kB" id="size"> %2$s</xliff:g></string>
     <plurals name="_count__new_update_is_available">
-	<item quantity="one"><xliff:g example="1" id="count"> 1%1$d</xliff:g> 2 Novas atualizações estão disponíveis</item>
-	<item quantity="other"><xliff:g example="2" id="count"> 3%1$d</xliff:g> 4 Novas atualizações estão disponíveis</item>
+	<item quantity="one"><xliff:g example="1" id="count"> 1%1$d</xliff:g> Nova atualização está disponível</item>
+	<item quantity="other"><xliff:g example="2" id="count"> 3%1$d</xliff:g> Novas atualizações estão disponíveis</item>
 </plurals>
 
     <string name="launching_please_wait">Lançamento, aguarde…</string>
 
     <plurals name="_count__item_is_downloading">
-	<item quantity="one"><xliff:g example="1" id="count"> 1%1$d</xliff:g> 2 itens estão sendo baixado</item>
-	<item quantity="other"><xliff:g example="2" id="count"> 3%1$d</xliff:g> 4 itens estão sendo baixados</item>
+	<item quantity="one"><xliff:g example="1" id="count"> 1%1$d</xliff:g> O item está sendo baixado</item>
+	<item quantity="other"><xliff:g example="2" id="count"> 3%1$d</xliff:g> Os itens estão sendo baixados</item>
 </plurals>
     <string name="downloads_complete">Download completo</string>
     <string name="touch_for_view_all_downloads">Toque para ver todos os downloads</string>
-    <string name="_name__download_failed"><xliff:g id="name" example="APKPure">%1$s</xliff:g> Transferência falhou</string>
+    <string name="_name__download_failed"><xliff:g id="name" example="APKPure">%1$s</xliff:g> Falha no download</string>
     <string name="touch_to_download_it_again">Toque para fazer o download novamente</string>
 
     <string name="download_percent"><xliff:g example="50" id="percent"> 1%1$d</xliff:g> 2 %%</string>
     <string name="pause">Pausar</string>
-    <string name="pause_all">Pausar todos</string>
+    <string name="pause_all">Pausar Todos</string>
     <string name="continue_">Continuar</string>
-    <string name="continue_all">Continuar todos</string>
+    <string name="continue_all">Continuar Todos</string>
     <string name="restart">Reiniciar</string>
     <string name="download">Baixar</string>
     <string name="downloading">Baixando</string>
@@ -154,7 +154,7 @@
     <string name="skip">Pular</string>
 
     <string name="_name__is_up_to_date"><xliff:g example="APKPure" id="name">
-1%1$s</xliff:g> 2 Estão atualizado.</string>
+%1$s</xliff:g>"  Estão atualizado."</string>
     <string name="new_version_available_title">Nova versão disponível</string>
     <string name="new_version_available_message">
         <![CDATA[<b>Última versão:</b> %1$s<br><br><b>O que há de novo:</b><br>%2$s]]>
@@ -174,36 +174,36 @@ Detalhe do problema:
 
     <string name="installation_failed">Falha na instalação</string>
     <string name="invalid_app_detail">Informações do aplicativo inválido.</string>
-    <string name="invalid_app_asset">Informações de ativos aplicativo inválido.</string>
-    <string name="failed_to_request_app_detail">Falha ao solicitar informações detalhadas do app.</string>
-    <string name="failed_to_request_app_asset">Falha ao solicitar informações do aplicativo.</string>
-    <string name="incompatible_this_app">
-        <![CDATA[<big><b><font color="%1$d">Dispositivo não é compatível com este aplicativo.</font></b></big><br><br>Você quer continuar?]]>
-    </string>
-    <string name="this_app_not_usable">
-        <![CDATA[<big><b><font color="%1$d">Este aplicativo não pode ser útil.</font></b></big><br><br>Você quer continuar?]]>
-    </string>
+    <string name="invalid_app_asset">Informações inválidas sobre o recurso do aplicativo.</string>
+    <string name="failed_to_request_app_detail">Falha ao solicitar informações detalhadas do aplicativo.</string>
+    <string name="failed_to_request_app_asset">Falha ao solicitar informações sobre o recurso do aplicativo.</string>
+    <string name="incompatible_this_app">"
+ &lt;big&gt;&lt;b&gt;&lt;font color=%1$d&gt;Seu dispositivo não é compatível com este aplicativo.&lt;/font&gt;&lt;/b&gt;&lt;/big&gt;&lt;br&gt;&lt;br&gt;Você quer continuar?
+ "</string>
+    <string name="this_app_not_usable">"
+ &lt;big&gt;&lt;b&gt;&lt;font color=%1$d&gt;Este aplicativo pode não ser utilizável.&lt;/font&gt;&lt;/b&gt;&lt;/big&gt;&lt;br&gt;&lt;br&gt;Você quer continuar?
+ "</string>
 
     <string name="setting">Configuração</string>
     <string name="external_storage_not_usable">
- <big><b>Precisamos para acessar seu armazenamento externo. Por favor, certifique-se de que \'S pode ser usado.</b></big>
+ <big><b>Precisamos acessar seu armazenamento externo. Certifique-se de que é utilizável.</b></big>
  </string>
     <string name="external_storage_permission_denied">
- <big><b>Precisamos para acessar seu armazenamento externo. Por favor, certifique-se se a permissão não é negada.</b></big>
+ <big><b>Precisamos acessar seu armazenamento externo. Por favor, certifique-se se a permissão não é negada.</b></big>
  </string>
 
     <string name="share">Compartilhar</string>
-    <string name="share_app_url">Download <xliff:g id="app_name" example="APKPure">%1$s</xliff:g> APK (Pelo <xliff:g id="social_network_name" example="APKPure">%2$s</xliff:g>), <xliff:g id="app_url" example="https://apkpure.com/p/com.apkpure.aegon">%3$s</xliff:g></string>
+    <string name="share_app_url">Baixar <xliff:g id="app_name" example="APKPure">%1$s</xliff:g> APK (Através do <xliff:g id="social_network_name" example="APKPure">%2$s</xliff:g>), <xliff:g id="app_url" example="https://apkpure.com/p/com.apkpure.aegon">%3$s</xliff:g></string>
 
     <string name="_name__version_history"><xliff:g example="APKPure" id="name">
-1%1$s</xliff:g> 2 Histórico de Versões</string>
+%1$s</xliff:g> Histórico de Versões</string>
     <string name="update__date___size_">Atualização: <xliff:g example="Mar 3, 2016" id="date">
-1%1$s</xliff:g> 2, <xliff:g example="1024 kB" id="size"> 3%2$s</xliff:g> 4</string>
+%1$s</xliff:g> , <xliff:g example="1024 kB" id="size"> %2$s</xliff:g></string>
 
     <string name="update_all">Atualizar tudo</string>
     <string name="update___count__">Atualização (<xliff:g example="3" id="count"> 1%1$d</xliff:g> 2)</string>
     <string name="ignore">Ignorar</string>
-    <string name="unignore">Ignore</string>
+    <string name="unignore">Não ignorar</string>
     <string name="select">Selecionar</string>
     <string name="cancel">Cancelar</string>
     <string name="select_all">Selecionar tudo</string>
@@ -229,7 +229,7 @@ Detalhe do problema:
     <string name="delete_packages_after_installation">Apagar pacotes após a instalação</string>
 
     <string name="_name__installation_completed"><xliff:g example="APKPure" id="name">
-1%1$s</xliff:g> 2 Instalações concluídas</string>
+1%1$s</xliff:g> Instalação concluída</string>
     <string name="touch_to_open">Toque para abrir.</string>
     <string name="installed">Instalado</string>
     <string name="download_over_cellular">Transferir por telemóvel</string>
@@ -245,11 +245,11 @@ Detalhe do problema:
     <string name="similar_or_related">Semelhante ou Relacionado</string>
     <string name="more_from_developer">Mais do desenvolvedor</string>
     <string name="more_large">Mais</string>
-    <string name="feedback">Comentários</string>
+    <string name="feedback">Deixe seu feedback</string>
 
     <string name="changing_language">Alterando o idioma, aguarde…</string>
     <string name="auto_service_install_accessibility_title">Instalação automática</string>
-    <string name="auto_service_install_accessibility_summary">Suporte Android 4.1 ou superior, sem necessidade de permissão de root.</string>
+    <string name="auto_service_install_accessibility_summary">Suporte Android 4.1 ou superior, sem necessidade de permissão de Root.</string>
 
     <string name="auto_service_dialog_title">Ativar a Instalação automática</string>
     <string name="auto_service_dialog_message">A Instalação automática exige que você autorize no telefone, é seguro usar sem riscos.</string>
@@ -274,11 +274,11 @@ Detalhe do problema:
 
     <string name="download_complete_installation_setting">Opção de instalação após o download</string>
 <plurals name="app_detail_see_all_replies">
-	<item quantity="one">Ver tudo <xliff:g example="1" id="count"> 1%1$d</xliff:g> 2 Respostas</item>
-	<item quantity="other">Ver tudo <xliff:g example="2" id="count"> 3%1$d</xliff:g> 4 Respostas</item>
+	<item quantity="one">Ver tudo <xliff:g example="1" id="count"> %1$d</xliff:g> Respostas</item>
+	<item quantity="other">Ver tudo <xliff:g example="2" id="count"> %1$d</xliff:g> Respostas</item>
 </plurals>
 
-    <string name="app_detail_customer_reviews">Avaliações dos usuários</string>
+    <string name="app_detail_customer_reviews">Comentários dos usuários</string>
     <string name="app_detail_comment_type_web">Web</string>
     <string name="app_submit_submit">Enviar…</string>
     <string name="app_submit_anonymous_comment">Adicionar um comentário</string>
@@ -296,7 +296,7 @@ Detalhe do problema:
 
     <string name="app_detail_tab_one">Detalhes</string>
     <string name="app_detail_tab_two">Comentários</string>
-    <string name="app_detail_tab_three">Relacionados</string>
+    <string name="app_detail_tab_three">Relacionado</string>
 
     <string name="reply">Resposta</string>
     <string name="input_reply_content">O conteúdo de entrada da resposta:</string>
@@ -313,10 +313,10 @@ Que é necessário para escanear o código QR.</string>
 <string name="recommend">Descobrir</string>
     <string name="report">Relatório</string>
     <string name="share_app_url_comment"> <xliff:g example="APKPure" id="user_name">
-1%1$s</xliff:g> 2 Comentários sobre
+1%1$s</xliff:g> Comentários sobre
 <xliff:g example="APKPure" id="app_name">
-3%2$s</xliff:g> 4 (Através do @<xliff:g example="APKPure" id="social_network_name"> 5%3$s</xliff:g> 6), <xliff:g example="https://apkpure.com/p/com.apkpure.aegon" id="app_url">
-7%4$s</xliff:g> 8</string>
+%2$s</xliff:g> (Através do @<xliff:g example="APKPure" id="social_network_name"> %3$s</xliff:g> ), <xliff:g example="https://apkpure.com/p/com.apkpure.aegon" id="app_url">
+%4$s</xliff:g></string>
 
     <string name="app_detail_reply_comment">Comentário(%d)</string>
     <string name="app_detail_reply_esc">Sequência positiva</string>
@@ -334,7 +334,7 @@ Que é necessário para escanear o código QR.</string>
     <string name="reply_dialog_marked_words">De acordo com a imagem pode ser excluído</string>
     <string name="reply_comment">Responder ao comentário</string>
     <string name="save_original_image">Preserve a imagem original</string>
-    <string name="already_save">Salva<xliff:g id="path" example="ApKPure/photo">
+    <string name="already_save">Salvado<xliff:g id="path" example="ApKPure/photo">
 1%1$s</xliff:g> 2</string>
 
     <string name="tip_permission_camera_storage">Sem permissão para usar a câmera e o cartão SD, Abrir o gerenciamento de direitos</string>
@@ -375,7 +375,7 @@ Que é necessário para escanear o código QR.</string>
     <string name="update_nickname_error">Apelido já usado, escolha outro!</string>
 
     <string name="update_pwd_title">Trocar minha senha</string>
-    <string name="update_pwd_current_pwd_et">Senha Antiga</string>
+    <string name="update_pwd_current_pwd_et">Senha antiga</string>
     <string name="update_pwd_new_pwd_et">Nova senha</string>
     <string name="update_pwd_Confirm_pwd_et">Confirme a nova senha</string>
     <string name="upload_avatar">Carregando…</string>
@@ -384,7 +384,7 @@ Que é necessário para escanear o código QR.</string>
     <string name="update_pwd_new_pwd_null_tv">Nova senha não pode ficar em branco</string>
     <string name="update_pwd_new_confrim_tv">As senhas inseridas não são iguais</string>
     <string name="update_pwd_save_bt">Salvo</string>
-    <string name="update_save_success">Salvo com sucesso!</string>
+    <string name="update_save_success">Salvado com sucesso!</string>
     <string name="crop__cancel" ignore="ButtonCase">Cancelar</string>
     <string name="crop__done">Feito</string>
     <string name="crop__pick_error">Tipo de arquivo de imagem inválido</string>
@@ -404,7 +404,7 @@ Que é necessário para escanear o código QR.</string>
     <string name="sign_in_services_key">Termos</string>
     <string name="sign_in_services_key_policy">Política de Privacidade</string>
 
-    <string name="user_sign_up">Inscrever-se</string>
+    <string name="user_sign_up">Registrar-se</string>
     <string name="user_name_hint">Nome de usuário</string>
     <string name="user_email_hint">Email</string>
     <string name="user_password">Senha(6–32)</string>
@@ -418,9 +418,9 @@ Que é necessário para escanear o código QR.</string>
 
     <string name="login_user_name">Nome de usuário</string>
     <string name="login_user_password">Senha</string>
-    <string name="login_user_sign_in">Entrar com</string>
+    <string name="login_user_sign_in">Entrar</string>
     <string name="login_choose">Ou faça login com sua conta</string>
-    <string name="login_new_user">Registrar novo usuário</string>
+    <string name="login_new_user">Registrar Novo Usuário</string>
     <string name="login_post_as_a_guest">Postar como convidado</string>
 
 </resources>
