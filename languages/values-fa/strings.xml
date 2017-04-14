@@ -30,7 +30,7 @@
     <string name="download_management">مدیریت دانلود</string>
     <string name="settings">تنظیمات</string>
     <string name="about">درباره</string>
-    <string name="about_title">درباره <xliff:g id="app_name" example="APKPure">%1$s</xliff:g></string>
+    <string name="about_title">درباره <xliff:g example="APKPure" id="app_name">%1$s</xliff:g></string>
     <string name="about_message">
         <![CDATA[<b>نسخه:</b> %1$s<br><br><b>وب‌سایت:</b> <a href=%2$s>%2$s</a><br><b>ایمیل:</b> <a href=mailto:%3$s>%3$s</a><br><b>مترجم: گودرز جعفری</b> <a href=mailto:Jafari@NoavaranJavan.com</a>]]>
     </string>
@@ -50,7 +50,7 @@
     <string name="want_to_delete_all_files">آیا شما می‌خواهید همه فایل‌ها را حذف کنید؟</string>
     <string name="file_has_been_deleted">فایل حذف شده است.</string>
     <string name="failed_to_delete_file">فایل حذف نشد.</string>
-    <string name="install__label_">نصب - <xliff:g id="app_label" example="APKPure">%1$s</xliff:g></string>
+    <string name="install__label_">نصب - <xliff:g example="APKPure" id="app_label">%1$s</xliff:g></string>
     <string name="all">همه</string>
 
     <string name="screenshots">تصاویر</string>
@@ -72,12 +72,12 @@
     <string name="flag_as_inappropriate">گزارش محتوای نامناسب</string>
     <string name="_ellipsis_"> … </string>
 
-    <string name="version__version___size_">نسخه: <xliff:g id="version" example="1.0.0">%1$s</xliff:g>, <xliff:g id="size" example="1024 kB">%2$s</xliff:g></string>
+    <string name="version__version___size_">نسخه: <xliff:g example="1.0.0" id="version">%1$s</xliff:g>, <xliff:g example="1024 kB" id="size">%2$s</xliff:g></string>
     <string name="no_more">دیگر چیز بیشتری وجود ندارد.</string>
 
     <string name="update">به‌روزرسانی</string>
     <plurals name="_count__new_update_is_available">
-	<item quantity="one"><xliff:g id="count" example="1">%1$d</xliff:g> به‌روزرسانی جدید در دسترس است</item>
+	<item quantity="one"><xliff:g example="1" id="count">%1$d</xliff:g> به‌روزرسانی جدید در دسترس است</item>
 	<item quantity="other"><xliff:g id="count" example="2">%1$d</xliff:g> به‌روزرسانی جدید در دسترس است</item>
 </plurals>
 
@@ -100,7 +100,7 @@
     <string name="market_response_error_network_read_error">خطا خواندن شبکه.</string>
     <string name="market_response_error_invalid_response_code">کد پاسخ نامعتبر است.</string>
     <string name="market_response_error_invalid_response_body">متن پاسخ نامعتبر است.</string>
-    <string name="market_response_error_unknown_error__error_">خطای ناشناخته (<xliff:g id="error" example="SUCCESS">%1$s</xliff:g>).</string>
+    <string name="market_response_error_unknown_error__error_">خطای ناشناخته (<xliff:g example="SUCCESS" id="error">%1$s</xliff:g>).</string>
 
     <string name="launching_please_wait">در‌حال راه‌اندازی، لطفا صبر کنید…</string>
 
@@ -110,10 +110,10 @@
     </plurals>
     <string name="downloads_complete">دانلود‌ کامل شد</string>
     <string name="touch_for_view_all_downloads">برای مشاهده تمام دانلود‌ها، لمس کنید</string>
-    <string name="_name__download_failed"><xliff:g id="name" example="APKPure">%1$s</xliff:g> دانلود نشد</string>
+    <string name="_name__download_failed"><xliff:g example="APKPure" id="name">%1$s</xliff:g> دانلود نشد</string>
     <string name="touch_to_download_it_again">برای دانلود دوباره لمس کنید</string>
 
-    <string name="download_percent"><xliff:g id="percent" example="50">%1$d</xliff:g> %%</string>
+    <string name="download_percent"><xliff:g example="50" id="percent">%1$d</xliff:g> %%</string>
     <string name="pause">توقف</string>
     <string name="pause_all">توقف همه</string>
     <string name="continue_">ادامه دهید</string>
@@ -148,7 +148,7 @@
     <string name="join_us">به ما بپیوند</string>
     <string name="skip">رد کردن</string>
 
-    <string name="_name__is_up_to_date"><xliff:g id="name" example="APKPure">%1$s</xliff:g> به‌روز است.</string>
+    <string name="_name__is_up_to_date"><xliff:g example="APKPure" id="name">%1$s</xliff:g> به‌روز است.</string>
     <string name="new_version_available_title">نسخه جدید در‌دسترس است</string>
     <string name="new_version_available_message">
         <![CDATA[<b>آخرین نسخه:</b> %1$s<br><br><b>چه خبر نسخه جدید:</b><br>%2$s]]>
@@ -173,7 +173,7 @@
     <string name="setting">تنظیمات</string>
     <string name="share">اشتراک گذاری</string>
     <string name="update_all">به‌روزرسانی همه</string>
-    <string name="update___count__">به‌روزرسانی (<xliff:g id="count" example="3">%1$d</xliff:g>)</string>
+    <string name="update___count__">به‌روزرسانی (<xliff:g example="3" id="count">%1$d</xliff:g>)</string>
     <string name="ignore">نادیده گرفتن</string>
     <string name="unignore">نادیده نگیر</string>
     <string name="select">انتخاب</string>
@@ -199,7 +199,7 @@
     <string name="show_notification_after_installation">نمایش اطلاعیه بعد از نصب</string>
     <string name="delete_packages_after_installation">حذف پکیج‌ها بعد از نصب</string>
 
-    <string name="_name__installation_completed"><xliff:g id="name" example="APKPure">%1$s</xliff:g> نصب شد</string>
+    <string name="_name__installation_completed"><xliff:g example="APKPure" id="name">%1$s</xliff:g> نصب شد</string>
     <string name="touch_to_open">برای باز کردن لمس کنید.</string>
 
     <string name="external_storage_not_usable">
@@ -209,10 +209,10 @@
         <![CDATA[<big><b>ما نیاز به دسترسی ذخیره سازی خارجی شما داریم. لطفا مطمئن شوید که اجازه دسترسی رد نشده.</b></big>]]>
     </string>
 
-    <string name="share_app_url">دانلود <xliff:g id="app_name" example="APKPure">%1$s</xliff:g> ای‌پی‌کا (از @<xliff:g id="social_network_name" example="APKPure">%2$s</xliff:g>), <xliff:g id="app_url" example="https://apkpure.com/p/com.apkpure.aegon">%3$s</xliff:g></string>
+    <string name="share_app_url">دانلود <xliff:g example="APKPure" id="app_name">%1$s</xliff:g> ای‌پی‌کا (از @<xliff:g example="APKPure" id="social_network_name">%2$s</xliff:g>), <xliff:g example="https://apkpure.com/p/com.apkpure.aegon" id="app_url">%3$s</xliff:g></string>
 
-    <string name="_name__version_history">تاریخچه نسخه <xliff:g id="name" example="APKPure">%1$s</xliff:g></string>
-    <string name="update__date___size_">به‌روزرسانی: <xliff:g id="date" example="Mar 3, 2016">%1$s</xliff:g>, <xliff:g id="size" example="1024 kB">%2$s</xliff:g></string>
+    <string name="_name__version_history"><xliff:g example="APKPure" id="name">%1$s</xliff:g> تاریخچه نسخه</string>
+    <string name="update__date___size_">به‌روزرسانی: <xliff:g example="Mar 3, 2016" id="date">%1$s</xliff:g>, <xliff:g example="1024 kB" id="size">%2$s</xliff:g></string>
 
     <string name="improvement_plan_message">با ثبت اطلاعات گوشی اندرویدی‌خود به ما در ارائه خدمات بهتر کمک کنید، ما اطلاعات شخصی-هویتی شما از قبیل (نام ، نشانی ، نشانی ایمیل ، شماره ملی و… ) را <b> ذخیره نمیکنیم.</b></string>
     <string name="this_app_not_usable">
@@ -261,14 +261,14 @@
     <string name="changing_language">در حال تغییر زبان، لطفا صبر کنید…</string>
     <string name="download_complete_installation_setting">گزینه نصب پس از دانلود</string>
     <plurals name="app_detail_see_all_replies">
-	<item quantity="one">مشاهده تمام <xliff:g id="count" example="1">%1$d</xliff:g> پاسخ</item>
-	<item quantity="other">مشاهده تمام <xliff:g id="count" example="2">%1$d</xliff:g> پاسخ‌ها</item>
+	<item quantity="one">مشاهده تمام <xliff:g example="1" id="count">%1$d</xliff:g> پاسخ</item>
+	<item quantity="other">مشاهده تمام <xliff:g example="2" id="count">%1$d</xliff:g> پاسخ‌ها</item>
 </plurals>
 
     <string name="app_detail_customer_reviews">نظرات مشتریان</string>
     <string name="app_detail_comment_type_web">وب</string>
     <string name="app_submit_submit">ارسال…</string>
-    <string name="app_submit_anonymous_comment">نظرات ناشناس</string>
+    <string name="app_submit_anonymous_comment">اضافه کردن نظر</string>
     <string name="app_submit_title_toast">شما باید عنوان را وارد کنید !</string>
     <string name="app_submit_msg_toast">شما باید چیزی بنویسید !</string>
     <string name="app_submit_name_toast">لطفا یک نام مستعاروارد کنید !</string>
@@ -297,4 +297,107 @@
     <string name="zxing_msg_parser_status">اسکن ناموفق بود، لطفا برای اسکن کد QR دوباره تلاش کنید.</string>
 <string name="input_reply_content">محتوای واردی برای پاسخ:</string>
     <string name="zxing_msg_default_status">لطفا محل کد QR را در قسمت منظره یاب برای اسکن قرار دهید.</string>
+    <string name="report">گزارش</string>
+    <string name="share_app_url_comment"> <xliff:g example="APKPure" id="user_name">%1$s</xliff:g> نظر در مورد <xliff:g example="APKPure" id="app_name">%2$s</xliff:g> (از جانب @<xliff:g example="APKPure" id="social_network_name">%3$s</xliff:g>), <xliff:g example="https://apkpure.com/p/com.apkpure.aegon" id="app_url">%4$s</xliff:g></string>
+
+    <string name="app_detail_reply_comment">نظر (%d)</string>
+    <string name="app_detail_comment_order_array_recent">اخیرا</string>
+    <string name="app_detail_comment_order_array_newest">جدیدترین</string>
+    <string name="app_detail_comment_order_array_best">بهترین</string>
+
+    <string name="download_complete_installation_setting_entries_always">همیشه نصب شود</string>
+    <string name="download_complete_installation_setting_entries_only">بعد از دانلود پنجره نصب برنامه باز می‌شود</string>
+    <string name="download_complete_installation_setting_entries_never">هرگز نصب نشود</string>
+
+    <string name="reply_comment">پاسخ به نظر</string>
+    <string name="already_save">ذخیره شد <xliff:g id="path" example="ApKPure/photo">%1$s</xliff:g></string>
+
+    <string name="tip_permission_camera_storage">اجازه استفاده از دوربین و مموری کارت را ندارد، قسمت مدیریت را باز کنید</string>
+    <string name="permission_denied">دسترسی نپذیرفته شده!</string>
+
+    <string name="login_title">ورود</string>
+    <string name="sign_out">خروج</string>
+
+    <string name="delete_comment">حذف نظر</string>
+    <string name="delete_comment_msg">آیا شما مطمئن هستید که میخواهید این نظر را حذف کنید؟</string>
+    <string name="upload_cancel">آپلود لغو شده است</string>
+    <string name="user_info_edit_title">پروفایل</string>
+    <string name="user_info_edit_portrait_tv">تصویر پروفایل</string>
+    <string name="user_info_edit_username_tv">نام‌کاربری</string>
+    <string name="user_info_edit_nickname_tv">نام مستعار</string>
+    <string name="user_info_edit_email_tv">ایمیل</string>
+    <string name="user_info_edit_gender_tv">جنسیت</string>
+    <string name="user_info_edit_birthday_tv">تاریخ تولد</string>
+    <string name="user_info_edit_change_pwd_tv">تنظیم مجدد رمز ورود</string>
+    <string name="user_info_edit_login_out_tv">خروج</string>
+    <string name="user_info_edit_not_choose">مشخص نشده</string>
+    <string name="user_info_edit_gender_male">مذکر</string>
+    <string name="user_info_edit_gender_female">مونث</string>
+    <string name="user_info_edit_portrait_album">انتخاب عکس از گالری</string>
+    <string name="user_info_edit_portrait_take_photo">گرفتن عکس از دوربین</string>
+    <string name="user_info_edit_portrait_error">این نوع پسوند عکس پشتیبانی نمی‌شود</string>
+    <string name="user_info_edit_ok">باشد</string>
+    <string name="user_info_edit_cancel">انصراف</string>
+
+    <string name="update_nick_title">تغییر نام مستعار</string>
+    <string name="update_email_title">تغییر ایمیل</string>
+    <string name="update_nick_name_et">نام مستعار جدید خود را وارد کنید</string>
+    <string name="update_nick_name_tv">فیلد نام مستعار جدید نمی تواند خالی باشد</string>
+    <string name="update_email_name_et">ایمیل خود را وارد</string>
+    <string name="update_eamil_name_tv">فیلد ایمیل نمی تواند خالی باشد</string>
+    <string name="update_nickname_error">این نام مستعار قبلا گرفته شده، لطفا یکی دیگر را انتخاب کنید!</string>
+
+    <string name="update_pwd_title">به‌روزرسانی رمز ورود</string>
+    <string name="update_pwd_current_pwd_et">رمز ورود قدیمی</string>
+    <string name="update_pwd_new_pwd_et">رمز ورود جدید</string>
+    <string name="update_pwd_Confirm_pwd_et">تکرار رمز ورود جدید</string>
+    <string name="upload_avatar">در حال آپلود…</string>
+    <string name="update_pwd_current_null_tv">فیلد رمز ورود قدیمی نمی تواند خالی باشد</string>
+    <string name="update_pwd_Confirm_null_tv">فیلد تکرار رمز ورود جدید نمی تواند خالی باشد</string>
+    <string name="update_pwd_new_pwd_null_tv">فیلد رمز ورود جدید نمی تواند خالی باشد</string>
+    <string name="update_pwd_new_confrim_tv">رمز ورود وارد شده با هم مطابقت ندارد</string>
+    <string name="update_pwd_save_bt">ذخیره</string>
+    <string name="update_save_success">با موفقیت ذخیره شد!</string>
+    <string name="crop__cancel" ignore="ButtonCase">انصراف</string>
+    <string name="crop__done">انجام شده</string>
+    <string name="crop__pick_error">نوع فایل تصویر نامعتبر است</string>
+    <string name="crop__saving">در حال ذخیره کردن عکس…</string>
+    <string name="crop__wait">لطفا صبر کنید…</string>
+
+    <string name="comment_cancel">نظر لغو شده است</string>
+    <string name="comment_replying">در حال ارسال پاسخ…</string>
+    <string name="register_term_of_service">APKPure شرایط خدمت رسانی</string>
+
+    <string name="set_contributor">شرکت کننده‌ها</string>
+    <string name="set_permissions">مجوزها</string>
+    
+    <string name="sign_in_services">شما با ثبت نام از شرایط و سیاست‌های حفظ حریم خصوصی ما موافقت کرده‌ایید.</string>
+
+    <string name="sign_in_services_key">شرایط</string>
+    <string name="sign_in_services_key_policy">سیاست‌های حفظ حریم خصوصی</string>
+
+    <string name="user_sign_up">ثبت نام</string>
+    <string name="user_name_hint">نام‌کاربری</string>
+    <string name="user_email_hint">ایمیل</string>
+    <string name="user_password">رمز ورود (۶-۳۲)</string>
+    <string name="user_password_confirm">تکرار رمز ورود</string>
+
+    <string name="user_name_error">نام‌کاربری نباید شامل کاراکتر‌های خاص، علامت یا فاصله باشد</string>
+    <string name="user_nickname_error">نام مستعار نباید شامل کاراکتر‌های خاص، علامت یا فاصله باشد</string>
+    <string name="user_email_error">این آدرس ایمیل نامعتبر است</string>
+    <string name="user_password_error">این رمز ورود نامعتبر است</string>
+    <string name="user_confirm_error">رمز ورود‌ها باید با هم مطابقت داشته باشد</string>
+
+    <string name="login_user_name">نام‌کاربری</string>
+    <string name="login_user_password">رمز ورود</string>
+    <string name="login_user_sign_in">ورود</string>
+    <string name="login_choose">یا با یکی ار حساب‌های خود وارد شوید</string>
+    <string name="login_new_user">ثبت نام کاربر جدید</string>
+    <string name="login_post_as_a_guest">ارسال به عنوان مهمان</string>
+
+<string name="recommend">پیشنهاد‌ها</string>
+    <string name="reply_dialog_marked_words">با توجه به تصویر می تواند حذف شود</string>
+    <string name="save_original_image">نگه‌داشتن تصویر اصلی</string>
+    <string name="login_select_way_to_login">لطفا یکی از راه‌ها را برای وارد شدن انتخاب کنید</string>
+
     </resources>
