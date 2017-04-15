@@ -64,7 +64,7 @@
     <string name="whatsnew">Quoi de neuf</string>
     <string name="information">Information</string>
     <string name="version_">Version :</string>
-    <string name="updated_">mise à jour:</string>
+    <string name="updated_">Mise à jour :</string>
     <string name="size_">Taille :</string>
     <string name="permissions_">Permissions :</string>
     <string name="type_">Type :</string>
@@ -90,16 +90,16 @@
     <string name="update">Mettre a jour</string>
     <string name="version__version___size_">Version : <xliff:g id="version" example="1.0.0">%1$s</xliff:g>, <xliff:g id="size" example="1024 kB">%2$s</xliff:g></string>
     <plurals name="_count__new_update_is_available">
-        <item quantity="one"><xliff:g id="count" example="1">%1$d</xliff:g> Une mise a jour est Disponible</item>
-        <item quantity="other"><xliff:g id="count" example="2">%1$d</xliff:g> Des mises a jour sont disponible</item>
-    </plurals>
+	<item quantity="one"><xliff:g id="count" example="1">%1$d</xliff:g> Une mise a jour est disponible</item>
+	<item quantity="other"><xliff:g id="count" example="2">%1$d</xliff:g> Des mises a jour sont disponibles</item>
+</plurals>
 
     <string name="launching_please_wait">Lancement, veuillez patienter…</string>
 
     <plurals name="_count__item_is_downloading">
-        <item quantity="one"><xliff:g id="count" example="1">%1$d</xliff:g> Application en cours de téléchargement</item>
-        <item quantity="other"><xliff:g id="count" example="2">%1$d</xliff:g> Applications en cours de téléchargement</item>
-    </plurals>
+	<item quantity="one"><xliff:g id="count" example="1">%1$d</xliff:g> Application en cours de téléchargement</item>
+	<item quantity="other"><xliff:g id="count" example="2">%1$d</xliff:g> Applications en cours de téléchargement</item>
+</plurals>
     <string name="downloads_complete">Téléchargement fini</string>
     <string name="touch_for_view_all_downloads">Toucher pour voir tous les téléchargements</string>
     <string name="_name__download_failed"><xliff:g id="name" example="APKPure">%1$s</xliff:g> erreur de téléchargement</string>
@@ -169,7 +169,7 @@
     <string name="share_app_url">Télécharger <xliff:g id="app_name" example="APKPure">%1$s</xliff:g> APK (from @<xliff:g id="social_network_name" example="APKPure">%2$s</xliff:g>), <xliff:g id="app_url" example="https://apkpure.com/p/com.apkpure.aegon">%3$s</xliff:g></string>
 
     <string name="_name__version_history"><xliff:g id="name" example="APKPure">%1$s</xliff:g> Historique des versions</string>
-    <string name="update__date___size_">Mise a jour: <xliff:g id="date" example="Mar 3, 2016">%1$s</xliff:g>, <xliff:g id="size" example="1024 kB">%2$s</xliff:g></string>
+    <string name="update__date___size_">Mise a jour : <xliff:g id="date" example="Mar 3, 2016">%1$s</xliff:g>, <xliff:g id="size" example="1024 kB">%2$s</xliff:g></string>
     <string name="general">Général</string>
     <string name="language">Langue</string>
     <string name="auto">Auto</string>
@@ -275,7 +275,7 @@ Les fonctions mentionnées ci-dessus supportent Android 4.1 et +, sans besoin de
     <string name="app_detail_customer_reviews">Commentaires des utilisateurs</string>
     <string name="app_detail_comment_type_web">web</string>
     <string name="app_submit_submit">Soumettre…</string>
-    <string name="app_submit_anonymous_comment">Commentaires anonymes</string>
+    <string name="app_submit_anonymous_comment">Ajouter un commentaire</string>
     <string name="app_submit_title_toast">Vous devez écrire un titre !</string>
     <string name="app_submit_msg_toast">Vous devez écrire quelque chose !</string>
     <string name="app_submit_name_toast">S\'il vous plait écrivez un pseudo !</string>
@@ -305,8 +305,116 @@ Les fonctions mentionnées ci-dessus supportent Android 4.1 et +, sans besoin de
     <string name="zxing_msg_default_status">S\'il vous plait placez le QR Code dans le cadre pour le scanner.</string>
     <string name="zxing_msg_parser_status">Échec du scan, s\'il vous plait essayez de rescanner le QR Code.</string>
 <plurals name="app_detail_see_all_replies">
-	<item quantity="one">See All <xliff:g id="count" example="1"> %1$d</xliff:g> 2 reply</item>
-	<item quantity="other">See All <xliff:g id="count" example="2"> %1$d</xliff:g> 4 replies</item>
+	<item quantity="one">Voir <xliff:g id="count" example="1"> %1$d</xliff:g> réponse</item>
+	<item quantity="other">Voir toutes les <xliff:g id="count" example="2"> %1$d</xliff:g> réponses</item>
 </plurals>
 
-    </resources>
+    <string name="recommend">Découvrir</string>
+    <string name="report">Signaler</string>
+    <string name="share_app_url_comment"> <xliff:g example="APKPure" id="user_name">%1$s</xliff:g>\' a commenté <xliff:g example="APKPure" id="app_name">%2$s</xliff:g> (par @<xliff:g example="APKPure" id="social_network_name">%3$s</xliff:g>), <xliff:g example="https://apkpure.com/p/com.apkpure.aegon" id="app_url">%4$s</xliff:g></string>
+
+    <string name="app_detail_reply_comment">Commentaire (%d)</string>
+    <string name="app_detail_reply_esc">+</string>
+    <string name="app_detail_reply_desc">-</string>
+    <string name="app_detail_reply_floor">%d</string>
+
+    <string name="app_detail_comment_order_array_recent">Récent</string>
+    <string name="app_detail_comment_order_array_newest">Nouveautés</string>
+    <string name="app_detail_comment_order_array_best">Meilleur</string>
+
+    <string name="download_complete_installation_setting_entries_always">Toujours installer</string>
+    <string name="download_complete_installation_setting_entries_only">Installer seulement lorsque l\'application est active</string>
+    <string name="download_complete_installation_setting_entries_never">Ne jamais installer</string>
+
+    <string name="reply_dialog_marked_words">En accord avec la suppression de l\'image</string>
+    <string name="reply_comment">Répondre au commentaire</string>
+    <string name="save_original_image">Garder l\'image originale</string>
+    <string name="already_save">Sauvegardé <xliff:g id="path" example="ApKPure/photo">%1$s</xliff:g></string>
+
+    <string name="tip_permission_camera_storage">Pas de permission d\'utiliser la caméra et la carte SD, ouvrez l\'écran des permissions</string>
+    <string name="permission_denied">Accès refusé !</string>
+
+    <string name="login_title">Identifiant</string>
+    <string name="sign_out">Déconnexion</string>
+
+    <string name="delete_comment">Supprimer le commentaire</string>
+    <string name="delete_comment_msg">Etes vous sur de vouloir supprimer ce commentaire ?</string>
+    <string name="upload_cancel">L\'envoi a été annulé</string>
+    <string name="login_select_way_to_login">Merci de sélectionner un mode de connexion</string>
+
+    <string name="user_info_edit_title">Editer le profil utilisateur</string>
+    <string name="user_info_edit_portrait_tv">Image de profil</string>
+    <string name="user_info_edit_username_tv">Nom d\'utilisateur</string>
+    <string name="user_info_edit_nickname_tv">Surnom</string>
+    <string name="user_info_edit_email_tv">Email</string>
+    <string name="user_info_edit_gender_tv">Genre</string>
+    <string name="user_info_edit_birthday_tv">Date de naissance</string>
+    <string name="user_info_edit_change_pwd_tv">Réinitialiser votre mot de passe</string>
+    <string name="user_info_edit_login_out_tv">Déconnexion</string>
+    <string name="user_info_edit_not_choose">Inconnu</string>
+    <string name="user_info_edit_gender_male">Homme</string>
+    <string name="user_info_edit_gender_female">Femme</string>
+    <string name="user_info_edit_portrait_album">Sélectionner une photo dans la bibliothèque</string>
+    <string name="user_info_edit_portrait_take_photo">Prendre une photo avec la caméra</string>
+    <string name="user_info_edit_portrait_error">Ce type d\'image n\'est pas supporté</string>
+    <string name="user_info_edit_ok">Valider</string>
+    <string name="user_info_edit_cancel">Annuler</string>
+
+    <string name="update_nick_title">Changer de surnom</string>
+    <string name="update_email_title">Changer l\'email</string>
+    <string name="update_nick_name_et">Saisir votre nouveau surnom</string>
+    <string name="update_nick_name_tv">Le nouveau surnom ne peut être vide</string>
+    <string name="update_email_name_et">Saisir votre email</string>
+    <string name="update_eamil_name_tv">L\'email ne peut être vide</string>
+    <string name="update_nickname_error">Surnom déjà utilisé, merci d\'en choisir un autre !</string>
+
+    <string name="update_pwd_title">Réinitialiser mon mot de passe</string>
+    <string name="update_pwd_current_pwd_et">Ancien mot de passe</string>
+    <string name="update_pwd_new_pwd_et">Nouveau mot de passe</string>
+    <string name="update_pwd_Confirm_pwd_et">Confirmer le mot de passe</string>
+    <string name="upload_avatar">Envoi en cours…</string>
+    <string name="update_pwd_current_null_tv">L\'ancien mot de passe ne peut pas être vide</string>
+    <string name="update_pwd_Confirm_null_tv">La confirmation du mot de passe ne peut pas être vide</string>
+    <string name="update_pwd_new_pwd_null_tv">Le nouveau mot de passe ne peut pas être vide</string>
+    <string name="update_pwd_new_confrim_tv">Les mots de passe saisis ne sont pas identiques</string>
+    <string name="update_pwd_save_bt">Sauvegarder</string>
+    <string name="update_save_success">Sauvegarde réussie !</string>
+    <string name="crop__cancel" ignore="ButtonCase">Annuler</string>
+    <string name="crop__done">Terminé</string>
+    <string name="crop__pick_error">Type d\'image invalide</string>
+    <string name="crop__saving">Sauvegarde de la photo…</string>
+    <string name="crop__wait">Merci de patienter…</string>
+
+    <string name="is_comment">Commentaire…</string>
+    <string name="comment_cancel">Le commentaire a été annulé</string>
+    <string name="comment_replying">Soumettre une réponse…</string>
+    <string name="register_term_of_service">Conditions d\'utilisation de APKPure</string>
+
+    <string name="set_contributor">Contributeur</string>
+    <string name="set_permissions">Droits</string>
+    
+    <string name="sign_in_services">En validant vous acceptez les conditions et les règles de vie privée.</string>
+
+    <string name="sign_in_services_key">Conditions d\'utilisation</string>
+    <string name="sign_in_services_key_policy">Vie privée</string>
+
+    <string name="user_sign_up">Inscription</string>
+    <string name="user_name_hint">Identifiant</string>
+    <string name="user_email_hint">Email</string>
+    <string name="user_password">Mot de passe (6 à 32)</string>
+    <string name="user_password_confirm">Confirmer le mot de passe</string>
+
+    <string name="user_name_error">Le nom d\'utilisateur ne doit pas contenir de caractère spécial, de symboles ou d\'espace</string>
+    <string name="user_nickname_error">Le surnom ne doit pas contenir de caractères spécial, de symbole ni d\'espace</string>
+    <string name="user_email_error">L\'adresse email est invalide</string>
+    <string name="user_password_error">Le mot de passe est invalide</string>
+    <string name="user_confirm_error">Les mots de passe doivent être identiques</string>
+
+    <string name="login_user_name">Identifiant</string>
+    <string name="login_user_password">Mot de passe</string>
+    <string name="login_user_sign_in">Connexion</string>
+    <string name="login_choose">Ou connectez vous avec votre compte</string>
+    <string name="login_new_user">Inscription</string>
+    <string name="login_post_as_a_guest">Poster comme invité</string>
+
+</resources>
