@@ -34,7 +34,7 @@
     <string name="about_message">
         <![CDATA[<b>Versie:</b> %1$s<br><br><b>Website:</b> <a href=%2$s>%2$s</a><br><b>Email:</b> <a href=mailto:%3$s>%3$s</a>]]>
     </string>
-    <string name="check_update">Controleer voor app-update</string>
+    <string name="check_update">Controleer voor update</string>
     <string name="quit">Afsluiten</string>
     <string name="want_to_quit">Weet je zeker dat je wil afsluiten?</string>
 
@@ -171,7 +171,7 @@
  </string>
 
     <string name="share">Delen</string>
-    <string name="share_app_url">Download &lt;xliff:g xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\" example=\"APKPure\" id=\"app_name\"&gt; APK (via @&lt;xliff:g xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\" example=\"APKPure\" id=\"social_network_name\"&gt;%2$s&lt;/xliff:g&gt;), &lt;xliff:g xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\" example=\"https://apkpure.com/p/com.apkpure.aegon\" id=\"app_url\"&gt;%3$s&lt;/xliff:g&gt;<xliff:g id="app_name" example="APKPure">%1$s</xliff:g> APK (via @<xliff:g id="social_network_name" example="APKPure">%2$s</xliff:g>), <xliff:g id="app_url" example="https://apkpure.com/p/com.apkpure.aegon">%3$s</xliff:g></string>
+    <string name="share_app_url">Download <xliff:g example="APKPure" id="app_name">%1$s</xliff:g> APK (from @<xliff:g example="APKPure" id="social_network_name">%2$s</xliff:g>), <xliff:g example="https://apkpure.com/p/com.apkpure.aegon" id="app_url">%3$s</xliff:g></string>
 
     <string name="_name__version_history"><xliff:g example="APKPure" id="name">%1$s</xliff:g> Versiegeschiedenis</string>
     <string name="update__date___size_">Update: <xliff:g example="Mar 3, 2016" id="date">%1$s</xliff:g>, <xliff:g example="1024 kB" id="size">%2$s</xliff:g></string>
@@ -261,11 +261,19 @@
     <string name="auto_install_via_root_summary">Alleen voor gewortelde Android-telefoons en tablets.</string>
 
     <string name="download_complete_installation_setting">Installatie-optie na het downloaden</string>
-    <string name="auto_service_description">Kan niet meer</string>
+    <string name="auto_service_description">Schakel \"APKPure Auto Install\" in, om APKPures \"Auto Install\" soepel te laten werken.
+
+\"APKPure Auto Install\" kan je helpen met het aanklikken van alle installatieknoppen wanneer je apps installeert of aan het updaten bent, zodat je niet je telefoon constant hoeft te controleren.
+
+Als je deze dienst inschakelt kan je waarschuwingen voor systemrisico\'s ontvangen; klik alsjeblieft op \"OK\" om de toegankelijkheidsschakelaar op \"AAN\" te zetten.
+
+Om APKPure goed te laten functioneren moet je APKPure toevoegen aan je Clean App \"White List\".
+
+De bovengenoemde functies ondersteunen Android 4.1+, The above mentioned functions support Android 4.1+, geen root-toestemming nodig. We beloven dat persoonlijke gegevens nooit zullen worden verzameld in deze toegankelijkheidsdienst. Aarzel niet om contact met ons op te nemen in geval van eventuele problemen.</string>
 
     <string name="recommend">Ontdekken</string>
     <string name="report">Melden</string>
-    <string name="share_app_url_comment">" Opmerking van &lt;xliff:g xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\" example=\"APKPure\" id=\"user_name\"&gt; op &lt;xliff:g xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\" example=\"APKPure\" id=\"app_name\"&gt; (via @&lt;xliff:g xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\" example=\"APKPure\" id=\"social_network_name\"&gt;%3$s&lt;/xliff:g&gt;, &lt;xliff:g xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\" example=\"https://apkpure.com/p/com.apkpure.aegon\" id=\"app_url\"&gt;%4$s&lt;/xliff:g&gt;"<xliff:g example="APKPure" id="user_name">%1$s</xliff:g>\'s comments on <xliff:g example="APKPure" id="app_name">%2$s</xliff:g> (from @<xliff:g example="APKPure" id="social_network_name">%3$s</xliff:g>), <xliff:g example="https://apkpure.com/p/com.apkpure.aegon" id="app_url">%4$s</xliff:g></string>
+    <string name="share_app_url_comment"> Opmerking van <xliff:g example="APKPure" id="user_name">%1$s</xliff:g> op <xliff:g example="APKPure" id="app_name">%2$s</xliff:g> (via @<xliff:g example="APKPure" id="social_network_name">%3$s</xliff:g>, <xliff:g example="https://apkpure.com/p/com.apkpure.aegon" id="app_url">%4$s</xliff:g></string>
 
     <plurals name="app_detail_see_all_replies">
 	<item quantity="one">Bekijk <xliff:g example="1" id="count">%1$d</xliff:g> opmerking</item>
@@ -283,7 +291,7 @@
     <string name="app_submit_star_toast">Je moet sterren invoeren!</string>
     <string name="app_submit_title_hint">Schrijf alsjeblieft een titel</string>
     <string name="app_submit_msg_hint">Schrijf alsjeblieft je mening</string>
-    <string name="app_submit_nickname">Gebruikersnaam</string>
+    <string name="app_submit_nickname">Bijnaam</string>
     <string name="app_submit_email">E-mailadres</string>
     <string name="app_submit_submit_title">verzenden</string>
     <string name="app_submit_reply_to">reageer op</string>
@@ -293,4 +301,118 @@
     <string name="app_detail_reply_floor">onderaan%d</string>
 
     <string name="app_detail_tab_one">Details</string>
-    </resources>
+    <string name="app_detail_tab_two">Opmerkingen</string>
+    <string name="app_detail_tab_three">Gerelateerd</string>
+
+    <string name="app_detail_comment_order_array_recent">Recent</string>
+    <string name="app_detail_comment_order_array_newest">Nieuwste</string>
+    <string name="app_detail_comment_order_array_best">Beste</string>
+
+    <string name="download_complete_installation_setting_entries_always">Altijd installeren</string>
+    <string name="download_complete_installation_setting_entries_only">Alleen installeren als app actief is</string>
+    <string name="download_complete_installation_setting_entries_never">Nooit installeren</string>
+
+    <string name="reply">Reageren</string>
+    <string name="input_reply_content">De inhoud van je bericht:</string>
+    <string name="publish">Publiceren</string>
+    <string name="reply_dialog_marked_words">Dit kan verwijderd worden</string>
+    <string name="reply_comment">Reageer op opmerking</string>
+    <string name="save_original_image">Behoud de originele afbeelding</string>
+    <string name="already_save">Opgeslagen<xliff:g id="path" example="ApKPure/photo">%1$s</xliff:g></string>
+
+    <string name="load_end">Geen gegevens meer</string>
+    <string name="load_failed_click_retry">Laden mislukt, klik om opnieuw te proberen</string>
+    <string name="loading">Aan het laden…</string>
+
+    <string name="scan_qr_code_hint">Om \'Scan QR-Code\' te gebruiken moet je je camera toestemming verlenen
+hetgeen nodig is om de QR-code te scannen.</string>
+    <string name="zxing_msg_default_status">Plaats de QR-code alsjeblieft binnenin de zoeker om deze te scannen.</string>
+    <string name="zxing_msg_parser_status">Scannen mislukt, probeer alsjeblieft opnieuw de QR-code te scannen.</string>
+
+    <string name="tip_permission_camera_storage">Geen toestemming om de camera en de SD-kaart te gebruiken, open het rechtenbeheer</string>
+    <string name="permission_denied">Toegang geweigerd!</string>
+
+    <string name="login_title">Aanmelden</string>
+    <string name="sign_out">Afmelden</string>
+
+    <string name="delete_comment">Verwijder commentaar</string>
+    <string name="delete_comment_msg">Weet je zeker dat je deze opmerking wil verwijderen?</string>
+    <string name="upload_cancel">Upload is geannuleerd</string>
+    <string name="login_select_way_to_login">Kies alsjeblieft je manier om aan te melden</string>
+
+    <string name="user_info_edit_title">Profiel</string>
+    <string name="user_info_edit_portrait_tv">Profielafbeelding</string>
+    <string name="user_info_edit_username_tv">Gebruikersnaam</string>
+    <string name="user_info_edit_nickname_tv">Bijnaam</string>
+    <string name="user_info_edit_email_tv">E-mailadres</string>
+    <string name="user_info_edit_gender_tv">Geslacht</string>
+    <string name="user_info_edit_birthday_tv">Geboortedatum</string>
+    <string name="user_info_edit_change_pwd_tv">Wachtwoord herstellen</string>
+    <string name="user_info_edit_login_out_tv">Afmelden</string>
+    <string name="user_info_edit_not_choose">Onbekend</string>
+    <string name="user_info_edit_gender_male">Man</string>
+    <string name="user_info_edit_gender_female">Vrouw</string>
+    <string name="user_info_edit_portrait_album">Selecteer een foto van galerij</string>
+    <string name="user_info_edit_portrait_take_photo">Neem foto met camera</string>
+    <string name="user_info_edit_portrait_error">Afbeeldingstype is niet ondersteund</string>
+    <string name="user_info_edit_ok">OK</string>
+    <string name="user_info_edit_cancel">Annuleer</string>
+
+    <string name="update_nick_title">Wijzig bijnaam</string>
+    <string name="update_email_title">Wijzig e-mailadres</string>
+    <string name="update_nick_name_et">Voer je nieuwe bijnaam in</string>
+    <string name="update_nick_name_tv">De nieuwe bijnaam kan niet leeg zijn</string>
+    <string name="update_email_name_et">E-mailadres invoeren</string>
+    <string name="update_eamil_name_tv">E-mailadres kan niet leeg zijn</string>
+    <string name="update_nickname_error">Bijnaam al in gebruik, kies alsjeblieft een andere!</string>
+
+    <string name="update_pwd_title">Mijn wachtwoord herstellen</string>
+    <string name="update_pwd_current_pwd_et">Oude wachtwoord</string>
+    <string name="update_pwd_new_pwd_et">Nieuwe wachtwoord</string>
+    <string name="update_pwd_Confirm_pwd_et">Nieuwe wachtwoord bevestigen</string>
+    <string name="upload_avatar">Aan het uploaden…</string>
+    <string name="update_pwd_current_null_tv">Oude wachtwoord kan niet leeg zijn</string>
+    <string name="update_pwd_Confirm_null_tv">Bevestig dat je oude wachtwoord niet leeg is</string>
+    <string name="update_pwd_new_pwd_null_tv">Nieuwe wachtwoord kan niet leeg zijn</string>
+    <string name="update_pwd_new_confrim_tv">De wachtwoorden die je hebt ingevoerd komen niet overeen</string>
+    <string name="update_pwd_save_bt">Opslaan</string>
+    <string name="update_save_success">Met succes opgeslagen!</string>
+    <string name="crop__cancel" ignore="ButtonCase">Annuleren</string>
+    <string name="crop__done">Klaar</string>
+    <string name="crop__pick_error">Ongeldig afbeeldingstype</string>
+    <string name="crop__saving">Foto aan het opslaan…</string>
+    <string name="crop__wait">Wacht alsjeblieft…</string>
+
+    <string name="is_comment">Opmerking is…</string>
+    <string name="comment_cancel">Opmerking is geannuleerd</string>
+    <string name="comment_replying">Reactie wordt toegevoegd…</string>
+    <string name="register_term_of_service">APKPure-Gebruiksvoorwaarden</string>
+
+    <string name="set_contributor">Bijdrager</string>
+    <string name="set_permissions">Permissies</string>
+    
+    <string name="sign_in_services">Door je in te schrijven ga je akkoord met onze gebruiksvoorwaarden en ons privacybeleid.</string>
+
+    <string name="sign_in_services_key">Gebruiksvoorwaarden</string>
+    <string name="sign_in_services_key_policy">Privacybeleid</string>
+
+    <string name="user_sign_up">Inschrijven</string>
+    <string name="user_name_hint">Gebruikersnaam</string>
+    <string name="user_email_hint">E-mailadres</string>
+    <string name="user_password">Wachtwoord(6-32)</string>
+    <string name="user_password_confirm">Wachtwoord bevestigen</string>
+
+    <string name="user_name_error">Gebruikersnaam kan geen speciale tekens, symbolen of spaties bevatten</string>
+    <string name="user_nickname_error">Bijnaam kan geen speciale tekens, symbolen of spaties bevatten</string>
+    <string name="user_email_error">Dit e-mailadres is ongeldig</string>
+    <string name="user_password_error">Dit wachtwoord is ongeldig</string>
+    <string name="user_confirm_error">Wachtwoorden moeten overeenkomen</string>
+
+    <string name="login_user_name">Gebruikersnaam</string>
+    <string name="login_user_password">Wachtwoord</string>
+    <string name="login_user_sign_in">Inschrijven</string>
+    <string name="login_choose">Of schrijf je in met je account</string>
+    <string name="login_new_user">Nieuwe gebruikersregistratie</string>
+    <string name="login_post_as_a_guest">Versturen als gast</string>
+
+</resources>
