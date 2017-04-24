@@ -30,7 +30,7 @@
     <string name="download_management">Download-beheer</string>
     <string name="settings">Instellingen</string>
     <string name="about">Over</string>
-    <string name="about_title">Over <xliff:g id="app_name" example="APKPure">%1$s</xliff:g></string>
+    <string name="about_title">Over <xliff:g example="APKPure" id="app_name">%1$s</xliff:g></string>
     <string name="about_message">
         <![CDATA[<b>Versie:</b> %1$s<br><br><b>Website:</b> <a href=%2$s>%2$s</a><br><b>Email:</b> <a href=mailto:%3$s>%3$s</a>]]>
     </string>
@@ -48,7 +48,7 @@
     <string name="want_to_delete_file">Wil je dit bestand verwijderen?</string>
     <string name="file_has_been_deleted">Het bestand is verwijderd.</string>
     <string name="failed_to_delete_file">Bestand verwijderen mislukt.</string>
-    <string name="install__label_">Installeren - <xliff:g id="app_label" example="APKPure">%1$s</xliff:g></string>
+    <string name="install__label_">Installeren - <xliff:g example="APKPure" id="app_label">%1$s</xliff:g></string>
     <string name="user_canceled">Gebruiker heeft geannuleerd.</string>
     <string name="io_error">IO-fout. Er is wellicht te weinig beschikbare ruimte om de installatie te voltooien.</string>
     <string name="file_format_error">Bestandsindelingfout.</string>
@@ -87,29 +87,29 @@
     <string name="market_response_error_network_read_error">Netwerkleesfout.</string>
     <string name="market_response_error_invalid_response_code">Ongeldige reactiecode.</string>
     <string name="market_response_error_invalid_response_body">Ongeldige reactieinhoud.</string>
-    <string name="market_response_error_unknown_error__error_">Onbekende fout (<xliff:g id="error" example="SUCCESS">%1$s</xliff:g>).</string>
+    <string name="market_response_error_unknown_error__error_">Onbekende fout (<xliff:g example="SUCCESS" id="error">%1$s</xliff:g>).</string>
 
     <string name="no_more">Niets meer.</string>
 
     <string name="update">Updaten</string>
-    <string name="version__version___size_">Versie: <xliff:g id="version" example="1.0.0">%1$s</xliff:g>, <xliff:g id="size" example="1024 kB">%2$s</xliff:g></string>
+    <string name="version__version___size_">Versie: <xliff:g example="1.0.0" id="version">%1$s</xliff:g>, <xliff:g example="1024 kB" id="size">%2$s</xliff:g></string>
     <plurals name="_count__new_update_is_available">
-        <item quantity="one"><xliff:g id="count" example="1">%1$d</xliff:g> nieuwe update is beschikbaar</item>
-        <item quantity="other"><xliff:g id="count" example="2">%1$d</xliff:g> nieuwe updates zijn beschikbaar</item>
-    </plurals>
+	<item quantity="one"><xliff:g example="1" id="count">%1$d</xliff:g> nieuwe update is beschikbaar</item>
+	<item quantity="other"><xliff:g example="2" id="count">%1$d</xliff:g> nieuwe updates zijn beschikbaar</item>
+</plurals>
 
     <string name="launching_please_wait">Aan het starten, een moment geduld…</string>
 
     <plurals name="_count__item_is_downloading">
-        <item quantity="one"><xliff:g id="count" example="1">%1$d</xliff:g> item wordt gedownload</item>
-        <item quantity="other"><xliff:g id="count" example="2">%1$d</xliff:g> items worden gedownload</item>
-    </plurals>
+	<item quantity="one"><xliff:g example="1" id="count">%1$d</xliff:g> item wordt gedownload</item>
+	<item quantity="other"><xliff:g example="2" id="count">%1$d</xliff:g> items worden gedownload</item>
+</plurals>
     <string name="downloads_complete">Downloads voltooid</string>
     <string name="touch_for_view_all_downloads">Raak aan om alle downloads te zien</string>
-    <string name="_name__download_failed"><xliff:g id="name" example="APKPure">%1$s</xliff:g> download mislukt</string>
+    <string name="_name__download_failed"><xliff:g example="APKPure" id="name">%1$s</xliff:g> download mislukt</string>
     <string name="touch_to_download_it_again">Raak aan om opnieuw te downloaden</string>
 
-    <string name="download_percent"><xliff:g id="percent" example="50">%1$d</xliff:g>%%</string>
+    <string name="download_percent"><xliff:g example="50" id="percent">%1$d</xliff:g>%%</string>
     <string name="pause">Pauseren</string>
     <string name="continue_">Verder gaan</string>
     <string name="restart">Herstarten</string>
@@ -139,7 +139,7 @@
     <string name="join_us">Word Lid</string>
     <string name="skip">Overslaan</string>
 
-    <string name="_name__is_up_to_date"><xliff:g id="name" example="APKPure">%1$s</xliff:g> is up-to-date.</string>
+    <string name="_name__is_up_to_date"><xliff:g example="APKPure" id="name">%1$s</xliff:g> is up-to-date.</string>
     <string name="new_version_available_title">Nieuwe Versie Beschikbaar</string>
     <string name="new_version_available_message">
         <![CDATA[<b>Laatste Versie:</b> %1$s<br><br><b>Wat Is Er Nieuw:</b><br>%2$s]]>
@@ -171,13 +171,13 @@
  </string>
 
     <string name="share">Delen</string>
-    <string name="share_app_url">Download <xliff:g id="app_name" example="APKPure">%1$s</xliff:g> APK (via @<xliff:g id="social_network_name" example="APKPure">%2$s</xliff:g>), <xliff:g id="app_url" example="https://apkpure.com/p/com.apkpure.aegon">%3$s</xliff:g></string>
+    <string name="share_app_url">Download &lt;xliff:g xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\" example=\"APKPure\" id=\"app_name\"&gt; APK (via @&lt;xliff:g xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\" example=\"APKPure\" id=\"social_network_name\"&gt;%2$s&lt;/xliff:g&gt;), &lt;xliff:g xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\" example=\"https://apkpure.com/p/com.apkpure.aegon\" id=\"app_url\"&gt;%3$s&lt;/xliff:g&gt;<xliff:g id="app_name" example="APKPure">%1$s</xliff:g> APK (via @<xliff:g id="social_network_name" example="APKPure">%2$s</xliff:g>), <xliff:g id="app_url" example="https://apkpure.com/p/com.apkpure.aegon">%3$s</xliff:g></string>
 
-    <string name="_name__version_history"><xliff:g id="name" example="APKPure">%1$s</xliff:g> Versiegeschiedenis</string>
-    <string name="update__date___size_">Updaten: <xliff:g id="date" example="Mar 3, 2016">%1$s</xliff:g>, <xliff:g id="size" example="1024 kB">%2$s</xliff:g></string>
+    <string name="_name__version_history"><xliff:g example="APKPure" id="name">%1$s</xliff:g> Versiegeschiedenis</string>
+    <string name="update__date___size_">Update: <xliff:g example="Mar 3, 2016" id="date">%1$s</xliff:g>, <xliff:g example="1024 kB" id="size">%2$s</xliff:g></string>
 
     <string name="update_all">Alles Updaten</string>
-    <string name="update___count__">Update (<xliff:g id="count" example="3">%1$d</xliff:g>)</string>
+    <string name="update___count__">(<xliff:g example="3" id="count">%1$d</xliff:g>) updaten</string>
     <string name="ignore">Negeren</string>
     <string name="unignore">Niet meer negeren</string>
     <string name="select">Selecteren</string>
@@ -203,7 +203,7 @@
     <string name="show_notification_after_installation">Laat notificatie zien na installatie</string>
     <string name="delete_packages_after_installation">Verwijder APK-bestanden na installatie</string>
 
-    <string name="_name__installation_completed"><xliff:g id="name" example="APKPure">%1$s</xliff:g> installatie voltooid</string>
+    <string name="_name__installation_completed"><xliff:g example="APKPure" id="name">%1$s</xliff:g> installatie voltooid</string>
     <string name="touch_to_open">Raak aan om te openen.</string>
     <string name="search_history">Geschiedenis</string>
     <string name="clear_search_history">Geschiedenis wissen</string>
@@ -263,4 +263,14 @@
     <string name="download_complete_installation_setting">Installatie-optie na het downloaden</string>
     <string name="auto_service_description">Kan niet meer</string>
 
+    <string name="recommend">Ontdekken</string>
+    <string name="report">Melden</string>
+    <string name="share_app_url_comment">" Opmerking van &lt;xliff:g xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\" example=\"APKPure\" id=\"user_name\"&gt; op &lt;xliff:g xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\" example=\"APKPure\" id=\"app_name\"&gt; (via @&lt;xliff:g xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\" example=\"APKPure\" id=\"social_network_name\"&gt;%3$s&lt;/xliff:g&gt;, &lt;xliff:g xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\" example=\"https://apkpure.com/p/com.apkpure.aegon\" id=\"app_url\"&gt;%4$s&lt;/xliff:g&gt;"<xliff:g example="APKPure" id="user_name">%1$s</xliff:g>\'s comments on <xliff:g example="APKPure" id="app_name">%2$s</xliff:g> (from @<xliff:g example="APKPure" id="social_network_name">%3$s</xliff:g>), <xliff:g example="https://apkpure.com/p/com.apkpure.aegon" id="app_url">%4$s</xliff:g></string>
+
+    <plurals name="app_detail_see_all_replies">
+	<item quantity="one">Bekijk <xliff:g example="1" id="count">%1$d</xliff:g> opmerking</item>
+	<item quantity="other">Bekijk de <xliff:g example="2" id="count">%1$d</xliff:g> opmerkingen</item>
+</plurals>
+
+    <string name="app_detail_customer_reviews">Gebruikersopmerkingen</string>
     </resources>
