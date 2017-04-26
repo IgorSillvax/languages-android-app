@@ -18,7 +18,7 @@
     <string name="load_failed_error">Oops! ocorreu um erro.</string>
     <string name="load_failed_empty">Nada aqui.</string>
     <string name="load_failed_all_up_to_date">Todos os apps estão atualizados.</string>
-    <string name="load_failed_no_results">Desculpa! Nenhum resultado encontrado.</string>
+    <string name="load_failed_no_results">Desculpe! Nenhum resultado encontrado.</string>
     <string name="refresh">Atualizar</string>
 
     <string name="management">Gerenciamento</string>
@@ -45,7 +45,7 @@
     <string name="delete_all">Apagar tudo</string>
     <string name="properties">Propriedades</string>
     <string name="properties_message">"
- &lt;b&gt;Caminho:&lt;/b&gt; %1$s&lt;br&gt;&lt;b&gt;Tamanho:&lt;/b&gt; %2$s&lt;br&gt;&lt;b&gt;Última modificação:&lt;/b&gt; %3$s
+ &lt;b&gt;Local:&lt;/b&gt; %1$s&lt;br&gt;&lt;b&gt;Tamanho:&lt;/b&gt; %2$s&lt;br&gt;&lt;b&gt;Última modificação:&lt;/b&gt; %3$s
  "</string>
     <string name="want_to_delete_file">Você deseja excluir este arquivo?</string>
     <string name="want_to_delete_all_files">Você quer apagar todos os arquivos?</string>
@@ -109,7 +109,7 @@
 	<item quantity="one"><xliff:g example="1" id="count">%1$d</xliff:g> O item está sendo baixado</item>
 	<item quantity="other"><xliff:g example="2" id="count">%1$d</xliff:g> Os itens estão sendo baixados</item>
 </plurals>
-    <string name="downloads_complete">Download completo</string>
+    <string name="downloads_complete">Downloads completo</string>
     <string name="touch_for_view_all_downloads">Toque para ver todos os downloads</string>
     <string name="_name__download_failed"><xliff:g id="name" example="APKPure">%1$s</xliff:g> Falha no download</string>
     <string name="touch_to_download_it_again">Toque para fazer o download novamente</string>
@@ -152,7 +152,7 @@
     <string name="join_us">Junte-se a nós</string>
     <string name="skip">Pular</string>
 
-    <string name="_name__is_up_to_date"><xliff:g example="APKPure" id="name">%1$s</xliff:g> Estão atualizado.</string>
+    <string name="_name__is_up_to_date"><xliff:g example="APKPure" id="name">%1$s</xliff:g> Está atualizado.</string>
     <string name="new_version_available_title">Nova versão disponível</string>
     <string name="new_version_available_message">
         <![CDATA[<b>Última versão:</b> %1$s<br><br><b>O que há de novo:</b><br>%2$s]]>
@@ -307,7 +307,7 @@ Detalhe do problema:
 Que é necessário para escanear o código QR.</string>
     <string name="zxing_msg_default_status">Coloque o código QR dentro do visor para escaneá-lo.</string>
     <string name="zxing_msg_parser_status">O escaneamento falhou, tente escanear o código QR novamente.</string>
-<string name="recommend">Descobrir</string>
+<string name="recommend">Recomendado</string>
     <string name="report">Relatório</string>
     <string name="share_app_url_comment"> <xliff:g example="APKPure" id="user_name">%1$s</xliff:g> Comentários sobre <xliff:g example="APKPure" id="app_name">%2$s</xliff:g> (Através do @<xliff:g example="APKPure" id="social_network_name">%3$s</xliff:g> ), <xliff:g example="https://apkpure.com/p/com.apkpure.aegon" id="app_url">%4$s</xliff:g></string>
 
@@ -334,10 +334,10 @@ Que é necessário para escanear o código QR.</string>
     <string name="permission_denied">Acesso negado!</string>
 
     <string name="login_title">Entrar</string>
-    <string name="sign_out">Sair</string>
+    <string name="sign_out">Deslogar</string>
 
     <string name="delete_comment">Deletar comentário</string>
-    <string name="delete_comment_msg">Tem certeza de que deseja excluir este comentário?</string>
+    <string name="delete_comment_msg">Tem certeza de que deseja deletar este comentário?</string>
     <string name="upload_cancel">O carregamento foi cancelado</string>
     <string name="login_select_way_to_login">Escolha a forma de iniciar a sessão</string>
 
@@ -349,7 +349,7 @@ Que é necessário para escanear o código QR.</string>
     <string name="user_info_edit_gender_tv">Gênero</string>
     <string name="user_info_edit_birthday_tv">Aniversário</string>
     <string name="user_info_edit_change_pwd_tv">Trocar a senha</string>
-    <string name="user_info_edit_login_out_tv">Sair</string>
+    <string name="user_info_edit_login_out_tv">Deslogar</string>
     <string name="user_info_edit_not_choose">Desconhecido</string>
     <string name="user_info_edit_gender_male">Masculino</string>
     <string name="user_info_edit_gender_female">Feminino</string>
@@ -360,7 +360,7 @@ Que é necessário para escanear o código QR.</string>
     <string name="user_info_edit_cancel">Cancelar</string>
 
     <string name="update_nick_title">Alterar apelido</string>
-    <string name="update_email_title">Alterar email</string>
+    <string name="update_email_title">Alterar Email</string>
     <string name="update_nick_name_et">Digite seu novo apelido</string>
     <string name="update_nick_name_tv">O novo apelido não pode ficar em branco</string>
     <string name="update_email_name_et">Digite seu email</string>
@@ -376,7 +376,7 @@ Que é necessário para escanear o código QR.</string>
     <string name="update_pwd_Confirm_null_tv">Confirmar a senha não pode ficar em branco</string>
     <string name="update_pwd_new_pwd_null_tv">Nova senha não pode ficar em branco</string>
     <string name="update_pwd_new_confrim_tv">As senhas inseridas não são iguais</string>
-    <string name="update_pwd_save_bt">Salvo</string>
+    <string name="update_pwd_save_bt">Salvar</string>
     <string name="update_save_success">Salvado com sucesso!</string>
     <string name="crop__cancel" ignore="ButtonCase">Cancelar</string>
     <string name="crop__done">Feito</string>
@@ -392,7 +392,7 @@ Que é necessário para escanear o código QR.</string>
     <string name="set_contributor">Contribuintes</string>
     <string name="set_permissions">Permissões</string>
     
-    <string name="sign_in_services">Ao assinar você concorda com nossos Termos e Política de Privacidade.</string>
+    <string name="sign_in_services">Ao registrar-se você concorda com nossos Termos e Política de Privacidade.</string>
 
     <string name="sign_in_services_key">Termos</string>
     <string name="sign_in_services_key_policy">Política de Privacidade</string>
