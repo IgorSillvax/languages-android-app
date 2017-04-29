@@ -170,7 +170,7 @@
     </string>
 
     <string name="share">Поделиться</string>
-    <string name="share_app_url">Скачать <xliff:g id="app_name" example="APKPure">%1$s</xliff:g> APK (from @<xliff:g id="social_network_name" example="APKPure">%2$s</xliff:g>), <xliff:g id="app_url" example="https://apkpure.com/p/com.apkpure.aegon">%3$s</xliff:g></string>
+    <string name="share_app_url">Скачать <xliff:g id="app_name" example="APKPure">%1$s</xliff:g> APK (с @<xliff:g id="social_network_name" example="APKPure">%2$s</xliff:g>), <xliff:g id="app_url" example="https://apkpure.com/p/com.apkpure.aegon">%3$s</xliff:g></string>
 
     <string name="_name__version_history"><xliff:g id="name" example="APKPure">%1$s</xliff:g> История версий</string>
     <string name="update__date___size_">Обновлено: <xliff:g id="date" example="Mar 3, 2016">%1$s</xliff:g>, <xliff:g id="size" example="1024 kB">%2$s</xliff:g></string>
@@ -278,4 +278,11 @@
     <string name="auto_service_exchange__material_">ЗАМЕНА</string>
     <string name="auto_service_complete__material_">ГОТОВО</string>
 
+    <string name="login_post_as_a_guest">Войти как гость</string>
+
+<string name="report">Пожаловаться</string>
+    <string name="auto_install_via_root_title">Автоматическая установка (Нужен Root)</string>
+    <string name="auto_install_via_root_summary">Только для устройств с Root.</string>
+
+    <string name="app_detail_customer_reviews">Отзывы пользователей</string>
     </resources>
