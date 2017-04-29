@@ -1,6 +1,5 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources
-    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<?xml version='1.0' encoding='UTF-8'?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
     <string name="app_name" translatable="false">APKPure</string>
 
@@ -269,7 +268,7 @@
     </plurals>
     <string name="app_detail_customer_reviews">用戶評論</string>
     <string name="app_detail_comment_type_web">網站</string>
-    <string name="app_submit_submit">提交中。。。</string>
+    <string name="app_submit_submit">提交中…</string>
     <string name="app_submit_anonymous_comment">添加評論</string>
     <string name="app_submit_title_toast">請填寫標題!</string>
     <string name="app_submit_msg_toast">請填寫評論!</string>
@@ -323,11 +322,12 @@
 
     <string name="load_end">沒有更多數據</string>
     <string name="load_failed_click_retry">加載失敗，點擊重試</string>
-    <string name="loading">正在加載&#8230;</string>
+    <string name="loading">正在加載…</string>
 
-    <string name="scan_qr_code_hint">使用此功能前，您必須同意打開相機的權限</string>
-    <string name="zxing_msg_default_status">請將二維碼置於取景框內掃描</string>
-    <string name="zxing_msg_parser_status">掃描失敗,請重試</string>
+    <string name="scan_qr_code_hint">使用此功能前，
+您必須同意打開相機的權限.</string>
+    <string name="zxing_msg_default_status">請將二維碼置於取景框內掃描.</string>
+    <string name="zxing_msg_parser_status">掃描失敗, 請重試.</string>
 
     <string name="tip_permission_camera_storage">沒有使用相機和SD卡的權限，請在權限管理中開啟</string>
     <string name="permission_denied">訪問被拒絕!</string>
@@ -339,15 +339,15 @@
     <string name="delete_comment_msg">你想要刪除這條評論嗎?</string>
     <string name="login_select_way_to_login">請選擇登錄方式</string>
     <string name="upload_cancel">上傳已取消</string>
-    <string name="is_comment">正在發表評論&#8230;</string>
+    <string name="is_comment">正在發表評論…</string>
     <string name="comment_cancel">評論已取消</string>
-    <string name="comment_replying">提交中&#8230;</string>
+    <string name="comment_replying">提交中…</string>
     <!--update password-->
     <string name="update_pwd_title">修改密碼</string>
     <string name="update_pwd_current_pwd_et">舊密碼</string>
     <string name="update_pwd_new_pwd_et">新密碼</string>
     <string name="update_pwd_Confirm_pwd_et">確認密碼</string>
-    <string name="upload_avatar">正在上傳&#8230;</string>
+    <string name="upload_avatar">正在上傳…</string>
     <string name="update_pwd_current_null_tv">舊密碼不能為空</string>
     <string name="update_pwd_Confirm_null_tv">確認密碼不能為空</string>
     <string name="update_pwd_new_pwd_null_tv">新密碼不能為空</string>
@@ -382,7 +382,7 @@
     <string name="update_email_name_et">請輸入你的郵箱</string>
     <string name="update_eamil_name_tv">郵箱不能為空</string>
     <string name="update_save_success">保存成功!</string>
-    <string name="update_nickname_error">昵稱已經在使用，請修改昵稱。</string>
+    <string name="update_nickname_error">昵稱已經在使用，請修改昵稱!</string>
 
     <!--crop image-->
     <string name="crop__cancel" ignore="ButtonCase">取消</string>
