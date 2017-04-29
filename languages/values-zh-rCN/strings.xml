@@ -1,6 +1,5 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources
-    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<?xml version='1.0' encoding='UTF-8'?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
     <string name="app_name" translatable="false">APKPure</string>
 
@@ -270,7 +269,7 @@
 
     <string name="app_detail_customer_reviews">用户评论</string>
     <string name="app_detail_comment_type_web">网站</string>
-    <string name="app_submit_submit">提交中。。。</string>
+    <string name="app_submit_submit">提交中…</string>
     <string name="app_submit_anonymous_comment">添加评论</string>
     <string name="app_submit_title_toast">请填写标题!</string>
     <string name="app_submit_msg_toast">请填写评论!</string>
@@ -324,7 +323,7 @@
 
     <string name="load_end">没有更多数据</string>
     <string name="load_failed_click_retry">加载失败，点击重试</string>
-    <string name="loading">正在加载&#8230;</string>
+    <string name="loading">正在加载…</string>
 
     <string name="scan_qr_code_hint">使用此功能前，您必须同意打开相机的权限</string>
     <string name="zxing_msg_default_status">请将二维码置于取景框内扫描</string>
@@ -340,9 +339,9 @@
     <string name="delete_comment_msg">你想要删除这条评论吗?</string>
     <string name="login_select_way_to_login">请选择登录方式</string>
     <string name="upload_cancel">上传已取消</string>
-    <string name="is_comment">正在发表评论&#8230;</string>
+    <string name="is_comment">正在发表评论…</string>
     <string name="comment_cancel">评论已取消</string>
-    <string name="comment_replying">提交中&#8230;</string>
+    <string name="comment_replying">提交中…</string>
 
     <!--update password-->
     <string name="update_pwd_title">修改密码</string>
@@ -357,7 +356,7 @@
 
     <!-- UserInfoEdit -->
     <string name="user_info_edit_title">个人信息</string>
-    <string name="upload_avatar">正在上传&#8230;</string>
+    <string name="upload_avatar">正在上传…</string>
     <string name="user_info_edit_portrait_tv">头像</string>
     <string name="user_info_edit_username_tv">用户名</string>
     <string name="user_info_edit_nickname_tv">昵称</string>
