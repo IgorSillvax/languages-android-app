@@ -287,4 +287,107 @@
     <string name="app_detail_customer_reviews">Отзывы пользователей</string>
     <string name="app_submit_anonymous_comment">Добавить комментарий</string>
     <string name="login_user_password">Пароль</string>
+    <string name="app_submit_msg_toast">Напишите что-нибудь!</string>
+    <string name="app_submit_name_toast">Введите имя!</string>
+    <string name="app_submit_email_toast">Введите правильный email!</string>
+    <string name="app_submit_title_hint">Введите название</string>
+    <string name="app_submit_msg_hint">Напишите ваше мнение!</string>
+    <string name="app_submit_email">Email</string>
+    <string name="app_submit_submit_title">Отправить</string>
+    <string name="app_detail_tab_one">Детали</string>
+    <string name="app_detail_tab_two">Отзывы</string>
+    <string name="app_detail_comment_order_array_recent">Недавние</string>
+    <string name="app_detail_comment_order_array_newest">Новые</string>
+    <string name="app_detail_comment_order_array_best">Лучшие</string>
+
+    <string name="download_complete_installation_setting">Установить после загрузки</string>
+
+    <string name="download_complete_installation_setting_entries_always">Всегда устанавливать</string>
+    <string name="download_complete_installation_setting_entries_only">Только если программа открыта</string>
+    <string name="download_complete_installation_setting_entries_never">Никогда</string>
+
+    <string name="reply">Отзывы</string>
+    <string name="reply_comment">Ответить на комментарий</string>
+    <string name="save_original_image">Сохранить изображение</string>
+    <string name="already_save">Сохранено<xliff:g id="path" example="ApKPure/photo">%1$s</xliff:g></string>
+
+    <string name="tip_permission_camera_storage">Нет разрешения использовать камеру и память, дайте это разрешение</string>
+    <string name="permission_denied">Отказано в доступе!</string>
+
+    <string name="login_title">Login</string>
+    <string name="sign_out">Выйти</string>
+
+    <string name="delete_comment">Удалить отзыв</string>
+    <string name="delete_comment_msg">Вы точно хотите удалить этот отзыв?</string>
+    <string name="upload_cancel">Загрузка отменена</string>
+    <string name="login_select_way_to_login">Выберите способ входа</string>
+
+    <string name="user_info_edit_title">Профиль</string>
+    <string name="user_info_edit_username_tv">Имя</string>
+    <string name="user_info_edit_nickname_tv">Псевдоним</string>
+    <string name="user_info_edit_email_tv">Email</string>
+    <string name="user_info_edit_gender_tv">Пол</string>
+    <string name="user_info_edit_birthday_tv">Дата рождения</string>
+    <string name="user_info_edit_change_pwd_tv">Сбросить пароль</string>
+    <string name="user_info_edit_login_out_tv">Выйти</string>
+    <string name="user_info_edit_gender_male">Мужской</string>
+    <string name="user_info_edit_gender_female">Женский</string>
+    <string name="user_info_edit_portrait_album">Выбрать фото с галереи</string>
+    <string name="user_info_edit_portrait_take_photo">Сделать фото используя камеру</string>
+    <string name="user_info_edit_portrait_error">Данный тип изображения не поддерживается</string>
+    <string name="user_info_edit_ok">OK</string>
+    <string name="user_info_edit_cancel">Отменить</string>
+
+    <string name="update_nick_title">Выберите псевдоним</string>
+    <string name="update_email_title">Изменить email</string>
+    <string name="update_nick_name_et">Введите новый псевдоним</string>
+    <string name="update_nick_name_tv">Поле \"Псевдоним\" не может быть пустым</string>
+    <string name="update_email_name_et">Введите ваш email</string>
+    <string name="update_eamil_name_tv">Поле \"Email\" не должно быть пустым</string>
+    <string name="update_nickname_error">Псевдоним уже занят, выберите другой псевдоним!</string>
+
+    <string name="update_pwd_title">Изменить пароль</string>
+    <string name="update_pwd_current_pwd_et">Старый пароль</string>
+    <string name="update_pwd_new_pwd_et">Новый пароль</string>
+    <string name="update_pwd_Confirm_pwd_et">Подтвердите пароль</string>
+    <string name="upload_avatar">Загрузка аватарки…</string>
+    <string name="update_pwd_current_null_tv">Поле \"Старый пароль\" не может быть пустым</string>
+    <string name="update_pwd_Confirm_null_tv">Поле \"Подтверждение пароля\" не может быть пустым</string>
+    <string name="update_pwd_new_pwd_null_tv">Поле \"Новый пароль\" не может быть пустым</string>
+    <string name="update_pwd_new_confrim_tv">Поля \"Новый пароль\" и \"Подтверждение пароля\" не совпадают</string>
+    <string name="update_pwd_save_bt">Сохранить</string>
+    <string name="update_save_success">Успешно сохранено</string>
+    <string name="crop__cancel" ignore="ButtonCase">Отменить</string>
+    <string name="crop__done">Выполнено</string>
+    <string name="crop__pick_error">Некорректной тип файла изображения</string>
+    <string name="crop__saving">Сохранение изображения…</string>
+    <string name="crop__wait">Ждите…</string>
+
+    <string name="comment_replying">Отправка ответа…</string>
+    <string name="register_term_of_service">Условия использования APKPure</string>
+
+    <string name="set_contributor">Стать партнером</string>
+    <string name="set_permissions">Разрешения</string>
+    
+    <string name="sign_in_services">При входе вы соглашаетесь с условиями использования и политикой конфиденциальности.</string>
+
+    <string name="sign_in_services_key">Условия</string>
+    <string name="sign_in_services_key_policy">Политика конфиденциальности</string>
+
+    <string name="user_sign_up">Регистрация</string>
+    <string name="user_name_hint">Имя пользователя</string>
+    <string name="user_email_hint">Email</string>
+    <string name="user_password">Пароль(6-32)</string>
+    <string name="user_password_confirm">Подтвердите пароль</string>
+
+    <string name="user_name_error">Имя пользователя не должно содержать пробелов и специальных символов</string>
+    <string name="user_nickname_error">Псевдоним не должен содержать пробелов и специальных символов</string>
+    <string name="user_email_error">Неправильной email адрес</string>
+    <string name="user_password_error">Пароль введён неверно</string>
+    <string name="user_confirm_error">Пароли должны совпадать</string>
+
+    <string name="login_user_name">Имя пользователя</string>
+    <string name="login_user_sign_in">Войти</string>
+    <string name="login_choose">Или ввойдите в свой аккаунт</string>
+    <string name="login_new_user">Регистрация нового пользователя</string>
     </resources>
