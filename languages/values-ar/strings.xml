@@ -7,7 +7,7 @@
 
     <string name="press_back_key_quit">اضغط على زر الرجوع مرة أخرى للخروج .</string>
 
-    <string name="featured">مميز</string>
+    <string name="featured">وصف</string>
     <string name="games">الألعاب</string>
     <string name="apps">التطبيقات</string>
     <string name="categories">فئات</string>
@@ -15,7 +15,7 @@
 
     <string name="something_happened">&gt;_&lt;\nشيء ما حدث.</string>
 
-    <string name="load_failed_error">عذراً ! حدث خطأ ما.</string>
+    <string name="load_failed_error">عذراً ! حدث خطأ .</string>
     <string name="load_failed_empty">لايوجد شيء هنا.</string>
     <string name="load_failed_all_up_to_date">جميع التطبيقات محدثة.</string>
     <string name="load_failed_no_results">عذراً ! لاتوجد نتائج .</string>
@@ -31,9 +31,9 @@
     <string name="settings">إعدادات</string>
     <string name="about">حول</string>
     <string name="about_title">حول <xliff:g id="app_name" example="APKPure">%1$s</xliff:g></string>
-    <string name="about_message">
-        <![CDATA[<b>الإصدار:</b> %1$s<br><br><b>الموقع:</b> <a href="%2$s">%2$s</a><br><b>Email:</b> <a href="mailto:%3$s">%3$s</a>]]>
-    </string>
+    <string name="about_message">"
+ &lt;b&gt;الإصدار :&lt;/b&gt; %1$s&lt;br&gt;&lt;br&gt;&lt;b&gt;الموقع :&lt;/b&gt; &lt;a href=%2$s&gt;%2$s&lt;/a&gt;&lt;br&gt;&lt;b&gt;البريد الإلكتروني :&lt;/b&gt; &lt;a href=mailto:%3$s&gt;%3$s&lt;/a&gt;
+ "</string>
     <string name="check_update">التحقق من وجود تحديث</string>
     <string name="quit">خروج</string>
     <string name="want_to_quit">هل أنت متاكد من انك تريد الخروج ؟</string>
@@ -77,7 +77,7 @@
     <string name="unknown">غير معروف</string>
     <string name="_ellipsis_"> … </string>
 
-    <string name="market_response_error_success">نجح.</string>
+    <string name="market_response_error_success">نجاح.</string>
     <string name="market_response_error_invalid_result">نتيجة غير صالحة.</string>
     <string name="market_response_error_network_connect_error">خطأ في الإتصال بالشبكة.</string>
     <string name="market_response_error_network_read_error">فشل في القراءة .</string>
@@ -90,27 +90,27 @@
     <string name="update">تحديث</string>
     <string name="version__version___size_">الإصدار: <xliff:g id="version" example="1.0.0">%1$s</xliff:g>, <xliff:g id="size" example="1024 kB">%2$s</xliff:g></string>
     <plurals name="_count__new_update_is_available">
-	<item quantity="zero"><xliff:g id="count" example="1">%1$d</xliff:g> لاتوجد تحديثات</item>
-	<item quantity="one"><xliff:g id="count" example="1">%1$d</xliff:g> هنالك تحديث جديد</item>
-	<item quantity="two"><xliff:g id="count" example="1">%1$d</xliff:g> هنالك تحديثان جديدان</item>
-	<item quantity="few"><xliff:g id="count" example="1">%1$d</xliff:g> هنالك عدد من التحديثات الجديدة</item>
-	<item quantity="many"><xliff:g id="count" example="1">%1$d</xliff:g> هنالك تحديثات جديدة</item>
-	<item quantity="other"><xliff:g id="count" example="1">%1$d</xliff:g> هنالك عدة تحديثات جديدة</item>
+	<item quantity="zero"><xliff:g example="1" id="count">%1$d</xliff:g> تطبيق بحاجة الى تحديث</item>
+	<item quantity="one">هنالك <xliff:g id="count" example="1">%1$d</xliff:g> تحديث</item>
+	<item quantity="two">هنالك <xliff:g id="count" example="1">%1$d</xliff:g> تحديث جديد</item>
+	<item quantity="few">يتوفر <xliff:g id="count" example="1">%1$d</xliff:g> تحديثات جديدة</item>
+	<item quantity="many">يتوفر <xliff:g id="count" example="1">%1$d</xliff:g> تحديث جديد</item>
+	<item quantity="other">هنالك <xliff:g id="count" example="1">%1$d</xliff:g> تطبيق بحاجة الى تحديث</item>
 </plurals>
 
     <string name="launching_please_wait">جاري التشغيل, رجاءا إنتظر …</string>
 
     <plurals name="_count__item_is_downloading">
-	<item quantity="zero"><xliff:g id="count" example="1">%1$d</xliff:g>عنصر يتم تحميله الان</item>
-	<item quantity="one"><xliff:g id="count" example="2">%1$d</xliff:g> عنصر يتم تحميله</item>
-	<item quantity="two"><xliff:g id="count" example="2">%1$d</xliff:g>"  عنصريتم تحميله"</item>
-	<item quantity="few"><xliff:g id="count" example="2">%1$d</xliff:g>عناصر يتم تحميلها</item>
-	<item quantity="many"><xliff:g id="count" example="2">%1$d</xliff:g>عنصر يتم تحميله</item>
-	<item quantity="other"><xliff:g id="count" example="2">%1$d</xliff:g>عنصريتم تحميلها</item>
+	<item quantity="zero">يوجد <xliff:g id="count" example="1">%1$d</xliff:g> عنصر يتم تحميله</item>
+	<item quantity="one">هنالك <xliff:g id="count" example="2">%1$d</xliff:g> عنصر يتم تحميله</item>
+	<item quantity="two">هنالك <xliff:g id="count" example="2">%1$d</xliff:g>"  عنصريتم تحميله"</item>
+	<item quantity="few">هنالك <xliff:g id="count" example="2">%1$d</xliff:g>عناصر يتم تحميلها</item>
+	<item quantity="many">هنالك <xliff:g id="count" example="2">%1$d</xliff:g>عنصر يتم تحميله</item>
+	<item quantity="other">يتم تحميل <xliff:g id="count" example="2">%1$d</xliff:g>عنصر</item>
 </plurals>
     <string name="downloads_complete">تم الإنتهاء من التحميل</string>
     <string name="touch_for_view_all_downloads">إنقر هنا لعرض جميع التحميلات</string>
-    <string name="_name__download_failed"><xliff:g id="name" example="APKPure">%1$s</xliff:g> فشل التحميل</string>
+    <string name="_name__download_failed">فشل تحميل <xliff:g id="name" example="APKPure">%1$s</xliff:g></string>
     <string name="touch_to_download_it_again">إضغط هنا لإعادة التحميل</string>
 
     <string name="download_percent"><xliff:g id="percent" example="50">%1$d</xliff:g> %%</string>
@@ -137,8 +137,8 @@
 
     <string name="improvement_plan_title">خطة تحسين الأداء</string>
     <string name="improvement_plan_message">
-        <![CDATA[قم بمساعدتنا بالحصول على معلومات حول الجهاز الخاص بك, نحن<b>لا نقوم بجمع </b> معلومات شخصية عن أحد (الاسم, العنوان, البريد الالكتروني, بطاقة الرقم الاجتماعي, أو بطاقات تعريفية أخرى).]]>
-    </string>
+ قم بمساعدتنا بتقديم معلومات عن جهاز الاندرويد , نحن<b>لا نقوم بجمع </b> معلومات شخصية عن أحد (الاسم, العنوان, البريد الالكتروني, بطاقة الرقم الاجتماعي, أو اية معلومات قد تعرف عنك).
+ </string>
     <string name="join_us">انضم إلينا</string>
     <string name="skip">تخطي</string>
 
@@ -151,7 +151,11 @@
     <string name="report__">الإبلاغ…</string>
     <string name="report_problem__">التبليغ عن مشكلة…</string>
     <string name="report_problem_subject">التبليغ عن مشكلة</string>
-    <string name="report_problem_text">العنوان:\n%1$s\n\nتفاصيل المشكلة:\n%2$s</string>
+    <string name="report_problem_text">موضوع المشكلة :
+%1$s
+
+تفاصيل المشكلة:
+%2$s</string>
 
     <string name="installation_failed">فشل التثبيت</string>
     <string name="invalid_app_detail">معلومات التطبيق غير صالحة.</string>
@@ -176,12 +180,12 @@
     <string name="share">مشاركة التطبيق</string>
     <string name="share_app_url">تحميل تطبيق <xliff:g id="app_name" example="APKPure">%1$s</xliff:g>"  (عبر @"<xliff:g id="social_network_name" example="APKPure">%2$s</xliff:g>), <xliff:g id="app_url" example="https://apkpure.com/p/com.apkpure.aegon">%3$s</xliff:g></string>
 
-    <string name="_name__version_history"><xliff:g example="APKPure" id="name">%1$s</xliff:g></string>
+    <string name="_name__version_history">إصدارات سابقة لـ<xliff:g example="APKPure" id="name">%1$s</xliff:g></string>
     <string name="update__date___size_">تحديث: <xliff:g id="date" example="Mar 3, 2016">%1$s</xliff:g>, <xliff:g id="size" example="1024 kB">%2$s</xliff:g></string>
     <string name="properties">خصائص</string>
-    <string name="properties_message">
-        <![CDATA[<b>المسار:</b> %1$s<br><b>حجم:</b> %2$s<br><b>أحر تعديل:</b> %3$s]]>
-    </string>
+    <string name="properties_message">"
+ &lt;b&gt;المسار :&lt;/b&gt; %1$s&lt;br&gt;&lt;b&gt;حجم:&lt;/b&gt; %2$s&lt;br&gt;&lt;b&gt;أخر تعديل:&lt;/b&gt; %3$s
+ "</string>
     <string name="delete_downloaded_file">حذف الملف المحمل</string>
 
     <string name="update_all">تحديث الكل</string>
@@ -227,8 +231,8 @@
     <string name="deleted">تم الحذف</string>
     <string name="remove_all">ازالة الجميع</string>
     <string name="want_to_remove_all_download_items">هل تريد ازالة جميع العناصر المحملة ؟</string>
-    <string name="search_history">السجل</string>
-    <string name="clear_search_history">تنظيف السجل</string>
+    <string name="search_history">عمليات بحث سابقة</string>
+    <string name="clear_search_history">تنظيف تاريخ البحث</string>
 
     <string name="contact_us__">تواصل معنا…</string>
     <string name="contact_us">تواصل معنا</string>
@@ -272,7 +276,7 @@
     <string name="auto_service_dialog_message">التثبيت التلقائي يتطلب موافقة من الهاتف, انه أمن للاستخدام بلا اية مخاطر.</string>
 
     <string name="auto_service_title">التثبيت التلقائي لـ APKPure</string>
-    <string name="auto_service_description">"فعل \"  التثبيت التلقائي لـAPKPure\", للحفاظ على \" التثبيت التلقائي\" فعال بشكل سلس.
+    <string name="auto_service_description">فعل \"التثبيت التلقائي لـAPKPure\", وذلك للابقاء على \" التثبيت التلقائي\" فعال بشكل سلس .
 
 \" التثبيت التلقائي لـ APKPure \" بامكانه المساعدة بالضغط على كافة ازرار التثبيت عند تثبيت او تحديث التطبيقات, لست بحاجة لتفقد الهاتف في كل لحظة.
 
@@ -280,7 +284,7 @@
 
 للتاكد بان APKPure يعمل بشكل جيد, الرجاء اضافة APKPure الى اللائحة البيضاء في برنامج التنظيف.
 
-الميزات المذكورة اعلاخ تدعم اندرويد 4.1 ومافوق, ليس هنالك اي حاجه لصلاحيات مستخدم root. نحن نعدكم بعدم جمع اي معلومات شخصيه ابدا في هذه الميزة. رجاءا قوموا بالاتصال بنا في حال اية مشكلة."</string>
+الميزات المذكورة اعلاه تدعم اندرويد 4.1 ومافوق, ليس هنالك اي حاجه لصلاحيات مستخدم root. نحن نعدكم بعدم جمع اي معلومات شخصيه ابدا في هذه الميزة. رجاءا قوموا بالاتصال بنا في حال اية مشكلة.</string>
 
     <string name="auto_service_install">تثبيت</string>
     <string name="auto_service_ensure">موافق</string>
@@ -298,12 +302,12 @@
     <string name="auto_install_via_root_summary">لهواتف اندرويد و الاجهزة الوحية التي تملك صلاحيات Root .</string>
 
     <plurals name="app_detail_see_all_replies">
-	<item quantity="zero">عرض <xliff:g example="1" id="count">%1$d</xliff:g> رد</item>
-	<item quantity="one">عرض <xliff:g example="1" id="count"/>الرد</item>
-	<item quantity="two">عرض<xliff:g example="2" id="count"/> الردان</item>
-	<item quantity="few">عرض كافة<xliff:g example="2" id="count"/> الردود</item>
-	<item quantity="many">عرض جميع الـ <xliff:g example="2" id="count">%1$d</xliff:g> رد</item>
-	<item quantity="other">عرض كامل الـ<xliff:g example="1" id="count">%1$d</xliff:g>رد</item>
+	<item quantity="zero">رؤية<xliff:g example="1" id="count">%1$d</xliff:g> رد</item>
+	<item quantity="one">رؤية <xliff:g example="1" id="count"/>رد</item>
+	<item quantity="two">رؤية <xliff:g example="2" id="count"/> رد</item>
+	<item quantity="few">رؤية كافة <xliff:g example="2" id="count"/> رد</item>
+	<item quantity="many">رؤية جميع الـ <xliff:g example="2" id="count">%1$d</xliff:g> رد</item>
+	<item quantity="other">رؤية كافة الـ<xliff:g example="1" id="count">%1$d</xliff:g>رد</item>
 </plurals>
 
     <string name="app_detail_customer_reviews">تعليقات المستخدمين</string>
@@ -342,16 +346,16 @@
     <string name="reply_dialog_marked_words">تبعا للصورة يمكن الحذف</string>
     <string name="reply_comment">رد على التعليق</string>
     <string name="save_original_image">المحافظة على الصورة الاصليه</string>
-    <string name="already_save">تم الحفظ<xliff:g id="path" example="ApKPure/photo">%1$s</xliff:g></string>
+    <string name="already_save">تم الحفظ <xliff:g id="path" example="ApKPure/photo">%1$s</xliff:g></string>
 
     <string name="load_end">لايوجد المزيد</string>
     <string name="load_failed_click_retry">فشل التشغيل , اضغط على اعادة المحاولة</string>
     <string name="loading">تحميل …</string>
 
-    <string name="scan_qr_code_hint">قبل استخدام مسح كود QR يتوجب عليك السماح باستخدام الكميرا
-والذي هو مطلوب للقيام بمسح كود QR.</string>
-    <string name="zxing_msg_default_status">رجاءا قم بوضع صورة كود الـQR ضمن المربع للقيام بمسحها .</string>
-    <string name="zxing_msg_parser_status">فشل المسح , رجاءا اعد محاولة مسح صورة QR من جديد .</string>
+    <string name="scan_qr_code_hint">قبل استخدام فحص رمز QR يتوجب عليك السماح باستخدام الكميرا
+والذي هو مطلوب للقيام بفحص رمز QR.</string>
+    <string name="zxing_msg_default_status">رجاءا قم بوضع صورة رمز الـQR ضمن المربع للقيام بفحصها .</string>
+    <string name="zxing_msg_parser_status">فشل الفحص, رجاءا اعد محاولة فحص رمز QR من جديد .</string>
 
     <string name="tip_permission_camera_storage">لانتوجد صلاحيات لاستخدام الكميرا وكرت الذاكرة, قم بفتح مدير الصلاحيات</string>
     <string name="permission_denied">تم رفض الوصول!</string>
@@ -395,7 +399,7 @@
     <string name="update_pwd_new_pwd_et">كلمة المرور الجديدة</string>
     <string name="update_pwd_Confirm_pwd_et">تاكيد كلمة المرور الجديدة</string>
     <string name="upload_avatar">جاري الرفع…</string>
-    <string name="update_pwd_current_null_tv">كلمة المرور القديمة لاكن ان تكون فارغة</string>
+    <string name="update_pwd_current_null_tv">كلمة المرور القديمة لايمكن ان تكون فارغة</string>
     <string name="update_pwd_Confirm_null_tv">تاكيد كلمة المرور لايمكن ان تكون فارغة</string>
     <string name="update_pwd_new_pwd_null_tv">كلمة المرور الجديدة لايمكن ان تكون فارغة</string>
     <string name="update_pwd_new_confrim_tv">كلمات المرور التي قمت بادخالها لاتتطابق</string>
