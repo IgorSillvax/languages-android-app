@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<resources><string name="action_settings">Settings</string>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2"><string name="action_settings">ตั้งค่า</string>
     <string name="action_search">ค้นหา</string>
     <string name="action_management">การจัดการ</string>
 
@@ -19,7 +19,7 @@
     <string name="open">เปิด</string>
     <string name="check_update">ตรวจสอบการอัพเดต</string>
     <string name="want_to_delete_file">คุณต้องการลบไฟล์ ?</string>
-    <string name="press_back_key_quit">กดอีกครั้งเพื่อออก</string>
+    <string name="press_back_key_quit">กดปุ่มย้อนกลับอีกครั้งเพื่อออก</string>
 
     <string name="something_happened">&gt;_&lt; Something happened</string>
 
@@ -27,9 +27,9 @@
     <string name="load_failed_error">อุ๊บส์...!! เกิดข้อผิดพลาด</string>
     <string name="load_failed_all_up_to_date">แอปทั้งหมดถูกอัพเดต</string>
     <string name="categories">หมวดหมู่</string>
-    <string name="games">เกมส์</string>
-    <string name="featured">ลักษณะ</string>
-    <string name="apps">แอปพลิเคชัน</string>
+    <string name="games">เกม</string>
+    <string name="featured">ที่โดดเด่น</string>
+    <string name="apps">แอป</string>
     <string name="app_name">APKPure</string>
 
     <string name="load_failed_empty">มีบ้างอย่างไม่ถูกต้อง</string>
@@ -38,7 +38,7 @@
     <string name="download_management">โหลดตัวจัดการ</string>
     <string name="apk_xapk_management">จัดการไฟล์ เอพีเคและเอกซ์เอพีเค</string>
     <string name="apk_management">จัดการไฟล์เอพีเค</string>
-    <string xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" name="about_title">เกี่ยวกับ <xliff:g id="app_name" example="APKPure">%1$s</xliff:g></string>
+    <string name="about_title">เกี่ยวกับ <xliff:g id="app_name" example="APKPure">%1$s</xliff:g></string>
     <string name="file_has_been_deleted">ไฟล์นี้ถูกลบแล้ว</string>
     <string name="failed_to_delete_file">ลบไฟล์ไม่ได้</string>
     <string name="user_canceled">ยกเลิกโดยผู้ใช้</string>
@@ -64,12 +64,12 @@
     <string name="screenshots">ถ่ายภาพหน้าจอ</string>
     <string name="description">ลักษณะ</string>
     <string name="uninstalled">ถอนการติดตั้ง</string>
-    <string xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" name="last_update__date_">อัพเดตล่าสุด: <xliff:g id="date">%1$s</xliff:g></string>
+    <string name="last_update__date_">อัพเดตล่าสุด: <xliff:g id="date">%1$s</xliff:g></string>
 
     <string name="information">ข้อมูล</string>
     <string name="category_">ประเภท:</string>
-    <string xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" name="install__label_">ติดตั้ง - <xliff:g id="app_label" example="APKPure">%1$s</xliff:g></string>
-    <string xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" name="update__date___size_">อัพเดท: <xliff:g id="date" example="Mar 3, 2016">%1$s</xliff:g>, <xliff:g id="size" example="1024 kB">%2$s</xliff:g></string>
+    <string name="install__label_">ติดตั้ง - <xliff:g id="app_label" example="APKPure">%1$s</xliff:g></string>
+    <string name="update__date___size_">อัพเดท: <xliff:g id="date" example="Mar 3, 2016">%1$s</xliff:g>, <xliff:g id="size" example="1024 kB">%2$s</xliff:g></string>
 <string name="installation_failed">การติดตั้งล้มเหลว</string>
     <string name="io_error">ข้อผิดพลาด IO อาจจะมี เนื้อที่ว่างไม่ เพียงพอ สำหรับการติดตั้ง จึงไม่สำเร็จ</string>
     <string name="extracting_apk">กำลังแยกไฟล์ APK …</string>
@@ -80,18 +80,19 @@
 
     <string name="market_response_error_network_connect_error">การเชื่อมต่อเครือข่ายล้มเหลว</string>
     <string name="market_response_error_network_read_error">เครือข่ายผิดพลาดจากการอ่าน</string>
-    <string xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" name="market_response_error_unknown_error__error_">เกิดข้อผิดพลาดที่ไม่รู้จัก (<xliff:g id="error" example="SUCCESS">%1$s</xliff:g>).</string>
+    <string name="market_response_error_unknown_error__error_">เกิดข้อผิดพลาดที่ไม่รู้จัก (<xliff:g id="error" example="SUCCESS">%1$s</xliff:g>).</string>
 
-    <string xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" name="_name__version_history"><xliff:g id="name" example="APKPure">%1$s</xliff:g> ประวัติของเวอร์ชัน</string>
+    <string name="_name__version_history"><xliff:g id="name" example="APKPure">%1$s</xliff:g> ประวัติของเวอร์ชัน</string>
     <string name="no_more">เหมือนเดิม</string>
 
     <string name="update">อัพเดท</string>
-    <string xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" name="version__version___size_">เวอร์ชัน: <xliff:g id="version" example="1.0.0">%1$s</xliff:g>, <xliff:g id="size" example="1024 kB">%2$s</xliff:g></string>
-    <plurals xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" name="_count__new_update_is_available">
+    <string name="version__version___size_">เวอร์ชัน: <xliff:g id="version" example="1.0.0">%1$s</xliff:g>, <xliff:g id="size" example="1024 kB">%2$s</xliff:g></string>
+    <plurals name="_count__new_update_is_available">
 	<item quantity="one"><xliff:g id="count" example="1">%1$d</xliff:g> มีการอัพเดทใหม่</item>
 	<item quantity="other"/>
 </plurals>
 
     <string name="launching_please_wait">กำลังรัน กรุณารอสักครู่ …</string>
 
+    <string name="recommend">ขอแนะนำ</string>
     </resources>
