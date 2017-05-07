@@ -273,4 +273,148 @@ Le funzionalità sopradescritte supportano Android 4.1+, senza necessità di per
     <string name="auto_install_via_root_summary">Solo per telefoni e tablet Android con root.</string>
 
     <string name="download_complete_installation_setting">Opzione di installazione dopo il download</string>
-    </resources>
+    <string name="recommend">Consigliate</string>
+    <string name="report">Segnala</string>
+    <string name="share_app_url_comment"> Commenti di <xliff:g example="APKPure" id="user_name">%1$s</xliff:g> su <xliff:g example="APKPure" id="app_name">%2$s</xliff:g> (da @<xliff:g example="APKPure" id="social_network_name">%3$s</xliff:g>), <xliff:g example="https://apkpure.com/p/com.apkpure.aegon" id="app_url">%4$s</xliff:g></string>
+
+    <plurals name="app_detail_see_all_replies">
+	<item quantity="one">Vedi <xliff:g example="1" id="count">%1$d</xliff:g> risposta</item>
+	<item quantity="other">Vedi <xliff:g example="2" id="count">%1$d</xliff:g> risposte</item>
+</plurals>
+
+    <string name="app_detail_customer_reviews">Commenti degli utenti</string>
+    <string name="app_detail_comment_type_web">web</string>
+    <string name="app_submit_submit">Invia…</string>
+    <string name="app_submit_anonymous_comment">Aggiungi commento</string>
+    <string name="app_submit_title_toast">Devi scrivere il titolo!</string>
+    <string name="app_submit_msg_toast">Devi scrivere qualcosa!</string>
+    <string name="app_submit_name_toast">Inserisci un nickname!</string>
+    <string name="app_submit_email_toast">Inserisci l\'indirizzo email corretto!</string>
+    <string name="app_submit_star_toast">Devi votare!</string>
+    <string name="app_submit_title_hint">Inserisci titolo</string>
+    <string name="app_submit_msg_hint">Scrivi la tua opinione</string>
+    <string name="app_submit_nickname">Nickname</string>
+    <string name="app_submit_email">Email</string>
+    <string name="app_submit_submit_title">invia</string>
+    <string name="app_submit_reply_to">rispondi a</string>
+    <string name="app_detail_reply_comment">Commento(%d)</string>
+    <string name="app_detail_reply_esc">正序</string>
+    <string name="app_detail_reply_desc">倒序</string>
+    <string name="app_detail_reply_floor">%d楼</string>
+
+    <string name="app_detail_tab_one">Dettagli</string>
+    <string name="app_detail_tab_two">Commenti</string>
+    <string name="app_detail_tab_three">Correlati</string>
+
+    <string name="app_detail_comment_order_array_recent">Recenti</string>
+    <string name="app_detail_comment_order_array_newest">Novità</string>
+    <string name="app_detail_comment_order_array_best">Migliori</string>
+
+    <string name="download_complete_installation_setting_entries_always">Installa sempre</string>
+    <string name="download_complete_installation_setting_entries_only">Installa solo con app visibile</string>
+    <string name="download_complete_installation_setting_entries_never">Non installare mai</string>
+
+    <string name="reply">Rispondi</string>
+    <string name="input_reply_content">Contenuto iniziale della risposta:</string>
+    <string name="publish">Pubblica</string>
+    <string name="reply_dialog_marked_words">Può essere eliminata vista l\'immagine</string>
+    <string name="reply_comment">Rispondi al commento</string>
+    <string name="save_original_image">Preserva immagine iniziale</string>
+    <string name="already_save">Salvata<xliff:g id="path" example="ApKPure/photo">%1$s</xliff:g></string>
+
+    <string name="load_end">Nessun altro dato</string>
+    <string name="load_failed_click_retry">Caricamento fallito, riprova</string>
+    <string name="loading">Caricamento…</string>
+
+    <string name="scan_qr_code_hint">Prima di usare Leggi QR Code devi permette l\'uso della fotocamera
+ che è richiesta per leggere il QR code.</string>
+    <string name="zxing_msg_default_status">Posiziona il QR code nell\'inquadratura per la lettura.</string>
+    <string name="zxing_msg_parser_status">Lettura fallita, prova a leggere il QR code di nuovo.</string>
+
+    <string name="tip_permission_camera_storage">Non ho i permessi per l\'uso di fotocamera e card SD, apri gestione permessi</string>
+    <string name="permission_denied">Accesso negato!</string>
+
+    <string name="login_title">Entra</string>
+    <string name="sign_out">Esci</string>
+
+    <string name="delete_comment">Elimina Commento</string>
+    <string name="delete_comment_msg">Sei sicuro di voler eliminare questo commento?</string>
+    <string name="upload_cancel">Caricamento annullato</string>
+    <string name="login_select_way_to_login">Scegli il metodo per entrare</string>
+
+    <string name="user_info_edit_title">Profilo</string>
+    <string name="user_info_edit_portrait_tv">Immagine Profilo</string>
+    <string name="user_info_edit_username_tv">Nome utente</string>
+    <string name="user_info_edit_nickname_tv">Nickname</string>
+    <string name="user_info_edit_email_tv">Email</string>
+    <string name="user_info_edit_gender_tv">Sesso</string>
+    <string name="user_info_edit_birthday_tv">Data di nascita</string>
+    <string name="user_info_edit_change_pwd_tv">Reimposta password</string>
+    <string name="user_info_edit_login_out_tv">Esci</string>
+    <string name="user_info_edit_not_choose">Sconosciuto</string>
+    <string name="user_info_edit_gender_male">Uomo</string>
+    <string name="user_info_edit_gender_female">Donna</string>
+    <string name="user_info_edit_portrait_album">Scegli immagine dalla galleria</string>
+    <string name="user_info_edit_portrait_take_photo">Scatta foto</string>
+    <string name="user_info_edit_portrait_error">Formato immagine non supportato</string>
+    <string name="user_info_edit_ok">OK</string>
+    <string name="user_info_edit_cancel">Annulla</string>
+
+    <string name="update_nick_title">Cambia nickname</string>
+    <string name="update_email_title">Cambia Email</string>
+    <string name="update_nick_name_et">Nuovo nickname</string>
+    <string name="update_nick_name_tv">Il nickname non può essere vuoto</string>
+    <string name="update_email_name_et">Inserisci email</string>
+    <string name="update_eamil_name_tv">L\'email non può essere vuota</string>
+    <string name="update_nickname_error">Nickname già presente, scegline un altro!</string>
+
+    <string name="update_pwd_title">Reimposta password</string>
+    <string name="update_pwd_current_pwd_et">Vecchia password</string>
+    <string name="update_pwd_new_pwd_et">Nuova password</string>
+    <string name="update_pwd_Confirm_pwd_et">Conferma nuova password</string>
+    <string name="upload_avatar">Caricamento…</string>
+    <string name="update_pwd_current_null_tv">La vecchia password non può essere vuota</string>
+    <string name="update_pwd_Confirm_null_tv">La conferma non può essere vuota</string>
+    <string name="update_pwd_new_pwd_null_tv">La nuova password non può essere vuota</string>
+    <string name="update_pwd_new_confrim_tv">Le password non coincidono</string>
+    <string name="update_pwd_save_bt">Salva</string>
+    <string name="update_save_success">Salvato con successo!</string>
+    <string name="crop__cancel" ignore="ButtonCase">Annulla</string>
+    <string name="crop__done">Fatto</string>
+    <string name="crop__pick_error">Formato immagine non valido</string>
+    <string name="crop__saving">Salvataggio immagine…</string>
+    <string name="crop__wait">Attendi…</string>
+
+    <string name="is_comment">Il commento è…</string>
+    <string name="comment_cancel">Commento annullato</string>
+    <string name="comment_replying">Invio risposta…</string>
+    <string name="register_term_of_service">Termini di Servizio APKPure</string>
+
+    <string name="set_contributor">Contributi</string>
+    <string name="set_permissions">Permessi</string>
+    
+    <string name="sign_in_services">Registrandoti accetti i nostri Termini e Politica di Privacy.</string>
+
+    <string name="sign_in_services_key">Termini</string>
+    <string name="sign_in_services_key_policy">Politica di Privacy</string>
+
+    <string name="user_sign_up">Registrati</string>
+    <string name="user_name_hint">Nome utente</string>
+    <string name="user_email_hint">Email</string>
+    <string name="user_password">Password (6-32)</string>
+    <string name="user_password_confirm">Conferma password</string>
+
+    <string name="user_name_error">Il nome utente non dovrebbe contenere caratteri speciali, simboli o spazi</string>
+    <string name="user_nickname_error">Il nickname non dovrebbe contenere caratteri speciali, simboli o spazi</string>
+    <string name="user_email_error">Indirizzo email non valido</string>
+    <string name="user_password_error">Password non valida</string>
+    <string name="user_confirm_error">Le password devono coincidere</string>
+
+    <string name="login_user_name">Nome utente</string>
+    <string name="login_user_password">Password</string>
+    <string name="login_user_sign_in">Entra</string>
+    <string name="login_choose">O entra con il tuo account</string>
+    <string name="login_new_user">Nuova Registrazione</string>
+    <string name="login_post_as_a_guest">Posta come Ospite</string>
+
+</resources>
