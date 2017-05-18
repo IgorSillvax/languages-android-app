@@ -7,7 +7,7 @@
     <string name="action_search">搜尋</string>
     <string name="action_management">管理</string>
 
-    <string name="press_back_key_quit">再壹次返回鍵退出。english</string>
+    <string name="press_back_key_quit">再次按下返回鍵退出。</string>
 
     <string name="featured">精選</string>
     <string name="games">遊戲</string>
@@ -268,7 +268,7 @@
     </plurals>
     <string name="app_detail_customer_reviews">用戶評論</string>
     <string name="app_detail_comment_type_web">網站</string>
-    <string name="app_submit_submit">提交中。。。</string>
+    <string name="app_submit_submit">提交中...…</string>
     <string name="app_submit_anonymous_comment">添加評論</string>
     <string name="app_submit_title_toast">請填寫標題!</string>
     <string name="app_submit_msg_toast">請填寫評論!</string>
@@ -324,9 +324,9 @@
     <string name="load_failed_click_retry">載入失敗，點擊重試</string>
     <string name="loading">正在載入…</string>
 
-    <string name="scan_qr_code_hint">使用此功能前，您必須同意打開相機的許可權</string>
-    <string name="zxing_msg_default_status">請將二維碼置於取景框內掃描</string>
-    <string name="zxing_msg_parser_status">掃描失敗,請重試</string>
+    <string name="scan_qr_code_hint">在使用掃碼功能前，您必須同意授予應用打開相機的權限。</string>
+    <string name="zxing_msg_default_status">請將二維碼置於取景框內以掃描。</string>
+    <string name="zxing_msg_parser_status">掃描失敗,請重試。</string>
 
     <string name="tip_permission_camera_storage">沒有使用相機和SD卡的權限，請在權限管理中開啟</string>
     <string name="permission_denied">訪問被拒絕!</string>
@@ -381,7 +381,7 @@
     <string name="update_email_name_et">請輸入你的郵箱</string>
     <string name="update_eamil_name_tv">郵箱不能為空</string>
     <string name="update_save_success">保存成功!</string>
-    <string name="update_nickname_error">昵稱已經在使用，請修改昵稱。</string>
+    <string name="update_nickname_error">暱稱已存在，請使用其他暱稱！</string>
 
     <!--crop image-->
     <string name="crop__cancel" ignore="ButtonCase">取消</string>
@@ -415,4 +415,6 @@
     <string name="login_choose">或使用您的賬戶登陸</string>
     <string name="login_new_user">新用戶註冊</string>
     <string name="login_post_as_a_guest">以遊客身份回復</string>
-</resources>
+<string name="register_term_of_service">APKPure服務條款</string>
+
+    </resources>
