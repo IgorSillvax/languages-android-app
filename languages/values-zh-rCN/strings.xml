@@ -370,13 +370,13 @@
     <string name="user_info_edit_gender_female">女</string>
     <string name="user_info_edit_portrait_album">从相册选择</string>
     <string name="user_info_edit_portrait_take_photo">拍照</string>
-    <string name="user_info_edit_portrait_error">该图片类型不支持上传</string>
+    <string name="user_info_edit_portrait_error">不支持上传该格式图片</string>
     <string name="user_info_edit_ok">确认</string>
     <string name="user_info_edit_cancel">取消</string>
     <!--crop image-->
     <string name="crop__cancel" ignore="ButtonCase">取消</string>
     <string name="crop__done">完成</string>
-    <string name="crop__pick_error">无效的图片</string>
+    <string name="crop__pick_error">图片格式无效</string>
     <string name="crop__saving">正在保存照片…</string>
     <string name="crop__wait">请等待…</string>
     <!--updateNickname-->
@@ -387,7 +387,7 @@
     <string name="update_email_name_et">请输入你的邮箱</string>
     <string name="update_eamil_name_tv">邮箱不能为空</string>
     <string name="update_save_success">保存成功!</string>
-    <string name="update_nickname_error">昵称已经在使用，请修改昵称！</string>
+    <string name="update_nickname_error">该昵称已存在，请使用其他昵称！</string>
 
     <string name="set_contributor">贡献者</string>
     <string name="set_permissions">权限说明</string>
@@ -402,16 +402,16 @@
     <string name="user_password">密码(6–32位)</string>
     <string name="user_password_confirm">确认密码</string>
 
-    <string name="user_name_error">不能包含特殊字符</string>
-    <string name="user_nickname_error">不能包含特殊字符</string>
+    <string name="user_name_error">用户名不能包含特殊字符,比如空格</string>
+    <string name="user_nickname_error">昵称不能包含特殊字符，如空格</string>
     <string name="user_email_error">邮箱格式错误</string>
     <string name="user_password_error">密码格式不正确</string>
-    <string name="user_confirm_error">两次密码不相同</string>
+    <string name="user_confirm_error">两次输入的密码不相同</string>
 
     <string name="login_user_name">用户名</string>
     <string name="login_user_password">密码</string>
     <string name="login_user_sign_in">登录</string>
-    <string name="login_choose">或使用您的账户登陆</string>
+    <string name="login_choose">或使用已有账户登陆</string>
     <string name="login_new_user">新用户注册</string>
     <string name="login_post_as_a_guest">以游客身份回复</string>
 
