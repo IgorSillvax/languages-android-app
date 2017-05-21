@@ -92,7 +92,7 @@
     <plurals name="_count__new_update_is_available">
 	<item quantity="one"><xliff:g id="count" example="1">%1$d</xliff:g> доступно новое обновление</item>
 	<item quantity="few"><xliff:g id="count" example="2">%1$d</xliff:g> доступны новые обновления</item>
-	<item quantity="many"><xliff:g id="count" example="2">%1$d</xliff:g> доступны новые обновления</item>
+	<item quantity="many"><xliff:g id="count" example="2">%1$d</xliff:g> доступно новых обновлений</item>
 	<item quantity="other"/>
 </plurals>
 
@@ -196,7 +196,7 @@
  Всего: &lt;b&gt;&lt;font color=%1$d&gt;%2$d&lt;/font&gt;&lt;/b&gt; приложение, &lt;b&gt;&lt;font color=%1$d&gt;%3$s&lt;/font&gt;&lt;/b&gt;
  "</item>
 	<item quantity="few">"
- Всего: &lt;b&gt;&lt;font color=%1$d&gt;%2$d&lt;/font&gt;&lt;/b&gt; приложений, &lt;b&gt;&lt;font color=%1$d&gt;%3$s&lt;/font&gt;&lt;/b&gt;
+ Всего: &lt;b&gt;&lt;font color=%1$d&gt;%2$d&lt;/font&gt;&lt;/b&gt; приложения, &lt;b&gt;&lt;font color=%1$d&gt;%3$s&lt;/font&gt;&lt;/b&gt;
  "</item>
 	<item quantity="many">"
  Всего: &lt;b&gt;&lt;font color=%1$d&gt;%2$d&lt;/font&gt;&lt;/b&gt; приложений, &lt;b&gt;&lt;font color=%1$d&gt;%3$s&lt;/font&gt;&lt;/b&gt;
@@ -232,7 +232,7 @@
 
     <string name="select_all">Выбрать всё</string>
     <string name="deselect_all">Убрать выделение со всего</string>
-<string name="more_large">Показать полностью</string>
+<string name="more_large">Показать больше</string>
     <string name="installed">Установлено</string>
     <string name="download_over_cellular">Загрузка через мобильную сеть</string>
     <string name="download_over_cellular_content">Вы собираетесь загружать через мобильную сеть. Продолжить?</string>
@@ -338,7 +338,7 @@
     <string name="user_info_edit_ok">OK</string>
     <string name="user_info_edit_cancel">Отменить</string>
 
-    <string name="update_nick_title">Выберите псевдоним</string>
+    <string name="update_nick_title">Измените псевдоним</string>
     <string name="update_email_title">Изменить email</string>
     <string name="update_nick_name_et">Введите новый псевдоним</string>
     <string name="update_nick_name_tv">Поле \"Псевдоним\" не может быть пустым</string>
@@ -346,7 +346,7 @@
     <string name="update_eamil_name_tv">Поле \"Email\" не должно быть пустым</string>
     <string name="update_nickname_error">Псевдоним уже занят, выберите другой псевдоним!</string>
 
-    <string name="update_pwd_title">Изменить пароль</string>
+    <string name="update_pwd_title">Сбросить мой пароль</string>
     <string name="update_pwd_current_pwd_et">Старый пароль</string>
     <string name="update_pwd_new_pwd_et">Новый пароль</string>
     <string name="update_pwd_Confirm_pwd_et">Подтвердите пароль</string>
@@ -423,7 +423,7 @@
     <string name="zxing_msg_parser_status">Сбой сканирования, попробуйте повторить сканирование QR-кода.</string>
 
     <string name="is_comment">Комментарий…</string>
-    <string name="share_app_url_comment"> <xliff:g example="APKPure" id="user_name">%1$s</xliff:g>комментариями для<xliff:g example="APKPure" id="app_name"/><xliff:g example="APKPure" id="social_network_name"/><xliff:g example="https://apkpure.com/p/com.apkpure.aegon" id="app_url"/></string>
+    <string name="share_app_url_comment"> <xliff:g example="APKPure" id="user_name">%1$s</xliff:g>комментариями для<xliff:g example="APKPure" id="app_name">%2$s</xliff:g><xliff:g example="APKPure" id="social_network_name">%3$s</xliff:g><xliff:g example="https://apkpure.com/p/com.apkpure.aegon" id="app_url">%4$s</xliff:g></string>
 
     <string name="app_detail_reply_floor">%dслово</string>
 
