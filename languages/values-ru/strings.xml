@@ -93,17 +93,17 @@
 	<item quantity="one"><xliff:g id="count" example="1">%1$d</xliff:g> доступно новое обновление</item>
 	<item quantity="few"><xliff:g id="count" example="2">%1$d</xliff:g> доступны новые обновления</item>
 	<item quantity="many"><xliff:g id="count" example="2">%1$d</xliff:g> доступны новые обновления</item>
-	<item quantity="other"></item>
+	<item quantity="other"/>
 </plurals>
 
     <string name="launching_please_wait">Запускается, пожалуйста подождите…</string>
 
     <plurals name="_count__item_is_downloading">
-        <item quantity="one"><xliff:g id="count" example="1">%1$d</xliff:g> загружается</item>
-        <item quantity="few"><xliff:g id="count" example="2">%1$d</xliff:g> загружаются</item>
-        <item quantity="many"><xliff:g id="count" example="2">%1$d</xliff:g> загружаются</item>
-        <item quantity="other"/>
-    </plurals>
+	<item quantity="one"><xliff:g id="count" example="1">%1$d</xliff:g> элемент загружается</item>
+	<item quantity="few"><xliff:g id="count" example="2">%1$d</xliff:g> элемента загружаются</item>
+	<item quantity="many"><xliff:g id="count" example="2">%1$d</xliff:g> элементов загружаются</item>
+	<item quantity="other"/>
+</plurals>
     <string name="downloads_complete">Загрузки завершены</string>
     <string name="touch_for_view_all_downloads">Коснитесь, чтобы увидеть все загрузки</string>
     <string name="_name__download_failed"><xliff:g id="name" example="APKPure">%1$s</xliff:g> не удалось скачать</string>
@@ -192,17 +192,17 @@
     <string name="cancel">Отмена</string>
     <string name="ignored">Игнорируемые</string>
     <plurals name="total__count__apps__size_">
-        <item quantity="one">
-            <![CDATA[Всего: <b><font color="%1$d">%2$d</font></b> приложение, <b><font color="%1$d">%3$s</font></b>]]>
-        </item>
-        <item quantity="few">
-            <![CDATA[Всего: <b><font color="%1$d">%2$d</font></b> приложений, <b><font color="%1$d">%3$s</font></b>]]>
-        </item>
-        <item quantity="many">
-            <![CDATA[Всего: <b><font color="%1$d">%2$d</font></b> приложений, <b><font color="%1$d">%3$s</font></b>]]>
-        </item>
-        <item quantity="other"/>
-    </plurals>
+	<item quantity="one">"
+ Всего: &lt;b&gt;&lt;font color=%1$d&gt;%2$d&lt;/font&gt;&lt;/b&gt; приложение, &lt;b&gt;&lt;font color=%1$d&gt;%3$s&lt;/font&gt;&lt;/b&gt;
+ "</item>
+	<item quantity="few">"
+ Всего: &lt;b&gt;&lt;font color=%1$d&gt;%2$d&lt;/font&gt;&lt;/b&gt; приложений, &lt;b&gt;&lt;font color=%1$d&gt;%3$s&lt;/font&gt;&lt;/b&gt;
+ "</item>
+	<item quantity="many">"
+ Всего: &lt;b&gt;&lt;font color=%1$d&gt;%2$d&lt;/font&gt;&lt;/b&gt; приложений, &lt;b&gt;&lt;font color=%1$d&gt;%3$s&lt;/font&gt;&lt;/b&gt;
+ "</item>
+	<item quantity="other"/>
+</plurals>
     <string name="total_zero_app">
         <![CDATA[Всего: <b><font color="%1$d">0</font></b> приложений]]>
     </string>
@@ -403,4 +403,28 @@
     <string name="load_end">Загрузка окончена</string>
     <string name="user_info_edit_portrait_tv">Аватар</string>
     <string name="user_info_edit_not_choose">Неизвестный</string>
+    <string name="recommend">Рекомендовать</string>
+    <plurals name="app_detail_see_all_replies">
+	<item quantity="one">Просмотреть все <xliff:g example="1" id="count">%1$d</xliff:g> ответ</item>
+	<item quantity="other">Просмотреть все <xliff:g example="2" id="count"> 3%1$d</xliff:g> ответа</item>
+</plurals>
+
+    <string name="app_detail_comment_type_web">вэб</string>
+    <string name="app_detail_reply_esc">Положительная последовательность</string>
+    <string name="app_detail_reply_desc">Обратный</string>
+    <string name="comment_cancel">Комментарий отменен</string>
+    <string name="reply_dialog_marked_words">В соответствии с изображением можно удалить</string>
+    <string name="load_failed_click_retry">Сбой загрузки, нажмите повторить</string>
+    <string name="loading">Загрузка…</string>
+
+    <string name="scan_qr_code_hint">Перед использованием Сканирование QR кода вы должны 
+предоставить разрешение к камере, которое необходимо для сканирования QR-кода.</string>
+    <string name="zxing_msg_default_status">Пожалуйста, поместите QR-код в видоискатель, чтобы отсканировать его.</string>
+    <string name="zxing_msg_parser_status">Сбой сканирования, попробуйте повторить сканирование QR-кода.</string>
+
+    <string name="is_comment">Комментарий…</string>
+    <string name="share_app_url_comment"> <xliff:g example="APKPure" id="user_name">%1$s</xliff:g>комментариями для<xliff:g example="APKPure" id="app_name"/><xliff:g example="APKPure" id="social_network_name"/><xliff:g example="https://apkpure.com/p/com.apkpure.aegon" id="app_url"/></string>
+
+    <string name="app_detail_reply_floor">%dслово</string>
+
     </resources>
