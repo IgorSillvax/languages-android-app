@@ -90,11 +90,11 @@
     <string name="update">Обновить</string>
     <string name="version__version___size_">Версия: <xliff:g id="version" example="1.0.0">%1$s</xliff:g>, <xliff:g id="size" example="1024 kB">%2$s</xliff:g></string>
     <plurals name="_count__new_update_is_available">
-        <item quantity="one"><xliff:g id="count" example="1">%1$d</xliff:g> доступно новое обновление</item>
-        <item quantity="few"><xliff:g id="count" example="2">%1$d</xliff:g> доступны новые обновления</item>
-        <item quantity="many"><xliff:g id="count" example="2">%1$d</xliff:g> доступны новые обновления</item>
-        <item quantity="other"/>
-    </plurals>
+	<item quantity="one"><xliff:g id="count" example="1">%1$d</xliff:g> доступно новое обновление</item>
+	<item quantity="few"><xliff:g id="count" example="2">%1$d</xliff:g> доступны новые обновления</item>
+	<item quantity="many"><xliff:g id="count" example="2">%1$d</xliff:g> доступны новые обновления</item>
+	<item quantity="other"/>
+</plurals>
 
     <string name="launching_please_wait">Запускается, пожалуйста подождите…</string>
 
@@ -291,7 +291,7 @@
     <string name="app_submit_name_toast">Введите имя!</string>
     <string name="app_submit_email_toast">Введите правильный email!</string>
     <string name="app_submit_title_hint">Введите название</string>
-    <string name="app_submit_msg_hint">Напишите ваше мнение!</string>
+    <string name="app_submit_msg_hint">Пожалуйста, напишите свое мнение</string>
     <string name="app_submit_email">Email</string>
     <string name="app_submit_submit_title">Отправить</string>
     <string name="app_detail_tab_one">Детали</string>
@@ -356,7 +356,7 @@
     <string name="update_pwd_new_pwd_null_tv">Поле \"Новый пароль\" не может быть пустым</string>
     <string name="update_pwd_new_confrim_tv">Поля \"Новый пароль\" и \"Подтверждение пароля\" не совпадают</string>
     <string name="update_pwd_save_bt">Сохранить</string>
-    <string name="update_save_success">Успешно сохранено</string>
+    <string name="update_save_success">Успешно сохранено!</string>
     <string name="crop__cancel" ignore="ButtonCase">Отменить</string>
     <string name="crop__done">Выполнено</string>
     <string name="crop__pick_error">Некорректной тип файла изображения</string>
@@ -390,7 +390,7 @@
     <string name="login_user_sign_in">Войти</string>
     <string name="login_choose">Или ввойдите в свой аккаунт</string>
     <string name="login_new_user">Регистрация нового пользователя</string>
-    <string name="app_submit_submit">Отправить...</string>
+    <string name="app_submit_submit">Отправить…</string>
     <string name="app_submit_title_toast">Вы должны дать название!</string>
     <string name="app_submit_star_toast">Дайте оценку!</string>
     <string name="app_submit_nickname">Псевдоним</string>
@@ -402,5 +402,5 @@
     <string name="publish">Публичный</string>
     <string name="load_end">Загрузка окончена</string>
     <string name="user_info_edit_portrait_tv">Аватар</string>
-    <string name="user_info_edit_not_choose">Unknown</string>
+    <string name="user_info_edit_not_choose">Неизвестный</string>
     </resources>
