@@ -1,26 +1,25 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
     <string name="facebook_app_id" translatable="false">596489647167672</string>
     <string name="fb_login_protocol_scheme" translatable="false">fb596489647167672</string>
 
-    <string name="app_name" translatable="false">APKPure</string>
+    <string name="aegon_app_name" translatable="false">APKPure</string>
 
     <string name="action_settings">Settings</string>
     <string name="action_search">Search</string>
-    <string name="action_management">management</string>
+    <string name="action_management">Management</string>
 
     <string name="press_back_key_quit">Press back key once again and quit.</string>
 
-    <string name="featured">Opisany</string>
-    <string name="recommend">Polecam</string>
+    <string name="featured">Featured</string>
+    <string name="recommend">Discover</string>
     <string name="games">Games</string>
     <string name="apps">Apps</string>
     <string name="categories">Categories</string>
     <string name="updates">Updates</string>
 
-    <string name="something_happened">&gt;_&lt;
-Something happened.</string>
+    <string name="something_happened">&gt;_&lt;\nSomething happened.</string>
 
     <string name="load_failed_error">Oops! An error occurred.</string>
     <string name="load_failed_empty">These is nothing in here.</string>
@@ -292,23 +291,25 @@ Something happened.</string>
     <string name="app_submit_submit_title">submit</string>
     <string name="app_submit_reply_to">reply to</string>
     <string name="app_detail_reply_comment">Comment(%d)</string>
-    <string name="app_detail_reply_esc">正序</string>
-    <string name="app_detail_reply_desc">倒序</string>
-    <string name="app_detail_reply_floor">%d楼</string>
+    <string name="app_detail_reply_esc">Positive order</string>
+    <string name="app_detail_reply_desc">Reverse order</string>
+    <string name="app_detail_reply_floor">%d floor</string>
 
     <string name="app_detail_tab_one">Details</string>
     <string name="app_detail_tab_two">Comments</string>
     <string name="app_detail_tab_three">Related</string>
 
-    <array name="app_detail_comment_order_array">
-        <item>@string/app_detail_comment_order_array_recent</item>
-        <item>@string/app_detail_comment_order_array_newest</item>
+    <array name="app_detail_comment_order_array" translatable="false">
+        <item>@string/app_detail_comment_order_array_default</item>
+        <item>@string/app_detail_comment_order_array_most_recent</item>
+        <item>@string/app_detail_comment_order_array_new</item>
         <item>@string/app_detail_comment_order_array_best</item>
     </array>
 
-    <string name="app_detail_comment_order_array_recent">Recent</string>
-    <string name="app_detail_comment_order_array_newest">Newest</string>
-    <string name="app_detail_comment_order_array_best">Best</string>
+    <string name="app_detail_comment_order_array_default">Sort by default</string>
+    <string name="app_detail_comment_order_array_most_recent">Most Recent</string>
+    <string name="app_detail_comment_order_array_new">Newest</string>
+    <string name="app_detail_comment_order_array_best">Hot</string>
 
     <string-array name="language_entries" translatable="false">
         <item>@string/auto</item>
@@ -367,7 +368,7 @@ Something happened.</string>
 
     <string name="download_complete_installation_setting">Installation option after downloading</string>
 
-    <string-array name="download_complete_installation_setting_entries">
+    <string-array name="download_complete_installation_setting_entries" translatable="false">
         <item>@string/download_complete_installation_setting_entries_always</item>
         <item>@string/download_complete_installation_setting_entries_only</item>
         <item>@string/download_complete_installation_setting_entries_never</item>
@@ -389,15 +390,15 @@ Something happened.</string>
 
     <string name="reply">Reply</string>
     <string name="input_reply_content">The input content of the reply:</string>
-    <string name="publish">Publish</string>
-    <string name="reply_dialog_marked_words">According to the image can be deleted</string>
+    <string name="publish">Post</string>
+    <string name="reply_dialog_marked_words">Long pressing the selected picture to delete it.</string>
     <string name="reply_comment">Reply to comment</string>
     <string name="save_original_image">Preserve the original image</string>
     <string name="already_save">Saved<xliff:g id="path" example="ApKPure/photo">%1$s</xliff:g></string>
 
     <string name="load_end">No more data</string>
     <string name="load_failed_click_retry">Failure load, click retry</string>
-    <string name="loading">Loading…</string>
+    <string name="loading">Loading&#8230;</string>
 
     <string name="scan_qr_code_hint">Before using "Scan QR Code" you need to grant camera permission
         which is required for scanning QR code.</string>
@@ -442,13 +443,20 @@ Something happened.</string>
     <string name="update_email_name_et">Enter your email</string>
     <string name="update_eamil_name_tv">Email can\'t be blank</string>
     <string name="update_nickname_error">Nickname already taken, please choose another one!</string>
+    <!--messageFragment-->
+    <string name="message_all">ALL</string>
+    <string name="message_reply">REPLIES</string>
+    <string name="message_praise">UPVOTES</string>
+    <string name="message_notifications_praise">Upvoted your comment</string>
+    <string name="message_notifications_reply">Replied your comment</string>
+    <string name="message_notifications_login">Please login to see this page.</string>
 
     <!--update password-->
     <string name="update_pwd_title">Reset my password</string>
     <string name="update_pwd_current_pwd_et">Old password</string>
     <string name="update_pwd_new_pwd_et">New password</string>
     <string name="update_pwd_Confirm_pwd_et">Confirm new password</string>
-    <string name="upload_avatar">Uploading…</string>
+    <string name="upload_avatar">Uploading&#8230;</string>
     <string name="update_pwd_current_null_tv">Old password can\'t be blank</string>
     <string name="update_pwd_Confirm_null_tv">Confirm password can\'t be blank</string>
     <string name="update_pwd_new_pwd_null_tv">New password can\'t be blank</string>
@@ -460,12 +468,13 @@ Something happened.</string>
     <string name="crop__done">Done</string>
     <string name="crop__pick_error">Invalid image file type</string>
     <string name="crop__saving">Saving photo…</string>
-    <!--<string name="crop__saving">Saved</string>  新加-->
+    <!--<string name="crop__saving">Saved</string>  new add-->
     <string name="crop__wait">Please wait…</string>
 
-    <string name="is_comment">Comment is…</string>
+    <string name="is_comment">Comment is&#8230;</string>
     <string name="comment_cancel">Comment has been cancelled</string>
-    <string name="comment_replying">Submitting Replying…</string>
+    <string name="comment_submitting">Submitting&#8230;</string>
+    <string name="comment_replying">Replying&#8230;</string>
     <string name="register_term_of_service">APKPure Term of Service</string>
 
     <string name="set_contributor">Contributor</string>
@@ -494,5 +503,59 @@ Something happened.</string>
     <string name="login_choose">Or sign in with your account</string>
     <string name="login_new_user">New User Registration</string>
     <string name="login_post_as_a_guest">Post As a Guest</string>
+
+    <string name="message">Message</string>
+
+    <!--push-->
+    <string name="push_title_info_reply">%s replied your comment!</string>
+    <string name="push_title_info_upvoted">%s upvoted your comment!</string>
+    <string name="download_list">Download list</string>
+    <string name="can_be_update">Can be updated</string>
+    <string name="install_list">Installed</string>
+    <string name="no_download">No download</string>
+    <string name="downloads">Downloads</string>
+
+    <string name="change_language_failed">Language switch fails!</string>
+    <string name="comment_reply_tell_msg">This comment has been removed!</string>
+
+    <string name="notification_setting">Notifications</string>
+    <string name="reply_notification">Reply notifications</string>
+    <string name="reply_notification_msg">Receive notifications for new reply messages</string>
+    <string name="like_notification">Upvote notifications</string>
+    <string name="like_notification_msg">Receive notifications for new upvote messages</string>
+    <string name="gif_tip">gif</string>
+    <string name="submit_comment_title_hint">Subject (Optional)</string>
+
+    <string name="comment_vote_string">Vote</string>
+    <string name="comment_reply_three">Reply</string>
+    <string name="comment_item_fold">1 comment has been collapsed</string>
+
+    <plurals name="comment_reply_item_fold">
+        <item quantity="one"><xliff:g example="1" id="count">%1$d</xliff:g> Reply collapsed</item>
+        <item quantity="other"><xliff:g example="2" id="count">%1$d</xliff:g> Replies collapsed</item>
+    </plurals>
+
+    <string name="comment_no_reply">Wow, there is nothing here.</string>
+    <string name="comment_reply_info_name">Detail</string>
+    <string name="set_updates_notification">App Updates Available</string>
+    <string name="set_updates_notification_msg">Notify when app updates are available. Recommended Setting: On</string>
+    <string name="app_detail_unknow_text">Old version APKPure does n\'t support new features, please update to the latest.</string>
+    <string name="comment_detail_original">View Original Comment</string>
+    <string name="comment_comment_newest">Newest</string>
+    <string name="comment_comment_oldest">Newest</string>
+
+    <string name="edit">Edit</string>
+    <string name="menu_copy">Copy</string>
+    <string name="menu_cancel">Cancel</string>
+    <string name="delete_all_download_history">Delete all download history?</string>
+    <string name="delete_the_historical_record">Delete the historical record?</string>
+    <string name="download_history">Download history</string>
+
+    <!--sub_comment-->
+    <string name="sub_comment_dialog_title">Add a video</string>
+    <string name="sub_comment_dialog_des_tv">Support for parsing YouTube URLs only</string>
+    <string name="sub_comment_dialog_link_et">Enter Video URL address here</string>
+    <string name="sub_comment_dialog_link_null">Video URL address can\'t be blank</string>
+    <string name="sub_comment_progress_msg">Adding video…</string>
 
 </resources>
