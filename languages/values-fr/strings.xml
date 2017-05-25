@@ -7,7 +7,7 @@
 
     <string name="press_back_key_quit">Pressez encore une fois retour pour quitter.</string>
 
-    <string name="featured">Mis en avant</string>
+    <string name="featured">Sous les projecteurs</string>
     <string name="games">Jeux</string>
     <string name="apps">Applications</string>
     <string name="categories">Catégories</string>
@@ -301,7 +301,8 @@ Les fonctions mentionnées ci-dessus supportent Android 4.1 et +, sans besoin de
     <string name="load_failed_click_retry">Échec du chargement, clickez sur rééssayer</string>
     <string name="loading">Chargement…</string>
 
-    <string name="scan_qr_code_hint">Avant d\'utiliser le scan pour le QR Code, vous devez autoriser la permission de la caméra si elle est requise pour scanner un QR Code.</string>
+    <string name="scan_qr_code_hint">Avant d\'utiliser le scanner de QR Code vous devez donner la permission d\'utiliser la caméra
+qui est requise pour scanner un QR Code.</string>
     <string name="zxing_msg_default_status">S\'il vous plait placez le QR Code dans le cadre pour le scanner.</string>
     <string name="zxing_msg_parser_status">Échec du scan, s\'il vous plait essayez de rescanner le QR Code.</string>
 <plurals name="app_detail_see_all_replies">
@@ -326,7 +327,7 @@ Les fonctions mentionnées ci-dessus supportent Android 4.1 et +, sans besoin de
     <string name="download_complete_installation_setting_entries_only">Installer seulement lorsque l\'application est active</string>
     <string name="download_complete_installation_setting_entries_never">Ne jamais installer</string>
 
-    <string name="reply_dialog_marked_words">En accord avec la suppression de l\'image</string>
+    <string name="reply_dialog_marked_words">Appui long pour supprimer l\'image sélectionnée.</string>
     <string name="reply_comment">Répondre au commentaire</string>
     <string name="save_original_image">Garder l\'image originale</string>
     <string name="already_save">Sauvegardé <xliff:g id="path" example="ApKPure/photo">%1$s</xliff:g></string>
@@ -417,4 +418,7 @@ Les fonctions mentionnées ci-dessus supportent Android 4.1 et +, sans besoin de
     <string name="login_new_user">Inscription</string>
     <string name="login_post_as_a_guest">Poster comme invité</string>
 
-</resources>
+<string name="app_detail_comment_order_array_default">Trier par défaut</string>
+    <string name="app_detail_comment_order_array_most_recent">Plus récent</string>
+    <string name="app_detail_comment_order_array_new">Nouveautés</string>
+    </resources>
