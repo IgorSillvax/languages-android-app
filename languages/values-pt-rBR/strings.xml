@@ -297,7 +297,7 @@ Detalhe do problema:
 
     <string name="reply">Resposta</string>
     <string name="input_reply_content">O conteúdo de entrada da resposta:</string>
-    <string name="publish">Publicar</string>
+    <string name="publish">Postar</string>
 
     <string name="load_end">Sem mais dados</string>
     <string name="load_failed_click_retry">Falha ao carregar, clique em nova tentativa</string>
@@ -318,13 +318,13 @@ Que é necessário para escanear o código QR.</string>
 
     <string name="app_detail_comment_order_array_recent">Recente</string>
     <string name="app_detail_comment_order_array_newest">O mais novo</string>
-    <string name="app_detail_comment_order_array_best">O melhor</string>
+    <string name="app_detail_comment_order_array_best">Quente</string>
 
     <string name="download_complete_installation_setting_entries_always">Sempre instalar</string>
     <string name="download_complete_installation_setting_entries_only">Instalar apenas quando o aplicativo estiver na frente</string>
     <string name="download_complete_installation_setting_entries_never">Nunca instalar</string>
 
-    <string name="reply_dialog_marked_words">De acordo com a imagem pode ser excluído</string>
+    <string name="reply_dialog_marked_words">Pressionando a imagem selecionada para excluí-la.</string>
     <string name="reply_comment">Responder ao comentário</string>
     <string name="save_original_image">Preserve a imagem original</string>
     <string name="already_save">Salvado<xliff:g id="path" example="ApKPure/photo">
@@ -386,7 +386,7 @@ Que é necessário para escanear o código QR.</string>
 
     <string name="is_comment">O comentário é…</string>
     <string name="comment_cancel">O comentário foi cancelado</string>
-    <string name="comment_replying">Enviando resposta…</string>
+    <string name="comment_replying">Respondendo…</string>
     <string name="register_term_of_service">APKPure Termo de Serviço</string>
 
     <string name="set_contributor">Contribuintes</string>
@@ -415,5 +415,70 @@ Que é necessário para escanear o código QR.</string>
     <string name="login_choose">Ou faça login com sua conta</string>
     <string name="login_new_user">Registrar Novo Usuário</string>
     <string name="login_post_as_a_guest">Postar como convidado</string>
+
+<string name="app_detail_comment_order_array_default">Ordenar por padrão</string>
+    <string name="app_detail_comment_order_array_most_recent">Mais recente</string>
+    <string name="app_detail_comment_order_array_new">O mais novo</string>
+    <string name="message_all">TODOS</string>
+    <string name="message_reply">RESPOSTAS</string>
+    <string name="message_praise">UPVOTES</string>
+    <string name="message_notifications_praise">Upvoted ao seu comentário</string>
+    <string name="message_notifications_reply">Respondeu o seu comentário</string>
+    <string name="message_notifications_login">Faça o login para ver esta página.</string>
+
+    <string name="comment_submitting">Enviando…</string>
+    <string name="message">Mensagem</string>
+
+    <string name="push_title_info_reply">Respondeu o seu comentário!</string>
+    <string name="push_title_info_upvoted">Upvoted ao seu comentário!</string>
+    <string name="download_list">Lista de Download</string>
+    <string name="can_be_update">Pode ser atualizado</string>
+    <string name="install_list">Instalado</string>
+    <string name="no_download">Sem download</string>
+    <string name="downloads">Downloads</string>
+
+    <string name="change_language_failed">Falha na Interrupção do idioma!</string>
+    <string name="comment_reply_tell_msg">Este comentário foi removido!</string>
+
+    <string name="notification_setting">Notificações</string>
+    <string name="reply_notification">Notificações de resposta</string>
+    <string name="reply_notification_msg">Receber notificações para novas mensagens de resposta</string>
+    <string name="like_notification">Notificações de Upvote</string>
+    <string name="like_notification_msg">Receber notificações para novas mensagens de upvote</string>
+    <string name="gif_tip">Gif</string>
+    <string name="submit_comment_title_hint">Assunto (Opcional)</string>
+
+    <string name="comment_vote_string">Voto</string>
+    <string name="comment_reply_three">Resposta</string>
+    <string name="comment_item_fold">1 comentário foi interrompido</string>
+
+    <plurals name="comment_reply_item_fold">
+	<item quantity="one"><xliff:g example="1" id="count">"  %1$d
+"</xliff:g>"  Resposta interrompida"</item>
+	<item quantity="other"><xliff:g example="2" id="count">"  %1$d
+"</xliff:g>"  Respostas interrompidas"</item>
+</plurals>
+
+    <string name="comment_no_reply">Uau, não há nada aqui.</string>
+    <string name="comment_reply_info_name">Detalhe</string>
+    <string name="set_updates_notification">Atualizações de aplicativos estão disponíveis</string>
+    <string name="set_updates_notification_msg">Notificar quando as atualizações de aplicativo estiverem disponíveis. Definição recomendada: Ligado</string>
+    <string name="app_detail_unknow_text">Versão antiga fo APKPure não suporta novos recursos, atualize para a versão mais recente.</string>
+    <string name="comment_detail_original">Ver comentário original</string>
+    <string name="comment_comment_newest">O mais novo</string>
+    <string name="comment_comment_oldest">Mais antigo</string>
+
+    <string name="edit">Editar</string>
+    <string name="menu_copy">Copiar</string>
+    <string name="menu_cancel">Cancelar</string>
+    <string name="delete_all_download_history">Excluir todo o histórico de download?</string>
+    <string name="delete_the_historical_record">Excluir o registro histórico?</string>
+    <string name="download_history">Histórico de downloads</string>
+
+    <string name="sub_comment_dialog_title">Adicionar um vídeo</string>
+    <string name="sub_comment_dialog_des_tv">Suporte para análise de URLs do YouTube apenas</string>
+    <string name="sub_comment_dialog_link_et">Introduza o endereço URL do vídeo aqui</string>
+    <string name="sub_comment_dialog_link_null">O endereço URL do vídeo não pode ficar em branco</string>
+    <string name="sub_comment_progress_msg">Adicionando vídeo…</string>
 
 </resources>
