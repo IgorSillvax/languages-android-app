@@ -94,16 +94,16 @@
     <string name="update">Updaten</string>
     <string name="version__version___size_">Versie: <xliff:g example="1.0.0" id="version">%1$s</xliff:g>, <xliff:g example="1024 kB" id="size">%2$s</xliff:g></string>
     <plurals name="_count__new_update_is_available">
-	<item quantity="one"><xliff:g example="1" id="count">%1$d</xliff:g> nieuwe update is beschikbaar</item>
-	<item quantity="other"><xliff:g example="2" id="count">%1$d</xliff:g> nieuwe updates zijn beschikbaar</item>
-</plurals>
+        <item quantity="one"><xliff:g example="1" id="count">%1$d</xliff:g> nieuwe update is beschikbaar</item>
+        <item quantity="other"><xliff:g example="2" id="count">%1$d</xliff:g> nieuwe updates zijn beschikbaar</item>
+    </plurals>
 
     <string name="launching_please_wait">Aan het starten, een moment geduld…</string>
 
     <plurals name="_count__item_is_downloading">
-	<item quantity="one"><xliff:g example="1" id="count">%1$d</xliff:g> item wordt gedownload</item>
-	<item quantity="other"><xliff:g example="2" id="count">%1$d</xliff:g> items worden gedownload</item>
-</plurals>
+        <item quantity="one"><xliff:g example="1" id="count">%1$d</xliff:g> item wordt gedownload</item>
+        <item quantity="other"><xliff:g example="2" id="count">%1$d</xliff:g> items worden gedownload</item>
+    </plurals>
     <string name="downloads_complete">Downloads voltooid</string>
     <string name="touch_for_view_all_downloads">Raak aan om alle downloads te zien</string>
     <string name="_name__download_failed"><xliff:g example="APKPure" id="name">%1$s</xliff:g> download mislukt</string>
@@ -171,7 +171,7 @@
  </string>
 
     <string name="share">Delen</string>
-    <string name="share_app_url">Download <xliff:g example="APKPure" id="app_name">%1$s</xliff:g> APK (from @<xliff:g example="APKPure" id="social_network_name">%2$s</xliff:g>), <xliff:g example="https://apkpure.com/p/com.apkpure.aegon" id="app_url">%3$s</xliff:g></string>
+    <string name="share_app_url">Download <xliff:g example="APKPure" id="app_name">%1$s</xliff:g> APK (van @<xliff:g example="APKPure" id="social_network_name">%2$s</xliff:g>), <xliff:g example="https://apkpure.com/p/com.apkpure.aegon" id="app_url">%3$s</xliff:g></string>
 
     <string name="_name__version_history"><xliff:g example="APKPure" id="name">%1$s</xliff:g> Versiegeschiedenis</string>
     <string name="update__date___size_">Update: <xliff:g example="Mar 3, 2016" id="date">%1$s</xliff:g>, <xliff:g example="1024 kB" id="size">%2$s</xliff:g></string>
@@ -221,7 +221,7 @@
     <string name="contact_us__">Neem Contact Op…</string>
     <string name="select_all">Selecteer Alles</string>
     <string name="deselect_all">Deselecteer Alles</string>
-<string name="similar_or_related">soortgelijke of verwante</string>
+    <string name="similar_or_related">soortgelijke of verwante</string>
     <string name="more_from_developer">Meer van Ontwikkelaar</string>
     <string name="more_large">Meer</string>
     <string name="installed">Geïnstalleerd</string>
@@ -276,9 +276,9 @@ De bovengenoemde functies ondersteunen Android 4.1+, The above mentioned functio
     <string name="share_app_url_comment"> Opmerking van <xliff:g example="APKPure" id="user_name">%1$s</xliff:g> op <xliff:g example="APKPure" id="app_name">%2$s</xliff:g> (via @<xliff:g example="APKPure" id="social_network_name">%3$s</xliff:g>, <xliff:g example="https://apkpure.com/p/com.apkpure.aegon" id="app_url">%4$s</xliff:g></string>
 
     <plurals name="app_detail_see_all_replies">
-	<item quantity="one">Bekijk <xliff:g example="1" id="count">%1$d</xliff:g> opmerking</item>
-	<item quantity="other">Bekijk de <xliff:g example="2" id="count">%1$d</xliff:g> opmerkingen</item>
-</plurals>
+        <item quantity="one">Bekijk <xliff:g example="1" id="count">%1$d</xliff:g> opmerking</item>
+        <item quantity="other">Bekijk de <xliff:g example="2" id="count">%1$d</xliff:g> opmerkingen</item>
+    </plurals>
 
     <string name="app_detail_customer_reviews">Gebruikersopmerkingen</string>
     <string name="app_detail_comment_type_web">Internet</string>
@@ -390,7 +390,7 @@ hetgeen nodig is om de QR-code te scannen.</string>
 
     <string name="set_contributor">Bijdrager</string>
     <string name="set_permissions">Permissies</string>
-    
+
     <string name="sign_in_services">Door je in te schrijven ga je akkoord met onze gebruiksvoorwaarden en ons privacybeleid.</string>
 
     <string name="sign_in_services_key">Gebruiksvoorwaarden</string>
