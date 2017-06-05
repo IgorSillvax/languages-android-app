@@ -18,7 +18,7 @@
     <string name="load_failed_error">エラーがありました。</string>
     <string name="load_failed_empty">これらはここにありません。</string>
     <string name="load_failed_all_up_to_date">全てのアプリをアップデートします。</string>
-    <string name="load_failed_no_results">大変すみませんが結果が見つかりません。</string>
+    <string name="load_failed_no_results">申し訳ございません、結果が見つかりません。</string>
     <string name="refresh">最新の情報に更新</string>
 
     <string name="management">管理</string>
@@ -31,9 +31,9 @@
     <string name="settings">設定</string>
     <string name="about">について</string>
     <string name="about_title">について <xliff:g id="app_name" example="APKPure">%1$s</xliff:g></string>
-    <string name="about_message">
-        <![CDATA[<b>バージョン:</b> %1$s<br><br><b>ウェブサイト:</b> <a href="%2$s">%2$s</a><br><b>Email:</b> <a href="mailto:%3$s">%3$s</a>]]>
-    </string>
+    <string name="about_message">"
+ &lt;b&gt;バージョン:&lt;/b&gt; %1$s&lt;br&gt;&lt;br&gt;&lt;b&gt;公式サイト:&lt;/b&gt; &lt;a href=%2$s&gt;%2$s&lt;/a&gt;&lt;br&gt;&lt;b&gt;Email:&lt;/b&gt; &lt;a href=mailto:%3$s&gt;%3$s&lt;/a&gt;
+ "</string>
     <string name="check_update">アップデートチェック</string>
     <string name="quit">退出</string>
     <string name="want_to_quit">本当に退出しますか？</string>
@@ -46,7 +46,7 @@
     <string name="failed_to_delete_file">このファイルを削除失敗しました。</string>
     <string name="install__label_">インストール - <xliff:g id="app_label" example="APKPure">%1$s</xliff:g></string>
     <string name="user_canceled">ユーザはキャンセルしました。</string>
-    <string name="io_error">エラーが発生されました。多分インストールの空き領域がありませんかもしれません。</string>
+    <string name="io_error">エラーが発生されました。多分十分な空き領域がない可能性があります。</string>
     <string name="file_format_error">ファイルフォーマットはエラーがあります。</string>
     <string name="parsing_xapk">XAPKを解析します…</string>
     <string name="installing_obb">OBBファイルをインストールします…</string>
@@ -78,7 +78,7 @@
     <string name="_ellipsis_"> … </string>
 
     <string name="market_response_error_success">成功しました。</string>
-    <string name="market_response_error_invalid_result">無効結果。</string>
+    <string name="market_response_error_invalid_result">無効な結果です。</string>
     <string name="market_response_error_network_connect_error">ネットワークの繋がりはエラーがあります。</string>
     <string name="market_response_error_network_read_error">ネットワークはエラーを読み込んでいます。</string>
     <string name="market_response_error_invalid_response_code">応答コードを無効にします。</string>
@@ -128,17 +128,17 @@
     <string name="trending_searches">検索をトレンドする</string>
 
     <string name="improvement_plan_title">Performance Improvement Planパフォーマンス改善プラン</string>
-    <string name="improvement_plan_message">
-        <![CDATA[Help us with submit Android Device Info, We do <b>収集しません</b>個人身分インフォメーション（名前、 住所、メールアドレス、ソーシャルセキュリティ番号、またはほかのユニーク身分情報）.]]>
-    </string>
+    <string name="improvement_plan_message">"
+ Androidデバイス情報のご提出にご協力ください,  個人身分インフォメーション（名前、 住所、メールアドレス、ソーシャルセキュリティ番号、またはほかのユニーク身分情報）を"<b>収集しません</b>
+ </string>
     <string name="join_us">参加する</string>
     <string name="skip">スキップ</string>
 
     <string name="_name__is_up_to_date"><xliff:g id="name" example="APKPure">%1$s</xliff:g>は更新されます。</string>
-    <string name="new_version_available_title">アップデートがあります</string>
-    <string name="new_version_available_message">
-        <![CDATA[<b>Latest Version:</b> %1$s<br><br><b>最新情報:</b><br>%2$s]]>
-    </string>
+    <string name="new_version_available_title">最新版があります</string>
+    <string name="new_version_available_message">"
+ &lt;b&gt;最新版:&lt;/b&gt; %1$s&lt;br&gt;&lt;br&gt;&lt;b&gt;最新情報:&lt;/b&gt;&lt;br&gt;%2$s
+ "</string>
 
     <string name="report__">報告…</string>
     <string name="report_problem__">問題を報告…</string>
@@ -218,7 +218,56 @@
     <string name="properties_message">
         <![CDATA[<b>パッチ:</b> %1$s<br><b>サイズ:</b> %2$s<br><b>最終更新日:</b> %3$s]]>
     </string>
-    <string name="flag_as_inappropriate">不適切なフラグ</string>
+    <string name="flag_as_inappropriate">不適切としてフラグをたてます</string>
     <string name="update___count__">アップデート (<xliff:g id="カウント" 例="3">%1$d</xliff:g>)</string>
     <string name="installed">インストール済み</string>
-</resources>
+<string name="similar_or_related">類似コンテンツ</string>
+    <string name="more_large">もっと</string>
+    <string name="more_from_developer">開発者から他のゲーム</string>
+    <string name="download_complete_installation_setting">ダウンロードしたあと実行する操作を選ぶ</string>
+    <string name="download_over_cellular">モバイルデータ通信経由でダウンロード</string>
+    <string name="download_over_cellular_content">モバイルデータ通信経由でダウンロード中で、続けていますか？</string>
+
+    <string name="enable">有効</string>
+
+    <string name="auto_service_ensure">OK</string>
+    <string name="auto_service_next">次へ</string>
+    <string name="auto_service_install">インストール</string>
+    <string name="auto_service_title">APKPure自動的に インストール</string>
+    <string name="auto_service_dialog_title">自動的にインストールできます</string>
+    <string name="auto_service_install_accessibility_title">自動的にインストール</string>
+    <string name="auto_service_next__material_">次へ</string>
+    <string name="auto_service_ensure__material_">確認</string>
+    <string name="auto_service_exchange__material_">置換</string>
+    <string name="auto_service_install__material_">インストール</string>
+    <string name="auto_service_exchange">置換</string>
+    <string name="participate_ultra_download_beta_test_title">高速ダウンロードを有効にして、最も速くピードでダウンロードする</string>
+    <string name="participate_ultra_download_beta_test_content">高速ダウンロードは現在ではテスト中です。使用しているとき何か問題があれば、ご連絡いただきますようお願いします。また、設定を使用して高速ダウンロード機能を閉じていいです。</string>
+    <string name="feedback">フィードバック</string>
+
+    <string name="changing_language">言語が変更中、少々お待ちください…</string>
+    <string name="download_via_wifi_only">Wi-Fi 接続時のみアプリをダウンロードする</string>
+    <string name="enable_ultra_download">高速ダウンロードを有効にする</string>
+    <string name="enable_ultra_download_summary">高速ダウンロードは現在では体験版です。使用する時、何があれば、ご遠慮なくご連絡いただきますようお願いします。</string>
+    <string name="auto_service_install_accessibility_summary">Android 4.1+に対応できる。root 権限は必要ありません。</string>
+
+    <string name="auto_service_dialog_message">自動インストール起動を承認する必要があります。安全なソフトなのでご安心してください。</string>
+
+    <string name="auto_service_description">「APKPure 自動インストール」を開いて， APKPure 「自動インストール」という機能がスムーズに実行するのを確保する。
+
+「自動インストール」は一括インストールあるいは更新するとき、インストールボタンを自動的にクリックして、ずっと携帯電話をみてインストール情報をチェックする必要がありません。
+
+この機能を開くと，通知がポップアップされまして、「確認」をクリックしてください。
+
+APKPureが正常に運行するために、APKPureをクリーニングアプリケーションの「ホワイトリスト」に追加してください。
+
+上記の機能はAndroid 4.1以降をサポートして、root権限は必要ありません。APKPureはお客様から個人情報を収集することは決してありません。何があればご遠慮なくご連絡いただきますようお願いします。</string>
+
+    <string name="auto_service_complete">完了</string>
+
+    <string name="auto_service_complete__material_">完了</string>
+
+    <string name="auto_install_via_root_title">自動インストール( Root モード)</string>
+    <string name="auto_install_via_root_summary">ルートデバイスのみ。</string>
+
+    </resources>

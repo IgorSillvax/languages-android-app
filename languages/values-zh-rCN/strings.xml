@@ -1,6 +1,7 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources
-    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<?xml version='1.0' encoding='UTF-8'?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <string name="app_name" translatable="false">APKPure</string>
 
     <string name="action_settings">设置</string>
     <string name="action_search">搜索</string>
@@ -15,12 +16,12 @@
     <string name="recommend">最新发现</string>
     <string name="updates">更新</string>
 
-    <string name="something_happened">&gt;_&lt;\n出错了</string>
+    <string name="something_happened">&gt;_&lt;\n出错了。</string>
 
-    <string name="load_failed_error">哎呀！发生错误了</string>
-    <string name="load_failed_empty">无内容</string>
-    <string name="load_failed_all_up_to_date">所有应用程序已是最新</string>
-    <string name="load_failed_no_results">抱歉！未找到结果</string>
+    <string name="load_failed_error">哎呀！发生错误了。</string>
+    <string name="load_failed_empty">无内容。</string>
+    <string name="load_failed_all_up_to_date">所有应用程序已是最新。</string>
+    <string name="load_failed_no_results">抱歉！未找到结果。</string>
     <string name="refresh">刷新</string>
 
     <string name="management">管理</string>
@@ -268,7 +269,7 @@
 
     <string name="app_detail_customer_reviews">用户评论</string>
     <string name="app_detail_comment_type_web">网站</string>
-    <string name="app_submit_submit">提交中。。。</string>
+    <string name="app_submit_submit">提交中…</string>
     <string name="app_submit_anonymous_comment">添加评论</string>
     <string name="app_submit_title_toast">请填写标题!</string>
     <string name="app_submit_msg_toast">请填写评论!</string>
@@ -290,12 +291,23 @@
     <string name="app_detail_tab_two">评论</string>
     <string name="app_detail_tab_three">相关</string>
 
-    <string name="app_detail_comment_order_array_default">默认排序</string>
-    <string name="app_detail_comment_order_array_most_recent">最近回复</string>
-    <string name="app_detail_comment_order_array_new">最新评论</string>
-    <string name="app_detail_comment_order_array_best">最热</string>
+    <array name="app_detail_comment_order_array">
+        <item>@string/app_detail_comment_order_array_recent</item>
+        <item>@string/app_detail_comment_order_array_newest</item>
+        <item>@string/app_detail_comment_order_array_best</item>
+    </array>
+
+    <string name="app_detail_comment_order_array_recent">最近回复</string>
+    <string name="app_detail_comment_order_array_newest">最新</string>
+    <string name="app_detail_comment_order_array_best">推荐</string>
 
     <string name="download_complete_installation_setting">下载后安装选项</string>
+
+    <string-array name="download_complete_installation_setting_entries">
+        <item>@string/download_complete_installation_setting_entries_always</item>
+        <item>@string/download_complete_installation_setting_entries_only</item>
+        <item>@string/download_complete_installation_setting_entries_never</item>
+    </string-array>
 
     <string name="download_complete_installation_setting_entries_always">总是安装</string>
     <string name="download_complete_installation_setting_entries_only">仅前台状态下安装</string>
@@ -311,7 +323,7 @@
 
     <string name="load_end">没有更多数据</string>
     <string name="load_failed_click_retry">加载失败，点击重试</string>
-    <string name="loading">正在加载&#8230;</string>
+    <string name="loading">正在加载…</string>
 
     <string name="scan_qr_code_hint">使用此功能前，您必须同意打开相机的权限</string>
     <string name="zxing_msg_default_status">请将二维码置于取景框内扫描</string>
@@ -327,10 +339,9 @@
     <string name="delete_comment_msg">你想要删除这条评论吗?</string>
     <string name="login_select_way_to_login">请选择登录方式</string>
     <string name="upload_cancel">上传已取消</string>
-    <string name="is_comment">正在发表评论&#8230;</string>
+    <string name="is_comment">正在发表评论…</string>
     <string name="comment_cancel">评论已取消</string>
-    <string name="comment_submitting">提交中&#8230;</string>
-    <string name="comment_replying">回复中&#8230;</string>
+    <string name="comment_replying">提交中…</string>
 
     <!--update password-->
     <string name="update_pwd_title">修改密码</string>
@@ -345,7 +356,7 @@
 
     <!-- UserInfoEdit -->
     <string name="user_info_edit_title">个人信息</string>
-    <string name="upload_avatar">正在上传&#8230;</string>
+    <string name="upload_avatar">正在上传…</string>
     <string name="user_info_edit_portrait_tv">头像</string>
     <string name="user_info_edit_username_tv">用户名</string>
     <string name="user_info_edit_nickname_tv">昵称</string>
@@ -377,13 +388,6 @@
     <string name="update_eamil_name_tv">邮箱不能为空</string>
     <string name="update_save_success">保存成功!</string>
     <string name="update_nickname_error">昵称已经在使用，请修改昵称。</string>
-    <!--messageFragment-->
-    <string name="message_all">全部</string>
-    <string name="message_reply">回复</string>
-    <string name="message_praise">赞</string>
-    <string name="message_notifications_praise">赞了你</string>
-    <string name="message_notifications_reply">回复了你</string>
-    <string name="message_notifications_login">请登录后查看</string>
 
     <string name="set_contributor">贡献者</string>
     <string name="set_permissions">权限说明</string>
@@ -411,56 +415,6 @@
     <string name="login_new_user">新用户注册</string>
     <string name="login_post_as_a_guest">以游客身份回复</string>
 
-    <string name="message">消息</string>
-    <!--push-->
-    <string name="push_title_info_reply">%s 回复了你的评论!</string>
-    <string name="push_title_info_upvoted">%s 赞了你的评论!</string>
-    <string name="download_list">下载列表</string>
-    <string name="can_be_update">可更新</string>
-    <string name="install_list">已安装</string>
-    <string name="no_download">暂无下载</string>
-    <string name="downloads">下载</string>
+<string name="register_term_of_service">APKPure服务条款</string>
 
-    <string name="change_language_failed">切换语言失败！</string>
-    <string name="comment_reply_tell_msg">该评论已删除！</string>
-
-    <string name="notification_setting">通知</string>
-    <string name="reply_notification">回复我的</string>
-    <string name="reply_notification_msg">接收新回复消息的通知</string>
-    <string name="like_notification">赞我的</string>
-    <string name="like_notification_msg">接收新点赞消息的通知</string>
-    <string name="gif_tip">动图</string>
-    <string name="submit_comment_title_hint">标题(可选)</string>
-
-    <string name="comment_vote_string">投票</string>
-    <string name="comment_reply_three">回复</string>
-    <string name="comment_item_fold">已折叠</string>
-
-    <plurals name="comment_reply_item_fold">
-        <item quantity="one">折叠回复(<xliff:g example="1" id="count">%1$d</xliff:g>)</item>
-        <item quantity="other">折叠回复(<xliff:g example="2" id="count">%1$d</xliff:g>)</item>
-    </plurals>
-
-    <string name="comment_no_reply">暂无回复</string>
-    <string name="comment_reply_info_name">详情</string>
-    <string name="set_updates_notification">应用有新版本</string>
-    <string name="set_updates_notification_msg">应用有新版本时通知我，建议开启。</string>
-    <string name="app_detail_unknow_text">版本过低，不支持该板块，请升级后查看。</string>
-    <string name="comment_detail_original">查看原评论 ></string>
-    <string name="comment_comment_newest">倒序</string>
-    <string name="comment_comment_oldest">正序</string>
-
-    <!--reply edit-->
-    <string name="edit">编辑</string>
-    <string name="delete_all_download_history">删除全部下载历史记录?</string>
-    <string name="delete_the_historical_record">删除本条历史记录?</string>
-    <string name="download_history">下载历史</string>
-    <string name="menu_copy">复制</string>
-    <string name="menu_cancel">取消</string>
-   <!--sub_comment-->
-    <string name="sub_comment_dialog_title">添加视频</string>
-    <string name="sub_comment_dialog_des_tv">仅支持解析YouTube视频</string>
-    <string name="sub_comment_dialog_link_et">在此输入链接</string>
-    <string name="sub_comment_dialog_link_null">视频地址不能为空</string>
-    <string name="sub_comment_progress_msg">正在添加视频…</string>
-</resources>
+    </resources>

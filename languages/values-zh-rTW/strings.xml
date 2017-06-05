@@ -1,11 +1,13 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <string name="app_name" translatable="false">APKPure</string>
 
     <string name="action_settings">設定</string>
     <string name="action_search">搜尋</string>
     <string name="action_management">管理</string>
 
-    <string name="press_back_key_quit">再壹次返回鍵退出。</string>
+    <string name="press_back_key_quit">再壹次返回鍵退出。english</string>
 
     <string name="featured">精選</string>
     <string name="games">遊戲</string>
@@ -31,7 +33,7 @@
     <string name="download_management">下載管理</string>
     <string name="settings">設定</string>
     <string name="about">關於</string>
-    <string name="about_title">關於 <xliff:g example="APKPure" id="app_name">%1$s</xliff:g></string>
+    <string name="about_title">關於 <xliff:g id="app_name" example="APKPure">%1$s</xliff:g></string>
     <string name="about_message">
         <![CDATA[<b>版本：</b> %1$s<br><br><b>官方網站：</b> <a href="%2$s">%2$s</a><br><b>電子郵箱：</b> <a href="mailto:%3$s">%3$s</a>]]>
     </string>
@@ -51,7 +53,7 @@
     <string name="want_to_delete_all_files">您確定要刪除全部檔案嗎？</string>
     <string name="file_has_been_deleted">檔案已被刪除。</string>
     <string name="failed_to_delete_file">刪除檔案失敗。</string>
-    <string name="install__label_">安裝 - <xliff:g example="APKPure" id="app_label">%1$s</xliff:g></string>
+    <string name="install__label_">安裝 - <xliff:g id="app_label" example="APKPure">%1$s</xliff:g></string>
     <string name="user_canceled">用戶已取消。</string>
     <string name="io_error">IO 接口錯誤，可能是可用空間不足無法完成安裝。</string>
     <string name="file_format_error">檔案格式錯誤。</string>
@@ -94,29 +96,29 @@
     <string name="market_response_error_network_read_error">網路讀取錯誤。</string>
     <string name="market_response_error_invalid_response_code">無效的響應代碼。</string>
     <string name="market_response_error_invalid_response_body">無效的響應正文。</string>
-    <string name="market_response_error_unknown_error__error_">未知錯誤(<xliff:g example="SUCCESS" id="error">%1$s</xliff:g>)。</string>
+    <string name="market_response_error_unknown_error__error_">未知錯誤(<xliff:g id="error" example="SUCCESS">%1$s</xliff:g>)。</string>
 
     <string name="no_more">無更多內容。</string>
 
     <string name="update">更新</string>
-    <string name="version__version___size_">版本：<xliff:g example="1.0.0" id="version">%1$s</xliff:g>, <xliff:g example="1024 kB" id="size">%2$s</xliff:g></string>
+    <string name="version__version___size_">版本：<xliff:g id="version" example="1.0.0">%1$s</xliff:g>, <xliff:g id="size" example="1024 kB">%2$s</xliff:g></string>
     <plurals name="_count__new_update_is_available">
-        <item quantity="one"><xliff:g example="1" id="count">%1$d</xliff:g> 個應用可更新</item>
-        <item quantity="other"><xliff:g example="2" id="count">%1$d</xliff:g> 個應用可更新</item>
+        <item quantity="one"><xliff:g id="count" example="1">%1$d</xliff:g> 個應用可更新</item>
+        <item quantity="other"><xliff:g id="count" example="2">%1$d</xliff:g> 個應用可更新</item>
     </plurals>
 
     <string name="launching_please_wait">正在啟動，請稍候…</string>
 
     <plurals name="_count__item_is_downloading">
-        <item quantity="one"><xliff:g example="1" id="count">%1$d</xliff:g> 個應用正在下載</item>
-        <item quantity="other"><xliff:g example="2" id="count">%1$d</xliff:g> 個應用正在下載</item>
+        <item quantity="one"><xliff:g id="count" example="1">%1$d</xliff:g> 個應用正在下載</item>
+        <item quantity="other"><xliff:g id="count" example="2">%1$d</xliff:g> 個應用正在下載</item>
     </plurals>
     <string name="downloads_complete">下載完成</string>
     <string name="touch_for_view_all_downloads">點擊查看所有下載</string>
-    <string name="_name__download_failed"><xliff:g example="APKPure" id="name">%1$s</xliff:g> 下載失敗</string>
+    <string name="_name__download_failed"><xliff:g id="name" example="APKPure">%1$s</xliff:g> 下載失敗</string>
     <string name="touch_to_download_it_again">點擊重新下載</string>
 
-    <string name="download_percent"><xliff:g example="50" id="percent">%1$d</xliff:g> %%</string>
+    <string name="download_percent"><xliff:g id="percent" example="50">%1$d</xliff:g> %%</string>
     <string name="pause">暫停</string>
     <string name="pause_all">暫停全部</string>
     <string name="continue_">繼續</string>
@@ -161,7 +163,7 @@
     <string name="participate_ultra_download_beta_test_content">超級下載目前還是測試版本，如果在使用中發現問題請告訴我們。你可以在設定頁面很方便的關閉這個功能。</string>
     <string name="enable">啟用</string>
 
-    <string name="_name__is_up_to_date"><xliff:g example="APKPure" id="name">%1$s</xliff:g> 已是最新版本。</string>
+    <string name="_name__is_up_to_date"><xliff:g id="name" example="APKPure">%1$s</xliff:g> 已是最新版本。</string>
     <string name="new_version_available_title">發現新版本</string>
     <string name="new_version_available_message">
         <![CDATA[<b>最新版本：</b> %1$s<br><br><b>更新內容：</b><br>%2$s]]>
@@ -198,14 +200,14 @@
     </string>
 
     <string name="share">分享</string>
-    <string name="share_app_url">下載 <xliff:g example="APKPure" id="app_name">%1$s</xliff:g> APK (來自 @<xliff:g example="APKPure" id="social_network_name">%2$s</xliff:g>), <xliff:g example="https://apkpure.com/p/com.apkpure.aegon" id="app_url">%3$s</xliff:g></string>
-    <string name="share_app_url_comment"> <xliff:g example="APKPure" id="user_name">%1$s</xliff:g> 評論了 <xliff:g example="APKPure" id="app_name">%2$s</xliff:g> (來自 @<xliff:g example="APKPure" id="social_network_name">%3$s</xliff:g>), <xliff:g example="https://apkpure.com/p/com.apkpure.aegon" id="app_url">%4$s</xliff:g></string>
+    <string name="share_app_url">下載 <xliff:g id="app_name" example="APKPure">%1$s</xliff:g> APK (來自 @<xliff:g id="social_network_name" example="APKPure">%2$s</xliff:g>), <xliff:g id="app_url" example="https://apkpure.com/p/com.apkpure.aegon">%3$s</xliff:g></string>
+    <string name="share_app_url_comment"> <xliff:g id="user_name" example="APKPure">%1$s</xliff:g> 評論了 <xliff:g id="app_name" example="APKPure">%2$s</xliff:g> (來自 @<xliff:g id="social_network_name" example="APKPure">%3$s</xliff:g>), <xliff:g id="app_url" example="https://apkpure.com/p/com.apkpure.aegon">%4$s</xliff:g></string>
 
-    <string name="_name__version_history"><xliff:g example="APKPure" id="name">%1$s</xliff:g> 的版本歷史</string>
-    <string name="update__date___size_">更新：<xliff:g example="Mar 3, 2016" id="date">%1$s</xliff:g>, <xliff:g example="1024 kB" id="size">%2$s</xliff:g></string>
+    <string name="_name__version_history"><xliff:g id="name" example="APKPure">%1$s</xliff:g> 的版本歷史</string>
+    <string name="update__date___size_">更新：<xliff:g id="date" example="Mar 3, 2016">%1$s</xliff:g>, <xliff:g id="size" example="1024 kB">%2$s</xliff:g></string>
 
     <string name="update_all">全部更新</string>
-    <string name="update___count__">更新 (<xliff:g example="3" id="count">%1$d</xliff:g>)</string>
+    <string name="update___count__">更新 (<xliff:g id="count" example="3">%1$d</xliff:g>)</string>
     <string name="ignore">忽略</string>
     <string name="unignore">取消忽略</string>
     <string name="select">選擇</string>
@@ -233,7 +235,7 @@
     <string name="show_notification_after_installation">安裝完成後顯示通知</string>
     <string name="delete_packages_after_installation">安裝完成後刪除安裝包檔案</string>
 
-    <string name="_name__installation_completed"><xliff:g example="APKPure" id="name">%1$s</xliff:g> 安裝已完成</string>
+    <string name="_name__installation_completed"><xliff:g id="name" example="APKPure">%1$s</xliff:g> 安裝已完成</string>
     <string name="touch_to_open">點擊打開。</string>
 
     <string name="auto_service_install_accessibility_title">自動安裝</string>
@@ -261,8 +263,8 @@
     <string name="auto_install_via_root_summary">僅限 Root 設備。</string>
 
     <plurals name="app_detail_see_all_replies">
-        <item quantity="one">全部<xliff:g example="1" id="count">%1$d</xliff:g>條回復</item>
-        <item quantity="other">全部<xliff:g example="2" id="count">%1$d</xliff:g>條回復</item>
+        <item quantity="one">全部<xliff:g id="count" example="1">%1$d</xliff:g>條回復</item>
+        <item quantity="other">全部<xliff:g id="count" example="2">%1$d</xliff:g>條回復</item>
     </plurals>
     <string name="app_detail_customer_reviews">用戶評論</string>
     <string name="app_detail_comment_type_web">網站</string>
@@ -288,12 +290,23 @@
     <string name="app_detail_tab_two">評論</string>
     <string name="app_detail_tab_three">相關</string>
 
-    <string name="app_detail_comment_order_array_default">默認排序</string>
-    <string name="app_detail_comment_order_array_most_recent">最近回復</string>
-    <string name="app_detail_comment_order_array_new">最新評論</string>
-    <string name="app_detail_comment_order_array_best">最熱</string>
+    <array name="app_detail_comment_order_array">
+        <item>@string/app_detail_comment_order_array_recent</item>
+        <item>@string/app_detail_comment_order_array_newest</item>
+        <item>@string/app_detail_comment_order_array_best</item>
+    </array>
+
+    <string name="app_detail_comment_order_array_recent">最近回復</string>
+    <string name="app_detail_comment_order_array_newest">最新</string>
+    <string name="app_detail_comment_order_array_best">推薦</string>
 
     <string name="download_complete_installation_setting">下載後安裝選項</string>
+
+    <string-array name="download_complete_installation_setting_entries">
+        <item>@string/download_complete_installation_setting_entries_always</item>
+        <item>@string/download_complete_installation_setting_entries_only</item>
+        <item>@string/download_complete_installation_setting_entries_never</item>
+    </string-array>
 
     <string name="download_complete_installation_setting_entries_always">總是安裝</string>
     <string name="download_complete_installation_setting_entries_only">僅前台狀態下安裝</string>
@@ -305,11 +318,11 @@
     <string name="reply_dialog_marked_words">長按圖片可刪除圖片</string>
     <string name="reply_comment">回複評論</string>
     <string name="save_original_image">保存原圖</string>
-    <string name="already_save">已保存<xliff:g example="ApKPure/photo" id="path">%1$s</xliff:g></string>
+    <string name="already_save">已保存<xliff:g id="path" example="ApKPure/photo">%1$s</xliff:g></string>
 
     <string name="load_end">沒有更多數據</string>
     <string name="load_failed_click_retry">載入失敗，點擊重試</string>
-    <string name="loading">正在載入&#8230;</string>
+    <string name="loading">正在載入…</string>
 
     <string name="scan_qr_code_hint">使用此功能前，您必須同意打開相機的許可權</string>
     <string name="zxing_msg_default_status">請將二維碼置於取景框內掃描</string>
@@ -325,16 +338,15 @@
     <string name="delete_comment_msg">你想要刪除這條評論嗎?</string>
     <string name="login_select_way_to_login">請選擇登錄方式</string>
     <string name="upload_cancel">上傳已取消</string>
-    <string name="is_comment">正在發表評論&#8230;</string>
+    <string name="is_comment">正在發表評論…</string>
     <string name="comment_cancel">評論已取消</string>
-    <string name="comment_submitting">提交中&#8230;</string>
-    <string name="comment_replying">回复中&#8230;</string>
+    <string name="comment_replying">提交中…</string>
     <!--update password-->
     <string name="update_pwd_title">修改密碼</string>
     <string name="update_pwd_current_pwd_et">舊密碼</string>
     <string name="update_pwd_new_pwd_et">新密碼</string>
     <string name="update_pwd_Confirm_pwd_et">確認密碼</string>
-    <string name="upload_avatar">正在上傳&#8230;</string>
+    <string name="upload_avatar">正在上傳…</string>
     <string name="update_pwd_current_null_tv">舊密碼不能為空</string>
     <string name="update_pwd_Confirm_null_tv">確認密碼不能為空</string>
     <string name="update_pwd_new_pwd_null_tv">新密碼不能為空</string>
@@ -370,13 +382,7 @@
     <string name="update_eamil_name_tv">郵箱不能為空</string>
     <string name="update_save_success">保存成功!</string>
     <string name="update_nickname_error">昵稱已經在使用，請修改昵稱。</string>
-    <!--messageFragment-->
-    <string name="message_all">全部</string>
-    <string name="message_reply">回復</string>
-    <string name="message_praise">贊</string>
-    <string name="message_notifications_praise">贊了你</string>
-    <string name="message_notifications_reply">回復了你</string>
-    <string name="message_notifications_login">請登錄後查看</string>
+
     <!--crop image-->
     <string name="crop__cancel" ignore="ButtonCase">取消</string>
     <string name="crop__done">完成</string>
@@ -409,59 +415,4 @@
     <string name="login_choose">或使用您的賬戶登陸</string>
     <string name="login_new_user">新用戶註冊</string>
     <string name="login_post_as_a_guest">以遊客身份回復</string>
-
-    <string name="message">消息</string>
-
-    <!--push-->
-    <string name="push_title_info_reply">%s 回復了你的評論!</string>
-    <string name="push_title_info_upvoted">%s 贊了你的評論!</string>
-    <string name="download_list">下載列表</string>
-    <string name="can_be_update">可更新</string>
-    <string name="install_list">已安裝</string>
-    <string name="no_download">暫無下載</string>
-    <string name="downloads">下載</string>
-
-    <string name="change_language_failed">切換語言失敗！</string>
-    <string name="comment_reply_tell_msg">該評論已刪除！</string>
-
-    <string name="notification_setting">通知</string>
-    <string name="reply_notification">回復我的</string>
-    <string name="reply_notification_msg">接收新回復消息的通知</string>
-    <string name="like_notification">贊我的</string>
-    <string name="like_notification_msg">接收新點贊消息的通知</string>
-    <string name="gif_tip">動圖</string>
-    <string name="submit_comment_title_hint">標題(可選)</string>
-
-    <string name="comment_vote_string">投票</string>
-    <string name="comment_reply_three">回復</string>
-    <string name="comment_item_fold">已摺疊</string>
-
-    <plurals name="comment_reply_item_fold">
-        <item quantity="one">摺疊回復(<xliff:g example="1" id="count">%1$d</xliff:g>)</item>
-        <item quantity="other">摺疊回復(<xliff:g example="2" id="count">%1$d</xliff:g>)</item>
-    </plurals>
-
-    <string name="comment_no_reply">暫無回復</string>
-    <string name="comment_reply_info_name">詳情</string>
-    <string name="set_updates_notification">應用有新版本</string>
-    <string name="set_updates_notification_msg">應用有新版本時通知我，建議開啟。</string>
-    <string name="app_detail_unknow_text">版本過低，不支持該板塊，請升級後查看。</string>
-    <string name="comment_detail_original">查看原評論 ></string>
-    <string name="comment_comment_newest">倒序</string>
-    <string name="comment_comment_oldest">正序</string>
-
-    <!--reply edit-->
-    <string name="edit">編輯</string>
-    <string name="delete_all_download_history">刪除全部下載歷史記錄?</string>
-    <string name="delete_the_historical_record">刪除本條歷史記錄?</string>
-    <string name="download_history">下載歷史</string>
-
-    <string name="menu_copy">複製</string>
-    <string name="menu_cancel">取消</string>
-    <!--sub_comment-->
-    <string name="sub_comment_dialog_title">添加視頻</string>
-    <string name="sub_comment_dialog_des_tv">僅支持解析YouTube視頻</string>
-    <string name="sub_comment_dialog_link_et">在此輸入鏈接</string>
-    <string name="sub_comment_dialog_link_null">視頻地址不能為空</string>
-    <string name="sub_comment_progress_msg">正在添加視頻…</string>
 </resources>

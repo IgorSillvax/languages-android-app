@@ -1,6 +1,7 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources
-    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<?xml version='1.0' encoding='UTF-8'?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <string name="app_name" translatable="false">APKPure</string>
 
     <string name="action_settings">設定</string>
     <string name="action_search">搜尋</string>
@@ -267,7 +268,7 @@
     </plurals>
     <string name="app_detail_customer_reviews">用戶評論</string>
     <string name="app_detail_comment_type_web">網站</string>
-    <string name="app_submit_submit">提交中。。。</string>
+    <string name="app_submit_submit">提交中…</string>
     <string name="app_submit_anonymous_comment">添加評論</string>
     <string name="app_submit_title_toast">請填寫標題!</string>
     <string name="app_submit_msg_toast">請填寫評論!</string>
@@ -289,12 +290,23 @@
     <string name="app_detail_tab_two">評論</string>
     <string name="app_detail_tab_three">相關</string>
 
-    <string name="app_detail_comment_order_array_default">默認排序</string>
-    <string name="app_detail_comment_order_array_most_recent">最近回復</string>
-    <string name="app_detail_comment_order_array_new">最新評論</string>
-    <string name="app_detail_comment_order_array_best">最熱</string>
+    <array name="app_detail_comment_order_array">
+        <item>@string/app_detail_comment_order_array_recent</item>
+        <item>@string/app_detail_comment_order_array_newest</item>
+        <item>@string/app_detail_comment_order_array_best</item>
+    </array>
+
+    <string name="app_detail_comment_order_array_recent">最近回復</string>
+    <string name="app_detail_comment_order_array_newest">最新</string>
+    <string name="app_detail_comment_order_array_best">推薦</string>
 
     <string name="download_complete_installation_setting">下載後安裝選項</string>
+
+    <string-array name="download_complete_installation_setting_entries">
+        <item>@string/download_complete_installation_setting_entries_always</item>
+        <item>@string/download_complete_installation_setting_entries_only</item>
+        <item>@string/download_complete_installation_setting_entries_never</item>
+    </string-array>
 
     <string name="download_complete_installation_setting_entries_always">總是安裝</string>
     <string name="download_complete_installation_setting_entries_only">僅前台狀態下安裝</string>
@@ -310,11 +322,12 @@
 
     <string name="load_end">沒有更多數據</string>
     <string name="load_failed_click_retry">加載失敗，點擊重試</string>
-    <string name="loading">正在加載&#8230;</string>
+    <string name="loading">正在加載…</string>
 
-    <string name="scan_qr_code_hint">使用此功能前，您必須同意打開相機的權限</string>
-    <string name="zxing_msg_default_status">請將二維碼置於取景框內掃描</string>
-    <string name="zxing_msg_parser_status">掃描失敗,請重試</string>
+    <string name="scan_qr_code_hint">使用此功能前，
+您必須同意打開相機的權限.</string>
+    <string name="zxing_msg_default_status">請將二維碼置於取景框內掃描.</string>
+    <string name="zxing_msg_parser_status">掃描失敗, 請重試.</string>
 
     <string name="tip_permission_camera_storage">沒有使用相機和SD卡的權限，請在權限管理中開啟</string>
     <string name="permission_denied">訪問被拒絕!</string>
@@ -326,16 +339,15 @@
     <string name="delete_comment_msg">你想要刪除這條評論嗎?</string>
     <string name="login_select_way_to_login">請選擇登錄方式</string>
     <string name="upload_cancel">上傳已取消</string>
-    <string name="is_comment">正在發表評論&#8230;</string>
+    <string name="is_comment">正在發表評論…</string>
     <string name="comment_cancel">評論已取消</string>
-    <string name="comment_submitting">提交中&#8230;</string>
-    <string name="comment_replying">回复中&#8230;</string>
+    <string name="comment_replying">提交中…</string>
     <!--update password-->
     <string name="update_pwd_title">修改密碼</string>
     <string name="update_pwd_current_pwd_et">舊密碼</string>
     <string name="update_pwd_new_pwd_et">新密碼</string>
     <string name="update_pwd_Confirm_pwd_et">確認密碼</string>
-    <string name="upload_avatar">正在上傳&#8230;</string>
+    <string name="upload_avatar">正在上傳…</string>
     <string name="update_pwd_current_null_tv">舊密碼不能為空</string>
     <string name="update_pwd_Confirm_null_tv">確認密碼不能為空</string>
     <string name="update_pwd_new_pwd_null_tv">新密碼不能為空</string>
@@ -370,14 +382,7 @@
     <string name="update_email_name_et">請輸入你的郵箱</string>
     <string name="update_eamil_name_tv">郵箱不能為空</string>
     <string name="update_save_success">保存成功!</string>
-    <string name="update_nickname_error">昵稱已經在使用，請修改昵稱。</string>
-    <!--messageFragment-->
-    <string name="message_all">全部</string>
-    <string name="message_reply">回復</string>
-    <string name="message_praise">贊</string>
-    <string name="message_notifications_praise">贊了你</string>
-    <string name="message_notifications_reply">回復了你</string>
-    <string name="message_notifications_login">請登錄後查看</string>
+    <string name="update_nickname_error">昵稱已經在使用，請修改昵稱!</string>
 
     <!--crop image-->
     <string name="crop__cancel" ignore="ButtonCase">取消</string>
@@ -411,58 +416,4 @@
     <string name="login_choose">或使用您的賬戶登陸</string>
     <string name="login_new_user">新用戶註冊</string>
     <string name="login_post_as_a_guest">以遊客身份回復</string>
-
-    <string name="message">消息</string>
-    <!--push-->
-    <string name="push_title_info_reply">%s 回復了你的評論!</string>
-    <string name="push_title_info_upvoted">%s 贊了你的評論!</string>
-    <string name="download_list">下載列表</string>
-    <string name="can_be_update">可更新</string>
-    <string name="install_list">已安裝</string>
-    <string name="no_download">暫無下載</string>
-    <string name="downloads">下載</string>
-
-    <string name="change_language_failed">切換語言失敗！</string>
-    <string name="comment_reply_tell_msg">該評論已刪除！</string>
-
-    <string name="notification_setting">通知</string>
-    <string name="reply_notification">回復我的</string>
-    <string name="reply_notification_msg">接收新回復消息的通知</string>
-    <string name="like_notification">贊我的</string>
-    <string name="like_notification_msg">接收新點贊消息的通知</string>
-    <string name="gif_tip">動圖</string>
-    <string name="submit_comment_title_hint">標題(可選)</string>
-
-    <string name="comment_vote_string">投票</string>
-    <string name="comment_reply_three">回復</string>
-    <string name="comment_item_fold">已摺疊</string>
-
-    <plurals name="comment_reply_item_fold">
-        <item quantity="one">摺疊回復(<xliff:g example="1" id="count">%1$d</xliff:g>)</item>
-        <item quantity="other">摺疊回復(<xliff:g example="2" id="count">%1$d</xliff:g>)</item>
-    </plurals>
-
-    <string name="comment_no_reply">暫無回復</string>
-    <string name="comment_reply_info_name">詳情</string>
-    <string name="set_updates_notification">應用有新版本</string>
-    <string name="set_updates_notification_msg">應用有新版本時通知我，建議開啟。</string>
-    <string name="app_detail_unknow_text">版本過低，不支持該板塊，請升級後查看。</string>
-    <string name="comment_detail_original">查看原評論 ></string>
-    <string name="comment_comment_newest">倒序</string>
-    <string name="comment_comment_oldest">正序</string>
-
-    <!--reply edit-->
-    <string name="edit">編輯</string>
-    <string name="delete_all_download_history">刪除全部下載歷史記錄?</string>
-    <string name="delete_the_historical_record">刪除本條歷史記錄?</string>
-    <string name="download_history">下載歷史</string>
-
-    <string name="menu_copy">複製</string>
-    <string name="menu_cancel">取消</string>
-    <!--sub_comment-->
-    <string name="sub_comment_dialog_title">添加視頻</string>
-    <string name="sub_comment_dialog_des_tv">僅支持解析YouTube視頻</string>
-    <string name="sub_comment_dialog_link_et">在此輸入鏈接</string>
-    <string name="sub_comment_dialog_link_null">視頻地址不能為空</string>
-    <string name="sub_comment_progress_msg">正在添加視頻…</string>
 </resources>

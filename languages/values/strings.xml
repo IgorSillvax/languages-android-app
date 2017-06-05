@@ -302,11 +302,6 @@
         <item>@string/app_detail_comment_order_array_best</item>
     </array>
 
-    <array name="app_detail_reply_comment_order_array" translatable="false">
-        <item>@string/app_detail_comment_order_array_default</item>
-        <item>@string/app_detail_comment_order_array_new</item>
-    </array>
-
     <string name="app_detail_comment_order_array_default">Sort by default</string>
     <string name="app_detail_comment_order_array_most_recent">Most Recent</string>
     <string name="app_detail_comment_order_array_new">Newest</string>
@@ -529,7 +524,7 @@
 
     <string name="comment_vote_string">Vote</string>
     <string name="comment_reply_three">Reply</string>
-    <string name="comment_item_fold">comment collapsed</string>
+    <string name="comment_item_fold">1 comment has been collapsed</string>
 
     <plurals name="comment_reply_item_fold">
         <item quantity="one"><xliff:g example="1" id="count">%1$d</xliff:g> Reply collapsed</item>
@@ -541,7 +536,7 @@
     <string name="set_updates_notification">App Updates Available</string>
     <string name="set_updates_notification_msg">Notify when app updates are available. Recommended Setting: On</string>
     <string name="app_detail_unknow_text">Old version APKPure does n\'t support new features, please update to the latest.</string>
-    <string name="comment_detail_original">View Original Comment ></string>
+    <string name="comment_detail_original">View Original Comment</string>
     <string name="comment_comment_newest">Newest</string>
     <string name="comment_comment_oldest">Oldest</string>
 
@@ -558,10 +553,5 @@
     <string name="sub_comment_dialog_link_et">Enter Video URL address here</string>
     <string name="sub_comment_dialog_link_null">Video URL address can\'t be blank</string>
     <string name="sub_comment_progress_msg">Adding video…</string>
-
-    <string name="play_button">Play button</string>
-    <string name="null_time">0:00</string>
-    <string name="open_video_in_youtube">Open video in YouTube</string>
-    <string name="full_screen_button">Full screen button</string>
 
 </resources>
