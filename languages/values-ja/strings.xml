@@ -137,9 +137,9 @@
 
     <string name="_name__is_up_to_date"><xliff:g id="name" example="APKPure">%1$s</xliff:g>は更新されます。</string>
     <string name="new_version_available_title">最新版があります</string>
-    <string name="new_version_available_message">"
- &lt;b&gt;最新版:&lt;/b&gt; %1$s&lt;br&gt;&lt;br&gt;&lt;b&gt;最新情報:&lt;/b&gt;&lt;br&gt;%2$s
- "</string>
+ <string name="new_version_available_message">
+        <![CDATA[<b>最新版:</b> %1$s<br><br><b>最新情報:</b><br>%2$s]]>
+    </string>
 
     <string name="report__">報告…</string>
     <string name="report_problem__">問題を報告…</string>
