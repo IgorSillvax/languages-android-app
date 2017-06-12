@@ -191,18 +191,20 @@
     <string name="select">Выбрать</string>
     <string name="cancel">Отмена</string>
     <string name="ignored">Игнорируемые</string>
-    <plurals name="total__count__apps__size_">
+	
+     <plurals name="total__count__apps__size_">
         <item quantity="one">
-            <![CDATA[Всего: <b><font color="%1$d">%2$d</font></b> приложение, <b><font color="%1$d">%3$s</font></b>]]>
+            Всего:<![CDATA[Total: <b><font color="%1$d">%2$d</font></b> приложение, <b><font color="%1$d">%3$s</font></b>]]>
         </item>
+
         <item quantity="few">
             <![CDATA[Всего: <b><font color="%1$d">%2$d</font></b> приложений, <b><font color="%1$d">%3$s</font></b>]]>
         </item>
         <item quantity="many">
             <![CDATA[Всего: <b><font color="%1$d">%2$d</font></b> приложений, <b><font color="%1$d">%3$s</font></b>]]>
         </item>
-        <item quantity="other"/>
     </plurals>
+	
     <string name="total_zero_app">
         <![CDATA[Всего: <b><font color="%1$d">0</font></b> приложений]]>
     </string>

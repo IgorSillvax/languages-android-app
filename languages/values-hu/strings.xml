@@ -211,13 +211,11 @@ Hiba történt.</string>
     <string name="select_all">Összes kijelölése</string>
     <string name="deselect_all">Kijelölések megszüntetése</string>
     <string name="ignored">Kihagyva</string>
-    <plurals name="total__count__apps__size_">
-        <item quantity="one">
-            <![CDATA[Összesen: <b><font color="%1$d">%2$d</font></b> alkalmazás, <b><font color="%1$d">%3$s</font></b>]]>
-        </item>
-        <item quantity="other">
-            <![CDATA[Összesen: <b><font color="%1$d">%2$d</font></b> alkalmazás, <b><font color="%1$d">%3$s</font></b>]]>
-        </item>
+   <plurals name="total__count__apps__size_">
+	<item quantity="one">"
+        <![CDATA[Total: <b><font color="%1$d">%2$d</font></b> alkalmazás, <b><font color="%1$d">%3$s</font></b>]]></item>
+        <item quantity="other">"
+            <![CDATA[Total: <b><font color="%1$d">%2$d</font></b> alkalmazás, <b><font color="%1$d">%3$s</font></b>]]></item>
     </plurals>
     <string name="total_zero_app">
         <![CDATA[Összesen: <b><font color="%1$d">0</font></b> alkalmazás]]>

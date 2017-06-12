@@ -3,11 +3,11 @@
 
     <string name="action_settings">Ayarlar</string>
     <string name="action_search">Ara</string>
-    <string name="action_management">Yönetim</string>
+    <string name="action_management">Yönet</string>
 
     <string name="press_back_key_quit">Geri tuşuna bir kere daha basın ve çıkın.</string>
 
-    <string name="featured">Öne Çıkan</string>
+    <string name="featured">Önerilen</string>
     <string name="games">Oyunlar</string>
     <string name="apps">Uygulamalar</string>
     <string name="categories">Kategoriler</string>
@@ -258,6 +258,7 @@
     <string name="auto_install_via_root_title">Otomatik Kurulum (Root Modu)</string>
     <string name="auto_install_via_root_summary">Sadece root edilmiş Android telefonlar ve tabletler için.</string>
 
+
 <string name="similar_or_related">Benzer Veya İlişkili</string>
     <string name="more_from_developer">Daha çok Çalışıp Hazırlayan</string>
     <string name="more_large">Daha fazla</string>
@@ -265,4 +266,147 @@
 
     <string name="changing_language">Dil değiştiriliyor, lütfen bekleyin…</string>
     <string name="download_complete_installation_setting">İndirme sonrası kurulum seçeneği</string>
+
+    <string name="report">Bildir</string>
+    <string name="app_detail_customer_reviews">Kullanıcı yorumları</string>
+    <string name="app_detail_comment_type_web">Web</string>
+    <string name="app_submit_submit">Gönder…</string>
+    <string name="app_submit_anonymous_comment">Yorum yaz</string>
+    <string name="app_submit_title_toast">Başlık yazmalısın!</string>
+    <string name="app_submit_msg_toast">Bir şeyler yazmalısın!</string>
+    <string name="app_submit_star_toast">Puan vermelisiniz!</string>
+    <string name="app_submit_title_hint">Lütfen başlık yazın</string>
+    <string name="app_submit_msg_hint">Lütfen düşüncelerinizi yazın</string>
+    <string name="app_submit_nickname">Takma isim</string>
+    <string name="app_submit_email">E-Posta</string>
+    <string name="app_submit_submit_title">Gönder</string>
+    <string name="app_submit_reply_to">Cevapla</string>
+    <string name="app_detail_reply_comment">Yorum (%d)</string>
+    <string name="app_detail_comment_order_array_newest">En yeni</string>
+    <string name="recommend">Keşfet</string>
+    <string name="download_history">Geçmişi İndir</string>
+
+    <string name="sub_comment_dialog_title">Video Ekle</string>
+    <string name="sub_comment_dialog_link_et">Video url\'sini buraya girin</string>
+    <string name="sub_comment_dialog_link_null">Video URL adresi boş bırakılmaz</string>
+    <string name="sub_comment_progress_msg">Video ekleniyor</string>
+
+<string name="menu_cancel">İptal</string>
+    <string name="delete_all_download_history">indirme geçmişini sil?</string>
+    <string name="delete_the_historical_record">Geçmiş kaydı silinsin mi?</string>
+    <plurals name="app_detail_see_all_replies">
+	<item quantity="one"><xliff:g example="1" id="count">%1$d</xliff:g> yanıtın hepsini gör</item>
+	<item quantity="other"><xliff:g example="2" id="count">%1$d</xliff:g> yanıtın hepsini gör</item>
+</plurals>
+
+    <string name="app_submit_name_toast">Lütfen kullanıcı adını doldurun!</string>
+    <string name="app_submit_email_toast">Lütfen doğru bir e-posta yazın!</string>
+    <string name="app_detail_tab_one">Ayrıntılar</string>
+    <string name="app_detail_tab_two">Yorumlar</string>
+    <string name="app_detail_tab_three">İlgili</string>
+
+    <string name="app_detail_comment_order_array_default">Varsayılan olarak sırala</string>
+    <string name="app_detail_comment_order_array_most_recent">En son</string>
+    <string name="app_detail_comment_order_array_new">En yeni</string>
+    <string name="app_detail_comment_order_array_best">Sıcak</string>
+
+    <string name="download_complete_installation_setting_entries_always">Her zaman yükle</string>
+    <string name="download_complete_installation_setting_entries_only">Yalnızca uygulamadayken yükle</string>
+    <string name="download_complete_installation_setting_entries_never">Asla yükleme</string>
+
+    <string name="reply">Yanıtla</string>
+    <string name="input_reply_content">Yanıtın girilen içeriği:</string>
+    <string name="publish">Gönderi</string>
+    <string name="reply_dialog_marked_words">Seçilen resmi silmek için uzun bas.</string>
+    <string name="reply_comment">Yorumu yanıtla</string>
+    <string name="save_original_image">Orijinal resmi koru</string>
+    <string name="already_save">Kaydedildi<xliff:g id="path" example="ApKPure/photo">%1$s</xliff:g></string>
+
+    <string name="load_end">Daha fazla veri yok</string>
+    <string name="load_failed_click_retry">Yüklenemedi, denemek için dokun</string>
+    <string name="loading">Yükleniyor…</string>
+
+    <string name="scan_qr_code_hint">QR Kod Okuyucuyu kullanmadan önce kameraya erişim izni vermen gerek
+ QR kodun okunması için gerekli olan izin.</string>
+    <string name="zxing_msg_default_status">Lütfen taramak için QR kodunu bakaça yerleştirin.</string>
+    <string name="zxing_msg_parser_status">Taranamadı, lütfen QR kodu taramak için tekrar deneyin.</string>
+
+    <string name="tip_permission_camera_storage">SD kart ve kamerayı kullanmak için izin yok, gerekli izinleri verin</string>
+    <string name="permission_denied">Erişim reddedildi!</string>
+
+    <string name="login_title">Giriş</string>
+    <string name="sign_out">Çıkış</string>
+
+    <string name="delete_comment">Yorumu Sil</string>
+    <string name="delete_comment_msg">Bu yorumu silmek istediğine emin misin?</string>
+    <string name="upload_cancel">Yükleme iptal edildi</string>
+    <string name="login_select_way_to_login">Lütfen giriş yapma yolunuzu seçin</string>
+
+    <string name="user_info_edit_title">Profil</string>
+    <string name="user_info_edit_portrait_tv">Profil Fotoğrafı</string>
+    <string name="user_info_edit_username_tv">Kullanıcı adı</string>
+    <string name="user_info_edit_nickname_tv">Takma ad</string>
+    <string name="user_info_edit_email_tv">E-posta</string>
+    <string name="user_info_edit_gender_tv">Cinsiyet</string>
+    <string name="user_info_edit_birthday_tv">Doğum günü</string>
+    <string name="user_info_edit_change_pwd_tv">Şifreyi sıfırla</string>
+    <string name="user_info_edit_login_out_tv">Çıkış yap</string>
+    <string name="user_info_edit_not_choose">Bilinmeyen</string>
+    <string name="user_info_edit_gender_male">Erkek</string>
+    <string name="user_info_edit_gender_female">Kadın</string>
+    <string name="user_info_edit_portrait_album">Galeriden bir fotoğraf seç</string>
+    <string name="user_info_edit_portrait_take_photo">Kameradan fotoğraf çek</string>
+    <string name="user_info_edit_portrait_error">Fotoğraf türü desteklenmiyor</string>
+    <string name="user_info_edit_ok">Tamam</string>
+    <string name="user_info_edit_cancel">İptal</string>
+
+    <string name="update_nick_title">Takma adı değiştir</string>
+    <string name="update_email_title">E-postayı değiştir</string>
+    <string name="update_nick_name_et">Yeni takma adınızı girin</string>
+    <string name="update_nick_name_tv">Yeni takma ad boş bırakılamaz</string>
+    <string name="update_email_name_et">E-postanızı girin</string>
+    <string name="update_eamil_name_tv">E-posta boş bırakılamaz</string>
+    <string name="update_nickname_error">Takma ad zaten alınmış, lütfen başka seçin!</string>
+    <string name="message_all">HEPSİ</string>
+    <string name="message_reply">YANITLAR</string>
+    <string name="message_praise">HAREKETLER</string>
+    <string name="message_notifications_reply">Yorumun yanıtlandı</string>
+    <string name="message_notifications_login">Bu betiği görebilmek için lütfen giriş yapın.</string>
+
+    <string name="update_pwd_title">Şifremi yenile</string>
+    <string name="update_pwd_current_pwd_et">Eski şifre</string>
+    <string name="update_pwd_new_pwd_et">Yeni şifre</string>
+    <string name="update_pwd_Confirm_pwd_et">Yeni şifreyi onaylayın</string>
+    <string name="upload_avatar">Yükleniyor…</string>
+    <string name="update_pwd_current_null_tv">Eski şifre boş bırakılamaz</string>
+    <string name="update_pwd_Confirm_null_tv">Şifre onaylama boş bırakılamaz</string>
+    <string name="update_pwd_new_pwd_null_tv">Yeni şifre boş bırakılamaz</string>
+    <string name="update_pwd_new_confrim_tv">Girdiğiniz şifreler eşleşmiyor</string>
+    <string name="update_pwd_save_bt">Kaydet</string>
+    <string name="update_save_success">Başarıyla kaydedildi!</string>
+    <string name="crop__cancel" ignore="ButtonCase">İptal</string>
+    <string name="crop__done">Bitti</string>
+    <string name="crop__pick_error">Geçersiz resim dosyası türü</string>
+    <string name="crop__saving">Fotoğraf kaydediliyor…</string>
+    <string name="crop__wait">Lütfen bekleyin…</string>
+
+    <string name="comment_cancel">Yorum iptal edildi</string>
+    <string name="comment_submitting">Gönderiliyor…</string>
+    <string name="comment_replying">Yanıtlanıyor…</string>
+    <string name="register_term_of_service">APKPure Hizmet Kullanım Koşulları</string>
+
+    <string name="set_permissions">İzinler</string>
+    
+    <string name="sign_in_services">Kaydolmakla, Şartlar ve Gizlilik Politikamızı kabul etmiş olursunuz.</string>
+
+    <string name="sign_in_services_key">Koşullar</string>
+    <string name="sign_in_services_key_policy">Gizlilik Politikası</string>
+
+    <string name="user_sign_up">Kaydol</string>
+    <string name="user_name_hint">Kullanıcı adı</string>
+    <string name="user_email_hint">E-posta</string>
+    <string name="user_password">Şifre(6–32)</string>
+    <string name="user_password_confirm">Şifreyi onaylayın</string>
+
+
     </resources>
