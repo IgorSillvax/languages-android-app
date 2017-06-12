@@ -134,7 +134,11 @@
     <string name="touch_for_view_all_downloads">Bütün Yükləmələri Görmək üçün toxun</string>
     <string name="touch_to_download_it_again">Təkrar yükləmək üçün toxun</string>
 
-    <string name="download_percent"><xliff:g id="percent" example="50">%1$d</xliff:g> %%</string>
+
+    <string name="download_percent"><xliff:g example="50" id="percent">%1$d </xliff:g>%%</string>
+
+    
+
     <string name="pause">Fasilə</string>
     <string name="pause_all">Hamsına Fasilə ver</string>
     <string name="continue_">Davam et</string>

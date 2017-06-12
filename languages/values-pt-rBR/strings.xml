@@ -15,7 +15,7 @@
 
     <string name="something_happened">Algo aconteceu.</string>
 
-    <string name="load_failed_error">Oops! ocorreu um erro.</string>
+    <string name="load_failed_error">Oops! Ocorreu um erro.</string>
     <string name="load_failed_empty">Nada aqui.</string>
     <string name="load_failed_all_up_to_date">Todos os aplicativos estão atualizados.</string>
     <string name="load_failed_no_results">Desculpe! Nenhum resultado encontrado.</string>
@@ -113,7 +113,7 @@
     <string name="_name__download_failed"><xliff:g example="APKPure" id="name">%1$s</xliff:g> Falha no download</string>
     <string name="touch_to_download_it_again">Toque para fazer o download novamente</string>
 
-    <string name="download_percent"><xliff:g example="50" id="percent">%1$d</xliff:g> %%</string>
+    <string name="download_percent"><xliff:g id="percent" example="50">%1$d</xliff:g> %%</string>
     <string name="pause">Pausar</string>
     <string name="pause_all">Pausar Todos</string>
     <string name="continue_">Continuar</string>
@@ -413,7 +413,9 @@ Que é necessário para escanear o código QR.</string>
     <string name="login_new_user">Registrar Novo Usuário</string>
     <string name="login_post_as_a_guest">Postar como convidado</string>
 
-    <string name="app_detail_comment_order_array_default">Ordenar por padrão</string>
+
+<string name="app_detail_comment_order_array_default">Ordenar por padrão</string>
+
     <string name="app_detail_comment_order_array_most_recent">Mais recente</string>
     <string name="app_detail_comment_order_array_new">O mais novo</string>
     <string name="message_all">TODOS</string>
@@ -450,9 +452,13 @@ Que é necessário para escanear o código QR.</string>
     <string name="comment_item_fold">1 comentário foi interrompido</string>
 
     <plurals name="comment_reply_item_fold">
-        <item quantity="one"><xliff:g example="1" id="count">"%1$d"</xliff:g>"Resposta interrompida"</item>
-        <item quantity="other"><xliff:g example="2" id="count">"%1$d"</xliff:g>"Respostas interrompidas"</item>
-    </plurals>
+
+	<item quantity="one"><xliff:g example="1" id="count">"  %1$d
+"</xliff:g>"  Resposta interrompida"</item>
+	<item quantity="other"><xliff:g example="2" id="count">"  %1$d
+"</xliff:g>"  Respostas interrompidas"</item>
+</plurals>
+
 
     <string name="comment_no_reply">Uau, não há nada aqui.</string>
     <string name="comment_reply_info_name">Detalhe</string>
