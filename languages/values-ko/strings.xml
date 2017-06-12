@@ -1,6 +1,5 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources
-    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<?xml version='1.0' encoding='UTF-8'?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
     <string name="action_settings">설정</string>
     <string name="action_search">찾기</string>
@@ -18,8 +17,8 @@
 
     <string name="load_failed_error">아이쿠! 오류가 있네요.</string>
     <string name="load_failed_empty">여기는 아무것도 없군요.</string>
-    <string name="load_failed_all_up_to_date">전체 앱을 업데이트합니다.</string>
-    <string name="load_failed_no_results">미안! 찾을수 없네요.</string>
+    <string name="load_failed_all_up_to_date">모두 앱은 다 최신한 것입니다.</string>
+    <string name="load_failed_no_results">죄송합니다! 해당하는 검색 결과가 없습니다.</string>
     <string name="refresh">새로고침</string>
 
     <string name="management">관리</string>
@@ -30,29 +29,29 @@
     <string name="apk_xapk_management">APK/XAPK 관리</string>
     <string name="download_management">다운로드 관리</string>
     <string name="settings">설정</string>
-    <string name="about">정보</string>
+    <string name="about">회사소개</string>
     <string name="about_title">정보 <xliff:g id="app_name" example="APKPure">%1$s</xliff:g></string>
     <string name="about_message">
         <![CDATA[<b>버전:</b> %1$s<br><br><b>웹사이트:</b> <a href=%2$s>%2$s</a><br><b>이메일:</b> <a href=mailto:%3$s>%3$s</a>]]>
     </string>
-    <string name="check_update">업데이트 체크</string>
+    <string name="check_update">업데이트 확인</string>
     <string name="quit">끝내기</string>
     <string name="want_to_quit">종료 하시겠습니까?</string>
 
     <string name="install">설치</string>
     <string name="open">열기</string>
     <string name="delete">삭제</string>
-    <string name="properties">특성</string>
+    <string name="properties">속성</string>
     <string name="want_to_delete_file">이 파일을 삭제 하시겠습니까?</string>
     <string name="file_has_been_deleted">파일이 삭제되었습니다.</string>
     <string name="failed_to_delete_file">파일 삭제 실패함.</string>
     <string name="install__label_">설치 - <xliff:g id="app_label" example="APKPure">%1$s</xliff:g></string>
-    <string name="user_canceled">취소하였습니다.</string>
+    <string name="user_canceled">사용자 취소하였습니다.</string>
     <string name="io_error">IO 에러. 설치에 필요한 저장 공간이 부족할 수도 있습니다.</string>
     <string name="file_format_error">파일 포맷 에러.</string>
     <string name="parsing_xapk">XAPK 파싱중 …</string>
     <string name="installing_obb">OBB 파일 설치중 …</string>
-    <string name="extracting_apk">APK 파일을 가져옵니다 …</string>
+    <string name="extracting_apk">APK파일 추출중 …</string>
     <string name="installing_apk">APK 설치 중 …</string>
 
     <string name="uninstall">삭제</string>
@@ -63,17 +62,17 @@
 
     <string name="screenshots">스크린샷</string>
     <string name="description">설명</string>
-    <string name="whatsnew">새로운 것</string>
+    <string name="whatsnew">새로운 기능</string>
     <string name="information">정보</string>
     <string name="version_">버전:</string>
-    <string name="updated_">업데이트 됨:</string>
+    <string name="updated_">업데이트 날짜:</string>
     <string name="size_">크기:</string>
-    <string name="permissions_">허용:</string>
+    <string name="permissions_">권한:</string>
     <string name="type_">타입:</string>
     <string name="category_">카테고리:</string>
     <string name="more">더 보기</string>
-    <string name="permissions">허용</string>
-    <string name="other">다른</string>
+    <string name="permissions">권한</string>
+    <string name="other">기타</string>
     <string name="apk">APK</string>
     <string name="xapk">XAPK</string>
     <string name="unknown">알수 없는</string>
@@ -84,7 +83,7 @@
     <string name="market_response_error_network_connect_error">네트워크 연결 에러.</string>
     <string name="market_response_error_network_read_error">네트워크 읽기 에러.</string>
     <string name="market_response_error_invalid_response_code">유효하지 않은 응답 코드.</string>
-    <string name="market_response_error_invalid_response_body">잘못된 응답내용</string>
+    <string name="market_response_error_invalid_response_body">잘못된 응답내용.</string>
     <string name="market_response_error_unknown_error__error_">알수 없는 에러 (<xliff:g id="error" example="SUCCESS">%1$s</xliff:g>).</string>
 
     <string name="no_more">더 이상 없음.</string>
@@ -116,7 +115,7 @@
     <string name="completed">완료</string>
     <string name="paused">정지</string>
     <string name="failed">실패</string>
-    <string name="file_invalid">파일이 없음</string>
+    <string name="file_invalid">파일 무효</string>
     <string name="file_missing">파일이 없음</string>
     <string name="expired">만료됨</string>
     <string name="detail">세부사항</string>
@@ -125,28 +124,27 @@
 
     <string name="search">찾기</string>
     <string name="search_for_apps">앱 찾기</string>
-    <string name="trending_searches">최근 찾기</string>
+    <string name="trending_searches">순위 찾기</string>
 
     <string name="improvement_plan_title">성능 향상 계획</string>
     <string name="improvement_plan_message">
         <![CDATA[Help us with submit Android Device Info, We do <b>not collect</b> 개인정보(이름, 주소, 이메일, 기타 개인 신상정보).]]>
     </string>
-    <string name="join_us">가입하시오</string>
-    <string name="skip">무시</string>
+    <string name="join_us">우리 가입</string>
+    <string name="skip">건너뛰기</string>
 
-    <string name="_name__is_up_to_date"><xliff:g id="name" example="APKPure">%1$s</xliff:g> 이(가) 업데이트됩니다.</string>
+    <string name="_name__is_up_to_date"><xliff:g id="name" example="APKPure">%1$s</xliff:g> 최신판이다.</string>
     <string name="new_version_available_title">새 버전이 있습니다</string>
-    <string name="new_version_available_message">
-        <![CDATA[<b>최신 버전:</b> %1$s<br><br><b>최신 정보:</b><br>%2$s]]>
+  <string name="new_version_available_message">
+        <![CDATA[<b>최신 버전:</b> %1$s<br><br><b>새로운 기능:</b><br>%2$s]]>
     </string>
-
     <string name="report__">보고서…</string>
     <string name="report_problem__">문제점을 보고…</string>
     <string name="report_problem_subject">문제점을 보고</string>
     <string name="report_problem_text">문제점:\n%1$s\n\n자세한 문제:\n%2$s</string>
 
-    <string name="installation_failed">설치 실패함</string>
-    <string name="invalid_app_detail">자세한 앱정보가 없습니다.</string>
+    <string name="installation_failed">설치 실패</string>
+    <string name="invalid_app_detail">자세한 앱 정보가 없습니다.</string>
     <string name="invalid_app_asset">유효하지 않은 앱 정보.</string>
     <string name="failed_to_request_app_detail">앱 정보 요청 실패함.</string>
     <string name="failed_to_request_app_asset">앱 정보 요청 실패함.</string>
@@ -198,14 +196,14 @@
     <string name="want_to_delete_all_files">모든 파일을 삭제 할까요?</string>
     <string name="pause_all">전체 일시정지</string>
     <string name="continue_all">전체 계속</string>
-    <string name="waiting_to_download">다운로드 중이니 기다리세요</string>
+    <string name="waiting_to_download">다운로드 중인 기다리세요</string>
     <string name="deleted">삭제</string>
-    <string name="remove_all">전체 지우기</string>
-    <string name="want_to_remove_all_download_items">다운로드 한 모든 항목을 제거 하시겠습니까?</string>
-    <string name="delete_downloaded_file">다운로드 한 파일을 삭제</string>
+    <string name="remove_all">모두 제거</string>
+    <string name="want_to_remove_all_download_items">다운로드한 모든 항목을 제거 하시겠습니까?</string>
+    <string name="delete_downloaded_file">다운로드한 파일을 삭제</string>
 
-    <string name="contact_us__">문의 …</string>
-    <string name="contact_us">문의</string>
+    <string name="contact_us__">우리에게 연락 …</string>
+    <string name="contact_us">우리에게 연락</string>
     <string name="report_content">보고서 내용</string>
 
     <string name="select_all">전체 선택</string>
@@ -217,5 +215,51 @@
     <string name="_name__installation_completed"><xliff:g id="name" example="APKPure">%1$s</xliff:g>설치 완료</string>
     <string name="touch_to_open">열려면 터치합니다.</string>
 
-    <string name="flag_as_inappropriate">올바르지 않은 플래그</string>
-</resources>
+    <string name="flag_as_inappropriate">부적절한 앱으로 신고</string>
+<string name="installed">설치됨</string>
+    <string name="participate_ultra_download_beta_test_title">울트라 다운로드를 활성화하고 더 빠른 다운로드 속도를 즐기세요</string>
+    <string name="enable">활성화</string>
+
+    <string name="feedback">피드백</string>
+
+    <string name="changing_language">언어를 바꾸는 중, 기다려 주세요…</string>
+    <string name="enable_ultra_download">울트라 다운로드 활성화</string>
+    <string name="auto_service_install_accessibility_title">자동 설치</string>
+    <string name="auto_service_install_accessibility_summary">안드로이드 4.1 이상 지원, 루트 권한 불필요.</string>
+
+    <string name="auto_service_dialog_title">자동 설치 활성화</string>
+    <string name="auto_service_title">APKPure 자동 설치</string>
+    <string name="auto_service_install">설치</string>
+    <string name="auto_service_ensure">확인</string>
+    <string name="auto_service_next">다음</string>
+    <string name="auto_service_complete">완료</string>
+
+    <string name="auto_service_install__material_">설치</string>
+    <string name="auto_service_ensure__material_">확인</string>
+    <string name="auto_service_next__material_">다음</string>
+    <string name="auto_service_complete__material_">완료</string>
+
+    <string name="auto_install_via_root_title">자동 설치(루트 권한 모드)</string>
+    <string name="auto_install_via_root_summary">루트 권한이 있는 안드로이드 폰과 태블릿에서만 가능.</string>
+
+    <string name="auto_service_exchange__material_">대신</string>
+    <string name="download_complete_installation_setting">다운로드 후의 설치 선택 항목</string>
+    <string name="auto_service_exchange">대신</string>
+    <string name="auto_service_description">“APKPure자동 설치”사용,“자동 설치”편온하게 운행하다
+APKPure자동 설치는 앱을 설치하거나 업데이트할 때 모두 설치 버튼을 대신 노를 수 있습니다. 계속 핸드폰 집중 필요없습니다.
+이 기능을 사용할 때 당신은 위험 경고를 받겠습니다，“OK”을 노르며 이 기능을 열릴 수 있도록 하세요.
+APKPure의 기능을 보장하기 위해，APKPure가 당신의 앱 정리“화이트리스트”에 추가하세요.
+위에 기능은 안드로이드 4.1+지지，root권한 필요없습니다. 우리가 서비스접근성을 통해 개인정보를 얻지 않습니다. 문제 있으면 어젠든지 연락 주세요.</string>
+
+    <string name="auto_service_dialog_message">자동 설치는 핸드폰의관한 부여해야 합니다，사용 모험 없습니다.</string>
+
+    <string name="enable_ultra_download_summary">급속 다운로드는 테스트 중，무슨 문제 있어도 알려주세요.</string>
+    <string name="download_via_wifi_only">Wi-Fi만 다운로드</string>
+    <string name="more_large">더</string>
+    <string name="more_from_developer">더 많은 것이 개발자에게</string>
+    <string name="participate_ultra_download_beta_test_content">급속 다운로드는 테스트 중，무슨 문제 있어도 알려주세요. 어젠든지 설치에 금용할 수 있습니다.</string>
+    <string name="download_over_cellular_content">이동 네트워크로 다운로드할 겁니다, 계속하십니까?</string>
+
+    <string name="download_over_cellular">핸드폰에 다운로드</string>
+    <string name="similar_or_related">유사함</string>
+    </resources>

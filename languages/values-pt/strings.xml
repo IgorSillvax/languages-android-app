@@ -1,6 +1,5 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources
-    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<?xml version='1.0' encoding='UTF-8'?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
     <string name="action_settings">Configurações</string>
     <string name="action_search">Pesquisar</string>
@@ -185,16 +184,16 @@
     <string name="cancel">Cancelar</string>
     <string name="ignored">Ignorar</string>
     <plurals name="total__count__apps__size_">
-        <item quantity="one">
-            <![CDATA[Total: <b><font color="%1$d">%2$d</font></b> app, <b><font color="%1$d">%3$s</font></b>]]>
-        </item>
-        <item quantity="other">
-            <![CDATA[Total: <b><font color="%1$d">%2$d</font></b> apps, <b><font color="%1$d">%3$s</font></b>]]>
-        </item>
-    </plurals>
-    <string name="total_zero_app">
-        <![CDATA[Total: <b><font color="%1$d">0</font></b> app]]>
-    </string>
+	<item quantity="one">"
+ Total: &lt;b&gt;&lt;font cor=%1$d&gt;%2$d&lt;/font&gt;&lt;/b&gt; app, &lt;b&gt;&lt;font color=%1$d&gt;%3$s&lt;/font&gt;&lt;/b&gt;
+ "</item>
+	<item quantity="other">"
+ Total: &lt;b&gt;&lt;font color=%1$d&gt;%2$d&lt;/font&gt;&lt;/b&gt; apps, &lt;b&gt;&lt;font color=%1$d&gt;%3$s&lt;/fonte&gt;&lt;/b&gt;
+ "</item>
+</plurals>
+    <string name="total_zero_app">"
+ Total: &lt;b&gt;&lt;font cor=%1$d&gt;0&lt;/font&gt;&lt;/b&gt; app
+ "</string>
 
     <string name="general">Geral</string>
     <string name="language">Idioma</string>
@@ -223,4 +222,96 @@
 
     <string name="select_all">Selecionar tudo</string>
     <string name="deselect_all">Desmarcar todos</string>
+<string name="similar_or_related">Semelhante ou relacionado</string>
+    <string name="more_from_developer">Mais do desenvolvedor</string>
+    <string name="more_large">Mais</string>
+    <string name="installed">Instalado</string>
+    <string name="download_over_cellular">Transferir por telemóvel</string>
+    <string name="download_over_cellular_content">Você está prestes a fazer o download na sua rede móvel. Você gostaria de continuar?</string>
+
+    <string name="participate_ultra_download_beta_test_title">Ativar Ultra Download e desfrutar de uma velocidade de download mais rápida</string>
+    <string name="participate_ultra_download_beta_test_content">Ultra Download está em teste beta, deixe-nos saber se você encontrar quaisquer problemas. Você pode facilmente desativá-lo em Configurações.</string>
+    <string name="enable">Ativar</string>
+
+    <string name="feedback">Comentários</string>
+
+    <string name="changing_language">Alterando o idioma, aguarde…</string>
+    <string name="download_via_wifi_only">Transferir apenas através do Wi-Fi</string>
+    <string name="enable_ultra_download">Ativar Ultra Download</string>
+    <string name="enable_ultra_download_summary">Ultra Download está em teste beta, deixe-nos saber se você encontrar quaisquer problemas.</string>
+    <string name="auto_service_install_accessibility_title">Instalação automática</string>
+    <string name="auto_service_install_accessibility_summary">Suporte Android 4.1 ou superior, sem necessidade de permissão de root.</string>
+
+    <string name="auto_service_dialog_title">Ativar a instalação automática</string>
+    <string name="auto_service_dialog_message">A Instalação Automática exige que você autorize no telefone, é seguro usar sem riscos.</string>
+
+    <string name="auto_service_title">Instalação automática do APKPure</string>
+    <string name="auto_service_description">Ative \"APKPure Auto Install\", para manter o APKPure \"Auto Install\" funcionando sem problemas.
+-benzóico.
+-benzóico.
+\"APKPure Auto Install\" pode ajudá-lo a clicar em todos os botões de instalação ao instalar ou atualizar aplicativos, não é necessário verificar o telefone o tempo todo.↵
+-benzóico.
+Ao ativar esse recurso, você pode receber avisos de risco do sistema, toque em \"OK\" para ativar o botão de acessibilidade \"ON\". -benzóico.
+-benzóico.
+Para garantir o bom funcionamento do APKPure, adicione o APKPure à sua \"Lista Branca\" de Limpeza. -benzóico.
+-benzóico.
+As funções acima mencionadas suportam o Android 4.1 ou superior, sem necessidade de permissão de root. Prometemos nunca recolher qualquer informação pessoal neste serviço de acessibilidade. Sinta por favor livre contatar-nos com todos os problemas.</string>
+
+    <string name="auto_service_install">Instalar</string>
+    <string name="auto_service_ensure">OK</string>
+    <string name="auto_service_next">Próximo</string>
+    <string name="auto_service_exchange">Substituir</string>
+    <string name="auto_service_complete">Feito</string>
+
+    <string name="auto_service_install__material_">INSTALAR</string>
+    <string name="auto_service_ensure__material_">OK</string>
+    <string name="auto_service_next__material_">PRÓXIMO</string>
+    <string name="auto_service_exchange__material_">SUBSTITUIR</string>
+    <string name="auto_service_complete__material_">FEITO</string>
+
+    <string name="auto_install_via_root_title">Instalação Automática (Modo Root)</string>
+    <string name="auto_install_via_root_summary">Apenas para telefones e tablets com Root.</string>
+
+    <plurals name="app_detail_see_all_replies">
+	<item quantity="one">Ver tudo
+<xliff:g id="count" example="1"> 1 %1$d
+</xliff:g> 2 Respostas</item>
+	<item quantity="other">Ver tudo
+<xliff:g id="count" example="2"> 3 %1$d
+</xliff:g> 4 respostas</item>
+</plurals>
+
+    <string name="app_detail_customer_reviews">Avaliações de Clientes</string>
+    <string name="app_detail_comment_type_web">Web</string>
+    <string name="app_submit_submit">Enviar…</string>
+    <string name="app_submit_anonymous_comment">Comentários anônimos</string>
+    <string name="app_submit_title_toast">Você deve escrever o título!</string>
+    <string name="app_submit_msg_toast">Você deve escrever algo!</string>
+    <string name="app_submit_name_toast">Por favor, preencha o apelido!</string>
+    <string name="app_submit_email_toast">Preencha o endereço de e-mail correto!</string>
+    <string name="app_submit_star_toast">Você deve enviar uma estrela!</string>
+    <string name="app_submit_title_hint">Escreva o título</string>
+    <string name="app_submit_msg_hint">Por favor escreva sua opinião</string>
+    <string name="app_submit_nickname">Apelido</string>
+    <string name="app_submit_email">Email</string>
+    <string name="app_submit_submit_title">Enviar</string>
+    <string name="app_submit_reply_to">Responder a</string>
+
+    <string name="app_detail_tab_one">Detalhes</string>
+    <string name="app_detail_tab_two">Avaliações</string>
+    <string name="app_detail_tab_three">Relacionados</string>
+
+    <string name="download_complete_installation_setting">Opção de instalação após o download</string>
+    <string name="reply">Resposta</string>
+    <string name="input_reply_content">O conteúdo de entrada:</string>
+    <string name="publish">Publicar</string>
+
+    <string name="load_end">Sem mais dados</string>
+    <string name="load_failed_click_retry">Falha ao carregar, clique em nova tentativa</string>
+    <string name="loading">Carregando…</string>
+
+    <string name="scan_qr_code_hint">Antes de usar o Scan QR Code, você precisa conceder a permissão da câmera↵
+Que é necessário para digitalizar o código QR.</string>
+    <string name="zxing_msg_default_status">Coloque o código QR dentro do visor para digitalizá-lo.</string>
+    <string name="zxing_msg_parser_status">A digitalização falhou, tente digitalizar o código QR novamente.</string>
 </resources>
