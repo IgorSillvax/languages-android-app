@@ -141,9 +141,8 @@
     <string name="continue_">Davam et</string>
     <string name="continue_all">Hamsını Davam etdir</string>
     <string name="restart">Yenidən başlat</string>
-    <string name="total_zero_app">"
- Cəmi: &lt;b&gt;&lt;font color=%1$d&gt;0&lt;/font&gt;&lt;/b&gt; tətbiq
- "</string>
+       <string name="total_zero_app">
+        <![CDATA[Cəmi: <b><font color="%1$d">0</font></b> tətbiq]]></string>
 
     <string name="select_all">Hamsını Seç</string>
     <string name="deselect_all">Hamsını Seçmə</string>
@@ -191,13 +190,11 @@
     <string name="invalid_app_asset">Keçərsiz tətbiq məllumatları.</string>
     <string name="failed_to_request_app_detail">Tətbiqin məllumat istəyi uğursuz oldu.</string>
     <string name="failed_to_request_app_asset">Tətbiqin internet məllumatı istəyi uğursuz oldu.</string>
-    <string name="incompatible_this_app">"
- &lt;big&gt;&lt;b&gt;&lt;font color=%1$d&gt;Sizin cihazınız bu tətbiqi dəstəkləmir.&lt;/font&gt;&lt;/b&gt;&lt;/big&gt;&lt;br&gt;&lt;br&gt;Davam etdirmək istəyirsiniz?
- "</string>
-    <string name="this_app_not_usable">"
- &lt;big&gt;&lt;b&gt;&lt;font color=%1$d&gt;Bu tətbiq faydalı ola bilməyə bilər.&lt;/font&gt;&lt;/b&gt;&lt;/big&gt;&lt;br&gt;&lt;br&gt;Davam etdirmək istəyirsiniz?
- "</string>
-
+       <string name="incompatible_this_app">
+        <![CDATA[<big><b><font color="%1$d">Sizin cihazınız bu tətbiqi dəstəkləmir.</font></b></big><br><br>Davam etdirmək istəyirsiniz?]]></string>
+      <string name="this_app_not_usable"> 
+        <![CDATA[<big><b><font color="%1$d">Bu tətbiq faydalı ola bilməyə bilər.</font></b></big><br><br>Davam etdirmək istəyirsiniz?]]></string>
+    <string name="setting">设置</string>
     <string name="setting">Qurğu</string>
     <string name="external_storage_not_usable">
  <big><b>Bizə sizin daxili yaddaşa giriş icazəsi lazımdır. Xahiş edirik buna icazə verin.</b></big>
