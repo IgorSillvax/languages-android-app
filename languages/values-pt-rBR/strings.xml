@@ -175,13 +175,12 @@ Detalhe do problema:
     <string name="invalid_app_asset">Informações inválidas sobre o recurso do aplicativo.</string>
     <string name="failed_to_request_app_detail">Falha ao solicitar informações detalhadas do aplicativo.</string>
     <string name="failed_to_request_app_asset">Falha ao solicitar informações sobre o recurso do aplicativo.</string>
-    <string name="incompatible_this_app">"
- &lt;big&gt;&lt;b&gt;&lt;font color=%1$d&gt;Seu dispositivo não é compatível com este aplicativo.&lt;/font&gt;&lt;/b&gt;&lt;/big&gt;&lt;br&gt;&lt;br&gt;Você quer continuar?
- "</string>
-    <string name="this_app_not_usable">"
- &lt;big&gt;&lt;b&gt;&lt;font color=%1$d&gt;Este aplicativo pode não ser utilizável.&lt;/font&gt;&lt;/b&gt;&lt;/big&gt;&lt;br&gt;&lt;br&gt;Você quer continuar?
- "</string>
-
+ <string name="incompatible_this_app">
+        <![CDATA[<big><b><font color="%1$d">Seu dispositivo não é compatível com este aplicativo.</font></b></big><br><br>Você quer continuar?]]>
+    </string>
+    <string name="this_app_not_usable">
+        <![CDATA[<big><b><font color="%1$d">Este aplicativo pode não ser utilizável.</font></b></big><br><br>Você quer continuar?]]>
+	    
     <string name="setting">Configuração</string>
     <string name="external_storage_not_usable">
  <big><b>Precisamos acessar seu armazenamento externo. Certifique-se de que é utilizável.</b></big>
@@ -207,17 +206,17 @@ Detalhe do problema:
     <string name="select_all">Selecionar tudo</string>
     <string name="deselect_all">Desmarcar todos</string>
     <string name="ignored">Ignorado</string>
-    <plurals name="total__count__apps__size_">
-	<item quantity="one">"
- Total: &lt;b&gt;&lt;fonte color=%1$d&gt;%2$d&lt;/font&gt;&lt;/b&gt; app, &lt;b&gt;&lt;font color=%1$d&gt;%3$s&lt;/font&gt;&lt;/b&gt;
- "</item>
-	<item quantity="other">"
- Total: &lt;b&gt;&lt;fonte color=%1$d&gt;%2$d&lt;/font&gt;&lt;/b&gt; apps, &lt;b&gt;&lt;font color=%1$d&gt;%3$s&lt;/font&gt;&lt;/b&gt;
- "</item>
-</plurals>
-    <string name="total_zero_app">"
- Total: &lt;b&gt;&lt;fonte color=%1$d&gt;0&lt;/font&gt;&lt;/b&gt; app
- "</string>
+  <plurals name="total__count__apps__size_">
+        <item quantity="one">
+            <![CDATA[Total: <b><font color="%1$d">%2$d</font></b> app, <b><font color="%1$d">%3$s</font></b>]]>
+        </item>
+        <item quantity="other">
+            <![CDATA[Total: <b><font color="%1$d">%2$d</font></b> apps, <b><font color="%1$d">%3$s</font></b>]]>
+        </item>
+    </plurals>
+    <string name="total_zero_app">
+        <![CDATA[Total: <b><font color="%1$d">0</font></b> app]]>
+    </string>
 
     <string name="general">Geral</string>
     <string name="language">Idioma</string>
