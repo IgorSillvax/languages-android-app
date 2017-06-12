@@ -31,9 +31,10 @@
     <string name="settings">設定</string>
     <string name="about">について</string>
     <string name="about_title">について <xliff:g id="app_name" example="APKPure">%1$s</xliff:g></string>
-    <string name="about_message">"
- &lt;b&gt;バージョン:&lt;/b&gt; %1$s&lt;br&gt;&lt;br&gt;&lt;b&gt;公式サイト:&lt;/b&gt; &lt;a href=%2$s&gt;%2$s&lt;/a&gt;&lt;br&gt;&lt;b&gt;Email:&lt;/b&gt; &lt;a href=mailto:%3$s&gt;%3$s&lt;/a&gt;
- "</string>
+
+    <string name="about_message">
+        <![CDATA[<b>バージョン:</b> %1$s<br><br><b>公式サイト:</b> <a href="%2$s">%2$s</a><br><b>电子邮箱：</b> <a href="mailto:%3$s">%3$s</a>]]>
+    </string>
     <string name="check_update">アップデートチェック</string>
     <string name="quit">退出</string>
     <string name="want_to_quit">本当に退出しますか？</string>
