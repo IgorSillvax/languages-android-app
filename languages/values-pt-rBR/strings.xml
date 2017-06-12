@@ -44,9 +44,9 @@
     <string name="delete">Apagar</string>
     <string name="delete_all">Apagar tudo</string>
     <string name="properties">Propriedades</string>
-    <string name="properties_message">"
- &lt;b&gt;Local:&lt;/b&gt; %1$s&lt;br&gt;&lt;b&gt;Tamanho:&lt;/b&gt; %2$s&lt;br&gt;&lt;b&gt;Última modificação:&lt;/b&gt; %3$s
- "</string>
+   <string name="properties_message">
+        <![CDATA[<b>Local:</b> %1$s<br><b>Tamanho:</b> %2$s<br><b>Última modificação:</b> %3$s]]>
+    </string>
     <string name="want_to_delete_file">Você deseja excluir este arquivo?</string>
     <string name="want_to_delete_all_files">Você quer apagar todos os arquivos?</string>
     <string name="file_has_been_deleted">O arquivo foi apagado.</string>
