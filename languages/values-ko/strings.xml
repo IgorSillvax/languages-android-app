@@ -135,10 +135,9 @@
 
     <string name="_name__is_up_to_date"><xliff:g id="name" example="APKPure">%1$s</xliff:g> 최신판이다.</string>
     <string name="new_version_available_title">새 버전이 있습니다</string>
-    <string name="new_version_available_message">"
- &lt;b&gt;최신 버전:&lt;/b&gt; %1$s&lt;br&gt;&lt;br&gt;&lt;b&gt;새로운 기능:&lt;/b&gt;&lt;br&gt;%2$s
- "</string>
-
+  <string name="new_version_available_message">
+        <![CDATA[<b>최신 버전:</b> %1$s<br><br><b>새로운 기능:</b><br>%2$s]]>
+    </string>
     <string name="report__">보고서…</string>
     <string name="report_problem__">문제점을 보고…</string>
     <string name="report_problem_subject">문제점을 보고</string>
