@@ -1,5 +1,6 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<?xml version="1.0" encoding="utf-8"?>
+<resources
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
     <string name="action_settings">সেটিংস</string>
     <string name="action_search">খুঁজুন</string>
@@ -35,7 +36,7 @@
     <string name="about_message">
         <![CDATA[<b>ভার্সন:</b> %1$s<br><br><b>ওয়েব সাইট:</b> <a href=%2$s>%2$s</a><br><b>ইমেইল:</b> <a href=mailto:%3$s>%3$s</a>]]>
     </string>
-    <string name="check_update">আপডেট চেক করুন</string>
+    <string name="check_update">নতুন হালনাগাদ</string>
     <string name="quit">বাহির</string>
     <string name="want_to_quit">আপনি কি নিশ্চিত যে আপনি বাহির হতে চাচ্ছেন?</string>
 
@@ -58,7 +59,7 @@
     <string name="file_format_error">ফাইল চিনতে ব্যার্থ।</string>
     <string name="parsing_xapk">Parsing XAPK …</string>
     <string name="installing_obb">ইনস্টল ওবিবি ফাইল…</string>
-    <string name="extracting_apk">এপেকে ফাইল খুলা হচ্ছে..।</string>
+    <string name="extracting_apk">এপেকে ফাইল খুলা হচ্ছে…</string>
     <string name="installing_apk">ইনস্টলিং এপেকে…</string>
 
     <string name="uninstall">আনইনস্টল</string>
@@ -99,9 +100,9 @@
     <string name="update">হালনাগাদ</string>
     <string name="version__version___size_">ভার্সন: <xliff:g id="version" example="1.0.0">%1$s</xliff:g>, <xliff:g id="size" example="১০২৪ কেবি">%2$s</xliff:g></string>
     <plurals name="_count__new_update_is_available">
-	<item quantity="one"><xliff:g id="count" example="1">%1$d</xliff:g> New Update Is Available</item>
-	<item quantity="other"><xliff:g id="count" example="2">%1$d</xliff:g> New Updates Are Available</item>
-</plurals>
+	    <item quantity="one"><xliff:g id="count" example="1">%1$d</xliff:g> new update is available</item>
+	    <item quantity="other"><xliff:g id="count" example="2">%1$d</xliff:g> new updates are available</item>
+    </plurals>
 
     <string name="launching_please_wait">খুলা হচ্ছে, দয়া করে অপেক্ষা করুন…</string>
 
@@ -169,8 +170,8 @@
     <string name="report_problem__">সমস্যার প্রতিবেদন… ।</string>
     <string name="report_problem_subject">সমস্যা প্রতিবেদন</string>
     <string name="report_problem_text">টপিক সমস্যা:\n%1$s\n\nসমস্যার বিবরণ:\n%2$s</string>
-    <string name="contact_us__">আমাদের সাথে যোগাযোগ করুন..</string>
-    <string name="contact_us">আমাদের সাথে যোগাযোগ করুন..</string>
+    <string name="contact_us__">আমাদের সাথে যোগাযোগ করুন…।</string>
+    <string name="contact_us">আমাদের সাথে যোগাযোগ করুন</string>
     <string name="report_content">কন্টেন্টের বিরুদ্ধে প্রতিবেদন</string>
 
     <string name="invalid_app_asset">ভুল অ্যাপ্লিকেশনের ফাইল তথ্য.</string>
@@ -231,42 +232,4 @@
     <string name="_name__installation_completed"><xliff:g id="name" example="APKPure">%1$s</xliff:g> installation completed</string>
     <string name="touch_to_open">টাচ করে খুলুন।</string>
 
-<string name="more_from_developer">ডেভোলপারের কাছ থেকে আরো</string>
-    <string name="more_large">আরো</string>
-    <string name="similar_or_related">এই ধরনের অথবা এই সম্পর্কিত কিছু</string>
-    <string name="feedback">প্রতিক্রিয়া</string>
-
-    <string name="changing_language">পরিবর্তন ভাষা হইতেছে, অনুগ্রহ করে অপেক্ষা করুন ...</string>
-    <string name="auto_service_install_accessibility_title">স্বয়ংক্রিয় ইনস্টল</string>
-    <string name="auto_service_install_accessibility_summary">এটি এন্ড্রোয়েড 4.1+ সাপোর্টেড, এবং কোন রুট পার্মিশন দরকার হবে না।</string>
-
-    <string name="auto_service_dialog_title">সক্রিয় অটো ইনস্টল</string>
-    <string name="auto_service_dialog_message">অটো ইনস্টলে ফোনে ক্ষমতাপ্রদান করা প্রয়োজন, এটা কোনো ঝুঁকি ছাড়াই ব্যবহার করা যাবে এবং এটি নিরাপদ।</string>
-
-    <string name="auto_service_title">এপেকে পিউর অটো ইনস্টল</string>
-    <string name="auto_service_description">Enable \"APKPure Auto Install\", to keep APKPure \"Auto Install\" running smoothly.
-
-\"APKPure Auto Install\" can help you click all install buttons when installing or updating apps, you don\'t have to check the phone all the time.
-
-When enabling this feature, you may receive system risk warnings, please tap \"OK\" to turn the accessibility switch \"ON\".
-
-To ensure APKPure well functioning, please add APKPure to your Cleaning App \"White List\".
-
-The above mentioned functions support Android 4.1+, no root permission needed. We promise never ever collecting any of your personal information in this accessibility service. Please feel free to contact us with any problems.</string>
-
-    <string name="auto_service_install">ইনস্টল</string>
-    <string name="auto_service_ensure">ওকে</string>
-    <string name="auto_service_next">পরবর্তী</string>
-    <string name="auto_service_exchange">প্রতিস্থাপন</string>
-    <string name="auto_service_complete">এ্যানি ভাই কাজ শেষ</string>
-
-    <string name="auto_service_ensure__material_">নিশ্চিত</string>
-    <string name="auto_service_next__material_">পরবর্তী</string>
-    <string name="auto_service_exchange__material_">প্রতিস্থাপন</string>
-    <string name="auto_service_complete__material_">সম্পন্ন</string>
-
-    <string name="auto_install_via_root_title">স্বয়ংক্রিয় ইনস্টল ( মুল ধরন )</string>
-    <string name="auto_install_via_root_summary">শুধুমাত্র রুট করা স্মার্টফোন এবং ট্যাবলেট এর ক্ষেত্রে</string>
-
-    <string name="download_complete_installation_setting">ডাউনলোড পরবর্তী ইনস্টল অপশন</string>
-    </resources>
+</resources>

@@ -1,5 +1,6 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<?xml version="1.0" encoding="utf-8"?>
+<resources
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
     <string name="action_settings">إعدادات</string>
     <string name="action_search">بحث</string>
@@ -31,9 +32,9 @@
     <string name="settings">إعدادات</string>
     <string name="about">حول</string>
     <string name="about_title">حول <xliff:g id="app_name" example="APKPure">%1$s</xliff:g></string>
-    <string name="about_message">"
- &lt;b&gt;الإصدار :&lt;/b&gt; %1$s&lt;br&gt;&lt;br&gt;&lt;b&gt;الموقع :&lt;/b&gt; &lt;a href=%2$s&gt;%2$s&lt;/a&gt;&lt;br&gt;&lt;b&gt;البريد الإلكتروني :&lt;/b&gt; &lt;a href=mailto:%3$s&gt;%3$s&lt;/a&gt;
- "</string>
+    <string name="about_message">
+        <![CDATA[<b>الإصدار:</b> %1$s<br><br><b>الموقع:</b> <a href="%2$s">%2$s</a><br><b>البريد الإلكتروني:</b> <a href="mailto:%3$s">%3$s</a>]]>
+    </string>
     <string name="check_update">التحقق من وجود تحديث</string>
     <string name="quit">خروج</string>
     <string name="want_to_quit">هل أنت متاكد من انك تريد الخروج ؟</string>
@@ -44,7 +45,7 @@
     <string name="want_to_delete_file">هل تريد حذف الملف؟</string>
     <string name="file_has_been_deleted">تم حذف الملف.</string>
     <string name="failed_to_delete_file">فشل في حذف الملف.</string>
-    <string name="install__label_">تثبيت - <xliff:g example="APKPure" id="app_label">%1$s</xliff:g></string>
+    <string name="install__label_">تثبيت - <xliff:g id="app_label" example="APKPure">%1$s</xliff:g></string>
     <string name="user_canceled">تم الإلغاء من قبل المستخدم.</string>
     <string name="io_error">خطاء في القراءة\\الكتابة . قد لا تتوفر على مساحة كافية لتثبيت التطبيق بنجاح .</string>
     <string name="file_format_error">خطأ في صيغة الملف.</string>
@@ -137,8 +138,8 @@
 
     <string name="improvement_plan_title">خطة تحسين الأداء</string>
     <string name="improvement_plan_message">
- قم بمساعدتنا بتقديم معلومات عن جهاز الاندرويد , نحن<b>لا نقوم بجمع </b> معلومات شخصية عن أحد (الاسم, العنوان, البريد الالكتروني, بطاقة الرقم الاجتماعي, أو اية معلومات قد تعرف عنك).
- </string>
+        <![CDATA[قم بمساعدتنا بتقديم معلومات عن جهاز الاندرويد , نحن<b>لا نقوم بجمع </b> معلومات شخصية عن أحد (الاسم, العنوان, البريد الالكتروني, بطاقة الرقم الاجتماعي, أو اية معلومات قد تعرف عنك).]]>
+    </string>
     <string name="join_us">انضم إلينا</string>
     <string name="skip">تخطي</string>
 
@@ -151,11 +152,7 @@
     <string name="report__">الإبلاغ…</string>
     <string name="report_problem__">التبليغ عن مشكلة…</string>
     <string name="report_problem_subject">التبليغ عن مشكلة</string>
-    <string name="report_problem_text">موضوع المشكلة :
-%1$s
-
-تفاصيل المشكلة:
-%2$s</string>
+    <string name="report_problem_text">موضوع المشكلة :%1$sتفاصيل المشكلة:%2$s</string>
 
     <string name="installation_failed">فشل التثبيت</string>
     <string name="invalid_app_detail">معلومات التطبيق غير صالحة.</string>
@@ -183,9 +180,9 @@
     <string name="_name__version_history">إصدارات سابقة لـ<xliff:g example="APKPure" id="name">%1$s</xliff:g></string>
     <string name="update__date___size_">تحديث: <xliff:g id="date" example="Mar 3, 2016">%1$s</xliff:g>, <xliff:g id="size" example="1024 kB">%2$s</xliff:g></string>
     <string name="properties">خصائص</string>
-    <string name="properties_message">"
- &lt;b&gt;المسار :&lt;/b&gt; %1$s&lt;br&gt;&lt;b&gt;حجم:&lt;/b&gt; %2$s&lt;br&gt;&lt;b&gt;أخر تعديل:&lt;/b&gt; %3$s
- "</string>
+    <string name="properties_message">
+        <![CDATA[<b>المسار:</b> %1$s<br><b>حجم:</b> %2$s<br><b>أحر تعديل:</b> %3$s]]>
+    </string>
     <string name="delete_downloaded_file">حذف الملف المحمل</string>
 
     <string name="update_all">تحديث الكل</string>
@@ -242,7 +239,7 @@
     <string name="show_notification_after_installation">اظهار اشعار بعد التنصيب</string>
     <string name="delete_packages_after_installation">حذف الملف بعد التنصيب</string>
 
-    <string name="_name__installation_completed">تم تثبيت <xliff:g id="name" example="APKPure">%1$s</xliff:g></string>
+    <string name="_name__installation_completed"><xliff:g id="name" example="APKPure">%1$s</xliff:g> تم التنصيب</string>
     <string name="touch_to_open">انقر للتشغيل.</string>
 
     <string name="report_content">تبليغ عن محتوى</string>
