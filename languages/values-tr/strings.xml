@@ -289,7 +289,7 @@
     <string name="sub_comment_dialog_title">Video Ekle</string>
     <string name="sub_comment_dialog_link_et">Video url\'sini buraya girin</string>
     <string name="sub_comment_dialog_link_null">Video URL adresi boş bırakılmaz</string>
-    <string name="sub_comment_progress_msg">Video ekleniyor</string>
+    <string name="sub_comment_progress_msg">Video ekleniyor…</string>
 
 <string name="menu_cancel">İptal</string>
     <string name="delete_all_download_history">indirme geçmişini sil?</string>
@@ -409,4 +409,65 @@
     <string name="user_password_confirm">Şifreyi onaylayın</string>
 
 
+    <string name="is_comment">Yorum…</string>
+    <string name="set_contributor">Katkıda bulunan</string>
+    <string name="user_name_error">Kullanıcı adında özel karakter,sembol veya boşluk olamaz</string>
+    <string name="user_nickname_error">Kısa adda özel karakterler,sembol veya boşluk olamaz</string>
+    <string name="user_email_error">Bu eposta adresi geçersiz</string>
+    <string name="user_password_error">Bu şifre geçersiz</string>
+    <string name="user_confirm_error">Şifre eşleşmeli</string>
+
+    <string name="login_user_name">Kullanıcı Adı</string>
+    <string name="login_user_password">Şifre</string>
+    <string name="login_user_sign_in">Giriş</string>
+    <string name="login_choose">Veya hesabınızla giriş</string>
+    <string name="login_new_user">Yeni Kullanıcı Kayıt</string>
+    <string name="login_post_as_a_guest">Misafir olarak mesaj gönder</string>
+
+    <string name="message">Mesaj</string>
+
+    <string name="push_title_info_reply">it!</string>
+    <string name="download_list">İndirme listesi</string>
+    <string name="can_be_update">Güncellenebilir</string>
+    <string name="install_list">Yüklü</string>
+    <string name="no_download">İndirme yok</string>
+    <string name="downloads">İndirmeler</string>
+
+    <string name="change_language_failed">Dil değiştirme başarısız!</string>
+    <string name="comment_reply_tell_msg">Bu yorum kaldırıldı!</string>
+
+    <string name="notification_setting">Bildirimler</string>
+    <string name="reply_notification">Yanıt bildirimleri</string>
+    <string name="reply_notification_msg">Yeni cevap mesajları için bildirim alın</string>
+    <string name="like_notification">Yukarı bildirim bildirileri</string>
+    <string name="like_notification_msg">Yeni uyarı mesajları için bildirim alın</string>
+    <string name="gif_tip">hareketli resim</string>
+    <string name="submit_comment_title_hint">Konu (İsteğe Bağlı)</string>
+
+    <string name="comment_vote_string">Oy</string>
+    <string name="comment_reply_three">Cevap</string>
+    <string name="comment_item_fold">1 yorum çöktü</string>
+
+    <plurals name="comment_reply_item_fold">
+	<item quantity="one"><xliff:g example="1" id="count">%1$d</xliff:g> Yanıt çöktü</item>
+	<item quantity="other"><xliff:g example="2" id="count">%1$d</xliff:g> Yanıtlar çöktü</item>
+</plurals>
+
+    <string name="comment_no_reply">Vay be, burada hiçbir şey yok.</string>
+    <string name="comment_reply_info_name">Detaylar</string>
+    <string name="set_updates_notification">Uygulamalar Güncellemeleri Var</string>
+    <string name="set_updates_notification_msg">Uygulama güncellemeleri geldiğinde haber verin. Önerilen Ayar: Açık</string>
+    <string name="app_detail_unknow_text">Eski sürüm APKPure yeni özellikleri desteklemez; lütfen en son sürüme geçin.</string>
+    <string name="comment_detail_original">Orijinal Yorumu Görüntüle</string>
+    <string name="comment_comment_newest">En yeni</string>
+    <string name="comment_comment_oldest">En eski</string>
+
+    <string name="edit">Düzenleme</string>
+    <string name="menu_copy">Kopyala</string>
+    <string name="sub_comment_dialog_des_tv">Yalnızca YouTube URL\'lerini ayrıştırma desteği</string>
+    <string name="message_notifications_praise">Yorumunuzu yukarı kaldırdı</string>
+    <string name="share_app_url_comment"> <xliff:g example="APKPure" id="user_name">%1$s</xliff:g>\'s 
+ile ilgili yorumlar <xliff:g example="APKPure" id="app_name">%2$s</xliff:g> (from @<xliff:g example="APKPure" id="social_network_name">%3$s</xliff:g>), <xliff:g example="https://apkpure.com/p/com.apkpure.aegon" id="app_url">%4$s</xliff:g></string>
+
+    <string name="push_title_info_upvoted">Yorumunuzun üstünü kaldırdı!</string>
     </resources>
