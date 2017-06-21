@@ -295,9 +295,9 @@
     <string name="app_submit_title_hint">Введите название</string>
     <string name="app_submit_msg_hint">Напишите ваше мнение!</string>
     <string name="app_submit_email">Email</string>
-    <string name="app_submit_submit_title">Отправить</string>
+    <string name="app_submit_submit_title">отправить</string>
     <string name="app_detail_tab_one">Детали</string>
-    <string name="app_detail_tab_two">Отзывы</string>
+    <string name="app_detail_tab_two">Комментарии</string>
     <string name="app_detail_comment_order_array_recent">Недавние</string>
     <string name="app_detail_comment_order_array_newest">Новые</string>
     <string name="app_detail_comment_order_array_best">Лучшие</string>
@@ -392,11 +392,11 @@
     <string name="login_user_sign_in">Войти</string>
     <string name="login_choose">Или ввойдите в свой аккаунт</string>
     <string name="login_new_user">Регистрация нового пользователя</string>
-    <string name="app_submit_submit">Отправить...</string>
+    <string name="app_submit_submit">Отправить…</string>
     <string name="app_submit_title_toast">Вы должны дать название!</string>
     <string name="app_submit_star_toast">Дайте оценку!</string>
     <string name="app_submit_nickname">Псевдоним</string>
-    <string name="app_submit_reply_to">Ответить</string>
+    <string name="app_submit_reply_to">ответить</string>
     <string name="app_detail_reply_comment">Коментарий(%d)</string>
     <string name="app_detail_tab_three">Похожие</string>
 
@@ -411,4 +411,5 @@
 </plurals>
 
     <string name="app_detail_comment_type_web">web</string>
+    <string name="app_detail_comment_order_array_default">Сортировать по умолчанию</string>
     </resources>
