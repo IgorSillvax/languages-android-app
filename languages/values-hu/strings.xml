@@ -106,7 +106,8 @@ Hiba történt.</string>
     <string name="_name__download_failed"><xliff:g example="APKPure" id="name">%1$s</xliff:g> letöltési hiba</string>
     <string name="touch_to_download_it_again">Érintse meg a letöltés megismétléséhez</string>
 
-    <string name="download_percent"><xliff:g example="50" id="percent">%1$d</xliff:g> %%</string>
+    <string name="download_percent"><xliff:g example="50" id="percent">%1$d</xliff:g>
+%%</string>
     <string name="pause">Szünet</string>
     <string name="continue_">Folytatás</string>
     <string name="restart">Újraindítás</string>
@@ -314,7 +315,7 @@ Hiba történt.</string>
     <string name="download_complete_installation_setting_entries_only">Csak akkor telepítse, ha az alkalmazás az előtérben van</string>
     <string name="download_complete_installation_setting_entries_never">Soha ne telepítse</string>
 
-    <string name="reply_dialog_marked_words">A kép alapján törölhető</string>
+    <string name="reply_dialog_marked_words">Hosszan nyomja meg a kiválasztott képet a törléshez.</string>
     <string name="reply_comment">Válasz a hozzászólásra</string>
     <string name="save_original_image">Az eredeti kép megőrzése</string>
     <string name="already_save"><xliff:g id="path" example="ApKPure/photo">%1$s</xliff:g> mentve</string>
@@ -408,4 +409,67 @@ Hiba történt.</string>
     <string name="app_detail_reply_desc">Fordított sorrend</string>
     <string name="app_detail_reply_floor">%d楼</string>
 
-    </resources>
+    <string name="app_detail_comment_order_array_default">Rendezés alapértelmezés szerint</string>
+    <string name="app_detail_comment_order_array_most_recent">Legutóbbi</string>
+    <string name="app_detail_comment_order_array_new">Legújabb</string>
+    <string name="message_all">ÖSSZES</string>
+    <string name="message_reply">VÁLASZOK</string>
+    <string name="message_praise">POZITÍV SZAVAZATOK</string>
+    <string name="message_notifications_praise">Pozitívan szavazott az Ön megjegyzésére</string>
+    <string name="message_notifications_reply">Válaszolt az Ön megjegyzésére</string>
+    <string name="message_notifications_login">Kérjük, jelentkezzen be az oldal megtekintéséhez.</string>
+
+    <string name="comment_submitting">Küldés…</string>
+    <string name="message">Üzenet</string>
+
+    <string name="push_title_info_reply">%s válaszolt az Ön megjegyzésére!</string>
+    <string name="push_title_info_upvoted">%s pozitívan szavazott az Ön megjegyzésére!</string>
+    <string name="download_list">Letöltési lista</string>
+    <string name="can_be_update">Frissíthető</string>
+    <string name="install_list">Telepítve</string>
+    <string name="no_download">Nincs letöltés</string>
+    <string name="downloads">Letöltések</string>
+
+    <string name="change_language_failed">Nem sikerült nyelvet váltani!</string>
+    <string name="comment_reply_tell_msg">Ez a megjegyzés el lett távolítva!</string>
+
+    <string name="notification_setting">Értesítések</string>
+    <string name="reply_notification">Válasz értesítések</string>
+    <string name="reply_notification_msg">Értesítések fogadása új válaszüzenetek esetén</string>
+    <string name="like_notification">Pozitív szavazati értesítések</string>
+    <string name="like_notification_msg">Értesítések fogadása új pozitív szavazati üzenetek esetén</string>
+    <string name="gif_tip">gif</string>
+    <string name="submit_comment_title_hint">Tárgy (Nem kötelező)</string>
+
+    <string name="comment_vote_string">Szavazás</string>
+    <string name="comment_reply_three">Válasz</string>
+    <string name="comment_item_fold">1 megjegyzés össze lett vonva</string>
+
+    <plurals name="comment_reply_item_fold">
+	<item quantity="one"><xliff:g example="1" id="count">%1$d</xliff:g> válasz összevonva</item>
+	<item quantity="other"><xliff:g example="2" id="count">%1$d</xliff:g> válasz összevonva</item>
+</plurals>
+
+    <string name="comment_no_reply">Nahát, itt nincs semmi.</string>
+    <string name="comment_reply_info_name">Részletek</string>
+    <string name="set_updates_notification">Alkalmazás frissítések érhetők el</string>
+    <string name="set_updates_notification_msg">Értesítsen, ha új alkalmazás frissítés érhető el. Ajánlott beállítás: Be</string>
+    <string name="app_detail_unknow_text">Az APKPure régi verziója nem támogatja az új funkciókat, kérjük, frissítsen a legújabbra.</string>
+    <string name="comment_detail_original">Eredeti megjegyzés megtekintése</string>
+    <string name="comment_comment_newest">Legújabb</string>
+    <string name="comment_comment_oldest">Legrégebbi</string>
+
+    <string name="edit">Szerkesztés</string>
+    <string name="menu_copy">Másolás</string>
+    <string name="menu_cancel">Mégse</string>
+    <string name="delete_all_download_history">Törli az összes letöltési előzményt?</string>
+    <string name="delete_the_historical_record">Törli az előzmény bejegyzést?</string>
+    <string name="download_history">Letöltési előzmények</string>
+
+    <string name="sub_comment_dialog_title">Egy videó hozzáadása</string>
+    <string name="sub_comment_dialog_des_tv">Csak YouTube URL-címek elemzésének támogatása</string>
+    <string name="sub_comment_dialog_link_et">Adja meg a videó URL-címét itt</string>
+    <string name="sub_comment_dialog_link_null">A videó URL-címe nem lehet üres</string>
+    <string name="sub_comment_progress_msg">Videó hozzáadása…</string>
+
+</resources>

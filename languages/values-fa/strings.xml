@@ -266,7 +266,7 @@
 	<item quantity="other">مشاهده تمام <xliff:g example="2" id="count">%1$d</xliff:g> پاسخ‌ها</item>
 </plurals>
 
-    <string name="app_detail_customer_reviews">نظرات مشتریان</string>
+    <string name="app_detail_customer_reviews">نظرات کاربران</string>
     <string name="app_detail_comment_type_web">وب</string>
     <string name="app_submit_submit">ارسال…</string>
     <string name="app_submit_anonymous_comment">اضافه کردن نظر</string>
@@ -401,4 +401,53 @@
     <string name="save_original_image">نگه‌داشتن تصویر اصلی</string>
     <string name="login_select_way_to_login">لطفا یکی از راه‌ها را برای وارد شدن انتخاب کنید</string>
 
-    </resources>
+    <string name="app_detail_comment_order_array_default">مرتب‌سازی به‌صورت پیش‌فرض</string>
+    <string name="app_detail_comment_order_array_new">جدیدترین</string>
+    <string name="message_all">همه</string>
+    <string name="message_reply">پاسخ‌ها</string>
+    <string name="message_praise">رای‌های‌موافق</string>
+    <string name="message_notifications_login">برای مشاهده این صفحه لطفا وارد شوید.</string>
+
+    <string name="comment_submitting">در حال ارسال…</string>
+    <string name="message">پیام</string>
+
+    <string name="download_list">فهرست دانلود</string>
+    <string name="can_be_update">نیاز به‌بروز رسانی دارد</string>
+    <string name="install_list">نصب شده است</string>
+    <string name="no_download">هنوز هیچ دانلودی انجام نشده</string>
+    <string name="downloads">دانلود‌ها</string>
+
+    <string name="change_language_failed">تغییر زبان انجام نشد!</string>
+    <string name="comment_reply_tell_msg">این نظر حذف شده است!</string>
+
+    <string name="notification_setting">آگاه‌سازی‌ها</string>
+    <string name="reply_notification">آگاه‌سازی پاسخ</string>
+    <string name="reply_notification_msg">زمانی که کسی به نظر شما پاسخ داد به شما اطلاع می‌دهد</string>
+    <string name="like_notification">آگاه‌سازی رای‌موافق</string>
+    <string name="like_notification_msg">زمانی که کسی به نظر شما رای‌موافق داد به شما اطلاع می‌دهد</string>
+    <string name="gif_tip">گیف</string>
+    <string name="submit_comment_title_hint">موضوع (اختیاری)</string>
+
+    <string name="comment_vote_string">رای</string>
+    <string name="comment_reply_three">پاسخ</string>
+    <string name="comment_no_reply">آخ، هیچ چیزی در اینجا وجود ندارد.</string>
+    <string name="comment_reply_info_name">جزئیات</string>
+    <string name="set_updates_notification">به‌روز رسانی برنامه‌هایی که در دسترس می‌باشند</string>
+    <string name="set_updates_notification_msg">به شما اطلاع می‌دهیم از طریق آگاه‌سازی که برنامه‌های جدیدی که نیاز به به‌روز رسانی دارند در دسترس هستند. توصیه می‌کنیم که این گزینه را: روشن کنید</string>
+    <string name="app_detail_unknow_text">نسخه قدیمی برنامه APKPure از امکانات جدید پشتیبانی نمی‌کنید، لطفا به آخرین نسخه به‌روز رسانی کنید.</string>
+    <string name="comment_comment_newest">جدیدترین‌</string>
+    <string name="comment_comment_oldest">قدیمی‌ترین</string>
+
+    <string name="edit">ویرایش</string>
+    <string name="menu_copy">کپی</string>
+    <string name="menu_cancel">انصراف</string>
+    <string name="delete_all_download_history">آیا شما تمایل دارید که تمام تاریخچه دانلود را حذف کنید؟</string>
+    <string name="download_history">تاریخچه دانلود</string>
+
+    <string name="sub_comment_dialog_title">اضافه کردن ویدیو</string>
+    <string name="sub_comment_dialog_des_tv">فقط ویدیو‌های سایت یوتیوب را پشتیبانی می‌کنیم</string>
+    <string name="sub_comment_dialog_link_et">آدرس ویدیو را اینجا وارد کنید</string>
+    <string name="sub_comment_dialog_link_null">آدرس ویدیو نمی‌تواند خالی باشد</string>
+    <string name="sub_comment_progress_msg">در حال اضافه کردن ویدیو…</string>
+
+</resources>
