@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<resources><string name="action_settings">ထပ္မံျပဳျပင္မည္</string>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2"><string name="action_settings">ထပ္မံျပဳျပင္မည္</string>
     <string name="action_search">လိုအပ္သည္မ်ားကို ႐ွာမည္</string>
     <string name="action_management">ကြပ္ ကဲမႈ</string>
 
@@ -23,4 +23,28 @@
 
     <string name="management">ကြက္ကဲမႈ</string>
     <string name="app_updates">myat linnaunh</string>
+    <string name="app_management">App စီမံျခင္း</string>
+    <string name="app_uninstall">App ဖ်က္ျခင္း</string>
+    <string name="apk_management">APK စီမံျခင္း</string>
+    <string name="apk_xapk_management">APK ႏွင့္ XAPK စီမံျခင္း</string>
+    <string name="download_management">ေဒါင္းလုဒ္</string>
+    <string name="settings">စက္တင္</string>
+    <string name="about">အေၾကာင္း</string>
+
+
+    <string name="about_title">အေၾကာင္းအရာ<xliff:g example="APKPure" id="app_name">%1$s</xliff:g></string>
+    <string name="check_update">ဗား႐ွင္းအသစ္ စစ္ပါ</string>
+    <string name="quit">ထြက္မည္</string>
+    <string name="want_to_quit">ထြက္ရန္ေသခ်ာပါသလား</string>
+
+    <string name="install">Install လုပ္မည္</string>
+    <string name="open">ဖြင့္မည္</string>
+    <string name="delete">ဖ်က္မည္</string>
+    <string name="delete_all">အားလံုးဖ်က္မည္</string>
+    <string name="properties">အခ်က္အလက္</string>
+    <string name="want_to_delete_file">ဤဖိုင္ကိုဖ်က္ခ်င္ပါသလား</string>
+    <string name="want_to_delete_all_files">ဖိုင္အားလံုးကိုဖ်က္မွာလား</string>
+    <string name="file_has_been_deleted">ဖ်က္ပီးပီ</string>
+    <string name="failed_to_delete_file">ဖ်က္မရပါ</string>
+    <string name="user_canceled">အသံုးျပဳသူကမလုပ္ေတာ့ပါ</string>
     </resources>
