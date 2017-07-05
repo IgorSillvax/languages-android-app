@@ -452,5 +452,17 @@
 
 <string name="app_detail_comment_order_array_most_recent">ارسال‌های اخیر</string>
     <string name="comment_detail_original">مشاهده نظر اصلی</string>
-    <string name="message_notifications_praise"></string>
+    <string name="message_notifications_praise">رای‌موافق نظر شما</string>
+    <string name="message_notifications_reply">پاسخ‌های نظر شما</string>
+    <string name="is_comment">نظر هست…</string>
+    <string name="push_title_info_reply">%s پاسخ‌داده‌اند به نظر شما!</string>
+    <string name="push_title_info_upvoted">%s رای‌موافق به نظر شما داده‌اند!</string>
+    <string name="comment_item_fold">1 نظر جمع شده است</string>
+
+    <plurals name="comment_reply_item_fold">
+	<item quantity="one"><xliff:g example="1" id="count">%1$d</xliff:g> پاسخ جمع شده است</item>
+	<item quantity="other"><xliff:g example="2" id="count">%1$d</xliff:g> پاسخ جمع شده است</item>
+</plurals>
+
+    <string name="delete_the_historical_record">حذف سابقه تاریخی؟</string>
     </resources>
