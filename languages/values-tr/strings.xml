@@ -119,7 +119,7 @@
     <string name="remove">Kaldır</string>
     <string name="want_to_remove_download_item">Bu indirme öğesini silmek istiyor musunuz?</string>
 
-    <string name="search">Ara</string>
+    <string name="search">Arama</string>
     <string name="search_for_apps">Uygulama Ara</string>
     <string name="trending_searches">Trend Aramalar</string>
 
@@ -195,11 +195,11 @@
     <string name="failed_to_request_app_detail">Uygulama bilgisi isteği başarısız oldu.</string>
     <string name="failed_to_request_app_asset">Uygulama veri bilgisi isteği başarısız oldu.</string>
     <string name="external_storage_not_usable">
-        <![CDATA[<big><b>Dahili hafızanıza erişmemiz gerek. Lütfen buna izin verin.</b></big>]]>
-    </string>
+ <big><b>Dahili hafızanıza erişmemiz gerek. Lütfen buna izin verin.</b></big>
+ </string>
     <string name="external_storage_permission_denied">
-        <![CDATA[<big><b>Dahili hafızanıza erişmemiz gerek. Lütfen buna izin verdiğinizden emin olun.</b></big>]]>
-    </string>
+ <big><b>Dahili hafızanıza erişmemiz gerek. Lütfen buna izin verdiğinizden emin olun.</b></big>
+ </string>
 
     <string name="update__date___size_">Güncelleştirme: <xliff:g id="date" example="Mar 3, 2016">%1$s</xliff:g>, <xliff:g id="size" example="1024 kB">%2$s</xliff:g></string>
 
@@ -241,7 +241,15 @@
     <string name="auto_service_dialog_message">Otomatik Kurulum\'a gerekli erişimleri sağlamalısınız, hiçbir risk barındırmadan güvenli bir şekilde kullanabilirsiniz.</string>
 
     <string name="auto_service_title">APKPure Otomatik Kurulum</string>
-    <string name="auto_service_description">\"APKPure Otomatik Kurulum\"u aktifleştirerek, \"Otomatik Kurulum\"un sorunsuz çalışmasını sağlayın.\n\n\"APKPure Otomatik Kurulum\" size güncelleme gerektiren uygulamaların tek bir tıklamayla otomatik olarak güncellenmesini sağlar, artık sürekli telefonunuzu kontrol etmek zorunda değilsiniz.\n\nBu özelliği aktifleştirdiğiniz zaman, sistem uyarılarını görebilirsiniz, erişilebilirliği sağlamak için lütfen \"Tamam\" butonuna tıklayın.\n\nAPKPure\'nin düzgün çalışmasını sağlamak için lütfen Temizlik Uygulamanızda APKPure\'yi \"Beyaz Lise\" ye ekleyin.\n\nYukarıdaki özellikler Android 4.1+ sürümlerde desteklenmektedir, root erişimine gereksinim duymaz. Size hiçbir kişisel bilgilerinizi toplamayacağımıza dair söz veriyoruz. Lütfen bizimle iletişime geçerken rahat olun.</string>
+    <string name="auto_service_description">\"APKPure Otomatik Kurulum\"u aktifleştirerek, \"Otomatik Kurulum\"un sorunsuz çalışmasını sağlayın.
+
+\"APKPure Otomatik Kurulum\" size güncelleme gerektiren uygulamaların tek bir tıklamayla otomatik olarak güncellenmesini sağlar, artık sürekli telefonunuzu kontrol etmek zorunda değilsiniz.
+
+Bu özelliği aktifleştirdiğiniz zaman, sistem uyarılarını görebilirsiniz, erişilebilirliği sağlamak için lütfen \"Tamam\" butonuna tıklayın.
+
+APKPure\'nin düzgün çalışmasını sağlamak için lütfen Temizlik Uygulamanızda APKPure\'yi \"Beyaz Lise\" ye ekleyin.
+
+Yukarıdaki özellikler Android 4.1+ sürümlerde desteklenmektedir, root erişimine gereksinim duymaz. Size hiçbir kişisel bilgilerinizi toplamayacağımıza dair söz veriyoruz. Lütfen bizimle iletişime geçerken rahat olun.</string>
 
     <string name="auto_service_install">Yükle</string>
     <string name="auto_service_ensure">Tamam</string>
