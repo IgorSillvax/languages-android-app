@@ -420,4 +420,64 @@ Les fonctions mentionnées ci-dessus supportent Android 4.1 et +, sans besoin de
 <string name="app_detail_comment_order_array_default">Tri par défaut</string>
     <string name="app_detail_comment_order_array_most_recent">Plus récent</string>
     <string name="app_detail_comment_order_array_new">Le plus récent</string>
+    <string name="message_all">TOUS</string>
+    <string name="message_reply">RÉPONSES</string>
+    <string name="message_praise">VOTES POSITIVES</string>
+    <string name="message_notifications_praise">Votez positivement à votre commentaire</string>
+    <string name="message_notifications_reply">Répondez à votre commentaire</string>
+    <string name="message_notifications_login">Veuillez vous connecter pour voir cette page.</string>
+
+    <string name="comment_submitting">Soumettre…</string>
+    <string name="message">Message</string>
+
+    <string name="push_title_info_reply">%s à répondu à votre commentaire !</string>
+    <string name="push_title_info_upvoted">%s à côté positivement à votre commentaire !</string>
+    <string name="download_list">Télécharger la liste</string>
+    <string name="can_be_update">Peut être mis à jour</string>
+    <string name="install_list">Installé</string>
+    <string name="no_download">Aucun téléchargement</string>
+    <string name="downloads">Téléchargements</string>
+
+    <string name="change_language_failed">"Le passage d\'une langue a échoué  !"</string>
+    <string name="comment_reply_tell_msg">Ce commentaire a été enlevé !</string>
+
+    <string name="notification_setting">Notifications</string>
+    <string name="reply_notification">Répondre aux notifications</string>
+    <string name="reply_notification_msg">Recevoir les notifications pour les nouveaux messages</string>
+    <string name="like_notification">Notifications positivement votées</string>
+    <string name="like_notification_msg">Recevoir les notifications pour les nouveaux messages positivement votés</string>
+    <string name="gif_tip">gif</string>
+    <string name="submit_comment_title_hint">Sujet (facultatif)</string>
+
+    <string name="comment_vote_string">Voter</string>
+    <string name="comment_reply_three">Répondre</string>
+    <string name="comment_item_fold">1 commentaire a été écrasé</string>
+
+    <string name="comment_no_reply">Waouh, il n\'y a rien ici.</string>
+    <string name="comment_reply_info_name">Détails</string>
+    <string name="set_updates_notification">Mises à de l\'application disponible</string>
+    <string name="set_updates_notification_msg">Avertir de la présence des mises à jour de l\'application. Paramètre recommandé : On</string>
+    <string name="app_detail_unknow_text">L\'ancienne version de APKPure ne supporte pas les nouvelles fonctionnalités, veuillez mettre à jour vers la dernière version.</string>
+    <string name="comment_detail_original">Voir le commentaire original</string>
+    <string name="comment_comment_newest">Plus récent</string>
+    <string name="comment_comment_oldest">Plus ancien</string>
+
+    <string name="edit">Modifier</string>
+    <string name="menu_copy">Copier</string>
+    <string name="menu_cancel">Annuler</string>
+    <string name="delete_all_download_history">Supprimer l\'entièreté de l\'historique de téléchargement ?</string>
+    <string name="delete_the_historical_record">"Supprimer l\'entièreté  des données historiques ?"</string>
+    <string name="download_history">Télécharger l\'historique</string>
+
+    <string name="sub_comment_dialog_title">Ajouter une vidéo</string>
+    <string name="sub_comment_dialog_des_tv">Support d\'analyse des URL YouTube uniquement</string>
+    <string name="sub_comment_dialog_link_et">Entrer l\'adresse URL de la vidéo ici</string>
+    <string name="sub_comment_dialog_link_null">L\'adresse URL de la vidéo ne peut pas être vierge</string>
+    <string name="sub_comment_progress_msg">Ajouter une vidéo…</string>
+
+<plurals name="comment_reply_item_fold">
+	<item quantity="one"></item>
+	<item quantity="other"></item>
+</plurals>
+
     </resources>
