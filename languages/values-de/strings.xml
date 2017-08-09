@@ -277,8 +277,84 @@ Die genannten Funktionen werden ab Android 4.1 unterstützt, es ist kein Root-Zu
     <string name="report">Melden</string>
     <string name="app_submit_title_toast">Du musst einen Titel angeben!</string>
     <plurals name="app_detail_see_all_replies">
-	<item quantity="one">&lt;xliff:g xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\" example=\"1\" id=\"count\"&gt;Antwort anzeigen</item>
-	<item quantity="other">Alle &lt;xliff:g xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\" example=\"2\" id=\"count\"&gt; Antworten anzeigen</item>
+	<item quantity="one"><xliff:g example="1" id="count">%1$d</xliff:g> Antwort anzeigen</item>
+	<item quantity="other">Alle <xliff:g example="2" id="count">%1$d</xliff:g> Antworten anzeigen</item>
 </plurals>
 
+    <string name="app_detail_customer_reviews">Kundenmeinungen</string>
+    <string name="app_submit_submit">Absenden…</string>
+    <string name="app_submit_msg_toast">Du musst etwas eingeben!</string>
+    <string name="app_submit_name_toast">Bitte gib einen Nickname an!</string>
+    <string name="app_submit_email_toast">Bitte gib eine gültige Mailadresse an!</string>
+    <string name="app_submit_title_hint">Bitte gib einen Titel an</string>
+    <string name="app_submit_msg_hint">Bitte gib deine Meinung ein</string>
+    <string name="app_submit_nickname">Nickname</string>
+    <string name="app_submit_email">E-Mail</string>
+    <string name="app_submit_submit_title">Absenden</string>
+    <string name="app_submit_reply_to">Antwort an</string>
+
+    <string name="app_detail_tab_one">Details</string>
+    <string name="app_detail_tab_two">Kommentare</string>
+    <string name="app_detail_tab_three">Verwandt</string>
+
+    <string name="app_detail_comment_order_array_default">Standardsortierung</string>
+    <string name="app_detail_comment_order_array_new">Neueste</string>
+    <string name="app_detail_comment_order_array_best">Heiß</string>
+
+    <string name="download_complete_installation_setting_entries_always">Immer installieren</string>
+    <string name="download_complete_installation_setting_entries_only">Nur installieren, wenn App im Vordergrund</string>
+    <string name="download_complete_installation_setting_entries_never">Niemals installieren</string>
+
+    <string name="reply">Antworten</string>
+    <string name="reply_dialog_marked_words">Lange auf ein gewähltes Bild tippen, um es zu löschen.</string>
+    <string name="reply_comment">Auf Kommentar antworten</string>
+    <string name="save_original_image">Originalbild behalten</string>
+    <string name="load_end">Keine weiteren Daten</string>
+    <string name="load_failed_click_retry">Ladefehler, \"Erneut versuchen\" wählen</string>
+    <string name="loading">Lädt…</string>
+
+    <string name="zxing_msg_default_status">Platziere den QR-Code im Sucher, um ihn zu Scannen.</string>
+    <string name="zxing_msg_parser_status">Scannen fehlgeschlagen, bitte erneut probieren.</string>
+
+    <string name="permission_denied">Zugriff verweigert!</string>
+
+    <string name="login_title">Login</string>
+    <string name="sign_out">Abmelden</string>
+
+    <string name="delete_comment">Kommentar löschen</string>
+    <string name="delete_comment_msg">Bist du sicher, dass du diesen Kommentar löschen möchtest?</string>
+    <string name="upload_cancel">Upload wurde abgebrochen</string>
+    <string name="user_info_edit_title">Profil</string>
+    <string name="user_info_edit_portrait_tv">Profilbild</string>
+    <string name="app_submit_star_toast">Gib eine Bewertung an!</string>
+    <string name="share_app_url_comment"> <xliff:g example="APKPure" id="user_name">%1$s</xliff:g>\'s kommentiert <xliff:g example="APKPure" id="app_name">%2$s</xliff:g> (von @<xliff:g example="APKPure" id="social_network_name">%3$s</xliff:g>), <xliff:g example="https://apkpure.com/p/com.apkpure.aegon" id="app_url">%4$s</xliff:g></string>
+
+    <string name="input_reply_content">Inhalt der Antwort:</string>
+    <string name="already_save"><xliff:g id="path" example="ApKPure/photo">%1$s</xliff:g> gespeichert</string>
+
+    <string name="publish">Posten</string>
+    <string name="scan_qr_code_hint">Vor dem Scannen des QR-Codes muss der Zugriff auf die Kamera
+erlaubt werden.</string>
+    <string name="tip_permission_camera_storage">Keine Berechtigung für Kamera und SD-Karte, öffne das Rechtemanagement</string>
+    <string name="login_select_way_to_login">Wähle aus, wie du dich einloggen möchtest</string>
+
+    <string name="user_info_edit_username_tv">Benutzername</string>
+    <string name="user_info_edit_nickname_tv">Nickname</string>
+    <string name="user_info_edit_email_tv">E-Mail</string>
+    <string name="user_info_edit_gender_tv">Geschlecht</string>
+    <string name="user_info_edit_birthday_tv">Geburtstag</string>
+    <string name="user_info_edit_change_pwd_tv">Passwort zurücksetzen</string>
+    <string name="user_info_edit_login_out_tv">Abmelden</string>
+    <string name="user_info_edit_not_choose">Unbekannt</string>
+    <string name="user_info_edit_gender_male">Männlich</string>
+    <string name="user_info_edit_gender_female">Weiblich</string>
+    <string name="user_info_edit_portrait_album">Wähle ein Foto aus der Gallerie aus</string>
+    <string name="user_info_edit_portrait_take_photo">Mache ein Foto mit der Kamera</string>
+    <string name="user_info_edit_portrait_error">Bildtyp nicht unterstützt</string>
+    <string name="user_info_edit_ok">OK</string>
+    <string name="user_info_edit_cancel">Abbrechen</string>
+
+    <string name="update_nick_title">Nickname ändern</string>
+    <string name="update_email_title">E-Mail ändern</string>
+    <string name="update_nick_name_et">Gib den neuen Nichname ein</string>
     </resources>
