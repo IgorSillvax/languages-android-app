@@ -44,7 +44,7 @@
     <string name="install__label_">Installiere - <xliff:g id="app_label" example="APKPure">%1$s</xliff:g></string>
     <string name="user_canceled">Abbruch durch den Benutzer.</string>
     <string name="io_error">E/A-Fehler. Eventuell fehlt genügend Speicherplatz für eine erfolgreiche Installation.</string>
-    <string name="file_format_error">Fehler der Dateiformatierung.</string>
+    <string name="file_format_error">Dateiformat fehlerhaft.</string>
     <string name="parsing_xapk">Auslesen der XAPK …</string>
     <string name="installing_obb">OBB Dateien werden installiert …</string>
     <string name="extracting_apk">Auspacken der APK-Datei …</string>
@@ -97,7 +97,7 @@
 	<item quantity="other"><xliff:g id="count" example="2">%1$d</xliff:g> Dateien werden heruntergeladen</item>
 </plurals>
     <string name="downloads_complete">Downloads abgeschlossen</string>
-    <string name="touch_for_view_all_downloads">Berühre hier, um alle Downloads anzusehen</string>
+    <string name="touch_for_view_all_downloads">Tippe hier, um alle Downloads anzusehen</string>
     <string name="_name__download_failed"><xliff:g id="name" example="APKPure">%1$s</xliff:g> Download fehlgeschlagen</string>
     <string name="touch_to_download_it_again">Berühre hier, um den Download zu wiederholen</string>
 
@@ -112,7 +112,7 @@
     <string name="download">Download</string>
     <string name="downloading">Herunterladen</string>
     <string name="waiting">Wartet</string>
-    <string name="preparing">Bereitet vor</string>
+    <string name="preparing">Vorbereiten</string>
     <string name="completed">Abgeschlossen</string>
     <string name="paused">Pausiert</string>
     <string name="failed">Fehlgeschlagen</string>
@@ -187,7 +187,7 @@
  "</string>
     <string name="flag_as_inappropriate">Als unangemessen melden</string>
     <string name="pause_all">Alles anhalten</string>
-    <string name="continue_all">Weiter</string>
+    <string name="continue_all">Alle fortsetzen</string>
     <string name="waiting_to_download">Warten auf Download</string>
     <string name="want_to_remove_all_download_items">Möchtest du alle Downloads löschen?</string>
     <string name="download_over_cellular">Download über Mobilfunk</string>
@@ -269,7 +269,7 @@ Die genannten Funktionen werden ab Android 4.1 unterstützt, es ist kein Root-Zu
     <string name="similar_or_related">Ähnlich oder zusammenhängend</string>
     <string name="more_from_developer">Mehr vom Entwickler</string>
     <string name="more_large">Mehr</string>
-    <string name="feedback">Rückmeldung</string>
+    <string name="feedback">Feedback</string>
 
     <string name="changing_language">Ändere Sprache, bitte warten…</string>
     <string name="download_complete_installation_setting">Installationsoption nach dem Herunterladen</string>
