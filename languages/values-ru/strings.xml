@@ -300,7 +300,7 @@
     <string name="app_detail_tab_two">Комментарии</string>
     <string name="app_detail_comment_order_array_recent">Недавние</string>
     <string name="app_detail_comment_order_array_newest">Новые</string>
-    <string name="app_detail_comment_order_array_best">Лучшие</string>
+    <string name="app_detail_comment_order_array_best">Горячие</string>
 
     <string name="download_complete_installation_setting">Установить после загрузки</string>
 
@@ -401,7 +401,7 @@
     <string name="app_detail_tab_three">Похожие</string>
 
     <string name="input_reply_content">Текст ответа:</string>
-    <string name="publish">Публичный</string>
+    <string name="publish">Опубликовать</string>
     <string name="load_end">Загрузка окончена</string>
     <string name="user_info_edit_portrait_tv">Аватар</string>
     <string name="user_info_edit_not_choose">Unknown</string>
@@ -412,4 +412,21 @@
 
     <string name="app_detail_comment_type_web">web</string>
     <string name="app_detail_comment_order_array_default">Сортировать по умолчанию</string>
+    <string name="recommend">Открыть</string>
+    <string name="share_app_url_comment"> <xliff:g example="APKPure" id="user_name">%1$s</xliff:g> комментарий к <xliff:g example="APKPure" id="app_name">%2$s</xliff:g> (из @<xliff:g example="APKPure" id="social_network_name">%3$s</xliff:g>), <xliff:g example="https://apkpure.com/p/com.apkpure.aegon" id="app_url">%4$s</xliff:g></string>
+
+    <string name="app_detail_comment_order_array_most_recent">Самые последние</string>
+    <string name="app_detail_comment_order_array_new">Новые</string>
+    <string name="reply_dialog_marked_words">Для удаления выделенного рисунка требуется длительное нажатие.</string>
+    <string name="load_failed_click_retry">Сбой загрузки, нажмите кнопку повторить</string>
+    <string name="loading">Загрузка…</string>
+
+    <string name="scan_qr_code_hint">Перед использованием сканирования QR кода вы должны предоставить разрешение камеры
+ которая требуется для сканирования QR кода.</string>
+    <string name="zxing_msg_default_status">Пожалуйста, поместите QR-код внутри видоискателя для его сканирования.</string>
+    <string name="zxing_msg_parser_status">Не удалось выполнить сканирование, попробуйте снова отсканировать QR-код.</string>
+
+    <string name="message_all">ВСЕ</string>
+    <string name="message_reply">ОТВЕТЫ</string>
+    <string name="message_praise">ГОЛОСОВАТЬ</string>
     </resources>
