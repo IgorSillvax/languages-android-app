@@ -358,7 +358,7 @@
     <string name="update_pwd_new_pwd_null_tv">Поле \"Новый пароль\" не может быть пустым</string>
     <string name="update_pwd_new_confrim_tv">Поля \"Новый пароль\" и \"Подтверждение пароля\" не совпадают</string>
     <string name="update_pwd_save_bt">Сохранить</string>
-    <string name="update_save_success">Успешно сохранено</string>
+    <string name="update_save_success">Успешно сохранено!</string>
     <string name="crop__cancel" ignore="ButtonCase">Отменить</string>
     <string name="crop__done">Выполнено</string>
     <string name="crop__pick_error">Некорректной тип файла изображения</string>
@@ -413,7 +413,7 @@
     <string name="app_detail_comment_type_web">web</string>
     <string name="app_detail_comment_order_array_default">Сортировать по умолчанию</string>
     <string name="recommend">Открыть</string>
-    <string name="share_app_url_comment"> <xliff:g example="APKPure" id="user_name">%1$s</xliff:g> комментарий к <xliff:g example="APKPure" id="app_name">%2$s</xliff:g> (из @<xliff:g example="APKPure" id="social_network_name">%3$s</xliff:g>), <xliff:g example="https://apkpure.com/p/com.apkpure.aegon" id="app_url">%4$s</xliff:g></string>
+    <string name="share_app_url_comment"> Комментарий <xliff:g example="APKPure" id="user_name">%1$s</xliff:g>"  к "<xliff:g example="APKPure" id="app_name">%2$s</xliff:g> (из @<xliff:g example="APKPure" id="social_network_name">%3$s</xliff:g>), <xliff:g example="https://apkpure.com/p/com.apkpure.aegon" id="app_url">%4$s</xliff:g></string>
 
     <string name="app_detail_comment_order_array_most_recent">Самые последние</string>
     <string name="app_detail_comment_order_array_new">Новые</string>
@@ -421,8 +421,8 @@
     <string name="load_failed_click_retry">Сбой загрузки, нажмите кнопку повторить</string>
     <string name="loading">Загрузка…</string>
 
-    <string name="scan_qr_code_hint">Перед использованием сканирования QR кода вы должны предоставить разрешение камеры
- которая требуется для сканирования QR кода.</string>
+    <string name="scan_qr_code_hint">Перед использованием сканирования QR-кода Вы должны предоставить разрешение камеры
+ которая требуется для сканирования QR-кода.</string>
     <string name="zxing_msg_default_status">Пожалуйста, поместите QR-код внутри видоискателя для его сканирования.</string>
     <string name="zxing_msg_parser_status">Не удалось выполнить сканирование, попробуйте снова отсканировать QR-код.</string>
 
@@ -456,9 +456,9 @@
     <string name="like_notification_msg">Получать уведомления для новых сообщений о поднятии рейтинга</string>
     <string name="message_notifications_praise">Рейтинг Вашего комментария был поднят</string>
     <string name="message_notifications_reply">На Ваш комментарий ответили</string>
-    <string name="message_notifications_login">Пожалуйста, войдите, чтобы увидеть эту страницу</string>
+    <string name="message_notifications_login">Пожалуйста, войдите, чтобы увидеть эту страницу.</string>
 
-    <string name="is_comment">Комментарий</string>
+    <string name="is_comment">Комментарий…</string>
     <string name="push_title_info_reply">%s ответил на Ваш комментарий!</string>
     <string name="push_title_info_upvoted">%s поднял рейтинг Вашего комментария!</string>
     <plurals name="comment_reply_item_fold">
