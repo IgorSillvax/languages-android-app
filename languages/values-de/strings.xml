@@ -273,7 +273,7 @@ Die genannten Funktionen werden ab Android 4.1 unterstützt, es ist kein Root-Zu
 
     <string name="changing_language">Ändere Sprache, bitte warten…</string>
     <string name="download_complete_installation_setting">Installationsoption nach dem Herunterladen</string>
-    <string name="recommend">entdecken</string>
+    <string name="recommend">Entdecken</string>
     <string name="report">Melden</string>
     <string name="app_submit_title_toast">Du musst einen Titel angeben!</string>
     <plurals name="app_detail_see_all_replies">
@@ -295,7 +295,7 @@ Die genannten Funktionen werden ab Android 4.1 unterstützt, es ist kein Root-Zu
 
     <string name="app_detail_tab_one">Details</string>
     <string name="app_detail_tab_two">Kommentare</string>
-    <string name="app_detail_tab_three">Verwandt</string>
+    <string name="app_detail_tab_three">Ähnlich</string>
 
     <string name="app_detail_comment_order_array_default">Standardsortierung</string>
     <string name="app_detail_comment_order_array_new">Neueste</string>
@@ -357,4 +357,115 @@ erlaubt werden.</string>
     <string name="update_nick_title">Nickname ändern</string>
     <string name="update_email_title">E-Mail ändern</string>
     <string name="update_nick_name_et">Gib den neuen Nichname ein</string>
+    <string name="app_detail_comment_order_array_most_recent">Neueste</string>
+    <string name="update_nick_name_tv">Der neue Aliasname darf nicht leer sein</string>
+    <string name="update_email_name_et">Email eingeben</string>
+    <string name="update_eamil_name_tv">Email darf nicht leer sein</string>
+    <string name="update_nickname_error">Aliasname schon besetzt, bitte anderen auswählen!</string>
+    <string name="message_all">Alle</string>
+    <string name="message_reply">Antworten</string>
+    <string name="update_pwd_title">Passwort zurücksetzen</string>
+    <string name="update_pwd_current_pwd_et">Altes Passwort</string>
+    <string name="update_pwd_new_pwd_et">Neues Passworr</string>
+    <string name="update_pwd_Confirm_pwd_et">Neues Passwort bestätigen</string>
+    <string name="upload_avatar">Hochladen…</string>
+    <string name="update_pwd_current_null_tv">Altes Passwort darf nicht leer sein</string>
+    <string name="update_pwd_Confirm_null_tv">Bestätigung Passwort darf nicht leer sein</string>
+    <string name="update_pwd_new_pwd_null_tv">Neues Passwort darf nicht leer sein</string>
+    <string name="update_pwd_new_confrim_tv">Die eingegebenen Passwörter stimmen nicht überein</string>
+    <string name="update_pwd_save_bt">Speichern</string>
+    <string name="update_save_success">Erfolgreich gespeichert!</string>
+    <string name="crop__cancel" ignore="ButtonCase">Bild zuschneiden</string>
+    <string name="crop__done">Erledigt</string>
+    <string name="crop__pick_error">Ungültiger Bilddateityp</string>
+    <string name="crop__saving">Speichere Foto…</string>
+    <string name="crop__wait">Bitte warten…</string>
+
+    <string name="is_comment">Kommentar ist…</string>
+    <string name="comment_cancel">Kommentar wurde abgebrochen</string>
+    <string name="comment_submitting">Übermittle…</string>
+    <string name="comment_replying">Antworte…</string>
+    <string name="register_term_of_service">APKPure Nutzungsbedingungen</string>
+
+    <string name="set_permissions">Berechtigungen</string>
+    
+    <string name="sign_in_services">Mit der Anmeldung stimmen Sie unseren Nutzungsbedingungen und Regeln zum Datenschutz zu.</string>
+
+    <string name="sign_in_services_key">Bedingungen</string>
+    <string name="user_sign_up">Anmeldung</string>
+    <string name="user_name_hint">Benutzername</string>
+    <string name="user_email_hint">Email</string>
+    <string name="user_password">Passwort(6-32)</string>
+    <string name="user_password_confirm">Passwort bestätigen</string>
+
+    <string name="sub_comment_progress_msg">Füge Video hinzu…</string>
+
+<string name="app_detail_comment_type_web">Web</string>
+    <string name="app_submit_anonymous_comment">Kommentar hinzufügen</string>
+    <string name="message_praise">Positive Bewertungen</string>
+    <string name="message_notifications_praise">Deinen Kommentar positiv bewertet</string>
+    <string name="message_notifications_reply">Auf deinen Kommentar geantwortet</string>
+    <string name="message_notifications_login">Bitte anmelden um diese Seite zu sehen.</string>
+
+    <string name="set_contributor">Mitwirkender</string>
+    <string name="sign_in_services_key_policy">Datenschutzbestimmungen</string>
+
+    <string name="user_name_error">Benutzername darf keine Sonderzeichen, Symbole oder Leerzeichen enthalten</string>
+    <string name="user_nickname_error">Aliasname darf keine Sonderzeichen, Symbole oder Leerzeichen enthalten</string>
+    <string name="user_email_error">Diese Emailadresse ist ungültig</string>
+    <string name="user_password_error">Das Passwort ist ungültig</string>
+    <string name="user_confirm_error">Passwörter müssen übereinstimmen</string>
+
+    <string name="login_user_name">Benutzername</string>
+    <string name="login_user_password">Passwort</string>
+    <string name="login_user_sign_in">Anmelden</string>
+    <string name="login_choose">Oder mit Benutzerkonto anmelden</string>
+    <string name="login_new_user">Registration neuer Benutzer</string>
+    <string name="login_post_as_a_guest">Als Gast posten</string>
+
+    <string name="push_title_info_reply">% haben auf deinen Kommentar geantwortet!</string>
+    <string name="push_title_info_upvoted">% bewerteten deinen Kommentar positiv!</string>
+    <string name="download_list">Download-Liste</string>
+    <string name="install_list">Installiert</string>
+    <string name="no_download">Kein Download</string>
+    <string name="downloads">Downloads</string>
+
+    <string name="change_language_failed">Ändern der Sprache fehlgeschlagen!</string>
+    <string name="comment_reply_tell_msg">Dieser Kommentar wurde gelöscht!</string>
+
+    <string name="notification_setting">Benachrichtigungen</string>
+    <string name="reply_notification">Benachrichtigungen über Antworten</string>
+    <string name="reply_notification_msg">Benachrichtigungen zu neuen Antwortnachrichten erhalten</string>
+    <string name="like_notification">Benachrichtigungen zu positiven Bewertungen</string>
+    <string name="sub_comment_dialog_link_null">Video URL Adresse darf nicht leer sein</string>
+    <string name="sub_comment_dialog_link_et">Video URL Adresse hier einfügen</string>
+    <string name="delete_the_historical_record">Aufzeichnungen löschen?</string>
+    <string name="download_history">Download Historie</string>
+
+    <string name="menu_copy">Kopieren</string>
+    <string name="menu_cancel">Abbrechen</string>
+    <string name="delete_all_download_history">Download Historie löschen?</string>
+    <string name="comment_detail_original">Ursprünglichen Kommentar ansehen</string>
+    <string name="comment_comment_newest">Neuester</string>
+    <string name="comment_comment_oldest">Ältester</string>
+
+    <string name="edit">Bearbeiten</string>
+    <string name="sub_comment_dialog_title">Video hinzufügen</string>
+    <string name="sub_comment_dialog_des_tv">Nur Parsen von YouTube URLs unterstützt</string>
+    <string name="message">Nachricht</string>
+
+    <string name="can_be_update">Update möglich</string>
+    <string name="like_notification_msg">Benachrichtigungen über neue positive Bewertungen erhalten</string>
+    <string name="gif_tip">Gif</string>
+    <string name="submit_comment_title_hint">Thema (Optional)</string>
+
+    <string name="comment_vote_string">Abstimmen</string>
+    <string name="comment_reply_three">Antworten</string>
+    <string name="comment_item_fold">1 Kommentar wurde eingeklappt</string>
+
+    <string name="comment_no_reply">Wow, hier steht nichts.</string>
+    <string name="comment_reply_info_name">Detail</string>
+    <string name="set_updates_notification">App Updates verfügbar</string>
+    <string name="set_updates_notification_msg">Benachrichtigen wenn App Updates verfügbar sind. Empfohlene Einstellung: An</string>
+    <string name="app_detail_unknow_text">Alte Version APKPure unterstützt neue Features nicht, bitte auf neueste updaten.</string>
     </resources>
