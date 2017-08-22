@@ -78,7 +78,7 @@
     <string name="market_response_error_network_connect_error">Ağ bağlantı hatası.</string>
     <string name="market_response_error_network_read_error">Ağ okuma hatası.</string>
     <string name="market_response_error_invalid_response_code">Geçersiz yanıt kodu.</string>
-    <string name="market_response_error_invalid_response_body">Geçersiz yanıt gövdesi.</string>
+    <string name="market_response_error_invalid_response_body">Geçersiz yanıt türü.</string>
     <string name="market_response_error_unknown_error__error_">Bilinmeyen hata (<xliff:g id="error" example="SUCCESS">%1$s</xliff:g>).</string>
 
     <string name="no_more">Daha fazla yok.</string>
@@ -191,14 +191,14 @@
     <string name="contact_us">Bizimle İletişime Geçin</string>
     <string name="report_content">İçeriği Rapor Et</string>
 
-    <string name="invalid_app_asset">Geçersiz uygulama bilgisi.</string>
+    <string name="invalid_app_asset">Geçersiz uygulama öğe bilgisi.</string>
     <string name="failed_to_request_app_detail">Uygulama bilgisi isteği başarısız oldu.</string>
     <string name="failed_to_request_app_asset">Uygulama veri bilgisi isteği başarısız oldu.</string>
     <string name="external_storage_not_usable">
  <big><b>Dahili hafızanıza erişmemiz gerek. Lütfen buna izin verin.</b></big>
  </string>
     <string name="external_storage_permission_denied">
- <big><b>Dahili hafızanıza erişmemiz gerek. Lütfen buna izin verdiğinizden emin olun.</b></big>
+ <big><b>Dahili hafızanıza erişmemiz gerek. Lütfen buna izin verin.</b></big>
  </string>
 
     <string name="update__date___size_">Güncelleştirme: <xliff:g id="date" example="Mar 3, 2016">%1$s</xliff:g>, <xliff:g id="size" example="1024 kB">%2$s</xliff:g></string>
@@ -227,7 +227,7 @@
     <string name="download_via_wifi_only">Sadece Wi-Fi üzerinden indir</string>
     <string name="enable_ultra_download">Ultra İndirmeyi Etkinleştir</string>
     <string name="enable_ultra_download_summary">Ultra İndirme test aşamasında, herhang bir problem olursa lütfen bize bildirin.</string>
-    <string name="installation">Installation</string>
+    <string name="installation">Kurulum</string>
     <string name="show_notification_after_installation">Kurulumd sonra bildirimleri gös</string>
     <string name="delete_packages_after_installation">Kurulumdan sonra paketleri sil</string>
 
@@ -470,7 +470,7 @@ Yukarıdaki özellikler Android 4.1+ sürümlerde desteklenmektedir, root erişi
     <string name="comment_comment_newest">En yeni</string>
     <string name="comment_comment_oldest">En eski</string>
 
-    <string name="edit">Düzenleme</string>
+    <string name="edit">Düzenle</string>
     <string name="menu_copy">Kopyala</string>
     <string name="sub_comment_dialog_des_tv">Yalnızca YouTube URL\'lerini ayrıştırma desteği</string>
     <string name="message_notifications_praise">Yorumunuzu yukarı kaldırdı</string>
