@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<resources><string name="action_settings">ការកំនត់</string>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2"><string name="action_settings">ការកំណត់</string>
     <string name="action_search">ស្វែងរក</string>
-    <string name="action_management">ផ្នែកគ្រប់គ្រង</string>
+    <string name="action_management">ការគ្រប់គ្រង</string>
 
     <string name="press_back_key_quit">ចុច ត្រលប់ក្រោយម្ដងទៀត ដើម្បីចាកចេញ។</string>
 
-    <string name="featured">លក្ខណះ ពិសេស</string>
+    <string name="featured">លក្ខណះពិសេស</string>
     <string name="games">ហ្គេម</string>
     <string name="apps">កម្មវិធី</string>
     <string name="categories">ចំណាត់ក្រុម</string>
@@ -31,4 +31,49 @@
     <string name="auto_service_next">បន្ទាប់</string>
     <string name="auto_service_title">APKPure តម្លើងស្វ័យប្រវត្តិ</string>
     <string name="auto_service_install_accessibility_title">តម្លើងស្វ័យប្រវត្តិ</string>
+    <string name="touch_to_open">ប៉ះ ដើម្បីបើក។</string>
+
+    <string name="auto_service_install_accessibility_summary">"គាំទ្រAndroid ជំនាន់4.1+  មិនត្រូវការសិទ្ធិអនុញ្ញាតឬសឡើយ។"</string>
+
+    <string name="auto_service_dialog_title">បើកការតម្លើងស្វ័យប្រវត្តិ</string>
+    <string name="recommend">ស្វែងយល់</string>
+    <string name="load_failed_error">អូ៎! មានកំហុស​បាន​កើត​ឡើង។</string>
+    <string name="load_failed_empty">ទាំងនេះគឺគ្មានអ្វីនៅទីនេះទេ។</string>
+    <string name="load_failed_all_up_to_date">កម្មវិធីទាំងអស់ទាន់សម័យ។</string>
+    <string name="load_failed_no_results">សុំទោស! មិនមានលទ្ធផលរកឃើញឡើយ។</string>
+    <string name="refresh">ធ្វើឲ្យស្រស់ថ្មី</string>
+
+    <string name="management">ការគ្រប់គ្រង</string>
+    <string name="app_updates">កម្មវិធីអាប់ដេត</string>
+    <string name="app_management">ការគ្រប់គ្រងកម្មវិធី</string>
+    <string name="app_uninstall">ឈប់តម្លើងកម្មវិធី</string>
+    <string name="apk_management">ការគ្រប់គ្រង APK</string>
+    <string name="apk_xapk_management">ការគ្រប់គ្រង APK / XAPK</string>
+    <string name="download_management">ការគ្រប់គ្រងការទាញយក</string>
+    <string name="settings">ការកំណត់</string>
+    <string name="about">អំពី</string>
+
+
+    <string name="about_title">អំពី <xliff:g example="APKPure" id="app_name">%1$s</xliff:g></string>
+    <string name="about_message">"
+ &lt;b&gt;ជំនាន់៖&lt;/b&gt; %1$s&lt;br&gt;&lt;br&gt;&lt;b&gt;វែបសាយ៖&lt;/b&gt; &lt;a href=%2$s&gt;%2$s&lt;/a&gt;&lt;br&gt;&lt;b&gt;អ៊ីម៉ែល &lt;/b&gt; &lt;a href=mailto:%3$s&gt;%3$s&lt;/a&gt;
+ "</string>
+    <string name="check_update">ពិនិត្យការអាប់ដេត</string>
+    <string name="quit">បិទចោល</string>
+    <string name="want_to_quit">តើអ្នកពិតជាចង់បិទចោលឬ?</string>
+
+    <string name="install">តម្លើង</string>
+    <string name="open">បើក</string>
+    <string name="delete">លុប</string>
+    <string name="delete_all">លុបទាំងអស់</string>
+    <string name="properties">លក្ខណៈសម្បត្តិ</string>
+    <string name="properties_message">"
+ &lt;b&gt;ទីតាំង៖&lt;/b&gt; %1$s&lt;br&gt;&lt;b&gt;ទំហំ៖&lt;/b&gt; %2$s&lt;br&gt;&lt;b&gt;កែសម្រួលចុងក្រោយ៖&lt;/b&gt; %3$s
+ "</string>
+    <string name="want_to_delete_file">តើអ្នកចង់លុបឯកសារនេះមែនទេ?</string>
+    <string name="want_to_delete_all_files">តើអ្នកចង់លុបឯកសារទាំងអស់មែនទេ?</string>
+    <string name="file_has_been_deleted">ឯកសារត្រូវបានលុប។</string>
+    <string name="failed_to_delete_file">បរាជ័យក្នុងការលុបឯកសារនេះ។</string>
+    <string name="install__label_">តម្លើង - <xliff:g example="APKPure" id="app_label">%1$s</xliff:g></string>
+    <string name="user_canceled">អ្នកប្រើដែលបានបោះបង់។</string>
     </resources>
