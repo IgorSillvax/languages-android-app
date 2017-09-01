@@ -3,20 +3,20 @@
 
     <string name="action_settings">設定</string>
     <string name="action_search">検索</string>
-    <string name="action_management">管理</string>
+    <string name="action_management">マネジメント</string>
 
     <string name="press_back_key_quit">もう一度戻るボタンを押すとアプリが終了します。</string>
 
-    <string name="featured">特徴</string>
+    <string name="featured">特集</string>
     <string name="games">ゲーム</string>
     <string name="apps">アプリ</string>
     <string name="categories">カテゴリー</string>
     <string name="updates">アップデート</string>
 
     <string name="something_happened">&gt;_&lt;
-問題が発生しました。</string>
+問題が起こりました。</string>
 
-    <string name="load_failed_error">おっと！エラーが発生しました</string>
+    <string name="load_failed_error">おっと！エラーが発生しました。</string>
     <string name="load_failed_empty">これらはここにありません。</string>
     <string name="load_failed_all_up_to_date">全てのアプリをアップデートします。</string>
     <string name="load_failed_no_results">申し訳ございません、結果が見つかりません。</string>
@@ -226,7 +226,7 @@
 <string name="similar_or_related">類似コンテンツ</string>
     <string name="more_large">もっと</string>
     <string name="more_from_developer">開発者から他のゲーム</string>
-    <string name="download_complete_installation_setting">ダウンロードしたあと実行する操作を選ぶ</string>
+    <string name="download_complete_installation_setting">ダウンロードした後インストールを実行する</string>
     <string name="download_over_cellular">モバイルデータ通信経由でダウンロード</string>
     <string name="download_over_cellular_content">モバイルデータ通信経由でダウンロード中で、続けていますか？</string>
 
@@ -273,4 +273,202 @@ APKPureが正常に運行するために、APKPureをクリーニングアプリ
     <string name="auto_install_via_root_summary">ルートデバイスのみ。</string>
 
     <string name="report">レポート</string>
+    <string name="recommend">ディスカバー</string>
+    <string name="app_detail_customer_reviews">顧客コメント</string>
+    <string name="app_detail_comment_type_web">ウェブ</string>
+    <string name="app_submit_submit">提出…</string>
+    <string name="app_submit_anonymous_comment">コメントする</string>
+    <string name="app_submit_title_toast">タイトルをお書きください！</string>
+    <string name="app_submit_msg_toast">何か書いてください！</string>
+    <string name="app_submit_name_toast">ニックネームを記入してください！</string>
+    <string name="app_submit_email_toast">正しいメールアドレスを記入してください！</string>
+    <string name="app_submit_star_toast">星を付けてください！</string>
+    <string name="app_submit_title_hint">タイトルをお書きください</string>
+    <string name="app_submit_msg_hint">あなたの意見を書いてください</string>
+    <string name="app_submit_nickname">ニックネーム</string>
+    <string name="app_submit_email">電子メール</string>
+    <string name="app_submit_submit_title">提出</string>
+    <string name="app_submit_reply_to">返信</string>
+
+    <string name="app_detail_tab_one">詳細</string>
+    <string name="app_detail_tab_two">コメント</string>
+    <string name="app_detail_tab_three">関連</string>
+
+    <string name="app_detail_comment_order_array_default">デフォルトの並び順</string>
+    <string name="app_detail_comment_order_array_most_recent">最近</string>
+    <string name="app_detail_comment_order_array_new">最新</string>
+    <string name="app_detail_comment_order_array_best">ホット</string>
+
+    <string name="download_complete_installation_setting_entries_always">常にインストールする</string>
+    <string name="reply">返信</string>
+    <string name="input_reply_content">返信の内容を入力してください：</string>
+    <string name="publish">ポスト</string>
+    <string name="reply_comment">コメントに返信</string>
+    <string name="save_original_image">オリジナルの画像を保存する</string>
+    <string name="already_save">保存する<xliff:g id="path" example="ApKPure/photo"> 1%1$s</xliff:g> 2</string>
+
+    <string name="load_end">これ以上データがありません</string>
+    <string name="loading">ローディング…</string>
+
+    <string name="share_app_url_comment"> <xliff:g example="APKPure" id="user_name"> 1%1$s</xliff:g> 2\'s comments on <xliff:g example="APKPure" id="app_name"> 3%2$s</xliff:g> 4 (from @<xliff:g example="APKPure" id="social_network_name"> 5%3$s</xliff:g> 6), <xliff:g example="https://apkpure.com/p/com.apkpure.aegon" id="app_url"> 7%4$s</xliff:g> 8</string>
+
+    <plurals name="app_detail_see_all_replies">
+	<item quantity="one">全ての返信を見る<xliff:g example="2" id="count"> 1%1$d</xliff:g> 2</item>
+	<item quantity="other"/>
+</plurals>
+
+    <string name="download_complete_installation_setting_entries_never">インストールしない</string>
+
+    <string name="reply_dialog_marked_words">選択した画像を長押しして削除します。</string>
+    <string name="load_failed_click_retry">ロード失敗、再試行をクリックする</string>
+    <string name="scan_qr_code_hint">QRコードをスキャンする前に、必要なカメラ権限を与える必要があります。</string>
+    <string name="zxing_msg_default_status">QRコードをファインダーの中央に配置してスキャンしてください。</string>
+    <string name="zxing_msg_parser_status">スキャンに失敗しました。再度QRコードをスキャンしてみてください。</string>
+
+    <string name="tip_permission_camera_storage">カメラとSDカードを使用する権限がありません。アクセス許可を有効にしてください</string>
+    <string name="permission_denied">アクセスが拒否されました！</string>
+
+    <string name="login_title">ログイン</string>
+    <string name="sign_out">サインアウト</string>
+
+    <string name="delete_comment">コメント削除</string>
+    <string name="delete_comment_msg">本当にこのコメントを削除してもよろしいですか？</string>
+    <string name="upload_cancel">アップロードがキャンセルされました</string>
+    <string name="login_select_way_to_login">ログイン方法を選択してください</string>
+
+    <string name="user_info_edit_title">プロフィール</string>
+    <string name="user_info_edit_portrait_tv">プロフィール画像</string>
+    <string name="user_info_edit_username_tv">ユーザー名</string>
+    <string name="user_info_edit_nickname_tv">ニックネーム</string>
+    <string name="user_info_edit_email_tv">電子メール</string>
+    <string name="user_info_edit_gender_tv">性別</string>
+    <string name="user_info_edit_birthday_tv">誕生日</string>
+    <string name="user_info_edit_change_pwd_tv">パスワードをリセットする</string>
+    <string name="user_info_edit_login_out_tv">サインアウト</string>
+    <string name="user_info_edit_not_choose">アンノウン</string>
+    <string name="user_info_edit_gender_male">男性</string>
+    <string name="user_info_edit_gender_female">女性</string>
+    <string name="user_info_edit_portrait_album">ギャラリーから写真を選択</string>
+    <string name="user_info_edit_portrait_take_photo">カメラで写真を撮る</string>
+    <string name="user_info_edit_portrait_error">イメージタイプはサポートされていません</string>
+    <string name="user_info_edit_ok">OK</string>
+    <string name="user_info_edit_cancel">キャンセル</string>
+
+    <string name="update_nick_title">ニックネームを変更する</string>
+    <string name="update_email_title">メールアドレス変更</string>
+    <string name="update_nick_name_et">新しいニックネームを入力してください</string>
+    <string name="update_nick_name_tv">新しいニックネームは空白に設定できません</string>
+    <string name="update_email_name_et">メールアドレスを入力してください</string>
+    <string name="update_eamil_name_tv">メールアドレスを空白にすることはできません</string>
+    <string name="update_nickname_error">このニックネームはすでに使用されています。別の名前を選んでください！</string>
+    <string name="message_all">すべて</string>
+    <string name="message_reply">返信</string>
+    <string name="message_praise">賛成</string>
+    <string name="message_notifications_login">このページを表示するにはログインしてください。</string>
+
+    <string name="update_pwd_title">パスワードをリセットする</string>
+    <string name="update_pwd_current_pwd_et">元のパスワード</string>
+    <string name="update_pwd_new_pwd_et">新しいパスワード</string>
+    <string name="update_pwd_Confirm_pwd_et">新しいパスワードを確認</string>
+    <string name="upload_avatar">アップロード中…</string>
+    <string name="update_pwd_current_null_tv">元のパスワードを空白にすることはできません</string>
+    <string name="update_pwd_Confirm_null_tv">パスワードの確認は空白にすることはできません</string>
+    <string name="update_pwd_new_pwd_null_tv">新しいパスワードを空白にすることはできません</string>
+    <string name="update_pwd_new_confrim_tv">入力したパスワードが一致しません</string>
+    <string name="update_pwd_save_bt">保存</string>
+    <string name="update_save_success">保存されました！</string>
+    <string name="crop__cancel" ignore="ButtonCase">キャンセル</string>
+    <string name="crop__done">完了</string>
+    <string name="message_notifications_reply">あなたのコメントに返信しました</string>
+    <string name="crop__pick_error">画像ファイルの種類が無効です</string>
+    <string name="crop__saving">写真を保存中…</string>
+    <string name="crop__wait">お待ちください…</string>
+
+    <string name="is_comment">コメントは…</string>
+    <string name="comment_cancel">コメントはキャンセルされました</string>
+    <string name="comment_submitting">送信中…</string>
+    <string name="comment_replying">返信…</string>
+    <string name="register_term_of_service">APKPureサービス期間</string>
+
+    <string name="set_contributor">投稿者</string>
+    <string name="set_permissions">パーミッション</string>
+    
+    <string name="sign_in_services">サインアップすることにより、利用規約とプライバシーポリシーに同意したことになります。</string>
+
+    <string name="sign_in_services_key">条項</string>
+    <string name="sign_in_services_key_policy">プライバシーポリシー</string>
+
+    <string name="user_sign_up">サインアップ</string>
+    <string name="user_name_hint">ユーザー名</string>
+    <string name="user_email_hint">電子メール</string>
+    <string name="user_password">パスワード(6–32)</string>
+    <string name="user_password_confirm">パスワードを認証する</string>
+
+    <string name="user_name_error">ユーザー名には、特殊文字、記号またはスペースを使用しないでください</string>
+    <string name="user_email_error">このメールアドレスは無効です</string>
+    <string name="user_password_error">このパスワードは無効です</string>
+    <string name="user_confirm_error">パスワードが一致する必要があります</string>
+
+    <string name="login_user_name">ユーザー名</string>
+    <string name="login_user_password">パスワード</string>
+    <string name="login_user_sign_in">サインイン</string>
+    <string name="user_nickname_error">ニックネームには、特殊文字、記号またはスペースを使用しないでください</string>
+    <string name="login_choose">またはアカウントでログインする</string>
+    <string name="login_new_user">新規ユーザー登録</string>
+    <string name="login_post_as_a_guest">ゲストとして投稿</string>
+
+    <string name="message">メッセージ</string>
+
+    <string name="push_title_info_reply">%s があなたのコメントを返信しました！</string>
+    <string name="push_title_info_upvoted">％sがあなたのコメントを賛成しました！</string>
+    <string name="download_list">ダウンロードリスト</string>
+    <string name="can_be_update">更新可能</string>
+    <string name="install_list">インストール済み</string>
+    <string name="no_download">ノーダウンロード</string>
+    <string name="downloads">ダウンロード</string>
+
+    <string name="change_language_failed">言語切り替えに失敗しました！</string>
+    <string name="comment_reply_tell_msg">このコメントは削除されました！</string>
+
+    <string name="notification_setting">通知</string>
+    <string name="message_notifications_praise">あなたのコメントを賛成しました</string>
+    <string name="reply_notification">通知を返信する</string>
+    <string name="reply_notification_msg">新しい返信メッセージの通知を受信する</string>
+    <string name="like_notification">通知に賛成する</string>
+    <string name="like_notification_msg">新しい賛成メッセージの通知を受信する</string>
+    <string name="gif_tip">gif</string>
+    <string name="submit_comment_title_hint">件名（オプション）</string>
+
+    <string name="comment_vote_string">投票する</string>
+    <string name="comment_reply_three">返信する</string>
+    <string name="comment_item_fold">1件のコメントが崩れました</string>
+
+    <plurals name="comment_reply_item_fold">
+	<item quantity="one"><xliff:g example="2" id="count"> 1%1$d</xliff:g> 2返信が崩れました</item>
+	<item quantity="other"/>
+</plurals>
+
+    <string name="comment_no_reply">うわー、ここには何もありません。</string>
+    <string name="comment_reply_info_name">詳細</string>
+    <string name="set_updates_notification">利用可能なアプリのアップデート</string>
+    <string name="set_updates_notification_msg">アプリのアップデートがいつ利用可能かを通知します。 推奨設定：オン</string>
+    <string name="app_detail_unknow_text">旧バージョンAPKPureは新機能をサポートしていません。最新のものに更新してください。</string>
+    <string name="comment_detail_original">元のコメントを表示</string>
+    <string name="comment_comment_newest">最新</string>
+    <string name="comment_comment_oldest">最古</string>
+
+    <string name="edit">編集</string>
+    <string name="menu_copy">コピー</string>
+    <string name="menu_cancel">キャンセル</string>
+    <string name="delete_all_download_history">すべてのダウンロード履歴を削除しますか？</string>
+    <string name="delete_the_historical_record">履歴レコードを削除しますか?</string>
+    <string name="download_history">ダウンロード履歴</string>
+
+    <string name="sub_comment_dialog_title">ビデオを追加する</string>
+    <string name="sub_comment_dialog_des_tv">解析サポートはYouTube URLのみ</string>
+    <string name="sub_comment_dialog_link_et">ここに動画URLアドレスを入力してください</string>
+    <string name="sub_comment_dialog_link_null">動画のURLアドレスが空白にすることはできません</string>
+    <string name="sub_comment_progress_msg">動画を追加しています…</string>
+
+<string name="download_complete_installation_setting_entries_only">インストールはフォアグラウンドで実行するのみ</string>
     </resources>
