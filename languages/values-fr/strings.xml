@@ -298,12 +298,12 @@ Les fonctions mentionnées ci-dessus supportent Android 4.1 et +, sans besoin de
     <string name="publish">Publier</string>
 
     <string name="load_end">Plus de données</string>
-    <string name="load_failed_click_retry">Échec du chargement, clickez sur rééssayer</string>
+    <string name="load_failed_click_retry">Échec du chargement, cliquez sur réessayer</string>
     <string name="loading">Chargement…</string>
 
-    <string name="scan_qr_code_hint">Avant d\'utiliser le scan pour le QR Code, vous devez autoriser la permission de la caméra si elle est requise pour scanner un QR Code.</string>
+    <string name="scan_qr_code_hint">Avant d\'utiliser le scan pour le QR Code, vous devez autoriser la permission de la caméra qui est requise pour scanner un QR Code.</string>
     <string name="zxing_msg_default_status">S\'il vous plait placez le QR Code dans le cadre pour le scanner.</string>
-    <string name="zxing_msg_parser_status">Échec du scan, s\'il vous plait essayez de rescanner le QR Code.</string>
+    <string name="zxing_msg_parser_status">Échec du scan, s\'il vous plait essayez de re-scanner le QR Code.</string>
 <plurals name="app_detail_see_all_replies">
 	<item quantity="one">Voir <xliff:g id="count" example="1"> %1$d</xliff:g> réponse</item>
 	<item quantity="other">Voir toutes les <xliff:g id="count" example="2"> %1$d</xliff:g> réponses</item>
@@ -347,26 +347,26 @@ Les fonctions mentionnées ci-dessus supportent Android 4.1 et +, sans besoin de
     <string name="user_info_edit_username_tv">Nom d\'utilisateur</string>
     <string name="user_info_edit_nickname_tv">Surnom</string>
     <string name="user_info_edit_email_tv">Email</string>
-    <string name="user_info_edit_gender_tv">Genre</string>
+    <string name="user_info_edit_gender_tv">Sexe</string>
     <string name="user_info_edit_birthday_tv">Date de naissance</string>
     <string name="user_info_edit_change_pwd_tv">Réinitialiser votre mot de passe</string>
     <string name="user_info_edit_login_out_tv">Déconnexion</string>
     <string name="user_info_edit_not_choose">Inconnu</string>
     <string name="user_info_edit_gender_male">Homme</string>
     <string name="user_info_edit_gender_female">Femme</string>
-    <string name="user_info_edit_portrait_album">Sélectionner une photo dans la bibliothèque</string>
+    <string name="user_info_edit_portrait_album">Sélectionner une photo dans la galerie</string>
     <string name="user_info_edit_portrait_take_photo">Prendre une photo avec la caméra</string>
-    <string name="user_info_edit_portrait_error">Ce type d\'image n\'est pas supporté</string>
+    <string name="user_info_edit_portrait_error">Ce type d\'image n\'est pas supportée</string>
     <string name="user_info_edit_ok">Valider</string>
     <string name="user_info_edit_cancel">Annuler</string>
 
-    <string name="update_nick_title">Changer de surnom</string>
+    <string name="update_nick_title">Changer de pseudo</string>
     <string name="update_email_title">Changer l\'email</string>
-    <string name="update_nick_name_et">Saisir votre nouveau surnom</string>
-    <string name="update_nick_name_tv">Le nouveau surnom ne peut être vide</string>
+    <string name="update_nick_name_et">Saisir votre nouveau pseudonyme</string>
+    <string name="update_nick_name_tv">Le nouveau pseudonyme ne peut être vide</string>
     <string name="update_email_name_et">Saisir votre email</string>
     <string name="update_eamil_name_tv">L\'email ne peut être vide</string>
-    <string name="update_nickname_error">Surnom déjà utilisé, merci d\'en choisir un autre !</string>
+    <string name="update_nickname_error">Pseudo déjà utilisé, merci d\'en choisir un autre !</string>
 
     <string name="update_pwd_title">Réinitialiser mon mot de passe</string>
     <string name="update_pwd_current_pwd_et">Ancien mot de passe</string>
@@ -393,10 +393,10 @@ Les fonctions mentionnées ci-dessus supportent Android 4.1 et +, sans besoin de
     <string name="set_contributor">Contributeur</string>
     <string name="set_permissions">Droits</string>
     
-    <string name="sign_in_services">En validant vous acceptez les conditions et les règles de vie privée.</string>
+    <string name="sign_in_services">En validant vous acceptez les conditions et les règles de confidentialité.</string>
 
     <string name="sign_in_services_key">Conditions d\'utilisation</string>
-    <string name="sign_in_services_key_policy">Vie privée</string>
+    <string name="sign_in_services_key_policy">Règles de confidentialité</string>
 
     <string name="user_sign_up">Inscription</string>
     <string name="user_name_hint">Identifiant</string>
@@ -405,7 +405,7 @@ Les fonctions mentionnées ci-dessus supportent Android 4.1 et +, sans besoin de
     <string name="user_password_confirm">Confirmer le mot de passe</string>
 
     <string name="user_name_error">Le nom d\'utilisateur ne doit pas contenir de caractère spécial, de symboles ou d\'espace</string>
-    <string name="user_nickname_error">Le surnom ne doit pas contenir de caractères spécial, de symbole ni d\'espace</string>
+    <string name="user_nickname_error">Le pseudonyme ne doit pas contenir de caractères spécial, de symbole ni d\'espace</string>
     <string name="user_email_error">L\'adresse email est invalide</string>
     <string name="user_password_error">Le mot de passe est invalide</string>
     <string name="user_confirm_error">Les mots de passe doivent être identiques</string>
@@ -422,7 +422,7 @@ Les fonctions mentionnées ci-dessus supportent Android 4.1 et +, sans besoin de
     <string name="app_detail_comment_order_array_new">Le plus récent</string>
     <string name="message_all">TOUS</string>
     <string name="message_reply">RÉPONSES</string>
-    <string name="message_praise">VOTES POSITIVES</string>
+    <string name="message_praise">VOTES POSITIFS</string>
     <string name="message_notifications_praise">Votez positivement à votre commentaire</string>
     <string name="message_notifications_reply">Répondez à votre commentaire</string>
     <string name="message_notifications_login">Veuillez vous connecter pour voir cette page.</string>
@@ -438,14 +438,14 @@ Les fonctions mentionnées ci-dessus supportent Android 4.1 et +, sans besoin de
     <string name="no_download">Aucun téléchargement</string>
     <string name="downloads">Téléchargements</string>
 
-    <string name="change_language_failed">"Le passage d\'une langue a échoué  !"</string>
-    <string name="comment_reply_tell_msg">Ce commentaire a été enlevé !</string>
+    <string name="change_language_failed">Le changement de langue a échoué!</string>
+    <string name="comment_reply_tell_msg">Ce commentaire a été supprimé!</string>
 
     <string name="notification_setting">Notifications</string>
     <string name="reply_notification">Répondre aux notifications</string>
     <string name="reply_notification_msg">Recevoir les notifications pour les nouveaux messages</string>
-    <string name="like_notification">Notifications positivement votées</string>
-    <string name="like_notification_msg">Recevoir les notifications pour les nouveaux messages positivement votés</string>
+    <string name="like_notification">Notifications de vote positif</string>
+    <string name="like_notification_msg">Recevoir les notifications pour les messages positivement votés</string>
     <string name="gif_tip">gif</string>
     <string name="submit_comment_title_hint">Sujet (facultatif)</string>
 
@@ -455,8 +455,8 @@ Les fonctions mentionnées ci-dessus supportent Android 4.1 et +, sans besoin de
 
     <string name="comment_no_reply">Waouh, il n\'y a rien ici.</string>
     <string name="comment_reply_info_name">Détails</string>
-    <string name="set_updates_notification">Mises à de l\'application disponible</string>
-    <string name="set_updates_notification_msg">Avertir de la présence des mises à jour de l\'application. Paramètre recommandé : On</string>
+    <string name="set_updates_notification">Mises à jours des l\'applications disponibles</string>
+    <string name="set_updates_notification_msg">Avertir de la présence de mises à jour des applications. Paramètre recommandé : On</string>
     <string name="app_detail_unknow_text">L\'ancienne version de APKPure ne supporte pas les nouvelles fonctionnalités, veuillez mettre à jour vers la dernière version.</string>
     <string name="comment_detail_original">Voir le commentaire original</string>
     <string name="comment_comment_newest">Plus récent</string>
@@ -476,8 +476,8 @@ Les fonctions mentionnées ci-dessus supportent Android 4.1 et +, sans besoin de
     <string name="sub_comment_progress_msg">Ajouter une vidéo…</string>
 
 <plurals name="comment_reply_item_fold">
-	<item quantity="one"></item>
-	<item quantity="other"></item>
+	<item quantity="one"><xliff:g example="1" id="count"> 1%1$d</xliff:g> 2 Commentaire a été écrasé</item>
+	<item quantity="other"><xliff:g example="2" id="count"> 3%1$d</xliff:g> 4 Commentaires ont été écrasé</item>
 </plurals>
 
     </resources>
