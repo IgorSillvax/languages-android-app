@@ -295,9 +295,9 @@ Les fonctions mentionnées ci-dessus supportent Android 4.1 et +, sans besoin de
     <string name="download_complete_installation_setting">Option d\'installation après le téléchargement</string>
     <string name="reply">Répondre</string>
     <string name="input_reply_content">Le contenu de la réponse :</string>
-    <string name="publish">Publier</string>
+    <string name="publish">Envoyé</string>
 
-    <string name="load_end">Plus de données</string>
+    <string name="load_end">Pas de données</string>
     <string name="load_failed_click_retry">Échec du chargement, cliquez sur réessayer</string>
     <string name="loading">Chargement…</string>
 
@@ -326,7 +326,7 @@ Les fonctions mentionnées ci-dessus supportent Android 4.1 et +, sans besoin de
     <string name="download_complete_installation_setting_entries_only">Installer seulement lorsque l\'application est active</string>
     <string name="download_complete_installation_setting_entries_never">Ne jamais installer</string>
 
-    <string name="reply_dialog_marked_words">En accord avec la suppression de l\'image</string>
+    <string name="reply_dialog_marked_words">Appuyez longuement l\'image sélectionner pour la supprimé.</string>
     <string name="reply_comment">Répondre au commentaire</string>
     <string name="save_original_image">Conserver l\'image originale</string>
     <string name="already_save">Sauvegardé <xliff:g id="path" example="ApKPure/photo">%1$s</xliff:g></string>
@@ -345,7 +345,7 @@ Les fonctions mentionnées ci-dessus supportent Android 4.1 et +, sans besoin de
     <string name="user_info_edit_title">Editer le profil utilisateur</string>
     <string name="user_info_edit_portrait_tv">Image de profil</string>
     <string name="user_info_edit_username_tv">Nom d\'utilisateur</string>
-    <string name="user_info_edit_nickname_tv">Surnom</string>
+    <string name="user_info_edit_nickname_tv">Pseudonyme</string>
     <string name="user_info_edit_email_tv">Email</string>
     <string name="user_info_edit_gender_tv">Sexe</string>
     <string name="user_info_edit_birthday_tv">Date de naissance</string>
@@ -387,7 +387,7 @@ Les fonctions mentionnées ci-dessus supportent Android 4.1 et +, sans besoin de
 
     <string name="is_comment">Commentaire…</string>
     <string name="comment_cancel">Le commentaire a été annulé</string>
-    <string name="comment_replying">Soumettre une réponse…</string>
+    <string name="comment_replying">Répondre…</string>
     <string name="register_term_of_service">Conditions d\'utilisation de APKPure</string>
 
     <string name="set_contributor">Contributeur</string>
@@ -405,7 +405,7 @@ Les fonctions mentionnées ci-dessus supportent Android 4.1 et +, sans besoin de
     <string name="user_password_confirm">Confirmer le mot de passe</string>
 
     <string name="user_name_error">Le nom d\'utilisateur ne doit pas contenir de caractère spécial, de symboles ou d\'espace</string>
-    <string name="user_nickname_error">Le pseudonyme ne doit pas contenir de caractères spécial, de symbole ni d\'espace</string>
+    <string name="user_nickname_error">Le pseudonyme ne doit pas contenir de caractères spécial, de symbole ou d\'espace</string>
     <string name="user_email_error">L\'adresse email est invalide</string>
     <string name="user_password_error">Le mot de passe est invalide</string>
     <string name="user_confirm_error">Les mots de passe doivent être identiques</string>
