@@ -1,12 +1,13 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-
-    <string name="app_name" translatable="false">APKPure</string>
+<?xml version="1.0" encoding="utf-8"?>
+<resources
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
     <string name="action_settings">设置</string>
     <string name="action_search">搜索</string>
     <string name="action_management">管理</string>
-    <string name="press_back_key_quit">再按一次“返回键”退出。</string>
+
+    <string name="press_back_key_quit">再一次返回键退出。</string>
+
     <string name="featured">精选</string>
     <string name="games">游戏</string>
     <string name="apps">应用</string>
@@ -14,17 +15,17 @@
     <string name="recommend">最新发现</string>
     <string name="updates">更新</string>
 
-    <string name="something_happened">&gt;_&lt;\n出错了。</string>
+    <string name="something_happened">&gt;_&lt;\n出错了</string>
 
-    <string name="load_failed_error">哎呀！发生错误了。</string>
-    <string name="load_failed_empty">无内容。</string>
-    <string name="load_failed_all_up_to_date">所有应用程序已是最新。</string>
-    <string name="load_failed_no_results">抱歉！未找到结果。</string>
+    <string name="load_failed_error">哎呀！发生错误了</string>
+    <string name="load_failed_empty">无内容</string>
+    <string name="load_failed_all_up_to_date">所有应用程序已是最新</string>
+    <string name="load_failed_no_results">抱歉！未找到结果</string>
     <string name="refresh">刷新</string>
 
     <string name="management">管理</string>
     <string name="app_updates">应用更新</string>
-    <string name="app_management">应用管理</string>
+    <string name="app_management">已安装</string>
     <string name="app_uninstall">应用卸载</string>
     <string name="apk_management">APK 管理</string>
     <string name="apk_xapk_management">APK / XAPK 管理</string>
@@ -36,25 +37,22 @@
         <![CDATA[<b>版本：</b> %1$s<br><br><b>官方网站：</b> <a href="%2$s">%2$s</a><br><b>电子邮箱：</b> <a href="mailto:%3$s">%3$s</a>]]>
     </string>
     <string name="check_update">检查更新</string>
+    <string name="check_update_replace">正式版</string>
+    <string name="check_update_beta">测试版</string>
     <string name="quit">退出</string>
-
-    <string name="want_to_quit">您确定要退出吗?</string>
+    <string name="want_to_quit">您确定要退出吗？</string>
 
     <string name="install">安装</string>
     <string name="open">打开</string>
     <string name="delete">删除</string>
-
-    <string name="delete_all">全部删除</string>
-
+    <string name="delete_all">删除全部</string>
     <string name="properties">属性</string>
     <string name="properties_message">
         <![CDATA[<b>路径：</b> %1$s<br><b>文件大小：</b> %2$s<br><b>最后修改时间：</b> %3$s]]>
     </string>
     <string name="want_to_delete_file">您确定要删除此文件吗？</string>
     <string name="want_to_delete_all_files">您确定要删除全部文件吗？</string>
-
-    <string name="file_has_been_deleted">该文件已删除。</string>
-
+    <string name="file_has_been_deleted">文件已被删除。</string>
     <string name="failed_to_delete_file">删除文件失败。</string>
     <string name="install__label_">安装 - <xliff:g id="app_label" example="APKPure">%1$s</xliff:g></string>
     <string name="user_canceled">用户已取消。</string>
@@ -120,9 +118,7 @@
     <string name="downloads_complete">下载完成</string>
     <string name="touch_for_view_all_downloads">点击查看所有下载</string>
     <string name="_name__download_failed"><xliff:g id="name" example="APKPure">%1$s</xliff:g> 下载失败</string>
-
-    <string name="touch_to_download_it_again">触摸以重新下载</string>
-
+    <string name="touch_to_download_it_again">点击重新下载</string>
 
     <string name="download_percent"><xliff:g id="percent" example="50">%1$d</xliff:g> %%</string>
     <string name="pause">暂停</string>
@@ -160,10 +156,8 @@
 
     <string name="improvement_plan_title">用户体验改善计划</string>
     <string name="improvement_plan_message">
-
- 通过提交 Android 设备信息来帮助我们， 我们 <b>不会收集</b> 个人隐私信息 (名称、地址、电子邮件、社会保障号或唯一标识符)。
- </string>
-
+        <![CDATA[帮助提交 Android 设备信息，我们 <b>不会收集</b> 您的个人信息（包括姓名，地址，电子邮件地址等等）。]]>
+    </string>
     <string name="join_us">加入我们</string>
     <string name="skip">跳过</string>
 
@@ -221,9 +215,7 @@
     <string name="select">选择</string>
     <string name="cancel">取消</string>
     <string name="select_all">选择全部</string>
-
-    <string name="deselect_all">取消全选</string>
-
+    <string name="deselect_all">取消选择全部</string>
     <string name="ignored">已忽略</string>
     <plurals name="total__count__apps__size_">
         <item quantity="other">
@@ -240,9 +232,7 @@
     <string name="changing_language">正在切换语言，请稍候…</string>
     <string name="download_via_wifi_only">只通过 Wi-Fi 下载</string>
     <string name="enable_ultra_download">启用超级下载</string>
-
-    <string name="enable_ultra_download_summary">“超级下载”正处于测试阶段，如果您遇到任何问题请告诉我们。</string>
-
+    <string name="enable_ultra_download_summary">超级下载目前还是测试版本，如果在使用中发现问题请告诉我们。</string>
     <string name="installation">安装</string>
     <string name="show_notification_after_installation">安装完成后显示通知</string>
     <string name="delete_packages_after_installation">安装完成后删除安装包文件</string>
@@ -278,16 +268,14 @@
         <item quantity="other">全部<xliff:g id="count" example="2">%1$d</xliff:g>条回复</item>
     </plurals>
 
-    <string name="app_detail_customer_reviews">用户评论</string>
+    <string name="app_detail_customer_reviews">评论</string>
     <string name="app_detail_comment_type_web">网站</string>
-    <string name="app_submit_submit">提交中…</string>
+    <string name="app_submit_submit">提交中。。。</string>
     <string name="app_submit_anonymous_comment">添加评论</string>
-
-    <string name="app_submit_title_toast">必须填写标题!</string>
+    <string name="app_submit_title_toast">请填写标题!</string>
     <string name="app_submit_msg_toast">请填写评论!</string>
     <string name="app_submit_name_toast">请填写昵称!</string>
-    <string name="app_submit_email_toast">请填写正确的电子邮件地址!</string>
-
+    <string name="app_submit_email_toast">请填写正确的邮箱地址!</string>
     <string name="app_submit_star_toast">请选择星级!</string>
     <string name="app_submit_title_hint">填写标题</string>
     <string name="app_submit_msg_hint">输入您的评论</string>
@@ -304,23 +292,15 @@
     <string name="app_detail_tab_two">评论</string>
     <string name="app_detail_tab_three">相关</string>
 
-    <array name="app_detail_comment_order_array">
-        <item>@string/app_detail_comment_order_array_recent</item>
-        <item>@string/app_detail_comment_order_array_newest</item>
-        <item>@string/app_detail_comment_order_array_best</item>
-    </array>
+    <string name="app_detail_comment_order_array_default">默认排序</string>
+    <string name="app_detail_comment_order_array_most_recent">最近回复</string>
+    <string name="app_detail_comment_order_array_new">最新</string>
+    <string name="app_detail_comment_order_array_best">最热</string>
+    <string name="app_detail_comment_order_array_old">最早</string>
 
-    <string name="app_detail_comment_order_array_recent">最近回复</string>
-    <string name="app_detail_comment_order_array_newest">最新</string>
-    <string name="app_detail_comment_order_array_best">推荐</string>
+    <string name="app_detail_comment_join_group_bt">小组</string>
 
     <string name="download_complete_installation_setting">下载后安装选项</string>
-
-    <string-array name="download_complete_installation_setting_entries">
-        <item>@string/download_complete_installation_setting_entries_always</item>
-        <item>@string/download_complete_installation_setting_entries_only</item>
-        <item>@string/download_complete_installation_setting_entries_never</item>
-    </string-array>
 
     <string name="download_complete_installation_setting_entries_always">总是安装</string>
     <string name="download_complete_installation_setting_entries_only">仅前台状态下安装</string>
@@ -336,12 +316,11 @@
 
     <string name="load_end">没有更多数据</string>
     <string name="load_failed_click_retry">加载失败，点击重试</string>
-    <string name="loading">正在加载…</string>
+    <string name="loading">正在加载&#8230;</string>
 
-
-    <string name="scan_qr_code_hint">在使用“二维码扫描”功能之前，您需要授予访问相机的权限。</string>
-    <string name="zxing_msg_default_status">请将“二维码”置于取景框内扫描。</string>
-    <string name="zxing_msg_parser_status">扫描失败，请重新尝试扫描该“二维码”。</string>
+    <string name="scan_qr_code_hint">使用此功能前，您必须同意打开相机的权限</string>
+    <string name="zxing_msg_default_status">请将二维码置于取景框内扫描</string>
+    <string name="zxing_msg_parser_status">扫描失败,请重试</string>
 
     <string name="tip_permission_camera_storage">没有使用相机和SD卡的权限，请在权限管理中开启</string>
     <string name="permission_denied">访问被拒绝!</string>
@@ -353,9 +332,10 @@
     <string name="delete_comment_msg">你想要删除这条评论吗?</string>
     <string name="login_select_way_to_login">请选择登录方式</string>
     <string name="upload_cancel">上传已取消</string>
-    <string name="is_comment">正在发表评论…</string>
+    <string name="is_comment">正在发表评论&#8230;</string>
     <string name="comment_cancel">评论已取消</string>
-    <string name="comment_replying">正在提交回复…</string>
+    <string name="comment_submitting">提交中&#8230;</string>
+    <string name="comment_replying">回复中&#8230;</string>
 
     <!--update password-->
     <string name="update_pwd_title">修改密码</string>
@@ -370,38 +350,45 @@
 
     <!-- UserInfoEdit -->
     <string name="user_info_edit_title">个人信息</string>
-    <string name="upload_avatar">正在上传…</string>
+    <string name="upload_avatar">正在上传&#8230;</string>
     <string name="user_info_edit_portrait_tv">头像</string>
     <string name="user_info_edit_username_tv">用户名</string>
     <string name="user_info_edit_nickname_tv">昵称</string>
     <string name="user_info_edit_email_tv">邮箱</string>
     <string name="user_info_edit_gender_tv">性别</string>
     <string name="user_info_edit_birthday_tv">生日</string>
-    <string name="user_info_edit_change_pwd_tv">重置密码</string>
+    <string name="user_info_edit_change_pwd_tv">修改密码</string>
     <string name="user_info_edit_login_out_tv">退出登录</string>
     <string name="user_info_edit_not_choose">空</string>
     <string name="user_info_edit_gender_male">男</string>
     <string name="user_info_edit_gender_female">女</string>
     <string name="user_info_edit_portrait_album">从相册选择</string>
     <string name="user_info_edit_portrait_take_photo">拍照</string>
-    <string name="user_info_edit_portrait_error">不支持上传该格式图片</string>
+    <string name="user_info_edit_portrait_error">该图片类型不支持上传</string>
     <string name="user_info_edit_ok">确认</string>
     <string name="user_info_edit_cancel">取消</string>
     <!--crop image-->
     <string name="crop__cancel" ignore="ButtonCase">取消</string>
     <string name="crop__done">完成</string>
-    <string name="crop__pick_error">图片格式无效</string>
+    <string name="crop__pick_error">无效的图片</string>
     <string name="crop__saving">正在保存照片…</string>
     <string name="crop__wait">请等待…</string>
     <!--updateNickname-->
     <string name="update_nick_title">修改昵称</string>
     <string name="update_email_title">修改邮箱</string>
-    <string name="update_nick_name_et">请输入您的新昵称</string>
+    <string name="update_nick_name_et">请输入你的昵称</string>
     <string name="update_nick_name_tv">昵称不能为空</string>
     <string name="update_email_name_et">请输入你的邮箱</string>
     <string name="update_eamil_name_tv">邮箱不能为空</string>
     <string name="update_save_success">保存成功!</string>
-    <string name="update_nickname_error">该昵称已存在，请使用其他昵称！</string>
+    <string name="update_nickname_error">昵称已经在使用，请修改昵称。</string>
+    <!--messageFragment-->
+    <string name="message_all">全部</string>
+    <string name="message_reply">回复</string>
+    <string name="message_praise">赞</string>
+    <string name="message_notifications_praise">赞了你</string>
+    <string name="message_notifications_reply">回复了你</string>
+    <string name="message_notifications_login">请登录后查看</string>
 
     <string name="set_contributor">贡献者</string>
     <string name="set_permissions">权限说明</string>
@@ -416,35 +403,19 @@
     <string name="user_password">密码(6–32位)</string>
     <string name="user_password_confirm">确认密码</string>
 
-    <string name="user_name_error">用户名不能包含特殊字符,比如空格</string>
-    <string name="user_nickname_error">昵称不能包含特殊字符，如空格</string>
-    <string name="user_email_error">该电子邮件地址无效</string>
+    <string name="user_name_error">不能包含特殊字符</string>
+    <string name="user_nickname_error">不能包含特殊字符</string>
+    <string name="user_email_error">邮箱格式错误</string>
     <string name="user_password_error">密码格式不正确</string>
-    <string name="user_confirm_error">两次输入的密码不相同</string>
+    <string name="user_confirm_error">两次密码不相同</string>
 
     <string name="login_user_name">用户名</string>
     <string name="login_user_password">密码</string>
     <string name="login_user_sign_in">登录</string>
-    <string name="login_choose">或使用已有账户登陆</string>
+    <string name="login_choose">或使用您的账户登陆</string>
     <string name="login_new_user">新用户注册</string>
     <string name="login_post_as_a_guest">以游客身份回复</string>
 
-    <string name="register_term_of_service">APKPure服务条款</string>
-
-    <string name="app_detail_comment_order_array_default">按默认排序</string>
-    <string name="app_detail_comment_order_array_most_recent">最近</string>
-    <string name="app_detail_comment_order_array_new">最新</string>
-    
-    
-    <!--messageFragment-->
-    <string name="message_all">全部</string>
-    <string name="message_reply">回复</string>
-    <string name="message_praise">赞</string>
-    <string name="message_notifications_praise">赞了你</string>
-    <string name="message_notifications_reply">回复了你</string>
-    <string name="message_notifications_login">请登录后查看</string>
-
-    
     <string name="message">消息</string>
     <!--push-->
     <string name="push_title_info_reply">%s 回复了你的评论!</string>
@@ -464,6 +435,7 @@
     <string name="like_notification">赞我的</string>
     <string name="like_notification_msg">接收新点赞消息的通知</string>
     <string name="gif_tip">动图</string>
+    <string name="ad_tip">广告</string>
     <string name="submit_comment_title_hint">标题(可选)</string>
 
     <string name="comment_vote_string">投票</string>
@@ -481,8 +453,8 @@
     <string name="set_updates_notification_msg">应用有新版本时通知我，建议开启。</string>
     <string name="app_detail_unknow_text">版本过低，不支持该板块，请升级后查看。</string>
     <string name="comment_detail_original">查看原评论 ></string>
-    <string name="comment_comment_newest">倒序</string>
-    <string name="comment_comment_oldest">正序</string>
+    <string name="comment_comment_newest">最新</string>
+    <string name="comment_comment_oldest">最早</string>
 
     <!--reply edit-->
     <string name="edit">编辑</string>
@@ -491,12 +463,90 @@
     <string name="download_history">下载历史</string>
     <string name="menu_copy">复制</string>
     <string name="menu_cancel">取消</string>
-    <!--sub_comment-->
+   <!--sub_comment-->
     <string name="sub_comment_dialog_title">添加视频</string>
     <string name="sub_comment_dialog_des_tv">仅支持解析YouTube视频</string>
     <string name="sub_comment_dialog_link_et">在此输入链接</string>
     <string name="sub_comment_dialog_link_null">视频地址不能为空</string>
     <string name="sub_comment_progress_msg">正在添加视频…</string>
+
+    <string name="main_tab_home">首页</string>
+    <string name="main_tab_ranking">排行</string>
+    <string name="main_tab_group">小组</string>
+    <string name="main_tab_my">我的</string>
+
+    <string name="main_comment">评论</string>
+    <string name="main_won_praise">获赞</string>
+    <string name="main_my_comments">我的评论</string>
+    <string name="main_my_collection">我的收藏</string>
+    <string name="main_good_comments">我赞过的评论</string>
+    <string name="main_my_message">我的消息</string>
+    <string name="main_app_management">应用管理</string>
+    <string name="main_topic_selection">主题模式</string>
+    <string name="main_night_mode">夜间模式</string>
+    <string name="please_login_first">请先登录</string>
+    <string name="no_choice">没有精选</string>
+    <string name="follow_on_success">关注成功</string>
+    <string name="follow_un_success">已取消</string>
+    <string name="canceled">已取消</string>
+    <string name="group">论坛</string>
+    <string name="collection">收藏</string>
+
+    <string name="comments">评论</string>
+    <string name="follow">关注</string>
+    <string name="attention_on">已关注</string>
+    <string name="attention_off">关注</string>
+    <string name="no_attention">没有关注</string>
+    <string name="browsing_history">浏览历史</string>
+    <string name="browsing_history_prompt">是否清除浏览历史记录?</string>
+
+    <!--ranking_fragment-->
+    <string name="ranking_tab1_title">热门游戏</string>
+    <string name="ranking_tab2_title">新品游戏</string>
+    <string name="ranking_tab3_title">热门应用</string>
+    <string name="ranking_tab4_title">新品应用</string>
+
+    <string name="app_detail_three_fragment_foot">查看全部评论</string>
+    <string name="menu_paste">粘贴</string>
+
+    <string name="favorite_title">收藏</string>
+    <string name="save_as_favorite">收藏</string>
+    <string name="favorite_saved">收藏成功</string>
+    <string name="failed_to_save_favorite">收藏失败</string>
+    <string name="remove_as_favorite">已收藏</string>
+    <string name="remove_failed">取消失败</string>
+
+    <string name="collection_comment">评论</string>
+    <string name="collection_app">应用</string>
+
+    <string name="open_with_browser">在浏览器打开</string>
+    <string name="web_view_refresh">刷新</string>
+
+    <string name="topic_red_color">深红</string>
+    <string name="topic_green_color">幸运绿</string>
+    <string name="topic_blue_color">天青蓝</string>
+    <string name="topic_purple_color">紫罗兰</string>
+    <string name="topic_purple_black">冷灰</string>
+    <string name="topic_purple_yellow">杏黄</string>
+    <string name="topic_purple_blue_gary">空军蓝</string>
+    <string name="topic_switch_failed">切换失败</string>
+
+    <string name="recommend_title">我的推荐</string>
+    <string name="recommend_tab_game">应用推荐</string>
+    <string name="recommend_tab_list">推荐列表</string>
+    <string name="recommend_installed_list_title">应用列表</string>
+    <string name="recommend_review">预览</string>
+    <string name="recommend_replace_img">更换图片</string>
+    <string name="recommend_app_name">应用名</string>
+    <string name="recommend_state_can">欢迎推荐</string>
+    <string name="recommend_state_success">已被推荐</string>
+    <string name="recommend_select_game">选择应用</string>
+    <string name="recommend_write_des">描述</string>
+    <string name="recommend_write_des_hint">描述优秀，可增加入选几率！</string>
+    <string name="recommend_comment">提交</string>
+    <string name="recommend_comment_error">发生错误了！</string>
+    <string name="recommend_description_title">推荐说明</string>
+    <string name="recommend_description">1、推荐成功，就可以入选首页最新发现。\n2、暂时只可推荐已安装应用。</string>
+    <string name="recommend_user_recommend">%s 推荐</string>
+    <string name="recommend_required">必填</string>
 </resources>
-
-
