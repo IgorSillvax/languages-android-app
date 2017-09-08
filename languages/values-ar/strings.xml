@@ -194,25 +194,25 @@
     <string name="cancel">الغاء</string>
     <string name="ignored">تم تجاهله</string>
     <plurals name="total__count__apps__size_">
-        <item quantity="zero">
-            <![CDATA[المجموع: <b><font color="%1$d">%2$d</font></b>  تطبيق, <b><font color="%1$d">%3$s</font></b>]]>
-        </item>
-        <item quantity="one">
-            <![CDATA[المجموع: <b><font color="%1$d">%2$d</font></b>  تطبيق, <b><font color="%1$d">%3$s</font></b>]]>
-        </item>
-        <item quantity="two">
-            <![CDATA[المجموع: <b><font color="%1$d">%2$d</font></b>  تطبيق, <b><font color="%1$d">%3$s</font></b>]]>
-        </item>
-        <item quantity="few">
-            <![CDATA[المجموع: <b><font color="%1$d">%2$d</font></b>  تطبيق, <b><font color="%1$d">%3$s</font></b>]]>
-        </item>
-        <item quantity="many">
-            <![CDATA[المجموع: <b><font color="%1$d">%2$d</font></b>  تطبيق, <b><font color="%1$d">%3$s</font></b>]]>
-        </item>
-        <item quantity="other">
-            <![CDATA[المجموع: <b><font color="%1$d">%2$d</font></b>  تطبيق, <b><font color="%1$d">%3$s</font></b>]]>
-        </item>
-    </plurals>
+	<item quantity="zero">"
+ المجموع: &lt;b&gt;&lt;font color=%1$d&gt;%2$d&lt;/font&gt;&lt;/b&gt; تطبيق , &lt;b&gt;&lt;font color=%1$d&gt;%3$s&lt;/font&gt;&lt;/b&gt;
+ "</item>
+	<item quantity="one">"
+ المجموع : &lt;b&gt;&lt;font color=%1$d&gt;%2$d&lt;/font&gt;&lt;/b&gt; تطبيق, &lt;b&gt;&lt;font color=%1$d&gt;%3$s&lt;/font&gt;&lt;/b&gt;
+ "</item>
+	<item quantity="two">"
+ المجموع : &lt;b&gt;&lt;font color=%1$d&gt;%2$d&lt;/font&gt;&lt;/b&gt; تطبيق , &lt;b&gt;&lt;font color=%1$d&gt;%3$s&lt;/font&gt;&lt;/b&gt;
+ "</item>
+	<item quantity="few">"
+ المجموع : &lt;b&gt;&lt;font color=%1$d&gt;%2$d&lt;/font&gt;&lt;/b&gt; تطبيق, &lt;b&gt;&lt;font color=%1$d&gt;%3$s&lt;/font&gt;&lt;/b&gt;
+ "</item>
+	<item quantity="many">"
+ المجموع: &lt;b&gt;&lt;font color=%1$d&gt;%2$d&lt;/font&gt;&lt;/b&gt; تطبيق  , &lt;b&gt;&lt;font color=%1$d&gt;%3$s&lt;/font&gt;&lt;/b&gt;
+ "</item>
+	<item quantity="other">"
+ المجموع: &lt;b&gt;&lt;font color=%1$d&gt;%2$d&lt;/font&gt;&lt;/b&gt; تطبيق, &lt;b&gt;&lt;font color=%1$d&gt;%3$s&lt;/font&gt;&lt;/b&gt;
+ "</item>
+</plurals>
     <string name="total_zero_app">
         <![CDATA[المجموع : <b><font color="%1$d">0</font></b> تطبيق.]]>
     </string>
@@ -244,7 +244,7 @@
     <string name="touch_to_open">انقر للتشغيل.</string>
 
     <string name="report_content">تبليغ عن محتوى</string>
-<string name="recommend">نوصي به</string>
+<string name="recommend">إكتشاف</string>
     <string name="similar_or_related">مشابه او ذي صلة</string>
     <string name="more_from_developer">المزيد من المطور</string>
     <string name="more_large">المزيد</string>
@@ -330,7 +330,7 @@
 
     <string name="app_detail_comment_order_array_recent">مؤخرا</string>
     <string name="app_detail_comment_order_array_newest">حديثة</string>
-    <string name="app_detail_comment_order_array_best">الأفضل</string>
+    <string name="app_detail_comment_order_array_best">الأكثر إنتشار</string>
 
     <string name="download_complete_installation_setting">خيارات التثبيت بعد التحميل</string>
 
@@ -341,7 +341,7 @@
     <string name="reply">رد</string>
     <string name="input_reply_content">محتويات الرد :</string>
     <string name="publish">نشر</string>
-    <string name="reply_dialog_marked_words">تبعا للصورة يمكن الحذف</string>
+    <string name="reply_dialog_marked_words">ضغط بشكل مطول على الصورة لحذفها.</string>
     <string name="reply_comment">رد على التعليق</string>
     <string name="save_original_image">المحافظة على الصورة الاصليه</string>
     <string name="already_save">تم الحفظ <xliff:g id="path" example="ApKPure/photo">%1$s</xliff:g></string>
@@ -444,4 +444,24 @@
     <string name="app_detail_reply_floor">%d</string>
 
     <string name="app_detail_comment_order_array_default">اللغه العربيه</string>
+    <string name="app_detail_comment_order_array_most_recent">مؤخرا</string>
+    <string name="app_detail_comment_order_array_new">الأحدث</string>
+    <string name="message_all">الكل</string>
+    <string name="message_reply">الردود</string>
+    <string name="message_praise">تصويت للأعلى</string>
+    <string name="message_notifications_praise">تصويت تعليقك للأعلى</string>
+    <string name="message_notifications_reply">رد على تعليقك</string>
+    <string name="message_notifications_login">رجاءا قم بتسجيل الدخول لرؤية هذه الصفحه.</string>
+
+    <string name="comment_submitting">يتم النشر…</string>
+    <string name="message">رسائل</string>
+
+    <string name="push_title_info_reply">%s قام بالرد على تعليقك!</string>
+    <string name="push_title_info_upvoted">%s اعجبه تعليقك!</string>
+    <string name="download_list">قائمة التحميلات</string>
+    <string name="can_be_update">يمكن تحديثها</string>
+    <string name="install_list">تم تنصيبها</string>
+    <string name="no_download">لايوجد تنزيل</string>
+    <string name="downloads">تحميلات</string>
+
     </resources>

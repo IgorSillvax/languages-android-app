@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
-    <string name="action_settings">Parlametrlər</string>
+    <string name="action_settings">Parametrlər</string>
     <string name="action_search">Axtar</string>
     <string name="action_management">İdarəetmə</string>
 
@@ -11,24 +11,24 @@
     <string name="games">Oyunlar</string>
     <string name="apps">Tətbiqlər</string>
     <string name="categories">Kateqoriyalar</string>
-    <string name="updates">Yenilənmələr</string>
+    <string name="updates">Təzələmələr</string>
 
     <string name="something_happened">&gt;_&lt;\nSəhv baş verdi.</string>
 
-    <string name="load_failed_error">Stop! Bir səhv baş verdi.</string>
-    <string name="load_failed_empty">Burda heç bir yükləmə yoxdur.</string>
-    <string name="load_failed_all_up_to_date">Bütün Tətbiqləri yeniləşdir.</string>
+    <string name="load_failed_error">Oops! Səhvlik oldu.</string>
+    <string name="load_failed_empty">Burda heçbir şey yoxdur.</string>
+    <string name="load_failed_all_up_to_date">Bütün tətbiqlər artıq yenilənib.</string>
     <string name="load_failed_no_results">Bağışlıyın! Heçnə tapılmadı.</string>
     <string name="refresh">Yenilə</string>
 
     <string name="management">İdarəetmə</string>
-    <string name="app_updates">Tətbiq Yenilənmələri</string>
+    <string name="app_updates">Tətbiq Təzələmələri</string>
     <string name="app_management">Tətbiq İdarəetmə</string>
     <string name="app_uninstall">Tətbiq Silmək</string>
     <string name="apk_management">APK İdarəetmə</string>
     <string name="apk_xapk_management">APK / XAPK İdarəetmə</string>
     <string name="download_management">Yükləmələr</string>
-    <string name="settings">Parlametrlər</string>
+    <string name="settings">Parametrlər</string>
     <string name="about">Haqqında</string>
     <string name="about_title">Haqqında <xliff:g id="app_name" example="APKPure">%1$s</xliff:g></string>
     <string name="about_message">
@@ -39,19 +39,19 @@
     <string name="want_to_quit">Çıxmaq isdədiyinizə əminsiz?</string>
 
     <string name="install">Quraşdır</string>
-    <string name="open">Aç</string>
+    <string name="open">Açıqdır</string>
     <string name="delete">Sil</string>
     <string name="delete_all">Hamsını Sil</string>
     <string name="properties">Xüsusiyyətləri</string>
     <string name="properties_message">
         <![CDATA[<b>Yol:</b> %1$s<br><b>Ölçü:</b> %2$s<br><b>Son Düzəliş:</b> %3$s]]>
     </string>
-    <string name="want_to_delete_file">Bu Fayl Silmək İstiyirsiz?</string>
-    <string name="want_to_delete_all_files">Siz bütün faylları silmək istəyirsiniz?</string>
+    <string name="want_to_delete_file">Bu faylı silmək istəyirsiniz?</string>
+    <string name="want_to_delete_all_files">Bütün faylları silmək istəyirsiniz?</string>
     <string name="file_has_been_deleted">Fayl Silindi.</string>
     <string name="failed_to_delete_file">Fayl Silinmədi.</string>
     <string name="install__label_">Quraşdır - <xliff:g id="app_label" example="APKPure">%1$s</xliff:g></string>
-    <string name="user_canceled">İsdifadəçi ləğv etdi.</string>
+    <string name="user_canceled">İstifadəçi ləğv etdi.</string>
     <string name="auto">Avtomatik</string>
     <string name="language">Dil Seçimi</string>
     <string name="general">Ümumi</string>
@@ -69,24 +69,24 @@
 
     <string name="_name__is_up_to_date"><xliff:g id="name" example="APKPure">%1$s</xliff:g> bu ən son versiyadır.</string>
     <string name="join_us">Bizə Qatıl</string>
-    <string name="search_history">Tarix</string>
-    <string name="clear_search_history">Tarixi Təmizlə</string>
+    <string name="search_history">Tarixçə</string>
+    <string name="clear_search_history">Tarixçəni Təmizlə</string>
 
-    <string name="improvement_plan_title">Performas Yaxşılaşdırma Planı</string>
+    <string name="improvement_plan_title">Performans Yaxşılaşdırma Planı</string>
     <string name="search_for_apps">Tətbiq Axtar</string>
-    <string name="trending_searches">Top Axtarışlar</string>
+    <string name="trending_searches">Trend Axtarışlar</string>
     <string name="search">Axtar</string>
-    <string name="want_to_remove_download_item">"Bu yükləməni silmək  istiyirsiz?"</string>
-    <string name="want_to_remove_all_download_items">Siz bütün yüklənmiş faylları silmək istədiyinizə əminsiz?</string>
+    <string name="want_to_remove_download_item">"Bu yükləməni silmək  istəyirsiniz?"</string>
+    <string name="want_to_remove_all_download_items">Bütün yüklənmiş faylları silmək istədiyinizə əminsiz?</string>
     <string name="detail">Ətraflı</string>
     <string name="remove">Sil</string>
     <string name="remove_all">Hamsını Sil</string>
     <string name="deleted">Silindi</string>
     <string name="expired">Vaxtı doldu</string>
     <string name="file_invalid">Fayl etibarsızdır</string>
-    <string name="file_missing">Fayl əksik</string>
+    <string name="file_missing">Faylı tapmaq olmur</string>
     <string name="waiting_to_download">Yükləmək üçün gözləyir</string>
-    <string name="paused">Fasilə</string>
+    <string name="paused">Dayandırılıb</string>
     <string name="failed">Uğursuz</string>
     <string name="waiting">Gözləyir</string>
     <string name="preparing">Hazırlanır</string>
@@ -102,12 +102,12 @@
     <string name="uninstalled">Silindi</string>
     <string name="last_update__date_">Son yenilənmə: <xliff:g id="date">%1$s</xliff:g></string>
 
-    <string name="all">Hamsı</string>
+    <string name="all">Hamısı</string>
 
     <string name="screenshots">Ekran Görüntüləri</string>
     <string name="description">Açıqlama</string>
-    <string name="whatsnew">Yeni Nə Var</string>
-    <string name="information">Məllumat</string>
+    <string name="whatsnew">Yeniliklər</string>
+    <string name="information">Məlumat</string>
     <string name="version_">Versiya:</string>
     <string name="updated_">Yeniləndi:</string>
     <string name="size_">Ölçü:</string>
@@ -124,20 +124,21 @@
     <string name="market_response_error_invalid_result">Uğursuz nəticə.</string>
     <string name="market_response_error_network_connect_error">İnternet bağlantısı xətası.</string>
     <string name="market_response_error_network_read_error">İnternet bağlantı xətası.</string>
-    <string name="market_response_error_invalid_response_code">Keçərsiz doğrulama kodu.</string>
+    <string name="market_response_error_invalid_response_code">Naməlum cavab kodu.</string>
     <string name="no_more">Daha yoxdur.</string>
 
-    <string name="update">Yeniləşdir</string>
+    <string name="update">Təzələ</string>
     <string name="version__version___size_">Versiya: <xliff:g example="1.0.0" id="version">%1$s</xliff:g>, <xliff:g example="1024 kB" id="size">%2$s</xliff:g></string>
     <string name="downloads_complete">Yükləmə Tamamlandı</string>
-    <string name="touch_for_view_all_downloads">Bütün Yükləmələri Görmək üçün toxun</string>
+    <string name="touch_for_view_all_downloads">Bütün yükləmələri görmək üçün toxun</string>
     <string name="touch_to_download_it_again">Təkrar yükləmək üçün toxun</string>
 
 
-    <string name="download_percent"><xliff:g example="50" id="percent">%1$d</xliff:g> %%</string>
+    <string name="download_percent"><xliff:g example="50" id="percent">%1$d</xliff:g>
+ %%</string>
 
-    <string name="pause">Fasilə</string>
-    <string name="pause_all">Hamsına Fasilə ver</string>
+    <string name="pause">Dayandır</string>
+    <string name="pause_all">Hamsını Dayandır</string>
     <string name="continue_">Davam et</string>
     <string name="continue_all">Hamsını Davam etdir</string>
     <string name="restart">Yenidən başlat</string>
@@ -156,14 +157,14 @@
         </item>
     </plurals>
     <string name="_name__download_failed"><xliff:g example="APKPure" id="name">%1$s</xliff:g> yükləmə uğursuz</string>
-    <string name="io_error">Yanlışı Seçim Çevrəsi. Orada ki, uğur qazanmak üçün qurulmak üçün kifayyət qədər yer yoxdur.</string>
+    <string name="io_error">Xəta.Quraşdırma üçün lazımi qədər yer olmaya bilər.</string>
     <string name="file_format_error">Bilinməyən fayl növü.</string>
     <string name="parsing_xapk">XAPK Analiz edilir …</string>
     <string name="installing_obb">OBB Fayl Yüklənir …</string>
     <string name="flag_as_inappropriate">Spam olaraq bildir</string>
     <string name="_ellipsis_"> … </string>
 
-    <string name="market_response_error_invalid_response_body">Cavab orqan etibarsız.</string>
+    <string name="market_response_error_invalid_response_body">Naməlum cavab növü.</string>
     <string name="market_response_error_unknown_error__error_">Naməlum səhv (<xliff:g example="SUCCESS" id="error">%1$s</xliff:g>).</string>
 
     <plurals name="_count__new_update_is_available">
@@ -171,7 +172,7 @@
 	<item quantity="other"><xliff:g example="2" id="count">%1$d</xliff:g> yeni tətbiq yeniləmələri</item>
 </plurals>
 
-    <string name="launching_please_wait">Başlatılır, lütfən gözləyin…</string>
+    <string name="launching_please_wait">Başladılır, zəhmət olmasa gözləyin…</string>
 
     <plurals name="_count__item_is_downloading">
 	<item quantity="one"><xliff:g example="1" id="count">%1$d</xliff:g> tətbiq yüklənir</item>
@@ -226,9 +227,9 @@
     <string name="delete_packages_after_installation">Paketləri quraşdırıldıqdan sonra sil</string>
 
     <string name="_name__installation_completed"><xliff:g example="APKPure" id="name">%1$s</xliff:g> Quraşdırma başa çatıb</string>
-    <string name="installed">Quraşdırılmış</string>
-    <string name="download_over_cellular">Mobil Şəbəkə uzərindən Yüklə</string>
-    <string name="download_over_cellular_content">Siz mobil şəbəkə üzərindən yükləməyə hazırlaşırsınız. Davam etdirmək istərdiniz?</string>
+    <string name="installed">Quraşdırılıb</string>
+    <string name="download_over_cellular">Yükləmə üçün Mobil Data işlət</string>
+    <string name="download_over_cellular_content">Siz mobil data ilə yükləmək üzrəsiniz. Davam etdirmək istərdiniz?</string>
 
     <string name="participate_ultra_download_beta_test_title">Ultra Yükləməyi aktivləşdirərək sürətli yükləməkdən həz alın</string>
     <string name="participate_ultra_download_beta_test_content">Ultra Yükləmə test sınaqdadır, əgər hər hansı problemlər yaranarsa bizə məlumat verib. Siz asanlıqla Parlametrlərin altında bunu dayandıra bilərsiniz.</string>
@@ -273,10 +274,10 @@ Yuxarıdaki funksiyalar Android 4.1+ versiyada dəstəklənməktədir, root ehti
     <string name="feedback">Bizimlə Əlaqə</string>
 
     <string name="similar_or_related">Oxşar Və Ya Əlaqəli</string>
-    <string name="more_from_developer">Daha çox İşləyib Hazırlayan</string>
+    <string name="more_from_developer">Yaradıcıdan Əlavələr</string>
     <string name="changing_language">Dil dəyişdirilir, xahiş edirik gözləyin…</string>
     <string name="download_complete_installation_setting">Quraşdırma seçimi yükləməkdən sonra</string>
-    <string name="recommend">Kəşf etmək</string>
+    <string name="recommend">Axtar</string>
     <string name="report">Hesabat</string>
     <plurals name="app_detail_see_all_replies">
 	<item quantity="one">Hamsını Seç <xliff:g example="1" id="count">%1$d</xliff:g> cavab</item>
@@ -305,19 +306,19 @@ Yuxarıdaki funksiyalar Android 4.1+ versiyada dəstəklənməktədir, root ehti
 
     <string name="app_detail_comment_order_array_recent">Sonuncu</string>
     <string name="app_detail_comment_order_array_newest">Yeni</string>
-    <string name="app_detail_comment_order_array_best">Ən yaxşı</string>
+    <string name="app_detail_comment_order_array_best">Qaynar</string>
 
     <string name="download_complete_installation_setting_entries_always">Həmişə quraşdırmaq</string>
     <string name="download_complete_installation_setting_entries_never">Heç vaxt quraşdırma</string>
 
     <string name="reply">Cavab</string>
-    <string name="publish">Dərc etmək</string>
-    <string name="reply_dialog_marked_words">Şəklinə görə silinə bilər</string>
+    <string name="publish">Göndər</string>
+    <string name="reply_dialog_marked_words">Şəkli silmək üçün basılı tutun.</string>
     <string name="reply_comment">Şərh cavab</string>
     <string name="already_save">Saxlamaq <xliff:g id="path" example="ApKPure/photo">%1$s</xliff:g></string>
 
-    <string name="load_end">Daha çox məllumat yoxdu</string>
-    <string name="load_failed_click_retry">Uğursuz yükləmə, yenidən cəht et</string>
+    <string name="load_end">Əlavə data yoxdur</string>
+    <string name="load_failed_click_retry">Yükləmə alınmadı, bas və birdə yoxla</string>
     <string name="loading">Açılır…</string>
 
     <string name="permission_denied">Giriş qadağandır!</string>
@@ -412,4 +413,8 @@ Yuxarıdaki funksiyalar Android 4.1+ versiyada dəstəklənməktədir, root ehti
 
     <string name="download_complete_installation_setting_entries_only">Yalnız qarşısında zaman tətbiq yüklemek</string>
     <string name="input_reply_content">Cavabı daxil edin:</string>
+    <string name="app_detail_comment_order_array_default">Standart sırala</string>
+    <string name="app_detail_comment_order_array_most_recent">Sonuncular</string>
+    <string name="app_detail_comment_order_array_new">Yeni</string>
+    <string name="save_original_image">Orijinal şəkli qoru</string>
     </resources>
