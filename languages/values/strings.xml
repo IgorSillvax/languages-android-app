@@ -29,7 +29,7 @@
 
     <string name="management">Management</string>
     <string name="app_updates">App Updates</string>
-    <string name="app_management">App Management</string>
+    <string name="app_management">Installed</string>
     <string name="app_uninstall">App Uninstall</string>
     <string name="apk_management">APK Management</string>
     <string name="apk_xapk_management">APK / XAPK Management</string>
@@ -43,6 +43,10 @@
         <![CDATA[<b>Version:</b> %1$s<br><br><b>Website:</b> <a href="%2$s">%2$s</a><br><b>Email:</b> <a href="mailto:%3$s">%3$s</a>]]>
     </string>
     <string name="check_update">Check update</string>
+    <string name="check_update_replace">Official version</string>
+    <string name="check_update_beta">Pre-release Beta</string>
+    <string name="check_update_replace_value" translatable="false">0</string>
+    <string name="check_update_beta_value" translatable="false">1</string>
     <string name="quit">Quit</string>
     <string name="want_to_quit">Are you sure you want to quit?</string>
 
@@ -275,7 +279,7 @@
         <item quantity="other">See All <xliff:g example="2" id="count">%1$d</xliff:g> replies</item>
     </plurals>
 
-    <string name="app_detail_customer_reviews">Customer Comments</string>
+    <string name="app_detail_customer_reviews">Comments</string>
     <string name="app_detail_comment_type_web">web</string>
     <string name="app_submit_submit">Submit…</string>
     <string name="app_submit_anonymous_comment">Add a comment</string>
@@ -302,11 +306,19 @@
         <item>@string/app_detail_comment_order_array_best</item>
     </array>
 
+    <array name="app_detail_reply_comment_order_array" translatable="false">
+        <item>@string/app_detail_comment_order_array_best</item>
+        <item>@string/app_detail_comment_order_array_new</item>
+        <item>@string/app_detail_comment_order_array_old</item>
+    </array>
+
     <string name="app_detail_comment_order_array_default">Sort by default</string>
     <string name="app_detail_comment_order_array_most_recent">Most Recent</string>
     <string name="app_detail_comment_order_array_new">Newest</string>
-    <string name="app_detail_comment_order_array_best">Hot</string>
+    <string name="app_detail_comment_order_array_best">Best</string>
+    <string name="app_detail_comment_order_array_old">Old</string>
 
+    <string name="app_detail_comment_join_group_bt">Group</string>
     <string-array name="language_entries" translatable="false">
         <item>@string/auto</item>
         <item>English</item>
@@ -333,6 +345,9 @@
         <item>简体中文</item>
         <item>繁體中文 (香港)</item>
         <item>繁體中文 (台灣)</item>
+        <item>עִברִית </item>
+        <item>ภาษาไทย</item>
+        <item>မြန်မာဘာသာ</item>
     </string-array>
     <string-array name="language_entry_values" translatable="false">
         <item>__auto__</item>
@@ -360,6 +375,9 @@
         <item>zh-CN</item>
         <item>zh-HK</item>
         <item>zh-TW</item>
+        <item>iw</item>
+        <item>th-TH</item>
+        <item>my-MM</item>
     </string-array>
 
     <string name="download_complete_installation_setting">Installation option after downloading</string>
@@ -442,8 +460,8 @@
     <!--messageFragment-->
     <string name="message_all">ALL</string>
     <string name="message_reply">REPLIES</string>
-    <string name="message_praise">UPVOTES</string>
     <string name="message_notifications_praise">Upvoted your comment</string>
+    <string name="message_praise">LIKES</string>
     <string name="message_notifications_reply">Replied your comment</string>
     <string name="message_notifications_login">Please login to see this page.</string>
 
@@ -475,7 +493,7 @@
 
     <string name="set_contributor">Contributor</string>
     <string name="set_permissions">Permissions</string>
-    
+
     <string name="sign_in_services">By signing up you agree to our Terms and Privacy Policy.</string>
 
     <string name="sign_in_services_key">Terms</string>
@@ -520,11 +538,12 @@
     <string name="like_notification">Upvote notifications</string>
     <string name="like_notification_msg">Receive notifications for new upvote messages</string>
     <string name="gif_tip">gif</string>
+    <string name="ad_tip">ad</string>
     <string name="submit_comment_title_hint">Subject (Optional)</string>
 
     <string name="comment_vote_string">Vote</string>
     <string name="comment_reply_three">Reply</string>
-    <string name="comment_item_fold">1 comment has been collapsed</string>
+    <string name="comment_item_fold">comment collapsed</string>
 
     <plurals name="comment_reply_item_fold">
         <item quantity="one"><xliff:g example="1" id="count">%1$d</xliff:g> Reply collapsed</item>
@@ -536,7 +555,7 @@
     <string name="set_updates_notification">App Updates Available</string>
     <string name="set_updates_notification_msg">Notify when app updates are available. Recommended Setting: On</string>
     <string name="app_detail_unknow_text">Old version APKPure does n\'t support new features, please update to the latest.</string>
-    <string name="comment_detail_original">View Original Comment</string>
+    <string name="comment_detail_original">View Original Comment ></string>
     <string name="comment_comment_newest">Newest</string>
     <string name="comment_comment_oldest">Oldest</string>
 
@@ -553,5 +572,90 @@
     <string name="sub_comment_dialog_link_et">Enter Video URL address here</string>
     <string name="sub_comment_dialog_link_null">Video URL address can\'t be blank</string>
     <string name="sub_comment_progress_msg">Adding video…</string>
+
+    <string name="play_button">Play button</string>
+    <string name="null_time">0:00</string>
+    <string name="open_video_in_youtube">Open video in YouTube</string>
+    <string name="full_screen_button">Full screen button</string>
+
+    <string name="main_tab_home">HOME</string>
+    <string name="main_tab_ranking">RANKING</string>
+    <string name="main_tab_group">GROUP</string>
+    <string name="main_tab_my">ME</string>
+
+    <string name="main_comment">comment</string>
+    <string name="main_won_praise">Likes</string>
+    <string name="main_my_comments">Comments</string>
+    <string name="main_my_collection">Favorites</string>
+    <string name="main_my_message">Messages</string>
+    <string name="main_good_comments">Upvoted</string>
+    <string name="main_app_management">App management</string>
+    <string name="main_topic_selection">Themes</string>
+    <string name="main_night_mode">Night mode</string>
+    <string name="please_login_first">Please login first</string>
+    <string name="no_choice">No choice</string>
+    <string name="follow_on_success">Success!</string>
+    <string name="follow_un_success">Unfollow!</string>
+    <string name="canceled">Canceled</string>
+    <string name="group">Group</string>
+    <string name="collection">Collection</string>
+
+    <string name="comments">Comments</string>
+    <string name="follow">Following</string>
+    <string name="attention_on">Following</string>
+    <string name="attention_off">Follow</string>
+    <string name="no_attention">No following groups, yet.</string>
+    <string name="browsing_history">Browsing history</string>
+    <string name="browsing_history_prompt">Do you want to clear browsing history?</string>
+
+    <!--ranking_fragment-->
+    <string name="ranking_tab1_title">Top Games</string>
+    <string name="ranking_tab2_title">Top New Games</string>
+    <string name="ranking_tab3_title">Top Apps</string>
+    <string name="ranking_tab4_title">Top New Apps</string>
+
+    <string name="app_detail_three_fragment_foot">Show all comments</string>
+    <string name="menu_paste">Paste</string>
+
+    <string name="favorite_title">Favorite</string>
+    <string name="save_as_favorite">Save as Favorite</string>
+    <string name="favorite_saved">Favorite saved</string>
+    <string name="failed_to_save_favorite">Failed to save favorite</string>
+    <string name="remove_as_favorite">Remove as Favorite</string>
+    <string name="remove_failed">Remove Failed</string>
+
+    <string name="collection_comment">Comments</string>
+    <string name="collection_app">APPS</string>
+
+    <string name="open_with_browser">Open with Browser</string>
+    <string name="web_view_refresh">Refresh</string>
+
+    <string name="topic_red_color">Crimson</string>
+    <string name="topic_green_color">Lucky Green</string>
+    <string name="topic_blue_color">Azure Blue</string>
+    <string name="topic_purple_color">Dark Voilet</string>
+    <string name="topic_purple_black">Cool Grey</string>
+    <string name="topic_purple_yellow">Apricot Orange</string>
+    <string name="topic_purple_blue_gary">Air Force Blue</string>
+    <string name="topic_switch_failed">Theme change failed</string>
+
+    <string name="recommend_title">Recommendations</string>
+    <string name="recommend_tab_game">Recommend an App</string>
+    <string name="recommend_tab_list">Recommended</string>
+    <string name="recommend_installed_list_title">My Apps</string>
+    <string name="recommend_review">Preview</string>
+    <string name="recommend_replace_img">Change Picture</string>
+    <string name="recommend_app_name">App Title</string>
+    <string name="recommend_state_can">Recommend</string>
+    <string name="recommend_state_success">Recommended</string>
+    <string name="recommend_select_game">Recommend an App</string>
+    <string name="recommend_write_des">Description</string>
+    <string name="recommend_write_des_hint">A helpful review will be seen by more users who have the same interest like you.</string>
+    <string name="recommend_comment">Send</string>
+    <string name="recommend_comment_error">Something error happened！</string>
+    <string name="recommend_description_title">Instructions:</string>
+    <string name="recommend_description">1. Approved recommendations will be listed under the DISCOVER section.\n2. You can only recommend the apps currently installed on your Android device.</string>
+    <string name="recommend_user_recommend">Recommended by %s</string>
+    <string name="recommend_required">Required Field</string>
 
 </resources>
