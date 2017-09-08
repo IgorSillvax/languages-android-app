@@ -5,7 +5,7 @@
 
     <string name="action_settings">Instellingen</string>
     <string name="action_search">Zoeken</string>
-    <string name="action_management">Beheren</string>
+    <string name="action_management">Beheer</string>
 
     <string name="press_back_key_quit">Druk nogmaals op de Back-toets en sluit af.</string>
 
@@ -315,7 +315,7 @@ De bovengenoemde functies ondersteunen Android 4.1+, The above mentioned functio
     <string name="reply">Reageren</string>
     <string name="input_reply_content">De inhoud van je bericht:</string>
     <string name="publish">Publiceren</string>
-    <string name="reply_dialog_marked_words">Dit kan verwijderd worden</string>
+    <string name="reply_dialog_marked_words">Afbeelding ingedrukt houden om het te verwijderen.</string>
     <string name="reply_comment">Reageer op opmerking</string>
     <string name="save_original_image">Behoud de originele afbeelding</string>
     <string name="already_save">Opgeslagen<xliff:g id="path" example="ApKPure/photo">%1$s</xliff:g></string>
@@ -415,4 +415,13 @@ hetgeen nodig is om de QR-code te scannen.</string>
     <string name="login_new_user">Nieuwe gebruikersregistratie</string>
     <string name="login_post_as_a_guest">Versturen als gast</string>
 
-</resources>
+<string name="app_detail_comment_order_array_most_recent">Meest recente</string>
+    <string name="app_detail_comment_order_array_new">Nieuwste</string>
+    <string name="message_reply">REACTIES</string>
+    <string name="message_praise">OMHOOG GESTEMD</string>
+    <string name="message_notifications_praise">Je comment omhooggestemd</string>
+    <string name="message_notifications_reply">Reactie op jouw comment</string>
+    <string name="message_notifications_login">Log aub in om deze pagina te zien.</string>
+
+    <string name="comment_submitting">Versturen…</string>
+    </resources>

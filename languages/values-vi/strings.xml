@@ -30,7 +30,9 @@
     <string name="download_management">Quản lý Tải về</string>
     <string name="settings">Cài đặt</string>
     <string name="about">Thông tin</string>
-    <string name="about_title">Về <xliff:g id="app_name" example="APKPure">%1$s</xliff:g></string>
+    <string name="about_title">Về 
+<xliff:g example="APKPure" id="app_name">
+%1$s</xliff:g></string>
     <string name="about_message">
         <![CDATA[<b>Phiên bản:</b> %1$s<br><br><b>Website:</b> <a href=%2$s>%2$s</a><br><b>Email:</b> <a href=mailto:%3$s>%3$s</a>]]>
     </string>
@@ -44,18 +46,22 @@
     <string name="want_to_delete_file">Bạn muốn xóa tệp này?</string>
     <string name="file_has_been_deleted">Tệp đã được xóa.</string>
     <string name="failed_to_delete_file">Xóa tệp đã thất bại.</string>
-    <string name="install__label_">Cài đặt - <xliff:g id="app_label" example="APKPure">%1$s</xliff:g></string>
+    <string name="install__label_">Lắp đặt- 
+<xliff:g example="APKPure" id="app_label">
+%1$s</xliff:g></string>
     <string name="user_canceled">Người dùng đã hủy.</string>
-    <string name="io_error">IO lỗi. Có thể là không có đủ không gian trống cho việc cài đặt thành công.</string>
+    <string name="io_error">IO lỗi. Có thể không đủ bộ nhớ cho việc lắp đặt.</string>
     <string name="file_format_error">Định dạng tệp lỗi.</string>
     <string name="parsing_xapk">Phân tích XAPK …</string>
-    <string name="installing_obb">Đang cài đặt Tệp OBB …</string>
+    <string name="installing_obb">Đang lắp đặt Tệp OBB…</string>
     <string name="extracting_apk">Giải nén Tệp APK …</string>
-    <string name="installing_apk">Đang cài đặt APK …</string>
+    <string name="installing_apk">Đang lắp đặt APK …</string>
 
     <string name="uninstall">Gỡ cài đặt</string>
     <string name="uninstalled">Đã gỡ cài đặt</string>
-    <string name="last_update__date_">Cập nhật cuối: <xliff:g id="date">%1$s</xliff:g></string>
+    <string name="last_update__date_">Cập nhật cuối: 
+<xliff:g id="date">
+%1$s</xliff:g></string>
 
     <string name="all">Tất cả</string>
 
@@ -83,29 +89,37 @@
     <string name="market_response_error_network_read_error">Đọc dữ liệu lỗi.</string>
     <string name="market_response_error_invalid_response_code">Mã phản hồi không hợp lệ.</string>
     <string name="market_response_error_invalid_response_body">Thân phản ứng không hợp lệ.</string>
-    <string name="market_response_error_unknown_error__error_">Lỗi không rõ (<xliff:g id="error" example="SUCCESS">%1$s</xliff:g>).</string>
+    <string name="market_response_error_unknown_error__error_">Lỗi không rõ (
+<xliff:g example="SUCCESS" id="error">
+%1$s</xliff:g>).</string>
 
     <string name="no_more">Không còn nữa.</string>
 
     <string name="update">Cập nhật</string>
-    <string name="version__version___size_">Phiên bản: <xliff:g id="version" example="1.0.0">%1$s</xliff:g>, <xliff:g id="size" example="1024 kB">%2$s</xliff:g></string>
+    <string name="version__version___size_">Phiên bản: 
+<xliff:g example="1.0.0" id="version">
+%1$s</xliff:g>, 
+<xliff:g example="1024 kB" id="size">
+%2$s</xliff:g></string>
     <plurals name="_count__new_update_is_available">
-	    <item quantity="one"><xliff:g id="count" example="1">%1$d</xliff:g> cập nhật mới khả dụng</item>
-	    <item quantity="other"/>
-    </plurals>
+	<item quantity="other"><xliff:g example="2" id="count">
+%1$d</xliff:g> đã có bản cập nhật mới.</item>
+</plurals>
 
     <string name="launching_please_wait">Đang chạy, xin chờ…</string>
 
     <plurals name="_count__item_is_downloading">
-	    <item quantity="one"><xliff:g id="count" example="1">%1$d</xliff:g> item đã được tải</item>
-	    <item quantity="other"/>
-    </plurals>
+	<item quantity="other"><xliff:g example="2" id="count">
+%1$d</xliff:g> đang tải các mục xuống.</item>
+</plurals>
     <string name="downloads_complete">Tải về hoàn tất</string>
-    <string name="touch_for_view_all_downloads">Chạm để xem tất cả tải về</string>
-    <string name="_name__download_failed"><xliff:g id="name" example="APKPure">%1$s</xliff:g> tải về thất bại</string>
+    <string name="touch_for_view_all_downloads">Chạm để xem các mục tải về</string>
+    <string name="_name__download_failed"><xliff:g example="APKPure" id="name">
+%1$s</xliff:g> tải về thất bại</string>
     <string name="touch_to_download_it_again">Chạm để tải lại</string>
 
-    <string name="download_percent"><xliff:g id="percent" example="50">%1$d</xliff:g>%%</string>
+    <string name="download_percent"><xliff:g example="50" id="percent">
+%1$d</xliff:g> %%</string>
     <string name="pause">Tạm dừng</string>
     <string name="continue_">Tiếp tục</string>
     <string name="restart">Tải lại</string>
@@ -117,11 +131,11 @@
     <string name="paused">Đã tạm dừng</string>
     <string name="failed">Thất bại</string>
     <string name="file_invalid">Tệp không khả dụng</string>
-    <string name="file_missing">Lỡ tệp</string>
+    <string name="file_missing">Tệp bị mất</string>
     <string name="expired">Đã hết hạn</string>
     <string name="detail">Chi tiết</string>
-    <string name="remove">Loại bỏ</string>
-    <string name="want_to_remove_download_item">Bạn muốn loại bỏ chứ?</string>
+    <string name="remove">Gỡ bỏ</string>
+    <string name="want_to_remove_download_item">Bạn muốn gỡ bỏ chứ?</string>
 
     <string name="search">Tìm kiếm</string>
     <string name="search_for_apps">Tìm Ứng dụng</string>
@@ -132,10 +146,11 @@
         <![CDATA[Giúp chúng tôi với trình Thông tin thiết bị Android, Chúng tôi làm <b>không thu thập</b> thông tin nhận dạng cá nhân (tên, địa chỉ, địa chỉ e-mail, số an sinh xã hội, hoặc các định dạng khác duy nhất).]]>
     </string>
     <string name="join_us">Tham gia với chúng tôi</string>
-    <string name="skip">Bỏ qua</string>
+    <string name="skip">Nhảy qua</string>
 
-    <string name="_name__is_up_to_date"><xliff:g id="name" example="APKPure">%1$s</xliff:g> đã cập nhật.</string>
-    <string name="new_version_available_title">Cập nhật mới khả dụng</string>
+    <string name="_name__is_up_to_date"><xliff:g example="APKPure" id="name">
+%1$s</xliff:g> đã cập nhật.</string>
+    <string name="new_version_available_title">Đã có cập nhật mới</string>
     <string name="new_version_available_message">
         <![CDATA[<b>Phiên bản mới nhất:</b> %1$s<br><br><b>Có gì mới:</b><br>%2$s]]>
     </string>
@@ -145,7 +160,7 @@
     <string name="report_problem_subject">Báo cáo vấn đề</string>
     <string name="report_problem_text">Vấn đề chủ đề:\n%1$s\n\nVấn đề chi tiết:\n%2$s</string>
 
-    <string name="installation_failed">Cài đặt Thất bại</string>
+    <string name="installation_failed">Lắp đặt Thất bại</string>
     <string name="invalid_app_detail">Thông tin chi tiết ứng dụng không hợp lệ.</string>
     <string name="invalid_app_asset">Thông tin tài sản ứng dụng không hợp lệ.</string>
     <string name="failed_to_request_app_detail">Không thể yêu cầu thông tin chi tiết ứng dụng.</string>
@@ -166,20 +181,31 @@
     </string>
 
     <string name="share">Chia sẻ</string>
-    <string name="share_app_url">Tải về <xliff:g id="app_name" example="APKPure">%1$s</xliff:g> APK (từ @<xliff:g id="social_network_name" example="APKPure">%2$s</xliff:g>), <xliff:g id="app_url" example="https://apkpure.com/p/com.apkpure.aegon">%3$s</xliff:g></string>
+    <string name="share_app_url">Tải về
+<xliff:g example="APKPure" id="app_name">
+%1$s</xliff:g> APK (từ @
+<xliff:g example="APKPure" id="social_network_name">
+%2$s</xliff:g>), 
+<xliff:g example="https://apkpure.com/p/com.apkpure.aegon" id="app_url">
+%3$s</xliff:g></string>
 
-    <string name="_name__version_history"><xliff:g id="name" example="APKPure">%1$s</xliff:g> Lịch sử Phiên bản</string>
-    <string name="update__date___size_">Cập nhật: <xliff:g id="date" example="Mar 3, 2016">%1$s</xliff:g>, <xliff:g id="size" example="1024 kB">%2$s</xliff:g></string>
+    <string name="_name__version_history"><xliff:g example="APKPure" id="name">
+%1$s</xliff:g> Lịch sử phiên bản</string>
+    <string name="update__date___size_">Cập nhật: 
+<xliff:g example="Mar 3, 2016" id="date">
+%1$s</xliff:g>, 
+<xliff:g example="1024 kB" id="size">
+%2$s</xliff:g></string>
 
     <string name="general">Chung</string>
     <string name="language">Ngôn ngữ</string>
     <string name="auto">Tự động</string>
 
-    <string name="pause_all">Dừng Toàn Bộ</string>
+    <string name="pause_all">Tạm Dừng Toàn Bộ</string>
     <string name="continue_all">Tiếp tục tất cả</string>
     <string name="waiting_to_download">Đang chờ tải</string>
     <string name="deleted">Đã xóa</string>
-    <string name="remove_all">Di chuyển toàn bộ</string>
+    <string name="remove_all">Gỡ toàn bộ</string>
     <string name="delete_downloaded_file">Xóa mục đã tải về</string>
 
     <string name="search_history">Lịch sử</string>
@@ -189,70 +215,71 @@
     <string name="report_content">Báo cáo nội dung</string>
 
     <string name="update_all">Cập nhật toàn bộ</string>
-    <string name="ignore">Bỏ qua</string>
+    <string name="ignore">Không chấp nhận</string>
     <string name="select">Chọn</string>
     <string name="cancel">Hủy</string>
     <string name="select_all">Chọn Toàn bộ</string>
     <string name="deselect_all">Bỏ chọn toàn bộ</string>
     <string name="ignored">Đã bỏ qua</string>
-    <string name="installation">Cài đặt</string>
+    <string name="installation">Lắp đặt vào</string>
     <string name="show_notification_after_installation">Hiện thông báo sau khi cài đặt</string>
-    <string name="touch_to_open">Chạm đẻ mở.</string>
+    <string name="touch_to_open">Chạm để mở.</string>
 
     <string name="delete_all">Xóa Tất Cả</string>
     <string name="properties">Thuộc tính</string>
-	 <string name="properties_message">
-        <![CDATA[<b>Đường dẫn:</b> %1$s<br><b>Size:</b> %2$s<br><b>Last Kích thước:</b> %3$s]]>
-    </string>
+	 <string name="properties_message">"
+ &lt;b&gt;Đường dẫn:&lt;/b&gt; %1$s&lt;br&gt;&lt;b&gt;Kích cở:&lt;/b&gt; %2$s&lt;br&gt;
+&lt;b&gt;Sửa đổi lần cuối:&lt;/b&gt; %3$s
+ "</string>
     <string name="want_to_delete_all_files">Bạn có muốn xóa toàn bộ các tệp tin không?</string>
     <string name="similar_or_related">Tương tự Hoặc Có liên quan</string>
     <string name="more_from_developer">Thêm từ nhà phát triển</string>
     <string name="more_large">Thêm</string>
     <string name="flag_as_inappropriate">Gắn cờ là không phù hợp</string>
-    <string name="installed">Đã cài đặt</string>
-    <string name="want_to_remove_all_download_items">Bạn có muốn xóa toàn bộ những mục tải về không?</string>
+    <string name="installed">Đã lắp đặt</string>
+    <string name="want_to_remove_all_download_items">Bạn có muốn gỡ toàn bộ các mục tải về không?</string>
     <string name="download_over_cellular">Tải về trên Di động</string>
     <string name="download_over_cellular_content">Bạn muốn tải về trên mạng điện thoại di động của bạn. Bạn có muốn tiếp tục không?</string>
 
-    <string name="participate_ultra_download_beta_test_title">Kích hoạt tính năng Ultra Download và tận hưởng tốc độ tải nhanh hơn</string>
-    <string name="participate_ultra_download_beta_test_content">Tải về Super vẫn là một phiên bản beta, nếu bạn tìm thấy một vấn đề trong sử dụng, xin vui lòng cho chúng tôi biết. Bạn có thể dễ dàng tắt tính năng này trong trang cài đặt.</string>
+    <string name="participate_ultra_download_beta_test_title">Kích hoạt tính năng \"siêu tải xuống\" và tận hưởng tốc độ tải nhanh hơn</string>
+    <string name="participate_ultra_download_beta_test_content">\"Siêu tải xuống\" vẫn là một phiên bản thử nghiệm, nếu bạn tìm thấy một vấn đề trong sử dụng, xin vui lòng cho chúng tôi biết. Bạn có thể tắt tính năng này trong cài đặt.</string>
     <string name="enable">Cho phép</string>
 
     <string name="contact_us">Liên hệ với chúng tôi</string>
     <string name="feedback">Phản hồi</string>
 
-    <string name="update___count__">Cập nhật (<xliff:g id="count" example="3">%1$d</xliff:g>)</string>
-    <string name="unignore">Không bỏ qua</string>
+    <string name="update___count__">Cập nhật (
+<xliff:g id="count" example="3">
+%1$d</xliff:g>)</string>
+    <string name="unignore">Chấp nhận</string>
 	
     <plurals name="total__count__apps__size_">
-        <item quantity="one">
-            <![CDATA[Tổng: <b><font color="%1$d">%2$d</font></b> app, <b><font color="%1$d">%3$s</font></b>]]>
-        </item>
-        <item quantity="other">
-            <![CDATA[Total: <b><font color="%1$d">%2$d</font></b> apps, <b><font color="%1$d">%3$s</font></b>]]>
-        </item>
-    </plurals>
-    <string name="total_zero_app">
-        <![CDATA[Tổng <b><font color="%1$d">0</font></b> app]]>
-    </string>
+	<item quantity="other">"
+ Tổng: &lt;b&gt;&lt;font color=%1$d&gt;%2$d&lt;/font&gt;&lt;/b&gt; ứng dụng, &lt;b&gt;&lt;font color=%1$d&gt;%3$s&lt;/font&gt;&lt;/b&gt;
+ "</item>
+</plurals>
+    <string name="total_zero_app">"
+ Tổng: &lt;b&gt;&lt;font color=%1$d&gt;0&lt;/font&gt;&lt;/b&gt; ứng dụng
+ "</string>
 
     <string name="changing_language">Đang thay đổi ngôn ngữ, xin chờ…</string>
     <string name="download_via_wifi_only">Chỉ tải qua Wi-Fi</string>
-    <string name="enable_ultra_download">Bật Ultra Download</string>
-    <string name="enable_ultra_download_summary">Tải về Super vẫn là một phiên bản beta, nếu bạn tìm thấy một vấn đề trong sử dụng, xin vui lòng cho chúng tôi biết.</string>
+    <string name="enable_ultra_download">Bật \" Siêu tải xuống \"</string>
+    <string name="enable_ultra_download_summary">\"siêu tải xuống\" vẫn là một phiên bản \"thử nghiệm\", nếu bạn tìm thấy một vấn đề trong sử dụng, xin vui lòng cho chúng tôi biết.</string>
     <string name="delete_packages_after_installation">Xóa gói tệp tin sau khi cài đặt</string>
 
-    <string name="_name__installation_completed"><xliff:g id="name" example="APKPure">%1$s</xliff:g> cài đặt hoàn tất</string>
-    <string name="auto_service_install_accessibility_title">Tự cài đặt</string>
+    <string name="_name__installation_completed"><xliff:g example="APKPure" id="name">
+%1$s</xliff:g> Lắp đặt hoàn tất.</string>
+    <string name="auto_service_install_accessibility_title">Tự động lắp đặt</string>
     <string name="auto_service_install_accessibility_summary">Hỗ trợ Android 4.1+, không cần truy cập quyền root.</string>
 
-    <string name="auto_service_dialog_title">Bật Tự Cài đặt</string>
-    <string name="auto_service_dialog_message">Tự động cài đặt yêu cầu bạn cho phép trên điện thoại, nó là an toàn để sử dụng mà không có bất kỳ rủi ro.</string>
+    <string name="auto_service_dialog_title">Bật Tự động lắp đặt</string>
+    <string name="auto_service_dialog_message">Tự động lắp đặt yêu cầu bạn cho phép trên điện thoại, nó an toàn sử dụng mà không có bất kỳ rủi ro.</string>
 
-    <string name="auto_service_title">APKPure Tự Cài đặt</string>
-    <string name="auto_service_description">Kích hoạt \"APKPure Tự Cài đặt\", để giữ APKPure \"Auto Install\" chạy trơn tru.
+    <string name="auto_service_title">APKPure Tự động lắp đặt</string>
+    <string name="auto_service_description">Kích hoạt \"APKPure Tự động lắp đặt\", để giữ APKPure \"Tự động lắp đặt\" dể chạy hơn.
 
-\"APKPure Tự Cài đặt\" có thể giúp bạn nhấp vào tất cả các cài đặt nút khi cài đặt hoặc cập nhật các ứng dụng, bạn không cần phải kiểm tra điện thoại tất cả các thời gian.
+\"APKPure Tự lắp đặt\" có thể giúp bạn nhấp vào nút tất cả các cài đặt khi cài đặt hoặc cập nhật các ứng dụng, bạn không cần phải kiểm tra điện thoại.
 
 Khi kích hoạt tính năng này, bạn có thể nhận được cảnh báo rủi ro hệ thống, hãy nhấn \"OK\" để bật công tắc tiếp cận \"ON\".
 
@@ -260,21 +287,229 @@ Khi kích hoạt tính năng này, bạn có thể nhận được cảnh báo r
 
 Các chức năng nêu trên hỗ trợ Android 4.1 trở lên, không có sự cho phép cần thiết của root. Chúng tôi hứa không bao giờ thu thập bất kỳ thông tin cá nhân của bạn trong dịch vụ tiếp cận này. Xin vui lòng liên hệ với chúng tôi với bất kỳ vấn đề.</string>
 
-    <string name="auto_service_install">Cài đặt</string>
+    <string name="auto_service_install">Lắp đặt</string>
     <string name="auto_service_ensure">Ok</string>
     <string name="auto_service_next">Tiếp</string>
     <string name="auto_service_exchange">Thay thế</string>
     <string name="auto_service_complete">Xong</string>
 
-    <string name="auto_service_install__material_">CÀI ĐẶT</string>
+    <string name="auto_service_install__material_">LẮP ĐẶT</string>
     <string name="auto_service_ensure__material_">OK</string>
     <string name="auto_service_next__material_">TIẾP</string>
     <string name="auto_service_exchange__material_">THAY THẾ</string>
     <string name="auto_service_complete__material_">XONG</string>
 
-    <string name="auto_install_via_root_title">Tự Cài đặt (Chế độ Root)</string>
-    <string name="auto_install_via_root_summary">Chỉ áp dụng cho Điện thoại Android và máy tính bảng.</string>
+    <string name="auto_install_via_root_title">Tự động lắp đặt (Chế độ Root)</string>
+    <string name="auto_install_via_root_summary">Chỉ áp dụng cho Điện thoại Android và máy tính bảng ( đã root ) .</string>
 
-    <string name="download_complete_installation_setting">Tùy chọn cài đặt sau khi tải</string>
+    <string name="download_complete_installation_setting">Tùy chọn lắp đặt sau khi tải</string>
     <string name="recommend">Khám Phá</string>
-    </resources>
+    <string name="report">Báo cáo</string>
+    <string name="share_app_url_comment"> <xliff:g example="APKPure" id="user_name">
+%1$s</xliff:g>\'s Nhận xét về 
+<xliff:g example="APKPure" id="app_name">
+%2$s</xliff:g> (từ @<xliff:g example="APKPure" id="social_network_name">
+%3$s</xliff:g>), <xliff:g example="https://apkpure.com/p/com.apkpure.aegon" id="app_url">
+%4$s</xliff:g></string>
+
+    <plurals name="app_detail_see_all_replies">
+	<item quantity="one">Xem tất cả <xliff:g example="2" id="count">
+%1$d</xliff:g> trả lời</item>
+	<item quantity="other"/>
+</plurals>
+
+    <string name="app_detail_customer_reviews">Nhận xét của khách hàng</string>
+    <string name="app_detail_comment_type_web">Web</string>
+    <string name="app_submit_submit">Xác nhận…</string>
+    <string name="app_submit_anonymous_comment">Thêm nhận xét</string>
+    <string name="app_submit_title_toast">Bạn phải viết tiêu đề !</string>
+    <string name="app_submit_msg_toast">Bạn phải viết cái gì đó!</string>
+    <string name="app_submit_name_toast">Hãy điền biệt danh</string>
+    <string name="app_submit_email_toast">Vui lòng điền địa chỉ email chính xác!</string>
+    <string name="app_submit_star_toast">Bạn phải gửi sao!</string>
+    <string name="app_submit_title_hint">Hãy viết tiêu đề</string>
+    <string name="app_submit_msg_hint">Hãy viết ý kiến của bạn</string>
+    <string name="app_submit_nickname">Biệt danh</string>
+    <string name="app_submit_email">Email</string>
+    <string name="app_submit_submit_title">Xác nhận</string>
+    <string name="app_submit_reply_to">Trả lời đến</string>
+
+    <string name="app_detail_tab_one">chi tiết</string>
+    <string name="app_detail_tab_two">Nhận xét</string>
+    <string name="app_detail_tab_three">Liên quan</string>
+
+    <string name="app_detail_comment_order_array_default">Xếp theo mặc định</string>
+    <string name="app_detail_comment_order_array_most_recent">Gần đây</string>
+    <string name="app_detail_comment_order_array_new">Mới nhất</string>
+    <string name="app_detail_comment_order_array_best">Tin nóng</string>
+
+    <string name="download_complete_installation_setting_entries_always">Luôn luôn cài đặt</string>
+    <string name="download_complete_installation_setting_entries_only">Chỉ lắp đặt ứng dụng phía trước</string>
+    <string name="download_complete_installation_setting_entries_never">không bao giờ lắp đặt</string>
+
+    <string name="reply">Đáp lại</string>
+    <string name="input_reply_content">Nhập nội dung vào khi trả lời</string>
+    <string name="publish">Bài đăng</string>
+    <string name="reply_dialog_marked_words">Nhấn giữ bức ảnh đã chọn để xóa nó.</string>
+    <string name="reply_comment">Trả lời nhận xét</string>
+    <string name="save_original_image">Giữ hình ảnh ban đầu</string>
+    <string name="already_save">Lưu trữ
+<xliff:g id="path" example="ApKPure/photo">
+%1$s</xliff:g></string>
+
+    <string name="load_end">Không còn dữ liệu nào nữa</string>
+    <string name="load_failed_click_retry">Tải thất bại, nhấp thử lại</string>
+    <string name="loading">Đang tải</string>
+
+    <string name="scan_qr_code_hint">Trước khi sử dụng Quét Mã QR, bạn cần phải cho phép máy ảnh
+ Được yêu cầu để quét mã QR.</string>
+    <string name="zxing_msg_default_status">Vui lòng đặt mã QR bên trong kính ngắm để quét.</string>
+    <string name="zxing_msg_parser_status">Quét mã QR thất bại, hãy thử lại lần nữa.</string>
+
+    <string name="tip_permission_camera_storage">Không được phép sử dụng máy ảnh và thẻ SD, hãy mở quyền quản lý</string>
+    <string name="permission_denied">Truy cập bị từ chối</string>
+
+    <string name="login_title">Đăng nhập</string>
+    <string name="sign_out">Đăng xuất</string>
+
+    <string name="delete_comment">Xóa bình luận</string>
+    <string name="delete_comment_msg">bạn có chắc là bạn muốn xoá bình luận này không?</string>
+    <string name="upload_cancel">Tải lên đã bị hủy</string>
+    <string name="login_select_way_to_login">Hãy chọn cách đăng nhập</string>
+
+    <string name="user_info_edit_title">Hồ sơ</string>
+    <string name="user_info_edit_portrait_tv">Ảnh đại diện</string>
+    <string name="user_info_edit_username_tv">Tên đăng nhập</string>
+    <string name="user_info_edit_nickname_tv">Biệt danh</string>
+    <string name="user_info_edit_email_tv">Email</string>
+    <string name="user_info_edit_gender_tv">Giới tính</string>
+    <string name="user_info_edit_birthday_tv">Sinh nhật</string>
+    <string name="user_info_edit_change_pwd_tv">Lập lại mật khẩu</string>
+    <string name="user_info_edit_login_out_tv">Đăng xuất</string>
+    <string name="user_info_edit_not_choose">Không rõ</string>
+    <string name="user_info_edit_gender_male">Nam</string>
+    <string name="user_info_edit_gender_female">Nữ</string>
+    <string name="user_info_edit_portrait_album">Chọn ảnh từ thư viện</string>
+    <string name="user_info_edit_portrait_take_photo">Chụp ảnh từ máy ảnh</string>
+    <string name="user_info_edit_portrait_error">Loại hình ảnh không được hỗ trợ</string>
+    <string name="user_info_edit_ok">OK</string>
+    <string name="user_info_edit_cancel">Hủy</string>
+
+    <string name="update_nick_title">Thay đổi biệt danh</string>
+    <string name="update_email_title">Thay đổi email</string>
+    <string name="update_nick_name_et">Nhập biệt danh mới của bạn</string>
+    <string name="update_nick_name_tv">Biệt danh mới không thể để trống</string>
+    <string name="update_email_name_et">Nhập email của bạn</string>
+    <string name="update_eamil_name_tv">email không thể để trống</string>
+    <string name="update_nickname_error">Biệt danh đã tồn tại, vui lòng chọn cái khác!</string>
+    <string name="message_all">Tất cả</string>
+    <string name="message_reply">Trả lời</string>
+    <string name="message_praise">Bỏ phiếu</string>
+    <string name="message_notifications_praise">Đã bỏ phiếu bình luận của bạn</string>
+    <string name="message_notifications_reply">Đã trả lời bình luận của bạn</string>
+    <string name="message_notifications_login">Vui lòng đăng nhập để xem trang này.</string>
+
+    <string name="update_pwd_title">Đặt lại mật khẩu của tôi</string>
+    <string name="update_pwd_current_pwd_et">Mật khẩu cũ</string>
+    <string name="update_pwd_new_pwd_et">Mật khẩu mới</string>
+    <string name="update_pwd_Confirm_pwd_et">Xác nhận mật khẩu mới</string>
+    <string name="upload_avatar">Đang tải lên …</string>
+    <string name="update_pwd_current_null_tv">Mật khẩu cũ không được để trống</string>
+    <string name="update_pwd_Confirm_null_tv">Xác nhận mật khẩu không được để trống</string>
+    <string name="update_pwd_new_pwd_null_tv">Mật khẩu mới không được để trống</string>
+    <string name="update_pwd_new_confrim_tv">Mật mã bạn nhập không khớp</string>
+    <string name="update_pwd_save_bt">Lưu lại</string>
+    <string name="update_save_success">Đã lưu thành công!</string>
+    <string name="crop__cancel" ignore="ButtonCase">Hủy bỏ</string>
+    <string name="crop__done">Xong</string>
+    <string name="crop__pick_error">Loại tệp hình ảnh không hợp lệ</string>
+    <string name="crop__saving">Đang lưu ảnh …</string>
+    <string name="crop__wait">Xin chờ…</string>
+
+    <string name="is_comment">Nhận xét là …</string>
+    <string name="comment_cancel">Nhận xét đã bị hủy</string>
+    <string name="comment_submitting">Đang gửi …</string>
+    <string name="comment_replying">Đang trả lời…</string>
+    <string name="register_term_of_service">Điều khoản Dịch vụ APKPure</string>
+
+    <string name="set_contributor">Người đóng góp</string>
+    <string name="set_permissions">Sự cho phép</string>
+    
+    <string name="sign_in_services">Bằng cách đăng ký bạn đã đồng ý với Điều khoản và Chính sách Bảo mật của chúng tôi.</string>
+
+    <string name="sign_in_services_key">Điều khoản</string>
+    <string name="sign_in_services_key_policy">Chính sách bảo mật</string>
+
+    <string name="user_sign_up">Đăng ký</string>
+    <string name="user_name_hint">Tên tài khoản</string>
+    <string name="user_email_hint">Email</string>
+    <string name="user_password">Mật khẩu (6-32)</string>
+    <string name="user_password_confirm">Xác nhận mật khẩu</string>
+
+    <string name="user_name_error">Tên đăng nhập không được chứa bất kỳ ký tự đặc biệt, ký hiệu hoặc khoảng cách</string>
+    <string name="user_nickname_error">Biệt danh không được chứa bất kỳ ký tự đặc biệt, ký hiệu hoặc khoảng cách</string>
+    <string name="user_email_error">Địa chỉ email này không hợp lệ</string>
+    <string name="user_password_error">Mật khẩu này không hợp lệ</string>
+    <string name="user_confirm_error">Mật khẩu phải trùng khớp</string>
+
+    <string name="login_user_name">Tên đăng nhập</string>
+    <string name="login_user_password">Mật khẩu</string>
+    <string name="login_user_sign_in">Đăng nhập</string>
+    <string name="login_choose">Hoặc đăng nhập bằng tài khoản của bạn</string>
+    <string name="login_new_user">Đăng Ký Người Dùng Mới</string>
+    <string name="login_post_as_a_guest">Đăng ký dưới dạng khách</string>
+
+    <string name="message">Tin nhắn</string>
+
+    <string name="push_title_info_reply">%s đã trả lời bình luận của bạn!</string>
+    <string name="push_title_info_upvoted">%s đã bỏ phiếu bình luận của bạn</string>
+    <string name="download_list">Danh sách tải về</string>
+    <string name="can_be_update">Có thể cập nhật</string>
+    <string name="install_list">Đã lắp đặt</string>
+    <string name="no_download">Không tải về</string>
+    <string name="downloads">Tải về</string>
+
+    <string name="change_language_failed">Chuyển đổi ngôn ngữ thất bại!</string>
+    <string name="comment_reply_tell_msg">Bình luận này đã bị xóa!</string>
+
+    <string name="notification_setting">Thông báo</string>
+    <string name="reply_notification">Trả lời thông báo</string>
+    <string name="reply_notification_msg">Nhận thông báo khi có tin nhắn mới</string>
+    <string name="like_notification">Thông báo bỏ phiếu</string>
+    <string name="like_notification_msg">Nhận thông báo mới khi bỏ phiếu tin nhắn</string>
+    <string name="gif_tip">gif</string>
+    <string name="submit_comment_title_hint">Chủ đề (Tùy chọn)</string>
+
+    <string name="comment_vote_string">Bỏ phiếu</string>
+    <string name="comment_reply_three">Trả lời</string>
+    <string name="comment_item_fold">1 bình luận đã bị sụp</string>
+
+    <plurals name="comment_reply_item_fold">
+	<item quantity="one"><xliff:g example="2" id="count">
+%1$d</xliff:g> Trả lời bị thu gọn</item>
+	<item quantity="other"/>
+</plurals>
+
+    <string name="comment_no_reply">Hể, không có gì ở đây.</string>
+    <string name="comment_reply_info_name">Chi tiết</string>
+    <string name="set_updates_notification">Đã có bản cập nhật ứng dụng</string>
+    <string name="set_updates_notification_msg">Thông báo khi có cập nhật ứng dụng. Cài đặt được đề xuất: Mở</string>
+    <string name="app_detail_unknow_text">APKPure Phiên bản cũ không hỗ trợ các tính năng mới, hãy cập nhật lên phiên bản mới nhất.</string>
+    <string name="comment_detail_original">Xem Bình luận đầu tiên</string>
+    <string name="comment_comment_newest">Mới nhất</string>
+    <string name="comment_comment_oldest">Cũ nhất</string>
+
+    <string name="edit">Chỉnh sửa</string>
+    <string name="menu_copy">Sao chép</string>
+    <string name="menu_cancel">Hủy bỏ</string>
+    <string name="delete_all_download_history">Xóa tất cả lịch sử tải xuống?</string>
+    <string name="delete_the_historical_record">Xóa bản ghi lịch sử?</string>
+    <string name="download_history">Lịch sử tải xuống</string>
+
+    <string name="sub_comment_dialog_title">Thêm video</string>
+    <string name="sub_comment_dialog_des_tv">Chỉ hỗ trợ phân tích cú pháp URL trên YouTube</string>
+    <string name="sub_comment_dialog_link_et">Nhập địa chỉ URL Video vào đây</string>
+    <string name="sub_comment_dialog_link_null">Địa chỉ URL video không được để trống</string>
+    <string name="sub_comment_progress_msg">Thêm video …</string>
+
+</resources>

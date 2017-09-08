@@ -245,11 +245,11 @@
     <string name="auto_service_exchange__material_">MENGGANTIKAN</string>
     <string name="auto_service_complete__material_">SELESAI</string>
 
-    <string name="auto_install_via_root_title">Auto Instal (Mode Akar)</string>
+    <string name="auto_install_via_root_title">Pasang Otomatis (Mode Root)</string>
     <string name="auto_service_install_accessibility_summary">Dukungan Android 4.1+, tidak akar izin diperlukan.</string>
 
     <string name="auto_service_dialog_title">Aktifkan Auto Instal</string>
-    <string name="auto_install_via_root_summary">Untuk telepon Android dan tablet berakar saja.</string>
+    <string name="auto_install_via_root_summary">"Untuk perangkat Android dan tablet  yang sudah di root saja."</string>
 
     <string name="auto_service_dialog_message">Auto Instal mengharuskan Anda untuk mengotorisasi di telepon, itu aman untuk digunakan tanpa resiko.</string>
 
@@ -261,7 +261,7 @@
     <string name="feedback">Umpan Balik</string>
 
     <string name="changing_language">Mengubah bahasa, mohon tunggu…</string>
-    <string name="download_complete_installation_setting">Pilihan instalasi setelah men-donwload</string>
+    <string name="download_complete_installation_setting">Pilihan instalasi setelah mengunduh</string>
     <string name="recommend">Temukan</string>
     <string name="sub_comment_dialog_title">Tambahkan video</string>
     <string name="sub_comment_dialog_des_tv"/>
@@ -282,4 +282,112 @@
     <string name="comment_no_reply">Wow, tidak ada apa-apa di sini.</string>
     <string name="comment_reply_three">Balas</string>
     <string name="gif_tip">Gif</string>
+    <string name="report">Laporkan</string>
+    <string name="app_detail_customer_reviews">Komentar Pelanggan</string>
+    <string name="app_detail_comment_type_web">web</string>
+    <string name="app_submit_submit">Masukkan…</string>
+    <string name="app_submit_anonymous_comment">Tambahkan komentar</string>
+    <string name="app_submit_title_toast">Kamu wajib menuliskan judul!</string>
+    <string name="app_submit_msg_toast">Anda harus menuliskan sesuatu!</string>
+    <string name="app_submit_name_toast">Harap mengisi nickname!</string>
+    <string name="app_submit_email_toast">Harap mengisikan alamat email yang benar!</string>
+    <string name="app_submit_star_toast">Kamu harus Memberi Bintang!</string>
+    <string name="app_submit_title_hint">Tuliskan Judul</string>
+    <string name="app_submit_msg_hint">Tuliskan Pendapat kamu</string>
+    <string name="app_submit_nickname">Nama Panggilan</string>
+    <string name="app_submit_email">Surel</string>
+    <string name="app_submit_submit_title">Kirim</string>
+    <string name="app_submit_reply_to">Balas ke</string>
+
+    <string name="app_detail_tab_one">Detail</string>
+    <string name="app_detail_tab_two">Komentar</string>
+    <string name="app_detail_comment_order_array_default">Urutkan Sesuai Default</string>
+    <string name="app_detail_comment_order_array_most_recent">Yang Lain</string>
+    <string name="app_detail_comment_order_array_new">Terbaru</string>
+    <string name="app_detail_comment_order_array_best">Populer</string>
+
+    <string name="download_complete_installation_setting_entries_always">Selalu Pasang</string>
+    <string name="download_complete_installation_setting_entries_only">Pasang ketika App di depan</string>
+    <string name="download_complete_installation_setting_entries_never">Jangan pernah Pasang</string>
+
+    <string name="reply">Balas</string>
+    <string name="input_reply_content">Masukkan konten Balasan</string>
+    <string name="publish">Publikasikan</string>
+    <string name="reply_dialog_marked_words">Tekan lama gambar terpilih untuk menghapusnya</string>
+    <string name="load_failed_click_retry">Gagal Memuat, Klik Coba Lagi</string>
+    <string name="loading">Memuat…</string>
+
+    <string name="permission_denied">Akses Ditolak!</string>
+
+    <string name="login_title">Masuk</string>
+    <string name="sign_out">Keluar</string>
+
+    <string name="delete_comment">Hapus Komentar</string>
+    <string name="delete_comment_msg">Apakah kamu yakin ingin menghapus komentar ini?</string>
+    <string name="upload_cancel">Proses Upload dibatalkan</string>
+    <string name="login_select_way_to_login">Pilih Cara Masuk</string>
+
+    <string name="user_info_edit_title">Profil</string>
+    <string name="user_info_edit_portrait_tv">Gambar Profil</string>
+    <string name="user_info_edit_username_tv">Nama Pengguna</string>
+    <string name="user_info_edit_nickname_tv">Nama Panggilan</string>
+    <string name="user_info_edit_email_tv">Surel</string>
+    <string name="user_info_edit_gender_tv">Kepribadian</string>
+    <string name="user_info_edit_birthday_tv">Ulang Tahun</string>
+    <string name="user_info_edit_change_pwd_tv">Atur ulang kata sandi</string>
+    <string name="user_info_edit_login_out_tv">Keluar</string>
+    <string name="user_info_edit_not_choose">Tidak Diketahui</string>
+    <string name="user_info_edit_gender_male">Pria</string>
+    <string name="user_info_edit_gender_female">Wanita</string>
+    <string name="user_info_edit_portrait_album">Pilih Foto dari Galeri</string>
+    <string name="user_info_edit_portrait_take_photo">Ambil Foto dari kamera</string>
+    <string name="user_info_edit_portrait_error">Jenis Gambar tidak didukung</string>
+    <string name="user_info_edit_ok">Oke</string>
+    <string name="user_info_edit_cancel">Batal</string>
+
+    <string name="update_nick_title">Ubah Nama Panggilan</string>
+    <string name="update_email_title">Ubah Surel</string>
+    <string name="update_nick_name_et">Masukkan Nama Pengguna Baru</string>
+    <string name="update_nick_name_tv">Nama Pengguna tidak boleh kosong</string>
+    <string name="update_email_name_et">Masukkan Surel</string>
+    <string name="update_eamil_name_tv">Surel tidak boleh kosong</string>
+    <string name="update_nickname_error">Nama Pengguna sudah digunakan, pilih yang lain!</string>
+    <string name="message_all">SEMUA</string>
+    <string name="message_reply">BALASAN</string>
+    <string name="message_praise">DUKUNG</string>
+    <string name="message_notifications_praise">Dukung Komentarmu</string>
+    <string name="message_notifications_reply">Membalas Komentarmu</string>
+    <string name="message_notifications_login">Masuk untuk melihat Laman ini.</string>
+
+    <string name="update_pwd_title">Atur Ulang Katasandi saya</string>
+    <string name="update_pwd_current_pwd_et">Kata sandi lama</string>
+    <string name="update_pwd_new_pwd_et">Kata sandi Baru</string>
+    <string name="update_pwd_Confirm_pwd_et">Konfirmasikan Kata Sandi</string>
+    <string name="upload_avatar">Mengupload…</string>
+    <string name="update_pwd_current_null_tv">Kata sandi lama tidak boleh kosong</string>
+    <string name="update_pwd_Confirm_null_tv">Konfirmasi Kata sandi tidak boleh kosong</string>
+    <string name="update_pwd_new_pwd_null_tv">Kata sandi baru tidak boleh kosong</string>
+    <string name="update_pwd_new_confrim_tv">Kata sandi yang kamu masukkan tidak cocok</string>
+    <string name="update_pwd_save_bt">Simpan</string>
+    <string name="update_save_success">Berhasil Tersimpan!</string>
+    <string name="crop__cancel" ignore="ButtonCase">Batal</string>
+    <string name="crop__done">Selesai</string>
+    <string name="crop__pick_error">Jenis Gambar Tidak Valid</string>
+    <string name="crop__saving">Menyimpan Gambar…</string>
+    <string name="crop__wait">Harap Tunggu…</string>
+
+    <string name="comment_cancel">Berkomentar dibatalkan</string>
+    <string name="comment_submitting">Mengirim…</string>
+    <string name="comment_replying">Membalas…</string>
+    <string name="register_term_of_service">Ketentuan Penggunaan APKPure</string>
+
+    <string name="set_contributor">Kontributor</string>
+    <string name="set_permissions">Izin</string>
+    
+    <string name="sign_in_services">Dengan Mendaftar kamu menyetujui Kebijakan Privasi dan Ketentuan Penggunaan Kami.</string>
+
+    <string name="sign_in_services_key">Ketentuan</string>
+    <string name="sign_in_services_key_policy">Kebijakan Privasi</string>
+
+    <string name="user_sign_up">Mendaftar</string>
     </resources>

@@ -7,7 +7,7 @@
 
     <string name="refresh">โหลดอีกครั้ง</string>
 
-    <string name="app_uninstall">ถอนการติดตั้ง</string>
+    <string name="app_uninstall">ถอนการติดตั้งแอป</string>
     <string name="app_updates">อัพเดตแอป</string>
     <string name="settings">ตั้งค่า</string>
     <string name="quit">ออก</string>
@@ -27,8 +27,8 @@
     <string name="load_failed_error">อุ๊บส์...!! เกิดข้อผิดพลาด</string>
     <string name="load_failed_all_up_to_date">แอปทั้งหมดถูกอัพเดต</string>
     <string name="categories">หมวดหมู่</string>
-    <string name="games">เกม</string>
-    <string name="featured">ที่โดดเด่น</string>
+    <string name="games">เกมส์</string>
+    <string name="featured">Featured</string>
     <string name="apps">แอป</string>
     <string name="app_name">APKPure</string>
 
@@ -55,7 +55,9 @@
     <string name="more">อื่นๆ</string>
     <string name="unknown">ไม่รู้</string>
     <string name="market_response_error_success">สำเร็จ</string>
-    <string name="about_message">" &lt;b&gt;เวอร์ชัน:&lt;/b&gt; %1$s&lt;br&gt;&lt;br&gt;&lt;b&gt;เว็บไซต์:&lt;/b&gt; &lt;a href=%2$s&gt;%2$s&lt;/a&gt;&lt;br&gt;&lt;b&gt;Email:&lt;/b&gt; &lt;a href=/cdn-cgi/l/email-protection#1c392f386f&gt;%3$s&lt;/a&gt; "</string>
+    <string name="about_message">"
+ &lt;b&gt;เวอร์ชัน:&lt;/b&gt; %1$s&lt;br&gt;&lt;br&gt;&lt;b&gt;เว็บไซต์:&lt;/b&gt; &lt;a href=%2$s&gt;%2$s&lt;/a&gt;&lt;br&gt;&lt;b&gt;Email:&lt;/b&gt; &lt;a href=/cdn-cgi/l/email-protection#1c392f386f&gt;%3$s&lt;/a&gt;
+ "</string>
     <string name="parsing_xapk">กำลังแยกไฟล์ XAPK …</string>
     <string name="installing_apk">กำลังติดตั้งไฟล์ APK …</string>
 
@@ -97,9 +99,11 @@
     <string name="recommend">ขอแนะนำ</string>
     <string name="delete_all">ลบ</string>
     <string name="properties">Thai</string>
-    <string name="properties_message"/>
+    <string name="properties_message">"
+ &lt;b&gt;Path:&lt;/b&gt; %1$s&lt;br&gt;&lt;b&gt;Size:&lt;/b&gt; %2$s&lt;br&gt;&lt;b&gt;Last Modified:&lt;/b&gt; %3$s
+ "</string>
     <string name="want_to_delete_all_files"/>
     <string name="similar_or_related"/>
     <string name="more_from_developer"/>
-    <string name="more_large"></string>
+    <string name="more_large"/>
     </resources>

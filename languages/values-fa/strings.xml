@@ -183,13 +183,13 @@
     <string name="deselect_all">لغو انتخاب همه</string>
     <string name="ignored">نادیده گرفته</string>
     <plurals name="total__count__apps__size_">
-        <item quantity="one">
-            <![CDATA[کل: <b><font color="%1$d">%2$d</font></b> برنامه, <b><font color="%1$d">%3$s</font></b>]]>
-        </item>
-        <item quantity="other">
-            <![CDATA["کل: <b><font color="%1$d">%2$d</font></b> برنامه, <b><font color="%1$d">%3$s</font></b>]]>
-        </item>
-    </plurals>
+	<item quantity="one">"
+ کل: &lt;b&gt;&lt;font color=%1$d&gt;%2$d&lt;/font&gt;&lt;/b&gt; برنامه، &lt;b&gt;&lt;font color=%1$d&gt;%3$s&lt;/font&gt;&lt;/b&gt;
+ "</item>
+	<item quantity="other">"
+ کل: &lt;b&gt;&lt;font color=%1$d&gt;%2$d&lt;/font&gt;&lt;/b&gt; برنامه، &lt;b&gt;&lt;font color=%1$d&gt;%3$s&lt;/font&gt;&lt;/b&gt;
+ "</item>
+</plurals>
     <string name="total_zero_app">
         <![CDATA[کل: <b><font color="%1$d">0</font></b> برنامه]]>
     </string>
@@ -397,7 +397,7 @@
     <string name="login_post_as_a_guest">ارسال به عنوان مهمان</string>
 
 <string name="recommend">پیشنهاد‌ها</string>
-    <string name="reply_dialog_marked_words">با توجه به تصویر می تواند حذف شود</string>
+    <string name="reply_dialog_marked_words">با توجه به تصویر می تواند حذف شود.</string>
     <string name="save_original_image">نگه‌داشتن تصویر اصلی</string>
     <string name="login_select_way_to_login">لطفا یکی از راه‌ها را برای وارد شدن انتخاب کنید</string>
 
@@ -450,4 +450,19 @@
     <string name="sub_comment_dialog_link_null">آدرس ویدیو نمی‌تواند خالی باشد</string>
     <string name="sub_comment_progress_msg">در حال اضافه کردن ویدیو…</string>
 
-</resources>
+<string name="app_detail_comment_order_array_most_recent">ارسال‌های اخیر</string>
+    <string name="comment_detail_original">مشاهده نظر اصلی</string>
+    <string name="message_notifications_praise">رای‌موافق نظر شما</string>
+    <string name="message_notifications_reply">پاسخ‌های نظر شما</string>
+    <string name="is_comment">نظر هست…</string>
+    <string name="push_title_info_reply">%s پاسخ‌داده‌اند به نظر شما!</string>
+    <string name="push_title_info_upvoted">%s رای‌موافق به نظر شما داده‌اند!</string>
+    <string name="comment_item_fold">1 نظر جمع شده است</string>
+
+    <plurals name="comment_reply_item_fold">
+	<item quantity="one"><xliff:g example="1" id="count">%1$d</xliff:g> پاسخ جمع شده است</item>
+	<item quantity="other"><xliff:g example="2" id="count">%1$d</xliff:g> پاسخ جمع شده است</item>
+</plurals>
+
+    <string name="delete_the_historical_record">حذف سابقه تاریخی؟</string>
+    </resources>
