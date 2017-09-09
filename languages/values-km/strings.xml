@@ -45,7 +45,7 @@
 
     <string name="management">ការគ្រប់គ្រង</string>
     <string name="app_updates">កម្មវិធីអាប់ដេត</string>
-    <string name="app_management">ការគ្រប់គ្រងកម្មវិធី</string>
+    <string name="app_management">បានតម្លើង</string>
     <string name="app_uninstall">ឈប់តម្លើងកម្មវិធី</string>
     <string name="apk_management">ការគ្រប់គ្រង APK</string>
     <string name="apk_xapk_management">ការគ្រប់គ្រង APK / XAPK</string>
@@ -260,7 +260,7 @@
     <string name="app_detail_comment_order_array_default">តម្រៀបតាមលំនាំដើម</string>
     <string name="app_detail_comment_order_array_most_recent">ពេញនិយមបំផុត</string>
     <string name="app_detail_comment_order_array_new">ថ្មីបំផុត</string>
-    <string name="app_detail_comment_order_array_best">ក្ដៅៗ</string>
+    <string name="app_detail_comment_order_array_best">ល្អបំផុត</string>
 
     <string name="download_complete_installation_setting">ជម្រើសការតម្លើង បន្ទាប់ពីការទាញយក</string>
 
@@ -313,7 +313,7 @@
     <string name="update_eamil_name_tv">អ៊ីម៉ែលមិនអាចទទេរ</string>
     <string name="message_all">ទាំងអស់</string>
     <string name="message_reply">ការឆ្លើយតប</string>
-    <string name="message_praise">បោះឆ្នោតឡើង</string>
+    <string name="message_praise">ចូលចិត្ត</string>
     <string name="message_notifications_praise">បោះឆ្នោតឡើង មតិរបស់អ្នក</string>
     <string name="market_response_error_invalid_result">លទ្ធផលមិនត្រឹមត្រូវ។</string>
     <string name="market_response_error_invalid_response_code">កូដឆ្លើយតបមិនត្រឹមត្រូវ។</string>
@@ -324,7 +324,7 @@
 	<item quantity="other">មើល <xliff:g example="1" id="count">%1$d</xliff:g> ឆ្លើយតបទាំងអស់</item>
 </plurals>
 
-    <string name="app_detail_customer_reviews">មតិអតិថិជន</string>
+    <string name="app_detail_customer_reviews">មតិ</string>
     <string name="extracting_apk">កំពុងស្រាយកញ្ចប់ឯកសារ APK…</string>
     <string name="external_storage_not_usable">
  <big><b>ពួកយើងត្រូវការចូលដំណើរការឃ្លាំងផ្ទុកខាងក្រៅ។ សូមប្រាកដថាវាអាចប្រើការបាន។</b></big>
@@ -341,4 +341,70 @@
  <big><b>ពួកយើងត្រូវការចូលដំណើរការឃ្លាំងផ្ទុកខាងក្រៅ។ សូមប្រាកដថាការផ្ដល់សិទ្ធិគឺមិនត្រូវបានបដិសេច។</b></big>
  </string>
 
+    <string name="check_update_replace">ជំនាន់ផ្លូវការ</string>
+    <string name="check_update_beta">ត្រៀមបញ្ចេញសាកល្បង</string>
+    <string name="trending_searches">ការនិយមស្វែងរក</string>
+    <string name="failed_to_request_app_detail">បានបរាជ័យក្នុងការស្នើសុំ ពត៌មានលម្អិតនៃកម្មវិធី។</string>
+    <string name="show_notification_after_installation">បង្ហាញការជូនដំណឹង បន្ទាប់ពីការតម្លើង</string>
+    <string name="auto_service_dialog_message">តម្លើងស្វ័យប្រវត្តិ ស្នើសុំអ្នកឲ្យផ្ទៀងផ្ទាត់លើទូរស័ព្ទ វាពិតជាសុវត្ថិភាព ក្នុងការប្រើដោយគ្មានហានិភ៏យ។</string>
+
+    <string name="app_detail_comment_order_array_old">ចាស់</string>
+
+    <string name="app_detail_comment_join_group_bt">ក្រុម</string>
+    <string name="input_reply_content">ការបញ្ចូលមាតិការ នៃការឆ្លើយតប៖</string>
+    <string name="login_select_way_to_login">សូមជ្រើសរើស វិធីចូលទៅកាន់គណនី</string>
+
+    <string name="update_nickname_error">ឈ្មោះហៅក្រៅរបស់អ្នក មានគេប្រើរួចហើយ សូមជ្រើសរើសមួយផ្សេងទៀត!</string>
+    <string name="message_notifications_reply">ដែលបានឆ្លើយតបមតិអ្នក</string>
+    <string name="message_notifications_login">សូមចូលគណនី ដើម្បីមើលទំព័រនេះ។</string>
+
+    <string name="update_pwd_title">ស្ដារពាក្យសម្ងាត់អ្នកឡើងវិញ</string>
+    <string name="update_pwd_current_pwd_et">ពាក្យសម្ងាត់ចាស់</string>
+    <string name="update_pwd_new_pwd_et">ពាក្យសម្ងាត់ថ្មី</string>
+    <string name="update_pwd_Confirm_pwd_et">យល់ព្រមពាក្យសម្ងាត់ថ្មី</string>
+    <string name="upload_avatar">កំពុងផ្ទុកឡើង…</string>
+    <string name="update_pwd_current_null_tv">ពាក្យសម្ងាត់ចាស់ មិនអាចទទេរឡើយ</string>
+    <string name="update_pwd_Confirm_null_tv">យល់ព្រមពាក្យសម្ងាត់ មិនអាចទទេរឡើយ</string>
+    <string name="update_pwd_save_bt">រក្សាទុក</string>
+    <string name="update_save_success">រក្សាទុកបានសម្រេច!</string>
+    <string name="crop__cancel" ignore="ButtonCase">បោះបង់</string>
+    <string name="crop__done">រួចរាល់</string>
+    <string name="crop__saving">កំពុងរក្សាទុករូបថត…</string>
+    <string name="crop__wait">សូមរង់ចាំ…</string>
+
+    <string name="comment_submitting">កំពុងស្នើសុំ…</string>
+    <string name="comment_replying">កំពុងឆ្លើយតប…</string>
+    <string name="register_term_of_service">គោលការណ៍នៃសេវាកម្មរបស់ APKPure</string>
+
+    <string name="set_contributor">អ្នកចូលរួមចំណែក</string>
+    <string name="comment_cancel">មតិត្រូវបានបោះបង់</string>
+    <string name="set_permissions">សិទ្ធិអនុញ្ញាត</string>
+
+    <string name="sign_in_services">ដោយការចុះឈ្មោះ អ្នកបានយល់ព្រមទៅកាន់លក្ខខណ្ឌ និងគោលការណ៍ឯកជនភាព។</string>
+
+    <string name="sign_in_services_key">លក្ខខណ្ឌ</string>
+    <string name="sign_in_services_key_policy">គោលការណ៍ឯកជនភាព</string>
+
+    <string name="user_sign_up">ចុះឈ្មោះចូល</string>
+    <string name="user_name_hint">ឈ្មោះអ្នកប្រើ</string>
+    <string name="user_email_hint">អ៊ីម៉ែល</string>
+    <string name="user_password">ពាក្យសម្ងាត់ (6-32)</string>
+    <string name="user_password_confirm">យល់ព្រមពាក្យសម្ងាត់</string>
+
+    <string name="login_user_name">ឈ្មោះអ្នកប្រើ</string>
+    <string name="login_user_password">ពាក្យសម្ងាត់</string>
+    <string name="login_user_sign_in">ចូលគណនី</string>
+    <string name="login_choose">ឬ ចូលគណនីជាមួយគណនីរបស់អ្នក</string>
+    <string name="login_new_user">ការចុះឈ្មោះអ្នកប្រើថ្មី</string>
+    <string name="login_post_as_a_guest">ប្រកាសជាអ្នកទស្សនា</string>
+
+    <string name="message">សារ</string>
+
+    <string name="push_title_info_reply">%s បានឆ្លើយតបមតិរបស់អ្នក!</string>
+    <string name="push_title_info_upvoted">%s បានចូលចិត្តមតិរបស់អ្នក!</string>
+    <string name="download_list">បញ្ជីទាញយក</string>
+    <string name="can_be_update">អាចអាប់ដេត</string>
+    <string name="crop__pick_error">ប្រភេទឯកសាររូបភាពមិនត្រឹមត្រូវ</string>
+    <string name="is_comment">មតិ គឺជា…</string>
+    <string name="null_time">0:00</string>
     </resources>
