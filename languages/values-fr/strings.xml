@@ -23,7 +23,7 @@
 
     <string name="management">Gestion</string>
     <string name="app_updates">Mettre à jour les Applications</string>
-    <string name="app_management">Gérer les Applications</string>
+    <string name="app_management">Installé</string>
     <string name="app_uninstall">Désinstaller les Applications</string>
     <string name="apk_management">Gérer les Applications</string>
     <string name="apk_xapk_management">Gérer l\'APK et l\'XAPK</string>
@@ -272,7 +272,7 @@ Les fonctions mentionnées ci-dessus supportent Android 4.1 et +, sans besoin de
     <string name="feedback">Retour d\'info</string>
 
     <string name="changing_language">Changement de language, s\'il vous plait patientez…</string>
-    <string name="app_detail_customer_reviews">Commentaires des utilisateurs</string>
+    <string name="app_detail_customer_reviews">Commentaires</string>
     <string name="app_detail_comment_type_web">web</string>
     <string name="app_submit_submit">Soumettre…</string>
     <string name="app_submit_anonymous_comment">Ajouter un commentaire</string>
@@ -451,7 +451,7 @@ Les fonctions mentionnées ci-dessus supportent Android 4.1 et +, sans besoin de
 
     <string name="comment_vote_string">Voter</string>
     <string name="comment_reply_three">Répondre</string>
-    <string name="comment_item_fold">1 commentaire a été écrasé</string>
+    <string name="comment_item_fold">commentaire écrasé</string>
 
     <string name="comment_no_reply">Waouh, il n\'y a rien ici.</string>
     <string name="comment_reply_info_name">Détails</string>
@@ -479,5 +479,34 @@ Les fonctions mentionnées ci-dessus supportent Android 4.1 et +, sans besoin de
 	<item quantity="one"><xliff:g example="1" id="count"> 1%1$d</xliff:g> 2 Commentaire a été écrasé</item>
 	<item quantity="other"><xliff:g example="2" id="count"> 3%1$d</xliff:g> 4 Commentaires ont été écrasé</item>
 </plurals>
+
+    <string name="check_update_replace">Version officielle</string>
+    <string name="check_update_beta">Beta Pré-lancé</string>
+    <string name="app_detail_comment_order_array_old">Ancien</string>
+
+    <string name="app_detail_comment_join_group_bt">Groupe</string>
+    <string name="ad_tip">annonce</string>
+    <string name="play_button">Bouton jouer</string>
+    <string name="null_time">0:00</string>
+    <string name="open_video_in_youtube">Ouvrir vidéo dans YouTube</string>
+    <string name="full_screen_button">Bouton plein écran</string>
+
+    <string name="main_comment">Commentaire</string>
+    <string name="main_tab_home">Accueil</string>
+    <string name="main_tab_group">Groupe</string>
+    <string name="main_tab_my">Moi</string>
+
+    <string name="main_my_comments">Commentaires</string>
+    <string name="main_my_collection">Favoris</string>
+    <string name="main_my_message">Messages</string>
+    <string name="main_app_management">Gestion d\'application</string>
+    <string name="main_topic_selection">Thèmes</string>
+    <string name="main_night_mode">Mode nuit</string>
+    <string name="please_login_first">Veuillez vous connecter d\'abord</string>
+    <string name="no_choice">Aucun choix</string>
+    <string name="follow_on_success">Succès !</string>
+    <string name="canceled">Annulé</string>
+    <string name="group">Groupe</string>
+    <string name="collection">Collection</string>
 
     </resources>
