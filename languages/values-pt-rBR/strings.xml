@@ -178,8 +178,9 @@ Detalhe do problema:
  <string name="incompatible_this_app">
         <![CDATA[<big><b><font color="%1$d">Seu dispositivo não é compatível com este aplicativo.</font></b></big><br><br>Você quer continuar?]]>
     </string>
-    <string name="this_app_not_usable">
-        <![CDATA[<big><b><font color="%1$d">Este aplicativo pode não ser utilizável.</font></b></big><br><br>Você quer continuar?]]></string>  
+    <string name="this_app_not_usable">"
+ &lt;big&gt;&lt;b&gt;&lt;font color=%1$d&gt;Este aplicativo pode não ser utilizável.&lt;/font&gt;&lt;/b&gt;&lt;/big&gt;&lt;br&gt;&lt;br&gt;Você quer continuar?
+ "</string>  
     <string name="setting">Configuração</string>
     <string name="external_storage_not_usable">
  <big><b>Precisamos acessar seu armazenamento externo. Certifique-se de que é utilizável.</b></big>
@@ -206,16 +207,19 @@ Detalhe do problema:
     <string name="deselect_all">Desmarcar todos</string>
     <string name="ignored">Ignorado</string>
   <plurals name="total__count__apps__size_">
-        <item quantity="one">
-            <![CDATA[Total: <b><font color="%1$d">%2$d</font></b> app, <b><font color="%1$d">%3$s</font></b>]]>
-        </item>
-        <item quantity="other">
-            <![CDATA[Total: <b><font color="%1$d">%2$d</font></b> apps, <b><font color="%1$d">%3$s</font></b>]]>
-        </item>
-    </plurals>
-    <string name="total_zero_app">
-        <![CDATA[Total: <b><font color="%1$d">0</font></b> app]]>
-    </string>
+	<item quantity="one">"
+ Total: &lt;b&gt;&lt;font color=%1$d&gt;%2$d&lt;/font&gt;&lt;/b&gt; app, &lt;b&gt;&lt;font color=%1$d&gt;%3$s&lt;/font&gt;
+&lt;/b&gt;
+ "</item>
+	<item quantity="other">"
+ Total: &lt;b&gt;&lt;font color=%1$d&gt;%2$d&lt;/font&gt;&lt;/b&gt; apps, &lt;b&gt;&lt;font color=%1$d&gt;%3$s&lt;/font&gt;
+&lt;/b&gt;
+ "</item>
+</plurals>
+    <string name="total_zero_app">"
+ Total: &lt;b&gt;&lt;font color=%1$d&gt;0&lt;/font&gt;&lt;/b&gt; 
+app
+ "</string>
 
     <string name="general">Geral</string>
     <string name="language">Idioma</string>
@@ -322,7 +326,7 @@ Que é necessário para escanear o código QR.</string>
     <string name="download_complete_installation_setting_entries_only">Instalar apenas quando o aplicativo estiver na frente</string>
     <string name="download_complete_installation_setting_entries_never">Nunca instalar</string>
 
-    <string name="reply_dialog_marked_words">De acordo com a imagem pode ser excluído</string>
+    <string name="reply_dialog_marked_words">Pressionando a foto selecionada para excluir.</string>
     <string name="reply_comment">Responder ao comentário</string>
     <string name="save_original_image">Preserve a imagem original</string>
     <string name="already_save">Salvado<xliff:g id="path" example="ApKPure/photo">
@@ -345,7 +349,7 @@ Que é necessário para escanear o código QR.</string>
     <string name="user_info_edit_nickname_tv">Apelido</string>
     <string name="user_info_edit_email_tv">Email</string>
     <string name="user_info_edit_gender_tv">Gênero</string>
-    <string name="user_info_edit_birthday_tv">Aniversário</string>
+    <string name="user_info_edit_birthday_tv">Nascimento</string>
     <string name="user_info_edit_change_pwd_tv">Trocar a senha</string>
     <string name="user_info_edit_login_out_tv">Deslogar</string>
     <string name="user_info_edit_not_choose">Desconhecido</string>
@@ -375,7 +379,7 @@ Que é necessário para escanear o código QR.</string>
     <string name="update_pwd_new_pwd_null_tv">Nova senha não pode ficar em branco</string>
     <string name="update_pwd_new_confrim_tv">As senhas inseridas não são iguais</string>
     <string name="update_pwd_save_bt">Salvar</string>
-    <string name="update_save_success">Salvado com sucesso!</string>
+    <string name="update_save_success">Salvo com sucesso!</string>
     <string name="crop__cancel" ignore="ButtonCase">Cancelar</string>
     <string name="crop__done">Feito</string>
     <string name="crop__pick_error">Tipo de arquivo de imagem inválido</string>
@@ -423,7 +427,7 @@ Que é necessário para escanear o código QR.</string>
     <string name="message_all">TODOS</string>
     <string name="message_reply">RESPOSTAS</string>
     <string name="message_praise">Curtidas</string>
-    <string name="message_notifications_praise">Upvoted ao seu comentário</string>
+    <string name="message_notifications_praise">Curtida ao seu comentário</string>
     <string name="message_notifications_reply">Respondeu o seu comentário</string>
     <string name="message_notifications_login">Faça o login para ver esta página.</string>
 
@@ -431,7 +435,7 @@ Que é necessário para escanear o código QR.</string>
     <string name="message">Mensagem</string>
 
     <string name="push_title_info_reply">Respondeu o seu comentário!</string>
-    <string name="push_title_info_upvoted">Upvoted ao seu comentário!</string>
+    <string name="push_title_info_upvoted">Curtiu ao seu comentário!</string>
     <string name="download_list">Lista de Download</string>
     <string name="can_be_update">Pode ser atualizado</string>
     <string name="install_list">Instalado</string>
@@ -444,8 +448,8 @@ Que é necessário para escanear o código QR.</string>
     <string name="notification_setting">Notificações</string>
     <string name="reply_notification">Notificações de resposta</string>
     <string name="reply_notification_msg">Receber notificações para novas mensagens de resposta</string>
-    <string name="like_notification">Notificações de Upvote</string>
-    <string name="like_notification_msg">Receber notificações para novas mensagens de upvote</string>
+    <string name="like_notification">Notificações de curtida</string>
+    <string name="like_notification_msg">Receber notificações para novas mensagens de curtida</string>
     <string name="gif_tip">Gif</string>
     <string name="submit_comment_title_hint">Assunto (Opcional)</string>
 
@@ -466,7 +470,7 @@ Que é necessário para escanear o código QR.</string>
     <string name="comment_reply_info_name">Detalhe</string>
     <string name="set_updates_notification">Atualizações de aplicativos estão disponíveis</string>
     <string name="set_updates_notification_msg">Notificar quando as atualizações de aplicativo estiverem disponíveis. Definição recomendada: Ligado</string>
-    <string name="app_detail_unknow_text">Versão antiga fo APKPure não suporta novos recursos, atualize para a versão mais recente.</string>
+    <string name="app_detail_unknow_text">Versão antiga do APKPure não suporta novos recursos, atualize para a versão mais recente.</string>
     <string name="comment_detail_original">Ver comentário original &gt;</string>
     <string name="comment_comment_newest">O mais novo</string>
     <string name="comment_comment_oldest">Mais antigo</string>
@@ -538,7 +542,7 @@ Que é necessário para escanear o código QR.</string>
     <string name="save_as_favorite">Salvar como favorito</string>
     <string name="favorite_saved">Favorito salvo</string>
     <string name="failed_to_save_favorite">Falha ao salvar o favorito</string>
-    <string name="remove_as_favorite">Remova como Favorito</string>
+    <string name="remove_as_favorite">Remover Favorito</string>
     <string name="remove_failed">Falha ao remover</string>
 
     <string name="collection_comment">Comentários</string>
@@ -547,8 +551,8 @@ Que é necessário para escanear o código QR.</string>
     <string name="open_with_browser">Abrir com o navegador</string>
     <string name="web_view_refresh">Atualizar</string>
 
-    <string name="topic_red_color">Carmim</string>
-    <string name="topic_green_color">Verde</string>
+    <string name="topic_red_color">Vermelho</string>
+    <string name="topic_green_color">Sorte Verde</string>
     <string name="topic_blue_color">Azul Celeste</string>
     <string name="topic_purple_color">Violeta Escuro</string>
     <string name="topic_purple_black">Cinza Frio</string>
