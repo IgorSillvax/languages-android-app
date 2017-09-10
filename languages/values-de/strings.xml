@@ -101,7 +101,7 @@
     <string name="_name__download_failed"><xliff:g id="name" example="APKPure">%1$s</xliff:g> Download fehlgeschlagen</string>
     <string name="touch_to_download_it_again">Berühre hier, um den Download zu wiederholen</string>
 
-    <string name="app_management">Anwendungsverwaltung</string>
+    <string name="app_management">Installiert</string>
     <string name="apk_management">APK-Verwaltung</string>
     <string name="apk_xapk_management">APK / XAPK-Verwaltung</string>
     <string name="screenshots">Bildschirmaufnahmen</string>
@@ -281,7 +281,7 @@ Die genannten Funktionen werden ab Android 4.1 unterstützt, es ist kein Root-Zu
 	<item quantity="other">Alle <xliff:g example="2" id="count">%1$d</xliff:g> Antworten anzeigen</item>
 </plurals>
 
-    <string name="app_detail_customer_reviews">Kundenmeinungen</string>
+    <string name="app_detail_customer_reviews">Kommentare</string>
     <string name="app_submit_submit">Absenden…</string>
     <string name="app_submit_msg_toast">Du musst etwas eingeben!</string>
     <string name="app_submit_name_toast">Bitte gib einen Nickname an!</string>
@@ -468,4 +468,8 @@ erlaubt werden.</string>
     <string name="set_updates_notification">App Updates verfügbar</string>
     <string name="set_updates_notification_msg">Benachrichtigen wenn App Updates verfügbar sind. Empfohlene Einstellung: An</string>
     <string name="app_detail_unknow_text">Alte Version APKPure unterstützt neue Features nicht, bitte auf neueste updaten.</string>
+    <string name="check_update_replace">Offizielle Version</string>
+    <string name="app_detail_comment_order_array_old">Alt</string>
+
+    <string name="ad_tip">Werbung</string>
     </resources>
