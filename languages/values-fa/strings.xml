@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
-    <string name="action_settings">Settings</string>
+    <string name="action_settings">تنظیمات</string>
     <string name="action_search">جستجو</string>
     <string name="action_management">مدیریت</string>
 
@@ -24,7 +24,7 @@
 
     <string name="management">مدیریت</string>
     <string name="app_updates">به‌روزرسانی برنامه‌</string>
-    <string name="app_management">مدیریت برنامه</string>
+    <string name="app_management">نصب شده است</string>
     <string name="app_uninstall">لغو نصب برنامه</string>
     <string name="apk_management">مدیریت ای‌پی‌کا</string>
     <string name="apk_xapk_management">مدیریت ای‌پی‌کا / اکس‌ای‌پی‌کا</string>
@@ -89,7 +89,7 @@
     <string name="parsing_xapk">تجزیه اکس‌ای‌پی‌کا…</string>
     <string name="installing_obb">نصب فایل‌های OBB…</string>
     <string name="extracting_apk">استخراج فایل ای‌پی‌کا…</string>
-    <string name="installing_apk">در حال نصب ای‌پی‌کا…</string>
+    <string name="installing_apk">در حال نصب ای‌پی‌کا …</string>
 
     <string name="uninstall">لغو نصب</string>
     <string name="uninstalled">پاک شد</string>
@@ -115,11 +115,11 @@
     <string name="touch_to_download_it_again">برای دانلود دوباره لمس کنید</string>
 
     <string name="download_percent"><xliff:g example="50" id="percent">%1$d</xliff:g> %%</string>
-    <string name="pause">توقف</string>
+    <string name="pause">مکث</string>
     <string name="pause_all">توقف همه</string>
     <string name="continue_">ادامه دهید</string>
     <string name="continue_all">همه را ادامه‌دهید</string>
-    <string name="restart">شروع دوباره</string>
+    <string name="restart">راه‌اندازی مجدد</string>
     <string name="download">دانلود</string>
     <string name="downloading">در‌حال دانلود</string>
     <string name="waiting">منتظر باشید</string>
@@ -266,7 +266,7 @@
 	<item quantity="other">مشاهده تمام <xliff:g example="2" id="count">%1$d</xliff:g> پاسخ‌ها</item>
 </plurals>
 
-    <string name="app_detail_customer_reviews">نظرات کاربران</string>
+    <string name="app_detail_customer_reviews">نظر‌ها</string>
     <string name="app_detail_comment_type_web">وب</string>
     <string name="app_submit_submit">ارسال…</string>
     <string name="app_submit_anonymous_comment">اضافه کردن نظر</string>
@@ -392,7 +392,7 @@
     <string name="login_user_name">نام‌کاربری</string>
     <string name="login_user_password">رمز ورود</string>
     <string name="login_user_sign_in">ورود</string>
-    <string name="login_choose">یا با یکی ار حساب‌های خود وارد شوید</string>
+    <string name="login_choose">یا با حساب‌ کاربری خود وارد شوید</string>
     <string name="login_new_user">ثبت نام کاربر جدید</string>
     <string name="login_post_as_a_guest">ارسال به عنوان مهمان</string>
 
@@ -405,7 +405,7 @@
     <string name="app_detail_comment_order_array_new">جدیدترین</string>
     <string name="message_all">همه</string>
     <string name="message_reply">پاسخ‌ها</string>
-    <string name="message_praise">رای‌های‌موافق</string>
+    <string name="message_praise">پسندیده‌ها</string>
     <string name="message_notifications_login">برای مشاهده این صفحه لطفا وارد شوید.</string>
 
     <string name="comment_submitting">در حال ارسال…</string>
@@ -451,13 +451,13 @@
     <string name="sub_comment_progress_msg">در حال اضافه کردن ویدیو…</string>
 
 <string name="app_detail_comment_order_array_most_recent">ارسال‌های اخیر</string>
-    <string name="comment_detail_original">مشاهده نظر اصلی</string>
+    <string name="comment_detail_original">مشاهده نظر اصلی &gt;</string>
     <string name="message_notifications_praise">رای‌موافق نظر شما</string>
     <string name="message_notifications_reply">پاسخ‌های نظر شما</string>
     <string name="is_comment">نظر هست…</string>
     <string name="push_title_info_reply">%s پاسخ‌داده‌اند به نظر شما!</string>
     <string name="push_title_info_upvoted">%s رای‌موافق به نظر شما داده‌اند!</string>
-    <string name="comment_item_fold">1 نظر جمع شده است</string>
+    <string name="comment_item_fold">نظر جمع شده است</string>
 
     <plurals name="comment_reply_item_fold">
 	<item quantity="one"><xliff:g example="1" id="count">%1$d</xliff:g> پاسخ جمع شده است</item>
@@ -465,4 +465,93 @@
 </plurals>
 
     <string name="delete_the_historical_record">حذف سابقه تاریخی؟</string>
+    <string name="check_update_replace">نسخه رسمی</string>
+    <string name="check_update_beta">پیش‌انتشار بتا</string>
+    <string name="app_detail_comment_order_array_old">قدیمی</string>
+
+    <string name="app_detail_comment_join_group_bt">گروه</string>
+    <string name="ad_tip">آگهی</string>
+    <string name="null_time">0:00</string>
+    <string name="open_video_in_youtube">باز کردن ویدیو در یوتیوب</string>
+    <string name="full_screen_button">دکمه تمام صفحه</string>
+
+    <string name="main_tab_home">صفحه اصلی</string>
+    <string name="main_tab_ranking">رتبه‌بندی</string>
+    <string name="main_tab_group">گروه</string>
+    <string name="main_tab_my">من</string>
+
+    <string name="main_comment">نظر</string>
+    <string name="main_won_praise">پسندیده</string>
+    <string name="main_my_comments">نظر‌ها</string>
+    <string name="main_my_collection">علاقمندی‌ها</string>
+    <string name="main_my_message">پیام‌ها</string>
+    <string name="main_good_comments">رای‌موافق داده شد</string>
+    <string name="main_app_management">مدیریت برنامه</string>
+    <string name="main_topic_selection">قالب‌ها</string>
+    <string name="main_night_mode">حالت شب</string>
+    <string name="please_login_first">لطفا ابتدا وارد شوید</string>
+    <string name="follow_on_success">موفقیت آمیز!</string>
+    <string name="canceled">لغو شد</string>
+    <string name="group">گروه</string>
+    <string name="collection">مجموعه</string>
+
+    <string name="comments">نظر‌ها</string>
+    <string name="attention_off">دنبال کنید</string>
+    <string name="follow">دنبال می‌کنید</string>
+    <string name="attention_on">دنبال می‌کنید</string>
+    <string name="no_attention">هیچ گروه‌ی را دنبال نمی‌کنید.</string>
+    <string name="browsing_history">مرور تاریخچه</string>
+    <string name="browsing_history_prompt">می‌خواهید تاریخچه مرور خود را پاک کنید؟</string>
+
+    <string name="ranking_tab1_title">بازی‌های برتر</string>
+    <string name="ranking_tab2_title">جدیدترین بازی‌های برتر</string>
+    <string name="ranking_tab3_title">برنامه‌های برتر</string>
+    <string name="ranking_tab4_title">جدیدترین برنامه‌های برتر</string>
+
+    <string name="app_detail_three_fragment_foot">نمایش همه نظرات</string>
+    <string name="menu_paste">پیست</string>
+
+    <string name="favorite_title">علاقمندی</string>
+    <string name="save_as_favorite">ذخیره به عنوان علاقمندی</string>
+    <string name="favorite_saved">به عنوان علاقمندی ذخیره شد</string>
+    <string name="failed_to_save_favorite">این مورد برای علاقمندی ذخیره نشد</string>
+    <string name="collection_comment">نظر‌ها</string>
+    <string name="collection_app">برنامه‌ها</string>
+
+    <string name="open_with_browser">باز کردن با مرورگر</string>
+    <string name="web_view_refresh">رفرش</string>
+
+    <string name="recommend_title">توصیه‌ها</string>
+    <string name="recommend_tab_game">توصیه یک برنامه</string>
+    <string name="recommend_tab_list">توصیه شده</string>
+    <string name="recommend_installed_list_title">برنامه‌های من</string>
+    <string name="recommend_review">پیش‌نمایش</string>
+    <string name="recommend_replace_img">تغییر تصویر</string>
+    <string name="recommend_app_name">عنوان برنامه</string>
+    <string name="recommend_state_can">توصیه شده</string>
+    <string name="recommend_state_success">توصیه شده</string>
+    <string name="recommend_select_game">یک برنامه توصیه شده</string>
+    <string name="recommend_write_des">توضیحات</string>
+    <string name="recommend_comment">ارسال</string>
+    <string name="recommend_comment_error">خطایی رخ داده است!</string>
+    <string name="recommend_description_title">دستورالعمل‌ها:</string>
+    <string name="recommend_user_recommend">توصیه شده توسط %s</string>
+    <string name="recommend_required">فیلد ضروری</string>
+
+<string name="play_button">دکمه پخش</string>
+    <string name="follow_un_success">دنبال نکن!</string>
+    <string name="remove_as_favorite">از علاقمندی حذف شود</string>
+    <string name="remove_failed">حذف ناموفق بود</string>
+
+    <string name="topic_red_color">سرخ مایل به قرمز</string>
+    <string name="topic_green_color">سبز خوش شانس</string>
+    <string name="topic_blue_color">آبی نیلگون</string>
+    <string name="topic_purple_color">بنفش تیره</string>
+    <string name="topic_purple_black">خاکستری خنک</string>
+    <string name="topic_purple_yellow">نارنجی زردآلویی</string>
+    <string name="topic_switch_failed">تغییر قالب ناموفق بود</string>
+
+    <string name="recommend_description">1. توصیه‌های تایید شده در زیر بخش \"پیشنهاد‌ها\" نمایش داده می‌شود.
+2. شما فقط می توانید برنامه‌های در حال حاضر در دستگاه شما نصب شده است را توصیه کنید.</string>
+    <string name="no_choice">انتخاب دیگری ندارید</string>
     </resources>
