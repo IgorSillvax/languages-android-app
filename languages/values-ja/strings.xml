@@ -13,8 +13,7 @@
     <string name="categories">カテゴリー</string>
     <string name="updates">アップデート</string>
 
-    <string name="something_happened">&gt;_&lt;
-問題が起こりました。</string>
+    <string name="something_happened">&gt;_&lt;問題が起こりました。</string>
 
     <string name="load_failed_error">おっと！エラーが発生しました。</string>
     <string name="load_failed_empty">これらはここにありません。</string>
@@ -24,7 +23,7 @@
 
     <string name="management">管理</string>
     <string name="app_updates">アプリの更新</string>
-    <string name="app_management">インストール済み</string>
+    <string name="app_management">アプリ管理</string>
     <string name="app_uninstall">アプリアンインストール</string>
     <string name="apk_management">APK 管理</string>
     <string name="apk_xapk_management">APK / XAPK 管理</string>
@@ -138,7 +137,7 @@
 
     <string name="_name__is_up_to_date"><xliff:g id="name" example="APKPure">%1$s</xliff:g>は更新されます。</string>
     <string name="new_version_available_title">最新版があります</string>
- <string name="new_version_available_message">
+    <string name="new_version_available_message">
         <![CDATA[<b>最新版:</b> %1$s<br><br><b>最新情報:</b><br>%2$s]]>
     </string>
 
@@ -223,7 +222,7 @@
     <string name="flag_as_inappropriate">不適切としてフラグをたてます</string>
     <string name="update___count__">アップデート (<xliff:g id="カウント" 例="3">%1$d</xliff:g>)</string>
     <string name="installed">インストール済み</string>
-<string name="similar_or_related">類似コンテンツ</string>
+    <string name="similar_or_related">類似コンテンツ</string>
     <string name="more_large">もっと</string>
     <string name="more_from_developer">開発者から他のゲーム</string>
     <string name="download_complete_installation_setting">ダウンロードした後インストールを実行する</string>
@@ -274,7 +273,7 @@ APKPureが正常に運行するために、APKPureをクリーニングアプリ
 
     <string name="report">レポート</string>
     <string name="recommend">ディスカバー</string>
-    <string name="app_detail_customer_reviews">コメント</string>
+    <string name="app_detail_customer_reviews">顧客コメント</string>
     <string name="app_detail_comment_type_web">ウェブ</string>
     <string name="app_submit_submit">提出…</string>
     <string name="app_submit_anonymous_comment">コメントする</string>
@@ -297,7 +296,7 @@ APKPureが正常に運行するために、APKPureをクリーニングアプリ
     <string name="app_detail_comment_order_array_default">デフォルトの並び順</string>
     <string name="app_detail_comment_order_array_most_recent">最近</string>
     <string name="app_detail_comment_order_array_new">最新</string>
-    <string name="app_detail_comment_order_array_best">ベスト</string>
+    <string name="app_detail_comment_order_array_best">ホット</string>
 
     <string name="download_complete_installation_setting_entries_always">常にインストールする</string>
     <string name="reply">返信</string>
@@ -313,9 +312,9 @@ APKPureが正常に運行するために、APKPureをクリーニングアプリ
     <string name="share_app_url_comment"> <xliff:g example="APKPure" id="user_name"> 1%1$s</xliff:g> 2\'s comments on <xliff:g example="APKPure" id="app_name"> 3%2$s</xliff:g> 4 (from @<xliff:g example="APKPure" id="social_network_name"> 5%3$s</xliff:g> 6), <xliff:g example="https://apkpure.com/p/com.apkpure.aegon" id="app_url"> 7%4$s</xliff:g> 8</string>
 
     <plurals name="app_detail_see_all_replies">
-	<item quantity="one">全ての返信を見る<xliff:g example="2" id="count"> 1%1$d</xliff:g> 2</item>
-	<item quantity="other"/>
-</plurals>
+        <item quantity="one">全ての返信を見る<xliff:g example="2" id="count"> 1%1$d</xliff:g> 2</item>
+        <item quantity="other"/>
+    </plurals>
 
     <string name="download_complete_installation_setting_entries_never">インストールしない</string>
 
@@ -363,7 +362,7 @@ APKPureが正常に運行するために、APKPureをクリーニングアプリ
     <string name="update_nickname_error">このニックネームはすでに使用されています。別の名前を選んでください！</string>
     <string name="message_all">すべて</string>
     <string name="message_reply">返信</string>
-    <string name="message_praise">LIKES</string>
+    <string name="message_praise">賛成</string>
     <string name="message_notifications_login">このページを表示するにはログインしてください。</string>
 
     <string name="update_pwd_title">パスワードをリセットする</string>
@@ -392,7 +391,7 @@ APKPureが正常に運行するために、APKPureをクリーニングアプリ
 
     <string name="set_contributor">投稿者</string>
     <string name="set_permissions">パーミッション</string>
-    
+
     <string name="sign_in_services">サインアップすることにより、利用規約とプライバシーポリシーに同意したことになります。</string>
 
     <string name="sign_in_services_key">条項</string>
@@ -441,12 +440,12 @@ APKPureが正常に運行するために、APKPureをクリーニングアプリ
 
     <string name="comment_vote_string">投票する</string>
     <string name="comment_reply_three">返信する</string>
-    <string name="comment_item_fold">コメントが折りたたまれました</string>
+    <string name="comment_item_fold">1件のコメントが崩れました</string>
 
     <plurals name="comment_reply_item_fold">
-	<item quantity="one"><xliff:g example="2" id="count"> 1%1$d</xliff:g> 2返信が崩れました</item>
-	<item quantity="other"/>
-</plurals>
+        <item quantity="one"><xliff:g example="2" id="count"> 1%1$d</xliff:g> 2返信が崩れました</item>
+        <item quantity="other"/>
+    </plurals>
 
     <string name="comment_no_reply">うわー、ここには何もありません。</string>
     <string name="comment_reply_info_name">詳細</string>
@@ -470,87 +469,5 @@ APKPureが正常に運行するために、APKPureをクリーニングアプリ
     <string name="sub_comment_dialog_link_null">動画のURLアドレスが空白にすることはできません</string>
     <string name="sub_comment_progress_msg">動画を追加しています…</string>
 
-<string name="download_complete_installation_setting_entries_only">インストールはフォアグラウンドで実行するのみ</string>
-    <string name="check_update_replace">正式版</string>
-    <string name="check_update_beta">プレリリース　ベータ</string>
-    <string name="app_detail_comment_order_array_old">オールド</string>
-
-    <string name="app_detail_comment_join_group_bt">グループ</string>
-    <string name="ad_tip">ad</string>
-    <string name="play_button">再生ボタン</string>
-    <string name="null_time">0:00</string>
-    <string name="open_video_in_youtube">YouTubeで動画を開く</string>
-    <string name="full_screen_button">フルスクリーンボタン</string>
-
-    <string name="main_tab_home">ホーム</string>
-    <string name="main_tab_ranking">ランキング</string>
-    <string name="main_tab_group">グループ</string>
-    <string name="main_tab_my">私</string>
-
-    <string name="main_comment">コメント</string>
-    <string name="main_won_praise">Likes</string>
-    <string name="main_my_comments">コメント</string>
-    <string name="main_my_collection">お気に入り</string>
-    <string name="main_my_message">メッセージ</string>
-    <string name="main_good_comments">賛成</string>
-    <string name="main_app_management">アプリ管理</string>
-    <string name="main_topic_selection">テーマ</string>
-    <string name="main_night_mode">ナイトモード</string>
-    <string name="please_login_first">まずログインしてください</string>
-    <string name="no_choice">ノーチョイス</string>
-    <string name="follow_on_success">成功！</string>
-    <string name="follow_un_success">アンフォロー!</string>
-    <string name="canceled">キャンセル</string>
-    <string name="group">グループ</string>
-    <string name="collection">コレクション</string>
-
-    <string name="comments">コメント</string>
-    <string name="follow">フォロー</string>
-    <string name="attention_on">フォロー</string>
-    <string name="attention_off">フォロー</string>
-    <string name="no_attention">フォローしているグループはありません。</string>
-    <string name="browsing_history">閲覧履歴</string>
-    <string name="browsing_history_prompt">閲覧履歴を消去しますか？</string>
-
-    <string name="ranking_tab1_title">人気ゲーム</string>
-    <string name="ranking_tab2_title">最新人気ゲーム</string>
-    <string name="ranking_tab3_title">人気アプリ</string>
-    <string name="ranking_tab4_title">最新人気アプリ</string>
-
-    <string name="app_detail_three_fragment_foot">すべてのコメントを表示する</string>
-    <string name="menu_paste">ペースト</string>
-
-    <string name="favorite_title">お気に入り</string>
-    <string name="save_as_favorite">お気に入りとして保存</string>
-    <string name="favorite_saved">お気に入り保存済み</string>
-    <string name="failed_to_save_favorite">お気に入りの保存に失敗しました</string>
-    <string name="remove_as_favorite">お気に入りとして削除</string>
-    <string name="remove_failed">削除失敗</string>
-
-    <string name="collection_comment">コメント</string>
-    <string name="collection_app">アプリ</string>
-
-    <string name="open_with_browser">ブラウザで開く</string>
-    <string name="web_view_refresh">リフレッシュ</string>
-
-    <string name="topic_red_color">クリムゾン</string>
-    <string name="topic_blue_color">アジュール ブルー</string>
-    <string name="topic_purple_color">ダークバイオレット</string>
-    <string name="topic_green_color">ラッキーグリーン</string>
-    <string name="topic_purple_black">クールグレイ</string>
-    <string name="topic_purple_yellow">アプリコットオレンジ</string>
-    <string name="topic_purple_blue_gary">エアフォースブルー</string>
-    <string name="topic_switch_failed">テーマの変更に失敗しました</string>
-
-    <string name="recommend_title">オススメ</string>
-    <string name="recommend_tab_game">アプリをオススメします</string>
-    <string name="recommend_tab_list">オススメ</string>
-    <string name="recommend_installed_list_title">マイアプリ</string>
-    <string name="recommend_review">プレビュー</string>
-    <string name="recommend_replace_img">画像を変更する</string>
-    <string name="recommend_app_name">アプリのタイトル</string>
-    <string name="recommend_state_can">オススメ</string>
-    <string name="recommend_state_success">オススメ</string>
-    <string name="recommend_select_game">アプリをオススメする</string>
-    <string name="recommend_write_des">記述</string>
-    </resources>
+    <string name="download_complete_installation_setting_entries_only">インストールはフォアグラウンドで実行するのみ</string>
+</resources>
