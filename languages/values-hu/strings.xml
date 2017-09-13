@@ -5,7 +5,7 @@
     <string name="action_search">Keresés</string>
     <string name="action_management">kezelés</string>
 
-    <string name="press_back_key_quit">Nyomja meg újra a vissza gombot, és lépjen ki.</string>
+    <string name="press_back_key_quit">Nyomja meg újra a vissza gombot a kilépéshez.</string>
 
     <string name="featured">Kiemelt</string>
     <string name="games">Játékok</string>
@@ -24,7 +24,7 @@ Hiba történt.</string>
 
     <string name="management">Kezelés</string>
     <string name="app_updates">Alkalmazás frissítések</string>
-    <string name="app_management">Alkalmazás kezelése</string>
+    <string name="app_management">Telepített</string>
     <string name="app_uninstall">Alkalmazás eltávolítása</string>
     <string name="apk_management">APK kezelése</string>
     <string name="apk_xapk_management">APK / XAPK kezelése</string>
@@ -269,7 +269,7 @@ Hiba történt.</string>
 	<item quantity="other">A(z) <xliff:g example="2" id="count">%1$d</xliff:g> válasz mindegyikének megtekintése</item>
 </plurals>
 
-    <string name="app_detail_customer_reviews">Vásárlói vélemények</string>
+    <string name="app_detail_customer_reviews">Hozzászólások</string>
     <string name="app_detail_comment_type_web">web</string>
     <string name="app_submit_submit">Küldés…</string>
     <string name="app_submit_anonymous_comment">Hozzászólás</string>
@@ -414,7 +414,7 @@ Hiba történt.</string>
     <string name="app_detail_comment_order_array_new">Legújabb</string>
     <string name="message_all">ÖSSZES</string>
     <string name="message_reply">VÁLASZOK</string>
-    <string name="message_praise">POZITÍV SZAVAZATOK</string>
+    <string name="message_praise">KEDVELÉSEK</string>
     <string name="message_notifications_praise">Pozitívan szavazott az Ön megjegyzésére</string>
     <string name="message_notifications_reply">Válaszolt az Ön megjegyzésére</string>
     <string name="message_notifications_login">Kérjük, jelentkezzen be az oldal megtekintéséhez.</string>
@@ -443,7 +443,7 @@ Hiba történt.</string>
 
     <string name="comment_vote_string">Szavazás</string>
     <string name="comment_reply_three">Válasz</string>
-    <string name="comment_item_fold">1 megjegyzés össze lett vonva</string>
+    <string name="comment_item_fold">hozzászólás bezárva</string>
 
     <plurals name="comment_reply_item_fold">
 	<item quantity="one"><xliff:g example="1" id="count">%1$d</xliff:g> válasz összevonva</item>
@@ -455,7 +455,7 @@ Hiba történt.</string>
     <string name="set_updates_notification">Alkalmazás frissítések érhetők el</string>
     <string name="set_updates_notification_msg">Értesítsen, ha új alkalmazás frissítés érhető el. Ajánlott beállítás: Be</string>
     <string name="app_detail_unknow_text">Az APKPure régi verziója nem támogatja az új funkciókat, kérjük, frissítsen a legújabbra.</string>
-    <string name="comment_detail_original">Eredeti megjegyzés megtekintése</string>
+    <string name="comment_detail_original">Eredeti hozzászólás megtekintése &gt;</string>
     <string name="comment_comment_newest">Legújabb</string>
     <string name="comment_comment_oldest">Legrégebbi</string>
 
@@ -472,4 +472,95 @@ Hiba történt.</string>
     <string name="sub_comment_dialog_link_null">A videó URL-címe nem lehet üres</string>
     <string name="sub_comment_progress_msg">Videó hozzáadása…</string>
 
-</resources>
+<string name="check_update_replace">Hivatalos verzió</string>
+    <string name="check_update_beta">Előzetes béta kiadás</string>
+    <string name="app_detail_comment_order_array_old">Régi</string>
+
+    <string name="app_detail_comment_join_group_bt">Csoport</string>
+    <string name="ad_tip">hirdetés</string>
+    <string name="play_button">Lejátszás gomb</string>
+    <string name="null_time">0:00</string>
+    <string name="open_video_in_youtube">Videó megnyitása a YouTube-on</string>
+    <string name="full_screen_button">Teljes képernyő gomb</string>
+
+    <string name="main_tab_home">KEZDŐLAP</string>
+    <string name="main_tab_ranking">RANGSOR</string>
+    <string name="main_tab_group">CSOPORT</string>
+    <string name="main_tab_my">OPCIÓK</string>
+
+    <string name="main_comment">hozzászólás</string>
+    <string name="main_won_praise">Kedvelések</string>
+    <string name="main_my_comments">Hozzáaszólások</string>
+    <string name="main_my_collection">Kedvencek</string>
+    <string name="main_my_message">Üzenetek</string>
+    <string name="main_good_comments">Pozitív szavazatok</string>
+    <string name="main_app_management">Alkalmazások kezelése</string>
+    <string name="main_topic_selection">Témák</string>
+    <string name="main_night_mode">Éjszakai mód</string>
+    <string name="please_login_first">Kérjük, először jelentkezzen be</string>
+    <string name="no_choice">Nincs más választás</string>
+    <string name="follow_on_success">Sikeres!</string>
+    <string name="follow_un_success">Leiratkozás!</string>
+    <string name="canceled">Megszakítva</string>
+    <string name="group">Csoport</string>
+    <string name="collection">Gyűjtemény</string>
+
+    <string name="comments">Hozzászólások</string>
+    <string name="follow">Követés</string>
+    <string name="attention_on">Követés</string>
+    <string name="attention_off">Követ</string>
+    <string name="no_attention">Még nincsenek követett csoportok.</string>
+    <string name="browsing_history">Böngészési előzmények</string>
+    <string name="browsing_history_prompt">Törölni szeretné a böngészési előzményeket?</string>
+
+    <string name="ranking_tab1_title">Legjobb játékok</string>
+    <string name="ranking_tab2_title">Legjobb új játékok</string>
+    <string name="ranking_tab3_title">Legjobb alkalmazások</string>
+    <string name="ranking_tab4_title">Legjobb új alkalmazások</string>
+
+    <string name="app_detail_three_fragment_foot">Összes hozzáaszólás megjelenítése</string>
+    <string name="menu_paste">Beillesztés</string>
+
+    <string name="favorite_title">Kedvencek</string>
+    <string name="save_as_favorite">Mentés kedvencként</string>
+    <string name="favorite_saved">Kedvenc mentve</string>
+    <string name="failed_to_save_favorite">Nem sikerült menteni a kedvencet</string>
+    <string name="remove_as_favorite">Eltávolítás kedvencként</string>
+    <string name="remove_failed">Az eltávolítás sikertelen</string>
+
+    <string name="collection_comment">Hozzászólások</string>
+    <string name="collection_app">ALKALMAZÁSOK</string>
+
+    <string name="open_with_browser">Megnyitás a böngészővel</string>
+    <string name="web_view_refresh">Frissítés</string>
+
+    <string name="topic_red_color">Bíbor</string>
+    <string name="topic_blue_color">Azúrkék</string>
+    <string name="topic_purple_color">Sötétlila</string>
+    <string name="topic_purple_black">Hideg szürke</string>
+    <string name="topic_purple_blue_gary">Légierő kék</string>
+    <string name="topic_switch_failed">A téma módosítása sikertelen volt</string>
+
+    <string name="recommend_title">Ajánlások</string>
+    <string name="recommend_tab_game">Egy alkalmazás ájánlása</string>
+    <string name="recommend_tab_list">Ajánlott</string>
+    <string name="recommend_installed_list_title">Alkalmazásaim</string>
+    <string name="recommend_review">Előnézet</string>
+    <string name="recommend_replace_img">Kép módosítása</string>
+    <string name="recommend_app_name">Alkalmazás címe</string>
+    <string name="recommend_state_can">Ajánlás</string>
+    <string name="recommend_state_success">Ajánlott</string>
+    <string name="recommend_select_game">Egy alkalmazás ajánlása</string>
+    <string name="recommend_write_des">Leírás</string>
+    <string name="recommend_write_des_hint">Hasznos áttekintést fog látni a többi felhasználó, akiknek az érdeklődési köre az Önéhez hasonló.</string>
+    <string name="recommend_comment">Küldés</string>
+    <string name="recommend_comment_error">Valami hiba történt!</string>
+    <string name="recommend_description_title">Utasítások:</string>
+    <string name="recommend_description">1. A jóváhagyott ajánlások a FELFEDEZÉS rész alatt szerepelnek.
+2. Csak az Android-eszközön jelenleg telepített alkalmazásokat ajánlhatja.</string>
+    <string name="recommend_user_recommend">%s által ajánlva</string>
+    <string name="recommend_required">Kötelező mező</string>
+
+<string name="topic_green_color">Világos zöld</string>
+    <string name="topic_purple_yellow">Narancssárga</string>
+    </resources>

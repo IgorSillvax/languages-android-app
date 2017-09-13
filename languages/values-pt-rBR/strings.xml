@@ -23,7 +23,7 @@
 
     <string name="management">Gerenciamento</string>
     <string name="app_updates">Atualizações de aplicativos</string>
-    <string name="app_management">Gerenciamento de aplicativos</string>
+    <string name="app_management">Instalado</string>
     <string name="app_uninstall">Desinstalar App</string>
     <string name="apk_management">Gerenciador de APK</string>
     <string name="apk_xapk_management">Gerenciador de APK / XAPK</string>
@@ -178,8 +178,9 @@ Detalhe do problema:
  <string name="incompatible_this_app">
         <![CDATA[<big><b><font color="%1$d">Seu dispositivo não é compatível com este aplicativo.</font></b></big><br><br>Você quer continuar?]]>
     </string>
-    <string name="this_app_not_usable">
-        <![CDATA[<big><b><font color="%1$d">Este aplicativo pode não ser utilizável.</font></b></big><br><br>Você quer continuar?]]></string>  
+    <string name="this_app_not_usable">"
+ &lt;big&gt;&lt;b&gt;&lt;font color=%1$d&gt;Este aplicativo pode não ser utilizável.&lt;/font&gt;&lt;/b&gt;&lt;/big&gt;&lt;br&gt;&lt;br&gt;Você quer continuar?
+ "</string>  
     <string name="setting">Configuração</string>
     <string name="external_storage_not_usable">
  <big><b>Precisamos acessar seu armazenamento externo. Certifique-se de que é utilizável.</b></big>
@@ -206,16 +207,19 @@ Detalhe do problema:
     <string name="deselect_all">Desmarcar todos</string>
     <string name="ignored">Ignorado</string>
   <plurals name="total__count__apps__size_">
-        <item quantity="one">
-            <![CDATA[Total: <b><font color="%1$d">%2$d</font></b> app, <b><font color="%1$d">%3$s</font></b>]]>
-        </item>
-        <item quantity="other">
-            <![CDATA[Total: <b><font color="%1$d">%2$d</font></b> apps, <b><font color="%1$d">%3$s</font></b>]]>
-        </item>
-    </plurals>
-    <string name="total_zero_app">
-        <![CDATA[Total: <b><font color="%1$d">0</font></b> app]]>
-    </string>
+	<item quantity="one">"
+ Total: &lt;b&gt;&lt;font color=%1$d&gt;%2$d&lt;/font&gt;&lt;/b&gt; app, &lt;b&gt;&lt;font color=%1$d&gt;%3$s&lt;/font&gt;
+&lt;/b&gt;
+ "</item>
+	<item quantity="other">"
+ Total: &lt;b&gt;&lt;font color=%1$d&gt;%2$d&lt;/font&gt;&lt;/b&gt; apps, &lt;b&gt;&lt;font color=%1$d&gt;%3$s&lt;/font&gt;
+&lt;/b&gt;
+ "</item>
+</plurals>
+    <string name="total_zero_app">"
+ Total: &lt;b&gt;&lt;font color=%1$d&gt;0&lt;/font&gt;&lt;/b&gt; 
+app
+ "</string>
 
     <string name="general">Geral</string>
     <string name="language">Idioma</string>
@@ -273,7 +277,7 @@ Detalhe do problema:
 	<item quantity="other">Ver tudo <xliff:g example="2" id="count"> %1$d</xliff:g> Respostas</item>
 </plurals>
 
-    <string name="app_detail_customer_reviews">Comentários dos usuários</string>
+    <string name="app_detail_customer_reviews">Comentários</string>
     <string name="app_detail_comment_type_web">Web</string>
     <string name="app_submit_submit">Enviar…</string>
     <string name="app_submit_anonymous_comment">Adicionar um comentário</string>
@@ -316,13 +320,13 @@ Que é necessário para escanear o código QR.</string>
 
     <string name="app_detail_comment_order_array_recent">Recente</string>
     <string name="app_detail_comment_order_array_newest">O mais novo</string>
-    <string name="app_detail_comment_order_array_best">O melhor</string>
+    <string name="app_detail_comment_order_array_best">Melhor</string>
 
     <string name="download_complete_installation_setting_entries_always">Sempre instalar</string>
     <string name="download_complete_installation_setting_entries_only">Instalar apenas quando o aplicativo estiver na frente</string>
     <string name="download_complete_installation_setting_entries_never">Nunca instalar</string>
 
-    <string name="reply_dialog_marked_words">De acordo com a imagem pode ser excluído</string>
+    <string name="reply_dialog_marked_words">Pressionando a foto selecionada para excluir.</string>
     <string name="reply_comment">Responder ao comentário</string>
     <string name="save_original_image">Preserve a imagem original</string>
     <string name="already_save">Salvado<xliff:g id="path" example="ApKPure/photo">
@@ -345,7 +349,7 @@ Que é necessário para escanear o código QR.</string>
     <string name="user_info_edit_nickname_tv">Apelido</string>
     <string name="user_info_edit_email_tv">Email</string>
     <string name="user_info_edit_gender_tv">Gênero</string>
-    <string name="user_info_edit_birthday_tv">Aniversário</string>
+    <string name="user_info_edit_birthday_tv">Nascimento</string>
     <string name="user_info_edit_change_pwd_tv">Trocar a senha</string>
     <string name="user_info_edit_login_out_tv">Deslogar</string>
     <string name="user_info_edit_not_choose">Desconhecido</string>
@@ -375,7 +379,7 @@ Que é necessário para escanear o código QR.</string>
     <string name="update_pwd_new_pwd_null_tv">Nova senha não pode ficar em branco</string>
     <string name="update_pwd_new_confrim_tv">As senhas inseridas não são iguais</string>
     <string name="update_pwd_save_bt">Salvar</string>
-    <string name="update_save_success">Salvado com sucesso!</string>
+    <string name="update_save_success">Salvo com sucesso!</string>
     <string name="crop__cancel" ignore="ButtonCase">Cancelar</string>
     <string name="crop__done">Feito</string>
     <string name="crop__pick_error">Tipo de arquivo de imagem inválido</string>
@@ -422,8 +426,8 @@ Que é necessário para escanear o código QR.</string>
     <string name="app_detail_comment_order_array_new">O mais novo</string>
     <string name="message_all">TODOS</string>
     <string name="message_reply">RESPOSTAS</string>
-    <string name="message_praise">UPVOTES</string>
-    <string name="message_notifications_praise">Upvoted ao seu comentário</string>
+    <string name="message_praise">Curtidas</string>
+    <string name="message_notifications_praise">Curtida ao seu comentário</string>
     <string name="message_notifications_reply">Respondeu o seu comentário</string>
     <string name="message_notifications_login">Faça o login para ver esta página.</string>
 
@@ -431,7 +435,7 @@ Que é necessário para escanear o código QR.</string>
     <string name="message">Mensagem</string>
 
     <string name="push_title_info_reply">Respondeu o seu comentário!</string>
-    <string name="push_title_info_upvoted">Upvoted ao seu comentário!</string>
+    <string name="push_title_info_upvoted">Curtiu ao seu comentário!</string>
     <string name="download_list">Lista de Download</string>
     <string name="can_be_update">Pode ser atualizado</string>
     <string name="install_list">Instalado</string>
@@ -444,14 +448,14 @@ Que é necessário para escanear o código QR.</string>
     <string name="notification_setting">Notificações</string>
     <string name="reply_notification">Notificações de resposta</string>
     <string name="reply_notification_msg">Receber notificações para novas mensagens de resposta</string>
-    <string name="like_notification">Notificações de Upvote</string>
-    <string name="like_notification_msg">Receber notificações para novas mensagens de upvote</string>
+    <string name="like_notification">Notificações de curtida</string>
+    <string name="like_notification_msg">Receber notificações para novas mensagens de curtida</string>
     <string name="gif_tip">Gif</string>
     <string name="submit_comment_title_hint">Assunto (Opcional)</string>
 
     <string name="comment_vote_string">Voto</string>
     <string name="comment_reply_three">Resposta</string>
-    <string name="comment_item_fold">1 comentário foi interrompido</string>
+    <string name="comment_item_fold">Comentário colapsado</string>
 
     <plurals name="comment_reply_item_fold">
 
@@ -466,8 +470,8 @@ Que é necessário para escanear o código QR.</string>
     <string name="comment_reply_info_name">Detalhe</string>
     <string name="set_updates_notification">Atualizações de aplicativos estão disponíveis</string>
     <string name="set_updates_notification_msg">Notificar quando as atualizações de aplicativo estiverem disponíveis. Definição recomendada: Ligado</string>
-    <string name="app_detail_unknow_text">Versão antiga fo APKPure não suporta novos recursos, atualize para a versão mais recente.</string>
-    <string name="comment_detail_original">Ver comentário original</string>
+    <string name="app_detail_unknow_text">Versão antiga do APKPure não suporta novos recursos, atualize para a versão mais recente.</string>
+    <string name="comment_detail_original">Ver comentário original &gt;</string>
     <string name="comment_comment_newest">O mais novo</string>
     <string name="comment_comment_oldest">Mais antigo</string>
 
@@ -484,5 +488,96 @@ Que é necessário para escanear o código QR.</string>
     <string name="sub_comment_dialog_link_null">O endereço URL do vídeo não pode ficar em branco</string>
     <string name="sub_comment_progress_msg">Adicionando vídeo…</string>
 
+
+<string name="check_update_replace">Versão oficial</string>
+    <string name="check_update_beta">Beta Pré-lançada</string>
+    <string name="app_detail_comment_order_array_old">Antigo</string>
+
+    <string name="app_detail_comment_join_group_bt">Grupo</string>
+    <string name="ad_tip">Ad</string>
+    <string name="play_button">Botão de reprodução</string>
+    <string name="null_time">0:00</string>
+    <string name="open_video_in_youtube">Abrir o vídeo no YouTube</string>
+    <string name="full_screen_button">Botão de tela cheia</string>
+
+    <string name="main_tab_home">MENU</string>
+    <string name="main_tab_ranking">RANKING</string>
+    <string name="main_tab_group">GRUPO</string>
+    <string name="main_tab_my">EU</string>
+
+    <string name="main_comment">Comentário</string>
+    <string name="main_won_praise">Curtidas</string>
+    <string name="main_my_comments">Comentários</string>
+    <string name="main_my_collection">Favoritos</string>
+    <string name="main_my_message">Mensagens</string>
+    <string name="main_good_comments">Curtida</string>
+    <string name="main_app_management">Gerenciamento de aplicativos</string>
+    <string name="main_topic_selection">Temas</string>
+    <string name="main_night_mode">Modo noturno</string>
+    <string name="please_login_first">Faça o login primeiro</string>
+    <string name="no_choice">Sem escolha</string>
+    <string name="follow_on_success">Sucesso!</string>
+    <string name="follow_un_success">Deixar de seguir!</string>
+    <string name="canceled">Cancelado</string>
+    <string name="group">Grupo</string>
+    <string name="collection">Coleção</string>
+
+    <string name="comments">Comentários</string>
+    <string name="follow">Seguindo</string>
+    <string name="attention_on">Seguindo</string>
+    <string name="attention_off">Seguir</string>
+    <string name="no_attention">Ainda não há grupos a seguir.</string>
+    <string name="browsing_history">Histórico de navegação</string>
+    <string name="browsing_history_prompt">Deseja limpar o histórico de navegação?</string>
+
+    <string name="ranking_tab1_title">Melhores jogos</string>
+    <string name="ranking_tab2_title">Melhores Novos Jogos</string>
+    <string name="ranking_tab3_title">Melhores Aplicativos</string>
+    <string name="ranking_tab4_title">Melhores Novos Aplicativos</string>
+
+    <string name="app_detail_three_fragment_foot">Mostrar todos os comentários</string>
+    <string name="menu_paste">Colar</string>
+
+    <string name="favorite_title">Favorito</string>
+    <string name="save_as_favorite">Salvar como favorito</string>
+    <string name="favorite_saved">Favorito salvo</string>
+    <string name="failed_to_save_favorite">Falha ao salvar o favorito</string>
+    <string name="remove_as_favorite">Remover Favorito</string>
+    <string name="remove_failed">Falha ao remover</string>
+
+    <string name="collection_comment">Comentários</string>
+    <string name="collection_app">APLICATIVOS</string>
+
+    <string name="open_with_browser">Abrir com o navegador</string>
+    <string name="web_view_refresh">Atualizar</string>
+
+    <string name="topic_red_color">Vermelho</string>
+    <string name="topic_green_color">Sorte Verde</string>
+    <string name="topic_blue_color">Azul Celeste</string>
+    <string name="topic_purple_color">Violeta Escuro</string>
+    <string name="topic_purple_black">Cinza Frio</string>
+    <string name="topic_purple_yellow">Laranja Damasco</string>
+    <string name="topic_purple_blue_gary">Azul da Força Aérea</string>
+    <string name="topic_switch_failed">Falha na alteração do tema</string>
+
+    <string name="recommend_title">Recomendações</string>
+    <string name="recommend_tab_game">Recomendar um aplicativo</string>
+    <string name="recommend_tab_list">Recomendado</string>
+    <string name="recommend_installed_list_title">Meus Aplicativos</string>
+    <string name="recommend_review">Visualização</string>
+    <string name="recommend_replace_img">Alterar imagem</string>
+    <string name="recommend_app_name">Título do aplicativo</string>
+    <string name="recommend_state_can">Recomendar</string>
+    <string name="recommend_state_success">Recomendado</string>
+    <string name="recommend_select_game">Recomendar um Aplicativo</string>
+    <string name="recommend_write_des">Descrição</string>
+    <string name="recommend_write_des_hint">Uma revisão útil será vista por mais usuários que tenham o mesmo interesse que você.</string>
+    <string name="recommend_comment">Enviar</string>
+    <string name="recommend_comment_error">Algum erro aconteceu!</string>
+    <string name="recommend_description_title">Instruções:</string>
+    <string name="recommend_description">1. As recomendações aprovadas serão listadas na seção DESCOBRIR.
+2. Você só pode recomendar os aplicativos atualmente instalados em seu dispositivo Android.</string>
+    <string name="recommend_user_recommend">Recomendado por</string>
+    <string name="recommend_required">Campo obrigatório</string>
 
 </resources>

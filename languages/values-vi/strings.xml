@@ -23,7 +23,7 @@
 
     <string name="management">Quản lý</string>
     <string name="app_updates">Cập nhật ứng dụng</string>
-    <string name="app_management">Quản lý ứng dụng</string>
+    <string name="app_management">Đã cài đặt</string>
     <string name="app_uninstall">Gỡ cài đặt ứng dụng</string>
     <string name="apk_management">Quản lý APK</string>
     <string name="apk_xapk_management">Quản lý APK / XAPK</string>
@@ -316,7 +316,7 @@ Các chức năng trên đều hỗ trợ Android 4.1 trở lên, không bao g�
 	<item quantity="other"/>
 </plurals>
 
-    <string name="app_detail_customer_reviews">Nhận xét của khách hàng</string>
+    <string name="app_detail_customer_reviews">Nhận xét</string>
     <string name="app_detail_comment_type_web">Web</string>
     <string name="app_submit_submit">Xác nhận…</string>
     <string name="app_submit_anonymous_comment">Thêm nhận xét</string>
@@ -339,7 +339,7 @@ Các chức năng trên đều hỗ trợ Android 4.1 trở lên, không bao g�
     <string name="app_detail_comment_order_array_default">Xếp theo mặc định</string>
     <string name="app_detail_comment_order_array_most_recent">Gần đây</string>
     <string name="app_detail_comment_order_array_new">Mới nhất</string>
-    <string name="app_detail_comment_order_array_best">Tin nóng</string>
+    <string name="app_detail_comment_order_array_best">Tốt nhất</string>
 
     <string name="download_complete_installation_setting_entries_always">Luôn luôn cài đặt</string>
     <string name="download_complete_installation_setting_entries_only">Chỉ lắp đặt ứng dụng phía trước</string>
@@ -402,7 +402,7 @@ Các chức năng trên đều hỗ trợ Android 4.1 trở lên, không bao g�
     <string name="update_nickname_error">Biệt danh đã tồn tại, vui lòng chọn cái khác!</string>
     <string name="message_all">Tất cả</string>
     <string name="message_reply">TRẢ LỜI</string>
-    <string name="message_praise">BỎ PHIẾU</string>
+    <string name="message_praise">THÍCH</string>
     <string name="message_notifications_praise">Đã bỏ phiếu bình luận của bạn</string>
     <string name="message_notifications_reply">Đã trả lời bình luận của bạn</string>
     <string name="message_notifications_login">Vui lòng đăng nhập để xem trang này.</string>
@@ -480,7 +480,7 @@ Các chức năng trên đều hỗ trợ Android 4.1 trở lên, không bao g�
 
     <string name="comment_vote_string">Bỏ phiếu</string>
     <string name="comment_reply_three">Trả lời</string>
-    <string name="comment_item_fold">1 bình luận đã bị sụp</string>
+    <string name="comment_item_fold">bình luận đã bị bỏ</string>
 
     <plurals name="comment_reply_item_fold">
 	<item quantity="other"><xliff:g example="2" id="count">
@@ -492,7 +492,7 @@ Các chức năng trên đều hỗ trợ Android 4.1 trở lên, không bao g�
     <string name="set_updates_notification">Cập nhật Ứng dụng có sẵn</string>
     <string name="set_updates_notification_msg">Thông báo khi cập nhật ứng dụng có sẵn. Cài đặt được đề xuất: Mở</string>
     <string name="app_detail_unknow_text">APKPure Phiên bản cũ không hỗ trợ các tính năng mới, hãy cập nhật lên phiên bản mới nhất.</string>
-    <string name="comment_detail_original">Xem Bình luận đầu tiên</string>
+    <string name="comment_detail_original">Xem Bình luận đầu tiên &gt;</string>
     <string name="comment_comment_newest">Mới nhất</string>
     <string name="comment_comment_oldest">Cũ nhất</string>
 
@@ -508,5 +508,96 @@ Các chức năng trên đều hỗ trợ Android 4.1 trở lên, không bao g�
     <string name="sub_comment_dialog_link_et">Nhập địa chỉ URL Video vào đây</string>
     <string name="sub_comment_dialog_link_null">Địa chỉ URL video không được để trống</string>
     <string name="sub_comment_progress_msg">Đang thêm video…</string>
+
+<string name="check_update_replace">Phiên bản chính thức</string>
+    <string name="check_update_beta">Phát hành Beta sớm</string>
+    <string name="app_detail_comment_order_array_old">Cũ</string>
+
+    <string name="app_detail_comment_join_group_bt">Nhóm</string>
+    <string name="ad_tip">ad</string>
+    <string name="play_button">Nút chơi</string>
+    <string name="null_time">0:00</string>
+    <string name="open_video_in_youtube">Mở video trong YouTube</string>
+    <string name="full_screen_button">Phím toàn màn hình</string>
+
+    <string name="main_tab_home">TRANG CHỦ</string>
+    <string name="main_tab_ranking">XẾP HẠNG</string>
+    <string name="main_tab_group">NHÓM</string>
+    <string name="main_tab_my">TÔI</string>
+
+    <string name="main_comment">bình luận</string>
+    <string name="main_won_praise">Thích</string>
+    <string name="main_my_comments">Bình luận</string>
+    <string name="main_my_collection">Ưa thích</string>
+    <string name="main_my_message">Tin nhắn</string>
+    <string name="main_good_comments">Bỏ phiếu</string>
+    <string name="main_app_management">Quản lí ứng dụng</string>
+    <string name="main_topic_selection">Giao diện</string>
+    <string name="main_night_mode">Chế độ ban đêm</string>
+    <string name="please_login_first">Xin hãy đăng nhập trước</string>
+    <string name="no_choice">Không có lựa chọn</string>
+    <string name="follow_on_success">Thành công!</string>
+    <string name="follow_un_success">Bỏ theo dõi!</string>
+    <string name="canceled">Đã huỷ</string>
+    <string name="group">Nhóm</string>
+    <string name="collection">Bộ sưu tập</string>
+
+    <string name="comments">Bình luận</string>
+    <string name="follow">Đang theo dõi</string>
+    <string name="attention_on">Đang theo dõi</string>
+    <string name="attention_off">Theo dõi</string>
+    <string name="no_attention">Không có nhóm đang theo dõi, chưa có đâu.</string>
+    <string name="browsing_history">Lịch sử trình duyệt</string>
+    <string name="browsing_history_prompt">Bạn có muốn xóa lịch sử trình duyệt chứ?</string>
+
+    <string name="ranking_tab1_title">Trò chơi Hàng đầu</string>
+    <string name="ranking_tab2_title">Trò chơi mới Hàng đầu</string>
+    <string name="ranking_tab3_title">Ứng dụng Hàng đầu</string>
+    <string name="ranking_tab4_title">Ứng dụng mới Hàng đầu</string>
+
+    <string name="app_detail_three_fragment_foot">Hiển thị tất cả bình luận</string>
+    <string name="menu_paste">Dán</string>
+
+    <string name="favorite_title">Ưa thích</string>
+    <string name="save_as_favorite">Lưu như Ưa thích</string>
+    <string name="favorite_saved">Ưa thích đã lưu</string>
+    <string name="failed_to_save_favorite">Lưu ưa thích thất bại</string>
+    <string name="remove_as_favorite">Gỡ khỏi Ưa thích</string>
+    <string name="remove_failed">Gỡ bỏ thất bại</string>
+
+    <string name="collection_comment">Bình luận</string>
+    <string name="collection_app">ỨNG DỤNG</string>
+
+    <string name="open_with_browser">Mở bằng Trình duyệt</string>
+    <string name="web_view_refresh">Làm mới</string>
+
+    <string name="topic_red_color">Đỏ thẳm</string>
+    <string name="topic_green_color">Lục may mắn</string>
+    <string name="topic_blue_color">Lam bầu trời</string>
+    <string name="topic_purple_color">Tím Bóng đêm</string>
+    <string name="topic_purple_black">Xám lạnh</string>
+    <string name="topic_purple_yellow">Cam Mộng mơ</string>
+    <string name="topic_purple_blue_gary">Lam Không quân</string>
+    <string name="topic_switch_failed">Thay đổi giao diện thất bại</string>
+
+    <string name="recommend_title">Khuyến nghị</string>
+    <string name="recommend_tab_game">Khuyến nghị một Ứng dụng</string>
+    <string name="recommend_tab_list">Được khuyến nghị</string>
+    <string name="recommend_installed_list_title">Ứng dụng của tôi</string>
+    <string name="recommend_review">Xem trước</string>
+    <string name="recommend_replace_img">Thay đổi Ảnh</string>
+    <string name="recommend_app_name">Tiêu đề Ứng dụng</string>
+    <string name="recommend_state_can">Khuyến nghị</string>
+    <string name="recommend_state_success">Được khuyến nghị</string>
+    <string name="recommend_select_game">Khuyến nghị một Ứng dụng</string>
+    <string name="recommend_write_des">Mô tả</string>
+    <string name="recommend_write_des_hint">Một đánh giá hữu ích sẽ được xem bởi nhiều người dùng có cùng sở thích như bạn.</string>
+    <string name="recommend_comment">Gửi</string>
+    <string name="recommend_comment_error">Một số lỗi gì đó đã xảy ra!</string>
+    <string name="recommend_description_title">Hướng dẫn:</string>
+    <string name="recommend_description">1. Đề xuất được chấp thuận sẽ được liệt kê dưới mục KHÁM PHÁ.
+2. Bạn chỉ có thể giới thiệu các ứng dụng đang được cài đặt trên thiết bị Android của bạn.</string>
+    <string name="recommend_user_recommend">Được khuyến nghị bởi %s</string>
+    <string name="recommend_required">Phần bắt buộc</string>
 
 </resources>
