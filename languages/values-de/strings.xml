@@ -47,7 +47,7 @@
     <string name="file_format_error">Dateiformat fehlerhaft.</string>
     <string name="parsing_xapk">Auslesen der XAPK …</string>
     <string name="installing_obb">OBB Dateien werden installiert …</string>
-    <string name="extracting_apk">Auspacken der APK-Datei …</string>
+    <string name="extracting_apk">Extrahieren der APK-Datei …</string>
     <string name="installing_apk">APK wird installiert…</string>
 
     <string name="uninstall">Deinstallation</string>
@@ -176,14 +176,14 @@
 
     <string name="properties">Eigenschaften</string>
     <string name="want_to_delete_all_files">Wollen Sie alle Dateien löschen?</string>
-    <string name="deleted">gelöscht</string>
+    <string name="deleted">Gelöscht</string>
     <string name="installed">Installiert</string>
     <string name="remove_all">Alles entfernen</string>
     <string name="delete_downloaded_file">heruntergeladene Datei löschen</string>
     <string name="update___count__"><xliff:g id="count" example="3">%1$d</xliff:g>)</string>
     <string name="delete_all">Lösche alles</string>
     <string name="properties_message">"
- &lt;b&gt;Path:&lt;/b&gt; %1$s&lt;br&gt;&lt;b&gt;Size:&lt;/b&gt; %2$s&lt;br&gt;&lt;b&gt;zuletzt modifiziert:&lt;/b&gt; %3$s
+ &lt;b&gt;Pfad:&lt;/b&gt; %1$s&lt;br&gt;&lt;b&gt;Size:&lt;/b&gt; %2$s&lt;br&gt;&lt;b&gt;Zuletzt geändert:&lt;/b&gt; %3$s
  "</string>
     <string name="flag_as_inappropriate">Als unangemessen melden</string>
     <string name="pause_all">Alles anhalten</string>
@@ -344,7 +344,7 @@ erlaubt werden.</string>
     <string name="user_info_edit_gender_tv">Geschlecht</string>
     <string name="user_info_edit_birthday_tv">Geburtstag</string>
     <string name="user_info_edit_change_pwd_tv">Passwort zurücksetzen</string>
-    <string name="user_info_edit_login_out_tv">Abmelden</string>
+    <string name="user_info_edit_login_out_tv">Ausloggen</string>
     <string name="user_info_edit_not_choose">Unbekannt</string>
     <string name="user_info_edit_gender_male">Männlich</string>
     <string name="user_info_edit_gender_female">Weiblich</string>
@@ -398,7 +398,7 @@ erlaubt werden.</string>
     <string name="user_password">Passwort(6-32)</string>
     <string name="user_password_confirm">Passwort bestätigen</string>
 
-    <string name="sub_comment_progress_msg">Füge Video hinzu…</string>
+    <string name="sub_comment_progress_msg">Füge ein Video hinzu…</string>
 
 <string name="app_detail_comment_type_web">web</string>
     <string name="app_submit_anonymous_comment">Kommentar hinzufügen</string>
@@ -466,7 +466,7 @@ erlaubt werden.</string>
     <string name="comment_no_reply">Wow, hier steht nichts.</string>
     <string name="comment_reply_info_name">Detail</string>
     <string name="set_updates_notification">App Updates verfügbar</string>
-    <string name="set_updates_notification_msg">Benachrichtigen wenn App Updates verfügbar sind. Empfohlene Einstellung: An</string>
+    <string name="set_updates_notification_msg">Benachrichtigen, wenn App-Updates verfügbar sind. Empfohlene Einstellung: An</string>
     <string name="app_detail_unknow_text">Alte Version APKPure unterstützt neue Features nicht, bitte auf neueste updaten.</string>
     <string name="check_update_replace">Offizielle Version</string>
     <string name="app_detail_comment_order_array_old">Alt</string>
