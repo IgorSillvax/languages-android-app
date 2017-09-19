@@ -336,22 +336,22 @@ Que é necessário para escanear o código QR.</string>
     <string name="permission_denied">Acesso negado!</string>
 
     <string name="login_title">Entrar</string>
-    <string name="sign_out">Deslogar</string>
+    <string name="sign_out">Sair</string>
 
-    <string name="delete_comment">Deletar comentário</string>
-    <string name="delete_comment_msg">Tem certeza de que deseja deletar este comentário?</string>
-    <string name="upload_cancel">O carregamento foi cancelado</string>
+    <string name="delete_comment">Excluir comentário</string>
+    <string name="delete_comment_msg">Tem certeza de que deseja excluir este comentário?</string>
+    <string name="upload_cancel">O envio foi cancelado</string>
     <string name="login_select_way_to_login">Escolha a forma de iniciar a sessão</string>
 
     <string name="user_info_edit_title">Perfil</string>
     <string name="user_info_edit_portrait_tv">Foto do perfil</string>
     <string name="user_info_edit_username_tv">Nome de usuário</string>
     <string name="user_info_edit_nickname_tv">Apelido</string>
-    <string name="user_info_edit_email_tv">Email</string>
+    <string name="user_info_edit_email_tv">E-mail</string>
     <string name="user_info_edit_gender_tv">Gênero</string>
     <string name="user_info_edit_birthday_tv">Nascimento</string>
-    <string name="user_info_edit_change_pwd_tv">Trocar a senha</string>
-    <string name="user_info_edit_login_out_tv">Deslogar</string>
+    <string name="user_info_edit_change_pwd_tv">Redefinir senha</string>
+    <string name="user_info_edit_login_out_tv">Sair</string>
     <string name="user_info_edit_not_choose">Desconhecido</string>
     <string name="user_info_edit_gender_male">Masculino</string>
     <string name="user_info_edit_gender_female">Feminino</string>
@@ -362,18 +362,18 @@ Que é necessário para escanear o código QR.</string>
     <string name="user_info_edit_cancel">Cancelar</string>
 
     <string name="update_nick_title">Alterar apelido</string>
-    <string name="update_email_title">Alterar Email</string>
+    <string name="update_email_title">Alterar e-mail</string>
     <string name="update_nick_name_et">Digite seu novo apelido</string>
     <string name="update_nick_name_tv">O novo apelido não pode ficar em branco</string>
-    <string name="update_email_name_et">Digite seu email</string>
-    <string name="update_eamil_name_tv">O email não pode ficar em branco</string>
+    <string name="update_email_name_et">Digite seu e-mail</string>
+    <string name="update_eamil_name_tv">O e-mail não pode ficar em branco</string>
     <string name="update_nickname_error">Apelido já usado, escolha outro!</string>
 
-    <string name="update_pwd_title">Trocar minha senha</string>
+    <string name="update_pwd_title">Redefinir minha senha</string>
     <string name="update_pwd_current_pwd_et">Senha antiga</string>
     <string name="update_pwd_new_pwd_et">Nova senha</string>
     <string name="update_pwd_Confirm_pwd_et">Confirme a nova senha</string>
-    <string name="upload_avatar">Carregando…</string>
+    <string name="upload_avatar">Enviando…</string>
     <string name="update_pwd_current_null_tv">A senha antiga não pode ficar em branco</string>
     <string name="update_pwd_Confirm_null_tv">Confirmar a senha não pode ficar em branco</string>
     <string name="update_pwd_new_pwd_null_tv">Nova senha não pode ficar em branco</string>
@@ -381,7 +381,7 @@ Que é necessário para escanear o código QR.</string>
     <string name="update_pwd_save_bt">Salvar</string>
     <string name="update_save_success">Salvo com sucesso!</string>
     <string name="crop__cancel" ignore="ButtonCase">Cancelar</string>
-    <string name="crop__done">Feito</string>
+    <string name="crop__done">Concluído</string>
     <string name="crop__pick_error">Tipo de arquivo de imagem inválido</string>
     <string name="crop__saving">Salvando foto…</string>
     <string name="crop__wait">Por favor, espere…</string>
@@ -389,34 +389,34 @@ Que é necessário para escanear o código QR.</string>
     <string name="is_comment">O comentário é…</string>
     <string name="comment_cancel">O comentário foi cancelado</string>
     <string name="comment_replying">Enviando resposta…</string>
-    <string name="register_term_of_service">APKPure Termo de Serviço</string>
+    <string name="register_term_of_service">Termo de serviço APKPure</string>
 
     <string name="set_contributor">Contribuintes</string>
     <string name="set_permissions">Permissões</string>
     
-    <string name="sign_in_services">Ao registrar-se você concorda com nossos Termos e Política de Privacidade.</string>
+    <string name="sign_in_services">Ao registrar-se, você concorda com nossos Termos e Política de privacidade.</string>
 
     <string name="sign_in_services_key">Termos</string>
-    <string name="sign_in_services_key_policy">Política de Privacidade</string>
+    <string name="sign_in_services_key_policy">Política de privacidade</string>
 
     <string name="user_sign_up">Registrar-se</string>
     <string name="user_name_hint">Nome de usuário</string>
-    <string name="user_email_hint">Email</string>
+    <string name="user_email_hint">E-mail</string>
     <string name="user_password">Senha(6–32)</string>
-    <string name="user_password_confirm">Confirme a Senha</string>
+    <string name="user_password_confirm">Confirme a senha</string>
 
     <string name="user_name_error">O nome de usuário não deve conter caracteres especiais, símbolos ou espaços</string>
-    <string name="user_nickname_error">Apelido não deve conter caracteres especiais, símbolos ou espaços</string>
-    <string name="user_email_error">Este endereço de email é inválido</string>
+    <string name="user_nickname_error">O apelido não deve conter caracteres especiais, símbolos ou espaços</string>
+    <string name="user_email_error">Este endereço de e-mail é inválido</string>
     <string name="user_password_error">Esta senha é inválida</string>
     <string name="user_confirm_error">As senhas devem corresponder</string>
 
     <string name="login_user_name">Nome de usuário</string>
     <string name="login_user_password">Senha</string>
     <string name="login_user_sign_in">Entrar</string>
-    <string name="login_choose">Ou faça login com sua conta</string>
-    <string name="login_new_user">Registrar Novo Usuário</string>
-    <string name="login_post_as_a_guest">Postar como convidado</string>
+    <string name="login_choose">Ou entre com sua conta</string>
+    <string name="login_new_user">Registrar novo usuário</string>
+    <string name="login_post_as_a_guest">Publicar como convidado</string>
 
 
 
@@ -429,20 +429,20 @@ Que é necessário para escanear o código QR.</string>
     <string name="message_praise">Curtidas</string>
     <string name="message_notifications_praise">Curtida ao seu comentário</string>
     <string name="message_notifications_reply">Respondeu o seu comentário</string>
-    <string name="message_notifications_login">Faça o login para ver esta página.</string>
+    <string name="message_notifications_login">Entre para ver esta página.</string>
 
     <string name="comment_submitting">Enviando…</string>
     <string name="message">Mensagem</string>
 
-    <string name="push_title_info_reply">Respondeu o seu comentário!</string>
-    <string name="push_title_info_upvoted">Curtiu ao seu comentário!</string>
-    <string name="download_list">Lista de Download</string>
+    <string name="push_title_info_reply">%s respondeu o seu comentário!</string>
+    <string name="push_title_info_upvoted">%s curtiu o seu comentário!</string>
+    <string name="download_list">Lista de download</string>
     <string name="can_be_update">Pode ser atualizado</string>
     <string name="install_list">Instalado</string>
     <string name="no_download">Sem download</string>
     <string name="downloads">Downloads</string>
 
-    <string name="change_language_failed">Falha na Interrupção do idioma!</string>
+    <string name="change_language_failed">Falha na interrupção do idioma!</string>
     <string name="comment_reply_tell_msg">Este comentário foi removido!</string>
 
     <string name="notification_setting">Notificações</string>
@@ -451,7 +451,7 @@ Que é necessário para escanear o código QR.</string>
     <string name="like_notification">Notificações de curtida</string>
     <string name="like_notification_msg">Receber notificações para novas mensagens de curtida</string>
     <string name="gif_tip">Gif</string>
-    <string name="submit_comment_title_hint">Assunto (Opcional)</string>
+    <string name="submit_comment_title_hint">Assunto (opcional)</string>
 
     <string name="comment_vote_string">Voto</string>
     <string name="comment_reply_three">Resposta</string>
@@ -469,8 +469,8 @@ Que é necessário para escanear o código QR.</string>
     <string name="comment_no_reply">Uau, não há nada aqui.</string>
     <string name="comment_reply_info_name">Detalhe</string>
     <string name="set_updates_notification">Atualizações de aplicativos estão disponíveis</string>
-    <string name="set_updates_notification_msg">Notificar quando as atualizações de aplicativo estiverem disponíveis. Definição recomendada: Ligado</string>
-    <string name="app_detail_unknow_text">Versão antiga do APKPure não suporta novos recursos, atualize para a versão mais recente.</string>
+    <string name="set_updates_notification_msg">Notificar quando as atualizações de aplicativo estiverem disponíveis. Configuração recomendada: ligado</string>
+    <string name="app_detail_unknow_text">A versão antiga do APKPure não suporta novos recursos, atualize para a versão mais recente.</string>
     <string name="comment_detail_original">Ver comentário original &gt;</string>
     <string name="comment_comment_newest">O mais novo</string>
     <string name="comment_comment_oldest">Mais antigo</string>
@@ -494,18 +494,18 @@ Que é necessário para escanear o código QR.</string>
     <string name="app_detail_comment_order_array_old">Antigo</string>
 
     <string name="app_detail_comment_join_group_bt">Grupo</string>
-    <string name="ad_tip">Ad</string>
+    <string name="ad_tip">anúncio</string>
     <string name="play_button">Botão de reprodução</string>
     <string name="null_time">0:00</string>
     <string name="open_video_in_youtube">Abrir o vídeo no YouTube</string>
     <string name="full_screen_button">Botão de tela cheia</string>
 
-    <string name="main_tab_home">MENU</string>
-    <string name="main_tab_ranking">RANKING</string>
+    <string name="main_tab_home">INÍCIO</string>
+    <string name="main_tab_ranking">CLASSIFICAÇÃO</string>
     <string name="main_tab_group">GRUPO</string>
     <string name="main_tab_my">EU</string>
 
-    <string name="main_comment">Comentário</string>
+    <string name="main_comment">comentário</string>
     <string name="main_won_praise">Curtidas</string>
     <string name="main_my_comments">Comentários</string>
     <string name="main_my_collection">Favoritos</string>
@@ -514,7 +514,7 @@ Que é necessário para escanear o código QR.</string>
     <string name="main_app_management">Gerenciamento de aplicativos</string>
     <string name="main_topic_selection">Temas</string>
     <string name="main_night_mode">Modo noturno</string>
-    <string name="please_login_first">Faça o login primeiro</string>
+    <string name="please_login_first">Entre primeiro</string>
     <string name="no_choice">Sem escolha</string>
     <string name="follow_on_success">Sucesso!</string>
     <string name="follow_un_success">Deixar de seguir!</string>
@@ -531,9 +531,9 @@ Que é necessário para escanear o código QR.</string>
     <string name="browsing_history_prompt">Deseja limpar o histórico de navegação?</string>
 
     <string name="ranking_tab1_title">Melhores jogos</string>
-    <string name="ranking_tab2_title">Melhores Novos Jogos</string>
-    <string name="ranking_tab3_title">Melhores Aplicativos</string>
-    <string name="ranking_tab4_title">Melhores Novos Aplicativos</string>
+    <string name="ranking_tab2_title">Melhores jogos novos</string>
+    <string name="ranking_tab3_title">Melhores aplicativos</string>
+    <string name="ranking_tab4_title">Melhores aplicativos novos</string>
 
     <string name="app_detail_three_fragment_foot">Mostrar todos os comentários</string>
     <string name="menu_paste">Colar</string>
@@ -542,7 +542,7 @@ Que é necessário para escanear o código QR.</string>
     <string name="save_as_favorite">Salvar como favorito</string>
     <string name="favorite_saved">Favorito salvo</string>
     <string name="failed_to_save_favorite">Falha ao salvar o favorito</string>
-    <string name="remove_as_favorite">Remover Favorito</string>
+    <string name="remove_as_favorite">Remover como favorito</string>
     <string name="remove_failed">Falha ao remover</string>
 
     <string name="collection_comment">Comentários</string>
@@ -563,13 +563,13 @@ Que é necessário para escanear o código QR.</string>
     <string name="recommend_title">Recomendações</string>
     <string name="recommend_tab_game">Recomendar um aplicativo</string>
     <string name="recommend_tab_list">Recomendado</string>
-    <string name="recommend_installed_list_title">Meus Aplicativos</string>
-    <string name="recommend_review">Visualização</string>
+    <string name="recommend_installed_list_title">Meus aplicativos</string>
+    <string name="recommend_review">Pré-visualização</string>
     <string name="recommend_replace_img">Alterar imagem</string>
     <string name="recommend_app_name">Título do aplicativo</string>
     <string name="recommend_state_can">Recomendar</string>
     <string name="recommend_state_success">Recomendado</string>
-    <string name="recommend_select_game">Recomendar um Aplicativo</string>
+    <string name="recommend_select_game">Recomendar um aplicativo</string>
     <string name="recommend_write_des">Descrição</string>
     <string name="recommend_write_des_hint">Uma revisão útil será vista por mais usuários que tenham o mesmo interesse que você.</string>
     <string name="recommend_comment">Enviar</string>
@@ -577,7 +577,7 @@ Que é necessário para escanear o código QR.</string>
     <string name="recommend_description_title">Instruções:</string>
     <string name="recommend_description">1. As recomendações aprovadas serão listadas na seção DESCOBRIR.
 2. Você só pode recomendar os aplicativos atualmente instalados em seu dispositivo Android.</string>
-    <string name="recommend_user_recommend">Recomendado por</string>
+    <string name="recommend_user_recommend">Recomendado por %s</string>
     <string name="recommend_required">Campo obrigatório</string>
 
 </resources>
