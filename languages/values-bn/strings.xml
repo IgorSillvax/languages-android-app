@@ -3,11 +3,11 @@
 
     <string name="action_settings">সেটিংস</string>
     <string name="action_search">খুঁজুন</string>
-    <string name="action_management">ব্যাবস্থাপনা</string>
+    <string name="action_management">ব্যবস্থাপনা</string>
 
     <string name="press_back_key_quit">ব্যাক বাটমে আবার ক্লিক করে বাহির হোন।</string>
 
-    <string name="featured">নতুন কিছু</string>
+    <string name="featured">ফিচার্ড</string>
     <string name="games">খেলা</string>
     <string name="apps">এ্যাপস</string>
     <string name="categories">ক্যাটেগরি</string>
@@ -23,7 +23,7 @@
 
     <string name="management">ব্যবস্থাপনা</string>
     <string name="app_updates">এ্যাপস হালনাগাদ</string>
-    <string name="app_management">এ্যাপস ব্যাবস্থাপনা</string>
+    <string name="app_management">ইনস্টল করা আছে</string>
     <string name="app_uninstall">এ্যাপস আনইনস্টল</string>
     <string name="apk_management">এপেকে ম্যানেজমেন্ট</string>
     <string name="installation_failed">ইনস্টল করতে ব্যার্থ</string>
@@ -269,4 +269,295 @@ The above mentioned functions support Android 4.1+, no root permission needed. W
     <string name="auto_install_via_root_summary">শুধুমাত্র রুট করা স্মার্টফোন এবং ট্যাবলেট এর ক্ষেত্রে</string>
 
     <string name="download_complete_installation_setting">ডাউনলোড পরবর্তী ইনস্টল অপশন</string>
-    </resources>
+    <string name="recommend">আবিষ্কার করুন</string>
+    <string name="check_update_replace">আনুষ্ঠানিক সংস্করণ</string>
+    <string name="check_update_beta">প্রাক-মুক্তি বিটা</string>
+    <string name="report">প্রতিবেদন দিন</string>
+    <string name="share_app_url_comment"> <xliff:g example="APKPure" id="user_name">%1$s</xliff:g> এর মন্তব্য <xliff:g example="APKPure" id="app_name">%2$s</xliff:g> (হতে @<xliff:g example="APKPure" id="social_network_name">%3$s</xliff:g>), <xliff:g example="https://apkpure.com/p/com.apkpure.aegon" id="app_url">%4$s</xliff:g></string>
+
+    <string name="auto_service_install__material_">ইনস্টল</string>
+    <plurals name="app_detail_see_all_replies">
+	<item quantity="one">সব দেখুন <xliff:g example="1" id="count">%1$d</xliff:g> উত্তর দিন</item>
+	<item quantity="other">সব দেখুন <xliff:g example="2" id="count">%1$d</xliff:g> উত্তরগুলো</item>
+</plurals>
+
+    <string name="app_detail_customer_reviews">মন্তব্যগুলো</string>
+    <string name="app_detail_comment_type_web">ওয়েব</string>
+    <string name="app_submit_submit">জমা দিন***</string>
+    <string name="app_submit_anonymous_comment">মন্তব্য করুন</string>
+    <string name="app_submit_title_toast">আপনি অবশ্যই শিরোনাম লিখবেন</string>
+    <string name="app_submit_msg_toast">আপনি অবশ্যই কিছু লিখবেন!</string>
+    <string name="app_submit_name_toast">অনুগ্রহ করে ডাকনাম লিখুন!</string>
+    <string name="app_submit_email_toast">অনুগ্রহ করে সঠিক ইমেইল ঠিকানা লিখুন!</string>
+    <string name="app_submit_star_toast">আপনি অবশ্যই তারকা জমা দিবেন!</string>
+    <string name="app_submit_title_hint">অনুগ্রহ করে শিরোনাম লিখুন</string>
+    <string name="app_submit_msg_hint">আপনার মতামত লিখুন</string>
+    <string name="app_submit_nickname">ডাকনাম</string>
+    <string name="app_submit_email">ইমেইল</string>
+    <string name="app_submit_submit_title">জমা দিন</string>
+    <string name="app_submit_reply_to">উত্তর দিন</string>
+
+    <string name="app_detail_tab_one">বিস্তারিত</string>
+    <string name="app_detail_tab_two">মন্তব্যগুলো</string>
+    <string name="app_detail_tab_three">সম্বন্ধনীয়</string>
+
+    <string name="app_detail_comment_order_array_default">স্বয়ংক্রিয়ভাবে বাছাই করুন</string>
+    <string name="app_detail_comment_order_array_most_recent">সাম্প্রতিক</string>
+    <string name="app_detail_comment_order_array_new">সর্বশেষ</string>
+    <string name="app_detail_comment_order_array_best">উৎকৃষ্ট</string>
+    <string name="app_detail_comment_order_array_old">পুরোনো</string>
+
+    <string name="app_detail_comment_join_group_bt">দল</string>
+    <string name="download_complete_installation_setting_entries_always">সবসময় ইনস্টল</string>
+    <string name="download_complete_installation_setting_entries_only">শুধুমাত্র অ্যাপ সক্রিয় থাকলে ইনস্টল</string>
+    <string name="download_complete_installation_setting_entries_never">কখনোই না</string>
+
+    <string name="reply">উত্তর দিন</string>
+    <string name="input_reply_content">উত্তরের জন্য কিছু লিখুন:</string>
+    <string name="publish">পোস্ট করুন</string>
+    <string name="reply_dialog_marked_words">মুছে ফেলতে ছবিতে দীর্ঘ চাপ দিন।</string>
+    <string name="reply_comment">মন্তব্যের জবাব দিন</string>
+    <string name="save_original_image">আসল ছবি সংরক্ষণ করুন</string>
+    <string name="already_save">সংরক্ষিত হয়েছে<xliff:g id="path" example="ApKPure/photo">%1$s</xliff:g></string>
+
+    <string name="load_end">আর কিছু নেই</string>
+    <string name="load_failed_click_retry">লোড করতে ব্যর্থ।আবার চেষ্টা করুন এ ক্লিক করুন</string>
+    <string name="loading">লোড হচ্ছে…</string>
+
+    <string name="scan_qr_code_hint">কিউআর কোড স্ক্যানার ব্যবহার করার আগে আপনাকে ক্যামেরা ব্যবহারের অনুমতি নিতে হবে
+এটা কিউআর কোড স্ক্যান করতে দরকার হবে।</string>
+    <string name="zxing_msg_default_status">স্ক্যান করতে কিউআর কোডটি লক্ষ্য দর্শক এ রাখুন।</string>
+    <string name="zxing_msg_parser_status">স্ক্যান করতে ব্যর্থ। আবার চেষ্টা করুন।</string>
+
+    <string name="tip_permission_camera_storage">ক্যামেরা ও এসডি কার্ড ব্যবহারের অনুমতি নেই, অনুমতি ব্যবস্থাপনা খুলুন</string>
+    <string name="permission_denied">অনুমতি নেই!</string>
+
+    <string name="login_title">প্রবেশ করুন</string>
+    <string name="sign_out">বের হন</string>
+
+    <string name="delete_comment">মন্তব্য মুছুন</string>
+    <string name="delete_comment_msg">আপনি কি নিশ্চিতভাবে মন্তব্য মুছতে চান?</string>
+    <string name="upload_cancel">আপলোড করা বাতিল হয়েছে</string>
+    <string name="login_select_way_to_login">প্রবেশ করার পদ্ধতি বাছাই করুন</string>
+
+    <string name="user_info_edit_title">প্রোফাইল</string>
+    <string name="user_info_edit_portrait_tv">প্রোফাইল ছবি</string>
+    <string name="user_info_edit_username_tv">ব্যবহার্য নাম</string>
+    <string name="user_info_edit_nickname_tv">ডাকনাম</string>
+    <string name="user_info_edit_email_tv">ইমেইল</string>
+    <string name="user_info_edit_gender_tv">লিঙ্গ</string>
+    <string name="user_info_edit_birthday_tv">জন্মদিন</string>
+    <string name="user_info_edit_change_pwd_tv">পাসওয়ার্ড পরিবর্তন করুন</string>
+    <string name="user_info_edit_login_out_tv">বের হন</string>
+    <string name="user_info_edit_not_choose">অজানা</string>
+    <string name="user_info_edit_gender_male">পুরুষ</string>
+    <string name="user_info_edit_gender_female">নারী</string>
+    <string name="user_info_edit_portrait_album">গ্যালারি থেকে ছবি নির্বাচন করুন</string>
+    <string name="user_info_edit_portrait_take_photo">ক্যামেরা দিয়ে ছবি তুলুন</string>
+    <string name="user_info_edit_portrait_error">ছবির প্রকার সমর্থিত নয়</string>
+    <string name="user_info_edit_ok">ঠিক আছে</string>
+    <string name="user_info_edit_cancel">বাতিল করুন</string>
+
+    <string name="update_nick_title">ডাকনাম পরিবর্তন করুন</string>
+    <string name="update_email_title">ইমেইল পরিবর্তন করুন</string>
+    <string name="update_nick_name_et">নতুন ডাকনাম প্রবেশ করান</string>
+    <string name="update_nick_name_tv">নতুন ডাকনাম খালি হতে পারবে না</string>
+    <string name="update_email_name_et">ইমেইল প্রবেশ করান</string>
+    <string name="update_eamil_name_tv">ইমেইল খালি হতে পারবে না</string>
+    <string name="update_nickname_error">ডাকনাম ইতোমধ্যে নেয়া হয়ে গেছে, অন্য একটি বাছাই করুন!</string>
+    <string name="message_all">সব</string>
+    <string name="message_reply">উত্তরগুলো</string>
+    <string name="message_notifications_praise">আপনার মন্তব্য আপ ভোট করা হয়েছে</string>
+    <string name="message_praise">লাইকগুলো</string>
+    <string name="message_notifications_reply">আপনার মন্তব্যের উত্তর দিয়েছেন</string>
+    <string name="message_notifications_login">এই পাতাটি দেখতে প্রবেশ করুন।</string>
+
+    <string name="update_pwd_title">পাসওয়ার্ড পুনরায় ঠিক করুন</string>
+    <string name="update_pwd_current_pwd_et">পুরাতন পাসওয়ার্ড</string>
+    <string name="update_pwd_new_pwd_et">নতুন পাসওয়ার্ড</string>
+    <string name="update_pwd_Confirm_pwd_et">নতুন পাসওয়ার্ড যাচাই করুন</string>
+    <string name="upload_avatar">আপলোড হচ্ছে…</string>
+    <string name="update_pwd_current_null_tv">পুরাতন পাসওয়ার্ড খালি হতে পারবে না</string>
+    <string name="update_pwd_Confirm_null_tv">যাচাইকরণ পাসওয়ার্ড খালি হতে পারবে না</string>
+    <string name="update_pwd_new_pwd_null_tv">নতুন পাসওয়ার্ড খালি হতে পারবে না</string>
+    <string name="update_pwd_new_confrim_tv">আপনার প্রবেশকৃত পাসওয়ার্ড দুটোয় মিল নেই</string>
+    <string name="update_pwd_save_bt">সংরক্ষণ</string>
+    <string name="update_save_success">সংরক্ষণ সফল!</string>
+    <string name="crop__cancel" ignore="ButtonCase">বাতিল</string>
+    <string name="crop__done">সফল</string>
+    <string name="crop__pick_error">ছবির প্রকৃতি অসমর্থিত</string>
+    <string name="crop__saving">ছবি সংরক্ষণ হচ্ছে…</string>
+    <string name="crop__wait">অনুগ্রহ করে অপেক্ষা করুন…</string>
+
+    <string name="is_comment">মন্তব্য হচ্ছে…</string>
+    <string name="comment_cancel">মন্তব্যটি বাতিল করা হয়েছে</string>
+    <string name="comment_submitting">জমা দেয়া হচ্ছে…</string>
+    <string name="comment_replying">উত্তর দেয়া হচ্ছে…</string>
+    <string name="register_term_of_service">এপিকেপিউর ব্যবহারের শর্তাবলী</string>
+
+    <string name="set_contributor">অংশগ্রহণকারী</string>
+    <string name="set_permissions">অনুমতিসমূহ</string>
+
+    <string name="sign_in_services">এখানে যুক্ত হয়ে আপনি আমাদের শর্তাবলী ও গোপনীয়তার নীতি মেনে নিয়েছেন।</string>
+
+    <string name="sign_in_services_key">শর্তাবলী</string>
+    <string name="sign_in_services_key_policy">গোপনীয়তার নীতি</string>
+
+    <string name="user_sign_up">যুক্ত হোন</string>
+    <string name="user_name_hint">ব্যবহার্য নাম</string>
+    <string name="user_email_hint">ইমেই্ল</string>
+    <string name="user_password">পাসওয়ার্ড(৬-৩২)</string>
+    <string name="user_password_confirm">পাসওয়ার্ড যাচাই করুন</string>
+
+    <string name="user_name_error">ব্যবহার্য নামে কোনো প্রতীক, বিশেষ চিহ্ন বা ফাঁক থাকবে না</string>
+    <string name="user_nickname_error">ডাকনামে কোনো বিশেষ চিহ্ন, প্রতীক বা ফাঁক থাকবে না</string>
+    <string name="user_email_error">এই ইমেইল ঠিকানাটি বৈধ নয়</string>
+    <string name="user_password_error">এই পাসওয়ার্ডটি বৈধ নয়</string>
+    <string name="user_confirm_error">পাসওয়ার্ড দুটো অবশ্যই মিলতে হবে</string>
+
+    <string name="login_user_name">ব্যবহার্য নাম</string>
+    <string name="login_user_password">পাসওয়ার্ড</string>
+    <string name="login_user_sign_in">প্রবেশ করুন</string>
+    <string name="login_choose">অথবা আপনার হিসাব দিয়ে প্রবেশ করুন</string>
+    <string name="login_new_user">নতুন ব্যবহারকারী নিবন্ধন</string>
+    <string name="login_post_as_a_guest">অতিথি হিসেবে পোস্ট করুন</string>
+
+    <string name="message">বার্তা</string>
+
+    <string name="push_title_info_reply">%s আপনার মন্তব্যের জবাব দিয়েছেন!</string>
+    <string name="push_title_info_upvoted">%s আপনার মন্তব্য আপ ভোট করেছেন!</string>
+    <string name="download_list">ডাউনলোড তালিকা</string>
+    <string name="can_be_update">নবায়ন করা যেতে পারে</string>
+    <string name="install_list">ইনস্টল করা হয়েছে</string>
+    <string name="no_download">কোনো ডাউনলোড নেই</string>
+    <string name="downloads">ডাউনলোডগুলো</string>
+
+    <string name="change_language_failed">ভাষা পরিবর্তন ব্যর্থ!</string>
+    <string name="comment_reply_tell_msg">এই মন্তব্যটি সরিয়ে ফেলা হয়েছে!</string>
+
+    <string name="notification_setting">প্রজ্ঞাপনগুলো</string>
+    <string name="reply_notification">উত্তর প্রজ্ঞাপনগুলো</string>
+    <string name="reply_notification_msg">বার্তার নতুন উত্তরের জন্য প্রজ্ঞাপন পান</string>
+    <string name="like_notification">প্রজ্ঞাপন আপভোট</string>
+    <string name="like_notification_msg">নতুন বার্তা আপভোটের জন্য প্রজ্ঞাপন পান</string>
+    <string name="gif_tip">gif</string>
+    <string name="ad_tip">বিজ্ঞাপন</string>
+    <string name="submit_comment_title_hint">বিষয় (ঐচ্ছিক)</string>
+
+    <string name="comment_vote_string">ভোট</string>
+    <string name="comment_reply_three">উত্তর</string>
+    <string name="comment_item_fold">মন্তব্য ভাঁজ করা হয়েছে</string>
+
+    <plurals name="comment_reply_item_fold">
+	<item quantity="one"><xliff:g example="1" id="count">%1$d</xliff:g> মন্তব্য ভাঁজ করা হয়েছে</item>
+	<item quantity="other"><xliff:g example="2" id="count">%1$d</xliff:g> মন্তব্যগুলো ভাঁজ করা হয়েছে</item>
+</plurals>
+
+    <string name="comment_no_reply">ওয়াও, এখানে কিছুই নেই।</string>
+    <string name="comment_reply_info_name">বিস্তারিত</string>
+    <string name="set_updates_notification">অ্যাপ নবায়ন করা যাবে</string>
+    <string name="set_updates_notification_msg">অ্যাপ নবায়ন করা গেলে জানান। সুপারিশকৃত সেটিং: চালু</string>
+    <string name="app_detail_unknow_text">এপিকেপিউর এর পুরাতন সংস্করণ নতুন ফিচার সমর্থন করে না, নবায়ন করুন।</string>
+    <string name="comment_detail_original">আসল মন্তব্য দেখুন &gt;</string>
+    <string name="comment_comment_newest">সর্বশেষ</string>
+    <string name="comment_comment_oldest">প্রাচীন</string>
+
+    <string name="edit">সম্পাদনা করুন</string>
+    <string name="menu_copy">নকল করুন</string>
+    <string name="menu_cancel">বাতিল করুন</string>
+    <string name="delete_all_download_history">সকল ডাউনলোড ইতিহাস মুছবেন?</string>
+    <string name="delete_the_historical_record">ঐতিহাসিক তথ্য মুছবেন?</string>
+    <string name="download_history">ডাউনলোড ইতিহাস</string>
+
+    <string name="sub_comment_dialog_title">একটি চলচ্চিত্র যোগ করুন</string>
+    <string name="sub_comment_dialog_des_tv">শুধুমাত্র ইউটিউব ইউআরএল সমর্থিত</string>
+    <string name="sub_comment_dialog_link_et">এখানে চলচ্চিত্রের ঠিকানা প্রবেশ করান</string>
+    <string name="sub_comment_dialog_link_null">চলচ্চিত্রের ঠিকানা খালি হতে পারবে না</string>
+    <string name="sub_comment_progress_msg">চলচ্চিত্র যুক্ত করা হচ্ছে…</string>
+
+    <string name="play_button">চালানোর বোতাম</string>
+    <string name="null_time">০০:০০</string>
+    <string name="open_video_in_youtube">চলচ্চিত্রটি ইউটিউবে খুলুন</string>
+    <string name="full_screen_button">পূর্ণপর্দা বোতাম</string>
+
+    <string name="main_tab_home">হোম</string>
+    <string name="main_tab_ranking">মর্যাদা</string>
+    <string name="main_tab_group">দল</string>
+    <string name="main_tab_my">আমি</string>
+
+    <string name="main_comment">মন্তব্য</string>
+    <string name="main_won_praise">লাইকগুলো</string>
+    <string name="main_my_comments">মন্তব্যগুলো</string>
+    <string name="main_my_collection">পছন্দনীয়</string>
+    <string name="main_my_message">বার্তাগুলো</string>
+    <string name="main_good_comments">আপভোটগুলো</string>
+    <string name="main_app_management">অ্যাপ ব্যবস্থাপনা</string>
+    <string name="main_topic_selection">থিমসমূহ</string>
+    <string name="main_night_mode">রাত</string>
+    <string name="please_login_first">অনুগ্রহ করে প্রবেশ করুন</string>
+    <string name="no_choice">কোনো বিকল্প নেই</string>
+    <string name="follow_on_success">সফল!</string>
+    <string name="follow_un_success">আনফলো!</string>
+    <string name="canceled">বাতিল করা হয়েছে</string>
+    <string name="group">দল</string>
+    <string name="collection">সংগ্রহ</string>
+
+    <string name="comments">মন্তব্যগুলো</string>
+    <string name="follow">অনুসরণ করছেন</string>
+    <string name="attention_on">অনুসরণ করছেন</string>
+    <string name="attention_off">অনুসরণ করুন</string>
+    <string name="no_attention">কোনো দল অনুসরণ করছেন না।</string>
+    <string name="browsing_history">পরিদর্শনের ইতিহাস</string>
+    <string name="browsing_history_prompt">পরিদর্শনের ইতিহাস মুছবেন?</string>
+
+    <string name="ranking_tab1_title">শীর্ষ খেলাগুলো</string>
+    <string name="ranking_tab2_title">শীর্ষ নতুন খেলাগুলো</string>
+    <string name="ranking_tab3_title">শীর্ষ অ্যাপগুলো</string>
+    <string name="ranking_tab4_title">শীর্ষ নতুন অ্যাপগুলো</string>
+
+    <string name="app_detail_three_fragment_foot">সকল মন্তব্য দেখান</string>
+    <string name="menu_paste">পেস্ট করুন</string>
+
+    <string name="favorite_title">পছন্দনীয়</string>
+    <string name="save_as_favorite">পছন্দ তালিকায় সংরক্ষণ করুন</string>
+    <string name="favorite_saved">সংরক্ষিত</string>
+    <string name="failed_to_save_favorite">সংরক্ষণ করতে ব্যর্থ</string>
+    <string name="remove_as_favorite">পছন্দ নয়</string>
+    <string name="remove_failed">সরাতে ব্যর্থ</string>
+
+    <string name="collection_comment">মন্তব্যগুলো</string>
+    <string name="collection_app">অ্যাপস</string>
+
+    <string name="open_with_browser">ব্রাউজারে খুলুন</string>
+    <string name="web_view_refresh">সতেজকরণ</string>
+
+    <string name="topic_red_color">ক্রিমসন</string>
+    <string name="topic_green_color">ভাগ্যবান সবুজ</string>
+    <string name="topic_blue_color">আসমানি</string>
+    <string name="topic_purple_color">গাঢ় বেগুনি</string>
+    <string name="topic_purple_black">ধূসর</string>
+    <string name="topic_purple_yellow">কমলা</string>
+    <string name="topic_purple_blue_gary">নীল</string>
+    <string name="topic_switch_failed">থিম পরিবর্তন ব্যর্থ</string>
+
+    <string name="recommend_title">সুপারিশকৃত</string>
+    <string name="recommend_tab_game">একটি অ্যাপ সুপারিশ করুন</string>
+    <string name="recommend_tab_list">সুপারিশকৃত</string>
+    <string name="recommend_installed_list_title">আমার অ্যাপগুলো</string>
+    <string name="recommend_review">পূর্বরূপ</string>
+    <string name="recommend_replace_img">ছবি পরিবর্তন</string>
+    <string name="recommend_app_name">অ্যাপের নাম</string>
+    <string name="recommend_state_can">সুপারিশ</string>
+    <string name="recommend_state_success">সুপারিশ করা হয়েছে</string>
+    <string name="recommend_select_game">একটি অ্যাপ সুপারিশ করুন</string>
+    <string name="recommend_write_des">বিবরণ</string>
+    <string name="recommend_write_des_hint">একটি সহায়তাকারী সমালোচনা অনেকেই দেখবেন যাদের পছন্দ আপনার মত।</string>
+    <string name="recommend_comment">পাঠান</string>
+    <string name="recommend_comment_error">কিছু ভুল হয়েছে!</string>
+    <string name="recommend_description_title">নির্দেশনাবলী:</string>
+    <string name="recommend_description">১. অনুমোদিত সুপারিশগুলো আবিষ্কার অংশে তালিকাভুক্ত হবে।
+২. আপনি শুধুমাত্র আপনার ফোনে ইনস্টল থাকা অ্যাপগুলো সুপারিশ করতে পারবেন।</string>
+    <string name="recommend_user_recommend">%s দ্বারা সুপারিশ করা হয়েছে</string>
+    <string name="recommend_required">দরকারি ক্ষেত্র</string>
+
+</resources>
