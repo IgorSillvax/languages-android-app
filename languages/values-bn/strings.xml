@@ -58,7 +58,7 @@
     <string name="file_format_error">ফাইল চিনতে ব্যার্থ।</string>
     <string name="parsing_xapk">Parsing XAPK …</string>
     <string name="installing_obb">ইনস্টল ওবিবি ফাইল…</string>
-    <string name="extracting_apk">এপেকে ফাইল খুলা হচ্ছে..।</string>
+    <string name="extracting_apk">এপিকে ফাইল খোলা হচ্ছে …</string>
     <string name="installing_apk">ইনস্টলিং এপেকে…</string>
 
     <string name="uninstall">আনইনস্টল</string>
@@ -126,7 +126,7 @@
     <string name="waiting">অপেক্ষা করুন</string>
     <string name="preparing">তৈরি হচ্ছে</string>
     <string name="completed">শেষ হয়েছে</string>
-    <string name="paused">আটকানো হয়েছে</string>
+    <string name="paused">আটকানো হয়েছে</string>
     <string name="file_invalid">ফাইল ভুল</string>
     <string name="file_missing">ফাইল পাওয়া যাচ্ছে না</string>
     <string name="waiting_to_download">ডাউনলোডের জন্য অপেক্ষায়</string>
@@ -153,10 +153,10 @@
         <![CDATA[এন্ড্রোয়েড ডিভাইসের তথ্য জমা দিয়ে আমাদের সাহায্য করুন, আমরা <b>সংগ্রহ করবো না</b> ব্যাক্তিগত-পরিচয়পত্র তথ্য (নাম, ঠিকানা, ই-মেইল এড্রেস, সামাজিক গোপনীয় নাম্বার, অথবা অন্য জরুরি তথ্য).]]>
     </string>
     <string name="join_us">আমাদের সাথে যোগ দিন</string>
-    <string name="skip">পরবর্তী</string>
+    <string name="skip">বাদ দিয়ে যান</string>
 
-    <string name="participate_ultra_download_beta_test_title">Enable Ultra Download and enjoy a faster downloading speed</string>
-    <string name="participate_ultra_download_beta_test_content">আল্ট্রা ডাউনলোড এখন বিটা টেস্টিংয়ে, যদি আপনি কোনো সমস্যার সম্মুখীন হন তাহলে আমাদের জানাতে পারেন। আপনি সহজে সেটিংস অধীনে এটিকে নিষ্ক্রিয় করতে পারবেন।</string>
+    <string name="participate_ultra_download_beta_test_title">অতিডাউনলোড সক্রিয় করুন এবং দ্রুত ডাউনলোড গতি উপভোগ করুন</string>
+    <string name="participate_ultra_download_beta_test_content">আল্ট্রা ডাউনলোড এখন বিটা টেস্টিংয়ে, যদি আপনি কোনো সমস্যার সম্মুখীন হন তাহলে আমাদের জানাতে পারেন। আপনি সহজে সেটিংস অধীনে এটিকে নিষ্ক্রিয় করতে পারবেন।</string>
     <string name="enable">সক্রিয়</string>
 
     <string name="_name__is_up_to_date"><xliff:g id="name" example="এপেকে পিউর">%1$s</xliff:g> এটা আজকের হালনাগাদে।</string>
@@ -165,16 +165,16 @@
         <![CDATA[<b>নতুন ভার্সন:</b> %1$s<br><br><b>নতুন কি:</b><br>%2$s]]>
     </string>
 
-    <string name="report__">প্রতিবেদন…।</string>
-    <string name="report_problem__">সমস্যার প্রতিবেদন… ।</string>
+    <string name="report__">প্রতিবেদন…</string>
+    <string name="report_problem__">সমস্যার প্রতিবেদন…</string>
     <string name="report_problem_subject">সমস্যা প্রতিবেদন</string>
     <string name="report_problem_text">টপিক সমস্যা:\n%1$s\n\nসমস্যার বিবরণ:\n%2$s</string>
-    <string name="contact_us__">আমাদের সাথে যোগাযোগ করুন..</string>
-    <string name="contact_us">আমাদের সাথে যোগাযোগ করুন..</string>
+    <string name="contact_us__">আমাদের সাথে যোগাযোগ করুন…</string>
+    <string name="contact_us">আমাদের সাথে যোগাযোগ করুন</string>
     <string name="report_content">কন্টেন্টের বিরুদ্ধে প্রতিবেদন</string>
 
     <string name="invalid_app_asset">ভুল অ্যাপ্লিকেশনের ফাইল তথ্য.</string>
-    <string name="failed_to_request_app_detail">অ্যাপ্লিকেশন বিস্তারিত তথ্য অনুরোধ করতে ব্যর্থ হয়েছে</string>
+    <string name="failed_to_request_app_detail">অ্যাপ্লিকেশন বিস্তারিত তথ্য অনুরোধ করতে ব্যর্থ হয়েছে।</string>
     <string name="failed_to_request_app_asset">অ্যাপ্লিকেশন বিস্তারিত এসেস্ট তথ্য অনুরোধ করতে ব্যর্থ হয়েছে।</string>
     <string name="incompatible_this_app">
         <![CDATA[<big><b><font color="%1$d">আপনার ডিভাইস এই এপসের সাথে কম্পেটেভল নয়।</font></b></big><br><br>আপনি কি অবিরত রাখতে চান?]]>
@@ -185,11 +185,11 @@
 
     <string name="setting">পরিষেবা</string>
     <string name="external_storage_not_usable">
-        <![CDATA[<big><b>We need to access your external storage. Please make sure it\'s usable.</b></big>]]>
-    </string>
+ <big><b>আমাদের আপনার এসডি কার্ড ব্যবহার করতে হবে। নিশ্চিত হোন যে এটি ব্যবহারযোগ্য।</b></big>
+ </string>
     <string name="external_storage_permission_denied">
-        <![CDATA[<big><b>We need to access your external storage. Please make sure the permission is not denied.</b></big>]]>
-    </string>
+ <big><b>আপনার এসডি কার্ড ব্যবহার করতে হবে। নিশ্চিত হোন যে এটি অনুমোদিত।</b></big>
+ </string>
 
     <string name="share">শেয়ার</string>
     <string name="share_app_url">Download <xliff:g id="app_name" example="APKPure">%1$s</xliff:g> APK (from @<xliff:g id="social_network_name" example="APKPure">%2$s</xliff:g>), <xliff:g id="app_url" example="https://apkpure.com/p/com.apkpure.aegon">%3$s</xliff:g></string>
@@ -207,23 +207,23 @@
     <string name="deselect_all">সব নন সিলেক্ট</string>
     <string name="ignored">উপেক্ষিত</string>
     <plurals name="total__count__apps__size_">
-        <item quantity="one">
-            <![CDATA[Total: <b><font color="%1$d">%2$d</font></b> app, <b><font color="%1$d">%3$s</font></b>]]>
-        </item>
-        <item quantity="other">
-            <![CDATA[Total: <b><font color="%1$d">%2$d</font></b> apps, <b><font color="%1$d">%3$s</font></b>]]>
-        </item>
-    </plurals>
-    <string name="total_zero_app">
-        <![CDATA[Total: <b><font color="%1$d">0</font></b> app]]>
-    </string>
+	<item quantity="one">"
+ মোট: &lt;b&gt;&lt;font color=%1$d&gt;%2$d&lt;/font&gt;&lt;/b&gt; অ্যাপ, &lt;b&gt;&lt;font color=%1$d&gt;%3$s&lt;/font&gt;&lt;/b&gt;
+ "</item>
+	<item quantity="other">"
+ মোট: &lt;b&gt;&lt;font color=%1$d&gt;%2$d&lt;/font&gt;&lt;/b&gt; অ্যাপগুলো, &lt;b&gt;&lt;font color=%1$d&gt;%3$s&lt;/font&gt;&lt;/b&gt;
+ "</item>
+</plurals>
+    <string name="total_zero_app">"
+ মোট: &lt;b&gt;&lt;font color=%1$d&gt;0&lt;/font&gt;&lt;/b&gt; অ্যাপ
+ "</string>
 
     <string name="general">সাধারণ</string>
     <string name="language">ভাষা</string>
     <string name="auto">স্বয়ংক্রিয়</string>
     <string name="download_via_wifi_only">ডাউনলোড করুন শুধু ওয়াই-ফাইয়ের মাধ্যমে</string>
     <string name="enable_ultra_download">সক্রিয় করুন আল্ট্রা ডাউনলোড</string>
-    <string name="enable_ultra_download_summary">Ultra Download is in beta testing, let us know if you encounter any problems.</string>
+    <string name="enable_ultra_download_summary">অতিডাউনলোড বিটা পরীক্ষায় আছে। কোনো সমস্যা হলে আমাদের জানান।</string>
     <string name="installation">স্থাপন</string>
     <string name="show_notification_after_installation">ইনস্টলেশনের পরে নোটিফিকেশন দেখান</string>
     <string name="delete_packages_after_installation">ইনস্টলেশনের পরে প্যাকেজ মুছে ফেলুন</string>
@@ -236,7 +236,7 @@
     <string name="similar_or_related">এই ধরনের অথবা এই সম্পর্কিত কিছু</string>
     <string name="feedback">প্রতিক্রিয়া</string>
 
-    <string name="changing_language">পরিবর্তন ভাষা হইতেছে, অনুগ্রহ করে অপেক্ষা করুন ...</string>
+    <string name="changing_language">ভাষা পরিবর্তন হচ্ছে, অনুগ্রহ করে অপেক্ষা করুন…</string>
     <string name="auto_service_install_accessibility_title">স্বয়ংক্রিয় ইনস্টল</string>
     <string name="auto_service_install_accessibility_summary">এটি এন্ড্রোয়েড 4.1+ সাপোর্টেড, এবং কোন রুট পার্মিশন দরকার হবে না।</string>
 
@@ -244,13 +244,13 @@
     <string name="auto_service_dialog_message">অটো ইনস্টলে ফোনে ক্ষমতাপ্রদান করা প্রয়োজন, এটা কোনো ঝুঁকি ছাড়াই ব্যবহার করা যাবে এবং এটি নিরাপদ।</string>
 
     <string name="auto_service_title">এপেকে পিউর অটো ইনস্টল</string>
-    <string name="auto_service_description">Enable \"APKPure Auto Install\", to keep APKPure \"Auto Install\" running smoothly.
+    <string name="auto_service_description">Enable \"এপিকেপিউর স্বয়ংক্রিয় ইনস্টল\", to keep APKPure \"স্বয়ংক্রিয় ইনস্টল\" running smoothly.
 
-\"APKPure Auto Install\" can help you click all install buttons when installing or updating apps, you don\'t have to check the phone all the time.
+\"এপিকেপিউর স্বয়ংক্রিয় ইনস্টল\" can help you click all install buttons when installing or updating apps, you don\'t have to check the phone all the time.
 
-When enabling this feature, you may receive system risk warnings, please tap \"OK\" to turn the accessibility switch \"ON\".
+When enabling this feature, you may receive system risk warnings, please tap \"ঠিক আছে\" to turn the accessibility switch \"চালু\".
 
-To ensure APKPure well functioning, please add APKPure to your Cleaning App \"White List\".
+To ensure APKPure well functioning, please add APKPure to your Cleaning App \"সাদা তালিকা\".
 
 The above mentioned functions support Android 4.1+, no root permission needed. We promise never ever collecting any of your personal information in this accessibility service. Please feel free to contact us with any problems.</string>
 
@@ -266,7 +266,7 @@ The above mentioned functions support Android 4.1+, no root permission needed. W
     <string name="auto_service_complete__material_">সম্পন্ন</string>
 
     <string name="auto_install_via_root_title">স্বয়ংক্রিয় ইনস্টল ( মুল ধরন )</string>
-    <string name="auto_install_via_root_summary">শুধুমাত্র রুট করা স্মার্টফোন এবং ট্যাবলেট এর ক্ষেত্রে</string>
+    <string name="auto_install_via_root_summary">শুধুমাত্র রুট করা স্মার্টফোন এবং ট্যাবলেট এর ক্ষেত্রে।</string>
 
     <string name="download_complete_installation_setting">ডাউনলোড পরবর্তী ইনস্টল অপশন</string>
     <string name="recommend">আবিষ্কার করুন</string>
@@ -283,9 +283,9 @@ The above mentioned functions support Android 4.1+, no root permission needed. W
 
     <string name="app_detail_customer_reviews">মন্তব্যগুলো</string>
     <string name="app_detail_comment_type_web">ওয়েব</string>
-    <string name="app_submit_submit">জমা দিন***</string>
+    <string name="app_submit_submit">জমা দিন…</string>
     <string name="app_submit_anonymous_comment">মন্তব্য করুন</string>
-    <string name="app_submit_title_toast">আপনি অবশ্যই শিরোনাম লিখবেন</string>
+    <string name="app_submit_title_toast">আপনি অবশ্যই শিরোনাম লিখবেন!</string>
     <string name="app_submit_msg_toast">আপনি অবশ্যই কিছু লিখবেন!</string>
     <string name="app_submit_name_toast">অনুগ্রহ করে ডাকনাম লিখুন!</string>
     <string name="app_submit_email_toast">অনুগ্রহ করে সঠিক ইমেইল ঠিকানা লিখুন!</string>
@@ -440,7 +440,7 @@ The above mentioned functions support Android 4.1+, no root permission needed. W
     <string name="reply_notification_msg">বার্তার নতুন উত্তরের জন্য প্রজ্ঞাপন পান</string>
     <string name="like_notification">প্রজ্ঞাপন আপভোট</string>
     <string name="like_notification_msg">নতুন বার্তা আপভোটের জন্য প্রজ্ঞাপন পান</string>
-    <string name="gif_tip">gif</string>
+    <string name="gif_tip">জিআইএফ</string>
     <string name="ad_tip">বিজ্ঞাপন</string>
     <string name="submit_comment_title_hint">বিষয় (ঐচ্ছিক)</string>
 
