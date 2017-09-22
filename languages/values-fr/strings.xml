@@ -458,7 +458,7 @@ Les fonctions mentionnées ci-dessus supportent Android 4.1 et +, sans besoin de
     <string name="set_updates_notification">Mises à jours des l\'applications disponibles</string>
     <string name="set_updates_notification_msg">Avertir de la présence de mises à jour des applications. Paramètre recommandé : On</string>
     <string name="app_detail_unknow_text">L\'ancienne version de APKPure ne supporte pas les nouvelles fonctionnalités, veuillez mettre à jour vers la dernière version.</string>
-    <string name="comment_detail_original">Voir le commentaire original</string>
+    <string name="comment_detail_original">Voir le Commentaire Original</string>
     <string name="comment_comment_newest">Plus récent</string>
     <string name="comment_comment_oldest">Plus ancien</string>
 
@@ -470,7 +470,7 @@ Les fonctions mentionnées ci-dessus supportent Android 4.1 et +, sans besoin de
     <string name="download_history">Télécharger l\'historique</string>
 
     <string name="sub_comment_dialog_title">Ajouter une vidéo</string>
-    <string name="sub_comment_dialog_des_tv">Support d\'analyse des URL YouTube uniquement</string>
+    <string name="sub_comment_dialog_des_tv">Supporte uniquement les URL YouTube</string>
     <string name="sub_comment_dialog_link_et">Entrer l\'adresse URL de la vidéo ici</string>
     <string name="sub_comment_dialog_link_null">L\'adresse URL de la vidéo ne peut pas être vierge</string>
     <string name="sub_comment_progress_msg">Ajouter une vidéo…</string>
@@ -488,18 +488,18 @@ Les fonctions mentionnées ci-dessus supportent Android 4.1 et +, sans besoin de
     <string name="ad_tip">annonce</string>
     <string name="play_button">Bouton jouer</string>
     <string name="null_time">0:00</string>
-    <string name="open_video_in_youtube">Ouvrir vidéo dans YouTube</string>
+    <string name="open_video_in_youtube">Ouvrir la vidéo dans YouTube</string>
     <string name="full_screen_button">Bouton plein écran</string>
 
     <string name="main_comment">Commentaire</string>
-    <string name="main_tab_home">Accueil</string>
+    <string name="main_tab_home">ACCEUIL</string>
     <string name="main_tab_group">Groupe</string>
     <string name="main_tab_my">Moi</string>
 
     <string name="main_my_comments">Commentaires</string>
     <string name="main_my_collection">Favoris</string>
     <string name="main_my_message">Messages</string>
-    <string name="main_app_management">Gestion d\'application</string>
+    <string name="main_app_management">Gestion de l\'application</string>
     <string name="main_topic_selection">Thèmes</string>
     <string name="main_night_mode">Mode nuit</string>
     <string name="please_login_first">Veuillez vous connecter d\'abord</string>
@@ -509,4 +509,7 @@ Les fonctions mentionnées ci-dessus supportent Android 4.1 et +, sans besoin de
     <string name="group">Groupe</string>
     <string name="collection">Collection</string>
 
+    <string name="main_tab_ranking">CLASSEMENT</string>
+    <string name="main_won_praise">J\'aime</string>
+    <string name="main_good_comments">Voter pour</string>
     </resources>
