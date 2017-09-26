@@ -13,7 +13,8 @@
     <string name="categories">ক্যাটেগরি</string>
     <string name="updates">হালনাগাদ</string>
 
-    <string name="something_happened">কোন কিছু একটা হয়েছে।</string>
+    <string name="something_happened">&gt;_&lt;
+কোন কিছু একটা হয়েছে।</string>
 
     <string name="load_failed_error">দুঃখিত! একটা সমস্যা বেধেছে।</string>
     <string name="load_failed_empty">এইগুলো এখানে নেই।</string>
@@ -67,7 +68,7 @@
 
     <string name="all">সব</string>
 
-    <string name="screenshots">স্ক্রীনশটস</string>
+    <string name="screenshots">স্ক্রীনশট</string>
     <string name="description">বিবরণ</string>
     <string name="whatsnew">নতুন কি</string>
     <string name="information">তথ্য</string>
@@ -161,9 +162,9 @@
 
     <string name="_name__is_up_to_date"><xliff:g id="name" example="এপেকে পিউর">%1$s</xliff:g> এটা আজকের হালনাগাদে।</string>
     <string name="new_version_available_title">নতুন সংস্করণ উপলব্ধ</string>
-    <string name="new_version_available_message">
-        <![CDATA[<b>নতুন ভার্সন:</b> %1$s<br><br><b>নতুন কি:</b><br>%2$s]]>
-    </string>
+    <string name="new_version_available_message">"
+ &lt;b&gt;নতুন ভার্সন:&lt;/b&gt; %1$s&lt;br&gt;&lt;br&gt;&lt;b&gt;নতুন কি:&lt;/b&gt;&lt;br&gt;%2$s
+ "</string>
 
     <string name="report__">প্রতিবেদন…</string>
     <string name="report_problem__">সমস্যার প্রতিবেদন…</string>
@@ -179,9 +180,9 @@
     <string name="incompatible_this_app">
         <![CDATA[<big><b><font color="%1$d">আপনার ডিভাইস এই এপসের সাথে কম্পেটেভল নয়।</font></b></big><br><br>আপনি কি অবিরত রাখতে চান?]]>
     </string>
-    <string name="this_app_not_usable">
-        <![CDATA[<big><b><font color="%1$d">এই এপস ব্যাবহারে অনপযোগী।</font></b></big><br><br>আপনি কি অবিরত রাখতে চান?]]>
-    </string>
+    <string name="this_app_not_usable">"
+ &lt;big&gt;&lt;b&gt;&lt;font color=%1$d&gt;এই এপস ব্যাবহারে অনপযোগী।&lt;/font&gt;&lt;/b&gt;&lt;/big&gt;&lt;br&gt;&lt;br&gt;আপনি কি অবিরত রাখতে চান?
+ "</string>
 
     <string name="setting">পরিষেবা</string>
     <string name="external_storage_not_usable">
@@ -258,7 +259,7 @@ The above mentioned functions support Android 4.1+, no root permission needed. W
     <string name="auto_service_ensure">ওকে</string>
     <string name="auto_service_next">পরবর্তী</string>
     <string name="auto_service_exchange">প্রতিস্থাপন</string>
-    <string name="auto_service_complete">এ্যানি ভাই কাজ শেষ</string>
+    <string name="auto_service_complete">সম্পন্ন</string>
 
     <string name="auto_service_ensure__material_">নিশ্চিত</string>
     <string name="auto_service_next__material_">পরবর্তী</string>
