@@ -3,27 +3,27 @@
 
     <string name="action_settings">Einstellungen</string>
     <string name="action_search">Suche</string>
-    <string name="updates">Aktualisierungen</string>
+    <string name="updates">Updates</string>
 
-    <string name="action_management">Organisation</string>
+    <string name="action_management">Verwaltung</string>
 
     <string name="games">Spiele</string>
-    <string name="apps">Anwendungen</string>
+    <string name="apps">Apps</string>
     <string name="categories">Kategorien</string>
     <string name="load_failed_error">Ups! Ein Fehler ist aufgetreten.</string>
-    <string name="load_failed_all_up_to_date">Alle Anwendungen sind auf dem neuesten Stand.</string>
+    <string name="load_failed_all_up_to_date">Alle Apps sind auf dem neuesten Stand.</string>
     <string name="app_updates">Anwendungsaktualisierungen</string>
     <string name="settings">Einstellungen</string>
     <string name="press_back_key_quit">Drücke erneut Zurück zum Beenden.</string>
 
-    <string name="featured">Empfohlen</string>
+    <string name="featured">Unterstützt</string>
     <string name="load_failed_no_results">Sorry! Keine Ergebnisse gefunden.</string>
     <string name="refresh">Aktualisieren</string>
 
     <string name="app_uninstall">Anwendung entfernen</string>
     <string name="something_happened">&gt;_&lt;\nEtwas ist passiert.</string>
 
-    <string name="load_failed_empty">Da ist nichts.</string>
+    <string name="load_failed_empty">Hier ist nichts.</string>
     <string name="management">Verwaltung</string>
     <string name="download_management">Downloadverwaltung</string>
     <string name="about">Über</string>
@@ -47,8 +47,8 @@
     <string name="file_format_error">Dateiformat fehlerhaft.</string>
     <string name="parsing_xapk">Auslesen der XAPK …</string>
     <string name="installing_obb">OBB Dateien werden installiert …</string>
-    <string name="extracting_apk">Auspacken der APK-Datei …</string>
-    <string name="installing_apk">APK-Datei wird installiert …</string>
+    <string name="extracting_apk">Extrahieren der APK-Datei …</string>
+    <string name="installing_apk">APK wird installiert…</string>
 
     <string name="uninstall">Deinstallation</string>
     <string name="uninstalled">Deinstalliert</string>
@@ -176,14 +176,14 @@
 
     <string name="properties">Eigenschaften</string>
     <string name="want_to_delete_all_files">Wollen Sie alle Dateien löschen?</string>
-    <string name="deleted">gelöscht</string>
+    <string name="deleted">Gelöscht</string>
     <string name="installed">Installiert</string>
     <string name="remove_all">Alles entfernen</string>
     <string name="delete_downloaded_file">heruntergeladene Datei löschen</string>
     <string name="update___count__"><xliff:g id="count" example="3">%1$d</xliff:g>)</string>
     <string name="delete_all">Lösche alles</string>
     <string name="properties_message">"
- &lt;b&gt;Path:&lt;/b&gt; %1$s&lt;br&gt;&lt;b&gt;Size:&lt;/b&gt; %2$s&lt;br&gt;&lt;b&gt;zuletzt modifiziert:&lt;/b&gt; %3$s
+ &lt;b&gt;Pfad:&lt;/b&gt; %1$s&lt;br&gt;&lt;b&gt;Size:&lt;/b&gt; %2$s&lt;br&gt;&lt;b&gt;Zuletzt geändert:&lt;/b&gt; %3$s
  "</string>
     <string name="flag_as_inappropriate">Als unangemessen melden</string>
     <string name="pause_all">Alles anhalten</string>
@@ -299,7 +299,7 @@ Die genannten Funktionen werden ab Android 4.1 unterstützt, es ist kein Root-Zu
 
     <string name="app_detail_comment_order_array_default">Standardsortierung</string>
     <string name="app_detail_comment_order_array_new">Neueste</string>
-    <string name="app_detail_comment_order_array_best">Heiß</string>
+    <string name="app_detail_comment_order_array_best">Beste</string>
 
     <string name="download_complete_installation_setting_entries_always">Immer installieren</string>
     <string name="download_complete_installation_setting_entries_only">Nur installieren, wenn App im Vordergrund</string>
@@ -339,12 +339,12 @@ erlaubt werden.</string>
     <string name="login_select_way_to_login">Wähle aus, wie du dich einloggen möchtest</string>
 
     <string name="user_info_edit_username_tv">Benutzername</string>
-    <string name="user_info_edit_nickname_tv">Nickname</string>
+    <string name="user_info_edit_nickname_tv">Benutzername</string>
     <string name="user_info_edit_email_tv">E-Mail</string>
     <string name="user_info_edit_gender_tv">Geschlecht</string>
     <string name="user_info_edit_birthday_tv">Geburtstag</string>
     <string name="user_info_edit_change_pwd_tv">Passwort zurücksetzen</string>
-    <string name="user_info_edit_login_out_tv">Abmelden</string>
+    <string name="user_info_edit_login_out_tv">Ausloggen</string>
     <string name="user_info_edit_not_choose">Unbekannt</string>
     <string name="user_info_edit_gender_male">Männlich</string>
     <string name="user_info_edit_gender_female">Weiblich</string>
@@ -360,7 +360,7 @@ erlaubt werden.</string>
     <string name="app_detail_comment_order_array_most_recent">Neueste</string>
     <string name="update_nick_name_tv">Der neue Aliasname darf nicht leer sein</string>
     <string name="update_email_name_et">Email eingeben</string>
-    <string name="update_eamil_name_tv">Email darf nicht leer sein</string>
+    <string name="update_eamil_name_tv">E-Mail darf nicht leer sein</string>
     <string name="update_nickname_error">Aliasname schon besetzt, bitte anderen auswählen!</string>
     <string name="message_all">Alle</string>
     <string name="message_reply">Antworten</string>
@@ -398,9 +398,9 @@ erlaubt werden.</string>
     <string name="user_password">Passwort(6-32)</string>
     <string name="user_password_confirm">Passwort bestätigen</string>
 
-    <string name="sub_comment_progress_msg">Füge Video hinzu…</string>
+    <string name="sub_comment_progress_msg">Füge ein Video hinzu…</string>
 
-<string name="app_detail_comment_type_web">Web</string>
+<string name="app_detail_comment_type_web">web</string>
     <string name="app_submit_anonymous_comment">Kommentar hinzufügen</string>
     <string name="message_praise">Positive Bewertungen</string>
     <string name="message_notifications_praise">Deinen Kommentar positiv bewertet</string>
@@ -438,14 +438,14 @@ erlaubt werden.</string>
     <string name="reply_notification_msg">Benachrichtigungen zu neuen Antwortnachrichten erhalten</string>
     <string name="like_notification">Benachrichtigungen zu positiven Bewertungen</string>
     <string name="sub_comment_dialog_link_null">Video URL Adresse darf nicht leer sein</string>
-    <string name="sub_comment_dialog_link_et">Video URL Adresse hier einfügen</string>
+    <string name="sub_comment_dialog_link_et">Video-URL-Adresse hier einfügen</string>
     <string name="delete_the_historical_record">Aufzeichnungen löschen?</string>
     <string name="download_history">Download Historie</string>
 
     <string name="menu_copy">Kopieren</string>
     <string name="menu_cancel">Abbrechen</string>
     <string name="delete_all_download_history">Download Historie löschen?</string>
-    <string name="comment_detail_original">Ursprünglichen Kommentar ansehen</string>
+    <string name="comment_detail_original">Ursprünglichen Kommentar ansehen &gt;</string>
     <string name="comment_comment_newest">Neuester</string>
     <string name="comment_comment_oldest">Ältester</string>
 
@@ -454,22 +454,114 @@ erlaubt werden.</string>
     <string name="sub_comment_dialog_des_tv">Nur Parsen von YouTube URLs unterstützt</string>
     <string name="message">Nachricht</string>
 
-    <string name="can_be_update">Update möglich</string>
+    <string name="can_be_update">Kann upgedatet werden</string>
     <string name="like_notification_msg">Benachrichtigungen über neue positive Bewertungen erhalten</string>
     <string name="gif_tip">Gif</string>
     <string name="submit_comment_title_hint">Thema (Optional)</string>
 
     <string name="comment_vote_string">Abstimmen</string>
     <string name="comment_reply_three">Antworten</string>
-    <string name="comment_item_fold">1 Kommentar wurde eingeklappt</string>
+    <string name="comment_item_fold">Kommentar wurde eingeklappt</string>
 
     <string name="comment_no_reply">Wow, hier steht nichts.</string>
     <string name="comment_reply_info_name">Detail</string>
     <string name="set_updates_notification">App Updates verfügbar</string>
-    <string name="set_updates_notification_msg">Benachrichtigen wenn App Updates verfügbar sind. Empfohlene Einstellung: An</string>
+    <string name="set_updates_notification_msg">Benachrichtigen, wenn App-Updates verfügbar sind. Empfohlene Einstellung: An</string>
     <string name="app_detail_unknow_text">Alte Version APKPure unterstützt neue Features nicht, bitte auf neueste updaten.</string>
     <string name="check_update_replace">Offizielle Version</string>
     <string name="app_detail_comment_order_array_old">Alt</string>
 
     <string name="ad_tip">Werbung</string>
+    <string name="app_detail_comment_join_group_bt">Gruppe</string>
+    <string name="check_update_beta">Vorab-Beta</string>
+    <string name="null_time">0:00</string>
+    <string name="open_video_in_youtube">Öffne Video auf YouTube</string>
+    <string name="full_screen_button">Vollbild-Button</string>
+
+    <string name="main_tab_home">STARTSEITE</string>
+    <string name="main_tab_ranking">RANGLISTE</string>
+    <string name="main_tab_group">GRUPPE</string>
+    <string name="main_tab_my">MEIN PROFIL</string>
+
+    <string name="main_won_praise">Likes</string>
+    <string name="main_my_comments">Kommentare</string>
+    <string name="main_my_collection">Favoriten</string>
+    <string name="main_my_message">Nachrichten</string>
+    <string name="main_good_comments">Positiv bewertet</string>
+    <string name="main_app_management">App-Verwaltung</string>
+    <string name="main_topic_selection">Designs</string>
+    <string name="main_night_mode">Nachtmodus</string>
+    <string name="please_login_first">Bitte zuerst einloggen</string>
+    <string name="no_choice">Keine Auswahl</string>
+    <string name="follow_on_success">Erfolg!</string>
+    <string name="follow_un_success">Entfolgen!</string>
+    <string name="canceled">Abgebrochen</string>
+    <string name="group">Gruppe</string>
+    <string name="collection">Sammlung</string>
+
+    <string name="comments">Kommentare</string>
+    <string name="follow">Folgendes</string>
+    <string name="attention_on">Folgendes</string>
+    <string name="attention_off">Folgen</string>
+    <string name="no_attention">Keine verfolgten Gruppen bisher.</string>
+    <string name="browsing_history">Browser-Verlauf</string>
+    <string name="browsing_history_prompt">Möchten Sie den Browser-Verlauf leeren?</string>
+
+    <string name="ranking_tab1_title">Top Spiele</string>
+    <string name="ranking_tab2_title">Top neue Spiele</string>
+    <string name="ranking_tab3_title">Top Apps</string>
+    <string name="ranking_tab4_title">Top neue Apps</string>
+
+    <string name="app_detail_three_fragment_foot">Zeige alle Kommentare</string>
+    <string name="menu_paste">Einfügen</string>
+
+    <string name="favorite_title">Favorit</string>
+    <string name="save_as_favorite">Als Favorit speichern</string>
+    <string name="favorite_saved">Favorit gespeichert</string>
+    <string name="failed_to_save_favorite">Favorit speichern fehlgeschlagen</string>
+    <string name="remove_as_favorite">Als Favorit entfernen</string>
+    <string name="remove_failed">Entfernen fehlgeschlagen</string>
+
+    <string name="collection_comment">Kommentare</string>
+    <string name="collection_app">APPS</string>
+
+    <string name="open_with_browser">Mit Browser öffnen</string>
+    <string name="web_view_refresh">Aktualisieren</string>
+
+    <string name="topic_red_color">Crimson</string>
+    <string name="topic_green_color">Glückliches Grün</string>
+    <string name="topic_blue_color">Azurblau</string>
+    <string name="topic_purple_color">Dunkelviolett</string>
+    <string name="topic_purple_black">Cooles Grau</string>
+    <string name="topic_purple_yellow">Aprikosenorange</string>
+    <string name="topic_purple_blue_gary">Air Force Blau</string>
+    <string name="topic_switch_failed">Theme ändern fehlgeschlagen</string>
+
+    <string name="recommend_title">Empfehlungen</string>
+    <string name="recommend_tab_game">Eine App empfehlen</string>
+    <string name="recommend_tab_list">Empfohlen</string>
+    <string name="recommend_installed_list_title">Meine Apps</string>
+    <string name="recommend_review">Vorschau</string>
+    <string name="recommend_replace_img">Bild ändern</string>
+    <string name="recommend_app_name">App-Titel</string>
+    <string name="recommend_state_can">Empfehlen</string>
+    <string name="recommend_state_success">Empfohlen</string>
+    <string name="recommend_select_game">Eine App empfehlen</string>
+    <string name="recommend_write_des">Beschreibung</string>
+    <string name="recommend_write_des_hint">Eine hilfreiche Bewertung wird für mehr User sichtbar sein, die die selben Interessen haben wie du.</string>
+    <string name="recommend_comment">Senden</string>
+    <string name="recommend_comment_error">Es ist ein Fehler aufgetreten!</string>
+    <string name="recommend_description_title">Anweisungen:</string>
+    <string name="recommend_description">1. Bestätigte Empfehlungen werden in der ENTDECKEN-Abteilung aufgelistet.
+2. Du kannst nur die Apps empfehlen, die aktuell auf deinem Android-Gerät installiert sind.</string>
+    <string name="recommend_user_recommend">Von %s empfohlen</string>
+    <string name="recommend_required">Benötigtes Feld</string>
+
+<string name="main_comment">kommentieren</string>
+    <plurals name="comment_reply_item_fold">
+	<item quantity="one"><xliff:g example="1" id="count">%1$d</xliff:g> Antwort eingeklappt</item>
+	<item quantity="other"><xliff:g example="2" id="count">%1$d</xliff:g> Antworten eingeklappt</item>
+</plurals>
+
+    <string name="play_button">Play-Button</string>
     </resources>
