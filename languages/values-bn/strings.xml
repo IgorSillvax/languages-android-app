@@ -343,7 +343,7 @@ The above mentioned functions support Android 4.1+, no root permission needed. W
 
     <string name="user_info_edit_title">প্রোফাইল</string>
     <string name="user_info_edit_portrait_tv">প্রোফাইল ছবি</string>
-    <string name="user_info_edit_username_tv">ব্যবহার্য নাম</string>
+    <string name="user_info_edit_username_tv">ব্যবহারকারীর নাম</string>
     <string name="user_info_edit_nickname_tv">ডাকনাম</string>
     <string name="user_info_edit_email_tv">ইমেইল</string>
     <string name="user_info_edit_gender_tv">লিঙ্গ</string>
@@ -396,7 +396,7 @@ The above mentioned functions support Android 4.1+, no root permission needed. W
     <string name="comment_replying">উত্তর দেয়া হচ্ছে…</string>
     <string name="register_term_of_service">এপিকেপিউর ব্যবহারের শর্তাবলী</string>
 
-    <string name="set_contributor">অংশগ্রহণকারী</string>
+    <string name="set_contributor">করদাতা</string>
     <string name="set_permissions">অনুমতিসমূহ</string>
 
     <string name="sign_in_services">এখানে যুক্ত হয়ে আপনি আমাদের শর্তাবলী ও গোপনীয়তার নীতি মেনে নিয়েছেন।</string>
@@ -411,12 +411,12 @@ The above mentioned functions support Android 4.1+, no root permission needed. W
     <string name="user_password_confirm">পাসওয়ার্ড যাচাই করুন</string>
 
     <string name="user_name_error">ব্যবহার্য নামে কোনো প্রতীক, বিশেষ চিহ্ন বা ফাঁক থাকবে না</string>
-    <string name="user_nickname_error">ডাকনামে কোনো বিশেষ চিহ্ন, প্রতীক বা ফাঁক থাকবে না</string>
+    <string name="user_nickname_error">ডাকনাম কোনো বিশেষ চিহ্ন, প্রতীক বা ফাঁকা থাকবে না</string>
     <string name="user_email_error">এই ইমেইল ঠিকানাটি বৈধ নয়</string>
     <string name="user_password_error">এই পাসওয়ার্ডটি বৈধ নয়</string>
     <string name="user_confirm_error">পাসওয়ার্ড দুটো অবশ্যই মিলতে হবে</string>
 
-    <string name="login_user_name">ব্যবহার্য নাম</string>
+    <string name="login_user_name">ব্যবহারকারীর নাম</string>
     <string name="login_user_password">পাসওয়ার্ড</string>
     <string name="login_user_sign_in">প্রবেশ করুন</string>
     <string name="login_choose">অথবা আপনার হিসাব দিয়ে প্রবেশ করুন</string>
@@ -541,7 +541,7 @@ The above mentioned functions support Android 4.1+, no root permission needed. W
     <string name="topic_purple_blue_gary">নীল</string>
     <string name="topic_switch_failed">থিম পরিবর্তন ব্যর্থ</string>
 
-    <string name="recommend_title">সুপারিশকৃত</string>
+    <string name="recommend_title">প্রস্তাবনা</string>
     <string name="recommend_tab_game">একটি অ্যাপ সুপারিশ করুন</string>
     <string name="recommend_tab_list">সুপারিশকৃত</string>
     <string name="recommend_installed_list_title">আমার অ্যাপগুলো</string>
