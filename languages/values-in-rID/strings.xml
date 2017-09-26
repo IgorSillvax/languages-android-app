@@ -178,11 +178,11 @@
         <![CDATA[<b>Jalan:</b> %1$s<br><b>Ukuran:</b> %2$s<br><b>Ubah terbaru:</b> %3$s]]>
     </string>
     <string name="install__label_">Intall - <xliff:g id="app_label" example="APKPure">%1$s</xliff:g></string>
-    <string name="market_response_error_unknown_error__error_">Kesalahan tak diketahui (<xliff:g id="error" example="SUCCESS">%1$s</xliff:g>).</string>
+    <string name="market_response_error_unknown_error__error_">Kesalahan tak diketahui (<xliff:g example="SUCCESS" id="error"> %1$s</xliff:g>).</string>
 
     <string name="version__version___size_">Versi: <xliff:g id="version" example="1.0.0">%1$s</xliff:g>, <xliff:g id="size" example="1024 kB">%2$s</xliff:g></string>
     <plurals name="_count__new_update_is_available">
-	<item quantity="one"><xliff:g id="count" example="1">%1$d</xliff:g> Pembaruan tersedia</item>
+	<item quantity="one"><xliff:g example="2" id="count">%1$d</xliff:g> Pembaruan tersedia</item>
 	<item quantity="other"/>
 </plurals>
 
