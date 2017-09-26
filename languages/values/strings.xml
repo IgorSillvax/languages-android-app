@@ -348,6 +348,7 @@
         <item>עִברִית </item>
         <item>ภาษาไทย</item>
         <item>မြန်မာဘာသာ</item>
+        <item>Deutsche</item>
     </string-array>
     <string-array name="language_entry_values" translatable="false">
         <item>__auto__</item>
@@ -378,6 +379,7 @@
         <item>iw</item>
         <item>th-TH</item>
         <item>my-MM</item>
+        <item>de</item>
     </string-array>
 
     <string name="download_complete_installation_setting">Installation option after downloading</string>
@@ -398,6 +400,16 @@
         <item>never_install</item>
     </string-array>
 
+
+    <string name="download_mkdir">Download Path</string>
+    <string name="download_mkdir_internal_storage_size_des">%1$sfree,total%2$s</string>
+    <string name="download_mkdir_internal_storage_entries">SD </string>
+    <string name="download_mkdir_internal_storage_entries1">SD 1</string>
+    <string name="download_mkdir_external_storage_fill_toast">Insufficient storage available may cause you can\'t download any apps.</string>
+
+    <string name="download_mkdir_internal_storage_values">internal_storage</string>
+    <string name="download_mkdir_external_storage_values">external_storage</string>
+
     <string name="download_complete_installation_setting_default_value" translatable="false">install_now</string>
 
     <string name="leak_canary_display_activity_label" translatable="false">APKPure Leaks</string>
@@ -408,7 +420,7 @@
     <string name="reply_dialog_marked_words">Long pressing the selected picture to delete it.</string>
     <string name="reply_comment">Reply to comment</string>
     <string name="save_original_image">Preserve the original image</string>
-    <string name="already_save">Saved<xliff:g id="path" example="ApKPure/photo">%1$s</xliff:g></string>
+    <string name="already_save">Saved<xliff:g example="ApKPure/photo" id="path">%1$s</xliff:g></string>
 
     <string name="load_end">No more data</string>
     <string name="load_failed_click_retry">Failure load, click retry</string>
@@ -654,8 +666,36 @@
     <string name="recommend_comment">Send</string>
     <string name="recommend_comment_error">Something error happened！</string>
     <string name="recommend_description_title">Instructions:</string>
-    <string name="recommend_description">1. Approved recommendations will be listed under the DISCOVER section.\n2. You can only recommend the apps currently installed on your Android device.</string>
+    <string name="recommend_description">1. Approved recommendations will be listed under the DISCOVER section.\n2. You can only recommend the apps currently installed on your Android device.\n3. Notify APKPure to add not indexed apps, please finish the recommendation forms first.</string>
     <string name="recommend_user_recommend">Recommended by %s</string>
-    <string name="recommend_required">Required Field</string>
+    <string name="recommend_required">*</string>
+    <string name="recommend_not_found">Not Indexed</string>
+    <string name="recommend_not_fount_info">Notify APKPure to add \"%s\", you need to finish the forms.</string>
+
+    <string name="user_detail_focus">Follwing</string>
+    <string name="user_detail_fans">Follower</string>
+    <string name="user_detail_praise">Likes</string>
+    <string name="user_detail_default_text" translatable="false">--</string>
+
+    <string name="user_detail_tab_detail">Comments</string>
+    <string name="user_detail_tab_reply">Replies</string>
+
+    <string name="user_focus_tab_users">People</string>
+    <string name="user_focus_tab_apps">Groups</string>
+    <string name="user_focus_title_my">My Following</string>
+    <string name="user_focus_title">Followed by %s</string>
+
+    <string name="google_play_name" translatable="false">Google Play</string>
+    <string name="goto_google_play">Buy now</string>
+
+    <string name="menu_follow_all">All Following</string>
+    <string name="menu_follow_user">Followed People</string>
+    <string name="menu_follow_group">Followed Groups</string>
+    <string name="menu_follow_all_tab">Following</string>
+    <string name="menu_follow_user_tab">People</string>
+    <string name="menu_follow_group_tab">Groups</string>
+
+    <string name="choose_app">Select Application</string>
+    <string name="publish_comment">Post A Comment</string>
 
 </resources>

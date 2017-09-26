@@ -41,7 +41,7 @@
     <string name="user_canceled">Pengguna dibatalkan.</string>
     <string name="action_management">Pengelolaan</string>
 
-    <string name="about_title">Tentang <xliff:g id="app_name" example="APKPure">%1$s</xliff:g></string>
+    <string name="about_title">Tentang <xliff:g example="APKPure" id="app_name">%1$s</xliff:g></string>
     <string name="language">Bahasa</string>
     <string name="auto">Auto</string>
 
@@ -177,25 +177,25 @@
     <string name="properties_message">
         <![CDATA[<b>Jalan:</b> %1$s<br><b>Ukuran:</b> %2$s<br><b>Ubah terbaru:</b> %3$s]]>
     </string>
-    <string name="install__label_">Intall - <xliff:g id="app_label" example="APKPure">%1$s</xliff:g></string>
+    <string name="install__label_">Intall - <xliff:g example="APKPure" id="app_label">%1$s</xliff:g></string>
     <string name="market_response_error_unknown_error__error_">Kesalahan tak diketahui (<xliff:g example="SUCCESS" id="error"> %1$s</xliff:g>).</string>
 
-    <string name="version__version___size_">Versi: <xliff:g id="version" example="1.0.0">%1$s</xliff:g>, <xliff:g id="size" example="1024 kB">%2$s</xliff:g></string>
+    <string name="version__version___size_">Versi: <xliff:g example="1.0.0" id="version">%1$s</xliff:g>, <xliff:g example="1024 kB" id="size">%2$s</xliff:g></string>
     <plurals name="_count__new_update_is_available">
-	<item quantity="one"><xliff:g example="2" id="count">%1$d</xliff:g> Pembaruan tersedia</item>
-	<item quantity="other"/>
-</plurals>
+        <item quantity="one"><xliff:g example="2" id="count">%1$d</xliff:g> Pembaruan tersedia</item>
+        <item quantity="other" />
+    </plurals>
 
     <plurals name="_count__item_is_downloading">
-	<item quantity="one"><xliff:g id="count" example="2">%1$d</xliff:g> Item sedang mendownload</item>
-	<item quantity="other"/>
-</plurals>
-    <string name="_name__download_failed"><xliff:g id="name" example="APKPure">%1$s</xliff:g> Unduhan gagal</string>
-    <string name="download_percent"><xliff:g id="percent" example="50">%1$d</xliff:g> %%</string>
+        <item quantity="one"><xliff:g example="2" id="count">%1$d</xliff:g> Item sedang mendownload</item>
+        <item quantity="other" />
+    </plurals>
+    <string name="_name__download_failed"><xliff:g example="APKPure" id="name">%1$s</xliff:g> Unduhan gagal</string>
+    <string name="download_percent"><xliff:g example="50" id="percent">%1$d</xliff:g> %%</string>
     <string name="improvement_plan_message">
         <![CDATA[Membantu kami dengan mengirimkan Android Device Info, kita lakukan <b>tak kumpulkan</b> informasi pribada (nama, alamat, email, nomor jaminan sosial, atau pengenaan unuk lain).]]>
     </string>
-    <string name="_name__is_up_to_date"><xliff:g id="name" example="APKPure">%1$s</xliff:g> berbaru sama waktu.</string>
+    <string name="_name__is_up_to_date"><xliff:g example="APKPure" id="name">%1$s</xliff:g> berbaru sama waktu.</string>
     <string name="new_version_available_message">"
         <![CDATA[<b>Visi terbaru:</b> %1$s<br><br><b>Apa yang baru:</b><br>%2$s]]>
     </string>
@@ -214,23 +214,22 @@
         <![CDATA[<big><b>Kita perlu mengakses penyimpanan eksternal Anda. Harap pastikan tak ditolak.</b></big>]]>
     </string>
 
-    <string name="share_app_url">Download <xliff:g id="app_name" example="APKPure">%1$s</xliff:g> APK (from @<xliff:g id="social_network_name" example="APKPure">%2$s</xliff:g>), <xliff:g id="app_url" example="https://apkpure.org/p/com.apkpure.aegon">%3$s</xliff:g></string>
+    <string name="share_app_url">Download <xliff:g example="APKPure" id="app_name">%1$s</xliff:g> APK (from @<xliff:g example="APKPure" id="social_network_name">%2$s</xliff:g>), <xliff:g example="https://apkpure.org/p/com.apkpure.aegon" id="app_url">%3$s</xliff:g></string>
 
-    <string name="_name__version_history"><xliff:g id="name" example="APKPure">%1$s</xliff:g> Sejarah visi</string>
-    <string name="update__date___size_">Pembaruan: <xliff:g id="date" example="Mar 3, 2016">%1$s</xliff:g>, <xliff:g id="size" example="1024 kB">%2$s</xliff:g></string>
+    <string name="_name__version_history"><xliff:g example="APKPure" id="name">%1$s</xliff:g> Sejarah visi</string>
+    <string name="update__date___size_">Pembaruan: <xliff:g example="Mar 3, 2016" id="date">%1$s</xliff:g>, <xliff:g example="1024 kB" id="size">%2$s</xliff:g></string>
 
-    <string name="update___count__">Pembaruan (<xliff:g id="count" example="3">%1$d</xliff:g>)</string>
+    <string name="update___count__">Pembaruan (<xliff:g example="3" id="count">%1$d</xliff:g>)</string>
     <plurals name="total__count__apps__size_">
-	<item quantity="one">"
- Total: &lt;b&gt;&lt;font color=%1$d&gt;%2$d&lt;/font&gt;&lt;/b&gt; aplikasi, &lt;b&gt;&lt;font color=%1$d&gt;%3$s&lt;/font&gt;&lt;/b&gt;
- "</item>
-	<item quantity="other"/>
-</plurals>
-    <string name="total_zero_app">"
- Total: &lt;b&gt;&lt;font color=%1$d&gt;0&lt;/font&gt;&lt;/b&gt; aplikasi
- "</string>
+        <item quantity="other">
+            <![CDATA[Total:<b><font color="%1$d">%2$d</font></b> aplikasi, <b><font color="%1$d">%3$s</font></b>]]>
+        </item>
+    </plurals>
+    <string name="total_zero_app">
+        <![CDATA[Total:：<b><font color="%1$d">0</font></b> aplikasi,]]>
+    </string>
 
-    <string name="_name__installation_completed"><xliff:g id="name" example="APKPure">%1$s</xliff:g> Selesai Instalasi</string>
+    <string name="_name__installation_completed"><xliff:g example="APKPure" id="name">%1$s</xliff:g> Selesai Instalasi</string>
     <string name="auto_service_install_accessibility_title">Instal Otomatis</string>
     <string name="auto_service_title">APKPure Auto Instal</string>
     <string name="auto_service_install">Instal</string>
@@ -255,7 +254,7 @@
 
     <string name="auto_service_description">Aktifkan \"APKPure Auto Install\", untuk tetap APKPure \"Auto Instal\" berjalan lancar.\n\n\"APKPure Auto Instal\" dapat membantu Anda klik semua instal tombol ketika instalasi atau mengupdate aplikasi, Anda tidak harus mengecek telepon sepanjang waktu.\n\nKetika mengaktifkan fitur ini, Anda mungkin menerima peringatan risiko sistem, ketuk detak \"OK\" untuk mengaktifkan switch aksesibilitas \"ON\".\n\nUntuk memastikan APKPure baik fungsi, tambahkan APKPure untuk Anda Pembersih App \"Daftar Putih\".\n\nFungsi di atas disebutkan dukungan Android 4.1+, tidak akar izin diperlukan. Kami berjanji tidak pernah mengumpulkan informasi pribadi Anda di layanan aksesibilitas ini. Silahkan merasa bebas untuk kontak kami dengan apa saja masalah.</string>
 
-<string name="similar_or_related">Mirip atau Terkait</string>
+    <string name="similar_or_related">Mirip atau Terkait</string>
     <string name="more_from_developer">Lebih Dari Pengembang</string>
     <string name="more_large">Lebih</string>
     <string name="feedback">Umpan Balik</string>
@@ -264,12 +263,12 @@
     <string name="download_complete_installation_setting">Pilihan instalasi setelah mengunduh</string>
     <string name="recommend">Temukan</string>
     <string name="sub_comment_dialog_title">Tambahkan video</string>
-    <string name="sub_comment_dialog_des_tv"/>
+    <string name="sub_comment_dialog_des_tv" />
     <string name="sub_comment_dialog_link_et">Masukkan alamat video di sini</string>
     <string name="sub_comment_dialog_link_null">Alamat video tidak boleh kosong</string>
     <string name="sub_comment_progress_msg">Menambagkan video…</string>
 
-<string name="menu_cancel">Batal</string>
+    <string name="menu_cancel">Batal</string>
     <string name="delete_all_download_history">Hapus semua riwayat unduhan?</string>
     <string name="menu_copy">Salin</string>
     <string name="edit">Ubah</string>
@@ -383,7 +382,7 @@
 
     <string name="set_contributor">Kontributor</string>
     <string name="set_permissions">Izin</string>
-    
+
     <string name="sign_in_services">Dengan Mendaftar kamu menyetujui Kebijakan Privasi dan Ketentuan Penggunaan Kami.</string>
 
     <string name="sign_in_services_key">Ketentuan</string>
@@ -392,4 +391,4 @@
     <string name="user_sign_up">Mendaftar</string>
     <string name="check_update_replace">Versi resmi</string>
     <string name="check_update_beta">Pra-rilis Beta</string>
-    </resources>
+</resources>

@@ -1,5 +1,6 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<?xml version="1.0" encoding="utf-8"?>
+<resources
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
     <string name="action_settings">设置</string>
     <string name="action_search">搜索</string>
@@ -305,6 +306,13 @@
     <string name="download_complete_installation_setting_entries_only">仅前台状态下安装</string>
     <string name="download_complete_installation_setting_entries_never">从不安装</string>
 
+
+    <string name="download_mkdir">下载位置</string>
+    <string name="download_mkdir_internal_storage_size_des">%1$s可用,共%2$s</string>
+    <string name="download_mkdir_internal_storage_entries">储存空间</string>
+    <string name="download_mkdir_internal_storage_entries1">储存空间1</string>
+    <string name="download_mkdir_external_storage_fill_toast">储存空间可能不足,会导致应用无法下载。</string>
+
     <string name="reply">回复</string>
     <string name="input_reply_content">请输入回复内容:</string>
     <string name="publish">发表</string>
@@ -315,7 +323,7 @@
 
     <string name="load_end">没有更多数据</string>
     <string name="load_failed_click_retry">加载失败，点击重试</string>
-    <string name="loading">正在加载…</string>
+    <string name="loading">正在加载&#8230;</string>
 
     <string name="scan_qr_code_hint">使用此功能前，您必须同意打开相机的权限</string>
     <string name="zxing_msg_default_status">请将二维码置于取景框内扫描</string>
@@ -331,10 +339,10 @@
     <string name="delete_comment_msg">你想要删除这条评论吗?</string>
     <string name="login_select_way_to_login">请选择登录方式</string>
     <string name="upload_cancel">上传已取消</string>
-    <string name="is_comment">正在发表评论…</string>
+    <string name="is_comment">正在发表评论&#8230;</string>
     <string name="comment_cancel">评论已取消</string>
-    <string name="comment_submitting">提交中…</string>
-    <string name="comment_replying">回复中…</string>
+    <string name="comment_submitting">提交中&#8230;</string>
+    <string name="comment_replying">回复中&#8230;</string>
 
     <!--update password-->
     <string name="update_pwd_title">修改密码</string>
@@ -349,7 +357,7 @@
 
     <!-- UserInfoEdit -->
     <string name="user_info_edit_title">个人信息</string>
-    <string name="upload_avatar">正在上传…</string>
+    <string name="upload_avatar">正在上传&#8230;</string>
     <string name="user_info_edit_portrait_tv">头像</string>
     <string name="user_info_edit_username_tv">用户名</string>
     <string name="user_info_edit_nickname_tv">昵称</string>
@@ -451,7 +459,7 @@
     <string name="set_updates_notification">应用有新版本</string>
     <string name="set_updates_notification_msg">应用有新版本时通知我，建议开启。</string>
     <string name="app_detail_unknow_text">版本过低，不支持该板块，请升级后查看。</string>
-    <string name="comment_detail_original">查看原评论 &gt;</string>
+    <string name="comment_detail_original">查看原评论 ></string>
     <string name="comment_comment_newest">最新</string>
     <string name="comment_comment_oldest">最早</string>
 
@@ -545,7 +553,32 @@
     <string name="recommend_comment">提交</string>
     <string name="recommend_comment_error">发生错误了！</string>
     <string name="recommend_description_title">推荐说明</string>
-    <string name="recommend_description">1、推荐成功，就可以入选首页最新发现。\n2、暂时只可推荐已安装应用。</string>
+    <string name="recommend_description">1、推荐成功，就可以入选首页最新发现。\n2、暂时只可推荐已安装应用。\n3、通知APKPure添加未收录应用，请先完成推荐表单。</string>
     <string name="recommend_user_recommend">%s 推荐</string>
-    <string name="recommend_required">必填</string>
+    <string name="recommend_required">*</string>
+    <string name="recommend_not_found">未收录</string>
+    <string name="recommend_not_fount_info">通知APKPure添加\"%s\"，请先完成推荐表单。</string>
+
+    <string name="user_detail_focus">关注</string>
+    <string name="user_detail_fans">粉丝</string>
+    <string name="user_detail_praise">获赞</string>
+
+    <string name="user_detail_tab_detail">评论</string>
+    <string name="user_detail_tab_reply">回复</string>
+
+    <string name="user_focus_tab_users">用户</string>
+    <string name="user_focus_tab_apps">小组</string>
+    <string name="user_focus_title_my">我的关注</string>
+    <string name="user_focus_title">他的关注</string>
+
+    <string name="goto_google_play">购买</string>
+
+    <string name="menu_follow_all">全部关注</string>
+    <string name="menu_follow_user">关注的用户</string>
+    <string name="menu_follow_group">关注的小组</string>
+    <string name="menu_follow_all_tab">关注</string>
+    <string name="menu_follow_user_tab">用户</string>
+    <string name="menu_follow_group_tab">小组</string>
+    <string name="choose_app">选择应用</string>
+    <string name="publish_comment">发表评论</string>
 </resources>
