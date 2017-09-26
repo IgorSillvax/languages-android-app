@@ -310,6 +310,12 @@
     <string name="download_complete_installation_setting_entries_only">僅前台狀態下安裝</string>
     <string name="download_complete_installation_setting_entries_never">從不安裝</string>
 
+    <string name="download_mkdir">下載位置</string>
+    <string name="download_mkdir_internal_storage_size_des">%1$s可用,共%2$s</string>
+    <string name="download_mkdir_internal_storage_entries">儲存空間</string>
+    <string name="download_mkdir_internal_storage_entries1">儲存空間</string>
+    <string name="download_mkdir_external_storage_fill_toast">儲存空間可能不足,會導致應用無法下載。</string>
+
     <string name="reply">回復</string>
     <string name="input_reply_content">請輸入回復內容:</string>
     <string name="publish">發表</string>
@@ -548,8 +554,32 @@
     <string name="recommend_comment">提交</string>
     <string name="recommend_comment_error">發生錯誤了！</string>
     <string name="recommend_description_title">推薦說明</string>
-    <string name="recommend_description">1、推薦成功，就可以入選首頁最新發現。\n2、暫時只可推薦已安裝應用。</string>
+    <string name="recommend_description">1、推薦成功，就可以入選首頁最新發現。\n2、暫時只可推薦已安裝應用。\n3、通知APKPure添加未收錄應用，請先完成推薦表單。</string>
     <string name="recommend_user_recommend">%s 推薦</string>
-    <string name="recommend_required">必填</string>
+    <string name="recommend_required">*</string>
+    <string name="recommend_not_found">未收錄</string>
+    <string name="recommend_not_fount_info">通知APKPure添加\"%s\"，請先完成推薦表單。</string>
 
+    <string name="user_detail_focus">關注</string>
+    <string name="user_detail_fans">粉絲</string>
+    <string name="user_detail_praise">獲贊</string>
+
+    <string name="user_detail_tab_detail">評論</string>
+    <string name="user_detail_tab_reply">回復</string>
+
+    <string name="user_focus_tab_users">用戶</string>
+    <string name="user_focus_tab_apps">小組</string>
+    <string name="user_focus_title_my">我的關注</string>
+    <string name="user_focus_title">他的關注</string>
+
+    <string name="goto_google_play">購買</string>
+
+    <string name="menu_follow_all">全部關注</string>
+    <string name="menu_follow_user">關注的用戶</string>
+    <string name="menu_follow_group">關注的小組</string>
+    <string name="menu_follow_all_tab">關注</string>
+    <string name="menu_follow_user_tab">用戶</string>
+    <string name="menu_follow_group_tab">小組</string>
+    <string name="choose_app">選擇應用</string>
+    <string name="publish_comment">發表評論</string>
 </resources>
