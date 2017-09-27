@@ -277,7 +277,7 @@
     <string name="reply">ឆ្លើយតប</string>
     <string name="publish">ប្រកាស</string>
     <string name="reply_comment">ឆ្លើយតបទៅមតិ</string>
-    <string name="already_save">បានរក្សាទុក<xliff:g id="path" example="ApKPure/photo">%1$s</xliff:g></string>
+    <string name="already_save">បានរក្សាទុកនៅ<xliff:g example="ApKPure/photo" id="path">%1$s</xliff:g></string>
 
     <string name="load_end">គ្មានទិន្នន័យបន្ថែមទៀត</string>
     <string name="load_failed_click_retry">ការផ្ទុកបរាជ័យ សូមចុចព្យាយាមម្ដងទៀត</string>
@@ -539,7 +539,7 @@
     <string name="recommend_comment">បញ្ជូន</string>
     <string name="recommend_description_title">របៀបណែនាំ៖</string>
     <string name="recommend_user_recommend">ណែនាំដោយ %s</string>
-    <string name="recommend_required">ការស្នើសុំបរាជ័យ</string>
+    <string name="recommend_required">*</string>
 
 <string name="topic_switch_failed">ការផ្លាស់ប្ដូររូបរាងបានបរាជ័យ</string>
 
@@ -557,5 +557,41 @@
     <string name="recommend_comment_error">កំហុសបានកើតឡើង!</string>
     <string name="recommend_write_des_hint">ការពិនិត្យឡើងវិញមានប្រយោជន៍នឹងត្រូវបានមើលឃើញដោយអ្នកប្រើប្រាស់ផ្សេងទៀតដែលមានចំណាប់អារម្មណ៍ដូចអ្នក។</string>
     <string name="recommend_description">1. ការណែនាំដែលបានអនុម័ត នឹងត្រូវស្ថិតនៅក្រោមផ្នែក DISCOVER។
-2. អ្នកអាចណែនាំតែកម្មវិធីណាដែលបានតម្លើងរួច លើឧបករណ៍ Android របស់អ្នក។</string>
+2. អ្នកអាចណែនាំតែកម្មវិធីណាដែលបានតម្លើងរួច លើឧបករណ៍ Android របស់អ្នក។
+3.ផ្ដល់ដំណឹងទៅ APKPure ដើម្បីបន្ថែមកម្មវិធីដែលគ្មានលិបិក្រម សូមបំពេញទម្រង់ណែនាំជាមុនសិន។</string>
+    <string name="recommend_not_found">មិនមែនលិបិក្រម</string>
+    <string name="user_detail_focus">កំពុងតាមដាន</string>
+    <string name="user_detail_fans">អ្នកតាមដាន</string>
+    <string name="user_detail_praise">ចូលចិត្ត</string>
+    <string name="user_detail_tab_detail">មតិ</string>
+    <string name="user_detail_tab_reply">ការឆ្លើយតប</string>
+
+    <string name="user_focus_tab_users">មនុស្ស</string>
+    <string name="user_focus_tab_apps">ក្រុម</string>
+    <string name="download_mkdir_internal_storage_size_des">%1$sនៅសល់,​ សរុប%2$s</string>
+    <string name="download_mkdir_internal_storage_entries">"SD "</string>
+    <string name="download_mkdir_internal_storage_entries1">SD 1</string>
+    <string name="download_mkdir_external_storage_fill_toast">ឃ្លាំងផ្ទុកដែលអាចប្រើបានមិនគ្រប់គ្រាន់ អាចបណា្ខលឱ្យអ្នកមិនអាចទាញយកគ្រប់កម្មវិធី។</string>
+
+    <string name="download_mkdir_internal_storage_values">ឃ្លាំងផ្ទុកខាងក្នុង</string>
+    <string name="download_mkdir_external_storage_values">ឃ្លាំងផ្ទុកខាងក្រៅ</string>
+
+    <string name="recommend_not_fount_info">ផ្ដល់ដំណឹងដល់ APKPure ដើម្បីបន្ថែម \"%s\" អ្នកត្រូវការទៅបញ្ចប់សំណុំបែបបទសិន។</string>
+
+    <string name="user_focus_title">តាមដានដោយ %s</string>
+
+    <string name="goto_google_play">ទិញឥឡូវ</string>
+
+    <string name="menu_follow_group_tab">ក្រុម</string>
+
+    <string name="menu_follow_user_tab">មនុស្ស</string>
+    <string name="menu_follow_all_tab">កំពុងតាមដាន</string>
+    <string name="menu_follow_group">តាមដានក្រុម</string>
+    <string name="menu_follow_user">តាមដានមនុស្ស</string>
+    <string name="menu_follow_all">កំពុងតាមដានទាំងអស់</string>
+    <string name="user_focus_title_my">ការតាមដានរបស់ខ្ញុំ</string>
+    <string name="choose_app">ជ្រើសយកកម្មវិធី</string>
+    <string name="publish_comment">ប្រកាសមតិ</string>
+
+<string name="download_mkdir">ផ្លូវកាត់ការទាញយក</string>
     </resources>
