@@ -318,7 +318,7 @@ Hiba történt.</string>
     <string name="reply_dialog_marked_words">Hosszan nyomja meg a kiválasztott képet a törléshez.</string>
     <string name="reply_comment">Válasz a hozzászólásra</string>
     <string name="save_original_image">Az eredeti kép megőrzése</string>
-    <string name="already_save"><xliff:g id="path" example="ApKPure/photo">%1$s</xliff:g> mentve</string>
+    <string name="already_save"><xliff:g example="ApKPure/photo" id="path">%1$s</xliff:g> mentve</string>
 
     <string name="tip_permission_camera_storage">Nincs engedélye a kamera és SD kártya használatára. Nyissa meg a jogkezelési szolgáltatást</string>
     <string name="permission_denied">Hozzáférés megtagadva!</string>
@@ -557,10 +557,46 @@ Hiba történt.</string>
     <string name="recommend_comment_error">Valami hiba történt!</string>
     <string name="recommend_description_title">Utasítások:</string>
     <string name="recommend_description">1. A jóváhagyott ajánlások a FELFEDEZÉS rész alatt szerepelnek.
-2. Csak az Android-eszközön jelenleg telepített alkalmazásokat ajánlhatja.</string>
+2. Csak az Android-eszközön jelenleg telepített alkalmazásokat ajánlhatja.
+3. APKPure értesítése a nem indexelt alkalmazások hozzáadásáról, kérjük, töltse ki először az ajánlási űrlapokat.</string>
     <string name="recommend_user_recommend">%s által ajánlva</string>
-    <string name="recommend_required">Kötelező mező</string>
+    <string name="recommend_required">*</string>
 
 <string name="topic_green_color">Világos zöld</string>
     <string name="topic_purple_yellow">Narancssárga</string>
-    </resources>
+    <string name="download_mkdir">Letöltési hely</string>
+    <string name="download_mkdir_internal_storage_entries">"SD "</string>
+    <string name="download_mkdir_internal_storage_entries1">SD 1</string>
+    <string name="download_mkdir_external_storage_fill_toast">A szabad tárhely hiánya miatt nem lehet letölteni semmilyen alkalmazást.</string>
+
+    <string name="download_mkdir_internal_storage_size_des">%1$s szabad, %2$s összesen</string>
+    <string name="download_mkdir_internal_storage_values">Belső tároló</string>
+    <string name="download_mkdir_external_storage_values">Külső tároló</string>
+
+    <string name="recommend_not_found">Nem indexelt</string>
+    <string name="recommend_not_fount_info">APKPure értesítése a(z) \"%s\" hozzáadására, ki kell töltenie az űrlapokat.</string>
+
+    <string name="user_detail_focus">követés</string>
+    <string name="user_detail_fans">követő</string>
+    <string name="user_detail_praise">kedvelés</string>
+    <string name="user_detail_tab_detail">Hozzászólások</string>
+    <string name="user_detail_tab_reply">Válaszok</string>
+
+    <string name="user_focus_tab_users">Személyek</string>
+    <string name="user_focus_tab_apps">Csoportok</string>
+    <string name="user_focus_title_my">Általam követett</string>
+    <string name="user_focus_title">%s által követett</string>
+
+    <string name="goto_google_play">Vásárlás</string>
+
+    <string name="menu_follow_all">Összes követés</string>
+    <string name="menu_follow_user">Követett személyek</string>
+    <string name="menu_follow_group">Követett csoportok</string>
+    <string name="menu_follow_all_tab">Követés</string>
+    <string name="menu_follow_user_tab">Személy</string>
+    <string name="menu_follow_group_tab">Csoportok</string>
+
+    <string name="choose_app">Válasszon alkalmazást</string>
+    <string name="publish_comment">Hozzászólás küldése</string>
+
+</resources>
