@@ -315,12 +315,12 @@ The above mentioned functions support Android 4.1+, no root permission needed. W
     <string name="reply">উত্তর দিন</string>
     <string name="input_reply_content">উত্তরের জন্য কিছু লিখুন:</string>
     <string name="publish">পোস্ট করুন</string>
-    <string name="reply_dialog_marked_words">মুছে ফেলতে ছবিতে দীর্ঘ চাপ দিন।</string>
+    <string name="reply_dialog_marked_words">মুছে ফেলতে ছবিতে অধিক সময় চাপ দিন।</string>
     <string name="reply_comment">মন্তব্যের জবাব দিন</string>
     <string name="save_original_image">আসল ছবি সংরক্ষণ করুন</string>
     <string name="already_save">সংরক্ষিত হয়েছে<xliff:g example="ApKPure/photo" id="path">%1$s</xliff:g></string>
 
-    <string name="load_end">আর কিছু নেই</string>
+    <string name="load_end">আর কোন তথ্য নেই</string>
     <string name="load_failed_click_retry">লোড করতে ব্যর্থ।আবার চেষ্টা করুন এ ক্লিক করুন</string>
     <string name="loading">লোড হচ্ছে…</string>
 
@@ -330,7 +330,7 @@ The above mentioned functions support Android 4.1+, no root permission needed. W
     <string name="zxing_msg_parser_status">স্ক্যান করতে ব্যর্থ। আবার চেষ্টা করুন।</string>
 
     <string name="tip_permission_camera_storage">ক্যামেরা ও এসডি কার্ড ব্যবহারের অনুমতি নেই, অনুমতি ব্যবস্থাপনা খুলুন</string>
-    <string name="permission_denied">অনুমতি নেই!</string>
+    <string name="permission_denied">অনুমতি বাতিল করা হয়েছে!</string>
 
     <string name="login_title">প্রবেশ করুন</string>
     <string name="sign_out">বের হন</string>
@@ -556,8 +556,44 @@ The above mentioned functions support Android 4.1+, no root permission needed. W
     <string name="recommend_comment_error">কিছু ভুল হয়েছে!</string>
     <string name="recommend_description_title">নির্দেশনাবলী:</string>
     <string name="recommend_description">১. অনুমোদিত সুপারিশগুলো আবিষ্কার অংশে তালিকাভুক্ত হবে।
-২. আপনি শুধুমাত্র আপনার ফোনে ইনস্টল থাকা অ্যাপগুলো সুপারিশ করতে পারবেন।</string>
+২. আপনি শুধুমাত্র আপনার ফোনে ইনস্টল থাকা অ্যাপগুলো সুপারিশ করতে পারবেন।
+৩. তালিকাভুক্ত অ্যাপ্লিকেশন যোগ করার জন্য APKPure অবহিত করুন, প্রথমে সুপারিশ ফর্মগুলি সম্পূর্ণ করুন।</string>
     <string name="recommend_user_recommend">%s দ্বারা সুপারিশ করা হয়েছে</string>
-    <string name="recommend_required">দরকারি ক্ষেত্র</string>
+    <string name="recommend_required">*</string>
+
+<string name="download_mkdir">ডাউনলোড লোকেশন</string>
+    <string name="download_mkdir_internal_storage_size_des">%1$sফ্রি,মোট%2$s</string>
+    <string name="download_mkdir_internal_storage_entries">"এস_ডি "</string>
+    <string name="download_mkdir_internal_storage_entries1">এস_ডি ১</string>
+    <string name="download_mkdir_internal_storage_values">ফোন_মেমোরী</string>
+    <string name="download_mkdir_external_storage_values">এক্সটারনাল মেমোরী</string>
+
+    <string name="download_mkdir_external_storage_fill_toast">"মেমোরি অপর্যাপ্ত হলে আপনি  কোন অ্যাপ ডাউনলোড করতে পারবেন না।"</string>
+
+    <string name="recommend_not_found">তালিকাভুক্ত নয়</string>
+    <string name="recommend_not_fount_info">\"% S\" যোগ করার জন্য APKPure কে অবহিত করুন, আপনাকে ফরমটি শেষ করতে হবে।</string>
+
+    <string name="user_detail_focus">অনুসরিত</string>
+    <string name="user_detail_fans">অনুসরণকারী</string>
+    <string name="user_detail_praise">পছন্দসমূহ</string>
+    <string name="user_detail_tab_detail">মন্তব্যসমূহ</string>
+    <string name="user_detail_tab_reply">উত্তরসমূহ</string>
+
+    <string name="user_focus_tab_users">মানুষ</string>
+    <string name="user_focus_tab_apps">গ্রুপসমূহ</string>
+    <string name="user_focus_title_my">আমার অনুসরণ</string>
+    <string name="user_focus_title">অনুসরিত %s</string>
+
+    <string name="goto_google_play">এখন কিনুন</string>
+
+    <string name="menu_follow_all">সকল অনুসরণ</string>
+    <string name="menu_follow_user">অনুসরিত মানুষ</string>
+    <string name="menu_follow_group">অনুসরিত গ্রুপসমূহ</string>
+    <string name="menu_follow_all_tab">অনুসরিত</string>
+    <string name="menu_follow_user_tab">মানুষ</string>
+    <string name="menu_follow_group_tab">গ্রুপসমূহ</string>
+
+    <string name="choose_app">অ্যাপলিকেশন নির্বাচন করুন</string>
+    <string name="publish_comment">একটি মন্তব্য করুন</string>
 
 </resources>
