@@ -225,8 +225,8 @@ Hiba történt.</string>
     <string name="general">Általános</string>
     <string name="language">Nyelv</string>
     <string name="auto">Automatikus</string>
-    <string name="download_via_wifi_only">Letöltés csak Wi-Fi-n keresztül</string>
-    <string name="enable_ultra_download">Ultra letöltés engedélyezése</string>
+    <string name="download_via_wifi_only">Csak Wi-Fi-n keresztül</string>
+    <string name="enable_ultra_download">Ultra letöltés</string>
     <string name="enable_ultra_download_summary">Az Ultra letöltés béta tesztelési fázisban van. Kérjük, tudassa velünk, ha bármilyen problémát tapasztal.</string>
     <string name="installation">Telepítés</string>
     <string name="show_notification_after_installation">Értesítés megjelenítése telepítés után</string>
@@ -234,7 +234,7 @@ Hiba történt.</string>
 
     <string name="_name__installation_completed">A(z) <xliff:g example="APKPure" id="name">%1$s</xliff:g> telepítése befejeződött</string>
     <string name="auto_service_install_accessibility_title">Automatikus telepítés</string>
-    <string name="auto_service_install_accessibility_summary">Android 4.1+ támogatás, nincs szükség root jogosultságra.</string>
+    <string name="auto_service_install_accessibility_summary">Android 4.1+ támogatás, nincs szükség root jogokra.</string>
 
     <string name="auto_service_dialog_title">Automatikus telepítés engedélyezése</string>
     <string name="auto_service_dialog_message">Az automatikus telepítést engedélyeznie kell a telefonon. Ez teljesen biztonságos és nem jelent semmilyen kockázatot.</string>
@@ -320,7 +320,7 @@ Hiba történt.</string>
     <string name="save_original_image">Az eredeti kép megőrzése</string>
     <string name="already_save"><xliff:g example="ApKPure/photo" id="path">%1$s</xliff:g> mentve</string>
 
-    <string name="tip_permission_camera_storage">Nincs engedélye a kamera és SD kártya használatára. Nyissa meg a jogkezelési szolgáltatást</string>
+    <string name="tip_permission_camera_storage">Nincs engedélye a kamera és SD-kártya használatára. Nyissa meg a jogkezelési szolgáltatást</string>
     <string name="permission_denied">Hozzáférés megtagadva!</string>
 
     <string name="login_title">Bejelentkezés</string>
@@ -436,8 +436,8 @@ Hiba történt.</string>
     <string name="notification_setting">Értesítések</string>
     <string name="reply_notification">Válasz értesítések</string>
     <string name="reply_notification_msg">Értesítések fogadása új válaszüzenetek esetén</string>
-    <string name="like_notification">Pozitív szavazati értesítések</string>
-    <string name="like_notification_msg">Értesítések fogadása új pozitív szavazati üzenetek esetén</string>
+    <string name="like_notification">Pozitív szavazatok</string>
+    <string name="like_notification_msg">Értesítések fogadása új pozitív szavazat esetén</string>
     <string name="gif_tip">gif</string>
     <string name="submit_comment_title_hint">Tárgy (Nem kötelező)</string>
 
@@ -452,8 +452,8 @@ Hiba történt.</string>
 
     <string name="comment_no_reply">Nahát, itt nincs semmi.</string>
     <string name="comment_reply_info_name">Részletek</string>
-    <string name="set_updates_notification">Alkalmazás frissítések érhetők el</string>
-    <string name="set_updates_notification_msg">Értesítsen, ha új alkalmazás frissítés érhető el. Ajánlott beállítás: Be</string>
+    <string name="set_updates_notification">Alkalmazás frissítések</string>
+    <string name="set_updates_notification_msg">Értesítsen, ha új alkalmazás frissítés érhető el. Ajánlott opció: Be</string>
     <string name="app_detail_unknow_text">Az APKPure régi verziója nem támogatja az új funkciókat, kérjük, frissítsen a legújabbra.</string>
     <string name="comment_detail_original">Eredeti hozzászólás megtekintése &gt;</string>
     <string name="comment_comment_newest">Legújabb</string>
@@ -508,7 +508,7 @@ Hiba történt.</string>
     <string name="comments">Hozzászólások</string>
     <string name="follow">Követés</string>
     <string name="attention_on">Követés</string>
-    <string name="attention_off">Követ</string>
+    <string name="attention_off">Követés</string>
     <string name="no_attention">Még nincsenek követett csoportok.</string>
     <string name="browsing_history">Böngészési előzmények</string>
     <string name="browsing_history_prompt">Törölni szeretné a böngészési előzményeket?</string>
@@ -565,8 +565,8 @@ Hiba történt.</string>
 <string name="topic_green_color">Világos zöld</string>
     <string name="topic_purple_yellow">Narancssárga</string>
     <string name="download_mkdir">Letöltési hely</string>
-    <string name="download_mkdir_internal_storage_entries">"SD "</string>
-    <string name="download_mkdir_internal_storage_entries1">SD 1</string>
+    <string name="download_mkdir_internal_storage_entries">"SD-kártya "</string>
+    <string name="download_mkdir_internal_storage_entries1">SD-kártya 1</string>
     <string name="download_mkdir_external_storage_fill_toast">A szabad tárhely hiánya miatt nem lehet letölteni semmilyen alkalmazást.</string>
 
     <string name="download_mkdir_internal_storage_size_des">%1$s szabad, %2$s összesen</string>
