@@ -20,7 +20,7 @@
 
     <string name="management">Yönetim</string>
     <string name="app_updates">Uygulama Güncellemeleri</string>
-    <string name="app_management">Uygulama Yönetimi</string>
+    <string name="app_management">Yüklendi</string>
     <string name="app_uninstall">Uygulama Kaldır</string>
     <string name="apk_management">APK Yönetimi</string>
     <string name="apk_xapk_management">APK / XAPK Yönetimi</string>
@@ -276,7 +276,7 @@ Yukarıdaki özellikler Android 4.1+ sürümlerde desteklenmektedir, root erişi
     <string name="download_complete_installation_setting">İndirme sonrası kurulum seçeneği</string>
 
     <string name="report">Bildir</string>
-    <string name="app_detail_customer_reviews">Kullanıcı yorumları</string>
+    <string name="app_detail_customer_reviews">Yorumlar</string>
     <string name="app_detail_comment_type_web">Web</string>
     <string name="app_submit_submit">Gönder…</string>
     <string name="app_submit_anonymous_comment">Yorum yaz</string>
@@ -316,7 +316,7 @@ Yukarıdaki özellikler Android 4.1+ sürümlerde desteklenmektedir, root erişi
     <string name="app_detail_comment_order_array_default">Varsayılan olarak sırala</string>
     <string name="app_detail_comment_order_array_most_recent">En son</string>
     <string name="app_detail_comment_order_array_new">En yeni</string>
-    <string name="app_detail_comment_order_array_best">Sıcak</string>
+    <string name="app_detail_comment_order_array_best">En iyi</string>
 
     <string name="download_complete_installation_setting_entries_always">Her zaman yükle</string>
     <string name="download_complete_installation_setting_entries_only">Yalnızca uygulamadayken yükle</string>
@@ -377,7 +377,7 @@ Yukarıdaki özellikler Android 4.1+ sürümlerde desteklenmektedir, root erişi
     <string name="update_nickname_error">Takma ad zaten alınmış, lütfen başka seçin!</string>
     <string name="message_all">HEPSİ</string>
     <string name="message_reply">YANITLAR</string>
-    <string name="message_praise">HAREKETLER</string>
+    <string name="message_praise">BEĞENİLER</string>
     <string name="message_notifications_reply">Yorumunu yanıtladın</string>
     <string name="message_notifications_login">Bu sayfayı görmek için lütfen giriş yapınız.</string>
 
@@ -454,7 +454,7 @@ Yukarıdaki özellikler Android 4.1+ sürümlerde desteklenmektedir, root erişi
 
     <string name="comment_vote_string">Oy</string>
     <string name="comment_reply_three">Cevap</string>
-    <string name="comment_item_fold">1 yorum çöktü</string>
+    <string name="comment_item_fold">yorum çöktü</string>
 
     <plurals name="comment_reply_item_fold">
 	<item quantity="one"><xliff:g example="1" id="count">%1$d</xliff:g> Yanıt çöktü</item>
@@ -466,7 +466,7 @@ Yukarıdaki özellikler Android 4.1+ sürümlerde desteklenmektedir, root erişi
     <string name="set_updates_notification">Uygulamalar Güncellemeleri Var</string>
     <string name="set_updates_notification_msg">Uygulama güncellemeleri geldiğinde haber verin. Önerilen Ayar: Açık</string>
     <string name="app_detail_unknow_text">Eski sürüm APKPure yeni özellikleri desteklemez; lütfen en son sürüme geçin.</string>
-    <string name="comment_detail_original">Orijinal Yorumu Görüntüle</string>
+    <string name="comment_detail_original">Orijinal Yorumu Görüntüle &gt;</string>
     <string name="comment_comment_newest">En yeni</string>
     <string name="comment_comment_oldest">En eski</string>
 
@@ -490,4 +490,83 @@ ile ilgili yorumlar <xliff:g example="APKPure" id="app_name">%2$s</xliff:g> (fro
     <string name="download_mkdir_internal_storage_entries1">SD 1</string>
     <string name="download_mkdir_external_storage_fill_toast">Yeterli boş alan olmaması nedeniyle hiçbir uygulama indiremeyebilirsiniz.</string>
 
+    <string name="download_mkdir_internal_storage_size_des">%1$sboş,toplam%2$s</string>
+    <string name="download_mkdir_internal_storage_entries">"SD "</string>
+    <string name="ad_tip">ekle</string>
+    <string name="play_button">Başlat düğmesi</string>
+    <string name="null_time">0:00</string>
+    <string name="open_video_in_youtube">Videoyu Youtube\'da açın</string>
+    <string name="full_screen_button">Tam ekran düğmesi</string>
+
+    <string name="main_tab_home">ANA SAYFA</string>
+    <string name="main_tab_ranking">SIRALAMA</string>
+    <string name="main_tab_group">GRUP</string>
+    <string name="main_tab_my">BEN</string>
+
+    <string name="main_comment">yorum</string>
+    <string name="main_won_praise">Beğeniler</string>
+    <string name="main_my_comments">Yorumlar</string>
+    <string name="main_my_collection">Favoriler</string>
+    <string name="main_my_message">Mesajlar</string>
+    <string name="main_good_comments">Oylandı</string>
+    <string name="main_app_management">Uygulama yönetimi</string>
+    <string name="main_topic_selection">Temalar</string>
+    <string name="main_night_mode">Gece modu</string>
+    <string name="please_login_first">Lütfen önce giriş yapın</string>
+    <string name="no_choice">Seçenek yok</string>
+    <string name="follow_on_success">Başarılı!</string>
+    <string name="follow_un_success">Takipten çık!</string>
+    <string name="canceled">İptal edildi</string>
+    <string name="group">Grup</string>
+    <string name="collection">Koleksiyon</string>
+
+    <string name="comments">Yorumlar</string>
+    <string name="follow">Takip ediliyor</string>
+    <string name="attention_on">Takip ediliyor</string>
+    <string name="attention_off">Takip et</string>
+    <string name="no_attention">Henüz takip edilen grup yok.</string>
+    <string name="browsing_history">Arama geçmişi</string>
+    <string name="browsing_history_prompt">Arama geçmişini temizlemek ister misiniz?</string>
+
+    <string name="ranking_tab1_title">En İyi Oyunlar</string>
+    <string name="ranking_tab2_title">En Yeni Oyunlar</string>
+    <string name="ranking_tab3_title">En İyi Uygulamalar</string>
+    <string name="ranking_tab4_title">En Yeni Uygulamalar</string>
+
+    <string name="app_detail_three_fragment_foot">Tüm yorumları görüntüle</string>
+    <string name="menu_paste">Yapıştır</string>
+
+    <string name="favorite_title">Favori</string>
+    <string name="save_as_favorite">Favorilere Kaydet</string>
+    <string name="favorite_saved">Favorilere kaydedildi</string>
+    <string name="failed_to_save_favorite">Favori kaydı başarısız</string>
+    <string name="remove_as_favorite">Favorilerden sil</string>
+    <string name="remove_failed">Silme başarısız</string>
+
+    <string name="collection_comment">Yorumlar</string>
+    <string name="collection_app">UYGULAMALAR</string>
+
+    <string name="open_with_browser">Tarayıcı ile aç</string>
+    <string name="web_view_refresh">Yenile</string>
+
+    <string name="topic_red_color">Kırmızı</string>
+    <string name="topic_green_color">Şanslı yeşil</string>
+    <string name="topic_blue_color">Gök mavisi</string>
+    <string name="topic_purple_color">Koyu mor</string>
+    <string name="topic_purple_black">Soğuk gri</string>
+    <string name="topic_purple_yellow">Kayısı</string>
+    <string name="topic_purple_blue_gary">Hava mavisi</string>
+    <string name="topic_switch_failed">Tema değişikliği başarısız</string>
+
+    <string name="recommend_title">Öneriler</string>
+    <string name="recommend_tab_game">Bir uygulama öner</string>
+    <string name="recommend_tab_list">Önerilen</string>
+    <string name="recommend_installed_list_title">Uygulamalarım</string>
+    <string name="recommend_review">Önizleme</string>
+    <string name="recommend_replace_img">Resim değiştir</string>
+    <string name="recommend_app_name">Uygulama İsmi</string>
+    <string name="recommend_state_can">Önerilen</string>
+    <string name="recommend_state_success">Önerildi</string>
+    <string name="recommend_select_game">Bir uygulama öner</string>
+    <string name="recommend_write_des">Açıklama</string>
     </resources>
