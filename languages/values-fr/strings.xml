@@ -82,7 +82,7 @@
     <string name="market_response_error_network_connect_error">Erreur de connexion au réseau.</string>
     <string name="market_response_error_network_read_error">Erreur réseau.</string>
     <string name="market_response_error_invalid_response_code">Code reponse invalide.</string>
-    <string name="market_response_error_invalid_response_body">Le corps reponse invalide.</string>
+    <string name="market_response_error_invalid_response_body">La réponse est invalide.</string>
     <string name="market_response_error_unknown_error__error_">Erreur Inconnu (<xliff:g id="error" example="SUCCESS">%1$s</xliff:g>).</string>
 
     <string name="no_more">Rien de plus.</string>
@@ -517,4 +517,83 @@ Les fonctions mentionnées ci-dessus supportent Android 4.1 et +, sans besoin de
 <string name="menu_follow_group_tab">Groupes</string>
 
     <string name="download_mkdir">Télécharger le chemin</string>
+    <string name="download_mkdir_external_storage_fill_toast">Stokage insuffisant, vous ne pouvez pas télécharger certaines applications</string>
+
+    <string name="download_mkdir_internal_storage_values">stokage_interne</string>
+    <string name="download_mkdir_external_storage_values">stokage_externe</string>
+
+    <string name="download_mkdir_internal_storage_entries">"SD "</string>
+    <string name="download_mkdir_internal_storage_entries1">SD 1</string>
+    <string name="follow_un_success">ne plus suivre !</string>
+    <string name="comments">Commentaires</string>
+    <string name="follow">Suivant</string>
+    <string name="attention_on">Suivant</string>
+    <string name="attention_off">Suivre</string>
+    <string name="no_attention">Vous ne suivez aucun groupe.</string>
+    <string name="browsing_history">Historique de navigation</string>
+    <string name="browsing_history_prompt">Voulez-vous effacer l\'historique de navigation ?</string>
+
+    <string name="ranking_tab1_title">Meilleurs jeux</string>
+    <string name="ranking_tab2_title">Top des nouveaux jeux</string>
+    <string name="ranking_tab3_title">Top des Applications</string>
+    <string name="ranking_tab4_title">Top des nouvelles Applications</string>
+
+    <string name="app_detail_three_fragment_foot">Voir tout les commentaires</string>
+    <string name="menu_paste">Coller</string>
+
+    <string name="favorite_title">Favorie</string>
+    <string name="save_as_favorite">Savegarder dans Favoris</string>
+    <string name="favorite_saved">sauvegardé dans favoris</string>
+    <string name="failed_to_save_favorite">echec de la sauvegarde dans favoris</string>
+    <string name="remove_as_favorite">suprimer de mes favoris</string>
+    <string name="remove_failed">echec</string>
+
+    <string name="collection_comment">Commentaires</string>
+    <string name="collection_app">Applications</string>
+
+    <string name="open_with_browser">Ouvrir avec le navigateur</string>
+    <string name="web_view_refresh">Raffraîchir</string>
+
+    <string name="topic_blue_color">Bleu Azur</string>
+    <string name="topic_purple_color">Violet foncé</string>
+    <string name="topic_switch_failed">Echec du changement du thème</string>
+
+    <string name="recommend_title">Recommandations</string>
+    <string name="recommend_tab_game">Recommender une Application</string>
+    <string name="recommend_tab_list">Recommender</string>
+    <string name="recommend_installed_list_title">Mes Applications</string>
+    <string name="recommend_review">appercu</string>
+    <string name="recommend_replace_img">changer l\'image</string>
+    <string name="recommend_app_name">Titre de l\'Application</string>
+    <string name="recommend_state_can">Recommander</string>
+    <string name="recommend_state_success">Recommandé</string>
+    <string name="recommend_select_game">Recommander l\'Application</string>
+    <string name="recommend_write_des">Description</string>
+    <string name="recommend_write_des_hint">Une critique utile sera vue par plus d\'utilisateurs qui ont le même intérêt que vous.</string>
+    <string name="recommend_comment">Envoyer</string>
+    <string name="recommend_comment_error">Une erreur s\'est produite!</string>
+    <string name="recommend_description_title">Instructions :</string>
+    <string name="recommend_description">1. Les recommandations approuvées seront répertoriées dans la section DÉCOUVRIR.
+2. Vous ne pouvez recommander que les applications actuellement installées sur votre appareil Android.
+3. Avertissez APKPure pour ajouter des applications non indexées, veuillez terminer les formulaires de recommandation d\'abord.</string>
+    <string name="recommend_user_recommend">Recommander par %s</string>
+    <string name="recommend_required">*</string>
+    <string name="recommend_not_found">Non évaluer</string>
+    <string name="recommend_not_fount_info">Avertissez APKPure pour ajouter \"% s\", vous devez terminer les formulaires.</string>
+
+    <string name="user_detail_focus">suivre</string>
+    <string name="user_detail_fans">Abonné</string>
+    <string name="user_detail_praise">J\'aimes</string>
+    <string name="user_detail_tab_detail">Commentaires</string>
+    <string name="user_detail_tab_reply">réponses</string>
+
+    <string name="user_focus_tab_users">Personnes</string>
+    <string name="user_focus_tab_apps">Groupes</string>
+    <string name="user_focus_title_my">Mes abonnés</string>
+    <string name="user_focus_title">Suivi par %s</string>
+
+    <string name="goto_google_play">Acheter Maintenant</string>
+
+    <string name="menu_follow_all">Tout suivie</string>
+    <string name="choose_app">selectionner une apllication</string>
     </resources>
