@@ -569,4 +569,39 @@ ile ilgili yorumlar <xliff:g example="APKPure" id="app_name">%2$s</xliff:g> (fro
     <string name="recommend_state_success">Önerildi</string>
     <string name="recommend_select_game">Bir uygulama öner</string>
     <string name="recommend_write_des">Açıklama</string>
-    </resources>
+    <string name="recommend_write_des_hint">Sizinle aynı ilgileri olan daha fazla kullanıcı tarafından faydalı bir inceleme görülecektir.</string>
+    <string name="recommend_comment">Gönder</string>
+    <string name="recommend_comment_error">Bir sorun oluştu!</string>
+    <string name="recommend_description_title">Talimatlar:</string>
+    <string name="recommend_description">1. Onaylanan tavsiyeler KEŞİF bölümünün altında listelenir.
+2. Şu anda Android cihazınızda yüklü olan uygulamaları önerebilirsiniz.
+3. Endeksli olmayan uygulamalar eklemek için APKPure\'a bildirin, lütfen öncelikle tavsiye formlarını bitirin.</string>
+    <string name="recommend_user_recommend">%s Tarafından Tavsiye edilen</string>
+    <string name="recommend_required">*</string>
+    <string name="recommend_not_found">Dizine eklenmemiş</string>
+    <string name="recommend_not_fount_info">APKPure\'e \"%s\" eklemelerini bildirin, formları bitirmeniz gerekiyor.</string>
+
+    <string name="user_detail_focus">Takip ediliyor</string>
+    <string name="user_detail_fans">Takipçi</string>
+    <string name="user_detail_praise">Beğeniler</string>
+    <string name="user_detail_tab_detail">Yorumlar</string>
+    <string name="user_detail_tab_reply">Cevaplar</string>
+
+    <string name="user_focus_tab_users">Insanlar</string>
+    <string name="user_focus_tab_apps">Gruplar</string>
+    <string name="user_focus_title_my">Takip ettiklerim</string>
+    <string name="user_focus_title">%s tarafından takip edilen</string>
+
+    <string name="goto_google_play">Satın Al</string>
+
+    <string name="menu_follow_all">Tüm takipler</string>
+    <string name="menu_follow_user">Takip edilen insanlar</string>
+    <string name="menu_follow_group">Takip edilen gruplar</string>
+    <string name="menu_follow_all_tab">Takip ediliyor</string>
+    <string name="menu_follow_user_tab">İnsanlar</string>
+    <string name="menu_follow_group_tab">Gruplar</string>
+
+    <string name="choose_app">Uygulama Seç</string>
+    <string name="publish_comment">Yorum yaz</string>
+
+</resources>
