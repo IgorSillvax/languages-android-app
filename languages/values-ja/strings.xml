@@ -304,7 +304,7 @@ APKPureが正常に運行するために、APKPureをクリーニングアプリ
     <string name="publish">ポスト</string>
     <string name="reply_comment">コメントに返信</string>
     <string name="save_original_image">オリジナルの画像を保存する</string>
-    <string name="already_save">保存する<xliff:g id="path" example="ApKPure/photo"> 1%1$s</xliff:g> 2</string>
+    <string name="already_save">保存する<xliff:g example="ApKPure/photo" id="path">%1$s</xliff:g></string>
 
     <string name="load_end">これ以上データがありません</string>
     <string name="loading">ローディング…</string>
@@ -475,9 +475,10 @@ APKPureが正常に運行するために、APKPureをクリーニングアプリ
     <string name="recommend_comment_error">何かエラーが発生しました！</string>
     <string name="recommend_description_title">説明：</string>
     <string name="recommend_description">1.承認された推奨事項は、「発見」セクションにリストされます。
-        2. Androidデバイスに現在インストールされているアプリのみを推薦できます。</string>
+2. Androidデバイスに現在インストールされているアプリのみを推薦できます。
+3.インデックスされていないアプリを追加するよう、APKPureに通知するには、まず推奨フォームを完了してください。</string>
     <string name="recommend_user_recommend">％sが推薦しました</string>
-    <string name="recommend_required">必須フィールド</string>
+    <string name="recommend_required">*</string>
 
     <string name="check_update_replace">正式版</string>
     <string name="check_update_beta">プレリリース版</string>
@@ -561,5 +562,39 @@ APKPureが正常に運行するために、APKPureをクリーニングアプリ
     <string name="recommend_state_success">オススメ</string>
     <string name="recommend_select_game">アプリをオススメする</string>
     <string name="recommend_write_des">記述</string>
+
+<string name="download_mkdir">ダウンロード経路</string>
+    <string name="download_mkdir_external_storage_fill_toast">ストレージの容量が不足の場合、アプリをダウンロードできない可能性があります。</string>
+
+    <string name="download_mkdir_internal_storage_values">内部記憶</string>
+    <string name="download_mkdir_external_storage_values">外部記憶</string>
+
+    <string name="download_mkdir_internal_storage_size_des">%1$sフリー,トータル%2$s</string>
+    <string name="download_mkdir_internal_storage_entries">"SD "</string>
+    <string name="download_mkdir_internal_storage_entries1">SD 1</string>
+    <string name="recommend_not_found">インデックスされていない</string>
+    <string name="recommend_not_fount_info">\"%s\"を追加するよう、APKPureに通知するには、フォームを完了する必要があります。</string>
+
+    <string name="user_detail_focus">フォロー中</string>
+    <string name="user_detail_fans">フォロワー</string>
+    <string name="user_detail_praise">Likes</string>
+    <string name="user_detail_tab_detail">コメント</string>
+    <string name="user_detail_tab_reply">返信</string>
+
+    <string name="user_focus_tab_apps">グループ</string>
+    <string name="user_focus_title_my">MYフォロー</string>
+    <string name="user_focus_title">%sにフォローされた</string>
+
+    <string name="goto_google_play">今すぐ買う</string>
+
+    <string name="menu_follow_all">すべてのフォロー</string>
+    <string name="menu_follow_user">フォローした人</string>
+    <string name="menu_follow_group">フォローしたグループ</string>
+    <string name="menu_follow_all_tab">フォロー</string>
+    <string name="menu_follow_user_tab">People</string>
+    <string name="menu_follow_group_tab">グループ</string>
+
+    <string name="choose_app">アプリケーションの選択</string>
+    <string name="publish_comment">コメントを投稿</string>
 
 </resources>
