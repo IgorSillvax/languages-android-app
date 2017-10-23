@@ -149,13 +149,13 @@
     <string name="deselect_all">Hamsını Seçmə</string>
     <string name="ignored">Bloklandı</string>
     <plurals name="total__count__apps__size_">
-        <item quantity="one">
-            <![CDATA[Cəmi: <b><font color="%1$d">%2$d</font></b> tətbiq, <b><font color="%1$d">%3$s</font></b>]]>
-        </item>
-        <item quantity="other">
-            <![CDATA[Cəmi: <b><font color="%1$d">%2$d</font></b> tətbiq, <b><font color="%1$d">%3$s</font></b>]]>
-        </item>
-    </plurals>
+	<item quantity="one">"
+ Cəmi: &lt;b&gt;&lt;font color=%1$d&gt;%2$d&lt;/font&gt;&lt;/b&gt; tətbiq, &lt;b&gt;&lt;font color=%1$d&gt;%3$s&lt;/font&gt;&lt;/b&gt;
+ "</item>
+	<item quantity="other">"
+ Cəmi: &lt;b&gt;&lt;font color=%1$d&gt;%2$d&lt;/font&gt;&lt;/b&gt; apps, &lt;b&gt;&lt;font color=%1$d&gt;%3$s&lt;/font&gt;&lt;/b&gt;
+ "</item>
+</plurals>
     <string name="_name__download_failed"><xliff:g example="APKPure" id="name">%1$s</xliff:g> yükləmə uğursuz</string>
     <string name="io_error">Xəta.Quraşdırma üçün lazımi qədər yer olmaya bilər.</string>
     <string name="file_format_error">Bilinməyən fayl növü.</string>

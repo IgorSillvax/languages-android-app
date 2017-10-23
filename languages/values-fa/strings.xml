@@ -311,7 +311,7 @@
     <string name="download_complete_installation_setting_entries_never">هرگز نصب نشود</string>
 
     <string name="reply_comment">پاسخ به نظر</string>
-    <string name="already_save">ذخیره شد <xliff:g id="path" example="ApKPure/photo">%1$s</xliff:g></string>
+    <string name="already_save">ذخیره شد<xliff:g example="ApKPure/photo" id="path">%1$s</xliff:g></string>
 
     <string name="tip_permission_camera_storage">اجازه استفاده از دوربین و مموری کارت را ندارد، قسمت مدیریت را باز کنید</string>
     <string name="permission_denied">دسترسی نپذیرفته شده!</string>
@@ -536,7 +536,7 @@
     <string name="recommend_comment_error">خطایی رخ داده است!</string>
     <string name="recommend_description_title">دستورالعمل‌ها:</string>
     <string name="recommend_user_recommend">توصیه شده توسط %s</string>
-    <string name="recommend_required">فیلد ضروری</string>
+    <string name="recommend_required">*</string>
 
 <string name="play_button">دکمه پخش</string>
     <string name="follow_un_success">دنبال نکن!</string>
@@ -556,4 +556,33 @@
     <string name="no_choice">انتخاب دیگری ندارید</string>
     <string name="topic_purple_blue_gary">نیروی هوایی آبی</string>
     <string name="recommend_write_des_hint">پیشنهادهای مفید توسط کاربران زیادی که مثل شما علاقه‌ای مشابه دارند، دیده می‌شود.</string>
+    <string name="download_mkdir">مسیر دانلود</string>
+    <string name="download_mkdir_internal_storage_size_des">%1$sرایگان,کل%2$s</string>
+    <string name="download_mkdir_internal_storage_entries">"SD "</string>
+    <string name="download_mkdir_internal_storage_entries1">SD 1</string>
+    <string name="download_mkdir_external_storage_fill_toast">فضای ذخیره سازی پر است و نمی‌توان برنامه‌ای را دانلود کرد.</string>
+
+    <string name="recommend_not_found">فهرست نشده است</string>
+    <string name="user_detail_focus">دنبال می‌کنید</string>
+    <string name="user_detail_fans">دنبال کننده</string>
+    <string name="user_detail_praise">پسندیده‌ها</string>
+    <string name="user_detail_tab_detail">نظرات</string>
+    <string name="user_detail_tab_reply">پاسخ‌ها</string>
+
+    <string name="user_focus_tab_apps">گروه‌ها</string>
+    <string name="user_focus_title_my">دنبال شونده‌های من</string>
+    <string name="user_focus_title">دنبال شده‌اید توسط %s</string>
+
+    <string name="goto_google_play">خرید کن</string>
+
+    <string name="menu_follow_all">همه کسانی که دنبال می‌کنید</string>
+    <string name="menu_follow_group">گروه‌های دنبال‌ کرده‌اید</string>
+    <string name="menu_follow_all_tab">دنبال می‌کنید</string>
+    <string name="menu_follow_group_tab">گروه‌ها</string>
+
+    <string name="menu_follow_user_tab">دوستان</string>
+    <string name="choose_app">انتخاب برنامه</string>
+    <string name="publish_comment">ارسال نظر</string>
+
+<string name="user_focus_tab_users">دوستان</string>
     </resources>

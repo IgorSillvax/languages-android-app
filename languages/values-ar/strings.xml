@@ -308,7 +308,7 @@
 	<item quantity="other">رؤية كافة الـ<xliff:g example="1" id="count">%1$d</xliff:g>رد</item>
 </plurals>
 
-    <string name="app_detail_customer_reviews">تعليقات المستخدمين</string>
+    <string name="app_detail_customer_reviews">تعليقات</string>
     <string name="app_detail_comment_type_web">web</string>
     <string name="app_submit_submit">ارسال…</string>
     <string name="app_submit_anonymous_comment">اضافة تعليق</string>
@@ -330,7 +330,7 @@
 
     <string name="app_detail_comment_order_array_recent">مؤخرا</string>
     <string name="app_detail_comment_order_array_newest">حديثة</string>
-    <string name="app_detail_comment_order_array_best">الأكثر إنتشار</string>
+    <string name="app_detail_comment_order_array_best">الأفضل</string>
 
     <string name="download_complete_installation_setting">خيارات التثبيت بعد التحميل</string>
 
@@ -344,7 +344,7 @@
     <string name="reply_dialog_marked_words">ضغط بشكل مطول على الصورة لحذفها.</string>
     <string name="reply_comment">رد على التعليق</string>
     <string name="save_original_image">المحافظة على الصورة الاصليه</string>
-    <string name="already_save">تم الحفظ <xliff:g id="path" example="ApKPure/photo">%1$s</xliff:g></string>
+    <string name="already_save">تم الحفظ &lt;xliff:g xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\"example=\"ApKPure/photo\" id=\"path\" &gt;%1$s&lt;/xliff:g&gt;<xliff:g id="path" example="ApKPure/photo">%1$s</xliff:g></string>
 
     <string name="load_end">لايوجد المزيد</string>
     <string name="load_failed_click_retry">فشل التشغيل , اضغط على اعادة المحاولة</string>
@@ -448,7 +448,7 @@
     <string name="app_detail_comment_order_array_new">الأحدث</string>
     <string name="message_all">الكل</string>
     <string name="message_reply">الردود</string>
-    <string name="message_praise">تصويت للأعلى</string>
+    <string name="message_praise">إعجاب</string>
     <string name="message_notifications_praise">تصويت تعليقك للأعلى</string>
     <string name="message_notifications_reply">رد على تعليقك</string>
     <string name="message_notifications_login">رجاءا قم بتسجيل الدخول لرؤية هذه الصفحه.</string>
@@ -464,4 +464,24 @@
     <string name="no_download">لايوجد تنزيل</string>
     <string name="downloads">تحميلات</string>
 
+    <string name="check_update_replace">الإصدار الرسمي</string>
+    <string name="check_update_beta">الإصدار التجريبي</string>
+    <string name="app_detail_comment_order_array_old">قديم</string>
+
+    <string name="app_detail_comment_join_group_bt">مجموعة</string>
+    <string name="download_mkdir">مسار التحميل</string>
+    <string name="download_mkdir_internal_storage_size_des">%1$sخال,المجموع%2$s</string>
+    <string name="download_mkdir_internal_storage_entries">"SD "</string>
+    <string name="download_mkdir_internal_storage_entries1">SD 1</string>
+    <string name="download_mkdir_external_storage_fill_toast">ذاكرة التخزين الغير كافية قد تسبب عدم القدرة على تحميل اي تطبيق.</string>
+
+    <string name="download_mkdir_internal_storage_values">ذاكرة_داحلية</string>
+    <string name="download_mkdir_external_storage_values">ذاكرة_خارجية</string>
+
+    <string name="change_language_failed">فشل تبديل اللغة!</string>
+    <string name="comment_reply_tell_msg">لقد تمت ازالة هذا التعليق !</string>
+
+    <string name="notification_setting">الإشعارات</string>
+    <string name="reply_notification">إشعارات الرد</string>
+    <string name="reply_notification_msg"></string>
     </resources>

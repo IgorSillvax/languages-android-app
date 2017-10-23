@@ -114,7 +114,7 @@
     <string name="_name__download_failed"><xliff:g example="APKPure" id="name">%1$s</xliff:g> Falha no download</string>
     <string name="touch_to_download_it_again">Toque para fazer o download novamente</string>
 
-    <string name="download_percent"><xliff:g example="50" id="percent">%1$d</xliff:g> %%</string>
+    <string name="download_percent"><xliff:g xmlns:xliff="urn:oasis:names:tc:xliff:documento:1.2" example="50" id="percent">%1$d</xliff:g> %%</string>
     <string name="pause">Pausar</string>
     <string name="pause_all">Pausar Todos</string>
     <string name="continue_">Continuar</string>
@@ -208,16 +208,16 @@ Detalhe do problema:
     <string name="deselect_all">Desmarcar todos</string>
     <string name="ignored">Ignorado</string>
     <plurals name="total__count__apps__size_">
-        <item quantity="one">
-            <![CDATA[Total: <b><font color="%1$d">%2$d</font></b> app, <b><font color="%1$d">%3$s</font></b>]]>
-        </item>
-        <item quantity="other">
-            <![CDATA[Total: <b><font color="%1$d">%2$d</font></b> apps, <b><font color="%1$d">%3$s</font></b>]]>
-        </item>
-    </plurals>
-    <string name="total_zero_app">
-        <![CDATA[Total: <b><font color="%1$d">0</font></b> app]]>
-    </string>
+	<item quantity="one">"
+ Total: &lt;b&gt;&lt;font cor=%1$d&gt;%2$d&lt;/font&gt;&lt;/b&gt; app, &lt;b&gt;&lt;font color=%1$d&gt;%3$s&lt;/font&gt;&lt;/b&gt;
+ "</item>
+	<item quantity="other">"
+ Total: &lt;b&gt;&lt;font cor=%1$d&gt;%2$d&lt;/font&gt;&lt;/b&gt; apps, &lt;b&gt;&lt;font color=%1$d&gt;%3$s&lt;/font&gt;&lt;/b&gt;
+ "</item>
+</plurals>
+    <string name="total_zero_app">"
+ Total: &lt;b&gt;&lt;font cor=%1$d&gt;0&lt;/font&gt;&lt;/b&gt; app
+ "</string>
     <string name="general">Geral</string>
     <string name="language">Idioma</string>
     <string name="auto">Automático</string>
@@ -538,7 +538,7 @@ Que é necessário para escanear o código QR.</string>
     <string name="save_as_favorite">Salvar como favorito</string>
     <string name="favorite_saved">Favorito salvo</string>
     <string name="failed_to_save_favorite">Falha ao salvar o favorito</string>
-    <string name="remove_as_favorite">Remover como favorito</string>
+    <string name="remove_as_favorite">Remover favorito</string>
     <string name="remove_failed">Falha ao remover</string>
 
     <string name="collection_comment">Comentários</string>
@@ -571,9 +571,47 @@ Que é necessário para escanear o código QR.</string>
     <string name="recommend_comment">Enviar</string>
     <string name="recommend_comment_error">Algum erro aconteceu!</string>
     <string name="recommend_description_title">Instruções:</string>
-    <string name="recommend_description">1. As recomendações aprovadas serão listadas na seção DESCOBRIR.
-2. Você só pode recomendar os aplicativos atualmente instalados em seu dispositivo Android.</string>
+    <string name="recommend_description">1. As recomendações aprovadas serão listadas na seção RECOMENDADO.
+
+2. Você só pode recomendar os aplicativos atualmente instalados em seu dispositivo Android.
+
+3. Notificar o APKPure para adicionar aplicativos não indexados, por favor conclua os formulários de recomendação primeiro.</string>
     <string name="recommend_user_recommend">Recomendado por %s</string>
-    <string name="recommend_required">Campo obrigatório</string>
+    <string name="recommend_required">* Obrigatório</string>
+
+<string name="download_mkdir">Caminho do download</string>
+    <string name="download_mkdir_internal_storage_size_des">%1$s Livre, Total %2$s</string>
+    <string name="download_mkdir_internal_storage_entries">"SD "</string>
+    <string name="download_mkdir_internal_storage_entries1">SD 1</string>
+    <string name="download_mkdir_external_storage_fill_toast">Um armazenamento insuficiente disponível pode fazer com que você não possa baixar nenhum aplicativo.</string>
+
+    <string name="download_mkdir_internal_storage_values">memória_interna</string>
+    <string name="download_mkdir_external_storage_values">memória_externa</string>
+
+    <string name="recommend_not_found">Não indexado</string>
+    <string name="recommend_not_fount_info">Notificar APKPure para adicionar \"% s\", você precisa terminar os formulários.</string>
+
+    <string name="user_detail_focus">Seguindo</string>
+    <string name="user_detail_fans">Seguidor</string>
+    <string name="user_detail_praise">Curtidas</string>
+    <string name="user_detail_tab_detail">Comentários</string>
+    <string name="user_detail_tab_reply">Respostas</string>
+
+    <string name="user_focus_tab_users">Pessoas</string>
+    <string name="user_focus_tab_apps">Grupos</string>
+    <string name="user_focus_title_my">Meus seguidores</string>
+    <string name="user_focus_title">Seguido por</string>
+
+    <string name="goto_google_play">Comprar</string>
+
+    <string name="menu_follow_all">Todos seguindo</string>
+    <string name="menu_follow_user">Pessoas Seguidas</string>
+    <string name="menu_follow_group">Grupos seguidos</string>
+    <string name="menu_follow_all_tab">Seguindo</string>
+    <string name="menu_follow_user_tab">Pessoas</string>
+    <string name="menu_follow_group_tab">Grupos</string>
+
+    <string name="choose_app">Selecione a Aplicação</string>
+    <string name="publish_comment">Publicar um comentário</string>
 
 </resources>

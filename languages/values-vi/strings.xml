@@ -1,6 +1,5 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources
-    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<?xml version='1.0' encoding='UTF-8'?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
     <string name="action_settings">Cài đặt</string>
     <string name="action_search">Tìm kiếm</string>
@@ -202,4 +201,99 @@
 
     <string name="delete_all">Xóa toàn bộ</string>
     <string name="properties">Đặc tính</string>
-</resources>
+<string name="recommend">Khám phá</string>
+    <string name="check_update_replace">Phiên bản chính thức</string>
+    <string name="check_update_beta">Bản thử nghiệm</string>
+    <string name="want_to_delete_all_files">Bạn muốn xóa tất cả tệp?</string>
+    <string name="publish_comment">Đăng bình luận</string>
+
+<string name="similar_or_related">Tương tự hoặc Có liên quan</string>
+    <string name="more_from_developer">Nhiều hơn từ nhà phát triển</string>
+    <string name="more_large">Nhiều hơn</string>
+    <string name="flag_as_inappropriate">Gắn cờ không thích hợp</string>
+    <string name="installed">Đã cài đặt</string>
+    <string name="want_to_remove_all_download_items">Bạn có muốn loại bỏ tất cả các tệp đã tải về?</string>
+    <string name="download_over_cellular_content">Bạn đang sử dụng mạng điện thoại để tải ứng dụng. Bạn có muốn tiếp tục?</string>
+
+    <string name="participate_ultra_download_beta_test_title">Tải nhiều thêm nữa và tận hưởng tốc độ tải nhanh hơn</string>
+    <string name="enable">Có thể</string>
+
+    <string name="report">Báo cáo</string>
+    <string name="contact_us">Liên hệ với chúng tôi</string>
+    <string name="feedback">Ý kiến phản ánh</string>
+
+    <string name="unignore">Không bỏ qua</string>
+    <string name="changing_language">Đang thay đổi ngôn ngữ, xin đợi…</string>
+    <string name="download_via_wifi_only">Chỉ tải về qua Wi-Fi</string>
+    <string name="update___count__">Cập nhật (<xliff:g example="3" id="count">%1$d</xliff:g>)</string>
+    <plurals name="total__count__apps__size_">
+	<item quantity="one">"
+ Tổng cộng: &lt;b&gt;&lt;font color=%1$d&gt;%2$d&lt;/font&gt;&lt;/b&gt; app, &lt;b&gt;&lt;font color=%1$d&gt;%3$s&lt;/font&gt;&lt;/b&gt;
+ "</item>
+	<item quantity="other"/>
+</plurals>
+    <string name="delete_packages_after_installation">Xóa gói sau khi cài đặt</string>
+
+    <string name="_name__installation_completed"><xliff:g example="APKPure" id="name">%1$s</xliff:g> cài đặt đã hoàn thành</string>
+    <string name="auto_service_install_accessibility_title">Tự động cài đặt</string>
+    <string name="auto_service_dialog_title">Có thể tự động cài đặt</string>
+    <string name="auto_service_dialog_message">Tự động cài đặt cần sự ủy quyền của bạn trên diện thoại, nó an toàn để sử dụng mà không có bất kỳ sự rủi ro nào.</string>
+
+    <string name="auto_service_title">AKPure Tự động Cài đặt</string>
+    <string name="auto_service_install">Cài đặt</string>
+    <string name="auto_service_ensure">Tốt</string>
+    <string name="auto_service_next">Tiếp theo</string>
+    <string name="auto_service_exchange">Thay thế</string>
+    <string name="auto_service_complete">Đã hoàn thành</string>
+
+    <string name="auto_service_install__material_">CÀI ĐẶT</string>
+    <string name="auto_service_ensure__material_">Tốt</string>
+    <string name="auto_service_next__material_">Tiếp theo</string>
+    <string name="auto_service_exchange__material_">THAY THẾ</string>
+    <string name="auto_service_complete__material_">ĐÃ HOÀN THÀNH</string>
+
+    <string name="auto_install_via_root_title">Tự động Cài đặt (chế độ Root máy)</string>
+    <string name="auto_install_via_root_summary">Chỉ dành cho điện thoại Android và tablet đã root máy</string>
+
+    <string name="app_detail_customer_reviews">Bình luận</string>
+    <string name="app_detail_comment_type_web">trang web</string>
+    <string name="app_submit_anonymous_comment">Thêm bình luận</string>
+    <string name="app_submit_title_toast">Bạn cần phải viết tiêu đề</string>
+    <string name="app_submit_msg_toast">Bạn cần phải viết gì đó!</string>
+    <string name="app_submit_name_toast">Xin điền nickname của bạn!</string>
+    <string name="app_submit_email_toast">Xin nhập chính xác địa chỉ email!</string>
+    <string name="app_submit_title_hint">Xin viết tiêu đề</string>
+    <string name="app_submit_msg_hint">Xin viết ý kiến của bạn</string>
+    <string name="app_submit_nickname">Biệt danh</string>
+    <string name="app_submit_email">Hộp thư</string>
+    <string name="app_submit_reply_to">Trả lời</string>
+
+    <string name="app_detail_tab_one">Chi tiết</string>
+    <string name="app_detail_tab_two">Bình luận</string>
+    <string name="app_detail_tab_three">Có liên quan</string>
+
+    <string name="app_detail_comment_order_array_default">Sắp xếp mặc định</string>
+    <string name="app_detail_comment_order_array_most_recent">Gần đây nhất</string>
+    <string name="app_detail_comment_order_array_new">Mới nhất</string>
+    <string name="app_detail_comment_order_array_best">Tốt nhất</string>
+    <string name="app_detail_comment_order_array_old">Cũ</string>
+
+    <string name="app_detail_comment_join_group_bt">Nhóm</string>
+    <string name="download_complete_installation_setting">Lựa chọn cài đặt sau khi tải</string>
+
+    <string name="download_complete_installation_setting_entries_always">Luôn luôn cài đặt</string>
+    <string name="download_complete_installation_setting_entries_never">Không bao giờ cài đặt</string>
+
+    <string name="properties_message">"
+ &lt;b&gt;Đường dẫn:&lt;/b&gt; %1$s&lt;br&gt;&lt;b&gt;Dung lượng:&lt;/b&gt; %2$s&lt;br&gt;&lt;b&gt;Lần cuối thay đổi:&lt;/b&gt; %3$s
+ "</string>
+    <string name="participate_ultra_download_beta_test_content">Siêu tải xuống đang trong giai đoạn beta, hãy cho chúng tôi biết nếu bạn tìm ra vài vấn đề. Bạn có thể dễ dàng vô hiệu hoá nó trong Cài đặt.</string>
+    <string name="share_app_url_comment"><xliff:g example="APKPure" id="user_name">%1$s</xliff:g>\'s comments on <xliff:g example="APKPure" id="app_name">%2$s</xliff:g> (from @<xliff:g example="APKPure" id="social_network_name">%3$s</xliff:g>), <xliff:g example="https://apkpure.com/p/com.apkpure.aegon" id="app_url">%4$s</xliff:g></string>
+
+    <string name="total_zero_app">"
+ Tổng cộng: &lt;b&gt;&lt;font color=%1$d&gt;0&lt;/font&gt;&lt;/b&gt; ứng dụng
+ "</string>
+
+    <string name="enable_ultra_download">Bật Siêu tải về</string>
+    <string name="enable_ultra_download_summary"></string>
+    </resources>

@@ -27,7 +27,7 @@
     <string name="app_management">ইনস্টল করা আছে</string>
     <string name="app_uninstall">এ্যাপস আনইনস্টল</string>
     <string name="apk_management">এপেকে ম্যানেজমেন্ট</string>
-    <string name="installation_failed">ইনস্টল করতে ব্যার্থ</string>
+    <string name="installation_failed">ইনস্টল করতে ব্যর্থ</string>
     <string name="invalid_app_detail">এ্যাপসের তথ্য ভুল আছে।</string>
     <string name="download_management">ডাউনলোড ব্যাবস্থাপনা</string>
     <string name="settings">পরিষেবা</string>
@@ -42,8 +42,8 @@
 
     <string name="install">ইন্সটল</string>
     <string name="open">খুলুন</string>
-    <string name="delete">কাঁটা</string>
-    <string name="delete_all">সব কাঁটুন</string>
+    <string name="delete">মুছুন</string>
+    <string name="delete_all">সব মুছুন</string>
     <string name="properties">বিস্তারিত</string>
     <string name="apk_xapk_management">এপেকে/ এক্স এপেকে ব্যাবস্থাপনা</string>
     <string name="properties_message">
@@ -58,8 +58,8 @@
     <string name="io_error">IO Error. মনে হয় এই এপস টি সফল ভাবে ইনস্টল করতে আপনার যতেষ্ট পরিমাণ জায়গা নেই।</string>
     <string name="file_format_error">ফাইল চিনতে ব্যার্থ।</string>
     <string name="parsing_xapk">Parsing XAPK …</string>
-    <string name="installing_obb">ইনস্টল ওবিবি ফাইল…</string>
-    <string name="extracting_apk">এপিকে ফাইল খোলা হচ্ছে …</string>
+    <string name="installing_obb">ওবিবি ফাইল ইনস্টল হচ্ছে …</string>
+    <string name="extracting_apk">এপিকে ফাইলের প্রতিলিপি তৈরি করা হচ্ছে …</string>
     <string name="installing_apk">ইনস্টলিং এপেকে…</string>
 
     <string name="uninstall">আনইনস্টল</string>
@@ -76,7 +76,7 @@
     <string name="updated_">হালনাগাদ হয়েছে:</string>
     <string name="size_">সাইজ:</string>
     <string name="permissions_">অনুমতি:</string>
-    <string name="type_">জাত:</string>
+    <string name="type_">ধরন:</string>
     <string name="category_">ক্যাটেগরি:</string>
     <string name="more">আরো</string>
     <string name="permissions">অনুমতি গুলো</string>
@@ -104,30 +104,30 @@
         <item quantity="other"><xliff:g example="2" id="count">%1$d</xliff:g> New Updates Are Available</item>
     </plurals>
 
-    <string name="launching_please_wait">খুলা হচ্ছে, দয়া করে অপেক্ষা করুন…</string>
+    <string name="launching_please_wait">খোলা হচ্ছে,দয়া করে অপেক্ষা করুন…</string>
 
     <string name="failed">অনুত্তীর্ণ</string>
     <plurals name="_count__item_is_downloading">
-        <item quantity="one"><xliff:g example="1" id="count">%1$d</xliff:g> item is downloading</item>
-        <item quantity="other"><xliff:g example="2" id="count">%1$d</xliff:g> items are downloading</item>
-    </plurals>
-    <string name="downloads_complete">ডাউনলোড করা হয়েছে</string>
+	<item quantity="one"><xliff:g example="1" id="count">%1$d</xliff:g> বিষয়টি ডাউনলোড হচ্ছে</item>
+	<item quantity="other"><xliff:g example="2" id="count">%1$d</xliff:g> বিষয়গুলো ডাউনলোড হচ্ছে</item>
+</plurals>
+    <string name="downloads_complete">ডাউনলোড সম্পূণ হয়েছে</string>
     <string name="touch_for_view_all_downloads">টাচ করে সকল ডাউনলোড দেখুন</string>
-    <string name="_name__download_failed"><xliff:g example="APKPure" id="name">%1$s</xliff:g> download failed</string>
+    <string name="_name__download_failed"><xliff:g example="APKPure" id="name">%1$s</xliff:g> ডাউনলোড সফল হয়নি</string>
     <string name="touch_to_download_it_again">এটাকে আবার ডাউনলোড করতে আবার টাচ করুন</string>
 
     <string name="download_percent"><xliff:g example="৫০" id="পারসেন্ট">%1$d</xliff:g> ℅℅</string>
-    <string name="pause">সাময়িক আটকান</string>
-    <string name="pause_all">সব আটকান</string>
+    <string name="pause">বিরতি</string>
+    <string name="pause_all">সবগুলোতে বিরতি দিন</string>
     <string name="continue_">অবিরত</string>
     <string name="continue_all">সব অবিরত</string>
     <string name="restart">পুনরায় চালু</string>
     <string name="download">ডাউনলোড</string>
     <string name="downloading">ডাউনলোডিং</string>
-    <string name="waiting">অপেক্ষা করুন</string>
-    <string name="preparing">তৈরি হচ্ছে</string>
-    <string name="completed">শেষ হয়েছে</string>
-    <string name="paused">আটকানো হয়েছে</string>
+    <string name="waiting">প্রতীক্ষা করুন</string>
+    <string name="preparing">তৈরি করা হচ্ছে</string>
+    <string name="completed">সম্পন্ন হয়েছে</string>
+    <string name="paused">বিরতি দেয়া হয়েছে</string>
     <string name="file_invalid">ফাইল ভুল</string>
     <string name="file_missing">ফাইল পাওয়া যাচ্ছে না</string>
     <string name="waiting_to_download">ডাউনলোডের জন্য অপেক্ষায়</string>
@@ -135,8 +135,8 @@
     <string name="expired">মেয়াদ উত্তীর্ণ</string>
     <string name="installed">ইনস্টলেড</string>
     <string name="detail">তথ্য</string>
-    <string name="remove">কাটা</string>
-    <string name="remove_all">সব কাটা</string>
+    <string name="remove">সরানো</string>
+    <string name="remove_all">সব সরান</string>
     <string name="want_to_remove_download_item">আপনি কি এই ডাউনলোড আইটেম টি কাটতে চান?</string>
     <string name="want_to_remove_all_download_items">আপনি কি সব ডাউনলোডকৃত আইটেম গুলি কাটতে চান?</string>
     <string name="delete_downloaded_file">ডাউনলোড করা ফাইল টি ডিলেট হয়েছে</string>
@@ -162,9 +162,9 @@
 
     <string name="_name__is_up_to_date"><xliff:g example="এপেকে পিউর" id="name">%1$s</xliff:g> এটা আজকের হালনাগাদে।</string>
     <string name="new_version_available_title">নতুন সংস্করণ উপলব্ধ</string>
-    <string name="new_version_available_message">
-        <![CDATA[<b>নতুন ভার্সন:</b> %1$s<br><br><b>নতুন কি:</b><br>%2$s]]>
-    </string>
+    <string name="new_version_available_message">"
+ &lt;b&gt;সর্বশেষ ভার্সন:&lt;/b&gt; %1$s&lt;br&gt;&lt;br&gt;&lt;b&gt;নতুন সংযোজন:&lt;/b&gt;&lt;br&gt;%2$s
+ "</string>
     <string name="report__">প্রতিবেদন…</string>
     <string name="report_problem__">সমস্যার প্রতিবেদন…</string>
     <string name="report_problem_subject">সমস্যা প্রতিবেদন</string>
@@ -179,11 +179,11 @@
     <string name="incompatible_this_app">
         <![CDATA[<big><b><font color="%1$d">আপনার ডিভাইস এই এপসের সাথে কম্পেটেভল নয়।</font></b></big><br><br>আপনি কি অবিরত রাখতে চান?]]>
     </string>
-    <string name="this_app_not_usable">
-        <![CDATA[<big><b><font color="%1$d">এই এপস ব্যাবহারে অনপযোগী।</font></b></big><br><br>আপনি কি অবিরত রাখতে চান?]]>
-    </string>
+    <string name="this_app_not_usable">"
+ &lt;big&gt;&lt;b&gt;&lt;font color=%1$d&gt;এই এপস ব্যবহারে অনুপযোগী।&lt;/font&gt;&lt;/b&gt;&lt;/big&gt;&lt;br&gt;&lt;br&gt;আপনি কি অবিরত রাখতে চান?
+ "</string>
 
-    <string name="setting">পরিষেবা</string>
+    <string name="setting">সেটিংস</string>
     <string name="external_storage_not_usable">
  <big><b>আমাদের আপনার এসডি কার্ড ব্যবহার করতে হবে। নিশ্চিত হোন যে এটি ব্যবহারযোগ্য।</b></big>
  </string>
@@ -192,14 +192,14 @@
  </string>
 
     <string name="share">শেয়ার</string>
-    <string name="share_app_url">Download <xliff:g example="APKPure" id="app_name">%1$s</xliff:g> APK (from @<xliff:g example="APKPure" id="social_network_name">%2$s</xliff:g>), <xliff:g example="https://apkpure.com/p/com.apkpure.aegon" id="app_url">%3$s</xliff:g></string>
+    <string name="share_app_url">ডাউনলোড <xliff:g example="APKPure" id="app_name"> %1$s</xliff:g>"  এপিকে(হতে @"<xliff:g example="APKPure" id="social_network_name"> %2$s</xliff:g> ), <xliff:g example="https://apkpure.com/p/com.apkpure.aegon" id="app_url"> %3$s</xliff:g></string>
 
-    <string name="_name__version_history"><xliff:g example="APKPure" id="name">%1$s</xliff:g> Version History</string>
-    <string name="update__date___size_">Update: <xliff:g example="Mar 3, 2016" id="date">%1$s</xliff:g>, <xliff:g example="1024 kB" id="size">%2$s</xliff:g></string>
+    <string name="_name__version_history"><xliff:g example="APKPure" id="name">%1$s</xliff:g> সংরক্ষণের ইতিহাস</string>
+    <string name="update__date___size_">আপডেট: <xliff:g example="Mar 3, 2016" id="date">%1$s</xliff:g>, <xliff:g example="1024 kB" id="size">%2$s</xliff:g></string>
 
-    <string name="update_all">সব হালনাগাদ</string>
-    <string name="update___count__">Update (<xliff:g example="3" id="count">%1$d</xliff:g>)</string>
-    <string name="ignore">অগোচর</string>
+    <string name="update_all">সবগুলো হালনাগাদ করুন</string>
+    <string name="update___count__">আপডেট (<xliff:g example="3" id="count">%1$d</xliff:g>)</string>
+    <string name="ignore">উপেক্ষা</string>
     <string name="unignore">বাতিল নয়</string>
     <string name="select">সিলেক্ট</string>
     <string name="cancel">বাতিল</string>
@@ -207,16 +207,16 @@
     <string name="deselect_all">সব নন সিলেক্ট</string>
     <string name="ignored">উপেক্ষিত</string>
     <plurals name="total__count__apps__size_">
-        <item quantity="one">
-            <![CDATA[Total: <b><font color="%1$d">%2$d</font></b> app, <b><font color="%1$d">%3$s</font></b>]]>
-        </item>
-        <item quantity="other">
-            <![CDATA[Total: <b><font color="%1$d">%2$d</font></b> apps, <b><font color="%1$d">%3$s</font></b>]]>
-        </item>
-    </plurals>
-    <string name="total_zero_app">
-        <![CDATA[Total: <b><font color="%1$d">0</font></b> app]]>
-    </string>
+	<item quantity="one">"
+ মোট: &lt;b&gt;&lt;font color=%1$d&gt;%2$d&lt;/font&gt;&lt;/b&gt; অ্যাপ, &lt;b&gt;&lt;font color=%1$d&gt;%3$s&lt;/font&gt;&lt;/b&gt;
+ "</item>
+	<item quantity="other">"
+ মোট: &lt;b&gt;&lt;font color=%1$d&gt;%2$d&lt;/font&gt;&lt;/b&gt; অ্যাপসমূহ, &lt;b&gt;&lt;font color=%1$d&gt;%3$s&lt;/font&gt;&lt;/b&gt;
+ "</item>
+</plurals>
+    <string name="total_zero_app">"
+ মোট: &lt;b&gt;&lt;font color=%1$d&gt;0&lt;/font&gt;&lt;/b&gt; অ্যাপ
+ "</string>
 
     <string name="general">সাধারণ</string>
     <string name="language">ভাষা</string>
@@ -224,11 +224,11 @@
     <string name="download_via_wifi_only">ডাউনলোড করুন শুধু ওয়াই-ফাইয়ের মাধ্যমে</string>
     <string name="enable_ultra_download">সক্রিয় করুন আল্ট্রা ডাউনলোড</string>
     <string name="enable_ultra_download_summary">অতিডাউনলোড বিটা পরীক্ষায় আছে। কোনো সমস্যা হলে আমাদের জানান।</string>
-    <string name="installation">স্থাপন</string>
+    <string name="installation">ইনস্টলেশন</string>
     <string name="show_notification_after_installation">ইনস্টলেশনের পরে নোটিফিকেশন দেখান</string>
     <string name="delete_packages_after_installation">ইনস্টলেশনের পরে প্যাকেজ মুছে ফেলুন</string>
 
-    <string name="_name__installation_completed"><xliff:g example="APKPure" id="name">%1$s</xliff:g> installation completed</string>
+    <string name="_name__installation_completed"><xliff:g example="APKPure" id="name">%1$s</xliff:g> ইনস্টলেশন সম্পূর্ণ</string>
     <string name="touch_to_open">টাচ করে খুলুন।</string>
 
     <string name="more_from_developer">ডেভোলপারের কাছ থেকে আরো</string>
@@ -265,7 +265,7 @@ The above mentioned functions support Android 4.1+, no root permission needed. W
     <string name="auto_service_exchange__material_">প্রতিস্থাপন</string>
     <string name="auto_service_complete__material_">সম্পন্ন</string>
 
-    <string name="auto_install_via_root_title">স্বয়ংক্রিয় ইনস্টল ( মুল ধরন )</string>
+    <string name="auto_install_via_root_title">স্বয়ংক্রিয় ইনস্টল (রুট প্রয়োজন )</string>
     <string name="auto_install_via_root_summary">শুধুমাত্র রুট করা স্মার্টফোন এবং ট্যাবলেট এর ক্ষেত্রে।</string>
 
     <string name="download_complete_installation_setting">ডাউনলোড পরবর্তী ইনস্টল অপশন</string>
@@ -301,10 +301,10 @@ The above mentioned functions support Android 4.1+, no root permission needed. W
     <string name="app_detail_tab_two">মন্তব্যগুলো</string>
     <string name="app_detail_tab_three">সম্বন্ধনীয়</string>
 
-    <string name="app_detail_comment_order_array_default">স্বয়ংক্রিয়ভাবে বাছাই করুন</string>
+    <string name="app_detail_comment_order_array_default">স্বয়ংক্রিয়ভাবে তালিকা করুন</string>
     <string name="app_detail_comment_order_array_most_recent">সাম্প্রতিক</string>
     <string name="app_detail_comment_order_array_new">সর্বশেষ</string>
-    <string name="app_detail_comment_order_array_best">উৎকৃষ্ট</string>
+    <string name="app_detail_comment_order_array_best">উত্তম</string>
     <string name="app_detail_comment_order_array_old">পুরোনো</string>
 
     <string name="app_detail_comment_join_group_bt">দল</string>
@@ -315,12 +315,12 @@ The above mentioned functions support Android 4.1+, no root permission needed. W
     <string name="reply">উত্তর দিন</string>
     <string name="input_reply_content">উত্তরের জন্য কিছু লিখুন:</string>
     <string name="publish">পোস্ট করুন</string>
-    <string name="reply_dialog_marked_words">মুছে ফেলতে ছবিতে দীর্ঘ চাপ দিন।</string>
+    <string name="reply_dialog_marked_words">মুছে ফেলতে ছবিতে অধিক সময় চাপ দিন।</string>
     <string name="reply_comment">মন্তব্যের জবাব দিন</string>
     <string name="save_original_image">আসল ছবি সংরক্ষণ করুন</string>
     <string name="already_save">সংরক্ষিত হয়েছে<xliff:g example="ApKPure/photo" id="path">%1$s</xliff:g></string>
 
-    <string name="load_end">আর কিছু নেই</string>
+    <string name="load_end">আর কোন তথ্য নেই</string>
     <string name="load_failed_click_retry">লোড করতে ব্যর্থ।আবার চেষ্টা করুন এ ক্লিক করুন</string>
     <string name="loading">লোড হচ্ছে…</string>
 
@@ -330,7 +330,7 @@ The above mentioned functions support Android 4.1+, no root permission needed. W
     <string name="zxing_msg_parser_status">স্ক্যান করতে ব্যর্থ। আবার চেষ্টা করুন।</string>
 
     <string name="tip_permission_camera_storage">ক্যামেরা ও এসডি কার্ড ব্যবহারের অনুমতি নেই, অনুমতি ব্যবস্থাপনা খুলুন</string>
-    <string name="permission_denied">অনুমতি নেই!</string>
+    <string name="permission_denied">অনুমতি বাতিল করা হয়েছে!</string>
 
     <string name="login_title">প্রবেশ করুন</string>
     <string name="sign_out">বের হন</string>
@@ -384,8 +384,8 @@ The above mentioned functions support Android 4.1+, no root permission needed. W
     <string name="update_pwd_save_bt">সংরক্ষণ</string>
     <string name="update_save_success">সংরক্ষণ সফল!</string>
     <string name="crop__cancel" ignore="ButtonCase">বাতিল</string>
-    <string name="crop__done">সফল</string>
-    <string name="crop__pick_error">ছবির প্রকৃতি অসমর্থিত</string>
+    <string name="crop__done">সম্পূর্ণ হয়েছে</string>
+    <string name="crop__pick_error">ছবির ধরণ অগ্রহণযোগ্য</string>
     <string name="crop__saving">ছবি সংরক্ষণ হচ্ছে…</string>
     <string name="crop__wait">অনুগ্রহ করে অপেক্ষা করুন…</string>
 
@@ -418,7 +418,7 @@ The above mentioned functions support Android 4.1+, no root permission needed. W
     <string name="login_user_name">ব্যবহারকারীর নাম</string>
     <string name="login_user_password">পাসওয়ার্ড</string>
     <string name="login_user_sign_in">প্রবেশ করুন</string>
-    <string name="login_choose">অথবা আপনার হিসাব দিয়ে প্রবেশ করুন</string>
+    <string name="login_choose">অথবা আপনার একাউন্ট দিয়ে প্রবেশ করুন</string>
     <string name="login_new_user">নতুন ব্যবহারকারী নিবন্ধন</string>
     <string name="login_post_as_a_guest">অতিথি হিসেবে পোস্ট করুন</string>
 
@@ -551,13 +551,49 @@ The above mentioned functions support Android 4.1+, no root permission needed. W
     <string name="recommend_state_success">সুপারিশ করা হয়েছে</string>
     <string name="recommend_select_game">একটি অ্যাপ সুপারিশ করুন</string>
     <string name="recommend_write_des">বিবরণ</string>
-    <string name="recommend_write_des_hint">একটি সহায়তাকারী সমালোচনা অনেকেই দেখবেন যাদের পছন্দ আপনার মত।</string>
+    <string name="recommend_write_des_hint">একটি সহায়ক সমালোচনা অনেকেই দেখবেন যাদের পছন্দ আপনার মত।</string>
     <string name="recommend_comment">পাঠান</string>
     <string name="recommend_comment_error">কিছু ভুল হয়েছে!</string>
     <string name="recommend_description_title">নির্দেশনাবলী:</string>
     <string name="recommend_description">১. অনুমোদিত সুপারিশগুলো আবিষ্কার অংশে তালিকাভুক্ত হবে।
-২. আপনি শুধুমাত্র আপনার ফোনে ইনস্টল থাকা অ্যাপগুলো সুপারিশ করতে পারবেন।</string>
+২. আপনি শুধুমাত্র আপনার ফোনে ইনস্টল থাকা অ্যাপগুলো সুপারিশ করতে পারবেন।
+৩. তালিকাভুক্ত অ্যাপ্লিকেশন যোগ করার জন্য APKPure অবহিত করুন, প্রথমে সুপারিশ ফর্মগুলি সম্পূর্ণ করুন।</string>
     <string name="recommend_user_recommend">%s দ্বারা সুপারিশ করা হয়েছে</string>
-    <string name="recommend_required">দরকারি ক্ষেত্র</string>
+    <string name="recommend_required">*</string>
+
+<string name="download_mkdir">ডাউনলোড লোকেশন</string>
+    <string name="download_mkdir_internal_storage_size_des">%1$sফ্রি,মোট%2$s</string>
+    <string name="download_mkdir_internal_storage_entries">"এস_ডি "</string>
+    <string name="download_mkdir_internal_storage_entries1">এস_ডি ১</string>
+    <string name="download_mkdir_internal_storage_values">ফোন_মেমোরী</string>
+    <string name="download_mkdir_external_storage_values">এক্সটারনাল মেমোরী</string>
+
+    <string name="download_mkdir_external_storage_fill_toast">"মেমোরি অপর্যাপ্ত হলে আপনি  কোন অ্যাপ ডাউনলোড করতে পারবেন না।"</string>
+
+    <string name="recommend_not_found">তালিকাভুক্ত নয়</string>
+    <string name="recommend_not_fount_info">\"% S\" যোগ করার জন্য APKPure কে অবহিত করুন, আপনাকে ফরমটি শেষ করতে হবে।</string>
+
+    <string name="user_detail_focus">অনুসরিত</string>
+    <string name="user_detail_fans">অনুসরণকারী</string>
+    <string name="user_detail_praise">পছন্দসমূহ</string>
+    <string name="user_detail_tab_detail">মন্তব্যসমূহ</string>
+    <string name="user_detail_tab_reply">উত্তরসমূহ</string>
+
+    <string name="user_focus_tab_users">মানুষ</string>
+    <string name="user_focus_tab_apps">গ্রুপসমূহ</string>
+    <string name="user_focus_title_my">আমার অনুসরণ</string>
+    <string name="user_focus_title">অনুসরিত %s</string>
+
+    <string name="goto_google_play">এখন কিনুন</string>
+
+    <string name="menu_follow_all">সকল অনুসরণ</string>
+    <string name="menu_follow_user">অনুসরিত মানুষ</string>
+    <string name="menu_follow_group">অনুসরিত গ্রুপসমূহ</string>
+    <string name="menu_follow_all_tab">অনুসরিত</string>
+    <string name="menu_follow_user_tab">মানুষ</string>
+    <string name="menu_follow_group_tab">গ্রুপসমূহ</string>
+
+    <string name="choose_app">অ্যাপলিকেশন নির্বাচন করুন</string>
+    <string name="publish_comment">একটি মন্তব্য করুন</string>
 
 </resources>

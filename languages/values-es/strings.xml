@@ -2,13 +2,13 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
     <string name="action_settings">Configuración</string>
-    <string name="action_search"></string>
+    <string name="action_search">Buscar</string>
     <string name="installation_failed">Instalación fallida</string>
-    <string name="action_management">management</string>
+    <string name="action_management">Administración</string>
 
     <string name="press_back_key_quit">Presione la tecla de atrás para salir.</string>
 
-    <string name="featured">featured</string>
+    <string name="featured">Destacados</string>
     <string name="games">Juegos</string>
     <string name="apps">Aplicaciones</string>
     <string name="categories">Categorías</string>
@@ -24,7 +24,7 @@
 
     <string name="management">Administrar</string>
     <string name="app_updates">Actualizacion de aplicacion</string>
-    <string name="app_management">administrador de aplicacion</string>
+    <string name="app_management">Instalado</string>
     <string name="app_uninstall">Desinstalar Aplicacion</string>
     <string name="apk_management">Administrar APK\'S</string>
     <string name="apk_xapk_management">Administrar APK / XAPK</string>
@@ -48,7 +48,7 @@
     <string name="install__label_">Instalar - <xliff:g id="app_label" example="APKPure">%1$s</xliff:g></string>
     <string name="user_canceled">Cancelado por el Usuario.</string>
     <string name="io_error">Error IO. Puede ser que no tenga suficiente almacenamiento para que la instalacion proceda.</string>
-    <string name="file_format_error">Error del formato de archivo</string>
+    <string name="file_format_error">Error de formato de archivo.</string>
     <string name="installing_obb">Instalando archivos OBB …</string>
     <string name="extracting_apk">Extrayendo el archivo APK …</string>
     <string name="installing_apk">Instalando APK …</string>
@@ -265,12 +265,12 @@
 
     <string name="changing_language">Cambiando de idioma, por favor espere …</string>
     <string name="download_complete_installation_setting">Opción de instalación después de descargar</string>
-    <string name="recommend">Descubre</string>
+    <string name="recommend">Descubrir</string>
     <string name="report">Reportar</string>
-    <string name="app_detail_customer_reviews">Comentarios del Usuario</string>
+    <string name="app_detail_customer_reviews">Comentarios</string>
     <string name="app_submit_submit">Enviar…</string>
     <string name="app_submit_anonymous_comment">Añadir un comentario</string>
-    <string name="app_submit_title_toast">Debes escribir un titulo</string>
+    <string name="app_submit_title_toast">¡Debe escribir el título!</string>
     <string name="app_submit_msg_toast">Debes escribir algo!</string>
     <string name="app_submit_email_toast">Por favor llena correctamente tu correo electronico!</string>
     <string name="app_submit_star_toast">Debes calificar con estrella!</string>
@@ -318,4 +318,20 @@
     <string name="user_info_edit_change_pwd_tv">Reestablecer contraseña</string>
     <string name="user_info_edit_login_out_tv">Cerrar sesion</string>
     <string name="user_info_edit_not_choose">Desconocido</string>
+    <string name="check_update_replace">Versión oficial</string>
+    <string name="check_update_beta">Beta de pre-lanzamiento</string>
+    <string name="app_detail_comment_type_web">web</string>
+    <string name="share_app_url_comment"> <xliff:g example="APKPure" id="user_name">%1$s</xliff:g>\'s comentarios sobre <xliff:g example="APKPure" id="app_name">%2$s</xliff:g> (from @<xliff:g example="APKPure" id="social_network_name">%3$s</xliff:g>), <xliff:g example="https://apkpure.com/p/com.apkpure.aegon" id="app_url">%4$s</xliff:g></string>
+
+    <plurals name="app_detail_see_all_replies">
+	<item quantity="one">See All <xliff:g example="1" id="count">%1$d</xliff:g> respuesta</item>
+	<item quantity="other">See All <xliff:g example="2" id="count">%1$d</xliff:g> respuestas</item>
+</plurals>
+
+    <string name="app_submit_name_toast">Por favor, complete su apodo!</string>
+    <string name="app_submit_nickname">Usuario</string>
+    <string name="app_detail_tab_three">Relacionado</string>
+
+    <string name="app_detail_comment_order_array_default">Ordenar por defecto</string>
+    <string name="app_detail_comment_order_array_most_recent">Más reciente</string>
     </resources>
