@@ -98,6 +98,7 @@
     <string name="unknown">Unknown</string>
     <string name="flag_as_inappropriate">Flag as inappropriate</string>
     <string name="_ellipsis_"> … </string>
+    <string name="history_version">Version History</string>
 
     <string name="market_response_error_success">Success.</string>
     <string name="market_response_error_invalid_result">Invalid result.</string>
@@ -210,7 +211,8 @@
 
     <string name="share">Share</string>
     <string name="share_app_url">Download <xliff:g example="APKPure" id="app_name">%1$s</xliff:g> APK (from @<xliff:g example="APKPure" id="social_network_name">%2$s</xliff:g>), <xliff:g example="https://apkpure.com/p/com.apkpure.aegon" id="app_url">%3$s</xliff:g></string>
-    <string name="share_app_url_comment"> <xliff:g example="APKPure" id="user_name">%1$s</xliff:g>\'s comments on <xliff:g example="APKPure" id="app_name">%2$s</xliff:g> (from @<xliff:g example="APKPure" id="social_network_name">%3$s</xliff:g>), <xliff:g example="https://apkpure.com/p/com.apkpure.aegon" id="app_url">%4$s</xliff:g></string>
+    <string name="share_app_url_comment"> <xliff:g example="APKPure" id="user_name">%1$s</xliff:g>\'s comments on <xliff:g example="APKPure" id="app_name">%2$s</xliff:g> : <xliff:g example="APKPure" id="app_name">%3$s</xliff:g> (from @<xliff:g example="APKPure" id="social_network_name">%4$s</xliff:g>), <xliff:g example="https://apkpure.com/p/com.apkpure.aegon" id="app_url">%5$s</xliff:g></string>
+    <string name="share_app_url_group"> <xliff:g example="APKPure" id="app_name">%1$s</xliff:g> Group. (from @<xliff:g example="APKPure" id="social_network_name">%2$s</xliff:g>), <xliff:g example="https://apkpure.com/p/com.apkpure.aegon" id="app_url">%3$s</xliff:g></string>
 
     <string name="_name__version_history"><xliff:g example="APKPure" id="name">%1$s</xliff:g> Version History</string>
     <string name="update__date___size_">Update: <xliff:g example="Mar 3, 2016" id="date">%1$s</xliff:g>, <xliff:g example="1024 kB" id="size">%2$s</xliff:g></string>
@@ -240,6 +242,8 @@
     <string name="language">Language</string>
     <string name="auto">Auto</string>
     <string name="changing_language">Changing language, please wait…</string>
+    <string name="data_saver_model">Data Saver</string>
+    <string name="data_saver_model_summery">Turning this on will reduce image size and quality to help use less cellular data.</string>
     <string name="download_via_wifi_only">Download via Wi-Fi only</string>
     <string name="enable_ultra_download">Enable Ultra Download</string>
     <string name="enable_ultra_download_summary">Ultra Download is in beta testing, let us know if you encounter any problems.</string>
@@ -279,7 +283,7 @@
         <item quantity="other">See All <xliff:g example="2" id="count">%1$d</xliff:g> replies</item>
     </plurals>
 
-    <string name="app_detail_customer_reviews">Comments</string>
+    <string name="app_detail_customer_reviews">Discussions</string>
     <string name="app_detail_comment_type_web">web</string>
     <string name="app_submit_submit">Submit…</string>
     <string name="app_submit_anonymous_comment">Add a comment</string>
@@ -296,7 +300,7 @@
     <string name="app_submit_reply_to">reply to</string>
 
     <string name="app_detail_tab_one">Details</string>
-    <string name="app_detail_tab_two">Comments</string>
+    <string name="app_detail_tab_two">Discussions</string>
     <string name="app_detail_tab_three">Related</string>
 
     <array name="app_detail_comment_order_array" translatable="false">
@@ -402,7 +406,7 @@
 
 
     <string name="download_mkdir">Download Path</string>
-    <string name="download_mkdir_internal_storage_size_des">%1$sfree,total%2$s</string>
+    <string name="download_mkdir_internal_storage_size_des">%1$s free，total %2$s</string>
     <string name="download_mkdir_internal_storage_entries">SD </string>
     <string name="download_mkdir_internal_storage_entries1">SD 1</string>
     <string name="download_mkdir_external_storage_fill_toast">Insufficient storage available may cause you can\'t download any apps.</string>
@@ -430,6 +434,10 @@
         which is required for scanning QR code.</string>
     <string name="zxing_msg_default_status">Please place the QR code inside the viewfinder to scan it.</string>
     <string name="zxing_msg_parser_status">Scanning failed, please try to scan the QR code again.</string>
+    <string name="scan_qr_code_result_title">Result</string>
+    <string name="scan_qr_code_result_copy_text">Copy text</string>
+    <string name="scan_qr_code_result_hint">QR code details：</string>
+    <string name="scan_qr_code_copy_success">text copied</string>
 
     <string name="tip_permission_camera_storage">No permission to use the camera and SD card, open the rights management</string>
     <string name="permission_denied">Access denied!</string>
@@ -460,6 +468,7 @@
     <string name="user_info_edit_portrait_error">Image type is not supported</string>
     <string name="user_info_edit_ok">OK</string>
     <string name="user_info_edit_cancel">Cancel</string>
+    <string name="user_info_edit_large_photo">View photo in a bigger size</string>
 
     <!--updateNickname-->
     <string name="update_nick_title">Change nickname</string>
@@ -535,6 +544,10 @@
     <!--push-->
     <string name="push_title_info_reply">%s replied your comment!</string>
     <string name="push_title_info_upvoted">%s upvoted your comment!</string>
+    <string name="push_title_info_follow">%s followed you!</string>
+    <string name="push_title_info_update">APKPure Update Arrived!</string>
+    <string name="push_content_info_update">New version %s released! Update Now!</string>
+
     <string name="download_list">Download list</string>
     <string name="can_be_update">Can be updated</string>
     <string name="install_list">Installed</string>
@@ -597,7 +610,7 @@
 
     <string name="main_comment">comment</string>
     <string name="main_won_praise">Likes</string>
-    <string name="main_my_comments">Comments</string>
+    <string name="main_my_comments">Discussions</string>
     <string name="main_my_collection">Favorites</string>
     <string name="main_my_message">Messages</string>
     <string name="main_good_comments">Upvoted</string>
@@ -612,7 +625,7 @@
     <string name="group">Group</string>
     <string name="collection">Collection</string>
 
-    <string name="comments">Comments</string>
+    <string name="comments">Discussions</string>
     <string name="follow">Following</string>
     <string name="attention_on">Following</string>
     <string name="attention_off">Follow</string>
@@ -636,7 +649,7 @@
     <string name="remove_as_favorite">Remove as Favorite</string>
     <string name="remove_failed">Remove Failed</string>
 
-    <string name="collection_comment">Comments</string>
+    <string name="collection_comment">Discussions</string>
     <string name="collection_app">APPS</string>
 
     <string name="open_with_browser">Open with Browser</string>
@@ -678,7 +691,7 @@
     <string name="user_detail_praise">Likes</string>
     <string name="user_detail_default_text" translatable="false">--</string>
 
-    <string name="user_detail_tab_detail">Comments</string>
+    <string name="user_detail_tab_detail">Discussions</string>
     <string name="user_detail_tab_reply">Replies</string>
 
     <string name="user_focus_tab_users">People</string>
@@ -698,5 +711,19 @@
 
     <string name="choose_app">Select Application</string>
     <string name="publish_comment">Post A Comment</string>
+
+    <string name="app_detail_has_product">Purchase Items</string>
+    <string name="app_detail_no_product">No Purchase Items</string>
+    <string name="app_detail_has_ad">Ads</string>
+    <string name="app_detail_no_ad">No Ads</string>
+
+    <string name="tag_list">Tags List</string>
+    <string name="hot_tag">Hot Tags</string>
+    <string name="common_use">Popular Tags</string>
+    <string name="app_add_tag_hint_caution">No more than %s tags for each application.</string>
+    <string name="app_add_tag">Add a new tag</string>
+    <string name="toast_app_tag_exist">Tag already exists!</string>
+    <string name="there_is_no_label">No tags.</string>
+    <string name="add">Add</string>
 
 </resources>
