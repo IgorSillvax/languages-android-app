@@ -13,8 +13,7 @@
     <string name="categories">Kategóriák</string>
     <string name="updates">Frissítések</string>
 
-    <string name="something_happened">&gt;_&lt;
-Hiba történt.</string>
+    <string name="something_happened">&gt;_&lt;Hiba történt.</string>
 
     <string name="load_failed_error">Hoppá! Hiba történt.</string>
     <string name="load_failed_empty">Itt nincs tartalom.</string>
@@ -65,7 +64,7 @@ Hiba történt.</string>
     <string name="whatsnew">Újdonságok</string>
     <string name="information">Információk</string>
     <string name="version_">Verzió:</string>
-	<string name="updated_">Frissítve:</string>
+    <string name="updated_">Frissítve:</string>
     <string name="size_">Méret:</string>
     <string name="permissions_">Engedélyek:</string>
     <string name="type_">Típus:</string>
@@ -91,16 +90,16 @@ Hiba történt.</string>
     <string name="update">Frissítés</string>
     <string name="version__version___size_">Verzió: <xliff:g example="1.0.0" id="version">%1$s</xliff:g>, <xliff:g example="1024 kB" id="size">%2$s</xliff:g></string>
     <plurals name="_count__new_update_is_available">
-	<item quantity="one"><xliff:g example="1" id="count">%1$d</xliff:g> új frissítés érhető el</item>
-	<item quantity="other"><xliff:g example="2" id="count"> 3%1$d</xliff:g> 4 új frissítés érhető el</item>
-</plurals>
+        <item quantity="one"><xliff:g example="1" id="count">%1$d</xliff:g> új frissítés érhető el</item>
+        <item quantity="other"><xliff:g example="2" id="count"> 3%1$d</xliff:g> 4 új frissítés érhető el</item>
+    </plurals>
 
     <string name="launching_please_wait">Indítás, kis türelmet…</string>
 
     <plurals name="_count__item_is_downloading">
-	<item quantity="one"><xliff:g example="1" id="count">%1$d</xliff:g> elem kerül letöltésre</item>
-	<item quantity="other"><xliff:g example="2" id="count">%1$d</xliff:g> elem töltődik</item>
-</plurals>
+        <item quantity="one"><xliff:g example="1" id="count">%1$d</xliff:g> elem kerül letöltésre</item>
+        <item quantity="other"><xliff:g example="2" id="count">%1$d</xliff:g> elem töltődik</item>
+    </plurals>
     <string name="downloads_complete">A letöltés befejeződött</string>
     <string name="touch_for_view_all_downloads">Érintse meg az összes letöltés megjelenítéséhez</string>
     <string name="_name__download_failed"><xliff:g example="APKPure" id="name">%1$s</xliff:g> letöltési hiba</string>
@@ -212,7 +211,7 @@ Hiba történt.</string>
     <string name="select_all">Összes kijelölése</string>
     <string name="deselect_all">Kijelölések megszüntetése</string>
     <string name="ignored">Kihagyva</string>
-   <plurals name="total__count__apps__size_">
+    <plurals name="total__count__apps__size_">
 	<item quantity="one">"
         <![CDATA[Total: <b><font color="%1$d">%2$d</font></b> alkalmazás, <b><font color="%1$d">%3$s</font></b>]]></item>
         <item quantity="other">"
@@ -257,7 +256,7 @@ Hiba történt.</string>
     <string name="auto_install_via_root_title">Automatikus telepítés (Root mód)</string>
     <string name="auto_install_via_root_summary">Csak rootolt androidos telefonokhoz és táblagépekhez.</string>
 
-<string name="similar_or_related">Hasonló vagy kapcsolódó</string>
+    <string name="similar_or_related">Hasonló vagy kapcsolódó</string>
     <string name="more_from_developer">Továbbiak a fejlesztőtől</string>
     <string name="more_large">Több</string>
     <string name="feedback">Visszajelzés</string>
@@ -265,9 +264,9 @@ Hiba történt.</string>
     <string name="changing_language">Nyelv váltása, kis türelmet…</string>
     <string name="download_complete_installation_setting">Telepítés lehetőség a letöltés után</string>
     <plurals name="app_detail_see_all_replies">
-	<item quantity="one">A(z) <xliff:g example="1" id="count">%1$d</xliff:g> válasz mindegyikének megtekintése</item>
-	<item quantity="other">A(z) <xliff:g example="2" id="count">%1$d</xliff:g> válasz mindegyikének megtekintése</item>
-</plurals>
+        <item quantity="one">A(z) <xliff:g example="1" id="count">%1$d</xliff:g> válasz mindegyikének megtekintése</item>
+        <item quantity="other">A(z) <xliff:g example="2" id="count">%1$d</xliff:g> válasz mindegyikének megtekintése</item>
+    </plurals>
 
     <string name="app_detail_customer_reviews">Hozzászólások</string>
     <string name="app_detail_comment_type_web">web</string>
@@ -296,16 +295,15 @@ Hiba történt.</string>
     <string name="load_failed_click_retry">Betöltési hiba, kattintson az újrapróbálkozáshoz</string>
     <string name="loading">Betöltés…</string>
 
-    <string name="scan_qr_code_hint">A QR-kód beolvasás előtt meg kell adnia a kamera engedélyt,
- amely szükséges a QR-kód beolvasásához.</string>
+    <string name="scan_qr_code_hint">A QR-kód beolvasás előtt meg kell adnia a kamera engedélyt, amely szükséges a QR-kód beolvasásához.</string>
     <string name="zxing_msg_default_status">Kérjük, helyezze a QR-kódot a keresőbe a beolvasáshoz.</string>
     <string name="zxing_msg_parser_status">Sikertelen beolvasás. Kérjük, próbálja meg újra beolvasni a QR-kódot.</string>
-<string name="app_submit_star_toast">Csillaggal is értékelnie kell!</string>
+    <string name="app_submit_star_toast">Csillaggal is értékelnie kell!</string>
     <string name="recommend">Ajánlás</string>
     <string name="report">Jelentés</string>
     <string name="login_post_as_a_guest">Hozzászólás vendégként</string>
 
-<string name="login_new_user">Új felhasználó regisztrálása</string>
+    <string name="login_new_user">Új felhasználó regisztrálása</string>
     <string name="app_detail_reply_comment">Hozzászólás(%d)</string>
     <string name="app_detail_comment_order_array_recent">Legutóbbi</string>
     <string name="app_detail_comment_order_array_newest">Legújabb</string>
@@ -381,7 +379,7 @@ Hiba történt.</string>
 
     <string name="set_contributor">Közreműködők</string>
     <string name="set_permissions">Engedélyek</string>
-    
+
     <string name="sign_in_services">A regisztrációval elfogadja a felhasználási és adatvédelmi feltételeket.</string>
 
     <string name="sign_in_services_key">Feltételek</string>
@@ -404,10 +402,6 @@ Hiba történt.</string>
     <string name="login_user_sign_in">Bejelentkezés</string>
     <string name="login_choose">Vagy jelentkezzen be fiókjával</string>
     <string name="share_app_url_comment"> <xliff:g example="APKPure" id="user_name">%1$s</xliff:g>\'s hozzászólás <xliff:g example="APKPure" id="app_name">%2$s</xliff:g> (forrás: @<xliff:g example="APKPure" id="social_network_name">%3$s</xliff:g>), <xliff:g example="https://apkpure.com/p/com.apkpure.aegon" id="app_url">%4$s</xliff:g></string>
-
-    <string name="app_detail_reply_esc">正序</string>
-    <string name="app_detail_reply_desc">Fordított sorrend</string>
-    <string name="app_detail_reply_floor">%d楼</string>
 
     <string name="app_detail_comment_order_array_default">Rendezés alapértelmezés szerint</string>
     <string name="app_detail_comment_order_array_most_recent">Legutóbbi</string>
@@ -446,9 +440,9 @@ Hiba történt.</string>
     <string name="comment_item_fold">hozzászólás bezárva</string>
 
     <plurals name="comment_reply_item_fold">
-	<item quantity="one"><xliff:g example="1" id="count">%1$d</xliff:g> válasz összevonva</item>
-	<item quantity="other"><xliff:g example="2" id="count">%1$d</xliff:g> válasz összevonva</item>
-</plurals>
+        <item quantity="one"><xliff:g example="1" id="count">%1$d</xliff:g> válasz összevonva</item>
+        <item quantity="other"><xliff:g example="2" id="count">%1$d</xliff:g> válasz összevonva</item>
+    </plurals>
 
     <string name="comment_no_reply">Nahát, itt nincs semmi.</string>
     <string name="comment_reply_info_name">Részletek</string>
@@ -472,7 +466,7 @@ Hiba történt.</string>
     <string name="sub_comment_dialog_link_null">A videó URL-címe nem lehet üres</string>
     <string name="sub_comment_progress_msg">Videó hozzáadása…</string>
 
-<string name="check_update_replace">Hivatalos verzió</string>
+    <string name="check_update_replace">Hivatalos verzió</string>
     <string name="check_update_beta">Előzetes béta kiadás</string>
     <string name="app_detail_comment_order_array_old">Régi</string>
 
@@ -562,7 +556,7 @@ Hiba történt.</string>
     <string name="recommend_user_recommend">%s által ajánlva</string>
     <string name="recommend_required">*</string>
 
-<string name="topic_green_color">Világos zöld</string>
+    <string name="topic_green_color">Világos zöld</string>
     <string name="topic_purple_yellow">Narancssárga</string>
     <string name="download_mkdir">Letöltési hely</string>
     <string name="download_mkdir_internal_storage_entries">"SD-kártya "</string>
@@ -598,5 +592,4 @@ Hiba történt.</string>
 
     <string name="choose_app">Válasszon alkalmazást</string>
     <string name="publish_comment">Hozzászólás küldése</string>
-
 </resources>
