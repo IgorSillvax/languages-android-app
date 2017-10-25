@@ -274,8 +274,8 @@ Detalhe do problema:
         <item quantity="other">Ver tudo <xliff:g example="2" id="count"> %1$d</xliff:g> Respostas</item>
     </plurals>
 
-    <string name="app_detail_customer_reviews">Comentários</string>
-    <string name="app_detail_comment_type_web">Web</string>
+    <string name="app_detail_customer_reviews">Discussões</string>
+    <string name="app_detail_comment_type_web">Internet</string>
     <string name="app_submit_submit">Enviar…</string>
     <string name="app_submit_anonymous_comment">Adicionar um comentário</string>
     <string name="app_submit_title_toast">Você deve escrever o título!</string>
@@ -291,7 +291,7 @@ Detalhe do problema:
     <string name="app_submit_reply_to">Responder a</string>
 
     <string name="app_detail_tab_one">Detalhes</string>
-    <string name="app_detail_tab_two">Comentários</string>
+    <string name="app_detail_tab_two">Discussões</string>
     <string name="app_detail_tab_three">Relacionado</string>
 
     <string name="reply">Resposta</string>
@@ -308,7 +308,7 @@ Que é necessário para escanear o código QR.</string>
     <string name="zxing_msg_parser_status">O escaneamento falhou, tente escanear o código QR novamente.</string>
     <string name="recommend">Recomendado</string>
     <string name="report">Relatório</string>
-    <string name="share_app_url_comment"> <xliff:g example="APKPure" id="user_name">%1$s</xliff:g> Comentários sobre <xliff:g example="APKPure" id="app_name">%2$s</xliff:g> (Através do @<xliff:g example="APKPure" id="social_network_name">%3$s</xliff:g> ), <xliff:g example="https://apkpure.com/p/com.apkpure.aegon" id="app_url">%4$s</xliff:g></string>
+    <string name="share_app_url_comment"> <xliff:g example="APKPure" id="user_name">%1$s</xliff:g>\'s Comentários no <xliff:g example="APKPure" id="app_name">%2$s</xliff:g> : <xliff:g example="APKPure" id="app_name">%3$s</xliff:g> (Através do @<xliff:g example="APKPure" id="social_network_name">%4$s</xliff:g>), <xliff:g example="https://apkpure.com/p/com.apkpure.aegon" id="app_url">%5$s</xliff:g></string>
 
     <string name="app_detail_reply_comment">Comentário(%d)</string>
     <string name="app_detail_reply_esc">Sequência positiva</string>
@@ -503,7 +503,7 @@ Que é necessário para escanear o código QR.</string>
 
     <string name="main_comment">comentário</string>
     <string name="main_won_praise">Curtidas</string>
-    <string name="main_my_comments">Comentários</string>
+    <string name="main_my_comments">Discussões</string>
     <string name="main_my_collection">Favoritos</string>
     <string name="main_my_message">Mensagens</string>
     <string name="main_good_comments">Curtida</string>
@@ -518,7 +518,7 @@ Que é necessário para escanear o código QR.</string>
     <string name="group">Grupo</string>
     <string name="collection">Coleção</string>
 
-    <string name="comments">Comentários</string>
+    <string name="comments">Discussões</string>
     <string name="follow">Seguindo</string>
     <string name="attention_on">Seguindo</string>
     <string name="attention_off">Seguir</string>
@@ -541,7 +541,7 @@ Que é necessário para escanear o código QR.</string>
     <string name="remove_as_favorite">Remover favorito</string>
     <string name="remove_failed">Falha ao remover</string>
 
-    <string name="collection_comment">Comentários</string>
+    <string name="collection_comment">Discussões</string>
     <string name="collection_app">APLICATIVOS</string>
 
     <string name="open_with_browser">Abrir com o navegador</string>
@@ -594,7 +594,7 @@ Que é necessário para escanear o código QR.</string>
     <string name="user_detail_focus">Seguindo</string>
     <string name="user_detail_fans">Seguidor</string>
     <string name="user_detail_praise">Curtidas</string>
-    <string name="user_detail_tab_detail">Comentários</string>
+    <string name="user_detail_tab_detail">Discussões</string>
     <string name="user_detail_tab_reply">Respostas</string>
 
     <string name="user_focus_tab_users">Pessoas</string>
@@ -613,5 +613,38 @@ Que é necessário para escanear o código QR.</string>
 
     <string name="choose_app">Selecione a Aplicação</string>
     <string name="publish_comment">Publicar um comentário</string>
+
+<string name="history_version">Histórico de versões</string>
+
+    <string name="share_app_url_group"> <xliff:g example="APKPure" id="app_name">%1$s</xliff:g> Grupo. (Através do @<xliff:g example="APKPure" id="social_network_name">%2$s</xliff:g>), <xliff:g example="https://apkpure.com/p/com.apkpure.aegon" id="app_url">%3$s</xliff:g></string>
+
+    <string name="data_saver_model">Economizador de dados</string>
+    <string name="data_saver_model_summery">Ativar isso reduzirá o tamanho e a qualidade da imagem para ajudar a usar menos dados do celular.</string>
+    <string name="scan_qr_code_result_title">Resultado</string>
+    <string name="scan_qr_code_result_copy_text">Copiar texto</string>
+    <string name="scan_qr_code_result_hint">Detalhes do código QR:</string>
+    <string name="scan_qr_code_copy_success">Texto copiado</string>
+
+    <string name="user_info_edit_large_photo">Ver foto em tamanho maior</string>
+
+    <string name="push_title_info_follow">%s seguiu você!</string>
+    <string name="push_title_info_update">A atualização do APKPure chegou!</string>
+    <string name="push_content_info_update">Nova versão %s lançada! Atualize agora!</string>
+
+    <string name="recommend_user_recommend_sys">Apresentado pelo APKPure</string>
+
+    <string name="app_detail_has_product">Comprar itens</string>
+    <string name="app_detail_no_product">Não há compra de Itens</string>
+    <string name="app_detail_has_ad">Ads</string>
+    <string name="app_detail_no_ad">Sem Ads</string>
+
+    <string name="tag_list">Lista de Tags</string>
+    <string name="hot_tag">Tags em alta</string>
+    <string name="common_use">Tags Popular</string>
+    <string name="app_add_tag_hint_caution">Não há mais de %s tags para cada aplicativo.</string>
+    <string name="app_add_tag">Adicione uma nova tag</string>
+    <string name="toast_app_tag_exist">Tag já existe</string>
+    <string name="there_is_no_label">Sem tags.</string>
+    <string name="add">Adicionar</string>
 
 </resources>
