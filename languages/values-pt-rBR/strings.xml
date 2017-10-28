@@ -114,7 +114,8 @@
     <string name="_name__download_failed"><xliff:g example="APKPure" id="name">%1$s</xliff:g> Falha no download</string>
     <string name="touch_to_download_it_again">Toque para fazer o download novamente</string>
 
-    <string name="download_percent"><xliff:g xmlns:xliff="urn:oasis:names:tc:xliff:documento:1.2" example="50" id="percent">%1$d</xliff:g> %%</string>
+    <string name="download_percent"><xliff:g example="50" id="percent">
+%1$d</xliff:g> %%</string>
     <string name="pause">Pausar</string>
     <string name="pause_all">Pausar Todos</string>
     <string name="continue_">Continuar</string>
@@ -431,14 +432,14 @@ Que é necessário para escanear o código QR.</string>
     <string name="message">Mensagem</string>
 
     <string name="push_title_info_reply">%s respondeu o seu comentário!</string>
-    <string name="push_title_info_upvoted">%s curtiu o seu comentário!</string>
+    <string name="push_title_info_upvoted">%s Curtiu o seu comentário!</string>
     <string name="download_list">Lista de download</string>
     <string name="can_be_update">Pode ser atualizado</string>
     <string name="install_list">Instalado</string>
     <string name="no_download">Sem download</string>
     <string name="downloads">Downloads</string>
 
-    <string name="change_language_failed">Falha na interrupção do idioma!</string>
+    <string name="change_language_failed">Falha na alteração do idioma!</string>
     <string name="comment_reply_tell_msg">Este comentário foi removido!</string>
 
     <string name="notification_setting">Notificações</string>
@@ -605,7 +606,7 @@ Que é necessário para escanear o código QR.</string>
     <string name="goto_google_play">Comprar</string>
 
     <string name="menu_follow_all">Todos seguindo</string>
-    <string name="menu_follow_user">Pessoas Seguidas</string>
+    <string name="menu_follow_user">Pessoas seguidas</string>
     <string name="menu_follow_group">Grupos seguidos</string>
     <string name="menu_follow_all_tab">Seguindo</string>
     <string name="menu_follow_user_tab">Pessoas</string>
@@ -627,15 +628,15 @@ Que é necessário para escanear o código QR.</string>
 
     <string name="user_info_edit_large_photo">Ver foto em tamanho maior</string>
 
-    <string name="push_title_info_follow">%s seguiu você!</string>
+    <string name="push_title_info_follow">%s Seguiu você!</string>
     <string name="push_title_info_update">A atualização do APKPure chegou!</string>
     <string name="push_content_info_update">Nova versão %s lançada! Atualize agora!</string>
 
     <string name="recommend_user_recommend_sys">Apresentado pelo APKPure</string>
 
-    <string name="app_detail_has_product">Comprar itens</string>
+    <string name="app_detail_has_product">Há Compra de itens</string>
     <string name="app_detail_no_product">Não há compra de Itens</string>
-    <string name="app_detail_has_ad">Ads</string>
+    <string name="app_detail_has_ad">Anúncio</string>
     <string name="app_detail_no_ad">Sem Ads</string>
 
     <string name="tag_list">Lista de Tags</string>
@@ -643,7 +644,7 @@ Que é necessário para escanear o código QR.</string>
     <string name="common_use">Tags Popular</string>
     <string name="app_add_tag_hint_caution">Não há mais de %s tags para cada aplicativo.</string>
     <string name="app_add_tag">Adicione uma nova tag</string>
-    <string name="toast_app_tag_exist">Tag já existe</string>
+    <string name="toast_app_tag_exist">Tag já existe!</string>
     <string name="there_is_no_label">Sem tags.</string>
     <string name="add">Adicionar</string>
 
