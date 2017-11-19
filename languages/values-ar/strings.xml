@@ -23,7 +23,7 @@
 
     <string name="management">إدارة</string>
     <string name="app_updates">تحديثات التطبيق</string>
-    <string name="app_management">إدارة التطبيق</string>
+    <string name="app_management">المثبتة</string>
     <string name="app_uninstall">إلغاء تثبيت التطبيق</string>
     <string name="apk_management">إدارة التطبيقات</string>
     <string name="apk_xapk_management">APK / XAPK إدارة</string>
@@ -308,7 +308,7 @@
 	<item quantity="other">رؤية كافة الـ<xliff:g example="1" id="count">%1$d</xliff:g>رد</item>
 </plurals>
 
-    <string name="app_detail_customer_reviews">تعليقات</string>
+    <string name="app_detail_customer_reviews">مناقشات</string>
     <string name="app_detail_comment_type_web">web</string>
     <string name="app_submit_submit">ارسال…</string>
     <string name="app_submit_anonymous_comment">اضافة تعليق</string>
@@ -325,7 +325,7 @@
     <string name="app_submit_reply_to">رد على</string>
     <string name="app_detail_reply_comment">تعليق(%d)</string>
     <string name="app_detail_tab_one">تفاصيل</string>
-    <string name="app_detail_tab_two">تعليقات</string>
+    <string name="app_detail_tab_two">مناقشات</string>
     <string name="app_detail_tab_three">ذات صلة</string>
 
     <string name="app_detail_comment_order_array_recent">مؤخرا</string>
@@ -411,7 +411,7 @@
 
     <string name="is_comment">التعليق هو…</string>
     <string name="comment_cancel">تم الغاء التعليق</string>
-    <string name="comment_replying">يتم نشر الرد…</string>
+    <string name="comment_replying">الرد</string>
     <string name="register_term_of_service">شروط الخدمة لـ APKPure</string>
 
     <string name="set_contributor">المساهمون</string>
@@ -470,7 +470,7 @@
 
     <string name="app_detail_comment_join_group_bt">مجموعة</string>
     <string name="download_mkdir">مسار التحميل</string>
-    <string name="download_mkdir_internal_storage_size_des">%1$sخال,المجموع%2$s</string>
+    <string name="download_mkdir_internal_storage_size_des">%1$sخالي,المجموع%2$s</string>
     <string name="download_mkdir_internal_storage_entries">"SD "</string>
     <string name="download_mkdir_internal_storage_entries1">SD 1</string>
     <string name="download_mkdir_external_storage_fill_toast">ذاكرة التخزين الغير كافية قد تسبب عدم القدرة على تحميل اي تطبيق.</string>
@@ -483,8 +483,8 @@
 
     <string name="notification_setting">الإشعارات</string>
     <string name="reply_notification">إشعارات الرد</string>
-    <string name="reply_notification_msg"/>
-    <string name="history_version">النسخ السابقه</string>
+    <string name="reply_notification_msg">تلقي إشعارات برسائل الرد الجديدة</string>
+    <string name="history_version">النسخ السابقة</string>
 
     <string name="data_saver_model">توفير البيانات</string>
     <string name="data_saver_model_summery">سيؤدي تشغيل هذا إلى تقليل حجم الصورة وجودتها للمساعدة في استخدام بيانات خلوية اقل.</string>
@@ -497,4 +497,77 @@
 
     <string name="push_title_info_follow">"%s  يتابعك!"</string>
     <string name="push_title_info_update">وصل تحديث لـ APKPure</string>
+    <string name="share_app_url_group"> <xliff:g example="APKPure" id="app_name">%1$s</xliff:g> Group. (from @<xliff:g example="APKPure" id="social_network_name">%2$s</xliff:g>), <xliff:g example="https://apkpure.com/p/com.apkpure.aegon" id="app_url">%3$s</xliff:g></string>
+
+    <string name="push_content_info_update">اصدار جديد %s صدر! حدث الان!</string>
+
+    <string name="like_notification">إشعارات التصويت كمفيد</string>
+    <string name="like_notification_msg">تلقي الإخطارات للرسائل أوبفوت جديدة</string>
+    <string name="gif_tip">gif</string>
+    <string name="ad_tip">اعلان</string>
+    <string name="submit_comment_title_hint">الموضوع (اختياري)</string>
+
+    <string name="comment_vote_string">تصويت</string>
+    <string name="comment_reply_three">الرد</string>
+    <string name="comment_item_fold">تم تصغير التعليق</string>
+
+    <string name="comment_no_reply">نجاح باهر، لا يوجد شيء هنا.</string>
+    <string name="comment_reply_info_name">التفاصيل</string>
+    <string name="set_updates_notification">تحديثات التطبيق المتاحة</string>
+    <string name="set_updates_notification_msg">إعلام عندما تتوفر تحديثات التطبيق. الإعداد الموصى به: تشغيل</string>
+    <string name="app_detail_unknow_text">الإصدار القديم APKPure لا يدعم ميزات جديدة، يرجى تحديث إلى أحدث.</string>
+    <string name="comment_detail_original">عرض التعليق الأصلي &gt;</string>
+    <string name="comment_comment_newest">الأحدث</string>
+    <string name="comment_comment_oldest">أقدم</string>
+
+    <string name="edit">تعديل</string>
+    <string name="menu_copy">نسخ</string>
+    <string name="menu_cancel">الغاء</string>
+    <string name="delete_all_download_history">هل تريد حذف سجل التنزيلات بالكامل؟</string>
+    <string name="delete_the_historical_record">هل تريد حذف السجل التاريخي؟</string>
+    <string name="download_history">تحميل التاريخ</string>
+
+    <string name="sub_comment_dialog_title">إضافة فيديو</string>
+    <string name="sub_comment_dialog_des_tv">"دعم تحليل عناوين  يوتيوب فقط"</string>
+    <string name="sub_comment_dialog_link_et">أدخل عنوان رابط الفيديو هنا</string>
+    <string name="sub_comment_dialog_link_null">لا يمكن ترك حقل عنوان رابط الفيديو فارغا</string>
+    <string name="sub_comment_progress_msg">جار إضافة الفيديو …</string>
+
+    <string name="play_button">زر التشغيل</string>
+    <string name="null_time">٠:٠٠</string>
+    <string name="open_video_in_youtube">افتح الفيديو في يوتيوب</string>
+    <string name="full_screen_button">زر ملء الشاشة</string>
+
+    <string name="main_tab_home">الصفحة الرئيسية</string>
+    <string name="main_tab_ranking">تصنيف</string>
+    <string name="main_tab_group">مجموعة</string>
+    <string name="main_tab_my">أنا</string>
+
+    <string name="main_comment">تعليق</string>
+    <string name="main_won_praise">الإعجابات</string>
+    <string name="main_my_comments">مناقشات</string>
+    <string name="main_my_collection">المفضلة</string>
+    <string name="main_my_message">رسائل</string>
+    <string name="main_app_management">إدارة التطبيقات</string>
+    <string name="main_topic_selection">المواضيع</string>
+    <string name="main_night_mode">الوضع الليلي</string>
+    <string name="please_login_first">الرجاء تسجيل الدخول أولا</string>
+    <string name="no_choice">لا خيار</string>
+    <string name="follow_on_success">نجاح!</string>
+    <string name="follow_un_success">الغاء المتابعة!</string>
+    <string name="canceled">ألغيت</string>
+    <string name="group">مجموعة</string>
+    <string name="collection">مجموعة</string>
+
+    <string name="comments">مناقشات</string>
+    <string name="follow">متابعة</string>
+    <string name="attention_on">متابعة</string>
+    <string name="attention_off">متابعة</string>
+    <string name="no_attention">لا مجموعات متابعة، حتى الآن.</string>
+    <string name="browsing_history">تاريخ التصفح</string>
+    <string name="browsing_history_prompt">هل تريد مسح سجل التصفح؟</string>
+
+    <string name="ranking_tab1_title">أفضل الألعاب</string>
+    <string name="ranking_tab2_title">أعلى الألعاب الجديدة</string>
+    <string name="ranking_tab3_title">أفضل التطبيقات</string>
     </resources>
