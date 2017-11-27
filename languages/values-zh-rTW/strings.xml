@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
     <string name="action_settings">設定</string>
@@ -326,7 +326,7 @@
 
     <string name="load_end">沒有更多數據</string>
     <string name="load_failed_click_retry">載入失敗，點擊重試</string>
-    <string name="loading">正在載入&#8230;</string>
+    <string name="loading">正在載入…</string>
 
     <string name="scan_qr_code_hint">使用此功能前，您必須同意打開相機的許可權</string>
     <string name="zxing_msg_default_status">請將二維碼置於取景框內掃描</string>
@@ -342,16 +342,16 @@
     <string name="delete_comment_msg">你想要刪除這條評論嗎?</string>
     <string name="login_select_way_to_login">請選擇登錄方式</string>
     <string name="upload_cancel">上傳已取消</string>
-    <string name="is_comment">正在發表評論&#8230;</string>
+    <string name="is_comment">正在發表評論…</string>
     <string name="comment_cancel">評論已取消</string>
-    <string name="comment_submitting">提交中&#8230;</string>
-    <string name="comment_replying">回复中&#8230;</string>
+    <string name="comment_submitting">提交中…</string>
+    <string name="comment_replying">回复中…</string>
     <!--update password-->
     <string name="update_pwd_title">修改密碼</string>
     <string name="update_pwd_current_pwd_et">舊密碼</string>
     <string name="update_pwd_new_pwd_et">新密碼</string>
     <string name="update_pwd_Confirm_pwd_et">確認密碼</string>
-    <string name="upload_avatar">正在上傳&#8230;</string>
+    <string name="upload_avatar">正在上傳…</string>
     <string name="update_pwd_current_null_tv">舊密碼不能為空</string>
     <string name="update_pwd_Confirm_null_tv">確認密碼不能為空</string>
     <string name="update_pwd_new_pwd_null_tv">新密碼不能為空</string>
@@ -464,7 +464,7 @@
     <string name="set_updates_notification">應用有新版本</string>
     <string name="set_updates_notification_msg">應用有新版本時通知我，建議開啟。</string>
     <string name="app_detail_unknow_text">版本過低，不支持該板塊，請升級後查看。</string>
-    <string name="comment_detail_original">查看原評論 ></string>
+    <string name="comment_detail_original">查看原評論 &gt;</string>
     <string name="comment_comment_newest">最新</string>
     <string name="comment_comment_oldest">最早</string>
 
@@ -582,4 +582,16 @@
     <string name="menu_follow_group_tab">小組</string>
     <string name="choose_app">選擇應用</string>
     <string name="publish_comment">發表評論</string>
-</resources>
+<string name="add"/>
+
+<string name="there_is_no_label"/>
+    <string name="toast_app_tag_exist"/>
+    <string name="app_add_tag"/>
+    <string name="app_add_tag_hint_caution"/>
+    <string name="hot_tag"/>
+    <string name="tag_list"/>
+    <string name="app_detail_no_ad"/>
+
+    <string name="app_detail_no_product"/>
+    <string name="app_detail_has_product"></string>
+    </resources>
