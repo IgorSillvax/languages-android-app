@@ -18,6 +18,7 @@
     <string name="something_happened">&gt;_&lt;\n出错了</string>
 
     <string name="load_failed_error">哎呀！发生错误了</string>
+    <string name="load_failed_error_not_found">该应用未收录！</string>
     <string name="load_failed_empty">无内容</string>
     <string name="load_failed_all_up_to_date">所有应用程序已是最新</string>
     <string name="load_failed_no_results">抱歉！未找到结果</string>
@@ -39,6 +40,7 @@
     <string name="check_update">检查更新</string>
     <string name="check_update_replace">正式版</string>
     <string name="check_update_beta">测试版</string>
+    <string name="beta">Beta</string>
     <string name="quit">退出</string>
     <string name="want_to_quit">您确定要退出吗？</string>
 
@@ -57,7 +59,7 @@
     <string name="install__label_">安装 - <xliff:g id="app_label" example="APKPure">%1$s</xliff:g></string>
     <string name="user_canceled">用户已取消。</string>
     <string name="io_error">IO 接口错误，可能是可用空间不足无法完成安装。</string>
-    <string name="file_format_error">文件格式错误。</string>
+    <string name="file_format_error">文件格式不正确。</string>
     <string name="parsing_xapk">正在解析 XAPK …</string>
     <string name="installing_obb">正在安装 OBB 文件 …</string>
     <string name="extracting_apk">正在提取 APK 文件 …</string>
@@ -90,6 +92,7 @@
     <string name="unknown">未知</string>
     <string name="flag_as_inappropriate">举报不当内容</string>
     <string name="_ellipsis_"> … </string>
+    <string name="history_version">历史版本</string>
 
     <string name="market_response_error_success">成功。</string>
     <string name="market_response_error_invalid_result">无效的结果。</string>
@@ -203,7 +206,8 @@
 
     <string name="share">分享</string>
     <string name="share_app_url">下载 <xliff:g id="app_name" example="APKPure">%1$s</xliff:g> APK (来自 @<xliff:g id="social_network_name" example="APKPure">%2$s</xliff:g>), <xliff:g id="app_url" example="https://apkpure.com/p/com.apkpure.aegon">%3$s</xliff:g></string>
-    <string name="share_app_url_comment"> <xliff:g id="user_name" example="APKPure">%1$s</xliff:g> 评论了 <xliff:g id="app_name" example="APKPure">%2$s</xliff:g> (来自 @<xliff:g id="social_network_name" example="APKPure">%3$s</xliff:g>), <xliff:g id="app_url" example="https://apkpure.com/p/com.apkpure.aegon">%4$s</xliff:g></string>
+    <string name="share_app_url_comment"> <xliff:g example="APKPure" id="user_name">%1$s</xliff:g> 评论了 <xliff:g example="APKPure" id="app_name">%2$s</xliff:g> : <xliff:g example="APKPure" id="app_name">%3$s</xliff:g> (来自 @<xliff:g example="APKPure" id="social_network_name">%4$s</xliff:g>), <xliff:g example="https://apkpure.com/p/com.apkpure.aegon" id="app_url">%5$s</xliff:g></string>
+    <string name="share_app_url_group"> <xliff:g example="APKPure" id="app_name">%1$s</xliff:g> 小组 (来自 @<xliff:g example="APKPure" id="social_network_name">%2$s</xliff:g>), <xliff:g example="https://apkpure.com/p/com.apkpure.aegon" id="app_url">%3$s</xliff:g></string>
 
     <string name="_name__version_history"><xliff:g id="name" example="APKPure">%1$s</xliff:g> 的版本历史</string>
     <string name="update__date___size_">更新：<xliff:g id="date" example="Mar 3, 2016">%1$s</xliff:g>, <xliff:g id="size" example="1024 kB">%2$s</xliff:g></string>
@@ -230,6 +234,8 @@
     <string name="language">语言</string>
     <string name="auto">跟随系统</string>
     <string name="changing_language">正在切换语言，请稍候…</string>
+    <string name="data_saver_model">省流量模式</string>
+    <string name="data_saver_model_summery">开启后会降低展示图片大小和清晰度</string>
     <string name="download_via_wifi_only">只通过 Wi-Fi 下载</string>
     <string name="enable_ultra_download">启用超级下载</string>
     <string name="enable_ultra_download_summary">超级下载目前还是测试版本，如果在使用中发现问题请告诉我们。</string>
@@ -308,7 +314,7 @@
 
 
     <string name="download_mkdir">下载位置</string>
-    <string name="download_mkdir_internal_storage_size_des">%1$s可用,共%2$s</string>
+    <string name="download_mkdir_internal_storage_size_des">%1$s 可用，共 %2$s</string>
     <string name="download_mkdir_internal_storage_entries">储存空间</string>
     <string name="download_mkdir_internal_storage_entries1">储存空间1</string>
     <string name="download_mkdir_external_storage_fill_toast">储存空间可能不足,会导致应用无法下载。</string>
@@ -328,6 +334,10 @@
     <string name="scan_qr_code_hint">使用此功能前，您必须同意打开相机的权限</string>
     <string name="zxing_msg_default_status">请将二维码置于取景框内扫描</string>
     <string name="zxing_msg_parser_status">扫描失败,请重试</string>
+    <string name="scan_qr_code_result_title">扫描结果</string>
+    <string name="scan_qr_code_result_copy_text">复制文本内容</string>
+    <string name="scan_qr_code_result_hint">文本内容：</string>
+    <string name="scan_qr_code_copy_success">复制成功</string>
 
     <string name="tip_permission_camera_storage">没有使用相机和SD卡的权限，请在权限管理中开启</string>
     <string name="permission_denied">访问被拒绝!</string>
@@ -374,6 +384,8 @@
     <string name="user_info_edit_portrait_error">该图片类型不支持上传</string>
     <string name="user_info_edit_ok">确认</string>
     <string name="user_info_edit_cancel">取消</string>
+    <string name="user_info_edit_large_photo">查看大图</string>
+
     <!--crop image-->
     <string name="crop__cancel" ignore="ButtonCase">取消</string>
     <string name="crop__done">完成</string>
@@ -389,6 +401,11 @@
     <string name="update_eamil_name_tv">邮箱不能为空</string>
     <string name="update_save_success">保存成功!</string>
     <string name="update_nickname_error">昵称已经在使用，请修改昵称。</string>
+    <string name="user_info_edit_intro_tv">个人简介：</string>
+    <string name="update_intro_title">修改简介</string>
+    <string name="update_intro_et">用一句话介绍自己吧!</string>
+    <string name="update_intro_tv">简介不能为空</string>
+
     <!--messageFragment-->
     <string name="message_all">全部</string>
     <string name="message_reply">回复</string>
@@ -411,8 +428,9 @@
     <string name="user_password_confirm">确认密码</string>
 
     <string name="user_name_error">不能包含特殊字符</string>
+    <string name="user_name_null">用户名格式不正确</string>
     <string name="user_nickname_error">不能包含特殊字符</string>
-    <string name="user_email_error">邮箱格式错误</string>
+    <string name="user_email_error">邮箱格式不正确</string>
     <string name="user_password_error">密码格式不正确</string>
     <string name="user_confirm_error">两次密码不相同</string>
 
@@ -427,6 +445,10 @@
     <!--push-->
     <string name="push_title_info_reply">%s 回复了你的评论!</string>
     <string name="push_title_info_upvoted">%s 赞了你的评论!</string>
+    <string name="push_title_info_follow">%s 关注了你!</string>
+    <string name="push_title_info_update">APKPure 有新版本了!</string>
+    <string name="push_content_info_update">最新版本 %s ! 點擊更新</string>
+
     <string name="download_list">下载列表</string>
     <string name="can_be_update">可更新</string>
     <string name="install_list">已安装</string>
@@ -558,6 +580,7 @@
     <string name="recommend_required">*</string>
     <string name="recommend_not_found">未收录</string>
     <string name="recommend_not_fount_info">通知APKPure添加\"%s\"，请先完成推荐表单。</string>
+    <string name="recommend_user_recommend_sys">系统推荐</string>
 
     <string name="user_detail_focus">关注</string>
     <string name="user_detail_fans">粉丝</string>
@@ -581,4 +604,44 @@
     <string name="menu_follow_group_tab">小组</string>
     <string name="choose_app">选择应用</string>
     <string name="publish_comment">发表评论</string>
+
+    <string name="app_detail_has_product">有内购</string>
+    <string name="app_detail_no_product">无内购</string>
+    <string name="app_detail_has_ad">有广告</string>
+    <string name="app_detail_no_ad">无广告</string>
+
+    <string name="tag_list">标签列表</string>
+    <string name="hot_tag">热门标签</string>
+    <string name="common_use">常用标签</string>
+    <string name="app_add_tag_hint_caution">最多只能添加%s个标签</string>
+    <string name="app_add_tag">添加应用标签</string>
+    <string name="toast_app_tag_exist">标签已存在!</string>
+    <string name="there_is_no_label">没有标签!</string>
+    <string name="add">添加</string>
+    <string name="colon">：</string>
+
+    <string name="pack_up">收起</string>
+    <string name="Istop">置顶</string>
+    <string name="add_tag">添加标签</string>
+    <string name="error_add_tag">标签添加失败</string>
+    <string name="no_collect">收藏夹里什么都没有&#8230;</string>
+    <string name="no_comment">暂无评论，快来抢沙发!</string>
+
+    <string name="share_apk">分享APK</string>
+    <string name="tab_apk">APK</string>
+    <string name="commentaries">评论</string>
+
+    <string name="upload_apk_downloads">下载数:%s</string>
+
+    <string name="upload_comment_uploading">%s上传中…</string>
+    <string name="upload_comment_upload_success">%s上传成功</string>
+    <string name="upload_comment_upload_failed">%s上传失败</string>
+    <string name="upload_comment_view">点击查看</string>
+    <string name="upload_comment_reload">点击重新上传</string>
+    <string name="upload_notification_pause">暂停</string>
+    <string name="upload_notification_start">开始</string>
+    <string name="upload_notification_cancel">取消</string>
+    <string name="upload_notification_is_uploading">评论上传中…</string>
+    <string name="upload_notification_is_pause">评论已暂停</string>
+    <string name="upload_add_list_toast">已加入上传队列，现在你可以进行其他操作啦！</string>
 </resources>
