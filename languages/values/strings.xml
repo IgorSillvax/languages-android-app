@@ -20,8 +20,8 @@
     <string name="updates">Updates</string>
 
     <string name="something_happened">&gt;_&lt;\nSomething happened.</string>
-
     <string name="load_failed_error">Oops! An error occurred.</string>
+    <string name="load_failed_error_not_found">App Not Listed in APKPure App Store！</string>
     <string name="load_failed_empty">These is nothing in here.</string>
     <string name="load_failed_all_up_to_date">All apps are up to date.</string>
     <string name="load_failed_no_results">Sorry! No results found.</string>
@@ -45,6 +45,7 @@
     <string name="check_update">Check update</string>
     <string name="check_update_replace">Official version</string>
     <string name="check_update_beta">Pre-release Beta</string>
+    <string name="beta">Beta</string>
     <string name="check_update_replace_value" translatable="false">0</string>
     <string name="check_update_beta_value" translatable="false">1</string>
     <string name="quit">Quit</string>
@@ -160,7 +161,7 @@
     <string name="search_for_apps">Search for Apps</string>
     <string name="trending_searches">Trending Searches</string>
     <string name="search_history">History</string>
-    <string name="clear_search_history">Clear History</string>
+    <string name="clear_search_history">Clear all history</string>
 
     <string name="improvement_plan_title">Performance Improvement Plan</string>
     <string name="improvement_plan_message">
@@ -353,6 +354,7 @@
         <item>ภาษาไทย</item>
         <item>မြန်မာဘာသာ</item>
         <item>Deutsche</item>
+        <item>ភាសាខ្មែរ</item>
     </string-array>
     <string-array name="language_entry_values" translatable="false">
         <item>__auto__</item>
@@ -384,6 +386,7 @@
         <item>th-TH</item>
         <item>my-MM</item>
         <item>de</item>
+        <item>km</item>
     </string-array>
 
     <string name="download_complete_installation_setting">Installation option after downloading</string>
@@ -406,7 +409,7 @@
 
 
     <string name="download_mkdir">Download Path</string>
-    <string name="download_mkdir_internal_storage_size_des">%1$s free，total %2$s</string>
+    <string name="download_mkdir_internal_storage_size_des">%1$s free, total %2$s</string>
     <string name="download_mkdir_internal_storage_entries">SD </string>
     <string name="download_mkdir_internal_storage_entries1">SD 1</string>
     <string name="download_mkdir_external_storage_fill_toast">Insufficient storage available may cause you can\'t download any apps.</string>
@@ -478,6 +481,11 @@
     <string name="update_email_name_et">Enter your email</string>
     <string name="update_eamil_name_tv">Email can\'t be blank</string>
     <string name="update_nickname_error">Nickname already taken, please choose another one!</string>
+    <string name="user_info_edit_intro_tv">About Me:</string>
+    <string name="update_intro_title">Edit About Me</string>
+    <string name="update_intro_et">Write some details about yourself</string>
+    <string name="update_intro_tv">About me field cann\'t be empty</string>
+
     <!--messageFragment-->
     <string name="message_all">ALL</string>
     <string name="message_reply">REPLIES</string>
@@ -527,6 +535,7 @@
     <string name="user_password_confirm">Confirm Password</string>
 
     <string name="user_name_error">Username should not contain any special characters, symbols or spaces</string>
+    <string name="user_name_null">Username is invalid</string>
     <string name="user_nickname_error">Nickname should not contain any special characters, symbols or spaces</string>
     <string name="user_email_error">This email address is invalid</string>
     <string name="user_password_error">This password is invalid</string>
@@ -714,7 +723,7 @@
 
     <string name="app_detail_has_product">Purchase Items</string>
     <string name="app_detail_no_product">No Purchase Items</string>
-    <string name="app_detail_has_ad">Ads</string>
+    <string name="app_detail_has_ad">Contains ads</string>
     <string name="app_detail_no_ad">No Ads</string>
 
     <string name="tag_list">Tags List</string>
@@ -725,5 +734,31 @@
     <string name="toast_app_tag_exist">Tag already exists!</string>
     <string name="there_is_no_label">No tags.</string>
     <string name="add">Add</string>
+    <string name="colon">:</string>
 
+    <string name="pack_up">Collapse</string>
+    <string name="Istop">Pinned</string>
+    <string name="add_tag">Add tags</string>
+    <string name="error_add_tag">Add tags faild</string>
+    <string name="no_collect">No favorites yet!</string>
+    <string name="no_comment">Be the first one to add a comment!</string>
+
+    <string name="share_apk">Share APK</string>
+    <string name="tab_apk">APK</string>
+    <string name="commentaries">Commentaries</string>
+
+    <string name="upload_apk_version">V %s</string>
+    <string name="upload_apk_downloads">Downloads:%s</string>
+    
+    <string name="upload_comment_uploading">%s is uploading…</string>
+    <string name="upload_comment_upload_success">%s is success</string>
+    <string name="upload_comment_upload_failed">%s is failed</string>
+    <string name="upload_comment_view">click for view</string>
+    <string name="upload_comment_reload">click reload</string>
+    <string name="upload_notification_pause">Pause</string>
+    <string name="upload_notification_start">Start</string>
+    <string name="upload_notification_cancel">Cancel</string>
+    <string name="upload_notification_is_uploading">Uploading</string>
+    <string name="upload_notification_is_pause">Upload is pause</string>
+    <string name="upload_add_list_toast">Your Comment is in queue!</string>
 </resources>

@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
     <string name="action_settings">設定</string>
@@ -17,6 +17,7 @@
     <string name="something_happened">&gt;_&lt;\n出錯了。</string>
 
     <string name="load_failed_error">哎呀！發生錯誤了。</string>
+    <string name="load_failed_error_not_found">該應用未收錄！</string>
     <string name="load_failed_empty">無內容。</string>
     <string name="load_failed_all_up_to_date">所有應用程式已是最新。</string>
     <string name="load_failed_no_results">抱歉！未找到結果。</string>
@@ -43,6 +44,7 @@
     <string name="check_update">檢查更新</string>
     <string name="check_update_replace">正式版</string>
     <string name="check_update_beta">測試版</string>
+    <string name="beta">Beta</string>
     <string name="quit">退出</string>
     <string name="want_to_quit">您確定要退出嗎？</string>
 
@@ -61,7 +63,7 @@
     <string name="install__label_">安裝 - <xliff:g example="APKPure" id="app_label">%1$s</xliff:g></string>
     <string name="user_canceled">用戶已取消。</string>
     <string name="io_error">IO 接口錯誤，可能是可用空間不足無法完成安裝。</string>
-    <string name="file_format_error">檔案格式錯誤。</string>
+    <string name="file_format_error">檔案格式不正確。</string>
     <string name="parsing_xapk">正在解析 XAPK …</string>
     <string name="installing_obb">正在安裝 OBB 檔案 …</string>
     <string name="extracting_apk">正在提取 APK 檔案 …</string>
@@ -94,6 +96,7 @@
     <string name="unknown">未知</string>
     <string name="flag_as_inappropriate">檢舉不當內容</string>
     <string name="_ellipsis_"> … </string>
+    <string name="history_version">歷史版本</string>
 
     <string name="market_response_error_success">成功。</string>
     <string name="market_response_error_invalid_result">無效的結果。</string>
@@ -206,7 +209,8 @@
 
     <string name="share">分享</string>
     <string name="share_app_url">下載 <xliff:g example="APKPure" id="app_name">%1$s</xliff:g> APK (來自 @<xliff:g example="APKPure" id="social_network_name">%2$s</xliff:g>), <xliff:g example="https://apkpure.com/p/com.apkpure.aegon" id="app_url">%3$s</xliff:g></string>
-    <string name="share_app_url_comment"> <xliff:g example="APKPure" id="user_name">%1$s</xliff:g> 評論了 <xliff:g example="APKPure" id="app_name">%2$s</xliff:g> (來自 @<xliff:g example="APKPure" id="social_network_name">%3$s</xliff:g>), <xliff:g example="https://apkpure.com/p/com.apkpure.aegon" id="app_url">%4$s</xliff:g></string>
+    <string name="share_app_url_comment"> <xliff:g example="APKPure" id="user_name">%1$s</xliff:g> 評論了 <xliff:g example="APKPure" id="app_name">%2$s</xliff:g> : <xliff:g example="APKPure" id="app_name">%3$s</xliff:g> (來自 @<xliff:g example="APKPure" id="social_network_name">%4$s</xliff:g>), <xliff:g example="https://apkpure.com/p/com.apkpure.aegon" id="app_url">%5$s</xliff:g></string>
+    <string name="share_app_url_group"> <xliff:g example="APKPure" id="app_name">%1$s</xliff:g> 小組 (來自 @<xliff:g example="APKPure" id="social_network_name">%2$s</xliff:g>), <xliff:g example="https://apkpure.com/p/com.apkpure.aegon" id="app_url">%3$s</xliff:g></string>
 
     <string name="_name__version_history"><xliff:g example="APKPure" id="name">%1$s</xliff:g> 的版本歷史</string>
     <string name="update__date___size_">更新：<xliff:g example="Mar 3, 2016" id="date">%1$s</xliff:g>, <xliff:g example="1024 kB" id="size">%2$s</xliff:g></string>
@@ -233,6 +237,8 @@
     <string name="language">語言</string>
     <string name="auto">跟隨系統</string>
     <string name="changing_language">正在切換語言，請稍候…</string>
+    <string name="data_saver_model">省流量模式</string>
+    <string name="data_saver_model_summery">開啟後會降低展示圖片大小和清晰度</string>
     <string name="download_via_wifi_only">僅透過 Wi-Fi 下載</string>
     <string name="enable_ultra_download">啟用超級下載</string>
     <string name="enable_ultra_download_summary">超級下載目前還是測試版本，如果在使用中發現問題請告訴我們。</string>
@@ -311,7 +317,7 @@
     <string name="download_complete_installation_setting_entries_never">從不安裝</string>
 
     <string name="download_mkdir">下載位置</string>
-    <string name="download_mkdir_internal_storage_size_des">%1$s可用,共%2$s</string>
+    <string name="download_mkdir_internal_storage_size_des">%1$s 可用，共 %2$s</string>
     <string name="download_mkdir_internal_storage_entries">儲存空間</string>
     <string name="download_mkdir_internal_storage_entries1">儲存空間</string>
     <string name="download_mkdir_external_storage_fill_toast">儲存空間可能不足,會導致應用無法下載。</string>
@@ -326,11 +332,15 @@
 
     <string name="load_end">沒有更多數據</string>
     <string name="load_failed_click_retry">載入失敗，點擊重試</string>
-    <string name="loading">正在載入…</string>
+    <string name="loading">正在載入&#8230;</string>
 
     <string name="scan_qr_code_hint">使用此功能前，您必須同意打開相機的許可權</string>
     <string name="zxing_msg_default_status">請將二維碼置於取景框內掃描</string>
     <string name="zxing_msg_parser_status">掃描失敗,請重試</string>
+    <string name="scan_qr_code_result_title">掃描結果</string>
+    <string name="scan_qr_code_result_copy_text">複製文本內容</string>
+    <string name="scan_qr_code_result_hint">文本內容：</string>
+    <string name="scan_qr_code_copy_success">複製成功</string>
 
     <string name="tip_permission_camera_storage">沒有使用相機和SD卡的權限，請在權限管理中開啟</string>
     <string name="permission_denied">訪問被拒絕!</string>
@@ -342,16 +352,16 @@
     <string name="delete_comment_msg">你想要刪除這條評論嗎?</string>
     <string name="login_select_way_to_login">請選擇登錄方式</string>
     <string name="upload_cancel">上傳已取消</string>
-    <string name="is_comment">正在發表評論…</string>
+    <string name="is_comment">正在發表評論&#8230;</string>
     <string name="comment_cancel">評論已取消</string>
-    <string name="comment_submitting">提交中…</string>
-    <string name="comment_replying">回复中…</string>
+    <string name="comment_submitting">提交中&#8230;</string>
+    <string name="comment_replying">回复中&#8230;</string>
     <!--update password-->
     <string name="update_pwd_title">修改密碼</string>
     <string name="update_pwd_current_pwd_et">舊密碼</string>
     <string name="update_pwd_new_pwd_et">新密碼</string>
     <string name="update_pwd_Confirm_pwd_et">確認密碼</string>
-    <string name="upload_avatar">正在上傳…</string>
+    <string name="upload_avatar">正在上傳&#8230;</string>
     <string name="update_pwd_current_null_tv">舊密碼不能為空</string>
     <string name="update_pwd_Confirm_null_tv">確認密碼不能為空</string>
     <string name="update_pwd_new_pwd_null_tv">新密碼不能為空</string>
@@ -376,7 +386,7 @@
     <string name="user_info_edit_portrait_error">該圖片類型不支持上傳</string>
     <string name="user_info_edit_ok">確認</string>
     <string name="user_info_edit_cancel">取消</string>
-
+    <string name="user_info_edit_large_photo">查看大圖</string>
 
     <!--updateNickname-->
     <string name="update_nick_title">修改昵稱</string>
@@ -387,6 +397,10 @@
     <string name="update_eamil_name_tv">郵箱不能為空</string>
     <string name="update_save_success">保存成功!</string>
     <string name="update_nickname_error">昵稱已經在使用，請修改昵稱。</string>
+    <string name="user_info_edit_intro_tv">個人簡介：</string>
+    <string name="update_intro_title">修改簡介</string>
+    <string name="update_intro_et">用一句話介紹自己吧!</string>
+    <string name="update_intro_tv">簡介不能為空</string>
     <!--messageFragment-->
     <string name="message_all">全部</string>
     <string name="message_reply">回復</string>
@@ -415,8 +429,9 @@
     <string name="user_password_confirm">確認密碼</string>
 
     <string name="user_name_error">不能包含特殊字元</string>
+    <string name="user_name_null">用戶名格式不正確</string>
     <string name="user_nickname_error">不能包含特殊字元</string>
-    <string name="user_email_error">郵箱格式錯誤</string>
+    <string name="user_email_error">郵箱格式不正確</string>
     <string name="user_password_error">密碼格式不正確</string>
     <string name="user_confirm_error">兩次密碼不相同</string>
 
@@ -432,6 +447,10 @@
     <!--push-->
     <string name="push_title_info_reply">%s 回復了你的評論!</string>
     <string name="push_title_info_upvoted">%s 贊了你的評論!</string>
+    <string name="push_title_info_follow">%s 關注了你!</string>
+    <string name="push_title_info_update">APKPure 有新版本了!</string>
+    <string name="push_content_info_update">最新版本 %s ! 點擊更新</string>
+
     <string name="download_list">下載列表</string>
     <string name="can_be_update">可更新</string>
     <string name="install_list">已安裝</string>
@@ -464,7 +483,7 @@
     <string name="set_updates_notification">應用有新版本</string>
     <string name="set_updates_notification_msg">應用有新版本時通知我，建議開啟。</string>
     <string name="app_detail_unknow_text">版本過低，不支持該板塊，請升級後查看。</string>
-    <string name="comment_detail_original">查看原評論 &gt;</string>
+    <string name="comment_detail_original">查看原評論 ></string>
     <string name="comment_comment_newest">最新</string>
     <string name="comment_comment_oldest">最早</string>
 
@@ -559,6 +578,7 @@
     <string name="recommend_required">*</string>
     <string name="recommend_not_found">未收錄</string>
     <string name="recommend_not_fount_info">通知APKPure添加\"%s\"，請先完成推薦表單。</string>
+    <string name="recommend_user_recommend_sys">系統推薦</string>
 
     <string name="user_detail_focus">關注</string>
     <string name="user_detail_fans">粉絲</string>
@@ -582,16 +602,44 @@
     <string name="menu_follow_group_tab">小組</string>
     <string name="choose_app">選擇應用</string>
     <string name="publish_comment">發表評論</string>
-<string name="add"/>
 
-<string name="there_is_no_label"/>
-    <string name="toast_app_tag_exist"/>
-    <string name="app_add_tag"/>
-    <string name="app_add_tag_hint_caution"/>
-    <string name="hot_tag"/>
-    <string name="tag_list"/>
-    <string name="app_detail_no_ad"/>
+    <string name="app_detail_has_product">有內購</string>
+    <string name="app_detail_no_product">無內購</string>
+    <string name="app_detail_has_ad">有廣告</string>
+    <string name="app_detail_no_ad">無廣告</string>
 
-    <string name="app_detail_no_product"/>
-    <string name="app_detail_has_product"></string>
-    </resources>
+    <string name="tag_list">標籤列表</string>
+    <string name="hot_tag">熱門標籤</string>
+    <string name="common_use">常用標籤</string>
+    <string name="app_add_tag_hint_caution">最多只能添加%s個標籤</string>
+    <string name="app_add_tag">添加應用標籤</string>
+    <string name="toast_app_tag_exist">標籤已存在!</string>
+    <string name="there_is_no_label">沒有標籤!</string>
+    <string name="add">添加</string>
+    <string name="colon">：</string>
+
+    <string name="pack_up">收起</string>
+    <string name="Istop">置頂</string>
+    <string name="add_tag">添加標籤</string>
+    <string name="error_add_tag">標籤添加失敗</string>
+    <string name="no_collect">收藏夾里什麼都沒有&#8230;</string>
+    <string name="no_comment">暫無評論，快來搶沙發!</string>
+
+    <string name="share_apk">分享APK</string>
+    <string name="tab_apk">APK</string>
+    <string name="commentaries">評論</string>
+
+    <string name="upload_apk_downloads">下載數:%s</string>
+
+    <string name="upload_comment_uploading">%s上傳中…</string>
+    <string name="upload_comment_upload_success">%s上傳成功</string>
+    <string name="upload_comment_upload_failed">%s上傳失敗</string>
+    <string name="upload_comment_view">點擊查看</string>
+    <string name="upload_comment_reload">點擊重新上傳</string>
+    <string name="upload_notification_pause">暫停</string>
+    <string name="upload_notification_start">開始</string>
+    <string name="upload_notification_cancel">取消</string>
+    <string name="upload_notification_is_uploading">評論上傳中…</string>
+    <string name="upload_notification_is_pause">評論已暫停</string>
+    <string name="upload_add_list_toast">已加入上传队列，现在你可以进行其他操作啦！</string>
+</resources>
