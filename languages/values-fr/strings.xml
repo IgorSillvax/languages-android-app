@@ -517,7 +517,7 @@ Les fonctions mentionnées ci-dessus supportent Android 4.1 et +, sans besoin de
 <string name="menu_follow_group_tab">Groupes</string>
 
     <string name="download_mkdir">Télécharger le chemin</string>
-    <string name="download_mkdir_external_storage_fill_toast">Stokage insuffisant, vous ne pouvez pas télécharger certaines applications</string>
+    <string name="download_mkdir_external_storage_fill_toast">Un espace de stockage insuffisant peut empêcher le téléchargement d\'applications</string>
 
     <string name="download_mkdir_internal_storage_values">stokage_interne</string>
     <string name="download_mkdir_external_storage_values">stokage_externe</string>
@@ -597,4 +597,6 @@ Les fonctions mentionnées ci-dessus supportent Android 4.1 et +, sans besoin de
     <string name="menu_follow_all">Tout suivie</string>
     <string name="choose_app">selectionner une apllication</string>
     <string name="download_mkdir_internal_storage_size_des">%1$slibre,total%2$s</string>
+    <string name="history_version">Version de l\'historique</string>
+
     </resources>

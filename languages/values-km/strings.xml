@@ -190,7 +190,7 @@
     <string name="setting">ការកំណត់</string>
     <string name="share">ចែករំលែក</string>
     <string name="share_app_url">ទាញយក <xliff:g example="APKPure" id="app_name">%1$s</xliff:g> APK (មកពី @<xliff:g example="APKPure" id="social_network_name">%2$s</xliff:g>), <xliff:g example="https://apkpure.com/p/com.apkpure.aegon" id="app_url">%3$s</xliff:g></string>
-    <string name="share_app_url_comment"> <xliff:g example="APKPure" id="user_name">%1$s</xliff:g>មានមតិនៅលើ <xliff:g example="APKPure" id="app_name">%2$s</xliff:g> (មកពី @<xliff:g example="APKPure" id="social_network_name">%3$s</xliff:g>), <xliff:g example="https://apkpure.com/p/com.apkpure.aegon" id="app_url">%4$s</xliff:g></string>
+    <string name="share_app_url_comment"> <xliff:g example="APKPure" id="user_name">%1$s</xliff:g>មានមតិនៅលើ <xliff:g example="APKPure" id="app_name">%2$s</xliff:g> ៖ <xliff:g example="APKPure" id="app_name">%3$s</xliff:g> (មកពី @<xliff:g example="APKPure" id="social_network_name">%4$s</xliff:g>), <xliff:g example="https://apkpure.com/p/com.apkpure.aegon" id="app_url">%5$s</xliff:g></string>
 
     <string name="update__date___size_">អាប់ដេត៖ <xliff:g example="Mar 3, 2016" id="date">%1$s</xliff:g>, <xliff:g example="1024 kB" id="size">%2$s</xliff:g></string>
 
@@ -260,7 +260,7 @@
     <string name="app_submit_reply_to">ឆ្លើយតបទៅ</string>
 
     <string name="app_detail_tab_one">លម្អិត</string>
-    <string name="app_detail_tab_two">មតិ</string>
+    <string name="app_detail_tab_two">ការបញ្ចេញមតិ</string>
     <string name="app_detail_tab_three">ដែលទាក់ទង</string>
 
     <string name="app_detail_comment_order_array_default">តម្រៀបតាមលំនាំដើម</string>
@@ -314,8 +314,7 @@
     <string name="update_nick_title">ផ្លាស់ប្ដូរឈ្មោះហៅក្រៅ</string>
     <string name="update_email_title">ផ្លាស់ប្ដូរអ៊ីម៉ែល</string>
     <string name="update_nick_name_et">បញ្ចូលឈ្មោះហៅក្រៅថ្មីរបស់អ្នក</string>
-    <string name="update_nick_name_tv">
-</string>
+    <string name="update_nick_name_tv">ឈ្មោះហៅក្រៅថ្មី មិនអាចចន្លោះឡើយ</string>
     <string name="update_email_name_et">បញ្ចូលអ៊ីម៉ែលរបស់អ្នក</string>
     <string name="update_eamil_name_tv">អ៊ីម៉ែលមិនអាចទទេរ</string>
     <string name="message_all">ទាំងអស់</string>
@@ -331,7 +330,7 @@
 	<item quantity="other">មើល <xliff:g example="1" id="count">%1$d</xliff:g> ឆ្លើយតបទាំងអស់</item>
 </plurals>
 
-    <string name="app_detail_customer_reviews">មតិ</string>
+    <string name="app_detail_customer_reviews">ការបញ្ចេញមតិ</string>
     <string name="extracting_apk">កំពុងស្រាយកញ្ចប់ឯកសារ APK…</string>
     <string name="external_storage_not_usable">
  <big><b>ពួកយើងត្រូវការចូលដំណើរការឃ្លាំងផ្ទុកខាងក្រៅ។ សូមប្រាកដថាវាអាចប្រើការបាន។</b></big>
@@ -475,7 +474,7 @@
 
     <string name="main_comment">មតិ</string>
     <string name="main_won_praise">ពេញចិត្ត</string>
-    <string name="main_my_comments">មតិ</string>
+    <string name="main_my_comments">ការពិភាក្សា</string>
     <string name="main_my_collection">ចំណូលចិត្ត</string>
     <string name="main_my_message">សារ</string>
     <string name="main_good_comments">បោះឆ្នាតឡើង</string>
@@ -490,7 +489,7 @@
     <string name="group">ក្រុម</string>
     <string name="collection">ជម្រើសពិសេសៗ</string>
 
-    <string name="comments">មតិ</string>
+    <string name="comments">ការពិភាក្សា</string>
     <string name="follow">កំពុងតាមដាន</string>
     <string name="attention_on">កំពុងតាមដាន</string>
     <string name="attention_off">តាមដាន</string>
@@ -509,7 +508,7 @@
     <string name="favorite_saved">ចំណូលចិត្តបានរក្សាទុក</string>
     <string name="failed_to_save_favorite">បរាជ័យក្នុងរក្សាទុកចំណូលចិត្ត</string>
     <string name="remove_as_favorite">ដកចេញពីចំណួលចិត្ត</string>
-    <string name="collection_comment">មតិ</string>
+    <string name="collection_comment">ការពិភាក្សា</string>
     <string name="collection_app">កម្មវិធី</string>
 
     <string name="web_view_refresh">ធ្វើឲ្យស្រស់</string>
@@ -568,7 +567,7 @@
 
     <string name="user_focus_tab_users">មនុស្ស</string>
     <string name="user_focus_tab_apps">ក្រុម</string>
-    <string name="download_mkdir_internal_storage_size_des">%1$sនៅសល់,​ សរុប%2$s</string>
+    <string name="download_mkdir_internal_storage_size_des">%1$s នៅសល់,​ សរុប %2$s</string>
     <string name="download_mkdir_internal_storage_entries">"SD "</string>
     <string name="download_mkdir_internal_storage_entries1">SD 1</string>
     <string name="download_mkdir_external_storage_fill_toast">ឃ្លាំងផ្ទុកដែលអាចប្រើបានមិនគ្រប់គ្រាន់ អាចបណា្ខលឱ្យអ្នកមិនអាចទាញយកគ្រប់កម្មវិធី។</string>
@@ -594,4 +593,37 @@
     <string name="publish_comment">ប្រកាសមតិ</string>
 
 <string name="download_mkdir">ផ្លូវកាត់ការទាញយក</string>
-    </resources>
+    <string name="history_version">ប្រវត្ដិនៃជំនាន់</string>
+
+    <string name="share_app_url_group"> ក្រុម <xliff:g example="APKPure" id="app_name">%1$s</xliff:g> ។ (មកពី @<xliff:g example="APKPure" id="social_network_name">%2$s</xliff:g>), <xliff:g example="https://apkpure.com/p/com.apkpure.aegon" id="app_url">%3$s</xliff:g></string>
+
+    <string name="data_saver_model">សន្សំសំចៃទិន្នន័យ</string>
+    <string name="scan_qr_code_result_title">លទ្ធផល</string>
+    <string name="scan_qr_code_result_copy_text">ចម្លងតួអក្សរ</string>
+    <string name="scan_qr_code_result_hint">កូដ QR លម្អិត៖</string>
+    <string name="scan_qr_code_copy_success">អត្ថបទត្រូវបានចម្លង</string>
+
+    <string name="user_info_edit_large_photo">មើលរូបថត ក្នុងទំហំធំបំផុត</string>
+
+    <string name="push_title_info_follow">%s បានតាមអ្នក!</string>
+    <string name="data_saver_model_summery">ការទាញបើកនេះ និងកាត់បន្ថយទំហំ, គុណភាពរូបភាព ដើម្បីជំនួយការប្រើប្រាស់ទិន្នន័យចល័តតិច។</string>
+    <string name="push_title_info_update">ការធ្វើបច្ចប្បន្នភាព APKPure បានមកដល់ហើយ!</string>
+    <string name="push_content_info_update">ជំនាន់ថ្មី %s ត្រូវបានចេញផ្សាយ! អាប់ដេតឥឡូវនេះ!</string>
+
+    <string name="recommend_user_recommend_sys">លក្ខណៈពិសេសដោយ APKPure</string>
+
+    <string name="app_detail_has_product">ការទិញធាតុ</string>
+    <string name="app_detail_no_product">មិនមានការទិញធាតុទេ</string>
+    <string name="app_detail_has_ad">ពាណិជ្ជកម្ម</string>
+    <string name="app_detail_no_ad">គ្មានពាណិជ្ជកម្ម</string>
+
+    <string name="tag_list">បញ្ជីស្លាក</string>
+    <string name="hot_tag">ស្លាកនិយមថ្មីៗ</string>
+    <string name="common_use">ស្លាកពេញនិយម</string>
+    <string name="app_add_tag_hint_caution">មិនលើសពីស្លាក %s សម្រាប់កម្មវិធីនីមួយៗ។</string>
+    <string name="app_add_tag">បន្ថែមស្លាកថ្មី</string>
+    <string name="toast_app_tag_exist">ស្លាកមានរួចហើយ!</string>
+    <string name="there_is_no_label">គ្មានស្លាក។</string>
+    <string name="add">បន្ថែម</string>
+
+</resources>

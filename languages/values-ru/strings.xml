@@ -286,7 +286,7 @@
     <string name="auto_install_via_root_title">Автоматическая установка (Нужен Root)</string>
     <string name="auto_install_via_root_summary">Только для устройств с Root.</string>
 
-    <string name="app_detail_customer_reviews">Комментарии</string>
+    <string name="app_detail_customer_reviews">Обсуждение</string>
     <string name="app_submit_anonymous_comment">Добавить комментарий</string>
     <string name="login_user_password">Пароль</string>
     <string name="app_submit_msg_toast">Напишите что-нибудь!</string>
@@ -297,16 +297,16 @@
     <string name="app_submit_email">Электронная почта</string>
     <string name="app_submit_submit_title">отправить</string>
     <string name="app_detail_tab_one">Детали</string>
-    <string name="app_detail_tab_two">Комментарии</string>
+    <string name="app_detail_tab_two">Обсуждение</string>
     <string name="app_detail_comment_order_array_recent">Недавние</string>
     <string name="app_detail_comment_order_array_newest">Новые</string>
-    <string name="app_detail_comment_order_array_best">Горячие</string>
+    <string name="app_detail_comment_order_array_best">Лучшие</string>
 
     <string name="download_complete_installation_setting">Установить после загрузки</string>
 
     <string name="download_complete_installation_setting_entries_always">Всегда устанавливать</string>
     <string name="download_complete_installation_setting_entries_only">Только если программа открыта</string>
-    <string name="download_complete_installation_setting_entries_never">Никогда</string>
+    <string name="download_complete_installation_setting_entries_never">Никогда не устанавливать</string>
 
     <string name="reply">Отзывы</string>
     <string name="reply_comment">Ответить на комментарий</string>
@@ -494,5 +494,16 @@
     <string name="sub_comment_dialog_des_tv">Поддержка для разбора только YouTube URL-адресов</string>
 <string name="check_update_replace">Официальная версия</string>
     <string name="download_mkdir_external_storage_values">Внешнее хранилище</string>
+
+    <string name="check_update_beta">Предрелизная Бета</string>
+    <string name="history_version">История версий</string>
+
+    <string name="app_detail_comment_order_array_old">Старый</string>
+
+    <string name="app_detail_comment_join_group_bt">Группа</string>
+    <string name="download_mkdir">Скачать патч</string>
+    <string name="download_mkdir_external_storage_fill_toast">Отсутствие свободного места может привести к невозможности скачивания приложений.</string>
+
+    <string name="share_app_url_group"> <xliff:g example="APKPure" id="app_name">%1$s</xliff:g>Group. (from @<xliff:g example="APKPure" id="social_network_name">%2$s</xliff:g> ), <xliff:g example="https://apkpure.com/p/com.apkpure.aegon" id="app_url">%3$s</xliff:g></string>
 
     </resources>

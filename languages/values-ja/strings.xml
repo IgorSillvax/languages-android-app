@@ -273,7 +273,7 @@ APKPureが正常に運行するために、APKPureをクリーニングアプリ
 
     <string name="report">レポート</string>
     <string name="recommend">ディスカバー</string>
-    <string name="app_detail_customer_reviews">顧客コメント</string>
+    <string name="app_detail_customer_reviews">ディスカッション</string>
     <string name="app_detail_comment_type_web">ウェブ</string>
     <string name="app_submit_submit">提出…</string>
     <string name="app_submit_anonymous_comment">コメントする</string>
@@ -290,7 +290,7 @@ APKPureが正常に運行するために、APKPureをクリーニングアプリ
     <string name="app_submit_reply_to">返信</string>
 
     <string name="app_detail_tab_one">詳細</string>
-    <string name="app_detail_tab_two">コメント</string>
+    <string name="app_detail_tab_two">ディスカッション</string>
     <string name="app_detail_tab_three">関連</string>
 
     <string name="app_detail_comment_order_array_default">デフォルトの並び順</string>
@@ -498,7 +498,7 @@ APKPureが正常に運行するために、APKPureをクリーニングアプリ
 
     <string name="main_comment">コメント</string>
     <string name="main_won_praise">Likes</string>
-    <string name="main_my_comments">コメント</string>
+    <string name="main_my_comments">ディスカッション</string>
     <string name="main_my_collection">お気に入り</string>
     <string name="main_my_message">メッセージ</string>
     <string name="main_good_comments">賛成</string>
@@ -513,7 +513,7 @@ APKPureが正常に運行するために、APKPureをクリーニングアプリ
     <string name="group">グループ</string>
     <string name="collection">コレクション</string>
 
-    <string name="comments">コメント</string>
+    <string name="comments">ディスカッション</string>
     <string name="follow">フォロー</string>
     <string name="attention_on">フォロー</string>
     <string name="attention_off">フォロー</string>
@@ -536,7 +536,7 @@ APKPureが正常に運行するために、APKPureをクリーニングアプリ
     <string name="remove_as_favorite">お気に入りとして削除</string>
     <string name="remove_failed">削除失敗</string>
 
-    <string name="collection_comment">コメント</string>
+    <string name="collection_comment">ディスカッション</string>
     <string name="collection_app">アプリ</string>
 
     <string name="open_with_browser">ブラウザで開く</string>
@@ -569,7 +569,7 @@ APKPureが正常に運行するために、APKPureをクリーニングアプリ
     <string name="download_mkdir_internal_storage_values">内部記憶</string>
     <string name="download_mkdir_external_storage_values">外部記憶</string>
 
-    <string name="download_mkdir_internal_storage_size_des">%1$sフリー,トータル%2$s</string>
+    <string name="download_mkdir_internal_storage_size_des">%1$sフリー、トータル%2$s</string>
     <string name="download_mkdir_internal_storage_entries">"SD "</string>
     <string name="download_mkdir_internal_storage_entries1">SD 1</string>
     <string name="recommend_not_found">インデックスされていない</string>
@@ -578,7 +578,7 @@ APKPureが正常に運行するために、APKPureをクリーニングアプリ
     <string name="user_detail_focus">フォロー中</string>
     <string name="user_detail_fans">フォロワー</string>
     <string name="user_detail_praise">Likes</string>
-    <string name="user_detail_tab_detail">コメント</string>
+    <string name="user_detail_tab_detail">ディスカッション</string>
     <string name="user_detail_tab_reply">返信</string>
 
     <string name="user_focus_tab_apps">グループ</string>
@@ -596,5 +596,39 @@ APKPureが正常に運行するために、APKPureをクリーニングアプリ
 
     <string name="choose_app">アプリケーションの選択</string>
     <string name="publish_comment">コメントを投稿</string>
+
+<string name="history_version">バージョン履歴</string>
+
+    <string name="data_saver_model">データセーバー</string>
+    <string name="share_app_url_group"> <xliff:g example="APKPure" id="app_name"> 1%1$s</xliff:g> 2 グループ. (from @<xliff:g example="APKPure" id="social_network_name"> 3%2$s</xliff:g> 4), <xliff:g example="https://apkpure.com/p/com.apkpure.aegon" id="app_url"> 5%3$s</xliff:g> 6</string>
+
+    <string name="data_saver_model_summery">これをオンにすることで画像のサイズと画質が低下し、携帯電話のデータを少なくすることができます。</string>
+    <string name="scan_qr_code_result_title">結果</string>
+    <string name="scan_qr_code_result_copy_text">テキストをコピーする</string>
+    <string name="scan_qr_code_result_hint">QRコードの詳細：</string>
+    <string name="scan_qr_code_copy_success">テキストをコピーした</string>
+
+    <string name="user_info_edit_large_photo">写真をもっと大きなサイズで見る</string>
+
+    <string name="push_title_info_follow">%sがあなたをフォローした!</string>
+    <string name="push_title_info_update">APKPureアップデートが届きました！</string>
+    <string name="push_content_info_update">新しいバージョン％sがリリースされました！ 今すぐアップデート！</string>
+
+    <string name="recommend_user_recommend_sys">APKPureの特集</string>
+
+    <string name="user_focus_tab_users">People</string>
+    <string name="app_detail_has_product">購入アイテム</string>
+    <string name="app_detail_no_product">購入アイテムなし</string>
+    <string name="app_detail_has_ad">広告</string>
+    <string name="app_detail_no_ad">広告なし</string>
+
+    <string name="tag_list">タグ一覧</string>
+    <string name="hot_tag">ホット・タグ</string>
+    <string name="common_use">人気タグ</string>
+    <string name="app_add_tag_hint_caution">アプリごとに％s以上のタグはありません。</string>
+    <string name="app_add_tag">新しいタグを追加する</string>
+    <string name="toast_app_tag_exist">タグは既に存在します！</string>
+    <string name="there_is_no_label">タグはありません。</string>
+    <string name="add">追加</string>
 
 </resources>

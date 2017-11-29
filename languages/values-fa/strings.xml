@@ -266,7 +266,7 @@
 	<item quantity="other">مشاهده تمام <xliff:g example="2" id="count">%1$d</xliff:g> پاسخ‌ها</item>
 </plurals>
 
-    <string name="app_detail_customer_reviews">نظر‌ها</string>
+    <string name="app_detail_customer_reviews">بحث‌ها</string>
     <string name="app_detail_comment_type_web">وب</string>
     <string name="app_submit_submit">ارسال…</string>
     <string name="app_submit_anonymous_comment">اضافه کردن نظر</string>
@@ -283,7 +283,7 @@
     <string name="app_submit_reply_to">پاسخ دادن به</string>
 
     <string name="app_detail_tab_one">جزئیات</string>
-    <string name="app_detail_tab_two">نقد و بررسی‌ها</string>
+    <string name="app_detail_tab_two">بحث‌ها</string>
     <string name="app_detail_tab_three">مربوط</string>
 
     <string name="reply">پاسخ</string>
@@ -299,7 +299,7 @@
 <string name="input_reply_content">محتوای واردی برای پاسخ:</string>
     <string name="zxing_msg_default_status">لطفا محل کد QR را در قسمت منظره یاب برای اسکن قرار دهید.</string>
     <string name="report">گزارش</string>
-    <string name="share_app_url_comment"> <xliff:g example="APKPure" id="user_name">%1$s</xliff:g> نظر در مورد <xliff:g example="APKPure" id="app_name">%2$s</xliff:g> (از جانب @<xliff:g example="APKPure" id="social_network_name">%3$s</xliff:g>), <xliff:g example="https://apkpure.com/p/com.apkpure.aegon" id="app_url">%4$s</xliff:g></string>
+    <string name="share_app_url_comment"> <xliff:g example="APKPure" id="user_name">%1$s</xliff:g> نظر در مورد <xliff:g example="APKPure" id="app_name">%2$s</xliff:g> : <xliff:g example="APKPure" id="app_name">%3$s</xliff:g> (از جانب @<xliff:g example="APKPure" id="social_network_name">%4$s</xliff:g>), <xliff:g example="https://apkpure.com/p/com.apkpure.aegon" id="app_url">%5$s</xliff:g></string>
 
     <string name="app_detail_reply_comment">نظر (%d)</string>
     <string name="app_detail_comment_order_array_recent">اخیرا</string>
@@ -482,7 +482,7 @@
 
     <string name="main_comment">نظر</string>
     <string name="main_won_praise">پسندیده</string>
-    <string name="main_my_comments">نظر‌ها</string>
+    <string name="main_my_comments">بحث‌ها</string>
     <string name="main_my_collection">علاقمندی‌ها</string>
     <string name="main_my_message">پیام‌ها</string>
     <string name="main_good_comments">رای‌موافق داده شد</string>
@@ -495,7 +495,7 @@
     <string name="group">گروه</string>
     <string name="collection">مجموعه</string>
 
-    <string name="comments">نظر‌ها</string>
+    <string name="comments">بحث‌ها</string>
     <string name="attention_off">دنبال کنید</string>
     <string name="follow">دنبال می‌کنید</string>
     <string name="attention_on">دنبال می‌کنید</string>
@@ -515,7 +515,7 @@
     <string name="save_as_favorite">ذخیره به عنوان علاقمندی</string>
     <string name="favorite_saved">به عنوان علاقمندی ذخیره شد</string>
     <string name="failed_to_save_favorite">این مورد برای علاقمندی ذخیره نشد</string>
-    <string name="collection_comment">نظر‌ها</string>
+    <string name="collection_comment">بحث‌ها</string>
     <string name="collection_app">برنامه‌ها</string>
 
     <string name="open_with_browser">باز کردن با مرورگر</string>
@@ -552,12 +552,13 @@
     <string name="topic_switch_failed">تغییر قالب ناموفق بود</string>
 
     <string name="recommend_description">1. توصیه‌های تایید شده در زیر بخش \"پیشنهاد‌ها\" نمایش داده می‌شود.
-2. شما فقط می توانید برنامه‌های در حال حاضر در دستگاه شما نصب شده است را توصیه کنید.</string>
+2. شما فقط می توانید برنامه‌های در حال حاضر در دستگاه شما نصب شده است را توصیه کنید.
+3. به APKPure اطلاع دهید برنامه‌های فهرست نشده را اضافه کند، لطفاً ابتدا فرم پیشنهادی را تکمیل نمائید.</string>
     <string name="no_choice">انتخاب دیگری ندارید</string>
     <string name="topic_purple_blue_gary">نیروی هوایی آبی</string>
     <string name="recommend_write_des_hint">پیشنهادهای مفید توسط کاربران زیادی که مثل شما علاقه‌ای مشابه دارند، دیده می‌شود.</string>
     <string name="download_mkdir">مسیر دانلود</string>
-    <string name="download_mkdir_internal_storage_size_des">%1$sرایگان,کل%2$s</string>
+    <string name="download_mkdir_internal_storage_size_des">%1$s خالی，جمعا %2$s</string>
     <string name="download_mkdir_internal_storage_entries">"SD "</string>
     <string name="download_mkdir_internal_storage_entries1">SD 1</string>
     <string name="download_mkdir_external_storage_fill_toast">فضای ذخیره سازی پر است و نمی‌توان برنامه‌ای را دانلود کرد.</string>
@@ -566,7 +567,7 @@
     <string name="user_detail_focus">دنبال می‌کنید</string>
     <string name="user_detail_fans">دنبال کننده</string>
     <string name="user_detail_praise">پسندیده‌ها</string>
-    <string name="user_detail_tab_detail">نظرات</string>
+    <string name="user_detail_tab_detail">بحث‌ها</string>
     <string name="user_detail_tab_reply">پاسخ‌ها</string>
 
     <string name="user_focus_tab_apps">گروه‌ها</string>
@@ -585,4 +586,42 @@
     <string name="publish_comment">ارسال نظر</string>
 
 <string name="user_focus_tab_users">دوستان</string>
+    <string name="history_version">تاریخچه نسخه</string>
+
+    <string name="share_app_url_group"> <xliff:g example="APKPure" id="app_name">%1$s</xliff:g> گروه. (از جانب @<xliff:g example="APKPure" id="social_network_name">%2$s</xliff:g>), <xliff:g example="https://apkpure.com/p/com.apkpure.aegon" id="app_url">%3$s</xliff:g></string>
+
+    <string name="data_saver_model">صرفه‌جویی در داده</string>
+    <string name="data_saver_model_summery">روشن کرد این باعث کاهش کیفیت و کم حجم شد تصویر خواهد شد که برای کمک در مصرف کم داده اینترنت موبایل می‌شود.</string>
+    <string name="download_mkdir_internal_storage_values">حافظه داخلی</string>
+    <string name="download_mkdir_external_storage_values">حافظه خارجی</string>
+
+    <string name="scan_qr_code_result_title">نتیجه</string>
+    <string name="scan_qr_code_result_copy_text">کپی متن</string>
+    <string name="scan_qr_code_result_hint">جزئیات کیوآر کد:</string>
+    <string name="scan_qr_code_copy_success">متن کپی شد</string>
+
+    <string name="user_info_edit_large_photo">مشاهده عکس در اندازه بزرگتر</string>
+
+    <string name="push_title_info_follow">%s نفر شما را دنبال می‌کند!</string>
+    <string name="push_title_info_update">به‌روزرسانی جدید APKPure آماده هست!</string>
+    <string name="push_content_info_update">نسخه جدید %s منتشر شد! به‌روزرسانی کنید!</string>
+
+    <string name="recommend_user_recommend_sys">توسط APKPure ویژه شده است</string>
+
+    <string name="menu_follow_user">کاربران دنبال شده</string>
+    <string name="app_detail_has_ad">تبلیغات</string>
+    <string name="app_detail_no_ad">بدون تبلیغات</string>
+
+    <string name="tag_list">لیست برچسب‌ها</string>
+    <string name="toast_app_tag_exist">این برچسب وجود دارد!</string>
+    <string name="there_is_no_label">هیچ برچسبی وجود ندارد.</string>
+    <string name="add">اضافه کردن</string>
+
+<string name="hot_tag">برچسب‌های داغ</string>
+    <string name="common_use">برچسب‌های محبوب</string>
+    <string name="app_add_tag">یک برچسب جدید اضافه کنید</string>
+    <string name="recommend_not_fount_info">به APKPure اطلاع دهید که \"%s\" را اضافه کند، شما باید فرم‌ها را تکمیل نمائید.</string>
+    <string name="app_detail_has_product">اقلام خریدنی</string>
+    <string name="app_detail_no_product">هیچ اقلام خریدنی وجود ندارد</string>
+    <string name="app_add_tag_hint_caution">برچسب‌های هر برنامه بیشتر از %s نباشد.</string>
     </resources>
