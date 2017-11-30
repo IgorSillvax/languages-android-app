@@ -186,13 +186,13 @@ Hiba történt.</string>
     <string name="deleted">Törölve</string>
     <string name="installed">Telepítve</string>
     <string name="remove_all">Összes eltávolítása</string>
-    <string name="want_to_remove_all_download_items">Valóban eltávolítja az összes letöltési elemet?</string>
+    <string name="want_to_remove_all_download_items">El szeretné távolítani az összes letöltési elemet?</string>
     <string name="delete_downloaded_file">Letöltött fájl törlése</string>
     <string name="download_over_cellular">Letöltés mobilhálózaton keresztül</string>
     <string name="download_over_cellular_content">A mobilhálózaton keresztül való letöltést választotta. Folytatni szeretné?</string>
 
     <string name="search_history">Előzmények</string>
-    <string name="clear_search_history">Előzmények törlése</string>
+    <string name="clear_search_history">Összes előzmény törlése</string>
 
     <string name="participate_ultra_download_beta_test_title">Engedélyezze az Ultra letöltést és élvezze a gyorsabb letöltési sebességet</string>
     <string name="participate_ultra_download_beta_test_content">Az Ultra letöltés béta tesztelési fázisban van. Kérjük, tudassa velünk, ha bármilyen problémát tapasztal. Ez egyszerűen letiltható beállításokban.</string>
@@ -213,10 +213,10 @@ Hiba történt.</string>
     <string name="ignored">Kihagyva</string>
     <plurals name="total__count__apps__size_">
 	<item quantity="one">"
- Összes: &lt;b&gt;&lt;font color=%1$d&gt;%2$d&lt;/font&gt;&lt;/b&gt; alkalmazás, &lt;b&gt;&lt;font color=%1$d&gt;%3$s&lt;/font&gt;&lt;/b&gt;
+ Összesen: &lt;b&gt;&lt;font color=%1$d&gt;%2$d&lt;/font&gt;&lt;/b&gt; alkalmazás, &lt;b&gt;&lt;font color=%1$d&gt;%3$s&lt;/font&gt;&lt;/b&gt;
  "</item>
 	<item quantity="other">"
- Összes: &lt;b&gt;&lt;font color=%1$d&gt;%2$d&lt;/font&gt;&lt;/b&gt; alkalmazás, &lt;b&gt;&lt;font color=%1$d&gt;%3$s&lt;/font&gt;&lt;/b&gt;
+ Összesen: &lt;b&gt;&lt;font color=%1$d&gt;%2$d&lt;/font&gt;&lt;/b&gt; alkalmazás, &lt;b&gt;&lt;font color=%1$d&gt;%3$s&lt;/font&gt;&lt;/b&gt;
  "</item>
 </plurals>
     <string name="total_zero_app">
@@ -608,7 +608,7 @@ Hiba történt.</string>
     <string name="push_title_info_update">APKPure frissítés érkezett!</string>
     <string name="push_content_info_update">Új %s verzió jelent meg! Frissítse most!</string>
 
-    <string name="app_detail_has_ad">Hirdetések</string>
+    <string name="app_detail_has_ad">Hirdetéseket tartalmaz</string>
     <string name="app_detail_no_ad">Nincsenek hirdetések</string>
 
     <string name="tag_list">Címkék listája</string>
@@ -627,4 +627,39 @@ Hiba történt.</string>
     <string name="app_add_tag_hint_caution">Legfeljebb %s címke tartozhat minden alkalmazáshoz.</string>
     <string name="app_detail_no_product">Nincsenek vásárlási elemek</string>
     <string name="app_detail_has_product">Vásárlási elemek</string>
+    <string name="load_failed_error_not_found">Az alkalmazás nem szerepel az APKPure áruházban!</string>
+    <string name="beta">Béta</string>
+    <string name="user_info_edit_intro_tv">Rólam:</string>
+    <string name="upload_add_list_toast">Hozzászólása várólistán van!</string>
+<string name="update_intro_et">Írjon néhány részletet magáról</string>
+    <string name="update_intro_tv">A rólam mező nem lehet üres</string>
+
+    <string name="user_name_null">Érvénytelen felhasználónév</string>
+    <string name="colon">:</string>
+
+    <string name="pack_up">Összecsukás</string>
+    <string name="Istop">Rögzítve</string>
+    <string name="add_tag">Címkék hozzáadása</string>
+    <string name="error_add_tag">A címkék hozzáadása sikertelen</string>
+    <string name="no_collect">Még nincsenek kedvencek!</string>
+    <string name="no_comment">Legyen Ön az első hozzászóló!</string>
+
+    <string name="share_apk">APK megosztása</string>
+    <string name="tab_apk">APK</string>
+    <string name="commentaries">Hozzáfűzések</string>
+
+    <string name="upload_apk_version">v%s</string>
+    <string name="upload_apk_downloads">Letöltések:%s</string>
+    
+    <string name="upload_comment_uploading">%s feltöltése…</string>
+    <string name="upload_comment_upload_success">%s sikeres</string>
+    <string name="upload_comment_upload_failed">%s sikertelen</string>
+    <string name="upload_comment_view">Kattintson a megtekintéshez</string>
+    <string name="upload_comment_reload">Kattintson az újratöltéshez</string>
+    <string name="upload_notification_pause">Szünet</string>
+    <string name="upload_notification_start">Indítás</string>
+    <string name="upload_notification_cancel">Mégse</string>
+    <string name="upload_notification_is_uploading">Feltöltés</string>
+    <string name="upload_notification_is_pause">A feltöltés szünetel</string>
+    <string name="update_intro_title">Rólam mező szerkesztése</string>
     </resources>
