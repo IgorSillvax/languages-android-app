@@ -143,7 +143,7 @@
     <string name="search_for_apps">جستجو برای برنامه‌ها</string>
     <string name="trending_searches">جستجو‌های پربازدید</string>
     <string name="search_history">تاریخچه</string>
-    <string name="clear_search_history">پاک کردن تاریخچه</string>
+    <string name="clear_search_history">پاک کردن تمام تاریخچه</string>
 
     <string name="improvement_plan_title">طرح بهبود عملکرد</string>
     <string name="join_us">به ما بپیوند</string>
@@ -558,7 +558,7 @@
     <string name="topic_purple_blue_gary">نیروی هوایی آبی</string>
     <string name="recommend_write_des_hint">پیشنهادهای مفید توسط کاربران زیادی که مثل شما علاقه‌ای مشابه دارند، دیده می‌شود.</string>
     <string name="download_mkdir">مسیر دانلود</string>
-    <string name="download_mkdir_internal_storage_size_des">%1$s خالی，جمعا %2$s</string>
+    <string name="download_mkdir_internal_storage_size_des">%1$s خالی، جمعا %2$s</string>
     <string name="download_mkdir_internal_storage_entries">"SD "</string>
     <string name="download_mkdir_internal_storage_entries1">SD 1</string>
     <string name="download_mkdir_external_storage_fill_toast">فضای ذخیره سازی پر است و نمی‌توان برنامه‌ای را دانلود کرد.</string>
@@ -609,7 +609,7 @@
     <string name="recommend_user_recommend_sys">توسط APKPure ویژه شده است</string>
 
     <string name="menu_follow_user">کاربران دنبال شده</string>
-    <string name="app_detail_has_ad">تبلیغات</string>
+    <string name="app_detail_has_ad">حاوی تبلیغات</string>
     <string name="app_detail_no_ad">بدون تبلیغات</string>
 
     <string name="tag_list">لیست برچسب‌ها</string>
@@ -624,4 +624,39 @@
     <string name="app_detail_has_product">اقلام خریدنی</string>
     <string name="app_detail_no_product">هیچ اقلام خریدنی وجود ندارد</string>
     <string name="app_add_tag_hint_caution">برچسب‌های هر برنامه بیشتر از %s نباشد.</string>
-    </resources>
+    <string name="load_failed_error_not_found">برنامه در اپ استور APKPure فهرست نشده است!</string>
+    <string name="beta">آزمایشی</string>
+    <string name="user_info_edit_intro_tv">درباره من:</string>
+    <string name="update_intro_title">ویرایش درباره من</string>
+    <string name="update_intro_et">در مورد خود بنویسید</string>
+    <string name="update_intro_tv">فیلد درباره من نمی‌توان خالی باشد</string>
+
+    <string name="user_name_null">نام کاربری نامعتبر است</string>
+    <string name="colon">:</string>
+
+    <string name="pack_up">جمع کردن</string>
+    <string name="Istop">سنجاق شده</string>
+    <string name="add_tag">اضافه کردن برچسب</string>
+    <string name="error_add_tag">اضافه کردن برچسب ناموفق بود</string>
+    <string name="no_collect">هنوز مورد علاقه‌ی شما نیست!</string>
+    <string name="no_comment">اولین نفری باشید که نظر خود را بیان می‌کند!</string>
+
+    <string name="share_apk">ای‌پی‌کا را به اشتراک بگذارید</string>
+    <string name="tab_apk">ای‌پی‌کا</string>
+    <string name="commentaries">نظرات</string>
+
+    <string name="upload_apk_version">نسخه %s</string>
+    <string name="upload_apk_downloads">دانلودها:%s</string>
+    
+    <string name="upload_comment_uploading">%s در حال آپلود می‌باشد…</string>
+    <string name="upload_comment_upload_success">%s با موفقیت ارسال شد</string>
+    <string name="upload_comment_upload_failed">%s شکست خورده است</string>
+    <string name="upload_comment_view">برای مشاهده کلیک کنید</string>
+    <string name="upload_comment_reload">دوباره کلیک کنید</string>
+    <string name="upload_notification_pause">مکث</string>
+    <string name="upload_notification_start">شروع</string>
+    <string name="upload_notification_cancel">انصراف</string>
+    <string name="upload_notification_is_uploading">در حال آپلود</string>
+    <string name="upload_notification_is_pause">آپلود مکث شد</string>
+    <string name="upload_add_list_toast">نظر شما در صف است!</string>
+</resources>
