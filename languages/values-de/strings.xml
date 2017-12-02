@@ -17,7 +17,7 @@
     <string name="settings">Einstellungen</string>
     <string name="press_back_key_quit">Drücke erneut Zurück zum Beenden.</string>
 
-    <string name="featured">Unterstützt</string>
+    <string name="featured">Vorgestellt</string>
     <string name="load_failed_no_results">Sorry! Keine Ergebnisse gefunden.</string>
     <string name="refresh">Aktualisieren</string>
 
@@ -194,7 +194,7 @@
     <string name="download_over_cellular_content">Sie sind im Begriff etwas über Ihr mobiles Netzwerk herunterzuladen. Möchten Sie fortfahren?</string>
 
     <string name="search_history">Chronik</string>
-    <string name="clear_search_history">Verlauf löschen</string>
+    <string name="clear_search_history">Gesamten Verlauf löschen</string>
 
     <string name="participate_ultra_download_beta_test_title">Aktivieren Sie Ultra-Download und genießen Sie eine schnellere Download-Geschwindigkeit</string>
     <string name="participate_ultra_download_beta_test_content">Ultra Download ist im Beta-Stadium, lassen Sie uns wissen, wenn irgendwelche Probleme auftreten. Sie können es einfach unter Einstellungen deaktivieren.</string>
@@ -347,34 +347,34 @@ erlaubt werden.</string>
     <string name="user_info_edit_not_choose">Unbekannt</string>
     <string name="user_info_edit_gender_male">Männlich</string>
     <string name="user_info_edit_gender_female">Weiblich</string>
-    <string name="user_info_edit_portrait_album">Wähle ein Foto aus der Gallerie aus</string>
+    <string name="user_info_edit_portrait_album">Wähle ein Foto aus der Galerie aus</string>
     <string name="user_info_edit_portrait_take_photo">Mache ein Foto mit der Kamera</string>
     <string name="user_info_edit_portrait_error">Bildtyp nicht unterstützt</string>
     <string name="user_info_edit_ok">OK</string>
     <string name="user_info_edit_cancel">Abbrechen</string>
 
-    <string name="update_nick_title">Nickname ändern</string>
+    <string name="update_nick_title">Nicknamen ändern</string>
     <string name="update_email_title">E-Mail ändern</string>
-    <string name="update_nick_name_et">Gib den neuen Nichname ein</string>
+    <string name="update_nick_name_et">Gib deinen neuen Nicknamen ein</string>
     <string name="app_detail_comment_order_array_most_recent">Neueste</string>
-    <string name="update_nick_name_tv">Der neue Aliasname darf nicht leer sein</string>
-    <string name="update_email_name_et">Email eingeben</string>
+    <string name="update_nick_name_tv">Der neue Nickname darf nicht leer sein</string>
+    <string name="update_email_name_et">E-Mail eingeben</string>
     <string name="update_eamil_name_tv">E-Mail darf nicht leer sein</string>
-    <string name="update_nickname_error">Aliasname schon besetzt, bitte anderen auswählen!</string>
-    <string name="message_all">Alle</string>
-    <string name="message_reply">Antworten</string>
+    <string name="update_nickname_error">Nickname schon vergeben, bitte anderen auswählen!</string>
+    <string name="message_all">ALLE</string>
+    <string name="message_reply">ANTWORTEN</string>
     <string name="update_pwd_title">Passwort zurücksetzen</string>
     <string name="update_pwd_current_pwd_et">Altes Passwort</string>
-    <string name="update_pwd_new_pwd_et">Neues Passworr</string>
+    <string name="update_pwd_new_pwd_et">Neues Passwort</string>
     <string name="update_pwd_Confirm_pwd_et">Neues Passwort bestätigen</string>
     <string name="upload_avatar">Hochladen…</string>
     <string name="update_pwd_current_null_tv">Altes Passwort darf nicht leer sein</string>
-    <string name="update_pwd_Confirm_null_tv">Bestätigung Passwort darf nicht leer sein</string>
+    <string name="update_pwd_Confirm_null_tv">Passwortbestätigungsfeld darf nicht leer sein</string>
     <string name="update_pwd_new_pwd_null_tv">Neues Passwort darf nicht leer sein</string>
     <string name="update_pwd_new_confrim_tv">Die eingegebenen Passwörter stimmen nicht überein</string>
     <string name="update_pwd_save_bt">Speichern</string>
     <string name="update_save_success">Erfolgreich gespeichert!</string>
-    <string name="crop__cancel" ignore="ButtonCase">Bild zuschneiden</string>
+    <string name="crop__cancel" ignore="ButtonCase">Abbrechen</string>
     <string name="crop__done">Erledigt</string>
     <string name="crop__pick_error">Ungültiger Bilddateityp</string>
     <string name="crop__saving">Speichere Foto…</string>
@@ -393,37 +393,37 @@ erlaubt werden.</string>
     <string name="sign_in_services_key">Bedingungen</string>
     <string name="user_sign_up">Anmeldung</string>
     <string name="user_name_hint">Benutzername</string>
-    <string name="user_email_hint">Email</string>
+    <string name="user_email_hint">E-Mail</string>
     <string name="user_password">Passwort(6-32)</string>
     <string name="user_password_confirm">Passwort bestätigen</string>
 
-    <string name="sub_comment_progress_msg">Füge ein Video hinzu…</string>
+    <string name="sub_comment_progress_msg">Füge Video hinzu…</string>
 
     <string name="app_detail_comment_type_web">web</string>
     <string name="app_submit_anonymous_comment">Kommentar hinzufügen</string>
-    <string name="message_praise">Positive Bewertungen</string>
+    <string name="message_praise">LIKES</string>
     <string name="message_notifications_praise">Deinen Kommentar positiv bewertet</string>
     <string name="message_notifications_reply">Auf deinen Kommentar geantwortet</string>
-    <string name="message_notifications_login">Bitte anmelden um diese Seite zu sehen.</string>
+    <string name="message_notifications_login">Bitte anmelden, um diese Seite zu sehen.</string>
 
     <string name="set_contributor">Mitwirkender</string>
     <string name="sign_in_services_key_policy">Datenschutzbestimmungen</string>
 
     <string name="user_name_error">Benutzername darf keine Sonderzeichen, Symbole oder Leerzeichen enthalten</string>
-    <string name="user_nickname_error">Aliasname darf keine Sonderzeichen, Symbole oder Leerzeichen enthalten</string>
-    <string name="user_email_error">Diese Emailadresse ist ungültig</string>
-    <string name="user_password_error">Das Passwort ist ungültig</string>
+    <string name="user_nickname_error">Nickname darf keine Sonderzeichen, Symbole oder Leerzeichen enthalten</string>
+    <string name="user_email_error">Diese Mailadresse ist ungültig</string>
+    <string name="user_password_error">Dieses Passwort ist ungültig</string>
     <string name="user_confirm_error">Passwörter müssen übereinstimmen</string>
 
     <string name="login_user_name">Benutzername</string>
     <string name="login_user_password">Passwort</string>
     <string name="login_user_sign_in">Anmelden</string>
     <string name="login_choose">Oder mit Benutzerkonto anmelden</string>
-    <string name="login_new_user">Registration neuer Benutzer</string>
+    <string name="login_new_user">Als neuer Nutzer registrieren</string>
     <string name="login_post_as_a_guest">Als Gast posten</string>
 
-    <string name="push_title_info_reply">%s haben auf deinen Kommentar geantwortet!</string>
-    <string name="push_title_info_upvoted">%s bewerteten deinen Kommentar positiv!</string>
+    <string name="push_title_info_reply">%s hat auf deinen Kommentar geantwortet!</string>
+    <string name="push_title_info_upvoted">%s hat deinen Kommentar positiv bewertet!</string>
     <string name="download_list">Download-Liste</string>
     <string name="install_list">Installiert</string>
     <string name="no_download">Kein Download</string>
@@ -438,12 +438,12 @@ erlaubt werden.</string>
     <string name="like_notification">Benachrichtigungen zu positiven Bewertungen</string>
     <string name="sub_comment_dialog_link_null">Video URL Adresse darf nicht leer sein</string>
     <string name="sub_comment_dialog_link_et">Video-URL-Adresse hier einfügen</string>
-    <string name="delete_the_historical_record">Aufzeichnungen löschen?</string>
-    <string name="download_history">Download Historie</string>
+    <string name="delete_the_historical_record">Eintrag löschen?</string>
+    <string name="download_history">Downloadverlauf</string>
 
     <string name="menu_copy">Kopieren</string>
     <string name="menu_cancel">Abbrechen</string>
-    <string name="delete_all_download_history">Download Historie löschen?</string>
+    <string name="delete_all_download_history">Downloadverlauf löschen?</string>
     <string name="comment_detail_original">Ursprünglichen Kommentar ansehen &gt;</string>
     <string name="comment_comment_newest">Neuester</string>
     <string name="comment_comment_oldest">Ältester</string>
@@ -453,9 +453,9 @@ erlaubt werden.</string>
     <string name="sub_comment_dialog_des_tv">Nur Parsen von YouTube URLs unterstützt</string>
     <string name="message">Nachricht</string>
 
-    <string name="can_be_update">Kann upgedatet werden</string>
+    <string name="can_be_update">Kann aktualisiert werden</string>
     <string name="like_notification_msg">Benachrichtigungen über neue positive Bewertungen erhalten</string>
-    <string name="gif_tip">Gif</string>
+    <string name="gif_tip">GIF</string>
     <string name="submit_comment_title_hint">Thema (Optional)</string>
 
     <string name="comment_vote_string">Abstimmen</string>
@@ -464,7 +464,7 @@ erlaubt werden.</string>
 
     <string name="comment_no_reply">Wow, hier steht nichts.</string>
     <string name="comment_reply_info_name">Detail</string>
-    <string name="set_updates_notification">App Updates verfügbar</string>
+    <string name="set_updates_notification">App-Updates verfügbar</string>
     <string name="set_updates_notification_msg">Benachrichtigen, wenn App-Updates verfügbar sind. Empfohlene Einstellung: An</string>
     <string name="app_detail_unknow_text">Alte Version APKPure unterstützt neue Features nicht, bitte auf neueste updaten.</string>
     <string name="check_update_replace">Offizielle Version</string>
@@ -480,7 +480,7 @@ erlaubt werden.</string>
     <string name="main_tab_home">STARTSEITE</string>
     <string name="main_tab_ranking">RANGLISTE</string>
     <string name="main_tab_group">GRUPPE</string>
-    <string name="main_tab_my">MEIN PROFIL</string>
+    <string name="main_tab_my">ICH</string>
 
     <string name="main_won_praise">Likes</string>
     <string name="main_my_comments">Diskussionen</string>
@@ -499,10 +499,10 @@ erlaubt werden.</string>
     <string name="collection">Sammlung</string>
 
     <string name="comments">Kommentare</string>
-    <string name="follow">Folgendes</string>
-    <string name="attention_on">Folgendes</string>
+    <string name="follow">Folgend</string>
+    <string name="attention_on">Folgend</string>
     <string name="attention_off">Folgen</string>
-    <string name="no_attention">Keine verfolgten Gruppen bisher.</string>
+    <string name="no_attention">Noch keine folgenden Gruppen.</string>
     <string name="browsing_history">Browser-Verlauf</string>
     <string name="browsing_history_prompt">Möchten Sie den Browser-Verlauf leeren?</string>
 
@@ -547,14 +547,15 @@ erlaubt werden.</string>
     <string name="recommend_state_success">Empfohlen</string>
     <string name="recommend_select_game">Eine App empfehlen</string>
     <string name="recommend_write_des">Beschreibung</string>
-    <string name="recommend_write_des_hint">Eine hilfreiche Bewertung wird für mehr User sichtbar sein, die die selben Interessen haben wie du.</string>
+    <string name="recommend_write_des_hint">Eine hilfreiche Bewertung wird von mehr Usern gesehen werden, die die selben Interessen haben wie du.</string>
     <string name="recommend_comment">Senden</string>
     <string name="recommend_comment_error">Es ist ein Fehler aufgetreten!</string>
     <string name="recommend_description_title">Anweisungen:</string>
-    <string name="recommend_description">1. Bestätigte Empfehlungen werden in der ENTDECKEN-Abteilung aufgelistet.
-2. Du kannst nur die Apps empfehlen, die aktuell auf deinem Android-Gerät installiert sind.</string>
+    <string name="recommend_description">1. Bestätigte Empfehlungen werden unter \"ENTDECKEN\" aufgelistet.
+2. Du kannst nur die Apps empfehlen, die aktuell auf deinem Android-Gerät installiert sind.
+3. Benachrichtige APKPure, um nicht erfasste Apps hinzuzufügen, bitte vervollständige zuerst das Empfehlungsformular.</string>
     <string name="recommend_user_recommend">Von %s empfohlen</string>
-    <string name="recommend_required">Benötigtes Feld</string>
+    <string name="recommend_required">*</string>
 
     <string name="main_comment">kommentieren</string>
     <plurals name="comment_reply_item_fold">
@@ -564,5 +565,102 @@ erlaubt werden.</string>
 
     <string name="play_button">Play-Button</string>
 <string name="history_version">Versions Verlauf</string>
+
+    <string name="load_failed_error_not_found">App wurde nicht im APKPure App Store gefunden!</string>
+    <string name="beta">Beta</string>
+    <string name="data_saver_model">Daten einsparen</string>
+    <string name="data_saver_model_summery">Aktivieren dieser Option reduziert Bildgröße und -qualität, um Daten einzusparen.</string>
+    <string name="download_mkdir">Download-Pfad</string>
+    <string name="download_mkdir_internal_storage_size_des">%1$s frei, %2$s insgesamt</string>
+    <string name="download_mkdir_internal_storage_entries">"SD "</string>
+    <string name="download_mkdir_internal_storage_entries1">SD 1</string>
+    <string name="download_mkdir_external_storage_fill_toast">Unzureichender Speicher kann dazu führen, dass keine Apps heruntergeladen werden können.</string>
+
+    <string name="scan_qr_code_result_title">Ergebnis</string>
+    <string name="scan_qr_code_result_copy_text">Text kopieren</string>
+    <string name="scan_qr_code_result_hint">QR-Code-Details:</string>
+    <string name="scan_qr_code_copy_success">Text kopiert</string>
+
+    <string name="user_info_edit_large_photo">Foto größer anzeigen</string>
+
+    <string name="user_info_edit_intro_tv">Über mich:</string>
+    <string name="update_intro_title">\"Über mich\" ändern</string>
+    <string name="update_intro_et">Schreibe etwas über dich</string>
+    <string name="update_intro_tv">\"Über mich\"-Feld darf nicht leer sein</string>
+
+    <string name="user_name_null">Nutzername ist ungültig</string>
+    <string name="push_title_info_follow">%s folgt dir!</string>
+    <string name="push_title_info_update">APKPure Update erschienen!</string>
+    <string name="push_content_info_update">Jetzt auf die neue Version %s aktualisieren!</string>
+
+    <string name="recommend_not_found">Nicht erfasst</string>
+    <string name="recommend_not_fount_info">Benachrichtige APKPure, um \"%s\" hinzuzufügen, du musst das Formular vervollständigen.</string>
+    <string name="recommend_user_recommend_sys">Vorgestellt von APKPure</string>
+
+    <string name="user_detail_focus">Folgend</string>
+    <string name="user_detail_fans">Fans</string>
+    <string name="user_detail_praise">Likes</string>
+    <string name="user_detail_tab_detail">Kommentare</string>
+    <string name="user_detail_tab_reply">Antworten</string>
+
+    <string name="user_focus_tab_users">Menschen</string>
+    <string name="user_focus_tab_apps">Gruppen</string>
+    <string name="user_focus_title_my">Meine Fans</string>
+    <string name="user_focus_title">Gefolgt von %s</string>
+
+    <string name="goto_google_play">Jetzt kaufen</string>
+
+    <string name="menu_follow_all">Alle Fans</string>
+    <string name="menu_follow_user">Gefolgte Menschen</string>
+    <string name="menu_follow_group">Gefolgte Gruppen</string>
+    <string name="menu_follow_all_tab">Folgend</string>
+    <string name="menu_follow_user_tab">Menschen</string>
+    <string name="menu_follow_group_tab">Gruppen</string>
+
+    <string name="choose_app">Anwendung auswählen</string>
+    <string name="publish_comment">Einen Kommentar posten</string>
+
+    <string name="app_detail_has_product">Kostenpflichtige Objekte</string>
+    <string name="app_detail_no_product">Keine kostenpflichtigen Objekte</string>
+    <string name="app_detail_has_ad">Enthält Werbung</string>
+    <string name="app_detail_no_ad">Werbefrei</string>
+
+    <string name="tag_list">Tag-Liste</string>
+    <string name="hot_tag">Heiße Tags</string>
+    <string name="common_use">Beliebte Tags</string>
+    <string name="app_add_tag_hint_caution">Nicht mehr als %s Tags für jede Anwendung.</string>
+    <string name="app_add_tag">Einen neuen Tag hinzufügen</string>
+    <string name="toast_app_tag_exist">Tag existiert bereits!</string>
+    <string name="there_is_no_label">Keine Tags.</string>
+    <string name="add">Hinzufügen</string>
+    <string name="colon">:</string>
+
+    <string name="pack_up">Einklappen</string>
+    <string name="Istop">Angepinnt</string>
+    <string name="add_tag">Tags hinzufügen</string>
+    <string name="error_add_tag">Fehler beim Hinzufügen der Tags</string>
+    <string name="no_collect">Noch keine Favoriten!</string>
+    <string name="no_comment">Sei der Erste, der einen Kommentar schreibt!</string>
+
+    <string name="share_apk">APK teilen</string>
+    <string name="tab_apk">APK</string>
+    <string name="commentaries">Kommentare</string>
+
+    <string name="upload_apk_version">V. %s</string>
+    <string name="upload_apk_downloads">Downloads: %s</string>
+    
+    <string name="upload_comment_uploading">%s lädt hoch…</string>
+    <string name="upload_comment_upload_success">%s erfolgreich hochgeladen</string>
+    <string name="upload_comment_upload_failed">Fehler bei %s</string>
+    <string name="upload_comment_view">Klicken, um anzusehen</string>
+    <string name="upload_comment_reload">Klicken, um zu neu zu laden</string>
+    <string name="upload_notification_pause">Pause</string>
+    <string name="upload_notification_start">Start</string>
+    <string name="upload_notification_cancel">Abbrechen</string>
+    <string name="upload_notification_is_uploading">Lädt hoch</string>
+    <string name="upload_notification_is_pause">Upload pausiert</string>
+    <string name="upload_add_list_toast">Dein Kommentar ist in der Warteschlange!</string>
+<string name="download_mkdir_internal_storage_values">internal_storage</string>
+    <string name="download_mkdir_external_storage_values">external_storage</string>
 
     </resources>
