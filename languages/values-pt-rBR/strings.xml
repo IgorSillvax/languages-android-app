@@ -144,7 +144,7 @@
     <string name="search_for_apps">Pesquisar Apps</string>
     <string name="trending_searches">Principais pesquisas</string>
     <string name="search_history">Histórico</string>
-    <string name="clear_search_history">Apagar o histórico</string>
+    <string name="clear_search_history">Limpar todo o histórico</string>
 
     <string name="improvement_plan_title">Plano de melhoria de desempenho</string>
     <string name="improvement_plan_message">
@@ -636,7 +636,7 @@ Que é necessário para escanear o código QR.</string>
 
     <string name="app_detail_has_product">Há Compra de itens</string>
     <string name="app_detail_no_product">Não há compra de Itens</string>
-    <string name="app_detail_has_ad">Anúncio</string>
+    <string name="app_detail_has_ad">Contém anúncios</string>
     <string name="app_detail_no_ad">Sem Ads</string>
 
     <string name="tag_list">Lista de Tags</string>
@@ -648,4 +648,39 @@ Que é necessário para escanear o código QR.</string>
     <string name="there_is_no_label">Sem tags.</string>
     <string name="add">Adicionar</string>
 
+<string name="load_failed_error_not_found">Aplicativo não listado na App Store do APKPure!</string>
+    <string name="beta">Beta</string>
+    <string name="user_info_edit_intro_tv">Sobre mim:</string>
+    <string name="update_intro_title">Editar Sobre Mim</string>
+    <string name="update_intro_et">Escreva alguns detalhes sobre você</string>
+    <string name="update_intro_tv">O campo sobre mim não pode estar vazio</string>
+
+    <string name="user_name_null">Nome de usuário Inválido</string>
+    <string name="colon">:</string>
+
+    <string name="pack_up">Colapso</string>
+    <string name="Istop">Fixado</string>
+    <string name="add_tag">Adicionar tags</string>
+    <string name="error_add_tag">Adicionar tags falhou</string>
+    <string name="no_collect">Ainda não há favoritos!</string>
+    <string name="no_comment">Seja o primeiro a adicionar um comentário!</string>
+
+    <string name="share_apk">Compartilhar APK</string>
+    <string name="tab_apk">APK</string>
+    <string name="commentaries">Comentários</string>
+
+    <string name="upload_apk_version">V %s</string>
+    <string name="upload_apk_downloads">Downloads:%s</string>
+    
+    <string name="upload_comment_uploading">%s está carregando…</string>
+    <string name="upload_comment_upload_success">%s Sucesso</string>
+    <string name="upload_comment_upload_failed">%s Falha</string>
+    <string name="upload_comment_view">Clique para ver</string>
+    <string name="upload_comment_reload">Clique em recarregar</string>
+    <string name="upload_notification_pause">Pausa</string>
+    <string name="upload_notification_start">Começar</string>
+    <string name="upload_notification_cancel">Cancelar</string>
+    <string name="upload_notification_is_uploading">Fazendo upload</string>
+    <string name="upload_notification_is_pause">O carregamento está em pausa</string>
+    <string name="upload_add_list_toast">Seu comentário está na fila!</string>
 </resources>
