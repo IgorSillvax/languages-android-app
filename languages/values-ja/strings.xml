@@ -187,7 +187,7 @@
     <string name="delete_downloaded_file">ダウンロードされたファイルを削除</string>
 
     <string name="search_history">履歴</string>
-    <string name="clear_search_history">履歴を削除</string>
+    <string name="clear_search_history">すべての履歴を削除する</string>
 
     <string name="update_all">すべてアップデート</string>
     <string name="ignore">無視</string>
@@ -619,7 +619,7 @@ APKPureが正常に運行するために、APKPureをクリーニングアプリ
     <string name="user_focus_tab_users">People</string>
     <string name="app_detail_has_product">購入アイテム</string>
     <string name="app_detail_no_product">購入アイテムなし</string>
-    <string name="app_detail_has_ad">広告</string>
+    <string name="app_detail_has_ad">広告が含まれています</string>
     <string name="app_detail_no_ad">広告なし</string>
 
     <string name="tag_list">タグ一覧</string>
@@ -631,4 +631,39 @@ APKPureが正常に運行するために、APKPureをクリーニングアプリ
     <string name="there_is_no_label">タグはありません。</string>
     <string name="add">追加</string>
 
+<string name="load_failed_error_not_found">アプリはAPKPureアプリストアに登録されていません！</string>
+    <string name="beta">ベータ</string>
+    <string name="user_info_edit_intro_tv">私について：</string>
+    <string name="update_intro_title">私について編集する</string>
+    <string name="update_intro_et">あなた自身について詳細を書く</string>
+    <string name="update_intro_tv">私についてのフィールドを空にすることはできません</string>
+
+    <string name="user_name_null">ユーザー名が無効です</string>
+    <string name="colon">:</string>
+
+    <string name="pack_up">折りたたみ</string>
+    <string name="Istop">ピン留め</string>
+    <string name="add_tag">タグを追加する</string>
+    <string name="error_add_tag">タグを追加できませんでした</string>
+    <string name="no_collect">お気に入りはまだありません！</string>
+    <string name="no_comment">コメントを追加する最初の人になる！</string>
+
+    <string name="share_apk">シェアAPK</string>
+    <string name="tab_apk">APK</string>
+    <string name="commentaries">コメンタリー</string>
+
+    <string name="upload_apk_version">V %s</string>
+    <string name="upload_apk_downloads">ダウンロード：％s</string>
+    
+    <string name="upload_comment_uploading">％sはアップロード中です…</string>
+    <string name="upload_comment_upload_success">％sは成功です</string>
+    <string name="upload_comment_upload_failed">％sは失敗しました</string>
+    <string name="upload_comment_view">クリックして表示する</string>
+    <string name="upload_comment_reload">クリックでリロードする</string>
+    <string name="upload_notification_pause">一時停止</string>
+    <string name="upload_notification_start">スタート</string>
+    <string name="upload_notification_cancel">キャンセル</string>
+    <string name="upload_notification_is_uploading">アップロード</string>
+    <string name="upload_notification_is_pause">アップロードは一時停止しました</string>
+    <string name="upload_add_list_toast">あなたのコメントはキューに入っています！</string>
 </resources>
