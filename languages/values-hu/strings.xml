@@ -5,7 +5,7 @@
     <string name="action_search">Keresés</string>
     <string name="action_management">Kezelés</string>
 
-    <string name="press_back_key_quit">Nyomja meg újra a vissza gombot a kilépéshez.</string>
+    <string name="press_back_key_quit">Nyomja meg újra a vissza gombot a kilépéshez</string>
 
     <string name="featured">Kiemelt</string>
     <string name="games">Játékok</string>
@@ -16,7 +16,7 @@
     <string name="something_happened">&gt;_&lt;
 Hiba történt.</string>
 
-    <string name="load_failed_error">Jaj! Hiba történt.</string>
+    <string name="load_failed_error">Hoppsz! Hiba történt.</string>
     <string name="load_failed_empty">Itt nincs semmi.</string>
     <string name="load_failed_all_up_to_date">Az összes alkalmazás naprakész.</string>
     <string name="load_failed_no_results">Sajnáljuk! Nincs találat.</string>
@@ -26,9 +26,9 @@ Hiba történt.</string>
     <string name="app_updates">Alkalmazás frissítések</string>
     <string name="app_management">Telepített</string>
     <string name="app_uninstall">Alkalmazás eltávolítása</string>
-    <string name="apk_management">APK kezelése</string>
-    <string name="apk_xapk_management">APK / XAPK kezelése</string>
-    <string name="download_management">Letöltés kezelése</string>
+    <string name="apk_management">APK-kezelés</string>
+    <string name="apk_xapk_management">APK / XAPK-kezelés</string>
+    <string name="download_management">Letöltéskezelés</string>
     <string name="settings">Beállítások</string>
     <string name="about">Névjegy</string>
     <string name="about_title"><xliff:g example="APKPure" id="app_name">%1$s</xliff:g> névjegy</string>
@@ -52,7 +52,7 @@ Hiba történt.</string>
     <string name="parsing_xapk">XAPK elemzése …</string>
     <string name="installing_obb">OBB fájlok telepítése …</string>
     <string name="extracting_apk">APK fájl kibontása …</string>
-    <string name="installing_apk">APK fájl telepítése …</string>
+    <string name="installing_apk">APK telepítése …</string>
 
     <string name="uninstall">Eltávolítás</string>
     <string name="uninstalled">Eltávolítva</string>
@@ -103,10 +103,10 @@ Hiba történt.</string>
     </plurals>
     <string name="downloads_complete">A letöltés befejeződött</string>
     <string name="touch_for_view_all_downloads">Érintse meg az összes letöltés megjelenítéséhez</string>
-    <string name="_name__download_failed"><xliff:g example="APKPure" id="name">%1$s</xliff:g> sikertelen letöltés</string>
+    <string name="_name__download_failed">A(z) <xliff:g example="APKPure" id="name">%1$s</xliff:g> letöltése sikertelen volt</string>
     <string name="touch_to_download_it_again">Érintse meg a letöltés megismétléséhez</string>
 
-    <string name="download_percent"><xliff:g example="50" id="percent">%1$d</xliff:g></string>
+    <string name="download_percent"><xliff:g example="50" id="percent">%1$d</xliff:g> %%</string>
     <string name="pause">Szünet</string>
     <string name="continue_">Folytatás</string>
     <string name="restart">Újraindítás</string>
@@ -122,7 +122,7 @@ Hiba történt.</string>
     <string name="expired">Lejárt</string>
     <string name="detail">Részletek</string>
     <string name="remove">Eltávolítás</string>
-    <string name="want_to_remove_download_item">Valóban eltávolítja ezt a letöltési elemet?</string>
+    <string name="want_to_remove_download_item">El szeretné távolítani ezt a letöltési elemet?</string>
 
     <string name="search">Keresés</string>
     <string name="search_for_apps">Alkalmazások keresése</string>
@@ -132,7 +132,7 @@ Hiba történt.</string>
     <string name="improvement_plan_message">
         <![CDATA[Segítse munkánkat az Android eszközinformációk elküldésével. <b>Nem gyűjtünk</b> semmilyen személyazonosításra alkalmas adatot (név, cím, e-mail cím, társadalombiztosítási szám, vagy más egyedi azonosító).]]>
     </string>
-    <string name="join_us">Csatlakozzon hozzánk</string>
+    <string name="join_us">Tartson velünk</string>
     <string name="skip">Kihagy</string>
 
     <string name="_name__is_up_to_date">Az <xliff:g example="APKPure" id="name">%1$s</xliff:g> naprakész.</string>
@@ -149,7 +149,7 @@ Hiba történt.</string>
     <string name="installation_failed">Sikertelen telepítés</string>
     <string name="invalid_app_detail">Érvénytelen alkalmazásrészlet információk.</string>
     <string name="invalid_app_asset">Érvénytelen alkalmazás eszközinformációk.</string>
-    <string name="failed_to_request_app_detail">Nem sikerült lekérni az alkalmazásrészlet információkat.</string>
+    <string name="failed_to_request_app_detail">Nem sikerült lekérni az alkalmazásrészlet információit.</string>
     <string name="failed_to_request_app_asset">Nem sikerült lekérni az alkalmazás eszközinformációit.</string>
     <string name="incompatible_this_app">
         <![CDATA[<big><b><font color="%1$d">Az Ön készüléke nem kompatibilis ezzel az alkalmazással.</font></b></big><br><br>Folytatni szeretné?]]>
@@ -160,11 +160,11 @@ Hiba történt.</string>
 
     <string name="setting">Beállítás</string>
     <string name="external_storage_not_usable">
-        <![CDATA[<big><b>Szükségünk van a külső tároló elérésére. Kérjük, győződjön meg annak használhatóságáról.</b></big>]]>
-    </string>
+ <big><b>Hozzá kell férnünk a külső tárolóhoz. Győződjön meg arról, hogy használható.</b></big>
+ </string>
     <string name="external_storage_permission_denied">
-        <![CDATA[<big><b>Szükségünk van a külső tároló elérésére. Kérjük, győződjön meg arról, hogy az engedély nem lett-e megtagadva.</b></big>]]>
-    </string>
+ <big><b>Hozzá kell férnünk a külső tárolóhoz. Győződjön meg arról, hogy az engedély nem lett-e megtagadva.</b></big>
+ </string>
 
     <string name="share">Megosztás</string>
     <string name="share_app_url"><xliff:g example="APKPure" id="app_name">%1$s</xliff:g> APK letöltése (forrás: @<xliff:g example="APKPure" id="social_network_name">%2$s</xliff:g>), <xliff:g example="https://apkpure.com/p/com.apkpure.aegon" id="app_url">%3$s</xliff:g></string>
@@ -186,16 +186,16 @@ Hiba történt.</string>
     <string name="deleted">Törölve</string>
     <string name="installed">Telepítve</string>
     <string name="remove_all">Összes eltávolítása</string>
-    <string name="want_to_remove_all_download_items">Valóban eltávolítja az összes letöltési elemet?</string>
+    <string name="want_to_remove_all_download_items">El szeretné távolítani az összes letöltési elemet?</string>
     <string name="delete_downloaded_file">Letöltött fájl törlése</string>
     <string name="download_over_cellular">Letöltés mobilhálózaton keresztül</string>
-    <string name="download_over_cellular_content">A mobilhálózaton keresztül való letöltést választotta. Folytatni szeretné?</string>
+    <string name="download_over_cellular_content">Mobilhálózaton keresztül szeretné elvégezni a letöltést. Folytatni szeretné?</string>
 
     <string name="search_history">Előzmények</string>
-    <string name="clear_search_history">Előzmények törlése</string>
+    <string name="clear_search_history">Összes előzmény törlése</string>
 
     <string name="participate_ultra_download_beta_test_title">Engedélyezze az Ultra letöltést és élvezze a gyorsabb letöltési sebességet</string>
-    <string name="participate_ultra_download_beta_test_content">Az Ultra letöltés béta tesztelési fázisban van. Kérjük, tudassa velünk, ha bármilyen problémát tapasztal. Ez egyszerűen letiltható beállításokban.</string>
+    <string name="participate_ultra_download_beta_test_content">Az Ultra letöltés béta tesztelési fázisban van. Kérjük, tudassa velünk, ha bármilyen problémát tapasztal. Ez a funkció a Beállítások menüpontban letiltható.</string>
     <string name="enable">Engedélyezés</string>
 
     <string name="contact_us__">Kapcsolatfelvétel…</string>
@@ -213,10 +213,10 @@ Hiba történt.</string>
     <string name="ignored">Kihagyva</string>
     <plurals name="total__count__apps__size_">
 	<item quantity="one">"
- Összes: &lt;b&gt;&lt;font color=%1$d&gt;%2$d&lt;/font&gt;&lt;/b&gt; alkalmazás, &lt;b&gt;&lt;font color=%1$d&gt;%3$s&lt;/font&gt;&lt;/b&gt;
+ Összesen: &lt;b&gt;&lt;font color=%1$d&gt;%2$d&lt;/font&gt;&lt;/b&gt; alkalmazás, &lt;b&gt;&lt;font color=%1$d&gt;%3$s&lt;/font&gt;&lt;/b&gt;
  "</item>
 	<item quantity="other">"
- Összes: &lt;b&gt;&lt;font color=%1$d&gt;%2$d&lt;/font&gt;&lt;/b&gt; alkalmazás, &lt;b&gt;&lt;font color=%1$d&gt;%3$s&lt;/font&gt;&lt;/b&gt;
+ Összesen: &lt;b&gt;&lt;font color=%1$d&gt;%2$d&lt;/font&gt;&lt;/b&gt; alkalmazás, &lt;b&gt;&lt;font color=%1$d&gt;%3$s&lt;/font&gt;&lt;/b&gt;
  "</item>
 </plurals>
     <string name="total_zero_app">
@@ -274,13 +274,13 @@ Hiba történt.</string>
     <string name="app_detail_comment_type_web">web</string>
     <string name="app_submit_submit">Küldés…</string>
     <string name="app_submit_anonymous_comment">Hozzászólás</string>
-    <string name="app_submit_title_toast">A címet be kell írnia!</string>
+    <string name="app_submit_title_toast">Meg kell adnia a címet!</string>
     <string name="app_submit_msg_toast">Be kell írnia valamit!</string>
-    <string name="app_submit_name_toast">Kérjük, írja be a felhasználónevet!</string>
-    <string name="app_submit_email_toast">Kérjük, írja be a megfelelő e-mail címet!</string>
+    <string name="app_submit_name_toast">Kérjük, írja be a becenevet!</string>
+    <string name="app_submit_email_toast">Kérjük, írja be a helyes e-mail címet!</string>
     <string name="app_submit_title_hint">Kérjük, írjon címet</string>
     <string name="app_submit_msg_hint">Kérjük, írja meg a véleményét</string>
-    <string name="app_submit_nickname">Felhasználónév</string>
+    <string name="app_submit_nickname">Becenév</string>
     <string name="app_submit_email">E-mail cím</string>
     <string name="app_submit_submit_title">Küldés</string>
     <string name="app_submit_reply_to">Válasz</string>
@@ -297,7 +297,8 @@ Hiba történt.</string>
     <string name="load_failed_click_retry">Betöltési hiba, kattintson az újrapróbálkozáshoz</string>
     <string name="loading">Betöltés…</string>
 
-    <string name="scan_qr_code_hint">A QR-kód beolvasás előtt meg kell adnia a kamera engedélyt, amely szükséges a QR-kód beolvasásához.</string>
+    <string name="scan_qr_code_hint">A QR-kód beolvasás előtt meg kell adnia a kamera engedélyt,
+ amely szükséges a QR-kód beolvasásához.</string>
     <string name="zxing_msg_default_status">Kérjük, helyezze a QR-kódot a keresőbe a beolvasáshoz.</string>
     <string name="zxing_msg_parser_status">Sikertelen beolvasás. Kérjük, próbálja meg újra beolvasni a QR-kódot.</string>
     <string name="app_submit_star_toast">Csillaggal is értékelnie kell!</string>
@@ -376,7 +377,7 @@ Hiba történt.</string>
 
     <string name="is_comment">Hozzászólás érkezett…</string>
     <string name="comment_cancel">A hozzászólás törölve lett</string>
-    <string name="comment_replying">Válasz elküldése…</string>
+    <string name="comment_replying">Válasz küldése…</string>
     <string name="register_term_of_service">APKPure szolgáltatási feltételek</string>
 
     <string name="set_contributor">Közreműködők</string>
@@ -439,7 +440,7 @@ Hiba történt.</string>
 
     <string name="comment_vote_string">Szavazás</string>
     <string name="comment_reply_three">Válasz</string>
-    <string name="comment_item_fold">hozzászólás bezárva</string>
+    <string name="comment_item_fold">hozzászólás összevonva</string>
 
     <plurals name="comment_reply_item_fold">
         <item quantity="one"><xliff:g example="1" id="count">%1$d</xliff:g> válasz összevonva</item>
@@ -558,7 +559,7 @@ Hiba történt.</string>
     <string name="recommend_user_recommend">%s által ajánlott</string>
     <string name="recommend_required">*</string>
 
-    <string name="topic_green_color">Világos zöld</string>
+    <string name="topic_green_color">Világoszöld</string>
     <string name="topic_purple_yellow">Narancssárga</string>
     <string name="download_mkdir">Letöltési hely</string>
     <string name="download_mkdir_internal_storage_entries">"SD-kártya "</string>
@@ -574,7 +575,7 @@ Hiba történt.</string>
 
     <string name="user_detail_focus">Követés</string>
     <string name="user_detail_fans">Követő</string>
-    <string name="user_detail_praise">kedvelés</string>
+    <string name="user_detail_praise">Kedvelés</string>
     <string name="user_detail_tab_detail">Vitafórumok</string>
     <string name="user_detail_tab_reply">Válaszok</string>
 
@@ -594,13 +595,13 @@ Hiba történt.</string>
 
     <string name="choose_app">Válasszon alkalmazást</string>
     <string name="publish_comment">Hozzászólás küldése</string>
-<string name="history_version">Verziótörténet</string>
+<string name="history_version">Verzióelőzmények</string>
 
-    <string name="data_saver_model">Adatmentő</string>
-    <string name="data_saver_model_summery">A funkció bekapcsolásával csökken a képméret és a minőség, a mobiladat-forgalom csökkentése érdekében.</string>
+    <string name="data_saver_model">Adatforgalom-csökkentő</string>
+    <string name="data_saver_model_summery">Aktiválásával csökkenthető a képméret és a minőség a kevesebb mobiladat használat céljából.</string>
     <string name="scan_qr_code_result_title">Eredmény</string>
     <string name="scan_qr_code_result_copy_text">Szöveg másolása</string>
-    <string name="scan_qr_code_result_hint">QR-kód részletei:</string>
+    <string name="scan_qr_code_result_hint">QR-kód részletei：</string>
     <string name="scan_qr_code_copy_success">Szöveg másolva</string>
 
     <string name="user_info_edit_large_photo">Fotó megtekintése nagyobb méretben</string>
@@ -608,7 +609,7 @@ Hiba történt.</string>
     <string name="push_title_info_update">APKPure frissítés érkezett!</string>
     <string name="push_content_info_update">Új %s verzió jelent meg! Frissítse most!</string>
 
-    <string name="app_detail_has_ad">Hirdetések</string>
+    <string name="app_detail_has_ad">Hirdetéseket tartalmaz</string>
     <string name="app_detail_no_ad">Nincsenek hirdetések</string>
 
     <string name="tag_list">Címkék listája</string>
@@ -627,4 +628,39 @@ Hiba történt.</string>
     <string name="app_add_tag_hint_caution">Legfeljebb %s címke tartozhat minden alkalmazáshoz.</string>
     <string name="app_detail_no_product">Nincsenek vásárlási elemek</string>
     <string name="app_detail_has_product">Vásárlási elemek</string>
+    <string name="load_failed_error_not_found">Az alkalmazás nem szerepel az APKPure áruházban!</string>
+    <string name="beta">Béta</string>
+    <string name="user_info_edit_intro_tv">Rólam:</string>
+    <string name="upload_add_list_toast">Hozzászólása várólistán van!</string>
+<string name="update_intro_et">Írjon néhány részletet magáról</string>
+    <string name="update_intro_tv">A rólam mező nem lehet üres</string>
+
+    <string name="user_name_null">Érvénytelen felhasználónév</string>
+    <string name="colon">:</string>
+
+    <string name="pack_up">Összecsukás</string>
+    <string name="Istop">Rögzítve</string>
+    <string name="add_tag">Címkék hozzáadása</string>
+    <string name="error_add_tag">A címkék hozzáadása sikertelen</string>
+    <string name="no_collect">Még nincsenek kedvencek!</string>
+    <string name="no_comment">Legyen Ön az első hozzászóló!</string>
+
+    <string name="share_apk">APK megosztása</string>
+    <string name="tab_apk">APK</string>
+    <string name="commentaries">Hozzáfűzések</string>
+
+    <string name="upload_apk_version">v%s</string>
+    <string name="upload_apk_downloads">Letöltések:%s</string>
+    
+    <string name="upload_comment_uploading">%s feltöltése…</string>
+    <string name="upload_comment_upload_success">%s sikeres</string>
+    <string name="upload_comment_upload_failed">%s sikertelen</string>
+    <string name="upload_comment_view">Kattintson a megtekintéshez</string>
+    <string name="upload_comment_reload">Kattintson az újratöltéshez</string>
+    <string name="upload_notification_pause">Szünet</string>
+    <string name="upload_notification_start">Indítás</string>
+    <string name="upload_notification_cancel">Mégse</string>
+    <string name="upload_notification_is_uploading">Feltöltés</string>
+    <string name="upload_notification_is_pause">A feltöltés szünetel</string>
+    <string name="update_intro_title">Rólam mező szerkesztése</string>
     </resources>
