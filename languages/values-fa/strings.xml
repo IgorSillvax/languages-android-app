@@ -13,8 +13,7 @@
     <string name="categories">دسته‌بندی‌ها</string>
     <string name="updates">به‌روزرسانی‌ها</string>
 
-    <string name="something_happened">&gt;_&lt;
-اتفاقی افتاد.</string>
+    <string name="something_happened">&gt;_&lt;اتفاقی افتاد.</string>
 
     <string name="load_failed_error">اوه! یک خطا رخ داده است.</string>
     <string name="load_failed_empty">هیچ چیزی در اینجا وجود ندارد.</string>
@@ -78,9 +77,9 @@
 
     <string name="update">به‌روزرسانی</string>
     <plurals name="_count__new_update_is_available">
-	<item quantity="one"><xliff:g example="1" id="count">%1$d</xliff:g> به‌روزرسانی جدید در دسترس است</item>
-	<item quantity="other"><xliff:g id="count" example="2">%1$d</xliff:g> به‌روزرسانی جدید در دسترس است</item>
-</plurals>
+        <item quantity="one"><xliff:g example="1" id="count">%1$d</xliff:g> به‌روزرسانی جدید در دسترس است</item>
+        <item quantity="other"><xliff:g id="count" example="2">%1$d</xliff:g> به‌روزرسانی جدید در دسترس است</item>
+    </plurals>
 
     <string name="language">زبان</string>
     <string name="user_canceled">کاربر لغو شده است.</string>
@@ -106,8 +105,8 @@
     <string name="launching_please_wait">در‌حال راه‌اندازی، لطفا صبر کنید…</string>
 
     <plurals name="_count__item_is_downloading">
-	    <item quantity="one"><xliff:g id="count" example="1">%1$d</xliff:g> آیتم در حال دانلود است</item>
-	    <item quantity="other"><xliff:g id="count" example="2">%1$d</xliff:g> آیتم‌ در حال دانلود است</item>
+        <item quantity="one"><xliff:g id="count" example="1">%1$d</xliff:g> آیتم در حال دانلود است</item>
+        <item quantity="other"><xliff:g id="count" example="2">%1$d</xliff:g> آیتم‌ در حال دانلود است</item>
     </plurals>
     <string name="downloads_complete">دانلود‌ کامل شد</string>
     <string name="touch_for_view_all_downloads">برای مشاهده تمام دانلود‌ها، لمس کنید</string>
@@ -183,13 +182,13 @@
     <string name="deselect_all">لغو انتخاب همه</string>
     <string name="ignored">نادیده گرفته</string>
     <plurals name="total__count__apps__size_">
-	<item quantity="one">"
- کل: &lt;b&gt;&lt;font color=%1$d&gt;%2$d&lt;/font&gt;&lt;/b&gt; برنامه، &lt;b&gt;&lt;font color=%1$d&gt;%3$s&lt;/font&gt;&lt;/b&gt;
- "</item>
-	<item quantity="other">"
- کل: &lt;b&gt;&lt;font color=%1$d&gt;%2$d&lt;/font&gt;&lt;/b&gt; برنامه، &lt;b&gt;&lt;font color=%1$d&gt;%3$s&lt;/font&gt;&lt;/b&gt;
- "</item>
-</plurals>
+        <item quantity="one">
+            <![CDATA[ کل: <b><font color="%1$d">%2$d</font></b> برنامه, <b><font color="%1$d">%3$s</font></b>]]>
+        </item>
+        <item quantity="other">
+            <![CDATA[کل:<b><font color="%1$d">%2$d</font></b> برنامه, <b><font color="%1$d">%3$s</font></b>]]>
+        </item>
+    </plurals>
     <string name="total_zero_app">
         <![CDATA[کل: <b><font color="%1$d">0</font></b> برنامه]]>
     </string>
@@ -254,7 +253,7 @@
 
     <string name="auto_service_description">در برنامه APKPure \"نصب خودکار\" را روشن کنید، و در اینجا \"نصب خودکار APKPure\" را فعال کنید.\n\n\"نصب خودکار APKPure\" به شما کمک می‌کند که در هنگام مراحل نصب و به‌روزرسانی برنامه‌ها و بازی‌ها، دیگر همیشه گوشی خود را چک نکنید و این مراحل همگی به صورت خودکار انجام شود.\n\nهنگامی که این قابلیت را فعال می‌کنید، سیستم گوشی شما پنجره‌ایی هشدار برای شما نمایش می‌دهد، که برای دسترسی به برنامه مجوز‌ها را نشان می‌دهد که روی دکمه \"تایید\" کلیک کنید تا فعال شود.\n\nبرای اطمینان به کار کردن خوب برنامه APKPure, لطفا APKPure را در \"لیست سفید\" برنامه‌های خود قرار دهید.\n\nموارد بالا فقط برای اندروید 4.1 به بالا پشتیبانی می‌شود، بدون نیاز به دسترسی به root. ما هرگز اطلاعات شخصی شما را جمع آوری نمی کنیم برای این مجوز. لطفا در صورت تمایل هر گونه مشکلی داشتید از قسمت تماس با ما در برنامه تماس بگیرید. ترجمه شده به فارسی : گودرز جعفری .</string>
 
-<string name="similar_or_related">مشابه یا مرتبط</string>
+    <string name="similar_or_related">مشابه یا مرتبط</string>
     <string name="more_from_developer">از این توسعه دهنده</string>
     <string name="more_large">بیشتر</string>
     <string name="feedback">تماس با ما</string>
@@ -262,9 +261,9 @@
     <string name="changing_language">در حال تغییر زبان، لطفا صبر کنید…</string>
     <string name="download_complete_installation_setting">گزینه نصب پس از دانلود</string>
     <plurals name="app_detail_see_all_replies">
-	<item quantity="one">مشاهده تمام <xliff:g example="1" id="count">%1$d</xliff:g> پاسخ</item>
-	<item quantity="other">مشاهده تمام <xliff:g example="2" id="count">%1$d</xliff:g> پاسخ‌ها</item>
-</plurals>
+        <item quantity="one">مشاهده تمام <xliff:g example="1" id="count">%1$d</xliff:g> پاسخ</item>
+        <item quantity="other">مشاهده تمام <xliff:g example="2" id="count">%1$d</xliff:g> پاسخ‌ها</item>
+    </plurals>
 
     <string name="app_detail_customer_reviews">بحث‌ها</string>
     <string name="app_detail_comment_type_web">وب</string>
@@ -296,7 +295,7 @@
     <string name="scan_qr_code_hint">قبل از استفاده اسکن کد QR باید شما به دوربین خود مجوز استفاده بدهید
  تا بتوانید کد QR را اسکن کند.</string>
     <string name="zxing_msg_parser_status">اسکن ناموفق بود، لطفا برای اسکن کد QR دوباره تلاش کنید.</string>
-<string name="input_reply_content">محتوای واردی برای پاسخ:</string>
+    <string name="input_reply_content">محتوای واردی برای پاسخ:</string>
     <string name="zxing_msg_default_status">لطفا محل کد QR را در قسمت منظره یاب برای اسکن قرار دهید.</string>
     <string name="report">گزارش</string>
     <string name="share_app_url_comment"> <xliff:g example="APKPure" id="user_name">%1$s</xliff:g> نظر در مورد <xliff:g example="APKPure" id="app_name">%2$s</xliff:g> : <xliff:g example="APKPure" id="app_name">%3$s</xliff:g> (از جانب @<xliff:g example="APKPure" id="social_network_name">%4$s</xliff:g>), <xliff:g example="https://apkpure.com/p/com.apkpure.aegon" id="app_url">%5$s</xliff:g></string>
@@ -371,7 +370,7 @@
 
     <string name="set_contributor">شرکت کننده‌ها</string>
     <string name="set_permissions">مجوزها</string>
-    
+
     <string name="sign_in_services">شما با ثبت نام از شرایط و سیاست‌های حفظ حریم خصوصی ما موافقت کرده‌ایید.</string>
 
     <string name="sign_in_services_key">شرایط</string>
@@ -396,7 +395,7 @@
     <string name="login_new_user">ثبت نام کاربر جدید</string>
     <string name="login_post_as_a_guest">ارسال به عنوان مهمان</string>
 
-<string name="recommend">پیشنهاد‌ها</string>
+    <string name="recommend">پیشنهاد‌ها</string>
     <string name="reply_dialog_marked_words">با توجه به تصویر می تواند حذف شود.</string>
     <string name="save_original_image">نگه‌داشتن تصویر اصلی</string>
     <string name="login_select_way_to_login">لطفا یکی از راه‌ها را برای وارد شدن انتخاب کنید</string>
@@ -450,7 +449,7 @@
     <string name="sub_comment_dialog_link_null">آدرس ویدیو نمی‌تواند خالی باشد</string>
     <string name="sub_comment_progress_msg">در حال اضافه کردن ویدیو…</string>
 
-<string name="app_detail_comment_order_array_most_recent">ارسال‌های اخیر</string>
+    <string name="app_detail_comment_order_array_most_recent">ارسال‌های اخیر</string>
     <string name="comment_detail_original">مشاهده نظر اصلی &gt;</string>
     <string name="message_notifications_praise">رای‌موافق نظر شما</string>
     <string name="message_notifications_reply">پاسخ‌های نظر شما</string>
@@ -460,9 +459,9 @@
     <string name="comment_item_fold">نظر جمع شده است</string>
 
     <plurals name="comment_reply_item_fold">
-	<item quantity="one"><xliff:g example="1" id="count">%1$d</xliff:g> پاسخ جمع شده است</item>
-	<item quantity="other"><xliff:g example="2" id="count">%1$d</xliff:g> پاسخ جمع شده است</item>
-</plurals>
+        <item quantity="one"><xliff:g example="1" id="count">%1$d</xliff:g> پاسخ جمع شده است</item>
+        <item quantity="other"><xliff:g example="2" id="count">%1$d</xliff:g> پاسخ جمع شده است</item>
+    </plurals>
 
     <string name="delete_the_historical_record">حذف سابقه تاریخی؟</string>
     <string name="check_update_replace">نسخه رسمی</string>
@@ -477,7 +476,7 @@
 
     <string name="main_tab_home">صفحه اصلی</string>
     <string name="main_tab_ranking">رتبه‌بندی</string>
-    <string name="main_tab_group">گروه</string>
+    <string name="tab_group">گروه</string>
     <string name="main_tab_my">من</string>
 
     <string name="main_comment">نظر</string>
@@ -538,7 +537,7 @@
     <string name="recommend_user_recommend">توصیه شده توسط %s</string>
     <string name="recommend_required">*</string>
 
-<string name="play_button">دکمه پخش</string>
+    <string name="play_button">دکمه پخش</string>
     <string name="follow_un_success">دنبال نکن!</string>
     <string name="remove_as_favorite">از علاقمندی حذف شود</string>
     <string name="remove_failed">حذف ناموفق بود</string>
@@ -585,7 +584,7 @@
     <string name="choose_app">انتخاب برنامه</string>
     <string name="publish_comment">ارسال نظر</string>
 
-<string name="user_focus_tab_users">دوستان</string>
+    <string name="user_focus_tab_users">دوستان</string>
     <string name="history_version">تاریخچه نسخه</string>
 
     <string name="share_app_url_group"> <xliff:g example="APKPure" id="app_name">%1$s</xliff:g> گروه. (از جانب @<xliff:g example="APKPure" id="social_network_name">%2$s</xliff:g>), <xliff:g example="https://apkpure.com/p/com.apkpure.aegon" id="app_url">%3$s</xliff:g></string>
@@ -617,7 +616,7 @@
     <string name="there_is_no_label">هیچ برچسبی وجود ندارد.</string>
     <string name="add">اضافه کردن</string>
 
-<string name="hot_tag">برچسب‌های داغ</string>
+    <string name="hot_tag">برچسب‌های داغ</string>
     <string name="common_use">برچسب‌های محبوب</string>
     <string name="app_add_tag">یک برچسب جدید اضافه کنید</string>
     <string name="recommend_not_fount_info">به APKPure اطلاع دهید که \"%s\" را اضافه کند، شما باید فرم‌ها را تکمیل نمائید.</string>
@@ -647,7 +646,7 @@
 
     <string name="upload_apk_version">نسخه %s</string>
     <string name="upload_apk_downloads">دانلودها:%s</string>
-    
+
     <string name="upload_comment_uploading">%s در حال آپلود می‌باشد…</string>
     <string name="upload_comment_upload_success">%s با موفقیت ارسال شد</string>
     <string name="upload_comment_upload_failed">%s شکست خورده است</string>

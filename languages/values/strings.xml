@@ -284,7 +284,7 @@
         <item quantity="other">See All <xliff:g example="2" id="count">%1$d</xliff:g> replies</item>
     </plurals>
 
-    <string name="app_detail_customer_reviews">Discussions</string>
+    <string name="app_detail_customer_reviews">Comments</string>
     <string name="app_detail_comment_type_web">web</string>
     <string name="app_submit_submit">Submit…</string>
     <string name="app_submit_anonymous_comment">Add a comment</string>
@@ -301,7 +301,7 @@
     <string name="app_submit_reply_to">reply to</string>
 
     <string name="app_detail_tab_one">Details</string>
-    <string name="app_detail_tab_two">Discussions</string>
+    <string name="app_detail_tab_two">Posts</string>
     <string name="app_detail_tab_three">Related</string>
 
     <array name="app_detail_comment_order_array" translatable="false">
@@ -355,6 +355,7 @@
         <item>မြန်မာဘာသာ</item>
         <item>Deutsche</item>
         <item>ភាសាខ្មែរ</item>
+        <item>język polski</item>
     </string-array>
     <string-array name="language_entry_values" translatable="false">
         <item>__auto__</item>
@@ -387,6 +388,7 @@
         <item>my-MM</item>
         <item>de</item>
         <item>km</item>
+        <item>pl</item>
     </string-array>
 
     <string name="download_complete_installation_setting">Installation option after downloading</string>
@@ -426,7 +428,7 @@
     <string name="publish">Post</string>
     <string name="reply_dialog_marked_words">Long pressing the selected picture to delete it.</string>
     <string name="reply_comment">Reply to comment</string>
-    <string name="save_original_image">Preserve the original image</string>
+    <string name="save_original_image">Save</string>
     <string name="already_save">Saved<xliff:g example="ApKPure/photo" id="path">%1$s</xliff:g></string>
 
     <string name="load_end">No more data</string>
@@ -481,7 +483,7 @@
     <string name="update_email_name_et">Enter your email</string>
     <string name="update_eamil_name_tv">Email can\'t be blank</string>
     <string name="update_nickname_error">Nickname already taken, please choose another one!</string>
-    <string name="user_info_edit_intro_tv">About Me:</string>
+    <string name="user_info_edit_intro_tv">About Me</string>
     <string name="update_intro_title">Edit About Me</string>
     <string name="update_intro_et">Write some details about yourself</string>
     <string name="update_intro_tv">About me field cann\'t be empty</string>
@@ -614,12 +616,12 @@
 
     <string name="main_tab_home">HOME</string>
     <string name="main_tab_ranking">RANKING</string>
-    <string name="main_tab_group">GROUP</string>
+    <string name="tab_group">GROUP</string>
     <string name="main_tab_my">ME</string>
 
     <string name="main_comment">comment</string>
     <string name="main_won_praise">Likes</string>
-    <string name="main_my_comments">Discussions</string>
+    <string name="main_my_comments">Posts</string>
     <string name="main_my_collection">Favorites</string>
     <string name="main_my_message">Messages</string>
     <string name="main_good_comments">Upvoted</string>
@@ -632,9 +634,8 @@
     <string name="follow_un_success">Unfollow!</string>
     <string name="canceled">Canceled</string>
     <string name="group">Group</string>
-    <string name="collection">Collection</string>
+    <string name="collection">Favorites</string>
 
-    <string name="comments">Discussions</string>
     <string name="follow">Following</string>
     <string name="attention_on">Following</string>
     <string name="attention_off">Follow</string>
@@ -658,7 +659,7 @@
     <string name="remove_as_favorite">Remove as Favorite</string>
     <string name="remove_failed">Remove Failed</string>
 
-    <string name="collection_comment">Discussions</string>
+    <string name="collection_comment">Posts</string>
     <string name="collection_app">APPS</string>
 
     <string name="open_with_browser">Open with Browser</string>
@@ -700,7 +701,7 @@
     <string name="user_detail_praise">Likes</string>
     <string name="user_detail_default_text" translatable="false">--</string>
 
-    <string name="user_detail_tab_detail">Discussions</string>
+    <string name="user_detail_tab_detail">Posts</string>
     <string name="user_detail_tab_reply">Replies</string>
 
     <string name="user_focus_tab_users">People</string>
@@ -719,7 +720,7 @@
     <string name="menu_follow_group_tab">Groups</string>
 
     <string name="choose_app">Select Application</string>
-    <string name="publish_comment">Post A Comment</string>
+    <string name="publish_comment">Share A Post</string>
 
     <string name="app_detail_has_product">Purchase Items</string>
     <string name="app_detail_no_product">No Purchase Items</string>
@@ -728,7 +729,8 @@
 
     <string name="tag_list">Tags List</string>
     <string name="hot_tag">Hot Tags</string>
-    <string name="common_use">Popular Tags</string>
+    <string name="hot_tag_explain">(Add or vote existing tags for this app)</string>
+    <string name="common_use">My Tags</string>
     <string name="app_add_tag_hint_caution">No more than %s tags for each application.</string>
     <string name="app_add_tag">Add a new tag</string>
     <string name="toast_app_tag_exist">Tag already exists!</string>
@@ -739,26 +741,35 @@
     <string name="pack_up">Collapse</string>
     <string name="Istop">Pinned</string>
     <string name="add_tag">Add tags</string>
-    <string name="error_add_tag">Add tags faild</string>
+    <string name="error_add_tag">Add tags failed</string>
     <string name="no_collect">No favorites yet!</string>
     <string name="no_comment">Be the first one to add a comment!</string>
 
     <string name="share_apk">Share APK</string>
     <string name="tab_apk">APK</string>
-    <string name="commentaries">Commentaries</string>
+    <string name="commentaries">Share a Post</string>
 
     <string name="upload_apk_version">V %s</string>
     <string name="upload_apk_downloads">Downloads:%s</string>
     
-    <string name="upload_comment_uploading">%s is uploading…</string>
-    <string name="upload_comment_upload_success">%s is success</string>
-    <string name="upload_comment_upload_failed">%s is failed</string>
-    <string name="upload_comment_view">click for view</string>
-    <string name="upload_comment_reload">click reload</string>
+    <string name="upload_comment_uploading">%s Uploading…</string>
+    <string name="upload_comment_upload_success">%s Upload Successful</string>
+    <string name="upload_comment_upload_failed">%s Upload Failed</string>
+    <string name="upload_comment_view">Tap to view</string>
+    <string name="upload_comment_reload">Tap to upload again</string>
     <string name="upload_notification_pause">Pause</string>
     <string name="upload_notification_start">Start</string>
     <string name="upload_notification_cancel">Cancel</string>
-    <string name="upload_notification_is_uploading">Uploading</string>
-    <string name="upload_notification_is_pause">Upload is pause</string>
-    <string name="upload_add_list_toast">Your Comment is in queue!</string>
+    <string name="upload_notification_is_uploading">Uploading package to APKPure…</string>
+    <string name="upload_notification_is_pause">Uploading is paused</string>
+    <string name="upload_add_list_toast">Success!</string>
+    <string name="upload_add_file_list_toast">App uploading. Please be patient, thanks!</string>
+
+    <string name="your_reply_comment">Your Reply</string>
+
+    <string name="market_ad_title">Market</string>
+    <string name="market_ad_tab_one">Featured</string>
+    <string name="market_ad_tab_two">Games</string>
+    <string name="market_ad_tab_three">Tools</string>
+    <string name="tag">Tag</string>
 </resources>
