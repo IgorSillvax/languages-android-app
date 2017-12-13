@@ -13,8 +13,7 @@
     <string name="categories">Kategóriák</string>
     <string name="updates">Frissítések</string>
 
-    <string name="something_happened">&gt;_&lt;
-Hiba történt.</string>
+    <string name="something_happened">&gt;_&lt;Hiba történt.</string>
 
     <string name="load_failed_error">Hoppsz! Hiba történt.</string>
     <string name="load_failed_empty">Itt nincs semmi.</string>
@@ -91,9 +90,9 @@ Hiba történt.</string>
     <string name="update">Frissítés</string>
     <string name="version__version___size_">Verzió: <xliff:g example="1.0.0" id="version">%1$s</xliff:g>, <xliff:g example="1024 kB" id="size">%2$s</xliff:g></string>
     <plurals name="_count__new_update_is_available">
-	<item quantity="one"><xliff:g example="1" id="count">%1$d</xliff:g> új frissítés érhető el</item>
-	<item quantity="other"><xliff:g example="2" id="count">%1$d</xliff:g> új frissítés érhető el</item>
-</plurals>
+        <item quantity="one"><xliff:g example="1" id="count">%1$d</xliff:g> új frissítés érhető el</item>
+        <item quantity="other"><xliff:g example="2" id="count">%1$d</xliff:g> új frissítés érhető el</item>
+    </plurals>
 
     <string name="launching_please_wait">Indítás, kis türelmet…</string>
 
@@ -160,12 +159,11 @@ Hiba történt.</string>
 
     <string name="setting">Beállítás</string>
     <string name="external_storage_not_usable">
- <big><b>Hozzá kell férnünk a külső tárolóhoz. Győződjön meg arról, hogy használható.</b></big>
- </string>
+        <![CDATA[<big><b>Hozzá kell férnünk a külső tárolóhoz. Győződjön meg arról, hogy használható.</b></big>]]>
+    </string>
     <string name="external_storage_permission_denied">
- <big><b>Hozzá kell férnünk a külső tárolóhoz. Győződjön meg arról, hogy az engedély nem lett-e megtagadva.</b></big>
- </string>
-
+        <![CDATA[<big><b>Hozzá kell férnünk a külső tárolóhoz. Győződjön meg arról, hogy az engedély nem lett-e megtagadva.</b></big>]]>
+    </string>
     <string name="share">Megosztás</string>
     <string name="share_app_url"><xliff:g example="APKPure" id="app_name">%1$s</xliff:g> APK letöltése (forrás: @<xliff:g example="APKPure" id="social_network_name">%2$s</xliff:g>), <xliff:g example="https://apkpure.com/p/com.apkpure.aegon" id="app_url">%3$s</xliff:g></string>
 
@@ -213,12 +211,10 @@ Hiba történt.</string>
     <string name="ignored">Kihagyva</string>
     <plurals name="total__count__apps__size_">
 	<item quantity="one">"
- Összesen: &lt;b&gt;&lt;font color=%1$d&gt;%2$d&lt;/font&gt;&lt;/b&gt; alkalmazás, &lt;b&gt;&lt;font color=%1$d&gt;%3$s&lt;/font&gt;&lt;/b&gt;
- "</item>
-	<item quantity="other">"
- Összesen: &lt;b&gt;&lt;font color=%1$d&gt;%2$d&lt;/font&gt;&lt;/b&gt; alkalmazás, &lt;b&gt;&lt;font color=%1$d&gt;%3$s&lt;/font&gt;&lt;/b&gt;
- "</item>
-</plurals>
+        <![CDATA[Összesen: <b><font color="%1$d">%2$d</font></b> alkalmazás, <b><font color="%1$d">%3$s</font></b>]]></item>
+        <item quantity="other">"
+        <![CDATA[Összesen: <b><font color="%1$d">%2$d</font></b> alkalmazás, <b><font color="%1$d">%3$s</font></b>]]></item>
+    </plurals>
     <string name="total_zero_app">
         <![CDATA[Összesen: <b><font color="%1$d">0</font></b> alkalmazás]]>
     </string>
@@ -482,7 +478,7 @@ Hiba történt.</string>
 
     <string name="main_tab_home">KEZDŐLAP</string>
     <string name="main_tab_ranking">RANGSOR</string>
-    <string name="main_tab_group">CSOPORT</string>
+    <string name="tab_group">CSOPORT</string>
     <string name="main_tab_my">OPCIÓK</string>
 
     <string name="main_comment">hozzászólás</string>
@@ -553,9 +549,10 @@ Hiba történt.</string>
     <string name="recommend_comment">Küldés</string>
     <string name="recommend_comment_error">Valami hiba történt！</string>
     <string name="recommend_description_title">Utasítások:</string>
-    <string name="recommend_description">1. A jóváhagyott ajánlások a FELFEDEZÉS rész alatt szerepelnek.
-2. Csak az Android-eszközön jelenleg telepített alkalmazásokat ajánlhatja.
-3. APKPure értesítése a nem indexelt alkalmazások hozzáadásáról, kérjük, töltse ki először az ajánlási űrlapokat.</string>
+    <string name="recommend_description">
+        1. A jóváhagyott ajánlások a FELFEDEZÉS rész alatt szerepelnek.
+        2. Csak az Android-eszközön jelenleg telepített alkalmazásokat ajánlhatja.
+        3. APKPure értesítése a nem indexelt alkalmazások hozzáadásáról, kérjük, töltse ki először az ajánlási űrlapokat.</string>
     <string name="recommend_user_recommend">%s által ajánlott</string>
     <string name="recommend_required">*</string>
 
@@ -595,7 +592,7 @@ Hiba történt.</string>
 
     <string name="choose_app">Válasszon alkalmazást</string>
     <string name="publish_comment">Hozzászólás küldése</string>
-<string name="history_version">Verzióelőzmények</string>
+    <string name="history_version">Verzióelőzmények</string>
 
     <string name="data_saver_model">Adatforgalom-csökkentő</string>
     <string name="data_saver_model_summery">Aktiválásával csökkenthető a képméret és a minőség a kevesebb mobiladat használat céljából.</string>
@@ -620,7 +617,7 @@ Hiba történt.</string>
     <string name="there_is_no_label">Nincsenek címkék.</string>
     <string name="add">Hozzáadás</string>
 
-<string name="share_app_url_group"> <xliff:g example="APKPure" id="app_name">%1$s</xliff:g> csoport. (forrás: @<xliff:g example="APKPure" id="social_network_name">%2$s</xliff:g>), <xliff:g example="https://apkpure.com/p/com.apkpure.aegon" id="app_url">%3$s</xliff:g></string>
+    <string name="share_app_url_group"> <xliff:g example="APKPure" id="app_name">%1$s</xliff:g> csoport. (forrás: @<xliff:g example="APKPure" id="social_network_name">%2$s</xliff:g>), <xliff:g example="https://apkpure.com/p/com.apkpure.aegon" id="app_url">%3$s</xliff:g></string>
 
     <string name="push_title_info_follow">%s követte Önt!</string>
     <string name="recommend_user_recommend_sys">APKPure által kiemelt</string>
@@ -632,7 +629,7 @@ Hiba történt.</string>
     <string name="beta">Béta</string>
     <string name="user_info_edit_intro_tv">Rólam:</string>
     <string name="upload_add_list_toast">Hozzászólása várólistán van!</string>
-<string name="update_intro_et">Írjon néhány részletet magáról</string>
+    <string name="update_intro_et">Írjon néhány részletet magáról</string>
     <string name="update_intro_tv">A rólam mező nem lehet üres</string>
 
     <string name="user_name_null">Érvénytelen felhasználónév</string>
@@ -651,7 +648,7 @@ Hiba történt.</string>
 
     <string name="upload_apk_version">v%s</string>
     <string name="upload_apk_downloads">Letöltések:%s</string>
-    
+
     <string name="upload_comment_uploading">%s feltöltése…</string>
     <string name="upload_comment_upload_success">%s sikeres</string>
     <string name="upload_comment_upload_failed">%s sikertelen</string>
@@ -663,4 +660,4 @@ Hiba történt.</string>
     <string name="upload_notification_is_uploading">Feltöltés</string>
     <string name="upload_notification_is_pause">A feltöltés szünetel</string>
     <string name="update_intro_title">Rólam mező szerkesztése</string>
-    </resources>
+</resources>

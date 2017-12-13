@@ -209,16 +209,16 @@ Detalhe do problema:
     <string name="deselect_all">Desmarcar todos</string>
     <string name="ignored">Ignorado</string>
     <plurals name="total__count__apps__size_">
-	<item quantity="one">"
- Total: &lt;b&gt;&lt;font cor=%1$d&gt;%2$d&lt;/font&gt;&lt;/b&gt; app, &lt;b&gt;&lt;font color=%1$d&gt;%3$s&lt;/font&gt;&lt;/b&gt;
- "</item>
-	<item quantity="other">"
- Total: &lt;b&gt;&lt;font cor=%1$d&gt;%2$d&lt;/font&gt;&lt;/b&gt; apps, &lt;b&gt;&lt;font color=%1$d&gt;%3$s&lt;/font&gt;&lt;/b&gt;
- "</item>
-</plurals>
-    <string name="total_zero_app">"
- Total: &lt;b&gt;&lt;font cor=%1$d&gt;0&lt;/font&gt;&lt;/b&gt; app
- "</string>
+        <item quantity="one">
+            <![CDATA[Total: <b><font color="%1$d">%2$d</font></b> app, <b><font color="%1$d">%3$s</font></b>]]>
+        </item>
+        <item quantity="other">
+            <![CDATA[Total: <b><font color="%1$d">%2$d</font></b> apps, <b><font color="%1$d">%3$s</font></b>]]>
+        </item>
+    </plurals>
+    <string name="total_zero_app">
+        <![CDATA[Total: <b><font color="%1$d">0</font></b> app]]>
+    </string>
     <string name="general">Geral</string>
     <string name="language">Idioma</string>
     <string name="auto">Automático</string>
@@ -499,7 +499,7 @@ Que é necessário para escanear o código QR.</string>
 
     <string name="main_tab_home">INÍCIO</string>
     <string name="main_tab_ranking">CLASSIFICAÇÃO</string>
-    <string name="main_tab_group">GRUPO</string>
+    <string name="tab_group">GRUPO</string>
     <string name="main_tab_my">EU</string>
 
     <string name="main_comment">comentário</string>
@@ -580,7 +580,7 @@ Que é necessário para escanear o código QR.</string>
     <string name="recommend_user_recommend">Recomendado por %s</string>
     <string name="recommend_required">* Obrigatório</string>
 
-<string name="download_mkdir">Caminho do download</string>
+    <string name="download_mkdir">Caminho do download</string>
     <string name="download_mkdir_internal_storage_size_des">%1$s Livre, Total %2$s</string>
     <string name="download_mkdir_internal_storage_entries">"SD "</string>
     <string name="download_mkdir_internal_storage_entries1">SD 1</string>
@@ -615,7 +615,7 @@ Que é necessário para escanear o código QR.</string>
     <string name="choose_app">Selecione a Aplicação</string>
     <string name="publish_comment">Publicar um comentário</string>
 
-<string name="history_version">Histórico de versões</string>
+    <string name="history_version">Histórico de versões</string>
 
     <string name="share_app_url_group"> <xliff:g example="APKPure" id="app_name">%1$s</xliff:g> Grupo. (Através do @<xliff:g example="APKPure" id="social_network_name">%2$s</xliff:g>), <xliff:g example="https://apkpure.com/p/com.apkpure.aegon" id="app_url">%3$s</xliff:g></string>
 
@@ -648,7 +648,7 @@ Que é necessário para escanear o código QR.</string>
     <string name="there_is_no_label">Sem tags.</string>
     <string name="add">Adicionar</string>
 
-<string name="load_failed_error_not_found">Aplicativo não listado na App Store do APKPure!</string>
+    <string name="load_failed_error_not_found">Aplicativo não listado na App Store do APKPure!</string>
     <string name="beta">beta</string>
     <string name="user_info_edit_intro_tv">Sobre mim:</string>
     <string name="update_intro_title">Editar Sobre Mim</string>
@@ -671,7 +671,7 @@ Que é necessário para escanear o código QR.</string>
 
     <string name="upload_apk_version">V %s</string>
     <string name="upload_apk_downloads">Downloads:%s</string>
-    
+
     <string name="upload_comment_uploading">%s está carregando…</string>
     <string name="upload_comment_upload_success">%s Sucesso</string>
     <string name="upload_comment_upload_failed">%s Falha</string>

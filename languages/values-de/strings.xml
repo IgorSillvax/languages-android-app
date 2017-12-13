@@ -159,11 +159,11 @@
     </string>
     <string name="setting">Einstellungen</string>
     <string name="external_storage_not_usable">
- <big><b>Wir brauchen Zugriff auf den externen Speicher. Bitte stelle sicher, dass dieser verfügbar ist.</b></big>
- </string>
+        <![CDATA[<big><b>Wir brauchen Zugriff auf den externen Speicher. Bitte stelle sicher, dass dieser verfügbar ist.</b></big>]]>
+    </string>
     <string name="external_storage_permission_denied">
- <big><b>Wir brauchen Zugriff auf den externen Speicher. Bitte stelle sicher, dass wir die Genehmigung dazu haben.</b></big>
- </string>
+        <![CDATA[<big><b>Wir brauchen Zugriff auf den externen Speicher. Bitte stelle sicher, dass wir die Genehmigung dazu haben.</b></big>]]>
+    </string>
 
     <string name="share">Teilen</string>
     <string name="share_app_url">Lade <xliff:g example="APKPure" id="app_name">%1$s</xliff:g> APK (from @<xliff:g example="APKPure" id="social_network_name">%2$s</xliff:g>), <xliff:g example="https://apkpure.com/p/com.apkpure.aegon" id="app_url">%3$s</xliff:g> herunter</string>
@@ -479,7 +479,7 @@ erlaubt werden.</string>
 
     <string name="main_tab_home">STARTSEITE</string>
     <string name="main_tab_ranking">RANGLISTE</string>
-    <string name="main_tab_group">GRUPPE</string>
+    <string name="tab_group">GRUPPE</string>
     <string name="main_tab_my">ICH</string>
 
     <string name="main_won_praise">Likes</string>
@@ -564,7 +564,7 @@ erlaubt werden.</string>
     </plurals>
 
     <string name="play_button">Play-Button</string>
-<string name="history_version">Versions Verlauf</string>
+    <string name="history_version">Versions Verlauf</string>
 
     <string name="load_failed_error_not_found">App wurde nicht im APKPure App Store gefunden!</string>
     <string name="beta">Beta</string>
@@ -648,7 +648,7 @@ erlaubt werden.</string>
 
     <string name="upload_apk_version">V. %s</string>
     <string name="upload_apk_downloads">Downloads: %s</string>
-    
+
     <string name="upload_comment_uploading">%s lädt hoch…</string>
     <string name="upload_comment_upload_success">%s erfolgreich hochgeladen</string>
     <string name="upload_comment_upload_failed">Fehler bei %s</string>
@@ -660,7 +660,7 @@ erlaubt werden.</string>
     <string name="upload_notification_is_uploading">Lädt hoch</string>
     <string name="upload_notification_is_pause">Upload pausiert</string>
     <string name="upload_add_list_toast">Dein Kommentar ist in der Warteschlange!</string>
-<string name="download_mkdir_internal_storage_values">internal_storage</string>
+    <string name="download_mkdir_internal_storage_values">internal_storage</string>
     <string name="download_mkdir_external_storage_values">external_storage</string>
 
-    </resources>
+</resources>

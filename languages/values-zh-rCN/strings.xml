@@ -401,7 +401,7 @@
     <string name="update_eamil_name_tv">邮箱不能为空</string>
     <string name="update_save_success">保存成功!</string>
     <string name="update_nickname_error">昵称已经在使用，请修改昵称。</string>
-    <string name="user_info_edit_intro_tv">个人简介：</string>
+    <string name="user_info_edit_intro_tv">个人简介</string>
     <string name="update_intro_title">修改简介</string>
     <string name="update_intro_et">用一句话介绍自己吧!</string>
     <string name="update_intro_tv">简介不能为空</string>
@@ -501,7 +501,7 @@
 
     <string name="main_tab_home">首页</string>
     <string name="main_tab_ranking">排行</string>
-    <string name="main_tab_group">小组</string>
+    <string name="tab_group">小组</string>
     <string name="main_tab_my">我的</string>
 
     <string name="main_comment">评论</string>
@@ -612,6 +612,7 @@
 
     <string name="tag_list">标签列表</string>
     <string name="hot_tag">热门标签</string>
+    <string name="hot_tag_explain">(添加或投票热门标签)</string>
     <string name="common_use">常用标签</string>
     <string name="app_add_tag_hint_caution">最多只能添加%s个标签</string>
     <string name="app_add_tag">添加应用标签</string>
@@ -628,7 +629,7 @@
     <string name="no_comment">暂无评论，快来抢沙发!</string>
 
     <string name="share_apk">分享APK</string>
-    <string name="tab_apk">APK</string>
+    <string name="tab_apk">APK文件</string>
     <string name="commentaries">评论</string>
 
     <string name="upload_apk_downloads">下载数:%s</string>
@@ -643,5 +644,9 @@
     <string name="upload_notification_cancel">取消</string>
     <string name="upload_notification_is_uploading">评论上传中…</string>
     <string name="upload_notification_is_pause">评论已暂停</string>
-    <string name="upload_add_list_toast">已加入上传队列，现在你可以进行其他操作啦！</string>
+    <string name="upload_add_list_toast">成功！</string>
+    <string name="upload_add_file_list_toast">感谢提交，应用上传中请稍后！</string>
+
+    <string name="your_reply_comment">你的回复</string>
+    <string name="tag">标签</string>
 </resources>
