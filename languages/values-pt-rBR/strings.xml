@@ -275,7 +275,7 @@ Detalhe do problema:
         <item quantity="other">Ver tudo <xliff:g example="2" id="count"> %1$d</xliff:g> Respostas</item>
     </plurals>
 
-    <string name="app_detail_customer_reviews">Discussões</string>
+    <string name="app_detail_customer_reviews">Comentários</string>
     <string name="app_detail_comment_type_web">Internet</string>
     <string name="app_submit_submit">Enviar…</string>
     <string name="app_submit_anonymous_comment">Adicionar um comentário</string>
@@ -292,7 +292,7 @@ Detalhe do problema:
     <string name="app_submit_reply_to">Responder a</string>
 
     <string name="app_detail_tab_one">Detalhes</string>
-    <string name="app_detail_tab_two">Discussões</string>
+    <string name="app_detail_tab_two">Postagens</string>
     <string name="app_detail_tab_three">Relacionado</string>
 
     <string name="reply">Resposta</string>
@@ -326,7 +326,7 @@ Que é necessário para escanear o código QR.</string>
 
     <string name="reply_dialog_marked_words">Pressionando a foto selecionada para excluir.</string>
     <string name="reply_comment">Responder ao comentário</string>
-    <string name="save_original_image">Preserve a imagem original</string>
+    <string name="save_original_image">Salvar</string>
     <string name="already_save">Salvado<xliff:g example="ApKPure/photo" id="path">
 1%1$s</xliff:g> 2</string>
 
@@ -504,7 +504,7 @@ Que é necessário para escanear o código QR.</string>
 
     <string name="main_comment">comentário</string>
     <string name="main_won_praise">Curtidas</string>
-    <string name="main_my_comments">Discussões</string>
+    <string name="main_my_comments">Postagens</string>
     <string name="main_my_collection">Favoritos</string>
     <string name="main_my_message">Mensagens</string>
     <string name="main_good_comments">Curtida</string>
@@ -517,7 +517,7 @@ Que é necessário para escanear o código QR.</string>
     <string name="follow_un_success">Deixar de seguir!</string>
     <string name="canceled">Cancelado</string>
     <string name="group">Grupo</string>
-    <string name="collection">Coleção</string>
+    <string name="collection">Favoritos</string>
 
     <string name="comments">Discussões</string>
     <string name="follow">Seguindo</string>
@@ -542,7 +542,7 @@ Que é necessário para escanear o código QR.</string>
     <string name="remove_as_favorite">Remover favorito</string>
     <string name="remove_failed">Falha ao remover</string>
 
-    <string name="collection_comment">Discussões</string>
+    <string name="collection_comment">Postagens</string>
     <string name="collection_app">APLICATIVOS</string>
 
     <string name="open_with_browser">Abrir com o navegador</string>
@@ -595,7 +595,7 @@ Que é necessário para escanear o código QR.</string>
     <string name="user_detail_focus">Seguindo</string>
     <string name="user_detail_fans">Seguidor</string>
     <string name="user_detail_praise">Curtidas</string>
-    <string name="user_detail_tab_detail">Discussões</string>
+    <string name="user_detail_tab_detail">Postagens</string>
     <string name="user_detail_tab_reply">Respostas</string>
 
     <string name="user_focus_tab_users">Pessoas</string>
@@ -613,7 +613,7 @@ Que é necessário para escanear o código QR.</string>
     <string name="menu_follow_group_tab">Grupos</string>
 
     <string name="choose_app">Selecione a Aplicação</string>
-    <string name="publish_comment">Publicar um comentário</string>
+    <string name="publish_comment">Compartilhar postagem</string>
 
     <string name="history_version">Histórico de versões</string>
 
@@ -641,7 +641,7 @@ Que é necessário para escanear o código QR.</string>
 
     <string name="tag_list">Lista de Tags</string>
     <string name="hot_tag">Tags em alta</string>
-    <string name="common_use">Tags Popular</string>
+    <string name="common_use">Minhas Tags</string>
     <string name="app_add_tag_hint_caution">Não há mais de %s tags para cada aplicativo.</string>
     <string name="app_add_tag">Adicione uma nova tag</string>
     <string name="toast_app_tag_exist">Tag já existe!</string>
@@ -650,7 +650,7 @@ Que é necessário para escanear o código QR.</string>
 
     <string name="load_failed_error_not_found">Aplicativo não listado na App Store do APKPure!</string>
     <string name="beta">beta</string>
-    <string name="user_info_edit_intro_tv">Sobre mim:</string>
+    <string name="user_info_edit_intro_tv">Sobre mim</string>
     <string name="update_intro_title">Editar Sobre Mim</string>
     <string name="update_intro_et">Escreva alguns detalhes sobre você</string>
     <string name="update_intro_tv">O campo sobre mim não pode estar vazio</string>
@@ -661,26 +661,36 @@ Que é necessário para escanear o código QR.</string>
     <string name="pack_up">Colapso</string>
     <string name="Istop">Fixado</string>
     <string name="add_tag">Adicionar tags</string>
-    <string name="error_add_tag">Adicionar tags falhou</string>
+    <string name="error_add_tag">Falha ao adicionar tags</string>
     <string name="no_collect">Ainda não há favoritos!</string>
     <string name="no_comment">Seja o primeiro a adicionar um comentário!</string>
 
     <string name="share_apk">Compartilhar APK</string>
     <string name="tab_apk">APK</string>
-    <string name="commentaries">Comentários</string>
+    <string name="commentaries">Compartilhar postagem</string>
 
     <string name="upload_apk_version">V %s</string>
     <string name="upload_apk_downloads">Downloads:%s</string>
 
     <string name="upload_comment_uploading">%s está carregando…</string>
-    <string name="upload_comment_upload_success">%s Sucesso</string>
-    <string name="upload_comment_upload_failed">%s Falha</string>
+    <string name="upload_comment_upload_success">%s Carregamento completo</string>
+    <string name="upload_comment_upload_failed">%s Falha no carregamento</string>
     <string name="upload_comment_view">Clique para ver</string>
-    <string name="upload_comment_reload">Clique em recarregar</string>
+    <string name="upload_comment_reload">Toque para carregar de novo</string>
     <string name="upload_notification_pause">Pausa</string>
     <string name="upload_notification_start">Começar</string>
     <string name="upload_notification_cancel">Cancelar</string>
-    <string name="upload_notification_is_uploading">Fazendo upload</string>
-    <string name="upload_notification_is_pause">O carregamento está em pausa</string>
-    <string name="upload_add_list_toast">Seu comentário está na fila!</string>
-</resources>
+    <string name="upload_notification_is_uploading">Carregando pacote para o APKPure…</string>
+    <string name="upload_notification_is_pause">O carregamento está pausado</string>
+    <string name="upload_add_list_toast">Sucesso!</string>
+<string name="upload_add_file_list_toast">Carregando o aplicativo. Seja paciente, obrigado!</string>
+
+    <string name="your_reply_comment">Sua resposta</string>
+
+    <string name="market_ad_title">Loja</string>
+    <string name="market_ad_tab_one">Destaque</string>
+    <string name="market_ad_tab_two">Jogos</string>
+    <string name="market_ad_tab_three">Ferramentas</string>
+    <string name="tag">Tag</string>
+<string name="hot_tag_explain">(Adicionar ou votar tags existentes para este aplicativo)</string>
+    </resources>
