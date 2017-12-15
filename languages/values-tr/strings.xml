@@ -180,7 +180,7 @@
     <string name="download_over_cellular_content">Mobil verinizi kullanarak indirmek üzeresiniz. Devam etmek istiyormusunuz?</string>
 
     <string name="search_history">Geçmiş</string>
-    <string name="clear_search_history">Geçmişi Temizle</string>
+    <string name="clear_search_history">Tüm geçmişi temizle</string>
 
     <string name="participate_ultra_download_beta_test_title">Ultra İndirme\'yi etkinleştirerek hızlı bir indirme deneyimini yaşayın</string>
     <string name="participate_ultra_download_beta_test_content">Ultra İndirme test aşamasında, herhangi bir problem olursa lütfen bize bildirin. Bu seçeneği, Ayarlar bölümünden kolayca devre dışı bırakabilirsiniz.</string>
@@ -310,7 +310,7 @@ Yukarıdaki özellikler Android 4.1+ sürümlerde desteklenmektedir, root erişi
     <string name="app_submit_name_toast">Lütfen kullanıcı adını doldurun!</string>
     <string name="app_submit_email_toast">Lütfen doğru bir e-posta yazın!</string>
     <string name="app_detail_tab_one">Ayrıntılar</string>
-    <string name="app_detail_tab_two">Yorumlar</string>
+    <string name="app_detail_tab_two">Gönderiler</string>
     <string name="app_detail_tab_three">İlişkili</string>
 
     <string name="app_detail_comment_order_array_default">Varsayılan olarak sırala</string>
@@ -505,7 +505,7 @@ ile ilgili yorumlar <xliff:g example="APKPure" id="app_name">%2$s</xliff:g> (fro
 
     <string name="main_comment">yorum</string>
     <string name="main_won_praise">Beğeniler</string>
-    <string name="main_my_comments">Yorumlar</string>
+    <string name="main_my_comments">Gönderiler</string>
     <string name="main_my_collection">Favoriler</string>
     <string name="main_my_message">Mesajlar</string>
     <string name="main_good_comments">Oylandı</string>
@@ -518,7 +518,7 @@ ile ilgili yorumlar <xliff:g example="APKPure" id="app_name">%2$s</xliff:g> (fro
     <string name="follow_un_success">Takipten çık!</string>
     <string name="canceled">İptal edildi</string>
     <string name="group">Grup</string>
-    <string name="collection">Koleksiyon</string>
+    <string name="collection">Favoriler</string>
 
     <string name="comments">Yorumlar</string>
     <string name="follow">Takip ediliyor</string>
@@ -543,7 +543,7 @@ ile ilgili yorumlar <xliff:g example="APKPure" id="app_name">%2$s</xliff:g> (fro
     <string name="remove_as_favorite">Favorilerden sil</string>
     <string name="remove_failed">Silme başarısız</string>
 
-    <string name="collection_comment">Yorumlar</string>
+    <string name="collection_comment">Gönderiler</string>
     <string name="collection_app">UYGULAMALAR</string>
 
     <string name="open_with_browser">Tarayıcı ile aç</string>
@@ -584,7 +584,7 @@ ile ilgili yorumlar <xliff:g example="APKPure" id="app_name">%2$s</xliff:g> (fro
     <string name="user_detail_focus">Takip ediliyor</string>
     <string name="user_detail_fans">Takipçi</string>
     <string name="user_detail_praise">Beğeniler</string>
-    <string name="user_detail_tab_detail">Yorumlar</string>
+    <string name="user_detail_tab_detail">Gönderiler</string>
     <string name="user_detail_tab_reply">Cevaplar</string>
 
     <string name="user_focus_tab_users">Insanlar</string>
@@ -609,4 +609,49 @@ ile ilgili yorumlar <xliff:g example="APKPure" id="app_name">%2$s</xliff:g> (fro
     <string name="load_failed_error_not_found">Uygulama APKpure Uygulama Mağazasında Listelenmedi!</string>
     <string name="beta">Beta</string>
     <string name="data_saver_model">Veri Tasarrufu</string>
+    <string name="scan_qr_code_result_title">Sonuç</string>
+    <string name="scan_qr_code_result_copy_text">Metni kopyala</string>
+    <string name="scan_qr_code_copy_success">metin kopyalandı</string>
+
+    <string name="user_info_edit_intro_tv">Hakkımda</string>
+    <string name="update_intro_title">Hakkımdayı Düzenle</string>
+    <string name="user_name_null">Kullanıcı adı geçersiz</string>
+    <string name="push_title_info_follow">%s seni takip etti!</string>
+    <string name="tab_group">GRUP</string>
+    <string name="app_detail_no_ad">Reklamsız</string>
+
+    <string name="hot_tag">Popüler Etiketler</string>
+    <string name="tag_list">Etiket Listesi</string>
+    <string name="common_use">Etiketlerim</string>
+    <string name="app_add_tag">Yeni bir etiket ekle</string>
+    <string name="toast_app_tag_exist">Etiket zaten var!</string>
+    <string name="there_is_no_label">Etiket yok.</string>
+    <string name="add">Ekle</string>
+    <string name="colon">:</string>
+
+    <string name="add_tag">Etiket ekle</string>
+    <string name="error_add_tag">Etiket eklenemedi</string>
+    <string name="share_apk">APK\'yi Paylaş</string>
+    <string name="no_comment">İlk yorum yapan siz olun!</string>
+
+    <string name="commentaries">Bir Gönderi paylaş</string>
+
+    <string name="upload_apk_version">V %s</string>
+    <string name="upload_apk_downloads">İndirmeler:%s</string>
+    
+    <string name="upload_comment_uploading">%s Yükleniyor…</string>
+    <string name="upload_comment_upload_success">%s Yükleme Başarılı</string>
+    <string name="upload_comment_upload_failed">%s Yükleme Başarısız</string>
+    <string name="upload_comment_view">Görüntülemek için dokun</string>
+    <string name="upload_comment_reload">Tekrar yüklemek için dokun</string>
+    <string name="upload_notification_pause">Duraklat</string>
+    <string name="upload_notification_start">Başlat</string>
+    <string name="upload_notification_cancel">İptal</string>
+    <string name="your_reply_comment">Cevabınız</string>
+
+    <string name="market_ad_tab_two">Oyunlar</string>
+    <string name="market_ad_tab_three">Araçlar</string>
+    <string name="tag">Etiket</string>
+<string name="push_content_info_update">Yeni sürüm %s yayınlandı! Şimdi güncelleyin!</string>
+
     </resources>
