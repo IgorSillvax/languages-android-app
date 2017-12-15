@@ -273,7 +273,7 @@ APKPureが正常に運行するために、APKPureをクリーニングアプリ
 
     <string name="report">レポート</string>
     <string name="recommend">ディスカバー</string>
-    <string name="app_detail_customer_reviews">ディスカッション</string>
+    <string name="app_detail_customer_reviews">コメント</string>
     <string name="app_detail_comment_type_web">ウェブ</string>
     <string name="app_submit_submit">提出…</string>
     <string name="app_submit_anonymous_comment">コメントする</string>
@@ -290,7 +290,7 @@ APKPureが正常に運行するために、APKPureをクリーニングアプリ
     <string name="app_submit_reply_to">返信</string>
 
     <string name="app_detail_tab_one">詳細</string>
-    <string name="app_detail_tab_two">ディスカッション</string>
+    <string name="app_detail_tab_two">投稿</string>
     <string name="app_detail_tab_three">関連</string>
 
     <string name="app_detail_comment_order_array_default">デフォルトの並び順</string>
@@ -303,13 +303,13 @@ APKPureが正常に運行するために、APKPureをクリーニングアプリ
     <string name="input_reply_content">返信の内容を入力してください：</string>
     <string name="publish">ポスト</string>
     <string name="reply_comment">コメントに返信</string>
-    <string name="save_original_image">オリジナルの画像を保存する</string>
+    <string name="save_original_image">保存</string>
     <string name="already_save">保存する<xliff:g example="ApKPure/photo" id="path">%1$s</xliff:g></string>
 
     <string name="load_end">これ以上データがありません</string>
     <string name="loading">ローディング…</string>
 
-    <string name="share_app_url_comment"> <xliff:g example="APKPure" id="user_name"> 1%1$s</xliff:g> 2\'s comments on <xliff:g example="APKPure" id="app_name"> 3%2$s</xliff:g> 4 (from @<xliff:g example="APKPure" id="social_network_name"> 5%3$s</xliff:g> 6), <xliff:g example="https://apkpure.com/p/com.apkpure.aegon" id="app_url"> 7%4$s</xliff:g> 8</string>
+    <string name="share_app_url_comment"> <xliff:g example="APKPure" id="user_name"> 1%1$s</xliff:g> 2\'s comments on <xliff:g example="APKPure" id="app_name"> 3%2$s</xliff:g> 4 : <xliff:g example="APKPure" id="app_name"> 5%3$s</xliff:g> 6 (from @<xliff:g example="APKPure" id="social_network_name"> 7%4$s</xliff:g> 8), <xliff:g example="https://apkpure.com/p/com.apkpure.aegon" id="app_url"> 9%5$s</xliff:g> 0</string>
 
     <plurals name="app_detail_see_all_replies">
         <item quantity="one">全ての返信を見る<xliff:g example="2" id="count"> 1%1$d</xliff:g> 2</item>
@@ -498,7 +498,7 @@ APKPureが正常に運行するために、APKPureをクリーニングアプリ
 
     <string name="main_comment">コメント</string>
     <string name="main_won_praise">Likes</string>
-    <string name="main_my_comments">ディスカッション</string>
+    <string name="main_my_comments">投稿</string>
     <string name="main_my_collection">お気に入り</string>
     <string name="main_my_message">メッセージ</string>
     <string name="main_good_comments">賛成</string>
@@ -511,7 +511,7 @@ APKPureが正常に運行するために、APKPureをクリーニングアプリ
     <string name="follow_un_success">アンフォロー！</string>
     <string name="canceled">キャンセル</string>
     <string name="group">グループ</string>
-    <string name="collection">コレクション</string>
+    <string name="collection">お気に入り</string>
 
     <string name="comments">ディスカッション</string>
     <string name="follow">フォロー</string>
@@ -536,7 +536,7 @@ APKPureが正常に運行するために、APKPureをクリーニングアプリ
     <string name="remove_as_favorite">お気に入りとして削除</string>
     <string name="remove_failed">削除失敗</string>
 
-    <string name="collection_comment">ディスカッション</string>
+    <string name="collection_comment">投稿</string>
     <string name="collection_app">アプリ</string>
 
     <string name="open_with_browser">ブラウザで開く</string>
@@ -578,7 +578,7 @@ APKPureが正常に運行するために、APKPureをクリーニングアプリ
     <string name="user_detail_focus">フォロー中</string>
     <string name="user_detail_fans">フォロワー</string>
     <string name="user_detail_praise">Likes</string>
-    <string name="user_detail_tab_detail">ディスカッション</string>
+    <string name="user_detail_tab_detail">投稿</string>
     <string name="user_detail_tab_reply">返信</string>
 
     <string name="user_focus_tab_apps">グループ</string>
@@ -595,7 +595,7 @@ APKPureが正常に運行するために、APKPureをクリーニングアプリ
     <string name="menu_follow_group_tab">グループ</string>
 
     <string name="choose_app">アプリケーションの選択</string>
-    <string name="publish_comment">コメントを投稿</string>
+    <string name="publish_comment">投稿を共有する</string>
 
     <string name="history_version">バージョン履歴</string>
 
@@ -624,7 +624,7 @@ APKPureが正常に運行するために、APKPureをクリーニングアプリ
 
     <string name="tag_list">タグ一覧</string>
     <string name="hot_tag">ホット・タグ</string>
-    <string name="common_use">人気タグ</string>
+    <string name="common_use">私のタグ</string>
     <string name="app_add_tag_hint_caution">アプリごとに％s以上のタグはありません。</string>
     <string name="app_add_tag">新しいタグを追加する</string>
     <string name="toast_app_tag_exist">タグは既に存在します！</string>
@@ -633,7 +633,7 @@ APKPureが正常に運行するために、APKPureをクリーニングアプリ
 
     <string name="load_failed_error_not_found">アプリはAPKPureアプリストアに登録されていません！</string>
     <string name="beta">ベータ</string>
-    <string name="user_info_edit_intro_tv">私について：</string>
+    <string name="user_info_edit_intro_tv">私について</string>
     <string name="update_intro_title">私について編集する</string>
     <string name="update_intro_et">あなた自身について詳細を書く</string>
     <string name="update_intro_tv">私についてのフィールドを空にすることはできません</string>
@@ -650,20 +650,30 @@ APKPureが正常に運行するために、APKPureをクリーニングアプリ
 
     <string name="share_apk">シェアAPK</string>
     <string name="tab_apk">APK</string>
-    <string name="commentaries">コメンタリー</string>
+    <string name="commentaries">投稿を共有する</string>
 
     <string name="upload_apk_version">V %s</string>
     <string name="upload_apk_downloads">ダウンロード：％s</string>
 
     <string name="upload_comment_uploading">％sはアップロード中です…</string>
-    <string name="upload_comment_upload_success">％sは成功です</string>
-    <string name="upload_comment_upload_failed">％sは失敗しました</string>
-    <string name="upload_comment_view">クリックして表示する</string>
-    <string name="upload_comment_reload">クリックでリロードする</string>
+    <string name="upload_comment_upload_success">％sアップロードが成功しました</string>
+    <string name="upload_comment_upload_failed">％sアップロードが失敗しました</string>
+    <string name="upload_comment_view">タップ表示</string>
+    <string name="upload_comment_reload">タップしてリロードする</string>
     <string name="upload_notification_pause">一時停止</string>
     <string name="upload_notification_start">スタート</string>
     <string name="upload_notification_cancel">キャンセル</string>
-    <string name="upload_notification_is_uploading">アップロード</string>
+    <string name="upload_notification_is_uploading">APKPureにパッケージをアップロード中…</string>
     <string name="upload_notification_is_pause">アップロードは一時停止しました</string>
-    <string name="upload_add_list_toast">あなたのコメントはキューに入っています！</string>
+    <string name="upload_add_list_toast">成功！</string>
+<string name="hot_tag_explain">（このアプリのタグを追加または既存タグを投票する）</string>
+    <string name="upload_add_file_list_toast">Appはアップロードしています。少々お待ちください！</string>
+
+    <string name="your_reply_comment">あなたの返信</string>
+
+    <string name="market_ad_title">マーケット</string>
+    <string name="market_ad_tab_one">注目</string>
+    <string name="market_ad_tab_two">ゲーム</string>
+    <string name="market_ad_tab_three">ツール</string>
+    <string name="tag">タグ</string>
 </resources>
