@@ -308,7 +308,7 @@
 	<item quantity="other">رؤية كافة الـ<xliff:g example="1" id="count">%1$d</xliff:g>رد</item>
 </plurals>
 
-    <string name="app_detail_customer_reviews">مناقشات</string>
+    <string name="app_detail_customer_reviews">تعليقات</string>
     <string name="app_detail_comment_type_web">web</string>
     <string name="app_submit_submit">ارسال…</string>
     <string name="app_submit_anonymous_comment">اضافة تعليق</string>
@@ -343,7 +343,7 @@
     <string name="publish">نشر</string>
     <string name="reply_dialog_marked_words">ضغط بشكل مطول على الصورة لحذفها.</string>
     <string name="reply_comment">رد على التعليق</string>
-    <string name="save_original_image">المحافظة على الصورة الاصليه</string>
+    <string name="save_original_image">حفظ</string>
     <string name="already_save">تم الحفظ &lt;xliff:g xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\"example=\"ApKPure/photo\" id=\"path\" &gt;%1$s&lt;/xliff:g&gt;<xliff:g id="path" example="ApKPure/photo">%1$s</xliff:g></string>
 
     <string name="load_end">لايوجد المزيد</string>
@@ -557,7 +557,7 @@
     <string name="follow_un_success">الغاء المتابعة!</string>
     <string name="canceled">ألغيت</string>
     <string name="group">مجموعة</string>
-    <string name="collection">مجموعة</string>
+    <string name="collection">مفضلات</string>
 
     <string name="comments">مناقشات</string>
     <string name="follow">متابعة</string>
@@ -572,6 +572,13 @@
     <string name="ranking_tab3_title">أفضل التطبيقات</string>
     <string name="load_failed_error_not_found">التطبيق غير المدرجة في متجر apkpure !</string>
     <string name="beta">تجريبي</string>
-    <string name="user_info_edit_intro_tv">عني:</string>
+    <string name="user_info_edit_intro_tv">عني</string>
     <string name="update_intro_title">تعديل عني</string>
+    <string name="update_intro_et">اكتب بعض التفاصيل عن نفسك</string>
+    <string name="update_intro_tv">الحقل عني لا يمكن ان يكون فارغ</string>
+
+    <string name="user_name_null">اسم المستخدم غير صالح</string>
+    <string name="tab_group">مجموعة</string>
+    <string name="ranking_tab4_title">اعلى التطبيقات الجديدة</string>
+
     </resources>

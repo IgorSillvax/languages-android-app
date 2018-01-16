@@ -265,7 +265,7 @@
         <item quantity="other">مشاهده تمام <xliff:g example="2" id="count">%1$d</xliff:g> پاسخ‌ها</item>
     </plurals>
 
-    <string name="app_detail_customer_reviews">بحث‌ها</string>
+    <string name="app_detail_customer_reviews">نظرات</string>
     <string name="app_detail_comment_type_web">وب</string>
     <string name="app_submit_submit">ارسال…</string>
     <string name="app_submit_anonymous_comment">اضافه کردن نظر</string>
@@ -282,7 +282,7 @@
     <string name="app_submit_reply_to">پاسخ دادن به</string>
 
     <string name="app_detail_tab_one">جزئیات</string>
-    <string name="app_detail_tab_two">بحث‌ها</string>
+    <string name="app_detail_tab_two">پست‌ها</string>
     <string name="app_detail_tab_three">مربوط</string>
 
     <string name="reply">پاسخ</string>
@@ -397,7 +397,7 @@
 
     <string name="recommend">پیشنهاد‌ها</string>
     <string name="reply_dialog_marked_words">با توجه به تصویر می تواند حذف شود.</string>
-    <string name="save_original_image">نگه‌داشتن تصویر اصلی</string>
+    <string name="save_original_image">ذخیره</string>
     <string name="login_select_way_to_login">لطفا یکی از راه‌ها را برای وارد شدن انتخاب کنید</string>
 
     <string name="app_detail_comment_order_array_default">مرتب‌سازی به‌صورت پیش‌فرض</string>
@@ -481,7 +481,7 @@
 
     <string name="main_comment">نظر</string>
     <string name="main_won_praise">پسندیده</string>
-    <string name="main_my_comments">بحث‌ها</string>
+    <string name="main_my_comments">پست‌ها</string>
     <string name="main_my_collection">علاقمندی‌ها</string>
     <string name="main_my_message">پیام‌ها</string>
     <string name="main_good_comments">رای‌موافق داده شد</string>
@@ -492,7 +492,7 @@
     <string name="follow_on_success">موفقیت آمیز!</string>
     <string name="canceled">لغو شد</string>
     <string name="group">گروه</string>
-    <string name="collection">مجموعه</string>
+    <string name="collection">علاقمندی‌ها</string>
 
     <string name="comments">بحث‌ها</string>
     <string name="attention_off">دنبال کنید</string>
@@ -514,7 +514,7 @@
     <string name="save_as_favorite">ذخیره به عنوان علاقمندی</string>
     <string name="favorite_saved">به عنوان علاقمندی ذخیره شد</string>
     <string name="failed_to_save_favorite">این مورد برای علاقمندی ذخیره نشد</string>
-    <string name="collection_comment">بحث‌ها</string>
+    <string name="collection_comment">پست‌ها</string>
     <string name="collection_app">برنامه‌ها</string>
 
     <string name="open_with_browser">باز کردن با مرورگر</string>
@@ -566,7 +566,7 @@
     <string name="user_detail_focus">دنبال می‌کنید</string>
     <string name="user_detail_fans">دنبال کننده</string>
     <string name="user_detail_praise">پسندیده‌ها</string>
-    <string name="user_detail_tab_detail">بحث‌ها</string>
+    <string name="user_detail_tab_detail">پست‌ها</string>
     <string name="user_detail_tab_reply">پاسخ‌ها</string>
 
     <string name="user_focus_tab_apps">گروه‌ها</string>
@@ -582,7 +582,7 @@
 
     <string name="menu_follow_user_tab">دوستان</string>
     <string name="choose_app">انتخاب برنامه</string>
-    <string name="publish_comment">ارسال نظر</string>
+    <string name="publish_comment">اشتراک گذاری پست‌</string>
 
     <string name="user_focus_tab_users">دوستان</string>
     <string name="history_version">تاریخچه نسخه</string>
@@ -617,7 +617,7 @@
     <string name="add">اضافه کردن</string>
 
     <string name="hot_tag">برچسب‌های داغ</string>
-    <string name="common_use">برچسب‌های محبوب</string>
+    <string name="common_use">برچسب‌های من</string>
     <string name="app_add_tag">یک برچسب جدید اضافه کنید</string>
     <string name="recommend_not_fount_info">به APKPure اطلاع دهید که \"%s\" را اضافه کند، شما باید فرم‌ها را تکمیل نمائید.</string>
     <string name="app_detail_has_product">اقلام خریدنی</string>
@@ -625,7 +625,7 @@
     <string name="app_add_tag_hint_caution">برچسب‌های هر برنامه بیشتر از %s نباشد.</string>
     <string name="load_failed_error_not_found">برنامه در اپ استور APKPure فهرست نشده است!</string>
     <string name="beta">آزمایشی</string>
-    <string name="user_info_edit_intro_tv">درباره من:</string>
+    <string name="user_info_edit_intro_tv">درباره من</string>
     <string name="update_intro_title">ویرایش درباره من</string>
     <string name="update_intro_et">در مورد خود بنویسید</string>
     <string name="update_intro_tv">فیلد درباره من نمی‌توان خالی باشد</string>
@@ -642,20 +642,30 @@
 
     <string name="share_apk">ای‌پی‌کا را به اشتراک بگذارید</string>
     <string name="tab_apk">ای‌پی‌کا</string>
-    <string name="commentaries">نظرات</string>
+    <string name="commentaries">اشتراک گذاری پست</string>
 
     <string name="upload_apk_version">نسخه %s</string>
     <string name="upload_apk_downloads">دانلودها:%s</string>
 
-    <string name="upload_comment_uploading">%s در حال آپلود می‌باشد…</string>
-    <string name="upload_comment_upload_success">%s با موفقیت ارسال شد</string>
-    <string name="upload_comment_upload_failed">%s شکست خورده است</string>
-    <string name="upload_comment_view">برای مشاهده کلیک کنید</string>
-    <string name="upload_comment_reload">دوباره کلیک کنید</string>
+    <string name="upload_comment_uploading">%s در حال آپلود…</string>
+    <string name="upload_comment_upload_success">%s با موفقیت آپلود شد</string>
+    <string name="upload_comment_upload_failed">%s آپلود نشد</string>
+    <string name="upload_comment_view">برای مشاهده ضربه بزنید</string>
+    <string name="upload_comment_reload">برای آپلود دوباره ضربه بزنید</string>
     <string name="upload_notification_pause">مکث</string>
     <string name="upload_notification_start">شروع</string>
     <string name="upload_notification_cancel">انصراف</string>
-    <string name="upload_notification_is_uploading">در حال آپلود</string>
+    <string name="upload_notification_is_uploading">در حال آپلود پکیج به APKPure…</string>
     <string name="upload_notification_is_pause">آپلود مکث شد</string>
-    <string name="upload_add_list_toast">نظر شما در صف است!</string>
+    <string name="upload_add_list_toast">موفقیت آمیز!</string>
+<string name="hot_tag_explain">(اضافه کردن یا رای دادن به تگ‌های موجود برای این برنامه)</string>
+    <string name="upload_add_file_list_toast">در حال آپلود برنامه لطفا صبور باشید، متشکریم!</string>
+
+    <string name="your_reply_comment">پاسخ شما</string>
+
+    <string name="market_ad_title">بازار</string>
+    <string name="market_ad_tab_one">ویژه</string>
+    <string name="market_ad_tab_two">بازی‌ها</string>
+    <string name="market_ad_tab_three">ابزارها</string>
+    <string name="tag">برچسب</string>
 </resources>

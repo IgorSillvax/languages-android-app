@@ -210,7 +210,7 @@
     <string name="search">ស្វែងរក</string>
     <string name="search_for_apps">ស្វែងរក សម្រាប់កម្មវិធី</string>
     <string name="search_history">ប្រវត្តិ</string>
-    <string name="clear_search_history">ជម្រះប្រវត្តិ</string>
+    <string name="clear_search_history">ជម្រះប្រវត្តិទាំងអស់</string>
 
     <string name="participate_ultra_download_beta_test_title">បើក​Ultra Download ដើម្បីទទួលបានល្បឿនទាញយកលឿនបំផុត</string>
     <string name="_name__version_history">ប្រវត្តិនៃជំនាន់របស់<xliff:g example="APKPure" id="name">%1$s</xliff:g></string>
@@ -260,7 +260,7 @@
     <string name="app_submit_reply_to">ឆ្លើយតបទៅ</string>
 
     <string name="app_detail_tab_one">លម្អិត</string>
-    <string name="app_detail_tab_two">ការបញ្ចេញមតិ</string>
+    <string name="app_detail_tab_two">ប្រកាស​</string>
     <string name="app_detail_tab_three">ដែលទាក់ទង</string>
 
     <string name="app_detail_comment_order_array_default">តម្រៀបតាមលំនាំដើម</string>
@@ -330,7 +330,7 @@
 	<item quantity="other">មើល <xliff:g example="1" id="count">%1$d</xliff:g> ឆ្លើយតបទាំងអស់</item>
 </plurals>
 
-    <string name="app_detail_customer_reviews">ការបញ្ចេញមតិ</string>
+    <string name="app_detail_customer_reviews">មតិ</string>
     <string name="extracting_apk">កំពុងស្រាយកញ្ចប់ឯកសារ APK…</string>
     <string name="external_storage_not_usable">
  <big><b>ពួកយើងត្រូវការចូលដំណើរការឃ្លាំងផ្ទុកខាងក្រៅ។ សូមប្រាកដថាវាអាចប្រើការបាន។</b></big>
@@ -474,7 +474,7 @@
 
     <string name="main_comment">មតិ</string>
     <string name="main_won_praise">ពេញចិត្ត</string>
-    <string name="main_my_comments">ការពិភាក្សា</string>
+    <string name="main_my_comments">ប្រកាស​</string>
     <string name="main_my_collection">ចំណូលចិត្ត</string>
     <string name="main_my_message">សារ</string>
     <string name="main_good_comments">បោះឆ្នាតឡើង</string>
@@ -487,7 +487,7 @@
     <string name="follow_un_success">មិនតាមដាន!</string>
     <string name="canceled">បោះបង់</string>
     <string name="group">ក្រុម</string>
-    <string name="collection">ជម្រើសពិសេសៗ</string>
+    <string name="collection">ចំណូលចិត្ត​</string>
 
     <string name="comments">ការពិភាក្សា</string>
     <string name="follow">កំពុងតាមដាន</string>
@@ -508,7 +508,7 @@
     <string name="favorite_saved">ចំណូលចិត្តបានរក្សាទុក</string>
     <string name="failed_to_save_favorite">បរាជ័យក្នុងរក្សាទុកចំណូលចិត្ត</string>
     <string name="remove_as_favorite">ដកចេញពីចំណួលចិត្ត</string>
-    <string name="collection_comment">ការពិភាក្សា</string>
+    <string name="collection_comment">ប្រកាស​</string>
     <string name="collection_app">កម្មវិធី</string>
 
     <string name="web_view_refresh">ធ្វើឲ្យស្រស់</string>
@@ -552,7 +552,7 @@
     <string name="invalid_app_asset">ព័ត៌មានធនធានកម្មវិធីមិនត្រឹមត្រូវឡើយ។</string>
     <string name="failed_to_request_app_asset">បរាជ័យក្នុងការស្នើសុំព័ត៌មានធនធានកម្មវិធី។</string>
     <string name="reply_dialog_marked_words">ចុចលើរូបភាពដែលជ្រើសយកឲ្យយួរ ដើម្បីលុបវា។</string>
-    <string name="save_original_image">រក្សាទុករូបភាពដើមដដែរ</string>
+    <string name="save_original_image">រក្សាទុក</string>
     <string name="recommend_comment_error">កំហុសបានកើតឡើង!</string>
     <string name="recommend_write_des_hint">ការពិនិត្យឡើងវិញមានប្រយោជន៍នឹងត្រូវបានមើលឃើញដោយអ្នកប្រើប្រាស់ផ្សេងទៀតដែលមានចំណាប់អារម្មណ៍ដូចអ្នក។</string>
     <string name="recommend_description">1. ការណែនាំដែលបានអនុម័ត នឹងត្រូវស្ថិតនៅក្រោមផ្នែក DISCOVER។
@@ -562,7 +562,7 @@
     <string name="user_detail_focus">កំពុងតាមដាន</string>
     <string name="user_detail_fans">អ្នកតាមដាន</string>
     <string name="user_detail_praise">ចូលចិត្ត</string>
-    <string name="user_detail_tab_detail">មតិ</string>
+    <string name="user_detail_tab_detail">ប្រកាស​</string>
     <string name="user_detail_tab_reply">ការឆ្លើយតប</string>
 
     <string name="user_focus_tab_users">មនុស្ស</string>
@@ -590,7 +590,7 @@
     <string name="menu_follow_all">កំពុងតាមដានទាំងអស់</string>
     <string name="user_focus_title_my">ការតាមដានរបស់ខ្ញុំ</string>
     <string name="choose_app">ជ្រើសយកកម្មវិធី</string>
-    <string name="publish_comment">ប្រកាសមតិ</string>
+    <string name="publish_comment">ចែករំលែក​ប្រកាស​</string>
 
 <string name="download_mkdir">ផ្លូវកាត់ការទាញយក</string>
     <string name="history_version">ប្រវត្ដិនៃជំនាន់</string>
@@ -614,12 +614,12 @@
 
     <string name="app_detail_has_product">ការទិញធាតុ</string>
     <string name="app_detail_no_product">មិនមានការទិញធាតុទេ</string>
-    <string name="app_detail_has_ad">ពាណិជ្ជកម្ម</string>
+    <string name="app_detail_has_ad">ផ្ទុកពាណិជ្ជកម្ម</string>
     <string name="app_detail_no_ad">គ្មានពាណិជ្ជកម្ម</string>
 
     <string name="tag_list">បញ្ជីស្លាក</string>
     <string name="hot_tag">ស្លាកនិយមថ្មីៗ</string>
-    <string name="common_use">ស្លាកពេញនិយម</string>
+    <string name="common_use">ស្លាក​របស់​ខ្ញុំ​</string>
     <string name="app_add_tag_hint_caution">មិនលើសពីស្លាក %s សម្រាប់កម្មវិធីនីមួយៗ។</string>
     <string name="app_add_tag">បន្ថែមស្លាកថ្មី</string>
     <string name="toast_app_tag_exist">ស្លាកមានរួចហើយ!</string>

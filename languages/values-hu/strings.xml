@@ -16,7 +16,7 @@
     <string name="something_happened">&gt;_&lt;Hiba történt.</string>
 
     <string name="load_failed_error">Hoppsz! Hiba történt.</string>
-    <string name="load_failed_empty">Itt nincs semmi.</string>
+    <string name="load_failed_empty">Itt nincs tartalom.</string>
     <string name="load_failed_all_up_to_date">Az összes alkalmazás naprakész.</string>
     <string name="load_failed_no_results">Sajnáljuk! Nincs találat.</string>
     <string name="refresh">Frissítés</string>
@@ -25,7 +25,7 @@
     <string name="app_updates">Alkalmazás frissítések</string>
     <string name="app_management">Telepített</string>
     <string name="app_uninstall">Alkalmazás eltávolítása</string>
-    <string name="apk_management">APK-kezelés</string>
+    <string name="apk_management">APK kezelés</string>
     <string name="apk_xapk_management">APK / XAPK-kezelés</string>
     <string name="download_management">Letöltéskezelés</string>
     <string name="settings">Beállítások</string>
@@ -266,7 +266,7 @@
         <item quantity="other">A(z) <xliff:g example="2" id="count">%1$d</xliff:g> válasz mindegyikének megtekintése</item>
     </plurals>
 
-    <string name="app_detail_customer_reviews">Vitafórumok</string>
+    <string name="app_detail_customer_reviews">Hozzászólások</string>
     <string name="app_detail_comment_type_web">web</string>
     <string name="app_submit_submit">Küldés…</string>
     <string name="app_submit_anonymous_comment">Hozzászólás</string>
@@ -282,7 +282,7 @@
     <string name="app_submit_reply_to">Válasz</string>
 
     <string name="app_detail_tab_one">Részletek</string>
-    <string name="app_detail_tab_two">Vitafórumok</string>
+    <string name="app_detail_tab_two">Hozzászólások</string>
     <string name="app_detail_tab_three">Kapcsolódó</string>
 
     <string name="reply">Válasz</string>
@@ -314,7 +314,7 @@
 
     <string name="reply_dialog_marked_words">Nyomja meg hosszan a kiválasztott képet a törléshez.</string>
     <string name="reply_comment">Válasz a hozzászólásra</string>
-    <string name="save_original_image">Az eredeti kép megőrzése</string>
+    <string name="save_original_image">Mentés</string>
     <string name="already_save"><xliff:g example="ApKPure/photo" id="path">%1$s</xliff:g> mentve</string>
 
     <string name="tip_permission_camera_storage">Nincs engedélye a kamera és SD-kártya használatára. Nyissa meg a jogkezelési szolgáltatást</string>
@@ -483,7 +483,7 @@
 
     <string name="main_comment">hozzászólás</string>
     <string name="main_won_praise">Kedvelés</string>
-    <string name="main_my_comments">Vitafórumok</string>
+    <string name="main_my_comments">Hozzászólások</string>
     <string name="main_my_collection">Kedvencek</string>
     <string name="main_my_message">Üzenetek</string>
     <string name="main_good_comments">Pozitív szavazatok</string>
@@ -496,7 +496,7 @@
     <string name="follow_un_success">Leiratkozás!</string>
     <string name="canceled">Megszakítva</string>
     <string name="group">Csoport</string>
-    <string name="collection">Gyűjtemény</string>
+    <string name="collection">Kedvencek</string>
 
     <string name="comments">Vitafórumok</string>
     <string name="follow">Követés</string>
@@ -521,7 +521,7 @@
     <string name="remove_as_favorite">Eltávolítás kedvencként</string>
     <string name="remove_failed">Az eltávolítás sikertelen</string>
 
-    <string name="collection_comment">Vitafórumok</string>
+    <string name="collection_comment">Hozzászólások</string>
     <string name="collection_app">ALKALMAZÁSOK</string>
 
     <string name="open_with_browser">Megnyitás a böngészővel</string>
@@ -573,7 +573,7 @@
     <string name="user_detail_focus">Követés</string>
     <string name="user_detail_fans">Követő</string>
     <string name="user_detail_praise">Kedvelés</string>
-    <string name="user_detail_tab_detail">Vitafórumok</string>
+    <string name="user_detail_tab_detail">Hozzászólások</string>
     <string name="user_detail_tab_reply">Válaszok</string>
 
     <string name="user_focus_tab_users">Személyek</string>
@@ -611,7 +611,7 @@
 
     <string name="tag_list">Címkék listája</string>
     <string name="hot_tag">Friss címkék</string>
-    <string name="common_use">Népszerű címkék</string>
+    <string name="common_use">Címkéim</string>
     <string name="app_add_tag">Új címke hozzáadása</string>
     <string name="toast_app_tag_exist">A címke már létezik!</string>
     <string name="there_is_no_label">Nincsenek címkék.</string>
@@ -627,8 +627,8 @@
     <string name="app_detail_has_product">Vásárlási elemek</string>
     <string name="load_failed_error_not_found">Az alkalmazás nem szerepel az APKPure áruházban!</string>
     <string name="beta">Béta</string>
-    <string name="user_info_edit_intro_tv">Rólam:</string>
-    <string name="upload_add_list_toast">Hozzászólása várólistán van!</string>
+    <string name="user_info_edit_intro_tv">Rólam</string>
+    <string name="upload_add_list_toast">Sikeres!</string>
     <string name="update_intro_et">Írjon néhány részletet magáról</string>
     <string name="update_intro_tv">A rólam mező nem lehet üres</string>
 
@@ -644,20 +644,30 @@
 
     <string name="share_apk">APK megosztása</string>
     <string name="tab_apk">APK</string>
-    <string name="commentaries">Hozzáfűzések</string>
+    <string name="commentaries">Hozzászólás küldése</string>
 
     <string name="upload_apk_version">v%s</string>
     <string name="upload_apk_downloads">Letöltések:%s</string>
 
     <string name="upload_comment_uploading">%s feltöltése…</string>
-    <string name="upload_comment_upload_success">%s sikeres</string>
-    <string name="upload_comment_upload_failed">%s sikertelen</string>
-    <string name="upload_comment_view">Kattintson a megtekintéshez</string>
-    <string name="upload_comment_reload">Kattintson az újratöltéshez</string>
+    <string name="upload_comment_upload_success">%s feltöltése sikeres</string>
+    <string name="upload_comment_upload_failed">%s feltöltése sikertelen</string>
+    <string name="upload_comment_view">Koppintson a megtekintéshez</string>
+    <string name="upload_comment_reload">Érintse meg a feltöltés megismétléséhez</string>
     <string name="upload_notification_pause">Szünet</string>
     <string name="upload_notification_start">Indítás</string>
     <string name="upload_notification_cancel">Mégse</string>
-    <string name="upload_notification_is_uploading">Feltöltés</string>
+    <string name="upload_notification_is_uploading">Csomag feltöltése az APKPure-ra…</string>
     <string name="upload_notification_is_pause">A feltöltés szünetel</string>
     <string name="update_intro_title">Rólam mező szerkesztése</string>
-</resources>
+<string name="upload_add_file_list_toast">Alkalmazás feltöltése. Kérjük, legyen türelemmel, köszönjük!</string>
+
+    <string name="your_reply_comment">Az Ön válasza</string>
+
+    <string name="market_ad_title">Áruház</string>
+    <string name="market_ad_tab_one">Kiemelt</string>
+    <string name="market_ad_tab_two">Játékok</string>
+    <string name="market_ad_tab_three">Eszközök</string>
+    <string name="tag">Címke</string>
+<string name="hot_tag_explain">(Adjon hozzá vagy szavazzon a meglévő címkékre ennél az alkalmazásnál)</string>
+    </resources>

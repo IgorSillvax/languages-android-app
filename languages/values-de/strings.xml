@@ -293,7 +293,7 @@ Die genannten Funktionen werden ab Android 4.1 unterstützt, es ist kein Root-Zu
     <string name="app_submit_reply_to">Antwort an</string>
 
     <string name="app_detail_tab_one">Details</string>
-    <string name="app_detail_tab_two">Kommentare</string>
+    <string name="app_detail_tab_two">Posts</string>
     <string name="app_detail_tab_three">Ähnlich</string>
 
     <string name="app_detail_comment_order_array_default">Standardsortierung</string>
@@ -307,7 +307,7 @@ Die genannten Funktionen werden ab Android 4.1 unterstützt, es ist kein Root-Zu
     <string name="reply">Antworten</string>
     <string name="reply_dialog_marked_words">Lange auf ein gewähltes Bild tippen, um es zu löschen.</string>
     <string name="reply_comment">Auf Kommentar antworten</string>
-    <string name="save_original_image">Originalbild behalten</string>
+    <string name="save_original_image">Speichern</string>
     <string name="load_end">Keine weiteren Daten</string>
     <string name="load_failed_click_retry">Ladefehler, \"Erneut versuchen\" wählen</string>
     <string name="loading">Lädt…</string>
@@ -326,7 +326,7 @@ Die genannten Funktionen werden ab Android 4.1 unterstützt, es ist kein Root-Zu
     <string name="user_info_edit_title">Profil</string>
     <string name="user_info_edit_portrait_tv">Profilbild</string>
     <string name="app_submit_star_toast">Gib eine Bewertung an!</string>
-    <string name="share_app_url_comment"> <xliff:g example="APKPure" id="user_name">%1$s</xliff:g>\'s kommentiert <xliff:g example="APKPure" id="app_name">%2$s</xliff:g> (von @<xliff:g example="APKPure" id="social_network_name">%3$s</xliff:g>), <xliff:g example="https://apkpure.com/p/com.apkpure.aegon" id="app_url">%4$s</xliff:g></string>
+    <string name="share_app_url_comment"> <xliff:g example="APKPure" id="user_name">%1$s</xliff:g>\'s kommentiert <xliff:g example="APKPure" id="app_name">%2$s</xliff:g> (von @<xliff:g example="APKPure" id="Soziale_Netzwerke">%3$s</xliff:g>), <xliff:g example="https://apkpure.com/p/com.apkpure.aegon" id="app_url">%4$s</xliff:g></string>
 
     <string name="input_reply_content">Inhalt der Antwort:</string>
     <string name="already_save"><xliff:g example="ApKPure/photo" id="path">%1$s</xliff:g> gespeichert</string>
@@ -483,7 +483,7 @@ erlaubt werden.</string>
     <string name="main_tab_my">ICH</string>
 
     <string name="main_won_praise">Likes</string>
-    <string name="main_my_comments">Diskussionen</string>
+    <string name="main_my_comments">Posts</string>
     <string name="main_my_collection">Favoriten</string>
     <string name="main_my_message">Nachrichten</string>
     <string name="main_good_comments">Positiv bewertet</string>
@@ -496,7 +496,7 @@ erlaubt werden.</string>
     <string name="follow_un_success">Entfolgen!</string>
     <string name="canceled">Abgebrochen</string>
     <string name="group">Gruppe</string>
-    <string name="collection">Sammlung</string>
+    <string name="collection">Favoriten</string>
 
     <string name="comments">Kommentare</string>
     <string name="follow">Folgend</string>
@@ -521,7 +521,7 @@ erlaubt werden.</string>
     <string name="remove_as_favorite">Als Favorit entfernen</string>
     <string name="remove_failed">Entfernen fehlgeschlagen</string>
 
-    <string name="collection_comment">Kommentare</string>
+    <string name="collection_comment">Posts</string>
     <string name="collection_app">APPS</string>
 
     <string name="open_with_browser">Mit Browser öffnen</string>
@@ -583,7 +583,7 @@ erlaubt werden.</string>
 
     <string name="user_info_edit_large_photo">Foto größer anzeigen</string>
 
-    <string name="user_info_edit_intro_tv">Über mich:</string>
+    <string name="user_info_edit_intro_tv">Über mich</string>
     <string name="update_intro_title">\"Über mich\" ändern</string>
     <string name="update_intro_et">Schreibe etwas über dich</string>
     <string name="update_intro_tv">\"Über mich\"-Feld darf nicht leer sein</string>
@@ -598,9 +598,9 @@ erlaubt werden.</string>
     <string name="recommend_user_recommend_sys">Vorgestellt von APKPure</string>
 
     <string name="user_detail_focus">Folgend</string>
-    <string name="user_detail_fans">Fans</string>
+    <string name="user_detail_fans">Abonnenten</string>
     <string name="user_detail_praise">Likes</string>
-    <string name="user_detail_tab_detail">Kommentare</string>
+    <string name="user_detail_tab_detail">Beiträge</string>
     <string name="user_detail_tab_reply">Antworten</string>
 
     <string name="user_focus_tab_users">Menschen</string>
@@ -618,7 +618,7 @@ erlaubt werden.</string>
     <string name="menu_follow_group_tab">Gruppen</string>
 
     <string name="choose_app">Anwendung auswählen</string>
-    <string name="publish_comment">Einen Kommentar posten</string>
+    <string name="publish_comment">Teile einen Kommentar</string>
 
     <string name="app_detail_has_product">Kostenpflichtige Objekte</string>
     <string name="app_detail_no_product">Keine kostenpflichtigen Objekte</string>
@@ -663,4 +663,6 @@ erlaubt werden.</string>
     <string name="download_mkdir_internal_storage_values">internal_storage</string>
     <string name="download_mkdir_external_storage_values">external_storage</string>
 
-</resources>
+<string name="share_app_url_group"> <xliff:g example="APKPure" id="app_name">%1$s</xliff:g> Group. (from @<xliff:g example="APKPure" id="social_network_name">%2$s</xliff:g>), <xliff:g example="https://apkpure.com/p/com.apkpure.aegon" id="app_url">%3$s</xliff:g> Gruppe</string>
+
+    </resources>
