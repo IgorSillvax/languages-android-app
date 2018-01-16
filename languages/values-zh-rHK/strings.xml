@@ -407,6 +407,8 @@
     <string name="message_notifications_praise">贊了你</string>
     <string name="message_notifications_reply">回復了你</string>
     <string name="message_notifications_login">請登錄後查看</string>
+    <string name="message_at_title">\@我的</string>
+    <string name="message_at">\@了你</string>
 
     <!--crop image-->
     <string name="crop__cancel" ignore="ButtonCase">取消</string>
@@ -417,6 +419,7 @@
 
     <string name="set_contributor">貢獻者</string>
     <string name="set_permissions">權限說明</string>
+    <string name="set_open_source_licence">開放源代碼許可</string>
 
     <string name="sign_in_services">點擊註冊即代表同意我們的服務條款和隱私政策。</string>
     <string name="sign_in_services_key">服務條款</string>
@@ -449,6 +452,7 @@
     <string name="push_title_info_follow">%s 關注了你!</string>
     <string name="push_title_info_update">APKPure 有新版本了!</string>
     <string name="push_content_info_update">最新版本 %s ! 點擊更新</string>
+    <string name="push_title_info_at">有人提到了你，點擊查看</string>
 
     <string name="download_list">下載列表</string>
     <string name="can_be_update">可更新</string>
@@ -518,6 +522,7 @@
     <string name="canceled">已取消</string>
     <string name="group">論壇</string>
     <string name="collection">收藏</string>
+    <string name="cancel_collection">取消收藏</string>
 
     <string name="comments">評論</string>
     <string name="follow">關注</string>
@@ -532,6 +537,8 @@
     <string name="ranking_tab2_title">新品遊戲</string>
     <string name="ranking_tab3_title">熱門應用</string>
     <string name="ranking_tab4_title">新品應用</string>
+    <string name="ranking_top_countries_title">分區排行</string>
+    <string name="ranking_top_develop_title">熱門開發者</string>
 
     <string name="app_detail_three_fragment_foot">查看全部評論</string>
     <string name="menu_paste">粘貼</string>
@@ -593,7 +600,7 @@
     <string name="user_focus_title">他的關注</string>
 
     <string name="goto_google_play">購買</string>
-
+    <string name="google_play_bug_text">Google Play內購買</string>
     <string name="menu_follow_all">全部關注</string>
     <string name="menu_follow_user">關注的用戶</string>
     <string name="menu_follow_group">關注的小組</string>
@@ -631,7 +638,7 @@
     <string name="tab_apk">APK文件</string>
     <string name="commentaries">評論</string>
 
-    <string name="upload_apk_downloads">下載數:%s</string>
+    <string name="upload_apk_downloads">下載數: %s</string>
 
     <string name="upload_comment_uploading">%s上傳中…</string>
     <string name="upload_comment_upload_success">%s上傳成功</string>
@@ -647,5 +654,29 @@
     <string name="upload_add_file_list_toast">感謝提交，應用上傳中請稍後！</string>
 
     <string name="your_reply_comment">你的回復</string>
+
+    <string name="market_ad_title">市場</string>
+    <string name="market_ad_tab_one">推薦</string>
+    <string name="market_ad_tab_two">遊戲</string>
+    <string name="market_ad_tab_three">工具</string>
+
     <string name="tag">標籤</string>
+
+    <string name="search_tab_name_one">應用</string>
+    <string name="search_tab_name_two">用戶</string>
+    <!--pre_register-->
+    <string name="pre_register_bt">預約</string>
+    <string name="pre_register_now_bt">立即預約</string>
+    <string name="pre_registered_bt">已預約</string>
+    <string name="pre_register_link_title">預註冊地址</string>
+    <string name="pre_register_gift_tv">預註冊獎勵</string>
+    <string name="pre_register_person_num_tv">%人已預約</string>
+    <string name="pre_register_success">如果您進行了預約，那麼當應用發佈時，您將收到一條通知。</string>
+
+
+    <string name="open_page_failed">打開頁面失敗!</string>
+
+    <string name="search_for_user">搜索</string>
+    <string name="search_user_history_title">最近聯繫人</string>
+    <string name="search_focus_list_title">已關注</string>
 </resources>

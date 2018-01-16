@@ -1,5 +1,6 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<?xml version="1.0" encoding="utf-8"?>
+<resources
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
     <string name="action_settings">设置</string>
     <string name="action_search">搜索</string>
@@ -10,18 +11,17 @@
     <string name="featured">精选</string>
     <string name="games">游戏</string>
     <string name="apps">应用</string>
-    <string name="categories">类别</string>
-    <string name="recommend">发现</string>
+    <string name="categories">分类</string>
+    <string name="recommend">最新发现</string>
     <string name="updates">更新</string>
 
-    <string name="something_happened">&gt;_&lt;
-出问题了。</string>
+    <string name="something_happened">&gt;_&lt;\n出错了</string>
 
-    <string name="load_failed_error">哎呀！出错了。</string>
-    <string name="load_failed_error_not_found">APKPure 应用商店尚未收录该应用!</string>
-    <string name="load_failed_empty">这里没啥好留恋的。</string>
-    <string name="load_failed_all_up_to_date">所有应用已更新到最新版。</string>
-    <string name="load_failed_no_results">抱歉! 找不到任何结果。</string>
+    <string name="load_failed_error">哎呀！发生错误了</string>
+    <string name="load_failed_error_not_found">该应用未收录！</string>
+    <string name="load_failed_empty">无内容</string>
+    <string name="load_failed_all_up_to_date">所有应用程序已是最新</string>
+    <string name="load_failed_no_results">抱歉！未找到结果</string>
     <string name="refresh">刷新</string>
 
     <string name="management">管理</string>
@@ -329,7 +329,7 @@
 
     <string name="load_end">没有更多数据</string>
     <string name="load_failed_click_retry">加载失败，点击重试</string>
-    <string name="loading">正在加载…</string>
+    <string name="loading">正在加载&#8230;</string>
 
     <string name="scan_qr_code_hint">使用此功能前，您必须同意打开相机的权限</string>
     <string name="zxing_msg_default_status">请将二维码置于取景框内扫描</string>
@@ -349,10 +349,10 @@
     <string name="delete_comment_msg">你想要删除这条评论吗?</string>
     <string name="login_select_way_to_login">请选择登录方式</string>
     <string name="upload_cancel">上传已取消</string>
-    <string name="is_comment">正在发表评论…</string>
+    <string name="is_comment">正在发表评论&#8230;</string>
     <string name="comment_cancel">评论已取消</string>
-    <string name="comment_submitting">提交中…</string>
-    <string name="comment_replying">回复中…</string>
+    <string name="comment_submitting">提交中&#8230;</string>
+    <string name="comment_replying">回复中&#8230;</string>
 
     <!--update password-->
     <string name="update_pwd_title">修改密码</string>
@@ -367,7 +367,7 @@
 
     <!-- UserInfoEdit -->
     <string name="user_info_edit_title">个人信息</string>
-    <string name="upload_avatar">正在上传…</string>
+    <string name="upload_avatar">正在上传&#8230;</string>
     <string name="user_info_edit_portrait_tv">头像</string>
     <string name="user_info_edit_username_tv">用户名</string>
     <string name="user_info_edit_nickname_tv">昵称</string>
@@ -413,9 +413,12 @@
     <string name="message_notifications_praise">赞了你</string>
     <string name="message_notifications_reply">回复了你</string>
     <string name="message_notifications_login">请登录后查看</string>
+    <string name="message_at_title">\@我的</string>
+    <string name="message_at">\@了你</string>
 
     <string name="set_contributor">贡献者</string>
     <string name="set_permissions">权限说明</string>
+    <string name="set_open_source_licence">开放源代码许可</string>
 
     <string name="sign_in_services">点击注册即代表同意我们的服务条款和隐私政策。</string>
     <string name="sign_in_services_key">服务条款</string>
@@ -448,6 +451,7 @@
     <string name="push_title_info_follow">%s 关注了你!</string>
     <string name="push_title_info_update">APKPure 有新版本了!</string>
     <string name="push_content_info_update">最新版本 %s ! 點擊更新</string>
+    <string name="push_title_info_at">有人提到了你，点击查看</string>
 
     <string name="download_list">下载列表</string>
     <string name="can_be_update">可更新</string>
@@ -481,7 +485,7 @@
     <string name="set_updates_notification">应用有新版本</string>
     <string name="set_updates_notification_msg">应用有新版本时通知我，建议开启。</string>
     <string name="app_detail_unknow_text">版本过低，不支持该板块，请升级后查看。</string>
-    <string name="comment_detail_original">查看原评论 &gt;</string>
+    <string name="comment_detail_original">查看原评论 ></string>
     <string name="comment_comment_newest">最新</string>
     <string name="comment_comment_oldest">最早</string>
 
@@ -520,6 +524,7 @@
     <string name="canceled">已取消</string>
     <string name="group">论坛</string>
     <string name="collection">收藏</string>
+    <string name="cancel_collection">取消收藏</string>
 
     <string name="comments">评论</string>
     <string name="follow">关注</string>
@@ -534,6 +539,8 @@
     <string name="ranking_tab2_title">新品游戏</string>
     <string name="ranking_tab3_title">热门应用</string>
     <string name="ranking_tab4_title">新品应用</string>
+    <string name="ranking_top_countries_title">分区排行</string>
+    <string name="ranking_top_develop_title">热门开发者</string>
 
     <string name="app_detail_three_fragment_foot">查看全部评论</string>
     <string name="menu_paste">粘贴</string>
@@ -595,6 +602,7 @@
     <string name="user_focus_title">他的关注</string>
 
     <string name="goto_google_play">购买</string>
+    <string name="google_play_bug_text">Google Play内购买</string>
 
     <string name="menu_follow_all">全部关注</string>
     <string name="menu_follow_user">关注的用户</string>
@@ -625,14 +633,14 @@
     <string name="Istop">置顶</string>
     <string name="add_tag">添加标签</string>
     <string name="error_add_tag">标签添加失败</string>
-    <string name="no_collect">收藏夹里什么都没有…</string>
+    <string name="no_collect">收藏夹里什么都没有&#8230;</string>
     <string name="no_comment">暂无评论，快来抢沙发!</string>
 
     <string name="share_apk">分享APK</string>
     <string name="tab_apk">APK文件</string>
     <string name="commentaries">评论</string>
 
-    <string name="upload_apk_downloads">下载数:%s</string>
+    <string name="upload_apk_downloads">下载数: %s</string>
 
     <string name="upload_comment_uploading">%s上传中…</string>
     <string name="upload_comment_upload_success">%s上传成功</string>
@@ -648,5 +656,28 @@
     <string name="upload_add_file_list_toast">感谢提交，应用上传中请稍后！</string>
 
     <string name="your_reply_comment">你的回复</string>
+
+    <string name="market_ad_title">市场</string>
+    <string name="market_ad_tab_one">推荐</string>
+    <string name="market_ad_tab_two">游戏</string>
+    <string name="market_ad_tab_three">工具</string>
+
     <string name="tag">标签</string>
+    <!--pre_register-->
+    <string name="pre_register_bt">预约</string>
+    <string name="pre_register_now_bt">立即预约</string>
+    <string name="pre_registered_bt">已预约</string>
+    <string name="pre_register_link_title">预注册地址</string>
+    <string name="pre_register_gift_tv">预注册奖励</string>
+    <string name="pre_register_person_num_tv">%s人已预约</string>
+    <string name="pre_register_success">如果您进行了预约，那么当应用发布时，您将收到一条通知。</string>
+
+    <string name="open_page_failed">打开页面失败!</string>
+
+    <string name="search_tab_name_one">应用</string>
+    <string name="search_tab_name_two">用户</string>
+
+    <string name="search_for_user">搜索</string>
+    <string name="search_user_history_title">最近联系人</string>
+    <string name="search_focus_list_title">已关注</string>
 </resources>

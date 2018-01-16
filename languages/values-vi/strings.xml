@@ -44,9 +44,7 @@
     <string name="want_to_delete_file">Bạn muốn xóa tệp này?</string>
     <string name="file_has_been_deleted">Tệp đã được xóa.</string>
     <string name="failed_to_delete_file">Xóa tệp đã thất bại.</string>
-    <string name="install__label_">Cài đặt -
-<xliff:g example="APKPure" id="app_label">
-%1$s</xliff:g></string>
+    <string name="install__label_">Cài đặt -<xliff:g example="APKPure" id="app_label">%1$s</xliff:g></string>
     <string name="user_canceled">Người dùng đã hủy.</string>
     <string name="io_error">Lỗi IO. Có thể không có đủ không gian trống để cài đặt thành công.</string>
     <string name="file_format_error">Định dạng tệp lỗi.</string>
@@ -98,15 +96,14 @@
     <string name="launching_please_wait">Đang chạy, xin chờ…</string>
 
     <plurals name="_count__item_is_downloading">
-	<item quantity="other">Đang tải xuống<xliff:g example="2" id="count"> %1$d</xliff:g> mục</item>
-</plurals>
+        <item quantity="other">Đang tải xuống<xliff:g example="2" id="count"> %1$d</xliff:g> mục</item>
+    </plurals>
     <string name="downloads_complete">Tải về hoàn tất</string>
     <string name="touch_for_view_all_downloads">Chạm để xem các mục tải về</string>
     <string name="_name__download_failed"><xliff:g example="APKPure" id="name">%1$s</xliff:g> tải về thất bại</string>
     <string name="touch_to_download_it_again">Chạm để tải lại</string>
 
-    <string name="download_percent"><xliff:g example="50" id="percent">
-%1$d</xliff:g> %%</string>
+    <string name="download_percent"><xliff:g example="50" id="percent">%1$d</xliff:g> %%</string>
     <string name="pause">Tạm dừng</string>
     <string name="continue_">Tiếp tục</string>
     <string name="restart">Tải lại</string>
@@ -129,9 +126,7 @@
     <string name="trending_searches">Xu hướng Tìm kiếm</string>
 
     <string name="improvement_plan_title">Kế hoạch Cải thiện hiệu suất</string>
-    <string name="improvement_plan_message">
- Hỗ trợ chúng tôi bằng cách gửi Thông tin Thiết bị Android của bạn, Chúng tôi <b> không thu thập</b> thông tin nhận dạng cá nhân (tên, địa chỉ, địa chỉ e-mail, số an sinh xã hội, hoặc các định dạng duy nhất khác).
- </string>
+    <string name="improvement_plan_message">Hỗ trợ chúng tôi bằng cách gửi Thông tin Thiết bị Android của bạn, Chúng tôi <b> không thu thập</b> thông tin nhận dạng cá nhân (tên, địa chỉ, địa chỉ e-mail, số an sinh xã hội, hoặc các định dạng duy nhất khác).</string>
     <string name="join_us">Tham gia với chúng tôi</string>
     <string name="skip">Bỏ qua</string>
 
@@ -144,11 +139,7 @@
     <string name="report__">Bài báo cáo…</string>
     <string name="report_problem__">Báo cáo Vấn đề…</string>
     <string name="report_problem_subject">Báo cáo vấn đề</string>
-    <string name="report_problem_text">Chủ đề của Vấn đề:
-%1$s
-
-Vấn đề chi tiết:
-%2$s</string>
+    <string name="report_problem_text">Chủ đề của Vấn đề:%1$sVấn đề chi tiết:%2$s</string>
 
     <string name="installation_failed">Cài đặt Thất bại</string>
     <string name="invalid_app_detail">Thông tin chi tiết ứng dụng không hợp lệ.</string>
@@ -174,18 +165,10 @@ Vấn đề chi tiết:
 
     <string name="share">Chia sẻ</string>
     <string name="share_app_url">Tải về<xliff:g example="APKPure" id="app_name">%1$s</xliff:g> APK (từ @
-<xliff:g example="APKPure" id="social_network_name">
-%2$s</xliff:g>),
-<xliff:g example="https://apkpure.com/p/com.apkpure.aegon" id="app_url">
-%3$s</xliff:g></string>
-
-    <string name="_name__version_history"><xliff:g example="APKPure" id="name">
-%1$s</xliff:g> Lịch sử phiên bản</string>
-    <string name="update__date___size_">Cập nhật:
-<xliff:g example="Mar 3, 2016" id="date">
-%1$s</xliff:g>,
-<xliff:g example="1024 kB" id="size">
-%2$s</xliff:g></string>
+        <xliff:g example="APKPure" id="social_network_name">%2$s</xliff:g>),
+        <xliff:g example="https://apkpure.com/p/com.apkpure.aegon" id="app_url">%3$s</xliff:g></string>
+    <string name="_name__version_history"><xliff:g example="APKPure" id="name">%1$s</xliff:g> Lịch sử phiên bản</string>
+    <string name="update__date___size_">Cập nhật:<xliff:g example="Mar 3, 2016" id="date">%1$s</xliff:g>,<xliff:g example="1024 kB" id="size">%2$s</xliff:g></string>
 
     <string name="general">Chung</string>
     <string name="language">Ngôn ngữ</string>
@@ -266,14 +249,11 @@ Vấn đề chi tiết:
 
     <string name="auto_service_title">APKPure Tự động cài đặt</string>
     <string name="auto_service_description">Kích hoạt \"APKPure Tự động cài đặt\", để giữ cho APKPure \"Tự động cài đặt\" hoạt động mượt mà hơn.
-
-\"APKPure Tự động cài đặt\" có thể giúp bạn nhấp vào nút tất cả các cài đặt khi cài đặt hoặc cập nhật các ứng dụng, bạn không cần phải kiểm tra điện thoại nữa.
-
-Khi kích hoạt tính năng này, bạn có thể nhận được hệ thống cảnh báo rủi ro, hãy nhấn \"OK\" để chuyển khoá sang \"BẬT\".
-
-Để đảm bảo APKPure hoạt động tốt, xin vui lòng thêm APKPure vào \"danh sách trắng\" Ứng dụng Dọn dẹp của bạn.
-
-Các chức năng trên đều hỗ trợ Android 4.1 trở lên, không bao gồm thiết bị đã root. Chúng tôi xin thề rằng không bao giờ thu thập bất kỳ thông tin cá nhân của bạn trong dịch vụ này. Xin vui lòng liên hệ với chúng tôi nếu gập bất kỳ vấn đề nào.</string>
+        \"APKPure Tự động cài đặt\" có thể giúp bạn nhấp vào nút tất cả các cài đặt khi cài đặt hoặc cập nhật các ứng dụng, bạn không cần phải kiểm tra điện thoại nữa.
+        Khi kích hoạt tính năng này, bạn có thể nhận được hệ thống cảnh báo rủi ro, hãy nhấn \"OK\" để chuyển khoá sang \"BẬT\".
+        Để đảm bảo APKPure hoạt động tốt, xin vui lòng thêm APKPure vào \"danh sách trắng\" Ứng dụng Dọn dẹp của bạn.
+        Các chức năng trên đều hỗ trợ Android 4.1 trở lên, không bao gồm thiết bị đã root. Chúng tôi xin thề rằng không bao giờ thu thập bất kỳ thông tin cá nhân của bạn trong dịch vụ này. Xin vui lòng liên hệ với chúng tôi nếu gập bất kỳ vấn đề nào.
+    </string>
 
     <string name="auto_service_install">Cài đặt</string>
     <string name="auto_service_ensure">Ok</string>
@@ -293,20 +273,13 @@ Các chức năng trên đều hỗ trợ Android 4.1 trở lên, không bao g�
     <string name="download_complete_installation_setting">Tùy chọn cài đặt sau khi tải</string>
     <string name="recommend">Khám Phá</string>
     <string name="report">Báo cáo</string>
-    <string name="share_app_url_comment"> <xliff:g example="APKPure" id="user_name">
-%1$s</xliff:g>\'s Nhận xét về
-<xliff:g example="APKPure" id="app_name">
-%2$s</xliff:g> (từ @<xliff:g example="APKPure" id="social_network_name">
-%3$s</xliff:g>), <xliff:g example="https://apkpure.com/p/com.apkpure.aegon" id="app_url">
-%4$s</xliff:g>),<xliff:g example="https://apkpure.com/p/com.apkpure.aegon" id="app_url">
-%5$s</xliff:g></string>
-
+    <string name="share_app_url_comment"> <xliff:g example="APKPure" id="user_name">%1$s</xliff:g>\'s Nhận xét về
+        <xliff:g example="APKPure" id="app_name">%2$s</xliff:g> (từ @<xliff:g example="APKPure" id="social_network_name">%3$s</xliff:g>),
+        <xliff:g example="https://apkpure.com/p/com.apkpure.aegon" id="app_url">%4$s</xliff:g>),
+        <xliff:g example="https://apkpure.com/p/com.apkpure.aegon" id="app_url">%5$s</xliff:g></string>
     <plurals name="app_detail_see_all_replies">
-    <item quantity="one">Xem tất cả <xliff:g example="2" id="count">
-%1$d</xliff:g> trả lời</item>
-        <item quantity="other"/>
+    <item quantity="other">Xem tất cả <xliff:g example="2" id="count">%1$d</xliff:g> trả lời</item>
     </plurals>
-
     <string name="app_detail_customer_reviews">Nhận xét</string>
     <string name="app_detail_comment_type_web">Web</string>
     <string name="app_submit_submit">Xác nhận…</string>
@@ -342,16 +315,13 @@ Các chức năng trên đều hỗ trợ Android 4.1 trở lên, không bao g�
     <string name="reply_dialog_marked_words">Nhấn giữ bức ảnh đã chọn để xóa nó.</string>
     <string name="reply_comment">Trả lời nhận xét</string>
     <string name="save_original_image">Lưu</string>
-    <string name="already_save">Lưu trữ
-<xliff:g example="ApKPure/photo" id="path">
-%1$s</xliff:g></string>
+    <string name="already_save">Lưu trữ<xliff:g example="ApKPure/photo" id="path">%1$s</xliff:g></string>
 
     <string name="load_end">Hết dữ liệu</string>
     <string name="load_failed_click_retry">Tải thất bại, nhấp thử lại</string>
     <string name="loading">Đang tải…</string>
 
-    <string name="scan_qr_code_hint">Trước khi sử dụng Quét Mã QR, bạn cần phải cho phép máy ảnh
- Được yêu cầu để quét mã QR.</string>
+    <string name="scan_qr_code_hint">Trước khi sử dụng Quét Mã QR, bạn cần phải cho phép máy ảnhĐược yêu cầu để quét mã QR.</string>
     <string name="zxing_msg_default_status">Vui lòng đặt mã QR bên trong kính ngắm để quét.</string>
     <string name="zxing_msg_parser_status">Quét mã QR thất bại, hãy thử lại lần nữa.</string>
 
@@ -474,8 +444,7 @@ Các chức năng trên đều hỗ trợ Android 4.1 trở lên, không bao g�
     <string name="comment_item_fold">bình luận đã bị bỏ</string>
 
     <plurals name="comment_reply_item_fold">
-    <item quantity="other"><xliff:g example="2" id="count">
-%1$d</xliff:g> Trả lời bị thu gọn</item>
+    <item quantity="other"><xliff:g example="2" id="count">%1$d</xliff:g> Trả lời bị thu gọn</item>
     </plurals>
 
     <string name="comment_no_reply">Wào, không có gì ở đây.</string>
@@ -587,15 +556,17 @@ Các chức năng trên đều hỗ trợ Android 4.1 trở lên, không bao g�
     <string name="recommend_comment_error">Một số lỗi gì đó đã xảy ra!</string>
     <string name="recommend_description_title">Hướng dẫn:</string>
     <string name="recommend_description">1. Đề xuất được chấp thuận sẽ được liệt kê dưới mục KHÁM PHÁ.
-2. Bạn chỉ có thể đề xuất các ứng dụng hiện được cài đặt trên thiết bị Android của bạn.
-3. Thông báo cho APKPure thêm các ứng dụng không được lập chỉ mục, vui lòng hoàn tất mẫu đề xuất trước.</string>
+        2. Bạn chỉ có thể đề xuất các ứng dụng hiện được cài đặt trên thiết bị Android của bạn.
+        3. Thông báo cho APKPure thêm các ứng dụng không được lập chỉ mục, vui lòng hoàn tất mẫu đề xuất trước.</string>
     <string name="recommend_user_recommend">Được đề xuất bởi %s</string>
     <string name="recommend_required">Phần bắt buộc</string>
-<string name="load_failed_error_not_found">Ứng dụng không được Liệt kê trong CH APKPure!</string>
+    <string name="load_failed_error_not_found">Ứng dụng không được Liệt kê trong CH APKPure!</string>
     <string name="beta">Thử nghiệm</string>
     <string name="history_version">Phiên bản cũ hơn</string>
 
-    <string name="share_app_url_group"> <xliff:g example="APKPure" id="app_name">%1$s</xliff:g> Nhóm. (từ @ <xliff:g example="APKPure" id="social_network_name">%2$s</xliff:g>),<xliff:g example="https://apkpure.com/p/com.apkpure.aegon" id="app_url">%3$s</xliff:g></string>
+    <string name="share_app_url_group"> <xliff:g example="APKPure" id="app_name">%1$s</xliff:g> Nhóm. (từ @
+        <xliff:g example="APKPure" id="social_network_name">%2$s</xliff:g>),
+        <xliff:g example="https://apkpure.com/p/com.apkpure.aegon" id="app_url">%3$s</xliff:g></string>
 
     <string name="data_saver_model">Tiết kiệm Dữ liệu</string>
     <string name="data_saver_model_summery">Kích hoạt điều này sẽ điều chỉnh kích cỡ ảnh và chất lượng nhằm giảm lượng dữ liệu sử dụng.</string>
@@ -682,7 +653,7 @@ Các chức năng trên đều hỗ trợ Android 4.1 trở lên, không bao g�
 
     <string name="upload_apk_version">V %s</string>
     <string name="upload_apk_downloads">Tải về:%s</string>
-    
+
     <string name="upload_comment_uploading">Đang tải lên %s…</string>
     <string name="upload_comment_upload_success">Tải lên thành công %s</string>
     <string name="upload_comment_upload_failed">Tải lên %s thất bại</string>
