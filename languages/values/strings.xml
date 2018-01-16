@@ -495,6 +495,8 @@
     <string name="message_praise">LIKES</string>
     <string name="message_notifications_reply">Replied your comment</string>
     <string name="message_notifications_login">Please login to see this page.</string>
+    <string name="message_at_title">Mentions</string>
+    <string name="message_at">Mentioned you</string>
 
     <!--update password-->
     <string name="update_pwd_title">Reset my password</string>
@@ -524,6 +526,7 @@
 
     <string name="set_contributor">Contributor</string>
     <string name="set_permissions">Permissions</string>
+    <string name="set_open_source_licence">Open Source License</string>
 
     <string name="sign_in_services">By signing up you agree to our Terms and Privacy Policy.</string>
 
@@ -558,6 +561,7 @@
     <string name="push_title_info_follow">%s followed you!</string>
     <string name="push_title_info_update">APKPure Update Arrived!</string>
     <string name="push_content_info_update">New version %s released! Update Now!</string>
+    <string name="push_title_info_at">Someone mentioned you in a post, tap to view</string>
 
     <string name="download_list">Download list</string>
     <string name="can_be_update">Can be updated</string>
@@ -635,6 +639,7 @@
     <string name="canceled">Canceled</string>
     <string name="group">Group</string>
     <string name="collection">Favorites</string>
+    <string name="cancel_collection">Unfavorite</string>
 
     <string name="follow">Following</string>
     <string name="attention_on">Following</string>
@@ -648,6 +653,8 @@
     <string name="ranking_tab2_title">Top New Games</string>
     <string name="ranking_tab3_title">Top Apps</string>
     <string name="ranking_tab4_title">Top New Apps</string>
+    <string name="ranking_top_countries_title">Top Countries</string>
+    <string name="ranking_top_develop_title">Top Developers</string>
 
     <string name="app_detail_three_fragment_foot">Show all comments</string>
     <string name="menu_paste">Paste</string>
@@ -711,6 +718,7 @@
 
     <string name="google_play_name" translatable="false">Google Play</string>
     <string name="goto_google_play">Buy now</string>
+    <string name="google_play_bug_text">Buy on Google Play</string>
 
     <string name="menu_follow_all">All Following</string>
     <string name="menu_follow_user">Followed People</string>
@@ -750,7 +758,7 @@
     <string name="commentaries">Share a Post</string>
 
     <string name="upload_apk_version">V %s</string>
-    <string name="upload_apk_downloads">Downloads:%s</string>
+    <string name="upload_apk_downloads">Downloads: %s</string>
     
     <string name="upload_comment_uploading">%s Uploading…</string>
     <string name="upload_comment_upload_success">%s Upload Successful</string>
@@ -771,5 +779,26 @@
     <string name="market_ad_tab_one">Featured</string>
     <string name="market_ad_tab_two">Games</string>
     <string name="market_ad_tab_three">Tools</string>
+
     <string name="tag">Tag</string>
+
+    <string name="search_tab_name_one">APPS</string>
+    <string name="search_tab_name_two">PEOPLE</string>
+    <!--pre_register-->
+    <string name="pre_register_bt">Pre-Register</string>
+    <string name="pre_register_now_bt">Pre-Register</string>
+    <string name="pre_registered_bt">Registered</string>
+    <string name="pre_register_link_title">Pre-Register Website</string>
+    <string name="pre_register_gift_tv">Register Rewards</string>
+    <string name="pre_register_person_num_tv">Pre-registrants: %s</string>
+    <string name="pre_register_success">Pre-Registering means that you will receive a notification on your device when the app is released.</string>
+
+    <string name="open_page_failed">Failed to open the page!</string>
+    <string name="search_for_user">Search</string>
+    <string name="search_user_history_title">Recent Contacts</string>
+    <string name="search_focus_list_title">Followed</string>
+
+    <string name="submit_comment_user_style">
+        <![CDATA[<font color="#007AFF">@%1$s</font>]]></string>
+
 </resources>
