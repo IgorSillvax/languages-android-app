@@ -222,8 +222,8 @@
     <string name="general">Általános</string>
     <string name="language">Nyelv</string>
     <string name="auto">Automatikus</string>
-    <string name="download_via_wifi_only">Csak Wi-Fi-n keresztül</string>
-    <string name="enable_ultra_download">Ultra letöltés</string>
+    <string name="download_via_wifi_only">Letöltés csak Wi-Fi-n keresztül</string>
+    <string name="enable_ultra_download">Ultra letöltés engedélyezése</string>
     <string name="enable_ultra_download_summary">Az Ultra letöltés béta tesztelési fázisban van. Kérjük, tudassa velünk, ha bármilyen problémát tapasztal.</string>
     <string name="installation">Telepítés</string>
     <string name="show_notification_after_installation">Értesítés megjelenítése telepítés után</string>
@@ -647,7 +647,7 @@
     <string name="commentaries">Hozzászólás küldése</string>
 
     <string name="upload_apk_version">v%s</string>
-    <string name="upload_apk_downloads">Letöltések:%s</string>
+    <string name="upload_apk_downloads">Letöltések: %s</string>
 
     <string name="upload_comment_uploading">%s feltöltése…</string>
     <string name="upload_comment_upload_success">%s feltöltése sikeres</string>
@@ -670,4 +670,36 @@
     <string name="market_ad_tab_three">Eszközök</string>
     <string name="tag">Címke</string>
 <string name="hot_tag_explain">(Adjon hozzá vagy szavazzon a meglévő címkékre ennél az alkalmazásnál)</string>
+    <string name="message_at">Megemlítette Önt</string>
+
+    <string name="set_open_source_licence">Nyílt forráskódú licenc</string>
+
+    <string name="push_title_info_at">Valaki megemlítette Önt egy bejegyzésben, koppintson a megtekintéshez</string>
+
+    <string name="ranking_top_countries_title">Legnépszerűbb országok</string>
+    <string name="ranking_top_develop_title">Legnépszerűbb fejlesztők</string>
+
+    <string name="google_play_bug_text">Vásárlás a Google Playen</string>
+
+    <string name="search_tab_name_one">ALKALMAZÁSOK</string>
+    <string name="search_tab_name_two">EMBEREK</string>
+    <string name="pre_register_bt">Előzetes regisztráció</string>
+    <string name="pre_register_now_bt">Előzetes regisztráció</string>
+    <string name="pre_registered_bt">Regisztrált</string>
+    <string name="pre_register_link_title">Előzetes regisztrációs weboldal</string>
+    <string name="pre_register_person_num_tv">Előzetes regisztrálók: %s</string>
+    <string name="pre_register_success">Az előzetes regisztráció azt jelenti, hogy az alkalmazás megjelenésekor értesítést kap a készülékén.</string>
+
+    <string name="open_page_failed">Nem sikerült megnyitni az oldalt!</string>
+    <string name="search_for_user">Keresés</string>
+    <string name="search_user_history_title">Legutóbbi partnerek</string>
+    <string name="search_focus_list_title">Követett</string>
+
+    <string name="submit_comment_user_style">
+ &lt;font color=#007AFF&gt;@%1$s&lt;/font&gt;</string>
+
+<string name="message_at_title">Említések</string>
+    <string name="cancel_collection">Eltávolítás a kedvencekből</string>
+
+    <string name="pre_register_gift_tv">Regisztráljon a jutalmakért</string>
     </resources>
