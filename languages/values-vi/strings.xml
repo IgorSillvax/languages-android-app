@@ -126,7 +126,9 @@
     <string name="trending_searches">Xu hướng Tìm kiếm</string>
 
     <string name="improvement_plan_title">Kế hoạch Cải thiện hiệu suất</string>
-    <string name="improvement_plan_message">Hỗ trợ chúng tôi bằng cách gửi Thông tin Thiết bị Android của bạn, Chúng tôi <b> không thu thập</b> thông tin nhận dạng cá nhân (tên, địa chỉ, địa chỉ e-mail, số an sinh xã hội, hoặc các định dạng duy nhất khác).</string>
+    <string name="improvement_plan_message">
+ Hỗ trợ chúng tôi bằng cách gửi Thông tin Thiết bị Android của bạn, Chúng tôi <b> không thu thập</b> thông tin nhận dạng cá nhân (tên, địa chỉ, địa chỉ e-mail, số an sinh xã hội, hoặc các định dạng duy nhất khác).
+ </string>
     <string name="join_us">Tham gia với chúng tôi</string>
     <string name="skip">Bỏ qua</string>
 
@@ -249,11 +251,14 @@
 
     <string name="auto_service_title">APKPure Tự động cài đặt</string>
     <string name="auto_service_description">Kích hoạt \"APKPure Tự động cài đặt\", để giữ cho APKPure \"Tự động cài đặt\" hoạt động mượt mà hơn.
-        \"APKPure Tự động cài đặt\" có thể giúp bạn nhấp vào nút tất cả các cài đặt khi cài đặt hoặc cập nhật các ứng dụng, bạn không cần phải kiểm tra điện thoại nữa.
-        Khi kích hoạt tính năng này, bạn có thể nhận được hệ thống cảnh báo rủi ro, hãy nhấn \"OK\" để chuyển khoá sang \"BẬT\".
-        Để đảm bảo APKPure hoạt động tốt, xin vui lòng thêm APKPure vào \"danh sách trắng\" Ứng dụng Dọn dẹp của bạn.
-        Các chức năng trên đều hỗ trợ Android 4.1 trở lên, không bao gồm thiết bị đã root. Chúng tôi xin thề rằng không bao giờ thu thập bất kỳ thông tin cá nhân của bạn trong dịch vụ này. Xin vui lòng liên hệ với chúng tôi nếu gập bất kỳ vấn đề nào.
-    </string>
+
+ \"APKPure Tự động cài đặt\" có thể giúp bạn nhấp vào nút tất cả các cài đặt khi cài đặt hoặc cập nhật các ứng dụng, bạn không cần phải kiểm tra điện thoại nữa.
+
+ Khi kích hoạt tính năng này, bạn có thể nhận được hệ thống cảnh báo rủi ro, hãy nhấn \"OK\" để chuyển khoá sang \"BẬT\".
+
+ Để đảm bảo APKPure hoạt động tốt, xin vui lòng thêm APKPure vào \"danh sách trắng\" Ứng dụng Dọn dẹp của bạn.
+
+ Các chức năng trên đều hỗ trợ Android 4.1 trở lên, không bao gồm thiết bị đã root. Chúng tôi xin thề rằng không bao giờ thu thập bất kỳ thông tin cá nhân của bạn trong dịch vụ này. Xin vui lòng liên hệ với chúng tôi nếu gập bất kỳ vấn đề nào.</string>
 
     <string name="auto_service_install">Cài đặt</string>
     <string name="auto_service_ensure">Ok</string>
@@ -570,7 +575,7 @@
 
     <string name="data_saver_model">Tiết kiệm Dữ liệu</string>
     <string name="data_saver_model_summery">Kích hoạt điều này sẽ điều chỉnh kích cỡ ảnh và chất lượng nhằm giảm lượng dữ liệu sử dụng.</string>
-    <string name="download_mkdir">Phân vùng Tải về</string>
+    <string name="download_mkdir">Đường dẫn Tải về</string>
     <string name="download_mkdir_internal_storage_size_des">%1$s miễn phí, tổng cộng %2$s</string>
     <string name="download_mkdir_internal_storage_entries">"Thẻ SD "</string>
     <string name="download_mkdir_internal_storage_entries1">Thẻ SD1</string>
