@@ -411,7 +411,7 @@ APKPureが正常に運行するために、APKPureをクリーニングアプリ
     <string name="login_user_name">ユーザー名</string>
     <string name="login_user_password">パスワード</string>
     <string name="login_user_sign_in">サインイン</string>
-    <string name="user_nickname_error">ニックネームには特殊文字、記号または空白スペースを使用しないでください</string>
+    <string name="user_nickname_error">ニックネームに特殊文字、記号または空白を使用しないでください</string>
     <string name="login_choose">またはアカウントでログインする</string>
     <string name="login_new_user">新規ユーザー登録</string>
     <string name="login_post_as_a_guest">ゲストとして投稿</string>
@@ -676,4 +676,36 @@ APKPureが正常に運行するために、APKPureをクリーニングアプリ
     <string name="market_ad_tab_two">ゲーム</string>
     <string name="market_ad_tab_three">ツール</string>
     <string name="tag">タグ</string>
+<string name="message_at_title">メンション</string>
+    <string name="message_at">あなた宛のメンション</string>
+
+    <string name="set_open_source_licence">オープンソースライセンス</string>
+
+    <string name="push_title_info_at">あなた宛のメンションが送られている、タップして見る</string>
+
+    <string name="cancel_collection">お気に入りから削除</string>
+
+    <string name="ranking_top_countries_title">国ランキング</string>
+    <string name="ranking_top_develop_title">開発者ランキング</string>
+
+    <string name="google_play_bug_text">Google Playで購入</string>
+
+    <string name="search_tab_name_one">アプリ</string>
+    <string name="search_tab_name_two">ユーザー</string>
+    <string name="pre_register_bt">事前登録</string>
+    <string name="pre_register_now_bt">事前登録</string>
+    <string name="pre_registered_bt">登録済み</string>
+    <string name="pre_register_link_title">事前登録サイト</string>
+    <string name="pre_register_gift_tv">ログインボーナス</string>
+    <string name="pre_register_person_num_tv">事前登録者：％s</string>
+    <string name="pre_register_success">事前登録すると、 アプリがリリースされたときにお使いの端末に通知が届きます。</string>
+
+    <string name="open_page_failed">ページを開くことができませんでした！</string>
+    <string name="search_for_user">検索</string>
+    <string name="search_user_history_title">最近の連絡先</string>
+    <string name="search_focus_list_title">フォローした人</string>
+
+    <string name="submit_comment_user_style">
+ &lt;font color=#007AFF&gt;@%1$s&lt;/font&gt;</string>
+
 </resources>
