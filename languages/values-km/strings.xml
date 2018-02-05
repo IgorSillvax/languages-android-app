@@ -11,8 +11,7 @@
     <string name="categories">ចំណាត់ក្រុម</string>
     <string name="updates">អាប់ដេត</string>
 
-    <string name="something_happened">&gt;_&lt;
-មានបញ្ហាខ្លះៗ បានកើតឡើង។</string>
+    <string name="something_happened">&gt;_&lt;មានបញ្ហាខ្លះៗ បានកើតឡើង។</string>
 
     <string name="auto_install_via_root_summary">សម្រាប់តែទូរស័ព្ទនឹងថេប្លិត ដែលមានឬសតែប៉ុណ្ណោះ។</string>
 
@@ -55,9 +54,9 @@
 
 
     <string name="about_title">អំពី <xliff:g example="APKPure" id="app_name">%1$s</xliff:g></string>
-    <string name="about_message">"
- &lt;b&gt;ជំនាន់៖&lt;/b&gt; %1$s&lt;br&gt;&lt;br&gt;&lt;b&gt;វែបសាយ៖&lt;/b&gt; &lt;a href=%2$s&gt;%2$s&lt;/a&gt;&lt;br&gt;&lt;b&gt;អ៊ីម៉ែល៖ &lt;/b&gt; &lt;a href=mailto:%3$s&gt;%3$s&lt;/a&gt;
- "</string>
+    <string name="about_message">
+        <![CDATA[<b>ជំនាន់៖</b> %1$s<br><br><b>វែបសាយ៖</b> <a href="%2$s">%2$s</a><br><b>អ៊ីម៉ែល៖</b> <a href="mailto:%3$s">%3$s</a>]]>
+    </string>
     <string name="check_update">ពិនិត្យការអាប់ដេត</string>
     <string name="quit">បិទចោល</string>
     <string name="want_to_quit">តើអ្នកពិតជាចង់បិទចោលឬ?</string>
@@ -67,9 +66,9 @@
     <string name="delete">លុប</string>
     <string name="delete_all">លុបទាំងអស់</string>
     <string name="properties">លក្ខណៈសម្បត្តិ</string>
-    <string name="properties_message">"
- &lt;b&gt;ទីតាំង៖&lt;/b&gt; %1$s&lt;br&gt;&lt;b&gt;ទំហំ៖&lt;/b&gt; %2$s&lt;br&gt;&lt;b&gt;កែសម្រួលចុងក្រោយ៖&lt;/b&gt; %3$s
- "</string>
+    <string name="properties_message">
+        <![CDATA[<b>ទីតាំង៖</b> %1$s<br><b>ទំហំ</b> %2$s<br><b>កែសម្រួលចុងក្រោយ៖</b> %3$s]]>
+    </string>
     <string name="want_to_delete_file">តើអ្នកចង់លុបឯកសារនេះមែនទេ?</string>
     <string name="want_to_delete_all_files">តើអ្នកចង់លុបឯកសារទាំងអស់មែនទេ?</string>
     <string name="file_has_been_deleted">ឯកសារត្រូវបានលុប។</string>
@@ -78,8 +77,7 @@
     <string name="user_canceled">អ្នកប្រើដែលបានបោះបង់។</string>
     <string name="file_format_error">ទម្រង់ឯកសារមានកំហុស។</string>
     <string name="parsing_xapk">កំពុងញែក XAPK …</string>
-    <string name="installing_obb">កំពុងតម្លើងឯកសារ OBB 
-…</string>
+    <string name="installing_obb">កំពុងតម្លើងឯកសារ OBB…</string>
     <string name="io_error">កំហុស IO។ គួរតែមិនទាន់មានទំហំទំនេរគ្រប់គ្រាន់ សម្រាប់ការតម្លើងឲ្យបានសម្រេច។</string>
     <string name="installing_apk">កំពុងតម្លើង APK …</string>
 
@@ -121,14 +119,14 @@
     <string name="update">អាប់ដេត</string>
     <string name="version__version___size_">ជំនាន់៖ <xliff:g example="1.0.0" id="version">%1$s</xliff:g>, <xliff:g example="1024 kB" id="size">%2$s</xliff:g></string>
     <plurals name="_count__new_update_is_available">
-	<item quantity="other"><xliff:g example="1" id="count">%1$d</xliff:g> ការអាប់ដេតថ្មីគឺអាចប្រើបានហើយ</item>
-</plurals>
+        <item quantity="other"><xliff:g example="1" id="count">%1$d</xliff:g> ការអាប់ដេតថ្មីគឺអាចប្រើបានហើយ</item>
+    </plurals>
 
     <string name="launching_please_wait">កំពុងបើកដំណើរការ សូមរង់ចាំ…</string>
 
     <plurals name="_count__item_is_downloading">
-	<item quantity="other"><xliff:g example="1" id="count">%1$d</xliff:g> ធាតុ គឺកំពុងទាញយក</item>
-</plurals>
+        <item quantity="other"><xliff:g example="1" id="count">%1$d</xliff:g> ធាតុ គឺកំពុងទាញយក</item>
+    </plurals>
     <string name="downloads_complete">ការទាញយកបានសម្រេច</string>
     <string name="touch_for_view_all_downloads">ប៉ះ ដើម្បូីមើលការទាញយកទាំងអស់</string>
     <string name="_name__download_failed">ការទាញយក<xliff:g example="APKPure" id="name">%1$s</xliff:g> បានបរាជ័យ</string>
@@ -161,32 +159,26 @@
 
     <string name="_name__is_up_to_date"><xliff:g example="APKPure" id="name">%1$s</xliff:g> គឺទាន់សម័យហើយ។</string>
     <string name="new_version_available_title">ជំនាន់ថ្មីអាចប្រើបាន</string>
-    <string name="new_version_available_message">"
- &lt;b&gt;ជំនាន់ចុងក្រោយ៖&lt;/b&gt; %1$s&lt;br&gt;&lt;br&gt;&lt;b&gt;តើមានអ្វីថ្មី៖&lt;/b&gt;&lt;br&gt;%2$s
- "</string>
-
+    <string name="new_version_available_message">
+        <![CDATA[<b>ជំនាន់ចុងក្រោយ៖</b> %1$s<br><br><b>តើមានអ្វីថ្មី៖</b><br>%2$s]]>
+    </string>
     <string name="report">រាយការណ៍</string>
     <string name="report__">រាយការណ៍…</string>
     <string name="report_problem__">រាយការណ៍ បញ្ហា…</string>
     <string name="report_problem_subject">រាយការណ៍បញ្ហា</string>
-    <string name="report_problem_text">ប្រធានបទ បញ្ហា៖
-%1$s
-
-បញ្ហាលម្អិត៖
-%2$s</string>
+    <string name="report_problem_text">ប្រធានបទ បញ្ហា៖%1$sបញ្ហាលម្អិត៖%2$s</string>
     <string name="contact_us__">ទាក់ទងយើង…</string>
     <string name="contact_us">ទាក់ទងពួកយើង</string>
     <string name="report_content">រាយការណ៍មាតិកា</string>
     <string name="feedback">មតិអ្នកប្រើ</string>
 
     <string name="installation_failed">ការតម្លើងបានបរាជ័យ</string>
-    <string name="incompatible_this_app">"
- &lt;big&gt;&lt;b&gt;&lt;font color=%1$d&gt;ឧបករណ៍របស់អ្នក គឺមិនសមស្របជាមួយកម្មវិធីនេះទេ។&lt;/font&gt;&lt;/b&gt;&lt;/big&gt;&lt;br&gt;&lt;br&gt;តើអ្នកពិតជាចង់បន្តឬ?
- "</string>
-    <string name="this_app_not_usable">"
- &lt;big&gt;&lt;b&gt;&lt;font color=%1$d&gt;កម្មវិធីនេះគួតែមិនអាចប្រើបាន។&lt;/font&gt;&lt;/b&gt;&lt;/big&gt;&lt;br&gt;&lt;br&gt;តើអ្នកពិតជាចង់បន្តឬ?
- "</string>
-
+    <string name="incompatible_this_app">
+        <![CDATA[<big><b><font color="%1$d">ឧបករណ៍របស់អ្នក គឺមិនសមស្របជាមួយកម្មវិធីនេះទេ។</font></b></big><br><br>តើអ្នកពិតជាចង់បន្តឬ?]]>
+    </string>
+    <string name="this_app_not_usable">
+        <![CDATA[<big><b><font color="%1$d">កម្មវិធីនេះគួតែមិនអាចប្រើបាន។</font></b></big><br><br>តើអ្នកពិតជាចង់បន្តឬ?]]>
+    </string>
     <string name="setting">ការកំណត់</string>
     <string name="share">ចែករំលែក</string>
     <string name="share_app_url">ទាញយក <xliff:g example="APKPure" id="app_name">%1$s</xliff:g> APK (មកពី @<xliff:g example="APKPure" id="social_network_name">%2$s</xliff:g>), <xliff:g example="https://apkpure.com/p/com.apkpure.aegon" id="app_url">%3$s</xliff:g></string>
@@ -220,14 +212,16 @@
     <string name="deselect_all">មិនជ្រើសទាំងអស់</string>
     <string name="ignored">មិនអើពើ</string>
     <plurals name="total__count__apps__size_">
-	<item quantity="other">"
- សរុប៖ &lt;b&gt;&lt;font color=%1$d&gt;%2$d&lt;/font&gt;&lt;/b&gt; កម្មវិធី, &lt;b&gt;&lt;font color=%1$d&gt;%3$s&lt;/font&gt;&lt;/b&gt;
- "</item>
-</plurals>
-    <string name="total_zero_app">"
- សរុប៖ &lt;b&gt;&lt;font color=%1$d&gt;0&lt;/font&gt;&lt;/b&gt; កម្មវិធី
- "</string>
-
+    <item quantity="one">
+        <![CDATA[ សរុប៖: <b><font color="%1$d">%2$d</font></b> កម្មវិធី, <b><font color="%1$d">%3$s</font></b>]]>
+    </item>
+        <item quantity="other">
+        <![CDATA[សរុប៖: <b><font color="%1$d">%2$d</font></b> កម្មវិធី, <b><font color="%1$d">%3$s</font></b>]]>
+    </item>
+    </plurals>
+    <string name="total_zero_app">
+        <![CDATA[សរុប៖<b><font color="%1$d">0</font></b> កម្មវិធី]]>
+    </string>
     <string name="general">ទូទៅ</string>
     <string name="language">ភាសា</string>
     <string name="auto">អូតូ</string>
@@ -327,8 +321,8 @@
     <string name="delete_packages_after_installation">លុបកញ្ចប់ក្រោយពេលតម្លើង</string>
 
     <plurals name="app_detail_see_all_replies">
-	<item quantity="other">មើល <xliff:g example="1" id="count">%1$d</xliff:g> ឆ្លើយតបទាំងអស់</item>
-</plurals>
+        <item quantity="other">មើល <xliff:g example="1" id="count">%1$d</xliff:g> ឆ្លើយតបទាំងអស់</item>
+    </plurals>
 
     <string name="app_detail_customer_reviews">មតិ</string>
     <string name="extracting_apk">កំពុងស្រាយកញ្ចប់ឯកសារ APK…</string>
@@ -337,7 +331,7 @@
  </string>
     <string name="sub_comment_progress_msg">កំពុងបន្ថែមវីដេអូ…</string>
 
-<string name="download_history">ប្រវត្តិការទាញយក</string>
+    <string name="download_history">ប្រវត្តិការទាញយក</string>
 
     <string name="sub_comment_dialog_title">បន្ថែមវីដេអូ</string>
     <string name="sub_comment_dialog_des_tv">គាំទ្រសម្រាប់ការញែក URL YouTube តែប៉ុណ្ណោះ</string>
@@ -447,8 +441,8 @@
     <string name="comment_item_fold">បង្រួមមតិ</string>
 
     <plurals name="comment_reply_item_fold">
-	<item quantity="other">ការឆ្លើយតប<xliff:g example="1" id="count">%1$d</xliff:g> បានបង្រួម</item>
-</plurals>
+        <item quantity="other">ការឆ្លើយតប<xliff:g example="1" id="count">%1$d</xliff:g> បានបង្រួម</item>
+    </plurals>
 
     <string name="comment_no_reply">អស្ចារ្យ, ទាំងអស់នេះគ្មាននៅទីនេះឡើយ។</string>
     <string name="comment_reply_info_name">លម្អិត</string>
@@ -540,7 +534,7 @@
     <string name="recommend_user_recommend">ណែនាំដោយ %s</string>
     <string name="recommend_required">*</string>
 
-<string name="topic_switch_failed">ការផ្លាស់ប្ដូររូបរាងបានបរាជ័យ</string>
+    <string name="topic_switch_failed">ការផ្លាស់ប្ដូររូបរាងបានបរាជ័យ</string>
 
     <string name="topic_red_color">ពណ៌Crimson</string>
     <string name="set_updates_notification_msg">រំលឹកនៅពេលមានបច្ចុប្បន្នកម្មវិធីអាចប្រលប្រាស់បាន។ សូមណែនាំការកំណត់៖ បើក</string>
@@ -592,7 +586,7 @@
     <string name="choose_app">ជ្រើសយកកម្មវិធី</string>
     <string name="publish_comment">ចែករំលែក​ប្រកាស​</string>
 
-<string name="download_mkdir">ផ្លូវកាត់ការទាញយក</string>
+    <string name="download_mkdir">ផ្លូវកាត់ការទាញយក</string>
     <string name="history_version">ប្រវត្ដិនៃជំនាន់</string>
 
     <string name="share_app_url_group"> ក្រុម <xliff:g example="APKPure" id="app_name">%1$s</xliff:g> ។ (មកពី @<xliff:g example="APKPure" id="social_network_name">%2$s</xliff:g>), <xliff:g example="https://apkpure.com/p/com.apkpure.aegon" id="app_url">%3$s</xliff:g></string>

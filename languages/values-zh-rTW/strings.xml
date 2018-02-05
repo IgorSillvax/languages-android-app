@@ -155,7 +155,7 @@
     <string name="download_over_cellular_content">您正在透過移動網絡進行下載。是否要繼續？</string>
 
     <string name="search">搜尋</string>
-    <string name="search_for_apps">搜尋應用</string>
+    <string name="search_for_apps">搜尋</string>
     <string name="trending_searches">熱門搜尋</string>
     <string name="search_history">搜尋歷史</string>
     <string name="clear_search_history">清空歷史記錄</string>
@@ -208,9 +208,9 @@
     </string>
 
     <string name="share">分享</string>
-    <string name="share_app_url">下載 <xliff:g example="APKPure" id="app_name">%1$s</xliff:g> APK (來自 @<xliff:g example="APKPure" id="social_network_name">%2$s</xliff:g>), <xliff:g example="https://apkpure.com/p/com.apkpure.aegon" id="app_url">%3$s</xliff:g></string>
-    <string name="share_app_url_comment"> <xliff:g example="APKPure" id="user_name">%1$s</xliff:g> 評論了 <xliff:g example="APKPure" id="app_name">%2$s</xliff:g> : <xliff:g example="APKPure" id="app_name">%3$s</xliff:g> (來自 @<xliff:g example="APKPure" id="social_network_name">%4$s</xliff:g>), <xliff:g example="https://apkpure.com/p/com.apkpure.aegon" id="app_url">%5$s</xliff:g></string>
-    <string name="share_app_url_group"> <xliff:g example="APKPure" id="app_name">%1$s</xliff:g> 小組 (來自 @<xliff:g example="APKPure" id="social_network_name">%2$s</xliff:g>), <xliff:g example="https://apkpure.com/p/com.apkpure.aegon" id="app_url">%3$s</xliff:g></string>
+    <string name="share_app_url">分享 <xliff:g example="APKPure" id="app_name">%1$s</xliff:g> APK (來自 @<xliff:g example="APKPure" id="social_network_name">%2$s</xliff:g>) <xliff:g example="https://apkpure.com/p/com.apkpure.aegon" id="app_url">%3$s</xliff:g></string>
+    <string name="share_app_url_comment"> <xliff:g example="APKPure" id="user_name">%1$s</xliff:g> 評論了 <xliff:g example="APKPure" id="app_name">%2$s</xliff:g> : <xliff:g example="APKPure" id="app_name">%3$s</xliff:g> (來自 @<xliff:g example="APKPure" id="social_network_name">%4$s</xliff:g>) <xliff:g example="https://apkpure.com/p/com.apkpure.aegon" id="app_url">%5$s</xliff:g></string>
+    <string name="share_app_url_group"> <xliff:g example="APKPure" id="app_name">%1$s</xliff:g> 小組 (來自 @<xliff:g example="APKPure" id="social_network_name">%2$s</xliff:g>) <xliff:g example="https://apkpure.com/p/com.apkpure.aegon" id="app_url">%3$s</xliff:g></string>
 
     <string name="_name__version_history"><xliff:g example="APKPure" id="name">%1$s</xliff:g> 的版本歷史</string>
     <string name="update__date___size_">更新：<xliff:g example="Mar 3, 2016" id="date">%1$s</xliff:g>, <xliff:g example="1024 kB" id="size">%2$s</xliff:g></string>
@@ -666,6 +666,7 @@
     <string name="search_tab_name_one">應用</string>
     <string name="search_tab_name_two">用戶</string>
     <!--pre_register-->
+    <string name="pre_register_ok">好的</string>
     <string name="pre_register_bt">預約</string>
     <string name="pre_register_now_bt">立即預約</string>
     <string name="pre_registered_bt">已預約</string>
@@ -679,4 +680,10 @@
     <string name="search_for_user">搜索</string>
     <string name="search_user_history_title">最近聯繫人</string>
     <string name="search_focus_list_title">已關注</string>
+    <string name="copy_username">複製昵稱</string>
+    <string name="copy_content">複製內容</string>
+
+    <string name="tab_global">推薦</string>
+    <string name="comment_list_see_here">上次看到這裡，點擊刷新</string>
+    <string name="comment_list_new_num">%d條新內容</string>
 </resources>
