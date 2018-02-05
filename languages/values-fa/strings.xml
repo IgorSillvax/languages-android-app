@@ -139,7 +139,7 @@
     <string name="delete_downloaded_file">حذف فایل دانلود شده</string>
 
     <string name="search">جستجو</string>
-    <string name="search_for_apps">جستجو برای برنامه‌ها</string>
+    <string name="search_for_apps">جستجو APKPure</string>
     <string name="trending_searches">جستجو‌های پربازدید</string>
     <string name="search_history">تاریخچه</string>
     <string name="clear_search_history">پاک کردن تمام تاریخچه</string>
@@ -209,7 +209,7 @@
         <![CDATA[<big><b>ما نیاز به دسترسی ذخیره سازی خارجی شما داریم. لطفا مطمئن شوید که اجازه دسترسی رد نشده.</b></big>]]>
     </string>
 
-    <string name="share_app_url">دانلود <xliff:g example="APKPure" id="app_name">%1$s</xliff:g> ای‌پی‌کا (از @<xliff:g example="APKPure" id="social_network_name">%2$s</xliff:g>), <xliff:g example="https://apkpure.com/p/com.apkpure.aegon" id="app_url">%3$s</xliff:g></string>
+    <string name="share_app_url">اشتراک گذاری <xliff:g example="APKPure" id="app_name">%1$s</xliff:g> ای‌پی‌کا (از @<xliff:g example="APKPure" id="social_network_name">%2$s</xliff:g>), <xliff:g example="https://apkpure.com/p/com.apkpure.aegon" id="app_url">%3$s</xliff:g></string>
 
     <string name="_name__version_history"><xliff:g example="APKPure" id="name">%1$s</xliff:g> تاریخچه نسخه</string>
     <string name="update__date___size_">به‌روزرسانی: <xliff:g example="Mar 3, 2016" id="date">%1$s</xliff:g>, <xliff:g example="1024 kB" id="size">%2$s</xliff:g></string>
@@ -298,7 +298,7 @@
     <string name="input_reply_content">محتوای واردی برای پاسخ:</string>
     <string name="zxing_msg_default_status">لطفا محل کد QR را در قسمت منظره یاب برای اسکن قرار دهید.</string>
     <string name="report">گزارش</string>
-    <string name="share_app_url_comment"> <xliff:g example="APKPure" id="user_name">%1$s</xliff:g> نظر در مورد <xliff:g example="APKPure" id="app_name">%2$s</xliff:g> : <xliff:g example="APKPure" id="app_name">%3$s</xliff:g> (از جانب @<xliff:g example="APKPure" id="social_network_name">%4$s</xliff:g>), <xliff:g example="https://apkpure.com/p/com.apkpure.aegon" id="app_url">%5$s</xliff:g></string>
+    <string name="share_app_url_comment"> <xliff:g example="APKPure" id="user_name">%1$s</xliff:g> نظر در مورد <xliff:g example="APKPure" id="app_name">%2$s</xliff:g> : <xliff:g example="APKPure" id="app_name">%3$s</xliff:g> (از جانب @<xliff:g example="APKPure" id="social_network_name">%4$s</xliff:g>) <xliff:g example="https://apkpure.com/p/com.apkpure.aegon" id="app_url">%5$s</xliff:g></string>
 
     <string name="app_detail_reply_comment">نظر (%d)</string>
     <string name="app_detail_comment_order_array_recent">اخیرا</string>
@@ -587,7 +587,7 @@
     <string name="user_focus_tab_users">دوستان</string>
     <string name="history_version">تاریخچه نسخه</string>
 
-    <string name="share_app_url_group"> <xliff:g example="APKPure" id="app_name">%1$s</xliff:g> گروه. (از جانب @<xliff:g example="APKPure" id="social_network_name">%2$s</xliff:g>), <xliff:g example="https://apkpure.com/p/com.apkpure.aegon" id="app_url">%3$s</xliff:g></string>
+    <string name="share_app_url_group"> <xliff:g example="APKPure" id="app_name">%1$s</xliff:g> گروه. (از جانب @<xliff:g example="APKPure" id="social_network_name">%2$s</xliff:g>) <xliff:g example="https://apkpure.com/p/com.apkpure.aegon" id="app_url">%3$s</xliff:g></string>
 
     <string name="data_saver_model">صرفه‌جویی در داده</string>
     <string name="data_saver_model_summery">روشن کرد این باعث کاهش کیفیت و کم حجم شد تصویر خواهد شد که برای کمک در مصرف کم داده اینترنت موبایل می‌شود.</string>
@@ -678,7 +678,7 @@
     <string name="google_play_bug_text">خرید در گوگل پلی</string>
 
     <string name="search_tab_name_one">برنامه‌ها</string>
-    <string name="search_tab_name_two">مردم</string>
+    <string name="search_tab_name_two">کاربر</string>
     <string name="pre_register_bt">پیش ثبت نام</string>
     <string name="pre_register_now_bt">پیش ثبت نام</string>
     <string name="open_page_failed">صفحه باز نشد!</string>
@@ -686,4 +686,11 @@
     <string name="submit_comment_user_style">
  &lt;font color=#007AFF&gt;@%1$s&lt;/font&gt;</string>
 
+<string name="search_focus_list_title">دنبال شد</string>
+
+    <string name="copy_username">کپی نام مستعار</string>
+    <string name="copy_content">کپی محتوا</string>
+
+    <string name="tab_global">توصیه شده</string>
+    <string name="comment_list_new_num">%d داستان جدید</string>
 </resources>
