@@ -278,7 +278,7 @@
         <xliff:g example="https://apkpure.com/p/com.apkpure.aegon" id="app_url">%4$s</xliff:g>),
         <xliff:g example="https://apkpure.com/p/com.apkpure.aegon" id="app_url">%5$s</xliff:g></string>
     <plurals name="app_detail_see_all_replies">
-    <item quantity="other">Xem tất cả <xliff:g example="2" id="count">%1$d</xliff:g> trả lời</item>
+        <item quantity="other">Xem tất cả <xliff:g example="2" id="count">%1$d</xliff:g> trả lời</item>
     </plurals>
     <string name="app_detail_customer_reviews">Nhận xét</string>
     <string name="app_detail_comment_type_web">Web</string>
@@ -444,7 +444,7 @@
     <string name="comment_item_fold">bình luận đã bị bỏ</string>
 
     <plurals name="comment_reply_item_fold">
-    <item quantity="other"><xliff:g example="2" id="count">%1$d</xliff:g> Trả lời bị thu gọn</item>
+        <item quantity="other"><xliff:g example="2" id="count">%1$d</xliff:g> Trả lời bị thu gọn</item>
     </plurals>
 
     <string name="comment_no_reply">Wào, không có gì ở đây.</string>

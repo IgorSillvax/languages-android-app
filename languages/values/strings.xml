@@ -158,7 +158,7 @@
     <string name="download_over_cellular_content">You are about to download over your mobile network. Would you like to continue?</string>
 
     <string name="search">Search</string>
-    <string name="search_for_apps">Search for Apps</string>
+    <string name="search_for_apps">Search APKPure</string>
     <string name="trending_searches">Trending Searches</string>
     <string name="search_history">History</string>
     <string name="clear_search_history">Clear all history</string>
@@ -211,9 +211,9 @@
     </string>
 
     <string name="share">Share</string>
-    <string name="share_app_url">Download <xliff:g example="APKPure" id="app_name">%1$s</xliff:g> APK (from @<xliff:g example="APKPure" id="social_network_name">%2$s</xliff:g>), <xliff:g example="https://apkpure.com/p/com.apkpure.aegon" id="app_url">%3$s</xliff:g></string>
-    <string name="share_app_url_comment"> <xliff:g example="APKPure" id="user_name">%1$s</xliff:g>\'s comments on <xliff:g example="APKPure" id="app_name">%2$s</xliff:g> : <xliff:g example="APKPure" id="app_name">%3$s</xliff:g> (from @<xliff:g example="APKPure" id="social_network_name">%4$s</xliff:g>), <xliff:g example="https://apkpure.com/p/com.apkpure.aegon" id="app_url">%5$s</xliff:g></string>
-    <string name="share_app_url_group"> <xliff:g example="APKPure" id="app_name">%1$s</xliff:g> Group. (from @<xliff:g example="APKPure" id="social_network_name">%2$s</xliff:g>), <xliff:g example="https://apkpure.com/p/com.apkpure.aegon" id="app_url">%3$s</xliff:g></string>
+    <string name="share_app_url">Share <xliff:g example="APKPure" id="app_name">%1$s</xliff:g> APK (from @<xliff:g example="APKPure" id="social_network_name">%2$s</xliff:g>) <xliff:g example="https://apkpure.com/p/com.apkpure.aegon" id="app_url">%3$s</xliff:g></string>
+    <string name="share_app_url_comment"> <xliff:g example="APKPure" id="user_name">%1$s</xliff:g>\'s comments on <xliff:g example="APKPure" id="app_name">%2$s</xliff:g> : <xliff:g example="APKPure" id="app_name">%3$s</xliff:g> (from @<xliff:g example="APKPure" id="social_network_name">%4$s</xliff:g>) <xliff:g example="https://apkpure.com/p/com.apkpure.aegon" id="app_url">%5$s</xliff:g></string>
+    <string name="share_app_url_group"> <xliff:g example="APKPure" id="app_name">%1$s</xliff:g> Group. (from @<xliff:g example="APKPure" id="social_network_name">%2$s</xliff:g>) <xliff:g example="https://apkpure.com/p/com.apkpure.aegon" id="app_url">%3$s</xliff:g></string>
 
     <string name="_name__version_history"><xliff:g example="APKPure" id="name">%1$s</xliff:g> Version History</string>
     <string name="update__date___size_">Update: <xliff:g example="Mar 3, 2016" id="date">%1$s</xliff:g>, <xliff:g example="1024 kB" id="size">%2$s</xliff:g></string>
@@ -641,7 +641,7 @@
     <string name="collection">Favorites</string>
     <string name="cancel_collection">Unfavorite</string>
 
-    <string name="follow">Following</string>
+    <string name="follow">FOLLOWING</string>
     <string name="attention_on">Following</string>
     <string name="attention_off">Follow</string>
     <string name="no_attention">No following groups, yet.</string>
@@ -783,12 +783,13 @@
     <string name="tag">Tag</string>
 
     <string name="search_tab_name_one">APPS</string>
-    <string name="search_tab_name_two">PEOPLE</string>
+    <string name="search_tab_name_two">USER</string>
     <!--pre_register-->
+    <string name="pre_register_ok">OK</string>
     <string name="pre_register_bt">Pre-Register</string>
     <string name="pre_register_now_bt">Pre-Register</string>
     <string name="pre_registered_bt">Registered</string>
-    <string name="pre_register_link_title">Pre-Register Website</string>
+    <string name="pre_register_link_title">Pre-Register Page</string>
     <string name="pre_register_gift_tv">Register Rewards</string>
     <string name="pre_register_person_num_tv">Pre-registrants: %s</string>
     <string name="pre_register_success">Pre-Registering means that you will receive a notification on your device when the app is released.</string>
@@ -801,4 +802,10 @@
     <string name="submit_comment_user_style">
         <![CDATA[<font color="#007AFF">@%1$s</font>]]></string>
 
+    <string name="copy_username">Copy Nickname</string>
+    <string name="copy_content">Copy Content</string>
+
+    <string name="tab_global">Recommended</string>
+    <string name="comment_list_see_here">Last visited here, tap to refresh</string>
+    <string name="comment_list_new_num">%d New Stories</string>
 </resources>
