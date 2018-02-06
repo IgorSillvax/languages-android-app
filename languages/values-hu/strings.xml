@@ -124,7 +124,7 @@
     <string name="want_to_remove_download_item">El szeretné távolítani ezt a letöltési elemet?</string>
 
     <string name="search">Keresés</string>
-    <string name="search_for_apps">Alkalmazások keresése</string>
+    <string name="search_for_apps">APKPure keresés</string>
     <string name="trending_searches">Gyakori keresések</string>
 
     <string name="improvement_plan_title">Teljesítményfejlesztési terv</string>
@@ -165,7 +165,7 @@
         <![CDATA[<big><b>Hozzá kell férnünk a külső tárolóhoz. Győződjön meg arról, hogy az engedély nem lett-e megtagadva.</b></big>]]>
     </string>
     <string name="share">Megosztás</string>
-    <string name="share_app_url"><xliff:g example="APKPure" id="app_name">%1$s</xliff:g> APK letöltése (forrás: @<xliff:g example="APKPure" id="social_network_name">%2$s</xliff:g>), <xliff:g example="https://apkpure.com/p/com.apkpure.aegon" id="app_url">%3$s</xliff:g></string>
+    <string name="share_app_url"><xliff:g example="APKPure" id="app_name">%1$s</xliff:g> APK megosztása (forrás: @<xliff:g example="APKPure" id="social_network_name">%2$s</xliff:g>) <xliff:g example="https://apkpure.com/p/com.apkpure.aegon" id="app_url">%3$s</xliff:g></string>
 
     <string name="_name__version_history"><xliff:g example="APKPure" id="name">%1$s</xliff:g> verzióelőzmények</string>
     <string name="update__date___size_">Frissítés: <xliff:g example="Mar 3, 2016" id="date">%1$s</xliff:g>, <xliff:g example="1024 kB" id="size">%2$s</xliff:g></string>
@@ -400,7 +400,7 @@
     <string name="login_user_password">Jelszó</string>
     <string name="login_user_sign_in">Bejelentkezés</string>
     <string name="login_choose">Vagy jelentkezzen be fiókjával</string>
-    <string name="share_app_url_comment"> <xliff:g example="APKPure" id="user_name">%1$s</xliff:g> hozzászólásai ehhez: <xliff:g example="APKPure" id="app_name">%2$s</xliff:g> : <xliff:g example="APKPure" id="app_name">%3$s</xliff:g> (from @<xliff:g example="APKPure" id="social_network_name">%4$s</xliff:g>), <xliff:g example="https://apkpure.com/p/com.apkpure.aegon" id="app_url">%5$s</xliff:g></string>
+    <string name="share_app_url_comment"> <xliff:g example="APKPure" id="user_name">%1$s</xliff:g> hozzászólásai ehhez: <xliff:g example="APKPure" id="app_name">%2$s</xliff:g> : <xliff:g example="APKPure" id="app_name">%3$s</xliff:g> (forrás: @<xliff:g example="APKPure" id="social_network_name">%4$s</xliff:g>) <xliff:g example="https://apkpure.com/p/com.apkpure.aegon" id="app_url">%5$s</xliff:g></string>
 
     <string name="app_detail_comment_order_array_default">Rendezés alapértelmezés szerint</string>
     <string name="app_detail_comment_order_array_most_recent">Legutóbbi</string>
@@ -499,7 +499,7 @@
     <string name="collection">Kedvencek</string>
 
     <string name="comments">Vitafórumok</string>
-    <string name="follow">Követés</string>
+    <string name="follow">KÖVETÉS</string>
     <string name="attention_on">Követés</string>
     <string name="attention_off">Követés</string>
     <string name="no_attention">Még nincsenek követett csoportok.</string>
@@ -617,7 +617,7 @@
     <string name="there_is_no_label">Nincsenek címkék.</string>
     <string name="add">Hozzáadás</string>
 
-    <string name="share_app_url_group"> <xliff:g example="APKPure" id="app_name">%1$s</xliff:g> csoport. (forrás: @<xliff:g example="APKPure" id="social_network_name">%2$s</xliff:g>), <xliff:g example="https://apkpure.com/p/com.apkpure.aegon" id="app_url">%3$s</xliff:g></string>
+    <string name="share_app_url_group"> <xliff:g example="APKPure" id="app_name">%1$s</xliff:g> csoport. (forrás: @<xliff:g example="APKPure" id="social_network_name">%2$s</xliff:g>) <xliff:g example="https://apkpure.com/p/com.apkpure.aegon" id="app_url">%3$s</xliff:g></string>
 
     <string name="push_title_info_follow">%s követte Önt!</string>
     <string name="recommend_user_recommend_sys">APKPure által kiemelt</string>
@@ -682,11 +682,11 @@
     <string name="google_play_bug_text">Vásárlás a Google Playen</string>
 
     <string name="search_tab_name_one">ALKALMAZÁSOK</string>
-    <string name="search_tab_name_two">EMBEREK</string>
+    <string name="search_tab_name_two">FELHASZNÁLÓ</string>
     <string name="pre_register_bt">Előzetes regisztráció</string>
     <string name="pre_register_now_bt">Előzetes regisztráció</string>
     <string name="pre_registered_bt">Regisztrált</string>
-    <string name="pre_register_link_title">Előzetes regisztrációs weboldal</string>
+    <string name="pre_register_link_title">Előregisztrációs oldal</string>
     <string name="pre_register_person_num_tv">Előzetes regisztrálók: %s</string>
     <string name="pre_register_success">Az előzetes regisztráció azt jelenti, hogy az alkalmazás megjelenésekor értesítést kap a készülékén.</string>
 
@@ -702,4 +702,11 @@
     <string name="cancel_collection">Eltávolítás a kedvencekből</string>
 
     <string name="pre_register_gift_tv">Regisztráljon a jutalmakért</string>
-    </resources>
+    <string name="pre_register_ok">OK</string>
+    <string name="copy_username">Becenév másolása</string>
+    <string name="copy_content">Tartalom másolása</string>
+
+    <string name="tab_global">Ajánlott</string>
+    <string name="comment_list_see_here">Utolsó látogatás itt, érintse meg a frissítéshez</string>
+    <string name="comment_list_new_num">%d új történet</string>
+</resources>
