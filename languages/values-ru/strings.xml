@@ -128,7 +128,7 @@
     <string name="want_to_remove_download_item">Вы точно хотите убрать эту загрузку?</string>
 
     <string name="search">Поиск</string>
-    <string name="search_for_apps">Поиск приложений</string>
+    <string name="search_for_apps">Поиск приложений в APKPure</string>
     <string name="trending_searches">Часто ищут</string>
 
     <string name="improvement_plan_title">План улучшения эффективности</string>
@@ -170,7 +170,7 @@
     </string>
 
     <string name="share">Поделиться</string>
-    <string name="share_app_url">Скачать <xliff:g id="app_name" example="APKPure">%1$s</xliff:g> APK (с @<xliff:g id="social_network_name" example="APKPure">%2$s</xliff:g>), <xliff:g id="app_url" example="https://apkpure.com/p/com.apkpure.aegon">%3$s</xliff:g></string>
+    <string name="share_app_url">Поделиться <xliff:g id="app_name" example="APKPure">%1$s</xliff:g> APK (с @<xliff:g id="social_network_name" example="APKPure">%2$s</xliff:g>), <xliff:g id="app_url" example="https://apkpure.com/p/com.apkpure.aegon">%3$s</xliff:g></string>
 
     <string name="_name__version_history"><xliff:g id="name" example="APKPure">%1$s</xliff:g> История версий</string>
     <string name="update__date___size_">Обновлено: <xliff:g id="date" example="Mar 3, 2016">%1$s</xliff:g>, <xliff:g id="size" example="1024 kB">%2$s</xliff:g></string>
@@ -212,7 +212,7 @@
     <string name="waiting_to_download">Ожидание загрузки</string>
     <string name="deleted">Удалено</string>
     <string name="search_history">История</string>
-    <string name="clear_search_history">Очистить историю</string>
+    <string name="clear_search_history">Очистить всю историю</string>
 
     <string name="installation">Установка</string>
     <string name="show_notification_after_installation">Показать уведомление после установки</string>
@@ -286,7 +286,7 @@
     <string name="auto_install_via_root_title">Автоматическая установка (Нужен Root)</string>
     <string name="auto_install_via_root_summary">Только для устройств с Root.</string>
 
-    <string name="app_detail_customer_reviews">Обсуждение</string>
+    <string name="app_detail_customer_reviews">Комментарии</string>
     <string name="app_submit_anonymous_comment">Добавить комментарий</string>
     <string name="login_user_password">Пароль</string>
     <string name="app_submit_msg_toast">Напишите что-нибудь!</string>
@@ -297,7 +297,7 @@
     <string name="app_submit_email">Электронная почта</string>
     <string name="app_submit_submit_title">отправить</string>
     <string name="app_detail_tab_one">Детали</string>
-    <string name="app_detail_tab_two">Обсуждение</string>
+    <string name="app_detail_tab_two">Посты</string>
     <string name="app_detail_comment_order_array_recent">Недавние</string>
     <string name="app_detail_comment_order_array_newest">Новые</string>
     <string name="app_detail_comment_order_array_best">Лучшие</string>
@@ -310,8 +310,8 @@
 
     <string name="reply">Отзывы</string>
     <string name="reply_comment">Ответить на комментарий</string>
-    <string name="save_original_image">Сохранить изображение</string>
-    <string name="already_save">Сохранено<xliff:g id="path" example="ApKPure/photo">%1$s</xliff:g></string>
+    <string name="save_original_image">Сохранить</string>
+    <string name="already_save">Сохранено<xliff:g example="ApKPure/photo" id="path">%1$s</xliff:g></string>
 
     <string name="tip_permission_camera_storage">Нет разрешения использовать камеру и память, дайте это разрешение</string>
     <string name="permission_denied">Отказано в доступе!</string>
@@ -415,7 +415,7 @@
     <string name="app_detail_comment_type_web">web</string>
     <string name="app_detail_comment_order_array_default">Сортировать по умолчанию</string>
     <string name="recommend">Открыть</string>
-    <string name="share_app_url_comment"> Комментарий <xliff:g example="APKPure" id="user_name">%1$s</xliff:g>"  к "<xliff:g example="APKPure" id="app_name">%2$s</xliff:g> (из @<xliff:g example="APKPure" id="social_network_name">%3$s</xliff:g>), <xliff:g example="https://apkpure.com/p/com.apkpure.aegon" id="app_url">%4$s</xliff:g></string>
+    <string name="share_app_url_comment"> Комментарий <xliff:g example="APKPure" id="user_name">%1$s</xliff:g>"  к "<xliff:g example="APKPure" id="app_name">%2$s</xliff:g> (из @<xliff:g example="APKPure" id="social_network_name">%3$s</xliff:g>) <xliff:g example="https://apkpure.com/p/com.apkpure.aegon" id="app_url">%4$s</xliff:g></string>
 
     <string name="app_detail_comment_order_array_most_recent">Самые последние</string>
     <string name="app_detail_comment_order_array_new">Новые</string>
@@ -430,7 +430,7 @@
 
     <string name="message_all">ВСЕ</string>
     <string name="message_reply">ОТВЕТЫ</string>
-    <string name="message_praise">ГОЛОСОВАТЬ</string>
+    <string name="message_praise">ЛАЙК</string>
     <string name="comment_cancel">Комментарий отменён</string>
     <string name="comment_submitting">Подтверждение…</string>
     <string name="message">Сообщение</string>
@@ -450,7 +450,7 @@
 
     <string name="comment_vote_string">Рейтинг</string>
     <string name="comment_reply_three">Ответить</string>
-    <string name="comment_item_fold">1 комментарий был свёрнут</string>
+    <string name="comment_item_fold">комментарий свернут</string>
 
     <string name="reply_notification">Уведомления об ответах</string>
     <string name="reply_notification_msg">Получать уведомления для новых ответных сообщений</string>
@@ -475,7 +475,7 @@
     <string name="set_updates_notification">Доступны обновления приложений</string>
     <string name="set_updates_notification_msg">Уведомлять, когда доступны обновления приложений. Рекомендуемая настройка: Вкл.</string>
     <string name="app_detail_unknow_text">Старая версия APKPure не поддерживает новые функции, пожалуйста, обновите до последней версии.</string>
-    <string name="comment_detail_original">Посмотреть оригинал комментария</string>
+    <string name="comment_detail_original">Просмотреть исходный комментарий &gt;</string>
     <string name="comment_comment_newest">Новейший</string>
     <string name="comment_comment_oldest">Старейший</string>
 
@@ -504,6 +504,37 @@
     <string name="download_mkdir">Скачать патч</string>
     <string name="download_mkdir_external_storage_fill_toast">Отсутствие свободного места может привести к невозможности скачивания приложений.</string>
 
-    <string name="share_app_url_group"> <xliff:g example="APKPure" id="app_name">%1$s</xliff:g>Group. (from @<xliff:g example="APKPure" id="social_network_name">%2$s</xliff:g> ), <xliff:g example="https://apkpure.com/p/com.apkpure.aegon" id="app_url">%3$s</xliff:g></string>
+    <string name="share_app_url_group"> <xliff:g example="APKPure" id="app_name">%1$s</xliff:g>Group. (from @<xliff:g example="APKPure" id="social_network_name">%2$s</xliff:g> ) <xliff:g example="https://apkpure.com/p/com.apkpure.aegon" id="app_url">%3$s</xliff:g></string>
+
+    <string name="load_failed_error_not_found">Приложение не найдено в APKPure App Store!</string>
+    <string name="beta">Бета</string>
+    <string name="data_saver_model">Экономия трафика</string>
+    <string name="data_saver_model_summery">Включение этого приведет к уменьшению размера и качества изображения, чтобы помочь использовать меньше мобильных данных.</string>
+    <string name="download_mkdir_internal_storage_size_des">%1$s свободно, всего %2$s</string>
+    <string name="download_mkdir_internal_storage_entries">"SD "</string>
+    <string name="download_mkdir_internal_storage_entries1">SD 1</string>
+    <string name="download_mkdir_internal_storage_values">внутрення_память</string>
+    <string name="scan_qr_code_result_title">Результат</string>
+    <string name="scan_qr_code_result_copy_text">Копировать текст</string>
+    <string name="scan_qr_code_result_hint">Детали QR-кода:</string>
+    <string name="scan_qr_code_copy_success">текст скопирован</string>
+
+    <string name="user_info_edit_large_photo">Просмотреть фотографию в большом размере</string>
+
+    <string name="user_info_edit_intro_tv">Обо мне</string>
+    <string name="update_intro_title">Изменить обо мне</string>
+    <string name="update_intro_et">Написать некоторые подробности о себе</string>
+    <string name="update_intro_tv">Поле обо мне не может быть пустым</string>
+
+    <string name="message_at_title">Упоминания</string>
+    <string name="message_at">Упомянул тебя</string>
+
+    <string name="set_open_source_licence">Open Source License</string>
+
+    <string name="user_name_null">Неверное имя пользователя</string>
+    <string name="push_title_info_follow">%s подписался на тебя!</string>
+    <string name="push_title_info_update">APKPure доступно обновление!</string>
+    <string name="push_content_info_update">Выпущена новая версия %s! Обновить сейчас!</string>
+    <string name="push_title_info_at">Кто-то упомянул вас в сообщении, нажмите, чтобы посмотреть</string>
 
     </resources>
