@@ -365,7 +365,7 @@
     <string name="crop__saving">Сохранение изображения…</string>
     <string name="crop__wait">Ждите…</string>
 
-    <string name="comment_replying">Отправка ответа…</string>
+    <string name="comment_replying">Ответы…</string>
     <string name="register_term_of_service">Условия использования APKPure</string>
 
     <string name="set_contributor">Стать партнером</string>
@@ -681,7 +681,7 @@
     <string name="tab_apk">APK</string>
     <string name="commentaries">Поделиться записью</string>
 
-    <string name="upload_apk_version">В %s</string>
+    <string name="upload_apk_version">V %s</string>
     <string name="upload_apk_downloads">Скачиваний: %s</string>
     
     <string name="upload_comment_uploading">%s Загрузка…</string>
@@ -714,9 +714,21 @@
     <string name="pre_registered_bt">Зарегистрирован</string>
     <string name="pre_register_link_title">Страница предварительной регистрации</string>
     <string name="pre_register_gift_tv">Регистрация Награды</string>
-    <string name="pre_register_person_num_tv">Предварительные регистрации: %s</string>
+    <string name="pre_register_person_num_tv">Предварительных регистраций: %s</string>
     <string name="pre_register_success">Предварительная регистрация означает, что вы получите уведомление, когда приложение будет выпущено.</string>
 
     <string name="open_page_failed">Не удалось открыть страницу!</string>
     <string name="search_for_user">Поиск</string>
-    </resources>
+    <string name="search_user_history_title">Последние контакты</string>
+    <string name="search_focus_list_title">Подписан</string>
+
+    <string name="submit_comment_user_style">
+ &lt;font color=#007AFF&gt;@%1$s&lt;/font&gt;</string>
+
+    <string name="copy_username">Копировать ник</string>
+    <string name="copy_content">Скопировать содержимое</string>
+
+    <string name="tab_global">Рекомендуемые</string>
+    <string name="comment_list_see_here">Последнее посещение здесь, нажмите, чтобы обновить</string>
+    <string name="comment_list_new_num">%d Новые истории</string>
+</resources>
