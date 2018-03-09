@@ -7,7 +7,7 @@
 
     <string name="press_back_key_quit">Для выхода коснитесь ещё раз.</string>
 
-    <string name="featured">Featured</string>
+    <string name="featured">Рекомендуемые</string>
     <string name="games">Игры</string>
     <string name="apps">Приложения</string>
     <string name="categories">Категории</string>
@@ -23,7 +23,7 @@
 
     <string name="management">Управление</string>
     <string name="app_updates">Доступные обновления</string>
-    <string name="app_management">Управление приложениями</string>
+    <string name="app_management">Установлены</string>
     <string name="app_uninstall">Удаление приложений</string>
     <string name="apk_management">Управление APK-файлами</string>
     <string name="apk_xapk_management">Управление APK / XAPK-файлами</string>
@@ -62,10 +62,10 @@
     <string name="screenshots">Скриншоты</string>
     <string name="description">Описание</string>
     <string name="whatsnew">Что нового</string>
-    <string name="information"/>
-    <string name="version_"/>
-    <string name="updated_"/>
-    <string name="size_"></string>
+    <string name="information">Информация</string>
+    <string name="version_">Версия:</string>
+    <string name="updated_">Обновлено:</string>
+    <string name="size_">Размер:</string>
     <string name="permissions_">Разрешения:</string>
     <string name="type_">Тип:</string>
     <string name="category_">Категория:</string>
@@ -128,7 +128,7 @@
     <string name="want_to_remove_download_item">Вы точно хотите убрать эту загрузку?</string>
 
     <string name="search">Поиск</string>
-    <string name="search_for_apps">Поиск приложений в APKPure</string>
+    <string name="search_for_apps">Поиск APKPure</string>
     <string name="trending_searches">Часто ищут</string>
 
     <string name="improvement_plan_title">План улучшения эффективности</string>
@@ -170,7 +170,7 @@
     </string>
 
     <string name="share">Поделиться</string>
-    <string name="share_app_url">Поделиться <xliff:g id="app_name" example="APKPure">%1$s</xliff:g> APK (с @<xliff:g id="social_network_name" example="APKPure">%2$s</xliff:g>), <xliff:g id="app_url" example="https://apkpure.com/p/com.apkpure.aegon">%3$s</xliff:g></string>
+    <string name="share_app_url">Поделиться <xliff:g example="APKPure" id="app_name">%1$s</xliff:g> APK (с @<xliff:g example="APKPure" id="social_network_name">%2$s</xliff:g>)<xliff:g example="https://apkpure.com/p/com.apkpure.aegon" id="app_url">%3$s</xliff:g></string>
 
     <string name="_name__version_history"><xliff:g id="name" example="APKPure">%1$s</xliff:g> История версий</string>
     <string name="update__date___size_">Обновлено: <xliff:g id="date" example="Mar 3, 2016">%1$s</xliff:g>, <xliff:g id="size" example="1024 kB">%2$s</xliff:g></string>
@@ -406,16 +406,17 @@
     <string name="user_info_edit_portrait_tv">Аватар</string>
     <string name="user_info_edit_not_choose">Неизвестно</string>
     <plurals name="app_detail_see_all_replies">
-        <item quantity="one">Смотреть ещё <xliff:g example="1" id="count">%1$d</xliff:g> ответ</item>
-        <item quantity="few">Смотреть ещё <xliff:g example="1" id="count">%1$d</xliff:g> ответ</item>
-        <item quantity="many">Смотреть все <xliff:g example="2" id="count">%1$d</xliff:g> ответа</item>
-        <item quantity="other">Смотреть все <xliff:g example="2" id="count">%1$d</xliff:g> ответа</item>
-    </plurals>
+	<item quantity="one">Смотреть ещё <xliff:g example="1" id="count">%1$d</xliff:g> ответ</item>
+	<item quantity="few">Смотреть ещё <xliff:g example="1" id="count">%1$d</xliff:g> ответа</item>
+	<item quantity="many">Смотреть все <xliff:g example="2" id="count">%1$d</xliff:g> ответов</item>
+	<item quantity="other"/>
+</plurals>
 
     <string name="app_detail_comment_type_web">web</string>
     <string name="app_detail_comment_order_array_default">Сортировать по умолчанию</string>
     <string name="recommend">Открыть</string>
-    <string name="share_app_url_comment"> Комментарий <xliff:g example="APKPure" id="user_name">%1$s</xliff:g>"  к "<xliff:g example="APKPure" id="app_name">%2$s</xliff:g> (из @<xliff:g example="APKPure" id="social_network_name">%3$s</xliff:g>) <xliff:g example="https://apkpure.com/p/com.apkpure.aegon" id="app_url">%4$s</xliff:g></string>
+    <string name="share_app_url_comment"> Коментарии <xliff:g example="APKPure" id="user_name">%1$s</xliff:g> к <xliff:g example="APKPure" id="app_name">%2$s</xliff:g> : <xliff:g example="APKPure" id="app_name">%3$s</xliff:g> (из @<xliff:g example="APKPure" id="social_network_name">%4$s</xliff:g>)
+<xliff:g example="https://apkpure.com/p/com.apkpure.aegon" id="app_url">%5$s</xliff:g></string>
 
     <string name="app_detail_comment_order_array_most_recent">Самые последние</string>
     <string name="app_detail_comment_order_array_new">Новые</string>
@@ -464,11 +465,11 @@
     <string name="push_title_info_reply">%s ответил на Ваш комментарий!</string>
     <string name="push_title_info_upvoted">%s поднял рейтинг Вашего комментария!</string>
     <plurals name="comment_reply_item_fold">
-        <item quantity="one"><xliff:g example="1" id="count">%1$d</xliff:g> ответ был свёрнут</item>
-        <item quantity="few"><xliff:g example="1" id="count">%1$d</xliff:g> ответ был свёрнут</item>
-        <item quantity="many"><xliff:g example="2" id="count">%1$d</xliff:g> ответа были свёрнуты</item>
-        <item quantity="other"><xliff:g example="2" id="count">%1$d</xliff:g> ответа были свёрнуты</item>
-    </plurals>
+	<item quantity="one"><xliff:g example="1" id="count">%1$d</xliff:g> ответ был свёрнут</item>
+	<item quantity="few"><xliff:g example="1" id="count">%1$d</xliff:g> ответа были свёрнуты</item>
+	<item quantity="many"><xliff:g example="2" id="count">%1$d</xliff:g> ответов были свёрнуты</item>
+	<item quantity="other"/>
+</plurals>
 
     <string name="comment_no_reply">Ой, здесь ничего нет.</string>
     <string name="comment_reply_info_name">Детали</string>
@@ -509,11 +510,11 @@
     <string name="load_failed_error_not_found">Приложение не найдено в APKPure App Store!</string>
     <string name="beta">Бета</string>
     <string name="data_saver_model">Экономия трафика</string>
-    <string name="data_saver_model_summery">Включение этого приведет к уменьшению размера и качества изображения, чтобы помочь использовать меньше мобильных данных.</string>
+    <string name="data_saver_model_summery">Включение этого приведет к уменьшению размера и качества изображения, что поможет использовать меньше мобильных данных.</string>
     <string name="download_mkdir_internal_storage_size_des">%1$s свободно, всего %2$s</string>
     <string name="download_mkdir_internal_storage_entries">"SD "</string>
     <string name="download_mkdir_internal_storage_entries1">SD 1</string>
-    <string name="download_mkdir_internal_storage_values">внутрення_память</string>
+    <string name="download_mkdir_internal_storage_values">внутреннее_хранилище</string>
     <string name="scan_qr_code_result_title">Результат</string>
     <string name="scan_qr_code_result_copy_text">Копировать текст</string>
     <string name="scan_qr_code_result_hint">Детали QR-кода:</string>
@@ -529,7 +530,7 @@
     <string name="message_at_title">Упоминания</string>
     <string name="message_at">Упомянул тебя</string>
 
-    <string name="set_open_source_licence">Open Source License</string>
+    <string name="set_open_source_licence">Лицензии открытого ПО</string>
 
     <string name="user_name_null">Неверное имя пользователя</string>
     <string name="push_title_info_follow">%s подписался на тебя!</string>
@@ -548,4 +549,170 @@
 
     <string name="main_comment">комментарий</string>
     <string name="main_won_praise">Лайков</string>
+    <string name="ad_tip">Реклама</string>
+    <string name="null_time">0:00</string>
+    <string name="main_my_comments">Посты</string>
+    <string name="main_my_collection">Избранное</string>
+    <string name="main_my_message">Сообщения</string>
+    <string name="main_good_comments">Проголосовали</string>
+    <string name="main_app_management">Управление приложениями</string>
+    <string name="main_topic_selection">Темы</string>
+    <string name="main_night_mode">Ночной режим</string>
+    <string name="please_login_first">Пожалуйста, сначала войдите</string>
+    <string name="no_choice">Нет выбора</string>
+    <string name="follow_on_success">Успешно!</string>
+    <string name="follow_un_success">Успешная отписка!</string>
+    <string name="canceled">Отменено</string>
+    <string name="group">Група</string>
+    <string name="collection">Избранное</string>
+    <string name="cancel_collection">Удалить из избранного</string>
+
+    <string name="follow">ПОДПИСКИ</string>
+    <string name="attention_on">Подписки</string>
+    <string name="attention_off">Подписаться</string>
+    <string name="no_attention">Нет прописок на группы.</string>
+    <string name="browsing_history">История просмотров</string>
+    <string name="browsing_history_prompt">Вы хотите очистить историю просмотров?</string>
+
+    <string name="ranking_tab1_title">Лучшие игры</string>
+    <string name="ranking_tab2_title">Лучшие новые игры</string>
+    <string name="ranking_tab3_title">Лучшие приложения</string>
+    <string name="ranking_tab4_title">Лучшие новые приложения</string>
+    <string name="ranking_top_countries_title">Лучшие страны</string>
+    <string name="ranking_top_develop_title">Лучшие разработчики</string>
+
+    <string name="app_detail_three_fragment_foot">Показать все комментарии</string>
+    <string name="menu_paste">Вставить</string>
+
+    <string name="favorite_title">Избранное</string>
+    <string name="save_as_favorite">Сохранить в Избранное</string>
+    <string name="favorite_saved">Сохранено в Избранном</string>
+    <string name="failed_to_save_favorite">Не удалось сохранить в избранное</string>
+    <string name="remove_as_favorite">Удалено из Избранного</string>
+    <string name="remove_failed">Сбой удаленния</string>
+
+    <string name="collection_comment">Посты</string>
+    <string name="collection_app">ПРИЛОЖЕНИЯ</string>
+
+    <string name="open_with_browser">Открыть в браузере</string>
+    <string name="web_view_refresh">Обновить</string>
+
+    <string name="topic_green_color">Зеленый</string>
+    <string name="topic_red_color">Малиновый</string>
+    <string name="topic_blue_color">Лазурно-голубой</string>
+    <string name="topic_purple_color">Темно-фиолетовый</string>
+    <string name="topic_purple_black">Холодно-серый</string>
+    <string name="topic_purple_yellow">Абрикосово-оранжевый</string>
+    <string name="topic_purple_blue_gary">Воздушно-синий</string>
+    <string name="topic_switch_failed">Ошибка изменения темы</string>
+
+    <string name="recommend_title">Рекомендации</string>
+    <string name="recommend_tab_game">Рекомендовать Приложение</string>
+    <string name="recommend_tab_list">Рекомендуемые</string>
+    <string name="recommend_installed_list_title">Мои приложения</string>
+    <string name="recommend_review">Просмотр</string>
+    <string name="recommend_replace_img">Изменить картинку</string>
+    <string name="recommend_app_name">Название приложения</string>
+    <string name="recommend_state_can">Рекомендовать</string>
+    <string name="recommend_state_success">Рекомендуемые</string>
+    <string name="recommend_select_game">Рекомендовать приложение</string>
+    <string name="recommend_write_des">Описание</string>
+    <string name="recommend_write_des_hint">Полезный обзор увидит больше пользователей, которые имеют такой же интерес, как вы.</string>
+    <string name="recommend_comment">Отправить</string>
+    <string name="recommend_comment_error">Произошла какая-то ошибка!</string>
+    <string name="recommend_description_title">Инструкции:</string>
+    <string name="recommend_description">1. Утвержденные рекомендации будут перечислены в разделе \"ПОИСК\".
+2. Вы можете только рекомендовать приложения, установленные на вашем Android устройстве.
+3. Уведомить APKPure чтобы добавить не индексированные приложения, пожалуйста, сначала завершите формы рекомендаций.</string>
+    <string name="recommend_user_recommend">%s рекомендовал</string>
+    <string name="recommend_required">*</string>
+    <string name="recommend_not_found">Не индексируются</string>
+    <string name="recommend_not_fount_info">Сообщите APKPure, чтобы добавить \"%s\", вам нужно заполнить форму.</string>
+    <string name="recommend_user_recommend_sys">Рекомендуемые APKPure</string>
+
+    <string name="user_detail_focus">Подписаны</string>
+    <string name="user_detail_fans">Подписчик</string>
+    <string name="user_detail_praise">Лайки</string>
+    <string name="user_detail_tab_detail">Посты</string>
+    <string name="user_detail_tab_reply">Ответы</string>
+
+    <string name="user_focus_tab_users">Люди</string>
+    <string name="user_focus_tab_apps">Группы</string>
+    <string name="user_focus_title_my">Мои Подписчики</string>
+    <string name="user_focus_title">Подписан на %s</string>
+
+    <string name="goto_google_play">Купить сейчас</string>
+    <string name="google_play_bug_text">Купить в Google Play</string>
+
+    <string name="menu_follow_all">Все Подписчики</string>
+    <string name="menu_follow_user">Подписаные Люди</string>
+    <string name="menu_follow_group">Подписаные групы</string>
+    <string name="menu_follow_all_tab">Подписки</string>
+    <string name="menu_follow_user_tab">Люди</string>
+    <string name="menu_follow_group_tab">Группы</string>
+
+    <string name="choose_app">Выбор приложения</string>
+    <string name="publish_comment">Поделиться сообщением</string>
+
+    <string name="app_detail_has_product">Покупка предметов</string>
+    <string name="app_detail_no_product">Нет предметов для покупки</string>
+    <string name="app_detail_has_ad">Содержит рекламу</string>
+    <string name="app_detail_no_ad">Нет рекламы</string>
+
+    <string name="tag_list">Список тегов</string>
+    <string name="hot_tag">Горячие теги</string>
+    <string name="hot_tag_explain">(Добавить или проголосовать за существующие теги для этого приложения)</string>
+    <string name="common_use">Мои теги</string>
+    <string name="app_add_tag_hint_caution">Не более %s тегов для каждого приложения.</string>
+    <string name="app_add_tag">Добавить новый тег</string>
+    <string name="toast_app_tag_exist">Тег уже существует!</string>
+    <string name="there_is_no_label">Нет тегов.</string>
+    <string name="add">Добавить</string>
+    <string name="colon">:</string>
+
+    <string name="pack_up">Свернуть</string>
+    <string name="Istop">Закрепленные</string>
+    <string name="add_tag">Добавить теги</string>
+    <string name="error_add_tag">Ошибка при добавлении тегов</string>
+    <string name="no_collect">Еще нет избранных!</string>
+    <string name="no_comment">Будьте первым, добавите комментарий!</string>
+
+    <string name="share_apk">Поделиться APK</string>
+    <string name="tab_apk">APK</string>
+    <string name="commentaries">Поделиться записью</string>
+
+    <string name="upload_apk_version">В %s</string>
+    <string name="upload_apk_downloads">Скачиваний: %s</string>
+    
+    <string name="upload_comment_uploading">%s Загрузка…</string>
+    <string name="upload_comment_upload_success">%s Успешно загружено</string>
+    <string name="upload_comment_upload_failed">%s Ошибка загрузки</string>
+    <string name="upload_comment_view">Нажмите для просмотра</string>
+    <string name="upload_comment_reload">Нажмите, чтобы загрузить снова</string>
+    <string name="upload_notification_pause">Пауза</string>
+    <string name="upload_notification_start">Пуск</string>
+    <string name="upload_notification_cancel">Отмена</string>
+    <string name="upload_notification_is_uploading">Загрузка пакета в APKPure …</string>
+    <string name="upload_notification_is_pause">Загрузка приостановлена</string>
+    <string name="upload_add_list_toast">Успешно!</string>
+    <string name="upload_add_file_list_toast">Загрузка приложения. Пожалуйста, будьте терпеливы, спасибо!</string>
+
+    <string name="your_reply_comment">Ваш ответ</string>
+
+    <string name="market_ad_title">Магазин</string>
+    <string name="market_ad_tab_one">Рекомендуемые</string>
+    <string name="market_ad_tab_two">Игры</string>
+    <string name="market_ad_tab_three">Инструменты</string>
+
+    <string name="tag">Тег</string>
+
+    <string name="search_tab_name_one">ПРИЛОЖЕНИЯ</string>
+    <string name="search_tab_name_two">ПОЛЬЗОВАТЕЛЬ</string>
+    <string name="pre_register_ok">ОК</string>
+    <string name="pre_register_bt">Предварительная регистрация</string>
+    <string name="pre_register_now_bt">Предварительная регистрация</string>
+    <string name="pre_registered_bt">Зарегистрирован</string>
+    <string name="pre_register_link_title">Страница предварительной регистрации</string>
+    <string name="pre_register_gift_tv">Регистрация Награды</string>
+    <string name="pre_register_person_num_tv">Предварительные регистрации: %s</string>
     </resources>
