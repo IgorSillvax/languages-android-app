@@ -141,7 +141,7 @@
     <string name="delete_downloaded_file">Excluir arquivo baixado</string>
 
     <string name="search">Pesquisar</string>
-    <string name="search_for_apps">Pesquisar Apps</string>
+    <string name="search_for_apps">Pesquisa APKPure</string>
     <string name="trending_searches">Principais pesquisas</string>
     <string name="search_history">Histórico</string>
     <string name="clear_search_history">Limpar todo o histórico</string>
@@ -192,7 +192,7 @@ Detalhe do problema:
  </string>
 
     <string name="share">Compartilhar</string>
-    <string name="share_app_url">Baixar <xliff:g example="APKPure" id="app_name">%1$s</xliff:g> APK (Através do <xliff:g example="APKPure" id="social_network_name">%2$s</xliff:g>), <xliff:g example="https://apkpure.com/p/com.apkpure.aegon" id="app_url">%3$s</xliff:g></string>
+    <string name="share_app_url">Compartilhar <xliff:g example="APKPure" id="app_name">%1$s</xliff:g> APK (Através do @<xliff:g example="APKPure" id="social_network_name">%2$s</xliff:g>) <xliff:g example="https://apkpure.com/p/com.apkpure.aegon" id="app_url">%3$s</xliff:g></string>
 
     <string name="_name__version_history"><xliff:g example="APKPure" id="name">
 %1$s</xliff:g> Histórico de Versões</string>
@@ -309,7 +309,7 @@ Que é necessário para escanear o código QR.</string>
     <string name="zxing_msg_parser_status">O escaneamento falhou, tente escanear o código QR novamente.</string>
     <string name="recommend">Recomendado</string>
     <string name="report">Relatório</string>
-    <string name="share_app_url_comment"> <xliff:g example="APKPure" id="user_name">%1$s</xliff:g>\'s Comentários no <xliff:g example="APKPure" id="app_name">%2$s</xliff:g> : <xliff:g example="APKPure" id="app_name">%3$s</xliff:g> (Através do @<xliff:g example="APKPure" id="social_network_name">%4$s</xliff:g>), <xliff:g example="https://apkpure.com/p/com.apkpure.aegon" id="app_url">%5$s</xliff:g></string>
+    <string name="share_app_url_comment"> <xliff:g example="APKPure" id="user_name">%1$s</xliff:g>\'s comments on <xliff:g example="APKPure" id="app_name">%2$s</xliff:g> : <xliff:g example="APKPure" id="app_name">%3$s</xliff:g> (Através do @<xliff:g example="APKPure" id="social_network_name">%4$s</xliff:g>) <xliff:g example="https://apkpure.com/p/com.apkpure.aegon" id="app_url">%5$s</xliff:g></string>
 
     <string name="app_detail_reply_comment">Comentário(%d)</string>
     <string name="app_detail_reply_esc">Sequência positiva</string>
@@ -520,7 +520,7 @@ Que é necessário para escanear o código QR.</string>
     <string name="collection">Favoritos</string>
 
     <string name="comments">Discussões</string>
-    <string name="follow">Seguindo</string>
+    <string name="follow">SEGUINDO</string>
     <string name="attention_on">Seguindo</string>
     <string name="attention_off">Seguir</string>
     <string name="no_attention">Ainda não há grupos a seguir.</string>
@@ -617,7 +617,7 @@ Que é necessário para escanear o código QR.</string>
 
     <string name="history_version">Histórico de versões</string>
 
-    <string name="share_app_url_group"> <xliff:g example="APKPure" id="app_name">%1$s</xliff:g> Grupo. (Através do @<xliff:g example="APKPure" id="social_network_name">%2$s</xliff:g>), <xliff:g example="https://apkpure.com/p/com.apkpure.aegon" id="app_url">%3$s</xliff:g></string>
+    <string name="share_app_url_group"> <xliff:g example="APKPure" id="app_name">%1$s</xliff:g> Grupo. (Através do @<xliff:g example="APKPure" id="social_network_name">%2$s</xliff:g>) <xliff:g example="https://apkpure.com/p/com.apkpure.aegon" id="app_url">%3$s</xliff:g></string>
 
     <string name="data_saver_model">Economizador de dados</string>
     <string name="data_saver_model_summery">Ativar isso reduzirá o tamanho e a qualidade da imagem para ajudar a usar menos dados do celular.</string>
@@ -708,13 +708,13 @@ Que é necessário para escanear o código QR.</string>
     <string name="google_play_bug_text">Compre on Google Play</string>
 
     <string name="search_tab_name_one">APLICATIVOS</string>
-    <string name="search_tab_name_two">PESSOA</string>
+    <string name="search_tab_name_two">USUÁRIO</string>
     <string name="pre_register_bt">Pré-Registro</string>
     <string name="pre_register_now_bt">Pré-Registro</string>
     <string name="pre_registered_bt">Registrado</string>
-    <string name="pre_register_link_title">Site de pré-registro</string>
+    <string name="pre_register_link_title">Página de pré-registro</string>
     <string name="pre_register_gift_tv">Registrar Recompensas</string>
-    <string name="pre_register_person_num_tv">Pré-inscritos: %s</string>
+    <string name="pre_register_person_num_tv">Pré-registrantes: %s</string>
     <string name="pre_register_success">O pré-registro significa que você receberá uma notificação em seu dispositivo quando o aplicativo for lançado.</string>
 
     <string name="open_page_failed">Falha ao abrir a página!</string>
@@ -725,4 +725,11 @@ Que é necessário para escanear o código QR.</string>
     <string name="submit_comment_user_style">
  &lt;font cor=#007AFF&gt;@%1$s&lt;/font&gt;</string>
 
+<string name="pre_register_ok">OK</string>
+    <string name="copy_username">Copiar apelido</string>
+    <string name="copy_content">Copiar Conteúdo</string>
+
+    <string name="tab_global">Recomendado</string>
+    <string name="comment_list_see_here">Última visita aqui, toque para atualizar</string>
+    <string name="comment_list_new_num">%d Novas Histórias</string>
 </resources>

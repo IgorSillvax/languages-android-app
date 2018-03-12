@@ -2,20 +2,20 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
     <string name="action_settings">الإعدادات</string>
-    <string name="action_search">بحث</string>
-    <string name="action_management">إدارة</string>
+    <string name="action_search">إبحث</string>
+    <string name="action_management">الإدارة</string>
 
     <string name="press_back_key_quit">اضغط على زر الرجوع مرة أخرى للخروج .</string>
 
-    <string name="featured">وصف</string>
+    <string name="featured">مميز</string>
     <string name="games">الألعاب</string>
     <string name="apps">التطبيقات</string>
-    <string name="categories">فئات</string>
+    <string name="categories">الفئات</string>
     <string name="updates">تحديثات</string>
 
     <string name="something_happened">&gt;_&lt;\nشيء ما حدث.</string>
 
-    <string name="load_failed_error">عذراً ! حدث خطأ .</string>
+    <string name="load_failed_error">عذراً ! حدث خطأ ما.</string>
     <string name="load_failed_empty">لايوجد شيء هنا.</string>
     <string name="load_failed_all_up_to_date">جميع التطبيقات محدثة.</string>
     <string name="load_failed_no_results">عذراً ! لاتوجد نتائج .</string>
@@ -131,7 +131,7 @@
     <string name="want_to_remove_download_item">هل تريد حذف هذا الملف من القائمة؟</string>
 
     <string name="search">بحث</string>
-    <string name="search_for_apps">البحث عن تطبيقات</string>
+    <string name="search_for_apps">البحث في APKPure</string>
     <string name="trending_searches">عمليات البحث الشائعة</string>
 
     <string name="improvement_plan_title">خطة تحسين الأداء</string>
@@ -177,7 +177,7 @@
     </string>
 
     <string name="share">مشاركة التطبيق</string>
-    <string name="share_app_url">تحميل تطبيق <xliff:g id="app_name" example="APKPure">%1$s</xliff:g>"  (عبر @"<xliff:g id="social_network_name" example="APKPure">%2$s</xliff:g>), <xliff:g id="app_url" example="https://apkpure.com/p/com.apkpure.aegon">%3$s</xliff:g></string>
+    <string name="share_app_url">مشاركة تطبيق <xliff:g id="app_name" example="APKPure">%1$s</xliff:g>"  (عبر @"<xliff:g id="social_network_name" example="APKPure">%2$s</xliff:g>), <xliff:g id="app_url" example="https://apkpure.com/p/com.apkpure.aegon">%3$s</xliff:g></string>
 
     <string name="_name__version_history">إصدارات سابقة لـ<xliff:g example="APKPure" id="name">%1$s</xliff:g></string>
     <string name="update__date___size_">تحديث: <xliff:g id="date" example="Mar 3, 2016">%1$s</xliff:g>, <xliff:g id="size" example="1024 kB">%2$s</xliff:g></string>
@@ -195,22 +195,22 @@
     <string name="ignored">تم تجاهله</string>
     <plurals name="total__count__apps__size_">
 	<item quantity="zero">"
- المجموع: &lt;b&gt;&lt;font color=%1$d&gt;%2$d&lt;/font&gt;&lt;/b&gt; تطبيق , &lt;b&gt;&lt;font color=%1$d&gt;%3$s&lt;/font&gt;&lt;/b&gt;
+ &lt;b&gt;&lt;font color=%1$d&gt;&lt;/font&gt;&lt;/b&gt; لاتوجد تطبيقات , &lt;b&gt;&lt;font color=%1$d&gt;%3$s&lt;/font&gt;&lt;/b&gt;
  "</item>
 	<item quantity="one">"
- المجموع : &lt;b&gt;&lt;font color=%1$d&gt;%2$d&lt;/font&gt;&lt;/b&gt; تطبيق, &lt;b&gt;&lt;font color=%1$d&gt;%3$s&lt;/font&gt;&lt;/b&gt;
+ المجموع: &lt;b&gt;&lt;font color=%1$d&gt;%2$d&lt;/font&gt;&lt;/b&gt; تطبيق, &lt;b&gt;&lt;font color=%1$d&gt;%3$s&lt;/font&gt;&lt;/b&gt;
  "</item>
 	<item quantity="two">"
- المجموع : &lt;b&gt;&lt;font color=%1$d&gt;%2$d&lt;/font&gt;&lt;/b&gt; تطبيق , &lt;b&gt;&lt;font color=%1$d&gt;%3$s&lt;/font&gt;&lt;/b&gt;
+ المجموع : &lt;b&gt;&lt;font color=%1$d&gt;%2$d&lt;/font&gt;&lt;/b&gt; تطبيق,&lt;b&gt;&lt;font color=%1$d&gt;%3$s&lt;/font&gt;&lt;/b&gt;
  "</item>
 	<item quantity="few">"
- المجموع : &lt;b&gt;&lt;font color=%1$d&gt;%2$d&lt;/font&gt;&lt;/b&gt; تطبيق, &lt;b&gt;&lt;font color=%1$d&gt;%3$s&lt;/font&gt;&lt;/b&gt;
+ المجموع :هنالك &lt;b&gt;&lt;font color=%1$d&gt;%2$d&lt;/font&gt;&lt;/b&gt; تطبيقات, &lt;b&gt;&lt;font color=%1$d&gt;%3$s&lt;/font&gt;&lt;/b&gt;
  "</item>
 	<item quantity="many">"
- المجموع: &lt;b&gt;&lt;font color=%1$d&gt;%2$d&lt;/font&gt;&lt;/b&gt; تطبيق  , &lt;b&gt;&lt;font color=%1$d&gt;%3$s&lt;/font&gt;&lt;/b&gt;
+ المجموع:&lt;b&gt;&lt;font color=%1$d&gt;%2$d&lt;/font&gt;&lt;/b&gt; تطبيقات, &lt;b&gt;&lt;font color=%1$d&gt;%3$s&lt;/font&gt;&lt;/b&gt;
  "</item>
 	<item quantity="other">"
- المجموع: &lt;b&gt;&lt;font color=%1$d&gt;%2$d&lt;/font&gt;&lt;/b&gt; تطبيق, &lt;b&gt;&lt;font color=%1$d&gt;%3$s&lt;/font&gt;&lt;/b&gt;
+ المجموع:هنالك &lt;b&gt;&lt;font color=%1$d&gt;%2$d&lt;/font&gt;&lt;/b&gt; تطبيق, &lt;b&gt;&lt;font color=%1$d&gt;%3$s&lt;/font&gt;&lt;/b&gt;
  "</item>
 </plurals>
     <string name="total_zero_app">
@@ -223,7 +223,7 @@
     <string name="delete_all">حذف الكل</string>
     <string name="want_to_delete_all_files">هل تريد حذف جميع الملفات؟</string>
     <string name="flag_as_inappropriate">تحديد كغير مناسب</string>
-    <string name="pause_all">ايقاف الجميع</string>
+    <string name="pause_all">ايقاف مؤقت للجميع</string>
     <string name="continue_all">استكمال الجميع</string>
     <string name="waiting_to_download">بانتظار التحميل</string>
     <string name="deleted">تم الحذف</string>
@@ -244,7 +244,7 @@
     <string name="touch_to_open">انقر للتشغيل.</string>
 
     <string name="report_content">تبليغ عن محتوى</string>
-<string name="recommend">إكتشاف</string>
+<string name="recommend">إكتشف</string>
     <string name="similar_or_related">مشابه او ذي صلة</string>
     <string name="more_from_developer">المزيد من المطور</string>
     <string name="more_large">المزيد</string>
@@ -259,7 +259,7 @@
     <string name="report">تبليغ</string>
     <string name="feedback">الدعم</string>
 
-    <string name="share_app_url_comment"> تعليقات <xliff:g example="APKPure" id="user_name">%1$s</xliff:g>" على  "<xliff:g example="APKPure" id="app_name">%2$s</xliff:g> (عبر @<xliff:g example="APKPure" id="social_network_name">%3$s</xliff:g>), <xliff:g example="https://apkpure.com/p/com.apkpure.aegon" id="app_url">%4$s</xliff:g></string>
+    <string name="share_app_url_comment"> <xliff:g example="APKPure" id="user_name">%1$s</xliff:g>علق على <xliff:g example="APKPure" id="app_name">%2$s</xliff:g> : <xliff:g example="APKPure" id="app_name">%3$s</xliff:g> (عبر @<xliff:g example="APKPure" id="social_network_name">%4$s</xliff:g>) <xliff:g example="https://apkpure.com/p/com.apkpure.aegon" id="app_url">%5$s</xliff:g></string>
 
     <string name="login_post_as_a_guest">نشر كزائر</string>
 
@@ -411,7 +411,7 @@
 
     <string name="is_comment">التعليق هو…</string>
     <string name="comment_cancel">تم الغاء التعليق</string>
-    <string name="comment_replying">الرد</string>
+    <string name="comment_replying">يتم الرد…</string>
     <string name="register_term_of_service">شروط الخدمة لـ APKPure</string>
 
     <string name="set_contributor">المساهمون</string>
@@ -446,7 +446,7 @@
     <string name="app_detail_comment_order_array_default">اللغه العربيه</string>
     <string name="app_detail_comment_order_array_most_recent">مؤخرا</string>
     <string name="app_detail_comment_order_array_new">الأحدث</string>
-    <string name="message_all">الكل</string>
+    <string name="message_all">جميع</string>
     <string name="message_reply">الردود</string>
     <string name="message_praise">إعجاب</string>
     <string name="message_notifications_praise">تصويت تعليقك للأعلى</string>
@@ -496,14 +496,14 @@
     <string name="user_info_edit_large_photo">عرض الصورة في حجم أكبر</string>
 
     <string name="push_title_info_follow">"%s  يتابعك!"</string>
-    <string name="push_title_info_update">وصل تحديث لـ APKPure</string>
-    <string name="share_app_url_group"> <xliff:g example="APKPure" id="app_name">%1$s</xliff:g> Group. (from @<xliff:g example="APKPure" id="social_network_name">%2$s</xliff:g>), <xliff:g example="https://apkpure.com/p/com.apkpure.aegon" id="app_url">%3$s</xliff:g></string>
+    <string name="push_title_info_update">وصل تحديث لـ APKPure!</string>
+    <string name="share_app_url_group"> مجموعة <xliff:g example="APKPure" id="app_name">%1$s</xliff:g> . (عبر @<xliff:g example="APKPure" id="social_network_name">%2$s</xliff:g>) <xliff:g example="https://apkpure.com/p/com.apkpure.aegon" id="app_url">%3$s</xliff:g></string>
 
     <string name="push_content_info_update">اصدار جديد %s صدر! حدث الان!</string>
 
     <string name="like_notification">إشعارات التصويت كمفيد</string>
     <string name="like_notification_msg">تلقي الإخطارات للرسائل أوبفوت جديدة</string>
-    <string name="gif_tip">gif</string>
+    <string name="gif_tip">صور متحركه</string>
     <string name="ad_tip">اعلان</string>
     <string name="submit_comment_title_hint">الموضوع (اختياري)</string>
 
@@ -513,7 +513,7 @@
 
     <string name="comment_no_reply">نجاح باهر، لا يوجد شيء هنا.</string>
     <string name="comment_reply_info_name">التفاصيل</string>
-    <string name="set_updates_notification">تحديثات التطبيق المتاحة</string>
+    <string name="set_updates_notification">تحديثات متاحة</string>
     <string name="set_updates_notification_msg">إعلام عندما تتوفر تحديثات التطبيق. الإعداد الموصى به: تشغيل</string>
     <string name="app_detail_unknow_text">الإصدار القديم APKPure لا يدعم ميزات جديدة، يرجى تحديث إلى أحدث.</string>
     <string name="comment_detail_original">عرض التعليق الأصلي &gt;</string>
@@ -570,7 +570,7 @@
     <string name="ranking_tab1_title">أفضل الألعاب</string>
     <string name="ranking_tab2_title">أعلى الألعاب الجديدة</string>
     <string name="ranking_tab3_title">أفضل التطبيقات</string>
-    <string name="load_failed_error_not_found">التطبيق غير المدرجة في متجر apkpure !</string>
+    <string name="load_failed_error_not_found">التطبيق غير مدرج في متجر APKPure !</string>
     <string name="beta">تجريبي</string>
     <string name="user_info_edit_intro_tv">عني</string>
     <string name="update_intro_title">تعديل عني</string>
@@ -579,9 +579,68 @@
 
     <string name="user_name_null">اسم المستخدم غير صالح</string>
     <string name="tab_group">مجموعة</string>
-    <string name="ranking_tab4_title">اعلى التطبيقات الجديدة</string>
+    <string name="ranking_tab4_title">أفضل التطبيقات الجديدة</string>
 
     <string name="message_at_title">يذكر</string>
     <string name="message_at">قام بذكرك</string>
 
+    <string name="set_open_source_licence">رخصة مفتوحة المصدر</string>
+
+    <string name="push_title_info_at">شخص ما قد أشار إليك في منشور, أنقر للعرض</string>
+
+    <plurals name="comment_reply_item_fold">
+	<item quantity="zero"><xliff:g example="1" id="count">%1$d</xliff:g> رد تم اغلاقة</item>
+	<item quantity="one"><xliff:g example="2" id="count">%1$d</xliff:g> من الردود تم اغلاقها</item>
+	<item quantity="two"><xliff:g example="2" id="count">%1$d</xliff:g> ردود تم اغلاقها</item>
+	<item quantity="few"><xliff:g example="2" id="count">%1$d</xliff:g>من الردود تمت إغلاقها</item>
+	<item quantity="many"><xliff:g example="2" id="count">%1$d</xliff:g> رد تم إغلاقه</item>
+	<item quantity="other"><xliff:g example="2" id="count">%1$d</xliff:g> رد تم اغلاقهم</item>
+</plurals>
+
+    <string name="main_good_comments">أعبجني</string>
+    <string name="cancel_collection">إزالة من المفضلة</string>
+
+    <string name="ranking_top_countries_title">أفضل بلدان</string>
+    <string name="ranking_top_develop_title">أفضل مطورين</string>
+
+    <string name="app_detail_three_fragment_foot">عرض كافة التعليقات</string>
+    <string name="menu_paste">لصق</string>
+
+    <string name="favorite_title">إضافة للمفضلة</string>
+    <string name="save_as_favorite">حفظ كمفضلة</string>
+    <string name="favorite_saved">تم حفظ المفضلة</string>
+    <string name="failed_to_save_favorite">فشل في حفظ المفضلة</string>
+    <string name="remove_as_favorite">إزالة من المفضلة</string>
+    <string name="remove_failed">فشلت الإزالة</string>
+
+    <string name="collection_comment">منشور</string>
+    <string name="collection_app">تطبيقات</string>
+
+    <string name="open_with_browser">فتح في المصفح</string>
+    <string name="web_view_refresh">تحديث</string>
+
+    <string name="topic_red_color">أحمر قرمزي</string>
+    <string name="topic_green_color">الأخضر</string>
+    <string name="topic_blue_color">أزرق سمائي</string>
+    <string name="topic_purple_color">بنفسجي داكن</string>
+    <string name="topic_purple_black">رمادي</string>
+    <string name="topic_purple_yellow">برتقالي</string>
+    <string name="topic_purple_blue_gary">أزرق حربي</string>
+    <string name="topic_switch_failed">فشل تغير الثمات</string>
+
+    <string name="recommend_title">التوصيات</string>
+    <string name="recommend_tab_game">إقترح تطبيق</string>
+    <string name="recommend_tab_list">مقترح</string>
+    <string name="recommend_installed_list_title">تطبيقاتي</string>
+    <string name="recommend_review">عرض</string>
+    <string name="recommend_replace_img">تغير الصورة</string>
+    <string name="recommend_app_name">عنوان التطبيق</string>
+    <string name="recommend_state_can">إقترح</string>
+    <string name="recommend_state_success">مقترح</string>
+    <string name="recommend_select_game">إقترح تطبيق</string>
+    <string name="recommend_write_des">الوصف</string>
+    <string name="recommend_write_des_hint">مراجعتك المفيدة ستمر رؤيتها من قبل العديد من المستخدمين اللذين يملكون اهتمامات مشابه لك.</string>
+    <string name="recommend_comment">إرسال</string>
+    <string name="recommend_comment_error">حدث خطاء ما !</string>
+    <string name="recommend_description_title">تعليمات :</string>
     </resources>

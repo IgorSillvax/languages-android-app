@@ -166,7 +166,7 @@
     </string>
 
     <string name="share">Teilen</string>
-    <string name="share_app_url">Lade <xliff:g example="APKPure" id="app_name">%1$s</xliff:g> APK (from @<xliff:g example="APKPure" id="social_network_name">%2$s</xliff:g>), <xliff:g example="https://apkpure.com/p/com.apkpure.aegon" id="app_url">%3$s</xliff:g> herunter</string>
+    <string name="share_app_url">Teilen <xliff:g example="APKPure" id="app_name">%1$s</xliff:g> APK (from @<xliff:g example="APKPure" id="social_network_name">%2$s</xliff:g>), <xliff:g example="https://apkpure.com/p/com.apkpure.aegon" id="app_url">%3$s</xliff:g> herunter</string>
 
     <string name="_name__version_history"><xliff:g example="APKPure" id="name">%1$s</xliff:g> Versionsgeschichte</string>
     <string name="update__date___size_">Aktualisierung: <xliff:g example="Mar 3, 2016" id="date">%1$s</xliff:g>, <xliff:g example="1024 kB" id="size">%2$s</xliff:g></string>
@@ -627,7 +627,7 @@ erlaubt werden.</string>
 
     <string name="tag_list">Tag-Liste</string>
     <string name="hot_tag">Heiße Tags</string>
-    <string name="common_use">Beliebte Tags</string>
+    <string name="common_use">Meine Tags</string>
     <string name="app_add_tag_hint_caution">Nicht mehr als %s Tags für jede Anwendung.</string>
     <string name="app_add_tag">Einen neuen Tag hinzufügen</string>
     <string name="toast_app_tag_exist">Tag existiert bereits!</string>
@@ -644,7 +644,7 @@ erlaubt werden.</string>
 
     <string name="share_apk">APK teilen</string>
     <string name="tab_apk">APK</string>
-    <string name="commentaries">Kommentare</string>
+    <string name="commentaries">Teile einen Kommentar</string>
 
     <string name="upload_apk_version">V. %s</string>
     <string name="upload_apk_downloads">Downloads: %s</string>
@@ -653,17 +653,17 @@ erlaubt werden.</string>
     <string name="upload_comment_upload_success">%s erfolgreich hochgeladen</string>
     <string name="upload_comment_upload_failed">Fehler bei %s</string>
     <string name="upload_comment_view">Klicken, um anzusehen</string>
-    <string name="upload_comment_reload">Klicken, um zu neu zu laden</string>
+    <string name="upload_comment_reload">Klicken, um erneut hochzuladen</string>
     <string name="upload_notification_pause">Pause</string>
     <string name="upload_notification_start">Start</string>
     <string name="upload_notification_cancel">Abbrechen</string>
-    <string name="upload_notification_is_uploading">Lädt hoch</string>
-    <string name="upload_notification_is_pause">Upload pausiert</string>
+    <string name="upload_notification_is_uploading">Lädt Paket auf APKPure hoch…</string>
+    <string name="upload_notification_is_pause">Hochladen pausiert</string>
     <string name="upload_add_list_toast">Dein Kommentar ist in der Warteschlange!</string>
     <string name="download_mkdir_internal_storage_values">internal_storage</string>
     <string name="download_mkdir_external_storage_values">external_storage</string>
 
-<string name="share_app_url_group"> <xliff:g example="APKPure" id="app_name">%1$s</xliff:g> Group. (from @<xliff:g example="APKPure" id="social_network_name">%2$s</xliff:g>), <xliff:g example="https://apkpure.com/p/com.apkpure.aegon" id="app_url">%3$s</xliff:g> Gruppe</string>
+<string name="share_app_url_group">" &lt;xliff:g xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\" example=\"APKPure\" id=\"social_network_name\"&gt; &lt;xliff:g xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\" example=\"APKPure\" id=\"app_name\"&gt;%1$s&lt;/xliff:g&gt; Group. (from @&lt;xliff:g xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\" example=\"APKPure\" id=\"social_network_name\"&gt;%2$s&lt;/xliff:g&gt;), &lt;xliff:g xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\" example=\"https://apkpure.com/p/com.apkpure.aegon\" id=\"app_url\"&gt;%3$s&lt;/xliff:g&gt; Gruppe"<xliff:g example="APKPure" id="app_name">%1$s</xliff:g> Group. (from @<xliff:g example="APKPure" id="social_network_name">%2$s</xliff:g>), <xliff:g example="https://apkpure.com/p/com.apkpure.aegon" id="app_url">%3$s</xliff:g> Gruppe</string>
 
     <string name="message_at_title">Erwähnung</string>
     <string name="message_at">hat dich erwähnt</string>
@@ -677,4 +677,34 @@ erlaubt werden.</string>
 
     <string name="google_play_bug_text">Auf Google Play kaufen</string>
 
+    <string name="cancel_collection">Favorit entfernen</string>
+
+    <string name="hot_tag_explain">(Stimme für bestehende Tags dieser App ab oder füge welche hinzu)</string>
+    <string name="your_reply_comment">Deine Antwort</string>
+
+    <string name="market_ad_tab_one">Beliebt</string>
+    <string name="market_ad_tab_two">Spiele</string>
+    <string name="market_ad_tab_three">Werkzeuge</string>
+
+    <string name="tag">Tag</string>
+
+    <string name="search_tab_name_one">APPS</string>
+    <string name="search_tab_name_two">BENUTZER</string>
+    <string name="pre_register_ok">Okay</string>
+    <string name="pre_register_bt">Vor-Register</string>
+    <string name="pre_registered_bt">Registriert</string>
+    <string name="pre_register_link_title">Vor-Register-Seite</string>
+    <string name="pre_register_gift_tv">Register Belohnungen</string>
+    <string name="pre_register_success">Vor-Registrierung meint, dass du eine Nachricht auf dein Gerät erhalten wirst, wenn die App veröffentlicht ist.</string>
+
+    <string name="open_page_failed">Öffnen der Seite fehlgeschlagen!</string>
+    <string name="search_for_user">Suchen</string>
+    <string name="search_user_history_title">Neuste Kontakte</string>
+    <string name="search_focus_list_title">Gefolgt</string>
+
+    <string name="copy_username">Kopieren des Benutzernamens</string>
+    <string name="copy_content">Kopieren des Inhalts</string>
+
+    <string name="tab_global">Empfohlen</string>
+    <string name="comment_list_see_here">Zuletzt besucht hier, drücke zum Aktualisieren</string>
     </resources>
