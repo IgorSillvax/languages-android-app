@@ -406,11 +406,11 @@
     <string name="user_info_edit_portrait_tv">Аватар</string>
     <string name="user_info_edit_not_choose">Неизвестно</string>
     <plurals name="app_detail_see_all_replies">
-	<item quantity="one">Смотреть ещё <xliff:g example="1" id="count">%1$d</xliff:g> ответ</item>
-	<item quantity="few">Смотреть ещё <xliff:g example="1" id="count">%1$d</xliff:g> ответа</item>
-	<item quantity="many">Смотреть все <xliff:g example="2" id="count">%1$d</xliff:g> ответов</item>
-	<item quantity="other"/>
-</plurals>
+        <item quantity="one">Смотреть ещё <xliff:g example="1" id="count">%1$d</xliff:g> ответ</item>
+        <item quantity="few">Смотреть ещё <xliff:g example="1" id="count">%1$d</xliff:g> ответа</item>
+        <item quantity="many">Смотреть все <xliff:g example="2" id="count">%1$d</xliff:g> ответов</item>
+        <item quantity="other"/>
+    </plurals>
 
     <string name="app_detail_comment_type_web">web</string>
     <string name="app_detail_comment_order_array_default">Сортировать по умолчанию</string>
@@ -465,18 +465,18 @@
     <string name="push_title_info_reply">%s ответил на Ваш комментарий!</string>
     <string name="push_title_info_upvoted">%s поднял рейтинг Вашего комментария!</string>
     <plurals name="comment_reply_item_fold">
-	<item quantity="one"><xliff:g example="1" id="count">%1$d</xliff:g> ответ был свёрнут</item>
-	<item quantity="few"><xliff:g example="1" id="count">%1$d</xliff:g> ответа были свёрнуты</item>
-	<item quantity="many"><xliff:g example="2" id="count">%1$d</xliff:g> ответов были свёрнуты</item>
-	<item quantity="other"/>
-</plurals>
+        <item quantity="one"><xliff:g example="1" id="count">%1$d</xliff:g> ответ был свёрнут</item>
+        <item quantity="few"><xliff:g example="1" id="count">%1$d</xliff:g> ответа были свёрнуты</item>
+        <item quantity="many"><xliff:g example="2" id="count">%1$d</xliff:g> ответов были свёрнуты</item>
+        <item quantity="other"/>
+    </plurals>
 
     <string name="comment_no_reply">Ой, здесь ничего нет.</string>
     <string name="comment_reply_info_name">Детали</string>
     <string name="set_updates_notification">Доступны обновления приложений</string>
     <string name="set_updates_notification_msg">Уведомлять, когда доступны обновления приложений. Рекомендуемая настройка: Вкл.</string>
     <string name="app_detail_unknow_text">Старая версия APKPure не поддерживает новые функции, пожалуйста, обновите до последней версии.</string>
-    <string name="comment_detail_original">Просмотреть исходный комментарий &gt;</string>
+    <string name="comment_detail_original">Просмотреть исходный комментарий</string>
     <string name="comment_comment_newest">Новейший</string>
     <string name="comment_comment_oldest">Старейший</string>
 
@@ -493,7 +493,7 @@
 
     <string name="delete_the_historical_record">Удалить записи из истории?</string>
     <string name="sub_comment_dialog_des_tv">Поддержка для разбора только YouTube URL-адресов</string>
-<string name="check_update_replace">Официальная версия</string>
+    <string name="check_update_replace">Официальная версия</string>
     <string name="download_mkdir_external_storage_values">Внешнее хранилище</string>
 
     <string name="check_update_beta">Предрелизная Бета</string>
@@ -683,7 +683,7 @@
 
     <string name="upload_apk_version">V %s</string>
     <string name="upload_apk_downloads">Скачиваний: %s</string>
-    
+
     <string name="upload_comment_uploading">%s Загрузка…</string>
     <string name="upload_comment_upload_success">%s Успешно загружено</string>
     <string name="upload_comment_upload_failed">%s Ошибка загрузки</string>
@@ -722,9 +722,7 @@
     <string name="search_user_history_title">Последние контакты</string>
     <string name="search_focus_list_title">Подписан</string>
 
-    <string name="submit_comment_user_style">
- &lt;font color=#007AFF&gt;@%1$s&lt;/font&gt;</string>
-
+    <string name="submit_comment_user_style"><![CDATA[<font color="#007AFF">@%1$s</font>]]></string>
     <string name="copy_username">Копировать ник</string>
     <string name="copy_content">Скопировать содержимое</string>
 

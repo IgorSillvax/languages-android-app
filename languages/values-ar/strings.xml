@@ -87,26 +87,26 @@
     <string name="no_more">لايوجد مزيد .</string>
 
     <string name="update">تحديث</string>
-    <string name="version__version___size_">الإصدار: <xliff:g id="version" example="1.0.0">%1$s</xliff:g>, <xliff:g id="size" example="1024 kB">%2$s</xliff:g></string>
+    <string name="version__version___size_">الإصدار: <xliff:g example="1.0.0" id="version">%1$s</xliff:g>, <xliff:g example="1024 kB" id="size">%2$s</xliff:g></string>
     <plurals name="_count__new_update_is_available">
-	<item quantity="zero"><xliff:g example="1" id="count">%1$d</xliff:g> تطبيق بحاجة الى تحديث</item>
-	<item quantity="one">هنالك <xliff:g id="count" example="1">%1$d</xliff:g> تحديث</item>
-	<item quantity="two">هنالك <xliff:g id="count" example="1">%1$d</xliff:g> تحديث جديد</item>
-	<item quantity="few">يتوفر <xliff:g id="count" example="1">%1$d</xliff:g> تحديثات جديدة</item>
-	<item quantity="many">يتوفر <xliff:g id="count" example="1">%1$d</xliff:g> تحديث جديد</item>
-	<item quantity="other">هنالك <xliff:g id="count" example="1">%1$d</xliff:g> تطبيق بحاجة الى تحديث</item>
-</plurals>
+        <item quantity="zero"><xliff:g example="1" id="count">%1$d</xliff:g> تطبيق بحاجة الى تحديث</item>
+        <item quantity="one">هنالك <xliff:g example="1" id="count">%1$d</xliff:g> تحديث</item>
+        <item quantity="two">هنالك <xliff:g example="1" id="count">%1$d</xliff:g> تحديث جديد</item>
+        <item quantity="few">يتوفر <xliff:g example="1" id="count">%1$d</xliff:g> تحديثات جديدة</item>
+        <item quantity="many">يتوفر <xliff:g example="1" id="count">%1$d</xliff:g> تحديث جديد</item>
+        <item quantity="other">هنالك <xliff:g example="1" id="count">%1$d</xliff:g> تطبيق بحاجة الى تحديث</item>
+    </plurals>
 
     <string name="launching_please_wait">جاري التشغيل, رجاءا إنتظر …</string>
 
     <plurals name="_count__item_is_downloading">
-	<item quantity="zero">يوجد <xliff:g id="count" example="1">%1$d</xliff:g> عنصر يتم تحميله</item>
-	<item quantity="one">هنالك <xliff:g id="count" example="2">%1$d</xliff:g> عنصر يتم تحميله</item>
-	<item quantity="two">هنالك <xliff:g id="count" example="2">%1$d</xliff:g>"  عنصريتم تحميله"</item>
-	<item quantity="few">هنالك <xliff:g id="count" example="2">%1$d</xliff:g>عناصر يتم تحميلها</item>
-	<item quantity="many">هنالك <xliff:g id="count" example="2">%1$d</xliff:g>عنصر يتم تحميله</item>
-	<item quantity="other">يتم تحميل <xliff:g id="count" example="2">%1$d</xliff:g>عنصر</item>
-</plurals>
+        <item quantity="zero">يوجد <xliff:g example="1" id="count">%1$d</xliff:g> عنصر يتم تحميله</item>
+        <item quantity="one">هنالك <xliff:g example="2" id="count">%1$d</xliff:g> عنصر يتم تحميله</item>
+        <item quantity="two">هنالك <xliff:g example="2" id="count">%1$d</xliff:g>"  عنصريتم تحميله"</item>
+        <item quantity="few">هنالك <xliff:g example="2" id="count">%1$d</xliff:g>عناصر يتم تحميلها</item>
+        <item quantity="many">هنالك <xliff:g example="2" id="count">%1$d</xliff:g>عنصر يتم تحميله</item>
+        <item quantity="other">يتم تحميل <xliff:g example="2" id="count">%1$d</xliff:g>عنصر</item>
+    </plurals>
     <string name="downloads_complete">تم الإنتهاء من التحميل</string>
     <string name="touch_for_view_all_downloads">إنقر هنا لعرض جميع التحميلات</string>
     <string name="_name__download_failed">فشل تحميل <xliff:g id="name" example="APKPure">%1$s</xliff:g></string>
@@ -150,11 +150,7 @@
     <string name="report__">الإبلاغ…</string>
     <string name="report_problem__">التبليغ عن مشكلة…</string>
     <string name="report_problem_subject">التبليغ عن مشكلة</string>
-    <string name="report_problem_text">موضوع المشكلة :
-%1$s
-
-تفاصيل المشكلة:
-%2$s</string>
+    <string name="report_problem_text">موضوع المشكلة :%1$sتفاصيل المشكلة:%2$s</string>
 
     <string name="installation_failed">فشل التثبيت</string>
     <string name="invalid_app_detail">معلومات التطبيق غير صالحة.</string>
@@ -182,7 +178,7 @@
     <string name="_name__version_history">إصدارات سابقة لـ<xliff:g example="APKPure" id="name">%1$s</xliff:g></string>
     <string name="update__date___size_">تحديث: <xliff:g id="date" example="Mar 3, 2016">%1$s</xliff:g>, <xliff:g id="size" example="1024 kB">%2$s</xliff:g></string>
     <string name="properties">خصائص</string>
-        <string name="properties_message"> <![CDATA[<b>المسار :</b> %1$s<br><b>حجم:</b> %2$s<br><b>أخر تعديل:</b> %3$s]]></string>
+    <string name="properties_message"> <![CDATA[<b>المسار :</b> %1$s<br><b>حجم:</b> %2$s<br><b>أخر تعديل:</b> %3$s]]></string>
 
     <string name="delete_downloaded_file">حذف الملف المحمل</string>
 
@@ -194,25 +190,25 @@
     <string name="cancel">الغاء</string>
     <string name="ignored">تم تجاهله</string>
     <plurals name="total__count__apps__size_">
-	<item quantity="zero">"
- &lt;b&gt;&lt;font color=%1$d&gt;&lt;/font&gt;&lt;/b&gt; لاتوجد تطبيقات , &lt;b&gt;&lt;font color=%1$d&gt;%3$s&lt;/font&gt;&lt;/b&gt;
- "</item>
-	<item quantity="one">"
- المجموع: &lt;b&gt;&lt;font color=%1$d&gt;%2$d&lt;/font&gt;&lt;/b&gt; تطبيق, &lt;b&gt;&lt;font color=%1$d&gt;%3$s&lt;/font&gt;&lt;/b&gt;
- "</item>
-	<item quantity="two">"
- المجموع : &lt;b&gt;&lt;font color=%1$d&gt;%2$d&lt;/font&gt;&lt;/b&gt; تطبيق,&lt;b&gt;&lt;font color=%1$d&gt;%3$s&lt;/font&gt;&lt;/b&gt;
- "</item>
-	<item quantity="few">"
- المجموع :هنالك &lt;b&gt;&lt;font color=%1$d&gt;%2$d&lt;/font&gt;&lt;/b&gt; تطبيقات, &lt;b&gt;&lt;font color=%1$d&gt;%3$s&lt;/font&gt;&lt;/b&gt;
- "</item>
-	<item quantity="many">"
- المجموع:&lt;b&gt;&lt;font color=%1$d&gt;%2$d&lt;/font&gt;&lt;/b&gt; تطبيقات, &lt;b&gt;&lt;font color=%1$d&gt;%3$s&lt;/font&gt;&lt;/b&gt;
- "</item>
-	<item quantity="other">"
- المجموع:هنالك &lt;b&gt;&lt;font color=%1$d&gt;%2$d&lt;/font&gt;&lt;/b&gt; تطبيق, &lt;b&gt;&lt;font color=%1$d&gt;%3$s&lt;/font&gt;&lt;/b&gt;
- "</item>
-</plurals>
+        <item quantity="zero">
+            <![CDATA[المجموع: <b><font color="%1$d">%2$d</font></b>  تطبيق, <b><font color="%1$d">%3$s</font></b>]]>
+        </item>
+        <item quantity="one">
+            <![CDATA[المجموع: <b><font color="%1$d">%2$d</font></b>  تطبيق, <b><font color="%1$d">%3$s</font></b>]]>
+        </item>
+        <item quantity="two">
+            <![CDATA[المجموع: <b><font color="%1$d">%2$d</font></b>  تطبيق, <b><font color="%1$d">%3$s</font></b>]]>
+        </item>
+        <item quantity="few">
+            <![CDATA[المجموع: <b><font color="%1$d">%2$d</font></b>  تطبيق, <b><font color="%1$d">%3$s</font></b>]]>
+        </item>
+        <item quantity="many">
+            <![CDATA[المجموع: <b><font color="%1$d">%2$d</font></b>  تطبيق, <b><font color="%1$d">%3$s</font></b>]]>
+        </item>
+        <item quantity="other">
+            <![CDATA[المجموع: <b><font color="%1$d">%2$d</font></b>  تطبيق, <b><font color="%1$d">%3$s</font></b>]]>
+        </item>
+    </plurals>
     <string name="total_zero_app">
         <![CDATA[المجموع : <b><font color="%1$d">0</font></b> تطبيق.]]>
     </string>
@@ -244,7 +240,7 @@
     <string name="touch_to_open">انقر للتشغيل.</string>
 
     <string name="report_content">تبليغ عن محتوى</string>
-<string name="recommend">إكتشف</string>
+    <string name="recommend">إكتشف</string>
     <string name="similar_or_related">مشابه او ذي صلة</string>
     <string name="more_from_developer">المزيد من المطور</string>
     <string name="more_large">المزيد</string>
@@ -263,7 +259,7 @@
 
     <string name="login_post_as_a_guest">نشر كزائر</string>
 
-<string name="changing_language">يتم تغيير اللغه, الرجاء الانتظار…</string>
+    <string name="changing_language">يتم تغيير اللغه, الرجاء الانتظار…</string>
     <string name="download_via_wifi_only">تحميل عبر شبكة Wi-Fi فقط</string>
     <string name="enable_ultra_download">تفعيل التحميل السريع</string>
     <string name="enable_ultra_download_summary">التحميل السريع لازال في وضع التجريب,قم بإعلامنا في حال مواجهتك لاي مشكله.</string>
@@ -300,13 +296,13 @@
     <string name="auto_install_via_root_summary">لهواتف اندرويد و الاجهزة الوحية التي تملك صلاحيات Root .</string>
 
     <plurals name="app_detail_see_all_replies">
-	<item quantity="zero">رؤية<xliff:g example="1" id="count">%1$d</xliff:g> رد</item>
-	<item quantity="one">رؤية <xliff:g example="1" id="count"/>رد</item>
-	<item quantity="two">رؤية <xliff:g example="2" id="count"/> رد</item>
-	<item quantity="few">رؤية كافة <xliff:g example="2" id="count"/> رد</item>
-	<item quantity="many">رؤية جميع الـ <xliff:g example="2" id="count">%1$d</xliff:g> رد</item>
-	<item quantity="other">رؤية كافة الـ<xliff:g example="1" id="count">%1$d</xliff:g>رد</item>
-</plurals>
+        <item quantity="zero">رؤية<xliff:g example="1" id="count">%1$d</xliff:g> رد</item>
+        <item quantity="one">رؤية <xliff:g example="1" id="count"/>رد</item>
+        <item quantity="two">رؤية <xliff:g example="2" id="count"/> رد</item>
+        <item quantity="few">رؤية كافة <xliff:g example="2" id="count"/> رد</item>
+        <item quantity="many">رؤية جميع الـ <xliff:g example="2" id="count">%1$d</xliff:g> رد</item>
+        <item quantity="other">رؤية كافة الـ<xliff:g example="1" id="count">%1$d</xliff:g>رد</item>
+    </plurals>
 
     <string name="app_detail_customer_reviews">تعليقات</string>
     <string name="app_detail_comment_type_web">web</string>
@@ -344,8 +340,7 @@
     <string name="reply_dialog_marked_words">ضغط بشكل مطول على الصورة لحذفها.</string>
     <string name="reply_comment">رد على التعليق</string>
     <string name="save_original_image">حفظ</string>
-    <string name="already_save">تم الحفظ &lt;xliff:g xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\"example=\"ApKPure/photo\" id=\"path\" &gt;%1$s&lt;/xliff:g&gt;<xliff:g id="path" example="ApKPure/photo">%1$s</xliff:g></string>
-
+    <string name="already_save">الحفظ<xliff:g example="ApKPure/photo" id="path">%1$s</xliff:g></string>
     <string name="load_end">لايوجد المزيد</string>
     <string name="load_failed_click_retry">فشل التشغيل , اضغط على اعادة المحاولة</string>
     <string name="loading">تحميل …</string>
@@ -416,7 +411,7 @@
 
     <string name="set_contributor">المساهمون</string>
     <string name="set_permissions">الاذونات</string>
-    
+
     <string name="sign_in_services">بتسجيلك لمستخدم جديد انت توافق على سياسة الخصوصية والشروط لدينا.</string>
 
     <string name="sign_in_services_key">شروط</string>
@@ -516,7 +511,7 @@
     <string name="set_updates_notification">تحديثات متاحة</string>
     <string name="set_updates_notification_msg">إعلام عندما تتوفر تحديثات التطبيق. الإعداد الموصى به: تشغيل</string>
     <string name="app_detail_unknow_text">الإصدار القديم APKPure لا يدعم ميزات جديدة، يرجى تحديث إلى أحدث.</string>
-    <string name="comment_detail_original">عرض التعليق الأصلي &gt;</string>
+    <string name="comment_detail_original">عرض التعليق الأصلي </string>
     <string name="comment_comment_newest">الأحدث</string>
     <string name="comment_comment_oldest">أقدم</string>
 
@@ -589,13 +584,13 @@
     <string name="push_title_info_at">شخص ما قد أشار إليك في منشور, أنقر للعرض</string>
 
     <plurals name="comment_reply_item_fold">
-	<item quantity="zero"><xliff:g example="1" id="count">%1$d</xliff:g> رد تم اغلاقة</item>
-	<item quantity="one"><xliff:g example="2" id="count">%1$d</xliff:g> من الردود تم اغلاقها</item>
-	<item quantity="two"><xliff:g example="2" id="count">%1$d</xliff:g> ردود تم اغلاقها</item>
-	<item quantity="few"><xliff:g example="2" id="count">%1$d</xliff:g>من الردود تمت إغلاقها</item>
-	<item quantity="many"><xliff:g example="2" id="count">%1$d</xliff:g> رد تم إغلاقه</item>
-	<item quantity="other"><xliff:g example="2" id="count">%1$d</xliff:g> رد تم اغلاقهم</item>
-</plurals>
+        <item quantity="zero"><xliff:g example="1" id="count">%1$d</xliff:g> رد تم اغلاقة</item>
+        <item quantity="one"><xliff:g example="2" id="count">%1$d</xliff:g> من الردود تم اغلاقها</item>
+        <item quantity="two"><xliff:g example="2" id="count">%1$d</xliff:g> ردود تم اغلاقها</item>
+        <item quantity="few"><xliff:g example="2" id="count">%1$d</xliff:g>من الردود تمت إغلاقها</item>
+        <item quantity="many"><xliff:g example="2" id="count">%1$d</xliff:g> رد تم إغلاقه</item>
+        <item quantity="other"><xliff:g example="2" id="count">%1$d</xliff:g> رد تم اغلاقهم</item>
+    </plurals>
 
     <string name="main_good_comments">أعبجني</string>
     <string name="cancel_collection">إزالة من المفضلة</string>
@@ -643,4 +638,4 @@
     <string name="recommend_comment">إرسال</string>
     <string name="recommend_comment_error">حدث خطاء ما !</string>
     <string name="recommend_description_title">تعليمات :</string>
-    </resources>
+</resources>
