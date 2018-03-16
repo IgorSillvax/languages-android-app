@@ -17,7 +17,7 @@
 
     <string name="load_failed_error">Oups ! Une erreur est survenue.</string>
     <string name="load_failed_empty">Il n\'y a rien ici.</string>
-    <string name="load_failed_all_up_to_date">Toutes vos applications sont à jour.</string>
+    <string name="load_failed_all_up_to_date">Toutes vos appli sont à jour.</string>
     <string name="load_failed_no_results">Désolé ! Aucun résultat n\'a été trouvé.</string>
     <string name="refresh">Rafraîchir</string>
 
@@ -205,13 +205,13 @@
     <string name="deselect_all">Tout Déselectionner</string>
     <string name="ignored">Ignoré</string>
     <plurals name="total__count__apps__size_">
-        <item quantity="one">
-            <![CDATA[Total: <b><font color=%1$d>%2$d</font></b> application, <b><font color=%1$d>%3$s</font></b>]]>
-        </item>
-        <item quantity="other">
-            <![CDATA[Total: <b><font color=%1$d>%2$d</font></b> applications, <b><font color=%1$d>%3$s</font></b>]]>
-        </item>
-    </plurals>
+	<item quantity="one">"
+ Total: &lt;b&gt;&lt;font color=%1$d&gt;%2$d&lt;/font&gt;&lt;/b&gt; application, &lt;b&gt;&lt;font color=%1$d&gt;%3$s&lt;/font&gt;&lt;/b&gt;
+ "</item>
+	<item quantity="other">"
+ Total: &lt;b&gt;&lt;font color=%1$d&gt;%2$d&lt;/font&gt;&lt;/b&gt; appli, &lt;b&gt;&lt;font color=%1$d&gt;%3$s&lt;/font&gt;&lt;/b&gt;
+ "</item>
+</plurals>
     <string name="total_zero_app">
         <![CDATA[Total: <b><font color=%1$d>0</font></b> application]]>
     </string>
@@ -455,8 +455,8 @@ Les fonctions mentionnées ci-dessus supportent Android 4.1 et +, sans besoin de
 
     <string name="comment_no_reply">Waouh, il n\'y a rien ici.</string>
     <string name="comment_reply_info_name">Détails</string>
-    <string name="set_updates_notification">Mises à jours des l\'applications disponibles</string>
-    <string name="set_updates_notification_msg">Avertir de la présence de mises à jour des applications. Paramètre recommandé : On</string>
+    <string name="set_updates_notification">Mises à jours des l\'appli disponibles</string>
+    <string name="set_updates_notification_msg">Avertir de la présence de mises à jour des appli. Paramètre recommandé : On</string>
     <string name="app_detail_unknow_text">L\'ancienne version de APKPure ne supporte pas les nouvelles fonctionnalités, veuillez mettre à jour vers la dernière version.</string>
     <string name="comment_detail_original">Voir le Commentaire Original</string>
     <string name="comment_comment_newest">Plus récent</string>
@@ -517,7 +517,7 @@ Les fonctions mentionnées ci-dessus supportent Android 4.1 et +, sans besoin de
 <string name="menu_follow_group_tab">Groupes</string>
 
     <string name="download_mkdir">Télécharger le chemin</string>
-    <string name="download_mkdir_external_storage_fill_toast">Un espace de stockage insuffisant peut empêcher le téléchargement d\'applications</string>
+    <string name="download_mkdir_external_storage_fill_toast">Un espace de stockage insuffisant peut empêcher le téléchargement d\'appli</string>
 
     <string name="download_mkdir_internal_storage_values">stokage_interne</string>
     <string name="download_mkdir_external_storage_values">stokage_externe</string>
@@ -574,8 +574,8 @@ Les fonctions mentionnées ci-dessus supportent Android 4.1 et +, sans besoin de
     <string name="recommend_comment_error">Une erreur s\'est produite!</string>
     <string name="recommend_description_title">Instructions :</string>
     <string name="recommend_description">1. Les recommandations approuvées seront répertoriées dans la section DÉCOUVRIR.
-2. Vous ne pouvez recommander que les applications actuellement installées sur votre appareil Android.
-3. Avertissez APKPure pour ajouter des applications non indexées, veuillez terminer les formulaires de recommandation d\'abord.</string>
+2. Vous ne pouvez recommander que les appli actuellement installées sur votre appareil Android.
+3. Avertissez APKPure pour ajouter des appli non indexées, veuillez terminer les formulaires de recommandation d\'abord.</string>
     <string name="recommend_user_recommend">Recommander par %s</string>
     <string name="recommend_required">*</string>
     <string name="recommend_not_found">Non évaluer</string>
