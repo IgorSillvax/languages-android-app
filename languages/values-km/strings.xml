@@ -181,8 +181,8 @@
     </string>
     <string name="setting">ការកំណត់</string>
     <string name="share">ចែករំលែក</string>
-    <string name="share_app_url">ទាញយក <xliff:g example="APKPure" id="app_name">%1$s</xliff:g> APK (មកពី @<xliff:g example="APKPure" id="social_network_name">%2$s</xliff:g>), <xliff:g example="https://apkpure.com/p/com.apkpure.aegon" id="app_url">%3$s</xliff:g></string>
-    <string name="share_app_url_comment"> <xliff:g example="APKPure" id="user_name">%1$s</xliff:g>មានមតិនៅលើ <xliff:g example="APKPure" id="app_name">%2$s</xliff:g> ៖ <xliff:g example="APKPure" id="app_name">%3$s</xliff:g> (មកពី @<xliff:g example="APKPure" id="social_network_name">%4$s</xliff:g>), <xliff:g example="https://apkpure.com/p/com.apkpure.aegon" id="app_url">%5$s</xliff:g></string>
+    <string name="share_app_url">ចែករំលែក <xliff:g example="APKPure" id="app_name">%1$s</xliff:g> APK (មកពី @<xliff:g example="APKPure" id="social_network_name">%2$s</xliff:g>")  "<xliff:g example="https://apkpure.com/p/com.apkpure.aegon" id="app_url">%3$s</xliff:g></string>
+    <string name="share_app_url_comment"> <xliff:g example="APKPure" id="user_name">%1$s</xliff:g> មានមតិលើ <xliff:g example="APKPure" id="app_name">%2$s</xliff:g> : <xliff:g example="APKPure" id="app_name">%3$s</xliff:g> (បានមកពី @<xliff:g example="APKPure" id="social_network_name">%4$s</xliff:g>) <xliff:g example="https://apkpure.com/p/com.apkpure.aegon" id="app_url">%5$s</xliff:g></string>
 
     <string name="update__date___size_">អាប់ដេត៖ <xliff:g example="Mar 3, 2016" id="date">%1$s</xliff:g>, <xliff:g example="1024 kB" id="size">%2$s</xliff:g></string>
 
@@ -589,7 +589,7 @@
     <string name="download_mkdir">ផ្លូវកាត់ការទាញយក</string>
     <string name="history_version">ប្រវត្ដិនៃជំនាន់</string>
 
-    <string name="share_app_url_group"> ក្រុម <xliff:g example="APKPure" id="app_name">%1$s</xliff:g> ។ (មកពី @<xliff:g example="APKPure" id="social_network_name">%2$s</xliff:g>), <xliff:g example="https://apkpure.com/p/com.apkpure.aegon" id="app_url">%3$s</xliff:g></string>
+    <string name="share_app_url_group"> <xliff:g example="APKPure" id="app_name">%1$s</xliff:g> ក្រុម។ (ដែលមកពី @<xliff:g example="APKPure" id="social_network_name">%2$s</xliff:g>) <xliff:g example="https://apkpure.com/p/com.apkpure.aegon" id="app_url">%3$s</xliff:g></string>
 
     <string name="data_saver_model">សន្សំសំចៃទិន្នន័យ</string>
     <string name="scan_qr_code_result_title">លទ្ធផល</string>
@@ -682,11 +682,11 @@
     <string name="tag">ស្លាក</string>
 
     <string name="search_tab_name_one">កម្មវិធី</string>
-    <string name="search_tab_name_two">មនុស្ស</string>
+    <string name="search_tab_name_two">អ្នកប្រើប្រាស់</string>
     <string name="pre_register_bt">ចុះឈ្មោះទុកមុន</string>
     <string name="pre_register_now_bt">ចុះឈ្មោះទុកមុន</string>
     <string name="pre_registered_bt">បានចុះឈ្មោះ</string>
-    <string name="pre_register_link_title">គេហទំព័រដែលចុះឈ្មោះទុកមុន</string>
+    <string name="pre_register_link_title">ទំព័រចុះឈ្មោះទុកមុន</string>
     <string name="pre_register_gift_tv">រង្វាន់នៃការចុះឈ្មោះ</string>
     <string name="pre_register_person_num_tv">ចំនួនចុះឈ្មោះទុកមុន៖ %s</string>
     <string name="pre_register_success">ការចុះឈ្មោះទុកមុនមានន័យថាអ្នកនិងទទួលបានការជូនដំណឹងលើឧបករណ៍របស់អ្នក នៅពេលដែលកម្មវិធីបានចេញផ្សាយ។</string>
@@ -700,4 +700,9 @@
 
 <string name="beta">បែតា</string>
     <string name="search_user_history_title">ទំនាក់ទំនងថ្មីៗ</string>
+    <string name="pre_register_ok">OK</string>
+    <string name="copy_username">ចម្លងឈ្មោះហៅក្រៅ</string>
+    <string name="copy_content">ចម្លងមាតិកា</string>
+
+    <string name="tab_global">លក្ខណះពិសេស</string>
     </resources>
