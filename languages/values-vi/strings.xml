@@ -16,7 +16,7 @@
     <string name="something_happened">&gt;_&lt;\nĐôi khi có lỗi.</string>
 
     <string name="load_failed_error">Ôi!! Đã có lỗi xảy ra.</string>
-    <string name="load_failed_empty">Nó không có ở đây.</string>
+    <string name="load_failed_empty">Không có ở đây.</string>
     <string name="load_failed_all_up_to_date">Tất cả các ứng dụng được cập nhật.</string>
     <string name="load_failed_no_results">Xin lỗi! Không tìm thấy kết quả.</string>
     <string name="refresh">Làm mới</string>
@@ -122,7 +122,7 @@
     <string name="want_to_remove_download_item">Bạn muốn xoá bỏ mục tải về này chứ?</string>
 
     <string name="search">Tìm kiếm</string>
-    <string name="search_for_apps">Tìm Ứng dụng</string>
+    <string name="search_for_apps">Tìm APKPure</string>
     <string name="trending_searches">Xu hướng Tìm kiếm</string>
 
     <string name="improvement_plan_title">Kế hoạch Cải thiện hiệu suất</string>
@@ -166,9 +166,7 @@
     </string>
 
     <string name="share">Chia sẻ</string>
-    <string name="share_app_url">Tải về<xliff:g example="APKPure" id="app_name">%1$s</xliff:g> APK (từ @
-        <xliff:g example="APKPure" id="social_network_name">%2$s</xliff:g>),
-        <xliff:g example="https://apkpure.com/p/com.apkpure.aegon" id="app_url">%3$s</xliff:g></string>
+    <string name="share_app_url">Chia sẻ <xliff:g example="APKPure" id="app_name"> %1$s</xliff:g> APK (từ @ <xliff:g example="APKPure" id="social_network_name"> %2$s</xliff:g>), <xliff:g example="https://apkpure.com/p/com.apkpure.aegon" id="app_url"> %3$s</xliff:g></string>
     <string name="_name__version_history"><xliff:g example="APKPure" id="name">%1$s</xliff:g> Lịch sử phiên bản</string>
     <string name="update__date___size_">Cập nhật:<xliff:g example="Mar 3, 2016" id="date">%1$s</xliff:g>,<xliff:g example="1024 kB" id="size">%2$s</xliff:g></string>
 
@@ -278,10 +276,7 @@
     <string name="download_complete_installation_setting">Tùy chọn cài đặt sau khi tải</string>
     <string name="recommend">Khám Phá</string>
     <string name="report">Báo cáo</string>
-    <string name="share_app_url_comment"> <xliff:g example="APKPure" id="user_name">%1$s</xliff:g>\'s Nhận xét về
-        <xliff:g example="APKPure" id="app_name">%2$s</xliff:g> (từ @<xliff:g example="APKPure" id="social_network_name">%3$s</xliff:g>),
-        <xliff:g example="https://apkpure.com/p/com.apkpure.aegon" id="app_url">%4$s</xliff:g>),
-        <xliff:g example="https://apkpure.com/p/com.apkpure.aegon" id="app_url">%5$s</xliff:g></string>
+    <string name="share_app_url_comment"> <xliff:g example="APKPure" id="user_name"> %1$s</xliff:g>\'s Nhận xét về <xliff:g example="APKPure" id="app_name"> %2$s</xliff:g> (từ @<xliff:g example="APKPure" id="social_network_name">%3$s</xliff:g>), <xliff:g example="https://apkpure.com/p/com.apkpure.aegon" id="app_url"> %4$s</xliff:g>), <xliff:g example="https://apkpure.com/p/com.apkpure.aegon" id="app_url"> %5$s</xliff:g></string>
     <plurals name="app_detail_see_all_replies">
         <item quantity="other">Xem tất cả <xliff:g example="2" id="count">%1$d</xliff:g> trả lời</item>
     </plurals>
@@ -508,7 +503,7 @@
     <string name="collection">Ưa thích</string>
 
     <string name="comments">Bình luận</string>
-    <string name="follow">Đang theo dõi</string>
+    <string name="follow">ĐANG THEO DÕI</string>
     <string name="attention_on">Đang theo dõi</string>
     <string name="attention_off">Theo dõi</string>
     <string name="no_attention">Không có nhóm đang theo dõi, chưa có đâu.</string>
@@ -569,9 +564,7 @@
     <string name="beta">Thử nghiệm</string>
     <string name="history_version">Phiên bản cũ hơn</string>
 
-    <string name="share_app_url_group"> <xliff:g example="APKPure" id="app_name">%1$s</xliff:g> Nhóm. (từ @
-        <xliff:g example="APKPure" id="social_network_name">%2$s</xliff:g>),
-        <xliff:g example="https://apkpure.com/p/com.apkpure.aegon" id="app_url">%3$s</xliff:g></string>
+    <string name="share_app_url_group"> <xliff:g example="APKPure" id="app_name"> %1$s</xliff:g> Nhóm. (từ @ <xliff:g example="APKPure" id="social_network_name"> %2$s</xliff:g> <xliff:g example="https://apkpure.com/p/com.apkpure.aegon" id="app_url"> %3$s</xliff:g></string>
 
     <string name="data_saver_model">Tiết kiệm Dữ liệu</string>
     <string name="data_saver_model_summery">Kích hoạt điều này sẽ điều chỉnh kích cỡ ảnh và chất lượng nhằm giảm lượng dữ liệu sử dụng.</string>
@@ -694,11 +687,11 @@
     <string name="google_play_bug_text">Mua trên CH Play</string>
 
     <string name="search_tab_name_one">ỨNG DỤNG</string>
-    <string name="search_tab_name_two">MỌI NGƯỜI</string>
+    <string name="search_tab_name_two">NGƯỜI DÙNG</string>
     <string name="pre_register_bt">Đăng ký trước</string>
     <string name="pre_register_now_bt">Đăng ký trước</string>
     <string name="pre_registered_bt">Đã đăng ký</string>
-    <string name="pre_register_link_title">Website Đăng ký trước</string>
+    <string name="pre_register_link_title">Trang Đăng ký trước</string>
     <string name="pre_register_gift_tv">Quà Người đăng ký</string>
     <string name="pre_register_person_num_tv">Người đăng ký trước: %s</string>
     <string name="pre_register_success">Đăng ký trước nghĩa là bạn sẽ nhận thông báo trên thiết bị của bạn khi ứng dụng đã được phát hành.</string>
@@ -711,4 +704,13 @@
     <string name="submit_comment_user_style">
  &lt;font color=#007AFF&gt;@%1$s&lt;/font&gt;</string>
 
+<string name="pre_register_ok">OK</string>
+    <string name="copy_username">Sao chép Nickname</string>
+    <string name="copy_content">Sao chép Nội dung</string>
+
+    <string name="tab_global">ĐẶC SẮC</string>
+    <string name="comment_list_see_here">Truy cập gần đây, chạm để làm mới</string>
+    <string name="comment_list_new_num">%d Câu chuyện Mới</string>
+
+    <string name="tab_popular">PHỔ BIẾN</string>
 </resources>
