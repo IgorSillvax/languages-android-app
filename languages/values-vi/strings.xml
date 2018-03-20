@@ -5,7 +5,7 @@
     <string name="action_search">Hely cl</string>
     <string name="action_management">Quản lý</string>
 
-    <string name="press_back_key_quit">Nhấn phím trở lại lần nữa để thoát.</string>
+    <string name="press_back_key_quit">Nhấn phím trở lại một lần nữa để thoát.</string>
 
     <string name="featured">Tính Năng</string>
     <string name="games">Trò chơi</string>
@@ -48,7 +48,7 @@
     <string name="user_canceled">Người dùng đã hủy.</string>
     <string name="io_error">Lỗi IO. Có thể không có đủ không gian trống để cài đặt thành công.</string>
     <string name="file_format_error">Định dạng tệp lỗi.</string>
-    <string name="parsing_xapk">Phân tích XAPK …</string>
+    <string name="parsing_xapk">Đang phân tích XAPK …</string>
     <string name="installing_obb">Đang cài đặt tệp OBB …</string>
     <string name="extracting_apk">Giải nén Tệp APK …</string>
     <string name="installing_apk">Đang cài đặt APK …</string>
@@ -149,9 +149,9 @@
     <string name="failed_to_request_app_detail">Không thể yêu cầu thông tin chi tiết ứng dụng.</string>
     <string name="failed_to_request_app_asset">Không yêu cầu thông tin tài sản ứng dụng.</string>
 
-    <string name="incompatible_this_app">
-        <![CDATA[<big><b><font color="%1$d">Thiết bị của bạn không tương thích với ứng dụng này.</font></b></big><br><br>BBạn có muốn tiếp tục không?]]>
-    </string>
+    <string name="incompatible_this_app">"
+ &lt;big&gt;&lt;b&gt;&lt;font color=%1$d&gt;Thiết bị của bạn không tương thích với ứng dụng này.&lt;/font&gt;&lt;/b&gt;&lt;/big&gt;&lt;br&gt;&lt;br&gt;Bạn có muốn tiếp tục không?
+ "</string>
 
     <string name="this_app_not_usable">
         <![CDATA[<big><b><font color="%1$d">Ứng dụng này có thể không sử dụng được.</font></b></big><br>Bạn có muốn tiếp tục không?]]>
@@ -376,7 +376,7 @@
     <string name="update_pwd_current_null_tv">Mật khẩu cũ không được để trống</string>
     <string name="update_pwd_Confirm_null_tv">Xác nhận mật khẩu không được để trống</string>
     <string name="update_pwd_new_pwd_null_tv">Mật khẩu mới không được để trống</string>
-    <string name="update_pwd_new_confrim_tv">Mật mã bạn nhập không khớp</string>
+    <string name="update_pwd_new_confrim_tv">Mật khẩu bạn đã nhập không khớp</string>
     <string name="update_pwd_save_bt">Lưu lại</string>
     <string name="update_save_success">Đã lưu thành công!</string>
     <string name="crop__cancel" ignore="ButtonCase">Hủy bỏ</string>
@@ -511,7 +511,7 @@
     <string name="browsing_history_prompt">Bạn có muốn xóa lịch sử trình duyệt chứ?</string>
 
     <string name="ranking_tab1_title">Trò chơi Hàng đầu</string>
-    <string name="ranking_tab2_title">Trò chơi mới Hàng đầu</string>
+    <string name="ranking_tab2_title">Trò chơi mới hàng đầu</string>
     <string name="ranking_tab3_title">Ứng dụng Hàng đầu</string>
     <string name="ranking_tab4_title">Ứng dụng mới Hàng đầu</string>
 
@@ -545,10 +545,10 @@
     <string name="recommend_tab_list">Đã đề xuất</string>
     <string name="recommend_installed_list_title">Ứng dụng của tôi</string>
     <string name="recommend_review">Xem trước</string>
-    <string name="recommend_replace_img">Thay đổi Ảnh</string>
+    <string name="recommend_replace_img">Thay đổi ảnh</string>
     <string name="recommend_app_name">Tiêu đề Ứng dụng</string>
     <string name="recommend_state_can">Đề xuất</string>
-    <string name="recommend_state_success">Đã đề xuất</string>
+    <string name="recommend_state_success">Được đề xuất</string>
     <string name="recommend_select_game">Đề xuất Ứng dụng</string>
     <string name="recommend_write_des">Mô tả</string>
     <string name="recommend_write_des_hint">Một đánh giá hữu ích sẽ được xem bởi nhiều người dùng có cùng sở thích như bạn.</string>
