@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<resources><string name="action_settings">Nastavitve</string>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2"><string name="action_settings">Nastavitve</string>
     <string name="action_search">Išči</string>
     <string name="games">Igre</string>
     <string name="action_management">Upravljanje</string>
@@ -14,6 +14,708 @@
 
     <string name="something_happened">&gt;_&lt;
 Nekaj se je zgodilo.</string>
-    <string name="load_failed_error">Ojoj! Pojavila se je napaka.</string>
-    <string name="load_failed_error_not_found">Aplikacija Ni Na Seznamu v APKPure App Store!</string>
-    </resources>
+    <string name="load_failed_error">Ops! Prišlo je do napake.</string>
+    <string name="load_failed_error_not_found">Aplikacije ni na seznamu v APKPure App Store!</string>
+    <string name="load_failed_empty">Tukaj ni ničesar.</string>
+    <string name="load_failed_all_up_to_date">Vse aplikacije so posodobljene.</string>
+    <string name="load_failed_no_results">Oprostite! Ni najdenih rezultatov.</string>
+    <string name="refresh">Osveži</string>
+
+    <string name="management">Upravljanje</string>
+    <string name="app_updates">App posodobitve</string>
+    <string name="app_management">Nameščeno</string>
+    <string name="app_uninstall">Odstranitev App</string>
+    <string name="apk_management">APK upravljanje</string>
+    <string name="apk_xapk_management">APK / XAPK upravljanje</string>
+    <string name="download_management">Upravljanje prenosov</string>
+    <string name="settings">Nastavitve</string>
+    <string name="about">O nas</string>
+
+
+    <string name="about_title">O nas
+
+<xliff:g example="APKPure" id="app_name"/></string>
+    <string name="about_message">"
+ &lt;b&gt;Različica:&lt;/b&gt; %1$s&lt;br&gt;&lt;br&gt;&lt;b&gt;Spletna stran:&lt;/b&gt; &lt;a href=%2$s&gt;%2$s&lt;/a&gt;&lt;br&gt;&lt;b&gt;E-pošta:&lt;/b&gt; &lt;a href=mailto:%3$s&gt;%3$s&lt;/a&gt;
+ "</string>
+    <string name="check_update">Preveri posodobitve</string>
+    <string name="check_update_replace">Uradna verzija</string>
+    <string name="check_update_beta">Predizdaja Beta</string>
+    <string name="beta">Beta</string>
+    <string name="quit">Končaj</string>
+    <string name="want_to_quit">Ste prepričani, da želite končati?</string>
+
+    <string name="install">Namesti</string>
+    <string name="open">Odpri</string>
+    <string name="delete">Izbriši</string>
+    <string name="delete_all">Izbriši vse</string>
+    <string name="properties">Lastnosti</string>
+    <string name="properties_message">"
+ &lt;b&gt;Pot:&lt;/b&gt; %1$s&lt;br&gt;&lt;b&gt;Velikost:&lt;/b&gt; %2$s&lt;br&gt;&lt;b&gt;Zadnja sprememba:&lt;/b&gt; %3$s
+ "</string>
+    <string name="want_to_delete_file">Želite izbrisati to datoteko?</string>
+    <string name="want_to_delete_all_files">Želite izbrisati vse datoteke?</string>
+    <string name="file_has_been_deleted">Datoteka je bila izbrisana.</string>
+    <string name="failed_to_delete_file">Datoteke ni bilo mogoče izbrisati.</string>
+    <string name="install__label_">Namesti - <xliff:g example="APKPure" id="app_label">%1$s</xliff:g></string>
+    <string name="user_canceled">Uporabniška prekinitev.</string>
+    <string name="io_error">IO napaka. Morda ni dovolj prostora za uspešno namestitev.</string>
+    <string name="file_format_error">Napaka v obliki datoteke.</string>
+    <string name="parsing_xapk">Razčlenjevanje XAPK …</string>
+    <string name="installing_obb">Namestitev OBB datotek …</string>
+    <string name="extracting_apk">Razširjanje APK datoteke …</string>
+    <string name="installing_apk">Nameščanje APK …</string>
+
+    <string name="uninstall">Odstrani</string>
+    <string name="uninstalled">Odstranjeno</string>
+    <string name="last_update__date_">Zadnja posodobitev: <xliff:g id="date">%1$s</xliff:g></string>
+
+    <string name="all">Vse</string>
+
+    <string name="screenshots">Posnetki zaslona</string>
+    <string name="description">Opis</string>
+    <string name="whatsnew">Kaj je novega</string>
+    <string name="information">Informacije</string>
+    <string name="version_">Različica:</string>
+    <string name="updated_">Posodobljeno:</string>
+    <string name="size_">Velikost:</string>
+    <string name="permissions_">Dovoljenja:</string>
+    <string name="type_">Tip:</string>
+    <string name="category_">Kategorija:</string>
+    <string name="more">več</string>
+    <string name="permissions">Dovoljenja</string>
+    <string name="other">Ostalo</string>
+    <string name="similar_or_related">Podobni ali sorodni</string>
+    <string name="more_from_developer">Več od razvijalca</string>
+    <string name="more_large">Več</string>
+    <string name="apk">APK</string>
+    <string name="xapk">XAPK</string>
+    <string name="unknown">Neznano</string>
+    <string name="flag_as_inappropriate">Označi kot neprimerno</string>
+    <string name="_ellipsis_"> … </string>
+    <string name="history_version">Zgodovina različice</string>
+
+    <string name="market_response_error_success">Uspešno.</string>
+    <string name="market_response_error_invalid_result">Neveljaven rezultat.</string>
+    <string name="market_response_error_network_connect_error">Napaka pri povezovanju z omrežjem.</string>
+    <string name="market_response_error_network_read_error">Napaka pri branju z omrežja.</string>
+    <string name="market_response_error_invalid_response_code">Neveljavna odzivna koda.</string>
+    <string name="market_response_error_invalid_response_body">Neveljavno odzivno telo.</string>
+    <string name="market_response_error_unknown_error__error_">Neznana napaka (<xliff:g example="SUCCESS" id="error">%1$s</xliff:g>).</string>
+
+    <string name="no_more">Ne več.</string>
+
+    <string name="update">Posodobitev</string>
+    <string name="version__version___size_">Različica: <xliff:g example="1.0.0" id="version">%1$s</xliff:g>, <xliff:g example="1024 kB" id="size">%2$s</xliff:g></string>
+    <plurals name="_count__new_update_is_available">
+	<item quantity="one"><xliff:g example="1" id="count">%1$d</xliff:g> nova posodobitev je na voljo</item>
+	<item quantity="two"><xliff:g example="2" id="count">%1$d</xliff:g> novi posodobitvi sta na voljo</item>
+	<item quantity="few"><xliff:g example="2" id="count">%1$d</xliff:g> novih posodobitev je na voljo</item>
+	<item quantity="other"><xliff:g example="2" id="count">%1$d</xliff:g> nove posodobitve so na voljo</item>
+</plurals>
+
+    <string name="launching_please_wait">Zagon, prosim počakajte…</string>
+
+    <plurals name="_count__item_is_downloading">
+	<item quantity="one"><xliff:g example="1" id="count">%1$d</xliff:g> predmet je prenesen</item>
+	<item quantity="two"><xliff:g example="2" id="count">%1$d</xliff:g> predmeta sta prenesena</item>
+	<item quantity="few"><xliff:g example="2" id="count">%1$d</xliff:g> predmetov je prenesenih</item>
+	<item quantity="other"><xliff:g example="2" id="count">%1$d</xliff:g> predmeti so preneseni</item>
+</plurals>
+    <string name="downloads_complete">Prenos zaključen</string>
+    <string name="touch_for_view_all_downloads">Dotaknite se za ogled vseh prenosov</string>
+    <string name="_name__download_failed"><xliff:g example="APKPure" id="name">%1$s</xliff:g> prenos ni uspel</string>
+    <string name="touch_to_download_it_again">Dotaknite se, če ga želite znova prenesti</string>
+
+    <string name="download_percent"><xliff:g example="50" id="percent">%1$d</xliff:g> %%</string>
+    <string name="pause">Odmor</string>
+    <string name="pause_all">Zaustavi vse</string>
+    <string name="continue_">Nadaljuj</string>
+    <string name="continue_all">Nadaljuj vse</string>
+    <string name="restart">Ponovni zagon</string>
+    <string name="download">Prenos</string>
+    <string name="downloading">Prenašanje</string>
+    <string name="waiting">Čakanje</string>
+    <string name="preparing">Priprava</string>
+    <string name="completed">Dokončano</string>
+    <string name="paused">Prekinjeno</string>
+    <string name="failed">Spodletelo</string>
+    <string name="file_invalid">Datoteka ni veljavna</string>
+    <string name="file_missing">Datoteka manjka</string>
+    <string name="waiting_to_download">Čakanje na prenos</string>
+    <string name="deleted">Izbrisano</string>
+    <string name="expired">Poteklo</string>
+    <string name="installed">Nameščeno</string>
+    <string name="detail">Podrobnosti</string>
+    <string name="remove">Odstrani</string>
+    <string name="remove_all">Odstrani vse</string>
+    <string name="want_to_remove_download_item">Ali želite odstraniti ta element prenosa?</string>
+    <string name="want_to_remove_all_download_items">Ali želite odstraniti vse elemente prenosa?</string>
+    <string name="delete_downloaded_file">Izbriši preneseno datoteko</string>
+    <string name="download_over_cellular">Prenesi preko mobilnega telefona</string>
+    <string name="download_over_cellular_content">Ste pred tem, da prenesete preko mobilnega omrežja. Želite nadaljevati?</string>
+
+    <string name="search">Iskanje</string>
+    <string name="search_for_apps">Iskanje APKPure</string>
+    <string name="trending_searches">Priljubljena iskanja</string>
+    <string name="search_history">Zgodovina</string>
+    <string name="clear_search_history">Počisti vso zgodovino</string>
+
+    <string name="improvement_plan_title">Načrt izboljšanja učinkovitosti</string>
+    <string name="improvement_plan_message">
+ Pomagajte nam z oddajo informacij o napravi Android, Ne <b>zbiramo </b>osebnih podatkov (ime, naslov, e-poštni naslov, številka socialnega zavarovanja, ali druge posebne identifikatorje).
+ </string>
+    <string name="join_us">Pridruži se nam</string>
+    <string name="skip">Preskoči</string>
+
+    <string name="participate_ultra_download_beta_test_title">Omogočite Ultra Download in uživajte v hitrejši hitrosti prenosa</string>
+    <string name="participate_ultra_download_beta_test_content">Ultra Download je v beta testiranju, obvestite nas, če naletite na kakršne koli težave. V nastavitvah ga lahko preprosto onemogočite.</string>
+    <string name="enable">Omogoči</string>
+
+    <string name="_name__is_up_to_date"><xliff:g primer="APKPure" id="ime">%1$s</xliff:g> je posodobljen.</string>
+    <string name="new_version_available_title">Nova različica je na voljo</string>
+    <string name="new_version_available_message">"
+ &lt;b&gt;Najnovejša različica:&lt;/b&gt; %1$s&lt;br&gt;&lt;br&gt;&lt;b&gt;Kaj je novega:&lt;/b&gt;&lt;br&gt;%2$s
+ "</string>
+
+    <string name="report">Poročilo</string>
+    <string name="report__">Poročilo…</string>
+    <string name="report_problem__">Poročilo težave…</string>
+    <string name="report_problem_subject">Poročilo težave</string>
+    <string name="report_problem_text">Tema težave:
+%1$s
+
+Podrobnosti težave:
+%2$s</string>
+    <string name="contact_us__">Kontaktirajte nas…</string>
+    <string name="contact_us">Kontaktirajte nas</string>
+    <string name="report_content">Vsebina sporočila</string>
+    <string name="feedback">Povratne informacije</string>
+
+    <string name="installation_failed">Namestitev ni uspela</string>
+    <string name="invalid_app_detail">Neveljavne informacije o podrobnostih aplikacije.</string>
+    <string name="invalid_app_asset">Neveljavne informacije o sredstvih aplikacije.</string>
+    <string name="failed_to_request_app_detail">Spodletela zahteva o podrobnostih aplikacije.</string>
+    <string name="failed_to_request_app_asset">Spodletela zahteva o podatkih sredstev aplikacij.</string>
+    <string name="incompatible_this_app">"
+ &lt;big&gt;&lt;b&gt;&lt;font color=%1$d&gt;Vaša naprava ni združljiva s to aplikacijo.&lt;/font&gt;&lt;/b&gt;&lt;/big&gt;&lt;br&gt;&lt;br&gt;Želite nadaljevati?
+ "</string>
+    <string name="this_app_not_usable">"
+ &lt;big&gt;&lt;b&gt;&lt;font color=%1$d&gt;Ta aplikacija morda ni uporabna.&lt;/font&gt;&lt;/b&gt;&lt;/big&gt;&lt;br&gt;&lt;br&gt;Želite nadaljevati?
+ "</string>
+
+    <string name="setting">Nastavitev</string>
+    <string name="external_storage_not_usable">
+ <big><b>Potrebujemo dostop do vaše zunanje shrambe. Prepričajte se, da je uporabna.</b></big>
+ </string>
+    <string name="external_storage_permission_denied">
+ <big><b>Potrebujem dostop do vaše zunanje shrambe. Prepričajte se, da se dovoljenje ne zavrne.</b></big>
+ </string>
+
+    <string name="share">Delite</string>
+    <string name="share_app_url">Delite <xliff:g primer="APKPure" id="app_name">%1$s</xliff:g> APK (from @<xliff:g primer="APKPure" id="social_network_name">%2$s</xliff:g>) <xliff:g primer="https://apkpure.com/p/com.apkpure.aegon" id="app_url">%3$s</xliff:g></string>
+    <string name="share_app_url_comment"> <xliff:g primer="APKPure" id="user_name">%1$s</xliff:g>\'s comments on <xliff:g primer="APKPure" id="app_name">%2$s</xliff:g> : <xliff:g primer="APKPure" id="app_name">%3$s</xliff:g> (from @<xliff:g primer="APKPure" id="social_network_name">%4$s</xliff:g>) <xliff:g primer="https://apkpure.com/p/com.apkpure.aegon" id="app_url">%5$s</xliff:g></string>
+    <string name="share_app_url_group"> <xliff:g primer="APKPure" id="app_name">%1$s</xliff:g> Skupina. (iz @<xliff:g primer="APKPure" id="social_network_name">%2$s</xliff:g>) <xliff:g primer="https://apkpure.com/p/com.apkpure.aegon" id="app_url">%3$s</xliff:g></string>
+
+    <string name="_name__version_history"><xliff:g primer="APKPure" id="name">%1$s</xliff:g> Zgodovina različice</string>
+    <string name="update__date___size_">Posodobitev: <xliff:g primer="Mar 3, 2016" id="datum">%1$s</xliff:g>, <xliff:g primer="1024 kB" id="velikost">%2$s</xliff:g></string>
+
+    <string name="update_all">Posodobite vse</string>
+    <string name="update___count__">Posodobi (<xliff:g primer="3" id="count">%1$d</xliff:g>)</string>
+    <string name="ignore">Prezri</string>
+    <string name="unignore">Ne prezri</string>
+    <string name="select">Izberi</string>
+    <string name="cancel">Prekliči</string>
+    <string name="select_all">Izberi vse</string>
+    <string name="deselect_all">Prekliči izbor vseh</string>
+    <string name="ignored">Prezrto</string>
+    <plurals name="total__count__apps__size_">
+	<item quantity="one">"
+ Skupaj: &lt;b&gt;&lt;font color=%1$d&gt;%2$d&lt;/font&gt;&lt;/b&gt; aplikacija, &lt;b&gt;&lt;font color=%1$d&gt;%3$s&lt;/font&gt;&lt;/b&gt;
+ "</item>
+	<item quantity="two">"
+ Skupaj: &lt;b&gt;&lt;font color=%1$d&gt;%2$d&lt;/font&gt;&lt;/b&gt; aplikaciji, &lt;b&gt;&lt;font color=%1$d&gt;%3$s&lt;/font&gt;&lt;/b&gt;
+ "</item>
+	<item quantity="few">"
+ Skupaj: &lt;b&gt;&lt;font color=%1$d&gt;%2$d&lt;/font&gt;&lt;/b&gt; aplikacij, &lt;b&gt;&lt;font color=%1$d&gt;%3$s&lt;/font&gt;&lt;/b&gt;
+ "</item>
+	<item quantity="other">"
+ Skupaj: &lt;b&gt;&lt;font color=%1$d&gt;%2$d&lt;/font&gt;&lt;/b&gt; aplikacije, &lt;b&gt;&lt;font color=%1$d&gt;%3$s&lt;/font&gt;&lt;/b&gt;
+ "</item>
+</plurals>
+    <string name="total_zero_app">"
+ Skupaj: &lt;b&gt;&lt;font color=%1$d&gt;0&lt;/font&gt;&lt;/b&gt; app
+ "</string>
+
+    <string name="general">Splošno</string>
+    <string name="language">Jezik</string>
+    <string name="auto">Samodejno</string>
+    <string name="changing_language">Spreminjanje jezika, prosim počakajte…</string>
+    <string name="data_saver_model">Varčevanje s podatki</string>
+    <string name="data_saver_model_summery">Če vklopite to možnost, boste zmanjšali velikost in kakovost slike, da boste uporabili manj mobilnih podatkov.</string>
+    <string name="download_via_wifi_only">Prenesite samo prek omrežja Wi-Fi</string>
+    <string name="enable_ultra_download">Omogoči Ultra Download</string>
+    <string name="enable_ultra_download_summary">Ultra Download je v beta testiranju, obvestite nas, če naletite na kakršne koli težave.</string>
+    <string name="installation">Namestitev</string>
+    <string name="show_notification_after_installation">Pokaži obvestilo po namestitvi</string>
+    <string name="delete_packages_after_installation">Po namestitvi izbrišite pakete</string>
+
+    <string name="_name__installation_completed"><xliff:g primer="APKPure" id="ime">%1$s</xliff:g> namestitev končana</string>
+    <string name="touch_to_open">Dotaknite se, da odprete.</string>
+
+    <string name="auto_service_install_accessibility_title">Samodejna namestitev</string>
+    <string name="auto_service_install_accessibility_summary">Podpora za Android 4.1+, brez dovoljenja za root.</string>
+
+    <string name="auto_service_dialog_title">Omogoči samodejno namestitev</string>
+    <string name="auto_service_dialog_message">Samodejna namestitev zahteva, da jo odobrite v telefonu. Varno jo je uporabljati brez tveganja.</string>
+
+    <string name="auto_service_title">APKPure samodejna namestitev</string>
+    <string name="auto_service_description">Omogočite »APKPure Samodejna namestitev«, da APKPure »Samodejna namestitev« neprekinjeno deluje.
+
+»APKPure Samodejna namestitev« vam lahko pomaga pri namestitvi ali posodabljanju aplikacij. Če kliknete vse gumbe za namestitev, vam ni treba vedno preverjati telefona.
+
+Ko omogočite to funkcijo, boste morda prejeli opozorila o tveganjih sistema, prosimo, pritisnite \"V redu\", da vklopite stikalo dostopnosti \"Omogoči\".
+
+Če želite zagotoviti dobro delovanje APKPure, dodajte APKPure v vašo aplikacijo za čiščenje v \"Beli spisek\".
+
+Zgoraj omenjene funkcije podpirajo Android 4.1+, ni potrebno root dovoljenje. Obljubljamo, da nikoli ne zbiramo nobenih osebnih podatkov v tej storitvi za dostopnost. Prosimo vas, da nas kontaktirate s kakršnimi koli težavami.</string>
+
+    <string name="auto_service_install">Namestitev</string>
+    <string name="auto_service_ensure">V redu</string>
+    <string name="auto_service_next">Naslednji</string>
+    <string name="auto_service_exchange">Zamenjaj</string>
+    <string name="auto_service_complete">Končano</string>
+
+    <string name="auto_service_install__material_">NAMESTITEV</string>
+    <string name="auto_service_ensure__material_">V REDU</string>
+    <string name="auto_service_next__material_">NASLEDNJI</string>
+    <string name="auto_service_exchange__material_">ZAMENJAJ</string>
+    <string name="auto_service_complete__material_">KONČANO</string>
+
+    <string name="auto_install_via_root_title">Samodejna namestitev (Root način)</string>
+    <string name="auto_install_via_root_summary">Samo za root telefone in tablične računalnike Android.</string>
+
+    <plurals name="app_detail_see_all_replies">
+	<item quantity="one">Poglej <xliff:g primer="1" id="count">%1$d</xliff:g> odgovor</item>
+	<item quantity="other">Poglej <xliff:g primer="2" id="count">%1$d</xliff:g> odgovora</item>
+</plurals>
+
+    <string name="app_detail_customer_reviews">Komentarji</string>
+    <string name="app_detail_comment_type_web">splet</string>
+    <string name="app_submit_submit">Pošlji…</string>
+    <string name="app_submit_anonymous_comment">Dodaj kokmentar</string>
+    <string name="app_submit_title_toast">Morate napisati naslov!</string>
+    <string name="app_submit_msg_toast">Morate napisati nekaj!</string>
+    <string name="app_submit_name_toast">Prosimo, izpolnite vzdevek!</string>
+    <string name="app_submit_email_toast">Prosimo, izpolnite pravilen e-poštni naslov!</string>
+    <string name="app_submit_star_toast">Morate poslati zvezdo!</string>
+    <string name="app_submit_title_hint">Prosimo, napišite naslov</string>
+    <string name="app_submit_msg_hint">Prosimo, da napišete svoje mnenje</string>
+    <string name="app_submit_nickname">Vzdevek</string>
+    <string name="app_submit_email">E-pošta</string>
+    <string name="app_submit_submit_title">pošlji</string>
+    <string name="app_submit_reply_to">odgovori na</string>
+
+    <string name="app_detail_tab_one">Podrobnosti</string>
+    <string name="app_detail_tab_two">Objave</string>
+    <string name="app_detail_tab_three">Povezano</string>
+
+    <string name="app_detail_comment_order_array_default">Razvrsti po privzeto</string>
+    <string name="app_detail_comment_order_array_most_recent">Najnovejši</string>
+    <string name="app_detail_comment_order_array_new">Najnovejši</string>
+    <string name="app_detail_comment_order_array_best">Najboljši</string>
+    <string name="app_detail_comment_order_array_old">Star</string>
+
+    <string name="app_detail_comment_join_group_bt">Skupina</string>
+    <string name="download_complete_installation_setting">Možnost namestitve po prenosu</string>
+
+    <string name="download_complete_installation_setting_entries_always">Vedno namestite</string>
+    <string name="download_complete_installation_setting_entries_only">Nameščajte samo, če je aplikacija spredaj</string>
+    <string name="download_complete_installation_setting_entries_never">Nikoli ne namestite</string>
+
+    <string name="download_mkdir">Pot do prenosa</string>
+    <string name="download_mkdir_internal_storage_size_des">%1$s prosto, skupaj %2$s</string>
+    <string name="download_mkdir_internal_storage_entries">"SD "</string>
+    <string name="download_mkdir_internal_storage_entries1">SD 1</string>
+    <string name="download_mkdir_external_storage_fill_toast">Ni dovolj prostora na voljo, kar lahko povzroči, da se ne more prenesti nobene aplikacije.</string>
+
+    <string name="download_mkdir_internal_storage_values">notranji pomnilnik</string>
+    <string name="download_mkdir_external_storage_values">zunanji pomnilnik</string>
+
+    <string name="reply">Odgovori</string>
+    <string name="input_reply_content">Vnos vsebine odgovora:</string>
+    <string name="publish">Objava</string>
+    <string name="reply_dialog_marked_words">Dolgo pritisnite izbrano sliko, da jo izbrišete.</string>
+    <string name="reply_comment">Odgovori na komentar</string>
+    <string name="save_original_image">Shrani</string>
+    <string name="already_save">Shranjeno<xliff:g primer="ApKPure/photo" id="pot">%1$s</xliff:g></string>
+
+    <string name="load_end">Ni več podatkov</string>
+    <string name="load_failed_click_retry">Neuspešno nalaganje, kliknite za ponovitev</string>
+    <string name="loading">Nalaganje…</string>
+
+    <string name="scan_qr_code_hint">Pred uporabo skeniranja QR kode morate odobriti dovoljenje kameri,
+ ki je potrebna za skeniranje QR kode.</string>
+    <string name="zxing_msg_default_status">Vnesite kodo QR znotraj iskala, da jo optično preberete.</string>
+    <string name="zxing_msg_parser_status">Skeniranje ni uspelo, poskusite znova prebrati kodo QR.</string>
+    <string name="scan_qr_code_result_title">Rezultat</string>
+    <string name="scan_qr_code_result_copy_text">Kopiranje besedila</string>
+    <string name="scan_qr_code_result_hint">Podrobnosti QR kode:</string>
+    <string name="scan_qr_code_copy_success">besedilo je kopirano</string>
+
+    <string name="tip_permission_camera_storage">Brez dovoljenja za uporabo kamere in SD kartice, odprite upravljalnika pravic</string>
+    <string name="permission_denied">Dostop zavrnjen!</string>
+
+    <string name="login_title">Prijava</string>
+    <string name="sign_out">Odjava</string>
+
+    <string name="delete_comment">Izbriši komentar</string>
+    <string name="delete_comment_msg">Ali ste prepričani, da želite izbrisati ta komentar?</string>
+    <string name="upload_cancel">Nalaganje je bilo preklicano</string>
+    <string name="login_select_way_to_login">Izberite način za prijavo</string>
+
+    <string name="user_info_edit_title">Profil</string>
+    <string name="user_info_edit_portrait_tv">Slika profila</string>
+    <string name="user_info_edit_username_tv">Uporabniško ime</string>
+    <string name="user_info_edit_nickname_tv">Vzdevek</string>
+    <string name="user_info_edit_email_tv">E-pošta</string>
+    <string name="user_info_edit_gender_tv">Spol</string>
+    <string name="user_info_edit_birthday_tv">Rojstni datum</string>
+    <string name="user_info_edit_change_pwd_tv">Ponastavite geslo</string>
+    <string name="user_info_edit_login_out_tv">Odjava</string>
+    <string name="user_info_edit_not_choose">Neznano</string>
+    <string name="user_info_edit_gender_male">Moški</string>
+    <string name="user_info_edit_gender_female">Ženska</string>
+    <string name="user_info_edit_portrait_album">Izberite fotografijo iz galerije</string>
+    <string name="user_info_edit_portrait_take_photo">Fotografija iz fotoaparata</string>
+    <string name="user_info_edit_portrait_error">Vrsta slike ni podprta</string>
+    <string name="user_info_edit_ok">V redu</string>
+    <string name="user_info_edit_cancel">Preklic</string>
+    <string name="user_info_edit_large_photo">Oglejte si fotografijo v večji velikosti</string>
+
+    <string name="update_nick_title">Spremenite vzdevek</string>
+    <string name="update_email_title">Spremenite E-pošto</string>
+    <string name="update_nick_name_et">Vnesite nov vzdevek</string>
+    <string name="update_nick_name_tv">Novi vzdevek ne more biti prazen</string>
+    <string name="update_email_name_et">Vpišite svoj elektronski naslov</string>
+    <string name="update_eamil_name_tv">E-pošta ne more biti prazna</string>
+    <string name="update_nickname_error">Vzdevek je že bil sprejet, izberite drugega!</string>
+    <string name="user_info_edit_intro_tv">O meni</string>
+    <string name="update_intro_title">Uredi O meni</string>
+    <string name="update_intro_et">Napišite nekaj podrobnosti o sebi</string>
+    <string name="update_intro_tv">Polje O meni ne more biti prazno</string>
+
+    <string name="message_all">VSA</string>
+    <string name="message_reply">ODGOVORI</string>
+    <string name="message_notifications_praise">Uveljavi svoj komentar</string>
+    <string name="message_praise">VŠEČKI</string>
+    <string name="message_notifications_reply">Odgovori na vaš komentar</string>
+    <string name="message_notifications_login">Za ogled te strani se prijavite.</string>
+    <string name="message_at_title">Mnenja</string>
+    <string name="message_at">Omemba vas</string>
+
+    <string name="update_pwd_title">Ponastavi geslo</string>
+    <string name="update_pwd_current_pwd_et">Staro geslo</string>
+    <string name="update_pwd_new_pwd_et">Novo geslo</string>
+    <string name="update_pwd_Confirm_pwd_et">Potrdi novo geslo</string>
+    <string name="upload_avatar">Nalaganje…</string>
+    <string name="update_pwd_current_null_tv">Staro geslo ne more biti prazno</string>
+    <string name="update_pwd_Confirm_null_tv">Potrdi geslo ne more biti prazno</string>
+    <string name="update_pwd_new_pwd_null_tv">Novo geslo ne more biti prazno</string>
+    <string name="update_pwd_new_confrim_tv">Gesli, ki ste ju vnesli, se ne ujemata</string>
+    <string name="update_pwd_save_bt">Shrani</string>
+    <string name="update_save_success">Uspešno shranjeno!</string>
+    <string name="crop__cancel" ignore="ButtonCase">Preklic</string>
+    <string name="crop__done">Končano</string>
+    <string name="crop__pick_error">Neveljavna vrsta slikovne datoteke</string>
+    <string name="crop__saving">Shranjevanje fotografije…</string>
+    <string name="crop__wait">Prosim počakajte…</string>
+
+    <string name="is_comment">Komentar je…</string>
+    <string name="comment_cancel">Komentar je bil preklican</string>
+    <string name="comment_submitting">Predložitev…</string>
+    <string name="comment_replying">Odgovarjanje…</string>
+    <string name="register_term_of_service">APKPure pogoji storitve</string>
+
+    <string name="set_contributor">Sodelavec</string>
+    <string name="set_permissions">Dovoljenja</string>
+    <string name="set_open_source_licence">Odprtno kodna licenca</string>
+
+    <string name="sign_in_services">S podpisom se strinjate z našimi pogoji in politiko zasebnosti.</string>
+
+    <string name="sign_in_services_key">Pogoji</string>
+    <string name="sign_in_services_key_policy">Politika zasebnosti</string>
+
+    <string name="user_sign_up">Prijavite se</string>
+    <string name="user_name_hint">Uporabniško ime</string>
+    <string name="user_email_hint">E-pošta</string>
+    <string name="user_password">Geslo(6–32)</string>
+    <string name="user_password_confirm">Potrdite geslo</string>
+
+    <string name="user_name_error">Uporabniško ime ne sme vsebovati posebnih znakov, simbolov ali presledkov</string>
+    <string name="user_name_null">Uporabniško ime ni veljavno</string>
+    <string name="user_nickname_error">Vzdevek ne sme vsebovati posebnih znakov, simbolov ali presledkov</string>
+    <string name="user_email_error">Ta e-poštni naslov ni veljaven</string>
+    <string name="user_password_error">To geslo ni veljavno</string>
+    <string name="user_confirm_error">Geslo se mora ujemati</string>
+
+    <string name="login_user_name">Uporabniško ime</string>
+    <string name="login_user_password">Geslo</string>
+    <string name="login_user_sign_in">Prijava</string>
+    <string name="login_choose">Ali se prijavite s svojim računom</string>
+    <string name="login_new_user">Nova registracija uporabnika</string>
+    <string name="login_post_as_a_guest">Objavi kot gost</string>
+
+    <string name="message">Sporočilo</string>
+
+    <string name="push_title_info_reply">%s je odgovoril na vaš komentar!</string>
+    <string name="push_title_info_upvoted">%s je glasoval za vaš komentar!</string>
+    <string name="push_title_info_follow">%s vam sledi!</string>
+    <string name="push_title_info_update">APKPure posodobitev je prišla!</string>
+    <string name="push_content_info_update">Nova različica %s je izšla! Posodobite zdaj!</string>
+    <string name="push_title_info_at">Nekdo vas je omenil v objavi, tapnite za ogled</string>
+
+    <string name="download_list">Prenesi seznam</string>
+    <string name="can_be_update">Lahko se posodobi</string>
+    <string name="install_list">Nameščeno</string>
+    <string name="no_download">Brez prenosa</string>
+    <string name="downloads">Prenosi</string>
+
+    <string name="change_language_failed">Neuspel preklop jezika!</string>
+    <string name="comment_reply_tell_msg">Ta komentar je bil odstranjen!</string>
+
+    <string name="notification_setting">Obvestila</string>
+    <string name="reply_notification">Obvestila o odgovorih</string>
+    <string name="reply_notification_msg">Prejmi obvestila za nova sporočila</string>
+    <string name="like_notification">Glasuj za obvestila</string>
+    <string name="like_notification_msg">Prejemanje obvestil o novih glasovanjih sporočil</string>
+    <string name="gif_tip">gif</string>
+    <string name="ad_tip">ad</string>
+    <string name="submit_comment_title_hint">Predmet (neobvezno)</string>
+
+    <string name="comment_vote_string">Glasujte</string>
+    <string name="comment_reply_three">Odgovorite</string>
+    <string name="comment_item_fold">komentar se je zrušil</string>
+
+    <plurals name="comment_reply_item_fold">
+	<item quantity="one"><xliff:g primer="1" id="šteje">%1$d</xliff:g> Odgovor se je zrušil</item>
+	<item quantity="other"><xliff:g primer="2" id="šteje">%1$d</xliff:g> Odgovora sta se zrušila</item>
+</plurals>
+
+    <string name="comment_no_reply">Vau, tukaj ni ničesar.</string>
+    <string name="comment_reply_info_name">Podrobnosti</string>
+    <string name="set_updates_notification">Na voljo so posodobitve aplikacij</string>
+    <string name="set_updates_notification_msg">Obvestite, kdaj so na voljo posodobitve za aplikacije. Priporočena nastavitev: Vključeno</string>
+    <string name="app_detail_unknow_text">Stara različica APKPure ne podpira novih funkcij, prosimo, posodobite na najnovejšo.</string>
+    <string name="comment_detail_original">Ogled prvotnega komentarja &gt;</string>
+    <string name="comment_comment_newest">Najnovejši</string>
+    <string name="comment_comment_oldest">Najstarejši</string>
+
+    <string name="edit">Uredi</string>
+    <string name="menu_copy">Kopiraj</string>
+    <string name="menu_cancel">Preklic</string>
+    <string name="delete_all_download_history">Želite izbrisati vso zgodovino prenosov?</string>
+    <string name="delete_the_historical_record">Želite izbrisati zgodovinski zapis?</string>
+    <string name="download_history">Zgodovina prenosov</string>
+
+    <string name="sub_comment_dialog_title">Dodaj video</string>
+    <string name="sub_comment_dialog_des_tv">Podpora za razčlenjevanje URL-jev YouTube</string>
+    <string name="sub_comment_dialog_link_et">Vnesite URL naslov videoposnetka tukaj</string>
+    <string name="sub_comment_dialog_link_null">URL naslov videoposnetka ne more biti prazen</string>
+    <string name="sub_comment_progress_msg">Dodajanje videoposnetka…</string>
+
+    <string name="play_button">Gumb za predvajanje</string>
+    <string name="null_time">0:00</string>
+    <string name="open_video_in_youtube">Odprite video na YouTube</string>
+    <string name="full_screen_button">Gumb celoten zaslon</string>
+
+    <string name="main_tab_home">DOMOV</string>
+    <string name="main_tab_ranking">RAZVRSTITEV</string>
+    <string name="tab_group">SKUPINA</string>
+    <string name="main_tab_my">MENE</string>
+
+    <string name="main_comment">komentar</string>
+    <string name="main_won_praise">Všečki</string>
+    <string name="main_my_comments">Objave</string>
+    <string name="main_my_collection">Priljubljene</string>
+    <string name="main_my_message">Sporočila</string>
+    <string name="main_good_comments">Glasovanje</string>
+    <string name="main_app_management">Upravljanje aplikacij</string>
+    <string name="main_topic_selection">Teme</string>
+    <string name="main_night_mode">Nočni način</string>
+    <string name="please_login_first">Prosimo, da se najprej prijavite</string>
+    <string name="no_choice">Brez izbire</string>
+    <string name="follow_on_success">Uspelo!</string>
+    <string name="follow_un_success">Ne sledite!</string>
+    <string name="canceled">Preklicano</string>
+    <string name="group">Skupina</string>
+    <string name="collection">Priljubljene</string>
+    <string name="cancel_collection">Nepriljubljene</string>
+
+    <string name="follow">SLEDENJE</string>
+    <string name="attention_on">Sledenje</string>
+    <string name="attention_off">Sledi</string>
+    <string name="no_attention">Ni še naslednjih skupin.</string>
+    <string name="browsing_history">Zgodovina brskanja</string>
+    <string name="browsing_history_prompt">Ali želite izbrisati zgodovino brskanja?</string>
+
+    <string name="ranking_tab1_title">Najboljše igre</string>
+    <string name="ranking_tab2_title">Najboljše nove igre</string>
+    <string name="ranking_tab3_title">Najboljše aplikacije</string>
+    <string name="ranking_tab4_title">Najboljše nove aplikacije</string>
+    <string name="ranking_top_countries_title">Najboljše države</string>
+    <string name="ranking_top_develop_title">Najboljši razvijalci</string>
+
+    <string name="app_detail_three_fragment_foot">Prikaži vse komentarje</string>
+    <string name="menu_paste">Prilepi</string>
+
+    <string name="favorite_title">Priljubljeno</string>
+    <string name="save_as_favorite">Shrani kot priljubljeno</string>
+    <string name="favorite_saved">Priljubljeno shranjeno</string>
+    <string name="failed_to_save_favorite">Najljubše ni bilo mogoče shraniti</string>
+    <string name="remove_as_favorite">Odstrani kot priljubljen</string>
+    <string name="remove_failed">Odstranjevanje ni uspelo</string>
+
+    <string name="collection_comment">Objave</string>
+    <string name="collection_app">APLIKACIJE</string>
+
+    <string name="open_with_browser">Odpri z brskalnikom</string>
+    <string name="web_view_refresh">Osveži</string>
+
+    <string name="topic_red_color">Temno rdeč</string>
+    <string name="topic_green_color">Srečna zelena</string>
+    <string name="topic_blue_color">Svetlo modra</string>
+    <string name="topic_purple_color">Temno vijolična</string>
+    <string name="topic_purple_black">Hladno siva</string>
+    <string name="topic_purple_yellow">Marelično oranžna</string>
+    <string name="topic_purple_blue_gary">Vojno letalsko modra</string>
+    <string name="topic_switch_failed">Sprememba teme ni uspela</string>
+
+    <string name="recommend_title">Priporočila</string>
+    <string name="recommend_tab_game">Priporočite aplikacijo</string>
+    <string name="recommend_tab_list">Priporočite</string>
+    <string name="recommend_installed_list_title">Moje aplikacije</string>
+    <string name="recommend_review">Predogled</string>
+    <string name="recommend_replace_img">Spremeni sliko</string>
+    <string name="recommend_app_name">Naslov aplikacije</string>
+    <string name="recommend_state_can">Priporoči</string>
+    <string name="recommend_state_success">Priporočeno</string>
+    <string name="recommend_select_game">Priporočite aplikacijo</string>
+    <string name="recommend_write_des">Opis</string>
+    <string name="recommend_write_des_hint">Koristen pregled bo videlo več uporabnikov, ki imajo enak interes, kot vi.</string>
+    <string name="recommend_comment">Pošlji</string>
+    <string name="recommend_comment_error">Neka napaka se je zgodila!</string>
+    <string name="recommend_description_title">Navodila:</string>
+    <string name="recommend_description">1. Odobrena priporočila bodo navedena v razdelku DISCOVER.
+2. Priporočamo lahko le aplikacije, ki so trenutno nameščene v napravi Android.
+3. Obvestite APKPure, da dodate neindeksirane aplikacije, prosimo, najprej izpolnite obrazce za priporočilo.</string>
+    <string name="recommend_user_recommend">Priporoča ga %s</string>
+    <string name="recommend_required">*</string>
+    <string name="recommend_not_found">Ni indeksirano</string>
+    <string name="recommend_not_fount_info">Obvestite APKPure, da dodate \"%s\", izpolniti morate obrazce.</string>
+    <string name="recommend_user_recommend_sys">Predstavljen s strani APKPure</string>
+
+    <string name="user_detail_focus">Sledite</string>
+    <string name="user_detail_fans">Spremljevalec</string>
+    <string name="user_detail_praise">Všečki</string>
+    <string name="user_detail_tab_detail">Objave</string>
+    <string name="user_detail_tab_reply">Odgovorite</string>
+
+    <string name="user_focus_tab_users">Ljudje</string>
+    <string name="user_focus_tab_apps">Skupine</string>
+    <string name="user_focus_title_my">Moji sledilci</string>
+    <string name="user_focus_title">Sledenje od %s</string>
+
+    <string name="goto_google_play">Kupite zdaj</string>
+    <string name="google_play_bug_text">Kupite v Google Play</string>
+
+    <string name="menu_follow_all">Vsi sledilci</string>
+    <string name="menu_follow_user">Sledilci</string>
+    <string name="menu_follow_group">Skupine sledilcev</string>
+    <string name="menu_follow_all_tab">Sledite</string>
+    <string name="menu_follow_user_tab">Ljudje</string>
+    <string name="menu_follow_group_tab">Skupine</string>
+
+    <string name="choose_app">Izberite aplikacijo</string>
+    <string name="publish_comment">Delite objavo</string>
+
+    <string name="app_detail_has_product">Nakup artiklov</string>
+    <string name="app_detail_no_product">Ni artiklov nakupa</string>
+    <string name="app_detail_has_ad">Vsebuje oglase</string>
+    <string name="app_detail_no_ad">Brez oglasov</string>
+
+    <string name="tag_list">Seznam oznak</string>
+    <string name="hot_tag">Vroče oznake</string>
+    <string name="hot_tag_explain">(Dodajanje ali glasovanje obstoječih oznak za to aplikacijo)</string>
+    <string name="common_use">Moje oznake</string>
+    <string name="app_add_tag_hint_caution">Ne sme biti več kot %s oznak za vsako aplikacijo.</string>
+    <string name="app_add_tag">Dodajte novo oznako</string>
+    <string name="toast_app_tag_exist">Oznaka že obstaja!</string>
+    <string name="there_is_no_label">Brez oznak.</string>
+    <string name="add">Dodajte</string>
+    <string name="colon">:</string>
+
+    <string name="pack_up">Strnite</string>
+    <string name="Istop">Pripeta</string>
+    <string name="add_tag">Dodaj oznake</string>
+    <string name="error_add_tag">Spodletelo dodajanje oznak</string>
+    <string name="no_collect">Še ni priljubljenih!</string>
+    <string name="no_comment">Bodite prvi, ki bo dodal komentar!</string>
+
+    <string name="share_apk">Delite APK</string>
+    <string name="tab_apk">APK</string>
+    <string name="commentaries">Delite objavo</string>
+
+    <string name="upload_apk_version">V %s</string>
+    <string name="upload_apk_downloads">Prenosi: %s</string>
+    
+    <string name="upload_comment_uploading">%s Nalaganje…</string>
+    <string name="upload_comment_upload_success">%s nalaganje je uspešno</string>
+    <string name="upload_comment_upload_failed">%s nalaganje je spodletelo</string>
+    <string name="upload_comment_view">Tapnite za ogled</string>
+    <string name="upload_comment_reload">Tapnite za ponovno nalaganje</string>
+    <string name="upload_notification_pause">Odmor</string>
+    <string name="upload_notification_start">Začetek</string>
+    <string name="upload_notification_cancel">Preklic</string>
+    <string name="upload_notification_is_uploading">Prenos paketa v APKPure…</string>
+    <string name="upload_notification_is_pause">Nalaganje je začasno ustavljeno</string>
+    <string name="upload_add_list_toast">Uspeh!</string>
+    <string name="upload_add_file_list_toast">Nalaganje aplikacij. Bodite potrpežljivi, hvala!</string>
+
+    <string name="your_reply_comment">Vaš odgovor</string>
+
+    <string name="market_ad_title">Tržnica</string>
+    <string name="market_ad_tab_one">Predstavljeno</string>
+    <string name="market_ad_tab_two">Igre</string>
+    <string name="market_ad_tab_three">Orodja</string>
+
+    <string name="tag">Oznaka</string>
+
+    <string name="search_tab_name_one">APLIKACIJE</string>
+    <string name="search_tab_name_two">UPORABNIK</string>
+    <string name="pre_register_ok">V redu</string>
+    <string name="pre_register_bt">Predregistrirajte se</string>
+    <string name="pre_register_now_bt">Predregistrirajte se</string>
+    <string name="pre_registered_bt">Registrirani</string>
+    <string name="pre_register_link_title">Predregistrirana stran</string>
+    <string name="pre_register_gift_tv">Spisek nagrad</string>
+    <string name="pre_register_person_num_tv">Predregistracijski zavezanci: %s</string>
+    <string name="pre_register_success">Predregistracija pomeni, da boste ob prijavi objavili obvestilo v svoji napravi, ko se sprosti aplikacija.</string>
+
+    <string name="open_page_failed">Strani ni bilo mogoče odpreti!</string>
+    <string name="search_for_user">Iskanje</string>
+    <string name="search_user_history_title">Nedavni kontakti</string>
+    <string name="search_focus_list_title">Sledite</string>
+
+    <string name="submit_comment_user_style">
+ &lt;font color=#007AFF&gt;@%1$s&lt;/font&gt;</string>
+
+    <string name="copy_username">Kopiraj vzdevek</string>
+    <string name="copy_content">Kopiraj vsebino</string>
+
+    <string name="tab_global">IZBRANO</string>
+    <string name="comment_list_see_here">Nazadnje obiskani tukaj, tapnite, da osvežite</string>
+    <string name="comment_list_new_num">%d novih zgodb</string>
+
+    <string name="tab_popular">PRILJUBLJENO</string>
+</resources>
