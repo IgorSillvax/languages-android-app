@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2"><string name="action_settings">Nastavitve</string>
-    <string name="action_search">Išči</string>
+    <string name="action_search">Iskanje</string>
     <string name="games">Igre</string>
     <string name="action_management">Upravljanje</string>
 
@@ -108,10 +108,10 @@ Nekaj se je zgodilo.</string>
     <string name="update">Posodobitev</string>
     <string name="version__version___size_">Različica: <xliff:g example="1.0.0" id="version">%1$s</xliff:g>, <xliff:g example="1024 kB" id="size">%2$s</xliff:g></string>
     <plurals name="_count__new_update_is_available">
-	<item quantity="one"><xliff:g example="1" id="count">%1$d</xliff:g> nova posodobitev je na voljo</item>
-	<item quantity="two"><xliff:g example="2" id="count">%1$d</xliff:g> novi posodobitvi sta na voljo</item>
-	<item quantity="few"><xliff:g example="2" id="count">%1$d</xliff:g> novih posodobitev je na voljo</item>
-	<item quantity="other"><xliff:g example="2" id="count">%1$d</xliff:g> nove posodobitve so na voljo</item>
+	<item quantity="one"><xliff:g primer="1" id="count">%1$d</xliff:g> nova posodobitev je na voljo</item>
+	<item quantity="two"><xliff:g primer="2" id="count">%1$d</xliff:g> novi posodobitvi sta na voljo</item>
+	<item quantity="few"><xliff:g primer="2" id="count">%1$d</xliff:g> novih posodobitev je na voljo</item>
+	<item quantity="other"><xliff:g primer="2" id="count">%1$d</xliff:g> nove posodobitve so na voljo</item>
 </plurals>
 
     <string name="launching_please_wait">Zagon, prosim počakajte…</string>
@@ -127,7 +127,7 @@ Nekaj se je zgodilo.</string>
     <string name="_name__download_failed"><xliff:g example="APKPure" id="name">%1$s</xliff:g> prenos ni uspel</string>
     <string name="touch_to_download_it_again">Dotaknite se, če ga želite znova prenesti</string>
 
-    <string name="download_percent"><xliff:g example="50" id="percent">%1$d</xliff:g> %%</string>
+    <string name="download_percent"><xliff:g primer="50" id="odstotek">%1$d</xliff:g> %%</string>
     <string name="pause">Odmor</string>
     <string name="pause_all">Zaustavi vse</string>
     <string name="continue_">Nadaljuj</string>
@@ -196,7 +196,7 @@ Podrobnosti težave:
     <string name="invalid_app_detail">Neveljavne informacije o podrobnostih aplikacije.</string>
     <string name="invalid_app_asset">Neveljavne informacije o sredstvih aplikacije.</string>
     <string name="failed_to_request_app_detail">Spodletela zahteva o podrobnostih aplikacije.</string>
-    <string name="failed_to_request_app_asset">Spodletela zahteva o podatkih sredstev aplikacij.</string>
+    <string name="failed_to_request_app_asset">Spodletela prošnja za informacije o sredstvih aplikacij.</string>
     <string name="incompatible_this_app">"
  &lt;big&gt;&lt;b&gt;&lt;font color=%1$d&gt;Vaša naprava ni združljiva s to aplikacijo.&lt;/font&gt;&lt;/b&gt;&lt;/big&gt;&lt;br&gt;&lt;br&gt;Želite nadaljevati?
  "</string>
@@ -287,7 +287,7 @@ Zgoraj omenjene funkcije podpirajo Android 4.1+, ni potrebno root dovoljenje. Ob
     <string name="auto_service_complete">Končano</string>
 
     <string name="auto_service_install__material_">NAMESTITEV</string>
-    <string name="auto_service_ensure__material_">V REDU</string>
+    <string name="auto_service_ensure__material_">V redu</string>
     <string name="auto_service_next__material_">NASLEDNJI</string>
     <string name="auto_service_exchange__material_">ZAMENJAJ</string>
     <string name="auto_service_complete__material_">KONČANO</string>
@@ -303,7 +303,7 @@ Zgoraj omenjene funkcije podpirajo Android 4.1+, ni potrebno root dovoljenje. Ob
     <string name="app_detail_customer_reviews">Komentarji</string>
     <string name="app_detail_comment_type_web">splet</string>
     <string name="app_submit_submit">Pošlji…</string>
-    <string name="app_submit_anonymous_comment">Dodaj kokmentar</string>
+    <string name="app_submit_anonymous_comment">Dodaj komentar</string>
     <string name="app_submit_title_toast">Morate napisati naslov!</string>
     <string name="app_submit_msg_toast">Morate napisati nekaj!</string>
     <string name="app_submit_name_toast">Prosimo, izpolnite vzdevek!</string>
@@ -398,7 +398,7 @@ Zgoraj omenjene funkcije podpirajo Android 4.1+, ni potrebno root dovoljenje. Ob
     <string name="update_nick_name_et">Vnesite nov vzdevek</string>
     <string name="update_nick_name_tv">Novi vzdevek ne more biti prazen</string>
     <string name="update_email_name_et">Vpišite svoj elektronski naslov</string>
-    <string name="update_eamil_name_tv">E-pošta ne more biti prazna</string>
+    <string name="update_eamil_name_tv">E-poštni naslov ne more biti prazen</string>
     <string name="update_nickname_error">Vzdevek je že bil sprejet, izberite drugega!</string>
     <string name="user_info_edit_intro_tv">O meni</string>
     <string name="update_intro_title">Uredi O meni</string>
