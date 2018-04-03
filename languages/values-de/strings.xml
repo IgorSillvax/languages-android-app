@@ -87,7 +87,7 @@
     <string name="no_more">Nichts weiter.</string>
 
     <string name="update">Aktualisieren</string>
-    <string name="version__version___size_">Version: &lt;xliff: g xmlns: xliff = \"urn: oasis: names: tc: xliff: document: 1.2\" example= \"1.0.0\" id = \"version\"&gt;% 1 $ s &lt;/ xliff: g&gt;, &lt; xliff: g xmlns: xliff = \"urn: oasis:names: tc: xliff: document: 1.2\" Example= \"1024 kB\" id = \"size\"&gt;% 2 $ s &lt;/ xliff: g&gt;<xliff:g example="1.0.0" id="version">%1$s</xliff:g>, <xliff:g example="1024 kB" id="size">%2$s</xliff:g></string>
+    <string name="version__version___size_">Version: <xliff:g example="1.0.0" id="version">%1$s</xliff:g>, <xliff:g example="1024 kB" id="Size">%2$s</xliff:g></string>
     <plurals name="_count__new_update_is_available">
         <item quantity="one"><xliff:g example="1" id="count">%1$d</xliff:g> neue Aktualisierung ist verfügbar</item>
         <item quantity="other"><xliff:g example="2" id="count">%1$d</xliff:g> neue Aktualisierungen sind verfügbar</item>
@@ -193,9 +193,9 @@
     <string name="waiting_to_download">Warten auf Download</string>
     <string name="want_to_remove_all_download_items">Möchtest du alle Downloads löschen?</string>
     <string name="download_over_cellular">Download über Mobilfunk</string>
-    <string name="download_over_cellular_content">Sie sind im Begriff etwas über Ihr mobiles Netzwerk herunterzuladen. Möchten Sie fortfahren?</string>
+    <string name="download_over_cellular_content">Sie werden über Ihr Mobilfunknetz heruntergeladen. Willst du weitermachen?</string>
 
-    <string name="search_history">Chronik</string>
+    <string name="search_history">Verlauf</string>
     <string name="clear_search_history">Gesamten Verlauf löschen</string>
 
     <string name="participate_ultra_download_beta_test_title">Aktivieren Sie Ultra-Download und genießen Sie eine schnellere Download-Geschwindigkeit</string>
@@ -239,7 +239,7 @@
     <string name="auto_service_install_accessibility_summary">Unterstützt ab Android 4.1, kein Root-Zugriff nötig.</string>
 
     <string name="auto_service_dialog_title">Automatisches Installieren einschalten</string>
-    <string name="auto_service_dialog_message">"Automatisches Installieren muss auf dem Gerät freigegeben werden. Das kann die risikofreie Verwendung  sichern"</string>
+    <string name="auto_service_dialog_message">Für die automatische Installation müssen Sie eine Autorisierung am Telefon vornehmen, damit sie gefahrlos und ohne Risiko verwendet werden kann.</string>
 
     <string name="auto_service_title">APKPure Auto-Installation</string>
     <string name="auto_service_description">\"APKPure Auto-Installation\" für eine reibungslose Nutzung freischalten.
@@ -329,7 +329,9 @@ Die genannten Funktionen werden ab Android 4.1 unterstützt, es ist kein Root-Zu
     <string name="user_info_edit_portrait_tv">Profilbild</string>
     <string name="app_submit_star_toast">Gib eine Bewertung an!</string>
     <string name="share_app_url_comment"> <xliff:g example="APKPure" id="user_name">%1$s</xliff:g>\'s Kommentare zu
- <xliff:g example="APKPure" id="app_name">%2$s</xliff:g> (von @<xliff:g example="APKPure" id="Soziale_Netzwerke">%3$s</xliff:g>), <xliff:g example="https://apkpure.com/p/com.apkpure.aegon" id="app_url">%4$s</xliff:g></string>
+<xliff:g example="APKPure" id="app_name">%2$s</xliff:g> :
+<xliff:g example="APKPure" id="app_name">%3$s</xliff:g> (von @
+<xliff:g example="APKPure" id="social_network_name">%4$s</xliff:g>) <xliff:g example="https://apkpure.com/p/com.apkpure.aegon" id="app_url">%5$s</xliff:g></string>
 
     <string name="input_reply_content">Inhalt der Antwort:</string>
     <string name="already_save"><xliff:g example="ApKPure/photo" id="path">%1$s</xliff:g> gespeichert</string>
@@ -502,7 +504,7 @@ erlaubt werden.</string>
     <string name="collection">Favoriten</string>
 
     <string name="comments">Kommentare</string>
-    <string name="follow">Folgend</string>
+    <string name="follow">FOLGENDES</string>
     <string name="attention_on">Folgend</string>
     <string name="attention_off">Folgen</string>
     <string name="no_attention">Noch keine folgenden Gruppen.</string>
@@ -560,7 +562,7 @@ erlaubt werden.</string>
     <string name="recommend_user_recommend">Von %s empfohlen</string>
     <string name="recommend_required">*</string>
 
-    <string name="main_comment">kommentieren</string>
+    <string name="main_comment">Kommentar</string>
     <plurals name="comment_reply_item_fold">
         <item quantity="one"><xliff:g example="1" id="count">%1$d</xliff:g> Antwort eingeklappt</item>
         <item quantity="other"><xliff:g example="2" id="count">%1$d</xliff:g> Antworten eingeklappt</item>
@@ -572,7 +574,7 @@ erlaubt werden.</string>
     <string name="load_failed_error_not_found">App wurde nicht im APKPure App Store gefunden!</string>
     <string name="beta">Test</string>
     <string name="data_saver_model">Daten-Sparer</string>
-    <string name="data_saver_model_summery">Aktivieren dieser Option reduziert Bildgröße und -qualität, um Daten einzusparen.</string>
+    <string name="data_saver_model_summery">Wenn Sie diese Option aktivieren, werden Bildgröße und -qualität reduziert, um wenigere mobile Daten zu verwenden.</string>
     <string name="download_mkdir">Download-Pfad</string>
     <string name="download_mkdir_internal_storage_size_des">%1$s frei, %2$s insgesamt</string>
     <string name="download_mkdir_internal_storage_entries">"SD "</string>
@@ -597,8 +599,8 @@ erlaubt werden.</string>
     <string name="push_content_info_update">Jetzt auf die neue Version %s aktualisieren!</string>
 
     <string name="recommend_not_found">Nicht erfasst</string>
-    <string name="recommend_not_fount_info">Benachrichtige APKPure, um \"%s\" hinzuzufügen, du musst das Formular vervollständigen.</string>
-    <string name="recommend_user_recommend_sys">Vorgestellt von APKPure</string>
+    <string name="recommend_not_fount_info">Benachrichtigen Sie APKPure, um \"% s\" hinzuzufügen. Sie müssen die Formulare abschließen.</string>
+    <string name="recommend_user_recommend_sys">Bestimmt von APKPure</string>
 
     <string name="user_detail_focus">Folgend</string>
     <string name="user_detail_fans">Abonnenten</string>
@@ -623,23 +625,23 @@ erlaubt werden.</string>
     <string name="choose_app">Anwendung auswählen</string>
     <string name="publish_comment">Teile einen Kommentar</string>
 
-    <string name="app_detail_has_product">Kostenpflichtige Objekte</string>
-    <string name="app_detail_no_product">Keine kostenpflichtigen Objekte</string>
+    <string name="app_detail_has_product">Artikel kaufen</string>
+    <string name="app_detail_no_product">Keine Artikel kaufen</string>
     <string name="app_detail_has_ad">Enthält Werbung</string>
     <string name="app_detail_no_ad">Werbefrei</string>
 
     <string name="tag_list">Tag-Liste</string>
     <string name="hot_tag">Heiße Tags</string>
     <string name="common_use">Meine Tags</string>
-    <string name="app_add_tag_hint_caution">Nicht mehr als %s Tags für jede Anwendung.</string>
-    <string name="app_add_tag">Einen neuen Tag hinzufügen</string>
+    <string name="app_add_tag_hint_caution">Nur % s Etikette für jede Anwendung.</string>
+    <string name="app_add_tag">Ein neues Etikett hinzufügen</string>
     <string name="toast_app_tag_exist">Tag existiert bereits!</string>
     <string name="there_is_no_label">Keine Tags.</string>
     <string name="add">Hinzufügen</string>
     <string name="colon">:</string>
 
-    <string name="pack_up">Einklappen</string>
-    <string name="Istop">Angepinnt</string>
+    <string name="pack_up">Zusammenbruch</string>
+    <string name="Istop">festgesteckt</string>
     <string name="add_tag">Tags hinzufügen</string>
     <string name="error_add_tag">Fehler beim Hinzufügen der Tags</string>
     <string name="no_collect">Noch keine Favoriten!</string>
@@ -652,7 +654,7 @@ erlaubt werden.</string>
     <string name="upload_apk_version">V. %s</string>
     <string name="upload_apk_downloads">Herunterladen：%s</string>
 
-    <string name="upload_comment_uploading">%s lädt hoch…</string>
+    <string name="upload_comment_uploading">%s hochladen…</string>
     <string name="upload_comment_upload_success">%s erfolgreich hochgeladen</string>
     <string name="upload_comment_upload_failed">Fehler bei %s</string>
     <string name="upload_comment_view">Klicken, um anzusehen</string>
@@ -666,7 +668,8 @@ erlaubt werden.</string>
     <string name="download_mkdir_internal_storage_values">Interner Speicher</string>
     <string name="download_mkdir_external_storage_values">externer Speicher</string>
 
-<string name="share_app_url_group"> &lt;xliff:g xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\" example=\"APKPure\" id=\"social_network_name\"&gt; &lt;xliff:g xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\" example=\"APKPure\" id=\"app_name\"&gt;%1$s&lt;/xliff:g&gt; Group. (from @&lt;xliff:g xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\" example=\"APKPure\" id=\"social_network_name\"&gt;%2$s&lt;/xliff:g&gt;), &lt;xliff:g xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\" example=\"https://apkpure.com/p/com.apkpure.aegon\" id=\"app_url\"&gt;%3$s&lt;/xliff:g&gt; Gruppe<xliff:g example="APKPure" id="app_name">%1$s</xliff:g> Group. (from @<xliff:g example="APKPure" id="social_network_name">%2$s</xliff:g>), <xliff:g example="https://apkpure.com/p/com.apkpure.aegon" id="app_url">%3$s</xliff:g> Gruppe</string>
+<string name="share_app_url_group"> <xliff:g example="APKPure" id="app_name">%1$s</xliff:g> Gruppe. (von @
+<xliff:g example="APKPure" id="social_network_name">%2$s</xliff:g>) <xliff:g example="https://apkpure.com/p/com.apkpure.aegon" id="app_url">%3$s</xliff:g></string>
 
     <string name="message_at_title">Erwähnung</string>
     <string name="message_at">hat dich erwähnt</string>
