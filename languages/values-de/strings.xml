@@ -17,22 +17,24 @@
     <string name="settings">Einstellungen</string>
     <string name="press_back_key_quit">Drücke erneut Zurück zum Beenden.</string>
 
-    <string name="featured">Vorgestellt</string>
-    <string name="load_failed_no_results">Sorry! Keine Ergebnisse gefunden.</string>
+    <string name="featured">Spezifisch</string>
+    <string name="load_failed_no_results">Entschuldigung! Keine Ergebnisse gefunden.</string>
     <string name="refresh">Aktualisieren</string>
 
-    <string name="app_uninstall">Anwendung entfernen</string>
+    <string name="app_uninstall">App deinstallieren</string>
     <string name="something_happened">&gt;_&lt;\nEtwas ist passiert.</string>
 
-    <string name="load_failed_empty">Hier ist nichts.</string>
+    <string name="load_failed_empty">Es gibt hier nichts.</string>
     <string name="management">Verwaltung</string>
     <string name="download_management">Downloadverwaltung</string>
     <string name="about">Über</string>
     <string name="about_title">Über <xliff:g example="APKPure" id="app_name">%1$s </xliff:g></string>
-    <string name="about_message">
-        <![CDATA[<b>Version:</b> %1$s<br><br><b>Website:</b> <a href="%2$s">%2$s</a><br><b>Email:</b> <a href="mailto:%3$s">%3$s</a>]]>
-    </string>
-    <string name="check_update">Auf Aktualisierungen prüfen</string>
+    <string name="about_message">"
+ &lt;b&gt;Version:&lt;/b&gt; %1$s&lt;br&gt;&lt;br&gt;&lt;b&gt;Webseite:
+&lt;/b&gt; &lt;ein Hyperlink=%2$s&gt;%2$s&lt;/a&gt;&lt;br&gt;&lt;b&gt;Email:
+&lt;/b&gt; ein Hyperlink=mailto:%3$s&gt;%3$s&lt;/a&gt;
+ "</string>
+    <string name="check_update">Aktualisierung überprüfen</string>
     <string name="quit">Beenden</string>
     <string name="want_to_quit">Möchtest du die Anwendung schließen?</string>
 
@@ -181,7 +183,7 @@
     <string name="remove_all">Alles entfernen</string>
     <string name="delete_downloaded_file">heruntergeladene Datei löschen</string>
     <string name="update___count__"><xliff:g example="3" id="count">%1$d</xliff:g>)</string>
-    <string name="delete_all">Lösche alles</string>
+    <string name="delete_all">Alles löschen</string>
     <string name="properties_message">
         <![CDATA[<b>Pfad:</b> %1$s<br><b>Size:</b> %2$s<br><b>Zuletzt geändert:</b> %3$s]]>
     </string>
@@ -567,7 +569,7 @@ erlaubt werden.</string>
     <string name="history_version">Versions Verlauf</string>
 
     <string name="load_failed_error_not_found">App wurde nicht im APKPure App Store gefunden!</string>
-    <string name="beta">Beta</string>
+    <string name="beta">Test</string>
     <string name="data_saver_model">Daten einsparen</string>
     <string name="data_saver_model_summery">Aktivieren dieser Option reduziert Bildgröße und -qualität, um Daten einzusparen.</string>
     <string name="download_mkdir">Download-Pfad</string>
@@ -707,4 +709,6 @@ erlaubt werden.</string>
 
     <string name="tab_global">Empfohlen</string>
     <string name="comment_list_see_here">Zuletzt besucht hier, drücke zum Aktualisieren</string>
+    <string name="upload_add_file_list_toast">App-Upload. Bitte geduldig, danke!</string>
+
     </resources>
