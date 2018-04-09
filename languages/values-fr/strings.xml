@@ -311,7 +311,7 @@ Les fonctions mentionnées ci-dessus supportent Android 4.1 et +, sans besoin de
 
     <string name="recommend">Découvrir</string>
     <string name="report">Signaler</string>
-    <string name="share_app_url_comment"> <xliff:g example="APKPure" id="user_name">%1$s</xliff:g>\'s comments on <xliff:g example="APKPure" id="app_name">%2$s</xliff:g> : <xliff:g example="APKPure" id="app_name">%3$s</xliff:g> (from @<xliff:g example="APKPure" id="social_network_name">%4$s</xliff:g>) <xliff:g example="https://apkpure.com/p/com.apkpure.aegon" id="app_url">%5$s</xliff:g></string>
+    <string name="share_app_url_comment"> <xliff:g xmlns:xliff="urn:oasis:noms:tc:xliff:document:1.2" exemple="APKPure" id="nom_de_l'utilisateur">%1$s</xliff:g>\'s commenter sur <xliff:g xmlns:xliff="urn:oasis:noms:tc:xliff:document:1.2" exemple="APKPure" id="nom_de_l'application">%2$s</xliff:g> : <xliff:g xmlns:xliff="urn:oasis:noms:tc:xliff:document:1.2" exemple="APKPure" id="nom_de_l'application">%3$s</xliff:g> (de @<xliff:g xmlns:xliff="urn:oasis:noms:tc:xliff:document:1.2" exemple="APKPure" id="Nom_du_réseau_social">%4$s</xliff:g>) <xliff:g xmlns:xliff="urn:oasis:noms:tc:xliff:document:1.2" exemple="https://apkpure.com/p/com.apkpure.aegon" id="app_url">%5$s</xliff:g></string>
 
     <string name="app_detail_reply_comment">Commentaire (%d)</string>
     <string name="app_detail_reply_esc">+</string>
@@ -338,7 +338,7 @@ Les fonctions mentionnées ci-dessus supportent Android 4.1 et +, sans besoin de
     <string name="sign_out">Déconnexion</string>
 
     <string name="delete_comment">Supprimer le commentaire</string>
-    <string name="delete_comment_msg">Etes vous sur de vouloir supprimer ce commentaire ?</string>
+    <string name="delete_comment_msg">Êtes-vous sûre de vouloir supprimer ce commentaire ?</string>
     <string name="upload_cancel">L\'envoi a été annulé</string>
     <string name="login_select_way_to_login">Merci de sélectionner un mode de connexion</string>
 
@@ -595,7 +595,7 @@ Les fonctions mentionnées ci-dessus supportent Android 4.1 et +, sans besoin de
     <string name="goto_google_play">Acheter Maintenant</string>
 
     <string name="menu_follow_all">Tout suivie</string>
-    <string name="choose_app">selectionner une apllication</string>
+    <string name="choose_app">sélectionner une application</string>
     <string name="download_mkdir_internal_storage_size_des">%1$slibre, total%2$s</string>
     <string name="history_version">Version de l\'historique</string>
 
