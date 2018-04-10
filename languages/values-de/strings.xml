@@ -29,12 +29,11 @@
     <string name="download_management">Downloadverwaltung</string>
     <string name="about">Über</string>
     <string name="about_title">Über <xliff:g example="APKPure" id="app_name">%1$s </xliff:g></string>
-    <string name="about_message">"
- &lt;b&gt;Version:&lt;/b&gt; %1$s&lt;br&gt;&lt;br&gt;&lt;b&gt;Webseite:
-&lt;/b&gt; &lt;ein Hyperlink=%2$s&gt;%2$s&lt;/a&gt;&lt;br&gt;&lt;b&gt;Email:
-&lt;/b&gt; ein Hyperlink=mailto:%3$s&gt;%3$s&lt;/a&gt;
- "</string>
+    <string name="about_message">
+        <![CDATA[<b>Version:</b> %1$s<br><br><b>Website:</b> <a href="%2$s">%2$s</a><br><b>Email:</b> <a href="mailto:%3$s">%3$s</a>]]>
+    </string>
     <string name="check_update">Aktualisierung überprüfen</string>
+
     <string name="quit">Beenden</string>
     <string name="want_to_quit">Möchtest du die Anwendung schließen?</string>
 
@@ -108,7 +107,7 @@
     <string name="apk_management">APK-Verwaltung</string>
     <string name="apk_xapk_management">APK / XAPK-Verwaltung</string>
     <string name="screenshots">Bildschirmaufnahmen</string>
-    <string name="download_percent"><xliff:g Beispiele="50" id="percent">%1$d</xliff:g> %%</string>
+    <string name="download_percent"><xliff:g example="50" id="percent">%1$d</xliff:g> %%</string>
     <string name="pause">Pause</string>
     <string name="continue_">Fortsetzen</string>
     <string name="restart">Neustart</string>
@@ -182,8 +181,8 @@
     <string name="installed">Installiert</string>
     <string name="remove_all">Alles entfernen</string>
     <string name="delete_downloaded_file">heruntergeladene Datei löschen</string>
-    <string name="update___count__">Aktualisieren<xliff:g example="3" id="count">%1$d</xliff:g>)</string>
-    <string name="delete_all">Alles löschen</string>
+    <string name="update___count__"><xliff:g example="3" id="count">%1$d</xliff:g>)</string>
+    <string name="delete_all">Lösche alles</string>
     <string name="properties_message">
         <![CDATA[<b>Pfad:</b> %1$s<br><b>Size:</b> %2$s<br><b>Zuletzt geändert:</b> %3$s]]>
     </string>
@@ -223,9 +222,9 @@
             <![CDATA[Gesamt:: <b><font color="%1$d">%2$d</font></b> Anwendungen, <b><font color="%1$d">%3$s</font></b>]]>
         </item>
     </plurals>
-    <string name="total_zero_app">"
- Gesamt:: &lt;b&gt;&lt;font color=%1$d&gt;0&lt;/font&gt;&lt;/b&gt; App
- "</string>
+    <string name="total_zero_app">
+        <![CDATA[Gesamt:: <b><font color="%1$d">0</font></b>  App]]>
+    </string>
     <string name="enable_ultra_download">Ultra-Download einschalten</string>
     <string name="enable_ultra_download_summary">Ultra-Download ist in der Betaphase, teile uns eventuelle Probleme mit.</string>
     <string name="installation">Installation</string>
@@ -338,7 +337,7 @@ Die genannten Funktionen werden ab Android 4.1 unterstützt, es ist kein Root-Zu
 
     <string name="publish">Posten</string>
     <string name="scan_qr_code_hint">Vor dem Scannen des QR-Codes muss der Zugriff auf die Kamera
-erlaubt werden.</string>
+        erlaubt werden.</string>
     <string name="tip_permission_camera_storage">Keine Berechtigung für Kamera und SD-Karte, öffne das Rechtemanagement</string>
     <string name="login_select_way_to_login">Wähle aus, wie du dich einloggen möchtest</string>
 
@@ -556,9 +555,10 @@ erlaubt werden.</string>
     <string name="recommend_comment">Senden</string>
     <string name="recommend_comment_error">Es ist ein Fehler aufgetreten!</string>
     <string name="recommend_description_title">Anweisungen:</string>
-    <string name="recommend_description">1. Bestätigte Empfehlungen werden unter \"ENTDECKEN\" aufgelistet.
-2. Du kannst nur die Apps empfehlen, die aktuell auf deinem Android-Gerät installiert sind.
-3. Benachrichtige APKPure, um nicht erfasste Apps hinzuzufügen, bitte vervollständige zuerst das Empfehlungsformular.</string>
+    <string name="recommend_description">
+        1. Bestätigte Empfehlungen werden unter \"ENTDECKEN\" aufgelistet.
+        2. Du kannst nur die Apps empfehlen, die aktuell auf deinem Android-Gerät installiert sind.
+        3. Benachrichtige APKPure, um nicht erfasste Apps hinzuzufügen, bitte vervollständige zuerst das Empfehlungsformular.</string>
     <string name="recommend_user_recommend">Von %s empfohlen</string>
     <string name="recommend_required">*</string>
 
@@ -668,9 +668,10 @@ erlaubt werden.</string>
     <string name="download_mkdir_internal_storage_values">Interner Speicher</string>
     <string name="download_mkdir_external_storage_values">externer Speicher</string>
 
-<string name="share_app_url_group"> <xliff:g example="APKPure" id="app_name">%1$s</xliff:g> Gruppe. (von @
-<xliff:g example="APKPure" id="social_network_name">%2$s</xliff:g>) <xliff:g example="https://apkpure.com/p/com.apkpure.aegon" id="app_url">%3$s</xliff:g></string>
-
+    <string name="share_app_url_group"> <xliff:g example="APKPure" id="app_name">%1$s</xliff:g>
+        Group. (from @<xliff:g example="APKPure" id="social_network_name">%2$s</xliff:g>)
+        <xliff:g example="https://apkpure.com/p/com.apkpure.aegon" id="app_url">%3$s</xliff:g>
+    </string>
     <string name="message_at_title">Erwähnung</string>
     <string name="message_at">hat dich erwähnt</string>
 
@@ -719,8 +720,7 @@ erlaubt werden.</string>
     <string name="pre_register_now_bt">Vor-Register</string>
     <string name="pre_register_person_num_tv">Vor-Registrants:%s</string>
     <string name="submit_comment_user_style">
- &lt;font color=#007AFF&gt;@%1$s&lt;/font&gt;</string>
-
+        <![CDATA[<font color="#007AFF">@%1$s</font>]]></string>
     <string name="comment_list_new_num">% d Neue Geschichten</string>
 
     <string name="tab_popular">BELIEBT</string>

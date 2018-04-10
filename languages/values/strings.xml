@@ -211,9 +211,19 @@
     </string>
 
     <string name="share">Share</string>
-    <string name="share_app_url">Share <xliff:g example="APKPure" id="app_name">%1$s</xliff:g> APK (from @<xliff:g example="APKPure" id="social_network_name">%2$s</xliff:g>) <xliff:g example="https://apkpure.com/p/com.apkpure.aegon" id="app_url">%3$s</xliff:g></string>
-    <string name="share_app_url_comment"> <xliff:g example="APKPure" id="user_name">%1$s</xliff:g>\'s comments on <xliff:g example="APKPure" id="app_name">%2$s</xliff:g> : <xliff:g example="APKPure" id="app_name">%3$s</xliff:g> (from @<xliff:g example="APKPure" id="social_network_name">%4$s</xliff:g>) <xliff:g example="https://apkpure.com/p/com.apkpure.aegon" id="app_url">%5$s</xliff:g></string>
-    <string name="share_app_url_group"> <xliff:g example="APKPure" id="app_name">%1$s</xliff:g> Group. (from @<xliff:g example="APKPure" id="social_network_name">%2$s</xliff:g>) <xliff:g example="https://apkpure.com/p/com.apkpure.aegon" id="app_url">%3$s</xliff:g></string>
+    <string name="share_app_url">
+        Share <xliff:g example="APKPure" id="app_name">%1$s</xliff:g> APK (from @<xliff:g example="APKPure" id="social_network_name">%2$s</xliff:g>)
+        <xliff:g example="https://apkpure.com/p/com.apkpure.aegon" id="app_url">%3$s</xliff:g>
+    </string>
+    <string name="share_app_url_comment"> <xliff:g example="APKPure" id="user_name">%1$s</xliff:g>\'s comments on
+        <xliff:g example="APKPure" id="app_name">%2$s</xliff:g> : <xliff:g example="APKPure" id="app_name">%3$s</xliff:g>
+        (from @<xliff:g example="APKPure" id="social_network_name">%4$s</xliff:g>)
+        <xliff:g example="https://apkpure.com/p/com.apkpure.aegon" id="app_url">%5$s</xliff:g>
+    </string>
+    <string name="share_app_url_group"> <xliff:g example="APKPure" id="app_name">%1$s</xliff:g>
+        Group. (from @<xliff:g example="APKPure" id="social_network_name">%2$s</xliff:g>)
+        <xliff:g example="https://apkpure.com/p/com.apkpure.aegon" id="app_url">%3$s</xliff:g>
+    </string>
 
     <string name="_name__version_history"><xliff:g example="APKPure" id="name">%1$s</xliff:g> Version History</string>
     <string name="update__date___size_">Update: <xliff:g example="Mar 3, 2016" id="date">%1$s</xliff:g>, <xliff:g example="1024 kB" id="size">%2$s</xliff:g></string>
@@ -601,6 +611,7 @@
 
     <string name="edit">Edit</string>
     <string name="menu_copy">Copy</string>
+    <string name="menu_copy_link">Copy link</string>
     <string name="menu_cancel">Cancel</string>
     <string name="delete_all_download_history">Delete all download history?</string>
     <string name="delete_the_historical_record">Delete the historical record?</string>
@@ -669,8 +680,9 @@
     <string name="collection_comment">Posts</string>
     <string name="collection_app">APPS</string>
 
-    <string name="open_with_browser">Open with Browser</string>
+    <string name="open_with_browser">Open with Browsers</string>
     <string name="web_view_refresh">Refresh</string>
+    <string name="web_view_copy">Copy Link</string>
 
     <string name="topic_red_color">Crimson</string>
     <string name="topic_green_color">Lucky Green</string>
@@ -810,4 +822,6 @@
     <string name="comment_list_new_num">%d New Stories</string>
 
     <string name="tab_popular">POPULAR</string>
+    <string name="count_down_timer_tv">%ds</string>
+    <string name="count_down_timer_btn">skip</string>
 </resources>
