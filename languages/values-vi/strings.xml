@@ -5,7 +5,7 @@
     <string name="action_search">Hely cl</string>
     <string name="action_management">Quản lý</string>
 
-    <string name="press_back_key_quit">Nhấn phím trở lại lần nữa để thoát.</string>
+    <string name="press_back_key_quit">Nhấn phím trở lại một lần nữa để thoát.</string>
 
     <string name="featured">Tính Năng</string>
     <string name="games">Trò chơi</string>
@@ -16,7 +16,7 @@
     <string name="something_happened">&gt;_&lt;\nĐôi khi có lỗi.</string>
 
     <string name="load_failed_error">Ôi!! Đã có lỗi xảy ra.</string>
-    <string name="load_failed_empty">Nó không có ở đây.</string>
+    <string name="load_failed_empty">Không có ở đây.</string>
     <string name="load_failed_all_up_to_date">Tất cả các ứng dụng được cập nhật.</string>
     <string name="load_failed_no_results">Xin lỗi! Không tìm thấy kết quả.</string>
     <string name="refresh">Làm mới</string>
@@ -48,7 +48,7 @@
     <string name="user_canceled">Người dùng đã hủy.</string>
     <string name="io_error">Lỗi IO. Có thể không có đủ không gian trống để cài đặt thành công.</string>
     <string name="file_format_error">Định dạng tệp lỗi.</string>
-    <string name="parsing_xapk">Phân tích XAPK …</string>
+    <string name="parsing_xapk">Đang phân tích XAPK …</string>
     <string name="installing_obb">Đang cài đặt tệp OBB …</string>
     <string name="extracting_apk">Giải nén Tệp APK …</string>
     <string name="installing_apk">Đang cài đặt APK …</string>
@@ -122,7 +122,7 @@
     <string name="want_to_remove_download_item">Bạn muốn xoá bỏ mục tải về này chứ?</string>
 
     <string name="search">Tìm kiếm</string>
-    <string name="search_for_apps">Tìm Ứng dụng</string>
+    <string name="search_for_apps">Tìm APKPure</string>
     <string name="trending_searches">Xu hướng Tìm kiếm</string>
 
     <string name="improvement_plan_title">Kế hoạch Cải thiện hiệu suất</string>
@@ -149,9 +149,9 @@
     <string name="failed_to_request_app_detail">Không thể yêu cầu thông tin chi tiết ứng dụng.</string>
     <string name="failed_to_request_app_asset">Không yêu cầu thông tin tài sản ứng dụng.</string>
 
-    <string name="incompatible_this_app">
-        <![CDATA[<big><b><font color="%1$d">Thiết bị của bạn không tương thích với ứng dụng này.</font></b></big><br><br>BBạn có muốn tiếp tục không?]]>
-    </string>
+    <string name="incompatible_this_app">"
+ &lt;big&gt;&lt;b&gt;&lt;font color=%1$d&gt;Thiết bị của bạn không tương thích với ứng dụng này.&lt;/font&gt;&lt;/b&gt;&lt;/big&gt;&lt;br&gt;&lt;br&gt;Bạn có muốn tiếp tục không?
+ "</string>
 
     <string name="this_app_not_usable">
         <![CDATA[<big><b><font color="%1$d">Ứng dụng này có thể không sử dụng được.</font></b></big><br>Bạn có muốn tiếp tục không?]]>
@@ -166,9 +166,7 @@
     </string>
 
     <string name="share">Chia sẻ</string>
-    <string name="share_app_url">Tải về<xliff:g example="APKPure" id="app_name">%1$s</xliff:g> APK (từ @
-        <xliff:g example="APKPure" id="social_network_name">%2$s</xliff:g>),
-        <xliff:g example="https://apkpure.com/p/com.apkpure.aegon" id="app_url">%3$s</xliff:g></string>
+    <string name="share_app_url">Chia sẻ <xliff:g example="APKPure" id="app_name"> %1$s</xliff:g> APK (từ @ <xliff:g example="APKPure" id="social_network_name"> %2$s</xliff:g>), <xliff:g example="https://apkpure.com/p/com.apkpure.aegon" id="app_url"> %3$s</xliff:g></string>
     <string name="_name__version_history"><xliff:g example="APKPure" id="name">%1$s</xliff:g> Lịch sử phiên bản</string>
     <string name="update__date___size_">Cập nhật:<xliff:g example="Mar 3, 2016" id="date">%1$s</xliff:g>,<xliff:g example="1024 kB" id="size">%2$s</xliff:g></string>
 
@@ -278,10 +276,7 @@
     <string name="download_complete_installation_setting">Tùy chọn cài đặt sau khi tải</string>
     <string name="recommend">Khám Phá</string>
     <string name="report">Báo cáo</string>
-    <string name="share_app_url_comment"> <xliff:g example="APKPure" id="user_name">%1$s</xliff:g>\'s Nhận xét về
-        <xliff:g example="APKPure" id="app_name">%2$s</xliff:g> (từ @<xliff:g example="APKPure" id="social_network_name">%3$s</xliff:g>),
-        <xliff:g example="https://apkpure.com/p/com.apkpure.aegon" id="app_url">%4$s</xliff:g>),
-        <xliff:g example="https://apkpure.com/p/com.apkpure.aegon" id="app_url">%5$s</xliff:g></string>
+    <string name="share_app_url_comment"> <xliff:g example="APKPure" id="user_name"> %1$s</xliff:g>\'s Nhận xét về <xliff:g example="APKPure" id="app_name"> %2$s</xliff:g> (từ @<xliff:g example="APKPure" id="social_network_name">%3$s</xliff:g>), <xliff:g example="https://apkpure.com/p/com.apkpure.aegon" id="app_url"> %4$s</xliff:g>), <xliff:g example="https://apkpure.com/p/com.apkpure.aegon" id="app_url"> %5$s</xliff:g></string>
     <plurals name="app_detail_see_all_replies">
         <item quantity="other">Xem tất cả <xliff:g example="2" id="count">%1$d</xliff:g> trả lời</item>
     </plurals>
@@ -381,7 +376,7 @@
     <string name="update_pwd_current_null_tv">Mật khẩu cũ không được để trống</string>
     <string name="update_pwd_Confirm_null_tv">Xác nhận mật khẩu không được để trống</string>
     <string name="update_pwd_new_pwd_null_tv">Mật khẩu mới không được để trống</string>
-    <string name="update_pwd_new_confrim_tv">Mật mã bạn nhập không khớp</string>
+    <string name="update_pwd_new_confrim_tv">Mật khẩu bạn đã nhập không khớp</string>
     <string name="update_pwd_save_bt">Lưu lại</string>
     <string name="update_save_success">Đã lưu thành công!</string>
     <string name="crop__cancel" ignore="ButtonCase">Hủy bỏ</string>
@@ -508,7 +503,7 @@
     <string name="collection">Ưa thích</string>
 
     <string name="comments">Bình luận</string>
-    <string name="follow">Đang theo dõi</string>
+    <string name="follow">ĐANG THEO DÕI</string>
     <string name="attention_on">Đang theo dõi</string>
     <string name="attention_off">Theo dõi</string>
     <string name="no_attention">Không có nhóm đang theo dõi, chưa có đâu.</string>
@@ -516,7 +511,7 @@
     <string name="browsing_history_prompt">Bạn có muốn xóa lịch sử trình duyệt chứ?</string>
 
     <string name="ranking_tab1_title">Trò chơi Hàng đầu</string>
-    <string name="ranking_tab2_title">Trò chơi mới Hàng đầu</string>
+    <string name="ranking_tab2_title">Trò chơi mới hàng đầu</string>
     <string name="ranking_tab3_title">Ứng dụng Hàng đầu</string>
     <string name="ranking_tab4_title">Ứng dụng mới Hàng đầu</string>
 
@@ -550,10 +545,10 @@
     <string name="recommend_tab_list">Đã đề xuất</string>
     <string name="recommend_installed_list_title">Ứng dụng của tôi</string>
     <string name="recommend_review">Xem trước</string>
-    <string name="recommend_replace_img">Thay đổi Ảnh</string>
+    <string name="recommend_replace_img">Thay đổi ảnh</string>
     <string name="recommend_app_name">Tiêu đề Ứng dụng</string>
     <string name="recommend_state_can">Đề xuất</string>
-    <string name="recommend_state_success">Đã đề xuất</string>
+    <string name="recommend_state_success">Được đề xuất</string>
     <string name="recommend_select_game">Đề xuất Ứng dụng</string>
     <string name="recommend_write_des">Mô tả</string>
     <string name="recommend_write_des_hint">Một đánh giá hữu ích sẽ được xem bởi nhiều người dùng có cùng sở thích như bạn.</string>
@@ -569,9 +564,7 @@
     <string name="beta">Thử nghiệm</string>
     <string name="history_version">Phiên bản cũ hơn</string>
 
-    <string name="share_app_url_group"> <xliff:g example="APKPure" id="app_name">%1$s</xliff:g> Nhóm. (từ @
-        <xliff:g example="APKPure" id="social_network_name">%2$s</xliff:g>),
-        <xliff:g example="https://apkpure.com/p/com.apkpure.aegon" id="app_url">%3$s</xliff:g></string>
+    <string name="share_app_url_group"> <xliff:g example="APKPure" id="app_name"> %1$s</xliff:g> Nhóm. (từ @ <xliff:g example="APKPure" id="social_network_name"> %2$s</xliff:g> <xliff:g example="https://apkpure.com/p/com.apkpure.aegon" id="app_url"> %3$s</xliff:g></string>
 
     <string name="data_saver_model">Tiết kiệm Dữ liệu</string>
     <string name="data_saver_model_summery">Kích hoạt điều này sẽ điều chỉnh kích cỡ ảnh và chất lượng nhằm giảm lượng dữ liệu sử dụng.</string>
@@ -694,11 +687,11 @@
     <string name="google_play_bug_text">Mua trên CH Play</string>
 
     <string name="search_tab_name_one">ỨNG DỤNG</string>
-    <string name="search_tab_name_two">MỌI NGƯỜI</string>
+    <string name="search_tab_name_two">NGƯỜI DÙNG</string>
     <string name="pre_register_bt">Đăng ký trước</string>
     <string name="pre_register_now_bt">Đăng ký trước</string>
     <string name="pre_registered_bt">Đã đăng ký</string>
-    <string name="pre_register_link_title">Website Đăng ký trước</string>
+    <string name="pre_register_link_title">Trang Đăng ký trước</string>
     <string name="pre_register_gift_tv">Quà Người đăng ký</string>
     <string name="pre_register_person_num_tv">Người đăng ký trước: %s</string>
     <string name="pre_register_success">Đăng ký trước nghĩa là bạn sẽ nhận thông báo trên thiết bị của bạn khi ứng dụng đã được phát hành.</string>
@@ -711,4 +704,13 @@
     <string name="submit_comment_user_style">
  &lt;font color=#007AFF&gt;@%1$s&lt;/font&gt;</string>
 
+<string name="pre_register_ok">OK</string>
+    <string name="copy_username">Sao chép Nickname</string>
+    <string name="copy_content">Sao chép Nội dung</string>
+
+    <string name="tab_global">ĐẶC SẮC</string>
+    <string name="comment_list_see_here">Truy cập gần đây, chạm để làm mới</string>
+    <string name="comment_list_new_num">%d Câu chuyện Mới</string>
+
+    <string name="tab_popular">PHỔ BIẾN</string>
 </resources>
