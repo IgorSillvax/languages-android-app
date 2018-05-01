@@ -213,9 +213,13 @@ Podrobnosti težave:
  </string>
 
     <string name="share">Delite</string>
-    <string name="share_app_url">Delite <xliff:g primer="APKPure" id="app_name">%1$s</xliff:g> APK (from @<xliff:g primer="APKPure" id="social_network_name">%2$s</xliff:g>) <xliff:g primer="https://apkpure.com/p/com.apkpure.aegon" id="app_url">%3$s</xliff:g></string>
-    <string name="share_app_url_comment"> <xliff:g primer="APKPure" id="user_name">%1$s</xliff:g>\'s comments on <xliff:g primer="APKPure" id="app_name">%2$s</xliff:g> : <xliff:g primer="APKPure" id="app_name">%3$s</xliff:g> (from @<xliff:g primer="APKPure" id="social_network_name">%4$s</xliff:g>) <xliff:g primer="https://apkpure.com/p/com.apkpure.aegon" id="app_url">%5$s</xliff:g></string>
-    <string name="share_app_url_group"> <xliff:g primer="APKPure" id="app_name">%1$s</xliff:g> Skupina. (iz @<xliff:g primer="APKPure" id="social_network_name">%2$s</xliff:g>) <xliff:g primer="https://apkpure.com/p/com.apkpure.aegon" id="app_url">%3$s</xliff:g></string>
+    <string name="share_app_url">
+ Delite <xliff:g primer="APKPure" id="app_name">%1$s</xliff:g> APK (from @<xliff:g primer="APKPure" id="social_network_name">%2$s</xliff:g>) <xliff:g primer="https://apkpure.com/p/com.apkpure.aegon" id="app_url">%3$s</xliff:g>
+ </string>
+    <string name="share_app_url_comment"> <xliff:g primer="APKPure" id="user_name">%1$s</xliff:g>\'s comments on <xliff:g primer="APKPure" id="app_name">%2$s</xliff:g> : <xliff:g primer="APKPure" id="app_name">%3$s</xliff:g> (from @<xliff:g primer="APKPure" id="social_network_name">%4$s</xliff:g>) <xliff:g primer="https://apkpure.com/p/com.apkpure.aegon" id="app_url">%5$s</xliff:g>
+ </string>
+    <string name="share_app_url_group"> <xliff:g primer="APKPure" id="app_name">%1$s</xliff:g> Skupina. (iz @<xliff:g primer="APKPure" id="social_network_name">%2$s</xliff:g>) <xliff:g primer="https://apkpure.com/p/com.apkpure.aegon" id="app_url">%3$s</xliff:g>
+ </string>
 
     <string name="_name__version_history"><xliff:g primer="APKPure" id="name">%1$s</xliff:g> Zgodovina različice</string>
     <string name="update__date___size_">Posodobitev: <xliff:g primer="Mar 3, 2016" id="datum">%1$s</xliff:g>, <xliff:g primer="1024 kB" id="velikost">%2$s</xliff:g></string>
@@ -579,7 +583,7 @@ Zgoraj omenjene funkcije podpirajo Android 4.1+, ni potrebno root dovoljenje. Ob
     <string name="collection_comment">Objave</string>
     <string name="collection_app">APLIKACIJE</string>
 
-    <string name="open_with_browser">Odpri z brskalnikom</string>
+    <string name="open_with_browser">Odpri z brskalniki</string>
     <string name="web_view_refresh">Osveži</string>
 
     <string name="topic_red_color">Temno rdeč</string>
@@ -718,4 +722,9 @@ Zgoraj omenjene funkcije podpirajo Android 4.1+, ni potrebno root dovoljenje. Ob
     <string name="comment_list_new_num">%d novih zgodb</string>
 
     <string name="tab_popular">PRILJUBLJENO</string>
+<string name="menu_copy_link">Kopiraj povezavo</string>
+    <string name="web_view_copy">Kopiraj povezavo</string>
+
+    <string name="count_down_timer_tv">%ds</string>
+    <string name="count_down_timer_btn">preskoči</string>
 </resources>
