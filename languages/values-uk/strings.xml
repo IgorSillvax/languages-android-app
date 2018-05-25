@@ -296,7 +296,7 @@
     <string name="app_submit_reply_to">відповісти на</string>
 
     <string name="app_detail_tab_one">Деталі</string>
-    <string name="app_detail_tab_two">Записи</string>
+    <string name="app_detail_tab_two">Публікації</string>
     <string name="app_detail_tab_three">Пов\'язані</string>
 
     <array name="app_detail_comment_order_array" translatable="false">
@@ -411,97 +411,97 @@
     <string name="download_mkdir_internal_storage_entries1">SD 1</string>
     <string name="download_mkdir_external_storage_fill_toast">Нестача вільного місця може привести до неможливості завантаження додатків.</string>
 
-    <string name="download_mkdir_internal_storage_values">internal_storage</string>
-    <string name="download_mkdir_external_storage_values"/>
+    <string name="download_mkdir_internal_storage_values">Внутрішнє сховище</string>
+    <string name="download_mkdir_external_storage_values">Зовнішнє сховище</string>
 
     <string name="download_complete_installation_setting_default_value" translatable="false">install_now</string>
 
     <string name="leak_canary_display_activity_label" translatable="false">APKPure Leaks</string>
 
-    <string name="reply"/>
-    <string name="input_reply_content"/>
-    <string name="publish"/>
-    <string name="reply_dialog_marked_words"/>
-    <string name="reply_comment"/>
-    <string name="save_original_image"/>
+    <string name="reply">Відповісти</string>
+    <string name="input_reply_content">Текст відповіді:</string>
+    <string name="publish">Опублікувати</string>
+    <string name="reply_dialog_marked_words">Натисніть на картинку і тримайте, щоб видалити ії.</string>
+    <string name="reply_comment">Відповісти на коментар</string>
+    <string name="save_original_image">Зберегти</string>
     <string name="already_save">Збережено <xliff:g example="ApKPure/photo" id="path">%1$s</xliff:g></string>
 
-    <string name="load_end"/>
-    <string name="load_failed_click_retry"/>
-    <string name="loading"/>
+    <string name="load_end">Завантаження завершене</string>
+    <string name="load_failed_click_retry">Не вдалося завантажити, натисніть \"повторити спробу\"</string>
+    <string name="loading">Завантаження…</string>
 
-    <string name="scan_qr_code_hint"/>
-    <string name="zxing_msg_default_status"/>
-    <string name="zxing_msg_parser_status"/>
-    <string name="scan_qr_code_result_title"/>
-    <string name="scan_qr_code_result_copy_text"/>
-    <string name="scan_qr_code_result_hint"/>
-    <string name="scan_qr_code_copy_success"/>
+    <string name="scan_qr_code_hint">Для сканування QR коду необхідно дозволити доступ до камери.</string>
+    <string name="zxing_msg_default_status">Помістіть QR код у видошукач, щоб зісканувати його.</string>
+    <string name="zxing_msg_parser_status">Не вдалося зісканувати QR код, повторіть спробу.</string>
+    <string name="scan_qr_code_result_title">Результат</string>
+    <string name="scan_qr_code_result_copy_text">Скопіювати текст</string>
+    <string name="scan_qr_code_result_hint">Деталі QR коду :</string>
+    <string name="scan_qr_code_copy_success">текст скопійовано</string>
 
-    <string name="tip_permission_camera_storage"/>
-    <string name="permission_denied"/>
+    <string name="tip_permission_camera_storage">Немає дозволу на доступ до камери та карти пам\'яті, відкрийте вікно управління дозволами</string>
+    <string name="permission_denied">Відмовлено в доступі!</string>
 
-    <string name="login_title"/>
-    <string name="sign_out"/>
+    <string name="login_title">Логін</string>
+    <string name="sign_out">Вийти з аккаунту</string>
 
-    <string name="delete_comment"/>
-    <string name="delete_comment_msg"/>
-    <string name="upload_cancel"/>
-    <string name="login_select_way_to_login"/>
+    <string name="delete_comment">Видалити відгук</string>
+    <string name="delete_comment_msg">Ви впевнені, що хочете видалити цей коментар?</string>
+    <string name="upload_cancel">Відправку скасовано</string>
+    <string name="login_select_way_to_login">Виберіть спосіб входу в аккаунт</string>
 
     <!-- UserInfoEdit -->
-    <string name="user_info_edit_title"/>
-    <string name="user_info_edit_portrait_tv"/>
-    <string name="user_info_edit_username_tv"/>
-    <string name="user_info_edit_nickname_tv"/>
-    <string name="user_info_edit_email_tv"/>
-    <string name="user_info_edit_gender_tv"/>
-    <string name="user_info_edit_birthday_tv"/>
-    <string name="user_info_edit_change_pwd_tv"/>
-    <string name="user_info_edit_login_out_tv"/>
-    <string name="user_info_edit_not_choose"/>
-    <string name="user_info_edit_gender_male"/>
-    <string name="user_info_edit_gender_female"/>
-    <string name="user_info_edit_portrait_album"/>
-    <string name="user_info_edit_portrait_take_photo"/>
-    <string name="user_info_edit_portrait_error"/>
-    <string name="user_info_edit_ok"/>
-    <string name="user_info_edit_cancel"/>
-    <string name="user_info_edit_large_photo"/>
+    <string name="user_info_edit_title">Профіль</string>
+    <string name="user_info_edit_portrait_tv">Фото профілю</string>
+    <string name="user_info_edit_username_tv">Ім\'я користувача</string>
+    <string name="user_info_edit_nickname_tv">Нікнейм</string>
+    <string name="user_info_edit_email_tv">Email</string>
+    <string name="user_info_edit_gender_tv">Стать</string>
+    <string name="user_info_edit_birthday_tv">День народження</string>
+    <string name="user_info_edit_change_pwd_tv">Скинути пароль</string>
+    <string name="user_info_edit_login_out_tv">Вийти з аккаунту</string>
+    <string name="user_info_edit_not_choose">Невідомо</string>
+    <string name="user_info_edit_gender_male">Чоловіча</string>
+    <string name="user_info_edit_gender_female">Жіноча</string>
+    <string name="user_info_edit_portrait_album">Вибрати фото з галереї</string>
+    <string name="user_info_edit_portrait_take_photo">Зробити фото</string>
+    <string name="user_info_edit_portrait_error">Формат зображення не підтримується</string>
+    <string name="user_info_edit_ok">ОК</string>
+    <string name="user_info_edit_cancel">Скасувати</string>
+    <string name="user_info_edit_large_photo">Показати фото у більшому розмірі</string>
 
     <!--updateNickname-->
-    <string name="update_nick_title"/>
-    <string name="update_email_title"/>
-    <string name="update_nick_name_et"/>
-    <string name="update_nick_name_tv"/>
-    <string name="update_email_name_et"/>
-    <string name="update_eamil_name_tv"/>
-    <string name="update_nickname_error"/>
-    <string name="user_info_edit_intro_tv"/>
-    <string name="update_intro_title"/>
-    <string name="update_intro_et"/>
-    <string name="update_intro_tv"/>
+    <string name="update_nick_title">Виберіть новий нікнейм</string>
+    <string name="update_email_title">Змінити Email</string>
+    <string name="update_nick_name_et">Введіть новий нікнейм</string>
+    <string name="update_nick_name_tv">Поле \"Новий нікнейм\" не може бути порожнім</string>
+    <string name="update_email_name_et">Введіть ваш Email</string>
+    <string name="update_eamil_name_tv">Поле \"Email\" не може бути порожнім</string>
+    <string name="update_nickname_error">Нікнейм вже зайнято, будь ласка, виберіть інший!</string>
+    <string name="user_info_edit_intro_tv">Про мене</string>
+    <string name="update_intro_title">Редагувати \"Про мене\"</string>
+    <string name="update_intro_et">Напишіть деякі подробиці про себе</string>
+    <string name="update_intro_tv">Поле \"Про мене\" не може бути порожнім</string>
 
     <!--messageFragment-->
-    <string name="message_all"/>
-    <string name="message_reply"/>
-    <string name="message_notifications_praise"/>
-    <string name="message_praise"/>
-    <string name="message_notifications_reply"/>
-    <string name="message_notifications_login"/>
-    <string name="message_at_title"/>
-    <string name="message_at"/>
+    <string name="message_all">ВСІ</string>
+    <string name="message_reply">ВІДПОВІДІ</string>
+    <string name="message_notifications_praise">Проголосовано за ваш коментар</string>
+    <string name="message_praise">ВПОДОБАНЬ</string>
+    <string name="message_notifications_reply">На ваш коментар відповіли</string>
+    <string name="message_notifications_login">Будь ласка, увійдіть в аккаунт, щоб подивитися цю сторінку.</string>
+    <string name="message_at_title">Згадки</string>
+    <string name="message_at">Згадав вас</string>
 
     <!--update password-->
-    <string name="update_pwd_title"/>
-    <string name="update_pwd_current_pwd_et"/>
-    <string name="update_pwd_new_pwd_et"/>
-    <string name="update_pwd_Confirm_pwd_et"/>
-    <string name="upload_avatar"/>
-    <string name="update_pwd_current_null_tv"/>
-    <string name="update_pwd_Confirm_null_tv"/>
-    <string name="update_pwd_new_pwd_null_tv"/>
-    <string name="update_pwd_new_confrim_tv"/>
+    <string name="update_pwd_title">Скинути мій пароль</string>
+    <string name="update_pwd_current_pwd_et">Старий пароль</string>
+    <string name="update_pwd_new_pwd_et">Новий пароль</string>
+    <string name="update_pwd_Confirm_pwd_et">Підтвердіть новий пароль</string>
+    <string name="upload_avatar">Відправлення…</string>
+    <string name="update_pwd_current_null_tv">Поле \"Старий пароль\" не може бути порожнім</string>
+    <string name="update_pwd_Confirm_null_tv">Поле \"Підтвердіть новий пароль\" не може бути порожнім</string>
+    <string name="update_pwd_new_pwd_null_tv">Поле \"Новий пароль\" не може бути порожнім</string>
+    <string name="update_pwd_new_confrim_tv">Введені паролі не співпадають!</string>
     <string name="update_pwd_save_bt"/>
     <string name="update_save_success"/>
     <!--crop image-->
