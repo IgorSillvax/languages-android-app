@@ -125,7 +125,7 @@
 </plurals>
     <string name="downloads_complete">Завантаження завершені</string>
     <string name="touch_for_view_all_downloads">Торкніться, щоб побачити всі завантаження</string>
-    <string name="_name__download_failed"><xliff:g example="APKPure" id="name">%1$s</xliff:g> download failed</string>
+    <string name="_name__download_failed"><xliff:g example="APKPure" id="name">%1$s</xliff:g> не вдалося завантажити</string>
     <string name="touch_to_download_it_again">Торкніться, щоб заванажити знову</string>
 
     <string name="download_percent"><xliff:g example="50" id="percent">%1$d</xliff:g> %%</string>
@@ -162,23 +162,23 @@
     <string name="search_history">Історія</string>
     <string name="clear_search_history">Очистити всю історію</string>
 
-    <string name="improvement_plan_title">План покращення продуктивності</string>
-    <string name="improvement_plan_message"/>
-    <string name="join_us"/>
-    <string name="skip"/>
+    <string name="improvement_plan_title">План підвищення продуктивності</string>
+    <string name="improvement_plan_message">Допоможіть нам, відправивши інформацію про ваш пристрій. Ми <b>не збираємо</b> персональні дані (ім\'я, адресу, електронну пошту, номер соціального страхування чи інші ідентифікаційні дані).</string>
+    <string name="join_us">Приєднуйтесь до нас</string>
+    <string name="skip">Пропустити</string>
 
-    <string name="participate_ultra_download_beta_test_title"/>
-    <string name="participate_ultra_download_beta_test_content"/>
-    <string name="enable"/>
+    <string name="participate_ultra_download_beta_test_title">Увімкніть режим ультра-завантаження і насолоджуйтесь більшою швидкістю завантаження</string>
+    <string name="participate_ultra_download_beta_test_content">Режим ультра-завантаження знаходится на стадії бета-тесту. Зв\'яжіться з нами, якщо виникнуть якісь проблеми. Ви можете легкго відключити цей режим у налаштуваннях.</string>
+    <string name="enable">Включити</string>
 
-    <string name="_name__is_up_to_date"><xliff:g example="APKPure" id="name">%1$s</xliff:g> is up to date.</string>
-    <string name="new_version_available_title"/>
-    <string name="new_version_available_message"/>
+    <string name="_name__is_up_to_date"><xliff:g example="APKPure" id="name">%1$s</xliff:g> оновлено до останньої версії.</string>
+    <string name="new_version_available_title">Доступна нова версія</string>
+    <string name="new_version_available_message">&lt;b&gt;Остання версія:&lt;/b&gt; %1$s&lt;br&gt;&lt;br&gt;&lt;b&gt;Що нового:&lt;/b&gt;&lt;br&gt;%2$s</string>
 
-    <string name="report"/>
-    <string name="report__"/>
-    <string name="report_problem__"/>
-    <string name="report_problem_subject"/>
+    <string name="report">Поскаржитись</string>
+    <string name="report__">Поскаржитись…</string>
+    <string name="report_problem__">Звітувати про проблему…</string>
+    <string name="report_problem_subject">Повідомити про ваду</string>
     <string name="report_problem_text"/>
     <string name="contact_us__"/>
     <string name="contact_us"/>
@@ -198,24 +198,15 @@
     <string name="external_storage_permission_denied"/>
 
     <string name="share"/>
-    <string name="share_app_url"><xliff:g example="APKPure" id="app_name">%1$s</xliff:g> APK (from @<xliff:g example="APKPure" id="social_network_name">%2$s</xliff:g>)
-        <xliff:g example="https://apkpure.com/p/com.apkpure.aegon" id="app_url">%3$s</xliff:g>
-    </string>
-    <string name="share_app_url_comment"><xliff:g example="APKPure" id="user_name">%1$s</xliff:g>\'s comments on
-        <xliff:g example="APKPure" id="app_name">%2$s</xliff:g> : <xliff:g example="APKPure" id="app_name">%3$s</xliff:g>
-        (from @<xliff:g example="APKPure" id="social_network_name">%4$s</xliff:g>)
-        <xliff:g example="https://apkpure.com/p/com.apkpure.aegon" id="app_url">%5$s</xliff:g>
-    </string>
-    <string name="share_app_url_group"><xliff:g example="APKPure" id="app_name">%1$s</xliff:g>
-        Group. (from @<xliff:g example="APKPure" id="social_network_name">%2$s</xliff:g>)
-        <xliff:g example="https://apkpure.com/p/com.apkpure.aegon" id="app_url">%3$s</xliff:g>
-    </string>
+    <string name="share_app_url"> Поділитися <xliff:g example="APKPure" id="app_name">%1$s</xliff:g> APK (з @<xliff:g example="APKPure" id="social_network_name">%2$s</xliff:g>) <xliff:g example="https://apkpure.com/p/com.apkpure.aegon" id="app_url">%3$s</xliff:g> </string>
+    <string name="share_app_url_comment"> Коментарі <xliff:g example="APKPure" id="user_name">%1$s</xliff:g> до додатку <xliff:g example="APKPure" id="app_name">%2$s</xliff:g> : <xliff:g example="APKPure" id="app_name">%3$s</xliff:g> (з @<xliff:g example="APKPure" id="social_network_name">%4$s</xliff:g>) <xliff:g example="https://apkpure.com/p/com.apkpure.aegon" id="app_url">%5$s</xliff:g> </string>
+    <string name="share_app_url_group"> Група <xliff:g example="APKPure" id="app_name">%1$s</xliff:g>. (з @<xliff:g example="APKPure" id="social_network_name">%2$s</xliff:g>) <xliff:g example="https://apkpure.com/p/com.apkpure.aegon" id="app_url">%3$s</xliff:g> </string>
 
-    <string name="_name__version_history"><xliff:g example="APKPure" id="name">%1$s</xliff:g> Version History</string>
-    <string name="update__date___size_"><xliff:g example="Mar 3, 2016" id="date">%1$s</xliff:g>, <xliff:g example="1024 kB" id="size">%2$s</xliff:g></string>
+    <string name="_name__version_history">Історія версій <xliff:g example="APKPure" id="name">%1$s</xliff:g></string>
+    <string name="update__date___size_">Оновлено: <xliff:g example="Mar 3, 2016" id="date">%1$s</xliff:g>, <xliff:g example="1024 kB" id="size">%2$s</xliff:g></string>
 
     <string name="update_all"/>
-    <string name="update___count__"><xliff:g example="3" id="count">%1$d</xliff:g>)</string>
+    <string name="update___count__">Оновити (<xliff:g example="3" id="count">%1$d</xliff:g>)</string>
     <string name="ignore"/>
     <string name="unignore"/>
     <string name="select"/>
@@ -243,7 +234,7 @@
     <string name="show_notification_after_installation"/>
     <string name="delete_packages_after_installation"/>
 
-    <string name="_name__installation_completed"><xliff:g example="APKPure" id="name">%1$s</xliff:g> installation completed</string>
+    <string name="_name__installation_completed">Встановлення <xliff:g example="APKPure" id="name">%1$s</xliff:g> завершене</string>
     <string name="touch_to_open"/>
 
     <string name="auto_service_install_accessibility_title"/>
@@ -421,7 +412,7 @@
     <string name="reply_dialog_marked_words"/>
     <string name="reply_comment"/>
     <string name="save_original_image"/>
-    <string name="already_save"><xliff:g example="ApKPure/photo" id="path">%1$s</xliff:g></string>
+    <string name="already_save">Збережено <xliff:g example="ApKPure/photo" id="path">%1$s</xliff:g></string>
 
     <string name="load_end"/>
     <string name="load_failed_click_retry"/>
