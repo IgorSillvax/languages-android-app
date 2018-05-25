@@ -190,18 +190,18 @@
     <string name="feedback">Відгук</string>
 
     <string name="installation_failed">Не вдалося встановити</string>
-    <string name="invalid_app_detail">Невірна інформація про додаток.</string>
-    <string name="invalid_app_asset"/>
-    <string name="failed_to_request_app_detail"/>
-    <string name="failed_to_request_app_asset"/>
-    <string name="incompatible_this_app"/>
-    <string name="this_app_not_usable"/>
+    <string name="invalid_app_detail">Недійсна інформація про додаток.</string>
+    <string name="invalid_app_asset">Недійсна інформація про ресурси додатку.</string>
+    <string name="failed_to_request_app_detail">Не вдалося отримати детальну інформацію про додаток.</string>
+    <string name="failed_to_request_app_asset">Не вдалося отримати інформацію про ресурси додатку.</string>
+    <string name="incompatible_this_app">&lt;big&gt;&lt;b&gt;&lt;font color=%1$d&gt;Ваш пристрій несумісний з цим додатком.&lt;/font&gt;&lt;/b&gt;&lt;/big&gt;&lt;br&gt;&lt;br&gt;Продовжити?</string>
+    <string name="this_app_not_usable">&lt;big&gt;&lt;b&gt;&lt;font color=%1$d&gt;Цей додаток може не працювати.&lt;/font&gt;&lt;/b&gt;&lt;/big&gt;&lt;br&gt;&lt;br&gt;Продовжити?</string>
 
-    <string name="setting"/>
-    <string name="external_storage_not_usable"/>
-    <string name="external_storage_permission_denied"/>
+    <string name="setting">Налаштувати</string>
+    <string name="external_storage_not_usable"><big><b>Потрібен доступ до вашого зовнішнього сховища. Будь ласка, переконайтесь, що його можна використовувати.</b></big></string>
+    <string name="external_storage_permission_denied"><big><b>Потрібен доступ до вашого зовнішнього сховища. Будь ласка, переконайтеся, що у доступі не відмовлено.</b></big></string>
 
-    <string name="share"/>
+    <string name="share">Поділитися</string>
     <string name="share_app_url"> Поділитися <xliff:g example="APKPure" id="app_name">%1$s</xliff:g> APK (з @<xliff:g example="APKPure" id="social_network_name">%2$s</xliff:g>) <xliff:g example="https://apkpure.com/p/com.apkpure.aegon" id="app_url">%3$s</xliff:g> </string>
     <string name="share_app_url_comment"> Коментарі <xliff:g example="APKPure" id="user_name">%1$s</xliff:g> до додатку <xliff:g example="APKPure" id="app_name">%2$s</xliff:g> : <xliff:g example="APKPure" id="app_name">%3$s</xliff:g> (з @<xliff:g example="APKPure" id="social_network_name">%4$s</xliff:g>) <xliff:g example="https://apkpure.com/p/com.apkpure.aegon" id="app_url">%5$s</xliff:g> </string>
     <string name="share_app_url_group"> Група <xliff:g example="APKPure" id="app_name">%1$s</xliff:g>. (з @<xliff:g example="APKPure" id="social_network_name">%2$s</xliff:g>) <xliff:g example="https://apkpure.com/p/com.apkpure.aegon" id="app_url">%3$s</xliff:g> </string>
@@ -209,23 +209,23 @@
     <string name="_name__version_history">Історія версій <xliff:g example="APKPure" id="name">%1$s</xliff:g></string>
     <string name="update__date___size_">Оновлено: <xliff:g example="Mar 3, 2016" id="date">%1$s</xliff:g>, <xliff:g example="1024 kB" id="size">%2$s</xliff:g></string>
 
-    <string name="update_all"/>
+    <string name="update_all">Оновити все</string>
     <string name="update___count__">Оновити (<xliff:g example="3" id="count">%1$d</xliff:g>)</string>
-    <string name="ignore"/>
-    <string name="unignore"/>
-    <string name="select"/>
-    <string name="cancel"/>
-    <string name="select_all"/>
-    <string name="deselect_all"/>
-    <string name="ignored"/>
+    <string name="ignore">Ігнорувати</string>
+    <string name="unignore">Не ігнорувати</string>
+    <string name="select">Вибрати</string>
+    <string name="cancel">Скасувати</string>
+    <string name="select_all">Вибрати все</string>
+    <string name="deselect_all">Прибрати виділення з усього</string>
+    <string name="ignored">Ігноруються</string>
     <plurals name="total__count__apps__size_">
-	<item quantity="one"/>
-	<item quantity="few"/>
-	<item quantity="many"/>
+	<item quantity="one">Усього: &lt;b&gt;&lt;font color=%1$d&gt;%2$d&lt;/font&gt;&lt;/b&gt; додаток, &lt;b&gt;&lt;font color=%1$d&gt;%3$s&lt;/font&gt;&lt;/b&gt;</item>
+	<item quantity="few">Усього: &lt;b&gt;&lt;font color=%1$d&gt;%2$d&lt;/font&gt;&lt;/b&gt; додатки, &lt;b&gt;&lt;font color=%1$d&gt;%3$s&lt;/font&gt;&lt;/b&gt;</item>
+	<item quantity="many">Усього: &lt;b&gt;&lt;font color=%1$d&gt;%2$d&lt;/font&gt;&lt;/b&gt; додатків, &lt;b&gt;&lt;font color=%1$d&gt;%3$s&lt;/font&gt;&lt;/b&gt;</item>
 </plurals>
-    <string name="total_zero_app"/>
+    <string name="total_zero_app">Усього: &lt;b&gt;&lt;font color=%1$d&gt;0&lt;/font&gt;&lt;/b&gt; додатків</string>
 
-    <string name="general"/>
+    <string name="general">Загальні</string>
     <string name="language"/>
     <string name="auto"/>
     <string name="changing_language"/>
