@@ -226,54 +226,62 @@
     <string name="total_zero_app">Усього: &lt;b&gt;&lt;font color=%1$d&gt;0&lt;/font&gt;&lt;/b&gt; додатків</string>
 
     <string name="general">Загальні</string>
-    <string name="language"/>
-    <string name="auto"/>
-    <string name="changing_language"/>
-    <string name="data_saver_model"/>
-    <string name="data_saver_model_summery"/>
-    <string name="download_via_wifi_only"/>
-    <string name="enable_ultra_download"/>
-    <string name="enable_ultra_download_summary"/>
-    <string name="installation"/>
-    <string name="show_notification_after_installation"/>
-    <string name="delete_packages_after_installation"/>
+    <string name="language">Мова</string>
+    <string name="auto">Авто</string>
+    <string name="changing_language">Зміна мови, будь ласка, зачекайте…</string>
+    <string name="data_saver_model">Заощадження трафіку</string>
+    <string name="data_saver_model_summery">Зменшує розмір і якість зображень, щоб використовувати менше трафіку.</string>
+    <string name="download_via_wifi_only">Завантаж. лише через Wi-Fi</string>
+    <string name="enable_ultra_download">Режим ультра-завантаження</string>
+    <string name="enable_ultra_download_summary">Режим ультра-завантаження знаходиться на стадії бета-тесту, повідомте нас, якщо виникнуть проблеми.</string>
+    <string name="installation">Встановлення</string>
+    <string name="show_notification_after_installation">Сповіщати після встановлення</string>
+    <string name="delete_packages_after_installation">Видаляти файли після встановлення</string>
 
     <string name="_name__installation_completed">Встановлення <xliff:g example="APKPure" id="name">%1$s</xliff:g> завершене</string>
-    <string name="touch_to_open"/>
+    <string name="touch_to_open">Торкніться, щоб відкрити.</string>
 
-    <string name="auto_service_install_accessibility_title"/>
-    <string name="auto_service_install_accessibility_summary"/>
+    <string name="auto_service_install_accessibility_title">Авто-встановлення</string>
+    <string name="auto_service_install_accessibility_summary">Підтримує Android 4.1+, права Root не потрібні.</string>
 
-    <string name="auto_service_dialog_title"/>
-    <string name="auto_service_dialog_message"/>
+    <string name="auto_service_dialog_title">Включити авто-встановлення</string>
+    <string name="auto_service_dialog_message">Авто-встановлення вимагає авторизації на телефоні, це безпечно і не несе в собі ризиків.</string>
 
-    <string name="auto_service_title"/>
-    <string name="auto_service_description"/>
+    <string name="auto_service_title">Авто-встановлення APKPure</string>
+    <string name="auto_service_description">Увімкніть \"Авто-встановлення APKPure\", щоб \"Авто-встановлення\" працювало без перебоїв.
+\n
+\n\"Авто-встановлення APKPure\" буде автоматично встановлювати дотатки після їх завантаження або оновлення, вам не треба буде робити це вручну.
+\n
+\nПри увімкнені цієї функції, ви можетк отримати попередження від системи безпеки, будь ласка, натисніть \"OK\" щоб надати доступ.
+\n
+\nЩоб бути впевненим, що APKPure працюватиме корректно, будь ласка, додайте APKPure до білого списку додатку-очищувача (якщо у вас він є).
+\n
+\nВищезгадані функції підтримують Android 4.1+, права суперкористувача не потрібні. Ми обіцяємо не збирати ваші персональні дані . Зв\'яжіться з нами у разі будь-якої проблеми.</string>
 
-    <string name="auto_service_install"/>
-    <string name="auto_service_ensure"/>
-    <string name="auto_service_next"/>
-    <string name="auto_service_exchange"/>
-    <string name="auto_service_complete"/>
+    <string name="auto_service_install">Встановити</string>
+    <string name="auto_service_ensure">ОК</string>
+    <string name="auto_service_next">Наступний</string>
+    <string name="auto_service_exchange">Замінити</string>
+    <string name="auto_service_complete">Виконано</string>
 
-    <string name="auto_service_install__material_"/>
-    <string name="auto_service_ensure__material_"/>
-    <string name="auto_service_next__material_"/>
-    <string name="auto_service_exchange__material_"/>
-    <string name="auto_service_complete__material_"/>
+    <string name="auto_service_install__material_">ВСТАНОВЛЕННЯ</string>
+    <string name="auto_service_ensure__material_">ОК</string>
+    <string name="auto_service_next__material_">НАСТУПНИЙ</string>
+    <string name="auto_service_exchange__material_">ЗАМІНИТИ</string>
+    <string name="auto_service_complete__material_">ВИКОНАНО</string>
 
-    <string name="auto_install_via_root_title"/>
-    <string name="auto_install_via_root_summary"/>
+    <string name="auto_install_via_root_title">Авто-встановлення (режим root)</string>
+    <string name="auto_install_via_root_summary">Тільки для пристроїв з правами суперкористувача.</string>
 
     <plurals name="app_detail_see_all_replies">
-	<item quantity="one"/>
-	<item quantity="few"/>
-	<item quantity="many"/>
+	<item quantity="one">Подивитись <xliff:g example="1" id="count">%1$d</xliff:g> відповідь</item>
+	<item quantity="few">Подивитись <xliff:g example="2" id="count">%1$d</xliff:g> відповіді</item>
+	<item quantity="many">Подивитись усі <xliff:g example="5" id="count">%1$d</xliff:g> відповідей</item>
 </plurals>
 
-    <string name="app_detail_customer_reviews"/>
-    <string name="app_detail_comment_type_web"/>
-    <string name="app_submit_submit"/>
+    <string name="app_detail_customer_reviews">Коментарі</string>
+    <string name="app_detail_comment_type_web">веб</string>
+    <string name="app_submit_submit">Відправити…</string>
     <string name="app_submit_anonymous_comment"/>
     <string name="app_submit_title_toast"/>
     <string name="app_submit_msg_toast"/>
