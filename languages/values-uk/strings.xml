@@ -290,14 +290,14 @@
     <string name="app_submit_star_toast">Ви повинні вибрати оцінку!</string>
     <string name="app_submit_title_hint">Введіть назву</string>
     <string name="app_submit_msg_hint">Будь ласка, напишіть вашу думку</string>
-    <string name="app_submit_nickname">Псевдонім</string>
-    <string name="app_submit_email"/>
-    <string name="app_submit_submit_title"/>
-    <string name="app_submit_reply_to"/>
+    <string name="app_submit_nickname">Нікнейм</string>
+    <string name="app_submit_email">Електронна пошта</string>
+    <string name="app_submit_submit_title">надіслати</string>
+    <string name="app_submit_reply_to">відповісти на</string>
 
-    <string name="app_detail_tab_one"/>
-    <string name="app_detail_tab_two"/>
-    <string name="app_detail_tab_three"/>
+    <string name="app_detail_tab_one">Деталі</string>
+    <string name="app_detail_tab_two">Записи</string>
+    <string name="app_detail_tab_three">Пов\'язані</string>
 
     <array name="app_detail_comment_order_array" translatable="false">
         <item>@string/app_detail_comment_order_array_default</item>
@@ -312,13 +312,13 @@
         <item>@string/app_detail_comment_order_array_old</item>
     </array>
 
-    <string name="app_detail_comment_order_array_default"/>
-    <string name="app_detail_comment_order_array_most_recent"/>
-    <string name="app_detail_comment_order_array_new"/>
-    <string name="app_detail_comment_order_array_best"/>
-    <string name="app_detail_comment_order_array_old"/>
+    <string name="app_detail_comment_order_array_default">Сортування за змовчуванням</string>
+    <string name="app_detail_comment_order_array_most_recent">Останні</string>
+    <string name="app_detail_comment_order_array_new">Нові</string>
+    <string name="app_detail_comment_order_array_best">Кращі</string>
+    <string name="app_detail_comment_order_array_old">Старі</string>
 
-    <string name="app_detail_comment_join_group_bt"/>
+    <string name="app_detail_comment_join_group_bt">Група</string>
     <string-array name="language_entries" translatable="false">
         <item>@string/auto</item>
         <item>English</item>
@@ -386,7 +386,7 @@
         <item>pl</item>
     </string-array>
 
-    <string name="download_complete_installation_setting"/>
+    <string name="download_complete_installation_setting">Встановлення після завантаження</string>
 
     <string-array name="download_complete_installation_setting_entries" translatable="false">
         <item>@string/download_complete_installation_setting_entries_always</item>
@@ -394,9 +394,9 @@
         <item>@string/download_complete_installation_setting_entries_never</item>
     </string-array>
 
-    <string name="download_complete_installation_setting_entries_always"/>
-    <string name="download_complete_installation_setting_entries_only"/>
-    <string name="download_complete_installation_setting_entries_never"/>
+    <string name="download_complete_installation_setting_entries_always">Завжди встановлювати</string>
+    <string name="download_complete_installation_setting_entries_only">Вставлювати лише коли додаток відкрито</string>
+    <string name="download_complete_installation_setting_entries_never">Ніколи не встановлювати</string>
 
     <string-array name="download_complete_installation_setting_entry_values" translatable="false">
         <item>install_now</item>
@@ -405,13 +405,13 @@
     </string-array>
 
 
-    <string name="download_mkdir"/>
-    <string name="download_mkdir_internal_storage_size_des"/>
-    <string name="download_mkdir_internal_storage_entries"/>
-    <string name="download_mkdir_internal_storage_entries1"/>
-    <string name="download_mkdir_external_storage_fill_toast"/>
+    <string name="download_mkdir">Шлях завантаження</string>
+    <string name="download_mkdir_internal_storage_size_des">%1$s вільно, усього %2$s</string>
+    <string name="download_mkdir_internal_storage_entries">SD</string>
+    <string name="download_mkdir_internal_storage_entries1">SD 1</string>
+    <string name="download_mkdir_external_storage_fill_toast">Нестача вільного місця може привести до неможливості завантаження додатків.</string>
 
-    <string name="download_mkdir_internal_storage_values"/>
+    <string name="download_mkdir_internal_storage_values">internal_storage</string>
     <string name="download_mkdir_external_storage_values"/>
 
     <string name="download_complete_installation_setting_default_value" translatable="false">install_now</string>
