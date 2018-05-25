@@ -177,16 +177,20 @@
 
     <string name="report">Поскаржитись</string>
     <string name="report__">Поскаржитись…</string>
-    <string name="report_problem__">Звітувати про проблему…</string>
+    <string name="report_problem__">Повідомити про ваду…</string>
     <string name="report_problem_subject">Повідомити про ваду</string>
-    <string name="report_problem_text"/>
-    <string name="contact_us__"/>
-    <string name="contact_us"/>
-    <string name="report_content"/>
-    <string name="feedback"/>
+    <string name="report_problem_text">Тема проблеми:
+\n%1$s
+\n
+\nДеталі проблеми:
+\n%2$s</string>
+    <string name="contact_us__">Зв\'яжіться з нами…</string>
+    <string name="contact_us">Зв\'яжіться з нами</string>
+    <string name="report_content">Поскаржитись на вміст</string>
+    <string name="feedback">Відгук</string>
 
-    <string name="installation_failed"/>
-    <string name="invalid_app_detail"/>
+    <string name="installation_failed">Не вдалося встановити</string>
+    <string name="invalid_app_detail">Невірна інформація про додаток.</string>
     <string name="invalid_app_asset"/>
     <string name="failed_to_request_app_detail"/>
     <string name="failed_to_request_app_asset"/>
