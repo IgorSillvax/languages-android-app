@@ -501,7 +501,7 @@
     <string name="update_pwd_current_null_tv">Поле \"Старий пароль\" не може бути порожнім</string>
     <string name="update_pwd_Confirm_null_tv">Поле \"Підтвердіть новий пароль\" не може бути порожнім</string>
     <string name="update_pwd_new_pwd_null_tv">Поле \"Новий пароль\" не може бути порожнім</string>
-    <string name="update_pwd_new_confrim_tv">Введені паролі не співпадають</string>
+    <string name="update_pwd_new_confrim_tv">Введені паролі не збігаються</string>
     <string name="update_pwd_save_bt">Зберегти</string>
     <string name="update_save_success">Успішно збережено!</string>
     <!--crop image-->
@@ -533,45 +533,45 @@
     <string name="user_password">Пароль (6–32)</string>
     <string name="user_password_confirm">Підтвердіть пароль</string>
 
-    <string name="user_name_error">У імені користувача не має бути спеціальних знаків, символів чи пробілів</string>
+    <string name="user_name_error">Ім\'я користувача не має містити жодних спеціальних знаків, символів чи пробілів</string>
     <string name="user_name_null">Недійсне ім\'я користувача</string>
     <string name="user_nickname_error">Нікнейм не має містити жодних спеціальних знаків, символів чи пробілів</string>
-    <string name="user_email_error"/>
-    <string name="user_password_error"/>
-    <string name="user_confirm_error"/>
+    <string name="user_email_error">Ця адреса електронної пошти недійсна</string>
+    <string name="user_password_error">Пароль недійсний</string>
+    <string name="user_confirm_error">Паролі мають збігатися</string>
 
-    <string name="login_user_name"/>
-    <string name="login_user_password"/>
-    <string name="login_user_sign_in"/>
-    <string name="login_choose"/>
-    <string name="login_new_user"/>
-    <string name="login_post_as_a_guest"/>
+    <string name="login_user_name">Ім\'я користувача</string>
+    <string name="login_user_password">Пароль</string>
+    <string name="login_user_sign_in">Увійти</string>
+    <string name="login_choose">Або увійдіть в свій аккаунт</string>
+    <string name="login_new_user">Реєстрація нового користувача</string>
+    <string name="login_post_as_a_guest">Опублікувати як гість</string>
 
-    <string name="message"/>
+    <string name="message">Повідомлення</string>
 
     <!--push-->
-    <string name="push_title_info_reply"/>
-    <string name="push_title_info_upvoted"/>
-    <string name="push_title_info_follow"/>
-    <string name="push_title_info_update"/>
-    <string name="push_content_info_update"/>
-    <string name="push_title_info_at"/>
+    <string name="push_title_info_reply">%s відповів (-ла) на ваш коментар!</string>
+    <string name="push_title_info_upvoted">%s проголосував (-ла) за ваш коментар!</string>
+    <string name="push_title_info_follow">%s підписався (-алася) на вас!</string>
+    <string name="push_title_info_update">Доступне оновлення APKPure!</string>
+    <string name="push_content_info_update">Вийшла нова версія %s! Оновіть зараз!</string>
+    <string name="push_title_info_at">Хтось згадав вас у публікації, торкніться, щоб подивитись</string>
 
-    <string name="download_list"/>
-    <string name="can_be_update"/>
-    <string name="install_list"/>
-    <string name="no_download"/>
-    <string name="downloads"/>
+    <string name="download_list">Список завантажень</string>
+    <string name="can_be_update">Може бути оновлене</string>
+    <string name="install_list">Встановлено</string>
+    <string name="no_download">Немає завантажень</string>
+    <string name="downloads">Завантаження</string>
 
-    <string name="change_language_failed"/>
-    <string name="comment_reply_tell_msg"/>
+    <string name="change_language_failed">Не вдалося змінити мову!</string>
+    <string name="comment_reply_tell_msg">Цей коментар було видалено!</string>
 
-    <string name="notification_setting"/>
-    <string name="reply_notification"/>
-    <string name="reply_notification_msg"/>
-    <string name="like_notification"/>
-    <string name="like_notification_msg"/>
-    <string name="gif_tip"/>
+    <string name="notification_setting">Сповіщення</string>
+    <string name="reply_notification">Сповіщення про відповіді</string>
+    <string name="reply_notification_msg">Отримувати сповіщення про нові відповіді</string>
+    <string name="like_notification">Сповіщення про підвищення рейтингу</string>
+    <string name="like_notification_msg">Отримувати сповіщення про нові підняття рейтингу</string>
+    <string name="gif_tip">gif</string>
     <string name="ad_tip"/>
     <string name="submit_comment_title_hint"/>
 
