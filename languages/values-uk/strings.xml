@@ -571,31 +571,31 @@
     <string name="reply_notification_msg">Отримувати сповіщення про нові відповіді</string>
     <string name="like_notification">Сповіщення про підвищення рейтингу</string>
     <string name="like_notification_msg">Отримувати сповіщення про нові підняття рейтингу</string>
-    <string name="gif_tip">gif</string>
-    <string name="ad_tip"/>
-    <string name="submit_comment_title_hint"/>
+    <string name="gif_tip">GIF</string>
+    <string name="ad_tip">Реклама</string>
+    <string name="submit_comment_title_hint">Тема (опціонально)</string>
 
-    <string name="comment_vote_string"/>
-    <string name="comment_reply_three"/>
-    <string name="comment_item_fold"/>
+    <string name="comment_vote_string">Голосувати</string>
+    <string name="comment_reply_three">Відповісти</string>
+    <string name="comment_item_fold">коментар приховано</string>
 
     <plurals name="comment_reply_item_fold">
-	<item quantity="one"/>
-	<item quantity="few"/>
-	<item quantity="many"/>
+	<item quantity="one"><xliff:g example="1" id="count">%1$d</xliff:g> відповідь згорнуто</item>
+	<item quantity="few"><xliff:g example="2" id="count">%1$d</xliff:g> відповіді згорнуто</item>
+	<item quantity="many"><xliff:g example="5" id="count">%1$d</xliff:g> відповідей згорнуто</item>
 </plurals>
 
-    <string name="comment_no_reply"/>
-    <string name="comment_reply_info_name"/>
-    <string name="set_updates_notification"/>
-    <string name="set_updates_notification_msg"/>
-    <string name="app_detail_unknow_text"/>
-    <string name="comment_detail_original"/>
-    <string name="comment_comment_newest"/>
-    <string name="comment_comment_oldest"/>
+    <string name="comment_no_reply">Ой, тут нічого нема.</string>
+    <string name="comment_reply_info_name">Деталі</string>
+    <string name="set_updates_notification">Доступні оновлення додатків</string>
+    <string name="set_updates_notification_msg">Повідомляти, коли доступні оновлення додатків. Рекомендоване налаштування: \"ВКЛ\"</string>
+    <string name="app_detail_unknow_text">Стара версія APKPure не підтримує нові функції, будь ласка, оновіть до останньої.</string>
+    <string name="comment_detail_original">Подивитись оригінальний коментар &gt;</string>
+    <string name="comment_comment_newest">Найновіші</string>
+    <string name="comment_comment_oldest">Найстаріші</string>
 
-    <string name="edit"/>
-    <string name="menu_copy"/>
+    <string name="edit">Редагувати</string>
+    <string name="menu_copy">Копіювати</string>
     <string name="menu_copy_link"/>
     <string name="menu_cancel"/>
     <string name="delete_all_download_history"/>
