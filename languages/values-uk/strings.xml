@@ -659,45 +659,47 @@
     <string name="save_as_favorite">Зберегти в Улюблені</string>
     <string name="favorite_saved">Збережено в Улюблених</string>
     <string name="failed_to_save_favorite">Не вдалося зберегти в Улюблені</string>
-    <string name="remove_as_favorite">Видалено з Улюблених</string>
-    <string name="remove_failed"/>
+    <string name="remove_as_favorite">Видалити з Улюблених</string>
+    <string name="remove_failed">Не вдалося видалити</string>
 
-    <string name="collection_comment"/>
-    <string name="collection_app"/>
+    <string name="collection_comment">Публікації</string>
+    <string name="collection_app">ДОДАТКИ</string>
 
-    <string name="open_with_browser"/>
-    <string name="web_view_refresh"/>
-    <string name="web_view_copy"/>
+    <string name="open_with_browser">Відкрити у браузері</string>
+    <string name="web_view_refresh">Оновити</string>
+    <string name="web_view_copy">Скопіювати посилання</string>
 
-    <string name="topic_red_color"/>
-    <string name="topic_green_color"/>
-    <string name="topic_blue_color"/>
-    <string name="topic_purple_color"/>
-    <string name="topic_purple_black"/>
-    <string name="topic_purple_yellow"/>
-    <string name="topic_purple_blue_gary"/>
-    <string name="topic_switch_failed"/>
+    <string name="topic_red_color">Малиновий</string>
+    <string name="topic_green_color">Щасливий зелений</string>
+    <string name="topic_blue_color">Лазурово-синій</string>
+    <string name="topic_purple_color">Темно-фіолетовий</string>
+    <string name="topic_purple_black">Прохолодно-сірий</string>
+    <string name="topic_purple_yellow">Абрикосово-оранжевий</string>
+    <string name="topic_purple_blue_gary">Синій колір Повітряних Сил</string>
+    <string name="topic_switch_failed">Не вдалося змінити тему</string>
 
-    <string name="recommend_title"/>
-    <string name="recommend_tab_game"/>
-    <string name="recommend_tab_list"/>
-    <string name="recommend_installed_list_title"/>
-    <string name="recommend_review"/>
-    <string name="recommend_replace_img"/>
-    <string name="recommend_app_name"/>
-    <string name="recommend_state_can"/>
-    <string name="recommend_state_success"/>
-    <string name="recommend_select_game"/>
-    <string name="recommend_write_des"/>
-    <string name="recommend_write_des_hint"/>
-    <string name="recommend_comment"/>
-    <string name="recommend_comment_error"/>
-    <string name="recommend_description_title"/>
-    <string name="recommend_description"/>
-    <string name="recommend_user_recommend"/>
-    <string name="recommend_required"/>
-    <string name="recommend_not_found"/>
-    <string name="recommend_not_fount_info"/>
+    <string name="recommend_title">Рекомендації</string>
+    <string name="recommend_tab_game">Рекомендувати додаток</string>
+    <string name="recommend_tab_list">Рекомендовані</string>
+    <string name="recommend_installed_list_title">Мої додатки</string>
+    <string name="recommend_review">Попередній перегляд</string>
+    <string name="recommend_replace_img">Змінити картинку</string>
+    <string name="recommend_app_name">Назва додатку</string>
+    <string name="recommend_state_can">Рекомендувати</string>
+    <string name="recommend_state_success">Рекомендовані</string>
+    <string name="recommend_select_game">Рекомендувати додаток</string>
+    <string name="recommend_write_des">Опис</string>
+    <string name="recommend_write_des_hint">Корисний відгук побачать більше користувачів зі схожими на ваші інтересами.</string>
+    <string name="recommend_comment">Надіслати</string>
+    <string name="recommend_comment_error">Сталася якась помилка!</string>
+    <string name="recommend_description_title">Інструкції:</string>
+    <string name="recommend_description">1. Перевірені рекомендації з\'являться у розділі \"ВІДКРИТИ\".
+\n2. Ви можете рекомендувати лише додатки, які встановлені на вашому пристрої.
+\n3. Щоб повідомити APKPure про вашу рекомендацію, заповніть форму.</string>
+    <string name="recommend_user_recommend">Рекомендовано користувачем %s</string>
+    <string name="recommend_required">*</string>
+    <string name="recommend_not_found">Не індексовані</string>
+    <string name="recommend_not_fount_info">Заповніть форму, щоб APKPure додали \"%s\"</string>
     <string name="recommend_user_recommend_sys"/>
 
     <string name="user_detail_focus"/>
