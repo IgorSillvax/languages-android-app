@@ -732,82 +732,82 @@
     <string name="app_detail_has_product">Придбання предметів</string>
     <string name="app_detail_no_product">Немає покупок предметів</string>
     <string name="app_detail_has_ad">Містить рекламу</string>
-    <string name="app_detail_no_ad">Без рекламт</string>
+    <string name="app_detail_no_ad">Без реклами</string>
 
-    <string name="tag_list"/>
-    <string name="hot_tag"/>
-    <string name="hot_tag_explain"/>
-    <string name="common_use"/>
-    <string name="app_add_tag_hint_caution"/>
-    <string name="app_add_tag"/>
-    <string name="toast_app_tag_exist"/>
-    <string name="there_is_no_label"/>
-    <string name="add"/>
-    <string name="colon"/>
+    <string name="tag_list">Список теґів</string>
+    <string name="hot_tag">Популярні теґи</string>
+    <string name="hot_tag_explain">(Додайте теґи до додатку або проголосуйте за існуючі)</string>
+    <string name="common_use">Мої теґи</string>
+    <string name="app_add_tag_hint_caution">Не більше ніж %s теґів для кожного додатку.</string>
+    <string name="app_add_tag">Додати новий теґ</string>
+    <string name="toast_app_tag_exist">Теґ вже існує!</string>
+    <string name="there_is_no_label">Немає теґів.</string>
+    <string name="add">Додати</string>
+    <string name="colon">:</string>
 
-    <string name="pack_up"/>
-    <string name="Istop"/>
-    <string name="add_tag"/>
-    <string name="error_add_tag"/>
-    <string name="no_collect"/>
-    <string name="no_comment"/>
+    <string name="pack_up">Згорнути</string>
+    <string name="Istop">Закріплені</string>
+    <string name="add_tag">Додати теґи</string>
+    <string name="error_add_tag">Не вдалося додати теґи</string>
+    <string name="no_collect">Улюблених поки немає!</string>
+    <string name="no_comment">Будьте першим, хто додасть коментар!</string>
 
-    <string name="share_apk"/>
-    <string name="tab_apk"/>
-    <string name="commentaries"/>
+    <string name="share_apk">Поділитися APK-файлом</string>
+    <string name="tab_apk">APK</string>
+    <string name="commentaries">Поділитися публікацією</string>
 
-    <string name="upload_apk_version"/>
-    <string name="upload_apk_downloads"/>
+    <string name="upload_apk_version">Версія %s</string>
+    <string name="upload_apk_downloads">Завантажень: %s</string>
     
-    <string name="upload_comment_uploading"/>
-    <string name="upload_comment_upload_success"/>
-    <string name="upload_comment_upload_failed"/>
-    <string name="upload_comment_view"/>
-    <string name="upload_comment_reload"/>
-    <string name="upload_notification_pause"/>
-    <string name="upload_notification_start"/>
-    <string name="upload_notification_cancel"/>
-    <string name="upload_notification_is_uploading"/>
-    <string name="upload_notification_is_pause"/>
-    <string name="upload_add_list_toast"/>
-    <string name="upload_add_file_list_toast"/>
+    <string name="upload_comment_uploading">%s Відправлення…</string>
+    <string name="upload_comment_upload_success">%s успішно відправлене</string>
+    <string name="upload_comment_upload_failed">Не вдалося відправити %s</string>
+    <string name="upload_comment_view">Торкніться, щоб показати</string>
+    <string name="upload_comment_reload">Торкніться, щоб відправити знову</string>
+    <string name="upload_notification_pause">Пауза</string>
+    <string name="upload_notification_start">Старт</string>
+    <string name="upload_notification_cancel">Скасувати</string>
+    <string name="upload_notification_is_uploading">Відправлення пакету до APKPure…</string>
+    <string name="upload_notification_is_pause">Відправлення призупинене</string>
+    <string name="upload_add_list_toast">Успіх!</string>
+    <string name="upload_add_file_list_toast">Відправлення додатку. Будь ласка, будте терплячими, дякуємо!</string>
 
-    <string name="your_reply_comment"/>
+    <string name="your_reply_comment">Ваша відповідь</string>
 
-    <string name="market_ad_title"/>
-    <string name="market_ad_tab_one"/>
-    <string name="market_ad_tab_two"/>
-    <string name="market_ad_tab_three"/>
+    <string name="market_ad_title">Магазин</string>
+    <string name="market_ad_tab_one">Вибрані</string>
+    <string name="market_ad_tab_two">Ігри</string>
+    <string name="market_ad_tab_three">Інструменти</string>
 
-    <string name="tag"/>
+    <string name="tag">Теґ</string>
 
-    <string name="search_tab_name_one"/>
-    <string name="search_tab_name_two"/>
+    <string name="search_tab_name_one">ДОДАТКИ</string>
+    <string name="search_tab_name_two">КОРИСТУВАЧ</string>
     <!--pre_register-->
-    <string name="pre_register_ok"/>
-    <string name="pre_register_bt"/>
-    <string name="pre_register_now_bt"/>
-    <string name="pre_registered_bt"/>
-    <string name="pre_register_link_title"/>
-    <string name="pre_register_gift_tv"/>
-    <string name="pre_register_person_num_tv"/>
-    <string name="pre_register_success"/>
+    <string name="pre_register_ok">OK</string>
+    <string name="pre_register_bt">Попередня реєстрація</string>
+    <string name="pre_register_now_bt">Попередня реєстрація</string>
+    <string name="pre_registered_bt">Зареєстровані</string>
+    <string name="pre_register_link_title">Сторінка попередньої реєстрації</string>
+    <string name="pre_register_gift_tv">Нагорода за реєстрацію</string>
+    <string name="pre_register_person_num_tv">Попередньо зареєстрованих: %s</string>
+    <string name="pre_register_success">Попередня реєстрація означає, що ви отримаєте сповіщення, коли додаток буде випущено.</string>
 
-    <string name="open_page_failed"/>
-    <string name="search_for_user"/>
-    <string name="search_user_history_title"/>
-    <string name="search_focus_list_title"/>
+    <string name="open_page_failed">Не вдалося відкрити сторінку!</string>
+    <string name="search_for_user">Пошук</string>
+    <string name="search_user_history_title">Останні контакти</string>
+    <string name="search_focus_list_title">Підписаний</string>
 
-    <string name="submit_comment_user_style"/>
+    <string name="submit_comment_user_style">&lt;font color=#007AFF&gt;@%1$s&lt;/font&gt;</string>
 
-    <string name="copy_username"/>
-    <string name="copy_content"/>
+    <string name="copy_username">Скопіювати нікнейм</string>
+    <string name="copy_content">Скопіювати вміст</string>
 
-    <string name="tab_global"/>
-    <string name="comment_list_see_here"/>
-    <string name="comment_list_new_num"/>
+    <string name="tab_global">ВИБРАНЕ</string>
+    <string name="comment_list_see_here">В останній раз ви були тут, торкніться, щоб оновити</string>
+    <string name="comment_list_new_num">%d нових історій</string>
 
-    <string name="tab_popular"/>
-    <string name="count_down_timer_tv"/>
-    <string name="count_down_timer_btn"/>
+    <string name="tab_popular">ПОПУЛЯРНІ</string>
+    <string name="count_down_timer_tv">%d сек</string>
+    <string name="count_down_timer_btn">пропустити</string>
 </resources>
