@@ -62,7 +62,7 @@
     <string name="failed_to_delete_file">Не вдалося видалити файл.</string>
     <string name="install__label_"><xliff:g example="APKPure" id="app_label">%1$s</xliff:g></string>
     <string name="user_canceled">Скасовано користувачем.</string>
-    <string name="io_error">Помилка. Можливо, недостатньо вільного місця для успішного встановлення.</string>
+    <string name="io_error">IO Помилка. Можливо, недостатньо вільного місця для успішного встановлення.</string>
     <string name="file_format_error">Непідтримуваний формат.</string>
     <string name="parsing_xapk">Розбір XAPK …</string>
     <string name="installing_obb">Встановлення OBB-файлів …</string>
@@ -126,7 +126,7 @@
     <string name="downloads_complete">Завантаження завершені</string>
     <string name="touch_for_view_all_downloads">Торкніться, щоб побачити всі завантаження</string>
     <string name="_name__download_failed"><xliff:g example="APKPure" id="name">%1$s</xliff:g> не вдалося завантажити</string>
-    <string name="touch_to_download_it_again">Торкніться, щоб заванажити знову</string>
+    <string name="touch_to_download_it_again">Торкніться, щоб завантажити знову</string>
 
     <string name="download_percent"><xliff:g example="50" id="percent">%1$d</xliff:g> %%</string>
     <string name="pause">Пауза</string>
@@ -136,7 +136,7 @@
     <string name="restart">Перезапустити</string>
     <string name="download">Завантажити</string>
     <string name="downloading">Завантажується</string>
-    <string name="waiting">Очікує</string>
+    <string name="waiting">вижидання</string>
     <string name="preparing">Підготовка</string>
     <string name="completed">Завершено</string>
     <string name="paused">Призупинено</string>
