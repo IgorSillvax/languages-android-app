@@ -119,9 +119,9 @@
     <string name="launching_please_wait">Запускається, будь ласка, зачекайте…</string>
 
     <plurals name="_count__item_is_downloading">
-	<item quantity="one"><xliff:g example="1" id="count">%1$d</xliff:g> елемент завантажується</item>
-	<item quantity="few"><xliff:g example="2" id="count">%1$d</xliff:g> елементи завантажуються</item>
-	<item quantity="many"><xliff:g example="5" id="count">%1$d</xliff:g> елементів завантажуються</item>
+	<item quantity="one">Про <xliff:g example="APKPure" id="app_name">%1$s</xliff:g></item>
+	<item quantity="few">Про <xliff:g example="APKPure" id="app_name">%1$s</xliff:g></item>
+	<item quantity="many">Про <xliff:g example="APKPure" id="app_name">%1$s</xliff:g></item>
 </plurals>
     <string name="downloads_complete">Завантаження завершені</string>
     <string name="touch_for_view_all_downloads">Торкніться, щоб побачити всі завантаження</string>
