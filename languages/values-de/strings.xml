@@ -167,7 +167,8 @@
     </string>
 
     <string name="share">Teilen</string>
-    <string name="share_app_url">Teilen <xliff:g example="APKPure" id="app_name">%1$s</xliff:g> APK (from @<xliff:g example="APKPure" id="social_network_name">%2$s</xliff:g>), <xliff:g example="https://apkpure.com/p/com.apkpure.aegon" id="app_url">%3$s</xliff:g> herunter</string>
+    <string name="share_app_url">
+\n Teilen <xliff:g example="APKPure" id="app_name">%1$s</xliff:g> APK (from @<xliff:g example="APKPure" id="social_network_name">%2$s</xliff:g>), <xliff:g example="https://apkpure.com/p/com.apkpure.aegon" id="app_url">%3$s</xliff:g> herunter</string>
 
     <string name="_name__version_history"><xliff:g example="APKPure" id="name">%1$s</xliff:g> Versionsgeschichte</string>
     <string name="update__date___size_">Aktualisierung: <xliff:g example="Mar 3, 2016" id="date">%1$s</xliff:g>, <xliff:g example="1024 kB" id="size">%2$s</xliff:g></string>
@@ -209,7 +210,7 @@
     <string name="ignore">ignorieren</string>
     <string name="unignore">unignorieren</string>
     <string name="select">Auswahl</string>
-    <string name="cancel">Streichen</string>
+    <string name="cancel">Abbrechen</string>
     <string name="select_all">Alles auswählen</string>
     <string name="deselect_all">Alles abwählen</string>
     <string name="ignored">Ignoriert</string>
@@ -328,9 +329,9 @@ Die genannten Funktionen werden ab Android 4.1 unterstützt, es ist kein Root-Zu
     <string name="user_info_edit_portrait_tv">Profilbild</string>
     <string name="app_submit_star_toast">Gib eine Bewertung an!</string>
     <string name="share_app_url_comment"> <xliff:g example="APKPure" id="user_name">%1$s</xliff:g>\'s Kommentare zu
-<xliff:g example="APKPure" id="app_name">%2$s</xliff:g> :
-<xliff:g example="APKPure" id="app_name">%3$s</xliff:g> (von @
-<xliff:g example="APKPure" id="social_network_name">%4$s</xliff:g>) <xliff:g example="https://apkpure.com/p/com.apkpure.aegon" id="app_url">%5$s</xliff:g></string>
+\n<xliff:g example="APKPure" id="app_name">%2$s</xliff:g> :
+\n<xliff:g example="APKPure" id="app_name">%3$s</xliff:g> (von @
+\n<xliff:g example="APKPure" id="social_network_name">%4$s</xliff:g>) <xliff:g example="https://apkpure.com/p/com.apkpure.aegon" id="app_url">%5$s</xliff:g></string>
 
     <string name="input_reply_content">Inhalt der Antwort:</string>
     <string name="already_save"><xliff:g example="ApKPure/photo" id="path">%1$s</xliff:g> gespeichert</string>
@@ -528,7 +529,7 @@ Die genannten Funktionen werden ab Android 4.1 unterstützt, es ist kein Root-Zu
     <string name="collection_comment">Posts</string>
     <string name="collection_app">APPS</string>
 
-    <string name="open_with_browser">Mit Browser öffnen</string>
+    <string name="open_with_browser">Im Browser öffnen</string>
     <string name="web_view_refresh">Aktualisieren</string>
 
     <string name="topic_red_color">Crimson</string>
@@ -600,7 +601,7 @@ Die genannten Funktionen werden ab Android 4.1 unterstützt, es ist kein Root-Zu
 
     <string name="recommend_not_found">Nicht erfasst</string>
     <string name="recommend_not_fount_info">Benachrichtigen Sie APKPure, um \"% s\" hinzuzufügen. Sie müssen die Formulare abschließen.</string>
-    <string name="recommend_user_recommend_sys">Bestimmt von APKPure</string>
+    <string name="recommend_user_recommend_sys">Entwickelt von APKPure</string>
 
     <string name="user_detail_focus">Folgend</string>
     <string name="user_detail_fans">Abonnenten</string>
@@ -626,7 +627,7 @@ Die genannten Funktionen werden ab Android 4.1 unterstützt, es ist kein Root-Zu
     <string name="publish_comment">Teile einen Kommentar</string>
 
     <string name="app_detail_has_product">Artikel kaufen</string>
-    <string name="app_detail_no_product">Keine Artikel kaufen</string>
+    <string name="app_detail_no_product">Keine Artikel zu Kaufen</string>
     <string name="app_detail_has_ad">Enthält Werbung</string>
     <string name="app_detail_no_ad">Werbefrei</string>
 
@@ -724,4 +725,9 @@ Die genannten Funktionen werden ab Android 4.1 unterstützt, es ist kein Root-Zu
     <string name="comment_list_new_num">% d Neue Geschichten</string>
 
     <string name="tab_popular">BELIEBT</string>
+<string name="menu_copy_link">Link Kopieren</string>
+    <string name="web_view_copy">Link Kopieren</string>
+
+    <string name="count_down_timer_tv">%ds</string>
+    <string name="count_down_timer_btn">überspringen</string>
 </resources>
