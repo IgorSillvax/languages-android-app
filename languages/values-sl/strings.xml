@@ -301,7 +301,9 @@ Zgoraj omenjene funkcije podpirajo Android 4.1+, ni potrebno root dovoljenje. Ob
 
     <plurals name="app_detail_see_all_replies">
 	<item quantity="one">Poglej <xliff:g primer="1" id="count">%1$d</xliff:g> odgovor</item>
-	<item quantity="other">Poglej <xliff:g primer="2" id="count">%1$d</xliff:g> odgovora</item>
+	<item quantity="two">Poglej <xliff:g primer="2" id="count">%1$d</xliff:g> odgovora</item>
+	<item quantity="few">Poglej <xliff:g example="2" id="count">%1$d</xliff:g> odgovore</item>
+	<item quantity="other">Poglej <xliff:g example="2" id="count">%1$d</xliff:g> odgovorov</item>
 </plurals>
 
     <string name="app_detail_customer_reviews">Komentarji</string>
@@ -503,7 +505,9 @@ Zgoraj omenjene funkcije podpirajo Android 4.1+, ni potrebno root dovoljenje. Ob
 
     <plurals name="comment_reply_item_fold">
 	<item quantity="one"><xliff:g primer="1" id="šteje">%1$d</xliff:g> Odgovor se je zrušil</item>
-	<item quantity="other"><xliff:g primer="2" id="šteje">%1$d</xliff:g> Odgovora sta se zrušila</item>
+	<item quantity="two"><xliff:g primer="2" id="šteje">%1$d</xliff:g> Odgovora sta se zrušila</item>
+	<item quantity="few"><xliff:g example="2" id="count">%1$d</xliff:g> Odgovori so se zrušili</item>
+	<item quantity="other"><xliff:g example="2" id="count">%1$d</xliff:g> Odgovorov se je zrušilo</item>
 </plurals>
 
     <string name="comment_no_reply">Vau, tukaj ni ničesar.</string>

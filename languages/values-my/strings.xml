@@ -22,12 +22,12 @@
     <string name="refresh">အားျဖည့္မည္</string>
 
     <string name="management">ကြက္ကဲမႈ</string>
-    <string name="app_updates">myat linnaunh</string>
+    <string name="app_updates">App အသစ်များ</string>
     <string name="app_management">App စီမံျခင္း</string>
     <string name="app_uninstall">App ဖ်က္ျခင္း</string>
     <string name="apk_management">APK စီမံျခင္း</string>
-    <string name="apk_xapk_management">APK ႏွင့္ XAPK စီမံျခင္း</string>
-    <string name="download_management">ေဒါင္းလုဒ္</string>
+    <string name="apk_xapk_management">APK နှင့် XAPK စီမံျခင္း</string>
+    <string name="download_management">ဒေါင်းလုဒ် စီမံခန့်ခွဲခြင်း</string>
     <string name="settings">စက္တင္</string>
     <string name="about">အေၾကာင္း</string>
 
@@ -35,19 +35,30 @@
     <string name="about_title">အေၾကာင္းအရာ<xliff:g example="APKPure" id="app_name">%1$s</xliff:g></string>
     <string name="check_update">ဗား႐ွင္းအသစ္ စစ္ပါ</string>
     <string name="quit">ထြက္မည္</string>
-    <string name="want_to_quit">ထြက္ရန္ေသခ်ာပါသလား</string>
+    <string name="want_to_quit">သင်ထွက်မှာသေချာပါသလား?</string>
 
-    <string name="install">Install လုပ္မည္</string>
-    <string name="open">ဖြင့္မည္</string>
-    <string name="delete">ဖ်က္မည္</string>
-    <string name="delete_all">အားလံုးဖ်က္မည္</string>
-    <string name="properties">အခ်က္အလက္</string>
-    <string name="want_to_delete_file">ဤဖိုင္ကိုဖ်က္ခ်င္ပါသလား</string>
-    <string name="want_to_delete_all_files">ဖိုင္အားလံုးကိုဖ်က္မွာလား</string>
-    <string name="file_has_been_deleted">ဖ်က္ပီးပီ</string>
-    <string name="failed_to_delete_file">ဖ်က္မရပါ</string>
-    <string name="user_canceled">အသံုးျပဳသူကမလုပ္ေတာ့ပါ</string>
+    <string name="install">သွင်းမည်</string>
+    <string name="open">ဖွင့်မည်</string>
+    <string name="delete">ဖျက်မည်</string>
+    <string name="delete_all">အားလုံးဖျက်မယ်</string>
+    <string name="properties">အချက်အလက်</string>
+    <string name="want_to_delete_file">ဒီဖိုင်ကိုဖျက်ချင်သလား?</string>
+    <string name="want_to_delete_all_files">သင်ဖိုင် အားလုံးကို ဖျက်ချင်သလား?</string>
+    <string name="file_has_been_deleted">ဖိုင်ကိုဖျက်ပြီးပါပြီ</string>
+    <string name="failed_to_delete_file">ဖိုင်ဖျက်တာမရပါ</string>
+    <string name="user_canceled">အသုံးပြုသူကပယ်ဖျက်ခဲ့သည်</string>
     <string name="about_message">"
- &lt;b&gt;Version:&lt;/b&gt; %1$s&lt;br&gt;&lt;br&gt;&lt;b&gt;Website:&lt;/b&gt; &lt;a href=%2$s&gt;%2$s&lt;/a&gt;&lt;br&gt;&lt;b&gt;Email:&lt;/b&gt; &lt;a href=mailto:%3$s&gt;%3$s&lt;/a&gt;
+ &lt;b&gt;ဗားရှင်း:&lt;/b&gt; %1$s&lt;br&gt;&lt;br&gt;&lt;b&gt;ဝဘ်ဆိုက်:&lt;/b&gt; &lt;a href=%2$s&gt;%2$s&lt;/a&gt;&lt;br&gt;&lt;b&gt;အီးမေးလ်:&lt;/b&gt; &lt;a href=mailto:%3$s&gt;%3$s&lt;/a&gt;
  "</string>
+    <string name="load_failed_error_not_found">Appဟာ APKPure စာရင်းမှာမရှိပါ</string>
+    <string name="check_update_replace">တရားဝင် ဗားရှင်း</string>
+    <string name="check_update_beta">အကြိုစမ်းသုံးရန် ထုတ်ထားခြင်း</string>
+    <string name="beta">ဘီတာ</string>
+    <string name="properties_message">"
+ &lt;b&gt;Path:&lt;/b&gt; %1$s&lt;br&gt;&lt;b&gt;Size:&lt;/b&gt; %2$s&lt;br&gt;&lt;b&gt;နောက်ဆုံးပြင်ဆင်ခဲ့သော:&lt;/b&gt; %3$s
+ "</string>
+    <string name="install__label_">သွင်းမယ် - <xliff:g example="APKPure" id="app_label">%1$s</xliff:g></string>
+    <string name="io_error">မရပါ။ နေရာမခြင်ကြောင့် သွင်းမရတာဖြစ်န်ုင်ပါသည်</string>
+    <string name="file_format_error">ဖိုင် မှားနေသည်</string>
+    <string name="parsing_xapk">XAPK ကိုဖြည်နေသည်</string>
     </resources>
