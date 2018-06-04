@@ -1,9 +1,9 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2"><string name="action_settings">Nastavení</string>
     <string name="action_search">Hledání</string>
-    <string name="press_back_key_quit">Stiskněte tlačítko Zpět znovu a ukončení programu.</string>
+    <string name="press_back_key_quit">"Stiskněte ještě jednou tlačítko Zpět pro  ukončení programu."</string>
 
-    <string name="featured">Představoval</string>
+    <string name="featured">Rozšířené</string>
     <string name="action_management">Řízení
 </string>
 
@@ -16,14 +16,14 @@
 
     <string name="load_failed_error">Jejda! Vyskytla se chyba.</string>
     <string name="load_failed_empty">Tady nic není.</string>
-    <string name="recommend">Objevit</string>
+    <string name="recommend">Objev</string>
     <string name="load_failed_all_up_to_date">Všechny aplikace jsou aktualizovány.</string>
-    <string name="load_failed_no_results">Promiňte! Nebyly nalezeny žádné výsledky.</string>
+    <string name="load_failed_no_results">Je nám líto! Nebyly nalezeny žádné výsledky.</string>
     <string name="refresh">Obnovit</string>
 
     <string name="management">Spravování</string>
     <string name="app_updates">Aktualizace aplikací</string>
-    <string name="app_management">Spravování aplikací</string>
+    <string name="app_management">Instalováno</string>
     <string name="load_failed_error_not_found">Aplikace není uvedena v APKPure App Store!</string>
     <string name="app_uninstall">Odinstalace aplikace</string>
     <string name="apk_management">Správce APK</string>
@@ -35,15 +35,167 @@
 
     <string name="about_title">"O  "<xliff:g example="APKPure" id="app_name"/></string>
     <string name="about_message">"
- &lt;b&gt;Version:&lt;/b&gt; %1$s&lt;br&gt;&lt;br&gt;&lt;b&gt;Website:&lt;/b&gt; &lt;a href=%2$s&gt;%2$s&lt;/a&gt;&lt;br&gt;&lt;b&gt;Email:&lt;/b&gt; &lt;a href=mailto:%3$s&gt;%3$s&lt;/a&gt;
+ &lt;b&gt;Verze:&lt;/b&gt; %1$s&lt;br&gt;&lt;br&gt;&lt;b&gt;Web:&lt;/b&gt; &lt;a href=%2$s&gt;%2$s&lt;/a&gt;&lt;br&gt;&lt;b&gt;Email:&lt;/b&gt; &lt;a href=mailto:%3$s&gt;%3$s&lt;/a&gt;
  "</string>
     <string name="check_update">Zkontrolovat aktualizace</string>
     <string name="check_update_replace">Oficiální verze</string>
     <string name="check_update_beta">Předběžná Beta</string>
-    <string name="beta">Beta</string>
+    <string name="beta">beta</string>
     <string name="quit">Odejít</string>
     <string name="want_to_quit">Opravdu si přejete odejít?</string>
 
     <string name="install">Instalovat</string>
     <string name="open">Otevřít</string>
+    <string name="delete">Smazat</string>
+    <string name="delete_all">Smazat vše</string>
+    <string name="properties">Vlastnosti</string>
+    <string name="want_to_delete_file">Chcete smazat tento soubor?</string>
+    <string name="want_to_delete_all_files">Chcete smazat všechny soubory?</string>
+    <string name="file_has_been_deleted">Soubor byl smazán.</string>
+    <string name="failed_to_delete_file">Chyba při mazání souboru.</string>
+    <string name="user_canceled">Zrušeno uživatelem.</string>
+    <string name="io_error">Chyba IO. Možný důvod - nedostatek volného místa pro instalaci.</string>
+    <string name="file_format_error">Chybný formát souboru.</string>
+    <string name="installing_obb">Instaluji OBB soubory …</string>
+    <string name="extracting_apk">Rozbaluji soubor APK …</string>
+    <string name="installing_apk">Instaluji APK …</string>
+
+    <string name="uninstall">Odinstalování</string>
+    <string name="uninstalled">Odinstalováno</string>
+    <string name="all">Vše</string>
+
+    <string name="screenshots">Screenshoty</string>
+    <string name="whatsnew">Co je nového</string>
+    <string name="information">Informace</string>
+    <string name="version_">Verze:</string>
+    <string name="updated_">Aktualizováno:</string>
+    <string name="size_">Velikost:</string>
+    <string name="permissions_">Oprávnění:</string>
+    <string name="type_">Typ:</string>
+    <string name="category_">Kategorie:</string>
+    <string name="more">Více</string>
+    <string name="permissions">Oprávnění</string>
+    <string name="other">Ostatní</string>
+    <string name="similar_or_related">Podobné nebo příbuzné</string>
+    <string name="more_from_developer">Více od vývojáře</string>
+    <string name="more_large">Více</string>
+    <string name="apk">APK</string>
+    <string name="xapk">XAPK</string>
+    <string name="unknown">Neznámý</string>
+    <string name="flag_as_inappropriate">Označit jako nevhodné</string>
+    <string name="_ellipsis_"> ... </string>
+    <string name="history_version">Historie verzí</string>
+
+    <string name="market_response_error_success">Úspěšně dokončeno.</string>
+    <string name="market_response_error_invalid_result">Neplatný výsledek.</string>
+    <string name="market_response_error_network_connect_error">Chyba spojení sítě.</string>
+    <string name="market_response_error_network_read_error">Chyba čtení sítě.</string>
+    <string name="market_response_error_invalid_response_code">Chybný kód</string>
+    <string name="market_response_error_invalid_response_body">Chybné tělo souboru.</string>
+    <string name="market_response_error_unknown_error__error_">Neznámá chyba: (<xliff:g example="SUCCESS" id="error">%1$s</xliff:g>).</string>
+
+    <string name="update">Aktualizace</string>
+    <string name="version__version___size_">Verze: <xliff:g example="1.0.0" id="version">%1$s</xliff:g>, <xliff:g example="1024 kB" id="size">%2$s</xliff:g></string>
+    <string name="launching_please_wait">Načítám, prosím čekejte …</string>
+
+    <plurals name="_count__item_is_downloading">
+	<item quantity="one"><xliff:g example="1" id="count">%1$d</xliff:g> položka se stahuje</item>
+	<item quantity="other"><xliff:g example="2" id="count">%1$d</xliff:g> položky se stahují</item>
+</plurals>
+    <string name="downloads_complete">Stahování dokončena</string>
+    <string name="touch_for_view_all_downloads">Dotkni se pro zobrazení všech stahování</string>
+    <string name="_name__download_failed"><xliff:g example="APKPure" id="name">%1$s</xliff:g> chyba stahování</string>
+    <string name="touch_to_download_it_again">Stáhnout znova</string>
+
+    <string name="download_percent"><xliff:g example="50" id="percent">%1$d</xliff:g> % procent</string>
+    <string name="pause">Přerušit</string>
+    <string name="pause_all">Přerušit vše</string>
+    <string name="continue_">Pokračovat</string>
+    <string name="continue_all">Obnovit vše</string>
+    <string name="restart">Restart</string>
+    <string name="download">Stáhnout</string>
+    <string name="downloading">Stahuji</string>
+    <string name="waiting">Čekám</string>
+    <string name="preparing">Připravuji</string>
+    <string name="completed">Dokončeno</string>
+    <string name="paused">Pozastaveno</string>
+    <string name="failed">Selhalo</string>
+    <string name="file_invalid">Neplatný soubor</string>
+    <string name="file_missing">Soubor chybí</string>
+    <string name="waiting_to_download">Čekám na stahování</string>
+    <string name="deleted">Smazáno</string>
+    <string name="expired">Vypršel</string>
+    <string name="installed">Nainstalováno</string>
+    <string name="detail">Podrobnosti</string>
+    <string name="remove">Odstranit</string>
+    <string name="remove_all">Odstranit vše</string>
+    <string name="want_to_remove_download_item">Přejete si odstranit tuto staženou položku?</string>
+    <string name="want_to_remove_all_download_items">Přejete si odstranit všechny stažené položky?</string>
+    <string name="delete_downloaded_file">Smazat stažený soubor</string>
+    <string name="download_over_cellular">Stáhnout přes mobilní data</string>
+    <string name="download_over_cellular_content">Chystáte se stahovat přes Vaše mobilní data. Přejete si pokračovat?</string>
+
+    <string name="search">Vyhledat</string>
+    <string name="search_for_apps">Vyhledat v APKPure</string>
+    <string name="properties_message">"
+ &lt;b&gt;Cesta:&lt;/b&gt; %1$s&lt;br&gt;&lt;b&gt;Velikost:&lt;/b&gt; %2$s&lt;br&gt;&lt;b&gt;Poslední změna:&lt;/b&gt; %3$s
+ "</string>
+    <string name="install__label_">Instalování - <xliff:g example="APKPure" id="app_label">%1$s</xliff:g></string>
+    <string name="last_update__date_">Poslední aktualizace: <xliff:g id="date">%1$s</xliff:g></string>
+
+    <string name="description">Vlastnosti</string>
+    <string name="no_more">Není</string>
+
+    <plurals name="_count__new_update_is_available">
+	<item quantity="one"><xliff:g example="1" id="count">%1$d</xliff:g> je dostupná nová aktualizace</item>
+	<item quantity="few"><xliff:g example="2" id="count">%1$d</xliff:g> Jsou dostupné nové aktualizace</item>
+	<item quantity="many"><xliff:g example="2" id="count">%1$d</xliff:g> dostupných aktualizací</item>
+	<item quantity="other"/>
+</plurals>
+
+    <string name="search_history">Historie</string>
+    <string name="clear_search_history">Smazat celou historii</string>
+
+    <string name="improvement_plan_title">Plán na zvýšení výkonu</string>
+    <string name="improvement_plan_message">
+ Pomožte nám a povolte informace o android zařízen,
+ <b>nebudeme uchovávat</b> žádné osibní údaje (jméno, adresu, emailovou adresu, čísla sociálních zabezpečení nebo jiné soukromé údaje).
+ </string>
+    <string name="join_us">Přidejte se k nám</string>
+    <string name="skip">Přeskočit</string>
+
+    <string name="participate_ultra_download_beta_test_title">Povolte Ultra Sownload a užijte si rychlejší stahování</string>
+    <string name="participate_ultra_download_beta_test_content">Ultea Download je v Beta testování, prosím dejte nám vědět pokud se vyskytnou nějaké problémy. Službu můžete jednoduše deaktivovat v Nastavení.</string>
+    <string name="enable">Povolit</string>
+
+    <string name="_name__is_up_to_date"><xliff:g example="APKPure" id="name">%1$s</xliff:g>"  Je aktuální."</string>
+    <string name="new_version_available_title">K dispozici nová verze</string>
+    <string name="new_version_available_message">"
+ &lt;b&gt;Poslední verze:&lt;/b&gt; %1$s&lt;br&gt;&lt;br&gt;&lt;b&gt;Co je nového:&lt;/b&gt;&lt;br&gt;%2$s
+ "</string>
+
+    <string name="report">Hlášení</string>
+    <string name="report__">Hlášení…</string>
+    <string name="report_problem__">Nahlásit problém…</string>
+    <string name="report_problem_subject">Nahlásit problém</string>
+    <string name="report_problem_text">Téma problému:
+%1$s
+
+Popis problému:
+%2$s</string>
+    <string name="contact_us__">Kontaktujte nás…</string>
+    <string name="contact_us">Kontaktujte nás</string>
+    <string name="report_content">Obsah hlášení</string>
+    <string name="feedback">Zpětná vazba</string>
+
+    <string name="installation_failed">Chyba instalace</string>
+    <string name="invalid_app_detail">Chybný popis aplikace.</string>
+    <string name="incompatible_this_app">"
+ &lt;big&gt;&lt;b&gt;&lt;font color=%1$d&gt;Baše zařízení není kompatibilní s touto aplikaci.&lt;/font&gt;&lt;/b&gt;&lt;/big&gt;&lt;br&gt;&lt;br&gt;Přesto pokračovat?
+ "</string>
+    <string name="this_app_not_usable">"
+ &lt;big&gt;&lt;b&gt;&lt;font color=%1$d&gt;Tato aplikace může být nestabilní.&lt;/font&gt;&lt;/b&gt;&lt;/big&gt;&lt;br&gt;&lt;br&gt;Přejete si pokračovat?
+ "</string>
+
+    <string name="setting">Nastavení</string>
     </resources>

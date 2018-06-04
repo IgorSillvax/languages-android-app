@@ -1,0 +1,113 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2"><string name="action_settings">ຕັ້ງຄ່າ</string>
+    <string name="action_search">ຄົ້ນຫາ</string>
+    <string name="action_management">ການຈັດການ</string>
+
+    <string name="press_back_key_quit">ກົດຍ້ອນກັບອີກເທື່ອໜຶ່ງເພື່ອອອກ</string>
+
+    <string name="featured">ແນະນຳ</string>
+    <string name="recommend">ຂ່າວສານ</string>
+    <string name="games">ເກມ</string>
+    <string name="apps">ແອັບ</string>
+    <string name="categories">ໝວດໝູ່</string>
+    <string name="updates">ອັບເດດ</string>
+
+    <string name="something_happened">ມີບາງຢ່າງເກີດຂຶ້ນ</string>
+    <string name="load_failed_error">ອຸ້ຍ! ເກີດຂໍ້ຜິດພາດ</string>
+    <string name="load_failed_error_not_found">ແອັບນີ້ບໍ່ມີຢູ່ໃນ APKPure App Store!</string>
+    <string name="load_failed_empty">ບໍ່ມີຫຍັງຢູ່ນີ້</string>
+    <string name="load_failed_all_up_to_date">ແອັບທັງໝົດຖືກອັບເດດແລ້ວ</string>
+    <string name="load_failed_no_results">ຂໍອະໄພ! ບໍ່ພົບຜົນລັບ</string>
+    <string name="refresh">ໂຫຼດໃໝ່</string>
+
+    <string name="management">ຈັດການ</string>
+    <string name="app_updates">ອັບເດດແອັບ</string>
+    <string name="app_management">ຕິດຕັ້ງແລ້ວ</string>
+    <string name="app_uninstall">ຖອນການຕິດຕັ້ງແອັບ</string>
+    <string name="apk_management">ຈັດການ APK</string>
+    <string name="apk_xapk_management">ຈັດການ APK / XAPK</string>
+    <string name="download_management">ຈັດການດາວໂຫຼດ</string>
+    <string name="settings">ຕັ້ງຄ່າ</string>
+    <string name="about">ກ່ຽວກັບ</string>
+
+
+    <string name="about_title">ກ່ຽວກັບ <xliff:g example="APKPure" id="app_name">%1$s</xliff:g></string>
+    <string name="about_message">"
+ &lt;b&gt;ເວີຊັ່ນ:&lt;/b&gt; %1$s&lt;br&gt;&lt;br&gt;&lt;b&gt;ເວັບໄຊທ໌:&lt;/b&gt; &lt;a href=%2$s&gt;%2$s&lt;/a&gt;&lt;br&gt;&lt;b&gt;ອີເມວ:&lt;/b&gt; &lt;a href=mailto:%3$s&gt;%3$s&lt;/a&gt;
+ "</string>
+    <string name="check_update">ກວດສອບການອັບເດດ</string>
+    <string name="check_update_replace">ເວີຊັ່ນທາງການ</string>
+    <string name="check_update_beta">Pre-release Beta</string>
+    <string name="beta">Beta</string>
+    <string name="quit">ອອກ</string>
+    <string name="want_to_quit">ເຈົ້າແນ່ໃຈແລ້ວຫວາວ່າຕ້ອງການອອກ?</string>
+
+    <string name="install">ຕິດຕັ້ງ</string>
+    <string name="open">ເປີດ</string>
+    <string name="delete">ລຶບ</string>
+    <string name="delete_all">ລຶບທັງໝົດ</string>
+    <string name="properties">ຂໍ້ມູນ</string>
+    <string name="properties_message">"
+ &lt;b&gt;ບ່ອນຈັດເກັບ:&lt;/b&gt; %1$s&lt;br&gt;&lt;b&gt;ຂະໜາດ:&lt;/b&gt; %2$s&lt;br&gt;&lt;b&gt;ແກ້ໄຂຫຼ້າສຸດ:&lt;/b&gt; %3$s
+ "</string>
+    <string name="want_to_delete_file">ເຈົ້າແນ່ໃຈແລ້ວຫວາວ່າຕ້ອງການລຶບໄຟລນີ້?</string>
+    <string name="want_to_delete_all_files">ເຈົ້າແນ່ໃຈແລ້ວຫວາວ່າຕ້ອງການລຶບໝົດທຸກໄຟລ?</string>
+    <string name="file_has_been_deleted">ໄຟລ໌ຖືກລຶບແລ້ວ</string>
+    <string name="failed_to_delete_file">ລົ້ມເຫຼວໃນການລຶບໄຟລ໌</string>
+    <string name="install__label_">ຕິດຕັ້ງ - <xliff:g example="APKPure" id="app_label">%1$s</xliff:g></string>
+    <string name="user_canceled">ຜູ້ໃຊ້ຍົກເລີກ</string>
+    <string name="io_error">ຂໍ້ຜິດພາດ IO. ບາງເທື່ອອາດເກີດຈາກພື້ນທີ່ຈັດເກັບຂອງເຈົ້າບໍ່ພຽງພໍເລີຍເຮັດໃຫ້ການຕິດຕັ້ງບໍ່ສຳເລັດ.</string>
+    <string name="file_format_error">ຮູບແບບໄຟລ໌ຜິດພາດ</string>
+    <string name="parsing_xapk">ກຳລັງແຍກໄຟລ໌ XAPK …</string>
+    <string name="installing_obb">ກຳລັງຕິດຕັ້ງໄຟລ໌ OBB …</string>
+    <string name="extracting_apk">ກຳລັງແຕກໄຟລ໌ APK …</string>
+    <string name="installing_apk">ກຳລັງຕິດຕັ້ງໄຟລ໌ APK …</string>
+
+    <string name="uninstall">ຖອນການຕິດຕັ້ງ</string>
+    <string name="uninstalled">ຖອນການຕິດຕັ້ງແລ້ວ</string>
+    <string name="last_update__date_">ອັບເດດຫຼ້າສຸດ: <xliff:g id="date">%1$s</xliff:g></string>
+
+    <string name="all">ທັງໝົດ</string>
+
+    <string name="screenshots">ພາບໜ້າຈໍ</string>
+    <string name="description">ລາຍລະອຽດ</string>
+    <string name="whatsnew">ມີຫຍັງໃໝ່</string>
+    <string name="information">ຂໍ້ມູນ</string>
+    <string name="version_">ເວີຊັ່ນ:</string>
+    <string name="updated_">ອັບເດດ:</string>
+    <string name="size_">ຂະໜາດ:</string>
+    <string name="permissions_">ການເຂົ້າເຖິງ:</string>
+    <string name="type_">ປະເພດ:</string>
+    <string name="category_">ໝວດໝູ່:</string>
+    <string name="more">ເພີ່ມຕື່ມ</string>
+    <string name="permissions">ການເຂົ້າເຖິງ</string>
+    <string name="other">ອື່ນໆ</string>
+    <string name="similar_or_related">ແອັບທີ່ຄ້າຍຄືກັນ</string>
+    <string name="more_from_developer">ເພີ່ມຕື່ມຈາກນັກພັດທະນາ</string>
+    <string name="more_large">ເພີ່ມຕື່ມ</string>
+    <string name="apk">APK</string>
+    <string name="xapk">XAPK</string>
+    <string name="unknown">ບໍ່ຮູ້ຈັກ</string>
+    <string name="flag_as_inappropriate">ລາຍງານ</string>
+    <string name="_ellipsis_"> … </string>
+    <string name="history_version">ເວີຊັ່ນເກົ່າ</string>
+
+    <string name="market_response_error_success">ສຳເລັດ</string>
+    <string name="market_response_error_invalid_result">ຜົນລັບບໍ່ຖືກຕ້ອງ</string>
+    <string name="market_response_error_network_connect_error">ເກີດຄວາມຜິດພາດໃນການເຊື່ອມຕໍ່</string>
+    <string name="market_response_error_network_read_error">ເກີດຄວາມຜິດພາດໃນການເຊື່ອມຕໍ່</string>
+    <string name="market_response_error_invalid_response_code">ເກີດການຕອບກັບທີ່ບໍ່ຖືກຕ້ອງ</string>
+    <string name="market_response_error_invalid_response_body">ເກີດການຕອບກັບທີ່ບໍ່ຖືກຕ້ອງ</string>
+    <string name="market_response_error_unknown_error__error_">ເກີດຂໍ້ຜິດພາດທີ່ບໍ່ຮູ້ຈັກ (<xliff:g example="SUCCESS" id="error">%1$s</xliff:g>).</string>
+
+    <string name="no_more">ໝົດແລ້ວ</string>
+
+    <string name="update">ອັບເດດ</string>
+    <string name="version__version___size_">ເວີຊັ່ນ: <xliff:g example="1.0.0" id="version">%1$s</xliff:g>, <xliff:g example="1024 kB" id="size">%2$s</xliff:g></string>
+    <plurals name="_count__new_update_is_available">
+	<item quantity="other"><xliff:g example="1" id="count">%1$d</xliff:g> ອັບເດດໃໝ່ພ້ອມແລ້ວ</item>
+</plurals>
+
+    <string name="skip">ຂ້າມ</string>
+
+    </resources>

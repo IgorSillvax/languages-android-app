@@ -196,7 +196,9 @@
     </string>
 
     <string name="share">सांझा करें</string>
-    <string name="share_app_url">डाउनलोड करें <xliff:g id="app_name" example="APKPure">%1$s</xliff:g> APK (from @<xliff:g id="social_network_name" example="APKPure">%2$s</xliff:g>), <xliff:g id="app_url" example="https://apkpure.com/p/com.apkpure.aegon">%3$s</xliff:g></string>
+    <string name="share_app_url">
+ डाउनलोड करें <xliff:g id="app_name" example="APKPure">%1$s</xliff:g> APK (from @<xliff:g id="social_network_name" example="APKPure">%2$s</xliff:g>), <xliff:g id="app_url" example="https://apkpure.com/p/com.apkpure.aegon">%3$s</xliff:g>
+ </string>
 
     <string name="_name__version_history"><xliff:g id="name" example="APKPure">%1$s</xliff:g> संस्करण इतिहास</string>
     <string name="update__date___size_">अपडेट: <xliff:g id="date" example="Mar 3, 2016">%1$s</xliff:g>, <xliff:g id="size" example="1024 kB">%2$s</xliff:g></string>
@@ -262,5 +264,33 @@
 
     <string name="download_complete_installation_setting">डाउनलोड करने के बाद इन्स्टॉलेशन विक्लप</string>
 <string name="recommend">खोजिए</string>
-    <string name="load_failed_error_not_found"></string>
+    <string name="load_failed_error_not_found">यह ऐप्प हमारे ऐप्स स्टोर में सूचीबद्ध नही है !</string>
+    <string name="check_update_replace">आधिकारिक संस्करण</string>
+    <string name="check_update_beta">पूर्व रिलीज़ बीटा</string>
+    <string name="beta">बीटा</string>
+    <string name="history_version">संस्करण इतिहास</string>
+
+    <string name="report">रिपोर्ट</string>
+    <string name="share_app_url_comment"> <xliff:g example="APKPure" id="user_name"/><xliff:g example="APKPure" id="app_name"/><xliff:g example="APKPure" id="app_name"/><xliff:g example="APKPure" id="social_network_name"/><xliff:g example="https://apkpure.com/p/com.apkpure.aegon" id="app_url"/>
+ </string>
+    <string name="share_app_url_group"> <xliff:g example="APKPure" id="app_name"/><xliff:g example="APKPure" id="social_network_name"/><xliff:g example="https://apkpure.com/p/com.apkpure.aegon" id="app_url"/>
+ </string>
+
+    <string name="data_saver_model">डेटा बचतकर्ता</string>
+    <string name="data_saver_model_summery">इसे चालू करने से छवि आकार और गुणवत्ता कम हो जाएगी जिससे आपका डेटा कम उपयोग होगा !</string>
+    <plurals name="app_detail_see_all_replies">
+	<item quantity="one"><xliff:g example="1" id="count"/>रिप्लाई</item>
+	<item quantity="other"><xliff:g example="2" id="count"/>रेप्लिएस</item>
+</plurals>
+
+    <string name="app_detail_customer_reviews">टिप्पणी</string>
+    <string name="app_detail_comment_type_web">वेब</string>
+    <string name="app_submit_submit">जमा करें…</string>
+    <string name="app_submit_anonymous_comment">एक टिप्पणी जोड़ें</string>
+    <string name="app_submit_title_toast">"आपको शीर्षक लिखना चाहिए  !"</string>
+    <string name="app_submit_msg_toast">आपको कुछ लिखना चाहिए !</string>
+    <string name="app_submit_name_toast">कृपया उपनाम भरें!</string>
+    <string name="app_submit_email_toast">कृपया सही ईमेल पता भरें!</string>
+    <string name="app_submit_star_toast">आपको सितारा देना होगा!</string>
+    <string name="app_submit_title_hint">कृपया शीर्षक लिखें</string>
     </resources>
