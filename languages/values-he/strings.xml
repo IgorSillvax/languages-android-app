@@ -1,2 +1,77 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources></resources>
+<?xml version='1.0' encoding='UTF-8'?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2"><string name="action_settings">הגדרות</string>
+    <string name="action_search">חיפוש</string>
+    <string name="action_management">ניהול</string>
+
+    <string name="press_back_key_quit">לחץ שוב על לחצן \"חזרה\" כדי לצאת מהאתר</string>
+
+    <string name="featured">מומלצים</string>
+    <string name="recommend">לחקור</string>
+    <string name="games">משחקים</string>
+    <string name="apps">יישומים</string>
+    <string name="categories">קטגוריות</string>
+    <string name="updates">עדכונים</string>
+
+    <string name="something_happened">משהו קרה.</string>
+    <string name="load_failed_error">אופס! מופיעה שגיאה.</string>
+    <string name="load_failed_error_not_found">האפליקציה לא רשומה בחנות של APKPure!</string>
+    <string name="load_failed_empty">הקובץ ריק.</string>
+    <string name="load_failed_all_up_to_date">כל היישומים מעודכנים.</string>
+    <string name="load_failed_no_results">‬מצטערים! לא נמצאו תוצאות.</string>
+    <string name="refresh">רענון</string>
+
+    <string name="management">ניהול</string>
+    <string name="app_updates">עדכון אפליקציה</string>
+    <string name="app_management">הותקן</string>
+    <string name="app_uninstall">הסרת אפליקציה</string>
+    <string name="apk_management">ניהול אפליקציה</string>
+    <string name="apk_xapk_management">ניהול APK/ XAPK</string>
+    <string name="download_management">ניהול הורדות</string>
+    <string name="settings">הגדרות</string>
+    <string name="about">אודות</string>
+
+
+    <string name="check_update">בדיקת עדכונים</string>
+    <string name="check_update_replace">גרסה רשמית</string>
+    <string name="check_update_beta">גרסת בטא לפני שחרור</string>
+    <string name="beta">בטא</string>
+    <string name="quit">יציאה</string>
+    <string name="want_to_quit">אתה בטוח שאתה רוצה לצאת?</string>
+
+    <string name="install">התקנה</string>
+    <string name="open">פתיחה</string>
+    <string name="delete">מחיקה</string>
+    <string name="delete_all">למחוק הכל</string>
+    <string name="properties">מאפיינים</string>
+    <string name="want_to_delete_file">האם למחוק את הקובץ?</string>
+    <string name="want_to_delete_all_files">אתה רוצה למחוק את כל הקבצים?</string>
+    <string name="file_has_been_deleted">הקובץ נמחק</string>
+    <string name="failed_to_delete_file">מחיקת הקובץ נכשלה</string>
+    <string name="user_canceled">ביטול משתמש</string>
+    <string name="io_error">IQ ERROR. ייתכן שאין מספיק מקום פנוי עבור התקנת האפלקציה.</string>
+    <string name="file_format_error">סוג קובץ שגוי</string>
+    <string name="parsing_xapk">לחיצה על XAPK …</string>
+    <string name="installing_obb">התקנת קבצי OBB</string>
+    <string name="extracting_apk">חילוץ קובץ אפליקציה</string>
+    <string name="installing_apk">התקנת אפליקציה</string>
+
+    <string name="uninstall">הסרת התקנה</string>
+    <string name="uninstalled">התקנה הוסרה</string>
+    <string name="last_update__date_">עדכון אחרון:
+\n<xliff:g id="date"> 5%1$s</xliff:g> 6</string>
+
+    <string name="all">הכל</string>
+
+    <string name="screenshots">צילום מסך</string>
+    <string name="description">תיאור</string>
+    <string name="whatsnew">מה חדש</string>
+    <string name="information">מידע</string>
+    <string name="version_">גרסה:</string>
+    <string name="updated_">עדכון:</string>
+    <string name="size_">גודל</string>
+    <string name="permissions_">אישורים:</string>
+    <string name="other">אחר</string>
+    <string name="similar_or_related">דומה או קשור</string>
+    <string name="more_from_developer">עוד מאותו מפתח</string>
+    <string name="more_large">עוד</string>
+    </resources>
