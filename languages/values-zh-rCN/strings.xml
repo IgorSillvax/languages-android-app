@@ -2,12 +2,12 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
     <string name="action_settings">设置</string>
-    <string name="action_search">区域下载搜索</string>
+    <string name="action_search">搜索</string>
     <string name="action_management">管理</string>
 
-    <string name="press_back_key_quit">Press back key once again and quit.</string>
+    <string name="press_back_key_quit">再一次返回键退出。</string>
 
-    <string name="featured">Featured</string>
+    <string name="featured">精选</string>
     <string name="games">游戏</string>
     <string name="apps">应用</string>
     <string name="categories">分类</string>
@@ -204,9 +204,9 @@
     </string>
 
     <string name="share">分享</string>
-    <string name="share_app_url">分享 <xliff:g id="app_name" example="APKPure">%1$s</xliff:g> APK (来自 @<xliff:g id="social_network_name" example="APKPure">%2$s</xliff:g>)  <xliff:g id="app_url" example="https://apkpure.com/p/com.apkpure.aegon">%3$s</xliff:g></string>
-    <string name="share_app_url_comment"> <xliff:g example="APKPure" id="user_name">%1$s</xliff:g> 评论了 <xliff:g example="APKPure" id="app_name">%2$s</xliff:g> : <xliff:g example="APKPure" id="app_name">%3$s</xliff:g> (来自 @<xliff:g example="APKPure" id="social_network_name">%4$s</xliff:g>) <xliff:g example="https://apkpure.com/p/com.apkpure.aegon" id="app_url">%5$s</xliff:g></string>
-    <string name="share_app_url_group"> <xliff:g example="APKPure" id="app_name">%1$s</xliff:g> 小组 (来自 @<xliff:g example="APKPure" id="social_network_name">%2$s</xliff:g>) <xliff:g example="https://apkpure.com/p/com.apkpure.aegon" id="app_url">%3$s</xliff:g></string>
+    <string name="share_app_url">分享 <xliff:g id="app_name" example="APKPure">%1$s</xliff:g> APK (来自 <xliff:g id="social_network_name" example="APKPure">%2$s</xliff:g>)  <xliff:g id="app_url" example="https://apkpure.com/p/com.apkpure.aegon">%3$s</xliff:g></string>
+    <string name="share_app_url_comment"> <xliff:g example="APKPure" id="user_name">%1$s</xliff:g> 评论了 <xliff:g example="APKPure" id="app_name">%2$s</xliff:g> : <xliff:g example="APKPure" id="app_name">%3$s</xliff:g> (来自 <xliff:g example="APKPure" id="social_network_name">%4$s</xliff:g>) <xliff:g example="https://apkpure.com/p/com.apkpure.aegon" id="app_url">%5$s</xliff:g></string>
+    <string name="share_app_url_group"> <xliff:g example="APKPure" id="app_name">%1$s</xliff:g> 小组 (来自 <xliff:g example="APKPure" id="social_network_name">%2$s</xliff:g>) <xliff:g example="https://apkpure.com/p/com.apkpure.aegon" id="app_url">%3$s</xliff:g></string>
 
     <string name="_name__version_history"><xliff:g id="name" example="APKPure">%1$s</xliff:g> 的版本历史</string>
     <string name="update__date___size_">更新：<xliff:g id="date" example="Mar 3, 2016">%1$s</xliff:g>, <xliff:g id="size" example="1024 kB">%2$s</xliff:g></string>
@@ -294,14 +294,32 @@
     <string name="app_detail_reply_floor">%d楼</string>
 
     <string name="app_detail_tab_one">详情</string>
-    <string name="app_detail_tab_two">评论</string>
+    <string name="app_detail_tab_two">讨论</string>
     <string name="app_detail_tab_three">相关</string>
+
+    <string name="app_detail_tab_evaluation">评价</string>
+    <string name="app_detail_comment_filter_sort_score">最高评分</string>
+    <string name="app_detail_comment_filter_all">全部</string>
+    <string name="app_detail_comment_filter_version">最新版本</string>
+    <string name="app_detail_comment_score_less">用户评分过少</string>
+    <string name="app_detail_comment_no_data">没有用户评分，现在就添加你的评分</string>
+    <string name="app_detail_comment_score_footer">还有%s条其他语言评价</string>
+    <string name="app_detail_evaluation_tool_bar_title">写评价</string>
+    <string name="app_detail_evaluation_failed_bt">评价</string>
 
     <string name="app_detail_comment_order_array_default">默认排序</string>
     <string name="app_detail_comment_order_array_most_recent">最近回复</string>
     <string name="app_detail_comment_order_array_new">最新</string>
     <string name="app_detail_comment_order_array_best">最热</string>
     <string name="app_detail_comment_order_array_old">最早</string>
+
+    <string name="app_detail_comment_order_array_good">4-5</string>
+    <string name="app_detail_comment_order_array_bad">1-3</string>
+    <string name="app_detail_folded_footer_reviews">查看全部 %d 条已折叠评价</string>
+    <string name="app_detail_folded_footer_posts">查看全部 %d 条已折叠讨论</string>
+    <string name="app_detail_discuss_filter_featured">精华</string>
+    <string name="app_detail_discuss_filter_folded">已折叠</string>
+
 
     <string name="app_detail_comment_join_group_bt">小组</string>
 
@@ -409,6 +427,7 @@
     <string name="message_all">全部</string>
     <string name="message_reply">回复</string>
     <string name="message_praise">赞</string>
+    <string name="message_notify">通知</string>
     <string name="message_notifications_praise">赞了你</string>
     <string name="message_notifications_reply">回复了你</string>
     <string name="message_notifications_login">请登录后查看</string>
@@ -640,6 +659,7 @@
     <string name="share_apk">分享APK</string>
     <string name="tab_apk">APK文件</string>
     <string name="commentaries">评论</string>
+    <string name="follow_floating_action_button">发布动态</string>
 
     <string name="upload_apk_downloads">下载数: %s</string>
 
@@ -692,4 +712,21 @@
     <string name="tab_popular">热门</string>
     <string name="count_down_timer_tv">%ds</string>
     <string name="count_down_timer_btn">跳过</string>
+
+    <string name="choice_evaluate">精选评价</string>
+    <string name="choice_comment">精选评论</string>
+    <string name="emoji_input_error_hint">不能发布纯表情内容, 写点东西吧…</string>
+    <string name="load_all_choice_evaluate">查看全部评价</string>
+    <string name="load_all_choice_comment">查看全部评论</string>
+    <string name="my_reservation_and_collection">我的预约与收藏</string>
+    <string name="upload_apk">上传APK</string>
+    <string name="developer_badge_explanation">开发者标识说明</string>
+
+    <string name="from_user_recommendation">用户推荐</string>
+    <string name="topics">专题</string>
+    <string name="pre_register_game">预注册</string>
+    <string name="editors_picks">编辑推荐</string>
 </resources>
+
+
+

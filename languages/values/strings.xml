@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<resources xmlns:tools="http://schemas.android.com/tools" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
     <string name="facebook_app_id" translatable="false">596489647167672</string>
     <string name="fb_login_protocol_scheme" translatable="false">fb596489647167672</string>
@@ -212,16 +212,16 @@
 
     <string name="share">Share</string>
     <string name="share_app_url">
-        Share <xliff:g example="APKPure" id="app_name">%1$s</xliff:g> APK (from @<xliff:g example="APKPure" id="social_network_name">%2$s</xliff:g>)
+        Share <xliff:g example="APKPure" id="app_name">%1$s</xliff:g> APK (from <xliff:g example="APKPure" id="social_network_name">%2$s</xliff:g>)
         <xliff:g example="https://apkpure.com/p/com.apkpure.aegon" id="app_url">%3$s</xliff:g>
     </string>
     <string name="share_app_url_comment"> <xliff:g example="APKPure" id="user_name">%1$s</xliff:g>\'s comments on
         <xliff:g example="APKPure" id="app_name">%2$s</xliff:g> : <xliff:g example="APKPure" id="app_name">%3$s</xliff:g>
-        (from @<xliff:g example="APKPure" id="social_network_name">%4$s</xliff:g>)
+        (from <xliff:g example="APKPure" id="social_network_name">%4$s</xliff:g>)
         <xliff:g example="https://apkpure.com/p/com.apkpure.aegon" id="app_url">%5$s</xliff:g>
     </string>
     <string name="share_app_url_group"> <xliff:g example="APKPure" id="app_name">%1$s</xliff:g>
-        Group. (from @<xliff:g example="APKPure" id="social_network_name">%2$s</xliff:g>)
+        Group. (from <xliff:g example="APKPure" id="social_network_name">%2$s</xliff:g>)
         <xliff:g example="https://apkpure.com/p/com.apkpure.aegon" id="app_url">%3$s</xliff:g>
     </string>
 
@@ -296,7 +296,7 @@
 
     <string name="app_detail_customer_reviews">Comments</string>
     <string name="app_detail_comment_type_web">web</string>
-    <string name="app_submit_submit">Submit…</string>
+    <string name="app_submit_submit">Post…</string>
     <string name="app_submit_anonymous_comment">Add a comment</string>
     <string name="app_submit_title_toast">Your must write title!</string>
     <string name="app_submit_msg_toast">Your must write something!</string>
@@ -307,12 +307,22 @@
     <string name="app_submit_msg_hint">Please write your opinion</string>
     <string name="app_submit_nickname">Nickname</string>
     <string name="app_submit_email">Email</string>
-    <string name="app_submit_submit_title">submit</string>
+    <string name="app_submit_submit_title">Post</string>
     <string name="app_submit_reply_to">reply to</string>
 
     <string name="app_detail_tab_one">Details</string>
     <string name="app_detail_tab_two">Posts</string>
     <string name="app_detail_tab_three">Related</string>
+
+    <string name="app_detail_tab_evaluation">Reviews</string>
+    <string name="app_detail_comment_filter_sort_score">Top rated</string>
+    <string name="app_detail_comment_filter_all">All Reviews</string>
+    <string name="app_detail_comment_filter_version">Latest version</string>
+    <string name="app_detail_comment_score_less">Too few users ratings</string>
+    <string name="app_detail_comment_no_data">No users ratings found, add your rating now.</string>
+    <string name="app_detail_comment_score_footer">There are %s reviews in other languages.</string>
+    <string name="app_detail_evaluation_tool_bar_title">Share a review</string>
+    <string name="app_detail_evaluation_failed_bt">Review</string>
 
     <array name="app_detail_comment_order_array" translatable="false">
         <item>@string/app_detail_comment_order_array_default</item>
@@ -332,6 +342,14 @@
     <string name="app_detail_comment_order_array_new">Newest</string>
     <string name="app_detail_comment_order_array_best">Best</string>
     <string name="app_detail_comment_order_array_old">Old</string>
+
+    <string name="app_detail_comment_order_array_good">4-5</string>
+    <string name="app_detail_comment_order_array_bad">1-3</string>
+    <string name="app_detail_folded_footer_reviews">see all %d folded reviews</string>
+    <string name="app_detail_folded_footer_posts">see all %d folded posts</string>
+    <string name="app_detail_discuss_filter_featured">excellent</string>
+    <string name="app_detail_discuss_filter_folded">folded</string>
+
 
     <string name="app_detail_comment_join_group_bt">Group</string>
     <string-array name="language_entries" translatable="false">
@@ -366,6 +384,7 @@
         <item>Deutsche</item>
         <item>ភាសាខ្មែរ</item>
         <item>język polski</item>
+        <item>українська мова</item>
     </string-array>
     <string-array name="language_entry_values" translatable="false">
         <item>__auto__</item>
@@ -399,6 +418,7 @@
         <item>de</item>
         <item>km</item>
         <item>pl</item>
+        <item>uk</item>
     </string-array>
 
     <string name="download_complete_installation_setting">Installation option after downloading</string>
@@ -500,9 +520,10 @@
 
     <!--messageFragment-->
     <string name="message_all">ALL</string>
-    <string name="message_reply">REPLIES</string>
+    <string name="message_reply">COMMENTS</string>
     <string name="message_notifications_praise">Upvoted your comment</string>
     <string name="message_praise">LIKES</string>
+    <string name="message_notify">notification</string>
     <string name="message_notifications_reply">Replied your comment</string>
     <string name="message_notifications_login">Please login to see this page.</string>
     <string name="message_at_title">Mentions</string>
@@ -721,7 +742,7 @@
     <string name="user_detail_default_text" translatable="false">--</string>
 
     <string name="user_detail_tab_detail">Posts</string>
-    <string name="user_detail_tab_reply">Replies</string>
+    <string name="user_detail_tab_reply">Comments</string>
 
     <string name="user_focus_tab_users">People</string>
     <string name="user_focus_tab_apps">Groups</string>
@@ -763,15 +784,16 @@
     <string name="add_tag">Add tags</string>
     <string name="error_add_tag">Add tags failed</string>
     <string name="no_collect">No favorites yet!</string>
-    <string name="no_comment">Be the first one to add a comment!</string>
+    <string name="no_comment">Be the first one to add a post!</string>
 
     <string name="share_apk">Share APK</string>
     <string name="tab_apk">APK</string>
     <string name="commentaries">Share a Post</string>
+    <string name="follow_floating_action_button">Create new Moment</string>
 
     <string name="upload_apk_version">V %s</string>
     <string name="upload_apk_downloads">Downloads: %s</string>
-    
+
     <string name="upload_comment_uploading">%s Uploading…</string>
     <string name="upload_comment_upload_success">%s Upload Successful</string>
     <string name="upload_comment_upload_failed">%s Upload Failed</string>
@@ -824,4 +846,18 @@
     <string name="tab_popular">POPULAR</string>
     <string name="count_down_timer_tv">%ds</string>
     <string name="count_down_timer_btn">skip</string>
+
+    <string name="choice_evaluate">Featured Reviews</string>
+    <string name="choice_comment">Recommended Posts</string>
+    <string name="emoji_input_error_hint">Emoji comments are not allowed any more! Write something…</string>
+    <string name="load_all_choice_evaluate">See all reviews</string>
+    <string name="load_all_choice_comment">See all posts</string>
+    <string name="my_reservation_and_collection">Pre-register and favorite</string>
+    <string name="upload_apk">Upload APK</string>
+    <string name="developer_badge_explanation">Developer Badge Explanation</string>
+
+    <string name="from_user_recommendation">User Recommendation</string>
+    <string name="topics">Topic</string>
+    <string name="pre_register_game">Pre-register</string>
+    <string name="editors_picks">Editor\'s Choice</string>
 </resources>

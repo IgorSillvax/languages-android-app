@@ -208,9 +208,9 @@
     </string>
 
     <string name="share">分享</string>
-    <string name="share_app_url">分享 <xliff:g example="APKPure" id="app_name">%1$s</xliff:g> APK (來自 @<xliff:g example="APKPure" id="social_network_name">%2$s</xliff:g>) <xliff:g example="https://apkpure.com/p/com.apkpure.aegon" id="app_url">%3$s</xliff:g></string>
-    <string name="share_app_url_comment"> <xliff:g example="APKPure" id="user_name">%1$s</xliff:g> 評論了 <xliff:g example="APKPure" id="app_name">%2$s</xliff:g> : <xliff:g example="APKPure" id="app_name">%3$s</xliff:g> (來自 @<xliff:g example="APKPure" id="social_network_name">%4$s</xliff:g>) <xliff:g example="https://apkpure.com/p/com.apkpure.aegon" id="app_url">%5$s</xliff:g></string>
-    <string name="share_app_url_group"> <xliff:g example="APKPure" id="app_name">%1$s</xliff:g> 小組 (來自 @<xliff:g example="APKPure" id="social_network_name">%2$s</xliff:g>) <xliff:g example="https://apkpure.com/p/com.apkpure.aegon" id="app_url">%3$s</xliff:g></string>
+    <string name="share_app_url">分享 <xliff:g example="APKPure" id="app_name">%1$s</xliff:g> APK (來自 <xliff:g example="APKPure" id="social_network_name">%2$s</xliff:g>) <xliff:g example="https://apkpure.com/p/com.apkpure.aegon" id="app_url">%3$s</xliff:g></string>
+    <string name="share_app_url_comment"> <xliff:g example="APKPure" id="user_name">%1$s</xliff:g> 評論了 <xliff:g example="APKPure" id="app_name">%2$s</xliff:g> : <xliff:g example="APKPure" id="app_name">%3$s</xliff:g> (來自 <xliff:g example="APKPure" id="social_network_name">%4$s</xliff:g>) <xliff:g example="https://apkpure.com/p/com.apkpure.aegon" id="app_url">%5$s</xliff:g></string>
+    <string name="share_app_url_group"> <xliff:g example="APKPure" id="app_name">%1$s</xliff:g> 小組 (來自 <xliff:g example="APKPure" id="social_network_name">%2$s</xliff:g>) <xliff:g example="https://apkpure.com/p/com.apkpure.aegon" id="app_url">%3$s</xliff:g></string>
 
     <string name="_name__version_history"><xliff:g example="APKPure" id="name">%1$s</xliff:g> 的版本歷史</string>
     <string name="update__date___size_">更新：<xliff:g example="Mar 3, 2016" id="date">%1$s</xliff:g>, <xliff:g example="1024 kB" id="size">%2$s</xliff:g></string>
@@ -298,8 +298,18 @@
     <string name="app_detail_reply_floor">%d樓</string>
 
     <string name="app_detail_tab_one">詳情</string>
-    <string name="app_detail_tab_two">評論</string>
+    <string name="app_detail_tab_two">討論</string>
     <string name="app_detail_tab_three">相關</string>
+
+    <string name="app_detail_tab_evaluation">評價</string>
+    <string name="app_detail_comment_filter_sort_score">最高評分</string>
+    <string name="app_detail_comment_filter_all">全部</string>
+    <string name="app_detail_comment_filter_version">最新版本</string>
+    <string name="app_detail_comment_score_less">用戶評分過少</string>
+    <string name="app_detail_comment_no_data">沒有用戶評分，現在就添加你的評分</string>
+    <string name="app_detail_comment_score_footer">還有%s條其他語言評價</string>
+    <string name="app_detail_evaluation_tool_bar_title">寫評價</string>
+    <string name="app_detail_evaluation_failed_bt">評價</string>
 
     <string name="app_detail_comment_order_array_default">默認排序</string>
     <string name="app_detail_comment_order_array_most_recent">最近回復</string>
@@ -307,8 +317,14 @@
     <string name="app_detail_comment_order_array_best">最熱</string>
     <string name="app_detail_comment_order_array_old">最早</string>
 
-    <string name="app_detail_comment_join_group_bt">小組</string>
+    <string name="app_detail_comment_order_array_good">4-5</string>
+    <string name="app_detail_comment_order_array_bad">1-3</string>
+    <string name="app_detail_folded_footer_reviews">查看全部 %d 條已摺疊評價</string>
+    <string name="app_detail_folded_footer_posts">查看全部 %d 條已摺疊討論</string>
+    <string name="app_detail_discuss_filter_featured">精華</string>
+    <string name="app_detail_discuss_filter_folded">已摺疊</string>
 
+    <string name="app_detail_comment_join_group_bt">小組</string>
 
     <string name="download_complete_installation_setting">下載後安裝選項</string>
 
@@ -405,6 +421,7 @@
     <string name="message_all">全部</string>
     <string name="message_reply">回復</string>
     <string name="message_praise">贊</string>
+    <string name="message_notify">通知</string>
     <string name="message_notifications_praise">贊了你</string>
     <string name="message_notifications_reply">回復了你</string>
     <string name="message_notifications_login">請登錄後查看</string>
@@ -640,6 +657,7 @@
     <string name="share_apk">分享APK</string>
     <string name="tab_apk">APK文件</string>
     <string name="commentaries">評論</string>
+    <string name="follow_floating_action_button">發布動態</string>
 
     <string name="upload_apk_downloads">下載數: %s</string>
 
@@ -692,4 +710,17 @@
     <string name="tab_popular">熱門</string>
     <string name="count_down_timer_tv">%ds</string>
     <string name="count_down_timer_btn">跳過</string>
+    <string name="choice_evaluate">精選評價</string>
+    <string name="choice_comment">精選評論</string>
+    <string name="emoji_input_error_hint">不能發佈純表情內容,寫點東西吧…</string>
+    <string name="load_all_choice_evaluate">查看全部評價</string>
+    <string name="load_all_choice_comment">查看全部評論</string>
+    <string name="my_reservation_and_collection">我的預約與收藏</string>
+    <string name="upload_apk">上傳APK</string>
+    <string name="developer_badge_explanation">開發者標識說明</string>
+
+    <string name="from_user_recommendation">用戶推薦</string>
+    <string name="topics">專題</string>
+    <string name="pre_register_game">預註冊</string>
+    <string name="editors_picks">編輯推薦</string>
 </resources>
