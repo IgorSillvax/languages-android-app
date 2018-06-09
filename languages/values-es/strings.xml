@@ -311,7 +311,7 @@
 
     <string name="user_info_edit_title">Perfil</string>
     <string name="user_info_edit_portrait_tv">Foto de perfil</string>
-    <string name="user_info_edit_username_tv">Nombre de usuario</string>
+    <string name="user_info_edit_username_tv">Usuario</string>
     <string name="user_info_edit_email_tv">Correo Electronico</string>
     <string name="user_info_edit_gender_tv">Género</string>
     <string name="user_info_edit_birthday_tv">Cumpleaños</string>
@@ -376,6 +376,59 @@
     <string name="update_nick_name_tv">El nuevo apodo no puede estar en blanco</string>
     <string name="update_email_name_et">Ingrese su e-mail</string>
     <string name="update_eamil_name_tv">El e-mail no puede estar en blanco</string>
-    <string name="user_info_edit_intro_tv">Acerca de mí</string>
+    <string name="user_info_edit_intro_tv">Sobre mí</string>
     <string name="update_intro_title">Editar sobre mí</string>
+    <string name="app_detail_comment_order_array_best">Ordenar por mejor</string>
+    <string name="app_detail_comment_order_array_old">Anterior</string>
+
+    <string name="input_reply_content">El contenido de entrada de la respuesta:</string>
+    <string name="tip_permission_camera_storage">Sin permiso para usar la cámara y la tarjeta SD, abra la administración de derechos</string>
+    <string name="update_nickname_error">¡Apodo ya tomado, por favor elija otro!</string>
+    <string name="update_intro_et">Escribe algunos detalles sobre ti</string>
+    <string name="update_intro_tv">El campo sobre mí no puede estar vacío</string>
+
+    <string name="message_all">TODO</string>
+    <string name="message_reply">RESPUESTAS</string>
+    <string name="message_notifications_praise">Votó a favor de su comentario</string>
+    <string name="message_praise">ME GUSTAS</string>
+    <string name="message_notifications_reply">Respondió tu comentario</string>
+    <string name="message_notifications_login">Por favor inicie sesión para ver esta página.</string>
+    <string name="message_at_title">Menciones</string>
+    <string name="message_at">Te mencionó</string>
+
+    <string name="update_pwd_title">Restablecer mi contraseña</string>
+    <string name="update_pwd_current_pwd_et">Contraseña anterior</string>
+    <string name="update_pwd_new_pwd_et">Nueva contraseña</string>
+    <string name="update_pwd_Confirm_pwd_et">Confirmar nueva contraseña</string>
+    <string name="upload_avatar">Subiendo…</string>
+    <string name="update_pwd_current_null_tv">La contraseña anterior no puede estar en blanco</string>
+    <string name="update_pwd_Confirm_null_tv">Confirmar contraseña no puede estar en blanco</string>
+    <string name="update_pwd_new_pwd_null_tv">La nueva contraseña no puede estar en blanco</string>
+    <string name="update_pwd_new_confrim_tv">Las contraseñas que introdujo no coinciden</string>
+    <string name="update_pwd_save_bt">Guardar</string>
+    <string name="update_save_success">¡Guardado exitosamente!</string>
+    <string name="crop__cancel" ignore="ButtonCase">Cancelar</string>
+    <string name="crop__done">Hecho</string>
+    <string name="crop__pick_error">Tipo de archivo de imagen inválido</string>
+    <string name="crop__saving">Guardando foto…</string>
+    <string name="crop__wait">Por favor espere…</string>
+
+    <string name="is_comment">El comentario es…</string>
+    <string name="comment_cancel">El comentario ha sido cancelado</string>
+    <string name="comment_submitting">Presentando…</string>
+    <string name="comment_replying">Respondiendo…</string>
+    <string name="register_term_of_service">Términos de servicio de APKPure</string>
+
+    <string name="set_contributor">Colaborador</string>
+    <string name="set_permissions">Permisos</string>
+    <string name="set_open_source_licence">Licencia Open Source</string>
+
+    <string name="sign_in_services">Al registrarte aceptas nuestros términos y política de privacidad.</string>
+
+    <string name="sign_in_services_key">Condiciones</string>
+    <string name="sign_in_services_key_policy">Política de privacidad</string>
+
+    <string name="user_sign_up">Regístrate</string>
+    <string name="user_name_hint">Nombre de usuario</string>
+    <string name="login_user_name">Nombre de usuario</string>
     </resources>
