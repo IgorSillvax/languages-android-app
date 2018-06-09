@@ -280,7 +280,7 @@
     <string name="app_submit_submit_title">Enviar</string>
     <string name="app_submit_reply_to">Responder</string>
     <string name="app_detail_tab_one">Detalles</string>
-    <string name="app_detail_tab_two">"Publicaciones "</string>
+    <string name="app_detail_tab_two">Publicaciones</string>
     <string name="app_detail_comment_order_array_recent">Reciente</string>
     <string name="download_complete_installation_setting_entries_always">Siempre instalar</string>
     <string name="download_complete_installation_setting_entries_only">Solo instalar cuando la aplicacion este en primer plano</string>
@@ -288,18 +288,18 @@
 
     <string name="reply">Responder</string>
     <string name="publish">Publicar</string>
-    <string name="reply_dialog_marked_words">De acuerdo a la imagen puede eliminarse</string>
+    <string name="reply_dialog_marked_words">Mantenga presionada la imagen seleccionada para eliminarla.</string>
     <string name="reply_comment">Responder al comentario</string>
-    <string name="save_original_image">Conservar la imagen original</string>
-    <string name="load_end">No mas datos</string>
-    <string name="load_failed_click_retry">Carga fallida, intenta de nuevo</string>
+    <string name="save_original_image">Guardar</string>
+    <string name="load_end">Sin más datos</string>
+    <string name="load_failed_click_retry">Carga fallida, clic en reintentar</string>
     <string name="loading">Cargando…</string>
 
     <string name="scan_qr_code_hint">Antes de usar el escaner QR necesitas brindar permisos para la camara, lo cual es requerido para escanear codigos QR.</string>
     <string name="zxing_msg_default_status">Por favor coloca el codigo QR dentro del localizador para escanearlo.</string>
     <string name="zxing_msg_parser_status">Escaneo fallido, por favor intsnta escanear el codigo QR nuevamente.</string>
 
-    <string name="permission_denied">Acceso denegado!</string>
+    <string name="permission_denied">¡Acceso denegado!</string>
 
     <string name="login_title">Ingresar</string>
     <string name="sign_out">Cerrar sesion</string>
@@ -315,8 +315,8 @@
     <string name="user_info_edit_email_tv">Correo Electronico</string>
     <string name="user_info_edit_gender_tv">Género</string>
     <string name="user_info_edit_birthday_tv">Cumpleaños</string>
-    <string name="user_info_edit_change_pwd_tv">Reestablecer contraseña</string>
-    <string name="user_info_edit_login_out_tv">Cerrar sesion</string>
+    <string name="user_info_edit_change_pwd_tv">Restablecer contraseña</string>
+    <string name="user_info_edit_login_out_tv">Cerrar sesión</string>
     <string name="user_info_edit_not_choose">Desconocido</string>
     <string name="check_update_replace">Versión oficial</string>
     <string name="check_update_beta">Beta de pre-lanzamiento</string>
@@ -342,5 +342,40 @@
     <string name="share_app_url_group"> <xliff:g example="APKPure" id="app_name"/><xliff:g example="APKPure" id="social_network_name"/><xliff:g example="https://apkpure.com/p/com.apkpure.aegon" id="app_url"/></string>
 
     <string name="data_saver_model">Ahorrador de datos</string>
-    <string name="app_detail_comment_order_array_new">Más reciente</string>
+    <string name="app_detail_comment_order_array_new">Lo más nuevo</string>
+    <string name="app_detail_comment_join_group_bt">Grupo</string>
+    <string name="download_mkdir">Ruta de descarga</string>
+    <string name="download_mkdir_internal_storage_size_des">%1$s libre, total %2$s</string>
+    <string name="download_mkdir_internal_storage_entries">"SD "</string>
+    <string name="download_mkdir_internal_storage_entries1">SD 1</string>
+    <string name="download_mkdir_external_storage_fill_toast">Espacio de almacenamiento insuficiente, es posible que no puedas descargar ninguna aplicación.</string>
+
+    <string name="download_mkdir_internal_storage_values">almacenamiento_interno</string>
+    <string name="download_mkdir_external_storage_values">almacenamiento_externo</string>
+
+    <string name="already_save">Guardado<xliff:g example="ApKPure/photo" id="path">%1$s</xliff:g></string>
+
+    <string name="scan_qr_code_result_title">Resultado</string>
+    <string name="scan_qr_code_result_copy_text">Copiar texto</string>
+    <string name="scan_qr_code_result_hint">Detalles del código QR:</string>
+    <string name="scan_qr_code_copy_success">texto copiado</string>
+
+    <string name="user_info_edit_nickname_tv">Apodo</string>
+    <string name="user_info_edit_gender_male">Masculino</string>
+    <string name="user_info_edit_gender_female">Femenino</string>
+    <string name="user_info_edit_portrait_album">Seleccione una foto de la galería</string>
+    <string name="user_info_edit_portrait_take_photo">Tomar foto desde la cámara</string>
+    <string name="user_info_edit_portrait_error">El tipo de imagen no es compatible</string>
+    <string name="user_info_edit_ok">Aceptar</string>
+    <string name="user_info_edit_cancel">Cancelar</string>
+    <string name="user_info_edit_large_photo">Ver foto en un tamaño más grande</string>
+
+    <string name="update_nick_title">Cambiar apodo</string>
+    <string name="update_email_title">Cambiar e-mail</string>
+    <string name="update_nick_name_et">Ingrese su nuevo apodo</string>
+    <string name="update_nick_name_tv">El nuevo apodo no puede estar en blanco</string>
+    <string name="update_email_name_et">Ingrese su e-mail</string>
+    <string name="update_eamil_name_tv">El e-mail no puede estar en blanco</string>
+    <string name="user_info_edit_intro_tv">Acerca de mí</string>
+    <string name="update_intro_title">Editar sobre mí</string>
     </resources>
