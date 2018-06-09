@@ -110,7 +110,7 @@
     <string name="touch_to_download_it_again">Toca De Nuevo Para Descargarlo Otra Vez</string>
 
     <string name="download_percent"><xliff:g id="percent" example="50">%1$d</xliff:g> %%</string>
-    <string name="pause">Pausa</string>
+    <string name="pause">Pausar</string>
     <string name="continue_">Continuar</string>
     <string name="restart">Reestablecer</string>
     <string name="download">Descarga</string>
@@ -169,7 +169,7 @@
     </string>
 
     <string name="share">Compartir</string>
-    <string name="share_app_url">Descargar <xliff:g id="app_name" example="APKPure">%1$s</xliff:g> APK (from @<xliff:g id="social_network_name" example="APKPure">%2$s</xliff:g>), <xliff:g id="app_url" example="https://apkpure.com/p/com.apkpure.aegon">%3$s</xliff:g></string>
+    <string name="share_app_url">Compartir <xliff:g id="app_name" example="APKPure">%1$s</xliff:g> APK (from @<xliff:g id="social_network_name" example="APKPure">%2$s</xliff:g>), <xliff:g id="app_url" example="https://apkpure.com/p/com.apkpure.aegon">%3$s</xliff:g></string>
 
     <string name="_name__version_history"><xliff:g id="name" example="APKPure">%1$s</xliff:g> Versiones Anteriores</string>
     <string name="update__date___size_">Actualizacion: <xliff:g id="date" example="Mar 3, 2016">%1$s</xliff:g>, <xliff:g id="size" example="1024 kB">%2$s</xliff:g></string>
@@ -527,7 +527,7 @@
     <string name="main_night_mode">Modo nocturno</string>
     <string name="please_login_first">Por favor ingresa primero</string>
     <string name="no_choice">Sin elección</string>
-    <string name="follow_on_success">¡Éxitoso!</string>
+    <string name="follow_on_success">¡Exitoso!</string>
     <string name="follow_un_success">¡Dejar de seguir!</string>
     <string name="canceled">Cancelado</string>
     <string name="group">Grupo</string>
@@ -657,5 +657,45 @@
     <string name="upload_comment_upload_failed">%s Subida fallida</string>
     <string name="upload_comment_view">Toca para ver</string>
     <string name="upload_comment_reload">Toca para subir de nuevo</string>
-    <string name="upload_notification_pause">Pauser</string>
+    <string name="upload_notification_pause">Pausar</string>
+    <string name="upload_notification_start">Iniciar</string>
+    <string name="upload_notification_cancel">Cancelar</string>
+    <string name="upload_notification_is_uploading">Subiendo el paquete a APKPure…</string>
+    <string name="upload_notification_is_pause">La carga está pausada</string>
+    <string name="upload_add_list_toast">¡Exitoso!</string>
+    <string name="upload_add_file_list_toast">Subiendo aplicación. ¡Por favor ten paciencia, gracias!</string>
+
+    <string name="your_reply_comment">Tu respuesta</string>
+
+    <string name="market_ad_title">Mercado</string>
+    <string name="market_ad_tab_one">Destacados</string>
+    <string name="market_ad_tab_two">Juegos</string>
+    <string name="market_ad_tab_three">Herramientas</string>
+
+    <string name="tag">Etiqueta</string>
+
+    <string name="pre_register_bt">Pre-registro</string>
+    <string name="pre_register_now_bt">Pre-registro</string>
+    <string name="pre_registered_bt">Registrado</string>
+    <string name="pre_register_link_title">Página de pre-registro</string>
+    <string name="pre_register_gift_tv">Recompensas de registro</string>
+    <string name="pre_register_person_num_tv">Pre-registrados: %s</string>
+    <string name="pre_register_success">Pre-registrarse significa que usted recibirá una notificación en su dispositivo cuando la aplicación sea liberada.</string>
+
+    <string name="open_page_failed">¡No se pudo abrir la página!</string>
+    <string name="search_for_user">Buscar</string>
+    <string name="search_user_history_title">Contactos recientes</string>
+    <string name="search_focus_list_title">Seguidor</string>
+
+    <string name="submit_comment_user_style">"
+\n &lt;font color=#007AFF&gt;@%1$s&lt;/font&gt;"</string>
+
+    <string name="copy_username">Copiar apodo</string>
+    <string name="copy_content">Copiar contenido</string>
+
+    <string name="tab_global">DESTACADO</string>
+    <string name="comment_list_see_here">Última visita aquí, toque para actualizar</string>
+    <string name="comment_list_new_num">%d Nuevas historias</string>
+
+    <string name="tab_popular">POPULAR</string>
     </resources>
