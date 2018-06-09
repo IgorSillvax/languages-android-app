@@ -311,7 +311,7 @@
 
     <string name="user_info_edit_title">Perfil</string>
     <string name="user_info_edit_portrait_tv">Foto de perfil</string>
-    <string name="user_info_edit_username_tv">Usuario</string>
+    <string name="user_info_edit_username_tv">Nombre de usuario</string>
     <string name="user_info_edit_email_tv">Correo Electronico</string>
     <string name="user_info_edit_gender_tv">Género</string>
     <string name="user_info_edit_birthday_tv">Cumpleaños</string>
@@ -431,4 +431,42 @@
     <string name="user_sign_up">Regístrate</string>
     <string name="user_name_hint">Nombre de usuario</string>
     <string name="login_user_name">Nombre de usuario</string>
+    <string name="user_email_hint">E-mail</string>
+    <string name="user_password">Contraseña (6–32)</string>
+    <string name="user_password_confirm">Confirmar contraseña</string>
+
+    <string name="user_name_error">El nombre de usuario no debe contener caracteres especiales, símbolos o espacios</string>
+    <string name="user_name_null">Nombre de usuario inválido</string>
+    <string name="user_nickname_error">El apodo no debe contener caracteres especiales, símbolos o espacios</string>
+    <string name="user_email_error">Esta dirección de e-mail no es válida</string>
+    <string name="user_password_error">Esta contraseña no es válida</string>
+    <string name="user_confirm_error">Las contraseñas deben coincidir</string>
+
+    <string name="login_user_password">Contraseña</string>
+    <string name="login_user_sign_in">Registrarse</string>
+    <string name="login_choose">O inicia sesión con tu cuenta</string>
+    <string name="login_new_user">Registro de nuevo usuario</string>
+    <string name="login_post_as_a_guest">Publicar como invitado</string>
+
+    <string name="message">Mensaje</string>
+
+    <string name="push_title_info_reply">¡%s respondió a tu comentario!</string>
+    <string name="push_title_info_upvoted">¡%s votó en tu comentario!</string>
+    <string name="push_title_info_follow">¡%s te esta seguiendo!</string>
+    <string name="push_title_info_update">¡Llegó la actualización de APKPure!</string>
+    <string name="push_content_info_update">¡Nueva versión %s lanzado! ¡Actualizar ahora!</string>
+    <string name="push_title_info_at">Alguien te mencionó en un mensaje, toque para ver</string>
+
+    <string name="download_list">Descargar lista</string>
+    <string name="can_be_update">Puede ser actualizado</string>
+    <string name="install_list">Instalado</string>
+    <string name="no_download">Sin descarga</string>
+    <string name="downloads">Descargas</string>
+
+    <string name="change_language_failed">¡El selector de idioma falla!</string>
+    <string name="comment_reply_tell_msg">¡Este comentario ha sido eliminado!</string>
+
+    <string name="notification_setting">Notificaciones</string>
+    <string name="reply_notification">Responder a notificaciones</string>
+    <string name="reply_notification_msg">Recibir notificaciones de nuevos mensajes de respuesta</string>
     </resources>
