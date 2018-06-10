@@ -170,12 +170,7 @@
     </string>
 
     <string name="share">Compartir</string>
-    <string name="share_app_url">Compartir <xliff:g example="APKPure" id="app_name">%1$s
-\n</xliff:g> APK (de @
-\n<xliff:g example="APKPure" id="social_network_name">%2$s
-\n</xliff:g>)
-\n<xliff:g example="https://apkpure.com/p/com.apkpure.aegon" id="app_url">
-\n%3$s</xliff:g></string>
+    <string name="share_app_url">Compartir <xliff:g id="app_name" example="APKPure">%1$s</xliff:g> APK (from @<xliff:g id="social_network_name" example="APKPure">%2$s</xliff:g>), <xliff:g id="app_url" example="https://apkpure.com/p/com.apkpure.aegon">%3$s</xliff:g></string>
 
     <string name="_name__version_history"><xliff:g id="name" example="APKPure">%1$s</xliff:g> Versiones Anteriores</string>
     <string name="update__date___size_">Actualizacion: <xliff:g id="date" example="Mar 3, 2016">%1$s</xliff:g>, <xliff:g id="size" example="1024 kB">%2$s</xliff:g></string>
