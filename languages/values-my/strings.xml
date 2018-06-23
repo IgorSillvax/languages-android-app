@@ -15,7 +15,7 @@
     <string name="something_happened">တစ္စံုတစ္ရာေသာအေၾကာင္းအရာျဖစ္ခ့ဲသည္</string>
 
     <string name="load_failed_error">အိုစ့္!အမွား တစ္ခု ခု ျဖစ္ခ့ဲသည္</string>
-    <string name="load_failed_empty">ဒီမွာဘာမွမ႐ွိေတာ့ပါ</string>
+    <string name="load_failed_empty">ဒီမှာဘာမှမရှိတော့ပါ</string>
     <string name="load_failed_all_up_to_date">အပ္စ္း အားလံုး အသစ္ျဖစ္ေနပါၿပီ</string>
     <string name="load_failed_no_results">စိတ္မေကာင္းပါဘူး!သင္႐ွာေဖြသည့္ဟာမ
 ေတြ႔ပါ</string>
@@ -61,7 +61,20 @@
     <string name="io_error">မရပါ။ နေရာမခြင်ကြောင့် သွင်းမရတာဖြစ်န်ုင်ပါသည်</string>
     <string name="file_format_error">ဖိုင် မှားနေသည်</string>
     <string name="parsing_xapk">XAPK ကိုဖြည်နေသည်</string>
-    <string name="installing_obb">obb file အားထည္ ့သြင္းေနပါသည္</string>
-    <string name="description">အေၾကာင္းအရာ</string>
-    <string name="whatsnew">ဘာအသစ္ထြက္လဲ</string>
+    <string name="installing_obb">OBB file အားထည့်သွင်းနေပါသည်။</string>
+    <string name="description">ဖော်ပြချက်</string>
+    <string name="whatsnew">သစ်ဆန်းသောအရာများ</string>
+    <string name="extracting_apk">APK ဖိုင်အား ဖြည်နေပါသည်</string>
+    <string name="installing_apk">တပ်ဆင်နေပါသည်</string>
+
+    <string name="uninstall">တပ်ဆင်ထားမှုကိုဖြုတ်ပါ</string>
+    <string name="uninstalled">တပ်ဆင်ထားမှုကိုဖြုတ်ပြီးပြီ</string>
+    <string name="last_update__date_">လွန်ခဲ့သောမွန်းမံမှု<xliff:g id="date">%1$s</xliff:g></string>
+
+    <string name="screenshots">မျက်နှာပြင်ရိုက်ချက်များ</string>
+    <string name="information">အချက်အလက်</string>
+    <string name="version_">ဗားရှင်း:</string>
+    <string name="updated_">ဗားရှင်းမြှင့်ပြီးပြီ:</string>
+    <string name="size_">ဖိုင်အရဒယ်အစား:</string>
+    <string name="permissions_">ခွင့်ပြုချက်များ:</string>
     </resources>
