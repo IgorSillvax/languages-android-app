@@ -97,4 +97,33 @@
     <string name="history_version">ဗားရှင်းသမိုင်း</string>
 
     <string name="market_response_error_network_connect_error">နက်ဝေါ့ခ်ချိတ်ဆက်မှုချို့ယွင်းချက်ရှိနေသည်။</string>
+    <string name="market_response_error_network_read_error">နက်ဝေါ့ခ်အားဖတ်ရှုရာတွင် ချို့ယွင်းချက်ရှိနေသည်။</string>
+    <string name="no_more">နောက်ထပ်မရှိတော့ပါ။</string>
+
+    <string name="update">မွမ်းမံမှု</string>
+    <string name="launching_please_wait">ဖွင့်နေသည်၊ ကျေးဇူးပြုပြီး ခဏစောင့်ပါ။</string>
+
+    <plurals name="_count__item_is_downloading">
+	<item quantity="other"><xliff:g example="2" id="count">%1$d</xliff:g> ခု ဒေါင်းလုဒ်ပြုလုပ်နေသည်။</item>
+</plurals>
+    <string name="downloads_complete">ဒေါင်းလုဒ်လုပ်ခြင်း ပြီးပါပြီ</string>
+    <string name="touch_for_view_all_downloads">ဒေါင်းလုဒ်အားလုံးကိုကြည့်ရန် နှိပ်ပါ</string>
+    <string name="_name__download_failed"><xliff:g example="APKPure" id="name">%1$ များ</xliff:g>ဒေါင်းလုဒ်မလုပ်နိုင်ပါ</string>
+    <string name="touch_to_download_it_again">နောက်တစ်ကြိမ် ဒေါင်းလုဒ်ပြုလုပ်ရန် နှိပ်ပါ</string>
+
+    <string name="pause">ရပ်ထားသည်</string>
+    <string name="pause_all">အားလုံးရပ်ပါ</string>
+    <string name="continue_">ဆက်လုပ်ပါ</string>
+    <string name="continue_all">အားလုံးကို ဆက်လုပ်ပါ</string>
+    <string name="restart">ပြန်စပါ</string>
+    <string name="download">ဒေါင်းလုဒ်လုပ်ပါ</string>
+    <string name="downloading">ဒေါင်းလုဒ်လုပ်နေသည်</string>
+    <string name="waiting">စောင့်နေသည်</string>
+    <string name="preparing">ပြင်ဆင်နေသည်</string>
+    <string name="completed">ပြီးပြီ</string>
+    <string name="paused">ရပ်ထားသည်</string>
+    <string name="failed">မအောင်မြင်ပါ</string>
+    <string name="file_missing">ဖိုင်ပျောက်ဆုံးနေပါသည်</string>
+    <string name="waiting_to_download">ဒေါင်းလုဒ်လုပ်ရန်‌ စောင့်နေစဉ်</string>
+    <string name="deleted">ဖျက်ပြီး</string>
     </resources>
