@@ -129,4 +129,23 @@
     <string name="market_response_error_invalid_response_code">မှားယွင်းနေသော တုံ့ပြန်မှု ကုဒ်</string>
     <string name="count_down_timer_btn">ကျော်မည်</string>
 
+    <string name="market_response_error_unknown_error__error_">မထင်မှတ်ထားသောအမှား (<xliff:g example="SUCCESS" id="error">1%1$s</xliff:g>2).</string>
+
+    <plurals name="_count__new_update_is_available">
+	<item quantity="other"><xliff:g example="2" id="count">1%1$d</xliff:g>2 မွန်းမံမှုအသစ်ရရှိနိုင်ပါပြီ</item>
+</plurals>
+
+    <string name="file_invalid">မှားယွင်းသောဖိုင်</string>
+    <string name="expired">သက်တမ်းကုန်သွားပါပြီ</string>
+    <string name="installed">တပ်ဆင်ထည့်သွင်းပြီးပြီ</string>
+    <string name="detail">အသေးစိတ်အချက်လက်</string>
+    <string name="remove">ပယ်ဖျက်ပါ</string>
+    <string name="remove_all">အားလုံးကိုပယ်ဖျက်ပါ</string>
+    <string name="want_to_remove_download_item">ဤဒေါင်းလုဒ်လုပ်ထားသည့်အရာကိုပယ်ဖျက်ချင်ပါသလား?</string>
+    <string name="want_to_remove_all_download_items">ဤဒေါင်းလုဒ်လုပ်ထားသည့်အရာများအားလုံးကို ဖျက်လိုပါသလား?</string>
+    <string name="delete_downloaded_file">ဒေါင်းလုဒ်လုပ်ထားပြီးဖိုင်များကိုဖျက်မည်</string>
+    <string name="download_over_cellular">မိုဘိုင်းလ်းဒေတာဖြင့်ဒေါင်းလုတ်လုပ်မည်</string>
+    <string name="download_over_cellular_content">သင်သည်မိုဘိုင်းလ်းဒေတာဖြင့် ဒေါင်းလုဒ်လုပ်ပါတော့မည်။သင်ဆက်လုပ်လိုပါသလား?</string>
+
+    <string name="search">ရှာဖွေပါ</string>
     </resources>
