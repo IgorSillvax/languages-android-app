@@ -1,0 +1,838 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<resources xmlns:tools="http://schemas.android.com/tools" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <string name="facebook_app_id" translatable="false">596489647167672</string>
+    <string name="fb_login_protocol_scheme" translatable="false">fb596489647167672</string>
+
+    <string name="aegon_app_name" translatable="false">APKPure</string>
+
+    <string name="action_settings"></string>
+    <string name="action_search"></string>
+    <string name="action_management"></string>
+
+    <string name="press_back_key_quit"></string>
+
+    <string name="featured"></string>
+    <string name="recommend"></string>
+    <string name="games"></string>
+    <string name="apps"></string>
+    <string name="categories"></string>
+    <string name="updates"></string>
+
+    <string name="something_happened"></string>
+    <string name="load_failed_error"></string>
+    <string name="load_failed_error_not_found"></string>
+    <string name="load_failed_empty"></string>
+    <string name="load_failed_all_up_to_date"></string>
+    <string name="load_failed_no_results"></string>
+    <string name="refresh"></string>
+
+    <string name="management"></string>
+    <string name="app_updates"></string>
+    <string name="app_management"></string>
+    <string name="app_uninstall"></string>
+    <string name="apk_management"></string>
+    <string name="apk_xapk_management"></string>
+    <string name="download_management"></string>
+    <string name="settings"></string>
+    <string name="about"></string>
+
+
+    <string name="about_title"><xliff:g example="APKPure" id="app_name">%1$s</xliff:g></string>
+    <string name="about_message"></string>
+    <string name="check_update"></string>
+    <string name="check_update_replace"></string>
+    <string name="check_update_beta"></string>
+    <string name="beta"></string>
+    <string name="check_update_replace_value" translatable="false">0</string>
+    <string name="check_update_beta_value" translatable="false">1</string>
+    <string name="quit"></string>
+    <string name="want_to_quit"></string>
+
+    <string name="install"></string>
+    <string name="open"></string>
+    <string name="delete"></string>
+    <string name="delete_all"></string>
+    <string name="properties"></string>
+    <string name="properties_message"></string>
+    <string name="want_to_delete_file"></string>
+    <string name="want_to_delete_all_files"></string>
+    <string name="file_has_been_deleted"></string>
+    <string name="failed_to_delete_file"></string>
+    <string name="install__label_"><xliff:g example="APKPure" id="app_label">%1$s</xliff:g></string>
+    <string name="user_canceled"></string>
+    <string name="io_error"></string>
+    <string name="file_format_error"></string>
+    <string name="parsing_xapk"></string>
+    <string name="installing_obb"></string>
+    <string name="extracting_apk"></string>
+    <string name="installing_apk"></string>
+
+    <string name="uninstall"></string>
+    <string name="uninstalled"></string>
+    <string name="last_update__date_"><xliff:g id="date">%1$s</xliff:g></string>
+
+    <string name="all"></string>
+
+    <string name="screenshots"></string>
+    <string name="description"></string>
+    <string name="whatsnew"></string>
+    <string name="information"></string>
+    <string name="version_"></string>
+    <string name="updated_"></string>
+    <string name="size_"></string>
+    <string name="permissions_"></string>
+    <string name="type_"></string>
+    <string name="category_"></string>
+    <string name="more"></string>
+    <string name="permissions"></string>
+    <string name="other"></string>
+    <string name="similar_or_related"></string>
+    <string name="more_from_developer"></string>
+    <string name="more_large"></string>
+    <string name="apk"></string>
+    <string name="xapk"></string>
+    <string name="unknown"></string>
+    <string name="flag_as_inappropriate"></string>
+    <string name="_ellipsis_"></string>
+    <string name="history_version"></string>
+
+    <string name="market_response_error_success"></string>
+    <string name="market_response_error_invalid_result"></string>
+    <string name="market_response_error_network_connect_error"></string>
+    <string name="market_response_error_network_read_error"></string>
+    <string name="market_response_error_invalid_response_code"></string>
+    <string name="market_response_error_invalid_response_body"></string>
+    <string name="market_response_error_unknown_error__error_"><xliff:g example="SUCCESS" id="error">%1$s</xliff:g>).</string>
+
+    <string name="no_more"></string>
+
+    <string name="update"></string>
+    <string name="version__version___size_"><xliff:g example="1.0.0" id="version">%1$s</xliff:g>, <xliff:g example="1024 kB" id="size">%2$s</xliff:g></string>
+    <plurals name="_count__new_update_is_available">
+	<item quantity="one"></item>
+	<item quantity="other"></item>
+</plurals>
+
+    <string name="launching_please_wait"></string>
+
+    <plurals name="_count__item_is_downloading">
+	<item quantity="one"></item>
+	<item quantity="other"></item>
+</plurals>
+    <string name="downloads_complete"></string>
+    <string name="touch_for_view_all_downloads"></string>
+    <string name="_name__download_failed"><xliff:g example="APKPure" id="name">%1$s</xliff:g> download failed</string>
+    <string name="touch_to_download_it_again"></string>
+
+    <string name="download_percent"><xliff:g example="50" id="percent">%1$d</xliff:g> %%</string>
+    <string name="pause"></string>
+    <string name="pause_all"></string>
+    <string name="continue_"></string>
+    <string name="continue_all"></string>
+    <string name="restart"></string>
+    <string name="download"></string>
+    <string name="downloading"></string>
+    <string name="waiting"></string>
+    <string name="preparing"></string>
+    <string name="completed"></string>
+    <string name="paused"></string>
+    <string name="failed"></string>
+    <string name="file_invalid"></string>
+    <string name="file_missing"></string>
+    <string name="waiting_to_download"></string>
+    <string name="deleted"></string>
+    <string name="expired"></string>
+    <string name="installed"></string>
+    <string name="detail"></string>
+    <string name="remove"></string>
+    <string name="remove_all"></string>
+    <string name="want_to_remove_download_item"></string>
+    <string name="want_to_remove_all_download_items"></string>
+    <string name="delete_downloaded_file"></string>
+    <string name="download_over_cellular"></string>
+    <string name="download_over_cellular_content"></string>
+
+    <string name="search"></string>
+    <string name="search_for_apps"></string>
+    <string name="trending_searches"></string>
+    <string name="search_history"></string>
+    <string name="clear_search_history"></string>
+
+    <string name="improvement_plan_title"></string>
+    <string name="improvement_plan_message"></string>
+    <string name="join_us"></string>
+    <string name="skip"></string>
+
+    <string name="participate_ultra_download_beta_test_title"></string>
+    <string name="participate_ultra_download_beta_test_content"></string>
+    <string name="enable"></string>
+
+    <string name="_name__is_up_to_date"><xliff:g example="APKPure" id="name">%1$s</xliff:g> is up to date.</string>
+    <string name="new_version_available_title"></string>
+    <string name="new_version_available_message"></string>
+
+    <string name="report"></string>
+    <string name="report__"></string>
+    <string name="report_problem__"></string>
+    <string name="report_problem_subject"></string>
+    <string name="report_problem_text"></string>
+    <string name="contact_us__"></string>
+    <string name="contact_us"></string>
+    <string name="report_content"></string>
+    <string name="feedback"></string>
+
+    <string name="installation_failed"></string>
+    <string name="invalid_app_detail"></string>
+    <string name="invalid_app_asset"></string>
+    <string name="failed_to_request_app_detail"></string>
+    <string name="failed_to_request_app_asset"></string>
+    <string name="incompatible_this_app"></string>
+    <string name="this_app_not_usable"></string>
+
+    <string name="setting"></string>
+    <string name="external_storage_not_usable"></string>
+    <string name="external_storage_permission_denied"></string>
+
+    <string name="share"></string>
+    <string name="share_app_url"><xliff:g example="APKPure" id="app_name">%1$s</xliff:g> APK (from <xliff:g example="APKPure" id="social_network_name">%2$s</xliff:g>)
+        <xliff:g example="https://apkpure.com/p/com.apkpure.aegon" id="app_url">%3$s</xliff:g>
+    </string>
+    <string name="share_app_url_comment"><xliff:g example="APKPure" id="user_name">%1$s</xliff:g>\'s comments on
+        <xliff:g example="APKPure" id="app_name">%2$s</xliff:g> : <xliff:g example="APKPure" id="app_name">%3$s</xliff:g>
+        (from <xliff:g example="APKPure" id="social_network_name">%4$s</xliff:g>)
+        <xliff:g example="https://apkpure.com/p/com.apkpure.aegon" id="app_url">%5$s</xliff:g>
+    </string>
+    <string name="share_app_url_group"><xliff:g example="APKPure" id="app_name">%1$s</xliff:g>
+        Group. (from <xliff:g example="APKPure" id="social_network_name">%2$s</xliff:g>)
+        <xliff:g example="https://apkpure.com/p/com.apkpure.aegon" id="app_url">%3$s</xliff:g>
+    </string>
+
+    <string name="_name__version_history"><xliff:g example="APKPure" id="name">%1$s</xliff:g> Version History</string>
+    <string name="update__date___size_"><xliff:g example="Mar 3, 2016" id="date">%1$s</xliff:g>, <xliff:g example="1024 kB" id="size">%2$s</xliff:g></string>
+
+    <string name="update_all"></string>
+    <string name="update___count__"><xliff:g example="3" id="count">%1$d</xliff:g>)</string>
+    <string name="ignore"></string>
+    <string name="unignore"></string>
+    <string name="select"></string>
+    <string name="cancel"></string>
+    <string name="select_all"></string>
+    <string name="deselect_all"></string>
+    <string name="ignored"></string>
+    <plurals name="total__count__apps__size_">
+	<item quantity="one"></item>
+	<item quantity="other"></item>
+</plurals>
+    <string name="total_zero_app"></string>
+
+    <string name="general"></string>
+    <string name="language"></string>
+    <string name="auto"></string>
+    <string name="changing_language"></string>
+    <string name="data_saver_model"></string>
+    <string name="data_saver_model_summery"></string>
+    <string name="download_via_wifi_only"></string>
+    <string name="enable_ultra_download"></string>
+    <string name="enable_ultra_download_summary"></string>
+    <string name="installation"></string>
+    <string name="show_notification_after_installation"></string>
+    <string name="delete_packages_after_installation"></string>
+
+    <string name="_name__installation_completed"><xliff:g example="APKPure" id="name">%1$s</xliff:g> installation completed</string>
+    <string name="touch_to_open"></string>
+
+    <string name="auto_service_install_accessibility_title"></string>
+    <string name="auto_service_install_accessibility_summary"></string>
+
+    <string name="auto_service_dialog_title"></string>
+    <string name="auto_service_dialog_message"></string>
+
+    <string name="auto_service_title"></string>
+    <string name="auto_service_description"></string>
+
+    <string name="auto_service_install"></string>
+    <string name="auto_service_ensure"></string>
+    <string name="auto_service_next"></string>
+    <string name="auto_service_exchange"></string>
+    <string name="auto_service_complete"></string>
+
+    <string name="auto_service_install__material_"></string>
+    <string name="auto_service_ensure__material_"></string>
+    <string name="auto_service_next__material_"></string>
+    <string name="auto_service_exchange__material_"></string>
+    <string name="auto_service_complete__material_"></string>
+
+    <string name="auto_install_via_root_title"></string>
+    <string name="auto_install_via_root_summary"></string>
+
+    <plurals name="app_detail_see_all_replies">
+	<item quantity="one"></item>
+	<item quantity="other"></item>
+</plurals>
+
+    <string name="app_detail_customer_reviews"></string>
+    <string name="app_detail_comment_type_web"></string>
+    <string name="app_submit_submit"></string>
+    <string name="app_submit_anonymous_comment"></string>
+    <string name="app_submit_title_toast"></string>
+    <string name="app_submit_msg_toast"></string>
+    <string name="app_submit_name_toast"></string>
+    <string name="app_submit_email_toast"></string>
+    <string name="app_submit_star_toast"></string>
+    <string name="app_submit_title_hint"></string>
+    <string name="app_submit_msg_hint"></string>
+    <string name="app_submit_nickname"></string>
+    <string name="app_submit_email"></string>
+    <string name="app_submit_submit_title"></string>
+    <string name="app_submit_reply_to"></string>
+
+    <string name="app_detail_tab_one"></string>
+    <string name="app_detail_tab_two"></string>
+    <string name="app_detail_tab_three"></string>
+
+    <string name="app_detail_tab_evaluation"></string>
+    <string name="app_detail_comment_filter_sort_score"></string>
+    <string name="app_detail_comment_filter_all"></string>
+    <string name="app_detail_comment_filter_version"></string>
+    <string name="app_detail_comment_score_less"></string>
+    <string name="app_detail_comment_no_data"></string>
+    <string name="app_detail_comment_score_footer"></string>
+    <string name="app_detail_evaluation_tool_bar_title"></string>
+    <string name="app_detail_evaluation_failed_bt"></string>
+
+    <array name="app_detail_comment_order_array" translatable="false">
+        <item>@string/app_detail_comment_order_array_default</item>
+        <item>@string/app_detail_comment_order_array_most_recent</item>
+        <item>@string/app_detail_comment_order_array_new</item>
+        <item>@string/app_detail_comment_order_array_best</item>
+    </array>
+
+    <array name="app_detail_reply_comment_order_array" translatable="false">
+        <item>@string/app_detail_comment_order_array_best</item>
+        <item>@string/app_detail_comment_order_array_new</item>
+        <item>@string/app_detail_comment_order_array_old</item>
+    </array>
+
+    <string name="app_detail_comment_order_array_default"></string>
+    <string name="app_detail_comment_order_array_most_recent"></string>
+    <string name="app_detail_comment_order_array_new"></string>
+    <string name="app_detail_comment_order_array_best"></string>
+    <string name="app_detail_comment_order_array_old"></string>
+
+    <string name="app_detail_comment_order_array_good"></string>
+    <string name="app_detail_comment_order_array_bad"></string>
+    <string name="app_detail_folded_footer_reviews"></string>
+    <string name="app_detail_folded_footer_posts"></string>
+    <string name="app_detail_discuss_filter_featured"></string>
+    <string name="app_detail_discuss_filter_folded"></string>
+
+
+    <string name="app_detail_comment_join_group_bt"></string>
+    <string-array name="language_entries" translatable="false">
+        <item>@string/auto</item>
+        <item>English</item>
+        <item>Español</item>
+        <item>Français</item>
+        <item>Hrvatski</item>
+        <item>Indonesia</item>
+        <item>Italiano</item>
+        <item>Magyar</item>
+        <item>Nederlands</item>
+        <item>Português</item>
+        <item>Português Brasileiro</item>
+        <item>Tiếng Việt</item>
+        <item>Türkçe</item>
+        <item>Азәрбајҹан дили</item>
+        <item>Русский</item>
+        <item>العربية</item>
+        <item>فارسی‎</item>
+        <item>کوردی</item>
+        <item>हिन्दी</item>
+        <item>বাংলা</item>
+        <item>한국어</item>
+        <item>日本語</item>
+        <item>简体中文</item>
+        <item>繁體中文 (香港)</item>
+        <item>繁體中文 (台灣)</item>
+        <item>עִברִית </item>
+        <item>ภาษาไทย</item>
+        <item>မြန်မာဘာသာ</item>
+        <item>Deutsche</item>
+        <item>ភាសាខ្មែរ</item>
+        <item>język polski</item>
+        <item>українська мова</item>
+    </string-array>
+    <string-array name="language_entry_values" translatable="false">
+        <item>__auto__</item>
+        <item>en</item>
+        <item>es</item>
+        <item>fr</item>
+        <item>hr</item>
+        <item>in-ID</item>
+        <item>it</item>
+        <item>hu</item>
+        <item>nl</item>
+        <item>pt</item>
+        <item>pt-BR</item>
+        <item>vi</item>
+        <item>tr</item>
+        <item>az</item>
+        <item>ru</item>
+        <item>ar</item>
+        <item>fa</item>
+        <item>ku</item>
+        <item>hi</item>
+        <item>bn</item>
+        <item>ko</item>
+        <item>ja</item>
+        <item>zh-CN</item>
+        <item>zh-HK</item>
+        <item>zh-TW</item>
+        <item>iw</item>
+        <item>th-TH</item>
+        <item>my-MM</item>
+        <item>de</item>
+        <item>km</item>
+        <item>pl</item>
+        <item>uk</item>
+    </string-array>
+
+    <string name="download_complete_installation_setting"></string>
+
+    <string-array name="download_complete_installation_setting_entries" translatable="false">
+        <item>@string/download_complete_installation_setting_entries_always</item>
+        <item>@string/download_complete_installation_setting_entries_only</item>
+        <item>@string/download_complete_installation_setting_entries_never</item>
+    </string-array>
+
+    <string name="download_complete_installation_setting_entries_always"></string>
+    <string name="download_complete_installation_setting_entries_only"></string>
+    <string name="download_complete_installation_setting_entries_never"></string>
+
+    <string-array name="download_complete_installation_setting_entry_values" translatable="false">
+        <item>install_now</item>
+        <item>background_not_install</item>
+        <item>never_install</item>
+    </string-array>
+
+
+    <string name="download_mkdir"></string>
+    <string name="download_mkdir_internal_storage_size_des"></string>
+    <string name="download_mkdir_internal_storage_entries"></string>
+    <string name="download_mkdir_internal_storage_entries1"></string>
+    <string name="download_mkdir_external_storage_fill_toast"></string>
+
+    <string name="download_mkdir_internal_storage_values"></string>
+    <string name="download_mkdir_external_storage_values"></string>
+
+    <string name="download_complete_installation_setting_default_value" translatable="false">install_now</string>
+
+    <string name="leak_canary_display_activity_label" translatable="false">APKPure Leaks</string>
+
+    <string name="reply"></string>
+    <string name="input_reply_content"></string>
+    <string name="publish"></string>
+    <string name="reply_dialog_marked_words"></string>
+    <string name="reply_comment"></string>
+    <string name="save_original_image"></string>
+    <string name="already_save"><xliff:g example="ApKPure/photo" id="path">%1$s</xliff:g></string>
+
+    <string name="load_end"></string>
+    <string name="load_failed_click_retry"></string>
+    <string name="loading"></string>
+
+    <string name="scan_qr_code_hint"></string>
+    <string name="zxing_msg_default_status"></string>
+    <string name="zxing_msg_parser_status"></string>
+    <string name="scan_qr_code_result_title"></string>
+    <string name="scan_qr_code_result_copy_text"></string>
+    <string name="scan_qr_code_result_hint"></string>
+    <string name="scan_qr_code_copy_success"></string>
+
+    <string name="tip_permission_camera_storage"></string>
+    <string name="permission_denied"></string>
+
+    <string name="login_title"></string>
+    <string name="sign_out"></string>
+
+    <string name="delete_comment"></string>
+    <string name="delete_comment_msg"></string>
+    <string name="upload_cancel"></string>
+    <string name="login_select_way_to_login"></string>
+
+    <!-- UserInfoEdit -->
+    <string name="user_info_edit_title"></string>
+    <string name="user_info_edit_portrait_tv"></string>
+    <string name="user_info_edit_username_tv"></string>
+    <string name="user_info_edit_nickname_tv"></string>
+    <string name="user_info_edit_email_tv"></string>
+    <string name="user_info_edit_gender_tv"></string>
+    <string name="user_info_edit_birthday_tv"></string>
+    <string name="user_info_edit_change_pwd_tv"></string>
+    <string name="user_info_edit_login_out_tv"></string>
+    <string name="user_info_edit_not_choose"></string>
+    <string name="user_info_edit_gender_male"></string>
+    <string name="user_info_edit_gender_female"></string>
+    <string name="user_info_edit_portrait_album"></string>
+    <string name="user_info_edit_portrait_take_photo"></string>
+    <string name="user_info_edit_portrait_error"></string>
+    <string name="user_info_edit_ok"></string>
+    <string name="user_info_edit_cancel"></string>
+    <string name="user_info_edit_large_photo"></string>
+
+    <!--updateNickname-->
+    <string name="update_nick_title"></string>
+    <string name="update_email_title"></string>
+    <string name="update_nick_name_et"></string>
+    <string name="update_nick_name_tv"></string>
+    <string name="update_email_name_et"></string>
+    <string name="update_eamil_name_tv"></string>
+    <string name="update_nickname_error"></string>
+    <string name="user_info_edit_intro_tv"></string>
+    <string name="update_intro_title"></string>
+    <string name="update_intro_et"></string>
+    <string name="update_intro_tv"></string>
+
+    <!--messageFragment-->
+    <string name="message_all"></string>
+    <string name="message_reply"></string>
+    <string name="message_notifications_praise"></string>
+    <string name="message_praise"></string>
+    <string name="message_notify"></string>
+    <string name="message_notifications_reply"></string>
+    <string name="message_notifications_login"></string>
+    <string name="message_at_title"></string>
+    <string name="message_at"></string>
+
+    <!--update password-->
+    <string name="update_pwd_title"></string>
+    <string name="update_pwd_current_pwd_et"></string>
+    <string name="update_pwd_new_pwd_et"></string>
+    <string name="update_pwd_Confirm_pwd_et"></string>
+    <string name="upload_avatar"></string>
+    <string name="update_pwd_current_null_tv"></string>
+    <string name="update_pwd_Confirm_null_tv"></string>
+    <string name="update_pwd_new_pwd_null_tv"></string>
+    <string name="update_pwd_new_confrim_tv"></string>
+    <string name="update_pwd_save_bt"></string>
+    <string name="update_save_success"></string>
+    <!--crop image-->
+    <string name="crop__cancel" ignore="ButtonCase"></string>
+    <string name="crop__done"></string>
+    <string name="crop__pick_error"></string>
+    <string name="crop__saving"></string>
+    <!--<string name="crop__saving">Saved</string>  new add-->
+    <string name="crop__wait"></string>
+
+    <string name="is_comment"></string>
+    <string name="comment_cancel"></string>
+    <string name="comment_submitting"></string>
+    <string name="comment_replying"></string>
+    <string name="register_term_of_service"></string>
+
+    <string name="set_contributor"></string>
+    <string name="set_permissions"></string>
+    <string name="set_open_source_licence"></string>
+
+    <string name="sign_in_services"></string>
+
+    <string name="sign_in_services_key"></string>
+    <string name="sign_in_services_key_policy"></string>
+
+    <string name="user_sign_up"></string>
+    <string name="user_name_hint"></string>
+    <string name="user_email_hint"></string>
+    <string name="user_password"></string>
+    <string name="user_password_confirm"></string>
+
+    <string name="user_name_error"></string>
+    <string name="user_name_null"></string>
+    <string name="user_nickname_error"></string>
+    <string name="user_email_error"></string>
+    <string name="user_password_error"></string>
+    <string name="user_confirm_error"></string>
+
+    <string name="login_user_name"></string>
+    <string name="login_user_password"></string>
+    <string name="login_user_sign_in"></string>
+    <string name="login_choose"></string>
+    <string name="login_new_user"></string>
+    <string name="login_post_as_a_guest"></string>
+
+    <string name="message"></string>
+
+    <!--push-->
+    <string name="push_title_info_reply"></string>
+    <string name="push_title_info_upvoted"></string>
+    <string name="push_title_info_follow"></string>
+    <string name="push_title_info_update"></string>
+    <string name="push_content_info_update"></string>
+    <string name="push_title_info_at"></string>
+
+    <string name="download_list"></string>
+    <string name="can_be_update"></string>
+    <string name="install_list"></string>
+    <string name="no_download"></string>
+    <string name="downloads"></string>
+
+    <string name="change_language_failed"></string>
+    <string name="comment_reply_tell_msg"></string>
+
+    <string name="notification_setting"></string>
+    <string name="reply_notification"></string>
+    <string name="reply_notification_msg"></string>
+    <string name="like_notification"></string>
+    <string name="like_notification_msg"></string>
+    <string name="gif_tip"></string>
+    <string name="ad_tip"></string>
+    <string name="submit_comment_title_hint"></string>
+
+    <string name="comment_vote_string"></string>
+    <string name="comment_reply_three"></string>
+    <string name="comment_item_fold"></string>
+
+    <plurals name="comment_reply_item_fold">
+	<item quantity="one"></item>
+	<item quantity="other"></item>
+</plurals>
+
+    <string name="comment_no_reply"></string>
+    <string name="comment_reply_info_name"></string>
+    <string name="set_updates_notification"></string>
+    <string name="set_updates_notification_msg"></string>
+    <string name="app_detail_unknow_text"></string>
+    <string name="comment_detail_original"></string>
+    <string name="comment_comment_newest"></string>
+    <string name="comment_comment_oldest"></string>
+
+    <string name="edit"></string>
+    <string name="menu_copy"></string>
+    <string name="menu_copy_link"></string>
+    <string name="menu_cancel"></string>
+    <string name="delete_all_download_history"></string>
+    <string name="delete_the_historical_record"></string>
+    <string name="download_history"></string>
+
+    <!--sub_comment-->
+    <string name="sub_comment_dialog_title"></string>
+    <string name="sub_comment_dialog_des_tv"></string>
+    <string name="sub_comment_dialog_link_et"></string>
+    <string name="sub_comment_dialog_link_null"></string>
+    <string name="sub_comment_progress_msg"></string>
+
+    <string name="play_button"></string>
+    <string name="null_time"></string>
+    <string name="open_video_in_youtube"></string>
+    <string name="full_screen_button"></string>
+
+    <string name="main_tab_home"></string>
+    <string name="main_tab_ranking"></string>
+    <string name="tab_group"></string>
+    <string name="main_tab_my"></string>
+
+    <string name="main_comment"></string>
+    <string name="main_won_praise"></string>
+    <string name="main_my_comments"></string>
+    <string name="main_my_collection"></string>
+    <string name="main_my_message"></string>
+    <string name="main_good_comments"></string>
+    <string name="main_app_management"></string>
+    <string name="main_topic_selection"></string>
+    <string name="main_night_mode"></string>
+    <string name="please_login_first"></string>
+    <string name="no_choice"></string>
+    <string name="follow_on_success"></string>
+    <string name="follow_un_success"></string>
+    <string name="canceled"></string>
+    <string name="group"></string>
+    <string name="collection"></string>
+    <string name="cancel_collection"></string>
+
+    <string name="follow"></string>
+    <string name="attention_on"></string>
+    <string name="attention_off"></string>
+    <string name="no_attention"></string>
+    <string name="browsing_history"></string>
+    <string name="browsing_history_prompt"></string>
+
+    <!--ranking_fragment-->
+    <string name="ranking_tab1_title"></string>
+    <string name="ranking_tab2_title"></string>
+    <string name="ranking_tab3_title"></string>
+    <string name="ranking_tab4_title"></string>
+    <string name="ranking_top_countries_title"></string>
+    <string name="ranking_top_develop_title"></string>
+
+    <string name="app_detail_three_fragment_foot"></string>
+    <string name="menu_paste"></string>
+
+    <string name="favorite_title"></string>
+    <string name="save_as_favorite"></string>
+    <string name="favorite_saved"></string>
+    <string name="failed_to_save_favorite"></string>
+    <string name="remove_as_favorite"></string>
+    <string name="remove_failed"></string>
+
+    <string name="collection_comment"></string>
+    <string name="collection_app"></string>
+
+    <string name="open_with_browser"></string>
+    <string name="web_view_refresh"></string>
+    <string name="web_view_copy"></string>
+
+    <string name="topic_red_color"></string>
+    <string name="topic_green_color"></string>
+    <string name="topic_blue_color"></string>
+    <string name="topic_purple_color"></string>
+    <string name="topic_purple_black"></string>
+    <string name="topic_purple_yellow"></string>
+    <string name="topic_purple_blue_gary"></string>
+    <string name="topic_switch_failed"></string>
+
+    <string name="recommend_title"></string>
+    <string name="recommend_tab_game"></string>
+    <string name="recommend_tab_list"></string>
+    <string name="recommend_installed_list_title"></string>
+    <string name="recommend_review"></string>
+    <string name="recommend_replace_img"></string>
+    <string name="recommend_app_name"></string>
+    <string name="recommend_state_can"></string>
+    <string name="recommend_state_success"></string>
+    <string name="recommend_select_game"></string>
+    <string name="recommend_write_des"></string>
+    <string name="recommend_write_des_hint"></string>
+    <string name="recommend_comment"></string>
+    <string name="recommend_comment_error"></string>
+    <string name="recommend_description_title"></string>
+    <string name="recommend_description"></string>
+    <string name="recommend_user_recommend"></string>
+    <string name="recommend_required"></string>
+    <string name="recommend_not_found"></string>
+    <string name="recommend_not_fount_info"></string>
+    <string name="recommend_user_recommend_sys"></string>
+
+    <string name="user_detail_focus"></string>
+    <string name="user_detail_fans"></string>
+    <string name="user_detail_praise"></string>
+    <string name="user_detail_default_text" translatable="false">--</string>
+
+    <string name="user_detail_tab_detail"></string>
+    <string name="user_detail_tab_reply"></string>
+
+    <string name="user_focus_tab_users"></string>
+    <string name="user_focus_tab_apps"></string>
+    <string name="user_focus_title_my"></string>
+    <string name="user_focus_title"></string>
+
+    <string name="google_play_name" translatable="false">Google Play</string>
+    <string name="goto_google_play"></string>
+    <string name="google_play_bug_text"></string>
+
+    <string name="menu_follow_all"></string>
+    <string name="menu_follow_user"></string>
+    <string name="menu_follow_group"></string>
+    <string name="menu_follow_all_tab"></string>
+    <string name="menu_follow_user_tab"></string>
+    <string name="menu_follow_group_tab"></string>
+
+    <string name="choose_app"></string>
+    <string name="publish_comment"></string>
+
+    <string name="app_detail_has_product"></string>
+    <string name="app_detail_no_product"></string>
+    <string name="app_detail_has_ad"></string>
+    <string name="app_detail_no_ad"></string>
+
+    <string name="tag_list"></string>
+    <string name="hot_tag"></string>
+    <string name="hot_tag_explain"></string>
+    <string name="common_use"></string>
+    <string name="app_add_tag_hint_caution"></string>
+    <string name="app_add_tag"></string>
+    <string name="toast_app_tag_exist"></string>
+    <string name="there_is_no_label"></string>
+    <string name="add"></string>
+    <string name="colon"></string>
+
+    <string name="pack_up"></string>
+    <string name="Istop"></string>
+    <string name="add_tag"></string>
+    <string name="error_add_tag"></string>
+    <string name="no_collect"></string>
+    <string name="no_comment"></string>
+
+    <string name="share_apk"></string>
+    <string name="tab_apk"></string>
+    <string name="commentaries"></string>
+    <string name="follow_floating_action_button"></string>
+
+    <string name="upload_apk_version"></string>
+    <string name="upload_apk_downloads"></string>
+
+    <string name="upload_comment_uploading"></string>
+    <string name="upload_comment_upload_success"></string>
+    <string name="upload_comment_upload_failed"></string>
+    <string name="upload_comment_view"></string>
+    <string name="upload_comment_reload"></string>
+    <string name="upload_notification_pause"></string>
+    <string name="upload_notification_start"></string>
+    <string name="upload_notification_cancel"></string>
+    <string name="upload_notification_is_uploading"></string>
+    <string name="upload_notification_is_pause"></string>
+    <string name="upload_add_list_toast"></string>
+    <string name="upload_add_file_list_toast"></string>
+
+    <string name="your_reply_comment"></string>
+
+    <string name="market_ad_title"></string>
+    <string name="market_ad_tab_one"></string>
+    <string name="market_ad_tab_two"></string>
+    <string name="market_ad_tab_three"></string>
+
+    <string name="tag"></string>
+
+    <string name="search_tab_name_one"></string>
+    <string name="search_tab_name_two"></string>
+    <!--pre_register-->
+    <string name="pre_register_ok"></string>
+    <string name="pre_register_bt"></string>
+    <string name="pre_register_now_bt"></string>
+    <string name="pre_registered_bt"></string>
+    <string name="pre_register_link_title"></string>
+    <string name="pre_register_gift_tv"></string>
+    <string name="pre_register_person_num_tv"></string>
+    <string name="pre_register_success"></string>
+
+    <string name="open_page_failed"></string>
+    <string name="search_for_user"></string>
+    <string name="search_user_history_title"></string>
+    <string name="search_focus_list_title"></string>
+
+    <string name="submit_comment_user_style"></string>
+
+    <string name="copy_username"></string>
+    <string name="copy_content"></string>
+
+    <string name="tab_global"></string>
+    <string name="comment_list_see_here"></string>
+    <string name="comment_list_new_num"></string>
+
+    <string name="tab_popular"></string>
+    <string name="count_down_timer_tv"></string>
+    <string name="count_down_timer_btn"></string>
+
+    <string name="choice_evaluate"></string>
+    <string name="choice_comment"></string>
+    <string name="emoji_input_error_hint"></string>
+    <string name="load_all_choice_evaluate"></string>
+    <string name="load_all_choice_comment"></string>
+    <string name="my_reservation_and_collection"></string>
+    <string name="upload_apk"></string>
+    <string name="developer_badge_explanation"></string>
+
+    <string name="from_user_recommendation"></string>
+    <string name="topics"></string>
+    <string name="pre_register_game"></string>
+    <string name="editors_picks"></string>
+</resources>
