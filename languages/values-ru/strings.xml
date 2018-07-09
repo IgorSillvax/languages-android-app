@@ -47,7 +47,7 @@
     <string name="failed_to_delete_file">Не удалось удалить файл.</string>
     <string name="install__label_">Установка - <xliff:g id="app_label" example="APKPure">%1$s</xliff:g></string>
     <string name="user_canceled">Отменено пользователем.</string>
-    <string name="io_error">Ошибка. Не достаточно свободного места на Вашем устройстве.</string>
+    <string name="io_error">Ошибка. Недостаточно свободного места на Вашем устройстве.</string>
     <string name="file_format_error">Не поддерживаемый формат.</string>
     <string name="parsing_xapk">Разбор XAPK …</string>
     <string name="installing_obb">Установка OBB-файлов …</string>
@@ -62,7 +62,7 @@
 
     <string name="screenshots">Скриншоты</string>
     <string name="description">Описание</string>
-    <string name="whatsnew">Новости</string>
+    <string name="whatsnew">Что нового</string>
     <string name="information">Информация</string>
     <string name="version_">Версия:</string>
     <string name="updated_">Обновлено:</string>
@@ -97,7 +97,7 @@
         <item quantity="other"/>
     </plurals>
 
-    <string name="launching_please_wait">Запускается, подождите пожалуйста …</string>
+    <string name="launching_please_wait">Запускается, подождите, пожалуйста …</string>
 
     <plurals name="_count__item_is_downloading">
         <item quantity="one"><xliff:g id="count" example="1">%1$d</xliff:g> элемент загружается</item>
@@ -244,8 +244,8 @@
     <string name="participate_ultra_download_beta_test_content">"Режим Ультра Загрузки  в стадии бета-тестирования, дайте нам знать, если у вас возникнут какие-либо проблемы. Вы можете отключить его в Настройках."</string>
     <string name="enable">Включить</string>
 
-    <string name="similar_or_related">Похожие или Связанные</string>
-    <string name="more_from_developer">Больше от разработчика</string>
+    <string name="similar_or_related">Похожие и Связанные</string>
+    <string name="more_from_developer">Другие от разработчика</string>
     <string name="feedback">Обратная связь</string>
 
     <string name="changing_language">Идёт смена языка, пожалуйста, подождите…</string>
@@ -507,7 +507,7 @@
 
     <string name="share_app_url_group"> <xliff:g example="APKPure" id="app_name">%1$s</xliff:g> Группа. (from @<xliff:g example="APKPure" id="social_network_name">%2$s</xliff:g> ) <xliff:g example="https://apkpure.com/p/com.apkpure.aegon" id="app_url">%3$s</xliff:g></string>
 
-    <string name="load_failed_error_not_found">Приложение не найдено в APKPure App Store!</string>
+    <string name="load_failed_error_not_found">Приложение не найдено на маркете приложений APKPure!</string>
     <string name="beta">Бета</string>
     <string name="data_saver_model">Экономия трафика</string>
     <string name="data_saver_model_summery">Включение этого приведет к уменьшению размера и качества изображения, что поможет использовать меньше мобильных данных.</string>
