@@ -59,6 +59,9 @@
     <string name="properties_message">
         <![CDATA[<b>Path:</b> %1$s<br><b>Size:</b> %2$s<br><b>Last Modified:</b> %3$s]]>
     </string>
+    <string name="properties_message_v2">
+        <![CDATA[<b>Package Name:</b> %1$s<br><b>Version:</b> %2$s<br><b>Path:</b> %3$s<br><b>Size:</b> %4$s<br><b>Last Modified:</b> %5$s]]>
+    </string>
     <string name="want_to_delete_file">Do you want to delete this file?</string>
     <string name="want_to_delete_all_files">Do you want to delete all files?</string>
     <string name="file_has_been_deleted">The file has been deleted.</string>
@@ -320,7 +323,7 @@
     <string name="app_detail_comment_filter_version">Latest version</string>
     <string name="app_detail_comment_score_less">Too few users ratings</string>
     <string name="app_detail_comment_no_data">No users ratings found, add your rating now.</string>
-    <string name="app_detail_comment_score_footer">There are %s reviews in other languages.</string>
+    <string name="app_detail_comment_score_footer">There are %1$s reviews in other languages.</string>
     <string name="app_detail_evaluation_tool_bar_title">Share a review</string>
     <string name="app_detail_evaluation_failed_bt">Review</string>
 
@@ -347,8 +350,8 @@
     <string name="app_detail_comment_order_array_bad">1-3</string>
     <string name="app_detail_folded_footer_reviews">see all %d folded reviews</string>
     <string name="app_detail_folded_footer_posts">see all %d folded posts</string>
-    <string name="app_detail_discuss_filter_featured">excellent</string>
-    <string name="app_detail_discuss_filter_folded">folded</string>
+    <string name="app_detail_discuss_filter_featured">Highlights</string>
+    <string name="app_detail_discuss_filter_folded">Folded</string>
 
 
     <string name="app_detail_comment_join_group_bt">Group</string>
@@ -577,7 +580,7 @@
     <string name="user_password_error">This password is invalid</string>
     <string name="user_confirm_error">Passwords must match</string>
 
-    <string name="login_user_name">Username</string>
+    <string name="login_user_name">Username or email</string>
     <string name="login_user_password">Password</string>
     <string name="login_user_sign_in">Sign In</string>
     <string name="login_choose">Or sign in with your account</string>
@@ -587,11 +590,11 @@
     <string name="message">Message</string>
 
     <!--push-->
-    <string name="push_title_info_reply">%s replied your comment!</string>
-    <string name="push_title_info_upvoted">%s upvoted your comment!</string>
-    <string name="push_title_info_follow">%s followed you!</string>
+    <string name="push_title_info_reply">%1$s replied your comment!</string>
+    <string name="push_title_info_upvoted">%1$s upvoted your comment!</string>
+    <string name="push_title_info_follow">%1$s followed you!</string>
     <string name="push_title_info_update">APKPure Update Arrived!</string>
-    <string name="push_content_info_update">New version %s released! Update Now!</string>
+    <string name="push_content_info_update">New version %1$s released! Update Now!</string>
     <string name="push_title_info_at">Someone mentioned you in a post, tap to view</string>
 
     <string name="download_list">Download list</string>
@@ -730,14 +733,14 @@
     <string name="recommend_comment_error">Something error happened！</string>
     <string name="recommend_description_title">Instructions:</string>
     <string name="recommend_description">1. Approved recommendations will be listed under the DISCOVER section.\n2. You can only recommend the apps currently installed on your Android device.\n3. Notify APKPure to add not indexed apps, please finish the recommendation forms first.</string>
-    <string name="recommend_user_recommend">Recommended by %s</string>
+    <string name="recommend_user_recommend">Recommended by %1$s</string>
     <string name="recommend_required">*</string>
     <string name="recommend_not_found">Not Indexed</string>
-    <string name="recommend_not_fount_info">Notify APKPure to add \"%s\", you need to finish the forms.</string>
+    <string name="recommend_not_fount_info">Notify APKPure to add \"%1$s\", you need to finish the forms.</string>
     <string name="recommend_user_recommend_sys">Featured by APKPure</string>
 
     <string name="user_detail_focus">Following</string>
-    <string name="user_detail_fans">Follower</string>
+    <string name="user_detail_fans">Followers</string>
     <string name="user_detail_praise">Likes</string>
     <string name="user_detail_default_text" translatable="false">--</string>
 
@@ -747,7 +750,7 @@
     <string name="user_focus_tab_users">People</string>
     <string name="user_focus_tab_apps">Groups</string>
     <string name="user_focus_title_my">My Following</string>
-    <string name="user_focus_title">Followed by %s</string>
+    <string name="user_focus_title">Followed by %1$s</string>
 
     <string name="google_play_name" translatable="false">Google Play</string>
     <string name="goto_google_play">Buy now</string>
@@ -772,7 +775,7 @@
     <string name="hot_tag">Hot Tags</string>
     <string name="hot_tag_explain">(Add or vote existing tags for this app)</string>
     <string name="common_use">My Tags</string>
-    <string name="app_add_tag_hint_caution">No more than %s tags for each application.</string>
+    <string name="app_add_tag_hint_caution">No more than %1$s tags for each application.</string>
     <string name="app_add_tag">Add a new tag</string>
     <string name="toast_app_tag_exist">Tag already exists!</string>
     <string name="there_is_no_label">No tags.</string>
@@ -785,18 +788,19 @@
     <string name="error_add_tag">Add tags failed</string>
     <string name="no_collect">No favorites yet!</string>
     <string name="no_comment">Be the first one to add a post!</string>
+    <string name="filter_no_comment">Ooops! No such content!!</string>
 
     <string name="share_apk">Share APK</string>
     <string name="tab_apk">APK</string>
     <string name="commentaries">Share a Post</string>
     <string name="follow_floating_action_button">Create new Moment</string>
 
-    <string name="upload_apk_version">V %s</string>
-    <string name="upload_apk_downloads">Downloads: %s</string>
+    <string name="upload_apk_version">V %1$s</string>
+    <string name="upload_apk_downloads">Downloads: %1$s</string>
 
-    <string name="upload_comment_uploading">%s Uploading…</string>
-    <string name="upload_comment_upload_success">%s Upload Successful</string>
-    <string name="upload_comment_upload_failed">%s Upload Failed</string>
+    <string name="upload_comment_uploading">%1$s Uploading…</string>
+    <string name="upload_comment_upload_success">%1$s Upload Successful</string>
+    <string name="upload_comment_upload_failed">%1$s Upload Failed</string>
     <string name="upload_comment_view">Tap to view</string>
     <string name="upload_comment_reload">Tap to upload again</string>
     <string name="upload_notification_pause">Pause</string>
@@ -825,7 +829,7 @@
     <string name="pre_registered_bt">Registered</string>
     <string name="pre_register_link_title">Pre-Register Page</string>
     <string name="pre_register_gift_tv">Register Rewards</string>
-    <string name="pre_register_person_num_tv">Pre-registrants: %s</string>
+    <string name="pre_register_person_num_tv">Pre-Registrants: %1$s</string>
     <string name="pre_register_success">Pre-Registering means that you will receive a notification on your device when the app is released.</string>
 
     <string name="open_page_failed">Failed to open the page!</string>
@@ -856,8 +860,32 @@
     <string name="upload_apk">Upload APK</string>
     <string name="developer_badge_explanation">Developer Badge Explanation</string>
 
-    <string name="from_user_recommendation">User Recommendation</string>
+    <string name="from_user_recommendation"> Users\' Recommendations</string>
     <string name="topics">Topic</string>
     <string name="pre_register_game">Pre-register</string>
     <string name="editors_picks">Editor\'s Choice</string>
+    <string name="recommend_game">recommend game</string>
+
+    <string name="bing_share_account">Connect to a third-party account</string>
+    <string name="un_bind">Not connected</string>
+    <string name="login_out_message_hint">Are you sure you want to logout?</string>
+    <string name="bind_email_title">Connect your email</string>
+    <string name="bind_email_tv">Connect your email address to your account to unlock the benefits of email login, password recovery, sending posts and more.</string>
+    <string name="verification_code_tv">A verification code has been sent to your email address%1$s</string>
+    <string name="verification_code_second_tv">Resend in %d s</string>
+    <string name="verification_code_resend_tv">Resend verification code</string>
+    <string name="send_verification_code_resend_tv">Send verification code</string>
+    <string name="bind_email_success">Connection succeeded.</string>
+    <string name="update_email_tv">Reverify to update your email address</string>
+    <string name="verification_code_tv_hint">Verification code</string>
+    <string name="verification_success_code_toast">Verification code sent.</string>
+    <string name="verification_null_code_toast">Please enter the verification code you received.</string>
+    <string name="unbind_email">Not connected</string>
+    <string name="unbind_email_hint">No email address has been connected to your account.</string>
+    <string name="menu_skip">Skip</string>
+
+    <string name="forget_password_tv">Forgot password?</string>
+    <string name="recover_password_title">Password Recovery</string>
+    <string name="email_address_hint_et">Enter your email.</string>
+
 </resources>
