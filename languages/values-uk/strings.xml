@@ -118,9 +118,9 @@
     <string name="launching_please_wait">Запускається, будь ласка, зачекайте…</string>
 
     <plurals name="_count__item_is_downloading">
-    <item quantity="one">Про <xliff:g example="APKPure" id="app_name">%1$s</xliff:g></item>
-    <item quantity="few">Про <xliff:g example="APKPure" id="app_name">%1$s</xliff:g></item>
-    <item quantity="many">Про <xliff:g example="APKPure" id="app_name">%1$s</xliff:g></item>
+	<item quantity="one"><xliff:g example="1" id="count">%1$d</xliff:g> елемент завантажується</item>
+	<item quantity="few"><xliff:g example="2" id="count">%1$d</xliff:g> елементи завантажуються</item>
+	<item quantity="many"><xliff:g example="2" id="count">%1$d</xliff:g> елементів завантажуються</item>
 </plurals>
     <string name="downloads_complete">Завантаження завершені</string>
     <string name="touch_for_view_all_downloads">Торкніться, щоб побачити всі завантаження</string>
@@ -197,9 +197,9 @@
     <string name="external_storage_permission_denied"><big><b>Потрібен доступ до вашого зовнішнього сховища. Будь ласка, переконайтеся, що у доступі не відмовлено.</b></big></string>
 
     <string name="share">Поділитися</string>
-    <string name="share_app_url"> Поділитися <xliff:g example="APKPure" id="app_name">%1$s</xliff:g> APK (з @<xliff:g example="APKPure" id="social_network_name">%2$s</xliff:g>) <xliff:g example="https://apkpure.com/p/com.apkpure.aegon" id="app_url">%3$s</xliff:g> </string>
-    <string name="share_app_url_comment"> Коментарі <xliff:g example="APKPure" id="user_name">%1$s</xliff:g> до додатку <xliff:g example="APKPure" id="app_name">%2$s</xliff:g> : <xliff:g example="APKPure" id="app_name">%3$s</xliff:g> (з @<xliff:g example="APKPure" id="social_network_name">%4$s</xliff:g>) <xliff:g example="https://apkpure.com/p/com.apkpure.aegon" id="app_url">%5$s</xliff:g> </string>
-    <string name="share_app_url_group"> Група <xliff:g example="APKPure" id="app_name">%1$s</xliff:g>. (з @<xliff:g example="APKPure" id="social_network_name">%2$s</xliff:g>) <xliff:g example="https://apkpure.com/p/com.apkpure.aegon" id="app_url">%3$s</xliff:g> </string>
+    <string name="share_app_url"> Поділитися <xliff:g example="APKPure" id="app_name">%1$s</xliff:g> APK (з <xliff:g example="APKPure" id="social_network_name">%2$s</xliff:g>) <xliff:g example="https://apkpure.com/p/com.apkpure.aegon" id="app_url">%3$s</xliff:g> </string>
+    <string name="share_app_url_comment"> Коментарі <xliff:g example="APKPure" id="user_name">%1$s</xliff:g> до додатку <xliff:g example="APKPure" id="app_name">%2$s</xliff:g> : <xliff:g example="APKPure" id="app_name">%3$s</xliff:g> (з <xliff:g example="APKPure" id="social_network_name">%4$s</xliff:g>) <xliff:g example="https://apkpure.com/p/com.apkpure.aegon" id="app_url">%5$s</xliff:g> </string>
+    <string name="share_app_url_group"> Група <xliff:g example="APKPure" id="app_name">%1$s</xliff:g>. (з <xliff:g example="APKPure" id="social_network_name">%2$s</xliff:g>) <xliff:g example="https://apkpure.com/p/com.apkpure.aegon" id="app_url">%3$s</xliff:g> </string>
 
     <string name="_name__version_history">Історія версій <xliff:g example="APKPure" id="name">%1$s</xliff:g></string>
     <string name="update__date___size_">Оновлено: <xliff:g example="Mar 3, 2016" id="date">%1$s</xliff:g>, <xliff:g example="1024 kB" id="size">%2$s</xliff:g></string>
@@ -276,7 +276,7 @@
 
     <string name="app_detail_customer_reviews">Коментарі</string>
     <string name="app_detail_comment_type_web">веб</string>
-    <string name="app_submit_submit">Надіслати…</string>
+    <string name="app_submit_submit">Відправити…</string>
     <string name="app_submit_anonymous_comment">Додати коментар</string>
     <string name="app_submit_title_toast">Ви повинні ввести заголовок!</string>
     <string name="app_submit_msg_toast">Ви повинні щось написати!</string>
@@ -287,7 +287,7 @@
     <string name="app_submit_msg_hint">Будь ласка, напишіть вашу думку</string>
     <string name="app_submit_nickname">Нікнейм</string>
     <string name="app_submit_email">Email</string>
-    <string name="app_submit_submit_title">надіслати</string>
+    <string name="app_submit_submit_title">Відправити</string>
     <string name="app_submit_reply_to">відповісти на</string>
 
     <string name="app_detail_tab_one">Деталі</string>
@@ -413,7 +413,7 @@
 
     <!--messageFragment-->
     <string name="message_all">ВСІ</string>
-    <string name="message_reply">ВІДПОВІДІ</string>
+    <string name="message_reply">КОМЕНТАРІ</string>
     <string name="message_notifications_praise">Проголосовано за ваш коментар</string>
     <string name="message_praise">ВПОДОБАНЬ</string>
     <string name="message_notifications_reply">На ваш коментар відповіли</string>
@@ -544,7 +544,7 @@
     <string name="full_screen_button">Кнопка \"На повний екран\"</string>
 
     <string name="main_tab_home">ГОЛОВНА</string>
-    <string name="main_tab_ranking">РЕЙТИНГ</string>
+    <string name="main_tab_ranking">ТОП</string>
     <string name="tab_group">СПІЛЬНОТА</string>
     <string name="main_tab_my">Я</string>
 
@@ -566,8 +566,8 @@
     <string name="collection">Улюблені</string>
     <string name="cancel_collection">Видалити з улюблених</string>
 
-    <string name="follow">ПІДПИСКИ</string>
-    <string name="attention_on">Підписки</string>
+    <string name="follow">ВІДСТЕЖУЮТЬСЯ</string>
+    <string name="attention_on">Відстежуються</string>
     <string name="attention_off">Підписатися</string>
     <string name="no_attention">Поки що немає підписок на спільноти.</string>
     <string name="browsing_history">Історія переглядів</string>
@@ -637,7 +637,7 @@
     <string name="user_detail_default_text" translatable="false">--</string>
 
     <string name="user_detail_tab_detail">Публікації</string>
-    <string name="user_detail_tab_reply">Відповіді</string>
+    <string name="user_detail_tab_reply">Коментарі</string>
 
     <string name="user_focus_tab_users">Люди</string>
     <string name="user_focus_tab_apps">Спільноти</string>
@@ -679,7 +679,7 @@
     <string name="add_tag">Додати теґи</string>
     <string name="error_add_tag">Не вдалося додати теґи</string>
     <string name="no_collect">Улюблених поки немає!</string>
-    <string name="no_comment">Будьте першим, хто додасть коментар!</string>
+    <string name="no_comment">Будьте першим, хто додасть пост!</string>
 
     <string name="share_apk">Поділитися APK-файлом</string>
     <string name="tab_apk">APK</string>
@@ -739,4 +739,38 @@
     <string name="tab_popular">ПОПУЛЯРНІ</string>
     <string name="count_down_timer_tv">%ds</string>
     <string name="count_down_timer_btn">пропустити</string>
+<string name="app_detail_tab_evaluation">Огляди</string>
+    <string name="app_detail_comment_filter_sort_score">Найрейтинговіші</string>
+    <string name="app_detail_comment_filter_all">Всі огляди</string>
+    <string name="app_detail_comment_filter_version">Остання версія</string>
+    <string name="app_detail_comment_score_less">Замало оцінок від користувачів</string>
+    <string name="app_detail_comment_no_data">Не знайдено оцінок від користувачів, додайте вашу оцінку зараз.</string>
+    <string name="app_detail_comment_score_footer">Є %s оглядів іншими мовами.</string>
+    <string name="app_detail_evaluation_tool_bar_title">Поділитися оглядом</string>
+    <string name="app_detail_evaluation_failed_bt">Огляд</string>
+
+    <string name="app_detail_comment_order_array_good">4-5</string>
+    <string name="app_detail_comment_order_array_bad">1-3</string>
+    <string name="app_detail_folded_footer_reviews">показати всі %d згорнутих оглядів</string>
+    <string name="app_detail_folded_footer_posts">показати всі %d згорнутих постів</string>
+    <string name="app_detail_discuss_filter_featured">відмінні</string>
+    <string name="app_detail_discuss_filter_folded">згорнуті</string>
+
+
+    <string name="message_notify">сповіщення</string>
+    <string name="follow_floating_action_button">Створити новий Момент</string>
+
+    <string name="choice_evaluate">Вибрані огляди</string>
+    <string name="choice_comment">Рекомендовані пости</string>
+    <string name="emoji_input_error_hint">Коментарі, що складаються тільки з Emoji, більше не дозволені! Напишіть щось…</string>
+    <string name="load_all_choice_evaluate">Показати всі огляди</string>
+    <string name="load_all_choice_comment">Показати всі пости</string>
+    <string name="my_reservation_and_collection">Попередньо зареєструватись і додати в улюблені</string>
+    <string name="upload_apk">Завантажити APK</string>
+    <string name="developer_badge_explanation">Пояснення Значку Розробника</string>
+
+    <string name="from_user_recommendation">Рекомендація користувача</string>
+    <string name="topics">Тема</string>
+    <string name="pre_register_game">Попередня реєстрація</string>
+    <string name="editors_picks">Вибір редакції</string>
 </resources>

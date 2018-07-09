@@ -174,7 +174,9 @@
 
     <string name="share">مشاركة التطبيق</string>
     <string name="share_app_url">
-\n تعليقات <xliff:g example="APKPure" id="user_name">%1$s</xliff:g>" على  "<xliff:g example="APKPure" id="app_name">%2$s</xliff:g> (عبر @<xliff:g example="APKPure" id="social_network_name">%3$s</xliff:g>), <xliff:g example="https://apkpure.com/p/com.apkpure.aegon" id="app_url">%4$s</xliff:g></string>
+\n شارك تطبيق <xliff:g example="APKPure" id="app_name">%1$s</xliff:g> (من @<xliff:g example="APKPure" id="social_network_name">%2$s</xliff:g>)
+\n <xliff:g example="https://apkpure.com/p/com.apkpure.aegon" id="app_url">%3$s</xliff:g>
+\n </string>
 
     <string name="_name__version_history">إصدارات سابقة لـ<xliff:g example="APKPure" id="name">%1$s</xliff:g></string>
     <string name="update__date___size_">تحديث: <xliff:g id="date" example="Mar 3, 2016">%1$s</xliff:g>, <xliff:g id="size" example="1024 kB">%2$s</xliff:g></string>
@@ -493,7 +495,9 @@
 
     <string name="push_title_info_follow">"%s  يتابعك!"</string>
     <string name="push_title_info_update">وصل تحديث لـ APKPure!</string>
-    <string name="share_app_url_group"> مجموعة <xliff:g example="APKPure" id="app_name">%1$s</xliff:g> . (عبر @<xliff:g example="APKPure" id="social_network_name">%2$s</xliff:g>) <xliff:g example="https://apkpure.com/p/com.apkpure.aegon" id="app_url">%3$s</xliff:g></string>
+    <string name="share_app_url_group"> مجموعة <xliff:g example="APKPure" id="app_name">%1$s</xliff:g>. (عبر@<xliff:g example="APKPure" id="social_network_name">%2$s</xliff:g>)
+\n <xliff:g example="https://apkpure.com/p/com.apkpure.aegon" id="app_url">%3$s</xliff:g>
+\n </string>
 
     <string name="push_content_info_update">اصدار جديد %s صدر! حدث الان!</string>
 
@@ -648,4 +652,36 @@
     <string name="recommend_user_recommend">منصوح من قبل %s</string>
     <string name="recommend_required">*</string>
     <string name="recommend_not_found">غير مفهرس</string>
+    <string name="user_detail_focus">متابعة</string>
+    <string name="user_detail_praise">الإعجابات</string>
+    <string name="user_detail_tab_reply">الردود</string>
+
+    <string name="user_focus_title_my">Following</string>
+    <string name="google_play_bug_text">تحميل من Google Play</string>
+
+    <string name="menu_follow_group">المجموعات المتابعة</string>
+    <string name="recommend_not_fount_info">أرسل تنبيه لـAPKPure لإضافة \"%s\", سوف تحتاج لإتمام الطلب.</string>
+    <string name="recommend_user_recommend_sys">مميز من قبل APKPure</string>
+
+    <string name="user_detail_fans">"متابع "</string>
+    <string name="user_detail_tab_detail">منشورات</string>
+    <string name="user_focus_tab_users">أشخاص</string>
+    <string name="user_focus_tab_apps">مجموعات</string>
+    <string name="user_focus_title">متابع من قبل %s</string>
+
+    <string name="goto_google_play">إشتري الأن</string>
+    <string name="menu_follow_all">جميع المتابَعين</string>
+    <string name="menu_follow_user">الأشخاص المتابعين</string>
+    <string name="menu_follow_all_tab">متابعة</string>
+    <string name="menu_follow_user_tab">أشخاص</string>
+    <string name="menu_follow_group_tab">مجموعات</string>
+
+    <string name="choose_app">إختر تطبيقات</string>
+    <string name="publish_comment">شارك منشور</string>
+
+    <string name="app_detail_has_product">شراء</string>
+    <string name="app_detail_no_product">لاتوجد مشتريات</string>
+    <string name="app_detail_has_ad">يحتوي على إعلانات</string>
+    <string name="app_detail_no_ad">خال من إعلانات</string>
+
     </resources>

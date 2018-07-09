@@ -1,18 +1,18 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<resources><string name="action_management"/>
+<resources><string name="action_management">Management</string>
 
     <string name="action_settings">settings</string>
-    <string name="action_search"/>
-    <string name="press_back_key_quit"/>
+    <string name="action_search">Search</string>
+    <string name="press_back_key_quit">Press back key once again and quit.</string>
 
-    <string name="featured"/>
-    <string name="recommend"/>
-    <string name="games"/>
-    <string name="apps"/>
-    <string name="categories"/>
-    <string name="updates"/>
+    <string name="featured">Featured</string>
+    <string name="recommend">Discover</string>
+    <string name="games">Games</string>
+    <string name="apps">Apps</string>
+    <string name="categories">Categories</string>
+    <string name="updates">Updates</string>
 
-    <string name="load_failed_empty"/>
+    <string name="load_failed_empty">There is nothing here.</string>
     <string name="load_failed_no_results"/>
     <string name="refresh"/>
 
@@ -39,4 +39,8 @@
     <string name="want_to_delete_all_files"/>
     <string name="file_has_been_deleted"/>
     <string name="failed_to_delete_file"/>
+    <string name="something_happened">&gt;_&lt;
+\nSomething happened.</string>
+    <string name="load_failed_error">Oops! An error occurred.</string>
+    <string name="load_failed_error_not_found">App Not Listed in APKPure App Store！</string>
     </resources>

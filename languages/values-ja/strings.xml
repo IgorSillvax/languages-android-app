@@ -23,37 +23,37 @@
     <string name="refresh">更新</string>
 
     <string name="management">管理</string>
-    <string name="app_updates">更新</string>
-    <string name="app_management">アプリの管理</string>
+    <string name="app_updates">アプリ更新</string>
+    <string name="app_management">インストール済み</string>
     <string name="app_uninstall">アンインストール</string>
     <string name="apk_management">APKファイルの管理</string>
     <string name="apk_xapk_management">APK / XAPKファイルの管理</string>
     <string name="download_management">ダウンロードの管理</string>
-    <string name="settings">設定</string>
+    <string name="settings">セッティング</string>
     <string name="about">APKPureについて</string>
-    <string name="about_title"><xliff:g id="app_name" example="APKPure">%1$s</xliff:g>について</string>
+    <string name="about_title"><xliff:g example="APKPure" id="app_name">%1$s</xliff:g>について</string>
 
-    <string name="about_message">
-        <![CDATA[<b>バージョン:</b> %1$s<br><br><b>Webサイト:</b> <a href="%2$s">%2$s</a><br><b>メール:</b> <a href="mailto:%3$s">%3$s</a>]]>
-    </string>
-    <string name="check_update">アップデートのチェック</string>
+    <string name="about_message">"
+\n &lt;b&gt;バージョン:&lt;/b&gt; %1$s&lt;br&gt;&lt;br&gt;&lt;b&gt;公式サイト:&lt;/b&gt; &lt;a href=%2$s&gt;%2$s&lt;/a&gt;&lt;br&gt;&lt;b&gt;電子メール：&lt;/b&gt; &lt;a href=mailto:%3$s&gt;%3$s&lt;/a&gt;
+\n "</string>
+    <string name="check_update">アップデートをチェックする</string>
     <string name="quit">終了</string>
-    <string name="want_to_quit">本当に終了しますか?</string>
+    <string name="want_to_quit">本当に終了してもよろしいですか？</string>
 
     <string name="install">インストール</string>
     <string name="open">開く</string>
     <string name="delete">削除</string>
     <string name="want_to_delete_file">ファイルを削除しますか?</string>
     <string name="file_has_been_deleted">ファイルは既に削除されています。</string>
-    <string name="failed_to_delete_file">ファイルの削除に失敗しました。</string>
-    <string name="install__label_"><xliff:g id="app_label" example="APKPure">%1$s</xliff:g>をインストール</string>
+    <string name="failed_to_delete_file">ファイルを削除できませんでした。</string>
+    <string name="install__label_">インストール - <xliff:g example="APKPure" id="app_label">%1$s</xliff:g></string>
     <string name="user_canceled">ユーザによってキャンセルされました。</string>
-    <string name="io_error">エラーが発生しました。端末の空き容量を確認してください。</string>
-    <string name="file_format_error">ファイル形式にエラーがあります。</string>
-    <string name="parsing_xapk">XAPKを解析します</string>
-    <string name="installing_obb">OBBファイルをインストールします</string>
-    <string name="extracting_apk">APKファイルを取り出します</string>
-    <string name="installing_apk">APKをインストールします</string>
+    <string name="io_error">IO エラーです。インストールを成功させるための十分な空き領域がない可能性があります。</string>
+    <string name="file_format_error">ファイル形式のエラーです。</string>
+    <string name="parsing_xapk">XAPKを解析しています…</string>
+    <string name="installing_obb">OBBファイルをインストールしています…</string>
+    <string name="extracting_apk">APKファイルを解凍しています…</string>
+    <string name="installing_apk">APKをインストールしています…</string>
 
     <string name="uninstall">アンインストール</string>
     <string name="uninstalled">アンインストールされました</string>
@@ -176,7 +176,7 @@
     <string name="contact_us__">問い合わせる…</string>
     <string name="report_content">コンテンツを報告</string>
 
-    <string name="delete_all">全て削除</string>
+    <string name="delete_all">すべて削除</string>
     <string name="properties">プロパティ</string>
     <string name="want_to_delete_all_files">すべてのファイルを削除しますか?</string>
     <string name="pause_all">すべて一時停止</string>
@@ -217,9 +217,9 @@
     <string name="_name__installation_completed"><xliff:g id="name" example="APKPure">%1$s</xliff:g>のインストールが完了しました</string>
     <string name="touch_to_open">タップして開く</string>
 
-    <string name="properties_message">
-        <![CDATA[<b>パッチ:</b> %1$s<br><b>サイズ:</b> %2$s<br><b>最終更新日:</b> %3$s]]>
-    </string>
+    <string name="properties_message">"
+\n &lt;b&gt;パス:&lt;/b&gt; %1$s&lt;br&gt;&lt;b&gt;サイズ:&lt;/b&gt; %2$s&lt;br&gt;&lt;b&gt;最終更新日:&lt;/b&gt; %3$s
+\n "</string>
     <string name="flag_as_inappropriate">このアプリを報告</string>
     <string name="update___count__">アップデート (<xliff:g id="count" example="3">%1$d</xliff:g>)</string>
     <string name="installed">インストール済み</string>
@@ -482,7 +482,7 @@
     <string name="recommend_required">*</string>
 
     <string name="check_update_replace">正式版</string>
-    <string name="check_update_beta">プレリリース版</string>
+    <string name="check_update_beta">プレリリース版（Beta版）</string>
     <string name="app_detail_comment_order_array_old">オールド</string>
 
     <string name="app_detail_comment_join_group_bt">グループ</string>

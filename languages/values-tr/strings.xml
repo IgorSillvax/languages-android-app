@@ -327,7 +327,7 @@ Yukarıdaki özellikler Android 4.1+ sürümlerde desteklenmektedir, root erişi
     <string name="publish">Gönderi</string>
     <string name="reply_dialog_marked_words">Seçilen resmi silmek için uzun bas.</string>
     <string name="reply_comment">Yorumu yanıtla</string>
-    <string name="save_original_image">Orijinal resmi koru</string>
+    <string name="save_original_image">Kaydet</string>
     <string name="already_save">Kaydedildi<xliff:g id="path" example="ApKPure/photo">%1$s</xliff:g></string>
 
     <string name="load_end">Daha fazla veri yok</string>
@@ -521,7 +521,7 @@ ile ilgili yorumlar <xliff:g example="APKPure" id="app_name">%2$s</xliff:g> (fro
     <string name="collection">Favoriler</string>
 
     <string name="comments">Yorumlar</string>
-    <string name="follow">Takip ediliyor</string>
+    <string name="follow">Takip edilen</string>
     <string name="attention_on">Takip ediliyor</string>
     <string name="attention_off">Takip et</string>
     <string name="no_attention">Henüz takip edilen grup yok.</string>
@@ -653,5 +653,67 @@ ile ilgili yorumlar <xliff:g example="APKPure" id="app_name">%2$s</xliff:g> (fro
     <string name="market_ad_tab_three">Araçlar</string>
     <string name="tag">Etiket</string>
 <string name="push_content_info_update">Yeni sürüm %s yayınlandı! Şimdi güncelleyin!</string>
+
+    <string name="data_saver_model_summery">Bunu açmak daha az hücresel veri kullanmak için resim boyutunu ve kalitesini azaltır.</string>
+    <string name="scan_qr_code_result_hint">QR kod detayları:</string>
+    <string name="user_info_edit_large_photo">Fotoğrafı daha büyük boyutta görüntüle</string>
+
+    <string name="update_intro_et">Kendin hakkında birkaç şey yaz</string>
+    <string name="update_intro_tv">Hakkımda alanı boş bırakılamaz</string>
+
+    <string name="set_open_source_licence">Açık Kaynak Lisansı</string>
+
+    <string name="push_title_info_update">APKPure Güncellemesi Geldi!</string>
+    <string name="push_title_info_at">Biri senden bahsetti, görüntülemek için dokun</string>
+
+    <string name="menu_copy_link">Linki kopyala</string>
+    <string name="ranking_top_countries_title">En İyi Ülkeler</string>
+    <string name="ranking_top_develop_title">En İyi Geliştiriciler</string>
+
+    <string name="web_view_copy">Bağlantıyı kopyala</string>
+
+    <string name="recommend_user_recommend_sys">APKPure Tarafından Öne Çıkarılanlar</string>
+
+    <string name="google_play_bug_text">Google Play\'de satın al</string>
+
+    <string name="app_detail_has_product">Öğeyi Satın Al</string>
+    <string name="app_detail_no_product">Satın Alınan Öğe Yok</string>
+    <string name="app_detail_has_ad">Reklam İçerir</string>
+    <string name="hot_tag_explain">Bu uygulama için mevcut etiketleri ekle veya puanla</string>
+    <string name="app_add_tag_hint_caution">Hiçbir uygulama %s den fazla etiket içeremez.</string>
+    <string name="Istop">Sabitlendi</string>
+    <string name="no_collect">Henüz favori yok!</string>
+    <string name="tab_apk">APK</string>
+    <string name="upload_notification_is_uploading">Paket APKPure\'a yükleniyor…</string>
+    <string name="upload_notification_is_pause">Yükleme duraklatıldı</string>
+    <string name="upload_add_list_toast">Başarılı!</string>
+    <string name="upload_add_file_list_toast">Uygulama yükleniyor. Lütfen sabırlı olun, teşekkürler!</string>
+
+    <string name="market_ad_title">Mağaza</string>
+    <string name="market_ad_tab_one">Öne Çıkan</string>
+    <string name="search_tab_name_one">Uygulamalar</string>
+    <string name="search_tab_name_two">Kullanıcı</string>
+    <string name="pre_register_ok">Tamam</string>
+    <string name="pre_register_bt">Ön Kayıt</string>
+    <string name="pre_register_now_bt">Ön Kayıt</string>
+    <string name="pre_register_link_title">Ön Kayıt Sayfası</string>
+    <string name="pre_register_gift_tv">Kayıt Ödülleri</string>
+    <string name="pre_register_success">Ön kayıt yapmak uygulama yayınlandığında cihazına bildirim geleceği anlamına gelir.</string>
+
+    <string name="open_page_failed">Sayfayı açma işlemi başarız oldu!</string>
+    <string name="search_for_user">Ara</string>
+    <string name="search_user_history_title">En son iletişim kurulanlar</string>
+    <string name="search_focus_list_title">Takip edildi</string>
+
+    <string name="copy_username">Nick\'i kopyala</string>
+    <string name="copy_content">İçeriği Kopyala</string>
+
+    <string name="tab_global">Öne Çıkan</string>
+    <string name="comment_list_see_here">En son ziyaret edilenler burda, yenilemek için dokun</string>
+    <string name="comment_list_new_num">%d Yeni hikayeler</string>
+
+    <string name="tab_popular">Popüler</string>
+    <string name="count_down_timer_tv">%ds</string>
+    <string name="count_down_timer_btn">Geç</string>
 
     </resources>
