@@ -1,2 +1,85 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources></resources>
+<?xml version='1.0' encoding='UTF-8'?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2"><string name="action_settings">அமைப்புகள்</string>
+    <string name="action_search">தேடல்</string>
+    <string name="action_management">மேலாண்மை</string>
+
+    <string name="press_back_key_quit">பின்செல் விசையை மீண்டும் அழுத்தி வெளியேறவும்.</string>
+
+    <string name="featured">சிறந்தவை</string>
+    <string name="recommend">உலாவு</string>
+    <string name="games">விளையாட்டுக்கள்</string>
+    <string name="apps">செயலிகள்</string>
+    <string name="categories">வகைகள்</string>
+    <string name="updates">மேம்பாடுகள்</string>
+
+    <string name="something_happened">&gt;_&lt;
+\nஏதோ நடந்துவிட்டது.</string>
+    <string name="load_failed_error">அச்சச்சோ! பிழை ஏற்பட்டது.</string>
+    <string name="load_failed_error_not_found">செயலி APKPure ஆப் ஸ்டோரில் பட்டியலிடவில்லை!</string>
+    <string name="load_failed_empty">இங்கே எதுவும் இல்லை.</string>
+    <string name="load_failed_all_up_to_date">எல்லா செயலிகளும் மேப்படுத்தப்பட்டுள்ளன.</string>
+    <string name="load_failed_no_results">மன்னிக்கவும்! முடிவுகள் எதுவும் இல்லை.</string>
+    <string name="refresh">மீள்ஏற்று</string>
+
+    <string name="management">மேலாண்மை</string>
+    <string name="app_updates">செயலி மேம்பாடுகள்</string>
+    <string name="app_management">நிறுவப்பட்டது</string>
+    <string name="app_uninstall">செயலி நிறுவல்நீக்கு</string>
+    <string name="apk_management">APK மேலாண்மை</string>
+    <string name="apk_xapk_management">APK / XAPK மேலாண்மை</string>
+    <string name="download_management">பதிவிறக்க மேலாண்மை</string>
+    <string name="settings">அமைப்புகள்</string>
+    <string name="about">பற்றி</string>
+
+
+    <string name="about_title"><xliff:g example="APKPure" id="app_name">%1$s</xliff:g> பற்றி</string>
+    <string name="about_message">&lt;b&gt;பதிப்பு:&lt;/b&gt; %1$s&lt;br&gt;&lt;br&gt;&lt;b&gt;இணையதளம்:&lt;/b&gt; &lt;a href=%2$s&gt;%2$s&lt;/a&gt;&lt;br&gt;&lt;b&gt;மின்னஞ்சல்:&lt;/b&gt; &lt;a href=mailto:%3$s&gt;%3$s&lt;/a&gt;</string>
+    <string name="check_update">மேம்பாடு சோதி</string>
+    <string name="check_update_replace">உத்தியோகபூர்வ பதிப்பு</string>
+    <string name="check_update_beta">வெளியீட்டுக்கு முந்தய பதிப்பு</string>
+    <string name="beta">சோதனைப்பதிப்பு</string>
+    <string name="quit">வெளியேறு</string>
+    <string name="want_to_quit">வெளியேற விரும்புகிறீர்களா?</string>
+
+    <string name="install">நிறுவு</string>
+    <string name="open">திற</string>
+    <string name="delete">நீக்கு</string>
+    <string name="delete_all">அனைத்தும் நீக்கு</string>
+    <string name="properties">பண்புகள்</string>
+    <string name="properties_message">&lt;b&gt;Path:&lt;/b&gt; %1$s&lt;br&gt;&lt;b&gt;Size:&lt;/b&gt; %2$s&lt;br&gt;&lt;b&gt;இறுதி மாற்றம்:&lt;/b&gt; %3$s</string>
+    <string name="properties_message_v2">&lt;b&gt;செயலி பெயர்:&lt;/b&gt; %1$s&lt;br&gt;&lt;b&gt;பதிப்பு:&lt;/b&gt; %2$s&lt;br&gt;&lt;b&gt;Path:&lt;/b&gt; %3$s&lt;br&gt;&lt;b&gt;Size:&lt;/b&gt; %4$s&lt;br&gt;&lt;b&gt;இறுதி மாற்றம்:&lt;/b&gt; %5$s</string>
+    <string name="want_to_delete_file">இந்த கோப்பை நீக்க விரும்புகிறீர்களா?</string>
+    <string name="want_to_delete_all_files">அனைத்து கோப்புக்களையும் நீக்க விரும்புகிறீர்களா?</string>
+    <string name="file_has_been_deleted">கோப்பு நீக்கப்பட்டது.</string>
+    <string name="failed_to_delete_file">கோப்பை நீக்க முடியவில்லை.</string>
+    <string name="install__label_">நிறுவு - <xliff:g example="APKPure" id="app_label">%1$s</xliff:g></string>
+    <string name="user_canceled">பயனரால் இரத்தானது.</string>
+    <string name="io_error">IO பிழை. நிறுவலுக்கு போதுமான இடைவெளி இல்லை.</string>
+    <string name="file_format_error">கோப்பு வடிவமைப்பு பிழை.</string>
+    <string name="parsing_xapk">XAPK பாகுபடுத்தல்…</string>
+    <string name="installing_obb">OBB கோப்புக்களை நிறுவுகிறது…</string>
+    <string name="extracting_apk">APK கோப்புக்களை விரிக்கிறது…</string>
+    <string name="installing_apk">APK நிறுவுகிறது…</string>
+
+    <string name="uninstall">நிறுவல்நீக்கு</string>
+    <string name="uninstalled">நிறுவல்நீக்கப்பட்டது</string>
+    <string name="last_update__date_">கடைசி மேம்பாடு: <xliff:g id="date">%1$s</xliff:g></string>
+
+    <string name="all">அனைத்தும்</string>
+
+    <string name="screenshots">திரைக்காட்சிகள்</string>
+    <string name="description">விளக்கம்</string>
+    <string name="whatsnew">புதியது எவை</string>
+    <string name="information">தகவல்</string>
+    <string name="version_">பதிப்பு:</string>
+    <string name="updated_">மேம்படுத்தியது:</string>
+    <string name="size_">அளவு:</string>
+    <string name="permissions_">அனுமதிகள்:</string>
+    <string name="type_">வகை:</string>
+    <string name="category_">வகை:</string>
+    <string name="more">மேலும்</string>
+    <string name="permissions">அனுமதிகள்</string>
+    <string name="apk">APK</string>
+    <string name="xapk">XAPK</string>
+    <string name="_ellipsis_"> … </string>
+    </resources>
