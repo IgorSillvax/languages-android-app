@@ -6,7 +6,7 @@
 
     <string name="press_back_key_quit">Ponovno pritisnite tipko nazaj in zaprite.</string>
 
-    <string name="featured">Predstavljeni</string>
+    <string name="featured">Predstavljeno</string>
     <string name="recommend">Odkrijte</string>
     <string name="apps">Aplikacije</string>
     <string name="categories">Kategorije</string>
@@ -32,9 +32,7 @@ Nekaj se je zgodilo.</string>
     <string name="about">O nas</string>
 
 
-    <string name="about_title">O nas
-
-<xliff:g example="APKPure" id="app_name"/></string>
+    <string name="about_title">Vizitka <xliff:g primer="APKPure" id="app_name"/></string>
     <string name="about_message">"&lt;b&gt;Različica:&lt;/b&gt; %1$s&lt;br&gt;&lt;br&gt;&lt;b&gt;Spletna stran:&lt;/b&gt; &lt;a href=%2$s&gt;%2$s&lt;/a&gt;&lt;br&gt;&lt;b&gt;E-pošta:&lt;/b&gt; &lt;a href=mailto:%3$s&gt;%3$s&lt;/a&gt;
 \n "</string>
     <string name="check_update">Preveri posodobitve</string>
@@ -159,9 +157,7 @@ Nekaj se je zgodilo.</string>
     <string name="clear_search_history">Počisti vso zgodovino</string>
 
     <string name="improvement_plan_title">Načrt izboljšanja učinkovitosti</string>
-    <string name="improvement_plan_message">
- Pomagajte nam z oddajo informacij o napravi Android, Ne <b>zbiramo </b>osebnih podatkov (ime, naslov, e-poštni naslov, številka socialnega zavarovanja, ali druge posebne identifikatorje).
- </string>
+    <string name="improvement_plan_message">Pomagajte nam z oddajo informacij o napravi Android. <b>Ne zbiramo</b>osebnih podatkov (ime, naslov, e-poštni naslov, številka socialnega zavarovanja, ali drugih posebnih identifikatorjev).</string>
     <string name="join_us">Pridruži se nam</string>
     <string name="skip">Preskoči</string>
 
@@ -193,18 +189,12 @@ Podrobnosti težave:
     <string name="invalid_app_asset">Neveljavne informacije o sredstvih aplikacije.</string>
     <string name="failed_to_request_app_detail">Spodletela zahteva o podrobnostih aplikacije.</string>
     <string name="failed_to_request_app_asset">Spodletela prošnja za informacije o sredstvih aplikacij.</string>
-    <string name="incompatible_this_app">"&lt;big&gt;&lt;b&gt;&lt;font color=%1$d&gt;Vaša naprava ni združljiva s to aplikacijo.&lt;/font&gt;&lt;/b&gt;&lt;/big&gt;&lt;br&gt;&lt;br&gt;Želite nadaljevati?
-\n "</string>
-    <string name="this_app_not_usable">"&lt;big&gt;&lt;b&gt;&lt;font color=%1$d&gt;Ta aplikacija morda ni uporabna.&lt;/font&gt;&lt;/b&gt;&lt;/big&gt;&lt;br&gt;&lt;br&gt;Želite nadaljevati?
-\n "</string>
+    <string name="incompatible_this_app">&lt;big&gt;&lt;b&gt;&lt;font color=%1$d&gt;Vaša naprava ni združljiva s to aplikacijo.&lt;/font&gt;&lt;/b&gt;&lt;/big&gt;&lt;br&gt;&lt;br&gt;Ali želite nadaljevati?</string>
+    <string name="this_app_not_usable">&lt;big&gt;&lt;b&gt;&lt;font color=%1$d&gt;Ta aplikacija morda ni uporabna.&lt;/font&gt;&lt;/b&gt;&lt;/big&gt;&lt;br&gt;&lt;br&gt;Ali želite nadaljevati?</string>
 
     <string name="setting">Nastavitev</string>
-    <string name="external_storage_not_usable">
- <big><b>Potrebujemo dostop do vaše zunanje shrambe. Prepričajte se, da je uporabna.</b></big>
- </string>
-    <string name="external_storage_permission_denied">
- <big><b>Potrebujem dostop do vaše zunanje shrambe. Prepričajte se, da se dovoljenje ne zavrne.</b></big>
- </string>
+    <string name="external_storage_not_usable"><big><b>Potrebujemo dostop do vaše zunanje shrambe. Prepričajte se, da je uporabna.</b></big> </string>
+    <string name="external_storage_permission_denied"><big><b>Potrebujem dostop do vaše zunanje shrambe. Prepričajte se, da se dovoljenje ne zavrne.</b></big> </string>
 
     <string name="share">Delite</string>
     <string name="share_app_url">
