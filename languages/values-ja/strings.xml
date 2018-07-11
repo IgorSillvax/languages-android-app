@@ -168,7 +168,7 @@
     </string>
 
     <string name="share">シェア</string>
-    <string name="share_app_url">シェア<xliff:g id="app_name" example="APKPure">%1$s</xliff:g> APK (from @<xliff:g id="social_network_name" example="APKPure">%2$s</xliff:g>), <xliff:g id="app_url" example="https://apkpure.com/p/com.apkpure.aegon">%3$s</xliff:g></string>
+    <string name="share_app_url"> シェア<xliff:g example="APKPure" id="app_name">%1$s</xliff:g>APK (from <xliff:g example="APKPure" id="social_network_name">%2$s</xliff:g>) <xliff:g example="https://apkpure.com/p/com.apkpure.aegon" id="app_url">%3$s</xliff:g></string>
 
     <string name="_name__version_history"><xliff:g id="name" example="APKPure">%1$s</xliff:g>以前バージョン</string>
     <string name="update__date___size_">アップデート: <xliff:g id="date" example="Mar 3, 2016">%1$s</xliff:g>, <xliff:g id="size" example="1024 kB">%2$s</xliff:g></string>
@@ -716,4 +716,5 @@
     <string name="comment_list_see_here">前回アクセスしたページはこちらです。タップして更新します。</string>
     <string name="comment_list_new_num">％d新しいストーリー</string>
     <string name="tab_popular">人気</string>
-</resources>
+<string name="properties_message_v2">&lt;b&gt;パッケージ名:&lt;/b&gt; %1$s&lt;br&gt;&lt;b&gt;バージョン:&lt;/b&gt; %2$s&lt;br&gt;&lt;b&gt;パス:&lt;/b&gt; %3$s&lt;br&gt;&lt;b&gt;サイズ:&lt;/b&gt; %4$s&lt;br&gt;&lt;b&gt;最終更新日:&lt;/b&gt; %5$s</string>
+    </resources>
