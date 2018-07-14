@@ -192,7 +192,7 @@ Detalhe do problema:
  </string>
 
     <string name="share">Compartilhar</string>
-    <string name="share_app_url">Compartilhar <xliff:g example="APKPure" id="app_name">%1$s</xliff:g> APK (Através do @<xliff:g example="APKPure" id="social_network_name">%2$s</xliff:g>) <xliff:g example="https://apkpure.com/p/com.apkpure.aegon" id="app_url">%3$s</xliff:g></string>
+    <string name="share_app_url"> Compartilhar <xliff:g example="APKPure" id="app_name">%1$s</xliff:g> APK (Através do <xliff:g example="APKPure" id="social_network_name">%2$s</xliff:g>) <xliff:g example="https://apkpure.com/p/com.apkpure.aegon" id="app_url">%3$s</xliff:g></string>
 
     <string name="_name__version_history"><xliff:g example="APKPure" id="name">
 %1$s</xliff:g> Histórico de Versões</string>
@@ -209,16 +209,13 @@ Detalhe do problema:
     <string name="deselect_all">Desmarcar todos</string>
     <string name="ignored">Ignorado</string>
     <plurals name="total__count__apps__size_">
-	<item quantity="one">"
- Total: &lt;b&gt;&lt;font cor=%1$d&gt;%2$d&lt;/font&gt;&lt;/b&gt; app, &lt;b&gt;&lt;font color=%1$d&gt;%3$s&lt;/font&gt;&lt;/b&gt;
- "</item>
-	<item quantity="other">"
- Total: &lt;b&gt;&lt;font cor=%1$d&gt;%2$d&lt;/font&gt;&lt;/b&gt; apps, &lt;b&gt;&lt;font color=%1$d&gt;%3$s&lt;/font&gt;&lt;/b&gt;
- "</item>
+	<item quantity="one">"Total: &lt;b&gt;&lt;font cor=%1$d&gt;%2$d&lt;/font&gt;&lt;/b&gt; app, &lt;b&gt;&lt;font color=%1$d&gt;%3$s&lt;/font&gt;&lt;/b&gt;
+\n "</item>
+	<item quantity="other">"Total: &lt;b&gt;&lt;font cor=%1$d&gt;%2$d&lt;/font&gt;&lt;/b&gt; apps, &lt;b&gt;&lt;font color=%1$d&gt;%3$s&lt;/font&gt;&lt;/b&gt;
+\n "</item>
 </plurals>
-    <string name="total_zero_app">"
- Total: &lt;b&gt;&lt;font cor=%1$d&gt;0&lt;/font&gt;&lt;/b&gt; app
- "</string>
+    <string name="total_zero_app">"Total: &lt;b&gt;&lt;font cor=%1$d&gt;0&lt;/font&gt;&lt;/b&gt; app
+\n "</string>
     <string name="general">Geral</string>
     <string name="language">Idioma</string>
     <string name="auto">Automático</string>
@@ -277,7 +274,7 @@ Detalhe do problema:
 
     <string name="app_detail_customer_reviews">Comentários</string>
     <string name="app_detail_comment_type_web">Internet</string>
-    <string name="app_submit_submit">Enviar…</string>
+    <string name="app_submit_submit">Postando…</string>
     <string name="app_submit_anonymous_comment">Adicionar um comentário</string>
     <string name="app_submit_title_toast">Você deve escrever o título!</string>
     <string name="app_submit_msg_toast">Você deve escrever algo!</string>
@@ -288,7 +285,7 @@ Detalhe do problema:
     <string name="app_submit_msg_hint">Por favor escreva sua opinião</string>
     <string name="app_submit_nickname">Apelido</string>
     <string name="app_submit_email">Email</string>
-    <string name="app_submit_submit_title">Enviar</string>
+    <string name="app_submit_submit_title">Postar</string>
     <string name="app_submit_reply_to">Responder a</string>
 
     <string name="app_detail_tab_one">Detalhes</string>
@@ -309,7 +306,7 @@ Que é necessário para escanear o código QR.</string>
     <string name="zxing_msg_parser_status">O escaneamento falhou, tente escanear o código QR novamente.</string>
     <string name="recommend">Recomendado</string>
     <string name="report">Relatório</string>
-    <string name="share_app_url_comment"> <xliff:g example="APKPure" id="user_name">%1$s</xliff:g>\'s comments on <xliff:g example="APKPure" id="app_name">%2$s</xliff:g> : <xliff:g example="APKPure" id="app_name">%3$s</xliff:g> (Através do @<xliff:g example="APKPure" id="social_network_name">%4$s</xliff:g>) <xliff:g example="https://apkpure.com/p/com.apkpure.aegon" id="app_url">%5$s</xliff:g></string>
+    <string name="share_app_url_comment"> <xliff:g example="APKPure" id="user_name">%1$s</xliff:g>\'s comments on <xliff:g example="APKPure" id="app_name">%2$s</xliff:g> : <xliff:g example="APKPure" id="app_name">%3$s</xliff:g> (Através do <xliff:g example="APKPure" id="social_network_name">%4$s</xliff:g>) <xliff:g example="https://apkpure.com/p/com.apkpure.aegon" id="app_url">%5$s</xliff:g></string>
 
     <string name="app_detail_reply_comment">Comentário(%d)</string>
     <string name="app_detail_reply_esc">Sequência positiva</string>
@@ -409,7 +406,7 @@ Que é necessário para escanear o código QR.</string>
     <string name="user_password_error">Esta senha é inválida</string>
     <string name="user_confirm_error">As senhas devem corresponder</string>
 
-    <string name="login_user_name">Nome de usuário</string>
+    <string name="login_user_name">Nome de usuário ou Email</string>
     <string name="login_user_password">Senha</string>
     <string name="login_user_sign_in">Entrar</string>
     <string name="login_choose">Ou entre com sua conta</string>
@@ -422,7 +419,7 @@ Que é necessário para escanear o código QR.</string>
     <string name="app_detail_comment_order_array_most_recent">Mais recente</string>
     <string name="app_detail_comment_order_array_new">O mais novo</string>
     <string name="message_all">TODOS</string>
-    <string name="message_reply">RESPOSTAS</string>
+    <string name="message_reply">COMENTÁRIOS</string>
     <string name="message_praise">Curtidas</string>
     <string name="message_notifications_praise">Curtida ao seu comentário</string>
     <string name="message_notifications_reply">Respondeu o seu comentário</string>
@@ -431,8 +428,8 @@ Que é necessário para escanear o código QR.</string>
     <string name="comment_submitting">Enviando…</string>
     <string name="message">Mensagem</string>
 
-    <string name="push_title_info_reply">%s respondeu o seu comentário!</string>
-    <string name="push_title_info_upvoted">%s Curtiu o seu comentário!</string>
+    <string name="push_title_info_reply">%1$s respondeu o seu comentário!</string>
+    <string name="push_title_info_upvoted">%1$s Curtiu o seu comentário!</string>
     <string name="download_list">Lista de download</string>
     <string name="can_be_update">Pode ser atualizado</string>
     <string name="install_list">Instalado</string>
@@ -545,7 +542,7 @@ Que é necessário para escanear o código QR.</string>
     <string name="collection_comment">Postagens</string>
     <string name="collection_app">APLICATIVOS</string>
 
-    <string name="open_with_browser">Abrir com o navegador</string>
+    <string name="open_with_browser">Abrir com navegadores</string>
     <string name="web_view_refresh">Atualizar</string>
 
     <string name="topic_red_color">Vermelho</string>
@@ -577,12 +574,12 @@ Que é necessário para escanear o código QR.</string>
 2. Você só pode recomendar os aplicativos atualmente instalados em seu dispositivo Android.
 
 3. Notificar o APKPure para adicionar aplicativos não indexados, por favor conclua os formulários de recomendação primeiro.</string>
-    <string name="recommend_user_recommend">Recomendado por %s</string>
+    <string name="recommend_user_recommend">Recomendado por %1$s</string>
     <string name="recommend_required">* Obrigatório</string>
 
     <string name="download_mkdir">Caminho do download</string>
     <string name="download_mkdir_internal_storage_size_des">Livre, Total</string>
-    <string name="download_mkdir_internal_storage_entries">"SD "</string>
+    <string name="download_mkdir_internal_storage_entries">SD Card</string>
     <string name="download_mkdir_internal_storage_entries1">SD 1</string>
     <string name="download_mkdir_external_storage_fill_toast">Um armazenamento insuficiente disponível pode fazer com que você não possa baixar nenhum aplicativo.</string>
 
@@ -590,18 +587,18 @@ Que é necessário para escanear o código QR.</string>
     <string name="download_mkdir_external_storage_values">memória_externa</string>
 
     <string name="recommend_not_found">Não indexado</string>
-    <string name="recommend_not_fount_info">Notificar APKPure para adicionar \"% s\", você precisa terminar os formulários.</string>
+    <string name="recommend_not_fount_info">Notificar APKPure para adicionar \"%1$s\", você precisa terminar os formulários.</string>
 
     <string name="user_detail_focus">Seguindo</string>
-    <string name="user_detail_fans">Seguidor</string>
+    <string name="user_detail_fans">Seguidores</string>
     <string name="user_detail_praise">Curtidas</string>
     <string name="user_detail_tab_detail">Postagens</string>
-    <string name="user_detail_tab_reply">Respostas</string>
+    <string name="user_detail_tab_reply">Comentários</string>
 
     <string name="user_focus_tab_users">Pessoas</string>
     <string name="user_focus_tab_apps">Grupos</string>
     <string name="user_focus_title_my">Meus seguidores</string>
-    <string name="user_focus_title">Seguido por</string>
+    <string name="user_focus_title">Seguido por %1$s</string>
 
     <string name="goto_google_play">Comprar</string>
 
@@ -617,7 +614,7 @@ Que é necessário para escanear o código QR.</string>
 
     <string name="history_version">Histórico de versões</string>
 
-    <string name="share_app_url_group"> <xliff:g example="APKPure" id="app_name">%1$s</xliff:g> Grupo. (Através do @<xliff:g example="APKPure" id="social_network_name">%2$s</xliff:g>) <xliff:g example="https://apkpure.com/p/com.apkpure.aegon" id="app_url">%3$s</xliff:g></string>
+    <string name="share_app_url_group"> <xliff:g example="APKPure" id="app_name">%1$s</xliff:g> Grupo. (Através do <xliff:g example="APKPure" id="social_network_name">%2$s</xliff:g>) <xliff:g example="https://apkpure.com/p/com.apkpure.aegon" id="app_url">%3$s</xliff:g></string>
 
     <string name="data_saver_model">Economizador de dados</string>
     <string name="data_saver_model_summery">Ativar isso reduzirá o tamanho e a qualidade da imagem para ajudar a usar menos dados do celular.</string>
@@ -628,9 +625,9 @@ Que é necessário para escanear o código QR.</string>
 
     <string name="user_info_edit_large_photo">Ver foto em tamanho maior</string>
 
-    <string name="push_title_info_follow">%s Seguiu você!</string>
+    <string name="push_title_info_follow">%1$s Seguiu você!</string>
     <string name="push_title_info_update">A atualização do APKPure chegou!</string>
-    <string name="push_content_info_update">Nova versão %s lançada! Atualize agora!</string>
+    <string name="push_content_info_update">Nova versão %1$s lançada! Atualize agora!</string>
 
     <string name="recommend_user_recommend_sys">Apresentado pelo APKPure</string>
 
@@ -642,7 +639,7 @@ Que é necessário para escanear o código QR.</string>
     <string name="tag_list">Lista de Tags</string>
     <string name="hot_tag">Tags em alta</string>
     <string name="common_use">Minhas Tags</string>
-    <string name="app_add_tag_hint_caution">Não há mais de %s tags para cada aplicativo.</string>
+    <string name="app_add_tag_hint_caution">Não há mais de %1$s tags para cada aplicativo.</string>
     <string name="app_add_tag">Adicione uma nova tag</string>
     <string name="toast_app_tag_exist">Tag já existe!</string>
     <string name="there_is_no_label">Sem tags.</string>
@@ -663,18 +660,18 @@ Que é necessário para escanear o código QR.</string>
     <string name="add_tag">Adicionar tags</string>
     <string name="error_add_tag">Falha ao adicionar tags</string>
     <string name="no_collect">Ainda não há favoritos!</string>
-    <string name="no_comment">Seja o primeiro a adicionar um comentário!</string>
+    <string name="no_comment">Seja o primeiro a adicionar um post!</string>
 
     <string name="share_apk">Compartilhar APK</string>
     <string name="tab_apk">APK</string>
     <string name="commentaries">Compartilhar postagem</string>
 
-    <string name="upload_apk_version">V %s</string>
-    <string name="upload_apk_downloads">Downloads: %s</string>
+    <string name="upload_apk_version">V %1$s</string>
+    <string name="upload_apk_downloads">Downloads: %1$s</string>
 
-    <string name="upload_comment_uploading">%s está carregando…</string>
-    <string name="upload_comment_upload_success">%s Carregamento completo</string>
-    <string name="upload_comment_upload_failed">%s Falha no carregamento</string>
+    <string name="upload_comment_uploading">%1$s Está carregando…</string>
+    <string name="upload_comment_upload_success">%1$s Carregamento completo</string>
+    <string name="upload_comment_upload_failed">%1$s Falha no carregamento</string>
     <string name="upload_comment_view">Clique para ver</string>
     <string name="upload_comment_reload">Toque para carregar de novo</string>
     <string name="upload_notification_pause">Pausa</string>
@@ -714,7 +711,7 @@ Que é necessário para escanear o código QR.</string>
     <string name="pre_registered_bt">Registrado</string>
     <string name="pre_register_link_title">Página de pré-registro</string>
     <string name="pre_register_gift_tv">Registrar Recompensas</string>
-    <string name="pre_register_person_num_tv">Pré-registrantes: %s</string>
+    <string name="pre_register_person_num_tv">Pré-Registros: %1$s</string>
     <string name="pre_register_success">O pré-registro significa que você receberá uma notificação em seu dispositivo quando o aplicativo for lançado.</string>
 
     <string name="open_page_failed">Falha ao abrir a página!</string>
@@ -733,4 +730,71 @@ Que é necessário para escanear o código QR.</string>
     <string name="comment_list_see_here">Última visita aqui, toque para atualizar</string>
     <string name="comment_list_new_num">%d Novas Histórias</string>
 <string name="tab_popular">POPULAR</string>
+<string name="properties_message_v2">&lt;b&gt;Nome do pacote:&lt;/b&gt; %1$s&lt;br&gt;&lt;b&gt;Versão:&lt;/b&gt; %2$s&lt;br&gt;&lt;b&gt;Path:&lt;/b&gt; %3$s&lt;br&gt;&lt;b&gt;Tamanho:&lt;/b&gt; %4$s&lt;br&gt;&lt;b&gt;Última modificação:&lt;/b&gt; %5$s</string>
+    <string name="app_detail_tab_evaluation">Análises</string>
+    <string name="app_detail_comment_filter_sort_score">Mais votado</string>
+    <string name="app_detail_comment_filter_all">Todas análises</string>
+    <string name="app_detail_comment_filter_version">Última versão</string>
+    <string name="app_detail_comment_score_less">Poucas classificações de usuários</string>
+    <string name="app_detail_comment_no_data">Nenhuma classificação de usuários encontrada, adicione sua classificação agora.</string>
+    <string name="app_detail_comment_score_footer">Há %1$s de avaliações em outros idiomas.</string>
+    <string name="app_detail_evaluation_tool_bar_title">Compartilhar um comentário</string>
+    <string name="app_detail_evaluation_failed_bt">Análise</string>
+
+    <string name="app_detail_comment_order_array_good">4 - 5</string>
+    <string name="app_detail_comment_order_array_bad">1 - 3</string>
+    <string name="app_detail_folded_footer_reviews">ver todos os %d de comentários dobrados</string>
+    <string name="app_detail_folded_footer_posts">ver todos os %d de postagens dobradas</string>
+    <string name="app_detail_discuss_filter_featured">Destaques</string>
+    <string name="app_detail_discuss_filter_folded">Guardada</string>
+
+
+    <string name="message_notify">Notificações</string>
+    <string name="menu_copy_link">Copiar link</string>
+    <string name="web_view_copy">Copiar link</string>
+
+    <string name="filter_no_comment">Ooops! Nenhum tal conteúdo!!</string>
+
+    <string name="follow_floating_action_button">Criar novo momento</string>
+
+    <string name="count_down_timer_tv">%ds</string>
+    <string name="count_down_timer_btn">Pular</string>
+
+    <string name="choice_evaluate">Comentários em destaque</string>
+    <string name="choice_comment">Postagens Recomendadas</string>
+    <string name="emoji_input_error_hint">Comentários emoji não são mais permitidos! Escreva algo…</string>
+    <string name="load_all_choice_evaluate">Ver todos os comentários</string>
+    <string name="load_all_choice_comment">Ver todas as postagens</string>
+    <string name="my_reservation_and_collection">Pré-registro e favorito</string>
+    <string name="upload_apk">Carregar APK</string>
+    <string name="developer_badge_explanation">Explicação do emblema do desenvolvedor</string>
+
+    <string name="from_user_recommendation">Recomendações dos Usuários</string>
+    <string name="topics">Tópico</string>
+    <string name="pre_register_game">Pré-registro</string>
+    <string name="editors_picks">Escolha dos editores</string>
+    <string name="recommend_game">Recomendar jogo</string>
+
+    <string name="bing_share_account">Conecte-se a uma conta de terceiros</string>
+    <string name="un_bind">Não conectado</string>
+    <string name="login_out_message_hint">Tem certeza que deseja sair?</string>
+    <string name="bind_email_title">Conecte seu email</string>
+    <string name="bind_email_tv">Conecte seu endereço de e-mail à sua conta para desbloquear os benefícios do login de e-mail, recuperação de senha, envio de postagens e muito mais.</string>
+    <string name="verification_code_tv">Um código de verificação foi enviado para seu endereço de e-mail%1$s</string>
+    <string name="verification_code_second_tv">Reenviar em %d s</string>
+    <string name="verification_code_resend_tv">Reenviar código de verificação</string>
+    <string name="send_verification_code_resend_tv">Enviar código de verificação</string>
+    <string name="bind_email_success">Conexão bem sucedida.</string>
+    <string name="update_email_tv">Verifique para atualizar seu endereço de email</string>
+    <string name="verification_code_tv_hint">Código de verificação</string>
+    <string name="verification_success_code_toast">Código de verificação enviado.</string>
+    <string name="verification_null_code_toast">Por favor, insira o código de verificação que você recebeu.</string>
+    <string name="unbind_email">Não conectado</string>
+    <string name="unbind_email_hint">Nenhum endereço de e-mail foi conectado à sua conta.</string>
+    <string name="menu_skip">Pular</string>
+
+    <string name="forget_password_tv">Esqueceu a senha?</string>
+    <string name="recover_password_title">Recuperação de senha</string>
+    <string name="email_address_hint_et">Insira seu email.</string>
+
 </resources>
