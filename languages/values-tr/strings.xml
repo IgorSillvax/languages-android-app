@@ -716,4 +716,50 @@ ile ilgili yorumlar <xliff:g example="APKPure" id="app_name">%2$s</xliff:g> (fro
     <string name="count_down_timer_tv">%ds</string>
     <string name="count_down_timer_btn">Geç</string>
 
-    </resources>
+    <string name="properties_message_v2">&lt;b&gt;Paket Adı:&lt;/b&gt; %1$s&lt;br&gt;&lt;b&gt;Sürüm:&lt;/b&gt; %2$s&lt;br&gt;&lt;b&gt;Dizin:&lt;/b&gt; %3$s&lt;br&gt;&lt;b&gt;Boyut:&lt;/b&gt; %4$s&lt;br&gt;&lt;b&gt;Son Düzenleme:&lt;/b&gt; %5$s</string>
+    <string name="app_detail_tab_evaluation">İncelemeler</string>
+    <string name="app_detail_comment_filter_sort_score">En çok oy alan</string>
+    <string name="app_detail_comment_filter_all">Tüm İncelemeler</string>
+    <string name="app_detail_comment_filter_version">En son sürüm</string>
+    <string name="app_detail_comment_score_less">Çok az kullanıcı derecelendirmesi</string>
+    <string name="app_detail_comment_no_data">Kullanıcı oyu bulunamadı, puanınızı şimdi ekleyin.</string>
+    <string name="app_detail_evaluation_tool_bar_title">Bir inceleme paylaş</string>
+    <string name="app_detail_evaluation_failed_bt">İnceleme</string>
+
+    <string name="app_detail_comment_order_array_good">4-5</string>
+    <string name="app_detail_comment_order_array_bad">1-3</string>
+    <string name="message_notify">bildirim</string>
+    <string name="message_at_title">Bahsetmeler</string>
+    <string name="message_at">Senden bahsetti</string>
+
+    <string name="cancel_collection">Favorilerden çıkar</string>
+
+    <string name="pack_up">Çöküş</string>
+    <string name="filter_no_comment">Hay aksi! Böyle bir içerik yok!</string>
+
+    <string name="follow_floating_action_button">Yeni an oluştur</string>
+
+    <string name="submit_comment_user_style">&lt;font color=#007AFF&gt;@%1$s&lt;/font&gt;</string>
+
+    <string name="choice_evaluate">Öne Çıkan İncelemeler</string>
+    <string name="choice_comment">Önerilen Yazılar</string>
+    <string name="emoji_input_error_hint">Emoji yorumlarına artık izin verilmiyor! Bir şey yaz…</string>
+    <string name="load_all_choice_evaluate">Tüm incelemeleri gör</string>
+    <string name="load_all_choice_comment">Tüm yazıları gör</string>
+    <string name="my_reservation_and_collection">Ön kayıt ve favori</string>
+    <string name="upload_apk">APK yükle</string>
+    <string name="developer_badge_explanation">Geliştirici Rozeti Açıklaması</string>
+
+    <string name="from_user_recommendation">Kullanıcıların Önerileri</string>
+    <string name="topics">Konu</string>
+    <string name="pre_register_game">Ön kayıt</string>
+    <string name="editors_picks">Editörün Seçimi</string>
+    <string name="recommend_game">oyun tavsiyesi</string>
+
+    <string name="bing_share_account">Bir üçüncü parti hesap ile bağlan</string>
+    <string name="un_bind">Bağlı değil</string>
+    <string name="login_out_message_hint">Oturumu kapatmak istediğinden emin misin?</string>
+    <string name="bind_email_title">E-postanızı bağlayın</string>
+    <string name="email_address_hint_et">E-postanızı giriniz.</string>
+
+</resources>
