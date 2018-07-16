@@ -15,14 +15,14 @@
 Algo aconteceu.</string>
 
     <string name="load_failed_error">Ops! Ocorreu um erro.</string>
-    <string name="load_failed_empty">Nada aqui.</string>
+    <string name="load_failed_empty">Não há nada aqui.</string>
     <string name="load_failed_all_up_to_date">Todos os aplicativos são até à data.</string>
     <string name="load_failed_no_results">Desculpa! Nenhum resultado encontrado.</string>
     <string name="refresh">Atualizar</string>
 
     <string name="management">Gestão</string>
     <string name="app_updates">Atualizações de aplicativos</string>
-    <string name="app_management">Gerenciador de Aplicativos</string>
+    <string name="app_management">Instalado</string>
     <string name="app_uninstall">Desinstalar App</string>
     <string name="apk_management">Gerenciador de Apk</string>
     <string name="apk_xapk_management">Gerenciador de APK / XAPK</string>
@@ -30,9 +30,8 @@ Algo aconteceu.</string>
     <string name="settings">Configurações</string>
     <string name="about">Sobre</string>
     <string name="about_title">Sobre <xliff:g id="app_name" example="APKPure">%1$s</xliff:g></string>
-    <string name="about_message">"
- &lt;b&gt;Versão:&lt;/b&gt; %1$s&lt;br&gt;&lt;br&gt;&lt;b&gt;Website:&lt;/b&gt; &lt;a href=%2$s&gt;%2$s&lt;/a&gt;&lt;br&gt;&lt;b&gt;Email:&lt;/b&gt; &lt;a href=mailto:%3$s&gt;%3$s&lt;/a&gt;
- "</string>
+    <string name="about_message">"&lt;b&gt;Versão:&lt;/b&gt; %1$s&lt;br&gt;&lt;br&gt;&lt;b&gt;Website:&lt;/b&gt; &lt;a href=%2$s&gt;%2$s&lt;/a&gt;&lt;br&gt;&lt;b&gt;Email:&lt;/b&gt; &lt;a href=mailto:%3$s&gt;%3$s&lt;/a&gt;
+\n "</string>
     <string name="check_update">Check atualização</string>
     <string name="quit">Sair</string>
     <string name="want_to_quit">Você tem certeza que quer sair?</string>
@@ -42,9 +41,7 @@ Algo aconteceu.</string>
     <string name="delete">Deletar</string>
     <string name="delete_all">Apagar tudo</string>
     <string name="properties">Propriedades</string>
-    <string name="properties_message">"
- &lt;b&gt;Path:&lt;/b&gt; %1$s&lt;br&gt;&lt;b&gt;Size:&lt;/b&gt; %2$s&lt;br&gt;&lt;b&gt;Última modificação:&lt;/b&gt; %3$s
- "</string>
+    <string name="properties_message">"&lt;b&gt;Path:&lt;/b&gt; %1$s&lt;br&gt;&lt;b&gt;Tamanho:&lt;/b&gt; %2$s&lt;br&gt;&lt;b&gt;Última modificação:&lt;/b&gt; %3$s "</string>
     <string name="want_to_delete_file">Você deseja excluir este arquivo?</string>
     <string name="want_to_delete_all_files">Você quer apagar todos os arquivos?</string>
     <string name="file_has_been_deleted">O arquivo foi apagado.</string>
@@ -143,4 +140,32 @@ Falha no download</string>
     <string name="preparing">Preparando</string>
     <string name="completed">Completo</string>
     <string name="load_failed_error_not_found">App não listado na loja do Apkpure!</string>
+    <string name="check_update_replace">Versão oficial</string>
+    <string name="check_update_beta">"Pré-lançamento Beta "</string>
+    <string name="beta">Beta</string>
+    <string name="properties_message_v2">&lt;b&gt;Nome do pacote:&lt;/b&gt; %1$s&lt;br&gt;&lt;b&gt;Versão:&lt;/b&gt; %2$s&lt;br&gt;&lt;b&gt;Caminho:&lt;/b&gt; %3$s&lt;br&gt;&lt;b&gt;Tamanho:&lt;/b&gt; %4$s&lt;br&gt;&lt;b&gt;Ultima modificação:&lt;/b&gt; %5$s</string>
+    <string name="history_version">Historial de versões</string>
+
+    <string name="paused">Em pausa</string>
+    <string name="failed">Falhou</string>
+    <string name="file_invalid">Ficheiro inválido</string>
+    <string name="file_missing">FIcheiro em falta</string>
+    <string name="waiting_to_download">Aguardando download</string>
+    <string name="deleted">Apagado</string>
+    <string name="expired">Expirado</string>
+    <string name="installed">Instalado</string>
+    <string name="detail">Detalhe</string>
+    <string name="remove">Remover</string>
+    <string name="remove_all">Remover todos</string>
+    <string name="want_to_remove_download_item">Deseja remover este item que fez download ?</string>
+    <string name="want_to_remove_all_download_items">Deseja remover todos os downloads ?</string>
+    <string name="delete_downloaded_file">Apagar o ficheiro descarregado</string>
+    <string name="download_over_cellular">"Download por Rede móvel "</string>
+    <string name="download_over_cellular_content">"Vai fazer download pela rede móvel (não WIFI). Deseja continuar? "</string>
+
+    <string name="search">Procurar</string>
+    <string name="search_for_apps">Procurar na APKPure</string>
+    <string name="search_history">Historial</string>
+    <string name="clear_search_history">Limpar o historial</string>
+
     </resources>
