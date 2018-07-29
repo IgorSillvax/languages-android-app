@@ -34,9 +34,8 @@
 
 
     <string name="about_title">"O  "<xliff:g example="APKPure" id="app_name"/></string>
-    <string name="about_message">"
- &lt;b&gt;Verze:&lt;/b&gt; %1$s&lt;br&gt;&lt;br&gt;&lt;b&gt;Web:&lt;/b&gt; &lt;a href=%2$s&gt;%2$s&lt;/a&gt;&lt;br&gt;&lt;b&gt;Email:&lt;/b&gt; &lt;a href=mailto:%3$s&gt;%3$s&lt;/a&gt;
- "</string>
+    <string name="about_message">"&lt;b&gt;Verze:&lt;/b&gt; %1$s&lt;br&gt;&lt;br&gt;&lt;b&gt;Web:&lt;/b&gt; &lt;a href=%2$s&gt;%2$s&lt;/a&gt;&lt;br&gt;&lt;b&gt;E-mail:&lt;/b&gt; &lt;a href=mailto:%3$s&gt;%3$s&lt;/a&gt;
+\n "</string>
     <string name="check_update">Zkontrolovat aktualizace</string>
     <string name="check_update_replace">Oficiální verze</string>
     <string name="check_update_beta">Předběžná Beta</string>
@@ -90,7 +89,7 @@
     <string name="market_response_error_invalid_result">Neplatný výsledek.</string>
     <string name="market_response_error_network_connect_error">Chyba spojení sítě.</string>
     <string name="market_response_error_network_read_error">Chyba čtení sítě.</string>
-    <string name="market_response_error_invalid_response_code">Chybný kód</string>
+    <string name="market_response_error_invalid_response_code">Chybný kód.</string>
     <string name="market_response_error_invalid_response_body">Chybné tělo souboru.</string>
     <string name="market_response_error_unknown_error__error_">Neznámá chyba: (<xliff:g example="SUCCESS" id="error">%1$s</xliff:g>).</string>
 
@@ -137,9 +136,7 @@
 
     <string name="search">Vyhledat</string>
     <string name="search_for_apps">Vyhledat v APKPure</string>
-    <string name="properties_message">"
- &lt;b&gt;Cesta:&lt;/b&gt; %1$s&lt;br&gt;&lt;b&gt;Velikost:&lt;/b&gt; %2$s&lt;br&gt;&lt;b&gt;Poslední změna:&lt;/b&gt; %3$s
- "</string>
+    <string name="properties_message">&lt;b&gt;Cesta:&lt;/b&gt; %1$s&lt;br&gt;&lt;b&gt;Velikost:&lt;/b&gt; %2$s&lt;br&gt;&lt;b&gt;Poslední změna:&lt;/b&gt; %3$s</string>
     <string name="install__label_">Instalování - <xliff:g example="APKPure" id="app_label">%1$s</xliff:g></string>
     <string name="last_update__date_">Poslední aktualizace: <xliff:g id="date">%1$s</xliff:g></string>
 
@@ -170,19 +167,17 @@
 
     <string name="_name__is_up_to_date"><xliff:g example="APKPure" id="name">%1$s</xliff:g>"  Je aktuální."</string>
     <string name="new_version_available_title">K dispozici nová verze</string>
-    <string name="new_version_available_message">"
- &lt;b&gt;Poslední verze:&lt;/b&gt; %1$s&lt;br&gt;&lt;br&gt;&lt;b&gt;Co je nového:&lt;/b&gt;&lt;br&gt;%2$s
- "</string>
+    <string name="new_version_available_message">&lt;b&gt;Poslední verze:&lt;/b&gt; %1$s&lt;br&gt;&lt;br&gt;&lt;b&gt;Co je nového:&lt;/b&gt;&lt;br&gt;%2$s</string>
 
     <string name="report">Hlášení</string>
     <string name="report__">Hlášení…</string>
     <string name="report_problem__">Nahlásit problém…</string>
     <string name="report_problem_subject">Nahlásit problém</string>
     <string name="report_problem_text">Téma problému:
-%1$s
-
-Popis problému:
-%2$s</string>
+\n%1$s
+\n
+\nPopis problému:
+\n%2$s</string>
     <string name="contact_us__">Kontaktujte nás…</string>
     <string name="contact_us">Kontaktujte nás</string>
     <string name="report_content">Obsah hlášení</string>
@@ -198,4 +193,7 @@ Popis problému:
  "</string>
 
     <string name="setting">Nastavení</string>
+    <string name="properties_message_v2">&lt;b&gt;Název balíčku:&lt;/b&gt; %1$s&lt;br&gt;&lt;b&gt;Verze:&lt;/b&gt; %2$s&lt;br&gt;&lt;b&gt;Cesta:&lt;/b&gt; %3$s&lt;br&gt;&lt;b&gt;Velikost:&lt;/b&gt; %4$s&lt;br&gt;&lt;b&gt;Naposledy upraveno:&lt;/b&gt; %5$s</string>
+    <string name="parsing_xapk">Analýza XAPK…</string>
+    <string name="trending_searches">Trendy ve vyhledávání</string>
     </resources>
