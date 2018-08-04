@@ -55,9 +55,8 @@
     <string name="check_update_replace">တရားဝင် ဗားရှင်း</string>
     <string name="check_update_beta">အကြိုစမ်းသုံးရန် ထုတ်ထားခြင်း</string>
     <string name="beta">ဘီတာ</string>
-    <string name="properties_message">"
- &lt;b&gt;Path:&lt;/b&gt; %1$s&lt;br&gt;&lt;b&gt;Size:&lt;/b&gt; %2$s&lt;br&gt;&lt;b&gt;နောက်ဆုံးပြင်ဆင်ခဲ့သော:&lt;/b&gt; %3$s
- "</string>
+    <string name="properties_message">"&lt;b&gt;Path:&lt;/b&gt; %1$s&lt;br&gt;&lt;b&gt;Size:&lt;/b&gt; %2$s&lt;br&gt;&lt;b&gt;နောက်ဆုံးပြင်ဆင်ခဲ့သော:&lt;/b&gt; %3$s
+\n "</string>
     <string name="install__label_">သွင်းမယ် - <xliff:g example="APKPure" id="app_label">%1$s</xliff:g></string>
     <string name="io_error">သွင်းထုတ် အမှား. နေရာမလောက်ခြင်းကြောင့် တပ်ဆင်မရတာဖြစ်နိုင်ပါသည်.</string>
     <string name="file_format_error">ဖိုင် မှားနေသည်.</string>
@@ -240,13 +239,76 @@
     <string name="language">ဘာသာစကား</string>
     <string name="auto">အလိုအလျောက်</string>
     <string name="changing_language">ဘာသာစကား ပြောင်းလဲနေသည်, ကျေးဇူးပြု၍ စောင့်ပါ…</string>
-    <string name="data_saver_model">အချက်အလက် ချွေတာသူ</string>
+    <string name="data_saver_model">ဒေတာ ချွေတာခြင်း</string>
     <string name="data_saver_model_summery">၎င်းအားဖွင့်ထားခြင်းဖြင့် ပုံအရွယ်အစားနှင့် အရည်အသွေးအား လျှော့ချ၍ ဆယ်လူလာအချက်အလက် သုံးစွဲမှုနည်းအောင် ကူညီလိမ့်မည်.</string>
     <string name="download_via_wifi_only">ဝိုင်ဖိုင်ပေါ်တွင်သာ ဒေါင်းလုဒ်လုပ်ရန်</string>
     <string name="participate_ultra_download_beta_test_title">Ultra download ကိုဖြင့္ၿပီးျမန္ဆန္တဲ့ dowload speed ကိုရယူပါ</string>
     <string name="participate_ultra_download_beta_test_content">Ultra download စနစ္မွာ စမ္းသပ္ျခင္းအဆင့္သာရိွေသး၍ အခက္အခဲမ်ားျဖစ္ေပၚလာပါက အေၾကာင္းၾကားေပးပါ။Ultra download အားလြယ္ကူစြာ disable လုပ္ရန္ setting ကိုသြားပါ</string>
     <string name="enable">ဖြင့္ပါ</string>
 
-    <string name="feedback">အေၾကာင္းၾကားစာ</string>
+    <string name="feedback">အကြောင်းကြားစာ</string>
 
+    <string name="properties_message_v2">&lt;b&gt;Package အမည်:&lt;/b&gt; %1$s&lt;br&gt;&lt;b&gt;ဗားရှင်း:&lt;/b&gt; %2$s&lt;br&gt;&lt;b&gt;လမ်းကြောင်း:&lt;/b&gt; %3$s&lt;br&gt;&lt;b&gt;အရွယ်အစား:&lt;/b&gt; %4$s&lt;br&gt;&lt;b&gt;နောက်ဆုံးပြုပြင်ခဲ့သော:&lt;/b&gt; %5$s</string>
+    <string name="invalid_app_asset">မှားယွင်းသော App အချက်အလက်.</string>
+    <string name="failed_to_request_app_detail">App၏အသေးစိတ်အချက်လက်တောင်းဆို၍မရပါ။.</string>
+    <string name="installation">တပ်ဆင်ခြင်း</string>
+    <string name="show_notification_after_installation">တပ်ဆင်ပြီးပါကသတိပေးချက်ပြပါ</string>
+    <string name="delete_packages_after_installation">တပ်ဆင်ပြီးလျှင် Package များကိုဖျက်ပါ</string>
+
+    <string name="_name__installation_completed"><xliff:g example="APKPure" id="name">%1$s</xliff:g>တပ်ဆင်ပြီးပြီ။</string>
+    <string name="touch_to_open">ဖွင့်ရန်နှိပ်ပါ။.</string>
+
+    <string name="auto_service_install_accessibility_title">အလိုအလျောက်တပ်ဆင်ခြင်း</string>
+    <string name="auto_service_install_accessibility_summary">အန်းဒရွိုက် 4.1 နှင့်အထက်တွင်အသုံးပြုနိုင်သည်။, Root ခွင့်ပြုချက်မလိုပါ။.</string>
+
+    <string name="auto_service_dialog_title">အလိုလျောက်တပ်ဆင်ခြင်းဖွင့်ပါ</string>
+    <string name="auto_service_dialog_message">အလိုလျောက်တပ်ဆင်ခြင်းကိုအသုံးပြုရန် ဖုန်း၏ခွင့်ပြုချက်ကို သင်ဖွင့်ပေးရမည်။, အန္တရာယ်တော့မရှိပါ။.</string>
+
+    <string name="auto_service_title">APKPure အလိုလျောက်တပ်ဆင်ခြင်း</string>
+    <string name="auto_service_install">တပ်ဆင်ပါ</string>
+    <string name="auto_service_ensure">ကောင်းပြီ</string>
+    <string name="auto_service_next">နောက်တစ်ခု</string>
+    <string name="auto_service_exchange">အစားထိုးပါ</string>
+    <string name="auto_service_complete">ပြီးပြီ</string>
+
+    <string name="auto_service_install__material_">တပ်ဆင်ပါ</string>
+    <string name="auto_service_ensure__material_">ကောင်းပြီ</string>
+    <string name="auto_service_next__material_">ပြီးနောက်</string>
+    <string name="auto_service_exchange__material_">အစားထိုးပါ</string>
+    <string name="auto_service_complete__material_">ပြီးပြီ</string>
+
+    <string name="auto_install_via_root_title">အလိုအလျောက်တပ်ဆင်ခြင်း(Rootလိုအပ်)</string>
+    <string name="auto_install_via_root_summary">Root လုပ်ထားသော အန်းဒရွိုက်ဖုန်းနှင့် တဘလတ်များအတွက်သာ။.</string>
+
+    <plurals name="app_detail_see_all_replies">
+	<item quantity="other">အားလုံးကိုကြည့်ပါ <xliff:g example="2" id="count">%1$d</xliff:g> ပြန်ကြားချက်များ</item>
+</plurals>
+
+    <string name="app_detail_customer_reviews">မှတ်ချက်များ</string>
+    <string name="app_submit_submit">စာစုတင်ပါ…</string>
+    <string name="app_submit_anonymous_comment">မှတ်ချက်တစ်ခုပေးပါ</string>
+    <string name="app_submit_title_toast">သင်ခေါင်းစဉ်ရေးရမည်!</string>
+    <string name="app_submit_msg_toast">တစ်ခုခုရေးရမည်!</string>
+    <string name="app_submit_name_toast">နာမည်ပြောင်နေရာတွင်ဖြည့်ပေးပါ!</string>
+    <string name="app_submit_email_toast">မှန်ကန်သော အီးမေးလ်လိပ်စာဖြည့်ပေးပါ!</string>
+    <string name="app_submit_title_hint">ခေါင်းစဉ်ရေးပေးပါ</string>
+    <string name="app_submit_msg_hint">ထင်မြင်ချက်ရေးပေးပါ</string>
+    <string name="app_submit_nickname">အမည်ပြောင်</string>
+    <string name="app_submit_email">အီးမေးလ်</string>
+    <string name="app_submit_submit_title">စာစုတင်ပါ</string>
+    <string name="app_submit_reply_to">သို့ ပြန်ကြားမည်</string>
+
+    <string name="app_detail_tab_one">အသေးစိတ်အချက်အလက်</string>
+    <string name="app_detail_tab_two">စာစုများ</string>
+    <string name="app_detail_tab_three">ဆက်နွှယ်နေသော</string>
+
+    <string name="app_detail_comment_filter_version">နောက်ဆုံးဗားရှင်း</string>
+    <string name="app_detail_comment_score_footer">%1$s ယောက်သည် အခြားဘာသာစကားဖြင့်ထင်မြင်ချက်ပေးထားသည်။.</string>
+    <string name="app_detail_evaluation_tool_bar_title">ထင်မြင်ချက်တစ်ခုကိုမျှဝေပါ</string>
+    <string name="app_detail_comment_order_array_new">အသစ်ဆုံးများ</string>
+    <string name="app_detail_comment_order_array_best">အကောင်းဆုံး</string>
+    <string name="app_detail_comment_order_array_old">အဟောင်း</string>
+
+    <string name="app_detail_comment_order_array_good">၄-၅</string>
+    <string name="app_detail_comment_order_array_bad">၁-၃</string>
     </resources>
