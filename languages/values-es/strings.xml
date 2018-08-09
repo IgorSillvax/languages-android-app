@@ -170,7 +170,7 @@
     </string>
 
     <string name="share">Compartir</string>
-    <string name="share_app_url">Compartir <xliff:g id="app_name" example="APKPure">%1$s</xliff:g> APK (from @<xliff:g id="social_network_name" example="APKPure">%2$s</xliff:g>), <xliff:g id="app_url" example="https://apkpure.com/p/com.apkpure.aegon">%3$s</xliff:g></string>
+    <string name="share_app_url"> Compartir <xliff:g id="app_name" example="APKPure">%1$s</xliff:g> APK (de @<xliff:g id="social_network_name" ejemplo="APKPure">%2$s</xliff:g>), <xliff:g id="app_url" ejemplo="https://apkpure.com/p/com.apkpure.aegon">%3$s</xliff:g></string>
 
     <string name="_name__version_history"><xliff:g id="name" example="APKPure">%1$s</xliff:g> Versiones Anteriores</string>
     <string name="update__date___size_">Actualizacion: <xliff:g id="date" example="Mar 3, 2016">%1$s</xliff:g>, <xliff:g id="size" example="1024 kB">%2$s</xliff:g></string>
@@ -269,7 +269,7 @@
     <string name="recommend">Descubrir</string>
     <string name="report">Reportar</string>
     <string name="app_detail_customer_reviews">Comentarios</string>
-    <string name="app_submit_submit">Enviar…</string>
+    <string name="app_submit_submit">Publicar…</string>
     <string name="app_submit_anonymous_comment">Añadir un comentario</string>
     <string name="app_submit_title_toast">¡Debe escribir el título!</string>
     <string name="app_submit_msg_toast">Debes escribir algo!</string>
@@ -278,7 +278,7 @@
     <string name="app_submit_title_hint">Por favor escribe un titulo</string>
     <string name="app_submit_msg_hint">Por favor escribe tu opinion</string>
     <string name="app_submit_email">Correo Electronico</string>
-    <string name="app_submit_submit_title">Enviar</string>
+    <string name="app_submit_submit_title">Publicar</string>
     <string name="app_submit_reply_to">Responder</string>
     <string name="app_detail_tab_one">Detalles</string>
     <string name="app_detail_tab_two">Publicaciones</string>
@@ -344,7 +344,7 @@
 
     <string name="data_saver_model_summery">Realizando esta activación estará reduciendo el tamaño y la calidad de la imágen ayudando a utilizar menos espacio en memoria.</string>
     <string name="beta">Demo</string>
-    <string name="share_app_url_group"> <xliff:g example="APKPure" id="app_name"/><xliff:g example="APKPure" id="social_network_name"/><xliff:g example="https://apkpure.com/p/com.apkpure.aegon" id="app_url"/></string>
+    <string name="share_app_url_group"> <xliff:g ejemplo="APKPure" id="app_name"/><xliff:g ejemplo="APKPure" id="social_network_name"/><xliff:g ejemplo="https://apkpure.com/p/com.apkpure.aegon" id="app_url"/></string>
 
     <string name="data_saver_model">Ahorrador de datos</string>
     <string name="app_detail_comment_order_array_new">Lo más nuevo</string>
@@ -393,7 +393,7 @@
     <string name="update_intro_tv">El campo sobre mí no puede estar vacío</string>
 
     <string name="message_all">TODO</string>
-    <string name="message_reply">RESPUESTAS</string>
+    <string name="message_reply">COMENTARIOS</string>
     <string name="message_notifications_praise">Votó a favor de su comentario</string>
     <string name="message_praise">ME GUSTAS</string>
     <string name="message_notifications_reply">Respondió tu comentario</string>
@@ -435,7 +435,7 @@
 
     <string name="user_sign_up">Regístrate</string>
     <string name="user_name_hint">Nombre de usuario</string>
-    <string name="login_user_name">Nombre de usuario</string>
+    <string name="login_user_name">Usuario o correo electrónico</string>
     <string name="user_email_hint">E-mail</string>
     <string name="user_password">Contraseña (6–32)</string>
     <string name="user_password_confirm">Confirmar contraseña</string>
@@ -455,11 +455,11 @@
 
     <string name="message">Mensaje</string>
 
-    <string name="push_title_info_reply">¡%s respondió a tu comentario!</string>
-    <string name="push_title_info_upvoted">¡%s votó en tu comentario!</string>
-    <string name="push_title_info_follow">¡%s te esta seguiendo!</string>
+    <string name="push_title_info_reply">¡%1$s respondió a tu comentario!</string>
+    <string name="push_title_info_upvoted">¡%1$s votó en tu comentario!</string>
+    <string name="push_title_info_follow">¡%1$s te esta seguiendo!</string>
     <string name="push_title_info_update">¡Llegó la actualización de APKPure!</string>
-    <string name="push_content_info_update">¡Nueva versión %s lanzado! ¡Actualizar ahora!</string>
+    <string name="push_content_info_update">¡Nueva versión %1$s lanzado! ¡Actualizar ahora!</string>
     <string name="push_title_info_at">Alguien te mencionó en un mensaje, toque para ver</string>
 
     <string name="download_list">Descargar lista</string>
@@ -569,12 +569,12 @@
     <string name="collection_app">APLICACIONES</string>
 
     <string name="user_detail_tab_detail">Publicaciones</string>
-    <string name="user_detail_tab_reply">Respuestas</string>
+    <string name="user_detail_tab_reply">Comentarios</string>
 
     <string name="search_tab_name_one">APLICACIONES</string>
     <string name="search_tab_name_two">USUARIO</string>
     <string name="pre_register_ok">ACEPTAR</string>
-    <string name="open_with_browser">Abrir con navegador</string>
+    <string name="open_with_browser">Abrir con navegadores</string>
     <string name="web_view_refresh">Actualizar</string>
     <string name="topic_red_color">Carmesí</string>
     <string name="topic_green_color">Verde suerte</string>
@@ -603,18 +603,18 @@
     <string name="recommend_description">1. Las recomendaciones aprobadas se enumerarán en la sección DESCUBRIR.
 \n2. Solo puedes recomendar las aplicaciones actualmente instaladas en tu dispositivo Android.
 \n3. Notifique a APKPure para que agregue aplicaciones no indexadas, por favor complete los formularios de recomendación primero.</string>
-    <string name="recommend_user_recommend">Recomendado por %s</string>
+    <string name="recommend_user_recommend">Recomendado por %1$s</string>
     <string name="recommend_required">*</string>
     <string name="recommend_not_found">No indexado</string>
-    <string name="recommend_not_fount_info">Notifique a APKPure para agregar \"%s\", necesita terminar las formas.</string>
+    <string name="recommend_not_fount_info">Notifique a APKPure para agregar \"%1$s\", necesita terminar las formas.</string>
     <string name="recommend_user_recommend_sys">Presentado por APKPure</string>
 
-    <string name="user_detail_fans">Seguidor</string>
+    <string name="user_detail_fans">Seguidores</string>
     <string name="user_detail_praise">Me gustas</string>
     <string name="user_focus_tab_users">Personas</string>
     <string name="user_focus_tab_apps">Grupos</string>
     <string name="user_focus_title_my">Mis siguiendos</string>
-    <string name="user_focus_title">Seguido por %s</string>
+    <string name="user_focus_title">Seguido por %1$s</string>
 
     <string name="goto_google_play">Comprar ahora</string>
     <string name="google_play_bug_text">Comprar en Google Play</string>
@@ -637,7 +637,7 @@
     <string name="hot_tag">Etiquetas calientes</string>
     <string name="hot_tag_explain">(Añada o vote por etiquetas existentes para esta aplicación)</string>
     <string name="common_use">Mis etiquetas</string>
-    <string name="app_add_tag_hint_caution">No más de %s etiquetas para cada aplicación.</string>
+    <string name="app_add_tag_hint_caution">No más de %1$s etiquetas para cada aplicación.</string>
     <string name="app_add_tag">Añadir una nueva etiqueta</string>
     <string name="toast_app_tag_exist">¡La etiqueta ya existe!</string>
     <string name="there_is_no_label">Sin etiquetas.</string>
@@ -649,17 +649,17 @@
     <string name="add_tag">Añadir etiquetas</string>
     <string name="error_add_tag">Fallo al añadir etiquetas</string>
     <string name="no_collect">¡Sin favoritos todavía!</string>
-    <string name="no_comment">¡Sea el primero en añadir un comentario!</string>
+    <string name="no_comment">¡Sea el primero en añadir una publicación!</string>
 
     <string name="share_apk">Compartir APK</string>
     <string name="tab_apk">APK</string>
     <string name="commentaries">Compartir una publicación</string>
-    <string name="upload_apk_version">V %s</string>
-    <string name="upload_apk_downloads">Descargas: %s</string>
+    <string name="upload_apk_version">V %1$s</string>
+    <string name="upload_apk_downloads">Descargas: %1$s</string>
 
-    <string name="upload_comment_uploading">%s Subiendo…</string>
-    <string name="upload_comment_upload_success">%s Subida exitosa</string>
-    <string name="upload_comment_upload_failed">%s Subida fallida</string>
+    <string name="upload_comment_uploading">%1$s Subiendo…</string>
+    <string name="upload_comment_upload_success">%1$s Subida exitosa</string>
+    <string name="upload_comment_upload_failed">%1$s Subida fallida</string>
     <string name="upload_comment_view">Toca para ver</string>
     <string name="upload_comment_reload">Toca para subir de nuevo</string>
     <string name="upload_notification_pause">Pausar</string>
@@ -703,4 +703,71 @@
     <string name="comment_list_new_num">%d Nuevas historias</string>
 
     <string name="tab_popular">POPULAR</string>
-    </resources>
+    <string name="properties_message_v2">&lt;b&gt;Nombre del paquete:&lt;/b&gt; %1$s&lt;br&gt;&lt;b&gt;Versión:&lt;/b&gt; %2$s&lt;br&gt;&lt;b&gt;Ruta:&lt;/b&gt; %3$s&lt;br&gt;&lt;b&gt;Tamaño:&lt;/b&gt; %4$s&lt;br&gt;&lt;b&gt;Última modificación:&lt;/b&gt; %5$s</string>
+    <string name="app_detail_tab_evaluation">Reseñas</string>
+    <string name="app_detail_comment_filter_sort_score">Los más valorados</string>
+    <string name="app_detail_comment_filter_all">Todas las reseñas</string>
+    <string name="app_detail_comment_filter_version">Última versión</string>
+    <string name="app_detail_comment_score_less">Muy pocas valoraciones de los usuarios</string>
+    <string name="app_detail_comment_no_data">No se han encontrado valoraciones de usuarios, añada su valoración.</string>
+    <string name="app_detail_comment_score_footer">Hay %1$s reseñas en otros idiomas.</string>
+    <string name="app_detail_evaluation_tool_bar_title">Compartir una reseña</string>
+    <string name="app_detail_evaluation_failed_bt">Reseña</string>
+
+    <string name="app_detail_comment_order_array_good">4-5</string>
+    <string name="app_detail_comment_order_array_bad">1-3</string>
+    <string name="app_detail_folded_footer_reviews">ver todos los %d reseñas plegadas</string>
+    <string name="app_detail_folded_footer_posts">ver todos los %d publicaciones plegadas</string>
+    <string name="app_detail_discuss_filter_featured">Destacados</string>
+    <string name="app_detail_discuss_filter_folded">Plegado</string>
+
+
+    <string name="message_notify">notificación</string>
+    <string name="menu_copy_link">Copiar enlace</string>
+    <string name="web_view_copy">Copiar enlace</string>
+
+    <string name="filter_no_comment">¡Se el primero en comentar!</string>
+
+    <string name="follow_floating_action_button">Crea un nuevo momento</string>
+
+    <string name="count_down_timer_tv">%ds</string>
+    <string name="count_down_timer_btn">omitir</string>
+
+    <string name="choice_evaluate">Reseñas destacadas</string>
+    <string name="choice_comment">Publicaciones recomendadas</string>
+    <string name="emoji_input_error_hint">¡Los comentarios de Emoji ya no están permitidos! Escribe algo…</string>
+    <string name="load_all_choice_evaluate">Ver todas las reseñas</string>
+    <string name="load_all_choice_comment">Ver todas las publicaciones</string>
+    <string name="my_reservation_and_collection">Pre-registro y favorito</string>
+    <string name="upload_apk">Subir APK</string>
+    <string name="developer_badge_explanation">Explicación de la insignia de desarrollador</string>
+
+    <string name="from_user_recommendation">Recomendaciones de usuarios</string>
+    <string name="topics">Tema</string>
+    <string name="pre_register_game">Pre-registro</string>
+    <string name="editors_picks">Selección del editor</string>
+    <string name="recommend_game">juego recomendado</string>
+
+    <string name="bing_share_account">Conectarse a una cuenta de terceros</string>
+    <string name="un_bind">No conectado</string>
+    <string name="login_out_message_hint">¿Estás seguro de que quieres cerrar la sesión?</string>
+    <string name="bind_email_title">Conecte su correo electrónico</string>
+    <string name="bind_email_tv">Conecte su dirección de correo electrónico a su cuenta para desbloquear los beneficios de inicio de sesión de correo electrónico, recuperación de contraseña, envío de publicaciones y más.</string>
+    <string name="verification_code_tv">Un código de verificación ha sido enviado a su dirección de correo electrónico %1$s</string>
+    <string name="verification_code_second_tv">Reenviar en %d s</string>
+    <string name="verification_code_resend_tv">Reenviar código de verificación</string>
+    <string name="send_verification_code_resend_tv">Enviar código de verificación</string>
+    <string name="bind_email_success">La conexión tuvo éxito.</string>
+    <string name="update_email_tv">Vuelva a verificar para actualizar su dirección de correo electrónico</string>
+    <string name="verification_code_tv_hint">Código de verificación</string>
+    <string name="verification_success_code_toast">Código de verificacion enviado.</string>
+    <string name="verification_null_code_toast">Por favor ingrese el código de verificación que recibió.</string>
+    <string name="unbind_email">No conectado</string>
+    <string name="unbind_email_hint">No se ha conectado ninguna dirección de correo electrónico a su cuenta.</string>
+    <string name="menu_skip">Omitir</string>
+
+    <string name="forget_password_tv">¿Olvidó su contraseña?</string>
+    <string name="recover_password_title">Recuperar contraseña</string>
+    <string name="email_address_hint_et">Ingrese su correo electrónico.</string>
+
+</resources>
