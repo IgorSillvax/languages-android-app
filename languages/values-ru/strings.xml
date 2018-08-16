@@ -132,7 +132,7 @@
     <string name="trending_searches">Популярные поиски</string>
 
     <string name="improvement_plan_title">План улучшения эффективности</string>
-    <string name="improvement_plan_message">Отправите информацию о вашем устройстве. Мы <b>не собираем</b> ваши личные данные (имя, адрес, e-mail адрес, номер социального страхования, или др. личные данные).
+    <string name="improvement_plan_message">Отправьте информацию о вашем устройстве. Мы <b>не собираем</b> ваши личные данные (имя, адрес, e-mail адрес, номер социального страхования, или др. личные данные).
 \n </string>
     <string name="join_us">Присоединяйтесь к нам</string>
     <string name="skip">Пропустить</string>
@@ -623,10 +623,10 @@
     <string name="recommend_user_recommend_sys">Рекомендуемые APKPure</string>
 
     <string name="user_detail_focus">Подписка</string>
-    <string name="user_detail_fans">Подписчик</string>
+    <string name="user_detail_fans">Подписчики</string>
     <string name="user_detail_praise">Лайков</string>
     <string name="user_detail_tab_detail">Записи</string>
-    <string name="user_detail_tab_reply">Ответы</string>
+    <string name="user_detail_tab_reply">Комментарии</string>
 
     <string name="user_focus_tab_users">Люди</string>
     <string name="user_focus_tab_apps">Группы</string>
@@ -772,4 +772,21 @@
     <string name="login_out_message_hint">Вы действительно хотите выйти?</string>
     <string name="bind_email_title">Подключите свой адрес электронной почты</string>
     <string name="bind_email_tv">Подключите свой адрес электронной почты к своей учетной записи, чтобы разблокировать преимущества входа в систему электронной почты, восстановления пароля, отправки сообщений и т. Д.</string>
-    </resources>
+    <string name="verification_code_tv">Код подтверждения отправлен на ваш адрес электронной почты%1$s</string>
+    <string name="verification_code_second_tv">Отправить в %d s</string>
+    <string name="verification_code_resend_tv">Отправить код подтверждения</string>
+    <string name="send_verification_code_resend_tv">Отправить код подтверждения</string>
+    <string name="bind_email_success">Соединение успешно</string>
+    <string name="update_email_tv">Перепроверьте, обновляется ли ваш адрес электронной почты</string>
+    <string name="verification_code_tv_hint">Код подтверждения</string>
+    <string name="verification_success_code_toast">Код подтверждения отправлен</string>
+    <string name="verification_null_code_toast">Пожалуйста, введите код подтверждения, который получили.</string>
+    <string name="unbind_email">Нет соединения</string>
+    <string name="unbind_email_hint">К вашей учетной записи не подключен адрес электронной почты.</string>
+    <string name="menu_skip">Пропустить</string>
+
+    <string name="forget_password_tv">Забыли пароль?</string>
+    <string name="recover_password_title">Восстановление пароля</string>
+    <string name="email_address_hint_et">Введите адрес электронной почты.</string>
+
+</resources>
