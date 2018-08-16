@@ -132,7 +132,8 @@
     <string name="trending_searches">Популярные поиски</string>
 
     <string name="improvement_plan_title">План улучшения эффективности</string>
-    <string name="improvement_plan_message">\n Отправите информацию о вашем устройстве. Мы <b>не собираем</b> ваши личные данные (имя, адрес, e-mail адрес, номер социального страхования, или др. личные данные).\n </string>
+    <string name="improvement_plan_message">Отправите информацию о вашем устройстве. Мы <b>не собираем</b> ваши личные данные (имя, адрес, e-mail адрес, номер социального страхования, или др. личные данные).
+\n </string>
     <string name="join_us">Присоединяйтесь к нам</string>
     <string name="skip">Пропустить</string>
 
@@ -165,7 +166,7 @@
     <string name="external_storage_permission_denied">\n <big> <b> Нам нужно получить доступ к вашему внешнему хранилищу. Пожалуйста, убедитесь, что разрешение не запрещено.</b></big>\n</string>
 
     <string name="share">Поделиться</string>
-    <string name="share_app_url">Поделиться <xliff:g example="APKPure" id="app_name">%1$s</xliff:g> APK (с @<xliff:g example="APKPure" id="social_network_name">%2$s</xliff:g>)<xliff:g example="https://apkpure.com/p/com.apkpure.aegon" id="app_url">%3$s</xliff:g></string>
+    <string name="share_app_url"> Поделиться <xliff:g example="APKPure" id="app_name">%1$s</xliff:g> APK (с @<xliff:g example="APKPure" id="social_network_name">%2$s</xliff:g>)<xliff:g example="https://apkpure.com/p/com.apkpure.aegon" id="app_url">%3$s</xliff:g></string>
 
     <string name="_name__version_history"><xliff:g id="name" example="APKPure">%1$s</xliff:g> История Версий</string>
     <string name="update__date___size_">Обновить: <xliff:g id="date" example="Mar 3, 2016">%1$s</xliff:g>, <xliff:g id="size" example="1024 kB">%2$s</xliff:g></string>
@@ -381,7 +382,7 @@
     <string name="user_password_error">Этот пароль недействителен.</string>
     <string name="user_confirm_error">Пароли должны быть индентичны</string>
 
-    <string name="login_user_name">Имя пользователя</string>
+    <string name="login_user_name">Имя пользователя или email</string>
     <string name="login_user_sign_in">Войти</string>
     <string name="login_choose">Или ввойдите в свой аккаунт</string>
     <string name="login_new_user">Регистрация нового пользователя</string>
@@ -456,8 +457,8 @@
     <string name="message_notifications_login">Войдите, пожалуйста, чтобы увидеть эту страницу.</string>
 
     <string name="is_comment">Комментарий…</string>
-    <string name="push_title_info_reply">%s ответили на ваш комментарий!</string>
-    <string name="push_title_info_upvoted">%s понравились ваш комментарий!</string>
+    <string name="push_title_info_reply">%1$s ответили на ваш комментарий!</string>
+    <string name="push_title_info_upvoted">%1$s понравились ваш комментарий!</string>
     <plurals name="comment_reply_item_fold">
         <item quantity="one"><xliff:g example="1" id="count">%1$d</xliff:g> ответ был свёрнут</item>
         <item quantity="few"><xliff:g example="1" id="count">%1$d</xliff:g> ответа были свёрнуты</item>
@@ -526,9 +527,9 @@
     <string name="set_open_source_licence">Лицензии на открытие ПО</string>
 
     <string name="user_name_null">Неверное имя пользователя</string>
-    <string name="push_title_info_follow">%s подписалися на тебя!</string>
+    <string name="push_title_info_follow">%1$s подписалися на тебя!</string>
     <string name="push_title_info_update">Доступно обновление APKPure!</string>
-    <string name="push_content_info_update">Выпущена новая версия %s! Обновить сейчас!</string>
+    <string name="push_content_info_update">Выпущена новая версия %1$s! Обновить сейчас!</string>
     <string name="push_title_info_at">Кто-то упомянул вас в записи, нажмите, чтобы посмотреть</string>
 
     <string name="play_button">Кнопка воспроизведения</string>
@@ -615,10 +616,10 @@
     <string name="recommend_comment_error">Произошла какая-то ошибка!</string>
     <string name="recommend_description_title">Инструкции:</string>
     <string name="recommend_description">"1. Утвержденные рекомендации будут перечислены в разделе \"Все apps \".\n2. Вы можете  рекомендовать только приложения, установленные на вашем Android устройстве.\n3. Сообщите APKPure, чтобы добавить не проиндексированные приложения, сначала заполните форму заявки."</string>
-    <string name="recommend_user_recommend">%s рекомендовал</string>
+    <string name="recommend_user_recommend">%1$s рекомендовал</string>
     <string name="recommend_required">*</string>
     <string name="recommend_not_found">Не проиндексирован</string>
-    <string name="recommend_not_fount_info">Сообщите APKPure, чтобы добавить \"%s\", вам нужно заполнить бланк.</string>
+    <string name="recommend_not_fount_info">Сообщите APKPure, чтобы добавить \"%1$s\", вам нужно заполнить бланк.</string>
     <string name="recommend_user_recommend_sys">Рекомендуемые APKPure</string>
 
     <string name="user_detail_focus">Подписка</string>
@@ -630,7 +631,7 @@
     <string name="user_focus_tab_users">Люди</string>
     <string name="user_focus_tab_apps">Группы</string>
     <string name="user_focus_title_my">Мои Подписки</string>
-    <string name="user_focus_title">Подписан на %s</string>
+    <string name="user_focus_title">Подписан на %1$s</string>
 
     <string name="goto_google_play">Купить сейчас</string>
     <string name="google_play_bug_text">Купить в Google Play</string>
@@ -654,7 +655,7 @@
     <string name="hot_tag">Горячие теги</string>
     <string name="hot_tag_explain">(Добавить или проголосовать за существующие теги для этого приложения)</string>
     <string name="common_use">Мои теги</string>
-    <string name="app_add_tag_hint_caution">Не более %s тегов для каждого приложения.</string>
+    <string name="app_add_tag_hint_caution">Не более %1$s тегов для каждого приложения.</string>
     <string name="app_add_tag">Добавить новый тег</string>
     <string name="toast_app_tag_exist">Тег уже существует!</string>
     <string name="there_is_no_label">Нет тегов.</string>
@@ -672,12 +673,12 @@
     <string name="tab_apk">APK</string>
     <string name="commentaries">Поделиться записью</string>
 
-    <string name="upload_apk_version">V %s</string>
-    <string name="upload_apk_downloads">Скачиваний: %s</string>
+    <string name="upload_apk_version">V %1$s</string>
+    <string name="upload_apk_downloads">Скачиваний: %1$s</string>
 
-    <string name="upload_comment_uploading">%s Загрузка…</string>
-    <string name="upload_comment_upload_success">%s Успешно загружено</string>
-    <string name="upload_comment_upload_failed">%s Ошибка загрузки</string>
+    <string name="upload_comment_uploading">%1$s Загрузка…</string>
+    <string name="upload_comment_upload_success">%1$s Успешно загружено</string>
+    <string name="upload_comment_upload_failed">%1$s Ошибка загрузки</string>
     <string name="upload_comment_view">Нажмите для просмотра</string>
     <string name="upload_comment_reload">Нажмите, чтобы загрузить снова</string>
     <string name="upload_notification_pause">Пауза</string>
@@ -705,7 +706,7 @@
     <string name="pre_registered_bt">Зарегистрирован</string>
     <string name="pre_register_link_title">Страница Предварительной Регистрации</string>
     <string name="pre_register_gift_tv">Наград Регистрации</string>
-    <string name="pre_register_person_num_tv">Предварительные регистрации: %s</string>
+    <string name="pre_register_person_num_tv">Предварительные регистрации: %1$s</string>
     <string name="pre_register_success">Предварительная регистрация означает, что вы получите уведомление, когда приложение будет выпущено.</string>
 
     <string name="open_page_failed">Не удалось открыть страницу!</string>
@@ -721,4 +722,54 @@
     <string name="comment_list_see_here">Последнее посещение здесь, нажмите, чтобы обновить</string>
     <string name="comment_list_new_num">%d Новые истории</string>
     <string name="tab_popular">ПОПУЛЯРНЫЕ</string>
-</resources>
+<string name="app_detail_tab_evaluation">Отзывы</string>
+    <string name="app_detail_comment_filter_sort_score">Топ</string>
+    <string name="app_detail_comment_filter_all">Все отзывы</string>
+    <string name="app_detail_comment_filter_version">Последняя версия</string>
+    <string name="app_detail_comment_score_less">Низкий пользовательский рейтинг</string>
+    <string name="app_detail_comment_no_data">Не найден рейтинги пользователей, добавь свой рейтинг.</string>
+    <string name="app_detail_comment_score_footer">Здесь %1$s отзывы на других языках.</string>
+    <string name="app_detail_evaluation_tool_bar_title">Поделиться отзывом</string>
+    <string name="app_detail_evaluation_failed_bt">Отзыв</string>
+
+    <string name="app_detail_comment_order_array_good">4-5</string>
+    <string name="app_detail_comment_order_array_bad">1-3</string>
+    <string name="app_detail_folded_footer_reviews">Смотреть все %d сложенные отзывы</string>
+    <string name="app_detail_folded_footer_posts">Смотреть все %d сложенные посты</string>
+    <string name="app_detail_discuss_filter_featured">Основные моменты</string>
+    <string name="app_detail_discuss_filter_folded">Сложенные</string>
+
+
+    <string name="message_notify">Оповещение</string>
+    <string name="menu_copy_link">Копировать ссылку</string>
+    <string name="web_view_copy">Копировать ссылку</string>
+
+    <string name="filter_no_comment">Ой! Нет контента!!</string>
+
+    <string name="follow_floating_action_button">Создай новый момент</string>
+
+    <string name="count_down_timer_tv">%ds</string>
+    <string name="count_down_timer_btn">Пропустить</string>
+
+    <string name="choice_evaluate">Избранные Отзывы</string>
+    <string name="choice_comment">Рекомендуемые посты</string>
+    <string name="emoji_input_error_hint">Комментарии эмодзи не допускаются!
+\nНапишите что-нибудь…</string>
+    <string name="load_all_choice_evaluate">Смотреть все отзывы</string>
+    <string name="load_all_choice_comment">Смотреть все посты</string>
+    <string name="my_reservation_and_collection">Предварительная регистрация и избранные</string>
+    <string name="upload_apk">Загрузить APK</string>
+    <string name="developer_badge_explanation">Значок разработчика</string>
+
+    <string name="from_user_recommendation">Рекомендации пользователей</string>
+    <string name="topics">Тема</string>
+    <string name="pre_register_game">Предварительная регистрация</string>
+    <string name="editors_picks">Выбор редакции</string>
+    <string name="recommend_game">рекомендуемая игра</string>
+
+    <string name="bing_share_account">Подключение к другой учётной записи</string>
+    <string name="un_bind">Нет соединения</string>
+    <string name="login_out_message_hint">Вы действительно хотите выйти?</string>
+    <string name="bind_email_title">Подключите свой адрес электронной почты</string>
+    <string name="bind_email_tv">Подключите свой адрес электронной почты к своей учетной записи, чтобы разблокировать преимущества входа в систему электронной почты, восстановления пароля, отправки сообщений и т. Д.</string>
+    </resources>
