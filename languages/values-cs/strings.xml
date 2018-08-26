@@ -102,7 +102,7 @@
 \n%1$d</xliff:g> položka se stahuje</item>
 	<item quantity="few"><xliff:g example="2" id="count">
 \n%1$d</xliff:g> položky se stahují</item>
-	<item quantity="other"></item>
+	<item quantity="other"/>
 </plurals>
     <string name="downloads_complete">Stahování dokončena</string>
     <string name="touch_for_view_all_downloads">Dotkni se pro zobrazení všech stahování</string>
@@ -192,4 +192,88 @@
     <string name="properties_message_v2">&lt;b&gt;Název balíčku:&lt;/b&gt; %1$s&lt;br&gt;&lt;b&gt;Verze:&lt;/b&gt; %2$s&lt;br&gt;&lt;b&gt;Cesta:&lt;/b&gt; %3$s&lt;br&gt;&lt;b&gt;Velikost:&lt;/b&gt; %4$s&lt;br&gt;&lt;b&gt;Naposledy upraveno:&lt;/b&gt; %5$s</string>
     <string name="parsing_xapk">Analýza XAPK…</string>
     <string name="trending_searches">Trendy ve vyhledávání</string>
+    <string name="invalid_app_asset">Neplatné informace o zdrojích aplikací.</string>
+    <string name="failed_to_request_app_detail">Nepodařilo se vyžádat informace o podrobnostech aplikace.</string>
+    <string name="failed_to_request_app_asset">Nepodařilo se vyžádat informace o zdrojích aplikací.</string>
+    <string name="external_storage_not_usable"><big><b>Musíme přistupovat k externímu úložišti. Ujistěte se, že je použitelný.</b></big></string>
+    <string name="external_storage_permission_denied"><big><b>Musíme přistupovat k externímu úložišti. Ujistěte se, že povolení není odmítnuto.</b></big></string>
+
+    <string name="share">Sdílet</string>
+    <string name="share_app_url"> Sdílet <xliff:g example="APKPure" id="app_name">%1$s</xliff:g> APK (z <xliff:g example="APKPure" id="social_network_name">%2$s</xliff:g>) <xliff:g example="https://apkpure.com/p/com.apkpure.aegon" id="app_url">%3$s</xliff:g> </string>
+    <string name="share_app_url_comment"> <xliff:g example="APKPure" id="user_name">%1$s</xliff:g>komentáře <xliff:g example="APKPure" id="app_name">%2$s</xliff:g> : <xliff:g example="APKPure" id="app_name">%3$s</xliff:g> (z <xliff:g example="APKPure" id="social_network_name">%4$s</xliff:g>) <xliff:g example="https://apkpure.com/p/com.apkpure.aegon" id="app_url">%5$s</xliff:g> </string>
+    <string name="share_app_url_group"> <xliff:g example="APKPure" id="app_name">%1$s</xliff:g> Skupina. (z <xliff:g example="APKPure" id="social_network_name">%2$s</xliff:g>) <xliff:g example="https://apkpure.com/p/com.apkpure.aegon" id="app_url">%3$s</xliff:g> </string>
+
+    <string name="_name__version_history"><xliff:g example="APKPure" id="name">%1$s</xliff:g> Historie verzí</string>
+    <string name="update__date___size_">Update: <xliff:g example="Mar 3, 2016" id="date">%1$s</xliff:g>, <xliff:g example="1024 kB" id="size">%2$s</xliff:g></string>
+
+    <string name="update_all">Updatovat vše</string>
+    <string name="update___count__">Update (<xliff:g example="3" id="count">%1$d</xliff:g>)</string>
+    <string name="ignore">Ignorovat</string>
+    <string name="unignore">Neignorovat</string>
+    <string name="select">Vybrat</string>
+    <string name="cancel">Zrušit</string>
+    <string name="select_all">Vybrat vše</string>
+    <string name="deselect_all">Zrušit vybrání všech</string>
+    <string name="ignored">Ignorováno</string>
+    <plurals name="total__count__apps__size_">
+	<item quantity="one">Celkem: &lt;b&gt;&lt;font color=%1$d&gt;%2$d&lt;/font&gt;&lt;/b&gt; aplikace, &lt;b&gt;&lt;font color=%1$d&gt;%3$s&lt;/font&gt;&lt;/b&gt;</item>
+	<item quantity="few">Celkově: &lt;b&gt;&lt;font color=%1$d&gt;%2$d&lt;/font&gt;&lt;/b&gt; aplikace, &lt;b&gt;&lt;font color=%1$d&gt;%3$s&lt;/font&gt;&lt;/b&gt;</item>
+	<item quantity="other">Celkem: &lt;b&gt;&lt;font color=%1$d&gt;%2$d&lt;/font&gt;&lt;/b&gt; aplikací, &lt;b&gt;&lt;font color=%1$d&gt;%3$s&lt;/font&gt;&lt;/b&gt;</item>
+</plurals>
+    <string name="total_zero_app">Celkem: &lt;b&gt;&lt;font color=%1$d&gt;0&lt;/font&gt;&lt;/b&gt; aplikace</string>
+
+    <string name="general">Hlavní</string>
+    <string name="language">Jazyk</string>
+    <string name="auto">Automaticky</string>
+    <string name="changing_language">Změna jazyka, prosím vyčkejte…</string>
+    <string name="data_saver_model">Šetření dat</string>
+    <string name="data_saver_model_summery">Zapnutím této funkce se zmenší velikost a kvalita obrázků a pomůže se tak používat méně mobilních dat.</string>
+    <string name="download_via_wifi_only">Stahovat pouze pomocí Wi-Fi</string>
+    <string name="enable_ultra_download">Zapnout Ultra Stahování</string>
+    <string name="enable_ultra_download_summary">Ultra stahování je v beta testování, dejte nám vědět, pokud narazíte na nějaké problémy.</string>
+    <string name="installation">Instalace</string>
+    <string name="show_notification_after_installation">Ukázat upozornění po instalaci</string>
+    <string name="delete_packages_after_installation">Smazat .apk soubory po instalaci</string>
+
+    <string name="_name__installation_completed"><xliff:g example="APKPure" id="name">%1$s</xliff:g> instalace dokončena</string>
+    <string name="touch_to_open">Klepnutím otevřete.</string>
+
+    <string name="auto_service_install_accessibility_title">Automatická instalace</string>
+    <string name="auto_service_install_accessibility_summary">Podpora Android 4.1 a novější, není potřeba root oprávnění.</string>
+
+    <string name="auto_service_dialog_title">Zapnout automatickou instalaci</string>
+    <string name="auto_service_dialog_message">Automatická instalace vyžaduje autorizaci v telefonu, je to bezpečné a bez rizika.</string>
+
+    <string name="auto_service_title">APKPure Automatická Instalace</string>
+    <string name="auto_service_description">Aktivujte \"Automatickou instalaci APKPure\", abyste udrželi APKPure \"Auto Install\" běžící hladce
+\n
+\nAplikace \"APKPure Auto Install\" vám pomůže při instalaci nebo aktualizaci aplikací kliknout na všechna tlačítka při instalaci, nemusíte stále kontrolovat telefon.
+\n
+\nKdyž povolíte tuto funkci, můžete obdržet upozornění na systémové riziko, klepnutím na tlačítko \"OK\" přepněte přepínač pro přístupnost \"ON\"
+\n
+\nChcete-li zajistit, aby APKPure dobře fungoval, přidejte APKPure do vašeho \"White Listu\" v aplikaci pro čištění
+\n
+\nVýše uvedené funkce podporují Android 4.1 a vyšší, bez potřeby rootu. Slibujeme, že nikdy nezbudete shromažďovat žádné z vašich osobních informací v této zpřístupněné službě. Neváhejte nás kontaktovat s jakýmikoli problémy.</string>
+
+    <string name="auto_service_install">Instalace</string>
+    <string name="auto_service_ensure">OK</string>
+    <string name="auto_service_next">Další</string>
+    <string name="auto_service_exchange">Přepsat</string>
+    <string name="auto_service_complete">Hotovo</string>
+
+    <string name="auto_service_install__material_">INSTALACE</string>
+    <string name="auto_service_ensure__material_">OK</string>
+    <string name="auto_service_next__material_">DALŠÍ</string>
+    <string name="auto_service_exchange__material_">PŘEPSAT</string>
+    <string name="auto_service_complete__material_">HOTOVO</string>
+
+    <string name="auto_install_via_root_title">Automatická Instalace (Vyžadován Root)</string>
+    <string name="auto_install_via_root_summary">Pouze pro ROOTnutá zařízení.</string>
+
+    <string name="app_detail_customer_reviews">Komentáře</string>
+    <string name="app_detail_comment_type_web">web</string>
+    <string name="app_submit_submit">Odeslat…</string>
+    <string name="app_submit_anonymous_comment">Přidat komentář</string>
+    <string name="app_submit_title_toast">Musíte napsat nadpis!</string>
+    <string name="app_submit_msg_toast">Musíte něco napsat!</string>
     </resources>
