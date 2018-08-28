@@ -1,11 +1,11 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
     <string name="action_settings">設定</string>
     <string name="action_search">搜尋</string>
     <string name="action_management">管理</string>
 
-    <string name="press_back_key_quit">再壹次返回鍵退出。</string>
+    <string name="press_back_key_quit">再按一次返回鍵退出。</string>
 
     <string name="featured">精選</string>
     <string name="games">遊戲</string>
@@ -18,7 +18,7 @@
 
     <string name="load_failed_error">哎呀！發生錯誤了。</string>
     <string name="load_failed_error_not_found">該應用未收錄！</string>
-    <string name="load_failed_empty">無內容。</string>
+    <string name="load_failed_empty">這裡什麼都沒有。</string>
     <string name="load_failed_all_up_to_date">所有應用程式已是最新。</string>
     <string name="load_failed_no_results">抱歉！未找到結果。</string>
     <string name="refresh">刷新</string>
@@ -38,9 +38,7 @@
     <string name="settings">設定</string>
     <string name="about">關於</string>
     <string name="about_title">關於 <xliff:g example="APKPure" id="app_name">%1$s</xliff:g></string>
-    <string name="about_message">
-        <![CDATA[<b>版本：</b> %1$s<br><br><b>官方網站：</b> <a href="%2$s">%2$s</a><br><b>電子郵箱：</b> <a href="mailto:%3$s">%3$s</a>]]>
-    </string>
+    <string name="about_message">&lt;b&gt;版本：&lt;/b&gt; %1$s&lt;br&gt;&lt;br&gt;&lt;b&gt;網站：&lt;/b&gt; &lt;a href=%2$s&gt;%2$s&lt;/a&gt;&lt;br&gt;&lt;b&gt;電子郵件：&lt;/b&gt; &lt;a href=mailto:%3$s&gt;%3$s&lt;/a&gt;</string>
     <string name="check_update">檢查更新</string>
     <string name="check_update_replace">正式版</string>
     <string name="check_update_beta">測試版</string>
@@ -241,7 +239,7 @@
     <string name="auto">跟隨系統</string>
     <string name="changing_language">正在切換語言，請稍候…</string>
     <string name="data_saver_model">省流量模式</string>
-    <string name="data_saver_model_summery">開啟後會降低展示圖片大小和清晰度</string>
+    <string name="data_saver_model_summery">開啟後會降低展示圖片大小和清晰度。</string>
     <string name="download_via_wifi_only">僅透過 Wi-Fi 下載</string>
     <string name="enable_ultra_download">啟用超級下載</string>
     <string name="enable_ultra_download_summary">超級下載目前還是測試版本，如果在使用中發現問題請告訴我們。</string>
@@ -282,17 +280,17 @@
     </plurals>
     <string name="app_detail_customer_reviews">評論</string>
     <string name="app_detail_comment_type_web">網站</string>
-    <string name="app_submit_submit">提交中。。。</string>
+    <string name="app_submit_submit">提交中…</string>
     <string name="app_submit_anonymous_comment">添加評論</string>
     <string name="app_submit_title_toast">請填寫標題!</string>
     <string name="app_submit_msg_toast">你必須寫點什麼!</string>
     <string name="app_submit_name_toast">請填寫昵稱!</string>
-    <string name="app_submit_email_toast">請填寫正確的郵箱地址!</string>
+    <string name="app_submit_email_toast">請填寫正確的電子郵件！</string>
     <string name="app_submit_star_toast">請選擇星級!</string>
     <string name="app_submit_title_hint">填寫標題</string>
     <string name="app_submit_msg_hint">輸入您的評論</string>
     <string name="app_submit_nickname">昵稱</string>
-    <string name="app_submit_email">電子郵箱</string>
+    <string name="app_submit_email">電子郵件</string>
     <string name="app_submit_submit_title">提交</string>
     <string name="app_submit_reply_to">回復</string>
     <string name="app_detail_reply_comment">評論(%d)</string>
@@ -309,15 +307,15 @@
     <string name="app_detail_comment_filter_all">全部</string>
     <string name="app_detail_comment_filter_version">最新版本</string>
     <string name="app_detail_comment_score_less">用戶評分過少</string>
-    <string name="app_detail_comment_no_data">沒有用戶評分，現在就添加你的評分</string>
-    <string name="app_detail_comment_score_footer">還有%1$s條其他語言評價</string>
+    <string name="app_detail_comment_no_data">沒有用戶評分，現在就添加你的評分。</string>
+    <string name="app_detail_comment_score_footer">還有%1$s條其他語言評價。</string>
     <string name="app_detail_evaluation_tool_bar_title">寫評價</string>
     <string name="app_detail_evaluation_failed_bt">評價</string>
 
     <string name="app_detail_comment_order_array_default">默認排序</string>
     <string name="app_detail_comment_order_array_most_recent">最近回復</string>
     <string name="app_detail_comment_order_array_new">最新評論</string>
-    <string name="app_detail_comment_order_array_best">最熱</string>
+    <string name="app_detail_comment_order_array_best">最好</string>
     <string name="app_detail_comment_order_array_old">最早</string>
 
     <string name="app_detail_comment_order_array_good">4-5</string>
@@ -337,25 +335,25 @@
 
     <string name="download_mkdir">下載位置</string>
     <string name="download_mkdir_internal_storage_size_des">%1$s 可用，共 %2$s</string>
-    <string name="download_mkdir_internal_storage_entries">儲存空間</string>
+    <string name="download_mkdir_internal_storage_entries">SD</string>
     <string name="download_mkdir_internal_storage_entries1">儲存空間</string>
     <string name="download_mkdir_external_storage_fill_toast">儲存空間可能不足,會導致應用無法下載。</string>
 
     <string name="reply">回復</string>
     <string name="input_reply_content">請輸入回復內容:</string>
-    <string name="publish">發表</string>
-    <string name="reply_dialog_marked_words">長按圖片可刪除圖片</string>
+    <string name="publish">提交</string>
+    <string name="reply_dialog_marked_words">長按圖片可刪除圖片。</string>
     <string name="reply_comment">回複評論</string>
     <string name="save_original_image">保存原圖</string>
     <string name="already_save">已保存<xliff:g example="ApKPure/photo" id="path">%1$s</xliff:g></string>
 
     <string name="load_end">沒有更多數據</string>
     <string name="load_failed_click_retry">載入失敗，點擊重試</string>
-    <string name="loading">正在載入&#8230;</string>
+    <string name="loading">正在載入…</string>
 
-    <string name="scan_qr_code_hint">使用此功能前，您必須同意打開相機的許可權</string>
-    <string name="zxing_msg_default_status">請將二維碼置於取景框內掃描</string>
-    <string name="zxing_msg_parser_status">掃描失敗,請重試</string>
+    <string name="scan_qr_code_hint">使用此功能前，您必須同意打開相機的許可權。</string>
+    <string name="zxing_msg_default_status">請將二維碼置於取景框內掃描。</string>
+    <string name="zxing_msg_parser_status">掃描失敗,請重試。</string>
     <string name="scan_qr_code_result_title">掃描結果</string>
     <string name="scan_qr_code_result_copy_text">複製文本內容</string>
     <string name="scan_qr_code_result_hint">文本內容：</string>
@@ -371,16 +369,16 @@
     <string name="delete_comment_msg">你想要刪除這條評論嗎?</string>
     <string name="login_select_way_to_login">請選擇登錄方式</string>
     <string name="upload_cancel">上傳已取消</string>
-    <string name="is_comment">正在發表評論&#8230;</string>
+    <string name="is_comment">正在發表評論…</string>
     <string name="comment_cancel">評論已取消</string>
-    <string name="comment_submitting">提交中&#8230;</string>
-    <string name="comment_replying">回复中&#8230;</string>
+    <string name="comment_submitting">提交中…</string>
+    <string name="comment_replying">回复中…</string>
     <!--update password-->
     <string name="update_pwd_title">修改密碼</string>
     <string name="update_pwd_current_pwd_et">舊密碼</string>
     <string name="update_pwd_new_pwd_et">新密碼</string>
     <string name="update_pwd_Confirm_pwd_et">確認密碼</string>
-    <string name="upload_avatar">正在上傳&#8230;</string>
+    <string name="upload_avatar">正在上傳…</string>
     <string name="update_pwd_current_null_tv">舊密碼不能為空</string>
     <string name="update_pwd_Confirm_null_tv">確認密碼不能為空</string>
     <string name="update_pwd_new_pwd_null_tv">新密碼不能為空</string>
@@ -392,7 +390,7 @@
     <string name="user_info_edit_portrait_tv">頭像</string>
     <string name="user_info_edit_username_tv">用戶名</string>
     <string name="user_info_edit_nickname_tv">昵稱</string>
-    <string name="user_info_edit_email_tv">郵箱</string>
+    <string name="user_info_edit_email_tv">電子郵件</string>
     <string name="user_info_edit_gender_tv">性别</string>
     <string name="user_info_edit_birthday_tv">生日</string>
     <string name="user_info_edit_change_pwd_tv">修改密碼</string>
@@ -409,25 +407,25 @@
 
     <!--updateNickname-->
     <string name="update_nick_title">修改昵稱</string>
-    <string name="update_email_title">修改郵箱</string>
+    <string name="update_email_title">變更電子郵件</string>
     <string name="update_nick_name_et">請輸入你的昵稱</string>
     <string name="update_nick_name_tv">昵稱不能為空</string>
-    <string name="update_email_name_et">請輸入你的郵箱</string>
-    <string name="update_eamil_name_tv">郵箱不能為空</string>
+    <string name="update_email_name_et">請輸入你的電子郵件</string>
+    <string name="update_eamil_name_tv">電子郵件不能為空</string>
     <string name="update_save_success">保存成功!</string>
-    <string name="update_nickname_error">昵稱已經在使用，請修改昵稱。</string>
+    <string name="update_nickname_error">暱稱已經被使用，請選擇其他暱稱！</string>
     <string name="user_info_edit_intro_tv">個人簡介</string>
     <string name="update_intro_title">修改簡介</string>
-    <string name="update_intro_et">用一句話介紹自己吧!</string>
+    <string name="update_intro_et">寫一些關於你自己的說明</string>
     <string name="update_intro_tv">簡介不能為空</string>
     <!--messageFragment-->
     <string name="message_all">全部</string>
-    <string name="message_reply">回復</string>
+    <string name="message_reply">回覆</string>
     <string name="message_praise">贊</string>
     <string name="message_notify">通知</string>
     <string name="message_notifications_praise">贊了你</string>
     <string name="message_notifications_reply">回復了你</string>
-    <string name="message_notifications_login">請登錄後查看</string>
+    <string name="message_notifications_login">請登入後查看此頁面。</string>
     <string name="message_at_title">\@我的</string>
     <string name="message_at">\@了你</string>
 
@@ -448,18 +446,18 @@
 
     <string name="user_sign_up">註冊</string>
     <string name="user_name_hint">用戶名</string>
-    <string name="user_email_hint">郵箱</string>
+    <string name="user_email_hint">電子郵件</string>
     <string name="user_password">密碼(6–32位)</string>
     <string name="user_password_confirm">確認密碼</string>
 
     <string name="user_name_error">不能包含特殊字元</string>
     <string name="user_name_null">用戶名格式不正確</string>
     <string name="user_nickname_error">不能包含特殊字元</string>
-    <string name="user_email_error">郵箱格式不正確</string>
+    <string name="user_email_error">這是無效的電子郵件</string>
     <string name="user_password_error">密碼格式不正確</string>
     <string name="user_confirm_error">兩次密碼不相同</string>
 
-    <string name="login_user_name">用戶名或郵箱</string>
+    <string name="login_user_name">用戶名或電子郵件</string>
     <string name="login_user_password">密碼</string>
     <string name="login_user_sign_in">登錄</string>
     <string name="login_choose">或使用您的賬戶登陸</string>
@@ -473,7 +471,7 @@
     <string name="push_title_info_upvoted">%1$s 贊了你的評論!</string>
     <string name="push_title_info_follow">%1$s 關注了你!</string>
     <string name="push_title_info_update">APKPure 有新版本了!</string>
-    <string name="push_content_info_update">最新版本 %1$s ! 點擊更新</string>
+    <string name="push_content_info_update">最新版本 %1$s 發布了！立即更新！</string>
     <string name="push_title_info_at">有人提到了你，點擊查看</string>
 
     <string name="download_list">下載列表</string>
@@ -496,19 +494,19 @@
 
     <string name="comment_vote_string">投票</string>
     <string name="comment_reply_three">回復</string>
-    <string name="comment_item_fold">已摺疊</string>
+    <string name="comment_item_fold">評論已摺疊</string>
 
     <plurals name="comment_reply_item_fold">
         <item quantity="one">摺疊回復(<xliff:g example="1" id="count">%1$d</xliff:g>)</item>
         <item quantity="other">摺疊回復(<xliff:g example="2" id="count">%1$d</xliff:g>)</item>
     </plurals>
 
-    <string name="comment_no_reply">暫無回復</string>
+    <string name="comment_no_reply">Wow，這裡什麼都沒有。</string>
     <string name="comment_reply_info_name">詳情</string>
     <string name="set_updates_notification">應用有新版本</string>
-    <string name="set_updates_notification_msg">應用有新版本時通知我，建議開啟。</string>
+    <string name="set_updates_notification_msg">應用有新版本時通知我。建議設定：開</string>
     <string name="app_detail_unknow_text">版本過低，不支持該板塊，請升級後查看。</string>
-    <string name="comment_detail_original">查看原評論 ></string>
+    <string name="comment_detail_original">查看原評論 &gt;</string>
     <string name="comment_comment_newest">最新</string>
     <string name="comment_comment_oldest">最早</string>
 
@@ -539,8 +537,8 @@
     <string name="main_night_mode">夜間模式</string>
     <string name="please_login_first">請先登錄</string>
     <string name="no_choice">沒有精選</string>
-    <string name="follow_on_success">關注成功</string>
-    <string name="follow_un_success">已取消</string>
+    <string name="follow_on_success">關注成功！</string>
+    <string name="follow_un_success">已取消關注！</string>
     <string name="canceled">已取消</string>
     <string name="group">論壇</string>
     <string name="collection">收藏</string>
@@ -599,7 +597,7 @@
     <string name="recommend_state_success">已被推薦</string>
     <string name="recommend_select_game">選擇應用</string>
     <string name="recommend_write_des">描述</string>
-    <string name="recommend_write_des_hint">描述優秀，可增加入選幾率！</string>
+    <string name="recommend_write_des_hint">描述優秀，可增加入選幾率。</string>
     <string name="recommend_comment">提交</string>
     <string name="recommend_comment_error">發生錯誤了！</string>
     <string name="recommend_description_title">推薦說明</string>
@@ -615,7 +613,7 @@
     <string name="user_detail_praise">獲贊</string>
 
     <string name="user_detail_tab_detail">評論</string>
-    <string name="user_detail_tab_reply">回復</string>
+    <string name="user_detail_tab_reply">回覆</string>
 
     <string name="user_focus_tab_users">用戶</string>
     <string name="user_focus_tab_apps">小組</string>
@@ -642,11 +640,11 @@
     <string name="tag_list">標籤列表</string>
     <string name="hot_tag">熱門標籤</string>
     <string name="hot_tag_explain">(添加或投票熱門標籤)</string>
-    <string name="common_use">常用標籤</string>
-    <string name="app_add_tag_hint_caution">最多只能添加%1$s個標籤</string>
+    <string name="common_use">我的標籤</string>
+    <string name="app_add_tag_hint_caution">最多只能添加%1$s個標籤。</string>
     <string name="app_add_tag">添加應用標籤</string>
     <string name="toast_app_tag_exist">標籤已存在!</string>
-    <string name="there_is_no_label">沒有標籤!</string>
+    <string name="there_is_no_label">沒有標籤。</string>
     <string name="add">添加</string>
     <string name="colon">：</string>
 
@@ -654,31 +652,31 @@
     <string name="Istop">置頂</string>
     <string name="add_tag">添加標籤</string>
     <string name="error_add_tag">標籤添加失敗</string>
-    <string name="no_collect">收藏夾里什麼都沒有&#8230;</string>
-    <string name="no_comment">暫無評論，快來搶沙發!</string>
-    <string name="filter_no_comment">沒有符合條件的內容</string>
+    <string name="no_collect">收藏裡什麼都沒有！</string>
+    <string name="no_comment">成為第一個評論！</string>
+    <string name="filter_no_comment">Ooops! 沒有符合條件的內容！</string>
 
     <string name="share_apk">分享APK</string>
     <string name="tab_apk">APK文件</string>
-    <string name="commentaries">評論</string>
+    <string name="commentaries">分享評論</string>
     <string name="follow_floating_action_button">發布動態</string>
 
     <string name="upload_apk_downloads">下載數: %1$s</string>
 
-    <string name="upload_comment_uploading">%1$s上傳中…</string>
-    <string name="upload_comment_upload_success">%1$s上傳成功</string>
-    <string name="upload_comment_upload_failed">%1$s上傳失敗</string>
+    <string name="upload_comment_uploading">%1$s 上傳中…</string>
+    <string name="upload_comment_upload_success">%1$s 上傳成功</string>
+    <string name="upload_comment_upload_failed">%1$s 上傳失敗</string>
     <string name="upload_comment_view">點擊查看</string>
     <string name="upload_comment_reload">點擊重新上傳</string>
     <string name="upload_notification_pause">暫停</string>
     <string name="upload_notification_start">開始</string>
     <string name="upload_notification_cancel">取消</string>
-    <string name="upload_notification_is_uploading">評論上傳中…</string>
-    <string name="upload_notification_is_pause">評論已暫停</string>
+    <string name="upload_notification_is_uploading">上傳至APKPure中…</string>
+    <string name="upload_notification_is_pause">上傳已暫停</string>
     <string name="upload_add_list_toast">成功！</string>
     <string name="upload_add_file_list_toast">感謝提交，應用上傳中請稍後！</string>
 
-    <string name="your_reply_comment">你的回復</string>
+    <string name="your_reply_comment">你的回覆</string>
 
     <string name="market_ad_title">市場</string>
     <string name="market_ad_tab_one">推薦</string>
@@ -694,7 +692,7 @@
     <string name="pre_register_bt">預約</string>
     <string name="pre_register_now_bt">立即預約</string>
     <string name="pre_registered_bt">已預約</string>
-    <string name="pre_register_link_title">預註冊地址</string>
+    <string name="pre_register_link_title">預註冊頁面</string>
     <string name="pre_register_gift_tv">預註冊獎勵</string>
     <string name="pre_register_person_num_tv">%1$s人已預約</string>
     <string name="pre_register_success">如果您進行了預約，那麼當應用發布時，您將收到一條通知。</string>
@@ -702,9 +700,9 @@
     <string name="open_page_failed">打開頁面失敗!</string>
 
     <string name="search_for_user">搜索</string>
-    <string name="search_user_history_title">最近聯繫人</string>
+    <string name="search_user_history_title">最近聯絡人</string>
     <string name="search_focus_list_title">已關注</string>
-    <string name="copy_username">複製昵稱</string>
+    <string name="copy_username">複製暱稱</string>
     <string name="copy_content">複製內容</string>
 
     <string name="tab_global">推薦</string>
@@ -731,22 +729,36 @@
     <string name="recommend_game">推薦遊戲</string>
     <string name="bing_share_account">綁定第三方賬號</string>
     <string name="un_bind">未綁定</string>
-    <string name="bind_email_title">綁定郵箱</string>
-    <string name="bind_email_tv">成功綁定郵箱後可獲得,郵箱登錄，找回密碼，發表評論等更多權限。</string>
-    <string name="verification_code_tv">驗證碼已發送至你的郵箱%1$s</string>
+    <string name="bind_email_title">綁定電子郵件</string>
+    <string name="bind_email_tv">將您的電子郵件連接到您的帳戶，以解鎖電子郵件登入、密碼恢復，發送評論等的好處。</string>
+    <string name="verification_code_tv">驗證碼已發送至你的電子郵件 %1$s</string>
     <string name="verification_code_second_tv">%ds後重新發送</string>
     <string name="verification_code_resend_tv">重新發送</string>
     <string name="send_verification_code_resend_tv">發送驗證碼</string>
-    <string name="bind_email_success">綁定成功</string>
-    <string name="update_email_tv">更換郵需要重新驗證新郵箱</string>
+    <string name="bind_email_success">綁定成功。</string>
+    <string name="update_email_tv">重新驗證以更新您的電子郵件</string>
     <string name="verification_code_tv_hint">驗證碼</string>
-    <string name="verification_success_code_toast">驗證碼發送成功</string>
-    <string name="verification_null_code_toast">請填寫驗證碼</string>
+    <string name="verification_success_code_toast">驗證碼發送成功。</string>
+    <string name="verification_null_code_toast">請填寫驗證碼。</string>
     <string name="unbind_email">未綁定</string>
-    <string name="unbind_email_hint">郵箱未綁定</string>
+    <string name="unbind_email_hint">沒有電子郵件與你的帳戶綁定。</string>
     <string name="menu_skip">跳過</string>
 
-    <string name="forget_password_tv">忘記密碼</string>
+    <string name="forget_password_tv">忘記密碼？</string>
     <string name="recover_password_title">找回密碼</string>
-    <string name="email_address_hint_et">郵箱地址</string>
-</resources>
+    <string name="email_address_hint_et">輸入你的電子郵件。</string>
+<string name="download_mkdir_internal_storage_values">internal_storage</string>
+    <string name="download_mkdir_external_storage_values">external_storage</string>
+
+    <string name="register_term_of_service">APKPure Term of Service</string>
+
+    <string name="play_button">播放按鈕</string>
+    <string name="null_time">0:00</string>
+    <string name="open_video_in_youtube">在YouTube開啟影片</string>
+    <string name="full_screen_button">全螢幕按鈕</string>
+
+    <string name="upload_apk_version">V %1$s</string>
+    <string name="submit_comment_user_style">&lt;font color=#007AFF&gt;@%1$s&lt;/font&gt;</string>
+
+    <string name="login_out_message_hint">你確定要登出嗎？</string>
+    </resources>
