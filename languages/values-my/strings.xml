@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2"><string name="action_settings">Settings</string>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2"><string name="action_settings">အပြင်အဆင်များ</string>
     <string name="action_search">ရှာဖွေရန်</string>
     <string name="action_management">စီမံခန့်ခွဲရန်</string>
 
@@ -34,9 +34,9 @@
 
     <string name="about_title">အကြောင်းအရာ
 \n<xliff:g example="APKPure" id="app_name">%1$s</xliff:g></string>
-    <string name="check_update">ဗား႐ွင္းအသစ္ စစ္ပါ</string>
+    <string name="check_update">ဗားရှင်းအသစ်စစ်ပါ</string>
     <string name="quit">ထွက်မည်</string>
-    <string name="want_to_quit">သင်ထွက်မှာသေချာပါသလား?</string>
+    <string name="want_to_quit">?</string>
 
     <string name="install">သွင်းမည်</string>
     <string name="open">ဖွင့်မည်</string>
@@ -253,7 +253,7 @@
     <string name="failed_to_request_app_detail">App၏အသေးစိတ်အချက်လက်တောင်းဆို၍မရပါ။.</string>
     <string name="installation">တပ်ဆင်ခြင်း</string>
     <string name="show_notification_after_installation">တပ်ဆင်ပြီးပါကသတိပေးချက်ပြပါ</string>
-    <string name="delete_packages_after_installation">တပ်ဆင်ပြီးလျှင် Package များကိုဖျက်ပါ</string>
+    <string name="delete_packages_after_installation">တပ်ဆင်ပြီးလျှင် ပက်ကေ့ခ်ျများကိုဖျက်ပါ</string>
 
     <string name="_name__installation_completed"><xliff:g example="APKPure" id="name">%1$s</xliff:g>တပ်ဆင်ပြီးပြီ။</string>
     <string name="touch_to_open">ဖွင့်ရန်နှိပ်ပါ။.</string>
@@ -303,7 +303,7 @@
     <string name="app_detail_tab_three">ဆက်နွှယ်နေသော</string>
 
     <string name="app_detail_comment_filter_version">နောက်ဆုံးဗားရှင်း</string>
-    <string name="app_detail_comment_score_footer">%1$s ယောက်သည် အခြားဘာသာစကားဖြင့်ထင်မြင်ချက်ပေးထားသည်။.</string>
+    <string name="app_detail_comment_score_footer">\'%1$s ယောက်သည် အခြားဘာသာစကားဖြင့်ထင်မြင်ချက်ပေးထားသည်။.\'</string>
     <string name="app_detail_evaluation_tool_bar_title">ထင်မြင်ချက်တစ်ခုကိုမျှဝေပါ</string>
     <string name="app_detail_comment_order_array_new">အသစ်ဆုံးများ</string>
     <string name="app_detail_comment_order_array_best">အကောင်းဆုံး</string>
@@ -311,4 +311,208 @@
 
     <string name="app_detail_comment_order_array_good">၄-၅</string>
     <string name="app_detail_comment_order_array_bad">၁-၃</string>
-    </resources>
+    <string name="enable_ultra_download">အဆင့်မြင့်ဒေါင်းလုတ်ဖွင့်ပါ</string>
+    <string name="enable_ultra_download_summary">အဆင့်မြင့်ဒေါင်းလုတ်စနစ်ကိုစမ်းသပ်ဆဲဖြစ်သည်။, ပြဿနာတစ်ခုခုကြုံတွေ့ပါကကျွန်ုပ်တို့ကိုအကြောင်းကြားပါ။.</string>
+    <string name="app_detail_folded_footer_reviews">မကြည့်ရသေးသောသုံးသပ်ချက်စုစုပေါင်း %d ခုကိုကြည့်ပါ</string>
+    <string name="app_detail_folded_footer_posts">မကြည့်ရသေးသောစာစု စုစုပောင်း %d ခုကိုကြည့်ပါ</string>
+    <string name="app_detail_discuss_filter_folded">မကြည့်ရသေးသော</string>
+
+
+    <string name="app_detail_comment_join_group_bt">အုပ်စု</string>
+    <string name="download_complete_installation_setting_entries_always">အမြဲတမ်းတပ်ဆင်ပါ</string>
+    <string name="download_mkdir">ဒေါင်းလုဒ်လမ်းကြောင်း</string>
+    <string name="zxing_msg_parser_status">စကန်ဖတ်ခြင်းမအောင်မြင်ပါ, QR ကုဒ်ကိုထပ်မံစကန်ဖတ်ပါ</string>
+    <string name="scan_qr_code_result_title">ရလဒ်</string>
+    <string name="scan_qr_code_result_copy_text">စာသားများကိုကူးယူပါ</string>
+    <string name="login_title">လော့ဂ်အင်ဝင်ပါ</string>
+    <string name="sign_out">ထွက်ပါ</string>
+
+    <string name="delete_comment">မှတ်ချက်ကိုဖျက်ပါ</string>
+    <string name="delete_comment_msg">ဤမှတ်ချက်ကိုဖျက်လိုပါသလား?</string>
+    <string name="upload_cancel">အပ်လုပ်တင်ခြင်းဖျက်သိမ်းပြီးပြီ</string>
+    <string name="login_select_way_to_login">လော့ဂ်အင်ဝင်ရန်နီးလမ်းတစ်ခုခုရွေးချယ်ပေးပါ</string>
+
+    <string name="user_info_edit_title">ကိုယ်ရေးမှတ်တမ်း</string>
+    <string name="user_info_edit_portrait_tv">ကိုယ်ရေးမှတ်တမ်းပုံ</string>
+    <string name="user_info_edit_username_tv">အသုံးပြုသူအမည်</string>
+    <string name="user_info_edit_nickname_tv">အမည်ပြောင်</string>
+    <string name="user_info_edit_email_tv">အီးမေးလ်</string>
+    <string name="user_info_edit_gender_tv">လိင်</string>
+    <string name="user_info_edit_birthday_tv">မွေးနေ့</string>
+    <string name="user_info_edit_change_pwd_tv">စကားဝှက်အသစ်ပြန်လုပ်</string>
+    <string name="user_info_edit_login_out_tv">ထွက်ပါ</string>
+    <string name="user_info_edit_not_choose">အမည်မသိသော</string>
+    <string name="user_info_edit_gender_male">ကျား</string>
+    <string name="user_info_edit_gender_female">မ</string>
+    <string name="user_info_edit_portrait_album">ဓာတ်ပုံအလ်ဘမ်မှပုံတစ်ပုံရွေးပါ</string>
+    <string name="user_info_edit_portrait_take_photo">ကင်မရာမှပုံတစ်ပုံရိုက်ပါ</string>
+    <string name="user_info_edit_portrait_error">ဤပုံအမျိုးအစားကိုအထောက်ပံ့မပေးပါ</string>
+    <string name="user_info_edit_ok">ကောင်းပြီ</string>
+    <string name="user_info_edit_cancel">ပယ်ဖျက်ပါ</string>
+    <string name="user_info_edit_large_photo">ပုံကိုအရွယ်ကြီးကြီးဖြင့်ကြည့်ပါ</string>
+
+    <string name="update_nick_title">အမည်ပြောင်ပြောင်းလဲမည်</string>
+    <string name="update_email_title">အီးမေးလ်ပြောင်းမည်</string>
+    <string name="update_nick_name_et">သင့်အမည်ပြောင်ကိုရိုက်ထည့်ပါ</string>
+    <string name="update_nick_name_tv">အမည်ပြောင်အသစ်သည်ကွက်လပ်မဖြစ်ရပါ</string>
+    <string name="update_email_name_et">သင့်အီးမေးလ်ရိုက်ထည့်ပါ</string>
+    <string name="update_eamil_name_tv">အီးမေးလ်သည်ကွက်လပ်မဖြစ်ရပါ</string>
+    <string name="user_info_edit_intro_tv">ကျွန်ုပ်အကြောင်း</string>
+    <string name="update_intro_title">ကျွန်ုပ်အကြောင်းပြင်ဆင်ပါ</string>
+    <string name="message_all">အားလုံး</string>
+    <string name="message_reply">မှတ်ချက်များ</string>
+    <string name="message_praise">ကြိုက်နှစ်သက်မှုများ</string>
+    <string name="message_notifications_reply">သင့်မှတ်ချက်ကိုပြန်ပြောခဲ့သည်</string>
+    <string name="open_with_browser">ဘရောက်ဇာဖြင့်ဖွင့်ပါ</string>
+    <string name="web_view_refresh">ပြန်လည်ဆန်းသစ်ပါ</string>
+    <string name="web_view_copy">လင့်ခ်ကူးယူပါ</string>
+
+    <string name="topic_green_color">အစိမ်းရောင်</string>
+    <string name="topic_blue_color">Azure အပြာရောင်</string>
+    <string name="topic_purple_color">ခရမ်းရင့်ရောင်</string>
+    <string name="topic_purple_black">မီးခိုးဖျော့ရောင်</string>
+    <string name="topic_purple_yellow">Apricot လိမ္မော်ရောင်</string>
+    <string name="topic_switch_failed">Theme ပြောင်စလဲခြင်းမအောင်မြင်</string>
+
+    <string name="recommend_title">အကြံပြုချက်များ</string>
+    <string name="recommend_tab_game">အပ်တစ်ခုအကြံပြုထားသည်</string>
+    <string name="recommend_tab_list">အကြံပြုထားသည်များ</string>
+    <string name="recommend_installed_list_title">ကျွန်ုပ်၏အပ်များ</string>
+    <string name="recommend_review">ကြိုတင်ကြည့်ရှုခြင်း</string>
+    <string name="recommend_replace_img">ပုံပြောင်းပါ</string>
+    <string name="recommend_app_name">အပ်ခေါင်းစဉ်</string>
+    <string name="recommend_state_can">အကြုံပြုထားသည်</string>
+    <string name="recommend_state_success">အကြံပြုထားသော</string>
+    <string name="recommend_select_game">အပ်တစ်ခုအကြံပြုထားသည်</string>
+    <string name="recommend_write_des">ဖော်ပြချက်</string>
+    <string name="recommend_comment">ပို့ပါ</string>
+    <string name="recommend_comment_error">အမှားတစ်ခုခုဖြစ်ခဲ့သည်!</string>
+    <string name="user_detail_focus">သတင်းလိုက်ထားသည်</string>
+    <string name="user_detail_fans">သတင်းလိုက်ထားသူများ</string>
+    <string name="user_detail_praise">ကြိုက်နှစ်သက်မှုများ</string>
+    <string name="user_detail_tab_detail">စာစုများ</string>
+    <string name="user_detail_tab_reply">မှတ်ချက်များ</string>
+
+    <string name="user_focus_tab_users">လူများ</string>
+    <string name="user_focus_tab_apps">အုပ်စုများ</string>
+    <string name="user_focus_title_my">ကျွန်ုပ်၏သတင်းလိုက်ထားမှုများ</string>
+    <string name="user_focus_title">%1$s ဦးသတင်းလိုက်ထားသည်</string>
+
+    <string name="goto_google_play">ယခုပဲဝယ်ပါ</string>
+    <string name="google_play_bug_text">Google Play တွင်ဝယ်ပါ</string>
+
+    <string name="menu_follow_all">သတင်းလိုက်ထားမှုအားလုံး</string>
+    <string name="menu_follow_user">သတင်းလိုက်ထားသောလူများ</string>
+    <string name="menu_follow_group">သတင်းလိုက်ထားသောအုပ်စုများ</string>
+    <string name="menu_follow_all_tab">သတင်းလိုက်ထားသော</string>
+    <string name="menu_follow_user_tab">လူများ</string>
+    <string name="menu_follow_group_tab">အုပ်စုများ</string>
+
+    <string name="choose_app">အပ်ပလီကေးရှင်းမှတ်သားပြုပါ</string>
+    <string name="publish_comment">စာစုတစ်ခုကိုမျှဝေပါ</string>
+
+    <string name="app_detail_has_product">ဝယ်ယူစရာများ</string>
+    <string name="app_detail_no_product">ဝယ်ယူစရာမပါဝင်ပါ</string>
+    <string name="app_detail_has_ad">ကြော်ငြာများပါဝင်သည်</string>
+    <string name="app_detail_no_ad">ကြော်ငြာများမပါဝင်ပါ</string>
+
+    <string name="tag_list">တဂ်များစာရင်း</string>
+    <string name="hot_tag">ရှာဖွေမှုများသောတဂ်များ</string>
+    <string name="hot_tag_explain">(ဤအပ်အတွက်ရှိပြီးသားတဂ်ကိုဦးစားပေးပါ သို့မဟုတ် အသစ်ထည့်ပါ)</string>
+    <string name="common_use">ကျွန်ုပ်၏တဂ်များ</string>
+    <string name="app_add_tag_hint_caution">အပ်ပလီကေးရှင်းတစ်ခုတွင် တဂ် %1$s ခုထပ်ပို၍မထည့်ရပါ.</string>
+    <string name="app_add_tag">တဂ်အသစ်တစ်ခုထည့်ပါ</string>
+    <string name="toast_app_tag_exist">အလားတူတဂ်များရှိနေပြီးဖြစ်သည်!</string>
+    <string name="there_is_no_label">တဂ်များမရှိပါ.</string>
+    <string name="add">ပေါင်းထည့်ပါ</string>
+    <string name="colon">:</string>
+
+    <string name="pack_up">ဖျက်မည်</string>
+    <string name="Istop">ပင်စိုက်ထားသော</string>
+    <string name="add_tag">တဂ်ထည့်ပါ</string>
+    <string name="error_add_tag">တဂ်ထည့်ခြင်းမအောင်မြင်ပါ</string>
+    <string name="no_collect">စိတ်ကြိုက်အရာများမရှိသေးပါ!</string>
+    <string name="no_comment">ပထမဆုံးစာစုတစ်ခုတင်ပါ!</string>
+    <string name="filter_no_comment">ဝမ်းနည်းပါတယ်! ဤသည်တို့မပါဝင်ပါ!!</string>
+
+    <string name="share_apk">APK ကိုမျှဝေပါ</string>
+    <string name="tab_apk">APK</string>
+    <string name="commentaries">စာစုတစ်ခုကိုမျှဝေပါ</string>
+    <string name="upload_apk_version">ဗာရှင်း %1$s</string>
+    <string name="upload_apk_downloads">ဒေါင်းလုတ်များ: %1$s ခု</string>
+
+    <string name="upload_comment_view">ကြည့်ရန်နှိပ်ပါ</string>
+    <string name="upload_comment_reload">ပြန်တင်ရန်နှိပ်ပါ</string>
+    <string name="upload_notification_pause">ခတ္တရပ်ပါ</string>
+    <string name="upload_notification_start">စတင်ပါ</string>
+    <string name="upload_notification_cancel">ပယ်ဖျက်ပါ</string>
+    <string name="upload_notification_is_uploading">ပက်ကေ့ချ်ကို APKPure သို့တင်ပေးနေသည်...</string>
+    <string name="upload_notification_is_pause">တင်ခြင်းခတ္တရပ်ဆိုင်းထားသည်။</string>
+    <string name="upload_add_list_toast">အောင်မြင်သည်!</string>
+    <string name="upload_add_file_list_toast">သင်၏အပ်ကိုတင်ပေးနေပါသည်။.စောင့်ဆိုင်ပေးပါ။. ကျေးဇူးတင်ပါသည်။!</string>
+
+    <string name="your_reply_comment">သင့်၏ပြန်ကြားချက်</string>
+
+    <string name="market_ad_title">ဈေးကွက်ကြော်ငြာ</string>
+    <string name="market_ad_tab_one">အသားပေးဖော်ပြမှု</string>
+    <string name="market_ad_tab_two">ဂိမ်းများ</string>
+    <string name="market_ad_tab_three">ကိရိယာများ</string>
+
+    <string name="tag">တဂ်</string>
+
+    <string name="search_tab_name_one">အပ်စ်များ</string>
+    <string name="search_tab_name_two">အသုံးပြုသူ</string>
+    <string name="pre_register_ok">ကောင်းပြီ</string>
+    <string name="pre_register_bt">ကြိုတင်စရင်းသွင်းခြင်း</string>
+    <string name="pre_register_now_bt">ကြိုတင်စရင်းသွင်းခြင်း</string>
+    <string name="pre_registered_bt">စရင်းသွင်းပြီး</string>
+    <string name="pre_register_link_title">ကြိုတင်စရင်းသွင်းစာမျက်နှာ</string>
+    <string name="pre_register_person_num_tv">ကြိုတင်စရင်းသွင်းထားသူများ: %1$s ယောက်</string>
+    <string name="open_page_failed">စာမျက်နှာကိုဖွင့်၍မရပါ!</string>
+    <string name="search_for_user">ရှာဖွေပါ</string>
+    <string name="search_user_history_title">မကြာသေးမီကအဆက်အသွယ်များ</string>
+    <string name="search_focus_list_title">သတင်းလိုက်ထားသော</string>
+
+    <string name="submit_comment_user_style">&lt;font color=#007AFF&gt;@%1$s&lt;/font&gt;</string>
+
+    <string name="copy_username">အမည်ပြောင်</string>
+    <string name="copy_content">အကြောင်းအရာကိုကူးယူပါ</string>
+
+    <string name="tab_global">အသားပေးဖော်ပြမှု</string>
+    <string name="comment_list_see_here">နောက်ဆုံးရောက်ရှိခဲ့သောနေရာ,ပြန်လည်စတင်ရန်နှိပ်ပါ</string>
+    <string name="tab_popular">လူကြိုက်များသော</string>
+    <string name="choice_evaluate">ဦးစားပေးသုံးသပ်ချက်များ</string>
+    <string name="choice_comment">အကြံပြုထားသောစာစုများ</string>
+    <string name="emoji_input_error_hint">အီမိုဂျီဖြင့်မှတ်ချက်ပေး၍မရပါ! တစ်ခုခုရေးရပါ...</string>
+    <string name="load_all_choice_evaluate">ပြန်လည်သုံးသပ်ချက်အားလုံးကြည့်မည်</string>
+    <string name="load_all_choice_comment">စာစုအားလုံးကြည့်မည်</string>
+    <string name="my_reservation_and_collection">ကြိုတင်စရင်းသွင်းခြင်းနှင့်စိတ်ကြိုက်အရာ</string>
+    <string name="upload_apk">APK ဖိုင်တင်မည်</string>
+    <string name="from_user_recommendation">အသုံးပြုသူများ\'၏အကြံပြုချက်များ</string>
+    <string name="topics">ခေါင်းစဉ်ခွဲ</string>
+    <string name="pre_register_game">ကြိုတင်စရင်းသွင်းခြင်း</string>
+    <string name="editors_picks">EDITORS\' CHOICE</string>
+    <string name="recommend_game">အကြံပြုထားသောဂိမ်း</string>
+
+    <string name="bing_share_account">အခြားအကောင့်နှင့်ချိတ်ဆက်မည်</string>
+    <string name="un_bind">ချိတ်ဆက်ထားခြင်းမရှိပါ</string>
+    <string name="login_out_message_hint">ထွက်ဖို့သေချာပြီလား?</string>
+    <string name="bind_email_title">သင့်အီးမေးလ်နှင့်ချိတ်ဆက်ပါ</string>
+    <string name="bind_email_tv">အီးမေးလ်ဖြင့်ဝင်ရောက်ခြင်း၊, စကားဝှက်ပြန်လည်ရယူခြင်း၊, စာစုတင်ခြင်း စသည်တို့လုပ်ဆောင်နိုင်ရန် သင့်အကောင့်ကိုသင့်အီးမေးလ်နှင့်ချိတ်ဆက်ပါ.</string>
+    <string name="verification_code_tv">သင်၏အီးမေးလ်လိပ်စာ %1$s ကိုအတည်ပြုကုဒ်ပို့ပြီးပြီ</string>
+    <string name="verification_code_second_tv">" %d စက္ကန့်ကြာလျှင်ထပ်မံပို့ပေးမည်"</string>
+    <string name="verification_code_resend_tv">အတည်ပြုကုဒ်ပြန်ပို့ပေးပါ</string>
+    <string name="send_verification_code_resend_tv">အတည်ပြုကုဒ်ပို့ပေးပါ</string>
+    <string name="bind_email_success">ချိတ်ဆက်မှုအောင်မြင်သည်.</string>
+    <string name="verification_code_tv_hint">အတည်ပြုကုဒ်</string>
+    <string name="verification_success_code_toast">အတည်ပြုကုဒ်ပေးပို့ပြီးပါပြီ.</string>
+    <string name="verification_null_code_toast">သင်ရရှိထားသောအတည်ပြုကုဒ်ကိုရိုက်ထည့်ပါ.</string>
+    <string name="unbind_email">ချိတ်ဆက်၍မရပါ</string>
+    <string name="unbind_email_hint">သင့်အကောင့်သည်အီးမေးလ်နှင့်ချိတ်ဆက်ထားခြင်းမရှိပါ.</string>
+    <string name="menu_skip">ကျော်မည်</string>
+
+    <string name="forget_password_tv">စကားဝှက်မေ့နေပါသလား?</string>
+    <string name="recover_password_title">စကားဝှက်ပြန်လည်ရယူခြင်း</string>
+    <string name="email_address_hint_et">သင့်အီးမေးလ်ရိုက်ထည့်ပါ.</string>
+
+</resources>
