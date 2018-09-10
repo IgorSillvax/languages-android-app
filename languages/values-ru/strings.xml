@@ -166,7 +166,7 @@
     <string name="external_storage_permission_denied">\n <big> <b> Нам нужно получить доступ к вашему внешнему хранилищу. Пожалуйста, убедитесь, что разрешение не запрещено.</b></big>\n</string>
 
     <string name="share">Поделиться</string>
-    <string name="share_app_url"> Поделиться <xliff:g example="APKPure" id="app_name">%1$s</xliff:g> APK (с @<xliff:g example="APKPure" id="social_network_name">%2$s</xliff:g>)<xliff:g example="https://apkpure.com/p/com.apkpure.aegon" id="app_url">%3$s</xliff:g></string>
+    <string name="share_app_url"> Поделиться <xliff:g example="APKPure" id="app_name">%1$s</xliff:g> APK (from<xliff:g example="APKPure" id="social_network_name">%2$s</xliff:g>)<xliff:g example="https://apkpure.com/p/com.apkpure.aegon" id="app_url">%3$s</xliff:g></string>
 
     <string name="_name__version_history"><xliff:g id="name" example="APKPure">%1$s</xliff:g> История Версий</string>
     <string name="update__date___size_">Обновить: <xliff:g id="date" example="Mar 3, 2016">%1$s</xliff:g>, <xliff:g id="size" example="1024 kB">%2$s</xliff:g></string>
@@ -319,7 +319,7 @@
     <string name="login_select_way_to_login">Выберите способ входа, пожалуйста</string>
 
     <string name="user_info_edit_title">Профиль</string>
-    <string name="user_info_edit_username_tv">Имя</string>
+    <string name="user_info_edit_username_tv">Логин</string>
     <string name="user_info_edit_nickname_tv">Никнейм</string>
     <string name="user_info_edit_email_tv">Email</string>
     <string name="user_info_edit_gender_tv">Пол</string>
@@ -371,7 +371,7 @@
     <string name="sign_in_services_key_policy">Политика конфиденциальности</string>
 
     <string name="user_sign_up">Регистрация</string>
-    <string name="user_name_hint">Имя пользователя</string>
+    <string name="user_name_hint">Логин</string>
     <string name="user_email_hint">Email</string>
     <string name="user_password">Пароль(6-32)</string>
     <string name="user_password_confirm">Подтвердите пароль</string>
@@ -382,9 +382,9 @@
     <string name="user_password_error">Этот пароль недействителен.</string>
     <string name="user_confirm_error">Пароли должны быть индентичны</string>
 
-    <string name="login_user_name">Имя пользователя или email</string>
+    <string name="login_user_name">Логин или электронная почта</string>
     <string name="login_user_sign_in">Войти</string>
-    <string name="login_choose">Или ввойдите в свой аккаунт</string>
+    <string name="login_choose">Или войдите в свой аккаунт</string>
     <string name="login_new_user">Регистрация нового пользователя</string>
     <string name="app_submit_submit">Отправить…</string>
     <string name="app_submit_title_toast">Напишите заглавие!</string>
@@ -425,7 +425,7 @@
     <string name="zxing_msg_parser_status">Не удалось выполнить сканирование, попробуйте снова отсканировать QR-код.</string>
 
     <string name="message_all">ВСЕ</string>
-    <string name="message_reply">ОТВЕТЫ</string>
+    <string name="message_reply">Комментарии</string>
     <string name="message_praise">ЛАЙКОВ</string>
     <string name="comment_cancel">Комментарий отменён</string>
     <string name="comment_submitting">Отправляется…</string>
@@ -456,7 +456,7 @@
     <string name="message_notifications_reply">На Ваш комментарий ответили</string>
     <string name="message_notifications_login">Войдите, пожалуйста, чтобы увидеть эту страницу.</string>
 
-    <string name="is_comment">Комментарий…</string>
+    <string name="is_comment">Идёт загрузка комментария…</string>
     <string name="push_title_info_reply">%1$s ответили на ваш комментарий!</string>
     <string name="push_title_info_upvoted">%1$s понравились ваш комментарий!</string>
     <plurals name="comment_reply_item_fold">
@@ -499,7 +499,7 @@
     <string name="download_mkdir">Путь загрузки</string>
     <string name="download_mkdir_external_storage_fill_toast">Отсутствие свободного места может привести к невозможности скачивания приложений.</string>
 
-    <string name="share_app_url_group"> <xliff:g example="APKPure" id="app_name">%1$s</xliff:g> Группа. (from @<xliff:g example="APKPure" id="social_network_name">%2$s</xliff:g> ) <xliff:g example="https://apkpure.com/p/com.apkpure.aegon" id="app_url">%3$s</xliff:g></string>
+    <string name="share_app_url_group"> <xliff:g example="APKPure" id="app_name">%1$s</xliff:g> Группа. (from <xliff:g example="APKPure" id="social_network_name">%2$s</xliff:g> ) <xliff:g example="https://apkpure.com/p/com.apkpure.aegon" id="app_url">%3$s</xliff:g></string>
 
     <string name="load_failed_error_not_found">Приложение не найдено на маркете приложений APKPure!</string>
     <string name="beta">Бета</string>
@@ -526,7 +526,7 @@
 
     <string name="set_open_source_licence">Лицензии на открытие ПО</string>
 
-    <string name="user_name_null">Неверное имя пользователя</string>
+    <string name="user_name_null">Неверный логин</string>
     <string name="push_title_info_follow">%1$s подписалися на тебя!</string>
     <string name="push_title_info_update">Доступно обновление APKPure!</string>
     <string name="push_content_info_update">Выпущена новая версия %1$s! Обновить сейчас!</string>
@@ -588,7 +588,7 @@
     <string name="collection_comment">Записи</string>
     <string name="collection_app">ПРИЛОЖЕНИЯ</string>
 
-    <string name="open_with_browser">Открыть с помощью браузера</string>
+    <string name="open_with_browser">Открыть с помощью браузеров</string>
     <string name="web_view_refresh">Обновить</string>
 
     <string name="topic_green_color">Зеленый</string>
@@ -723,20 +723,20 @@
     <string name="comment_list_new_num">%d Новые истории</string>
     <string name="tab_popular">ПОПУЛЯРНЫЕ</string>
 <string name="app_detail_tab_evaluation">Отзывы</string>
-    <string name="app_detail_comment_filter_sort_score">Топ</string>
+    <string name="app_detail_comment_filter_sort_score">Топ рейтинг</string>
     <string name="app_detail_comment_filter_all">Все отзывы</string>
     <string name="app_detail_comment_filter_version">Последняя версия</string>
-    <string name="app_detail_comment_score_less">Низкий пользовательский рейтинг</string>
-    <string name="app_detail_comment_no_data">Не найден рейтинги пользователей, добавь свой рейтинг.</string>
+    <string name="app_detail_comment_score_less">Слишком мало оценок пользователей</string>
+    <string name="app_detail_comment_no_data">Не найден рейтинги пользователей, добавь ваш рейтинг.</string>
     <string name="app_detail_comment_score_footer">Здесь %1$s отзывы на других языках.</string>
-    <string name="app_detail_evaluation_tool_bar_title">Поделиться отзывом</string>
+    <string name="app_detail_evaluation_tool_bar_title">Написать отзыв</string>
     <string name="app_detail_evaluation_failed_bt">Отзыв</string>
 
     <string name="app_detail_comment_order_array_good">4-5</string>
     <string name="app_detail_comment_order_array_bad">1-3</string>
     <string name="app_detail_folded_footer_reviews">Смотреть все %d сложенные отзывы</string>
     <string name="app_detail_folded_footer_posts">Смотреть все %d сложенные посты</string>
-    <string name="app_detail_discuss_filter_featured">Основные моменты</string>
+    <string name="app_detail_discuss_filter_featured">Самое лучшее</string>
     <string name="app_detail_discuss_filter_folded">Сложенные</string>
 
 
@@ -744,17 +744,16 @@
     <string name="menu_copy_link">Копировать ссылку</string>
     <string name="web_view_copy">Копировать ссылку</string>
 
-    <string name="filter_no_comment">Ой! Нет контента!!</string>
+    <string name="filter_no_comment">Ой! Ничего не найдено!</string>
 
-    <string name="follow_floating_action_button">Создай новый момент</string>
+    <string name="follow_floating_action_button">Создать новый момент</string>
 
     <string name="count_down_timer_tv">%ds</string>
     <string name="count_down_timer_btn">Пропустить</string>
 
     <string name="choice_evaluate">Избранные Отзывы</string>
     <string name="choice_comment">Рекомендуемые посты</string>
-    <string name="emoji_input_error_hint">Комментарии эмодзи не допускаются!
-\nНапишите что-нибудь…</string>
+    <string name="emoji_input_error_hint">Комментарии только с эмодзи не допускаются!Напишите что-нибудь…</string>
     <string name="load_all_choice_evaluate">Смотреть все отзывы</string>
     <string name="load_all_choice_comment">Смотреть все посты</string>
     <string name="my_reservation_and_collection">Предварительная регистрация и избранные</string>
@@ -767,26 +766,27 @@
     <string name="editors_picks">Выбор редакции</string>
     <string name="recommend_game">рекомендуемая игра</string>
 
-    <string name="bing_share_account">Подключение к другой учётной записи</string>
+    <string name="bing_share_account">Подключение к сторонней учётной записи</string>
     <string name="un_bind">Нет соединения</string>
     <string name="login_out_message_hint">Вы действительно хотите выйти?</string>
-    <string name="bind_email_title">Подключите свой адрес электронной почты</string>
-    <string name="bind_email_tv">Подключите свой адрес электронной почты к своей учетной записи, чтобы разблокировать преимущества входа в систему электронной почты, восстановления пароля, отправки сообщений и т. Д.</string>
+    <string name="bind_email_title">Подключите вашу электронную почту</string>
+    <string name="bind_email_tv">"Подключите вашу электронную почту к  учетной записи, чтобы разблокировать преимущества входа в систему электронной почты, восстановления пароля, опубликования отзывов и т. д."</string>
     <string name="verification_code_tv">Код подтверждения отправлен на ваш адрес электронной почты%1$s</string>
     <string name="verification_code_second_tv">Отправить в %d s</string>
     <string name="verification_code_resend_tv">Отправить код подтверждения</string>
     <string name="send_verification_code_resend_tv">Отправить код подтверждения</string>
-    <string name="bind_email_success">Соединение успешно</string>
+    <string name="bind_email_success">Привязка выполненна успешно</string>
     <string name="update_email_tv">Перепроверьте, обновляется ли ваш адрес электронной почты</string>
     <string name="verification_code_tv_hint">Код подтверждения</string>
     <string name="verification_success_code_toast">Код подтверждения отправлен</string>
     <string name="verification_null_code_toast">Пожалуйста, введите код подтверждения, который получили.</string>
     <string name="unbind_email">Нет соединения</string>
-    <string name="unbind_email_hint">К вашей учетной записи не подключен адрес электронной почты.</string>
+    <string name="unbind_email_hint">К вашей учетной записи не привязан адрес электронной почты.</string>
     <string name="menu_skip">Пропустить</string>
 
     <string name="forget_password_tv">Забыли пароль?</string>
     <string name="recover_password_title">Восстановление пароля</string>
     <string name="email_address_hint_et">Введите адрес электронной почты.</string>
 
-</resources>
+<string name="properties_message_v2">&lt;b&gt;Имя Пакета:&lt;/b&gt; %1$s&lt;br&gt;&lt;b&gt;Version:&lt;/b&gt; %2$s&lt;br&gt;&lt;b&gt;Path:&lt;/b&gt; %3$s&lt;br&gt;&lt;b&gt;Size:&lt;/b&gt; %4$s&lt;br&gt;&lt;b&gt;Last Modified:&lt;/b&gt; %5$s</string>
+    </resources>
