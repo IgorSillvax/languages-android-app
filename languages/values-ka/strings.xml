@@ -18,7 +18,7 @@
 
     <string name="management">კონტროლი</string>
     <string name="app_updates">აპლიკაციების განახლება</string>
-    <string name="app_management">აპლიკაციებია კონტროლი</string>
+    <string name="app_management">დამონტაჟდა</string>
     <string name="app_uninstall">აპლოკაციების წაშლა</string>
     <string name="apk_management">APK კონტროლი</string>
     <string name="apk_xapk_management">APK / XAPK კონტროლი</string>
@@ -36,9 +36,8 @@
     <string name="delete">წაშლა</string>
     <string name="delete_all">ყველას წაშლა</string>
     <string name="properties">თვისებები</string>
-    <string name="properties_message">"
- &lt;b&gt;ნაწილი:&lt;/b&gt; %1$s&lt;br&gt;&lt;b&gt;ზომა:&lt;/b&gt; %2$s&lt;br&gt;&lt;b&gt;ბოლო განახლება:&lt;/b&gt; %3$s
- "</string>
+    <string name="properties_message">"&lt;b&gt;ნაწილი:&lt;/b&gt; %1$s&lt;br&gt;&lt;b&gt;ზომა:&lt;/b&gt; %2$s&lt;br&gt;&lt;b&gt;ბოლო განახლება:&lt;/b&gt; %3$s
+\n "</string>
     <string name="want_to_delete_file">გინდა წაშალო?</string>
     <string name="want_to_delete_all_files">გინდა ყველა წაშალო?</string>
     <string name="file_has_been_deleted">წაშლილია.</string>
@@ -156,9 +155,8 @@
 
     <string name="_name__is_up_to_date"><xliff:g id="name" example="APKPure">%1$s</xliff:g>"  მეხსიერება."</string>
     <string name="new_version_available_title">ახალი ვერსია</string>
-    <string name="new_version_available_message">"
- &lt;b&gt;ბოლო ვერსია &lt;/b&gt; %1$s&lt;br&gt;&lt;br&gt;&lt;b&gt;რაა ახალი:&lt;/b&gt;&lt;br&gt;%2$s
- "</string>
+    <string name="new_version_available_message">"&lt;b&gt;ბოლო ვერსია &lt;/b&gt; %1$s&lt;br&gt;&lt;br&gt;&lt;b&gt;რაა ახალი:&lt;/b&gt;&lt;br&gt;%2$s
+\n "</string>
 
     <string name="report__">გამოქვეყნება.…</string>
     <string name="report_problem__">პრობლემა…</string>
@@ -176,12 +174,10 @@
     <string name="invalid_app_asset">არასწორი app აქტივი ინფორმაცია.</string>
     <string name="failed_to_request_app_detail">მოთხოვნა ვერ მოხერხდა app დეტალური ინფორმაცია.</string>
     <string name="failed_to_request_app_asset">მოთხოვნა ვერ მოხერხდა app აქტივი ინფორმაცია.</string>
-    <string name="incompatible_this_app">"
- &lt;big&gt;&lt;b&gt;&lt;ფერი =%1$d&gt;არასაკმარისი მონაცემები .&lt;/font&gt;&lt;/b&gt;&lt;/big&gt;&lt;br&gt;&lt;br&gt;გინდა გაგრძელება?
- "</string>
-    <string name="this_app_not_usable">"
- &lt;big&gt;&lt;b&gt;&lt;ფერი=%1$d&gt;არადაიმედო APP.&lt;/font&gt;&lt;/b&gt;&lt;/big&gt;&lt;br&gt;&lt;br&gt;გინდა განაგრძო?
- "</string>
+    <string name="incompatible_this_app">"&lt;big&gt;&lt;b&gt;&lt;ფერი =%1$d&gt;არასაკმარისი მონაცემები .&lt;/font&gt;&lt;/b&gt;&lt;/big&gt;&lt;br&gt;&lt;br&gt;გინდა გაგრძელება?
+\n "</string>
+    <string name="this_app_not_usable">"&lt;big&gt;&lt;b&gt;&lt;ფერი=%1$d&gt;არადაიმედო APP.&lt;/font&gt;&lt;/b&gt;&lt;/big&gt;&lt;br&gt;&lt;br&gt;გინდა განაგრძო?
+\n "</string>
 
     <string name="setting">პარამეტრები</string>
     <string name="external_storage_not_usable">
@@ -192,7 +188,7 @@
  </string>
 
     <string name="share">გაზიარება</string>
-    <string name="share_app_url">გადმოწერა <xliff:g id="app_name" example="APKPure">%1$s</xliff:g> APK (from @<xliff:g id="social_network_name" example="APKPure">%2$s</xliff:g>), <xliff:g id="app_url" example="https://apkpure.com/p/com.apkpure.aegon">%3$s</xliff:g></string>
+    <string name="share_app_url"> გადმოწერა <xliff:g id="app_name" example="APKPure">%1$s</xliff:g> APK (from @<xliff:g id="social_network_name" example="APKPure">%2$s</xliff:g>), <xliff:g id="app_url" example="https://apkpure.com/p/com.apkpure.aegon">%3$s</xliff:g></string>
 
     <string name="_name__version_history"><xliff:g id="name" example="APKPure">%1$s</xliff:g>" Version  ისტორია"</string>
     <string name="update__date___size_">განახლება: <xliff:g id="date" example="Mar 3, 2016">%1$s</xliff:g>, <xliff:g id="size" example="1024 kB">%2$s</xliff:g></string>
@@ -212,9 +208,8 @@
  "</item>
 	<item quantity="other"/>
 </plurals>
-    <string name="total_zero_app">"
- სულ: &lt;b&gt;&lt;font ფერი=%1$d&gt;0&lt;/font&gt;&lt;/b&gt; app
- "</string>
+    <string name="total_zero_app">"სულ: &lt;b&gt;&lt;font ფერი=%1$d&gt;0&lt;/font&gt;&lt;/b&gt; app
+\n "</string>
 
     <string name="general">მთავარი</string>
     <string name="language">ენა</string>
@@ -269,4 +264,11 @@
     <string name="load_failed_error">უიიი!! შეცდომაა.</string>
     <string name="want_to_quit">მართლა გინდა გასვლა?</string>
 
+    <string name="recommend">აღმოჩენა</string>
+    <string name="check_update_replace">ოფიციალური ვერსია</string>
+    <string name="beta">ბეტა</string>
+    <string name="history_version">ვერსიის ისტორია</string>
+
+    <string name="report">მოხსენება</string>
+    <string name="data_saver_model">მონაცემთა დამცავი</string>
     </resources>
