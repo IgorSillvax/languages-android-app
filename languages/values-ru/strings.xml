@@ -16,7 +16,7 @@
     <string name="something_happened">&gt;_&lt;\nЧто-то пошло не так.</string>
 
     <string name="load_failed_error">Ой! Произошла ошибка.</string>
-    <string name="load_failed_empty">"Здесь ничего нет. "</string>
+    <string name="load_failed_empty">Здесь ничего нет.</string>
     <string name="load_failed_all_up_to_date">Все приложения обновлены.</string>
     <string name="load_failed_no_results">Простите! Ничего не найдено.</string>
     <string name="refresh">Обновить</string>
@@ -132,7 +132,7 @@
     <string name="trending_searches">Популярные поиски</string>
 
     <string name="improvement_plan_title">План улучшения эффективности</string>
-    <string name="improvement_plan_message">Отправьте информацию о вашем устройстве. Мы <b>не собираем</b> ваши личные данные (имя, адрес, e-mail адрес, номер социального страхования, или др. личные данные).
+    <string name="improvement_plan_message">Отправьте информацию о вашем устройстве, Мы <b>не собираем</b> ваши личные данные (имя, адрес, e-mail адрес, номер социального страхования, или другие личные данные).
 \n </string>
     <string name="join_us">Присоединяйтесь к нам</string>
     <string name="skip">Пропустить</string>
@@ -370,7 +370,7 @@
     <string name="user_name_error">Имя пользователя не должно содержать пробелов и специальных символов</string>
     <string name="user_nickname_error">Никнейм не должен содержать пробелов и специальных символов</string>
     <string name="user_email_error">Неправильный адрес эллектронной почты</string>
-    <string name="user_password_error">Этот пароль недействителен.</string>
+    <string name="user_password_error">Этот пароль недействителен</string>
     <string name="user_confirm_error">Пароли должны быть индентичны</string>
 
     <string name="login_user_name">Логин или электронная почта</string>
@@ -432,7 +432,7 @@
     <string name="comment_reply_tell_msg">Этот комментарий был удалён!</string>
 
     <string name="notification_setting">Уведомления</string>
-    <string name="gif_tip">gif</string>
+    <string name="gif_tip">gif-анимация</string>
     <string name="submit_comment_title_hint">Тема (необязательно)</string>
 
     <string name="comment_vote_string">Поставить оценку</string>
@@ -766,10 +766,10 @@
     <string name="verification_code_second_tv">Отправить в %d s</string>
     <string name="verification_code_resend_tv">Отправить код подтверждения</string>
     <string name="send_verification_code_resend_tv">Отправить код подтверждения</string>
-    <string name="bind_email_success">Привязка выполненна успешно</string>
+    <string name="bind_email_success">Привязка выполнена успешно.</string>
     <string name="update_email_tv">Перепроверьте, обновляется ли ваш адрес электронной почты</string>
     <string name="verification_code_tv_hint">Код подтверждения</string>
-    <string name="verification_success_code_toast">Код подтверждения отправлен</string>
+    <string name="verification_success_code_toast">Код подтверждения отправлен.</string>
     <string name="verification_null_code_toast">Пожалуйста, введите код подтверждения, который получили.</string>
     <string name="unbind_email">Нет соединения</string>
     <string name="unbind_email_hint">К вашей учетной записи не привязан адрес электронной почты.</string>
