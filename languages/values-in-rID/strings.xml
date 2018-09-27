@@ -69,7 +69,7 @@
 
     <string name="market_response_error_success">Sukses.</string>
     <string name="delete_all">Hapus Semua</string>
-    <string name="properties">Properti</string>
+    <string name="properties">update</string>
     <string name="want_to_delete_all_files">Kamu ingin menghapus semua file?</string>
     <string name="io_error">Kesalahan IO. Mungkin tidak ada ruang cukup instalasi berhasil.</string>
     <string name="file_format_error">Kesalahan format file.</string>
@@ -183,12 +183,12 @@
     <string name="version__version___size_">Versi: <xliff:g example="1.0.0" id="version">%1$s</xliff:g>, <xliff:g example="1024 kB" id="size">%2$s</xliff:g></string>
     <plurals name="_count__new_update_is_available">
         <item quantity="one"><xliff:g example="2" id="count">%1$d</xliff:g> Pembaruan tersedia</item>
-        <item quantity="other" />
+        <item quantity="other"/>
     </plurals>
 
     <plurals name="_count__item_is_downloading">
         <item quantity="one"><xliff:g example="2" id="count">%1$d</xliff:g> Item sedang mendownload</item>
-        <item quantity="other" />
+        <item quantity="other"/>
     </plurals>
     <string name="_name__download_failed"><xliff:g example="APKPure" id="name">%1$s</xliff:g> Unduhan gagal</string>
     <string name="download_percent"><xliff:g example="50" id="percent">%1$d</xliff:g> %%</string>
@@ -263,7 +263,7 @@
     <string name="download_complete_installation_setting">Pilihan instalasi setelah mengunduh</string>
     <string name="recommend">Temukan</string>
     <string name="sub_comment_dialog_title">Tambahkan video</string>
-    <string name="sub_comment_dialog_des_tv" />
+    <string name="sub_comment_dialog_des_tv"/>
     <string name="sub_comment_dialog_link_et">Masukkan alamat video di sini</string>
     <string name="sub_comment_dialog_link_null">Alamat video tidak boleh kosong</string>
     <string name="sub_comment_progress_msg">Menambagkan video…</string>
