@@ -27,10 +27,8 @@
     <string name="download_management">İndirme Yönetimi</string>
     <string name="settings">Ayarlar</string>
     <string name="about">Hakkında</string>
-    <string name="about_title"><xliff:g id="app_name" example="APKPure">%1$s</xliff:g> Hakkında</string>
-    <string name="about_message">
-        <![CDATA[<b>Sürüm:</b> %1$s<br><br><b>Website:</b> <a href=%2$s>%2$s</a><br><b>Email:</b> <a href=mailto:%3$s>%3$s</a>]]>
-    </string>
+    <string name="about_title">Hakkında <xliff:g id="app_name" example="APKPure">%1$s</xliff:g></string>
+    <string name="about_message">&lt;b&gt;Sürüm:&lt;/b&gt; %1$s&lt;br&gt;&lt;br&gt;&lt;b&gt;Websitesi:&lt;/b&gt; &lt;a href=%2$s&gt;%2$s&lt;/a&gt;&lt;br&gt;&lt;b&gt;E-psota:&lt;/b&gt; &lt;a href=mailto:%3$s&gt;%3$s&lt;/a&gt;</string>
     <string name="check_update">Güncellemeyi Kontrol Edin</string>
     <string name="quit">Çıkış</string>
     <string name="want_to_quit">Çıkmak istediğinden emin misin?</string>
@@ -86,16 +84,16 @@
     <string name="update">Güncelle</string>
     <string name="version__version___size_">Sürüm: <xliff:g id="version" example="1.0.0">%1$s</xliff:g>, <xliff:g id="size" example="1024 kB">%2$s</xliff:g></string>
     <plurals name="_count__new_update_is_available">
-	    <item quantity="one"><xliff:g id="count" example="1">%1$d</xliff:g> yeni güncelleme kullanılabilir</item>
-	    <item quantity="other"><xliff:g id="count" example="2">%1$d</xliff:g> yeni güncelleme kullanılabilir</item>
-    </plurals>
+	<item quantity="one"><xliff:g id="count" example="1">%1$d</xliff:g> yeni güncelleme kullanılabilir</item>
+	<item quantity="other"><xliff:g id="count" example="2">%1$d</xliff:g> yeni güncellemeler kullanılabilir</item>
+</plurals>
 
     <string name="launching_please_wait">Başlatılıyor, lütfen bekleyin…</string>
 
     <plurals name="_count__item_is_downloading">
-	    <item quantity="one"><xliff:g id="count" example="1">%1$d</xliff:g> öğe indiriliyor</item>
-	    <item quantity="other"><xliff:g id="count" example="2">%1$d</xliff:g> öğe indiriliyor</item>
-    </plurals>
+	<item quantity="one"><xliff:g id="count" example="1">%1$d</xliff:g> öğesi indiriliyor</item>
+	<item quantity="other"><xliff:g id="count" example="2">%1$d</xliff:g> öğeleri indiriliyor</item>
+</plurals>
     <string name="downloads_complete">İndirmeler tamamlandı</string>
     <string name="touch_for_view_all_downloads">Tüm indirmeleri görüntülemek için dokunun</string>
     <string name="_name__download_failed"><xliff:g id="name" example="APKPure">%1$s</xliff:g> indirme başarısız</string>
@@ -117,7 +115,7 @@
     <string name="expired">Süresi doldu</string>
     <string name="detail">Ayrıntı</string>
     <string name="remove">Kaldır</string>
-    <string name="want_to_remove_download_item">Bu indirme öğesini silmek istiyor musunuz?</string>
+    <string name="want_to_remove_download_item">Bu indirme öğesini kaldırmak istiyor musunuz?</string>
 
     <string name="search">Arama</string>
     <string name="search_for_apps">Uygulama Ara</string>
@@ -161,12 +159,10 @@
     <string name="improvement_plan_message">
         <![CDATA[Android Cihaz Bilgisini göndermekte bize yardımcı olun, kişisel bilgilerinizi (isim, adres, e-posta adresi, sosyal güvenlik numarası vb.) <b>almayacağız</b>.]]>
     </string>
-    <string name="properties">Mülkleri</string>
+    <string name="properties">Özellikler</string>
     <string name="delete_all">Hepsini Kaldır</string>
-    <string name="properties_message">
-        <![CDATA[<b>Yol:</b> %1$s<br><b>Boyut:</b> %2$s<br><b>Son Düzenleme:</b> %3$s]]>
-    </string>
-    <string name="want_to_delete_all_files">Tüm dosyaları silnek istiyormusunuz?</string>
+    <string name="properties_message">&lt;b&gt;Dizin:&lt;/b&gt; %1$s&lt;br&gt;&lt;b&gt;Boyut:&lt;/b&gt; %2$s&lt;br&gt;&lt;b&gt;Son Düzenleme:&lt;/b&gt; %3$s</string>
+    <string name="want_to_delete_all_files">Tüm dosyaları silmek istiyor musunuz?</string>
     <string name="flag_as_inappropriate">Uygunsuz olarak işaretle</string>
     <string name="pause_all">Tümünü Durdur</string>
     <string name="continue_all">Tümünü Sürdür</string>
@@ -177,7 +173,7 @@
     <string name="want_to_remove_all_download_items">İndirilen tüm öğeleri kaldırmak istiyor musunuz?</string>
     <string name="delete_downloaded_file">İndirilen dosyayı sil</string>
     <string name="download_over_cellular">Mobil veri üzerinden indir</string>
-    <string name="download_over_cellular_content">Mobil verinizi kullanarak indirmek üzeresiniz. Devam etmek istiyormusunuz?</string>
+    <string name="download_over_cellular_content">Mobil verinizi kullanarak indirmek üzeresiniz. Devam etmek istiyor musunuz?</string>
 
     <string name="search_history">Geçmiş</string>
     <string name="clear_search_history">Tüm geçmişi temizle</string>
@@ -194,9 +190,7 @@
     <string name="invalid_app_asset">Geçersiz uygulama öğe bilgisi.</string>
     <string name="failed_to_request_app_detail">Uygulama bilgisi isteği başarısız oldu.</string>
     <string name="failed_to_request_app_asset">Uygulama veri bilgisi isteği başarısız oldu.</string>
-    <string name="external_storage_not_usable">
- <big><b>Dahili hafızanıza erişmemiz gerek. Lütfen buna izin verin.</b></big>
- </string>
+    <string name="external_storage_not_usable"><big><b>Dahili hafızanıza erişmemiz gerek. Lütfen buna izin verin.</b></big> </string>
     <string name="external_storage_permission_denied"><big><b>Dahili hafızanıza erişmemiz gerek. İznin engellenmediğinden emin olun.</b></big> </string>
 
     <string name="update__date___size_">Güncelleştirme: <xliff:g id="date" example="Mar 3, 2016">%1$s</xliff:g>, <xliff:g id="size" example="1024 kB">%2$s</xliff:g></string>
@@ -204,29 +198,23 @@
     <string name="update_all">Tümünü Güncelleştir</string>
     <string name="update___count__">Güncelleştir (<xliff:g id="count" example="3">%1$d</xliff:g>)</string>
     <string name="ignore">Yoksay</string>
-    <string name="unignore">Yoksaydan Kaldır</string>
+    <string name="unignore">Yoksayılanlardan Kaldır</string>
     <string name="select">Seç</string>
     <string name="cancel">İptal Et</string>
     <string name="select_all">Tümünü Seç</string>
     <string name="deselect_all">Tüm Seçimi Kaldır</string>
     <string name="ignored">Yoksayıldı</string>
     <plurals name="total__count__apps__size_">
-        <item quantity="one">
-            <![CDATA[Toplam: <b><font color="%1$d">%2$d</font></b> app, <b><font color="%1$d">%3$s</font></b>]]>
-        </item>
-        <item quantity="other">
-            <![CDATA[Toplam: <b><font color="%1$d">%2$d</font></b> apps, <b><font color="%1$d">%3$s</font></b>]]>
-        </item>
-    </plurals>
-    <string name="total_zero_app">
-        <![CDATA[Toplam: <b><font color="%1$d">0</font></b> app]]>
-    </string>
+	<item quantity="one">Toplam: &lt;b&gt;&lt;font color=%1$d&gt;%2$d&lt;/font&gt;&lt;/b&gt; uygulama, &lt;b&gt;&lt;font color=%1$d&gt;%3$s&lt;/font&gt;&lt;/b&gt;</item>
+	<item quantity="other">Toplam: &lt;b&gt;&lt;font color=%1$d&gt;%2$d&lt;/font&gt;&lt;/b&gt; uygulamalar, &lt;b&gt;&lt;font color=%1$d&gt;%3$s&lt;/font&gt;&lt;/b&gt;</item>
+</plurals>
+    <string name="total_zero_app">Toplam: &lt;b&gt;&lt;font color=%1$d&gt;0&lt;/font&gt;&lt;/b&gt; uygulama</string>
 
     <string name="download_via_wifi_only">Sadece Wi-Fi üzerinden indir</string>
     <string name="enable_ultra_download">Ultra İndirmeyi Etkinleştir</string>
-    <string name="enable_ultra_download_summary">Ultra İndirme test aşamasında, herhang bir problem olursa lütfen bize bildirin.</string>
+    <string name="enable_ultra_download_summary">Ultra İndirme test aşamasında, herhangi bir problem olursa lütfen bize bildirin.</string>
     <string name="installation">Kurulum</string>
-    <string name="show_notification_after_installation">Kurulumd sonra bildirimleri gös</string>
+    <string name="show_notification_after_installation">Kurulumdan sonra bildirimleri göster</string>
     <string name="delete_packages_after_installation">Kurulumdan sonra paketleri sil</string>
 
     <string name="_name__installation_completed"><xliff:g id="name" example="APKPure">%1$s</xliff:g> kurulum tamamlandı</string>
@@ -239,15 +227,7 @@
     <string name="auto_service_dialog_message">Otomatik Kurulum\'a gerekli erişimleri sağlamalısınız, hiçbir risk barındırmadan güvenli bir şekilde kullanabilirsiniz.</string>
 
     <string name="auto_service_title">APKPure Otomatik Kurulum</string>
-    <string name="auto_service_description">\"APKPure Otomatik Kurulum\"u aktifleştirerek, \"Otomatik Kurulum\"un sorunsuz çalışmasını sağlayın.
-
-\"APKPure Otomatik Kurulum\" size güncelleme gerektiren uygulamaların tek bir tıklamayla otomatik olarak güncellenmesini sağlar, artık sürekli telefonunuzu kontrol etmek zorunda değilsiniz.
-
-Bu özelliği aktifleştirdiğiniz zaman, sistem uyarılarını görebilirsiniz, erişilebilirliği sağlamak için lütfen \"Tamam\" butonuna tıklayın.
-
-APKPure\'nin düzgün çalışmasını sağlamak için lütfen Temizlik Uygulamanızda APKPure\'yi \"Beyaz Lise\" ye ekleyin.
-
-Yukarıdaki özellikler Android 4.1+ sürümlerde desteklenmektedir, root erişimine gereksinim duymaz. Size hiçbir kişisel bilgilerinizi toplamayacağımıza dair söz veriyoruz. Lütfen bizimle iletişime geçerken rahat olun.</string>
+    <string name="auto_service_description">\"APKPure Otomatik Kurulum\"u aktifleştirerek, \"Otomatik Kurulum\"un sorunsuz çalışmasını sağlayın. \"APKPure Otomatik Kurulum\" size güncelleme gerektiren uygulamaların tek bir tıklamayla otomatik olarak güncellenmesini sağlar, artık sürekli telefonunuzu kontrol etmek zorunda değilsiniz. Bu özelliği aktifleştirdiğiniz zaman, sistem uyarılarını görebilirsiniz, erişilebilirliği sağlamak için lütfen \"Tamam\" butonuna tıklayın. APKPure\'nin düzgün çalışmasını sağlamak için lütfen Temizlik Uygulamanızda APKPure\'yi \"Beyaz Liste\" \'ye ekleyin. Yukarıdaki özellikler Android 4.1+ sürümlerde desteklenmektedir, root erişimine gereksinim duymaz. Size hiçbir kişisel bilgilerinizi toplamayacağımıza dair söz veriyoruz. Lütfen bizimle iletişime geçerken rahat olun.</string>
 
     <string name="auto_service_install">Yükle</string>
     <string name="auto_service_ensure">Tamam</string>
@@ -266,8 +246,8 @@ Yukarıdaki özellikler Android 4.1+ sürümlerde desteklenmektedir, root erişi
 
 
 <string name="similar_or_related">Benzer Veya İlişkili</string>
-    <string name="more_from_developer">Daha Fazla Yazılımcı</string>
-    <string name="more_large">Daha fazla</string>
+    <string name="more_from_developer">Geliştiriciden Daha Fazlası</string>
+    <string name="more_large">Daha Fazla</string>
     <string name="feedback">Geri Bildirim</string>
 
     <string name="changing_language">Dil değiştiriliyor, lütfen bekleyin…</string>
@@ -283,7 +263,7 @@ Yukarıdaki özellikler Android 4.1+ sürümlerde desteklenmektedir, root erişi
     <string name="app_submit_star_toast">Puan vermelisiniz!</string>
     <string name="app_submit_title_hint">Lütfen başlık yazın</string>
     <string name="app_submit_msg_hint">Lütfen düşüncelerinizi yazın</string>
-    <string name="app_submit_nickname">Takma isim</string>
+    <string name="app_submit_nickname">Takma Ad</string>
     <string name="app_submit_email">E-Posta</string>
     <string name="app_submit_submit_title">Gönder</string>
     <string name="app_submit_reply_to">Cevapla</string>
@@ -302,28 +282,28 @@ Yukarıdaki özellikler Android 4.1+ sürümlerde desteklenmektedir, root erişi
     <string name="delete_the_historical_record">Geçmiş kaydı silinsin mi?</string>
     <plurals name="app_detail_see_all_replies">
 	<item quantity="one"><xliff:g example="1" id="count">%1$d</xliff:g> yanıtın hepsini gör</item>
-	<item quantity="other"><xliff:g example="2" id="count">%1$d</xliff:g> yanıtın hepsini gör</item>
+	<item quantity="other"><xliff:g example="2" id="count">%1$d</xliff:g> yanıtların hepsini gör</item>
 </plurals>
 
     <string name="app_submit_name_toast">Lütfen kullanıcı adını doldurun!</string>
-    <string name="app_submit_email_toast">Lütfen doğru bir e-posta yazın!</string>
+    <string name="app_submit_email_toast">Lütfen doğru bir e-posta adresi yazın!</string>
     <string name="app_detail_tab_one">Ayrıntılar</string>
     <string name="app_detail_tab_two">Gönderiler</string>
     <string name="app_detail_tab_three">İlişkili</string>
 
     <string name="app_detail_comment_order_array_default">Varsayılan olarak sırala</string>
-    <string name="app_detail_comment_order_array_most_recent">En son</string>
-    <string name="app_detail_comment_order_array_new">En yeni</string>
-    <string name="app_detail_comment_order_array_best">En iyi</string>
+    <string name="app_detail_comment_order_array_most_recent">En Son</string>
+    <string name="app_detail_comment_order_array_new">En Yeni</string>
+    <string name="app_detail_comment_order_array_best">En İyi</string>
 
     <string name="download_complete_installation_setting_entries_always">Her zaman yükle</string>
-    <string name="download_complete_installation_setting_entries_only">Yalnızca uygulamadayken yükle</string>
+    <string name="download_complete_installation_setting_entries_only">Yalnızca uygulama açıkken yükle</string>
     <string name="download_complete_installation_setting_entries_never">Asla yükleme</string>
 
     <string name="reply">Yanıtla</string>
-    <string name="input_reply_content">Yanıtın girilen içeriği:</string>
+    <string name="input_reply_content">Yanıtın giriş içeriği:</string>
     <string name="publish">Gönderi</string>
-    <string name="reply_dialog_marked_words">Seçilen resmi silmek için uzun bas.</string>
+    <string name="reply_dialog_marked_words">Seçilen resmi silmek için uzun basın.</string>
     <string name="reply_comment">Yorumu yanıtla</string>
     <string name="save_original_image">Kaydet</string>
     <string name="already_save">Kaydedildi<xliff:g id="path" example="ApKPure/photo">%1$s</xliff:g></string>
@@ -332,9 +312,8 @@ Yukarıdaki özellikler Android 4.1+ sürümlerde desteklenmektedir, root erişi
     <string name="load_failed_click_retry">Yüklenemedi, denemek için dokun</string>
     <string name="loading">Yükleniyor…</string>
 
-    <string name="scan_qr_code_hint">QR Kod Okuyucuyu kullanmadan önce kameraya erişim izni vermen gerek
- QR kodun okunması için gerekli olan izin.</string>
-    <string name="zxing_msg_default_status">Lütfen taramak için QR kodunu bakaça yerleştirin.</string>
+    <string name="scan_qr_code_hint">QR Kodu kullanmadan önce, QR kodu taramak için gereken kamera iznini vermeniz gerekir.</string>
+    <string name="zxing_msg_default_status">Lütfen taramak için QR kodunu vizörün içine yerleştirin.</string>
     <string name="zxing_msg_parser_status">Taranamadı, lütfen QR kodu taramak için tekrar deneyin.</string>
 
     <string name="tip_permission_camera_storage">SD kart ve kamerayı kullanmak için izin yok, gerekli izinleri verin</string>
@@ -344,7 +323,7 @@ Yukarıdaki özellikler Android 4.1+ sürümlerde desteklenmektedir, root erişi
     <string name="sign_out">Çıkış</string>
 
     <string name="delete_comment">Yorumu Sil</string>
-    <string name="delete_comment_msg">Bu yorumu silmek istediğine emin misin?</string>
+    <string name="delete_comment_msg">Bu yorumu silmek istediğinizden emin misiniz?</string>
     <string name="upload_cancel">Yükleme iptal edildi</string>
     <string name="login_select_way_to_login">Lütfen giriş yapma yolunuzu seçin</string>
 
@@ -357,7 +336,7 @@ Yukarıdaki özellikler Android 4.1+ sürümlerde desteklenmektedir, root erişi
     <string name="user_info_edit_birthday_tv">Doğum günü</string>
     <string name="user_info_edit_change_pwd_tv">Şifreyi sıfırla</string>
     <string name="user_info_edit_login_out_tv">Çıkış yap</string>
-    <string name="user_info_edit_not_choose">Bilinmeyen</string>
+    <string name="user_info_edit_not_choose">Bilinmiyor</string>
     <string name="user_info_edit_gender_male">Erkek</string>
     <string name="user_info_edit_gender_female">Kadın</string>
     <string name="user_info_edit_portrait_album">Galeriden bir fotoğraf seç</string>
@@ -367,7 +346,7 @@ Yukarıdaki özellikler Android 4.1+ sürümlerde desteklenmektedir, root erişi
     <string name="user_info_edit_cancel">İptal</string>
 
     <string name="update_nick_title">Takma adı değiştir</string>
-    <string name="update_email_title">E-postayı değiştir</string>
+    <string name="update_email_title">E-postayı Değiştir</string>
     <string name="update_nick_name_et">Yeni takma adınızı girin</string>
     <string name="update_nick_name_tv">Yeni takma ad boş bırakılamaz</string>
     <string name="update_email_name_et">E-postanızı girin</string>
@@ -376,7 +355,7 @@ Yukarıdaki özellikler Android 4.1+ sürümlerde desteklenmektedir, root erişi
     <string name="message_all">HEPSİ</string>
     <string name="message_reply">YORUMLAR</string>
     <string name="message_praise">BEĞENİLER</string>
-    <string name="message_notifications_reply">Yorumunu yanıtladın</string>
+    <string name="message_notifications_reply">Yorumunuzu yanıtladı</string>
     <string name="message_notifications_login">Bu sayfayı görmek için lütfen giriş yapınız.</string>
 
     <string name="update_pwd_title">Şifremi yenile</string>
@@ -403,39 +382,39 @@ Yukarıdaki özellikler Android 4.1+ sürümlerde desteklenmektedir, root erişi
 
     <string name="set_permissions">İzinler</string>
     
-    <string name="sign_in_services">Kaydolmakla, Şartlar ve Gizlilik Politikamızı kabul etmiş olursunuz.</string>
+    <string name="sign_in_services">Kayıt Olarak, Şartlar ve Gizlilik Politikamızı kabul etmiş olursunuz.</string>
 
     <string name="sign_in_services_key">Koşullar</string>
     <string name="sign_in_services_key_policy">Gizlilik Politikası</string>
 
-    <string name="user_sign_up">Kaydol</string>
-    <string name="user_name_hint">Kullanıcı adı</string>
+    <string name="user_sign_up">Kayıt Ol</string>
+    <string name="user_name_hint">Kullanıcı Adı</string>
     <string name="user_email_hint">E-posta</string>
     <string name="user_password">Şifre(6–32)</string>
-    <string name="user_password_confirm">Şifreyi onaylayın</string>
+    <string name="user_password_confirm">Şifreyi Onaylayın</string>
 
 
     <string name="is_comment">Yorum…</string>
-    <string name="set_contributor">Katkıda bulunan</string>
-    <string name="user_name_error">Kullanıcı adında özel karakter,sembol veya boşluk olamaz</string>
-    <string name="user_nickname_error">Kısa isimde özel karakterler,sembol veya boşluk olamaz</string>
-    <string name="user_email_error">Bu eposta adresi geçersiz</string>
+    <string name="set_contributor">Katkıda Bulunan</string>
+    <string name="user_name_error">Kullanıcı adı herhangi bir özel karakter, sembol veya boşluk içermemelidir</string>
+    <string name="user_nickname_error">Takma ad herhangi bir özel karakter, sembol veya boşluk içermemelidir</string>
+    <string name="user_email_error">Bu e-posta adresi geçersiz</string>
     <string name="user_password_error">Bu şifre geçersiz</string>
-    <string name="user_confirm_error">Şifre eşleşmeli</string>
+    <string name="user_confirm_error">Şifreler eşleşmeli</string>
 
     <string name="login_user_name">Kullanıcı adı veya e-posta</string>
     <string name="login_user_password">Şifre</string>
     <string name="login_user_sign_in">Giriş</string>
-    <string name="login_choose">Veya hesabınızla giriş</string>
+    <string name="login_choose">Veya hesabınızla giriş yapın</string>
     <string name="login_new_user">Yeni Kullanıcı Kayıt</string>
-    <string name="login_post_as_a_guest">Misafir olarak mesaj gönder</string>
+    <string name="login_post_as_a_guest">Misafir Olarak Post Gönder</string>
 
     <string name="message">Mesaj</string>
 
     <string name="push_title_info_reply">%1$s yorumunuza yanıt verdi!</string>
     <string name="download_list">İndirme listesi</string>
     <string name="can_be_update">Güncellenebilir</string>
-    <string name="install_list">Yüklü</string>
+    <string name="install_list">Yüklendi</string>
     <string name="no_download">İndirme yok</string>
     <string name="downloads">İndirmeler</string>
 
@@ -445,7 +424,7 @@ Yukarıdaki özellikler Android 4.1+ sürümlerde desteklenmektedir, root erişi
     <string name="notification_setting">Bildirimler</string>
     <string name="reply_notification">Yanıt bildirimleri</string>
     <string name="reply_notification_msg">Yeni cevap mesajları için bildirim alın</string>
-    <string name="like_notification">Yukarı bildirim bildirileri</string>
+    <string name="like_notification">Destek bildirimleri</string>
     <string name="like_notification_msg">Yeni uyarı mesajları için bildirim alın</string>
     <string name="gif_tip">hareketli resim</string>
     <string name="submit_comment_title_hint">Konu (İsteğe Bağlı)</string>
@@ -471,7 +450,7 @@ Yukarıdaki özellikler Android 4.1+ sürümlerde desteklenmektedir, root erişi
     <string name="edit">Düzenle</string>
     <string name="menu_copy">Kopyala</string>
     <string name="sub_comment_dialog_des_tv">Yalnızca YouTube URL\'lerini ayrıştırma desteği</string>
-    <string name="message_notifications_praise">Yorumunuzu yukarı kaldırdı</string>
+    <string name="message_notifications_praise">Yorumunuzu iptal ettiniz</string>
     <string name="share_app_url_comment"> <xliff:g example="APKPure" id="user_name">%1$s</xliff:g> adlı kullanıcının <xliff:g example="APKPure" id="app_name"> %2$s uygulamasına yorumları</xliff:g> : <xliff:g example="APKPure" id="app_name"> %3$s</xliff:g><xliff:g example="APKPure" id="social_network_name">%4$s</xliff:g><xliff:g example="https://apkpure.com/p/com.apkpure.aegon" id="app_url">%5$s</xliff:g></string>
 
     <string name="push_title_info_upvoted">%1$s yorumunuzu beğendi!</string>
@@ -480,7 +459,7 @@ Yukarıdaki özellikler Android 4.1+ sürümlerde desteklenmektedir, root erişi
     <string name="app_detail_comment_order_array_old">Eski</string>
 
     <string name="app_detail_comment_join_group_bt">Grup</string>
-    <string name="download_mkdir">İndirme yeri</string>
+    <string name="download_mkdir">İndirme Dizini</string>
     <string name="download_mkdir_internal_storage_values">dahili_depolama</string>
     <string name="download_mkdir_external_storage_values">harici_depolama</string>
 
@@ -759,7 +738,7 @@ Yukarıdaki özellikler Android 4.1+ sürümlerde desteklenmektedir, root erişi
     <string name="bind_email_title">E-postanızı bağlayın</string>
     <string name="email_address_hint_et">E-Posta adresinizi giriniz.</string>
 
-<string name="share_app_url_group"> <xliff:g example="APKPure" id="app_name">1%1$s</xliff:g>2 Group. (from <xliff:g example="APKPure" id="social_network_name">3%2$s</xliff:g>4) <xliff:g example="https://apkpure.com/p/com.apkpure.aegon" id="app_url">5%3$s</xliff:g>6 </string>
+<string name="share_app_url_group"> <xliff:g example="APKPure" id="app_name">1%1$s</xliff:g>2 Grup. (from <xliff:g example="APKPure" id="social_network_name">3%2$s</xliff:g>4) <xliff:g example="https://apkpure.com/p/com.apkpure.aegon" id="app_url">5%3$s</xliff:g>6 </string>
 
     <string name="app_detail_comment_score_footer">Diğer ülkelerden %1$s inceleme mevcut.</string>
     <string name="app_detail_folded_footer_reviews">%d gizlenmiş incelemenin hepsini gör</string>
