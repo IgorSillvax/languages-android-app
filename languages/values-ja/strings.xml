@@ -310,7 +310,7 @@
     <string name="load_end">これ以上データがありません</string>
     <string name="loading">ローディング…</string>
 
-    <string name="share_app_url_comment"> <xliff:g example="APKPure" id="user_name">%1$s</xliff:g>"\'s comments on  "<xliff:g example="APKPure" id="app_name">%2$s</xliff:g><xliff:g example="APKPure" id="app_name">%3$s</xliff:g>(from @<xliff:g example="APKPure" id="social_network_name">%4$s</xliff:g>) <xliff:g example="https://apkpure.com/p/com.apkpure.aegon" id="app_url">%5$s</xliff:g></string>
+    <string name="share_app_url_comment"> <xliff:g example="APKPure" id="user_name">%1$s</xliff:g>\'s comments on <xliff:g example="APKPure" id="app_name">%2$s</xliff:g> : <xliff:g example="APKPure" id="app_name">%3$s</xliff:g> (from <xliff:g example="APKPure" id="social_network_name">%4$s</xliff:g>) <xliff:g example="https://apkpure.com/p/com.apkpure.aegon" id="app_url">%5$s</xliff:g></string>
 
     <plurals name="app_detail_see_all_replies">
         <item quantity="one">全ての返信を見る<xliff:g example="2" id="count"> 1%1$d</xliff:g> 2</item>
@@ -601,7 +601,7 @@
     <string name="history_version">バージョン履歴</string>
 
     <string name="data_saver_model">データセーバー</string>
-    <string name="share_app_url_group"> <xliff:g example="APKPure" id="app_name">%1$s</xliff:g>グループ. (from @<xliff:g example="APKPure" id="social_network_name">%2$s</xliff:g>) <xliff:g example="https://apkpure.com/p/com.apkpure.aegon" id="app_url">%3$s</xliff:g></string>
+    <string name="share_app_url_group"> <xliff:g example="APKPure" id="app_name">%1$s</xliff:g>グループ. (from <xliff:g example="APKPure" id="social_network_name">%2$s</xliff:g>) <xliff:g example="https://apkpure.com/p/com.apkpure.aegon" id="app_url">%3$s</xliff:g></string>
 
     <string name="data_saver_model_summery">スクリーンショットなどの画像の画質を落とし、通信容量を節約することができます。</string>
     <string name="scan_qr_code_result_title">結果</string>
@@ -717,4 +717,11 @@
     <string name="comment_list_new_num">％d新しいストーリー</string>
     <string name="tab_popular">人気</string>
 <string name="properties_message_v2">&lt;b&gt;パッケージ名:&lt;/b&gt; %1$s&lt;br&gt;&lt;b&gt;バージョン:&lt;/b&gt; %2$s&lt;br&gt;&lt;b&gt;パス:&lt;/b&gt; %3$s&lt;br&gt;&lt;b&gt;サイズ:&lt;/b&gt; %4$s&lt;br&gt;&lt;b&gt;最終更新日:&lt;/b&gt; %5$s</string>
+    <string name="app_detail_tab_evaluation">レビュー</string>
+    <string name="app_detail_comment_filter_sort_score">最高評価</string>
+    <string name="app_detail_comment_filter_all">すべてのレビュー</string>
+    <string name="app_detail_comment_filter_version">最新バージョン</string>
+    <string name="app_detail_comment_score_less">ユーザーの評価が少なすぎます</string>
+    <string name="app_detail_comment_no_data">ユーザー評価が見つかりませんでした。あなたの評価を今すぐ追加してください。</string>
+    <string name="app_detail_comment_score_footer">他の言語では％1 $ s件のレビューがあります。</string>
     </resources>
