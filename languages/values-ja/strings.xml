@@ -574,7 +574,7 @@
     <string name="download_mkdir_internal_storage_entries">SDカード</string>
     <string name="download_mkdir_internal_storage_entries1">SD 1</string>
     <string name="recommend_not_found">インデックスされていない</string>
-    <string name="recommend_not_fount_info">\"%s\"を追加するよう、APKPureに通知するには、フォームを完了する必要があります。</string>
+    <string name="recommend_not_fount_info">\"%1$s\"を追加するよう、APKPureに通知するには、フォームを完了する必要があります。</string>
 
     <string name="user_detail_focus">フォロー中</string>
     <string name="user_detail_fans">フォロワー</string>
@@ -626,7 +626,7 @@
     <string name="tag_list">タグ一覧</string>
     <string name="hot_tag">ホット・タグ</string>
     <string name="common_use">私のタグ</string>
-    <string name="app_add_tag_hint_caution">各アプリに％s個以上のタグはありません。</string>
+    <string name="app_add_tag_hint_caution">各アプリに%1$s個以上のタグはありません。</string>
     <string name="app_add_tag">新しいタグを追加する</string>
     <string name="toast_app_tag_exist">タグは既に存在します！</string>
     <string name="there_is_no_label">タグはありません。</string>
@@ -732,4 +732,13 @@
     <string name="app_detail_folded_footer_reviews">すべての％dレビューを見る</string>
     <string name="app_detail_folded_footer_posts">すべての%dポストを見る</string>
     <string name="app_detail_discuss_filter_featured">ハイライト</string>
+    <string name="app_detail_discuss_filter_folded">折りたたみ</string>
+
+
+    <string name="message_notify">通知</string>
+    <string name="menu_copy_link">リンクをコピーする</string>
+    <string name="web_view_copy">リンクをコピーする</string>
+
+    <string name="filter_no_comment">おっと！ そのようなコンテンツはありません!!</string>
+
     </resources>
