@@ -328,7 +328,7 @@ APKPure의 기능을 보장하기 위해，APKPure가 당신의 앱 정리“화
     <string name="app_detail_comment_join_group_bt">그룹</string>
     <string name="download_complete_installation_setting_entries_always">모든 설치</string>
     <string name="download_complete_installation_setting_entries_only">앱이 있을 때만 설치가 가능합니다</string>
-    <string name="download_complete_installation_setting_entries_never">무조건 설치</string>
+    <string name="download_complete_installation_setting_entries_never">절대 설치하지 않음</string>
 
     <string name="download_mkdir">다운로드 경로</string>
     <string name="download_mkdir_internal_storage_size_des">%1$ 무료, 전체 %2$</string>
@@ -476,11 +476,32 @@ APKPure의 기능을 보장하기 위해，APKPure가 당신의 앱 정리“화
     <string name="download_list">다운로드 목록</string>
     <string name="can_be_update">업데이트를 할 수 있습니다</string>
     <string name="install_list">설치됨</string>
-    <string name="no_download">다운로드가 안됩니다</string>
+    <string name="no_download">다운로드 없음</string>
     <string name="downloads">다운로드</string>
 
     <string name="change_language_failed">언어 변경을 실패하였습니다!</string>
     <string name="comment_reply_tell_msg">이 리뷰가 삭제되었습니다!</string>
 
     <string name="notification_setting">알림</string>
+    <string name="reply_notification">답글 알림</string>
+    <string name="reply_notification_msg">답글에 대한 새로운 알림 받기</string>
+    <string name="like_notification">알림 찬성</string>
+    <string name="like_notification_msg">새로운 찬성 투표에 대한 알림 받기</string>
+    <string name="gif_tip">gif</string>
+    <string name="ad_tip">광고</string>
+    <string name="submit_comment_title_hint">제목(선택)</string>
+
+    <string name="comment_vote_string">투표</string>
+    <string name="comment_no_reply">우와. 아무 것도 없어요.</string>
+    <string name="comment_reply_info_name">자세히</string>
+    <string name="set_updates_notification">업데이트 가능</string>
+    <string name="set_updates_notification_msg">업데이드가 가능할 때 알립니다.
+\n권장 설정: 켬</string>
+    <string name="app_detail_unknow_text">오래된 APKPure 버전은 더 이상 새로운 기능을 지원하지 않으니 최신 버전으로 업데이트 해주세요.</string>
+    <string name="comment_comment_newest">최신</string>
+    <string name="menu_copy">복사</string>
+    <string name="menu_copy_link">링크 복사</string>
+    <string name="menu_cancel">취소</string>
+    <string name="delete_all_download_history">모든 다운로드 기록을 지우시겠습니까?</string>
+    <string name="delete_the_historical_record">모든 기록을 삭제하시겠습니까?</string>
     </resources>
