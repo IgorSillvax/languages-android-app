@@ -4,9 +4,9 @@
     <string name="games">Igre</string>
     <string name="action_management">Upravljanje</string>
 
-    <string name="press_back_key_quit">Ponovno pritisnite tipko nazaj in zaprite.</string>
+    <string name="press_back_key_quit">Ponovno pritisnite tipko za nazaj in končajte.</string>
 
-    <string name="featured">Predstavljeni</string>
+    <string name="featured">Predstavljeno</string>
     <string name="recommend">Odkrijte</string>
     <string name="apps">Aplikacije</string>
     <string name="categories">Kategorije</string>
@@ -32,12 +32,9 @@ Nekaj se je zgodilo.</string>
     <string name="about">O nas</string>
 
 
-    <string name="about_title">O nas
-
-<xliff:g example="APKPure" id="app_name"/></string>
-    <string name="about_message">"
- &lt;b&gt;Različica:&lt;/b&gt; %1$s&lt;br&gt;&lt;br&gt;&lt;b&gt;Spletna stran:&lt;/b&gt; &lt;a href=%2$s&gt;%2$s&lt;/a&gt;&lt;br&gt;&lt;b&gt;E-pošta:&lt;/b&gt; &lt;a href=mailto:%3$s&gt;%3$s&lt;/a&gt;
- "</string>
+    <string name="about_title">Vizitka <xliff:g primer="APKPure" id="app_name"/></string>
+    <string name="about_message">"&lt;b&gt;Različica:&lt;/b&gt; %1$s&lt;br&gt;&lt;br&gt;&lt;b&gt;Spletna stran:&lt;/b&gt; &lt;a href=%2$s&gt;%2$s&lt;/a&gt;&lt;br&gt;&lt;b&gt;E-pošta:&lt;/b&gt; &lt;a href=mailto:%3$s&gt;%3$s&lt;/a&gt;
+\n "</string>
     <string name="check_update">Preveri posodobitve</string>
     <string name="check_update_replace">Uradna verzija</string>
     <string name="check_update_beta">Predizdaja Beta</string>
@@ -50,14 +47,12 @@ Nekaj se je zgodilo.</string>
     <string name="delete">Izbriši</string>
     <string name="delete_all">Izbriši vse</string>
     <string name="properties">Lastnosti</string>
-    <string name="properties_message">"
- &lt;b&gt;Pot:&lt;/b&gt; %1$s&lt;br&gt;&lt;b&gt;Velikost:&lt;/b&gt; %2$s&lt;br&gt;&lt;b&gt;Zadnja sprememba:&lt;/b&gt; %3$s
- "</string>
+    <string name="properties_message">"&lt;b&gt;Pot:&lt;/b&gt; %1$s&lt;br&gt;&lt;b&gt;Velikost:&lt;/b&gt; %2$s&lt;br&gt;&lt;b&gt;Zadnja sprememba:&lt;/b&gt; %3$s "</string>
     <string name="want_to_delete_file">Želite izbrisati to datoteko?</string>
     <string name="want_to_delete_all_files">Želite izbrisati vse datoteke?</string>
     <string name="file_has_been_deleted">Datoteka je bila izbrisana.</string>
     <string name="failed_to_delete_file">Datoteke ni bilo mogoče izbrisati.</string>
-    <string name="install__label_">Namesti - <xliff:g example="APKPure" id="app_label">%1$s</xliff:g></string>
+    <string name="install__label_">Namesti - <xliff:g primer="APKPure" id="app_label">%1$s</xliff:g></string>
     <string name="user_canceled">Uporabniška prekinitev.</string>
     <string name="io_error">IO napaka. Morda ni dovolj prostora za uspešno namestitev.</string>
     <string name="file_format_error">Napaka v obliki datoteke.</string>
@@ -162,9 +157,7 @@ Nekaj se je zgodilo.</string>
     <string name="clear_search_history">Počisti vso zgodovino</string>
 
     <string name="improvement_plan_title">Načrt izboljšanja učinkovitosti</string>
-    <string name="improvement_plan_message">
- Pomagajte nam z oddajo informacij o napravi Android, Ne <b>zbiramo </b>osebnih podatkov (ime, naslov, e-poštni naslov, številka socialnega zavarovanja, ali druge posebne identifikatorje).
- </string>
+    <string name="improvement_plan_message">Pomagajte nam z oddajo informacij o napravi Android. <b>Ne zbiramo</b>osebnih podatkov (ime, naslov, e-poštni naslov, številka socialnega zavarovanja, ali drugih posebnih identifikatorjev).</string>
     <string name="join_us">Pridruži se nam</string>
     <string name="skip">Preskoči</string>
 
@@ -174,9 +167,8 @@ Nekaj se je zgodilo.</string>
 
     <string name="_name__is_up_to_date"><xliff:g primer="APKPure" id="ime">%1$s</xliff:g> je posodobljen.</string>
     <string name="new_version_available_title">Nova različica je na voljo</string>
-    <string name="new_version_available_message">"
- &lt;b&gt;Najnovejša različica:&lt;/b&gt; %1$s&lt;br&gt;&lt;br&gt;&lt;b&gt;Kaj je novega:&lt;/b&gt;&lt;br&gt;%2$s
- "</string>
+    <string name="new_version_available_message">"&lt;b&gt;Najnovejša različica:&lt;/b&gt; %1$s&lt;br&gt;&lt;br&gt;&lt;b&gt;Kaj je novega:&lt;/b&gt;&lt;br&gt;%2$s
+\n "</string>
 
     <string name="report">Poročilo</string>
     <string name="report__">Poročilo…</string>
@@ -197,20 +189,12 @@ Podrobnosti težave:
     <string name="invalid_app_asset">Neveljavne informacije o sredstvih aplikacije.</string>
     <string name="failed_to_request_app_detail">Spodletela zahteva o podrobnostih aplikacije.</string>
     <string name="failed_to_request_app_asset">Spodletela prošnja za informacije o sredstvih aplikacij.</string>
-    <string name="incompatible_this_app">"
- &lt;big&gt;&lt;b&gt;&lt;font color=%1$d&gt;Vaša naprava ni združljiva s to aplikacijo.&lt;/font&gt;&lt;/b&gt;&lt;/big&gt;&lt;br&gt;&lt;br&gt;Želite nadaljevati?
- "</string>
-    <string name="this_app_not_usable">"
- &lt;big&gt;&lt;b&gt;&lt;font color=%1$d&gt;Ta aplikacija morda ni uporabna.&lt;/font&gt;&lt;/b&gt;&lt;/big&gt;&lt;br&gt;&lt;br&gt;Želite nadaljevati?
- "</string>
+    <string name="incompatible_this_app">&lt;big&gt;&lt;b&gt;&lt;font color=%1$d&gt;Vaša naprava ni združljiva s to aplikacijo.&lt;/font&gt;&lt;/b&gt;&lt;/big&gt;&lt;br&gt;&lt;br&gt;Ali želite nadaljevati?</string>
+    <string name="this_app_not_usable">&lt;big&gt;&lt;b&gt;&lt;font color=%1$d&gt;Ta aplikacija morda ni uporabna.&lt;/font&gt;&lt;/b&gt;&lt;/big&gt;&lt;br&gt;&lt;br&gt;Ali želite nadaljevati?</string>
 
     <string name="setting">Nastavitev</string>
-    <string name="external_storage_not_usable">
- <big><b>Potrebujemo dostop do vaše zunanje shrambe. Prepričajte se, da je uporabna.</b></big>
- </string>
-    <string name="external_storage_permission_denied">
- <big><b>Potrebujem dostop do vaše zunanje shrambe. Prepričajte se, da se dovoljenje ne zavrne.</b></big>
- </string>
+    <string name="external_storage_not_usable"><big><b>Potrebujemo dostop do vaše zunanje shrambe. Prepričajte se, da je uporabna.</b></big> </string>
+    <string name="external_storage_permission_denied"><big><b>Potrebujem dostop do vaše zunanje shrambe. Prepričajte se, da se dovoljenje ne zavrne.</b></big> </string>
 
     <string name="share">Delite</string>
     <string name="share_app_url">
@@ -234,22 +218,17 @@ Podrobnosti težave:
     <string name="deselect_all">Prekliči izbor vseh</string>
     <string name="ignored">Prezrto</string>
     <plurals name="total__count__apps__size_">
-	<item quantity="one">"
- Skupaj: &lt;b&gt;&lt;font color=%1$d&gt;%2$d&lt;/font&gt;&lt;/b&gt; aplikacija, &lt;b&gt;&lt;font color=%1$d&gt;%3$s&lt;/font&gt;&lt;/b&gt;
- "</item>
-	<item quantity="two">"
- Skupaj: &lt;b&gt;&lt;font color=%1$d&gt;%2$d&lt;/font&gt;&lt;/b&gt; aplikaciji, &lt;b&gt;&lt;font color=%1$d&gt;%3$s&lt;/font&gt;&lt;/b&gt;
- "</item>
-	<item quantity="few">"
- Skupaj: &lt;b&gt;&lt;font color=%1$d&gt;%2$d&lt;/font&gt;&lt;/b&gt; aplikacij, &lt;b&gt;&lt;font color=%1$d&gt;%3$s&lt;/font&gt;&lt;/b&gt;
- "</item>
-	<item quantity="other">"
- Skupaj: &lt;b&gt;&lt;font color=%1$d&gt;%2$d&lt;/font&gt;&lt;/b&gt; aplikacije, &lt;b&gt;&lt;font color=%1$d&gt;%3$s&lt;/font&gt;&lt;/b&gt;
- "</item>
+	<item quantity="one">"Skupaj: &lt;b&gt;&lt;font color=%1$d&gt;%2$d&lt;/font&gt;&lt;/b&gt; aplikacija, &lt;b&gt;&lt;font color=%1$d&gt;%3$s&lt;/font&gt;&lt;/b&gt;
+\n "</item>
+	<item quantity="two">"Skupaj: &lt;b&gt;&lt;font color=%1$d&gt;%2$d&lt;/font&gt;&lt;/b&gt; aplikaciji, &lt;b&gt;&lt;font color=%1$d&gt;%3$s&lt;/font&gt;&lt;/b&gt;
+\n "</item>
+	<item quantity="few">"Skupaj: &lt;b&gt;&lt;font color=%1$d&gt;%2$d&lt;/font&gt;&lt;/b&gt; aplikacij, &lt;b&gt;&lt;font color=%1$d&gt;%3$s&lt;/font&gt;&lt;/b&gt;
+\n "</item>
+	<item quantity="other">"Skupaj: &lt;b&gt;&lt;font color=%1$d&gt;%2$d&lt;/font&gt;&lt;/b&gt; aplikacije, &lt;b&gt;&lt;font color=%1$d&gt;%3$s&lt;/font&gt;&lt;/b&gt;
+\n "</item>
 </plurals>
-    <string name="total_zero_app">"
- Skupaj: &lt;b&gt;&lt;font color=%1$d&gt;0&lt;/font&gt;&lt;/b&gt; app
- "</string>
+    <string name="total_zero_app">"Skupaj: &lt;b&gt;&lt;font color=%1$d&gt;0&lt;/font&gt;&lt;/b&gt; app
+\n "</string>
 
     <string name="general">Splošno</string>
     <string name="language">Jezik</string>
@@ -308,7 +287,7 @@ Zgoraj omenjene funkcije podpirajo Android 4.1+, ni potrebno root dovoljenje. Ob
 
     <string name="app_detail_customer_reviews">Komentarji</string>
     <string name="app_detail_comment_type_web">splet</string>
-    <string name="app_submit_submit">Pošlji…</string>
+    <string name="app_submit_submit">Pošta…</string>
     <string name="app_submit_anonymous_comment">Dodaj komentar</string>
     <string name="app_submit_title_toast">Morate napisati naslov!</string>
     <string name="app_submit_msg_toast">Morate napisati nekaj!</string>
@@ -319,7 +298,7 @@ Zgoraj omenjene funkcije podpirajo Android 4.1+, ni potrebno root dovoljenje. Ob
     <string name="app_submit_msg_hint">Prosimo, da napišete svoje mnenje</string>
     <string name="app_submit_nickname">Vzdevek</string>
     <string name="app_submit_email">E-pošta</string>
-    <string name="app_submit_submit_title">pošlji</string>
+    <string name="app_submit_submit_title">Pošta</string>
     <string name="app_submit_reply_to">odgovori na</string>
 
     <string name="app_detail_tab_one">Podrobnosti</string>
@@ -412,7 +391,7 @@ Zgoraj omenjene funkcije podpirajo Android 4.1+, ni potrebno root dovoljenje. Ob
     <string name="update_intro_tv">Polje O meni ne more biti prazno</string>
 
     <string name="message_all">VSA</string>
-    <string name="message_reply">ODGOVORI</string>
+    <string name="message_reply">PRIPOMBE</string>
     <string name="message_notifications_praise">Uveljavi svoj komentar</string>
     <string name="message_praise">VŠEČKI</string>
     <string name="message_notifications_reply">Odgovori na vaš komentar</string>
@@ -465,7 +444,7 @@ Zgoraj omenjene funkcije podpirajo Android 4.1+, ni potrebno root dovoljenje. Ob
     <string name="user_password_error">To geslo ni veljavno</string>
     <string name="user_confirm_error">Geslo se mora ujemati</string>
 
-    <string name="login_user_name">Uporabniško ime</string>
+    <string name="login_user_name">Uporabniško ime ali e-pošta</string>
     <string name="login_user_password">Geslo</string>
     <string name="login_user_sign_in">Prijava</string>
     <string name="login_choose">Ali se prijavite s svojim računom</string>
@@ -474,11 +453,11 @@ Zgoraj omenjene funkcije podpirajo Android 4.1+, ni potrebno root dovoljenje. Ob
 
     <string name="message">Sporočilo</string>
 
-    <string name="push_title_info_reply">%s je odgovoril na vaš komentar!</string>
-    <string name="push_title_info_upvoted">%s je glasoval za vaš komentar!</string>
-    <string name="push_title_info_follow">%s vam sledi!</string>
+    <string name="push_title_info_reply">%1$s je odgovoril na vaš komentar!</string>
+    <string name="push_title_info_upvoted">%1$s je glasoval za vaš komentar!</string>
+    <string name="push_title_info_follow">%1$s vam sledi!</string>
     <string name="push_title_info_update">APKPure posodobitev je prišla!</string>
-    <string name="push_content_info_update">Nova različica %s je izšla! Posodobite zdaj!</string>
+    <string name="push_content_info_update">Nova različica %1$s je izšla! Posodobite zdaj!</string>
     <string name="push_title_info_at">Nekdo vas je omenil v objavi, tapnite za ogled</string>
 
     <string name="download_list">Prenesi seznam</string>
@@ -617,22 +596,22 @@ Zgoraj omenjene funkcije podpirajo Android 4.1+, ni potrebno root dovoljenje. Ob
     <string name="recommend_description">1. Odobrena priporočila bodo navedena v razdelku DISCOVER.
 2. Priporočamo lahko le aplikacije, ki so trenutno nameščene v napravi Android.
 3. Obvestite APKPure, da dodate neindeksirane aplikacije, prosimo, najprej izpolnite obrazce za priporočilo.</string>
-    <string name="recommend_user_recommend">Priporoča ga %s</string>
+    <string name="recommend_user_recommend">Priporoča ga %1$s</string>
     <string name="recommend_required">*</string>
     <string name="recommend_not_found">Ni indeksirano</string>
-    <string name="recommend_not_fount_info">Obvestite APKPure, da dodate \"%s\", izpolniti morate obrazce.</string>
+    <string name="recommend_not_fount_info">Obvestite APKPure, da dodate %1$s\", izpolniti morate obrazce.</string>
     <string name="recommend_user_recommend_sys">Predstavljen s strani APKPure</string>
 
     <string name="user_detail_focus">Sledite</string>
-    <string name="user_detail_fans">Spremljevalec</string>
+    <string name="user_detail_fans">Spremljevalci</string>
     <string name="user_detail_praise">Všečki</string>
     <string name="user_detail_tab_detail">Objave</string>
-    <string name="user_detail_tab_reply">Odgovorite</string>
+    <string name="user_detail_tab_reply">Komentarji</string>
 
     <string name="user_focus_tab_users">Ljudje</string>
     <string name="user_focus_tab_apps">Skupine</string>
     <string name="user_focus_title_my">Moji sledilci</string>
-    <string name="user_focus_title">Sledenje od %s</string>
+    <string name="user_focus_title">Sledenje od %1$s</string>
 
     <string name="goto_google_play">Kupite zdaj</string>
     <string name="google_play_bug_text">Kupite v Google Play</string>
@@ -656,7 +635,7 @@ Zgoraj omenjene funkcije podpirajo Android 4.1+, ni potrebno root dovoljenje. Ob
     <string name="hot_tag">Vroče oznake</string>
     <string name="hot_tag_explain">(Dodajanje ali glasovanje obstoječih oznak za to aplikacijo)</string>
     <string name="common_use">Moje oznake</string>
-    <string name="app_add_tag_hint_caution">Ne sme biti več kot %s oznak za vsako aplikacijo.</string>
+    <string name="app_add_tag_hint_caution">Ne sme biti več kot %1$s oznak za vsako aplikacijo.</string>
     <string name="app_add_tag">Dodajte novo oznako</string>
     <string name="toast_app_tag_exist">Oznaka že obstaja!</string>
     <string name="there_is_no_label">Brez oznak.</string>
@@ -668,18 +647,18 @@ Zgoraj omenjene funkcije podpirajo Android 4.1+, ni potrebno root dovoljenje. Ob
     <string name="add_tag">Dodaj oznake</string>
     <string name="error_add_tag">Spodletelo dodajanje oznak</string>
     <string name="no_collect">Še ni priljubljenih!</string>
-    <string name="no_comment">Bodite prvi, ki bo dodal komentar!</string>
+    <string name="no_comment">Bodite prvi, ki bo dodal objavo!</string>
 
     <string name="share_apk">Delite APK</string>
     <string name="tab_apk">APK</string>
     <string name="commentaries">Delite objavo</string>
 
-    <string name="upload_apk_version">V %s</string>
-    <string name="upload_apk_downloads">Prenosi: %s</string>
+    <string name="upload_apk_version">V %1$s</string>
+    <string name="upload_apk_downloads">Prenosi: %1$s</string>
     
-    <string name="upload_comment_uploading">%s Nalaganje…</string>
-    <string name="upload_comment_upload_success">%s nalaganje je uspešno</string>
-    <string name="upload_comment_upload_failed">%s nalaganje je spodletelo</string>
+    <string name="upload_comment_uploading">%1$s nalaganje…</string>
+    <string name="upload_comment_upload_success">%1$s nalaganje je uspešno</string>
+    <string name="upload_comment_upload_failed">%1$s nalaganje je spodletelo</string>
     <string name="upload_comment_view">Tapnite za ogled</string>
     <string name="upload_comment_reload">Tapnite za ponovno nalaganje</string>
     <string name="upload_notification_pause">Odmor</string>
@@ -707,7 +686,7 @@ Zgoraj omenjene funkcije podpirajo Android 4.1+, ni potrebno root dovoljenje. Ob
     <string name="pre_registered_bt">Registrirani</string>
     <string name="pre_register_link_title">Predregistrirana stran</string>
     <string name="pre_register_gift_tv">Spisek nagrad</string>
-    <string name="pre_register_person_num_tv">Predregistracijski zavezanci: %s</string>
+    <string name="pre_register_person_num_tv">Predregistracijski zavezanci: %1$s</string>
     <string name="pre_register_success">Predregistracija pomeni, da boste ob prijavi objavili obvestilo v svoji napravi, ko se sprosti aplikacija.</string>
 
     <string name="open_page_failed">Strani ni bilo mogoče odpreti!</string>
@@ -731,4 +710,65 @@ Zgoraj omenjene funkcije podpirajo Android 4.1+, ni potrebno root dovoljenje. Ob
 
     <string name="count_down_timer_tv">%ds</string>
     <string name="count_down_timer_btn">preskoči</string>
+<string name="properties_message_v2">&lt;b&gt;Ime paketa:&lt;/b&gt; %1$s&lt;br&gt;&lt;b&gt;Različica:&lt;/b&gt; %2$s&lt;br&gt;&lt;b&gt;Pot:&lt;/b&gt; %3$s&lt;br&gt;&lt;b&gt;Velikost:&lt;/b&gt; %4$s&lt;br&gt;&lt;b&gt;Zadnja sprememba:&lt;/b&gt; %5$s</string>
+    <string name="app_detail_tab_evaluation">Mnenja</string>
+    <string name="app_detail_comment_filter_sort_score">Najbolje ocenjeno</string>
+    <string name="app_detail_comment_filter_all">Vse ocene</string>
+    <string name="app_detail_comment_filter_version">Najnovejša različica</string>
+    <string name="app_detail_comment_score_less">Premalo uporabniških ocen</string>
+    <string name="app_detail_comment_no_data">Ni ocen uporabnikov, dodajte svojo oceno zdaj.</string>
+    <string name="app_detail_comment_score_footer">Obstaja %1$s ocen v drugih jezikih.</string>
+    <string name="app_detail_evaluation_tool_bar_title">Dajte mnenje v skupno rabo</string>
+    <string name="app_detail_evaluation_failed_bt">Pregled</string>
+
+    <string name="app_detail_comment_order_array_good">4-5</string>
+    <string name="app_detail_comment_order_array_bad">1-3</string>
+    <string name="app_detail_folded_footer_reviews">ogled vseh %d zloženih pregledov</string>
+    <string name="app_detail_folded_footer_posts">ogled vseh %d zloženih prispevkov</string>
+    <string name="app_detail_discuss_filter_featured">Poudarki</string>
+    <string name="app_detail_discuss_filter_folded">Zložen</string>
+
+
+    <string name="message_notify">obvestilo</string>
+    <string name="filter_no_comment">Ooops! Ni takšne vsebine!!</string>
+
+    <string name="follow_floating_action_button">Ustvarite nov trenutek</string>
+
+    <string name="choice_evaluate">Predstavljene ocene</string>
+    <string name="choice_comment">Priporočeni prispevki</string>
+    <string name="emoji_input_error_hint">Komentarji s simboli niso več dovoljeni! Napišite nekaj…</string>
+    <string name="load_all_choice_evaluate">Oglejte si vse ocene</string>
+    <string name="load_all_choice_comment">Oglejte si vse objave</string>
+    <string name="my_reservation_and_collection">Predregistrirani in najljubši</string>
+    <string name="upload_apk">Naloži APK</string>
+    <string name="developer_badge_explanation">Pojasnilo znaka razvijalca</string>
+
+    <string name="from_user_recommendation">Priporočila uporabnikov</string>
+    <string name="topics">Tema</string>
+    <string name="pre_register_game">Predregistrirani</string>
+    <string name="editors_picks">Izbira urejevalnika</string>
+    <string name="recommend_game">priporočena igra</string>
+
+    <string name="bing_share_account">Povežite se z računom tretjih oseb</string>
+    <string name="un_bind">Brez povezave</string>
+    <string name="login_out_message_hint">Ali ste prepričani, da se želite odjaviti?</string>
+    <string name="bind_email_title">Povežite svoj e-poštni naslov</string>
+    <string name="bind_email_tv">Povežite svoj e-poštni naslov v svoj račun in izkoristite prednosti e-poštne prijave, obnovitve gesla, pošiljanje objav in še več.</string>
+    <string name="verification_code_tv">Na vaš e-poštni naslov %1$s je bila poslana potrditvena koda</string>
+    <string name="verification_code_second_tv">Ponovno pošlji v %d s</string>
+    <string name="verification_code_resend_tv">Ponovno pošlji kodo za preverjanje</string>
+    <string name="send_verification_code_resend_tv">Pošlji kodo za preverjanje</string>
+    <string name="bind_email_success">Povezava je uspela.</string>
+    <string name="update_email_tv">Preverite, ali želite posodobiti svoj e-poštni naslov</string>
+    <string name="verification_code_tv_hint">Koda za preverjanje</string>
+    <string name="verification_success_code_toast">Koda za preverjanje poslana.</string>
+    <string name="verification_null_code_toast">Prosimo, vnesite kodo za preverjanje, ki ste jo prejeli.</string>
+    <string name="unbind_email">Brez povezave</string>
+    <string name="unbind_email_hint">Vaš račun ni bil povezan z e-poštnim naslovom.</string>
+    <string name="menu_skip">Preskoči</string>
+
+    <string name="forget_password_tv">Pozabljeno geslo?</string>
+    <string name="recover_password_title">Obnovitev gesla</string>
+    <string name="email_address_hint_et">Vnesite svoj e-poštni naslov.</string>
+
 </resources>

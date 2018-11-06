@@ -181,8 +181,8 @@
     </string>
     <string name="setting">ការកំណត់</string>
     <string name="share">ចែករំលែក</string>
-    <string name="share_app_url">ចែករំលែក <xliff:g example="APKPure" id="app_name">%1$s</xliff:g> APK (មកពី @<xliff:g example="APKPure" id="social_network_name">%2$s</xliff:g>")  "<xliff:g example="https://apkpure.com/p/com.apkpure.aegon" id="app_url">%3$s</xliff:g></string>
-    <string name="share_app_url_comment"> <xliff:g example="APKPure" id="user_name">%1$s</xliff:g> មានមតិលើ <xliff:g example="APKPure" id="app_name">%2$s</xliff:g> : <xliff:g example="APKPure" id="app_name">%3$s</xliff:g> (បានមកពី @<xliff:g example="APKPure" id="social_network_name">%4$s</xliff:g>) <xliff:g example="https://apkpure.com/p/com.apkpure.aegon" id="app_url">%5$s</xliff:g></string>
+    <string name="share_app_url"> ចែក​រំលែក​ <xliff:g example="APKPure" id="app_name">%1$s</xliff:g> APK (មកពី <xliff:g example="APKPure" id="social_network_name">%2$s</xliff:g>) <xliff:g example="https://apkpure.com/p/com.apkpure.aegon" id="app_url">%3$s</xliff:g> </string>
+    <string name="share_app_url_comment"> <xliff:g example="APKPure" id="user_name">%1$s</xliff:g>\'s មានមតិ​លើ​ <xliff:g example="APKPure" id="app_name">%2$s</xliff:g> : <xliff:g example="APKPure" id="app_name">%3$s</xliff:g> (from <xliff:g example="APKPure" id="social_network_name">%4$s</xliff:g>) <xliff:g example="https://apkpure.com/p/com.apkpure.aegon" id="app_url">%5$s</xliff:g> </string>
 
     <string name="update__date___size_">អាប់ដេត៖ <xliff:g example="Mar 3, 2016" id="date">%1$s</xliff:g>, <xliff:g example="1024 kB" id="size">%2$s</xliff:g></string>
 
@@ -239,7 +239,7 @@
 មុខងារដែលបានរៀបរាប់ខាងលើគាំទ្រ Android 4.1+, ដោយមិនត្រូវការឬស។ ពួកយើងសូមសន្យាថាមិនប្រមូលយករាល់ព័ត៌មានបញ្ជាក់ឌត្តសញ្ញាណរបស់អ្នក ក្នុងផ្នែកសេវាកម្មងាយស្រួលនេះទេ។ សូមធ្វើការទំនាក់ទំនងពួកយើងដោយស៊េរី ជាមួយបញ្ហាទាំងនោះ។with any problems.</string>
 
     <string name="app_detail_comment_type_web">វែប</string>
-    <string name="app_submit_submit">ដាក់ស្នើ…</string>
+    <string name="app_submit_submit">ប្រដាស…</string>
     <string name="app_submit_anonymous_comment">បន្ថែមមតិមួយ</string>
     <string name="app_submit_title_toast">អ្នកគួរតែសរសេរចំនងជើងសិន!</string>
     <string name="app_submit_msg_toast">អ្នកគួរតែសរសេរអ្វីមួយសិន!</string>
@@ -250,7 +250,7 @@
     <string name="app_submit_msg_hint">សូមសរសេរគំនិតរបស់អ្នក</string>
     <string name="app_submit_nickname">ឈ្មោះហៅក្រៅ</string>
     <string name="app_submit_email">អ៊ីម៉ែល</string>
-    <string name="app_submit_submit_title">ដាក់ស្នើ</string>
+    <string name="app_submit_submit_title">ប្រកាស​</string>
     <string name="app_submit_reply_to">ឆ្លើយតបទៅ</string>
 
     <string name="app_detail_tab_one">លម្អិត</string>
@@ -312,7 +312,7 @@
     <string name="update_email_name_et">បញ្ចូលអ៊ីម៉ែលរបស់អ្នក</string>
     <string name="update_eamil_name_tv">អ៊ីម៉ែលមិនអាចទទេរ</string>
     <string name="message_all">ទាំងអស់</string>
-    <string name="message_reply">ការឆ្លើយតប</string>
+    <string name="message_reply">មតិ​</string>
     <string name="message_praise">ចូលចិត្ត</string>
     <string name="message_notifications_praise">បោះឆ្នោតឡើង មតិរបស់អ្នក</string>
     <string name="market_response_error_invalid_result">លទ្ធផលមិនត្រឹមត្រូវ។</string>
@@ -391,7 +391,7 @@
     <string name="user_password">ពាក្យសម្ងាត់ (6-32)</string>
     <string name="user_password_confirm">យល់ព្រមពាក្យសម្ងាត់</string>
 
-    <string name="login_user_name">ឈ្មោះអ្នកប្រើ</string>
+    <string name="login_user_name">ឈ្មោះអ្នកប្រើ ឬ​អ៊ីម៉ែល​</string>
     <string name="login_user_password">ពាក្យសម្ងាត់</string>
     <string name="login_user_sign_in">ចូលគណនី</string>
     <string name="login_choose">ឬ ចូលគណនីជាមួយគណនីរបស់អ្នក</string>
@@ -400,8 +400,8 @@
 
     <string name="message">សារ</string>
 
-    <string name="push_title_info_reply">%s បានឆ្លើយតបមតិរបស់អ្នក!</string>
-    <string name="push_title_info_upvoted">%s បានចូលចិត្តមតិរបស់អ្នក!</string>
+    <string name="push_title_info_reply">%1$s បានឆ្លើយតបមតិរបស់អ្នក!</string>
+    <string name="push_title_info_upvoted">%1$s​ បានចូលចិត្តមតិរបស់អ្នក!</string>
     <string name="download_list">បញ្ជីទាញយក</string>
     <string name="can_be_update">អាចអាប់ដេត</string>
     <string name="crop__pick_error">ប្រភេទឯកសាររូបភាពមិនត្រឹមត្រូវ</string>
@@ -531,7 +531,7 @@
     <string name="recommend_write_des">សេចក្ដីសង្ខេប</string>
     <string name="recommend_comment">បញ្ជូន</string>
     <string name="recommend_description_title">របៀបណែនាំ៖</string>
-    <string name="recommend_user_recommend">ណែនាំដោយ %s</string>
+    <string name="recommend_user_recommend">ណែនាំដោយ %1$s</string>
     <string name="recommend_required">*</string>
 
     <string name="topic_switch_failed">ការផ្លាស់ប្ដូររូបរាងបានបរាជ័យ</string>
@@ -539,9 +539,7 @@
     <string name="topic_red_color">ពណ៌Crimson</string>
     <string name="set_updates_notification_msg">រំលឹកនៅពេលមានបច្ចុប្បន្នកម្មវិធីអាចប្រលប្រាស់បាន។ សូមណែនាំការកំណត់៖ បើក</string>
     <string name="zxing_msg_default_status">សូមដាក់​ QR code នៅខាងក្នុងប្រអប់ពិនិត្យរក ដើម្បីស្កេនវា។</string>
-    <string name="improvement_plan_message">
- ជួយពួកយើងជាមួយការបញ្ជូននូវព័ត៌មានឧបករណ៍ Android​ ពួកយើង <b>​មិនធ្វើការប្រមូលយក</b>​ នូវព័ត៌មានបញ្ជាក់អត្តសញ្ញាណផ្ទាល់ខ្លួន​ (ឈ្មោះ, អាស័យដ្ឋាន, អាស័យដ្ឋានអ៊ីម៉ែល, លេខសន្តិសុខនៃបណ្ដាញសង្គម ឬឯកសារបញ្ជាក់អត្តសញ្ញាណផ្សេងៗ)។
- </string>
+    <string name="improvement_plan_message">ជួយពួកយើងជាមួយការបញ្ជូននូវព័ត៌មានឧបករណ៍ Android​ ពួកយើង <b>​មិនធ្វើការប្រមូលយក</b>​ នូវព័ត៌មានបញ្ជាក់អត្តសញ្ញាណផ្ទាល់ខ្លួន​ (ឈ្មោះ, អាស័យដ្ឋាន, អាស័យដ្ឋានអ៊ីម៉ែល, លេខសន្តិសុខនៃបណ្ដាញសង្គម ឬឯកសារបញ្ជាក់អត្តសញ្ញាណផ្សេងៗ)។</string>
     <string name="improvement_plan_title">គម្រោងកែលម្អប្រព័ន្ធដំណើរការ</string>
     <string name="invalid_app_asset">ព័ត៌មានធនធានកម្មវិធីមិនត្រឹមត្រូវឡើយ។</string>
     <string name="failed_to_request_app_asset">បរាជ័យក្នុងការស្នើសុំព័ត៌មានធនធានកម្មវិធី។</string>
@@ -557,21 +555,21 @@
     <string name="user_detail_fans">អ្នកតាមដាន</string>
     <string name="user_detail_praise">ចូលចិត្ត</string>
     <string name="user_detail_tab_detail">ប្រកាស​</string>
-    <string name="user_detail_tab_reply">ការឆ្លើយតប</string>
+    <string name="user_detail_tab_reply">មតិ</string>
 
     <string name="user_focus_tab_users">មនុស្ស</string>
     <string name="user_focus_tab_apps">ក្រុម</string>
     <string name="download_mkdir_internal_storage_size_des">%1$s នៅសល់,​ សរុប %2$s</string>
-    <string name="download_mkdir_internal_storage_entries">"SD "</string>
+    <string name="download_mkdir_internal_storage_entries">អេសឌី</string>
     <string name="download_mkdir_internal_storage_entries1">SD 1</string>
     <string name="download_mkdir_external_storage_fill_toast">ឃ្លាំងផ្ទុកដែលអាចប្រើបានមិនគ្រប់គ្រាន់ អាចបណា្ខលឱ្យអ្នកមិនអាចទាញយកគ្រប់កម្មវិធី។</string>
 
     <string name="download_mkdir_internal_storage_values">ឃ្លាំងផ្ទុកខាងក្នុង</string>
     <string name="download_mkdir_external_storage_values">ឃ្លាំងផ្ទុកខាងក្រៅ</string>
 
-    <string name="recommend_not_fount_info">ផ្ដល់ដំណឹងដល់ APKPure ដើម្បីបន្ថែម \"%s\" អ្នកត្រូវការទៅបញ្ចប់សំណុំបែបបទសិន។</string>
+    <string name="recommend_not_fount_info">ការផ្ដល់ដំណឹង APKPure ដើម្បីបន្ថែម \"%1$s\" អ្នកត្រូវការទៅបញ្ចប់សំណុំបែបបទសិន។</string>
 
-    <string name="user_focus_title">តាមដានដោយ %s</string>
+    <string name="user_focus_title">តាមដានដោយ %1$s</string>
 
     <string name="goto_google_play">ទិញឥឡូវ</string>
 
@@ -589,7 +587,7 @@
     <string name="download_mkdir">ផ្លូវកាត់ការទាញយក</string>
     <string name="history_version">ប្រវត្ដិនៃជំនាន់</string>
 
-    <string name="share_app_url_group"> <xliff:g example="APKPure" id="app_name">%1$s</xliff:g> ក្រុម។ (ដែលមកពី @<xliff:g example="APKPure" id="social_network_name">%2$s</xliff:g>) <xliff:g example="https://apkpure.com/p/com.apkpure.aegon" id="app_url">%3$s</xliff:g></string>
+    <string name="share_app_url_group"> ក្រុម <xliff:g example="APKPure" id="app_name">%1$s</xliff:g> ។​ ( មកពី​<xliff:g example="APKPure" id="social_network_name">%2$s</xliff:g>) <xliff:g example="https://apkpure.com/p/com.apkpure.aegon" id="app_url">%3$s</xliff:g> </string>
 
     <string name="data_saver_model">សន្សំសំចៃទិន្នន័យ</string>
     <string name="scan_qr_code_result_title">លទ្ធផល</string>
@@ -599,10 +597,10 @@
 
     <string name="user_info_edit_large_photo">មើលរូបថត ក្នុងទំហំធំបំផុត</string>
 
-    <string name="push_title_info_follow">%s បានតាមអ្នក!</string>
+    <string name="push_title_info_follow">%1$s បានតាមអ្នក!</string>
     <string name="data_saver_model_summery">ការទាញបើកនេះ និងកាត់បន្ថយទំហំ, គុណភាពរូបភាព ដើម្បីជំនួយការប្រើប្រាស់ទិន្នន័យចល័តតិច។</string>
     <string name="push_title_info_update">ការធ្វើបច្ចប្បន្នភាព APKPure បានមកដល់ហើយ!</string>
-    <string name="push_content_info_update">ជំនាន់ថ្មី %s ត្រូវបានចេញផ្សាយ! អាប់ដេតឥឡូវនេះ!</string>
+    <string name="push_content_info_update">ជំនាន់ថ្មី %1$s ត្រូវបានចេញផ្សាយ! អាប់ដេតឥឡូវនេះ!</string>
 
     <string name="recommend_user_recommend_sys">លក្ខណៈពិសេសដោយ APKPure</string>
 
@@ -614,7 +612,7 @@
     <string name="tag_list">បញ្ជីស្លាក</string>
     <string name="hot_tag">ស្លាកនិយមថ្មីៗ</string>
     <string name="common_use">ស្លាក​របស់​ខ្ញុំ​</string>
-    <string name="app_add_tag_hint_caution">មិនលើសពីស្លាក %s សម្រាប់កម្មវិធីនីមួយៗ។</string>
+    <string name="app_add_tag_hint_caution">មិនលើសពីស្លាក %1$s សម្រាប់កម្មវិធីនីមួយៗ។</string>
     <string name="app_add_tag">បន្ថែមស្លាកថ្មី</string>
     <string name="toast_app_tag_exist">ស្លាកមានរួចហើយ!</string>
     <string name="there_is_no_label">គ្មានស្លាក។</string>
@@ -650,18 +648,18 @@
     <string name="add_tag">បន្ថែមស្លាក</string>
     <string name="error_add_tag">ការបន្ថែមស្លាកបានបរាជ័យ</string>
     <string name="no_collect">មិនទាន់ជាចំនូលចិត្តឡើយ!</string>
-    <string name="no_comment">អាចជាម្នាក់ដំបូងដែលធ្វើការបន្ថែមមតិ!</string>
+    <string name="no_comment">អាចជាម្នាក់ដំបូងដែលធ្វើការបន្ថែមប្រកាស!</string>
 
     <string name="share_apk">ចែករំលែក APK</string>
     <string name="tab_apk">APK</string>
     <string name="commentaries">ចែករំលែកប្រកាស</string>
 
-    <string name="upload_apk_version">ជំនាន់ %s</string>
-    <string name="upload_apk_downloads">ទាញយក៖ %s</string>
+    <string name="upload_apk_version">ជំនាន់ %1$s</string>
+    <string name="upload_apk_downloads">ទាញយក៖ %1$s</string>
     
-    <string name="upload_comment_uploading">%s កំពុងផ្ទុកឡើង…</string>
-    <string name="upload_comment_upload_success">%s បានផ្ទុកឡើងបានជោគជ័យ</string>
-    <string name="upload_comment_upload_failed">%s បានផ្ទុកឡើងបរាជ័យ</string>
+    <string name="upload_comment_uploading">%1$s កំពុងផ្ទុកឡើង…</string>
+    <string name="upload_comment_upload_success">%1$s បានផ្ទុកឡើងបានជោគជ័យ</string>
+    <string name="upload_comment_upload_failed">%1$s បានផ្ទុកឡើងបរាជ័យ</string>
     <string name="upload_comment_view">ប៉ះដើម្បីមើល</string>
     <string name="upload_comment_reload">ប៉ះដើម្បីផ្ទុកឡើងម្ដងទៀត</string>
     <string name="upload_notification_pause">ផ្អាក</string>
@@ -688,7 +686,7 @@
     <string name="pre_registered_bt">បានចុះឈ្មោះ</string>
     <string name="pre_register_link_title">ទំព័រចុះឈ្មោះទុកមុន</string>
     <string name="pre_register_gift_tv">រង្វាន់នៃការចុះឈ្មោះ</string>
-    <string name="pre_register_person_num_tv">ចំនួនចុះឈ្មោះទុកមុន៖ %s</string>
+    <string name="pre_register_person_num_tv">ការចុះឈ្មោះទុកមុន៖ %1$s​</string>
     <string name="pre_register_success">ការចុះឈ្មោះទុកមុនមានន័យថាអ្នកនិងទទួលបានការជូនដំណឹងលើឧបករណ៍របស់អ្នក នៅពេលដែលកម្មវិធីបានចេញផ្សាយ។</string>
 
     <string name="open_page_failed">បានបរាជ័យក្នុងការបើកទំព័រ!</string>
@@ -709,4 +707,47 @@
     <string name="comment_list_new_num">%d មាតិកាថ្មី</string>
 
     <string name="tab_popular">ពេញនិយម</string>
+    <string name="properties_message_v2">&lt;b&gt;ឈ្មោះ​កញ្ចប់​:&lt;/b&gt; %1$s&lt;br&gt;&lt;b&gt;កំណែ:&lt;/b&gt; %2$s&lt;br&gt;&lt;b&gt;ផ្លូវកាត់:&lt;/b&gt; %3$s&lt;br&gt;&lt;b&gt;ទំហំ:&lt;/b&gt; %4$s&lt;br&gt;&lt;b&gt;កែសម្រួលចុងក្រោយ:&lt;/b&gt; %5$s</string>
+    <string name="app_detail_tab_evaluation">ពិនិត្យមើល​</string>
+    <string name="app_detail_comment_filter_sort_score">ការវាយតម្លៃកំពូល</string>
+    <string name="app_detail_comment_filter_all">ការពិនិត្យ​មើល​ទាំងអស់​</string>
+    <string name="app_detail_comment_filter_version">កំណែ​ចុង​ក្រោយ​</string>
+    <string name="app_detail_comment_score_less">ការ​វាយ​តម្លៃ​របស់​អ្នក​ប្រើថ្មីៗ​</string>
+    <string name="app_detail_comment_no_data">គ្មាន​ការ​វាយតម្លៃ​របស់​អ្នក​ប្រើរក​ឃើញ​ បន្ថែម​ការ​វាយតម្លៃ​របស់​អ្នក​ឥលូវ​នេះ</string>
+    <string name="app_detail_comment_score_footer">ទាំង​នេះ​ជា​ការ​ពិនិត្យមើល %1$s ក្នុង​ភាសា​ផ្សេង​ៗ​។</string>
+    <string name="app_detail_evaluation_tool_bar_title">ចែករំលែក​ការ​ពិនិត្យមើល​</string>
+    <string name="app_detail_evaluation_failed_bt">ការពិនិត្យ​មើល​</string>
+
+    <string name="app_detail_comment_order_array_good">4-5</string>
+    <string name="app_detail_comment_order_array_bad">1-3</string>
+    <string name="message_notify">ការ​ជូន​ដំណឹង​</string>
+    <string name="menu_copy_link">ចម្លង​តំណ</string>
+    <string name="web_view_copy">ចម្លង​តំណ</string>
+
+    <string name="filter_no_comment">អុញ៎! មិន​ដូច​ជា​មាតិកា!​!</string>
+
+    <string name="follow_floating_action_button">បង្កើត​ពេលវេលាថ្មី</string>
+
+    <string name="count_down_timer_tv">%ds</string>
+    <string name="count_down_timer_btn">រំលង​</string>
+
+    <string name="choice_evaluate">ការពិនិត្យឡើងវិញពិសេស</string>
+    <string name="choice_comment">ណែនាំការប្រកាស</string>
+    <string name="emoji_input_error_hint">មតិជាសញ្ញាអារម្មណ៍ មិនត្រូវបានអនុញ្ញាតអ្វីទាំងអស់! សរសេរអ្វីមួយ…</string>
+    <string name="load_all_choice_evaluate">មើលការពិនិត្យមើលទាំងអស់</string>
+    <string name="load_all_choice_comment">មើលការប្រកាសទាំងអស់</string>
+    <string name="my_reservation_and_collection">ការចុះឈ្មោះទុកមុន និងចំនូលចិត្ត</string>
+    <string name="upload_apk">ផ្ទុកឯកសារ APK ឡើង</string>
+    <string name="developer_badge_explanation">ផ្ទាំងពន្យល់អ្នកអភិវឌ្ឍន៍</string>
+
+    <string name="from_user_recommendation">អ្នកប្រើប្រាស់បានណែនាំ</string>
+    <string name="topics">ប្រធានបទ</string>
+    <string name="pre_register_game">ចុះឈ្មោះទុកមុន</string>
+    <string name="editors_picks">ជម្រើសអ្នកនិពន្ធ</string>
+    <string name="recommend_game">ហ្គេមដែលបានណែនាំ</string>
+
+    <string name="bing_share_account">ភ្ជាប់ទៅកាន់គណនីភាគីទីបី</string>
+    <string name="un_bind">មិនបានភ្ជាប់</string>
+    <string name="login_out_message_hint">តើអ្នកពិតជាចង់ចេញក្រៅមែនទេ?</string>
+    <string name="bind_email_title">ភ្ជាប់អ៊ីម៉ែលរបស់អ្នក</string>
     </resources>

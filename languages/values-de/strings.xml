@@ -283,7 +283,7 @@ Die genannten Funktionen werden ab Android 4.1 unterstützt, es ist kein Root-Zu
     </plurals>
 
     <string name="app_detail_customer_reviews">Kommentare</string>
-    <string name="app_submit_submit">Absenden…</string>
+    <string name="app_submit_submit">Senden…</string>
     <string name="app_submit_msg_toast">Du musst etwas eingeben!</string>
     <string name="app_submit_name_toast">Bitte gib einen Nickname an!</string>
     <string name="app_submit_email_toast">Bitte gib eine gültige Mailadresse an!</string>
@@ -291,7 +291,7 @@ Die genannten Funktionen werden ab Android 4.1 unterstützt, es ist kein Root-Zu
     <string name="app_submit_msg_hint">Bitte gib deine Meinung ein</string>
     <string name="app_submit_nickname">Nickname</string>
     <string name="app_submit_email">E-Mail</string>
-    <string name="app_submit_submit_title">Absenden</string>
+    <string name="app_submit_submit_title">Senden</string>
     <string name="app_submit_reply_to">Antwort an</string>
 
     <string name="app_detail_tab_one">Details</string>
@@ -367,7 +367,7 @@ Die genannten Funktionen werden ab Android 4.1 unterstützt, es ist kein Root-Zu
     <string name="update_eamil_name_tv">E-Mail darf nicht leer sein</string>
     <string name="update_nickname_error">Nickname schon vergeben, bitte anderen auswählen!</string>
     <string name="message_all">ALLE</string>
-    <string name="message_reply">ANTWORTEN</string>
+    <string name="message_reply">KOMMENTARE</string>
     <string name="update_pwd_title">Passwort zurücksetzen</string>
     <string name="update_pwd_current_pwd_et">Altes Passwort</string>
     <string name="update_pwd_new_pwd_et">Neues Passwort</string>
@@ -420,15 +420,15 @@ Die genannten Funktionen werden ab Android 4.1 unterstützt, es ist kein Root-Zu
     <string name="user_password_error">Dieses Passwort ist ungültig</string>
     <string name="user_confirm_error">Passwörter müssen übereinstimmen</string>
 
-    <string name="login_user_name">Benutzername</string>
+    <string name="login_user_name">Benutzername oder E-Mail</string>
     <string name="login_user_password">Passwort</string>
     <string name="login_user_sign_in">Anmelden</string>
     <string name="login_choose">Oder mit Benutzerkonto anmelden</string>
     <string name="login_new_user">Als neuer Nutzer registrieren</string>
     <string name="login_post_as_a_guest">Als Gast posten</string>
 
-    <string name="push_title_info_reply">%s hat auf deinen Kommentar geantwortet!</string>
-    <string name="push_title_info_upvoted">%s hat deinen Kommentar positiv bewertet!</string>
+    <string name="push_title_info_reply">%1$s hat auf deinen Kommentar geantwortet!</string>
+    <string name="push_title_info_upvoted">%1$s hat deinen Kommentar positiv bewertet!</string>
     <string name="download_list">Download-Liste</string>
     <string name="install_list">Installiert</string>
     <string name="no_download">Kein Download</string>
@@ -560,7 +560,7 @@ Die genannten Funktionen werden ab Android 4.1 unterstützt, es ist kein Root-Zu
         1. Bestätigte Empfehlungen werden unter \"ENTDECKEN\" aufgelistet.
         2. Du kannst nur die Apps empfehlen, die aktuell auf deinem Android-Gerät installiert sind.
         3. Benachrichtige APKPure, um nicht erfasste Apps hinzuzufügen, bitte vervollständige zuerst das Empfehlungsformular.</string>
-    <string name="recommend_user_recommend">Von %s empfohlen</string>
+    <string name="recommend_user_recommend">Von %1$s empfohlen</string>
     <string name="recommend_required">*</string>
 
     <string name="main_comment">Kommentar</string>
@@ -595,24 +595,24 @@ Die genannten Funktionen werden ab Android 4.1 unterstützt, es ist kein Root-Zu
     <string name="update_intro_tv">\"Über mich\"-Feld darf nicht leer sein</string>
 
     <string name="user_name_null">Nutzername ist ungültig</string>
-    <string name="push_title_info_follow">%s folgt dir!</string>
+    <string name="push_title_info_follow">%1$s folgt dir!</string>
     <string name="push_title_info_update">APKPure Update erschienen!</string>
-    <string name="push_content_info_update">Jetzt auf die neue Version %s aktualisieren!</string>
+    <string name="push_content_info_update">Jetzt auf die neue Version %1$s aktualisieren!</string>
 
     <string name="recommend_not_found">Nicht erfasst</string>
-    <string name="recommend_not_fount_info">Benachrichtigen Sie APKPure, um \"% s\" hinzuzufügen. Sie müssen die Formulare abschließen.</string>
+    <string name="recommend_not_fount_info">Benachrichtigen Sie APKPure, um \"%1$s\" hinzuzufügen. Sie müssen die Formulare abschließen.</string>
     <string name="recommend_user_recommend_sys">Entwickelt von APKPure</string>
 
     <string name="user_detail_focus">Folgend</string>
     <string name="user_detail_fans">Abonnenten</string>
     <string name="user_detail_praise">Lieblings</string>
     <string name="user_detail_tab_detail">Beiträge</string>
-    <string name="user_detail_tab_reply">Antworten</string>
+    <string name="user_detail_tab_reply">Kommentare</string>
 
     <string name="user_focus_tab_users">Menschen</string>
     <string name="user_focus_tab_apps">Gruppen</string>
     <string name="user_focus_title_my">Meine Fans</string>
-    <string name="user_focus_title">Gefolgt von %s</string>
+    <string name="user_focus_title">Gefolgt von %1$s</string>
 
     <string name="goto_google_play">Jetzt kaufen</string>
 
@@ -634,30 +634,30 @@ Die genannten Funktionen werden ab Android 4.1 unterstützt, es ist kein Root-Zu
     <string name="tag_list">Tag-Liste</string>
     <string name="hot_tag">Heiße Tags</string>
     <string name="common_use">Meine Tags</string>
-    <string name="app_add_tag_hint_caution">Nur % s Etikette für jede Anwendung.</string>
+    <string name="app_add_tag_hint_caution">Nur %1$s Tags für jede Anwendung.</string>
     <string name="app_add_tag">Ein neues Etikett hinzufügen</string>
     <string name="toast_app_tag_exist">Tag existiert bereits!</string>
     <string name="there_is_no_label">Keine Tags.</string>
     <string name="add">Hinzufügen</string>
     <string name="colon">:</string>
 
-    <string name="pack_up">Zusammenbruch</string>
+    <string name="pack_up">Einklappen</string>
     <string name="Istop">festgesteckt</string>
     <string name="add_tag">Tags hinzufügen</string>
     <string name="error_add_tag">Fehler beim Hinzufügen der Tags</string>
     <string name="no_collect">Noch keine Favoriten!</string>
-    <string name="no_comment">Sei der Erste, der einen Kommentar schreibt!</string>
+    <string name="no_comment">Sei der Erste, der einen Beitrag schreibt!</string>
 
     <string name="share_apk">APK teilen</string>
     <string name="tab_apk">APK</string>
     <string name="commentaries">Teile einen Kommentar</string>
 
-    <string name="upload_apk_version">V. %s</string>
-    <string name="upload_apk_downloads">Herunterladen：%s</string>
+    <string name="upload_apk_version">V. %1$s</string>
+    <string name="upload_apk_downloads">Herunterladen：%1$s</string>
 
-    <string name="upload_comment_uploading">%s hochladen…</string>
-    <string name="upload_comment_upload_success">%s erfolgreich hochgeladen</string>
-    <string name="upload_comment_upload_failed">Fehler bei %s</string>
+    <string name="upload_comment_uploading">%1$s hochladen…</string>
+    <string name="upload_comment_upload_success">%1$s erfolgreich hochgeladen</string>
+    <string name="upload_comment_upload_failed">Fehler bei %1$s</string>
     <string name="upload_comment_view">Klicken, um anzusehen</string>
     <string name="upload_comment_reload">Klicken, um erneut hochzuladen</string>
     <string name="upload_notification_pause">Pause</string>
@@ -719,7 +719,7 @@ Die genannten Funktionen werden ab Android 4.1 unterstützt, es ist kein Root-Zu
 
     <string name="market_ad_title">Markt</string>
     <string name="pre_register_now_bt">Vor-Register</string>
-    <string name="pre_register_person_num_tv">Vor-Registrants:%s</string>
+    <string name="pre_register_person_num_tv">Vorregistrierte:%1$s</string>
     <string name="submit_comment_user_style">
         <![CDATA[<font color="#007AFF">@%1$s</font>]]></string>
     <string name="comment_list_new_num">% d Neue Geschichten</string>
@@ -730,4 +730,6 @@ Die genannten Funktionen werden ab Android 4.1 unterstützt, es ist kein Root-Zu
 
     <string name="count_down_timer_tv">%ds</string>
     <string name="count_down_timer_btn">überspringen</string>
-</resources>
+<string name="filter_no_comment">Ooops! Kein Inhalt gefunden!</string>
+
+    </resources>

@@ -394,7 +394,7 @@
     <string name="user_password_error">Ez a jelszó érvénytelen</string>
     <string name="user_confirm_error">A jelszavaknak egyezniük kell</string>
 
-    <string name="login_user_name">Felhasználónév</string>
+    <string name="login_user_name">Felhasználónév vagy e-mail cím</string>
     <string name="login_user_password">Jelszó</string>
     <string name="login_user_sign_in">Bejelentkezés</string>
     <string name="login_choose">Vagy jelentkezzen be fiókjával</string>
@@ -413,8 +413,8 @@
     <string name="comment_submitting">Küldés…</string>
     <string name="message">Üzenet</string>
 
-    <string name="push_title_info_reply">%s válaszolt az Ön megjegyzésére!</string>
-    <string name="push_title_info_upvoted">%s pozitívan szavazott az Ön megjegyzésére!</string>
+    <string name="push_title_info_reply">%1$s válaszolt az Ön megjegyzésére!</string>
+    <string name="push_title_info_upvoted">%1$s pozitívan szavazott az Ön megjegyzésére!</string>
     <string name="download_list">Letöltési lista</string>
     <string name="can_be_update">Frissíthető</string>
     <string name="install_list">Telepítve</string>
@@ -551,7 +551,7 @@
         1. A jóváhagyott ajánlások a FELFEDEZÉS rész alatt szerepelnek.
         2. Csak az Android-eszközön jelenleg telepített alkalmazásokat ajánlhatja.
         3. APKPure értesítése a nem indexelt alkalmazások hozzáadásáról, kérjük, töltse ki először az ajánlási űrlapokat.</string>
-    <string name="recommend_user_recommend">%s által ajánlott</string>
+    <string name="recommend_user_recommend">%1$s által ajánlott</string>
     <string name="recommend_required">*</string>
 
     <string name="topic_green_color">Világoszöld</string>
@@ -566,10 +566,10 @@
     <string name="download_mkdir_external_storage_values">Külső tároló</string>
 
     <string name="recommend_not_found">Nincs indexelve</string>
-    <string name="recommend_not_fount_info">APKPure értesítése a(z) \"%s\" hozzáadására, ki kell töltenie az űrlapokat.</string>
+    <string name="recommend_not_fount_info">APKPure értesítése a(z) \"%1$s\" hozzáadására, ki kell töltenie az űrlapokat.</string>
 
     <string name="user_detail_focus">Követés</string>
-    <string name="user_detail_fans">Követő</string>
+    <string name="user_detail_fans">Követők</string>
     <string name="user_detail_praise">Kedvelés</string>
     <string name="user_detail_tab_detail">Hozzászólások</string>
     <string name="user_detail_tab_reply">Hozzászólások</string>
@@ -577,7 +577,7 @@
     <string name="user_focus_tab_users">Személyek</string>
     <string name="user_focus_tab_apps">Csoportok</string>
     <string name="user_focus_title_my">Általam követett</string>
-    <string name="user_focus_title">%s által követett</string>
+    <string name="user_focus_title">%1$s által követett</string>
 
     <string name="goto_google_play">Vásárlás</string>
 
@@ -602,7 +602,7 @@
     <string name="user_info_edit_large_photo">Fotó megtekintése nagyobb méretben</string>
 
     <string name="push_title_info_update">APKPure frissítés érkezett!</string>
-    <string name="push_content_info_update">Új %s verzió jelent meg! Frissítse most!</string>
+    <string name="push_content_info_update">Új %1$s verzió jelent meg! Frissítse most!</string>
 
     <string name="app_detail_has_ad">Hirdetéseket tartalmaz</string>
     <string name="app_detail_no_ad">Nincsenek hirdetések</string>
@@ -617,10 +617,10 @@
 
     <string name="share_app_url_group"> <xliff:g example="APKPure" id="app_name">%1$s</xliff:g> csoport. (forrás: <xliff:g example="APKPure" id="social_network_name">%2$s</xliff:g>) <xliff:g example="https://apkpure.com/p/com.apkpure.aegon" id="app_url">%3$s</xliff:g></string>
 
-    <string name="push_title_info_follow">%s követte Önt!</string>
+    <string name="push_title_info_follow">%1$s követte Önt!</string>
     <string name="recommend_user_recommend_sys">APKPure által kiemelt</string>
 
-    <string name="app_add_tag_hint_caution">Legfeljebb %s címke tartozhat minden alkalmazáshoz.</string>
+    <string name="app_add_tag_hint_caution">Legfeljebb %1$s címke tartozhat minden alkalmazáshoz.</string>
     <string name="app_detail_no_product">Nincsenek vásárlási elemek</string>
     <string name="app_detail_has_product">Vásárlási elemek</string>
     <string name="load_failed_error_not_found">Az alkalmazás nem szerepel az APKPure áruházban!</string>
@@ -644,12 +644,12 @@
     <string name="tab_apk">APK</string>
     <string name="commentaries">Hozzászólás küldése</string>
 
-    <string name="upload_apk_version">v%s</string>
-    <string name="upload_apk_downloads">Letöltések: %s</string>
+    <string name="upload_apk_version">v%1$s</string>
+    <string name="upload_apk_downloads">Letöltések: %1$s</string>
 
-    <string name="upload_comment_uploading">%s feltöltése…</string>
-    <string name="upload_comment_upload_success">%s feltöltése sikeres</string>
-    <string name="upload_comment_upload_failed">%s feltöltése sikertelen</string>
+    <string name="upload_comment_uploading">%1$s feltöltése…</string>
+    <string name="upload_comment_upload_success">%1$s feltöltése sikeres</string>
+    <string name="upload_comment_upload_failed">%1$s feltöltése sikertelen</string>
     <string name="upload_comment_view">Koppintson a megtekintéshez</string>
     <string name="upload_comment_reload">Érintse meg a feltöltés megismétléséhez</string>
     <string name="upload_notification_pause">Szünet</string>
@@ -685,7 +685,7 @@
     <string name="pre_register_now_bt">Előzetes regisztráció</string>
     <string name="pre_registered_bt">Regisztrált</string>
     <string name="pre_register_link_title">Előregisztrációs oldal</string>
-    <string name="pre_register_person_num_tv">Előzetes regisztrálók: %s</string>
+    <string name="pre_register_person_num_tv">Előzetes regisztrálók: %1$s</string>
     <string name="pre_register_success">Az előzetes regisztráció azt jelenti, hogy az alkalmazás megjelenésekor értesítést kap a készülékén.</string>
 
     <string name="open_page_failed">Nem sikerült megnyitni az oldalt!</string>
@@ -714,7 +714,7 @@
     <string name="app_detail_comment_filter_version">Legújabb verzió</string>
     <string name="app_detail_comment_score_less">Túl kevés felhasználói értékelés</string>
     <string name="app_detail_comment_no_data">Nem találtunk felhasználói értékelést, értékelje most.</string>
-    <string name="app_detail_comment_score_footer">%s vélemény érhető el más nyelveken.</string>
+    <string name="app_detail_comment_score_footer">%1$s vélemény érhető el más nyelveken.</string>
     <string name="app_detail_evaluation_tool_bar_title">Ossza meg véleményét</string>
     <string name="app_detail_evaluation_failed_bt">Vélemény</string>
 
@@ -722,8 +722,8 @@
     <string name="app_detail_comment_order_array_bad">1-3</string>
     <string name="app_detail_folded_footer_reviews">%d összevont vélemény megtekintése</string>
     <string name="app_detail_folded_footer_posts">%d összevont üzenet megtekintése</string>
-    <string name="app_detail_discuss_filter_featured">kiváló</string>
-    <string name="app_detail_discuss_filter_folded">összevont</string>
+    <string name="app_detail_discuss_filter_featured">Kiemelések</string>
+    <string name="app_detail_discuss_filter_folded">Összevont</string>
 
 
     <string name="message_notify">értesítés</string>
@@ -744,8 +744,35 @@
     <string name="upload_apk">APK feltöltése</string>
     <string name="developer_badge_explanation">Fejlesztői jelvény magyarázat</string>
 
-    <string name="from_user_recommendation">Felhasználói ajánlás</string>
+    <string name="from_user_recommendation">Felhasználók ajánlásai</string>
     <string name="topics">Téma</string>
     <string name="pre_register_game">Előzetes regisztrálás</string>
     <string name="editors_picks">Szerkesztő választása</string>
+<string name="properties_message_v2">&lt;b&gt;Csomag neve:&lt;/b&gt; %1$s&lt;br&gt;&lt;b&gt;Verzió:&lt;/b&gt; %2$s&lt;br&gt;&lt;b&gt;Hely:&lt;/b&gt; %3$s&lt;br&gt;&lt;b&gt;Méret:&lt;/b&gt; %4$s&lt;br&gt;&lt;b&gt;Utolsó módosítás:&lt;/b&gt; %5$s</string>
+    <string name="filter_no_comment">Hűha! Nincs ilyen tartalom!!</string>
+
+    <string name="recommend_game">játék ajánlása</string>
+
+    <string name="bing_share_account">Csatlakozás harmadik féltől származó fiókhoz</string>
+    <string name="un_bind">Nincs csatlakoztatva</string>
+    <string name="login_out_message_hint">Valóban ki szeretne jelentkezni?</string>
+    <string name="bind_email_title">Csatlakoztassa e-mailjét</string>
+    <string name="bind_email_tv">Csatlakoztassa e-mail címét fiókjához az e-mail bejelentkezés, jelszó-visszaállítás, hozzászólások küldésének stb. előnyeinek feloldásához.</string>
+    <string name="verification_code_tv">Egy ellenőrző kód lett küldve %1$s e-mail címére</string>
+    <string name="verification_code_second_tv">Újraküldés %d mp múlva</string>
+    <string name="verification_code_resend_tv">Ellenőrző kód újraküldése</string>
+    <string name="send_verification_code_resend_tv">Ellenőrző kód küldése</string>
+    <string name="bind_email_success">A kapcsolat sikeresen létrejött.</string>
+    <string name="update_email_tv">Ellenőrizze újra e-mail címét a frissítéshez</string>
+    <string name="verification_code_tv_hint">Ellenőrző kód</string>
+    <string name="verification_success_code_toast">Ellenőrző kód elküldve.</string>
+    <string name="verification_null_code_toast">Kérjük, adja meg a kapott ellenőrző kódot.</string>
+    <string name="unbind_email">Nincs csatlakoztatva</string>
+    <string name="unbind_email_hint">Nincs e-mail cím csatlakoztatva a fiókjához.</string>
+    <string name="menu_skip">Kihagyás</string>
+
+    <string name="forget_password_tv">Elfelejtette a jelszót?</string>
+    <string name="recover_password_title">Jelszó visszaállítás</string>
+    <string name="email_address_hint_et">Adja meg az e-mail címét.</string>
+
 </resources>

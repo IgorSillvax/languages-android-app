@@ -7,16 +7,16 @@
 
     <string name="press_back_key_quit">Çıxmaq üçün bir daha basın.</string>
 
-    <string name="featured">Önə Çıxan</string>
+    <string name="featured">Önə Çıxarılan</string>
     <string name="games">Oyunlar</string>
-    <string name="apps">Tətbiqlər</string>
+    <string name="apps">Proqramlar</string>
     <string name="categories">Kateqoriyalar</string>
-    <string name="updates">Təzələmələr</string>
+    <string name="updates">Yenilənmələr</string>
 
     <string name="something_happened">&gt;_&lt;\nSəhv baş verdi.</string>
 
-    <string name="load_failed_error">Oops! Səhvlik oldu.</string>
-    <string name="load_failed_empty">Burda heçbir şey yoxdur.</string>
+    <string name="load_failed_error">Xəta ! Yenidən cəhd edin.</string>
+    <string name="load_failed_empty">Məzmun boşdur.</string>
     <string name="load_failed_all_up_to_date">Bütün tətbiqlər artıq yenilənib.</string>
     <string name="load_failed_no_results">Bağışlıyın! Heçnə tapılmadı.</string>
     <string name="refresh">Yenilə</string>
@@ -277,7 +277,7 @@ Yuxarıdaki funksiyalar Android 4.1+ versiyada dəstəklənməktədir, root ehti
     <string name="more_from_developer">Yaradıcıdan Əlavələr</string>
     <string name="changing_language">Dil dəyişdirilir, xahiş edirik gözləyin…</string>
     <string name="download_complete_installation_setting">Quraşdırma seçimi yükləməkdən sonra</string>
-    <string name="recommend">Axtar</string>
+    <string name="recommend">Kəşf et</string>
     <string name="report">Hesabat</string>
     <plurals name="app_detail_see_all_replies">
 	<item quantity="one">Hamsını Seç <xliff:g example="1" id="count">%1$d</xliff:g> cavab</item>
@@ -419,4 +419,5 @@ Yuxarıdaki funksiyalar Android 4.1+ versiyada dəstəklənməktədir, root ehti
     <string name="save_original_image">Orijinal şəkli qoru</string>
     <string name="check_update_replace">Rəsmi versiya</string>
     <string name="upload_add_list_toast">Şərhiniz sıraya daxildir!</string>
-</resources>
+<string name="load_failed_error_not_found">Proqram APKPure mağazasıbda mövcud deyil.</string>
+    </resources>

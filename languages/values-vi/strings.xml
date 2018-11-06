@@ -7,7 +7,7 @@
 
     <string name="press_back_key_quit">Nhấn phím trở lại một lần nữa để thoát.</string>
 
-    <string name="featured">Tính Năng</string>
+    <string name="featured">Tính năng</string>
     <string name="games">Trò chơi</string>
     <string name="apps">Ứng dụng</string>
     <string name="categories">Danh mục</string>
@@ -22,7 +22,7 @@
     <string name="load_failed_no_results">Xin lỗi! Không kết quả nào được tìm thấy.</string>
     <string name="refresh">Làm mới</string>
 
-    <string name="management">Quản lý</string>
+    <string name="management">Quản lý ứng dụng</string>
     <string name="app_updates">Cập nhật ứng dụng</string>
     <string name="app_management">Đã cài đặt</string>
     <string name="app_uninstall">Gỡ cài đặt ứng dụng</string>
@@ -127,9 +127,7 @@
     <string name="trending_searches">Xu hướng Tìm kiếm</string>
 
     <string name="improvement_plan_title">Kế hoạch Cải thiện hiệu suất</string>
-    <string name="improvement_plan_message">
- Hỗ trợ chúng tôi bằng cách gửi Thông tin Thiết bị Android của bạn, Chúng tôi <b> không thu thập</b> thông tin nhận dạng cá nhân (tên, địa chỉ, địa chỉ e-mail, số an sinh xã hội, hoặc các định dạng duy nhất khác).
- </string>
+    <string name="improvement_plan_message">Để giúp gửi tin nhắn thiết bị Android, chúng tôi <b>không thu thập</b> thông tin cá nhân của bạn (tên, địa chỉ, địa chỉ e-mail, sơ an sinh xã hội, hoặc số nhận dạng duy nhất nào khác).</string>
     <string name="join_us">Tham gia với chúng tôi</string>
     <string name="skip">Bỏ qua</string>
 
@@ -150,9 +148,7 @@
     <string name="failed_to_request_app_detail">Không thể yêu cầu thông tin chi tiết ứng dụng.</string>
     <string name="failed_to_request_app_asset">Không yêu cầu thông tin tài sản ứng dụng.</string>
 
-    <string name="incompatible_this_app">"
- &lt;big&gt;&lt;b&gt;&lt;font color=%1$d&gt;Thiết bị của bạn không tương thích với ứng dụng này.&lt;/font&gt;&lt;/b&gt;&lt;/big&gt;&lt;br&gt;&lt;br&gt;Bạn có muốn tiếp tục không?
- "</string>
+    <string name="incompatible_this_app">&lt;big&gt;&lt;b&gt;&lt;font color=%1$d&gt;Thiết bị của bạn không tương thích với ứng dụng này.&lt;/font&gt;&lt;/b&gt;&lt;/big&gt;&lt;br&gt;&lt;br&gt;Bạn có muốn tiếp tục?</string>
 
     <string name="this_app_not_usable">
         <![CDATA[<big><b><font color="%1$d">Ứng dụng này có thể không sử dụng được.</font></b></big><br>Bạn có muốn tiếp tục không?]]>
@@ -167,7 +163,7 @@
     </string>
 
     <string name="share">Chia sẻ</string>
-    <string name="share_app_url">Chia sẻ <xliff:g example="APKPure" id="app_name"> %1$s</xliff:g> APK (từ @ <xliff:g example="APKPure" id="social_network_name"> %2$s</xliff:g>), <xliff:g example="https://apkpure.com/p/com.apkpure.aegon" id="app_url"> %3$s</xliff:g></string>
+    <string name="share_app_url"> Chia sẻ <xliff:g example="APKPure" id="app_name"> %1$s</xliff:g> APK (từ @ <xliff:g example="APKPure" id="social_network_name"> %2$s</xliff:g>) <xliff:g example="https://apkpure.com/p/com.apkpure.aegon" id="app_url"> %3$s</xliff:g></string>
     <string name="_name__version_history"><xliff:g example="APKPure" id="name">%1$s</xliff:g> Lịch sử phiên bản</string>
     <string name="update__date___size_">Cập nhật:<xliff:g example="Mar 3, 2016" id="date">%1$s</xliff:g>,<xliff:g example="1024 kB" id="size">%2$s</xliff:g></string>
 
@@ -283,7 +279,7 @@
     </plurals>
     <string name="app_detail_customer_reviews">Nhận xét</string>
     <string name="app_detail_comment_type_web">Web</string>
-    <string name="app_submit_submit">Xác nhận…</string>
+    <string name="app_submit_submit">Đang đăng…</string>
     <string name="app_submit_anonymous_comment">Thêm nhận xét</string>
     <string name="app_submit_title_toast">Bạn phải viết tiêu đề !</string>
     <string name="app_submit_msg_toast">Bạn phải viết cái gì đó!</string>
@@ -294,7 +290,7 @@
     <string name="app_submit_msg_hint">Hãy viết ý kiến của bạn</string>
     <string name="app_submit_nickname">Biệt danh</string>
     <string name="app_submit_email">Email</string>
-    <string name="app_submit_submit_title">Xác nhận</string>
+    <string name="app_submit_submit_title">Đăng</string>
     <string name="app_submit_reply_to">Trả lời đến</string>
 
     <string name="app_detail_tab_one">Chi tiết</string>
@@ -322,7 +318,7 @@
     <string name="load_failed_click_retry">Tải thất bại, nhấp thử lại</string>
     <string name="loading">Đang tải…</string>
 
-    <string name="scan_qr_code_hint">Trước khi sử dụng Quét Mã QR, bạn cần phải cho phép máy ảnhĐược yêu cầu để quét mã QR.</string>
+    <string name="scan_qr_code_hint">Trước khi sử dụng Quét Mã QR, bạn cần phải cho phép máy ảnh được yêu cầu để quét mã QR.</string>
     <string name="zxing_msg_default_status">Vui lòng đặt mã QR bên trong kính ngắm để quét.</string>
     <string name="zxing_msg_parser_status">Quét mã QR thất bại, hãy thử lại lần nữa.</string>
 
@@ -412,7 +408,7 @@
     <string name="user_password_error">Mật khẩu này không hợp lệ</string>
     <string name="user_confirm_error">Mật khẩu phải trùng khớp</string>
 
-    <string name="login_user_name">Tên đăng nhập</string>
+    <string name="login_user_name">Tên đăng nhập hoặc thư điện tử</string>
     <string name="login_user_password">Mật khẩu</string>
     <string name="login_user_sign_in">Đăng nhập</string>
     <string name="login_choose">Hoặc đăng nhập bằng tài khoản của bạn</string>
@@ -421,8 +417,8 @@
 
     <string name="message">Tin nhắn</string>
 
-    <string name="push_title_info_reply">%s đã trả lời bình luận của bạn!</string>
-    <string name="push_title_info_upvoted">%s đã bỏ phiếu bình luận của bạn!</string>
+    <string name="push_title_info_reply">%1$s đã trả lời bình luận của bạn!</string>
+    <string name="push_title_info_upvoted">%1$s đã bỏ phiếu bình luận của bạn!</string>
     <string name="download_list">Danh sách tải về</string>
     <string name="can_be_update">Có thể cập nhật</string>
     <string name="install_list">Đã cài đặt</string>
@@ -559,13 +555,13 @@
     <string name="recommend_description">1. Đề xuất được chấp thuận sẽ được liệt kê dưới mục KHÁM PHÁ.
         2. Bạn chỉ có thể đề xuất các ứng dụng hiện được cài đặt trên thiết bị Android của bạn.
         3. Thông báo cho APKPure thêm các ứng dụng không được lập chỉ mục, vui lòng hoàn tất mẫu đề xuất trước.</string>
-    <string name="recommend_user_recommend">Được đề xuất bởi %s</string>
+    <string name="recommend_user_recommend">Được đề xuất bởi %1$s</string>
     <string name="recommend_required">Phần bắt buộc</string>
     <string name="load_failed_error_not_found">Ứng dụng này không được đuợc liệt kê trong APKPURE!</string>
     <string name="beta">Thử nghiệm</string>
-    <string name="history_version">Phiên bản cũ hơn</string>
+    <string name="history_version">Lịch sử phiên bản</string>
 
-    <string name="share_app_url_group"> <xliff:g example="APKPure" id="app_name"> %1$s</xliff:g> Nhóm. (từ @ <xliff:g example="APKPure" id="social_network_name"> %2$s</xliff:g> <xliff:g example="https://apkpure.com/p/com.apkpure.aegon" id="app_url"> %3$s</xliff:g></string>
+    <string name="share_app_url_group"> <xliff:g example="APKPure" id="app_name">%1$s</xliff:g> Nhóm. (từ <xliff:g example="APKPure" id="social_network_name">%2$s</xliff:g>) <xliff:g example="https://apkpure.com/p/com.apkpure.aegon" id="app_url">%3$s</xliff:g> </string>
 
     <string name="data_saver_model">Tiết kiệm Dữ liệu</string>
     <string name="data_saver_model_summery">Kích hoạt điều này sẽ điều chỉnh kích cỡ ảnh và chất lượng nhằm giảm lượng dữ liệu sử dụng.</string>
@@ -591,13 +587,13 @@
     <string name="update_intro_tv">Khung thông tin về tôi không thể để trống</string>
 
     <string name="user_name_null">Tên người dùng không hợp lệ</string>
-    <string name="push_title_info_follow">%s đã theo dõi bạn!</string>
+    <string name="push_title_info_follow">%1$s đã theo dõi bạn!</string>
     <string name="push_title_info_update">Bản cập nhật APKPure đã đến!</string>
-    <string name="push_content_info_update">Phiên bản mới %s đã phát hành! Cập nhật ngay!</string>
+    <string name="push_content_info_update">Phiên bản mới %1$s đã phát hành! Cập nhật ngay!</string>
 
     <string name="tab_group">NHÓM</string>
     <string name="recommend_not_found">Không được lập chỉ mục</string>
-    <string name="recommend_not_fount_info">Thông báo cho APKPure thêm \"%s\", bạn cần hoàn tất các biểu mẫu.</string>
+    <string name="recommend_not_fount_info">Thông báo cho APKPure thêm \"%1$s\", bạn cần hoàn tất các biểu mẫu.</string>
     <string name="recommend_user_recommend_sys">Được tài trợ bởi APKPure</string>
 
     <string name="user_detail_focus">Đang theo dõi</string>
@@ -609,7 +605,7 @@
     <string name="user_focus_tab_users">Mọi người</string>
     <string name="user_focus_tab_apps">Nhóm</string>
     <string name="user_focus_title_my">Tôi đang Theo dõi</string>
-    <string name="user_focus_title">Được theo dõi bởi %s</string>
+    <string name="user_focus_title">Được theo dõi bởi %1$s</string>
 
     <string name="goto_google_play">Mua ngay</string>
 
@@ -632,7 +628,7 @@
     <string name="hot_tag">Thẻ hàng đầu</string>
     <string name="hot_tag_explain">(Thêm hoặc bỏ phiếu các thẻ hiện có cho ứng dụng này)</string>
     <string name="common_use">Thẻ của tôi</string>
-    <string name="app_add_tag_hint_caution">Không có nhiều hơn %s thẻ cho mỗi ứng dụng.</string>
+    <string name="app_add_tag_hint_caution">Không có nhiều hơn %1$s thẻ cho mỗi ứng dụng.</string>
     <string name="app_add_tag">Thêm thẻ mới</string>
     <string name="toast_app_tag_exist">Thẻ đã tồn tại!</string>
     <string name="there_is_no_label">Không có thẻ.</string>
@@ -650,12 +646,12 @@
     <string name="tab_apk">APK</string>
     <string name="commentaries">Chia sẻ bài viết</string>
 
-    <string name="upload_apk_version">V %s</string>
-    <string name="upload_apk_downloads">Tải về: %s</string>
+    <string name="upload_apk_version">V %1$s</string>
+    <string name="upload_apk_downloads">Tải về: %1$s</string>
 
-    <string name="upload_comment_uploading">Đang tải lên %s…</string>
-    <string name="upload_comment_upload_success">Tải lên thành công %s</string>
-    <string name="upload_comment_upload_failed">Tải lên %s thất bại</string>
+    <string name="upload_comment_uploading">Đang tải lên %1$s…</string>
+    <string name="upload_comment_upload_success">Tải lên thành công %1$s</string>
+    <string name="upload_comment_upload_failed">Tải lên %1$s thất bại</string>
     <string name="upload_comment_view">Chạm để xem</string>
     <string name="upload_comment_reload">Chạm để tải lại</string>
     <string name="upload_notification_pause">Tạm dừng</string>
@@ -694,7 +690,7 @@
     <string name="pre_registered_bt">Đã đăng ký</string>
     <string name="pre_register_link_title">Trang Đăng ký trước</string>
     <string name="pre_register_gift_tv">Quà Người đăng ký</string>
-    <string name="pre_register_person_num_tv">Người đăng ký trước: %s</string>
+    <string name="pre_register_person_num_tv">Người đăng ký trước: %1$s</string>
     <string name="pre_register_success">Đăng ký trước nghĩa là bạn sẽ nhận thông báo trên thiết bị của bạn khi ứng dụng đã được phát hành.</string>
 
     <string name="open_page_failed">Mở trang thất bại!</string>
@@ -714,4 +710,71 @@
     <string name="comment_list_new_num">%d Câu chuyện Mới</string>
 
     <string name="tab_popular">PHỔ BIẾN</string>
+<string name="properties_message_v2">&lt;b&gt;Tên gói:&lt;/b&gt; %1$s&lt;br&gt;&lt;b&gt;Phiên bản:&lt;/b&gt; %2$s&lt;br&gt;&lt;b&gt;Đường dẫn:&lt;/b&gt; %3$s&lt;br&gt;&lt;b&gt;Kích cỡ:&lt;/b&gt; %4$s&lt;br&gt;&lt;b&gt;Lần sửa đổi cuối:&lt;/b&gt; %5$s</string>
+    <string name="app_detail_tab_evaluation">Đánh giá</string>
+    <string name="app_detail_comment_filter_sort_score">Đánh giá hàng đầu</string>
+    <string name="app_detail_comment_filter_all">Toàn bộ đánh giá</string>
+    <string name="app_detail_comment_filter_version">Phiên bản mới nhất</string>
+    <string name="app_detail_comment_score_less">Quá ít người xếp loại</string>
+    <string name="app_detail_comment_no_data">Không tìm thấy xếp hạng của người dùng, vui lòng bạn thêm xếp loại ngay.</string>
+    <string name="app_detail_comment_score_footer">Có %1$s đánh giá ở các ngôn ngữ khác.</string>
+    <string name="app_detail_evaluation_tool_bar_title">Viết bài đánh giá</string>
+    <string name="app_detail_evaluation_failed_bt">Đánh giá</string>
+
+    <string name="app_detail_comment_order_array_good">4-5</string>
+    <string name="app_detail_comment_order_array_bad">1-3</string>
+    <string name="app_detail_folded_footer_reviews">Xem tất cả %d đánh giá thu gọn</string>
+    <string name="app_detail_folded_footer_posts">Xem tất cả %d bài đăng thu gọn</string>
+    <string name="app_detail_discuss_filter_featured">Nổi bật</string>
+    <string name="app_detail_discuss_filter_folded">Đã thu gọn</string>
+
+
+    <string name="message_notify">Thông báo</string>
+    <string name="menu_copy_link">Sao chép liên kết</string>
+    <string name="web_view_copy">Sao chép liên kết</string>
+
+    <string name="filter_no_comment">Oops! Không có nội dung như vậy!!</string>
+
+    <string name="follow_floating_action_button">Tạo khoảnh khắc mới</string>
+
+    <string name="count_down_timer_tv">%ds</string>
+    <string name="count_down_timer_btn">Bỏ qua</string>
+
+    <string name="choice_evaluate">Đánh giá đã chọn</string>
+    <string name="choice_comment">Bình luận khuyến nghị</string>
+    <string name="emoji_input_error_hint">Không thể bình luận bằng biểu tượng cảm xúc, viết gì đó đi…</string>
+    <string name="load_all_choice_evaluate">Xem tất cả đánh giá</string>
+    <string name="load_all_choice_comment">Xem tất cả bình luận</string>
+    <string name="my_reservation_and_collection">Đăng ký trước và ưa thích</string>
+    <string name="upload_apk">Tải lên apk</string>
+    <string name="developer_badge_explanation">Mô tả ID nhà phát triển</string>
+
+    <string name="from_user_recommendation">Đề xuất người dùng</string>
+    <string name="topics">Chủ đề</string>
+    <string name="pre_register_game">Đăng ký trước</string>
+    <string name="editors_picks">Lựa chọn của biên tập viên</string>
+    <string name="recommend_game">Đề xuất trò chơi</string>
+
+    <string name="bing_share_account">Kết nối đến tài khoản bên thứ ba</string>
+    <string name="un_bind">Không có kết nối</string>
+    <string name="login_out_message_hint">Bạn chắc chắn muốn đăng xuất?</string>
+    <string name="bind_email_title">Kết nối thư điện tử của bạn</string>
+    <string name="bind_email_tv">Kết nối địa chỉ email của bạn với tài khoản của bạn để mở khóa các lợi ích của việc đăng nhập email, khôi phục mật khẩu, gửi bài đăng và hơn thế nữa.</string>
+    <string name="verification_code_tv">Mã xác nhận đã được gửi đến địa chỉ email của bạn %1$s</string>
+    <string name="verification_code_second_tv">Gửi lại trong %d giây</string>
+    <string name="verification_code_resend_tv">Gửi lại mã xác nhận</string>
+    <string name="send_verification_code_resend_tv">Gửi mã xác nhận</string>
+    <string name="bind_email_success">Kết nối thành công.</string>
+    <string name="update_email_tv">Xác nhận lại để cập nhật địa chỉ email của bạn</string>
+    <string name="verification_code_tv_hint">Mã xác nhận</string>
+    <string name="verification_success_code_toast">Đã gửi mã xác nhận.</string>
+    <string name="verification_null_code_toast">Vui lòng nhập mã xác minh bạn đã nhận được.</string>
+    <string name="unbind_email">Không có kết nối</string>
+    <string name="unbind_email_hint">Không có địa chỉ email nào đã kết nối với tài khoản của bạn.</string>
+    <string name="menu_skip">Bỏ qua</string>
+
+    <string name="forget_password_tv">Quên mật khẩu?</string>
+    <string name="recover_password_title">Phục hồi mật khẩu</string>
+    <string name="email_address_hint_et">Nhập email của bạn.</string>
+
 </resources>

@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2"><string name="action_settings">سەرچاوە</string>
-    <string name="action_search">گەڕان</string>
+    <string name="action_search">lêgerîn</string>
     <string name="auto">خۆکار</string>
 
     <string name="press_back_key_quit">دووبارە دایبگرەوە بۆ گەڕانەوە بۆ دواوە.</string>
@@ -18,13 +18,13 @@
     <string name="load_failed_no_results">ببوورە! هیچ ئەنجامێک نەدۆزرایەوە.</string>
     <string name="refresh">بووژاندنەوە</string>
 
-    <string name="app_management">بەڕێوەبردنی نەرمەواڵەکان</string>
+    <string name="app_management">بەڕێوەبردنی بەرنامەکان</string>
     <string name="apk_xapk_management">بەڕێوەبردنی APK / XAPK</string>
     <string name="download_management">بەڕێوەبردنی داگرتن</string>
     <string name="settings">ڕێکخستنەکان</string>
     <string name="about">دەربارە</string>
     <string name="about_title">دەربارە <xliff:g id="app_name" example="APKPure">%1$s</xliff:g></string>
-    <string name="about_message">" &lt;b&gt;وەشان:&lt;/b&gt; %1$s&lt;br&gt;&lt;br&gt;&lt;b&gt;ماڵپەڕ:&lt;/b&gt; &lt;a href=%2$s&gt;%2$s&lt;/a&gt;&lt;br&gt;&lt;b&gt;Email:&lt;/b&gt; &lt;a href=mailto:%3$s&gt;%3$s&lt;/a&gt; "</string>
+    <string name="about_message">"&lt;b&gt;وەشان:&lt;/b&gt; %1$s&lt;br&gt;&lt;br&gt;&lt;b&gt;ماڵپەڕ:&lt;/b&gt; &lt;a href=%2$s&gt;%2$s&lt;/a&gt;&lt;br&gt;&lt;b&gt;ئیمێڵ::&lt;/b&gt; &lt;a href=mailto:%3$s&gt;%3$s&lt;/a&gt; "</string>
     <string name="check_update">پشکنین بۆ نوێکردنەوە</string>
     <string name="quit">دەرچوون</string>
     <string name="want_to_quit">دڵنیای لە دەرچوون؟</string>
@@ -112,15 +112,15 @@
     <string name="want_to_remove_download_item">دەتەوێ‌ داگرتنی ئەم بڕگەیە لاببەیت؟</string>
 
     <string name="search">گەڕان</string>
-    <string name="search_for_apps">گەڕان بۆ نەرمەواڵەکان</string>
+    <string name="search_for_apps">گەڕان بۆ بەرنامەکان</string>
     <string name="improvement_plan_title">پلانی چاککردنی نواندن</string>
-    <string name="improvement_plan_message"> یارمەتیمان بدە لە پێشکەشکردنی زانیاری ئامیری ئەندرۆید، ئێمە <b> دەکەین، </b> زانیاری ناسینەوەی کەسی کۆناکەینەوە (ناو، ناونیشان، ناونیشانی ئیمەڵ، ژمارەی نهێنی کۆمەڵایەتی، یان زانیاری ناسینی تر). </string>
+    <string name="improvement_plan_message">"&lt;b&gt;یارمەتیمان بدە لە ناردنی زانیاری ئامێری ئەندرۆید، ئێمە &lt;b&gt; دەکەین، &lt;/b&gt; زانیاری ناسینەوەی کەسی کۆناکەینەوە وەکو (ناو، ناونیشان، ناونیشانی ئیمێڵ، ژمارەی نهێنی تۆڕی کۆمەڵایەتی، یان زانیاری ناسینی تر). "<b> دەکەین، </b> زانیاری ناسینەوەی کەسی کۆناکەینەوە (ناو، ناونیشان، ناونیشانی ئیمەڵ، ژمارەی نهێنی کۆمەڵایەتی، یان زانیاری ناسینی تر). </string>
     <string name="join_us">بەشداربە لەگەڵمان</string>
     <string name="skip">تێپەڕاندن</string>
 
     <string name="_name__is_up_to_date"><xliff:g id="name" example="APKPure">%1$s</xliff:g> نوێکراوەتەوە.</string>
     <string name="new_version_available_title">وەشانی نوێ بەردەستە</string>
-    <string name="new_version_available_message">" &lt;b&gt;دواهەمین وەشان:&lt;/b&gt; %1$s&lt;br&gt;&lt;br&gt;&lt;b&gt;چی نوێ هەیە:&lt;/b&gt;&lt;br&gt;%2$s "</string>
+    <string name="new_version_available_message">"&lt;b&gt;دواهەمین وەشان:&lt;/b&gt; %1$s&lt;br&gt;&lt;br&gt;&lt;b&gt;چی تازە هەیە:&lt;/b&gt;&lt;br&gt;%2$s "</string>
 
     <string name="report__">هەواڵلێدان…</string>
     <string name="report_problem__">هەواڵلێدان لە کێشەیەک…</string>
@@ -130,15 +130,16 @@
     <string name="installation_failed">دامەزراندن سەرنەکەوت</string>
     <string name="invalid_app_detail">نادروستی وردەکاری زانیاری نەرمەواڵە.</string>
     <string name="failed_to_request_app_detail">داواکاری بۆ زانینی وردەکاری زانیاری نەرمەواڵە سەرکەتوو نەبوو.</string>
-    <string name="incompatible_this_app">" &lt;big&gt;&lt;b&gt;&lt;font color=red&gt;ئامێرەکەت لەگەڵ ئەم نەرمەواڵەیە گونجاو نییە.&lt;/font&gt;&lt;/b&gt;&lt;/big&gt;&lt;br&gt;&lt;br&gt;دەتەوێت بەردەوام بیت؟ "</string>
-    <string name="this_app_not_usable">" &lt;big&gt;&lt;b&gt;&lt;font color=red&gt;ئەم نەرمەواڵەیە لەوانەیە شیاو نەبێت بۆ بەکارهێنان.&lt;/font&gt;&lt;/b&gt;&lt;/big&gt;&lt;br&gt;&lt;br&gt;دەتەوێت بەردەوام بیت؟ "</string>
+    <string name="incompatible_this_app">"&lt;big&gt;&lt;b&gt;&lt;font color=%1$d&gt;ئامێرەکەت لەگەڵ ئەم بەرنامەیە ناگونجێت.&lt;/font&gt;&lt;/b&gt;&lt;/big&gt;&lt;br&gt;&lt;br&gt;دەتەوێت بەردەوام بیت؟ "</string>
+    <string name="this_app_not_usable">"&lt;big&gt;&lt;b&gt;&lt;font color=%1$d&gt;ئەم بەرنامەیە لەوانەیە شیاو نەبێت بۆ بەکارهێنان.&lt;/font&gt;&lt;/b&gt;&lt;/big&gt;&lt;br&gt;&lt;br&gt;دەتەوێت بەردەوام بیت؟ "</string>
 
     <string name="setting">ڕێکخستن</string>
-    <string name="external_storage_not_usable"> <big><b>پێویستمان بە دەستگەیشتن بە بیرگەی دەرەکی تۆ هەیە. تکایە دڵنیابەوە لەوەی شیاوی بەکارهێنانە.</b></big> </string>
-    <string name="external_storage_permission_denied"> <big><b>"پێویستمان بە دەستگەیشتن بە بیرگەی دەرەکی تۆ هەیە. تکایە دڵنیابەوە  لەوەی کە مۆڵەتپێدانەکە نکۆڵی لێ ناکرێت."</b></big> </string>
+    <string name="external_storage_not_usable"><big><b>پێویستمان بە دەستگەیشتن بە میمۆریی دەرەکی تۆ هەیە. تکایە دڵنیابەوە لەوەی شیاوی بەکارهێنانە.</b></big> </string>
+    <string name="external_storage_permission_denied"><big><b>"پێویستمان بە دەستگەیشتن بە بیرگەی دەرەکی تۆ هەیە. تکایە دڵنیابەوە  لەوەی کە مۆڵەتپێدانەکە نکۆڵی لێ ناکرێت."</b></big> </string>
 
     <string name="share">هاوبەشکردن</string>
-    <string name="share_app_url">داگرتن <xliff:g id="app_name" example="APKPure">%1$s</xliff:g>"  APK (لە @"<xliff:g id="social_network_name" example="APKPure">%2$s</xliff:g>)،\n<xliff:g id="app_url" example="https://apkpure.com/p/com.apkpure.aegon">%3$s</xliff:g></string>
+    <string name="share_app_url"> بڵاوکردنەوە <xliff:g id="app_name" example="APKPure">%1$s</xliff:g>"  APK (لە @"<xliff:g id="social_network_name" example="APKPure">%2$s</xliff:g>)،
+\n<xliff:g id="app_url" example="https://apkpure.com/p/com.apkpure.aegon">%3$s</xliff:g></string>
 
     <string name="_name__version_history"><xliff:g id="name" example="APKPure">%1$s</xliff:g> مێژووی وەشان</string>
     <string name="update__date___size_">نوێکردنەوە: <xliff:g id="date" example="Mar 3, 2016">%1$s</xliff:g>،<xliff:g id="size" example="1024 kB">%2$s</xliff:g></string>
@@ -157,11 +158,11 @@
 
     <string name="invalid_app_asset">نادروستی زانیاری بەنرخی نەرمەواڵە.</string>
     <string name="failed_to_request_app_asset">داواکاری زانینی زانیاری بەنرخی نەرمەواڵە سەرکەوتوو نەبوو.</string>
-    <string name="action_management">بەڕێوەبردن</string>
+    <string name="action_management">Rêveberiya</string>
 
     <string name="delete_all">سڕینەوەی هەموو</string>
     <string name="properties">تایبەتمەندییەکان</string>
-    <string name="properties_message">" &lt;b&gt;ڕێڕەو:&lt;/b&gt; %1$s&lt;br&gt;&lt;b&gt;قەبارە:&lt;/b&gt; %2$s&lt;br&gt;&lt;b&gt;دوا گۆڕانکاری::&lt;/b&gt; %3$s "</string>
+    <string name="properties_message">"&lt;b&gt;ڕێڕەو:&lt;/b&gt; %1$s&lt;br&gt;&lt;b&gt;قەبارە:&lt;/b&gt; %2$s&lt;br&gt;&lt;b&gt;دوا گۆڕانکاری::&lt;/b&gt; %3$s "</string>
     <string name="want_to_delete_all_files">ئایا دەتەوێت هەموو پەڕگەیەک بسریتەوە؟</string>
     <string name="flag_as_inappropriate">نیشانکردن وەک ناگونجاو</string>
     <string name="pause_all">وەستانی هەموویان</string>
@@ -173,7 +174,7 @@
     <string name="delete_downloaded_file">سڕینەوەی پەڕگەی داگیراو</string>
 
     <string name="search_history">مێژوو</string>
-    <string name="clear_search_history">خاوێنکردنەوەی مێژوو</string>
+    <string name="clear_search_history">پاکردنەوەی هەموو مێژوو</string>
 
     <string name="contact_us__">پەیوەندیمان پێوە بکەن…</string>
     <string name="contact_us">پەیوەندیمان پێوە بکەن</string>
@@ -186,8 +187,8 @@
     <string name="deselect_all">دیاری نەکردنی هەموویان</string>
     <string name="ignored">پشگوێخراو</string>
     <plurals name="total__count__apps__size_">
-	<item quantity="one">" تێکڕا: &lt;b&gt;&lt;font color=%1$d&gt;%2$d&lt;/font&gt;&lt;/b&gt; نەرمەواڵە، &lt;b&gt;&lt;font color=%1$d&gt;%3$s&lt;/font&gt;&lt;/b&gt; "</item>
-	<item quantity="other">" تێکڕا: &lt;b&gt;&lt;font color=%1$d&gt;%2$d&lt;/font&gt;&lt;/b&gt; نەرمەواڵەکان، &lt;b&gt;&lt;font color=%1$d&gt;%3$s&lt;/font&gt;&lt;/b&gt; "</item>
+	<item quantity="one">"تێکڕا: &lt;b&gt;&lt;font color=%1$d&gt;%2$d&lt;/font&gt;&lt;/b&gt; بەرنامە، &lt;b&gt;&lt;font color=%1$d&gt;%3$s&lt;/font&gt;&lt;/b&gt; "</item>
+	<item quantity="other">"تێکڕا: &lt;b&gt;&lt;font color=%1$d&gt;%2$d&lt;/font&gt;&lt;/b&gt; نەرمەواڵەکان، &lt;b&gt;&lt;font color=%1$d&gt;%3$s&lt;/font&gt;&lt;/b&gt; "</item>
 </plurals>
     <string name="total_zero_app">" تێکڕا: &lt;b&gt;&lt;font color=%1$d&gt;0&lt;/font&gt;&lt;/b&gt; نەرمەواڵە "</string>
 

@@ -3,7 +3,7 @@
 
     <string name="action_settings">설정</string>
     <string name="action_search">찾기</string>
-    <string name="action_management">조치</string>
+    <string name="action_management">관리</string>
 
     <string name="press_back_key_quit">\'뒤로\' 버튼을 한번더 눌러 종료합니다.</string>
 
@@ -16,7 +16,7 @@
     <string name="something_happened">&gt;_&lt;\n문제가 발생 하였습니다.</string>
 
     <string name="load_failed_error">아이쿠! 오류가 있네요.</string>
-    <string name="load_failed_empty">여기는 아무것도 없군요.</string>
+    <string name="load_failed_empty">아무것도 없습니다.</string>
     <string name="load_failed_all_up_to_date">모두 앱은 다 최신한 것입니다.</string>
     <string name="load_failed_no_results">죄송합니다! 해당하는 검색 결과가 없습니다.</string>
     <string name="refresh">새로고침</string>
@@ -123,7 +123,7 @@
     <string name="want_to_remove_download_item">이 다운로드 항목을 삭제 하시겠습니까?</string>
 
     <string name="search">찾기</string>
-    <string name="search_for_apps">앱 찾기</string>
+    <string name="search_for_apps">APKPure에서 찾기</string>
     <string name="trending_searches">순위 찾기</string>
 
     <string name="improvement_plan_title">성능 향상 계획</string>
@@ -163,7 +163,7 @@
     </string>
 
     <string name="share">공유</string>
-    <string name="share_app_url">다운로드<xliff:g id="app_name" example="APKPure">%1$s</xliff:g> APK (from @<xliff:g id="social_network_name" example="APKPure">%2$s</xliff:g>), <xliff:g id="app_url" example="https://apkpure.com/p/com.apkpure.aegon">%3$s</xliff:g></string>
+    <string name="share_app_url"> 공유하기 <xliff:g example="APKPure" id="app_name">%1$s</xliff:g> 애플리케이션 (from <xliff:g example="APKPure" id="social_network_name">%2$s</xliff:g>) <xliff:g example="https://apkpure.com/p/com.apkpure.aegon" id="app_url">%3$s</xliff:g> </string>
 
     <string name="_name__version_history"><xliff:g id="name" example="APKPure">%1$s</xliff:g> 버전 히스토리</string>
     <string name="update__date___size_">업데이트: <xliff:g id="date" example="Mar 3, 2016">%1$s</xliff:g>, <xliff:g id="size" example="1024 kB">%2$s</xliff:g></string>
@@ -188,7 +188,7 @@
     <string name="language">언어</string>
     <string name="auto">자동</string>
     <string name="search_history">기록</string>
-    <string name="clear_search_history">기록 초기화</string>
+    <string name="clear_search_history">기록을 초기화 합니다</string>
     <string name="delete_all">전체 삭제</string>
     <string name="properties_message">
         <![CDATA[<b>Path:</b> %1$s<br><b>Size:</b> %2$s<br><b>최근 변경됨:</b> %3$s]]>
@@ -267,7 +267,7 @@ APKPure의 기능을 보장하기 위해，APKPure가 당신의 앱 정리“화
 	<item quantity="other">모든<xliff:g example="2" id="count">%1$d</xliff:g> 답변을 확인하다</item>
 </plurals>
 
-    <string name="app_submit_submit">올리기</string>
+    <string name="app_submit_submit">포스트…</string>
     <string name="app_submit_anonymous_comment">댓글 추가</string>
     <string name="recommend">발견하다</string>
     <string name="check_update_replace">공식 버전</string>
@@ -276,4 +276,232 @@ APKPure의 기능을 보장하기 위해，APKPure가 당신의 앱 정리“화
     <string name="beta">베타</string>
     <string name="history_version">버전 역사</string>
 
+    <string name="data_saver_model">데이터세이버</string>
+    <string name="properties_message_v2">&lt;b&gt;패키지 이름:&lt;/b&gt; %1$s&lt;br&gt;&lt;b&gt;버전:&lt;/b&gt; %2$s&lt;br&gt;&lt;b&gt;경로:&lt;/b&gt; %3$s&lt;br&gt;&lt;b&gt;사이즈:&lt;/b&gt; %4$s&lt;br&gt;&lt;b&gt;마지막 수정날짜:&lt;/b&gt; %5$s</string>
+    <string name="share_app_url_comment"> <xliff:g example="APKPure" id="user_name">%1$s</xliff:g>에 대한 평가입니다
+\n<xliff:g example="APKPure" id="app_name">%2$s</xliff:g> : <xliff:g example="APKPure" id="app_name">%3$s</xliff:g> (<xliff:g example="APKPure" id="social_network_name">%4$s</xliff:g> (으)로 부터) <xliff:g example="https://apkpure.com/p/com.apkpure.aegon" id="app_url">%5$s</xliff:g> </string>
+    <string name="share_app_url_group"> <xliff:g example="APKPure" id="app_name">%1$s</xliff:g> 그룹. (from <xliff:g example="APKPure" id="social_network_name">%2$s</xliff:g>) <xliff:g example="https://apkpure.com/p/com.apkpure.aegon" id="app_url">%3$s</xliff:g> </string>
+
+    <string name="data_saver_model_summery">이 기능을 설정하면 이미지 크기와 품질이 저하되어 셀룰러 데이터를 덜 사용할 수 있습니다.</string>
+    <string name="app_detail_customer_reviews">평가</string>
+    <string name="app_detail_comment_type_web">웹</string>
+    <string name="app_submit_title_toast">더 많은 제목 또는 글을 작성하세요!</string>
+    <string name="app_submit_msg_toast">글을 작성하세요!</string>
+    <string name="app_submit_name_toast">닉네임을 채우세요!</string>
+    <string name="app_submit_email_toast">올바른 이메일을 작성하세요!</string>
+    <string name="app_submit_star_toast">지금 제출하십시오!</string>
+    <string name="app_submit_title_hint">제목을 작성하세요</string>
+    <string name="app_submit_msg_hint">의견을 작성하세요</string>
+    <string name="app_submit_nickname">닉네임</string>
+    <string name="app_submit_email">이메일</string>
+    <string name="app_submit_submit_title">포스트</string>
+    <string name="app_submit_reply_to">답글을</string>
+
+    <string name="app_detail_tab_one">세부 사항</string>
+    <string name="app_detail_tab_two">게시물</string>
+    <string name="app_detail_tab_three">관련된</string>
+
+    <string name="app_detail_tab_evaluation">리뷰</string>
+    <string name="app_detail_comment_filter_sort_score">최고 등급</string>
+    <string name="app_detail_comment_filter_all">전체 리뷰</string>
+    <string name="app_detail_comment_filter_version">최신 버전</string>
+    <string name="app_detail_comment_score_less">너무 적은 사용자 등급</string>
+    <string name="app_detail_comment_no_data">사용자 등급을 찾을 수 없습니다. 지금 등급을 추가하십시오.</string>
+    <string name="app_detail_comment_score_footer">타국어 %1$개의 비평입니다.</string>
+    <string name="app_detail_evaluation_tool_bar_title">리뷰 공유</string>
+    <string name="app_detail_evaluation_failed_bt">검토</string>
+
+    <string name="app_detail_comment_order_array_default">기본적으로 정렬</string>
+    <string name="app_detail_comment_order_array_most_recent">가장 최근</string>
+    <string name="app_detail_comment_order_array_new">최신</string>
+    <string name="app_detail_comment_order_array_best">베스트</string>
+    <string name="app_detail_comment_order_array_old">오래된</string>
+
+    <string name="app_detail_comment_order_array_good">4 ~ 5</string>
+    <string name="app_detail_comment_order_array_bad">1 ~ 3</string>
+    <string name="app_detail_folded_footer_reviews">모두 %d 리뷰를 보았습니다</string>
+    <string name="app_detail_folded_footer_posts">모두 %d 포스트를 보았습니다</string>
+    <string name="app_detail_discuss_filter_featured">하이라이트</string>
+    <string name="app_detail_discuss_filter_folded">접는</string>
+
+
+    <string name="app_detail_comment_join_group_bt">그룹</string>
+    <string name="download_complete_installation_setting_entries_always">모든 설치</string>
+    <string name="download_complete_installation_setting_entries_only">앱이 있을 때만 설치가 가능합니다</string>
+    <string name="download_complete_installation_setting_entries_never">절대 설치하지 않음</string>
+
+    <string name="download_mkdir">다운로드 경로</string>
+    <string name="download_mkdir_internal_storage_size_des">%1$ 무료, 전체 %2$</string>
+    <string name="download_mkdir_internal_storage_entries">SD</string>
+    <string name="download_mkdir_internal_storage_entries1">SD 1</string>
+    <string name="download_mkdir_external_storage_fill_toast">사용 가능한 스토리지가 충분하지 않아 앱을 다운로드할 수 없습니다.</string>
+
+    <string name="download_mkdir_internal_storage_values">내부_보관소</string>
+    <string name="download_mkdir_external_storage_values">외장_스토리지</string>
+
+    <string name="reply">답글</string>
+    <string name="input_reply_content">만족스러운 답글 입력:</string>
+    <string name="publish">포스트</string>
+    <string name="reply_dialog_marked_words">선택한 사진을 삭제하려면 길게 누르세요.</string>
+    <string name="reply_comment">댓글 달기</string>
+    <string name="save_original_image">저장</string>
+    <string name="already_save">저장
+\n<xliff:g example="ApKPure/사진" id="경로">%1$s</xliff:g></string>
+
+    <string name="load_end">데이터가 없습니다</string>
+    <string name="load_failed_click_retry">로딩 실패, 재시작을 원하시면 클릭하세요</string>
+    <string name="loading">로딩 중…</string>
+
+    <string name="scan_qr_code_hint">스캔 QR 코드를 사용하기 전에 QR 코드 스캔에 필요한 카메라 권한을 부여해야 합니다.</string>
+    <string name="zxing_msg_default_status">스캔하려면 뷰파인더 안에 QR 코드를 넣으십시오.</string>
+    <string name="zxing_msg_parser_status">스캔에 실패했습니다, QR 코드를 다시 스캔하십시오.</string>
+    <string name="scan_qr_code_result_title">결과</string>
+    <string name="scan_qr_code_result_copy_text">텍스트 복사</string>
+    <string name="scan_qr_code_result_hint">QR 코드 세부사항：</string>
+    <string name="scan_qr_code_copy_success">복사된 텍스트</string>
+
+    <string name="tip_permission_camera_storage">카메라 및 SD 카드를 사용할 수 있는 권한이 없습니다, 권한 관리를 실행합니다</string>
+    <string name="permission_denied">액세스가 거부되었습니다!</string>
+
+    <string name="login_title">로그인</string>
+    <string name="sign_out">로그아웃</string>
+
+    <string name="delete_comment">주석 삭제</string>
+    <string name="delete_comment_msg">이 설명을 삭제하시겠습니까?</string>
+    <string name="upload_cancel">업로드가 취소되었습니다</string>
+    <string name="login_select_way_to_login">로그인 방법을 선택하십시오</string>
+
+    <string name="user_info_edit_title">프로필</string>
+    <string name="user_info_edit_portrait_tv">프로필 사진</string>
+    <string name="user_info_edit_username_tv">사용자 이름</string>
+    <string name="user_info_edit_nickname_tv">닉네임</string>
+    <string name="user_info_edit_email_tv">이메일</string>
+    <string name="user_info_edit_gender_tv">성별</string>
+    <string name="user_info_edit_birthday_tv">생일</string>
+    <string name="user_info_edit_change_pwd_tv">비밀번호 초기화</string>
+    <string name="user_info_edit_login_out_tv">로그아웃</string>
+    <string name="user_info_edit_not_choose">알수없는</string>
+    <string name="user_info_edit_gender_male">남자</string>
+    <string name="user_info_edit_gender_female">여자</string>
+    <string name="user_info_edit_portrait_album">포토 갤러리에서 선택하십시오</string>
+    <string name="user_info_edit_portrait_take_photo">카메라에서 사진을 찍으십시오</string>
+    <string name="user_info_edit_portrait_error">이미지 유형이 지원되지 않습니다</string>
+    <string name="user_info_edit_ok">네</string>
+    <string name="user_info_edit_cancel">취소</string>
+    <string name="user_info_edit_large_photo">큰 사진으로 보기</string>
+
+    <string name="update_nick_title">닉네임 변경</string>
+    <string name="update_email_title">이메일 변경</string>
+    <string name="update_nick_name_et">새로운 닉네임을 입력하십시오</string>
+    <string name="update_nick_name_tv">닉네임은 띄어쓰기가 불가능합니다</string>
+    <string name="update_email_name_et">이메일을 입력하십시오</string>
+    <string name="update_eamil_name_tv">이메일을 작성하십시오</string>
+    <string name="update_nickname_error">이미 사용중인 이메일입니다, 다른 이메일을 작성하십시오!</string>
+    <string name="user_info_edit_intro_tv">프로필</string>
+    <string name="update_intro_title">프로필를 수정합니다</string>
+    <string name="update_intro_et">세부사항을 작성하십시오</string>
+    <string name="update_intro_tv">내 정보를 작성하십시오</string>
+
+    <string name="message_all">모든</string>
+    <string name="message_reply">의견</string>
+    <string name="message_notifications_praise">귀하의 의견이 업데이트 되었습니다</string>
+    <string name="message_praise">좋아요</string>
+    <string name="message_notify">알림</string>
+    <string name="message_notifications_reply">코멘트를 복사하였습니다</string>
+    <string name="message_notifications_login">이 페이지를 보려면 로그인을 하십시오.</string>
+    <string name="message_at_title">언급</string>
+    <string name="message_at">너의 언급</string>
+
+    <string name="update_pwd_title">귀하의 비밀번호를 초기화합니다</string>
+    <string name="update_pwd_current_pwd_et">오래된 비밀번호</string>
+    <string name="update_pwd_new_pwd_et">새로운 비밀번호</string>
+    <string name="update_pwd_Confirm_pwd_et">새 비밀번호 확인</string>
+    <string name="upload_avatar">업로드…</string>
+    <string name="update_pwd_current_null_tv">이전 비밀번호는 비워둘 수 없습니다</string>
+    <string name="update_pwd_Confirm_null_tv">비밀번호는 비워둘 수 없습니다</string>
+    <string name="update_pwd_new_pwd_null_tv">새로운 비밀번호는 비워둘 수 없습니다</string>
+    <string name="update_pwd_new_confrim_tv">입력한 비밀번호가 일치하지 않습니다</string>
+    <string name="update_pwd_save_bt">저장</string>
+    <string name="update_save_success">성공적으로 저장하였습니다!</string>
+    <string name="crop__cancel" ignore="ButtonCase">취소</string>
+    <string name="crop__done">다 했어요, 축하해요(^^)</string>
+    <string name="crop__pick_error">잘못된 이미지 파일 유형</string>
+    <string name="crop__saving">사진 저장 중…</string>
+    <string name="crop__wait">현재 서버 과부화로 로딩이 느려서... 죄송합니다…</string>
+
+    <string name="is_comment">코멘트 저장 중…</string>
+    <string name="comment_cancel">코멘트가 취소되었습니다</string>
+    <string name="comment_submitting">제출 중…</string>
+    <string name="comment_replying">접속이 당신을 합니다 -러시아 유머-…</string>
+    <string name="register_term_of_service">APKPure 서비스 기간</string>
+
+    <string name="set_contributor">기여자</string>
+    <string name="set_permissions">권한</string>
+    <string name="set_open_source_licence">오픈 소스 라이선스</string>
+
+    <string name="sign_in_services">귀하의 이용약관 및 개인정보 보호정책에 동의합니다.</string>
+
+    <string name="sign_in_services_key">조건</string>
+    <string name="sign_in_services_key_policy">개인정보 보호 정책</string>
+
+    <string name="user_sign_up">등록</string>
+    <string name="user_name_hint">사용자 이름</string>
+    <string name="user_email_hint">이메일</string>
+    <string name="user_password">비밀번호는 6 ~ 32자로 해 주세요</string>
+    <string name="user_password_confirm">비밀번호 확인</string>
+
+    <string name="user_name_error">사용자 이름에는 특수 문자, 기호 또는 공백을 사용할 수 없습니다</string>
+    <string name="user_name_null">사용자 이름이 잘못되었습니다</string>
+    <string name="user_nickname_error">닉네임은 특수 문자, 기호 또는 공백을 포함할 수 없습니다</string>
+    <string name="user_email_error">이메일 주소가 잘못되었습니다, 다시 작성 해 주세요</string>
+    <string name="user_password_error">비밀번호가 잘못되었습니다, 다시 작성 해 주세요</string>
+    <string name="user_confirm_error">비밀번호가 일치하지 않습니다, 다시 작성 해 주세요</string>
+
+    <string name="login_user_name">사용자 이름 또는 이메일</string>
+    <string name="login_user_password">비밀번호</string>
+    <string name="login_user_sign_in">로그인</string>
+    <string name="login_choose">또는 귀하의 계정으로 로그인 하십시오</string>
+    <string name="login_new_user">새로운 사용자 등록</string>
+    <string name="login_post_as_a_guest">게스트 로그인</string>
+
+    <string name="message">메시지</string>
+
+    <string name="push_title_info_reply">%1$가 당신을 대답 하였습니다!</string>
+    <string name="push_title_info_upvoted">%1가 당신의 의견을 추천했습니다!</string>
+    <string name="push_title_info_follow">%1$가 당신의 의견에 동의합니다!</string>
+    <string name="push_title_info_update">APKPure 업데이트 완료!</string>
+    <string name="push_content_info_update">새로운 버전 %1$가 나왔습니다! 지금 바로 업데이트를 하십시오!</string>
+    <string name="push_title_info_at">누군가가 당신의 의견에 대해 언급하였습니다</string>
+
+    <string name="download_list">다운로드 목록</string>
+    <string name="can_be_update">업데이트를 할 수 있습니다</string>
+    <string name="install_list">설치됨</string>
+    <string name="no_download">다운로드 없음</string>
+    <string name="downloads">다운로드</string>
+
+    <string name="change_language_failed">언어 변경을 실패하였습니다!</string>
+    <string name="comment_reply_tell_msg">이 리뷰가 삭제되었습니다!</string>
+
+    <string name="notification_setting">알림</string>
+    <string name="reply_notification">답글 알림</string>
+    <string name="reply_notification_msg">답글에 대한 새로운 알림 받기</string>
+    <string name="like_notification">알림 찬성</string>
+    <string name="like_notification_msg">새로운 찬성 투표에 대한 알림 받기</string>
+    <string name="gif_tip">gif</string>
+    <string name="ad_tip">광고</string>
+    <string name="submit_comment_title_hint">제목(선택)</string>
+
+    <string name="comment_vote_string">투표</string>
+    <string name="comment_no_reply">우와. 아무 것도 없어요.</string>
+    <string name="comment_reply_info_name">자세히</string>
+    <string name="set_updates_notification">업데이트 가능</string>
+    <string name="set_updates_notification_msg">업데이드가 가능할 때 알립니다.
+\n권장 설정: 켬</string>
+    <string name="app_detail_unknow_text">오래된 APKPure 버전은 더 이상 새로운 기능을 지원하지 않으니 최신 버전으로 업데이트 해주세요.</string>
+    <string name="comment_comment_newest">최신</string>
+    <string name="menu_copy">복사</string>
+    <string name="menu_copy_link">링크 복사</string>
+    <string name="menu_cancel">취소</string>
+    <string name="delete_all_download_history">모든 다운로드 기록을 지우시겠습니까?</string>
+    <string name="delete_the_historical_record">모든 기록을 삭제하시겠습니까?</string>
     </resources>
