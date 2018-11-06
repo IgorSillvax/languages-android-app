@@ -30,7 +30,7 @@
     <string name="download_management">Управление загрузками\n</string>
     <string name="settings">Настройки</string>
     <string name="about">Версия</string>
-    <string name="about_title">О программе <xliff:g id="app_name" example="APKPure">%1$s</xliff:g></string>
+    <string name="about_title">О программе <xliff:g example="APKPure" id="app_name">%1$s</xliff:g></string>
     <string name="about_message">
         <![CDATA[<b>Версия:</b> %1$s<br><br><b>Наш Вебсайт:</b> <a href=%2$s>%2$s</a><br><b>Email:</b> <a href=mailto:%3$s>%3$s</a>]]>
     </string>
@@ -44,7 +44,7 @@
     <string name="want_to_delete_file">Вы хотите удалить этот файл?</string>
     <string name="file_has_been_deleted">Файл удалён.</string>
     <string name="failed_to_delete_file">Не удалось удалить файл.</string>
-    <string name="install__label_">Установка - <xliff:g id="app_label" example="APKPure">%1$s</xliff:g></string>
+    <string name="install__label_">Установка - <xliff:g example="APKPure" id="app_label">%1$s</xliff:g></string>
     <string name="user_canceled">Отменено пользователем.</string>
     <string name="io_error">Ошибка. Недостаточно свободного места на Вашем устройстве.</string>
     <string name="file_format_error">Не поддерживаемый формат.</string>
@@ -83,33 +83,33 @@
     <string name="market_response_error_network_read_error">Нет ответа сети.</string>
     <string name="market_response_error_invalid_response_code">Недопустимый код ответа.</string>
     <string name="market_response_error_invalid_response_body">Недействительный текст ответа.</string>
-    <string name="market_response_error_unknown_error__error_">Неизвестная ошибка (<xliff:g id="error" example="SUCCESS">%1$s</xliff:g>).</string>
+    <string name="market_response_error_unknown_error__error_">Неизвестная ошибка (<xliff:g example="SUCCESS" id="error">%1$s</xliff:g>).</string>
 
     <string name="no_more">Больше нет.</string>
 
     <string name="update">Обновить</string>
-    <string name="version__version___size_">Версия: <xliff:g id="version" example="1.0.0">%1$s</xliff:g>, <xliff:g id="size" example="1024 kB">%2$s</xliff:g></string>
+    <string name="version__version___size_">Версия: <xliff:g example="1.0.0" id="version">%1$s</xliff:g>, <xliff:g example="1024 kB" id="size">%2$s</xliff:g></string>
     <plurals name="_count__new_update_is_available">
-        <item quantity="one"><xliff:g id="count" example="1">%1$d</xliff:g> новое обновление доступно</item>
-        <item quantity="few"><xliff:g id="count" example="2">%1$d</xliff:g> новых обновлений доступны</item>
-        <item quantity="many"><xliff:g id="count" example="2">%1$d</xliff:g> новых обновлений доступно</item>
-        <item quantity="other"/>
+        <item quantity="one"><xliff:g example="1" id="count">%1$d</xliff:g> новое обновление доступно</item>
+        <item quantity="few"><xliff:g example="2" id="count">%1$d</xliff:g> новых обновлений доступны</item>
+        <item quantity="many"><xliff:g example="2" id="count">%1$d</xliff:g> новых обновлений доступно</item>
+        <item quantity="other" />
     </plurals>
 
     <string name="launching_please_wait">Запускается, подождите, пожалуйста …</string>
 
     <plurals name="_count__item_is_downloading">
-        <item quantity="one"><xliff:g id="count" example="1">%1$d</xliff:g> элемент загружается</item>
-        <item quantity="few"><xliff:g id="count" example="2">%1$d</xliff:g> элемента загружаются</item>
-        <item quantity="many"><xliff:g id="count" example="5">%1$d</xliff:g> элементов загружаются</item>
-        <item quantity="other"/>
+        <item quantity="one"><xliff:g example="1" id="count">%1$d</xliff:g> элемент загружается</item>
+        <item quantity="few"><xliff:g example="2" id="count">%1$d</xliff:g> элемента загружаются</item>
+        <item quantity="many"><xliff:g example="5" id="count">%1$d</xliff:g> элементов загружаются</item>
+        <item quantity="other" />
     </plurals>
     <string name="downloads_complete">Загрузки завершены</string>
     <string name="touch_for_view_all_downloads">Нажмите, чтобы увидеть все загрузки</string>
-    <string name="_name__download_failed"><xliff:g id="name" example="APKPure">%1$s</xliff:g> не удалось скачать</string>
+    <string name="_name__download_failed"><xliff:g example="APKPure" id="name">%1$s</xliff:g> не удалось скачать</string>
     <string name="touch_to_download_it_again">Нажмите, чтобы скачать заново</string>
 
-    <string name="download_percent"><xliff:g id="percent" example="50">%1$d</xliff:g> %%</string>
+    <string name="download_percent"><xliff:g example="50" id="percent">%1$d</xliff:g> %%</string>
     <string name="pause">Приостановить</string>
     <string name="continue_">Продолжить</string>
     <string name="restart">Перезапуск</string>
@@ -137,7 +137,7 @@
     <string name="join_us">Присоединяйтесь к нам</string>
     <string name="skip">Пропустить</string>
 
-    <string name="_name__is_up_to_date"><xliff:g id="name" example="APKPure">%1$s</xliff:g> обновлено до последней версии.</string>
+    <string name="_name__is_up_to_date"><xliff:g example="APKPure" id="name">%1$s</xliff:g> обновлено до последней версии.</string>
     <string name="new_version_available_title">Доступна новая версия</string>
     <string name="new_version_available_message">
         <![CDATA[<b>Новая версия:</b> %1$s<br><br><b>Что нового:</b><br>%2$s]]>
@@ -168,8 +168,8 @@
     <string name="share">Поделиться</string>
     <string name="share_app_url"> Поделиться <xliff:g example="APKPure" id="app_name">%1$s</xliff:g> APK (from<xliff:g example="APKPure" id="social_network_name">%2$s</xliff:g>)<xliff:g example="https://apkpure.com/p/com.apkpure.aegon" id="app_url">%3$s</xliff:g></string>
 
-    <string name="_name__version_history"><xliff:g id="name" example="APKPure">%1$s</xliff:g> История Версий</string>
-    <string name="update__date___size_">Обновить: <xliff:g id="date" example="Mar 3, 2016">%1$s</xliff:g>, <xliff:g id="size" example="1024 kB">%2$s</xliff:g></string>
+    <string name="_name__version_history"><xliff:g example="APKPure" id="name">%1$s</xliff:g> История Версий</string>
+    <string name="update__date___size_">Обновить: <xliff:g example="Mar 3, 2016" id="date">%1$s</xliff:g>, <xliff:g example="1024 kB" id="size">%2$s</xliff:g></string>
     <string name="general">Общее</string>
     <string name="language">Язык</string>
     <string name="auto">Авто</string>
@@ -181,19 +181,18 @@
     <string name="delete_downloaded_file">Удалить загруженный файл</string>
 
     <string name="update_all">Обновить всё</string>
-    <string name="update___count__">Обновить (<xliff:g id="count" example="3">%1$d</xliff:g>)</string>
+    <string name="update___count__">Обновить (<xliff:g example="3" id="count">%1$d</xliff:g>)</string>
     <string name="ignore">Игнорировать</string>
     <string name="unignore">Не игнорировать</string>
     <string name="select">Выбрать</string>
     <string name="cancel">Отменить</string>
     <string name="ignored">Игнорируемые</string>
 
-
     <plurals name="total__count__apps__size_">
-	<item quantity="one">Всего: &lt;b&gt;&lt;font color=%1$d&gt;%2$d&lt;/font&gt;&lt;/b&gt; приложение, &lt;b&gt;&lt;font color=%1$d&gt;%3$s&lt;/font&gt;&lt;/b&gt;</item>
-	<item quantity="few">Всего: &lt;b&gt;&lt;font color=%1$d&gt;%2$d&lt;/font&gt;&lt;/b&gt; приложений, &lt;b&gt;&lt;font color=%1$d&gt;%3$s&lt;/font&gt;&lt;/b&gt;</item>
-	<item quantity="many">Всего: &lt;b&gt;&lt;font color=%1$d&gt;%2$d&lt;/font&gt;&lt;/b&gt; приложения, &lt;b&gt;&lt;font color=%1$d&gt;%3$s&lt;/font&gt;&lt;/b&gt;</item>
-</plurals>
+        <item quantity="one"><![CDATA[Всего: <b><font color="%1$d">%2$d</font></b> приложение,, <b><font color="%1$d">%3$s</font></b>]]></item>
+        <item quantity="few"><![CDATA[Всего: <b><font color="%1$d">%2$d</font></b> приложения, <b><font color="%1$d">%3$s</font></b>]]></item>
+        <item quantity="many"><![CDATA[Всего: <b><font color="%1$d">%2$d</font></b> приложений, <b><font color="%1$d">%3$s</font></b>]]></item>
+    </plurals>
     <string name="total_zero_app">
         <![CDATA[Всего: <b><font color="%1$d">0</font></b> приложений]]>
     </string>
@@ -207,7 +206,7 @@
     <string name="show_notification_after_installation">Показать уведомление после установки</string>
     <string name="delete_packages_after_installation">Удалить пакеты после установки</string>
 
-    <string name="_name__installation_completed"><xliff:g id="name" example="APKPure">%1$s</xliff:g> установка завершена</string>
+    <string name="_name__installation_completed"><xliff:g example="APKPure" id="name">%1$s</xliff:g> установка завершена</string>
     <string name="touch_to_open">Коснитесь, чтобы открыть.</string>
 
     <string name="delete_all">Удалить всё</string>
@@ -394,7 +393,7 @@
         <item quantity="one">Смотреть ещё <xliff:g example="1" id="count">%1$d</xliff:g> ответ</item>
         <item quantity="few">Смотреть ещё <xliff:g example="1" id="count">%1$d</xliff:g> ответа</item>
         <item quantity="many">Смотреть все <xliff:g example="2" id="count">%1$d</xliff:g> ответов</item>
-        <item quantity="other"/>
+        <item quantity="other" />
     </plurals>
 
     <string name="app_detail_comment_type_web">сайт</string>
@@ -713,7 +712,7 @@
     <string name="comment_list_see_here">Последнее посещение здесь, нажмите, чтобы обновить</string>
     <string name="comment_list_new_num">%d Новые истории</string>
     <string name="tab_popular">ПОПУЛЯРНЫЕ</string>
-<string name="app_detail_tab_evaluation">Отзывы</string>
+    <string name="app_detail_tab_evaluation">Отзывы</string>
     <string name="app_detail_comment_filter_sort_score">Топ рейтинг</string>
     <string name="app_detail_comment_filter_all">Все отзывы</string>
     <string name="app_detail_comment_filter_version">Последняя версия</string>
@@ -779,5 +778,7 @@
     <string name="recover_password_title">Восстановление пароля</string>
     <string name="email_address_hint_et">Введите адрес электронной почты.</string>
 
-<string name="properties_message_v2">&lt;b&gt;Имя Пакета:&lt;/b&gt; %1$s&lt;br&gt;&lt;b&gt;Version:&lt;/b&gt; %2$s&lt;br&gt;&lt;b&gt;Path:&lt;/b&gt; %3$s&lt;br&gt;&lt;b&gt;Size:&lt;/b&gt; %4$s&lt;br&gt;&lt;b&gt;Last Modified:&lt;/b&gt; %5$s</string>
-    </resources>
+    <string name="properties_message_v2">
+        <![CDATA[<b>Имя Пакета:</b> %1$s<br><b>Version:</b> %2$s<br><b>Path:</b> %3$s<br><b>Size:</b> %4$s<br><b>Last Modified:</b> %5$s]]>
+    </string>
+</resources>

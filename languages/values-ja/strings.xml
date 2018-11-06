@@ -13,8 +13,7 @@
     <string name="categories">カテゴリー</string>
     <string name="updates">アップデート</string>
 
-    <string name="something_happened">&gt;_&lt;
-\n問題が発生したようです。</string>
+    <string name="something_happened">&gt;_&lt;\n問題が発生したようです。</string>
 
     <string name="load_failed_error">エラーが発生しました…</string>
     <string name="load_failed_empty">ここには何もありません</string>
@@ -32,10 +31,9 @@
     <string name="settings">セッティング</string>
     <string name="about">APKPureについて</string>
     <string name="about_title"><xliff:g example="APKPure" id="app_name">%1$s</xliff:g>について</string>
-
-    <string name="about_message">"
-\n &lt;b&gt;バージョン:&lt;/b&gt; %1$s&lt;br&gt;&lt;br&gt;&lt;b&gt;公式サイト:&lt;/b&gt; &lt;a href=%2$s&gt;%2$s&lt;/a&gt;&lt;br&gt;&lt;b&gt;電子メール：&lt;/b&gt; &lt;a href=mailto:%3$s&gt;%3$s&lt;/a&gt;
-\n "</string>
+    <string name="about_message">
+        <![CDATA[<b>バージョン:</b> %1$s<br><br><b>公式サイト:</b> <a href="%2$s">%2$s</a><br><b>電子メール：</b> <a href="mailto:%3$s">%3$s</a>]]>
+    </string>
     <string name="check_update">アップデートをチェックする</string>
     <string name="quit">終了</string>
     <string name="want_to_quit">本当に終了してもよろしいですか？</string>
@@ -85,29 +83,29 @@
     <string name="market_response_error_network_read_error">読み込みエラーです。</string>
     <string name="market_response_error_invalid_response_code">レスポンスのコードが無効です。</string>
     <string name="market_response_error_invalid_response_body">レスポンスの内容が無効です。</string>
-    <string name="market_response_error_unknown_error__error_">不明なエラー: (<xliff:g id="error" example="SUCCESS">%1$s</xliff:g>).</string>
+    <string name="market_response_error_unknown_error__error_">不明なエラー: (<xliff:g example="SUCCESS" id="error">%1$s</xliff:g>).</string>
 
     <string name="no_more">これ以上はありません。</string>
 
     <string name="update">アップデート</string>
-    <string name="version__version___size_">バージョン: <xliff:g id="version" example="1.0.0">%1$s</xliff:g>, <xliff:g id="size" example="1024 kB">%2$s</xliff:g></string>
+    <string name="version__version___size_">バージョン: <xliff:g example="1.0.0" id="version">%1$s</xliff:g>, <xliff:g example="1024 kB" id="size">%2$s</xliff:g></string>
     <plurals name="_count__new_update_is_available">
-        <item quantity="one"><xliff:g id="count" example="1">%1$d</xliff:g>件のアップデートがあります</item>
-        <item quantity="other"><xliff:g id="count" example="2">%1$d</xliff:g>件のアップデートがあります</item>
+        <item quantity="one"><xliff:g example="1" id="count">%1$d</xliff:g>件のアップデートがあります</item>
+        <item quantity="other"><xliff:g example="2" id="count">%1$d</xliff:g>件のアップデートがあります</item>
     </plurals>
 
     <string name="launching_please_wait">しばらくお待ちください…</string>
 
     <plurals name="_count__item_is_downloading">
-        <item quantity="one"><xliff:g id="count" example="1">%1$d</xliff:g>項目をダウンロードしています</item>
-        <item quantity="other"><xliff:g id="count" example="2">%1$d</xliff:g>項目をダウンロードしています</item>
+        <item quantity="one"><xliff:g example="1" id="count">%1$d</xliff:g>項目をダウンロードしています</item>
+        <item quantity="other"><xliff:g example="2" id="count">%1$d</xliff:g>項目をダウンロードしています</item>
     </plurals>
     <string name="downloads_complete">ダウンロードが完了しました</string>
     <string name="touch_for_view_all_downloads">タップして全てのダウンロードを表示します</string>
-    <string name="_name__download_failed"><xliff:g id="name" example="APKPure">%1$s</xliff:g>のダウンロードに失敗しました</string>
+    <string name="_name__download_failed"><xliff:g example="APKPure" id="name">%1$s</xliff:g>のダウンロードに失敗しました</string>
     <string name="touch_to_download_it_again">タップしてダウンロードの再試行をします</string>
 
-    <string name="download_percent"><xliff:g id="percent" example="50">%1$d</xliff:g> %%</string>
+    <string name="download_percent"><xliff:g example="50" id="percent">%1$d</xliff:g> %%</string>
     <string name="pause">停止</string>
     <string name="continue_">続く</string>
     <string name="restart">再起動</string>
@@ -130,13 +128,13 @@
     <string name="trending_searches">人気の検索ワード</string>
 
     <string name="improvement_plan_title">アプリの改善に協力する</string>
-    <string name="improvement_plan_message">"
- お使いのAndroid端末に関する情報提供にご協力ください。個人情報（名前、 住所、メールアドレス、ソーシャル情報、その他の個人を特定できる情報）は"<b>収集されません</b>
- </string>
+    <string name="improvement_plan_message">
+        "お使いのAndroid端末に関する情報提供にご協力ください。個人情報（名前、 住所、メールアドレス、ソーシャル情報、その他の個人を特定できる情報）は"<b>収集されません</b>
+    </string>
     <string name="join_us">協力する</string>
     <string name="skip">協力しない</string>
 
-    <string name="_name__is_up_to_date"><xliff:g id="name" example="APKPure">%1$s</xliff:g>を更新します。</string>
+    <string name="_name__is_up_to_date"><xliff:g example="APKPure" id="name">%1$s</xliff:g>を更新します。</string>
     <string name="new_version_available_title">アップデートがあります</string>
     <string name="new_version_available_message">
         <![CDATA[<b>最新版:</b> %1$s<br><br><b>最新情報:</b><br>%2$s]]>
@@ -170,8 +168,8 @@
     <string name="share">シェア</string>
     <string name="share_app_url"> シェア<xliff:g example="APKPure" id="app_name">%1$s</xliff:g>APK (from <xliff:g example="APKPure" id="social_network_name">%2$s</xliff:g>) <xliff:g example="https://apkpure.com/p/com.apkpure.aegon" id="app_url">%3$s</xliff:g></string>
 
-    <string name="_name__version_history"><xliff:g id="name" example="APKPure">%1$s</xliff:g>以前バージョン</string>
-    <string name="update__date___size_">アップデート: <xliff:g id="date" example="Mar 3, 2016">%1$s</xliff:g>, <xliff:g id="size" example="1024 kB">%2$s</xliff:g></string>
+    <string name="_name__version_history"><xliff:g example="APKPure" id="name">%1$s</xliff:g>以前バージョン</string>
+    <string name="update__date___size_">アップデート: <xliff:g example="Mar 3, 2016" id="date">%1$s</xliff:g>, <xliff:g example="1024 kB" id="size">%2$s</xliff:g></string>
     <string name="contact_us">お問い合わせ</string>
     <string name="contact_us__">問い合わせる…</string>
     <string name="report_content">コンテンツを報告</string>
@@ -214,14 +212,13 @@
     <string name="show_notification_after_installation">インストール後に通知します</string>
     <string name="delete_packages_after_installation">インストール後にパッケージを削除します</string>
 
-    <string name="_name__installation_completed"><xliff:g id="name" example="APKPure">%1$s</xliff:g>のインストールが完了しました</string>
+    <string name="_name__installation_completed"><xliff:g example="APKPure" id="name">%1$s</xliff:g>のインストールが完了しました</string>
     <string name="touch_to_open">タップして開く</string>
-
-    <string name="properties_message">"
-\n &lt;b&gt;パス:&lt;/b&gt; %1$s&lt;br&gt;&lt;b&gt;サイズ:&lt;/b&gt; %2$s&lt;br&gt;&lt;b&gt;最終更新日:&lt;/b&gt; %3$s
-\n "</string>
+    <string name="properties_message">
+        <![CDATA[<b>パス:</b> %1$s<br><b>サイズ:</b> %2$s<br><b>最終更新日:</b> %3$s]]>
+    </string>
     <string name="flag_as_inappropriate">このアプリを報告</string>
-    <string name="update___count__">アップデート (<xliff:g id="count" example="3">%1$d</xliff:g>)</string>
+    <string name="update___count__">アップデート (<xliff:g example="3" id="count">%1$d</xliff:g>)</string>
     <string name="installed">インストール済み</string>
     <string name="similar_or_related">類似のアプリ</string>
     <string name="more_large">表示</string>
@@ -314,7 +311,7 @@
 
     <plurals name="app_detail_see_all_replies">
         <item quantity="one">全ての返信を見る<xliff:g example="2" id="count"> 1%1$d</xliff:g> 2</item>
-        <item quantity="other"/>
+        <item quantity="other" />
     </plurals>
 
     <string name="download_complete_installation_setting_entries_never">インストールしない</string>
@@ -445,7 +442,7 @@
 
     <plurals name="comment_reply_item_fold">
         <item quantity="one"><xliff:g example="2" id="count"> 1%1$d</xliff:g> 2件の返信が崩れました</item>
-        <item quantity="other"/>
+        <item quantity="other" />
     </plurals>
 
     <string name="comment_no_reply">残念! ここには何もありません。</string>
@@ -475,9 +472,10 @@
     <string name="recommend_comment">送信</string>
     <string name="recommend_comment_error">何かエラーが発生しました！</string>
     <string name="recommend_description_title">説明：</string>
-    <string name="recommend_description">1.承認された推奨事項は、「発見」セクションにリストされます。
-2. Androidデバイスに現在インストールされているアプリのみを推薦できます。
-3.インデックスされていないアプリを追加するよう、APKPureに通知するには、まず推奨フォームを完了してください。</string>
+    <string name="recommend_description">
+        1.承認された推奨事項は、「発見」セクションにリストされます。
+        2. Androidデバイスに現在インストールされているアプリのみを推薦できます。
+        3.インデックスされていないアプリを追加するよう、APKPureに通知するには、まず推奨フォームを完了してください。</string>
     <string name="recommend_user_recommend">％sからのおすすめ</string>
     <string name="recommend_required">*</string>
 
@@ -706,8 +704,6 @@
     <string name="search_user_history_title">最近の連絡先</string>
     <string name="search_focus_list_title">フォローした人</string>
 
-    <string name="submit_comment_user_style">&lt;font color=#007AFF&gt;@%1$s&lt;/font&gt;</string>
-
     <string name="pre_register_ok">OK</string>
     <string name="copy_username">ユーザ名をコピーする</string>
     <string name="copy_content">コメントをコピーする</string>
@@ -716,7 +712,9 @@
     <string name="comment_list_see_here">前回アクセスしたページはこちらです。タップして更新します。</string>
     <string name="comment_list_new_num">％d新しいストーリー</string>
     <string name="tab_popular">人気</string>
-<string name="properties_message_v2">&lt;b&gt;パッケージ名:&lt;/b&gt; %1$s&lt;br&gt;&lt;b&gt;バージョン:&lt;/b&gt; %2$s&lt;br&gt;&lt;b&gt;パス:&lt;/b&gt; %3$s&lt;br&gt;&lt;b&gt;サイズ:&lt;/b&gt; %4$s&lt;br&gt;&lt;b&gt;最終更新日:&lt;/b&gt; %5$s</string>
+    <string name="properties_message_v2">
+        <![CDATA[<b>パッケージ名:</b> %1$s<br><b>バージョン:</b> %2$s<br><b>Path:</b> %3$s<br><b>Size:</b> %4$s<br><b>最終更新日:</b> %5$s]]>
+    </string>
     <string name="app_detail_tab_evaluation">レビュー</string>
     <string name="app_detail_comment_filter_sort_score">最高評価</string>
     <string name="app_detail_comment_filter_all">すべてのレビュー</string>
@@ -734,7 +732,6 @@
     <string name="app_detail_discuss_filter_featured">ハイライト</string>
     <string name="app_detail_discuss_filter_folded">折りたたみ</string>
 
-
     <string name="message_notify">通知</string>
     <string name="menu_copy_link">リンクをコピーする</string>
     <string name="web_view_copy">リンクをコピーする</string>
@@ -748,4 +745,4 @@
 
     <string name="choice_evaluate">おすすめレビュー</string>
     <string name="choice_comment">おすすめ投稿</string>
-    </resources>
+</resources>

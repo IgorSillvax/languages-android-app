@@ -21,7 +21,7 @@
 
     <string name="something_happened">&gt;_&lt;\nSomething happened.</string>
     <string name="load_failed_error">Oops! An error occurred.</string>
-    <string name="load_failed_error_not_found">App Not Listed in APKPure App Store！</string>
+    <string name="load_failed_error_not_found">App did not be included in APKPure.</string>
     <string name="load_failed_empty">There is nothing here.</string>
     <string name="load_failed_all_up_to_date">All apps are up to date.</string>
     <string name="load_failed_no_results">Sorry! No results found.</string>
@@ -233,7 +233,7 @@
 
     <string name="update_all">Update All</string>
     <string name="update___count__">Update (<xliff:g example="3" id="count">%1$d</xliff:g>)</string>
-    <string name="ignore">Ignore</string>
+    <string name="ignore">Ignore from the List</string>
     <string name="unignore">Unignore</string>
     <string name="select">Select</string>
     <string name="cancel">Cancel</string>
@@ -256,10 +256,10 @@
     <string name="language">Language</string>
     <string name="auto">Auto</string>
     <string name="changing_language">Changing language, please wait…</string>
-    <string name="data_saver_model">Data Saver</string>
+    <string name="data_saver_model">Data saver</string>
     <string name="data_saver_model_summery">Turning this on will reduce image size and quality to help use less cellular data.</string>
     <string name="download_via_wifi_only">Download via Wi-Fi only</string>
-    <string name="enable_ultra_download">Enable Ultra Download</string>
+    <string name="enable_ultra_download">Enable ultra download</string>
     <string name="enable_ultra_download_summary">Ultra Download is in beta testing, let us know if you encounter any problems.</string>
     <string name="installation">Installation</string>
     <string name="show_notification_after_installation">Show notification after installation</string>
@@ -314,7 +314,7 @@
     <string name="app_submit_reply_to">reply to</string>
 
     <string name="app_detail_tab_one">Details</string>
-    <string name="app_detail_tab_two">Posts</string>
+    <string name="app_detail_tab_two">Group</string>
     <string name="app_detail_tab_three">Related</string>
 
     <string name="app_detail_tab_evaluation">Reviews</string>
@@ -334,12 +334,6 @@
         <item>@string/app_detail_comment_order_array_best</item>
     </array>
 
-    <array name="app_detail_reply_comment_order_array" translatable="false">
-        <item>@string/app_detail_comment_order_array_best</item>
-        <item>@string/app_detail_comment_order_array_new</item>
-        <item>@string/app_detail_comment_order_array_old</item>
-    </array>
-
     <string name="app_detail_comment_order_array_default">Sort by default</string>
     <string name="app_detail_comment_order_array_most_recent">Most Recent</string>
     <string name="app_detail_comment_order_array_new">Newest</string>
@@ -348,81 +342,14 @@
 
     <string name="app_detail_comment_order_array_good">4-5</string>
     <string name="app_detail_comment_order_array_bad">1-3</string>
-    <string name="app_detail_folded_footer_reviews">see all %d folded reviews</string>
-    <string name="app_detail_folded_footer_posts">see all %d folded posts</string>
+    <string name="app_detail_folded_footer_reviews">View all %d folded reviews</string>
+    <string name="app_detail_folded_footer_posts">View all %d folded posts</string>
     <string name="app_detail_discuss_filter_featured">Highlights</string>
     <string name="app_detail_discuss_filter_folded">Folded</string>
 
 
     <string name="app_detail_comment_join_group_bt">Group</string>
-    <string-array name="language_entries" translatable="false">
-        <item>@string/auto</item>
-        <item>English</item>
-        <item>Español</item>
-        <item>Français</item>
-        <item>Hrvatski</item>
-        <item>Indonesia</item>
-        <item>Italiano</item>
-        <item>Magyar</item>
-        <item>Nederlands</item>
-        <item>Português</item>
-        <item>Português Brasileiro</item>
-        <item>Tiếng Việt</item>
-        <item>Türkçe</item>
-        <item>Азәрбајҹан дили</item>
-        <item>Русский</item>
-        <item>العربية</item>
-        <item>فارسی‎</item>
-        <item>کوردی</item>
-        <item>हिन्दी</item>
-        <item>বাংলা</item>
-        <item>한국어</item>
-        <item>日本語</item>
-        <item>简体中文</item>
-        <item>繁體中文 (香港)</item>
-        <item>繁體中文 (台灣)</item>
-        <item>עִברִית </item>
-        <item>ภาษาไทย</item>
-        <item>မြန်မာဘာသာ</item>
-        <item>Deutsche</item>
-        <item>ភាសាខ្មែរ</item>
-        <item>język polski</item>
-        <item>українська мова</item>
-    </string-array>
-    <string-array name="language_entry_values" translatable="false">
-        <item>__auto__</item>
-        <item>en</item>
-        <item>es</item>
-        <item>fr</item>
-        <item>hr</item>
-        <item>in-ID</item>
-        <item>it</item>
-        <item>hu</item>
-        <item>nl</item>
-        <item>pt</item>
-        <item>pt-BR</item>
-        <item>vi</item>
-        <item>tr</item>
-        <item>az</item>
-        <item>ru</item>
-        <item>ar</item>
-        <item>fa</item>
-        <item>ku</item>
-        <item>hi</item>
-        <item>bn</item>
-        <item>ko</item>
-        <item>ja</item>
-        <item>zh-CN</item>
-        <item>zh-HK</item>
-        <item>zh-TW</item>
-        <item>iw</item>
-        <item>th-TH</item>
-        <item>my-MM</item>
-        <item>de</item>
-        <item>km</item>
-        <item>pl</item>
-        <item>uk</item>
-    </string-array>
+
 
     <string name="download_complete_installation_setting">Installation option after downloading</string>
 
@@ -443,7 +370,7 @@
     </string-array>
 
 
-    <string name="download_mkdir">Download Path</string>
+    <string name="download_mkdir">Download path</string>
     <string name="download_mkdir_internal_storage_size_des">%1$s free, total %2$s</string>
     <string name="download_mkdir_internal_storage_entries">SD </string>
     <string name="download_mkdir_internal_storage_entries1">SD 1</string>
@@ -465,7 +392,7 @@
     <string name="already_save">Saved<xliff:g example="ApKPure/photo" id="path">%1$s</xliff:g></string>
 
     <string name="load_end">No more data</string>
-    <string name="load_failed_click_retry">Failure load, click retry</string>
+    <string name="load_failed_click_retry">Something went wrong. Please click to try again</string>
     <string name="loading">Loading&#8230;</string>
 
     <string name="scan_qr_code_hint">Before using "Scan QR Code" you need to grant camera permission
@@ -475,7 +402,7 @@
     <string name="scan_qr_code_result_title">Result</string>
     <string name="scan_qr_code_result_copy_text">Copy text</string>
     <string name="scan_qr_code_result_hint">QR code details：</string>
-    <string name="scan_qr_code_copy_success">text copied</string>
+    <string name="scan_qr_code_copy_success">text is copied</string>
 
     <string name="tip_permission_camera_storage">No permission to use the camera and SD card, open the rights management</string>
     <string name="permission_denied">Access denied!</string>
@@ -496,7 +423,7 @@
     <string name="user_info_edit_email_tv">Email</string>
     <string name="user_info_edit_gender_tv">Gender</string>
     <string name="user_info_edit_birthday_tv">Birthday</string>
-    <string name="user_info_edit_change_pwd_tv">Reset password</string>
+    <string name="user_info_edit_change_pwd_tv">Reset Password</string>
     <string name="user_info_edit_login_out_tv">Sign out</string>
     <string name="user_info_edit_not_choose">Unknown</string>
     <string name="user_info_edit_gender_male">Male</string>
@@ -523,10 +450,12 @@
 
     <!--messageFragment-->
     <string name="message_all">ALL</string>
-    <string name="message_reply">COMMENTS</string>
+    <string name="message_reply">REPLIES</string>
+    <string name="home_message_reply">Comments</string>
     <string name="message_notifications_praise">Upvoted your comment</string>
     <string name="message_praise">LIKES</string>
-    <string name="message_notify">notification</string>
+    <string name="home_message_praise">Likes</string>
+    <string name="message_notify">Notifications</string>
     <string name="message_notifications_reply">Replied your comment</string>
     <string name="message_notifications_login">Please login to see this page.</string>
     <string name="message_at_title">Mentions</string>
@@ -543,7 +472,7 @@
     <string name="update_pwd_new_pwd_null_tv">New password can\'t be blank</string>
     <string name="update_pwd_new_confrim_tv">The passwords you entered do not match</string>
     <string name="update_pwd_save_bt">Save</string>
-    <string name="update_save_success">Saved successfully!</string>
+    <string name="update_save_success">Saved.</string>
     <!--crop image-->
     <string name="crop__cancel" ignore="ButtonCase">Cancel</string>
     <string name="crop__done">Done</string>
@@ -560,12 +489,13 @@
 
     <string name="set_contributor">Contributor</string>
     <string name="set_permissions">Permissions</string>
-    <string name="set_open_source_licence">Open Source License</string>
+    <string name="set_open_source_licence">Open source license</string>
 
     <string name="sign_in_services">By signing up you agree to our Terms and Privacy Policy.</string>
 
     <string name="sign_in_services_key">Terms</string>
-    <string name="sign_in_services_key_policy">Privacy Policy</string>
+    <string name="sign_in_services_key_policy_register">Privacy Policy</string>
+    <string name="sign_in_services_key_policy">Privacy policy</string>
 
     <string name="user_sign_up">Sign Up</string>
     <string name="user_name_hint">Username</string>
@@ -600,7 +530,7 @@
     <string name="download_list">Download list</string>
     <string name="can_be_update">Can be updated</string>
     <string name="install_list">Installed</string>
-    <string name="no_download">No download</string>
+    <string name="no_download">No downloaded apps.</string>
     <string name="downloads">Downloads</string>
 
     <string name="change_language_failed">Language switch fails!</string>
@@ -613,9 +543,9 @@
     <string name="like_notification_msg">Receive notifications for new upvote messages</string>
     <string name="gif_tip">gif</string>
     <string name="ad_tip">ad</string>
-    <string name="submit_comment_title_hint">Subject (Optional)</string>
+    <string name="submit_comment_title_hint">Title</string>
 
-    <string name="comment_vote_string">Vote</string>
+    <string name="comment_vote_string">Like</string>
     <string name="comment_reply_three">Reply</string>
     <string name="comment_item_fold">comment collapsed</string>
 
@@ -626,7 +556,7 @@
 
     <string name="comment_no_reply">Wow, there is nothing here.</string>
     <string name="comment_reply_info_name">Detail</string>
-    <string name="set_updates_notification">App Updates Available</string>
+    <string name="set_updates_notification">App updates available</string>
     <string name="set_updates_notification_msg">Notify when app updates are available. Recommended Setting: On</string>
     <string name="app_detail_unknow_text">Old version APKPure does n\'t support new features, please update to the latest.</string>
     <string name="comment_detail_original">View Original Comment ></string>
@@ -642,9 +572,9 @@
     <string name="download_history">Download history</string>
 
     <!--sub_comment-->
-    <string name="sub_comment_dialog_title">Add a video</string>
-    <string name="sub_comment_dialog_des_tv">Support for parsing YouTube URLs only</string>
-    <string name="sub_comment_dialog_link_et">Enter Video URL address here</string>
+    <string name="sub_comment_dialog_title">Add a Video</string>
+    <string name="sub_comment_dialog_des_tv">Only support Youtube videos parsing.</string>
+    <string name="sub_comment_dialog_link_et">Enter the video address here.</string>
     <string name="sub_comment_dialog_link_null">Video URL address can\'t be blank</string>
     <string name="sub_comment_progress_msg">Adding video…</string>
 
@@ -664,13 +594,13 @@
     <string name="main_my_collection">Favorites</string>
     <string name="main_my_message">Messages</string>
     <string name="main_good_comments">Upvoted</string>
-    <string name="main_app_management">App management</string>
+    <string name="main_app_management">App Management</string>
     <string name="main_topic_selection">Themes</string>
-    <string name="main_night_mode">Night mode</string>
+    <string name="main_night_mode">Night Mode</string>
     <string name="please_login_first">Please login first</string>
     <string name="no_choice">No choice</string>
-    <string name="follow_on_success">Success!</string>
-    <string name="follow_un_success">Unfollow!</string>
+    <string name="follow_on_success">Followed.</string>
+    <string name="follow_un_success">Unfollowed.</string>
     <string name="canceled">Canceled</string>
     <string name="group">Group</string>
     <string name="collection">Favorites</string>
@@ -688,7 +618,7 @@
     <string name="ranking_tab2_title">Top New Games</string>
     <string name="ranking_tab3_title">Top Apps</string>
     <string name="ranking_tab4_title">Top New Apps</string>
-    <string name="ranking_top_countries_title">Top Countries</string>
+    <string name="ranking_top_countries_title">Partitioned Ranking</string>
     <string name="ranking_top_develop_title">Top Developers</string>
 
     <string name="app_detail_three_fragment_foot">Show all comments</string>
@@ -696,7 +626,7 @@
 
     <string name="favorite_title">Favorite</string>
     <string name="save_as_favorite">Save as Favorite</string>
-    <string name="favorite_saved">Favorite saved</string>
+    <string name="favorite_saved">Favorited.</string>
     <string name="failed_to_save_favorite">Failed to save favorite</string>
     <string name="remove_as_favorite">Remove as Favorite</string>
     <string name="remove_failed">Remove Failed</string>
@@ -742,29 +672,28 @@
     <string name="user_detail_focus">Following</string>
     <string name="user_detail_fans">Followers</string>
     <string name="user_detail_praise">Likes</string>
-    <string name="user_detail_default_text" translatable="false">--</string>
 
     <string name="user_detail_tab_detail">Posts</string>
     <string name="user_detail_tab_reply">Comments</string>
 
     <string name="user_focus_tab_users">People</string>
     <string name="user_focus_tab_apps">Groups</string>
-    <string name="user_focus_title_my">My Following</string>
+    <string name="user_focus_title_my">My following</string>
     <string name="user_focus_title">Followed by %1$s</string>
 
     <string name="google_play_name" translatable="false">Google Play</string>
     <string name="goto_google_play">Buy now</string>
     <string name="google_play_bug_text">Buy on Google Play</string>
 
-    <string name="menu_follow_all">All Following</string>
-    <string name="menu_follow_user">Followed People</string>
-    <string name="menu_follow_group">Followed Groups</string>
+    <string name="menu_follow_all">All following</string>
+    <string name="menu_follow_user">Followed people</string>
+    <string name="menu_follow_group">Followed groups</string>
     <string name="menu_follow_all_tab">Following</string>
     <string name="menu_follow_user_tab">People</string>
     <string name="menu_follow_group_tab">Groups</string>
 
     <string name="choose_app">Select Application</string>
-    <string name="publish_comment">Share A Post</string>
+    <string name="publish_comment">Post</string>
 
     <string name="app_detail_has_product">Purchase Items</string>
     <string name="app_detail_no_product">No Purchase Items</string>
@@ -792,7 +721,7 @@
 
     <string name="share_apk">Share APK</string>
     <string name="tab_apk">APK</string>
-    <string name="commentaries">Share a Post</string>
+    <string name="commentaries">Story</string>
     <string name="follow_floating_action_button">Create new Moment</string>
 
     <string name="upload_apk_version">V %1$s</string>
@@ -837,15 +766,12 @@
     <string name="search_user_history_title">Recent Contacts</string>
     <string name="search_focus_list_title">Followed</string>
 
-    <string name="submit_comment_user_style">
-        <![CDATA[<font color="#007AFF">@%1$s</font>]]></string>
-
     <string name="copy_username">Copy Nickname</string>
     <string name="copy_content">Copy Content</string>
 
     <string name="tab_global">FEATURED</string>
-    <string name="comment_list_see_here">Last visited here, tap to refresh</string>
-    <string name="comment_list_new_num">%d New Stories</string>
+    <string name="comment_list_see_here">Last time you reached here. Tap to refresh.</string>
+    <string name="comment_list_new_num">%d New headlines</string>
 
     <string name="tab_popular">POPULAR</string>
     <string name="count_down_timer_tv">%ds</string>
@@ -866,7 +792,7 @@
     <string name="editors_picks">Editor\'s Choice</string>
     <string name="recommend_game">recommend game</string>
 
-    <string name="bing_share_account">Connect to a third-party account</string>
+    <string name="bing_share_account">Connect to Third-party Account</string>
     <string name="un_bind">Not connected</string>
     <string name="login_out_message_hint">Are you sure you want to logout?</string>
     <string name="bind_email_title">Connect your email</string>
@@ -887,5 +813,53 @@
     <string name="forget_password_tv">Forgot password?</string>
     <string name="recover_password_title">Password Recovery</string>
     <string name="email_address_hint_et">Enter your email.</string>
+
+    <string name="shop">STORE</string>
+    <string name="setting_region">Region</string>
+    <string name="submit_add_title_image_tv">Add a Cover</string>
+    <string name="submit_add_title_image_error_toast">This picture may not be supported temporarily. Please select another one.</string>
+    <string name="comment_hint_tv">Share something?</string>
+    <string name="msg_all_read">Notice</string>
+    <string name="msg_all_read_msg">Are you sure to mark all as read?</string>
+    <string name="user_recommend_tip">User\'s Recommendation</string>
+    <string name="comments">Comments</string>
+    <string name="subject_comment">Hashtags</string>
+    <string name="new_subject_comment">New hashtag</string>
+    <string name="evaluating">Reviews</string>
+    <string name="image_text">Story</string>
+    <string name="trends">Post</string>
+    <string name="error_hot_data_empty">No hot hashtags!</string>
+    <string name="hot_subject">Hot Hashtags</string>
+    <string name="menu_follow_subject">Followed hashtags</string>
+    <string name="menu_follow_subject_tab">Hashtag</string>
+    <string name="me_follow">My following</string>
+    <string name="release_dynamics">Post moment</string>
+    <string name="delete_success">Successed</string>
+    <string name="hot">hot</string>
+    <string name="look_links">View Link</string>
+
+    <string name="headline_no_data_tv">No new content</string>
+    <string name="hint">Note</string>
+    <string name="no_save_comment_hint">There are contents not been posted, are you sure to exit?</string>
+    <string name="look_all">View More</string>
+    <string name="history_hastag">History hashtag</string>
+    <string name="share_image_failed">Failed to share picture!</string>
+    <string name="select_image_overflow_hint">@string/picture_message_max_num</string>
+
+    <string name="share_select_image_overflow_hint">You can share up to 9 pictures.</string>
+    <string name="search_or_create">Search or create</string>
+
+    <string name="privacy_setting_title">Privacy Settings</string>
+    <string name="privacy_setting_account">Private Account</string>
+    <string name="privacy_setting_account_des">Your personal homepage won\'t be seen by others if your account is set to private.</string>
+    <string name="privacy_setting_account_del">Delete your account and information</string>
+    <string name="privacy_setting_account_privacy">It\'s a private account.</string>
+    <string name="del_account_email_notify_tv">Please provide a valid email address to receive our notification.</string>
+    <string name="del_account_email_reason_tv">Why do you want to delete this account?</string>
+    <string name="del_account_bt">Submit</string>
+    <string name="del_account_result_warn">You will not be able to log in with this account after deletion.</string>
+    <string name="del_account_reason_hint">Why do you want to delete this account?</string>
+    <string name="del_account_sure">Your account will be deleted in at most 48 hours.You will not be able to log in with this account after deletion. Please contact us if you have further questions.</string>
+    <string name="reply_to">Reply to %1$s:</string>
 
 </resources>

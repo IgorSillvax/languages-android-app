@@ -27,8 +27,10 @@
     <string name="download_management">İndirme Yönetimi</string>
     <string name="settings">Ayarlar</string>
     <string name="about">Hakkında</string>
-    <string name="about_title">Hakkında <xliff:g id="app_name" example="APKPure">%1$s</xliff:g></string>
-    <string name="about_message">&lt;b&gt;Sürüm:&lt;/b&gt; %1$s&lt;br&gt;&lt;br&gt;&lt;b&gt;Websitesi:&lt;/b&gt; &lt;a href=%2$s&gt;%2$s&lt;/a&gt;&lt;br&gt;&lt;b&gt;E-psota:&lt;/b&gt; &lt;a href=mailto:%3$s&gt;%3$s&lt;/a&gt;</string>
+    <string name="about_title">Hakkında <xliff:g example="APKPure" id="app_name">%1$s</xliff:g></string>
+    <string name="about_message">
+        <![CDATA[<b>Sürüm:</b> %1$s<br><br><b>Websitesi:</b> <a href="%2$s">%2$s</a><br><b>E-psota:</b> <a href="mailto:%3$s">%3$s</a>]]>
+    </string>
     <string name="check_update">Güncellemeyi Kontrol Edin</string>
     <string name="quit">Çıkış</string>
     <string name="want_to_quit">Çıkmak istediğinden emin misin?</string>
@@ -39,7 +41,7 @@
     <string name="want_to_delete_file">Bu dosyayı silmek istiyor musunuz?</string>
     <string name="file_has_been_deleted">Dosya silindi.</string>
     <string name="failed_to_delete_file">Dosya silinemedi.</string>
-    <string name="install__label_">Yükle - <xliff:g id="app_label" example="APKPure">%1$s</xliff:g></string>
+    <string name="install__label_">Yükle - <xliff:g example="APKPure" id="app_label">%1$s</xliff:g></string>
     <string name="user_canceled">Kullanıcı iptal etti.</string>
     <string name="file_format_error">Dosya biçimi hatası.</string>
     <string name="parsing_xapk">XAPK Ayrıştırılıyor …</string>
@@ -77,29 +79,29 @@
     <string name="market_response_error_network_read_error">Ağ okuma hatası.</string>
     <string name="market_response_error_invalid_response_code">Geçersiz yanıt kodu.</string>
     <string name="market_response_error_invalid_response_body">Geçersiz yanıt türü.</string>
-    <string name="market_response_error_unknown_error__error_">Bilinmeyen hata (<xliff:g id="error" example="SUCCESS">%1$s</xliff:g>).</string>
+    <string name="market_response_error_unknown_error__error_">Bilinmeyen hata (<xliff:g example="SUCCESS" id="error">%1$s</xliff:g>).</string>
 
     <string name="no_more">Daha fazla yok.</string>
 
     <string name="update">Güncelle</string>
-    <string name="version__version___size_">Sürüm: <xliff:g id="version" example="1.0.0">%1$s</xliff:g>, <xliff:g id="size" example="1024 kB">%2$s</xliff:g></string>
+    <string name="version__version___size_">Sürüm: <xliff:g example="1.0.0" id="version">%1$s</xliff:g>, <xliff:g example="1024 kB" id="size">%2$s</xliff:g></string>
     <plurals name="_count__new_update_is_available">
-	<item quantity="one"><xliff:g id="count" example="1">%1$d</xliff:g> yeni güncelleme kullanılabilir</item>
-	<item quantity="other"><xliff:g id="count" example="2">%1$d</xliff:g> yeni güncellemeler kullanılabilir</item>
-</plurals>
+        <item quantity="one"><xliff:g example="1" id="count">%1$d</xliff:g> yeni güncelleme kullanılabilir</item>
+        <item quantity="other"><xliff:g example="2" id="count">%1$d</xliff:g> yeni güncellemeler kullanılabilir</item>
+    </plurals>
 
     <string name="launching_please_wait">Başlatılıyor, lütfen bekleyin…</string>
 
     <plurals name="_count__item_is_downloading">
-	<item quantity="one"><xliff:g id="count" example="1">%1$d</xliff:g> öğesi indiriliyor</item>
-	<item quantity="other"><xliff:g id="count" example="2">%1$d</xliff:g> öğeleri indiriliyor</item>
-</plurals>
+        <item quantity="one"><xliff:g example="1" id="count">%1$d</xliff:g> öğesi indiriliyor</item>
+        <item quantity="other"><xliff:g example="2" id="count">%1$d</xliff:g> öğeleri indiriliyor</item>
+    </plurals>
     <string name="downloads_complete">İndirmeler tamamlandı</string>
     <string name="touch_for_view_all_downloads">Tüm indirmeleri görüntülemek için dokunun</string>
-    <string name="_name__download_failed"><xliff:g id="name" example="APKPure">%1$s</xliff:g> indirme başarısız</string>
+    <string name="_name__download_failed"><xliff:g example="APKPure" id="name">%1$s</xliff:g> indirme başarısız</string>
     <string name="touch_to_download_it_again">Tekrar indirmek için dokunun</string>
 
-    <string name="download_percent"><xliff:g id="percent" example="50">%1$d</xliff:g> %%</string>
+    <string name="download_percent"><xliff:g example="50" id="percent">%1$d</xliff:g> %%</string>
     <string name="pause">Duraklat</string>
     <string name="continue_">Devam et</string>
     <string name="restart">Yeniden başlat</string>
@@ -137,7 +139,7 @@
     <string name="invalid_app_detail">Geçersiz uygulama detay bilgileri.</string>
     <string name="setting">Ayar</string>
     <string name="share">Paylaş</string>
-    <string name="_name__version_history"><xliff:g id="name" example="APKPure">%1$s</xliff:g> Sürüm Geçmişi</string>
+    <string name="_name__version_history"><xliff:g example="APKPure" id="name">%1$s</xliff:g> Sürüm Geçmişi</string>
     <string name="general">Genel</string>
     <string name="language">Dil</string>
     <string name="auto">Otomatik</string>
@@ -153,7 +155,7 @@
     <string name="incompatible_this_app">
         <![CDATA[<big><b><font color="%1$d">Cihazınız bu uygulama ile uyumlu değil.</font></b></big><br><br>Devam etmek istiyor musunuz?]]>
     </string>
-    <string name="_name__is_up_to_date"><xliff:g id="name" example="APKPure">%1$s</xliff:g> güncel.</string>
+    <string name="_name__is_up_to_date"><xliff:g example="APKPure" id="name">%1$s</xliff:g> güncel.</string>
     <string name="load_failed_empty">Burada hiçbir şey yok.</string>
     <string name="io_error">Hata. Kurulum için gerekli boş alan olmayabilir.</string>
     <string name="improvement_plan_message">
@@ -161,7 +163,9 @@
     </string>
     <string name="properties">Özellikler</string>
     <string name="delete_all">Hepsini Kaldır</string>
-    <string name="properties_message">&lt;b&gt;Dizin:&lt;/b&gt; %1$s&lt;br&gt;&lt;b&gt;Boyut:&lt;/b&gt; %2$s&lt;br&gt;&lt;b&gt;Son Düzenleme:&lt;/b&gt; %3$s</string>
+    <string name="properties_message">
+        <![CDATA[<b>Dizin:</b> %1$s<br><b>Boyut:</b> %2$s<br><b>Son Düzenleme:</b> %3$s]]>
+    </string>
     <string name="want_to_delete_all_files">Tüm dosyaları silmek istiyor musunuz?</string>
     <string name="flag_as_inappropriate">Uygunsuz olarak işaretle</string>
     <string name="pause_all">Tümünü Durdur</string>
@@ -193,10 +197,10 @@
     <string name="external_storage_not_usable"><big><b>Dahili hafızanıza erişmemiz gerek. Lütfen buna izin verin.</b></big> </string>
     <string name="external_storage_permission_denied"><big><b>Dahili hafızanıza erişmemiz gerek. İznin engellenmediğinden emin olun.</b></big> </string>
 
-    <string name="update__date___size_">Güncelleştirme: <xliff:g id="date" example="Mar 3, 2016">%1$s</xliff:g>, <xliff:g id="size" example="1024 kB">%2$s</xliff:g></string>
+    <string name="update__date___size_">Güncelleştirme: <xliff:g example="Mar 3, 2016" id="date">%1$s</xliff:g>, <xliff:g example="1024 kB" id="size">%2$s</xliff:g></string>
 
     <string name="update_all">Tümünü Güncelleştir</string>
-    <string name="update___count__">Güncelleştir (<xliff:g id="count" example="3">%1$d</xliff:g>)</string>
+    <string name="update___count__">Güncelleştir (<xliff:g example="3" id="count">%1$d</xliff:g>)</string>
     <string name="ignore">Yoksay</string>
     <string name="unignore">Yoksayılanlardan Kaldır</string>
     <string name="select">Seç</string>
@@ -205,11 +209,16 @@
     <string name="deselect_all">Tüm Seçimi Kaldır</string>
     <string name="ignored">Yoksayıldı</string>
     <plurals name="total__count__apps__size_">
-	<item quantity="one">Toplam: &lt;b&gt;&lt;font color=%1$d&gt;%2$d&lt;/font&gt;&lt;/b&gt; uygulama, &lt;b&gt;&lt;font color=%1$d&gt;%3$s&lt;/font&gt;&lt;/b&gt;</item>
-	<item quantity="other">Toplam: &lt;b&gt;&lt;font color=%1$d&gt;%2$d&lt;/font&gt;&lt;/b&gt; uygulamalar, &lt;b&gt;&lt;font color=%1$d&gt;%3$s&lt;/font&gt;&lt;/b&gt;</item>
-</plurals>
-    <string name="total_zero_app">Toplam: &lt;b&gt;&lt;font color=%1$d&gt;0&lt;/font&gt;&lt;/b&gt; uygulama</string>
-
+        <item quantity="one">
+            <![CDATA[Toplam: <b><font color="%1$d">%2$d</font></b> uygulama, <b><font color="%1$d">%3$s</font></b>]]>
+        </item>
+        <item quantity="other">
+            <![CDATA[Toplam: <b><font color="%1$d">%2$d</font></b> uygulamalar, <b><font color="%1$d">%3$s</font></b>]]>
+        </item>
+    </plurals>
+    <string name="total_zero_app">
+        <![CDATA[Toplam: <b><font color="%1$d">0</font></b> uygulama]]>
+    </string>
     <string name="download_via_wifi_only">Sadece Wi-Fi üzerinden indir</string>
     <string name="enable_ultra_download">Ultra İndirmeyi Etkinleştir</string>
     <string name="enable_ultra_download_summary">Ultra İndirme test aşamasında, herhangi bir problem olursa lütfen bize bildirin.</string>
@@ -217,7 +226,7 @@
     <string name="show_notification_after_installation">Kurulumdan sonra bildirimleri göster</string>
     <string name="delete_packages_after_installation">Kurulumdan sonra paketleri sil</string>
 
-    <string name="_name__installation_completed"><xliff:g id="name" example="APKPure">%1$s</xliff:g> kurulum tamamlandı</string>
+    <string name="_name__installation_completed"><xliff:g example="APKPure" id="name">%1$s</xliff:g> kurulum tamamlandı</string>
     <string name="touch_to_open">Açmak için dokun.</string>
 
     <string name="auto_service_install_accessibility_title">Otomatik kurulum</string>
@@ -245,7 +254,7 @@
     <string name="auto_install_via_root_summary">Sadece root edilmiş Android telefonlar ve tabletler için.</string>
 
 
-<string name="similar_or_related">Benzer Veya İlişkili</string>
+    <string name="similar_or_related">Benzer Veya İlişkili</string>
     <string name="more_from_developer">Geliştiriciden Daha Fazlası</string>
     <string name="more_large">Daha Fazla</string>
     <string name="feedback">Geri Bildirim</string>
@@ -277,13 +286,13 @@
     <string name="sub_comment_dialog_link_null">Video URL adresi boş bırakılmaz</string>
     <string name="sub_comment_progress_msg">Video ekleniyor…</string>
 
-<string name="menu_cancel">İptal</string>
+    <string name="menu_cancel">İptal</string>
     <string name="delete_all_download_history">indirme geçmişini sil?</string>
     <string name="delete_the_historical_record">Geçmiş kaydı silinsin mi?</string>
     <plurals name="app_detail_see_all_replies">
-	<item quantity="one"><xliff:g example="1" id="count">%1$d</xliff:g> yanıtın hepsini gör</item>
-	<item quantity="other"><xliff:g example="2" id="count">%1$d</xliff:g> yanıtların hepsini gör</item>
-</plurals>
+        <item quantity="one"><xliff:g example="1" id="count">%1$d</xliff:g> yanıtın hepsini gör</item>
+        <item quantity="other"><xliff:g example="2" id="count">%1$d</xliff:g> yanıtların hepsini gör</item>
+    </plurals>
 
     <string name="app_submit_name_toast">Lütfen kullanıcı adını doldurun!</string>
     <string name="app_submit_email_toast">Lütfen doğru bir e-posta adresi yazın!</string>
@@ -306,7 +315,7 @@
     <string name="reply_dialog_marked_words">Seçilen resmi silmek için uzun basın.</string>
     <string name="reply_comment">Yorumu yanıtla</string>
     <string name="save_original_image">Kaydet</string>
-    <string name="already_save">Kaydedildi<xliff:g id="path" example="ApKPure/photo">%1$s</xliff:g></string>
+    <string name="already_save">Kaydedildi<xliff:g example="ApKPure/photo" id="path">%1$s</xliff:g></string>
 
     <string name="load_end">Daha fazla veri yok</string>
     <string name="load_failed_click_retry">Yüklenemedi, denemek için dokun</string>
@@ -381,7 +390,7 @@
     <string name="register_term_of_service">APKPure Hizmet Kullanım Koşulları</string>
 
     <string name="set_permissions">İzinler</string>
-    
+
     <string name="sign_in_services">Kayıt Olarak, Şartlar ve Gizlilik Politikamızı kabul etmiş olursunuz.</string>
 
     <string name="sign_in_services_key">Koşullar</string>
@@ -434,9 +443,9 @@
     <string name="comment_item_fold">yorum çöktü</string>
 
     <plurals name="comment_reply_item_fold">
-	<item quantity="one"><xliff:g example="1" id="count">%1$d</xliff:g> Yanıt çöktü</item>
-	<item quantity="other"><xliff:g example="2" id="count">%1$d</xliff:g> Yanıtlar çöktü</item>
-</plurals>
+        <item quantity="one"><xliff:g example="1" id="count">%1$d</xliff:g> Yanıt çöktü</item>
+        <item quantity="other"><xliff:g example="2" id="count">%1$d</xliff:g> Yanıtlar çöktü</item>
+    </plurals>
 
     <string name="comment_no_reply">Vay be, burada hiçbir şey yok.</string>
     <string name="comment_reply_info_name">Detaylar</string>
@@ -580,7 +589,7 @@
     <string name="choose_app">Uygulama Seç</string>
     <string name="publish_comment">Bir Gönderi Paylaş</string>
 
-<string name="history_version">Sürüm Geçmişi</string>
+    <string name="history_version">Sürüm Geçmişi</string>
 
     <string name="load_failed_error_not_found">Uygulama APKpure Uygulama Mağazasında Listelenmedi!</string>
     <string name="beta">Beta</string>
@@ -614,7 +623,7 @@
 
     <string name="upload_apk_version">Sürüm %1$s</string>
     <string name="upload_apk_downloads">İndirmeler: %1$s</string>
-    
+
     <string name="upload_comment_uploading">%1$s Yükleniyor…</string>
     <string name="upload_comment_upload_success">%1$s Yüklemesi Başarılı</string>
     <string name="upload_comment_upload_failed">%1$s Yüklemesi Başarısız</string>
@@ -628,7 +637,7 @@
     <string name="market_ad_tab_two">Oyunlar</string>
     <string name="market_ad_tab_three">Araçlar</string>
     <string name="tag">Etiket</string>
-<string name="push_content_info_update">Yepyeni %1$s sürümü yayınlandı! Şimdi güncelleyin!</string>
+    <string name="push_content_info_update">Yepyeni %1$s sürümü yayınlandı! Şimdi güncelleyin!</string>
 
     <string name="data_saver_model_summery">Bunu açmak daha az hücresel veri kullanmak için resim boyutunu ve kalitesini azaltır.</string>
     <string name="scan_qr_code_result_hint">QR kod detayları:</string>
@@ -691,8 +700,9 @@
     <string name="tab_popular">Popüler</string>
     <string name="count_down_timer_tv">%ds</string>
     <string name="count_down_timer_btn">Atla</string>
-
-    <string name="properties_message_v2">&lt;b&gt;Paket Adı:&lt;/b&gt; %1$s&lt;br&gt;&lt;b&gt;Sürüm:&lt;/b&gt; %2$s&lt;br&gt;&lt;b&gt;Dizin:&lt;/b&gt; %3$s&lt;br&gt;&lt;b&gt;Boyut:&lt;/b&gt; %4$s&lt;br&gt;&lt;b&gt;Son Düzenleme:&lt;/b&gt; %5$s</string>
+    <string name="properties_message_v2">
+        <![CDATA[<b>Paket Adı:</b> %1$s<br><b>Sürüm:</b> %2$s<br><b>Path:</b> %3$s<br><b>Dizin:</b> %4$s<br><b>Son Düzenleme:</b> %5$s]]>
+    </string>
     <string name="app_detail_tab_evaluation">İncelemeler</string>
     <string name="app_detail_comment_filter_sort_score">En çok oy alan</string>
     <string name="app_detail_comment_filter_all">Tüm İncelemeler</string>
@@ -715,8 +725,6 @@
 
     <string name="follow_floating_action_button">Yeni an oluştur</string>
 
-    <string name="submit_comment_user_style">&lt;font color=#007AFF&gt;@%1$s&lt;/font&gt;</string>
-
     <string name="choice_evaluate">Öne Çıkan İncelemeler</string>
     <string name="choice_comment">Önerilen Yazılar</string>
     <string name="emoji_input_error_hint">Emoji yorumlarına artık izin verilmiyor! Bir şey yaz…</string>
@@ -738,7 +746,7 @@
     <string name="bind_email_title">E-postanızı bağlayın</string>
     <string name="email_address_hint_et">E-Posta adresinizi giriniz.</string>
 
-<string name="share_app_url_group"> <xliff:g example="APKPure" id="app_name">1%1$s</xliff:g>2 Grup. (from <xliff:g example="APKPure" id="social_network_name">3%2$s</xliff:g>4) <xliff:g example="https://apkpure.com/p/com.apkpure.aegon" id="app_url">5%3$s</xliff:g>6 </string>
+    <string name="share_app_url_group"> <xliff:g example="APKPure" id="app_name">1%1$s</xliff:g>2 Grup. (from <xliff:g example="APKPure" id="social_network_name">3%2$s</xliff:g>4) <xliff:g example="https://apkpure.com/p/com.apkpure.aegon" id="app_url">5%3$s</xliff:g>6 </string>
 
     <string name="app_detail_comment_score_footer">Diğer ülkelerden %1$s inceleme mevcut.</string>
     <string name="app_detail_folded_footer_reviews">%d gizlenmiş incelemenin hepsini gör</string>
@@ -765,4 +773,4 @@
 
     <string name="forget_password_tv">Şifreni mi unuttun?</string>
     <string name="recover_password_title">Şifre Yenileme</string>
-    </resources>
+</resources>

@@ -238,7 +238,7 @@
 
     <string name="general">一般</string>
     <string name="language">語言</string>
-    <string name="auto">跟隨系統</string>
+    <string name="auto">自動</string>
     <string name="changing_language">正在切換語言，請稍候…</string>
     <string name="data_saver_model">省流量模式</string>
     <string name="data_saver_model_summery">開啟後會降低展示圖片大小和清晰度</string>
@@ -301,10 +301,10 @@
     <string name="app_detail_reply_floor">%d樓</string>
 
     <string name="app_detail_tab_one">詳情</string>
-    <string name="app_detail_tab_two">討論</string>
+    <string name="app_detail_tab_two">小組</string>
     <string name="app_detail_tab_three">相關</string>
 
-    <string name="app_detail_tab_evaluation">評價</string>
+    <string name="app_detail_tab_evaluation">評測</string>
     <string name="app_detail_comment_filter_sort_score">最高評分</string>
     <string name="app_detail_comment_filter_all">全部</string>
     <string name="app_detail_comment_filter_version">最新版本</string>
@@ -492,9 +492,9 @@
     <string name="gif_tip">動圖</string>
     <string name="ad_tip">廣告</string>
 
-    <string name="submit_comment_title_hint">標題(可選)</string>
+    <string name="submit_comment_title_hint">標題</string>
 
-    <string name="comment_vote_string">投票</string>
+    <string name="comment_vote_string">贊</string>
     <string name="comment_reply_three">回復</string>
     <string name="comment_item_fold">已摺疊</string>
 
@@ -508,7 +508,7 @@
     <string name="set_updates_notification">應用有新版本</string>
     <string name="set_updates_notification_msg">應用有新版本時通知我，建議開啟。</string>
     <string name="app_detail_unknow_text">版本過低，不支持該板塊，請升級後查看。</string>
-    <string name="comment_detail_original">查看原評論 &gt;</string>
+    <string name="comment_detail_original">查看原評論 ></string>
     <string name="comment_comment_newest">最新</string>
     <string name="comment_comment_oldest">最早</string>
 
@@ -530,7 +530,7 @@
 
     <string name="main_comment">評論</string>
     <string name="main_won_praise">獲贊</string>
-    <string name="main_my_comments">我的評論</string>
+    <string name="main_my_comments">我的帖子</string>
     <string name="main_my_collection">我的收藏</string>
     <string name="main_good_comments">我贊過的評論</string>
     <string name="main_my_message">我的消息</string>
@@ -632,7 +632,7 @@
     <string name="menu_follow_user_tab">用戶</string>
     <string name="menu_follow_group_tab">小組</string>
     <string name="choose_app">選擇應用</string>
-    <string name="publish_comment">發表評論</string>
+    <string name="publish_comment">動態</string>
 
     <string name="app_detail_has_product">有內購</string>
     <string name="app_detail_no_product">無內購</string>
@@ -654,7 +654,7 @@
     <string name="Istop">置頂</string>
     <string name="add_tag">添加標籤</string>
     <string name="error_add_tag">標籤添加失敗</string>
-    <string name="no_collect">收藏夾里什麼都沒有…</string>
+    <string name="no_collect">收藏夾里什麼都沒有&#8230;</string>
     <string name="no_comment">暫無評論，快來搶沙發!</string>
     <string name="filter_no_comment">沒有符合條件的內容</string>
 
@@ -751,4 +751,50 @@
     <string name="forget_password_tv">忘記密碼</string>
     <string name="recover_password_title">找回密碼</string>
     <string name="email_address_hint_et">郵箱地址</string>
+    <string name="shop">商店</string>
+    <string name="setting_region">區域</string>
+    <string name="submit_add_title_image_tv">添加題圖</string>
+    <string name="submit_add_title_image_error_toast">該圖片可能暫不支持,請重新選擇一張圖片</string>
+    <string name="comment_hint_tv">分享一點什麼？</string>
+    <string name="msg_all_read">提示</string>
+    <string name="msg_all_read_msg">是否將未讀消息全部標記為已讀？</string>
+    <string name="user_recommend_tip">用戶推薦</string>
+    <string name="subject_comment">話題</string>
+    <string name="new_subject_comment">新話題</string>
+    <string name="evaluating">評測</string>
+    <string name="image_text">圖文</string>
+    <string name="trends">動態</string>
+    <string name="error_hot_data_empty">沒有熱門話題!</string>
+    <string name="hot_subject">熱門話題</string>
+    <string name="menu_follow_subject">關注的話題</string>
+    <string name="menu_follow_subject_tab">話題</string>
+    <string name="me_follow">我的關注</string>
+    <string name="release_dynamics">發佈動態</string>
+    <string name="delete_success">刪除成功</string>
+    <string name="look_links">查看鏈接</string>
+    <string name="home_message_reply">回復我的</string>
+    <string name="home_message_praise">贊我的</string>
+
+    <string name="headline_no_data_tv">暫無新內容</string>
+    <string name="hint">提示</string>
+    <string name="no_save_comment_hint">還有未發佈內容，確定退出嗎？</string>
+    <string name="look_all">查看更多</string>
+    <string name="history_hastag">歷史話題</string>
+    <string name="share_image_failed">分享圖片失敗!</string>
+    <string name="share_select_image_overflow_hint">最多分享9張圖片!</string>
+    <string name="search_or_create">搜索或創建</string>
+
+    <string name="privacy_setting_title">隱私設置</string>
+    <string name="privacy_setting_account">私密賬戶</string>
+    <string name="privacy_setting_account_des">賬戶設為私密時，其他人將無法查看你的個人主頁</string>
+    <string name="privacy_setting_account_del">刪除您的賬號與信息</string>
+    <string name="privacy_setting_account_privacy">已設為私密賬戶</string>
+    <string name="del_account_email_notify_tv">該郵箱用於接收刪除成功的通知郵件</string>
+    <string name="del_account_email_reason_tv">您為什麼要刪除賬戶？</string>
+    <string name="del_account_bt">提交</string>
+    <string name="del_account_result_warn">刪除成功後，將不能用此賬號登錄</string>
+    <string name="del_account_reason_hint">您為什麼要刪除賬戶？</string>
+    <string name="del_account_sure">您的賬號與信息將於48小時內刪除，刪除成功後您將收到通知郵件且該賬號已不能登錄，如有其他問題請聯繫客服進行反饋。</string>
+
+    <string name="reply_to">回復 %1$s:</string>
 </resources>
