@@ -93,7 +93,7 @@
         <item quantity="one"><xliff:g example="1" id="count">%1$d</xliff:g> новое обновление доступно</item>
         <item quantity="few"><xliff:g example="2" id="count">%1$d</xliff:g> новых обновлений доступны</item>
         <item quantity="many"><xliff:g example="2" id="count">%1$d</xliff:g> новых обновлений доступно</item>
-        <item quantity="other" />
+        <item quantity="other"/>
     </plurals>
 
     <string name="launching_please_wait">Запускается, подождите, пожалуйста …</string>
@@ -102,7 +102,7 @@
         <item quantity="one"><xliff:g example="1" id="count">%1$d</xliff:g> элемент загружается</item>
         <item quantity="few"><xliff:g example="2" id="count">%1$d</xliff:g> элемента загружаются</item>
         <item quantity="many"><xliff:g example="5" id="count">%1$d</xliff:g> элементов загружаются</item>
-        <item quantity="other" />
+        <item quantity="other"/>
     </plurals>
     <string name="downloads_complete">Загрузки завершены</string>
     <string name="touch_for_view_all_downloads">Нажмите, чтобы увидеть все загрузки</string>
@@ -393,7 +393,7 @@
         <item quantity="one">Смотреть ещё <xliff:g example="1" id="count">%1$d</xliff:g> ответ</item>
         <item quantity="few">Смотреть ещё <xliff:g example="1" id="count">%1$d</xliff:g> ответа</item>
         <item quantity="many">Смотреть все <xliff:g example="2" id="count">%1$d</xliff:g> ответов</item>
-        <item quantity="other" />
+        <item quantity="other"/>
     </plurals>
 
     <string name="app_detail_comment_type_web">сайт</string>
@@ -491,7 +491,7 @@
 
     <string name="share_app_url_group"> <xliff:g example="APKPure" id="app_name">%1$s</xliff:g> Группа. (from <xliff:g example="APKPure" id="social_network_name">%2$s</xliff:g> ) <xliff:g example="https://apkpure.com/p/com.apkpure.aegon" id="app_url">%3$s</xliff:g></string>
 
-    <string name="load_failed_error_not_found">Приложение не найдено на маркете приложений APKPure!</string>
+    <string name="load_failed_error_not_found">Это приложение не было добавлено в APKPure!</string>
     <string name="beta">Бета</string>
     <string name="data_saver_model">Экономия трафика</string>
     <string name="data_saver_model_summery">Включение этого приведет к уменьшению размера и качества изображения, что поможет использовать меньше мобильных данных.</string>
