@@ -182,7 +182,7 @@
 
     <string name="update_all">Обновить всё</string>
     <string name="update___count__">Обновить (<xliff:g example="3" id="count">%1$d</xliff:g>)</string>
-    <string name="ignore">Игнорировать</string>
+    <string name="ignore">Игнорировать из списка</string>
     <string name="unignore">Не игнорировать</string>
     <string name="select">Выбрать</string>
     <string name="cancel">Отменить</string>
@@ -237,7 +237,7 @@
 
     <string name="changing_language">Идёт смена языка, пожалуйста, подождите…</string>
     <string name="download_via_wifi_only">Загрузка только через Wi-Fi</string>
-    <string name="enable_ultra_download">Включить режим Ультра Загрузки</string>
+    <string name="enable_ultra_download">Включить режим ультра загрузки</string>
     <string name="enable_ultra_download_summary">"Режим Ультра Загрузки  в стадии бета-тестирования, дайте нам знать, если у вас возникнут какие-либо проблемы."</string>
     <string name="auto_service_install_accessibility_title">Автоматическая установка</string>
     <string name="auto_service_install_accessibility_summary">Поддерживается Android 4.1+, разрешение root не требуется.</string>
@@ -281,7 +281,7 @@
     <string name="app_submit_email">Электронная почта</string>
     <string name="app_submit_submit_title">отправить</string>
     <string name="app_detail_tab_one">Детали</string>
-    <string name="app_detail_tab_two">Посты</string>
+    <string name="app_detail_tab_two">Группа</string>
     <string name="app_detail_comment_order_array_recent">Недавние</string>
     <string name="app_detail_comment_order_array_newest">Новые</string>
     <string name="app_detail_comment_order_array_best">Лучшие</string>
@@ -314,7 +314,7 @@
     <string name="user_info_edit_email_tv">Email</string>
     <string name="user_info_edit_gender_tv">Пол</string>
     <string name="user_info_edit_birthday_tv">Дата рождения</string>
-    <string name="user_info_edit_change_pwd_tv">Сбросить пароль</string>
+    <string name="user_info_edit_change_pwd_tv">Сбросить Пароль</string>
     <string name="user_info_edit_login_out_tv">Выйти</string>
     <string name="user_info_edit_gender_male">Мужской</string>
     <string name="user_info_edit_gender_female">Женский</string>
@@ -342,7 +342,7 @@
     <string name="update_pwd_new_pwd_null_tv">Поле \"Новый пароль\" не может быть пустым</string>
     <string name="update_pwd_new_confrim_tv">Поля \"Новый пароль\" и \"Подтверждение пароля\" не совпадают</string>
     <string name="update_pwd_save_bt">Сохранить</string>
-    <string name="update_save_success">Успешно сохранено!</string>
+    <string name="update_save_success">Сохранено.</string>
     <string name="crop__cancel" ignore="ButtonCase">Отменить</string>
     <string name="crop__done">Выполнено</string>
     <string name="crop__pick_error">Некорректной тип файла изображения</string>
@@ -407,7 +407,7 @@
     <string name="app_detail_comment_order_array_most_recent">Самые свежие</string>
     <string name="app_detail_comment_order_array_new">Новые</string>
     <string name="reply_dialog_marked_words">Для удаления выделенного рисунка требуется длительное нажатие.</string>
-    <string name="load_failed_click_retry">Ошибка загрузки, нажмите кнопку повторить</string>
+    <string name="load_failed_click_retry">Ошибка, повторите попытку</string>
     <string name="loading">Загрузка…</string>
 
     <string name="scan_qr_code_hint">Перед использованием сканирования QR-кода Вы должны предоставить разрешение камеры.\n которая требуется сканированием QR-кода.</string>
@@ -415,7 +415,7 @@
     <string name="zxing_msg_parser_status">Не удалось выполнить сканирование, попробуйте снова отсканировать QR-код.</string>
 
     <string name="message_all">ВСЕ</string>
-    <string name="message_reply">Комментарии</string>
+    <string name="message_reply">КОММЕНТАРИИ</string>
     <string name="message_praise">ЛАЙКОВ</string>
     <string name="comment_cancel">Комментарий отменён</string>
     <string name="comment_submitting">Отправляется…</string>
@@ -424,7 +424,7 @@
     <string name="download_list">Список загрузок</string>
     <string name="can_be_update">Обновление доступно</string>
     <string name="install_list">Установлено</string>
-    <string name="no_download">Нет загрузки</string>
+    <string name="no_download">Нет загруженных приложений.</string>
     <string name="downloads">Загрузки</string>
 
     <string name="change_language_failed">Ошибка переключения языка!</string>
@@ -432,9 +432,9 @@
 
     <string name="notification_setting">Уведомления</string>
     <string name="gif_tip">gif-анимация</string>
-    <string name="submit_comment_title_hint">Тема (необязательно)</string>
+    <string name="submit_comment_title_hint">Наглавие</string>
 
-    <string name="comment_vote_string">Поставить оценку</string>
+    <string name="comment_vote_string">Поставить лайк</string>
     <string name="comment_reply_three">Ответить</string>
     <string name="comment_item_fold">комментарий свернут</string>
 
@@ -470,13 +470,13 @@
     <string name="delete_all_download_history">Удалить всю историю загрузок?</string>
     <string name="download_history">История загрузок</string>
 
-    <string name="sub_comment_dialog_title">Добавить видео</string>
-    <string name="sub_comment_dialog_link_et">Введите URL-адрес видео здесь</string>
+    <string name="sub_comment_dialog_title">Добавить Видео</string>
+    <string name="sub_comment_dialog_link_et">Введите адрес видео здесь.</string>
     <string name="sub_comment_dialog_link_null">URL-адреса видео нельзя быть пустым</string>
     <string name="sub_comment_progress_msg">Добавление видео…</string>
 
     <string name="delete_the_historical_record">Удалить историю?</string>
-    <string name="sub_comment_dialog_des_tv">"Поддержка только для разбора  YouTube URL-адресов"</string>
+    <string name="sub_comment_dialog_des_tv">Поддерживается только синтаксический анализ видео Youtube.</string>
     <string name="check_update_replace">Официальная версия</string>
     <string name="download_mkdir_external_storage_values">Внешнее_хранилище</string>
 
@@ -539,13 +539,13 @@
     <string name="main_my_collection">Избранное</string>
     <string name="main_my_message">Сообщения</string>
     <string name="main_good_comments">Лайк</string>
-    <string name="main_app_management">Управление приложениями</string>
+    <string name="main_app_management">Управление Приложениями</string>
     <string name="main_topic_selection">Темы</string>
-    <string name="main_night_mode">Ночной режим</string>
+    <string name="main_night_mode">Ночной Режим</string>
     <string name="please_login_first">Войдите, пожалуйста</string>
     <string name="no_choice">Нет выбора</string>
-    <string name="follow_on_success">Успешно!</string>
-    <string name="follow_un_success">Успешная отписка!</string>
+    <string name="follow_on_success">Подписан!</string>
+    <string name="follow_un_success">Подписка отменена.</string>
     <string name="canceled">Отменен</string>
     <string name="group">Группа</string>
     <string name="collection">Избранное</string>
@@ -562,7 +562,7 @@
     <string name="ranking_tab2_title">Топ Новых Игр</string>
     <string name="ranking_tab3_title">Топ Приложений</string>
     <string name="ranking_tab4_title">Топ Новых Приложений</string>
-    <string name="ranking_top_countries_title">Топ Стран</string>
+    <string name="ranking_top_countries_title">Разделенный Рейтинг</string>
     <string name="ranking_top_develop_title">Топ Разработчиков</string>
 
     <string name="app_detail_three_fragment_foot">Показать все комментарии</string>
@@ -570,7 +570,7 @@
 
     <string name="favorite_title">Избранное</string>
     <string name="save_as_favorite">Сохранить в Избранное</string>
-    <string name="favorite_saved">Сохранено в Избранном</string>
+    <string name="favorite_saved">Избранное.</string>
     <string name="failed_to_save_favorite">Не удалось сохранить в избранное</string>
     <string name="remove_as_favorite">Удалено из Избранного</string>
     <string name="remove_failed">Неудалось удаленние</string>
@@ -620,21 +620,21 @@
 
     <string name="user_focus_tab_users">Люди</string>
     <string name="user_focus_tab_apps">Группы</string>
-    <string name="user_focus_title_my">Мои Подписки</string>
+    <string name="user_focus_title_my">Мои подписки</string>
     <string name="user_focus_title">Подписан на %1$s</string>
 
     <string name="goto_google_play">Купить сейчас</string>
     <string name="google_play_bug_text">Купить в Google Play</string>
 
-    <string name="menu_follow_all">Все Подписки</string>
-    <string name="menu_follow_user">Пользователи</string>
+    <string name="menu_follow_all">Все подписки</string>
+    <string name="menu_follow_user">"Пользователи "</string>
     <string name="menu_follow_group">Группы</string>
     <string name="menu_follow_all_tab">Подписки</string>
     <string name="menu_follow_user_tab">Люди</string>
     <string name="menu_follow_group_tab">Группы</string>
 
     <string name="choose_app">Выбрать приложения</string>
-    <string name="publish_comment">"Поделиться "</string>
+    <string name="publish_comment">Отправить</string>
 
     <string name="app_detail_has_product">Купить предметы</string>
     <string name="app_detail_no_product">Нет предметов для покупки</string>
@@ -661,7 +661,7 @@
 
     <string name="share_apk">Поделиться APK</string>
     <string name="tab_apk">APK</string>
-    <string name="commentaries">Поделиться записью</string>
+    <string name="commentaries">Запись</string>
 
     <string name="upload_apk_version">V %1$s</string>
     <string name="upload_apk_downloads">Скачиваний: %1$s</string>
@@ -709,8 +709,8 @@
     <string name="copy_content">Скопировать текст</string>
 
     <string name="tab_global">"РЕКОМЕНДУЕМЫЕ "</string>
-    <string name="comment_list_see_here">Последнее посещение здесь, нажмите, чтобы обновить</string>
-    <string name="comment_list_new_num">%d Новые истории</string>
+    <string name="comment_list_see_here">Последнее посещение здесь. Нажмите, чтобы обновить.</string>
+    <string name="comment_list_new_num">%d Новые заголовки</string>
     <string name="tab_popular">ПОПУЛЯРНЫЕ</string>
     <string name="app_detail_tab_evaluation">Отзывы</string>
     <string name="app_detail_comment_filter_sort_score">Топ рейтинг</string>
@@ -756,7 +756,7 @@
     <string name="editors_picks">Выбор редакции</string>
     <string name="recommend_game">рекомендуемая игра</string>
 
-    <string name="bing_share_account">Подключение к сторонней учётной записи</string>
+    <string name="bing_share_account">Подключение к сторонному аккаунту</string>
     <string name="un_bind">Нет соединения</string>
     <string name="login_out_message_hint">Вы действительно хотите выйти?</string>
     <string name="bind_email_title">Подключите вашу электронную почту</string>
@@ -781,4 +781,55 @@
     <string name="properties_message_v2">
         <![CDATA[<b>Имя Пакета:</b> %1$s<br><b>Version:</b> %2$s<br><b>Path:</b> %3$s<br><b>Size:</b> %4$s<br><b>Last Modified:</b> %5$s]]>
     </string>
+<string name="home_message_reply">Комментарий</string>
+    <string name="home_message_praise">Лайк</string>
+    <string name="sign_in_services_key_policy_register">Политика Конфиденциальности</string>
+    <string name="shop">МАГАЗИН</string>
+    <string name="setting_region">Регион</string>
+    <string name="submit_add_title_image_tv">Дабавить обложку</string>
+    <string name="submit_add_title_image_error_toast">Возможно, эта картина временно не поддерживается. Выберите другую.</string>
+    <string name="comment_hint_tv">Поделиться чем-нибудь?</string>
+    <string name="msg_all_read">Уведомление</string>
+    <string name="msg_all_read_msg">Вы уверены, что отметьте все как прочитанные?</string>
+    <string name="user_recommend_tip">Рекомендация Пользователя</string>
+    <string name="comments">Комментарии</string>
+    <string name="subject_comment">Хэштег</string>
+    <string name="new_subject_comment">Новый хэштег</string>
+    <string name="evaluating">Отзыв</string>
+    <string name="image_text">картина и текст</string>
+    <string name="trends">Запись</string>
+    <string name="error_hot_data_empty">Нет горячих хэштегов!</string>
+    <string name="hot_subject">Горячий хэштег</string>
+    <string name="menu_follow_subject">Хэштеги</string>
+    <string name="menu_follow_subject_tab">Хэштег</string>
+    <string name="me_follow">Подписка</string>
+    <string name="release_dynamics">Опубликовать запись</string>
+    <string name="delete_success">Удаленно</string>
+    <string name="hot">горячий</string>
+    <string name="look_links">Просмотреть ссылку</string>
+
+    <string name="headline_no_data_tv">Нет новых котентов</string>
+    <string name="hint">Уведомление</string>
+    <string name="no_save_comment_hint">Есть содержание, которое не было опубликовано, вы уверены, что выйдете?</string>
+    <string name="look_all">Больше</string>
+    <string name="history_hastag">Предыдущий хэштег</string>
+    <string name="share_image_failed">Не удалось загрузить изображение!</string>
+    <string name="select_image_overflow_hint">\@строка/картина_сообщение_max_num</string>
+
+    <string name="share_select_image_overflow_hint">Вы можете загрузить до 9 снимков.</string>
+    <string name="search_or_create">Искать или создать</string>
+
+    <string name="privacy_setting_title">Настройки конфиденциальности</string>
+    <string name="privacy_setting_account">Скрытый Аккаунт</string>
+    <string name="privacy_setting_account_des">Ваша личная домашняя страница не будет видна другим, если ваш аккаунт установлен в скрытую.</string>
+    <string name="privacy_setting_account_del">Удалить ваш аккаунт и информацию</string>
+    <string name="privacy_setting_account_privacy">Это скрытый аккаунт.</string>
+    <string name="del_account_email_notify_tv">Пожалуйста, напишите правильный адрес электронной почты, чтобы получить наше уведомление.</string>
+    <string name="del_account_email_reason_tv">Почему вы хотите удалить этот аккаунт?</string>
+    <string name="del_account_bt">Отправить</string>
+    <string name="del_account_result_warn">После удаления вы не сможете войти в этот аккаунт.</string>
+    <string name="del_account_reason_hint">Почему вы хотите удалить этот аккаунт?</string>
+    <string name="del_account_sure">Ваш аккаунт будет удалена через не более 48 часов. После удаления вы не сможете войти в этот аккаунт. Если у вас есть дополнительные вопросы, свяжитесь с нами.</string>
+    <string name="reply_to">Ответить %1$s:</string>
+
 </resources>
