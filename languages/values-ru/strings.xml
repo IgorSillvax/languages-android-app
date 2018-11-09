@@ -7,7 +7,7 @@
 
     <string name="press_back_key_quit">Для выхода нажмите клавишу ещё раз.</string>
 
-    <string name="featured">Рекомендуемый</string>
+    <string name="featured">Рекомендация</string>
     <string name="games">Игры</string>
     <string name="apps">Приложения</string>
     <string name="categories">Категории</string>
@@ -23,7 +23,7 @@
 
     <string name="management">Управление</string>
     <string name="app_updates">Обновить приложения</string>
-    <string name="app_management">Установлены</string>
+    <string name="app_management">Установлено</string>
     <string name="app_uninstall">Удаление приложений</string>
     <string name="apk_management">Управление APK</string>
     <string name="apk_xapk_management">Управление APK / XAPK</string>
@@ -416,7 +416,7 @@
 
     <string name="message_all">ВСЕ</string>
     <string name="message_reply">КОММЕНТАРИИ</string>
-    <string name="message_praise">ЛАЙКОВ</string>
+    <string name="message_praise">ЛАЙК</string>
     <string name="comment_cancel">Комментарий отменён</string>
     <string name="comment_submitting">Отправляется…</string>
     <string name="message">Сообщение</string>
@@ -460,7 +460,7 @@
     <string name="set_updates_notification">Доступны обновления приложений</string>
     <string name="set_updates_notification_msg">Уведомлять, когда доступны обновления приложений. Рекомендуемая настройка: Вкл.</string>
     <string name="app_detail_unknow_text">Старая версия APKPure не поддерживает новые функции, пожалуйста, обновите до последней версии.</string>
-    <string name="comment_detail_original">Просмотреть исходный комментарий&gt;</string>
+    <string name="comment_detail_original">Посмотреть исходный комментарий&gt;</string>
     <string name="comment_comment_newest">Новейший</string>
     <string name="comment_comment_oldest">Старейший</string>
 
@@ -480,18 +480,19 @@
     <string name="check_update_replace">Официальная версия</string>
     <string name="download_mkdir_external_storage_values">Внешнее_хранилище</string>
 
-    <string name="check_update_beta">Предварительный выпуск Бета</string>
+    <string name="check_update_beta">Предварительная версия Бета</string>
     <string name="history_version">История версий</string>
 
     <string name="app_detail_comment_order_array_old">Старые</string>
 
     <string name="app_detail_comment_join_group_bt">Группа</string>
     <string name="download_mkdir">Путь загрузки</string>
-    <string name="download_mkdir_external_storage_fill_toast">Отсутствие свободного места может привести к невозможности скачивания приложений.</string>
+    <string name="download_mkdir_external_storage_fill_toast">Недостаточное хранилище может привести к невозможности загрузки
+\nприложений.</string>
 
     <string name="share_app_url_group"> <xliff:g example="APKPure" id="app_name">%1$s</xliff:g> Группа. (from <xliff:g example="APKPure" id="social_network_name">%2$s</xliff:g> ) <xliff:g example="https://apkpure.com/p/com.apkpure.aegon" id="app_url">%3$s</xliff:g></string>
 
-    <string name="load_failed_error_not_found">Это приложение не было добавлено в APKPure!</string>
+    <string name="load_failed_error_not_found">Это приложение не было добавлено в APKPure.</string>
     <string name="beta">Бета</string>
     <string name="data_saver_model">Экономия трафика</string>
     <string name="data_saver_model_summery">Включение этого приведет к уменьшению размера и качества изображения, что поможет использовать меньше мобильных данных.</string>
@@ -544,7 +545,7 @@
     <string name="main_night_mode">Ночной Режим</string>
     <string name="please_login_first">Войдите, пожалуйста</string>
     <string name="no_choice">Нет выбора</string>
-    <string name="follow_on_success">Подписан!</string>
+    <string name="follow_on_success">Подписан.</string>
     <string name="follow_un_success">Подписка отменена.</string>
     <string name="canceled">Отменен</string>
     <string name="group">Группа</string>
@@ -610,7 +611,7 @@
     <string name="recommend_required">*</string>
     <string name="recommend_not_found">Не проиндексирован</string>
     <string name="recommend_not_fount_info">Сообщите APKPure, чтобы добавить \"%1$s\", вам нужно заполнить бланк.</string>
-    <string name="recommend_user_recommend_sys">Рекомендуемые APKPure</string>
+    <string name="recommend_user_recommend_sys">Рекомендация APKPure</string>
 
     <string name="user_detail_focus">Подписка</string>
     <string name="user_detail_fans">Подписчики</string>
@@ -682,7 +683,7 @@
     <string name="your_reply_comment">Ваш Ответ</string>
 
     <string name="market_ad_title">Маркет</string>
-    <string name="market_ad_tab_one">"Рекомендуемые "</string>
+    <string name="market_ad_tab_one">Рекомендация</string>
     <string name="market_ad_tab_two">Игры</string>
     <string name="market_ad_tab_three">Инструменты</string>
 
@@ -708,7 +709,7 @@
     <string name="copy_username">Копировать никнейм</string>
     <string name="copy_content">Скопировать текст</string>
 
-    <string name="tab_global">"РЕКОМЕНДУЕМЫЕ "</string>
+    <string name="tab_global">РЕКОМЕНДАЦИЯ</string>
     <string name="comment_list_see_here">Последнее посещение здесь. Нажмите, чтобы обновить.</string>
     <string name="comment_list_new_num">%d Новые заголовки</string>
     <string name="tab_popular">ПОПУЛЯРНЫЕ</string>
