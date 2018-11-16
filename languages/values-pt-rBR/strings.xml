@@ -199,7 +199,7 @@ Detalhe do problema:
 
     <string name="update_all">Atualizar tudo</string>
     <string name="update___count__">Atualização (<xliff:g example="3" id="count">%1$d</xliff:g>)</string>
-    <string name="ignore">Ignorar</string>
+    <string name="ignore">Ignorar da lista</string>
     <string name="unignore">Não ignorar</string>
     <string name="select">Selecionar</string>
     <string name="cancel">Cancelar</string>
@@ -232,7 +232,7 @@ Detalhe do problema:
     <string name="enable">Ativado</string>
 
     <string name="download_via_wifi_only">Baixar apenas através do Wi-Fi</string>
-    <string name="enable_ultra_download">Ativar Ultra Download</string>
+    <string name="enable_ultra_download">Ativar ultra download</string>
     <string name="enable_ultra_download_summary">Ultra Download está em teste beta, deixe-nos saber se você encontrar quaisquer problemas.</string>
     <string name="similar_or_related">Semelhante ou Relacionado</string>
     <string name="more_from_developer">Mais do desenvolvedor</string>
@@ -287,7 +287,7 @@ Detalhe do problema:
     <string name="app_submit_reply_to">Responder a</string>
 
     <string name="app_detail_tab_one">Detalhes</string>
-    <string name="app_detail_tab_two">Postagens</string>
+    <string name="app_detail_tab_two">Grupo</string>
     <string name="app_detail_tab_three">Relacionado</string>
 
     <string name="reply">Resposta</string>
@@ -295,7 +295,7 @@ Detalhe do problema:
     <string name="publish">Publicar</string>
 
     <string name="load_end">Sem mais dados</string>
-    <string name="load_failed_click_retry">Falha ao carregar, clique em nova tentativa</string>
+    <string name="load_failed_click_retry">Algo deu errado. Por favor clique para tentar novamente</string>
     <string name="loading">Carregando…</string>
 
     <string name="scan_qr_code_hint">Antes de usar o Scan QR Code, você precisa conceder a permissão da câmera↵
@@ -343,7 +343,7 @@ Que é necessário para escanear o código QR.</string>
     <string name="user_info_edit_email_tv">E-mail</string>
     <string name="user_info_edit_gender_tv">Gênero</string>
     <string name="user_info_edit_birthday_tv">Nascimento</string>
-    <string name="user_info_edit_change_pwd_tv">Redefinir senha</string>
+    <string name="user_info_edit_change_pwd_tv">Redefinir Senha</string>
     <string name="user_info_edit_login_out_tv">Sair</string>
     <string name="user_info_edit_not_choose">Desconhecido</string>
     <string name="user_info_edit_gender_male">Masculino</string>
@@ -372,7 +372,7 @@ Que é necessário para escanear o código QR.</string>
     <string name="update_pwd_new_pwd_null_tv">Nova senha não pode ficar em branco</string>
     <string name="update_pwd_new_confrim_tv">As senhas inseridas não são iguais</string>
     <string name="update_pwd_save_bt">Salvar</string>
-    <string name="update_save_success">Salvo com sucesso!</string>
+    <string name="update_save_success">Salvado.</string>
     <string name="crop__cancel" ignore="ButtonCase">Cancelar</string>
     <string name="crop__done">Concluído</string>
     <string name="crop__pick_error">Tipo de arquivo de imagem inválido</string>
@@ -417,7 +417,7 @@ Que é necessário para escanear o código QR.</string>
     <string name="app_detail_comment_order_array_most_recent">Mais recente</string>
     <string name="app_detail_comment_order_array_new">O mais novo</string>
     <string name="message_all">TODOS</string>
-    <string name="message_reply">COMENTÁRIOS</string>
+    <string name="message_reply">RESPOSTAS</string>
     <string name="message_praise">Curtidas</string>
     <string name="message_notifications_praise">Curtida ao seu comentário</string>
     <string name="message_notifications_reply">Respondeu o seu comentário</string>
@@ -431,7 +431,7 @@ Que é necessário para escanear o código QR.</string>
     <string name="download_list">Lista de download</string>
     <string name="can_be_update">Pode ser atualizado</string>
     <string name="install_list">Instalado</string>
-    <string name="no_download">Sem download</string>
+    <string name="no_download">Nenhum aplicativo baixado.</string>
     <string name="downloads">Downloads</string>
 
     <string name="change_language_failed">Falha na alteração do idioma!</string>
@@ -443,9 +443,9 @@ Que é necessário para escanear o código QR.</string>
     <string name="like_notification">Notificações de curtida</string>
     <string name="like_notification_msg">Receber notificações para novas mensagens de curtida</string>
     <string name="gif_tip">Gif</string>
-    <string name="submit_comment_title_hint">Assunto (opcional)</string>
+    <string name="submit_comment_title_hint">Título</string>
 
-    <string name="comment_vote_string">Voto</string>
+    <string name="comment_vote_string">Curtida</string>
     <string name="comment_reply_three">Resposta</string>
     <string name="comment_item_fold">Comentário colapsado</string>
 
@@ -474,9 +474,9 @@ Que é necessário para escanear o código QR.</string>
     <string name="delete_the_historical_record">Excluir o registro histórico?</string>
     <string name="download_history">Histórico de downloads</string>
 
-    <string name="sub_comment_dialog_title">Adicionar um vídeo</string>
-    <string name="sub_comment_dialog_des_tv">Suporte para análise de URLs do YouTube apenas</string>
-    <string name="sub_comment_dialog_link_et">Introduza o endereço URL do vídeo aqui</string>
+    <string name="sub_comment_dialog_title">Adicionar um Vídeo</string>
+    <string name="sub_comment_dialog_des_tv">Suporta apenas a análise de vídeos do Youtube.</string>
+    <string name="sub_comment_dialog_link_et">Digite o endereço do vídeo aqui.</string>
     <string name="sub_comment_dialog_link_null">O endereço URL do vídeo não pode ficar em branco</string>
     <string name="sub_comment_progress_msg">Adicionando vídeo…</string>
 
@@ -503,18 +503,18 @@ Que é necessário para escanear o código QR.</string>
     <string name="main_my_collection">Favoritos</string>
     <string name="main_my_message">Mensagens</string>
     <string name="main_good_comments">Curtida</string>
-    <string name="main_app_management">Gerenciamento de aplicativos</string>
+    <string name="main_app_management">Gerenciamento de Aplicativos</string>
     <string name="main_topic_selection">Temas</string>
-    <string name="main_night_mode">Modo noturno</string>
+    <string name="main_night_mode">Modo Noturno</string>
     <string name="please_login_first">Entre primeiro</string>
     <string name="no_choice">Sem escolha</string>
-    <string name="follow_on_success">Sucesso!</string>
-    <string name="follow_un_success">Deixar de seguir!</string>
+    <string name="follow_on_success">Seguido.</string>
+    <string name="follow_un_success">Não seguido.</string>
     <string name="canceled">Cancelado</string>
     <string name="group">Grupo</string>
     <string name="collection">Favoritos</string>
 
-    <string name="comments">Discussões</string>
+    <string name="comments">Comentários</string>
     <string name="follow">SEGUINDO</string>
     <string name="attention_on">Seguindo</string>
     <string name="attention_off">Seguir</string>
@@ -532,7 +532,7 @@ Que é necessário para escanear o código QR.</string>
 
     <string name="favorite_title">Favorito</string>
     <string name="save_as_favorite">Salvar como favorito</string>
-    <string name="favorite_saved">Favorito salvo</string>
+    <string name="favorite_saved">Favoritado.</string>
     <string name="failed_to_save_favorite">Falha ao salvar o favorito</string>
     <string name="remove_as_favorite">Remover favorito</string>
     <string name="remove_failed">Falha ao remover</string>
@@ -575,7 +575,7 @@ Que é necessário para escanear o código QR.</string>
     <string name="recommend_user_recommend">Recomendado por %1$s</string>
     <string name="recommend_required">* Obrigatório</string>
 
-    <string name="download_mkdir">Caminho do download</string>
+    <string name="download_mkdir">Local do download</string>
     <string name="download_mkdir_internal_storage_size_des">Livre, Total</string>
     <string name="download_mkdir_internal_storage_entries">SD Card</string>
     <string name="download_mkdir_internal_storage_entries1">SD 1</string>
@@ -608,7 +608,7 @@ Que é necessário para escanear o código QR.</string>
     <string name="menu_follow_group_tab">Grupos</string>
 
     <string name="choose_app">Selecione a Aplicação</string>
-    <string name="publish_comment">Compartilhar postagem</string>
+    <string name="publish_comment">Postagem</string>
 
     <string name="history_version">Histórico de versões</string>
 
@@ -619,7 +619,7 @@ Que é necessário para escanear o código QR.</string>
     <string name="scan_qr_code_result_title">Resultado</string>
     <string name="scan_qr_code_result_copy_text">Copiar texto</string>
     <string name="scan_qr_code_result_hint">Detalhes do código QR:</string>
-    <string name="scan_qr_code_copy_success">Texto copiado</string>
+    <string name="scan_qr_code_copy_success">O texto é copiado</string>
 
     <string name="user_info_edit_large_photo">Ver foto em tamanho maior</string>
 
@@ -643,7 +643,7 @@ Que é necessário para escanear o código QR.</string>
     <string name="there_is_no_label">Sem tags.</string>
     <string name="add">Adicionar</string>
 
-    <string name="load_failed_error_not_found">Aplicativo não listado na App Store do APKPure!</string>
+    <string name="load_failed_error_not_found">App não foi incluído no APKPure.</string>
     <string name="beta">beta</string>
     <string name="user_info_edit_intro_tv">Sobre mim</string>
     <string name="update_intro_title">Editar Sobre Mim</string>
@@ -662,7 +662,7 @@ Que é necessário para escanear o código QR.</string>
 
     <string name="share_apk">Compartilhar APK</string>
     <string name="tab_apk">APK</string>
-    <string name="commentaries">Compartilhar postagem</string>
+    <string name="commentaries">História</string>
 
     <string name="upload_apk_version">V %1$s</string>
     <string name="upload_apk_downloads">Downloads: %1$s</string>
@@ -697,7 +697,7 @@ Que é necessário para escanear o código QR.</string>
 
     <string name="cancel_collection">Não é favorito</string>
 
-    <string name="ranking_top_countries_title">Principais países</string>
+    <string name="ranking_top_countries_title">Ranking Particionado</string>
     <string name="ranking_top_develop_title">Principais desenvolvedores</string>
 
     <string name="google_play_bug_text">Compre on Google Play</string>
@@ -725,8 +725,8 @@ Que é necessário para escanear o código QR.</string>
     <string name="copy_content">Copiar Conteúdo</string>
 
     <string name="tab_global">DESTAQUE</string>
-    <string name="comment_list_see_here">Última visita aqui, toque para atualizar</string>
-    <string name="comment_list_new_num">%d Novas Histórias</string>
+    <string name="comment_list_see_here">Última vez que você chegou aqui. Toque para atualizar.</string>
+    <string name="comment_list_new_num">%d Novas manchetes</string>
 <string name="tab_popular">POPULAR</string>
 <string name="properties_message_v2">&lt;b&gt;Nome do pacote:&lt;/b&gt; %1$s&lt;br&gt;&lt;b&gt;Versão:&lt;/b&gt; %2$s&lt;br&gt;&lt;b&gt;Path:&lt;/b&gt; %3$s&lt;br&gt;&lt;b&gt;Tamanho:&lt;/b&gt; %4$s&lt;br&gt;&lt;b&gt;Última modificação:&lt;/b&gt; %5$s</string>
     <string name="app_detail_tab_evaluation">Análises</string>
@@ -741,8 +741,8 @@ Que é necessário para escanear o código QR.</string>
 
     <string name="app_detail_comment_order_array_good">4 - 5</string>
     <string name="app_detail_comment_order_array_bad">1 - 3</string>
-    <string name="app_detail_folded_footer_reviews">ver todos os %d de comentários dobrados</string>
-    <string name="app_detail_folded_footer_posts">ver todos os %d de postagens dobradas</string>
+    <string name="app_detail_folded_footer_reviews">Ver todos os %d de comentários guardado</string>
+    <string name="app_detail_folded_footer_posts">Ver todas as %d postagens guardadas</string>
     <string name="app_detail_discuss_filter_featured">Destaques</string>
     <string name="app_detail_discuss_filter_folded">Guardada</string>
 
@@ -773,7 +773,7 @@ Que é necessário para escanear o código QR.</string>
     <string name="editors_picks">Escolha dos editores</string>
     <string name="recommend_game">Recomendar jogo</string>
 
-    <string name="bing_share_account">Conecte-se a uma conta de terceiros</string>
+    <string name="bing_share_account">Conectar-se à conta de terceiros</string>
     <string name="un_bind">Não conectado</string>
     <string name="login_out_message_hint">Tem certeza que deseja sair?</string>
     <string name="bind_email_title">Conecte seu email</string>
@@ -794,5 +794,55 @@ Que é necessário para escanear o código QR.</string>
     <string name="forget_password_tv">Esqueceu a senha?</string>
     <string name="recover_password_title">Recuperação de senha</string>
     <string name="email_address_hint_et">Insira seu email.</string>
+
+<string name="home_message_reply">Comentários</string>
+    <string name="home_message_praise">Curtidas</string>
+    <string name="sign_in_services_key_policy_register">Política de Privacidade</string>
+    <string name="shop">LOJA</string>
+    <string name="setting_region">Região</string>
+    <string name="submit_add_title_image_tv">Adicione uma capa</string>
+    <string name="submit_add_title_image_error_toast">Esta imagem pode não ser suportada temporariamente. Por favor, selecione outra.</string>
+    <string name="comment_hint_tv">Compartilhar algo\?</string>
+    <string name="msg_all_read">Notícia</string>
+    <string name="msg_all_read_msg">Tem certeza que quer marcar tudo como lido\?</string>
+    <string name="user_recommend_tip">Recomendação de usuários</string>
+    <string name="subject_comment">Hashtags</string>
+    <string name="new_subject_comment">Nova hashtag</string>
+    <string name="evaluating">Análises</string>
+    <string name="image_text">História</string>
+    <string name="trends">Postagem</string>
+    <string name="error_hot_data_empty">Não há hashtags em alta!</string>
+    <string name="hot_subject">Hashtags em Alta</string>
+    <string name="menu_follow_subject">Hashtags seguidas</string>
+    <string name="menu_follow_subject_tab">Hashtag</string>
+    <string name="me_follow">Meus seguidores</string>
+    <string name="release_dynamics">Postagem do momento</string>
+    <string name="delete_success">Sucesso</string>
+    <string name="hot">Alta</string>
+    <string name="look_links">Visualizar link</string>
+
+    <string name="headline_no_data_tv">Nenhum novo conteúdo</string>
+    <string name="hint">Nota</string>
+    <string name="no_save_comment_hint">Não há conteúdo publicado, você tem certeza de sair\?</string>
+    <string name="look_all">Ver Mais</string>
+    <string name="history_hastag">Hashtag da história</string>
+    <string name="share_image_failed">Não foi possível compartilhar a foto!</string>
+    <string name="select_image_overflow_hint">\@string/foto_mensagem_max_num</string>
+
+    <string name="share_select_image_overflow_hint">Você pode compartilhar até 9 fotos.</string>
+    <string name="search_or_create">Pesquise ou crie</string>
+
+    <string name="privacy_setting_title">Configurações de privacidade</string>
+    <string name="privacy_setting_account">Conta privada</string>
+    <string name="privacy_setting_account_des">Sua página pessoal não será vista por outras pessoas se sua conta estiver definida como particular.</string>
+    <string name="privacy_setting_account_del">Exclua sua conta e informações</string>
+    <string name="privacy_setting_account_privacy">É uma conta privada.</string>
+    <string name="del_account_email_notify_tv">Por favor, forneça um endereço de e-mail válido para receber nossa notificação.</string>
+    <string name="del_account_email_reason_tv">Por que você deseja excluir esta conta\?</string>
+    <string name="del_account_bt">Enviar</string>
+    <string name="del_account_result_warn">Você não poderá fazer login com esta conta após a exclusão.</string>
+    <string name="del_account_reason_hint">Por que você deseja excluir esta conta\?</string>
+    <string name="del_account_sure">Sua conta será excluída em no máximo 48 horas. Você não poderá fazer login com esta conta após a exclusão. Por favor contacte-nos se tiver mais questões.</string>
+    <string name="reply_to">Responder a %1$s:</string>
 
 </resources>
