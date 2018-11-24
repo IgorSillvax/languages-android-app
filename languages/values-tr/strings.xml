@@ -28,9 +28,7 @@
     <string name="settings">Ayarlar</string>
     <string name="about">Hakkında</string>
     <string name="about_title">Hakkında <xliff:g example="APKPure" id="app_name">%1$s</xliff:g></string>
-    <string name="about_message">
-        <![CDATA[<b>Sürüm:</b> %1$s<br><br><b>Websitesi:</b> <a href="%2$s">%2$s</a><br><b>E-psota:</b> <a href="mailto:%3$s">%3$s</a>]]>
-    </string>
+    <string name="about_message">&lt;b&gt;Sürüm:&lt;/b&gt; %1$s&lt;br&gt;&lt;br&gt;&lt;b&gt;Site:&lt;/b&gt; &lt;a href=%2$s&gt;%2$s&lt;/a&gt;&lt;br&gt;&lt;b&gt;E-Posta:&lt;/b&gt; &lt;a href=mailto:%3$s&gt;%3$s&lt;/a&gt;</string>
     <string name="check_update">Güncellemeyi Kontrol Edin</string>
     <string name="quit">Çıkış</string>
     <string name="want_to_quit">Çıkmak istediğinden emin misin?</string>
@@ -46,7 +44,7 @@
     <string name="file_format_error">Dosya biçimi hatası.</string>
     <string name="parsing_xapk">XAPK Ayrıştırılıyor …</string>
     <string name="installing_obb">OBB Dosyaları Yükleniyor …</string>
-    <string name="extracting_apk">APK Dosyası Çıkarılıyor …</string>
+    <string name="extracting_apk">APK Dosyası Çıkarılıyor…</string>
     <string name="installing_apk">APK Yükleniyor …</string>
 
     <string name="uninstall">Kaldır</string>
@@ -120,7 +118,7 @@
     <string name="want_to_remove_download_item">Bu indirme öğesini kaldırmak istiyor musunuz?</string>
 
     <string name="search">Arama</string>
-    <string name="search_for_apps">Uygulama Ara</string>
+    <string name="search_for_apps">APKPure\'da Ara</string>
     <string name="trending_searches">Trend Aramalar</string>
 
     <string name="improvement_plan_title">Performans İyileştirme Planı</string>
@@ -194,14 +192,14 @@
     <string name="invalid_app_asset">Geçersiz uygulama öğe bilgisi.</string>
     <string name="failed_to_request_app_detail">Uygulama bilgisi isteği başarısız oldu.</string>
     <string name="failed_to_request_app_asset">Uygulama veri bilgisi isteği başarısız oldu.</string>
-    <string name="external_storage_not_usable"><big><b>Dahili hafızanıza erişmemiz gerek. Lütfen buna izin verin.</b></big> </string>
-    <string name="external_storage_permission_denied"><big><b>Dahili hafızanıza erişmemiz gerek. İznin engellenmediğinden emin olun.</b></big> </string>
+    <string name="external_storage_not_usable"><big><b>Dahili hafızanıza erişmemiz gerek. Kullanılabilir olduğundan emin olun.</b></big> </string>
+    <string name="external_storage_permission_denied"><big><b>Dahili hafızanıza erişmemiz gerek. İznin engellenmiş olmadığından emin olun.</b></big> </string>
 
     <string name="update__date___size_">Güncelleştirme: <xliff:g example="Mar 3, 2016" id="date">%1$s</xliff:g>, <xliff:g example="1024 kB" id="size">%2$s</xliff:g></string>
 
     <string name="update_all">Tümünü Güncelleştir</string>
     <string name="update___count__">Güncelleştir (<xliff:g example="3" id="count">%1$d</xliff:g>)</string>
-    <string name="ignore">Yoksay</string>
+    <string name="ignore">Listeden Yok say</string>
     <string name="unignore">Yoksayılanlardan Kaldır</string>
     <string name="select">Seç</string>
     <string name="cancel">İptal Et</string>
@@ -220,7 +218,7 @@
         <![CDATA[Toplam: <b><font color="%1$d">0</font></b> uygulama]]>
     </string>
     <string name="download_via_wifi_only">Sadece Wi-Fi üzerinden indir</string>
-    <string name="enable_ultra_download">Ultra İndirmeyi Etkinleştir</string>
+    <string name="enable_ultra_download">Ultra indirmeyi etkinleştir</string>
     <string name="enable_ultra_download_summary">Ultra İndirme test aşamasında, herhangi bir problem olursa lütfen bize bildirin.</string>
     <string name="installation">Kurulum</string>
     <string name="show_notification_after_installation">Kurulumdan sonra bildirimleri göster</string>
@@ -282,7 +280,7 @@
     <string name="download_history">Geçmişi İndir</string>
 
     <string name="sub_comment_dialog_title">Video Ekle</string>
-    <string name="sub_comment_dialog_link_et">Video url\'sini buraya girin</string>
+    <string name="sub_comment_dialog_link_et">Video adresini buraya girin.</string>
     <string name="sub_comment_dialog_link_null">Video URL adresi boş bırakılmaz</string>
     <string name="sub_comment_progress_msg">Video ekleniyor…</string>
 
@@ -297,7 +295,7 @@
     <string name="app_submit_name_toast">Lütfen kullanıcı adını doldurun!</string>
     <string name="app_submit_email_toast">Lütfen doğru bir e-posta adresi yazın!</string>
     <string name="app_detail_tab_one">Ayrıntılar</string>
-    <string name="app_detail_tab_two">Gönderiler</string>
+    <string name="app_detail_tab_two">Grup</string>
     <string name="app_detail_tab_three">İlişkili</string>
 
     <string name="app_detail_comment_order_array_default">Varsayılan olarak sırala</string>
@@ -318,7 +316,7 @@
     <string name="already_save">Kaydedildi<xliff:g example="ApKPure/photo" id="path">%1$s</xliff:g></string>
 
     <string name="load_end">Daha fazla veri yok</string>
-    <string name="load_failed_click_retry">Yüklenemedi, denemek için dokun</string>
+    <string name="load_failed_click_retry">Bir şeyler yanlış gitti. Tekrar denemek için dokunun</string>
     <string name="loading">Yükleniyor…</string>
 
     <string name="scan_qr_code_hint">QR Kodu kullanmadan önce, QR kodu taramak için gereken kamera iznini vermeniz gerekir.</string>
@@ -343,7 +341,7 @@
     <string name="user_info_edit_email_tv">E-posta</string>
     <string name="user_info_edit_gender_tv">Cinsiyet</string>
     <string name="user_info_edit_birthday_tv">Doğum günü</string>
-    <string name="user_info_edit_change_pwd_tv">Şifreyi sıfırla</string>
+    <string name="user_info_edit_change_pwd_tv">Şifreyi Sıfırla</string>
     <string name="user_info_edit_login_out_tv">Çıkış yap</string>
     <string name="user_info_edit_not_choose">Bilinmiyor</string>
     <string name="user_info_edit_gender_male">Erkek</string>
@@ -362,7 +360,7 @@
     <string name="update_eamil_name_tv">E-posta boş bırakılamaz</string>
     <string name="update_nickname_error">Takma ad zaten alınmış, lütfen başka seçin!</string>
     <string name="message_all">HEPSİ</string>
-    <string name="message_reply">YORUMLAR</string>
+    <string name="message_reply">YANITLAR</string>
     <string name="message_praise">BEĞENİLER</string>
     <string name="message_notifications_reply">Yorumunuzu yanıtladı</string>
     <string name="message_notifications_login">Bu sayfayı görmek için lütfen giriş yapınız.</string>
@@ -377,7 +375,7 @@
     <string name="update_pwd_new_pwd_null_tv">Yeni şifre boş bırakılamaz</string>
     <string name="update_pwd_new_confrim_tv">Girdiğiniz şifreler eşleşmiyor</string>
     <string name="update_pwd_save_bt">Kaydet</string>
-    <string name="update_save_success">Başarıyla kaydedildi!</string>
+    <string name="update_save_success">Kaydedildi.</string>
     <string name="crop__cancel" ignore="ButtonCase">İptal</string>
     <string name="crop__done">Bitti</string>
     <string name="crop__pick_error">Geçersiz resim dosyası türü</string>
@@ -394,7 +392,7 @@
     <string name="sign_in_services">Kayıt Olarak, Şartlar ve Gizlilik Politikamızı kabul etmiş olursunuz.</string>
 
     <string name="sign_in_services_key">Koşullar</string>
-    <string name="sign_in_services_key_policy">Gizlilik Politikası</string>
+    <string name="sign_in_services_key_policy">Gizlilik politikası</string>
 
     <string name="user_sign_up">Kayıt Ol</string>
     <string name="user_name_hint">Kullanıcı Adı</string>
@@ -424,7 +422,7 @@
     <string name="download_list">İndirme listesi</string>
     <string name="can_be_update">Güncellenebilir</string>
     <string name="install_list">Yüklendi</string>
-    <string name="no_download">İndirme yok</string>
+    <string name="no_download">İndirilen uygulama yok.</string>
     <string name="downloads">İndirmeler</string>
 
     <string name="change_language_failed">Dil değiştirme başarısız!</string>
@@ -436,9 +434,9 @@
     <string name="like_notification">Destek bildirimleri</string>
     <string name="like_notification_msg">Yeni uyarı mesajları için bildirim alın</string>
     <string name="gif_tip">hareketli resim</string>
-    <string name="submit_comment_title_hint">Konu (İsteğe Bağlı)</string>
+    <string name="submit_comment_title_hint">Başlık</string>
 
-    <string name="comment_vote_string">Oy</string>
+    <string name="comment_vote_string">Beğeni</string>
     <string name="comment_reply_three">Cevap</string>
     <string name="comment_item_fold">yorum çöktü</string>
 
@@ -449,7 +447,7 @@
 
     <string name="comment_no_reply">Vay be, burada hiçbir şey yok.</string>
     <string name="comment_reply_info_name">Detaylar</string>
-    <string name="set_updates_notification">Uygulamalar Güncellemeleri Var</string>
+    <string name="set_updates_notification">Uygulama güncellemeleri mevcut</string>
     <string name="set_updates_notification_msg">Uygulama güncellemeleri geldiğinde haber verin. Önerilen Ayar: Açık</string>
     <string name="app_detail_unknow_text">Eski sürüm APKPure yeni özellikleri desteklemez; lütfen en son sürüme geçin.</string>
     <string name="comment_detail_original">Orijinal Yorumu Görüntüle &gt;</string>
@@ -458,8 +456,8 @@
 
     <string name="edit">Düzenle</string>
     <string name="menu_copy">Kopyala</string>
-    <string name="sub_comment_dialog_des_tv">Yalnızca YouTube URL\'lerini ayrıştırma desteği</string>
-    <string name="message_notifications_praise">Yorumunuzu iptal ettiniz</string>
+    <string name="sub_comment_dialog_des_tv">Sadece Youtube video ayrıştırmayı destekler.</string>
+    <string name="message_notifications_praise">Yorumunuzu oyladı</string>
     <string name="share_app_url_comment"> <xliff:g example="APKPure" id="user_name">%1$s</xliff:g> adlı kullanıcının <xliff:g example="APKPure" id="app_name"> %2$s uygulamasına yorumları</xliff:g> : <xliff:g example="APKPure" id="app_name"> %3$s</xliff:g><xliff:g example="APKPure" id="social_network_name">%4$s</xliff:g><xliff:g example="https://apkpure.com/p/com.apkpure.aegon" id="app_url">%5$s</xliff:g></string>
 
     <string name="push_title_info_upvoted">%1$s yorumunuzu beğendi!</string>
@@ -468,7 +466,7 @@
     <string name="app_detail_comment_order_array_old">Eski</string>
 
     <string name="app_detail_comment_join_group_bt">Grup</string>
-    <string name="download_mkdir">İndirme Dizini</string>
+    <string name="download_mkdir">İndirme dizini</string>
     <string name="download_mkdir_internal_storage_values">dahili_depolama</string>
     <string name="download_mkdir_external_storage_values">harici_depolama</string>
 
@@ -494,13 +492,13 @@
     <string name="main_my_collection">Favoriler</string>
     <string name="main_my_message">Mesajlar</string>
     <string name="main_good_comments">Oylandı</string>
-    <string name="main_app_management">Uygulama yönetimi</string>
+    <string name="main_app_management">Uygulama Yönetimi</string>
     <string name="main_topic_selection">Temalar</string>
-    <string name="main_night_mode">Gece modu</string>
+    <string name="main_night_mode">Gece Modu</string>
     <string name="please_login_first">Lütfen önce giriş yapın</string>
     <string name="no_choice">Seçenek yok</string>
-    <string name="follow_on_success">Başarılı!</string>
-    <string name="follow_un_success">Takipten çık!</string>
+    <string name="follow_on_success">Takip edildi.</string>
+    <string name="follow_un_success">Takipten çıkıldı.</string>
     <string name="canceled">İptal edildi</string>
     <string name="group">Grup</string>
     <string name="collection">Favoriler</string>
@@ -523,7 +521,7 @@
 
     <string name="favorite_title">Favori</string>
     <string name="save_as_favorite">Favorilere Kaydet</string>
-    <string name="favorite_saved">Favorilere kaydedildi</string>
+    <string name="favorite_saved">Favorilere eklendi.</string>
     <string name="failed_to_save_favorite">Favori kaydı başarısız</string>
     <string name="remove_as_favorite">Favorilerden sil</string>
     <string name="remove_failed">Silme başarısız</string>
@@ -587,11 +585,11 @@
     <string name="menu_follow_group_tab">Gruplar</string>
 
     <string name="choose_app">Uygulama Seç</string>
-    <string name="publish_comment">Bir Gönderi Paylaş</string>
+    <string name="publish_comment">Gönder</string>
 
     <string name="history_version">Sürüm Geçmişi</string>
 
-    <string name="load_failed_error_not_found">Uygulama APKpure Uygulama Mağazasında Listelenmedi!</string>
+    <string name="load_failed_error_not_found">Uygulama APKPure\'da yok.</string>
     <string name="beta">Beta</string>
     <string name="data_saver_model">Veri Tasarrufu</string>
     <string name="scan_qr_code_result_title">Sonuç</string>
@@ -619,7 +617,7 @@
     <string name="share_apk">APK\'yi Paylaş</string>
     <string name="no_comment">İlk gönderiyi siz paylaşın!</string>
 
-    <string name="commentaries">Bir Gönderi paylaş</string>
+    <string name="commentaries">Hikaye</string>
 
     <string name="upload_apk_version">Sürüm %1$s</string>
     <string name="upload_apk_downloads">İndirmeler: %1$s</string>
@@ -646,13 +644,13 @@
     <string name="update_intro_et">Kendin hakkında birkaç şey yaz</string>
     <string name="update_intro_tv">Hakkımda alanı boş bırakılamaz</string>
 
-    <string name="set_open_source_licence">Açık Kaynak Lisansı</string>
+    <string name="set_open_source_licence">Açık kaynak lisansı</string>
 
     <string name="push_title_info_update">APKPure Güncellemesi Geldi!</string>
     <string name="push_title_info_at">Biri senden bahsetti, görüntülemek için dokun</string>
 
     <string name="menu_copy_link">Linki kopyala</string>
-    <string name="ranking_top_countries_title">En İyi Ülkeler</string>
+    <string name="ranking_top_countries_title">Bölümlenmiş Sıralama</string>
     <string name="ranking_top_develop_title">En İyi Geliştiriciler</string>
 
     <string name="web_view_copy">Bağlantıyı kopyala</string>
@@ -694,8 +692,8 @@
     <string name="copy_content">İçeriği Kopyala</string>
 
     <string name="tab_global">Öne Çıkan</string>
-    <string name="comment_list_see_here">En son ziyaret edilenler burda, yenilemek için dokun</string>
-    <string name="comment_list_new_num">%d Yeni Hikaye</string>
+    <string name="comment_list_see_here">En son buraya geldin. Yenilemek için tıklayın.</string>
+    <string name="comment_list_new_num">%d Yeni Haber Başlığı</string>
 
     <string name="tab_popular">Popüler</string>
     <string name="count_down_timer_tv">%ds</string>
@@ -714,9 +712,9 @@
 
     <string name="app_detail_comment_order_array_good">4-5</string>
     <string name="app_detail_comment_order_array_bad">1-3</string>
-    <string name="message_notify">bildirim</string>
-    <string name="message_at_title">Bahsetmeler</string>
-    <string name="message_at">Senden bahsetti</string>
+    <string name="message_notify">Bildirimler</string>
+    <string name="message_at_title">Söz Etmeler</string>
+    <string name="message_at">Senden söz etti</string>
 
     <string name="cancel_collection">Favorilerden çıkar</string>
 
@@ -740,17 +738,17 @@
     <string name="editors_picks">Editörün Seçimi</string>
     <string name="recommend_game">oyun tavsiyesi</string>
 
-    <string name="bing_share_account">Bir üçüncü parti hesap ile bağlan</string>
+    <string name="bing_share_account">Üçüncü-taraf Hesaba Bağlan</string>
     <string name="un_bind">Bağlı değil</string>
     <string name="login_out_message_hint">Oturumu kapatmak istediğinden emin misin?</string>
     <string name="bind_email_title">E-postanızı bağlayın</string>
     <string name="email_address_hint_et">E-Posta adresinizi giriniz.</string>
 
-    <string name="share_app_url_group"> <xliff:g example="APKPure" id="app_name">1%1$s</xliff:g>2 Grup. (from <xliff:g example="APKPure" id="social_network_name">3%2$s</xliff:g>4) <xliff:g example="https://apkpure.com/p/com.apkpure.aegon" id="app_url">5%3$s</xliff:g>6 </string>
+    <string name="share_app_url_group"> <xliff:g example="APKPure" id="app_name">%1$s</xliff:g>Grup. (<xliff:g example="APKPure" id="social_network_name">%2$s</xliff:g>\'dan)<xliff:g example="https://apkpure.com/p/com.apkpure.aegon" id="app_url">%3$s</xliff:g></string>
 
     <string name="app_detail_comment_score_footer">Diğer ülkelerden %1$s inceleme mevcut.</string>
-    <string name="app_detail_folded_footer_reviews">%d gizlenmiş incelemenin hepsini gör</string>
-    <string name="app_detail_folded_footer_posts">%d gizlenmiş gönderilerin hepsini gör</string>
+    <string name="app_detail_folded_footer_reviews">Gizlenmiş %d incelemenin hepsini incele</string>
+    <string name="app_detail_folded_footer_posts">Gizlenmiş %d gönderinin hepsini gör</string>
     <string name="app_detail_discuss_filter_featured">Vurgular</string>
     <string name="app_detail_discuss_filter_folded">Gizlenmiş</string>
 
@@ -767,10 +765,60 @@
     <string name="verification_code_tv_hint">Onay kodu</string>
     <string name="verification_success_code_toast">Onay kodu gönderildi.</string>
     <string name="verification_null_code_toast">Lütfen size gönderilen onay kodunu giriniz.</string>
-    <string name="unbind_email">Lütfenth size gönderilen onay kodunu giriniz.</string>
+    <string name="unbind_email">Bağlanmadı</string>
     <string name="unbind_email_hint">Hesabınıza hiçbir e-posta adresi bağlanmadı.</string>
     <string name="menu_skip">Atla</string>
 
     <string name="forget_password_tv">Şifreni mi unuttun?</string>
     <string name="recover_password_title">Şifre Yenileme</string>
+<string name="home_message_reply">Yorumlar</string>
+    <string name="home_message_praise">Beğeniler</string>
+    <string name="sign_in_services_key_policy_register">Gizlilik Politikası</string>
+    <string name="shop">MAĞAZA</string>
+    <string name="setting_region">Bölge</string>
+    <string name="submit_add_title_image_tv">Kapak Ekle</string>
+    <string name="submit_add_title_image_error_toast">Bu resim geçici olarak desteklenmiyor olabilir. Lütfen başka bir tane seçin.</string>
+    <string name="comment_hint_tv">Bir şeyler paylaş\?</string>
+    <string name="msg_all_read">Duyuru</string>
+    <string name="msg_all_read_msg">Hepsini okundu olarak işaretlemek istediğine emin misin\?</string>
+    <string name="user_recommend_tip">Kullanıcı Tavsiyeleri</string>
+    <string name="subject_comment">Etiketler</string>
+    <string name="new_subject_comment">Yeni etiket</string>
+    <string name="evaluating">İncelemeler</string>
+    <string name="image_text">Hikaye</string>
+    <string name="trends">Gönderi</string>
+    <string name="error_hot_data_empty">Hiç trend etiket yok!</string>
+    <string name="hot_subject">Trend Etiketler</string>
+    <string name="menu_follow_subject">Takip edilen etiketler</string>
+    <string name="menu_follow_subject_tab">Etiket</string>
+    <string name="me_follow">Takip ettiklerim</string>
+    <string name="release_dynamics">Gönderi anı</string>
+    <string name="delete_success">Başarılı</string>
+    <string name="hot">trend</string>
+    <string name="look_links">Adresi İncele</string>
+
+    <string name="headline_no_data_tv">Yeni içerik yok</string>
+    <string name="hint">Not</string>
+    <string name="no_save_comment_hint">Paylaşılmayan içerikler mevcut, çıkmak istediğine emin misin\?</string>
+    <string name="look_all">Dahasını Gör</string>
+    <string name="history_hastag">Etiket geçmişi</string>
+    <string name="share_image_failed">Resim paylaşılamadı!</string>
+    <string name="select_image_overflow_hint">\@string/picture_message_max_num</string>
+
+    <string name="share_select_image_overflow_hint">En fazla 9 resim paylaşabilirsiniz.</string>
+    <string name="search_or_create">Ara ya da oluştur</string>
+
+    <string name="privacy_setting_title">Gizlilik Ayarları</string>
+    <string name="privacy_setting_account">Gizli Hesap</string>
+    <string name="privacy_setting_account_des">Hesabınız gizliye ayarlı ise kişisel ana sayfanız diğerleri tarafından görülemeyecektir.</string>
+    <string name="privacy_setting_account_del">Hesabınızı ve bilgilerinizi silin</string>
+    <string name="privacy_setting_account_privacy">Bu hesap gizli.</string>
+    <string name="del_account_email_notify_tv">Bildirimlerimizi almak için lütfen geçerli bir eposta adresi girin.</string>
+    <string name="del_account_email_reason_tv">Neden bu hesabı silmek istiyorsun\?</string>
+    <string name="del_account_bt">Gönder</string>
+    <string name="del_account_result_warn">Silme işlemi sonrasında bu hesap ile giriş yapamayacaksınız.</string>
+    <string name="del_account_reason_hint">Neden bu hesabı silmek istiyorsun\?</string>
+    <string name="del_account_sure">Hesabınız 48 saat içerisinde silinecektir. Silme işlemi sonrası bu hesap ile giriş yapamayacaksınız. Daha fazla sorunuz var ise bizimle iletişime geçin.</string>
+    <string name="reply_to">Yanıtla %1$s:</string>
+
 </resources>
