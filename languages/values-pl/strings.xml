@@ -57,7 +57,7 @@
     <string name="parsing_xapk">Parsowanie XAPK…</string>
     <string name="installing_obb">Instalowanie plików OBB…</string>
     <string name="extracting_apk">"Wypakowywanie pliku APK ... "</string>
-    <string name="installing_apk">Instalowanie APK…</string>
+    <string name="installing_apk">Instalowanie APK …</string>
 
     <string name="uninstall">"Odinstaluj "</string>
     <string name="uninstalled">Odinstalowano</string>
@@ -65,9 +65,9 @@
 
     <string name="all">Wszystko</string>
 
-    <string name="screenshots">Zrzuty Ekranu</string>
+    <string name="screenshots">Zrzuty ekranu</string>
     <string name="description">Opis</string>
-    <string name="whatsnew">Co Nowego</string>
+    <string name="whatsnew">Co nowego</string>
     <string name="information">Informacje</string>
     <string name="version_">Wersja:</string>
     <string name="updated_">Zaktualizowano:</string>
@@ -78,8 +78,8 @@
     <string name="more">więcej</string>
     <string name="permissions">Uprawnienia</string>
     <string name="other">Inne</string>
-    <string name="similar_or_related">Podobne Lub Powiązane</string>
-    <string name="more_from_developer">Więcej Od Programisty</string>
+    <string name="similar_or_related">Podobne lub powiązane</string>
+    <string name="more_from_developer">Więcej od programisty</string>
     <string name="more_large">Więcej</string>
     <string name="apk">APK</string>
     <string name="xapk">XAPK</string>
@@ -115,9 +115,9 @@
 
     <string name="download_percent"><xliff:g example="50" id="percent">%1$d</xliff:g> %%</string>
     <string name="pause">Zatrzymaj</string>
-    <string name="pause_all">Zatrzymaj Wszystko</string>
+    <string name="pause_all">Zatrzymaj wszystko</string>
     <string name="continue_">Kontynuuj</string>
-    <string name="continue_all">Kontynuuj Wszystko</string>
+    <string name="continue_all">Kontynuuj wszystko</string>
     <string name="restart">Restartuj</string>
     <string name="download">Pobierz</string>
     <string name="downloading">Pobieranie</string>
@@ -134,47 +134,45 @@
     <string name="installed">Zainstalowane</string>
     <string name="detail">Szczegóły</string>
     <string name="remove">Usuń</string>
-    <string name="remove_all">Usuń Wszystko</string>
+    <string name="remove_all">Usuń wszystko</string>
     <string name="want_to_remove_download_item">Czy chcesz usunąć element pobierania?</string>
     <string name="want_to_remove_all_download_items">Czy chcesz usunąć wszystkie elementy pobierania?</string>
     <string name="delete_downloaded_file">Usuń pobrany plik</string>
-    <string name="download_over_cellular">Pobieraj przez Dane Komórkowe</string>
-    <string name="download_over_cellular_content">Wygląda na to, iż chcesz pobrać aplikację przez dane mobilne. Czy kontynuować?</string>
+    <string name="download_over_cellular">Pobieraj przez dane komórkowe</string>
+    <string name="download_over_cellular_content">Wygląda na to, iż chcesz pobrać aplikację przez dane komórkowe. Czy kontynuować\?</string>
 
     <string name="search">Szukaj</string>
     <string name="search_for_apps">Szukaj APKPure</string>
-    <string name="trending_searches">Najpopularniejsze Wyszukiwania</string>
+    <string name="trending_searches">Najpopularniejsze wyszukiwania</string>
     <string name="search_history">Historia</string>
     <string name="clear_search_history">Wyczyść całą historię</string>
 
-    <string name="improvement_plan_title">Plan Udoskonalenia Wydajności</string>
+    <string name="improvement_plan_title">Plan udoskonalenia wydajności</string>
     <string name="improvement_plan_message">Pomóż nam wysyłając informacje o urządzeniu z Androidem. <b>Nie zbieramy</b> danych osobowych (imienia, adresu zamieszkania, adresu e-mail, numeru ubezpieczenia oraz innych unikalnych identyfikatorów).</string>
-    <string name="join_us">Dołącz do Nas</string>
+    <string name="join_us">Dołącz do nas</string>
     <string name="skip">Pomiń</string>
 
-    <string name="participate_ultra_download_beta_test_title">Włącz Ultra Pobieranie i ciesz się większą prędkością pobierania</string>
-    <string name="participate_ultra_download_beta_test_content">Ultra Pobieranie jest w fazach beta testów – daj nam znać, jeżeli napotkasz jakiekolwiek problemy. Funkcję możesz wyłączyć z poziomu Ustawień.</string>
+    <string name="participate_ultra_download_beta_test_title">Włącz szybkie pobieranie i ciesz się większą prędkością pobierania</string>
+    <string name="participate_ultra_download_beta_test_content">Szybkie pobieranie jest w fazach beta testów – daj nam znać, jeżeli napotkasz jakiekolwiek problemy. Funkcję możesz wyłączyć z poziomu ustawień.</string>
     <string name="enable">Włącz</string>
 
     <string name="_name__is_up_to_date"><xliff:g example="APKPure" id="name">%1$s</xliff:g> jest aktualny.</string>
-    <string name="new_version_available_title">Dostępna Jest Nowa Wersja</string>
-    <string name="new_version_available_message">
-        <![CDATA[<b>Najnowsza Wersja:</b> %1$s<br><br><b>Co Nowego:</b><br>%2$s]]>
-    </string>
+    <string name="new_version_available_title">Dostępna jest nowa wersja</string>
+    <string name="new_version_available_message">&lt;b&gt;Najnowsza wersja:&lt;/b&gt; %1$s&lt;br&gt;&lt;br&gt;&lt;b&gt;Co nowego:&lt;/b&gt;&lt;br&gt;%2$s</string>
 
     <string name="report">Zgłoś</string>
     <string name="report__">Zgłoś…</string>
     <string name="report_problem__">Zgłoś problem…</string>
     <string name="report_problem_subject">Zgłoś problem</string>
     <string name="report_problem_text">Temat problemu:%1$sSzczegóły problemu:%2$s</string>
-    <string name="contact_us__">Skontaktuj się z Nami…</string>
-    <string name="contact_us">Skontaktuj się z Nami</string>
+    <string name="contact_us__">Skontaktuj się z nami…</string>
+    <string name="contact_us">Skontaktuj się z nami</string>
     <string name="report_content">Zgłoś treść</string>
     <string name="feedback">Opinia</string>
 
-    <string name="installation_failed">Instalacja Zakończona Niepowodzeniem</string>
+    <string name="installation_failed">Instalacja zakończona niepowodzeniem</string>
     <string name="invalid_app_detail">Nieprawidłowe szczegóły informacji aplikacji.</string>
-    <string name="failed_to_request_app_detail">Zażądanie szczegółów informacji aplikacji zakończone niepowodzeniem.</string>
+    <string name="failed_to_request_app_detail">Nie udało się uzyskać szczegółowych informacji o aplikacji.</string>
     <string name="incompatible_this_app">
         <![CDATA[<big><b><font color="%1$d">Twoje urządzenie nie jest kompatybilne z tą aplikacją.</font></b></big><br><br>Czy kontynuować?]]>
     </string>
@@ -190,7 +188,7 @@
     </string>
 
     <string name="share">Udostępnij</string>
-    <string name="ranking_tab4_title">Nowe Popularne Aplikacje</string>
+    <string name="ranking_tab4_title">Nowe popularne aplikacje</string>
 
     <string name="app_detail_three_fragment_foot">Pokaż wszystkie komentarze</string>
     <string name="menu_paste">Wklej</string>
@@ -211,15 +209,15 @@
     <string name="topic_switch_failed">Zmiana motywu zakończona niepowodzeniem</string>
 
     <string name="recommend_title">Rekomendacje</string>
-    <string name="recommend_tab_game">Zarekomenduj Aplikację</string>
+    <string name="recommend_tab_game">Zarekomenduj aplikację</string>
     <string name="recommend_tab_list">Rekomendowane</string>
-    <string name="recommend_installed_list_title">Moje Aplikacje</string>
+    <string name="recommend_installed_list_title">Moje aplikacje</string>
     <string name="recommend_review">Podgląd</string>
-    <string name="recommend_replace_img">Zmień Obraz</string>
-    <string name="recommend_app_name">Tytuł Aplikacji</string>
+    <string name="recommend_replace_img">Zmień obraz</string>
+    <string name="recommend_app_name">Tytuł aplikacji</string>
     <string name="recommend_state_can">Polecane</string>
     <string name="recommend_state_success">Polecane</string>
-    <string name="recommend_select_game">Poleć Aplikację</string>
+    <string name="recommend_select_game">Poleć aplikację</string>
     <string name="recommend_write_des">Opis</string>
     <string name="recommend_write_des_hint">Pomocna recenzja dotrze do grona większej ilości użytkowników, którzy mają takie same zainteresowania.</string>
     <string name="recommend_comment">Wyślij</string>
@@ -245,19 +243,19 @@
     <string name="menu_follow_all_tab">Obserwowane</string>
     <string name="menu_follow_group_tab">Grupy</string>
 
-    <string name="choose_app">Wybierz Aplikację</string>
+    <string name="choose_app">Wybierz aplikację</string>
     <string name="publish_comment">Post</string>
 
     <string name="update_pwd_current_pwd_et">Stare hasło</string>
     <string name="update_pwd_new_pwd_et">Nowe hasło</string>
     <string name="update_pwd_Confirm_pwd_et">Potwierdź nowe hasło</string>
-    <string name="upload_avatar">Przesyłanie…</string>
+    <string name="upload_avatar">Wysyłanie…</string>
     <string name="update_pwd_current_null_tv">Stare hasło nie może być puste</string>
     <string name="update_pwd_Confirm_null_tv">Potwierdzenie hasła nie może być puste</string>
     <string name="update_pwd_new_pwd_null_tv">Nowe hasło nie może być puste</string>
     <string name="update_pwd_new_confrim_tv">Hasła nie są takie same</string>
     <string name="update_pwd_save_bt">Zapisz</string>
-    <string name="update_save_success">Zapisano</string>
+    <string name="update_save_success">Zapisano.</string>
     <string name="crop__cancel" ignore="ButtonCase">Anuluj</string>
     <string name="crop__done">Zakończone</string>
     <string name="crop__pick_error">Nieprawidłowy typ pliku obrazu</string>
@@ -271,7 +269,7 @@
     <string name="user_name_hint">Nazwa użytkownika</string>
     <string name="user_email_hint">Adres e-mail</string>
     <string name="user_password">Hasło (od 6 do 32 znaków)</string>
-    <string name="user_password_confirm">Potwierdź Hasło</string>
+    <string name="user_password_confirm">Potwierdź hasło</string>
 
     <string name="user_name_error">Nazwa użytkownika nie może zawierać żadnych specjalnych znaków, symboli lub spacji</string>
     <string name="user_email_error">Adres e-mail jest nieprawidłowy</string>
@@ -282,30 +280,30 @@
     <string name="login_user_password">Hasło</string>
     <string name="login_user_sign_in">Zaloguj</string>
     <string name="login_choose">Lub zaloguj za pomocą konta</string>
-    <string name="login_new_user">Rejestracja Nowego Użytkownika</string>
+    <string name="login_new_user">Rejestracja nowego użytkownika</string>
     <string name="login_post_as_a_guest">Opublikuj jako gość</string>
 
     <string name="message">Wiadomość</string>
 
     <string name="push_title_info_reply">%1$s odpowiedział na twój komentarz!</string>
-    <string name="push_title_info_upvoted">%1$s zagłosował na twój komentarz!</string>
+    <string name="push_title_info_upvoted">%1$s polubił twój komentarz!</string>
     <string name="download_list">Lista pobrań</string>
     <string name="can_be_update">Może zostać zaktualizowany</string>
     <string name="install_list">Zainstalowane</string>
     <string name="no_download">Brak pobranych aplikacji.</string>
-    <string name="downloads">Pobrania</string>
+    <string name="downloads">Pobrane</string>
 
     <string name="change_language_failed">Zmiana języka zakończona niepowodzeniem!</string>
     <string name="comment_reply_tell_msg">Ten komentarz został usunięty!</string>
 
     <string name="notification_setting">Powiadomienia</string>
     <string name="reply_notification">Odpowiedz na powiadomienia</string>
-    <string name="reply_notification_msg">Otrzymuj powiadomienia nowych odpowiedzi</string>
+    <string name="reply_notification_msg">Otrzymuj powiadomienia o nowych odpowiedziach</string>
     <string name="gif_tip">gif</string>
     <string name="comment_vote_string">Lubię</string>
     <string name="comment_reply_three">Odpowiedz</string>
     <string name="set_updates_notification">Dostępne aktualizacje aplikacji</string>
-    <string name="comment_detail_original">Zobacz Oryginalny Komentarz</string>
+    <string name="comment_detail_original">Zobacz oryginalny komentarz</string>
     <string name="comment_comment_newest">Najnowsze</string>
     <string name="comment_comment_oldest">Najstarsze</string>
 
@@ -325,9 +323,9 @@
 
     <string name="no_more">Brak więcej aplikacji.</string>
 
-    <string name="failed_to_request_app_asset"/>
+    <string name="failed_to_request_app_asset">Nie udało się uzyskać informacji o zasobach aplikacji.</string>
     <string name="share_app_url"> Udostępnij <xliff:g example="APKPure" id="app_name">%1$s</xliff:g> APK (od <xliff:g example="APKPure" id="social_network_name">%2$s</xliff:g>) <xliff:g example="https://apkpure.com/p/com.apkpure.aegon" id="app_url">%3$s</xliff:g> </string>
-    <string name="update_all">Zaaktualizuj wszystko</string>
+    <string name="update_all">Zaktualizuj wszystko</string>
     <string name="ignore">Ignoruj z listy</string>
     <string name="select">Wybierz</string>
     <string name="cancel">Anuluj</string>
@@ -359,8 +357,8 @@
     <string name="data_saver_model">Oszczędzanie danych</string>
     <string name="data_saver_model_summery">Włączenie tej funkcji spowoduje zmniejszenie rozmiaru i jakości obrazu w celu zmniejszenia wykorzystania danych komórkowych.</string>
     <string name="download_via_wifi_only">Pobierz tylko przez Wi-Fi</string>
-    <string name="enable_ultra_download">Włącz ultra pobieranie</string>
-    <string name="enable_ultra_download_summary">Ultra pobieranie jest w fazie testów, daj nam znać, jeśli napotkasz jakiekolwiek problemy.</string>
+    <string name="enable_ultra_download">Włącz szybkie pobieranie</string>
+    <string name="enable_ultra_download_summary">Szybkie pobieranie jest w fazie testów, daj nam znać, jeśli napotkasz jakiekolwiek problemy.</string>
     <string name="installation">Instalacja</string>
     <string name="show_notification_after_installation">Pokaż powiadomienie po zainstalowaniu</string>
     <string name="delete_packages_after_installation">Usuń pakiety po zainstalowaniu</string>
@@ -428,7 +426,7 @@
 
     <string name="app_detail_comment_order_array_default">Sortuj według domyślnych</string>
     <string name="app_detail_comment_order_array_most_recent">Najnowsze</string>
-    <string name="app_detail_comment_order_array_new">Najnowsze</string>
+    <string name="app_detail_comment_order_array_new">Nowe</string>
     <string name="app_detail_comment_order_array_best">Najlepsze</string>
     <string name="app_detail_comment_order_array_old">Najstarsze</string>
 
@@ -495,7 +493,7 @@
     <string name="user_info_edit_nickname_tv">Pseudonim</string>
     <string name="user_info_edit_email_tv">Email</string>
     <string name="user_info_edit_gender_tv">Płeć</string>
-    <string name="user_info_edit_birthday_tv">Urodziny</string>
+    <string name="user_info_edit_birthday_tv">Data urodzenia</string>
     <string name="user_info_edit_change_pwd_tv">Zresetuj hasło</string>
     <string name="user_info_edit_login_out_tv">Wyloguj się</string>
     <string name="user_info_edit_not_choose">Nieznany</string>
@@ -519,7 +517,7 @@
     <string name="update_intro_tv">Pole o mnie nie może być puste</string>
 
     <string name="home_message_reply">Komentarze</string>
-    <string name="message_notifications_praise">Zagłosowano na twój komentarz</string>
+    <string name="message_notifications_praise">Polubiono twój komentarz</string>
     <string name="message_praise">POLUBIENIA</string>
     <string name="home_message_praise">Polubienia</string>
     <string name="message_notify">Powiadomienia</string>
@@ -546,7 +544,7 @@
     <string name="user_name_null">Nazwa użytkownika jest niepoprawna</string>
     <string name="user_nickname_error">Pseudonim nie powinien zawierać żadnych znaków specjalnych, symboli ani spacji</string>
     <string name="push_title_info_follow">%1$s obserwuje ciebie!</string>
-    <string name="push_title_info_update">Aktualizacja APKPure jest już dostępna!</string>
+    <string name="push_title_info_update">Dostępna jest aktualizacja APKPure!</string>
     <string name="push_content_info_update">Nowa wersja %1$s została wydana! Zaktualizuj teraz!</string>
     <string name="push_title_info_at">Ktoś wspomniał o tobie w poście, dotknij, aby wyświetlić</string>
 
@@ -590,7 +588,7 @@
     <string name="main_my_comments">Posty</string>
     <string name="main_my_collection">Ulubione</string>
     <string name="main_my_message">Wiadomości</string>
-    <string name="main_good_comments">Lajki</string>
+    <string name="main_good_comments">Polubienia</string>
     <string name="main_app_management">Zarządzanie aplikacjami</string>
     <string name="main_topic_selection">Motywy</string>
     <string name="main_night_mode">Tryb nocny</string>
@@ -706,7 +704,7 @@
     <string name="copy_content">Kopiuj treść</string>
 
     <string name="tab_global">POLECANE</string>
-    <string name="comment_list_see_here">Ostatni raz tu dotarłeś. Dotknij, aby odświeżyć.</string>
+    <string name="comment_list_see_here">Ostatni raz tu jesteś. Dotknij, aby odświeżyć.</string>
     <string name="comment_list_new_num">%d Nowe nagłówki</string>
 
     <string name="tab_popular">POPULARNE</string>
@@ -715,7 +713,7 @@
 
     <string name="choice_evaluate">Polecane recenzje</string>
     <string name="choice_comment">Rekomendowane posty</string>
-    <string name="emoji_input_error_hint">Komentarze tylko z emotikonów są niedozwolone! Napisz coś…</string>
+    <string name="emoji_input_error_hint">Komentarze składające się tylko z emotikonów są niedozwolone! Napisz coś…</string>
     <string name="load_all_choice_evaluate">Zobacz wszystkie recenzje</string>
     <string name="load_all_choice_comment">Zobacz wszystkie posty</string>
     <string name="my_reservation_and_collection">Rejestracja wstępna i ulubione</string>
@@ -752,9 +750,9 @@
 
     <string name="shop">SKLEP</string>
     <string name="setting_region">Region</string>
-    <string name="submit_add_title_image_tv">Dodać okładkę</string>
+    <string name="submit_add_title_image_tv">Dodaj okładkę</string>
     <string name="submit_add_title_image_error_toast">To zdjęcie może nie być chwilowo wspierane. Proszę wybrać inne.</string>
-    <string name="comment_hint_tv">Udostępnij coś\?</string>
+    <string name="comment_hint_tv">Udostępnisz coś\?</string>
     <string name="msg_all_read">Powiadomienie</string>
     <string name="msg_all_read_msg">Czy na pewno oznaczyć wszystkie jako przeczytane\?</string>
     <string name="user_recommend_tip">Rekomendacje użytkowników</string>
@@ -762,7 +760,7 @@
     <string name="subject_comment">Hashtagi</string>
     <string name="new_subject_comment">Nowy hashtag</string>
     <string name="evaluating">Recenzje</string>
-    <string name="image_text">Opowieść</string>
+    <string name="image_text">Opowieści</string>
     <string name="trends">Post</string>
     <string name="error_hot_data_empty">Brak gorących hashtagów!</string>
     <string name="hot_subject">Gorące Hashtagi</string>
@@ -798,4 +796,7 @@
     <string name="del_account_sure">Twoje konto zostanie usunięte w ciągu 48 godzin. Po usunięciu nie będziesz mógł się zalogować do konta. Skontaktuj się z nami jeśli masz dodatkowe pytania.</string>
     <string name="reply_to">Odpowiedz %1$s:</string>
 
-</resources>
+<string name="invalid_app_asset">Nieprawidłowe informacje o zasobach aplikacji.</string>
+    <string name="like_notification">Powiadomienie o polubieniu</string>
+    <string name="like_notification_msg">Otrzymuj powiadomienia o nowych polubieniach wiadomości</string>
+    </resources>
