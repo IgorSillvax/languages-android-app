@@ -23,7 +23,7 @@
     <string name="app_updates">Aktualizacje aplikacji</string>
     <string name="app_management">Zainstalowane</string>
     <string name="app_uninstall">Odinstaluj</string>
-    <string name="apk_management">Zarządzaj</string>
+    <string name="apk_management">Zarządzaj plikami APK</string>
     <string name="apk_xapk_management">Zarządzanie plikami APK / XAPK</string>
     <string name="download_management">Zarządzaj pobieraniem</string>
     <string name="settings">Ustawienia</string>
@@ -393,7 +393,7 @@
     <plurals name="app_detail_see_all_replies">
 	<item quantity="one">Zobacz całą <xliff:g example="1" id="count">%1$d</xliff:g> odpowiedź</item>
 	<item quantity="few">Zobacz wszystkie <xliff:g example="2" id="count">%1$d</xliff:g> odpowiedzi</item>
-	<item quantity="many"></item>
+	<item quantity="many"/>
 </plurals>
 
     <string name="app_detail_customer_reviews">Komentarze</string>
@@ -558,7 +558,7 @@
     <plurals name="comment_reply_item_fold">
 	<item quantity="one"><xliff:g example="2" id="count">%1$d</xliff:g> Zwiń odpowiedź</item>
 	<item quantity="few"><xliff:g example="2" id="count">%1$d</xliff:g> Zwiń odpowiedzi</item>
-	<item quantity="many"></item>
+	<item quantity="many"/>
 </plurals>
 
     <string name="comment_no_reply">Oj, tu nic nie ma.</string>
