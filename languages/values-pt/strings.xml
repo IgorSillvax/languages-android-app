@@ -178,7 +178,7 @@
 
     <string name="update_all">Atualizar tudo</string>
     <string name="update___count__">Atualização (<xliff:g id="count" example="3">%1$d</xliff:g>)</string>
-    <string name="ignore">Ignorar</string>
+    <string name="ignore">Ignorar da lista</string>
     <string name="unignore">Ignore</string>
     <string name="select">Selecionar</string>
     <string name="cancel">Cancelar</string>
@@ -237,7 +237,7 @@
 
     <string name="changing_language">Alterando o idioma, aguarde…</string>
     <string name="download_via_wifi_only">Transferir apenas através do Wi-Fi</string>
-    <string name="enable_ultra_download">Ativar Ultra Download</string>
+    <string name="enable_ultra_download">Ativar modo Ultra Download</string>
     <string name="enable_ultra_download_summary">Ultra Download está em teste beta, deixe-nos saber se você encontrar quaisquer problemas.</string>
     <string name="auto_service_install_accessibility_title">Instalação automática</string>
     <string name="auto_service_install_accessibility_summary">Suporte Android 4.1 ou superior, sem necessidade de permissão de root.</string>
@@ -281,7 +281,7 @@ As funções acima mencionadas suportam o Android 4.1 ou superior, sem necessida
 </xliff:g> 4 respostas</item>
     </plurals>
 
-    <string name="app_detail_customer_reviews">Avaliações de Clientes</string>
+    <string name="app_detail_customer_reviews">Avaliações de Usuário</string>
     <string name="app_detail_comment_type_web">Web</string>
     <string name="app_submit_submit">Enviar…</string>
     <string name="app_submit_anonymous_comment">Comentários anônimos</string>
@@ -298,12 +298,14 @@ As funções acima mencionadas suportam o Android 4.1 ou superior, sem necessida
     <string name="app_submit_reply_to">Responder a</string>
 
     <string name="app_detail_tab_one">Detalhes</string>
-    <string name="app_detail_tab_two">Avaliações</string>
+    <string name="app_detail_tab_two">Grupo</string>
     <string name="app_detail_tab_three">Relacionados</string>
 
-    <string name="download_complete_installation_setting">Opção de instalação após o download</string>
+    <string name="download_complete_installation_setting">Opção de instalação após o download
+\n
+\n</string>
     <string name="reply">Resposta</string>
-    <string name="input_reply_content">O conteúdo de entrada:</string>
+    <string name="input_reply_content">O conteúdo de entrada da resposta</string>
     <string name="publish">Publicar</string>
 
     <string name="load_end">Sem mais dados</string>
@@ -314,24 +316,24 @@ As funções acima mencionadas suportam o Android 4.1 ou superior, sem necessida
 Que é necessário para digitalizar o código QR.</string>
     <string name="zxing_msg_default_status">Coloque o código QR dentro do visor para digitalizá-lo.</string>
     <string name="zxing_msg_parser_status">A digitalização falhou, tente digitalizar o código QR novamente.</string>
-    <string name="recommend">descubra</string>
+    <string name="recommend">Descubra</string>
     <string name="report">informar</string>
-    <string name="app_detail_comment_order_array_default">sortear por definição</string>
-    <string name="app_detail_comment_order_array_most_recent">mais recente</string>
+    <string name="app_detail_comment_order_array_default">Ordenar por predefinição</string>
+    <string name="app_detail_comment_order_array_most_recent">Mais recente</string>
     <string name="app_detail_comment_order_array_new">mais novas</string>
-    <string name="app_detail_comment_order_array_best">quente</string>
+    <string name="app_detail_comment_order_array_best">Melhor</string>
 
-    <string name="download_complete_installation_setting_entries_always">instalar sempre</string>
-    <string name="download_complete_installation_setting_entries_never">nunca instalar</string>
+    <string name="download_complete_installation_setting_entries_always">Sempre instalar</string>
+    <string name="download_complete_installation_setting_entries_never">Nunca instalar</string>
 
-<string name="load_failed_error_not_found">App não listado na loja do APKPure!</string>
+<string name="load_failed_error_not_found">App não está disponível no momento na loja APKPure!</string>
     <string name="check_update_replace">Versão Oficial</string>
     <string name="data_saver_model_summery">Ativar isso reduzirá o tamanho e a qualidade da imagem para ajudar a usar menos dados de celular.</string>
     <string name="app_detail_comment_join_group_bt">Grupo</string>
     <string name="download_mkdir">Caminho de download</string>
-    <string name="download_mkdir_external_storage_fill_toast">O armazenamento insuficiente disponível pode fazer com que você não baixe nenhum aplicativo.</string>
+    <string name="download_mkdir_external_storage_fill_toast">O armazenamento insuficiente disponível, pode causar falhas ao realizar o download de aplicativos.</string>
 
-    <string name="reply_dialog_marked_words">Mantenha pressionado a imagem selecionada para exclui-la.</string>
+    <string name="reply_dialog_marked_words">Pressione a imagem selecionada para excluir.</string>
     <string name="save_original_image">Salve</string>
     <string name="scan_qr_code_result_title">Resultado</string>
     <string name="scan_qr_code_result_copy_text">Copia texto</string>
@@ -375,5 +377,36 @@ Que é necessário para digitalizar o código QR.</string>
     <string name="message_notifications_reply">Respondeu seu comentário</string>
     <string name="message_notifications_login">Por favor, faça o login para ver esta página.</string>
     <string name="beta">Beta</string>
-    <string name="data_saver_model">Data salvada</string>
+    <string name="data_saver_model">Economizador de dados</string>
+    <string name="check_update_beta">Beta em fase de teste.</string>
+    <string name="history_version">Histórico de versões</string>
+
+    <string name="app_detail_tab_evaluation">Comentários</string>
+    <string name="app_detail_comment_filter_sort_score">Mais votado</string>
+    <string name="app_detail_comment_filter_all">Todos Comentários</string>
+    <string name="app_detail_comment_filter_version">Última versão</string>
+    <string name="app_detail_comment_score_less">Algumas classificações de usuários</string>
+    <string name="app_detail_comment_no_data">Nenhuma classificação de usuários encontrada, adicione sua classificação agora</string>
+    <string name="app_detail_comment_score_footer">Há avaliações em outros idiomas.</string>
+    <string name="app_detail_evaluation_tool_bar_title">Compartilhar comentário</string>
+    <string name="app_detail_evaluation_failed_bt">Comentário</string>
+
+    <string name="app_detail_comment_order_array_old">Velho</string>
+
+    <string name="app_detail_comment_order_array_good">4 - 5</string>
+    <string name="app_detail_comment_order_array_bad">1 - 3</string>
+    <string name="app_detail_folded_footer_reviews">Ver todos os comentários</string>
+    <string name="app_detail_folded_footer_posts">Ver todas as postagens</string>
+    <string name="app_detail_discuss_filter_featured">Destaques</string>
+    <string name="app_detail_discuss_filter_folded">Guardado</string>
+
+
+    <string name="download_complete_installation_setting_entries_only">Instale apenas quando o aplicativo estiver na frente</string>
+    <string name="download_mkdir_internal_storage_size_des">Totalmente Gratuito</string>
+    <string name="download_mkdir_internal_storage_entries">Memória Externa</string>
+    <string name="download_mkdir_internal_storage_entries1">Memória Opcional</string>
+    <string name="download_mkdir_internal_storage_values">Memória Interna</string>
+    <string name="download_mkdir_external_storage_values">Memoria Externa</string>
+
+    <string name="reply_comment">Responder o comentário</string>
     </resources>
