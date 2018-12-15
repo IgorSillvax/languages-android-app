@@ -3,7 +3,7 @@
 
     <string name="action_settings">Parametrlər</string>
     <string name="action_search">Axtar</string>
-    <string name="action_management">Rəhbərlik</string>
+    <string name="action_management">İdarəetmə</string>
 
     <string name="press_back_key_quit">Çıxmaq üçün bir daha basın.</string>
 
@@ -23,7 +23,7 @@
 
     <string name="management">İdarəetmə</string>
     <string name="app_updates">Tətbiq Təzələmələri</string>
-    <string name="app_management">Tətbiq İdarəetmə</string>
+    <string name="app_management">Yükləndi</string>
     <string name="app_uninstall">Tətbiq Silmək</string>
     <string name="apk_management">APK İdarəetmə</string>
     <string name="apk_xapk_management">APK / XAPK İdarəetmə</string>
@@ -70,10 +70,10 @@
     <string name="_name__is_up_to_date"><xliff:g id="name" example="APKPure">%1$s</xliff:g> bu ən son versiyadır.</string>
     <string name="join_us">Bizə Qatıl</string>
     <string name="search_history">Tarixçə</string>
-    <string name="clear_search_history">Tarixçəni Təmizlə</string>
+    <string name="clear_search_history">Bütün tarixçəni təmizlə</string>
 
     <string name="improvement_plan_title">Performans Yaxşılaşdırma Planı</string>
-    <string name="search_for_apps">Tətbiq Axtar</string>
+    <string name="search_for_apps">APKPure\' də Axtar</string>
     <string name="trending_searches">Trend Axtarışlar</string>
     <string name="search">Axtar</string>
     <string name="want_to_remove_download_item">Bu yükləməni silmək istəyirsiniz?</string>
@@ -149,12 +149,10 @@
     <string name="deselect_all">Hamsını Seçmə</string>
     <string name="ignored">Bloklandı</string>
     <plurals name="total__count__apps__size_">
-	<item quantity="one">"
- Cəmi: &lt;b&gt;&lt;font color=%1$d&gt;%2$d&lt;/font&gt;&lt;/b&gt; tətbiq, &lt;b&gt;&lt;font color=%1$d&gt;%3$s&lt;/font&gt;&lt;/b&gt;
- "</item>
-	<item quantity="other">"
- Cəmi: &lt;b&gt;&lt;font color=%1$d&gt;%2$d&lt;/font&gt;&lt;/b&gt; apps, &lt;b&gt;&lt;font color=%1$d&gt;%3$s&lt;/font&gt;&lt;/b&gt;
- "</item>
+	<item quantity="one">"Cəmi: &lt;b&gt;&lt;font color=%1$d&gt;%2$d&lt;/font&gt;&lt;/b&gt; tətbiq, &lt;b&gt;&lt;font color=%1$d&gt;%3$s&lt;/font&gt;&lt;/b&gt;
+\n "</item>
+	<item quantity="other">"Cəmi: &lt;b&gt;&lt;font color=%1$d&gt;%2$d&lt;/font&gt;&lt;/b&gt; tətbiqlər, &lt;b&gt;&lt;font color=%1$d&gt;%3$s&lt;/font&gt;&lt;/b&gt;
+\n "</item>
 </plurals>
     <string name="_name__download_failed"><xliff:g example="APKPure" id="name">%1$s</xliff:g> yükləmə uğursuz</string>
     <string name="io_error">Xəta.Quraşdırma üçün lazımi qədər yer olmaya bilər.</string>
@@ -191,9 +189,7 @@
     <string name="invalid_app_asset">Keçərsiz tətbiq məllumatları.</string>
     <string name="failed_to_request_app_detail">Tətbiqin məllumat istəyi uğursuz oldu.</string>
     <string name="failed_to_request_app_asset">Tətbiqin internet məllumatı istəyi uğursuz oldu.</string>
-       <string name="incompatible_this_app">"
- &lt;big&gt;&lt;b&gt;&lt;font color=%1$d&gt;Sizin cihazınız bu tətbiqi dəstəkləmir.&lt;/font&gt;&lt;/b&gt;&lt;/big&gt;&lt;br&gt;&lt;br&gt;Davam etdirmək istəyirsiniz?
- "</string>
+       <string name="incompatible_this_app">&lt;big&gt;&lt;b&gt;&lt;font color=%1$d&gt;Sizin cihazınız bu tətbiqi dəstəkləmir.&lt;/font&gt;&lt;/b&gt;&lt;/big&gt;&lt;br&gt;&lt;br&gt;Davam etdirmək istəyirsiniz\?</string>
       <string name="this_app_not_usable">"
  &lt;big&gt;
 &lt;b&gt;&lt;font color=%1$d&gt;Bu tətbiq faydalı ola bilməyə bilər.&lt;/font&gt;&lt;/b&gt;&lt;/big&gt;&lt;br&gt;&lt;br&gt;Davam etdirmək istəyirsiniz?
@@ -208,17 +204,14 @@
  </string>
 
     <string name="share">Paylaş</string>
-    <string name="share_app_url">Yüklə 
-<xliff:g id="app_name" example="APKPure">%1$s</xliff:g> APK (dan @
-<xliff:g id="social_network_name" example="APKPure">%2$s</xliff:g>), 
-<xliff:g id="app_url" example="https://apkpure.com/p/com.apkpure.aegon">%3$s</xliff:g></string>
+    <string name="share_app_url"> Paylaş <xliff:g example="APKPure" id="app_name">%1$s</xliff:g> APK (from <xliff:g example="APKPure" id="social_network_name">%2$s</xliff:g>) <xliff:g example="https://apkpure.com/p/com.apkpure.aegon" id="app_url">%3$s</xliff:g> </string>
 
     <string name="_name__version_history"><xliff:g example="APKPure" id="name">%1$s</xliff:g> Əvvəlki Versiyalar</string>
     <string name="update__date___size_">Yenilə: <xliff:g example="Mar 3, 2016" id="date">%1$s</xliff:g>, <xliff:g example="1024 kB" id="size">%2$s</xliff:g></string>
 
     <string name="update_all">Hamsını Yeniləşdir</string>
     <string name="update___count__">Yenilə (<xliff:g example="3" id="count">%1$d</xliff:g>)</string>
-    <string name="ignore">Blokla</string>
+    <string name="ignore">Siyahıdan yox say</string>
     <string name="unignore">Blokdan Çıxart</string>
     <string name="select">Seç</string>
     <string name="cancel">Ləğv et</string>
@@ -236,7 +229,7 @@
     <string name="enable">İcazə Vermək</string>
 
     <string name="download_via_wifi_only">Yalnız Wi-Fi vasitəsilə yüklə</string>
-    <string name="enable_ultra_download">Ultra Yükləməyi Aktivləşdir</string>
+    <string name="enable_ultra_download">Ultra yükləməni aktivləşdir</string>
     <string name="enable_ultra_download_summary">Ultra Yükləmə beta sınaqdadır, əgər hər hansı problemlər yaranarsa bizə məlumat verin.</string>
 <string name="auto_service_install_accessibility_title">Avtomatik quraşdırma</string>
     <string name="auto_service_install_accessibility_summary">Dəstəkləyir 4.1 + Android, root ehtiyac yoxdur.</string>
@@ -284,9 +277,9 @@ Yuxarıdaki funksiyalar Android 4.1+ versiyada dəstəklənməktədir, root ehti
 	<item quantity="other">Hamsını Seç <xliff:g example="2" id="count">%1$d</xliff:g> cavabla</item>
 </plurals>
 
-    <string name="app_detail_customer_reviews">Müştəri Şərhlər</string>
+    <string name="app_detail_customer_reviews">Şərhlər</string>
     <string name="app_detail_comment_type_web">web</string>
-    <string name="app_submit_submit">Təsdiq etmək…</string>
+    <string name="app_submit_submit">Göndər…</string>
     <string name="app_submit_anonymous_comment">Şərh əlavə et</string>
     <string name="app_submit_title_toast">Siz adınızı yazmamısız!</string>
     <string name="app_submit_msg_toast">Siz heçnə yazmamısız!</string>
@@ -297,16 +290,16 @@ Yuxarıdaki funksiyalar Android 4.1+ versiyada dəstəklənməktədir, root ehti
     <string name="app_submit_msg_hint">Xahiş edirik fikrinizi yazın</string>
     <string name="app_submit_nickname">Ləqəb</string>
     <string name="app_submit_email">E-mail</string>
-    <string name="app_submit_submit_title">Təqdim etmək</string>
+    <string name="app_submit_submit_title">Göndər</string>
     <string name="app_submit_reply_to">cavab</string>
     <string name="app_detail_reply_comment">Şərh(%d)</string>
     <string name="app_detail_tab_one">Ətraflı</string>
-    <string name="app_detail_tab_two">Şərhlər</string>
+    <string name="app_detail_tab_two">Qrup</string>
     <string name="app_detail_tab_three">Oxşar</string>
 
     <string name="app_detail_comment_order_array_recent">Sonuncu</string>
     <string name="app_detail_comment_order_array_newest">Yeni</string>
-    <string name="app_detail_comment_order_array_best">Qaynar</string>
+    <string name="app_detail_comment_order_array_best">Ən yaxşı</string>
 
     <string name="download_complete_installation_setting_entries_always">Həmişə quraşdırmaq</string>
     <string name="download_complete_installation_setting_entries_never">Heç vaxt quraşdırma</string>
@@ -315,10 +308,10 @@ Yuxarıdaki funksiyalar Android 4.1+ versiyada dəstəklənməktədir, root ehti
     <string name="publish">Göndər</string>
     <string name="reply_dialog_marked_words">Şəkli silmək üçün basılı tutun.</string>
     <string name="reply_comment">Şərh cavab</string>
-    <string name="already_save">Saxlamaq <xliff:g id="path" example="ApKPure/photo">%1$s</xliff:g></string>
+    <string name="already_save">Saxlanıldı<xliff:g example="ApKPure/photo" id="path">%1$s</xliff:g></string>
 
     <string name="load_end">Əlavə data yoxdur</string>
-    <string name="load_failed_click_retry">Yükləmə alınmadı, bas və birdə yoxla</string>
+    <string name="load_failed_click_retry">Bir şey yanlış getdi. Yenidən cəhd etmək üçün basın</string>
     <string name="loading">Açılır…</string>
 
     <string name="permission_denied">Giriş qadağandır!</string>
@@ -338,7 +331,7 @@ Yuxarıdaki funksiyalar Android 4.1+ versiyada dəstəklənməktədir, root ehti
     <string name="user_info_edit_email_tv">E-mail</string>
     <string name="user_info_edit_gender_tv">Cins</string>
     <string name="user_info_edit_birthday_tv">Doğum tarixi</string>
-    <string name="user_info_edit_change_pwd_tv">Parolu dəyiş</string>
+    <string name="user_info_edit_change_pwd_tv">Parolu Dəyiş</string>
     <string name="user_info_edit_login_out_tv">Çıxış</string>
     <string name="user_info_edit_not_choose">Naməlum</string>
     <string name="user_info_edit_gender_male">Kişi</string>
@@ -367,7 +360,7 @@ Yuxarıdaki funksiyalar Android 4.1+ versiyada dəstəklənməktədir, root ehti
     <string name="update_pwd_new_pwd_null_tv">Yeni parol boş ola bilməz</string>
     <string name="update_pwd_new_confrim_tv">Daxil etdiyiniz parol uyğun gəlmir</string>
     <string name="update_pwd_save_bt">Yadda saxla</string>
-    <string name="update_save_success">Uğurla Yadda Saxlanıldı!</string>
+    <string name="update_save_success">Saxlanıldı.</string>
     <string name="crop__cancel" ignore="ButtonCase">Ləğv et</string>
     <string name="crop__done">Etmək</string>
     <string name="crop__pick_error">Etibarsız fayl növü</string>
@@ -376,12 +369,12 @@ Yuxarıdaki funksiyalar Android 4.1+ versiyada dəstəklənməktədir, root ehti
 
     <string name="is_comment">Şərh ondan ibarətdir…</string>
     <string name="comment_cancel">Şərh ləğv edildi</string>
-    <string name="comment_replying">Cavabın Təqdim edilməsi…</string>
+    <string name="comment_replying">Cavablanır…</string>
     <string name="set_contributor">Əməkdaşlar</string>
     <string name="set_permissions">İcazələr</string>
     
     <string name="sign_in_services_key">Şərtlər</string>
-    <string name="sign_in_services_key_policy">Məxfilik Siyasəti</string>
+    <string name="sign_in_services_key_policy">Məxfilik siyasəti</string>
 
     <string name="user_sign_up">Qeydiyyatdan Keç</string>
     <string name="user_name_hint">İsdifadəçi adı</string>
@@ -389,7 +382,7 @@ Yuxarıdaki funksiyalar Android 4.1+ versiyada dəstəklənməktədir, root ehti
     <string name="user_password">Parol(6–32)</string>
     <string name="user_password_confirm">Parolu Təsdiqlə</string>
 
-    <string name="login_user_name">İsdifadəçi adı</string>
+    <string name="login_user_name">İsdifadəçi adı və ya e-poçt</string>
     <string name="login_user_password">Parol</string>
     <string name="login_user_sign_in">Giriş</string>
     <string name="user_email_error">Bu e-mail unvanı yanlışdır</string>
@@ -402,22 +395,250 @@ Yuxarıdaki funksiyalar Android 4.1+ versiyada dəstəklənməktədir, root ehti
 
 <string name="user_name_error">İstifadəçi adı hər hansı bir xüsusi simvol simvol və ya boşluq ola bilməz</string>
     <string name="user_nickname_error">Ləqəbdə hər hansı bir xüsusi simvol və ya boşluq ola bilməz</string>
-    <string name="share_app_url_comment"> <xliff:g example="APKPure" id="user_name">%1$s</xliff:g>şərh
- <xliff:g example="APKPure" id="app_name">%2$s</xliff:g> (dən @
-<xliff:g example="APKPure" id="social_network_name">%3$s</xliff:g>),
- <xliff:g example="https://apkpure.com/p/com.apkpure.aegon" id="app_url">%4$s</xliff:g></string>
+    <string name="share_app_url_comment"> <xliff:g example="APKPure" id="user_name">%1$s</xliff:g> adlı istifadəçinin <xliff:g example="APKPure" id="app_name"> %2$s tətbiqinə şərhləri</xliff:g> : <xliff:g example="APKPure" id="app_name"> %3$s</xliff:g><xliff:g example="APKPure" id="social_network_name">%4$s</xliff:g><xliff:g example="https://apkpure.com/p/com.apkpure.aegon" id="app_url">%5$s</xliff:g></string>
 
     <string name="app_detail_reply_esc">正序</string>
     <string name="app_detail_reply_desc">倒序</string>
     <string name="app_detail_reply_floor">%d楼</string>
 
-    <string name="download_complete_installation_setting_entries_only">Yalnız qarşısında zaman tətbiq yüklemek</string>
+    <string name="download_complete_installation_setting_entries_only">Yalnız tətbiq açıq ikən yüklə</string>
     <string name="input_reply_content">Cavabı daxil edin:</string>
     <string name="app_detail_comment_order_array_default">Standart sırala</string>
     <string name="app_detail_comment_order_array_most_recent">Sonuncular</string>
     <string name="app_detail_comment_order_array_new">Yeni</string>
-    <string name="save_original_image">Orijinal şəkli qoru</string>
+    <string name="save_original_image">Yadda saxla</string>
     <string name="check_update_replace">Rəsmi versiya</string>
     <string name="upload_add_list_toast">Şərhiniz sıraya daxildir!</string>
-<string name="load_failed_error_not_found">Proqram APKPure mağazasıbda mövcud deyil.</string>
+<string name="load_failed_error_not_found">Proqram APKPure də mövcud deyil.</string>
+    <string name="check_update_beta">Ön-Buraxılış Beta</string>
+    <string name="beta">"Beta "</string>
+    <string name="properties_message_v2">&lt;b&gt;Paket Adı:&lt;/b&gt; %1$s&lt;br&gt;&lt;b&gt;Versiya:&lt;/b&gt; %2$s&lt;br&gt;&lt;b&gt;Path:&lt;/b&gt; %3$s&lt;br&gt;&lt;b&gt;Ölçü:&lt;/b&gt; %4$s&lt;br&gt;&lt;b&gt;Son Dəyişiklik:&lt;/b&gt; %5$s</string>
+    <string name="history_version">Versiya Tarixi</string>
+
+    <string name="share_app_url_group"> <xliff:g example="APKPure" id="app_name">%1$s</xliff:g>Grup. (<xliff:g example="APKPure" id="social_network_name">%2$s</xliff:g>\'dan)<xliff:g example="https://apkpure.com/p/com.apkpure.aegon" id="app_url">%3$s</xliff:g></string>
+
+    <string name="data_saver_model">Data qoruyucu</string>
+    <string name="data_saver_model_summery">Bunu açmaq, daha az mobil məlumatdan istifadə etmək üçün şəkil ölçüsünü və keyfiyyətini azaldır.</string>
+    <string name="app_detail_tab_evaluation">Rəylər</string>
+    <string name="app_detail_comment_filter_sort_score">Ən çox səs alan</string>
+    <string name="app_detail_comment_filter_all">Bütün rəylər</string>
+    <string name="app_detail_comment_filter_version">Ən son versiya</string>
+    <string name="app_detail_comment_score_less">Çox az istifadəçi qiymətləndirilməsi</string>
+    <string name="app_detail_comment_no_data">İstifadəçi qiymətləndirilməsi tapılmadı, qiymətləndirmənizi indi daxil edin.</string>
+    <string name="app_detail_comment_score_footer">Digər dillərdən %1$s incələmə var.</string>
+    <string name="app_detail_evaluation_tool_bar_title">Bir baxış paylaş</string>
+    <string name="app_detail_evaluation_failed_bt">Baxış</string>
+
+    <string name="app_detail_comment_order_array_old">Köhnə</string>
+
+    <string name="app_detail_comment_order_array_good">4-5</string>
+    <string name="app_detail_comment_order_array_bad">1-3</string>
+    <string name="app_detail_folded_footer_reviews">Gizlənmiş %d incələmənin hamısını incələ</string>
+    <string name="app_detail_folded_footer_posts">Gizlənmiş %d postun hamısını gör</string>
+    <string name="app_detail_discuss_filter_featured">Vurğular</string>
+    <string name="app_detail_discuss_filter_folded">Gizlənmiş</string>
+
+
+    <string name="app_detail_comment_join_group_bt">Grup</string>
+
+
+    <string name="download_mkdir">Yükləmə yolu</string>
+    <string name="download_mkdir_internal_storage_size_des">%1$s boş, cəmi %2$s</string>
+    <string name="download_mkdir_internal_storage_entries">SD</string>
+    <string name="download_mkdir_internal_storage_entries1">SD 1</string>
+    <string name="download_mkdir_external_storage_fill_toast">Kifayət qədər boş yer olmadığından, heç bir tətbiq yükləyə bilməzsiniz.</string>
+
+    <string name="download_mkdir_internal_storage_values">daxili_yaddaş</string>
+    <string name="download_mkdir_external_storage_values">xarici_yaddaş</string>
+
+    <string name="scan_qr_code_hint">QR Code istifadə etməzdən əvvəl, QR kodunu skanlamağa kamera icazəsi verməlisiniz.</string>
+    <string name="zxing_msg_default_status">Xahiş edirik QR kodunu vizörün daxilində yerləşdirin.</string>
+    <string name="zxing_msg_parser_status">Tarama aparıla bilmədi, QR kodunu tarayaraq yenidən cəhd edin.</string>
+    <string name="scan_qr_code_result_title">Nəticə</string>
+    <string name="scan_qr_code_result_copy_text">Mətni kopyala</string>
+    <string name="scan_qr_code_result_hint">QR code detalları：</string>
+    <string name="scan_qr_code_copy_success">Mətn kopyalandı</string>
+
+    <string name="tip_permission_camera_storage">Kamera və SD kartı istifadə etmək üçün icazə yoxdur, lazimi icazələri verin</string>
+    <string name="user_info_edit_large_photo">Şəkili daha böyük ölçüdə göstər</string>
+
+    <string name="user_info_edit_intro_tv">Haqqımda</string>
+    <string name="update_intro_title">Mənim haqqında redaktə edin</string>
+    <string name="update_intro_et">Özünüz haqqında bəzi məlumatlar yazın</string>
+    <string name="update_intro_tv">Mənim haqqımda sahəsi boş ola bilməz</string>
+
+    <string name="message_all">HAMISI</string>
+    <string name="message_reply">CAVABLAR</string>
+    <string name="home_message_reply">Şərhlər</string>
+    <string name="message_notifications_praise">Şərhinizi səslədi</string>
+    <string name="message_praise">BƏYƏNİLƏR</string>
+    <string name="home_message_praise">Bəyənilər</string>
+    <string name="message_notify">Bildirişlər</string>
+    <string name="message_notifications_reply">Şərhinizi cavablandırdı</string>
+    <string name="message_notifications_login">Bu səhifəni görmək üçün giriş yapın.</string>
+    <string name="message_at_title">Danışmalar</string>
+    <string name="message_at">Səndən bəhs etti</string>
+
+    <string name="comment_submitting">Göndərilir…</string>
+    <string name="register_term_of_service">APKPure Xidmət Şərtləri</string>
+
+    <string name="set_open_source_licence">Açıq mənbə lisenziyası</string>
+
+    <string name="sign_in_services">Qeydiyyatdan keçməklə bizim Şərtlər və Məxfilik Siyasətimizi qəbul edirsiniz.</string>
+
+    <string name="sign_in_services_key_policy_register">Məxfilik Siyasəti</string>
+    <string name="user_name_null">İstifadəçi adı etibarsızdır</string>
+    <string name="message">Mesaj</string>
+
+    <string name="push_title_info_reply">%1$s şərhinizə cavab verdi!</string>
+    <string name="push_title_info_upvoted">%1$s şərhinizi bəyəndi!</string>
+    <string name="push_title_info_follow">%1$s səni izlədi!</string>
+    <string name="push_title_info_update">APKPure Yeniləmə gəldi!</string>
+    <string name="push_content_info_update">Yeni versiya %1$s çıxdı! İndi yeniləyin!</string>
+    <string name="push_title_info_at">Biri səni bir postda xatırlatdı, görmək üçün klikləyin</string>
+
+    <string name="download_list">Yükləmə siyahısı</string>
+    <string name="can_be_update">Yenilənə bilər</string>
+    <string name="install_list">Yükləndi</string>
+    <string name="no_download">Heç bir tətbiq endirilməyib.</string>
+    <string name="downloads">Yükləmələr</string>
+
+    <string name="change_language_failed">Dil dəyişdirmə uğursuz oldu!</string>
+    <string name="comment_reply_tell_msg">Bu şərh ləğv edildi!</string>
+
+    <string name="notification_setting">Bildirişlər</string>
+    <string name="reply_notification">Cavab bildirişləri</string>
+    <string name="reply_notification_msg">Yeni cavab mesajlarına dair bildirişlər alın</string>
+    <string name="like_notification">Dəstək bildirişləri</string>
+    <string name="like_notification_msg">Yeni dəstək mesajlarına dair bildirişlər alın</string>
+    <string name="gif_tip">Hərəkətli rəsm</string>
+    <string name="ad_tip">reklam</string>
+    <string name="submit_comment_title_hint">Başlıq</string>
+
+    <string name="comment_vote_string">Bəyəni</string>
+    <string name="comment_reply_three">Cavab</string>
+    <string name="comment_item_fold">Şərh çökdü</string>
+
+    <plurals name="comment_reply_item_fold">
+	<item quantity="one"><xliff:g example="1" id="count">%1$d</xliff:g> Şərh çökdü</item>
+	<item quantity="other"><xliff:g example="2" id="count">%1$d</xliff:g> Şərhlər çökdü</item>
+</plurals>
+
+    <string name="comment_no_reply">Vau, burda heç bir şey yoxdur.</string>
+    <string name="comment_reply_info_name">Detallar</string>
+    <string name="set_updates_notification">Tətbiq yeniləmələri mövcuddur</string>
+    <string name="set_updates_notification_msg">Tətbiq yeniləmələri mövcud olduqda bildir. Təklif olunan qurma: Açıq</string>
+    <string name="app_detail_unknow_text">Əvvəlki versiya APKPure yeni xüsusiyyətləri dəstəkləmir, ən sonuncu versiyaya yeniləyin.</string>
+    <string name="comment_detail_original">Orijinal Şərhə Bax&gt;</string>
+    <string name="comment_comment_newest">Ən yeni</string>
+    <string name="comment_comment_oldest">Ən köhnə</string>
+
+    <string name="edit">Redaktə et</string>
+    <string name="menu_copy">Köçür</string>
+    <string name="menu_copy_link">Linki köçür</string>
+    <string name="menu_cancel">Ləğv edin</string>
+    <string name="delete_all_download_history">Bütün yükləmə tarixini silin\?</string>
+    <string name="delete_the_historical_record">Tarixi keçmişi silmək\?</string>
+    <string name="download_history">Tarixi yükləyin</string>
+
+    <string name="sub_comment_dialog_title">Video əlavə et</string>
+    <string name="sub_comment_dialog_des_tv">Yalnız Youtube videolarını dəstəkləyir.</string>
+    <string name="sub_comment_dialog_link_et">Video ünvanını buraya daxil edin.</string>
+    <string name="sub_comment_dialog_link_null">Video URL ünvanı boş ola bilməz</string>
+    <string name="sub_comment_progress_msg">Video əlavə edilir …</string>
+
+    <string name="play_button">Oynat düyməsi</string>
+    <string name="null_time">0:00</string>
+    <string name="open_video_in_youtube">Videonu YouTube də açın</string>
+    <string name="full_screen_button">Tam ekran düyməsi</string>
+
+    <string name="main_tab_home">ANA SƏHİFƏ</string>
+    <string name="main_tab_ranking">SIRALAMA</string>
+    <string name="tab_group">GRUP</string>
+    <string name="main_tab_my">MƏN</string>
+
+    <string name="main_comment">şərh</string>
+    <string name="main_won_praise">Bəyənilər</string>
+    <string name="main_my_comments">Postlar</string>
+    <string name="main_my_collection">Favoritlər</string>
+    <string name="main_my_message">Mesajlar</string>
+    <string name="main_good_comments">Dəstəkləndi</string>
+    <string name="main_app_management">Tətbiq İdarəetməsi</string>
+    <string name="main_topic_selection">Mövzular</string>
+    <string name="main_night_mode">Gecə Modu</string>
+    <string name="please_login_first">Xahiş edirik ilk giriş edin</string>
+    <string name="no_choice">Seçim yoxdur</string>
+    <string name="follow_on_success">Izlənildi.</string>
+    <string name="follow_un_success">İzlənilmədən çıxarıldı.</string>
+    <string name="canceled">Ləğv edildi</string>
+    <string name="group">Grup</string>
+    <string name="collection">Favoritlər</string>
+    <string name="cancel_collection">Favoritlərdən çıxar</string>
+
+    <string name="follow">İzlənilən</string>
+    <string name="attention_on">İzlənilir</string>
+    <string name="attention_off">İzlə</string>
+    <string name="no_attention">Hələlik izlənilən grup yoxdur.</string>
+    <string name="browsing_history">Axtarış tarixçəsi</string>
+    <string name="browsing_history_prompt">Axtarış tarixini təmizləmək istəyirsiniz\?</string>
+
+    <string name="ranking_tab1_title">Ən Yaxşı Oyunlar</string>
+    <string name="ranking_tab2_title">Ən Yeni Oyunlar</string>
+    <string name="ranking_tab3_title">Ən Yaxşı Tətbiqlər</string>
+    <string name="ranking_tab4_title">Ən Yeni Tətbiqlər</string>
+    <string name="ranking_top_countries_title">Bölünən Sıralama</string>
+    <string name="ranking_top_develop_title">Ən Yaxşı Developerlər</string>
+
+    <string name="app_detail_three_fragment_foot">Bütün şərhləri göstər</string>
+    <string name="menu_paste">Yapışdır</string>
+
+    <string name="favorite_title">Sevimli</string>
+    <string name="save_as_favorite">Favorit olaraq saxla</string>
+    <string name="favorite_saved">Favoritlərə əlavə edildi.</string>
+    <string name="failed_to_save_favorite">Favoritlərdə saxlamaq uğursuz oldu</string>
+    <string name="remove_as_favorite">Favoritlərdən çıxarın</string>
+    <string name="remove_failed">Çıxarmaq uğursuz oldu</string>
+
+    <string name="collection_comment">Paylaşımlar</string>
+    <string name="collection_app">TƏTBİQLƏR</string>
+
+    <string name="open_with_browser">Brauzer ilə aç</string>
+    <string name="web_view_refresh">Yenilə</string>
+    <string name="web_view_copy">Linki kopyala</string>
+
+    <string name="topic_red_color">Qırmızı</string>
+    <string name="topic_green_color">Şanslı yaşıl</string>
+    <string name="topic_blue_color">Göy mavisi</string>
+    <string name="topic_purple_color">Qara bənövşəyi</string>
+    <string name="topic_purple_black">Sərin gri</string>
+    <string name="topic_purple_yellow">Ərik narıncı</string>
+    <string name="topic_purple_blue_gary">Hava mavisi</string>
+    <string name="topic_switch_failed">Mövzu dəyişmək uğursuz oldu</string>
+
+    <string name="recommend_title">Tövsiyələr</string>
+    <string name="recommend_tab_game">Bir tətbiq tövsiyə et</string>
+    <string name="recommend_tab_list">Tövsiyə</string>
+    <string name="recommend_installed_list_title">Mənim Tətbiqlərim</string>
+    <string name="recommend_review">Ön görünüş</string>
+    <string name="recommend_replace_img">Şəkil dəyişdirin</string>
+    <string name="recommend_app_name">Tətbiq başlığı</string>
+    <string name="recommend_state_can">Tövsiyə edilən</string>
+    <string name="recommend_state_success">Tövsiyə edildi</string>
+    <string name="recommend_select_game">Bir tətbiq tövsiyə et</string>
+    <string name="recommend_write_des">Açıqlama</string>
+    <string name="recommend_write_des_hint">Sizinlə eyni maraq göstərən daha çox istifadəçi tərəfindən faydalı bir baxış olacaq.</string>
+    <string name="recommend_comment">Göndər</string>
+    <string name="recommend_comment_error">Bir şey səhv oldu!</string>
+    <string name="recommend_description_title">Təlimatlar:</string>
+    <string name="recommend_description">1. Təsdiq olunmuş tövsiyələr DISCOVER bölməsində veriləcəkdir. 2. Yalnız Android cihazınızda quraşdırılmış tətbiqləri tövsiyə edə bilərsiniz. 3. İndekslənməmiş tətbiqləri əlavə etmək üçün APKPure-ə bildirin, ilk növbədə tövsiyə formasını doldurun.</string>
+    <string name="recommend_user_recommend">%1$s tərəfindən tövsiyə edildi</string>
+    <string name="recommend_required">*</string>
+    <string name="recommend_not_found">İndekslənməmiş</string>
+    <string name="recommend_not_fount_info">APKPure-ə \"%1$s\" əlavə etməsini bildirin, formaları bitirmək lazımdır.</string>
+    <string name="recommend_user_recommend_sys">APKPure tərəfindən səsləndirilib</string>
+
+    <string name="user_detail_focus">Izlənilir</string>
+    <string name="user_detail_fans">İzləyənlər</string>
+    <string name="user_detail_praise">Bəyənilər</string>
+
     </resources>
