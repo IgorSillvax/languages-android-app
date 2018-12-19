@@ -298,7 +298,7 @@ APKPure의 기능을 보장하기 위해，APKPure가 당신의 앱 정리“화
     <string name="app_submit_reply_to">답글을</string>
 
     <string name="app_detail_tab_one">세부 사항</string>
-    <string name="app_detail_tab_two">게시물</string>
+    <string name="app_detail_tab_two">그룹</string>
     <string name="app_detail_tab_three">관련된</string>
 
     <string name="app_detail_tab_evaluation">리뷰</string>
@@ -349,7 +349,7 @@ APKPure의 기능을 보장하기 위해，APKPure가 당신의 앱 정리“화
 \n<xliff:g example="ApKPure/사진" id="경로">%1$s</xliff:g></string>
 
     <string name="load_end">데이터가 없습니다</string>
-    <string name="load_failed_click_retry">로딩 실패, 재시작을 원하시면 클릭하세요</string>
+    <string name="load_failed_click_retry">무언가 잘못됐습니다. 재시도를 위해 클릭해주세요</string>
     <string name="loading">로딩 중…</string>
 
     <string name="scan_qr_code_hint">스캔 QR 코드를 사용하기 전에 QR 코드 스캔에 필요한 카메라 권한을 부여해야 합니다.</string>
@@ -358,7 +358,7 @@ APKPure의 기능을 보장하기 위해，APKPure가 당신의 앱 정리“화
     <string name="scan_qr_code_result_title">결과</string>
     <string name="scan_qr_code_result_copy_text">텍스트 복사</string>
     <string name="scan_qr_code_result_hint">QR 코드 세부사항：</string>
-    <string name="scan_qr_code_copy_success">복사된 텍스트</string>
+    <string name="scan_qr_code_copy_success">텍스트가 복사됐습니다</string>
 
     <string name="tip_permission_camera_storage">카메라 및 SD 카드를 사용할 수 있는 권한이 없습니다, 권한 관리를 실행합니다</string>
     <string name="permission_denied">액세스가 거부되었습니다!</string>
@@ -403,7 +403,7 @@ APKPure의 기능을 보장하기 위해，APKPure가 당신의 앱 정리“화
     <string name="update_intro_tv">내 정보를 작성하십시오</string>
 
     <string name="message_all">모든</string>
-    <string name="message_reply">의견</string>
+    <string name="message_reply">답글</string>
     <string name="message_notifications_praise">귀하의 의견이 업데이트 되었습니다</string>
     <string name="message_praise">좋아요</string>
     <string name="message_notify">알림</string>
@@ -422,7 +422,7 @@ APKPure의 기능을 보장하기 위해，APKPure가 당신의 앱 정리“화
     <string name="update_pwd_new_pwd_null_tv">새로운 비밀번호는 비워둘 수 없습니다</string>
     <string name="update_pwd_new_confrim_tv">입력한 비밀번호가 일치하지 않습니다</string>
     <string name="update_pwd_save_bt">저장</string>
-    <string name="update_save_success">성공적으로 저장하였습니다!</string>
+    <string name="update_save_success">저장했습니다.</string>
     <string name="crop__cancel" ignore="ButtonCase">취소</string>
     <string name="crop__done">다 했어요, 축하해요(^^)</string>
     <string name="crop__pick_error">잘못된 이미지 파일 유형</string>
@@ -437,12 +437,12 @@ APKPure의 기능을 보장하기 위해，APKPure가 당신의 앱 정리“화
 
     <string name="set_contributor">기여자</string>
     <string name="set_permissions">권한</string>
-    <string name="set_open_source_licence">오픈 소스 라이선스</string>
+    <string name="set_open_source_licence">오픈 소스 라이센스</string>
 
     <string name="sign_in_services">귀하의 이용약관 및 개인정보 보호정책에 동의합니다.</string>
 
     <string name="sign_in_services_key">조건</string>
-    <string name="sign_in_services_key_policy">개인정보 보호 정책</string>
+    <string name="sign_in_services_key_policy">개인정보 취급방침</string>
 
     <string name="user_sign_up">등록</string>
     <string name="user_name_hint">사용자 이름</string>
@@ -476,7 +476,7 @@ APKPure의 기능을 보장하기 위해，APKPure가 당신의 앱 정리“화
     <string name="download_list">다운로드 목록</string>
     <string name="can_be_update">업데이트를 할 수 있습니다</string>
     <string name="install_list">설치됨</string>
-    <string name="no_download">다운로드 없음</string>
+    <string name="no_download">다운로드된 앱이 없음</string>
     <string name="downloads">다운로드</string>
 
     <string name="change_language_failed">언어 변경을 실패하였습니다!</string>
@@ -489,7 +489,7 @@ APKPure의 기능을 보장하기 위해，APKPure가 당신의 앱 정리“화
     <string name="like_notification_msg">새로운 찬성 투표에 대한 알림 받기</string>
     <string name="gif_tip">gif</string>
     <string name="ad_tip">광고</string>
-    <string name="submit_comment_title_hint">제목(선택)</string>
+    <string name="submit_comment_title_hint">제목</string>
 
     <string name="comment_vote_string">투표</string>
     <string name="comment_no_reply">우와. 아무 것도 없어요.</string>
@@ -504,4 +504,13 @@ APKPure의 기능을 보장하기 위해，APKPure가 당신의 앱 정리“화
     <string name="menu_cancel">취소</string>
     <string name="delete_all_download_history">모든 다운로드 기록을 지우시겠습니까?</string>
     <string name="delete_the_historical_record">모든 기록을 삭제하시겠습니까?</string>
+    <string name="home_message_reply">의견</string>
+    <string name="home_message_praise">좋아요</string>
+    <string name="sign_in_services_key_policy_register">개인정보 취급방침</string>
+    <string name="comment_reply_three">답글</string>
+    <string name="comment_comment_oldest">가장 오래된</string>
+
+    <string name="edit">수정</string>
+    <string name="download_history">다운로드 기록</string>
+
     </resources>
