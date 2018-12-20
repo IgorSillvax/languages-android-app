@@ -207,7 +207,7 @@
     <string name="report_content">Berichtsinhalt</string>
 
     <string name="update_all">Alle aktualisieren</string>
-    <string name="ignore">ignorieren</string>
+    <string name="ignore">Aus der Liste ignorieren</string>
     <string name="unignore">unignorieren</string>
     <string name="select">Auswahl</string>
     <string name="cancel">Abbrechen</string>
@@ -226,7 +226,7 @@
     <string name="total_zero_app">
         <![CDATA[Gesamt:: <b><font color="%1$d">0</font></b>  App]]>
     </string>
-    <string name="enable_ultra_download">Ultra-Download einschalten</string>
+    <string name="enable_ultra_download">Ultra-Download aktivieren</string>
     <string name="enable_ultra_download_summary">Ultra-Download ist in der Betaphase, teile uns eventuelle Probleme mit.</string>
     <string name="installation">Installation</string>
     <string name="show_notification_after_installation">Benachrichtigung nach Installation zeigen</string>
@@ -295,7 +295,7 @@ Die genannten Funktionen werden ab Android 4.1 unterstützt, es ist kein Root-Zu
     <string name="app_submit_reply_to">Antwort an</string>
 
     <string name="app_detail_tab_one">Details</string>
-    <string name="app_detail_tab_two">Posts</string>
+    <string name="app_detail_tab_two">Gruppe</string>
     <string name="app_detail_tab_three">Ähnlich</string>
 
     <string name="app_detail_comment_order_array_default">Standardsortierung</string>
@@ -572,9 +572,9 @@ Die genannten Funktionen werden ab Android 4.1 unterstützt, es ist kein Root-Zu
     <string name="play_button">Play-Button</string>
     <string name="history_version">Versions Verlauf</string>
 
-    <string name="load_failed_error_not_found">App wurde nicht im APKPure App Store gefunden!</string>
+    <string name="load_failed_error_not_found">App wurde nicht in APKPure inkludiert.</string>
     <string name="beta">Test</string>
-    <string name="data_saver_model">Daten-Sparer</string>
+    <string name="data_saver_model">Daten-Speicherung</string>
     <string name="data_saver_model_summery">Wenn Sie diese Option aktivieren, werden Bildgröße und -qualität reduziert, um wenigere mobile Daten zu verwenden.</string>
     <string name="download_mkdir">Download-Pfad</string>
     <string name="download_mkdir_internal_storage_size_des">%1$s frei, %2$s insgesamt</string>
@@ -732,4 +732,6 @@ Die genannten Funktionen werden ab Android 4.1 unterstützt, es ist kein Root-Zu
     <string name="count_down_timer_btn">überspringen</string>
 <string name="filter_no_comment">Ooops! Kein Inhalt gefunden!</string>
 
+    <string name="properties_message_v2">&lt;b&gt;Paket-Name:&lt;/b&gt; %1$s&lt;br&gt;&lt;b&gt;Version:&lt;/b&gt; %2$s&lt;br&gt;&lt;b&gt;Path:&lt;/b&gt; %3$s&lt;br&gt;&lt;b&gt;Größe:&lt;/b&gt; %4$s&lt;br&gt;&lt;b&gt;Zuletzt Bearbeitet:&lt;/b&gt; %5$s</string>
+    <string name="app_detail_tab_evaluation">Rezension</string>
     </resources>
