@@ -374,7 +374,7 @@
     <string name="sign_in_services">شما با ثبت نام از شرایط و سیاست‌های حفظ حریم خصوصی ما موافقت کرده‌ایید.</string>
 
     <string name="sign_in_services_key">شرایط</string>
-    <string name="sign_in_services_key_policy">سیاست‌های حفظ حریم خصوصی</string>
+    <string name="sign_in_services_key_policy">حریم خصوصی</string>
 
     <string name="user_sign_up">ثبت نام</string>
     <string name="user_name_hint">نام‌کاربری</string>
@@ -388,8 +388,8 @@
     <string name="user_password_error">این رمز ورود نامعتبر است</string>
     <string name="user_confirm_error">رمز ورود‌ها باید با هم مطابقت داشته باشد</string>
 
-    <string name="login_user_name">نام‌کاربری</string>
-    <string name="login_user_password">رمز ورود</string>
+    <string name="login_user_name">نام‌کاربری یا ایمیل</string>
+    <string name="login_user_password">گذرواژه</string>
     <string name="login_user_sign_in">ورود</string>
     <string name="login_choose">یا با حساب‌ کاربری خود وارد شوید</string>
     <string name="login_new_user">ثبت نام کاربر جدید</string>
@@ -413,7 +413,7 @@
     <string name="download_list">فهرست دانلود</string>
     <string name="can_be_update">نیاز به‌بروز رسانی دارد</string>
     <string name="install_list">نصب شده است</string>
-    <string name="no_download">هنوز هیچ دانلودی انجام نشده</string>
+    <string name="no_download">هیچ دانلودی انجام نشده</string>
     <string name="downloads">دانلود‌ها</string>
 
     <string name="change_language_failed">تغییر زبان انجام نشد!</string>
@@ -601,9 +601,9 @@
 
     <string name="user_info_edit_large_photo">مشاهده عکس در اندازه بزرگتر</string>
 
-    <string name="push_title_info_follow">%s نفر شما را دنبال می‌کند!</string>
+    <string name="push_title_info_follow">%1$s نفر شما را دنبال می‌کند!</string>
     <string name="push_title_info_update">به‌روزرسانی جدید APKPure آماده هست!</string>
-    <string name="push_content_info_update">نسخه جدید %s منتشر شد! به‌روزرسانی کنید!</string>
+    <string name="push_content_info_update">نسخه جدید %1$s منتشر شد! به‌روزرسانی کنید!</string>
 
     <string name="recommend_user_recommend_sys">توسط APKPure ویژه شده است</string>
 
@@ -724,4 +724,8 @@
     <string name="app_detail_folded_footer_reviews">%d مشاهده همه بررسی ها</string>
     <string name="app_detail_folded_footer_posts">%d مشاهده همه پست ها</string>
     <string name="app_detail_discuss_filter_featured">برجسته ها</string>
+    <string name="home_message_reply">نظرها</string>
+    <string name="home_message_praise">پسندها</string>
+    <string name="message_notify">هشدارها</string>
+    <string name="sign_in_services_key_policy_register">سياست حفظ حريم خصوصي</string>
     </resources>
