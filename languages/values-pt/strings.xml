@@ -16,7 +16,7 @@
     <string name="something_happened">&gt;_&lt;\nAlgo aconteceu.</string>
 
     <string name="load_failed_error">Ops! Ocorreu um erro.</string>
-    <string name="load_failed_empty">Português</string>
+    <string name="load_failed_empty">Não há nada aqui.</string>
     <string name="load_failed_all_up_to_date">Todos os aplicativos são até à data.</string>
     <string name="load_failed_no_results">Desculpa! Nenhum resultado encontrado.</string>
     <string name="refresh">Atualizar</string>
@@ -326,7 +326,7 @@ Que é necessário para digitalizar o código QR.</string>
     <string name="download_complete_installation_setting_entries_always">Sempre instalar</string>
     <string name="download_complete_installation_setting_entries_never">Nunca instalar</string>
 
-<string name="load_failed_error_not_found">App não está disponível no momento na loja APKPure!</string>
+<string name="load_failed_error_not_found">App não foi incluído no APKPure.</string>
     <string name="check_update_replace">Versão Oficial</string>
     <string name="data_saver_model_summery">Ativar isso reduzirá o tamanho e a qualidade da imagem para ajudar a usar menos dados de celular.</string>
     <string name="app_detail_comment_join_group_bt">Grupo</string>
@@ -376,9 +376,9 @@ Que é necessário para digitalizar o código QR.</string>
     <string name="message_reply">RESPOSTAS</string>
     <string name="message_notifications_reply">Respondeu seu comentário</string>
     <string name="message_notifications_login">Por favor, faça o login para ver esta página.</string>
-    <string name="beta">Beta</string>
+    <string name="beta">"Beta "</string>
     <string name="data_saver_model">Economizador de dados</string>
-    <string name="check_update_beta">Beta em fase de teste.</string>
+    <string name="check_update_beta">"Beta  em fase de teste. "</string>
     <string name="history_version">Histórico de versões</string>
 
     <string name="app_detail_tab_evaluation">Comentários</string>
@@ -409,4 +409,8 @@ Que é necessário para digitalizar o código QR.</string>
     <string name="download_mkdir_external_storage_values">Memoria Externa</string>
 
     <string name="reply_comment">Responder o comentário</string>
+    <string name="tip_permission_camera_storage">Sem permissão para usar a câmera e cartão SD, abra o gerenciamento de direitos</string>
+    <string name="login_title">Login</string>
+    <string name="user_info_edit_title">Perfil</string>
+    <string name="user_info_edit_email_tv">Email</string>
     </resources>
