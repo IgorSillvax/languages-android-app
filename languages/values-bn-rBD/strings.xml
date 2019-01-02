@@ -1,4 +1,112 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<resources><string name="recommend">Oreghe</string>
-    <string name="action_settings">Settings</string>
+<resources><string name="recommend">আবিষ্কার করুন</string>
+    <string name="action_settings">সেটিংস</string>
+    <string name="action_search">অনুসন্ধান</string>
+    <string name="action_management">ম্যানেজমেন্ট</string>
+
+    <string name="press_back_key_quit">আবার ফিরে আবার চাপুন এবং ছেড়ে দিন।</string>
+
+    <string name="featured">বৈশিষ্ট্যযুক্ত</string>
+    <string name="games">গেম</string>
+    <string name="apps">অ্যাপস</string>
+    <string name="categories">ধরন</string>
+    <string name="updates">আপডেট</string>
+
+    <string name="something_happened">&gt;_&lt;
+\nকিছু একটা ঘটেছে.</string>
+    <string name="load_failed_error">ওহো! একটি ত্রুটি ঘটেছে.</string>
+    <string name="load_failed_error_not_found">অ্যাপ্লিকেশন APKPure অন্তর্ভুক্ত করা হবে না।</string>
+    <string name="load_failed_empty">এখানে কিছুই নেই।</string>
+    <string name="load_failed_all_up_to_date">সমস্ত অ্যাপ্লিকেশন আপ টু ডেট।</string>
+    <string name="load_failed_no_results">দুঃখিত! কোন ফলাফল পাওয়া যায়নি.</string>
+    <string name="refresh">সতেজ করা</string>
+
+    <string name="management">ম্যানেজমেন্ট</string>
+    <string name="app_updates">অ্যাপ আপডেট</string>
+    <string name="app_management">ইনস্টল</string>
+    <string name="app_uninstall">অ্যাপ্লিকেশন আনইনস্টল করুন</string>
+    <string name="apk_management">APK ম্যানেজমেন্ট</string>
+    <string name="apk_xapk_management">APK / XAPK ম্যানেজমেন্ট</string>
+    <string name="download_management">ব্যবস্থাপনা ডাউনলোড করুন</string>
+    <string name="settings">সেটিংস</string>
+    <string name="about">সম্পর্কিত</string>
+
+
+    <string name="check_update">আপডেট চেক কর</string>
+    <string name="check_update_replace">অফিসিয়াল সংস্করণ</string>
+    <string name="check_update_beta">প্রাক মুক্তি বিটা</string>
+    <string name="beta">বিটা</string>
+    <string name="quit">অব্যাহতিপ্রাপ্ত</string>
+    <string name="want_to_quit">আপনি কি নিশ্চিত যে আপনি পরিত্যাগ করতে চান\?</string>
+
+    <string name="install">ইনস্টল করুন</string>
+    <string name="open">খোলা</string>
+    <string name="delete">মুছে ফেলা</string>
+    <string name="delete_all">সব মুছে ফেলুন</string>
+    <string name="properties">প্রোপার্টি</string>
+    <string name="want_to_delete_file">আপনি এই ফাইল মুছে ফেলতে চান\?</string>
+    <string name="want_to_delete_all_files">আপনি সব ফাইল মুছে ফেলতে চান\?</string>
+    <string name="file_has_been_deleted">ফাইল মুছে ফেলা হয়েছে।</string>
+    <string name="failed_to_delete_file">ফাইল মুছে ফেলতে ব্যর্থ হয়েছে।</string>
+    <string name="user_canceled">ব্যবহারকারী বাতিল।</string>
+    <string name="io_error">আইও ত্রুটি। ইনস্টলেশনের সফল হওয়ার জন্য পর্যাপ্ত স্থান নেই।</string>
+    <string name="file_format_error">ফাইল বিন্যাস ত্রুটি।</string>
+    <string name="parsing_xapk">পার্সিং XAPK …</string>
+    <string name="installing_obb">ওবিবি ফাইল ইনস্টল করা হচ্ছে …</string>
+    <string name="extracting_apk">APK ফাইল এক্সট্রাক্ট হচ্ছে …</string>
+    <string name="installing_apk">APK ইনস্টল করা হচ্ছে …</string>
+
+    <string name="uninstall">আনইনস্টল</string>
+    <string name="uninstalled">আনইনস্টল হয়েছে</string>
+    <string name="all">সব</string>
+
+    <string name="screenshots">স্ক্রীনশট</string>
+    <string name="description">বিবরণ</string>
+    <string name="whatsnew">নতুন কি</string>
+    <string name="information">তথ্য</string>
+    <string name="version_">সংস্করণ:</string>
+    <string name="updated_">আপডেট করা হয়েছে:</string>
+    <string name="size_">আকার:</string>
+    <string name="permissions_">অনুমতিসমূহ:</string>
+    <string name="type_">ধরন:</string>
+    <string name="category_">বিভাগ:</string>
+    <string name="more">অধিক</string>
+    <string name="permissions">অনুমতিসমূহ</string>
+    <string name="other">অন্যান্য</string>
+    <string name="similar_or_related">অনুরূপ বা সম্পর্কিত</string>
+    <string name="more_from_developer">বিকাশকারী থেকে আরো</string>
+    <string name="more_large">অধিক</string>
+    <string name="apk">APK</string>
+    <string name="xapk">XAPK</string>
+    <string name="unknown">অজানা</string>
+    <string name="flag_as_inappropriate">অনুপযুক্ত হিসাবে পতাকা</string>
+    <string name="_ellipsis_">" ... "</string>
+    <string name="history_version">সংস্করণ ইতিহাস</string>
+
+    <string name="market_response_error_success">সাফল্য</string>
+    <string name="market_response_error_invalid_result">অবৈধ ফলাফল।</string>
+    <string name="market_response_error_network_connect_error">নেটওয়ার্ক সংযোগ ত্রুটি।</string>
+    <string name="market_response_error_network_read_error">নেটওয়ার্ক ত্রুটি পড়া।</string>
+    <string name="market_response_error_invalid_response_code">অবৈধ প্রতিক্রিয়া কোড।</string>
+    <string name="market_response_error_invalid_response_body">অবৈধ প্রতিক্রিয়া শরীর।</string>
+    <string name="update">হালনাগাদ</string>
+    <string name="launching_please_wait">লঞ্চ করা হচ্ছে, অনুগ্রহ করে অপেক্ষা করুন …</string>
+
+    <string name="downloads_complete">ডাউনলোড সম্পূর্ণ</string>
+    <string name="touch_for_view_all_downloads">সব ডাউনলোড দেখুন জন্য স্পর্শ</string>
+    <string name="touch_to_download_it_again">আবার ডাউনলোড করতে স্পর্শ করুন</string>
+
+    <string name="pause">বিরতি</string>
+    <string name="pause_all">সব বিরতি</string>
+    <string name="continue_">চালিয়ে</string>
+    <string name="continue_all">সব অবিরত</string>
+    <string name="restart">আবার শুরু</string>
+    <string name="download">ডাউনলোড</string>
+    <string name="downloading">ডাউনলোড হচ্ছে</string>
+    <string name="waiting">প্রতীক্ষা</string>
+    <string name="preparing">প্রস্তুতি</string>
+    <string name="completed">সম্পন্ন</string>
+    <string name="paused">বিরাম দেওয়া</string>
+    <string name="failed">ব্যর্থ হয়েছে</string>
+    <string name="file_invalid">ফাইল অবৈধ</string>
     </resources>
