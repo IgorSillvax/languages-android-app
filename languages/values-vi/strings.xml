@@ -668,7 +668,7 @@
     <string name="market_ad_tab_two">Trò chơi</string>
     <string name="market_ad_tab_three">Công cụ</string>
     <string name="tag">Thẻ</string>
-<string name="message_at_title">Đề cập</string>
+    <string name="message_at_title">Đề cập</string>
     <string name="message_at">Đã nhắc đến bạn</string>
 
     <string name="set_open_source_licence">Giấy phép Mã nguồn mở</string>
@@ -697,10 +697,7 @@
     <string name="search_user_history_title">Các liên hệ gần đây</string>
     <string name="search_focus_list_title">Đã theo dõi</string>
 
-    <string name="submit_comment_user_style">
- &lt;font color=#007AFF&gt;@%1$s&lt;/font&gt;</string>
-
-<string name="pre_register_ok">OK</string>
+    <string name="pre_register_ok">OK</string>
     <string name="copy_username">Sao chép Nickname</string>
     <string name="copy_content">Sao chép Nội dung</string>
 
@@ -709,7 +706,9 @@
     <string name="comment_list_new_num">%d Tiêu đề Mới</string>
 
     <string name="tab_popular">PHỔ BIẾN</string>
-<string name="properties_message_v2">&lt;b&gt;Tên gói:&lt;/b&gt; %1$s&lt;br&gt;&lt;b&gt;Phiên bản:&lt;/b&gt; %2$s&lt;br&gt;&lt;b&gt;Đường dẫn:&lt;/b&gt; %3$s&lt;br&gt;&lt;b&gt;Kích cỡ:&lt;/b&gt; %4$s&lt;br&gt;&lt;b&gt;Lần sửa đổi cuối:&lt;/b&gt; %5$s</string>
+    <string name="properties_message_v2">
+        <![CDATA[<b>Tên gói:</b> %1$s<br><b>Phiên bản:</b> %2$s<br><b>Đường dẫn:</b> %3$s<br><b>Kích cỡ:</b> %4$s<br><b>Lần sửa đổi cuối:</b> %5$s]]>
+    </string>
     <string name="app_detail_tab_evaluation">Đánh giá</string>
     <string name="app_detail_comment_filter_sort_score">Đánh giá hàng đầu</string>
     <string name="app_detail_comment_filter_all">Toàn bộ đánh giá</string>
@@ -776,7 +775,7 @@
     <string name="recover_password_title">Phục hồi mật khẩu</string>
     <string name="email_address_hint_et">Nhập email của bạn.</string>
 
-<string name="home_message_reply">Bình luận</string>
+    <string name="home_message_reply">Bình luận</string>
     <string name="home_message_praise">Thích</string>
     <string name="sign_in_services_key_policy_register">Chính sách bảo mật</string>
     <string name="shop">CỬA HÀNG</string>

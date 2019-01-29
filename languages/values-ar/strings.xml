@@ -13,8 +13,7 @@
     <string name="categories">الفئات</string>
     <string name="updates">تحديثات</string>
 
-    <string name="something_happened">&gt;_&lt;
-\nشيء ما حدث.</string>
+    <string name="something_happened">&gt;_&lt;\nشيء ما حدث.</string>
 
     <string name="load_failed_error">عذراً ! حدث خطأ ما.</string>
     <string name="load_failed_empty">لايوجد شيء هنا.</string>
@@ -174,10 +173,10 @@
     </string>
 
     <string name="share">مشاركة التطبيق</string>
-    <string name="share_app_url">
-\n شارك تطبيق <xliff:g example="APKPure" id="app_name">%1$s</xliff:g> (من @<xliff:g example="APKPure" id="social_network_name">%2$s</xliff:g>)
-\n <xliff:g example="https://apkpure.com/p/com.apkpure.aegon" id="app_url">%3$s</xliff:g>
-\n </string>
+    <string name="share_app_url">\n شارك تطبيق
+        <xliff:g example="APKPure" id="app_name">%1$s</xliff:g>(من @
+        <xliff:g example="APKPure" id="social_network_name">%2$s</xliff:g>)\n
+        <xliff:g example="https://apkpure.com/p/com.apkpure.aegon" id="app_url">%3$s</xliff:g>\n </string>
 
     <string name="_name__version_history">إصدارات سابقة لـ<xliff:g example="APKPure" id="name">%1$s</xliff:g></string>
     <string name="update__date___size_">تحديث: <xliff:g id="date" example="Mar 3, 2016">%1$s</xliff:g>, <xliff:g id="size" example="1024 kB">%2$s</xliff:g></string>
@@ -194,13 +193,25 @@
     <string name="cancel">الغاء</string>
     <string name="ignored">تم تجاهله</string>
     <plurals name="total__count__apps__size_">
-	<item quantity="zero">Total: &lt;b&gt;&lt;font color=%1$d&gt;%2$d&lt;/font&gt;&lt;/b&gt; app, &lt;b&gt;&lt;font color=%1$d&gt;%3$s&lt;/font&gt;&lt;/b&gt;</item>
-	<item quantity="one">المجموع: &lt;b&gt;&lt;font color=%1$d&gt;%2$d&lt;/font&gt;&lt;/b&gt; تطبيق, &lt;b&gt;&lt;font color=%1$d&gt;%3$s&lt;/font&gt;&lt;/b&gt;</item>
-	<item quantity="two">المجموع: &lt;b&gt;&lt;font color=%1$d&gt;%2$d&lt;/font&gt;&lt;/b&gt; تطبيق, &lt;b&gt;&lt;font color=%1$d&gt;%3$s&lt;/font&gt;&lt;/b&gt;</item>
-	<item quantity="few">المجموع: &lt;b&gt;&lt;font color=%1$d&gt;%2$d&lt;/font&gt;&lt;/b&gt; تطبيق, &lt;b&gt;&lt;font color=%1$d&gt;%3$s&lt;/font&gt;&lt;/b&gt;</item>
-	<item quantity="many">المجموع: &lt;b&gt;&lt;font color=%1$d&gt;%2$d&lt;/font&gt;&lt;/b&gt; تطبيق, &lt;b&gt;&lt;font color=%1$d&gt;%3$s&lt;/font&gt;&lt;/b&gt;</item>
-	<item quantity="other">المجموع: &lt;b&gt;&lt;font color=%1$d&gt;%2$d&lt;/font&gt;&lt;/b&gt; تطبيق, &lt;b&gt;&lt;font color=%1$d&gt;%3$s&lt;/font&gt;&lt;/b&gt;</item>
-</plurals>
+        <item quantity="zero">
+            <![CDATA[المجموع: <b><font color="%1$d">%2$d</font></b>  تطبيق, <b><font color="%1$d">%3$s</font></b>]]>
+        </item>
+        <item quantity="one">
+            <![CDATA[المجموع: <b><font color="%1$d">%2$d</font></b>  تطبيق, <b><font color="%1$d">%3$s</font></b>]]>
+        </item>
+        <item quantity="two">
+            <![CDATA[المجموع: <b><font color="%1$d">%2$d</font></b>  تطبيق, <b><font color="%1$d">%3$s</font></b>]]>
+        </item>
+        <item quantity="few">
+            <![CDATA[المجموع: <b><font color="%1$d">%2$d</font></b>  تطبيق, <b><font color="%1$d">%3$s</font></b>]]>
+        </item>
+        <item quantity="many">
+            <![CDATA[المجموع: <b><font color="%1$d">%2$d</font></b>  تطبيق, <b><font color="%1$d">%3$s</font></b>]]>
+        </item>
+        <item quantity="other">
+            <![CDATA[المجموع: <b><font color="%1$d">%2$d</font></b>  تطبيق, <b><font color="%1$d">%3$s</font></b>]]>
+        </item>
+    </plurals>
     <string name="total_zero_app">
         <![CDATA[المجموع : <b><font color="%1$d">0</font></b> تطبيق.]]>
     </string>
@@ -247,7 +258,13 @@
     <string name="report">تبليغ</string>
     <string name="feedback">الدعم</string>
 
-    <string name="share_app_url_comment"> <xliff:g example="APKPure" id="user_name">1%1$s</xliff:g>2\'s comments on <xliff:g example="APKPure" id="app_name">3%2$s</xliff:g>4 : <xliff:g example="APKPure" id="app_name">5%3$s</xliff:g>6 (from <xliff:g example="APKPure" id="social_network_name">7%4$s</xliff:g>8) <xliff:g example="https://apkpure.com/p/com.apkpure.aegon" id="app_url">9%5$s</xliff:g></string>
+    <string name="share_app_url_comment">
+        <xliff:g example="APKPure" id="user_name">1%1$s</xliff:g>2\'s comments on
+        <xliff:g example="APKPure" id="app_name">3%2$s</xliff:g>4 :
+        <xliff:g example="APKPure" id="app_name">5%3$s</xliff:g>6 (from
+        <xliff:g example="APKPure" id="social_network_name">7%4$s</xliff:g>8)
+        <xliff:g example="https://apkpure.com/p/com.apkpure.aegon" id="app_url">9%5$s</xliff:g>
+    </string>
 
     <string name="login_post_as_a_guest">نشر كزائر</string>
 
@@ -298,8 +315,7 @@
 
     <string name="app_detail_customer_reviews">تعليقات</string>
     <string name="app_detail_comment_type_web">web</string>
-    <string name="app_submit_submit">Bangla
-\n…</string>
+    <string name="app_submit_submit">Bangla\n…</string>
     <string name="app_submit_anonymous_comment">اضافة تعليق</string>
     <string name="app_submit_title_toast">يتوجب عليك كتابة عنوان !</string>
     <string name="app_submit_msg_toast">يتوجب عليك كتابة شيئ ما!</string>
@@ -333,8 +349,7 @@
     <string name="reply_dialog_marked_words">ضغط بشكل مطول على الصورة لحذفها.</string>
     <string name="reply_comment">رد على التعليق</string>
     <string name="save_original_image">حفظ</string>
-    <string name="already_save">تم الحفظ
-\n<xliff:g example="ApKPure/photo" id="path">%1$s</xliff:g></string>
+    <string name="already_save">تم الحفظ\n<xliff:g example="ApKPure/photo" id="path">%1$s</xliff:g></string>
     <string name="load_end">لايوجد المزيد</string>
     <string name="load_failed_click_retry">فشل التشغيل , اضغط على اعادة المحاولة</string>
     <string name="loading">تحميل …</string>
@@ -444,8 +459,8 @@
     <string name="comment_submitting">يتم النشر…</string>
     <string name="message">رسائل</string>
 
-    <string name="push_title_info_reply">%s قام بالرد على تعليقك!</string>
-    <string name="push_title_info_upvoted">%s اعجبه تعليقك!</string>
+    <string name="push_title_info_reply">%1$s قام بالرد على تعليقك!</string>
+    <string name="push_title_info_upvoted">%1$s اعجبه تعليقك!</string>
     <string name="download_list">قائمة التحميلات</string>
     <string name="can_be_update">يمكن تحديثها</string>
     <string name="install_list">تم تنصيبها</string>
@@ -483,11 +498,17 @@
 
     <string name="user_info_edit_large_photo">عرض الصورة في حجم أكبر</string>
 
-    <string name="push_title_info_follow">"%s  يتابعك!"</string>
+    <string name="push_title_info_follow">"%1$s  يتابعك!"</string>
     <string name="push_title_info_update">وصل تحديث لـ APKPure!</string>
-    <string name="share_app_url_group"> <xliff:g example="APKPure" id="user_name">1%1$s</xliff:g>2\'s comments on <xliff:g example="APKPure" id="app_name">3%2$s</xliff:g>4 : <xliff:g example="APKPure" id="app_name">5%3$s</xliff:g>6 (from <xliff:g example="APKPure" id="social_network_name">7%4$s</xliff:g>8) <xliff:g example="https://apkpure.com/p/com.apkpure.aegon" id="app_url">9%5$s</xliff:g></string>
+    <string name="share_app_url_group">
+        <xliff:g example="APKPure" id="user_name">1%1$s</xliff:g>2\'s comments on
+        <xliff:g example="APKPure" id="app_name">3%2$s</xliff:g>4 :
+        <xliff:g example="APKPure" id="app_name">5%3$s</xliff:g>6 (from
+        <xliff:g example="APKPure" id="social_network_name">7%4$s</xliff:g>8)
+        <xliff:g example="https://apkpure.com/p/com.apkpure.aegon" id="app_url">9%5$s</xliff:g>
+    </string>
 
-    <string name="push_content_info_update">اصدار جديد %s صدر! حدث الان!</string>
+    <string name="push_content_info_update">اصدار جديد%1$s صدر! حدث الان!</string>
 
     <string name="like_notification">إشعارات التصويت كمفيد</string>
     <string name="like_notification_msg">تلقي الإخطارات للرسائل أوبفوت جديدة</string>
@@ -631,7 +652,7 @@
     <string name="recommend_comment">إرسال</string>
     <string name="recommend_comment_error">حدث خطاء ما !</string>
     <string name="recommend_description_title">تعليمات :</string>
-<string name="menu_copy_link">نسخ الرابط</string>
+    <string name="menu_copy_link">نسخ الرابط</string>
     <string name="web_view_copy">نسخ الرابط</string>
 
     <string name="recommend_description">1-ستدرج التوصيات المعتمدة تحت قسم الكشف.
@@ -672,7 +693,9 @@
     <string name="app_detail_has_ad">يحتوي على إعلانات</string>
     <string name="app_detail_no_ad">خال من إعلانات</string>
 
-    <string name="properties_message_v2">&lt;b&gt; المسار: &lt;/ b&gt;٪ 1 $ s &lt;br&gt; &lt;b&gt; حجم: &lt;/ b&gt;٪ 2 $ s &lt;br&gt; &lt;b&gt; آخر تعديل: &lt;/ b&gt;٪ 3 $ s</string>
+    <string name="properties_message_v2">
+        <![CDATA[<b>المسار:</b> %1$s<br><b>حجم:</b> %2$s<br><b>Path:</b> %3$s<br><b>Size:</b> %4$s<br><b>آخر تعديل:</b> %5$s]]>
+    </string>
     <string name="app_detail_tab_evaluation">Reviews</string>
     <string name="app_detail_comment_filter_sort_score">افضل التقييمات</string>
     <string name="app_detail_comment_filter_all">Brocken carكل المراجعات</string>
@@ -685,4 +708,4 @@
     <string name="app_detail_comment_order_array_bad">1-3</string>
     <string name="app_detail_discuss_filter_featured">الشائعة</string>
     <string name="app_detail_comment_score_footer">تطبيق جيد</string>
-    </resources>
+</resources>

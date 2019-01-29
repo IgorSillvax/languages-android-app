@@ -3,7 +3,7 @@
 
     <string name="action_settings">設定</string>
     <string name="action_search">搜尋</string>
-    <string name="action_management">管理</string>
+    <string name="action_management">English</string>
 
     <string name="press_back_key_quit">再壹次返回鍵退出。</string>
 
@@ -508,7 +508,7 @@
     <string name="set_updates_notification">應用有新版本</string>
     <string name="set_updates_notification_msg">應用有新版本時通知我，建議開啟。</string>
     <string name="app_detail_unknow_text">版本過低，不支持該板塊，請升級後查看。</string>
-    <string name="comment_detail_original">查看原評論 &gt;</string>
+    <string name="comment_detail_original">查看原評論 ></string>
     <string name="comment_comment_newest">最新</string>
     <string name="comment_comment_oldest">最早</string>
 
@@ -654,7 +654,7 @@
     <string name="Istop">置頂</string>
     <string name="add_tag">添加標籤</string>
     <string name="error_add_tag">標籤添加失敗</string>
-    <string name="no_collect">收藏夾里什麼都沒有…</string>
+    <string name="no_collect">收藏夾里什麼都沒有&#8230;</string>
     <string name="no_comment">暫無評論，快來搶沙發!</string>
     <string name="filter_no_comment">沒有符合條件的內容</string>
 
@@ -756,8 +756,8 @@
     <string name="submit_add_title_image_tv">添加題圖</string>
     <string name="submit_add_title_image_error_toast">該圖片可能暫不支持,請重新選擇一張圖片</string>
     <string name="comment_hint_tv">分享一點什麼？</string>
-    <string name="msg_all_read">提示</string>
-    <string name="msg_all_read_msg">是否將未讀消息全部標記為已讀？</string>
+    <string name="msg_all_read">全部已讀</string>
+    <string name="msg_all_read_notice">提示</string>
     <string name="user_recommend_tip">用戶推薦</string>
     <string name="subject_comment">話題</string>
     <string name="new_subject_comment">新話題</string>
@@ -792,9 +792,56 @@
     <string name="del_account_email_notify_tv">該郵箱用於接收刪除成功的通知郵件</string>
     <string name="del_account_email_reason_tv">您為什麼要刪除賬戶？</string>
     <string name="del_account_bt">提交</string>
-    <string name="del_account_result_warn">刪除成功後，將不能用此賬號登錄</string>
     <string name="del_account_reason_hint">您為什麼要刪除賬戶？</string>
-    <string name="del_account_sure">您的賬號與信息將於48小時內刪除，刪除成功後您將收到通知郵件且該賬號已不能登錄，如有其他問題請聯繫客服進行反饋。</string>
-
+    <string name="del_account_sure">您的賬號與信息將於48小時內刪除，刪除成功後您將收到通知郵件，如有其他問題請聯繫客服進行反饋。</string>
     <string name="reply_to">回復 %1$s:</string>
+    <string name="share_app_url_comment_v3">分享&#160;<xliff:g example="zhangsan" id="name">%1$s</xliff:g>的<xliff:g example="post/story/review" id="type">%2$s</xliff:g>(来自&#160;APKPure):<xliff:g example="https://apkpure.com" id="url">%3$s&#160;</xliff:g></string>
+    <string name="apk_unable_upload">Apk無法上傳!</string>
+    <string name="long_image">長圖</string>
+    <string name="edit_tag">編輯標籤</string>
+    <string name="save_tag_hint_msg">還有未保存的標籤，確定退出？</string>
+    <string name="app_rating">分級：</string>
+    <string name="number">、</string>
+    <string name="un_follow_xx">取消關注&#160;<xliff:g example="Apkpure" id="name">%1$s</xliff:g></string>
+    <string name="follow_xx">關注&#160;<xliff:g example="Apkpure" id="name">%1$s</xliff:g></string>
+    <string name="headline_footer_refresh">下拉或點擊刷新</string>
+
+    <string name="download_install_obb">安装OBB</string>
+    <string name="download_install_apk">安装APK</string>
+    <string name="users_recommended_title">恭喜！</string>
+    <string name="users_recommended_des">您的評論被選入用戶推薦,%1$s</string>
+    <string name="recommended_posts_title">恭喜！</string>
+    <string name="recommended_posts_des">您的評論被選入用戶推薦,%1$s</string>
+    <string name="comment_removed_title">您的帖子被删除</string>
+    <string name="comment_removed_des">
+        您的發帖內容似乎沒有遵守我們的%1$s。
+        我們不允許在APKPure上發佈欺凌或騷擾任何人的帖子。這可能包括進行人身欺凌的不適當的圖片、照片或視頻，或其他任何意圖貶低或羞辱某人的言語內容。
+        \n%2$s
+        \n如果您對處理結果有異議，請%3$s。
+    </string>
+    <string name="temporarily_blocked_title">您暫時不能發帖。</string>
+    <string name="temporarily_blocked_des">
+        這個臨時處罰將持續%1$s天，您將不能在APKPure發帖，直到時間結束。
+        如果您再次發佈違反我們%2$s的內容，您的帳號將被凍結30天。
+        請記住，那些反覆在APKPure上發佈不被允許的內容的人，他們的賬號可能會被永久停用。
+        \n如果您對處理結果有異議，請%3$s。
+    </string>
+    <string name="pre_register_title">%1$s已發佈%2$s！</string>
+    <string name="pre_register_des">預註冊遊戲%1$s %2$s現在可以下載啦。%3$s</string>
+    <string name="report_callback_title">我們刪除了您舉報的帖子！</string>
+    <string name="report_callback_des">我們審核了您舉報的帖子。因為它違反了我們的%1$s，所以我們刪除了該貼，並通知了%2$s。感謝您的反饋。</string>
+    <string name="tap_to_view">點擊查看</string>
+    <string name="let_us_know">告訴我們</string>
+    <string name="community_guide_lines">社區規範</string>
+
+    <string name="my_draft">我的草稿</string>
+    <string name="clear_empty">清空</string>
+    <string name="several_draft"><xliff:g example="5" id="count">%1$s</xliff:g>篇草稿</string>
+    <string name="delete_all_draft_hint">是否清空草稿箱?</string>
+    <string name="edit_draft">編輯草稿</string>
+    <string name="delete_draft">删除草稿</string>
+    <string name="empty_draft_info">無內容…</string>
+    <string name="is_save_comment_draft">是否保存為草稿?</string>
+    <string name="upload_video">上傳視頻</string>
+    <string name="saved_draft">已保存草稿</string>
 </resources>

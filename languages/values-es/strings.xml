@@ -14,8 +14,7 @@
     <string name="categories">Categorías</string>
     <string name="updates">Updates</string>
 
-    <string name="something_happened">&gt;_&lt;
-\nOcurrió algo.</string>
+    <string name="something_happened">&gt;_&lt;\nOcurrió algo.</string>
 
     <string name="load_failed_error">¡Ups! Ha ocurrido un error.</string>
     <string name="load_failed_empty">No hay nada aquí.</string>
@@ -91,8 +90,8 @@
     <string name="update">Actualizacion</string>
     <string name="version__version___size_">version <xliff:g id="version" example="1.0.0">%1$s</xliff:g>, <xliff:g id="size" example="1024 kB">%2$s</xliff:g></string>
     <plurals name="_count__new_update_is_available">
-	    <item quantity="one"><xliff:g id="count" example="1">%1$d</xliff:g> Una Nueva Actualizacion Esta Disponible</item>
-	    <item quantity="other"><xliff:g id="count" example="2">%1$d</xliff:g> Hay Nuevas Actualizaciones Disponibles</item>
+        <item quantity="one"><xliff:g id="count" example="1">%1$d</xliff:g> Una Nueva Actualizacion Esta Disponible</item>
+        <item quantity="other"><xliff:g id="count" example="2">%1$d</xliff:g> Hay Nuevas Actualizaciones Disponibles</item>
     </plurals>
 
     <string name="launching_please_wait">Abriendo, espere por favor …</string>
@@ -102,8 +101,8 @@
     <string name="general">General</string>
     <string name="language">Lenguaje</string>
     <plurals name="_count__item_is_downloading">
-	    <item quantity="one"><xliff:g id="count" example="1">%1$d</xliff:g> El Articulo se Esta Descargando</item>
-	    <item quantity="other"><xliff:g id="count" example="2">%1$d</xliff:g> Los Articulos Se Estan Descargando</item>
+        <item quantity="one"><xliff:g id="count" example="1">%1$d</xliff:g> El Articulo se Esta Descargando</item>
+        <item quantity="other"><xliff:g id="count" example="2">%1$d</xliff:g> Los Articulos Se Estan Descargando</item>
     </plurals>
     <string name="downloads_complete">Descargas Completadas</string>
     <string name="touch_for_view_all_downloads">Toca Para Ver Todas Las Descargas</string>
@@ -259,7 +258,7 @@
     <string name="auto_service_install__material_">Instalar</string>
     <string name="auto_service_ensure__material_">OK</string>
     <string name="auto_service_next__material_">Siguiente</string>
-<string name="similar_or_related">Similar o Relacionado</string>
+    <string name="similar_or_related">Similar o Relacionado</string>
     <string name="more_from_developer">Mas del desarrollador</string>
     <string name="more_large">Mas</string>
     <string name="feedback">Feedback,</string>
@@ -322,16 +321,16 @@
     <string name="check_update_replace">Versión oficial</string>
     <string name="check_update_beta">Beta de pre-lanzamiento</string>
     <string name="app_detail_comment_type_web">web</string>
-    <string name="share_app_url_comment"> <xliff:g example="APKPure" id="user_name">%1$s</xliff:g>\'s comentarios sobre <xliff:g example="APKPure" id="app_name">%2$s</xliff:g> : <xliff:g example="APKPure" id="app_name">%3$s</xliff:g> (de @
-\n<xliff:g example="APKPure" id="social_network_name">%4$s
-\n</xliff:g>)
-\n<xliff:g example="https://apkpure.com/p/com.apkpure.aegon" id="app_url">
-\n%5$s</xliff:g></string>
-
+    <string name="share_app_url_comment">
+        <xliff:g example="APKPure" id="user_name">%1$s</xliff:g>\'s comentarios sobre
+        <xliff:g example="APKPure" id="app_name">%2$s</xliff:g> :
+        <xliff:g example="APKPure" id="app_name">%3$s</xliff:g> (de @\n
+        <xliff:g example="APKPure" id="social_network_name">%4$s\n</xliff:g>)\n
+        <xliff:g example="https://apkpure.com/p/com.apkpure.aegon" id="app_url">\n%5$s</xliff:g></string>
     <plurals name="app_detail_see_all_replies">
-	<item quantity="one">Ver todo <xliff:g example="1" id="count">%1$d</xliff:g> respuesta</item>
-	<item quantity="other">Ver todo <xliff:g example="2" id="count">%1$d</xliff:g> respuestas</item>
-</plurals>
+        <item quantity="one">Ver todo <xliff:g example="1" id="count">%1$d</xliff:g> respuesta</item>
+        <item quantity="other">Ver todo <xliff:g example="2" id="count">%1$d</xliff:g> respuestas</item>
+    </plurals>
 
     <string name="app_submit_name_toast">Por favor, complete su apodo!</string>
     <string name="app_submit_nickname">Usuario</string>
@@ -485,9 +484,9 @@
     <string name="comment_item_fold">comentario colapsado</string>
 
     <plurals name="comment_reply_item_fold">
-	<item quantity="one"><xliff:g example="1" id="count">%1$d</xliff:g> Respuesta colapsada</item>
-	<item quantity="other"><xliff:g example="2" id="count">%1$d</xliff:g> Respuestas colapsadas</item>
-</plurals>
+        <item quantity="one"><xliff:g example="1" id="count">%1$d</xliff:g> Respuesta colapsada</item>
+        <item quantity="other"><xliff:g example="2" id="count">%1$d</xliff:g> Respuestas colapsadas</item>
+    </plurals>
 
     <string name="comment_no_reply">Vaya, no hay nada aquí.</string>
     <string name="comment_reply_info_name">Detalles</string>
@@ -692,9 +691,6 @@
     <string name="search_user_history_title">Contactos recientes</string>
     <string name="search_focus_list_title">Seguidor</string>
 
-    <string name="submit_comment_user_style">"
-\n &lt;font color=#007AFF&gt;@%1$s&lt;/font&gt;"</string>
-
     <string name="copy_username">Copiar apodo</string>
     <string name="copy_content">Copiar contenido</string>
 
@@ -703,7 +699,9 @@
     <string name="comment_list_new_num">%d Nuevas historias</string>
 
     <string name="tab_popular">POPULAR</string>
-    <string name="properties_message_v2">&lt;b&gt;Nombre del paquete:&lt;/b&gt; %1$s&lt;br&gt;&lt;b&gt;Versión:&lt;/b&gt; %2$s&lt;br&gt;&lt;b&gt;Ruta:&lt;/b&gt; %3$s&lt;br&gt;&lt;b&gt;Tamaño:&lt;/b&gt; %4$s&lt;br&gt;&lt;b&gt;Última modificación:&lt;/b&gt; %5$s</string>
+    <string name="properties_message_v2">
+        <![CDATA[<b>Nombre del paquete:</b> %1$s<br><b>Versión:</b> %2$s<br><b>Ruta:</b> %3$s<br><b>Tamaño:</b> %4$s<br><b>Última modificación:</b> %5$s]]>
+    </string>
     <string name="app_detail_tab_evaluation">Reseñas</string>
     <string name="app_detail_comment_filter_sort_score">Los más valorados</string>
     <string name="app_detail_comment_filter_all">Todas las reseñas</string>

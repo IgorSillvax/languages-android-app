@@ -131,8 +131,10 @@
 
     <string name="improvement_plan_title">Plan zur Verbesserung der Leistung</string>
     <string name="improvement_plan_message">
- Hilf uns, indem du uns Informationen zu deinem Gerät mitteilst. Wir <b>sammeln keine </b>personenbezogenen Daten (Name, Adresse, E-Mail-Adresse, Sozialversicherungsnummer oder andere Merkmale).
- </string>
+        Hilf uns, indem du uns Informationen zu deinem Gerät mitteilst. Wir
+        <b>sammeln keine </b>
+        personenbezogenen Daten (Name, Adresse, E-Mail-Adresse, Sozialversicherungsnummer oder andere Merkmale).
+    </string>
     <string name="join_us">Mach mit</string>
     <string name="skip">Überspringen</string>
 
@@ -167,8 +169,12 @@
     </string>
 
     <string name="share">Teilen</string>
-    <string name="share_app_url">
-\n Teilen <xliff:g example="APKPure" id="app_name">%1$s</xliff:g> APK (from @<xliff:g example="APKPure" id="social_network_name">%2$s</xliff:g>), <xliff:g example="https://apkpure.com/p/com.apkpure.aegon" id="app_url">%3$s</xliff:g> herunter</string>
+    <string name="share_app_url">\n Teilen
+        <xliff:g example="APKPure" id="app_name">%1$s</xliff:g> APK (from @
+        <xliff:g example="APKPure" id="social_network_name">%2$s</xliff:g>),
+        <xliff:g example="https://apkpure.com/p/com.apkpure.aegon" id="app_url">%3$s</xliff:g>
+        herunter
+    </string>
 
     <string name="_name__version_history"><xliff:g example="APKPure" id="name">%1$s</xliff:g> Versionsgeschichte</string>
     <string name="update__date___size_">Aktualisierung: <xliff:g example="Mar 3, 2016" id="date">%1$s</xliff:g>, <xliff:g example="1024 kB" id="size">%2$s</xliff:g></string>
@@ -328,10 +334,13 @@ Die genannten Funktionen werden ab Android 4.1 unterstützt, es ist kein Root-Zu
     <string name="user_info_edit_title">Profil</string>
     <string name="user_info_edit_portrait_tv">Profilbild</string>
     <string name="app_submit_star_toast">Gib eine Bewertung an!</string>
-    <string name="share_app_url_comment"> <xliff:g example="APKPure" id="user_name">%1$s</xliff:g>\'s Kommentare zu
-\n<xliff:g example="APKPure" id="app_name">%2$s</xliff:g> :
-\n<xliff:g example="APKPure" id="app_name">%3$s</xliff:g> (von @
-\n<xliff:g example="APKPure" id="social_network_name">%4$s</xliff:g>) <xliff:g example="https://apkpure.com/p/com.apkpure.aegon" id="app_url">%5$s</xliff:g></string>
+    <string name="share_app_url_comment">
+        <xliff:g example="APKPure" id="user_name">%1$s</xliff:g>\'s Kommentare zu\n
+        <xliff:g example="APKPure" id="app_name">%2$s</xliff:g> :\n
+        <xliff:g example="APKPure" id="app_name">%3$s</xliff:g> (von @\n
+        <xliff:g example="APKPure" id="social_network_name">%4$s</xliff:g>)
+        <xliff:g example="https://apkpure.com/p/com.apkpure.aegon" id="app_url">%5$s</xliff:g>
+    </string>
 
     <string name="input_reply_content">Inhalt der Antwort:</string>
     <string name="already_save"><xliff:g example="ApKPure/photo" id="path">%1$s</xliff:g> gespeichert</string>
@@ -725,15 +734,16 @@ Die genannten Funktionen werden ab Android 4.1 unterstützt, es ist kein Root-Zu
     <string name="comment_list_new_num">% d Neue Geschichten</string>
 
     <string name="tab_popular">BELIEBT</string>
-<string name="menu_copy_link">Link Kopieren</string>
+    <string name="menu_copy_link">Link Kopieren</string>
     <string name="web_view_copy">Link Kopieren</string>
 
     <string name="count_down_timer_tv">%ds</string>
     <string name="count_down_timer_btn">überspringen</string>
-<string name="filter_no_comment">Ooops! Kein Inhalt gefunden!</string>
-
-    <string name="properties_message_v2">&lt;b&gt;Paket-Name:&lt;/b&gt; %1$s&lt;br&gt;&lt;b&gt;Version:&lt;/b&gt; %2$s&lt;br&gt;&lt;b&gt;Path:&lt;/b&gt; %3$s&lt;br&gt;&lt;b&gt;Größe:&lt;/b&gt; %4$s&lt;br&gt;&lt;b&gt;Zuletzt Bearbeitet:&lt;/b&gt; %5$s</string>
+    <string name="filter_no_comment">Ooops! Kein Inhalt gefunden!</string>
+    <string name="properties_message_v2">
+        <![CDATA[<b>Paket-Name:</b> %1$s<br><b>Version:</b> %2$s<br><b>Path:</b> %3$s<br><b>Size:</b> %4$s<br><b>Zuletzt Bearbeitet:</b> %5$s]]>
+    </string>
     <string name="app_detail_tab_evaluation">Rezension</string>
     <string name="app_detail_comment_filter_sort_score">bestbewertet</string>
     <string name="app_detail_comment_filter_all">alle bewertungen</string>
-    </resources>
+</resources>

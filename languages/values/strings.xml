@@ -106,7 +106,7 @@
 
     <string name="market_response_error_success">Success.</string>
     <string name="market_response_error_invalid_result">Invalid result.</string>
-    <string name="market_response_error_network_connect_error">Network connect error.</string>
+    <string name="market_response_error_network_connect_error">Network connection error.</string>
     <string name="market_response_error_network_read_error">Network read error.</string>
     <string name="market_response_error_invalid_response_code">Invalid response code.</string>
     <string name="market_response_error_invalid_response_body">Invalid response body.</string>
@@ -311,7 +311,7 @@
     <string name="app_submit_nickname">Nickname</string>
     <string name="app_submit_email">Email</string>
     <string name="app_submit_submit_title">Post</string>
-    <string name="app_submit_reply_to">reply to</string>
+    <string name="app_submit_reply_to">replied to</string>
 
     <string name="app_detail_tab_one">Details</string>
     <string name="app_detail_tab_two">Group</string>
@@ -424,7 +424,7 @@
     <string name="user_info_edit_gender_tv">Gender</string>
     <string name="user_info_edit_birthday_tv">Birthday</string>
     <string name="user_info_edit_change_pwd_tv">Reset Password</string>
-    <string name="user_info_edit_login_out_tv">Sign out</string>
+    <string name="user_info_edit_login_out_tv">Sign Out</string>
     <string name="user_info_edit_not_choose">Unknown</string>
     <string name="user_info_edit_gender_male">Male</string>
     <string name="user_info_edit_gender_female">Female</string>
@@ -565,7 +565,7 @@
 
     <string name="edit">Edit</string>
     <string name="menu_copy">Copy</string>
-    <string name="menu_copy_link">Copy link</string>
+    <string name="menu_copy_link">Copy Link</string>
     <string name="menu_cancel">Cancel</string>
     <string name="delete_all_download_history">Delete all download history?</string>
     <string name="delete_the_historical_record">Delete the historical record?</string>
@@ -603,7 +603,7 @@
     <string name="follow_un_success">Unfollowed.</string>
     <string name="canceled">Canceled</string>
     <string name="group">Group</string>
-    <string name="collection">Favorites</string>
+    <string name="collection">Favorite</string>
     <string name="cancel_collection">Unfavorite</string>
 
     <string name="follow">FOLLOWING</string>
@@ -771,7 +771,7 @@
 
     <string name="tab_global">FEATURED</string>
     <string name="comment_list_see_here">Last time you reached here. Tap to refresh.</string>
-    <string name="comment_list_new_num">%d New headlines</string>
+    <string name="comment_list_new_num">%d New Headlines</string>
 
     <string name="tab_popular">POPULAR</string>
     <string name="count_down_timer_tv">%ds</string>
@@ -819,7 +819,8 @@
     <string name="submit_add_title_image_tv">Add a Cover</string>
     <string name="submit_add_title_image_error_toast">This picture may not be supported temporarily. Please select another one.</string>
     <string name="comment_hint_tv">Share something?</string>
-    <string name="msg_all_read">Notice</string>
+    <string name="msg_all_read">Mark all as read</string>
+    <string name="msg_all_read_notice">Notice</string>
     <string name="msg_all_read_msg">Are you sure to mark all as read?</string>
     <string name="user_recommend_tip">User\'s Recommendation</string>
     <string name="comments">Comments</string>
@@ -857,9 +858,63 @@
     <string name="del_account_email_notify_tv">Please provide a valid email address to receive our notification.</string>
     <string name="del_account_email_reason_tv">Why do you want to delete this account?</string>
     <string name="del_account_bt">Submit</string>
-    <string name="del_account_result_warn">You will not be able to log in with this account after deletion.</string>
     <string name="del_account_reason_hint">Why do you want to delete this account?</string>
-    <string name="del_account_sure">Your account will be deleted in at most 48 hours.You will not be able to log in with this account after deletion. Please contact us if you have further questions.</string>
+    <string name="del_account_sure">Your account will be deleted in at most 48 hours. Please contact us if you have further questions.</string>
     <string name="reply_to">Reply to %1$s:</string>
+    <string name="share_app_url_comment_v3">Share&#160;<xliff:g example="zhangsan" id="name">%1$s</xliff:g>\'s&#160;<xliff:g example="post/story/review" id="type">%2$s</xliff:g>&#160;(From APKPure):<xliff:g example="https://apkpure.com" id="url">%3$s&#160;</xliff:g></string>
+    <string name="apk_unable_upload">Failed to upload apk.</string>
+    <string name="long_image">Tall Pic</string>
+    <string name="edit_tag">Edit Tag</string>
+    <string name="save_tag_hint_msg">The change won\'t be saved. Are you sure to exit?</string>
+    <string name="un_follow_xx">UnFollow&#160;<xliff:g example="Apkpure" id="name">%1$s</xliff:g></string>
+    <string name="follow_xx">Follow&#160;<xliff:g example="Apkpure" id="name">%1$s</xliff:g></string>
+    <string name="app_rating">Rating: </string>
+    <string name="number">"\/"</string>
+    <string name="headline_footer_refresh">Pull down or tap this line to refresh.</string>
+
+    <string name="download_install_obb">Install OBB</string>
+    <string name="download_install_apk">Install APK</string>
+
+    <string name="users_recommended_title">Congrats!</string>
+    <string name="users_recommended_des">Your review was selected as user\'s recommendation,%1$s</string>
+    <string name="recommended_posts_title">Congrats!</string>
+    <string name="recommended_posts_des">Your review was selected as user\'s recommendation,%1$s</string>
+    <string name="comment_removed_title">Your Post Has Been Removed</string>
+    <string name="comment_removed_des">
+        It looks like something you posted doesn\'t follow our %1$s.
+        We don\'t allow posts that bully private individuals or harass anyone on APKPure.
+        This could include inappropriate images, photos or videos of physical bullying, or any other post intended to degrade or shame a specific person.
+       \n%2$s
+       \nIf you think this was a mistake, please %3$s.</string>
+    <string name="temporarily_blocked_title">You\'re Temporarily Blocked From Posting</string>
+    <string name="temporarily_blocked_des">
+        This temporary block will last %1$s days, and you won\'t be able to post on APKPure until it\'s finished.
+        If you post something that goes against our %2$s again, you account will be blocked for another 30 days.
+        Please keep in mind that people who repeatedly post things that aren't allowed on APKPure may have their accounts permanently disabled.
+        \nIf you think this was a mistake, please %3$s.
+    </string>
+    <string name="pre_register_title">%1$s released for %2$s!</string>
+    <string name="pre_register_des">Pre-registered game %1$s &#160;&#160;%2$s is available to download.%3$s</string>
+    <string name="report_callback_title">We removed the post you reported!</string>
+    <string name="report_callback_des">
+        We reviewed the post you reported for harassment.
+        Since it violated our %1$s, we removed it. Thanks for your report.
+        We let %2$s know that the post has been removed, but not who reported it.
+    </string>
+
+    <string name="tap_to_view">tap to view</string>
+    <string name="let_us_know">let us know</string>
+    <string name="community_guide_lines">Community Guidelines</string>
+
+    <string name="my_draft">My Draft</string>
+    <string name="clear_empty">Clear all</string>
+    <string name="several_draft"><xliff:g example="5" id="count">%1$s</xliff:g> drafts</string>
+    <string name="delete_all_draft_hint">Whether to empty the draft box?</string>
+    <string name="edit_draft">Edit the draft</string>
+    <string name="delete_draft">Delete the draft</string>
+    <string name="empty_draft_info">No content…</string>
+    <string name="is_save_comment_draft">Whether to save as a draft?</string>
+    <string name="upload_video">Upload video</string>
+    <string name="saved_draft">Saved as a draft</string>
 
 </resources>
