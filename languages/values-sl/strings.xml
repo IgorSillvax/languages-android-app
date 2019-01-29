@@ -6,16 +6,16 @@
 
     <string name="press_back_key_quit">Ponovno pritisnite tipko za nazaj in končajte.</string>
 
-    <string name="featured">Predstavljeno</string>
+    <string name="featured">Predstavljeni</string>
     <string name="recommend">Odkrijte</string>
     <string name="apps">Aplikacije</string>
     <string name="categories">Kategorije</string>
     <string name="updates">Posodobitve</string>
 
     <string name="something_happened">&gt;_&lt;
-Nekaj se je zgodilo.</string>
+\nNekaj se je zgodilo.</string>
     <string name="load_failed_error">Ops! Prišlo je do napake.</string>
-    <string name="load_failed_error_not_found">Aplikacije ni na seznamu v APKPure App Store!</string>
+    <string name="load_failed_error_not_found">Aplikacija ni bila vključena v APKPure.</string>
     <string name="load_failed_empty">Tukaj ni ničesar.</string>
     <string name="load_failed_all_up_to_date">Vse aplikacije so posodobljene.</string>
     <string name="load_failed_no_results">Oprostite! Ni najdenih rezultatov.</string>
@@ -24,7 +24,7 @@ Nekaj se je zgodilo.</string>
     <string name="management">Upravljanje</string>
     <string name="app_updates">App posodobitve</string>
     <string name="app_management">Nameščeno</string>
-    <string name="app_uninstall">Odstranitev App</string>
+    <string name="app_uninstall">Odstranitev aplikacije</string>
     <string name="apk_management">APK upravljanje</string>
     <string name="apk_xapk_management">APK / XAPK upravljanje</string>
     <string name="download_management">Upravljanje prenosov</string>
@@ -210,7 +210,7 @@ Podrobnosti težave:
 
     <string name="update_all">Posodobite vse</string>
     <string name="update___count__">Posodobi (<xliff:g primer="3" id="count">%1$d</xliff:g>)</string>
-    <string name="ignore">Prezri</string>
+    <string name="ignore">Prezri s seznama</string>
     <string name="unignore">Ne prezri</string>
     <string name="select">Izberi</string>
     <string name="cancel">Prekliči</string>
@@ -234,10 +234,10 @@ Podrobnosti težave:
     <string name="language">Jezik</string>
     <string name="auto">Samodejno</string>
     <string name="changing_language">Spreminjanje jezika, prosim počakajte…</string>
-    <string name="data_saver_model">Varčevanje s podatki</string>
+    <string name="data_saver_model">Shranjevalnik podatkov</string>
     <string name="data_saver_model_summery">Če vklopite to možnost, boste zmanjšali velikost in kakovost slike, da boste uporabili manj mobilnih podatkov.</string>
     <string name="download_via_wifi_only">Prenesite samo prek omrežja Wi-Fi</string>
-    <string name="enable_ultra_download">Omogoči Ultra Download</string>
+    <string name="enable_ultra_download">Omogočite ultra prenos</string>
     <string name="enable_ultra_download_summary">Ultra Download je v beta testiranju, obvestite nas, če naletite na kakršne koli težave.</string>
     <string name="installation">Namestitev</string>
     <string name="show_notification_after_installation">Pokaži obvestilo po namestitvi</string>
@@ -302,7 +302,7 @@ Zgoraj omenjene funkcije podpirajo Android 4.1+, ni potrebno root dovoljenje. Ob
     <string name="app_submit_reply_to">odgovori na</string>
 
     <string name="app_detail_tab_one">Podrobnosti</string>
-    <string name="app_detail_tab_two">Objave</string>
+    <string name="app_detail_tab_two">Skupina</string>
     <string name="app_detail_tab_three">Povezano</string>
 
     <string name="app_detail_comment_order_array_default">Razvrsti po privzeto</string>
@@ -336,7 +336,7 @@ Zgoraj omenjene funkcije podpirajo Android 4.1+, ni potrebno root dovoljenje. Ob
     <string name="already_save">Shranjeno<xliff:g primer="ApKPure/photo" id="pot">%1$s</xliff:g></string>
 
     <string name="load_end">Ni več podatkov</string>
-    <string name="load_failed_click_retry">Neuspešno nalaganje, kliknite za ponovitev</string>
+    <string name="load_failed_click_retry">Nekaj je šlo narobe. Prosimo, kliknite za ponovni poskus</string>
     <string name="loading">Nalaganje…</string>
 
     <string name="scan_qr_code_hint">Pred uporabo skeniranja QR kode morate odobriti dovoljenje kameri,
@@ -391,7 +391,7 @@ Zgoraj omenjene funkcije podpirajo Android 4.1+, ni potrebno root dovoljenje. Ob
     <string name="update_intro_tv">Polje O meni ne more biti prazno</string>
 
     <string name="message_all">VSA</string>
-    <string name="message_reply">PRIPOMBE</string>
+    <string name="message_reply">ODGOVORI</string>
     <string name="message_notifications_praise">Uveljavi svoj komentar</string>
     <string name="message_praise">VŠEČKI</string>
     <string name="message_notifications_reply">Odgovori na vaš komentar</string>
@@ -409,7 +409,7 @@ Zgoraj omenjene funkcije podpirajo Android 4.1+, ni potrebno root dovoljenje. Ob
     <string name="update_pwd_new_pwd_null_tv">Novo geslo ne more biti prazno</string>
     <string name="update_pwd_new_confrim_tv">Gesli, ki ste ju vnesli, se ne ujemata</string>
     <string name="update_pwd_save_bt">Shrani</string>
-    <string name="update_save_success">Uspešno shranjeno!</string>
+    <string name="update_save_success">Shranjeno.</string>
     <string name="crop__cancel" ignore="ButtonCase">Preklic</string>
     <string name="crop__done">Končano</string>
     <string name="crop__pick_error">Neveljavna vrsta slikovne datoteke</string>
@@ -424,7 +424,7 @@ Zgoraj omenjene funkcije podpirajo Android 4.1+, ni potrebno root dovoljenje. Ob
 
     <string name="set_contributor">Sodelavec</string>
     <string name="set_permissions">Dovoljenja</string>
-    <string name="set_open_source_licence">Odprtno kodna licenca</string>
+    <string name="set_open_source_licence">Odprtokodna licenca</string>
 
     <string name="sign_in_services">S podpisom se strinjate z našimi pogoji in politiko zasebnosti.</string>
 
@@ -463,7 +463,7 @@ Zgoraj omenjene funkcije podpirajo Android 4.1+, ni potrebno root dovoljenje. Ob
     <string name="download_list">Prenesi seznam</string>
     <string name="can_be_update">Lahko se posodobi</string>
     <string name="install_list">Nameščeno</string>
-    <string name="no_download">Brez prenosa</string>
+    <string name="no_download">Ni prenesenih aplikacij.</string>
     <string name="downloads">Prenosi</string>
 
     <string name="change_language_failed">Neuspel preklop jezika!</string>
@@ -476,9 +476,9 @@ Zgoraj omenjene funkcije podpirajo Android 4.1+, ni potrebno root dovoljenje. Ob
     <string name="like_notification_msg">Prejemanje obvestil o novih glasovanjih sporočil</string>
     <string name="gif_tip">gif</string>
     <string name="ad_tip">ad</string>
-    <string name="submit_comment_title_hint">Predmet (neobvezno)</string>
+    <string name="submit_comment_title_hint">Naslov</string>
 
-    <string name="comment_vote_string">Glasujte</string>
+    <string name="comment_vote_string">Všeč mi je</string>
     <string name="comment_reply_three">Odgovorite</string>
     <string name="comment_item_fold">komentar se je zrušil</string>
 
@@ -506,8 +506,8 @@ Zgoraj omenjene funkcije podpirajo Android 4.1+, ni potrebno root dovoljenje. Ob
     <string name="download_history">Zgodovina prenosov</string>
 
     <string name="sub_comment_dialog_title">Dodaj video</string>
-    <string name="sub_comment_dialog_des_tv">Podpora za razčlenjevanje URL-jev YouTube</string>
-    <string name="sub_comment_dialog_link_et">Vnesite URL naslov videoposnetka tukaj</string>
+    <string name="sub_comment_dialog_des_tv">Podpira razčlenjevanje samo Youtube videoposnetkov.</string>
+    <string name="sub_comment_dialog_link_et">Vnesite naslov videoposnetka tukaj.</string>
     <string name="sub_comment_dialog_link_null">URL naslov videoposnetka ne more biti prazen</string>
     <string name="sub_comment_progress_msg">Dodajanje videoposnetka…</string>
 
@@ -532,8 +532,8 @@ Zgoraj omenjene funkcije podpirajo Android 4.1+, ni potrebno root dovoljenje. Ob
     <string name="main_night_mode">Nočni način</string>
     <string name="please_login_first">Prosimo, da se najprej prijavite</string>
     <string name="no_choice">Brez izbire</string>
-    <string name="follow_on_success">Uspelo!</string>
-    <string name="follow_un_success">Ne sledite!</string>
+    <string name="follow_on_success">Sledi.</string>
+    <string name="follow_un_success">Nespremljano.</string>
     <string name="canceled">Preklicano</string>
     <string name="group">Skupina</string>
     <string name="collection">Priljubljene</string>
@@ -550,7 +550,7 @@ Zgoraj omenjene funkcije podpirajo Android 4.1+, ni potrebno root dovoljenje. Ob
     <string name="ranking_tab2_title">Najboljše nove igre</string>
     <string name="ranking_tab3_title">Najboljše aplikacije</string>
     <string name="ranking_tab4_title">Najboljše nove aplikacije</string>
-    <string name="ranking_top_countries_title">Najboljše države</string>
+    <string name="ranking_top_countries_title">Porazdeljena uvrstitev</string>
     <string name="ranking_top_develop_title">Najboljši razvijalci</string>
 
     <string name="app_detail_three_fragment_foot">Prikaži vse komentarje</string>
@@ -558,7 +558,7 @@ Zgoraj omenjene funkcije podpirajo Android 4.1+, ni potrebno root dovoljenje. Ob
 
     <string name="favorite_title">Priljubljeno</string>
     <string name="save_as_favorite">Shrani kot priljubljeno</string>
-    <string name="favorite_saved">Priljubljeno shranjeno</string>
+    <string name="favorite_saved">Priljubljene.</string>
     <string name="failed_to_save_favorite">Najljubše ni bilo mogoče shraniti</string>
     <string name="remove_as_favorite">Odstrani kot priljubljen</string>
     <string name="remove_failed">Odstranjevanje ni uspelo</string>
@@ -624,7 +624,7 @@ Zgoraj omenjene funkcije podpirajo Android 4.1+, ni potrebno root dovoljenje. Ob
     <string name="menu_follow_group_tab">Skupine</string>
 
     <string name="choose_app">Izberite aplikacijo</string>
-    <string name="publish_comment">Delite objavo</string>
+    <string name="publish_comment">Objava</string>
 
     <string name="app_detail_has_product">Nakup artiklov</string>
     <string name="app_detail_no_product">Ni artiklov nakupa</string>
@@ -651,7 +651,7 @@ Zgoraj omenjene funkcije podpirajo Android 4.1+, ni potrebno root dovoljenje. Ob
 
     <string name="share_apk">Delite APK</string>
     <string name="tab_apk">APK</string>
-    <string name="commentaries">Delite objavo</string>
+    <string name="commentaries">Zgodba</string>
 
     <string name="upload_apk_version">V %1$s</string>
     <string name="upload_apk_downloads">Prenosi: %1$s</string>
@@ -701,8 +701,8 @@ Zgoraj omenjene funkcije podpirajo Android 4.1+, ni potrebno root dovoljenje. Ob
     <string name="copy_content">Kopiraj vsebino</string>
 
     <string name="tab_global">IZBRANO</string>
-    <string name="comment_list_see_here">Nazadnje obiskani tukaj, tapnite, da osvežite</string>
-    <string name="comment_list_new_num">%d novih zgodb</string>
+    <string name="comment_list_see_here">Zadnjič, ko ste prišli sem. Tapnite, da osvežite.</string>
+    <string name="comment_list_new_num">%d novih naslovov</string>
 
     <string name="tab_popular">PRILJUBLJENO</string>
 <string name="menu_copy_link">Kopiraj povezavo</string>
@@ -723,13 +723,13 @@ Zgoraj omenjene funkcije podpirajo Android 4.1+, ni potrebno root dovoljenje. Ob
 
     <string name="app_detail_comment_order_array_good">4-5</string>
     <string name="app_detail_comment_order_array_bad">1-3</string>
-    <string name="app_detail_folded_footer_reviews">ogled vseh %d zloženih pregledov</string>
-    <string name="app_detail_folded_footer_posts">ogled vseh %d zloženih prispevkov</string>
+    <string name="app_detail_folded_footer_reviews">Ogled vseh %d zloženih pregledov</string>
+    <string name="app_detail_folded_footer_posts">Ogled vseh %d zloženih prispevkov</string>
     <string name="app_detail_discuss_filter_featured">Poudarki</string>
     <string name="app_detail_discuss_filter_folded">Zložen</string>
 
 
-    <string name="message_notify">obvestilo</string>
+    <string name="message_notify">Obvestila</string>
     <string name="filter_no_comment">Ooops! Ni takšne vsebine!!</string>
 
     <string name="follow_floating_action_button">Ustvarite nov trenutek</string>
@@ -770,5 +770,56 @@ Zgoraj omenjene funkcije podpirajo Android 4.1+, ni potrebno root dovoljenje. Ob
     <string name="forget_password_tv">Pozabljeno geslo?</string>
     <string name="recover_password_title">Obnovitev gesla</string>
     <string name="email_address_hint_et">Vnesite svoj e-poštni naslov.</string>
+
+<string name="home_message_reply">Komentarji</string>
+    <string name="home_message_praise">Všečki</string>
+    <string name="sign_in_services_key_policy_register">Politika zasebnosti</string>
+    <string name="shop">SHRAMBA</string>
+    <string name="setting_region">Regija</string>
+    <string name="submit_add_title_image_tv">Dodajte pokrov</string>
+    <string name="submit_add_title_image_error_toast">Ta slika morda ni začasno podprta. Prosimo, izberite drugo.</string>
+    <string name="comment_hint_tv">Delite nekaj?</string>
+    <string name="msg_all_read">Obvestilo</string>
+    <string name="msg_all_read_msg">Ali ste prepričani, da označite vse kot prebrano?</string>
+    <string name="user_recommend_tip">Priporočilo uporabnikov</string>
+    <string name="comments">Komentarji</string>
+    <string name="subject_comment">Lojtre</string>
+    <string name="new_subject_comment">Nova lojtra</string>
+    <string name="evaluating">Pregledi</string>
+    <string name="image_text">Zgodba</string>
+    <string name="trends">Objava</string>
+    <string name="error_hot_data_empty">Brez vročih lojter!</string>
+    <string name="hot_subject">Vroče lojtre</string>
+    <string name="menu_follow_subject">Sledite rojtlam</string>
+    <string name="menu_follow_subject_tab">Rojtla</string>
+    <string name="me_follow">Moji sledilci</string>
+    <string name="release_dynamics">Trenutna objava</string>
+    <string name="delete_success">Uspelo</string>
+    <string name="hot">vroče</string>
+    <string name="look_links">Prikaži povezavo</string>
+
+    <string name="headline_no_data_tv">Ni nove vsebine</string>
+    <string name="hint">Zabeležka</string>
+    <string name="no_save_comment_hint">Obstajajo neobjavljene vsebine. Ali ste prepričani, da zapustite?</string>
+    <string name="look_all">Poglejte več</string>
+    <string name="history_hastag">Zgodovina lojter</string>
+    <string name="share_image_failed">Spodletelo deljenje slike!</string>
+    <string name="select_image_overflow_hint">\@niz/slika_sporočilo_največ_številka</string>
+
+    <string name="share_select_image_overflow_hint">Lahko delite do 9 slik.</string>
+    <string name="search_or_create">Iščite ali ustvarite</string>
+
+    <string name="privacy_setting_title">Nastavitve zasebnosti</string>
+    <string name="privacy_setting_account">Zasebni račun</string>
+    <string name="privacy_setting_account_des">Vaša osebna domača stran ne bo vidna drugim, če je vaš račun nastavljen na zasebno.</string>
+    <string name="privacy_setting_account_del">Izbrišite svoj račun in informacije</string>
+    <string name="privacy_setting_account_privacy">To je zasebni račun.</string>
+    <string name="del_account_email_notify_tv">Prosimo, navedite veljaven e-poštni naslov, da prejmete naše obvestilo.</string>
+    <string name="del_account_email_reason_tv">Zakaj želite izbrisati ta račun?</string>
+    <string name="del_account_bt">Pošlji</string>
+    <string name="del_account_result_warn">Po brisanju se ne boste mogli prijaviti s tem računom.</string>
+    <string name="del_account_reason_hint">Zakaj želite izbrisati ta račun?</string>
+    <string name="del_account_sure">Vaš račun bo izbrisan najkasneje v 48 urah. Po brisanju se ne boste mogli prijaviti s tem računom. Če imate dodatna vprašanja, se obrnite na nas.</string>
+    <string name="reply_to">Odgovori na %1$s:</string>
 
 </resources>

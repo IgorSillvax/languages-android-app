@@ -202,7 +202,7 @@
 
     <string name="update_all">Összes frissítése</string>
     <string name="update___count__">(<xliff:g example="3" id="count">%1$d</xliff:g>) frissítése</string>
-    <string name="ignore">Kihagyás</string>
+    <string name="ignore">Mellőzés a listáról</string>
     <string name="unignore">Kihagyás visszavonása</string>
     <string name="select">Kiválasztás</string>
     <string name="cancel">Mégse</string>
@@ -280,7 +280,7 @@
     <string name="app_submit_reply_to">Válasz</string>
 
     <string name="app_detail_tab_one">Részletek</string>
-    <string name="app_detail_tab_two">Hozzászólások</string>
+    <string name="app_detail_tab_two">Csoport</string>
     <string name="app_detail_tab_three">Kapcsolódó</string>
 
     <string name="reply">Válasz</string>
@@ -288,7 +288,7 @@
     <string name="publish">Közzététel</string>
 
     <string name="load_end">Nincs több adat</string>
-    <string name="load_failed_click_retry">Betöltési hiba, kattintson az újrapróbálkozáshoz</string>
+    <string name="load_failed_click_retry">Valami hiba történt. Kérjük, kattintson az újrapróbálkozáshoz</string>
     <string name="loading">Betöltés…</string>
 
     <string name="scan_qr_code_hint">A QR-kód beolvasás előtt meg kell adnia a kamera engedélyt,
@@ -362,7 +362,7 @@
     <string name="update_pwd_new_pwd_null_tv">Az új jelszó mező nem lehet üres</string>
     <string name="update_pwd_new_confrim_tv">A megadott jelszavak nem egyeznek</string>
     <string name="update_pwd_save_bt">Mentés</string>
-    <string name="update_save_success">Sikeresen elmentve!</string>
+    <string name="update_save_success">Mentve.</string>
     <string name="crop__cancel" ignore="ButtonCase">Mégse</string>
     <string name="crop__done">Kész</string>
     <string name="crop__pick_error">Érvénytelen képfájl típus</string>
@@ -404,7 +404,7 @@
     <string name="app_detail_comment_order_array_most_recent">Legutóbbi</string>
     <string name="app_detail_comment_order_array_new">Legújabb</string>
     <string name="message_all">ÖSSZES</string>
-    <string name="message_reply">HOZZÁSZÓLÁSOK</string>
+    <string name="message_reply">VÁLASZOK</string>
     <string name="message_praise">KEDVELÉSEK</string>
     <string name="message_notifications_praise">Pozitívan szavazott az Ön megjegyzésére</string>
     <string name="message_notifications_reply">Válaszolt az Ön megjegyzésére</string>
@@ -418,7 +418,7 @@
     <string name="download_list">Letöltési lista</string>
     <string name="can_be_update">Frissíthető</string>
     <string name="install_list">Telepítve</string>
-    <string name="no_download">Nincs letöltés</string>
+    <string name="no_download">Nincsenek letöltött alkalmazások.</string>
     <string name="downloads">Letöltések</string>
 
     <string name="change_language_failed">Nem sikerült nyelvet váltani!</string>
@@ -430,9 +430,9 @@
     <string name="like_notification">Pozitív szavazatok</string>
     <string name="like_notification_msg">Értesítések fogadása új pozitív szavazat esetén</string>
     <string name="gif_tip">gif</string>
-    <string name="submit_comment_title_hint">Tárgy (Nem kötelező)</string>
+    <string name="submit_comment_title_hint">Cím</string>
 
-    <string name="comment_vote_string">Szavazás</string>
+    <string name="comment_vote_string">Tetszik</string>
     <string name="comment_reply_three">Válasz</string>
     <string name="comment_item_fold">hozzászólás összevonva</string>
 
@@ -443,7 +443,7 @@
 
     <string name="comment_no_reply">Nahát, itt nincs semmi.</string>
     <string name="comment_reply_info_name">Részletek</string>
-    <string name="set_updates_notification">Alkalmazás frissítések</string>
+    <string name="set_updates_notification">Alkalmazás frissítések érhetők el</string>
     <string name="set_updates_notification_msg">Értesítsen, ha új alkalmazás frissítés érhető el. Ajánlott opció: Be</string>
     <string name="app_detail_unknow_text">Az APKPure régi verziója nem támogatja az új funkciókat, kérjük, frissítsen a legújabbra.</string>
     <string name="comment_detail_original">Eredeti hozzászólás megtekintése &gt;</string>
@@ -458,8 +458,8 @@
     <string name="download_history">Letöltési előzmények</string>
 
     <string name="sub_comment_dialog_title">Egy videó hozzáadása</string>
-    <string name="sub_comment_dialog_des_tv">Csak YouTube URL-címek elemzésének támogatása</string>
-    <string name="sub_comment_dialog_link_et">Adja meg a videó URL-címét itt</string>
+    <string name="sub_comment_dialog_des_tv">Csak a YouTube videók elemzését támogatja.</string>
+    <string name="sub_comment_dialog_link_et">Adja meg a videó címét itt.</string>
     <string name="sub_comment_dialog_link_null">A videó URL-cím nem lehet üres</string>
     <string name="sub_comment_progress_msg">Videó hozzáadása…</string>
 
@@ -485,13 +485,13 @@
     <string name="main_my_collection">Kedvencek</string>
     <string name="main_my_message">Üzenetek</string>
     <string name="main_good_comments">Pozitív szavazatok</string>
-    <string name="main_app_management">Alkalmazások kezelése</string>
+    <string name="main_app_management">Alkalmazáskezelés</string>
     <string name="main_topic_selection">Témák</string>
     <string name="main_night_mode">Éjszakai mód</string>
     <string name="please_login_first">Kérjük, először jelentkezzen be</string>
     <string name="no_choice">Nincs választás</string>
-    <string name="follow_on_success">Sikeres!</string>
-    <string name="follow_un_success">Leiratkozás!</string>
+    <string name="follow_on_success">Követett.</string>
+    <string name="follow_un_success">Leiratkozva.</string>
     <string name="canceled">Megszakítva</string>
     <string name="group">Csoport</string>
     <string name="collection">Kedvencek</string>
@@ -514,7 +514,7 @@
 
     <string name="favorite_title">Kedvencek</string>
     <string name="save_as_favorite">Mentés kedvencként</string>
-    <string name="favorite_saved">Kedvenc mentve</string>
+    <string name="favorite_saved">Kedvencek között.</string>
     <string name="failed_to_save_favorite">Nem sikerült menteni a kedvencet</string>
     <string name="remove_as_favorite">Eltávolítás kedvencként</string>
     <string name="remove_failed">Az eltávolítás sikertelen</string>
@@ -589,10 +589,10 @@
     <string name="menu_follow_group_tab">Csoportok</string>
 
     <string name="choose_app">Válasszon alkalmazást</string>
-    <string name="publish_comment">Hozzászólás küldése</string>
+    <string name="publish_comment">Közzététel</string>
     <string name="history_version">Verzióelőzmények</string>
 
-    <string name="data_saver_model">Adatforgalom-csökkentő</string>
+    <string name="data_saver_model">Adatmentő</string>
     <string name="data_saver_model_summery">Aktiválásával csökkenthető a képméret és a minőség a kevesebb mobiladat használat céljából.</string>
     <string name="scan_qr_code_result_title">Eredmény</string>
     <string name="scan_qr_code_result_copy_text">Szöveg másolása</string>
@@ -623,7 +623,7 @@
     <string name="app_add_tag_hint_caution">Legfeljebb %1$s címke tartozhat minden alkalmazáshoz.</string>
     <string name="app_detail_no_product">Nincsenek vásárlási elemek</string>
     <string name="app_detail_has_product">Vásárlási elemek</string>
-    <string name="load_failed_error_not_found">Az alkalmazás nem szerepel az APKPure áruházban!</string>
+    <string name="load_failed_error_not_found">Az alkalmazás nem szerepel az APKPure-ban.</string>
     <string name="beta">Béta</string>
     <string name="user_info_edit_intro_tv">Rólam</string>
     <string name="upload_add_list_toast">Sikeres!</string>
@@ -642,7 +642,7 @@
 
     <string name="share_apk">APK megosztása</string>
     <string name="tab_apk">APK</string>
-    <string name="commentaries">Hozzászólás küldése</string>
+    <string name="commentaries">Történet</string>
 
     <string name="upload_apk_version">v%1$s</string>
     <string name="upload_apk_downloads">Letöltések: %1$s</string>
@@ -670,11 +670,11 @@
 <string name="hot_tag_explain">(Adjon hozzá vagy szavazzon a meglévő címkékre ennél az alkalmazásnál)</string>
     <string name="message_at">Megemlítette Önt</string>
 
-    <string name="set_open_source_licence">Nyílt forráskódú licenc</string>
+    <string name="set_open_source_licence">Nyílt forrású licenc</string>
 
     <string name="push_title_info_at">Valaki megemlítést tett Önről egy bejegyzésben, koppintson a megtekintéshez</string>
 
-    <string name="ranking_top_countries_title">Legnépszerűbb országok</string>
+    <string name="ranking_top_countries_title">Felosztott rangsor</string>
     <string name="ranking_top_develop_title">Legnépszerűbb fejlesztők</string>
 
     <string name="google_play_bug_text">Vásárlás a Google Playen</string>
@@ -705,8 +705,8 @@
     <string name="copy_content">Tartalom másolása</string>
 
     <string name="tab_global">KIEMELT</string>
-    <string name="comment_list_see_here">Utolsó látogatás itt, érintse meg a frissítéshez</string>
-    <string name="comment_list_new_num">%d új történet</string>
+    <string name="comment_list_see_here">Utolsó alkalommal jutott el ide. Érintse meg a frissítéshez.</string>
+    <string name="comment_list_new_num">%d új szalagcím</string>
 <string name="tab_popular">NÉPSZERŰ</string>
 <string name="app_detail_tab_evaluation">Vélemények</string>
     <string name="app_detail_comment_filter_sort_score">Legjobbnak értékelt</string>
@@ -726,7 +726,7 @@
     <string name="app_detail_discuss_filter_folded">Összevont</string>
 
 
-    <string name="message_notify">értesítés</string>
+    <string name="message_notify">Értesítések</string>
     <string name="menu_copy_link">Link másolása</string>
     <string name="web_view_copy">Link másolása</string>
 
@@ -774,5 +774,55 @@
     <string name="forget_password_tv">Elfelejtette a jelszót?</string>
     <string name="recover_password_title">Jelszó visszaállítás</string>
     <string name="email_address_hint_et">Adja meg az e-mail címét.</string>
+
+<string name="home_message_reply">Hozzászólások</string>
+    <string name="home_message_praise">Kedvelések</string>
+    <string name="sign_in_services_key_policy_register">Adatvédelmi irányelvek</string>
+    <string name="shop">ÁRUHÁZ</string>
+    <string name="setting_region">Régió</string>
+    <string name="submit_add_title_image_tv">Adjon hozzá egy borítót</string>
+    <string name="submit_add_title_image_error_toast">Ez a kép lehet, hogy nem támogatott ideiglenesen. Kérjük válasszon másikat.</string>
+    <string name="comment_hint_tv">Megoszt valamit?</string>
+    <string name="msg_all_read">Értesítés</string>
+    <string name="msg_all_read_msg">Valóban megjelöli az összeset olvasottként?</string>
+    <string name="user_recommend_tip">Felhasználói ajánlás</string>
+    <string name="subject_comment">Hashtagek</string>
+    <string name="new_subject_comment">Új hashtag</string>
+    <string name="evaluating">Vélemények</string>
+    <string name="image_text">Történet</string>
+    <string name="trends">Bejegyzés</string>
+    <string name="error_hot_data_empty">Nincsenek új hashtagek!</string>
+    <string name="hot_subject">Új hashtagek</string>
+    <string name="menu_follow_subject">Követett hashtagek</string>
+    <string name="menu_follow_subject_tab">Hashtag</string>
+    <string name="me_follow">Követéseim</string>
+    <string name="release_dynamics">Pillanat közzététele</string>
+    <string name="delete_success">Sikeres</string>
+    <string name="hot">új</string>
+    <string name="look_links">Link megtekintése</string>
+
+    <string name="headline_no_data_tv">Nincs új tartalom</string>
+    <string name="hint">Megjegyzés</string>
+    <string name="no_save_comment_hint">Vannak olyan tartalmak, amelyek nem lettek elküldve. Valóban kilép?</string>
+    <string name="look_all">Még több</string>
+    <string name="history_hastag">Hashtag előzmények</string>
+    <string name="share_image_failed">Nem sikerült megosztani a képet!</string>
+    <string name="select_image_overflow_hint">\@string/picture_message_max_num</string>
+
+    <string name="share_select_image_overflow_hint">Legfeljebb 9 képet oszthat meg.</string>
+    <string name="search_or_create">Keresés vagy létrehozás</string>
+
+    <string name="privacy_setting_title">Adatvédelmi beállítások</string>
+    <string name="privacy_setting_account">Privát fiók</string>
+    <string name="privacy_setting_account_des">Személyes honlapját nem fogják látni mások, ha fiókja privátnak van beállítva.</string>
+    <string name="privacy_setting_account_del">Törölje fiókját és adatait</string>
+    <string name="privacy_setting_account_privacy">Ez egy privát fiók.</string>
+    <string name="del_account_email_notify_tv">Kérjük, adjon meg egy érvényes e-mail címet, hogy megkaphassa értesítésünket.</string>
+    <string name="del_account_email_reason_tv">Miért szeretné törölni ezt a fiókot?</string>
+    <string name="del_account_bt">Küldés</string>
+    <string name="del_account_result_warn">Törlés után nem fog tudni bejelentkezni ezzel a fiókkal.</string>
+    <string name="del_account_reason_hint">Miért szeretné törölni ezt a fiókot?</string>
+    <string name="del_account_sure">Fiókja 48 órán belül törlődik. A törlés után nem tud bejelentkezni a fiókjával. Ha további kérdései vannak, forduljon hozzánk.</string>
+    <string name="reply_to">%1$s válasz:</string>
 
 </resources>

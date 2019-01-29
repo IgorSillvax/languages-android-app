@@ -14,7 +14,7 @@
     <string name="something_happened">&gt;_&lt;\nTerjadi sesuatu.</string>
 
     <string name="load_failed_error">Oops! Terjadi kesalahan.</string>
-    <string name="load_failed_empty">Ini tidak ada disini.</string>
+    <string name="load_failed_empty">Tidak ada apapun disini.</string>
     <string name="load_failed_all_up_to_date">Semua aplikasi terbaru.</string>
     <string name="load_failed_no_results">Maaf! Tidak ada hasil yang ditemukan.</string>
     <string name="refresh">Muat ulang</string>
@@ -77,7 +77,7 @@
     <string name="installing_obb">Memasang file OBB …</string>
     <string name="extracting_apk">Mengekstrak APK File …</string>
     <string name="uninstall">Copot</string>
-    <string name="uninstalled">Tercopot</string>
+    <string name="uninstalled">Tidak terpasang</string>
     <string name="last_update__date_">Update terbaru: <xliff:g id="date">%1$s</xliff:g></string>
 
     <string name="all">Semua</string>
@@ -125,10 +125,10 @@
     <string name="delete_downloaded_file">Hapuskan file download</string>
 
     <string name="search">cari</string>
-    <string name="search_for_apps">Mencari App</string>
+    <string name="search_for_apps">Mencari APKPure</string>
     <string name="trending_searches">cenderung penelusuran</string>
     <string name="search_history">Sejarah</string>
-    <string name="clear_search_history">Sejelah jelas</string>
+    <string name="clear_search_history">Bersihkan semua riwayat</string>
 
     <string name="improvement_plan_title">Rencana peningkatan kinerja</string>
     <string name="join_us">Bergabung kami</string>
@@ -214,7 +214,7 @@
         <![CDATA[<big><b>Kita perlu mengakses penyimpanan eksternal Anda. Harap pastikan tak ditolak.</b></big>]]>
     </string>
 
-    <string name="share_app_url">Download <xliff:g example="APKPure" id="app_name">%1$s</xliff:g> APK (from @<xliff:g example="APKPure" id="social_network_name">%2$s</xliff:g>), <xliff:g example="https://apkpure.org/p/com.apkpure.aegon" id="app_url">%3$s</xliff:g></string>
+    <string name="share_app_url"> Bagikan <xliff:g example="APKPure" id="app_name">%1$s</xliff:g> APK (from @<xliff:g example="APKPure" id="social_network_name">%2$s</xliff:g>), <xliff:g example="https://apkpure.org/p/com.apkpure.aegon" id="app_url">%3$s</xliff:g></string>
 
     <string name="_name__version_history"><xliff:g example="APKPure" id="name">%1$s</xliff:g> Sejarah visi</string>
     <string name="update__date___size_">Pembaruan: <xliff:g example="Mar 3, 2016" id="date">%1$s</xliff:g>, <xliff:g example="1024 kB" id="size">%2$s</xliff:g></string>
@@ -391,4 +391,9 @@
     <string name="user_sign_up">Mendaftar</string>
     <string name="check_update_replace">Versi resmi</string>
     <string name="check_update_beta">Pra-rilis Beta</string>
-</resources>
+<string name="beta">Beta</string>
+    <string name="history_version">Riwayat Versi</string>
+
+    <string name="load_failed_error_not_found">Aplikasi tidak termasuk di APKPure.</string>
+    <string name="properties_message_v2">&lt;b&gt;Nama Paket:&lt;/b&gt; %1$s&lt;br&gt;&lt;b&gt;Versi:&lt;/b&gt; %2$s&lt;br&gt;&lt;b&gt;Letak:&lt;/b&gt; %3$s&lt;br&gt;&lt;b&gt;Ukuran:&lt;/b&gt; %4$s&lt;br&gt;&lt;b&gt;Terkahir diperbarui:&lt;/b&gt; %5$s</string>
+    </resources>

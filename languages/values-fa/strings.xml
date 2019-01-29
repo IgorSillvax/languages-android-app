@@ -174,7 +174,7 @@
     <string name="share">اشتراک گذاری</string>
     <string name="update_all">به‌روزرسانی همه</string>
     <string name="update___count__">به‌روزرسانی (<xliff:g example="3" id="count">%1$d</xliff:g>)</string>
-    <string name="ignore">نادیده گرفتن</string>
+    <string name="ignore">نادیده گرفتن از فهرست</string>
     <string name="unignore">نادیده نگیر</string>
     <string name="select">انتخاب</string>
     <string name="cancel">انصراف</string>
@@ -209,7 +209,7 @@
         <![CDATA[<big><b>ما نیاز به دسترسی ذخیره سازی خارجی شما داریم. لطفا مطمئن شوید که اجازه دسترسی رد نشده.</b></big>]]>
     </string>
 
-    <string name="share_app_url">اشتراک گذاری <xliff:g example="APKPure" id="app_name">%1$s</xliff:g> ای‌پی‌کا (از @<xliff:g example="APKPure" id="social_network_name">%2$s</xliff:g>), <xliff:g example="https://apkpure.com/p/com.apkpure.aegon" id="app_url">%3$s</xliff:g></string>
+    <string name="share_app_url"> اشتراک گذاری <xliff:g example="APKPure" id="app_name">%1$s</xliff:g> ای‌پی‌کا (از @<xliff:g example="APKPure" id="social_network_name">%2$s</xliff:g>), <xliff:g example="https://apkpure.com/p/com.apkpure.aegon" id="app_url">%3$s</xliff:g></string>
 
     <string name="_name__version_history"><xliff:g example="APKPure" id="name">%1$s</xliff:g> تاریخچه نسخه</string>
     <string name="update__date___size_">به‌روزرسانی: <xliff:g example="Mar 3, 2016" id="date">%1$s</xliff:g>, <xliff:g example="1024 kB" id="size">%2$s</xliff:g></string>
@@ -282,11 +282,11 @@
     <string name="app_submit_reply_to">پاسخ دادن به</string>
 
     <string name="app_detail_tab_one">جزئیات</string>
-    <string name="app_detail_tab_two">پست‌ها</string>
+    <string name="app_detail_tab_two">گروه</string>
     <string name="app_detail_tab_three">مربوط</string>
 
     <string name="reply">پاسخ</string>
-    <string name="publish">انتشار</string>
+    <string name="publish">پست کردن</string>
 
     <string name="load_end">محتوای بیشتری موجود نیست</string>
     <string name="load_failed_click_retry">بارگذاری ناموفق بود، برای تلاش دوباره کلیک کنید</string>
@@ -295,7 +295,7 @@
     <string name="scan_qr_code_hint">قبل از استفاده اسکن کد QR باید شما به دوربین خود مجوز استفاده بدهید
  تا بتوانید کد QR را اسکن کند.</string>
     <string name="zxing_msg_parser_status">اسکن ناموفق بود، لطفا برای اسکن کد QR دوباره تلاش کنید.</string>
-    <string name="input_reply_content">محتوای واردی برای پاسخ:</string>
+    <string name="input_reply_content">وارد کردن محتوا برای پاسخ:</string>
     <string name="zxing_msg_default_status">لطفا محل کد QR را در قسمت منظره یاب برای اسکن قرار دهید.</string>
     <string name="report">گزارش</string>
     <string name="share_app_url_comment"> <xliff:g example="APKPure" id="user_name">%1$s</xliff:g> نظر در مورد <xliff:g example="APKPure" id="app_name">%2$s</xliff:g> : <xliff:g example="APKPure" id="app_name">%3$s</xliff:g> (از جانب @<xliff:g example="APKPure" id="social_network_name">%4$s</xliff:g>) <xliff:g example="https://apkpure.com/p/com.apkpure.aegon" id="app_url">%5$s</xliff:g></string>
@@ -306,7 +306,7 @@
     <string name="app_detail_comment_order_array_best">بهترین</string>
 
     <string name="download_complete_installation_setting_entries_always">همیشه نصب شود</string>
-    <string name="download_complete_installation_setting_entries_only">بعد از دانلود پنجره نصب برنامه باز می‌شود</string>
+    <string name="download_complete_installation_setting_entries_only">فقط زمانی که برنامه باز است نصب شود</string>
     <string name="download_complete_installation_setting_entries_never">هرگز نصب نشود</string>
 
     <string name="reply_comment">پاسخ به نظر</string>
@@ -374,7 +374,7 @@
     <string name="sign_in_services">شما با ثبت نام از شرایط و سیاست‌های حفظ حریم خصوصی ما موافقت کرده‌ایید.</string>
 
     <string name="sign_in_services_key">شرایط</string>
-    <string name="sign_in_services_key_policy">سیاست‌های حفظ حریم خصوصی</string>
+    <string name="sign_in_services_key_policy">حریم خصوصی</string>
 
     <string name="user_sign_up">ثبت نام</string>
     <string name="user_name_hint">نام‌کاربری</string>
@@ -388,15 +388,15 @@
     <string name="user_password_error">این رمز ورود نامعتبر است</string>
     <string name="user_confirm_error">رمز ورود‌ها باید با هم مطابقت داشته باشد</string>
 
-    <string name="login_user_name">نام‌کاربری</string>
-    <string name="login_user_password">رمز ورود</string>
+    <string name="login_user_name">نام‌کاربری یا ایمیل</string>
+    <string name="login_user_password">گذرواژه</string>
     <string name="login_user_sign_in">ورود</string>
     <string name="login_choose">یا با حساب‌ کاربری خود وارد شوید</string>
     <string name="login_new_user">ثبت نام کاربر جدید</string>
     <string name="login_post_as_a_guest">ارسال به عنوان مهمان</string>
 
     <string name="recommend">پیشنهاد‌ها</string>
-    <string name="reply_dialog_marked_words">با توجه به تصویر می تواند حذف شود.</string>
+    <string name="reply_dialog_marked_words">فشار دادن طولانی بر روی عکس انتخاب شده برای حذف آن.</string>
     <string name="save_original_image">ذخیره</string>
     <string name="login_select_way_to_login">لطفا یکی از راه‌ها را برای وارد شدن انتخاب کنید</string>
 
@@ -413,7 +413,7 @@
     <string name="download_list">فهرست دانلود</string>
     <string name="can_be_update">نیاز به‌بروز رسانی دارد</string>
     <string name="install_list">نصب شده است</string>
-    <string name="no_download">هنوز هیچ دانلودی انجام نشده</string>
+    <string name="no_download">هیچ دانلودی انجام نشده</string>
     <string name="downloads">دانلود‌ها</string>
 
     <string name="change_language_failed">تغییر زبان انجام نشد!</string>
@@ -558,8 +558,8 @@
     <string name="recommend_write_des_hint">پیشنهادهای مفید توسط کاربران زیادی که مثل شما علاقه‌ای مشابه دارند، دیده می‌شود.</string>
     <string name="download_mkdir">مسیر دانلود</string>
     <string name="download_mkdir_internal_storage_size_des">%1$s خالی، جمعا %2$s</string>
-    <string name="download_mkdir_internal_storage_entries">"SD "</string>
-    <string name="download_mkdir_internal_storage_entries1">SD 1</string>
+    <string name="download_mkdir_internal_storage_entries">کارت حافظه</string>
+    <string name="download_mkdir_internal_storage_entries1">کارت حافظه دوم</string>
     <string name="download_mkdir_external_storage_fill_toast">فضای ذخیره سازی پر است و نمی‌توان برنامه‌ای را دانلود کرد.</string>
 
     <string name="recommend_not_found">فهرست نشده است</string>
@@ -601,9 +601,9 @@
 
     <string name="user_info_edit_large_photo">مشاهده عکس در اندازه بزرگتر</string>
 
-    <string name="push_title_info_follow">%s نفر شما را دنبال می‌کند!</string>
+    <string name="push_title_info_follow">%1$s نفر شما را دنبال می‌کند!</string>
     <string name="push_title_info_update">به‌روزرسانی جدید APKPure آماده هست!</string>
-    <string name="push_content_info_update">نسخه جدید %s منتشر شد! به‌روزرسانی کنید!</string>
+    <string name="push_content_info_update">نسخه جدید %1$s منتشر شد! به‌روزرسانی کنید!</string>
 
     <string name="recommend_user_recommend_sys">توسط APKPure ویژه شده است</string>
 
@@ -709,4 +709,23 @@
     <string name="pre_register_success">پیش ثبت نام به این معنی است که هنگامی که برنامه به صورت رسمی منتشر شد، یک آگاه‌سازی برای اطلاع شما در دستگاه خود دریافت می‌کنید.</string>
 
     <string name="properties_message_v2">&lt;b&gt;نام بسته:&lt;/b&gt; %1$s&lt;br&gt;&lt;b&gt;نسخه:&lt;/b&gt; %2$s&lt;br&gt;&lt;b&gt;مسیر:&lt;/b&gt; %3$s&lt;br&gt;&lt;b&gt;اندازه:&lt;/b&gt; %4$s&lt;br&gt;&lt;b&gt;آخرین اصلاح:&lt;/b&gt; %5$s</string>
+    <string name="app_detail_tab_evaluation">مرورکردن</string>
+    <string name="app_detail_comment_filter_sort_score">بالاترین امتیاز</string>
+    <string name="app_detail_comment_filter_all">مرورکردن همه</string>
+    <string name="app_detail_comment_filter_version">نسخه آخر</string>
+    <string name="app_detail_comment_score_less">رای کاربران خیلی کم است</string>
+    <string name="app_detail_comment_no_data">امتیازی توسط کاربران ثبت نشده است، امتیاز خود را ثبت کنید.</string>
+    <string name="app_detail_comment_score_footer">%1$ مرور در سایر زبان ها وجود دارد.</string>
+    <string name="app_detail_evaluation_tool_bar_title">به اشتراک گذاری بررسی</string>
+    <string name="app_detail_evaluation_failed_bt">بررسی</string>
+
+    <string name="app_detail_comment_order_array_good">4-5</string>
+    <string name="app_detail_comment_order_array_bad">1-3</string>
+    <string name="app_detail_folded_footer_reviews">%d مشاهده همه بررسی ها</string>
+    <string name="app_detail_folded_footer_posts">%d مشاهده همه پست ها</string>
+    <string name="app_detail_discuss_filter_featured">برجسته ها</string>
+    <string name="home_message_reply">نظرها</string>
+    <string name="home_message_praise">پسندها</string>
+    <string name="message_notify">هشدارها</string>
+    <string name="sign_in_services_key_policy_register">سياست حفظ حريم خصوصي</string>
     </resources>

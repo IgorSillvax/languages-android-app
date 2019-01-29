@@ -2,18 +2,19 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
     <string name="action_settings">الإعدادات</string>
-    <string name="action_search">إبحث</string>
-    <string name="action_management">الإدارة</string>
+    <string name="action_search">بحث</string>
+    <string name="action_management">إدارة</string>
 
     <string name="press_back_key_quit">اضغط على زر الرجوع مرة أخرى للخروج .</string>
 
-    <string name="featured">مميز</string>
+    <string name="featured">متميز</string>
     <string name="games">الألعاب</string>
     <string name="apps">التطبيقات</string>
     <string name="categories">الفئات</string>
     <string name="updates">تحديثات</string>
 
-    <string name="something_happened">&gt;_&lt;\nشيء ما حدث.</string>
+    <string name="something_happened">&gt;_&lt;
+\nشيء ما حدث.</string>
 
     <string name="load_failed_error">عذراً ! حدث خطأ ما.</string>
     <string name="load_failed_empty">لايوجد شيء هنا.</string>
@@ -115,7 +116,7 @@
     <string name="download_percent"><xliff:g id="percent" example="50">%1$d</xliff:g> %%</string>
     <string name="pause">إيقاف مؤقت</string>
     <string name="continue_">متابعة</string>
-    <string name="restart">إعادة التحميل</string>
+    <string name="restart">إعادة بدء</string>
     <string name="download">تحميل</string>
     <string name="downloading">جاري التحميل</string>
     <string name="waiting">إنتظار</string>
@@ -193,25 +194,13 @@
     <string name="cancel">الغاء</string>
     <string name="ignored">تم تجاهله</string>
     <plurals name="total__count__apps__size_">
-        <item quantity="zero">
-            <![CDATA[المجموع: <b><font color="%1$d">%2$d</font></b>  تطبيق, <b><font color="%1$d">%3$s</font></b>]]>
-        </item>
-        <item quantity="one">
-            <![CDATA[المجموع: <b><font color="%1$d">%2$d</font></b>  تطبيق, <b><font color="%1$d">%3$s</font></b>]]>
-        </item>
-        <item quantity="two">
-            <![CDATA[المجموع: <b><font color="%1$d">%2$d</font></b>  تطبيق, <b><font color="%1$d">%3$s</font></b>]]>
-        </item>
-        <item quantity="few">
-            <![CDATA[المجموع: <b><font color="%1$d">%2$d</font></b>  تطبيق, <b><font color="%1$d">%3$s</font></b>]]>
-        </item>
-        <item quantity="many">
-            <![CDATA[المجموع: <b><font color="%1$d">%2$d</font></b>  تطبيق, <b><font color="%1$d">%3$s</font></b>]]>
-        </item>
-        <item quantity="other">
-            <![CDATA[المجموع: <b><font color="%1$d">%2$d</font></b>  تطبيق, <b><font color="%1$d">%3$s</font></b>]]>
-        </item>
-    </plurals>
+	<item quantity="zero">Total: &lt;b&gt;&lt;font color=%1$d&gt;%2$d&lt;/font&gt;&lt;/b&gt; app, &lt;b&gt;&lt;font color=%1$d&gt;%3$s&lt;/font&gt;&lt;/b&gt;</item>
+	<item quantity="one">المجموع: &lt;b&gt;&lt;font color=%1$d&gt;%2$d&lt;/font&gt;&lt;/b&gt; تطبيق, &lt;b&gt;&lt;font color=%1$d&gt;%3$s&lt;/font&gt;&lt;/b&gt;</item>
+	<item quantity="two">المجموع: &lt;b&gt;&lt;font color=%1$d&gt;%2$d&lt;/font&gt;&lt;/b&gt; تطبيق, &lt;b&gt;&lt;font color=%1$d&gt;%3$s&lt;/font&gt;&lt;/b&gt;</item>
+	<item quantity="few">المجموع: &lt;b&gt;&lt;font color=%1$d&gt;%2$d&lt;/font&gt;&lt;/b&gt; تطبيق, &lt;b&gt;&lt;font color=%1$d&gt;%3$s&lt;/font&gt;&lt;/b&gt;</item>
+	<item quantity="many">المجموع: &lt;b&gt;&lt;font color=%1$d&gt;%2$d&lt;/font&gt;&lt;/b&gt; تطبيق, &lt;b&gt;&lt;font color=%1$d&gt;%3$s&lt;/font&gt;&lt;/b&gt;</item>
+	<item quantity="other">المجموع: &lt;b&gt;&lt;font color=%1$d&gt;%2$d&lt;/font&gt;&lt;/b&gt; تطبيق, &lt;b&gt;&lt;font color=%1$d&gt;%3$s&lt;/font&gt;&lt;/b&gt;</item>
+</plurals>
     <string name="total_zero_app">
         <![CDATA[المجموع : <b><font color="%1$d">0</font></b> تطبيق.]]>
     </string>
@@ -496,9 +485,7 @@
 
     <string name="push_title_info_follow">"%s  يتابعك!"</string>
     <string name="push_title_info_update">وصل تحديث لـ APKPure!</string>
-    <string name="share_app_url_group"> مجموعة <xliff:g example="APKPure" id="app_name">%1$s</xliff:g>. (عبر@<xliff:g example="APKPure" id="social_network_name">%2$s</xliff:g>)
-\n <xliff:g example="https://apkpure.com/p/com.apkpure.aegon" id="app_url">%3$s</xliff:g>
-\n </string>
+    <string name="share_app_url_group"> <xliff:g example="APKPure" id="user_name">1%1$s</xliff:g>2\'s comments on <xliff:g example="APKPure" id="app_name">3%2$s</xliff:g>4 : <xliff:g example="APKPure" id="app_name">5%3$s</xliff:g>6 (from <xliff:g example="APKPure" id="social_network_name">7%4$s</xliff:g>8) <xliff:g example="https://apkpure.com/p/com.apkpure.aegon" id="app_url">9%5$s</xliff:g></string>
 
     <string name="push_content_info_update">اصدار جديد %s صدر! حدث الان!</string>
 
@@ -571,7 +558,7 @@
     <string name="ranking_tab1_title">أفضل الألعاب</string>
     <string name="ranking_tab2_title">أعلى الألعاب الجديدة</string>
     <string name="ranking_tab3_title">أفضل التطبيقات</string>
-    <string name="load_failed_error_not_found">التطبيق غير مدرج في متجر APKPure !</string>
+    <string name="load_failed_error_not_found">لم يتم تضمين التطبيق في APKPure.</string>
     <string name="beta">تجريبي</string>
     <string name="user_info_edit_intro_tv">عني</string>
     <string name="update_intro_title">تعديل عني</string>

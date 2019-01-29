@@ -23,7 +23,7 @@
 
     <string name="management">Gestione</string>
     <string name="app_updates">Aggiornamenti app</string>
-    <string name="app_management">Gestione app</string>
+    <string name="app_management">Installate</string>
     <string name="app_uninstall">Disinstalla app</string>
     <string name="apk_management">Gestione APK</string>
     <string name="apk_xapk_management">Gestione APK / XAPK</string>
@@ -34,7 +34,7 @@
     <string name="about_message">
         <![CDATA[<b>Versione:</b> %1$s<br><br><b>Sito web:</b> <a href=%2$s>%2$s</a><br><b>Email:</b> <a href=mailto:%3$s>%3$s</a>]]>
     </string>
-    <string name="check_update">Aggiorna</string>
+    <string name="check_update">Cerca aggiornamenti</string>
     <string name="quit">Esci</string>
     <string name="want_to_quit">Sei sicuro di voler uscire?</string>
 
@@ -244,7 +244,7 @@
     <string name="similar_or_related">Simili o Correlate</string>
     <string name="more_from_developer">Altro dallo Sviluppatore</string>
     <string name="more_large">Altro</string>
-    <string name="feedback">Feedback</string>
+    <string name="feedback">Risposta</string>
 
     <string name="changing_language">Modifica della lingua, attendi…</string>
     <string name="auto_service_description">Abilita \"APKPure Auto-installazione\" affinchè APKPure \"Auto-installazione\" funzioni meglio.
@@ -273,7 +273,7 @@ Le funzionalità sopradescritte supportano Android 4.1+, senza necessità di per
     <string name="auto_install_via_root_summary">Solo per telefoni e tablet Android con root.</string>
 
     <string name="download_complete_installation_setting">Opzione di installazione dopo il download</string>
-    <string name="recommend">Consigliate</string>
+    <string name="recommend">Scopri</string>
     <string name="report">Segnala</string>
     <string name="share_app_url_comment"> Commenti di <xliff:g example="APKPure" id="user_name">%1$s</xliff:g> su <xliff:g example="APKPure" id="app_name">%2$s</xliff:g> (da @<xliff:g example="APKPure" id="social_network_name">%3$s</xliff:g>), <xliff:g example="https://apkpure.com/p/com.apkpure.aegon" id="app_url">%4$s</xliff:g></string>
 
@@ -417,4 +417,16 @@ Le funzionalità sopradescritte supportano Android 4.1+, senza necessità di per
     <string name="login_new_user">Nuova Registrazione</string>
     <string name="login_post_as_a_guest">Posta come Ospite</string>
 
-</resources>
+<string name="collection_app">APPS</string>
+
+    <string name="open_with_browser">"Abrir con los navegadores  "</string>
+    <string name="web_view_refresh">Refreshed</string>
+    <string name="web_view_copy">"Copier le lien "</string>
+
+    <string name="topic_red_color">Crimson\t
+\ncrimson,= adjectives,,1. of rich deep red color or something.In purple .</string>
+    <string name="load_failed_error_not_found">L\' applicazione non è inclusa in APKPure.</string>
+    <string name="check_update_replace">Versione ufficiale</string>
+    <string name="check_update_beta">Beta pre-rilasciata</string>
+    <string name="beta">Beta</string>
+    </resources>

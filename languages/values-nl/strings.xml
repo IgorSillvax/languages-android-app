@@ -23,7 +23,7 @@
 
     <string name="management">Beheer</string>
     <string name="app_updates">App-updates</string>
-    <string name="app_management">App-beheer</string>
+    <string name="app_management">Geïnstalleerd</string>
     <string name="app_uninstall">App verwijderen</string>
     <string name="apk_management">APK-beheer</string>
     <string name="apk_xapk_management">APK / XAPK-beheer</string>
@@ -34,7 +34,7 @@
     <string name="about_message">
         <![CDATA[<b>Versie:</b> %1$s<br><br><b>Website:</b> <a href=%2$s>%2$s</a><br><b>Email:</b> <a href=mailto:%3$s>%3$s</a>]]>
     </string>
-    <string name="check_update">Controleer voor update</string>
+    <string name="check_update">Controleer op updates</string>
     <string name="quit">Afsluiten</string>
     <string name="want_to_quit">Weet je zeker dat je wil afsluiten?</string>
 
@@ -129,7 +129,7 @@
     <string name="delete_downloaded_file">Verwijder gedownload bestand</string>
 
     <string name="search">Zoeken</string>
-    <string name="search_for_apps">Zoeken naar apps</string>
+    <string name="search_for_apps">APK Zoeken</string>
     <string name="trending_searches">Trends in zoekopdrachten</string>
 
     <string name="improvement_plan_title">Prestatieverbeteringsplan</string>
@@ -282,7 +282,9 @@ De bovengenoemde functies ondersteunen Android 4.1+, The above mentioned functio
 
     <string name="app_detail_customer_reviews">Gebruikersopmerkingen</string>
     <string name="app_detail_comment_type_web">Internet</string>
-    <string name="app_submit_submit">Verzenden…</string>
+    <string name="app_submit_submit">…
+\n
+\nVerzenden…</string>
     <string name="app_submit_anonymous_comment">Voeg een opmerking toe</string>
     <string name="app_submit_title_toast">Je moet een titel invoeren!</string>
     <string name="app_submit_msg_toast">Je moet iets schrijven!</string>
@@ -509,4 +511,5 @@ dit is nodig om de QR-code te kunnen scannen.</string>
     <string name="app_detail_unknow_text">Deze verouderde versie van APKPure heeft geen ondersteuning voor nieuwe functies; installeer de nieuwste versie.</string>
     <string name="comment_detail_original">Originele opmerking bekijken &gt;</string>
     <string name="comment_comment_newest">Nieuwste</string>
+    <string name="properties_message_v2">&lt;b&gt;Package Name:&lt;/b&gt; %1$s&lt;br&gt;&lt;b&gt;Version:&lt;/b&gt; %2$s&lt;br&gt;&lt;b&gt;Path:&lt;/b&gt; %3$s&lt;br&gt;&lt;b&gt;Size:&lt;/b&gt; %4$s&lt;br&gt;&lt;b&gt;Last Modified:&lt;/b&gt; %5$s</string>
     </resources>
