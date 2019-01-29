@@ -299,7 +299,7 @@ Zgoraj omenjene funkcije podpirajo Android 4.1+, ni potrebno root dovoljenje. Ob
     <string name="app_submit_nickname">Vzdevek</string>
     <string name="app_submit_email">E-pošta</string>
     <string name="app_submit_submit_title">Pošta</string>
-    <string name="app_submit_reply_to">odgovori na</string>
+    <string name="app_submit_reply_to">odgovoril na</string>
 
     <string name="app_detail_tab_one">Podrobnosti</string>
     <string name="app_detail_tab_two">Skupina</string>
@@ -536,7 +536,7 @@ Zgoraj omenjene funkcije podpirajo Android 4.1+, ni potrebno root dovoljenje. Ob
     <string name="follow_un_success">Nespremljano.</string>
     <string name="canceled">Preklicano</string>
     <string name="group">Skupina</string>
-    <string name="collection">Priljubljene</string>
+    <string name="collection">Priljubljeno</string>
     <string name="cancel_collection">Nepriljubljene</string>
 
     <string name="follow">SLEDENJE</string>
@@ -672,7 +672,7 @@ Zgoraj omenjene funkcije podpirajo Android 4.1+, ni potrebno root dovoljenje. Ob
     <string name="your_reply_comment">Vaš odgovor</string>
 
     <string name="market_ad_title">Tržnica</string>
-    <string name="market_ad_tab_one">Predstavljeno</string>
+    <string name="market_ad_tab_one">Predstavljeni</string>
     <string name="market_ad_tab_two">Igre</string>
     <string name="market_ad_tab_three">Orodja</string>
 
@@ -681,17 +681,17 @@ Zgoraj omenjene funkcije podpirajo Android 4.1+, ni potrebno root dovoljenje. Ob
     <string name="search_tab_name_one">APLIKACIJE</string>
     <string name="search_tab_name_two">UPORABNIK</string>
     <string name="pre_register_ok">V redu</string>
-    <string name="pre_register_bt">Predregistrirajte se</string>
-    <string name="pre_register_now_bt">Predregistrirajte se</string>
+    <string name="pre_register_bt">Predregistracija</string>
+    <string name="pre_register_now_bt">Predregistracija</string>
     <string name="pre_registered_bt">Registrirani</string>
     <string name="pre_register_link_title">Predregistrirana stran</string>
-    <string name="pre_register_gift_tv">Spisek nagrad</string>
+    <string name="pre_register_gift_tv">Seznam nagrad</string>
     <string name="pre_register_person_num_tv">Predregistracijski zavezanci: %1$s</string>
-    <string name="pre_register_success">Predregistracija pomeni, da boste ob prijavi objavili obvestilo v svoji napravi, ko se sprosti aplikacija.</string>
+    <string name="pre_register_success">Predregistriranje pomeni, da boste na napravo prejeli obvestilo, ko bo aplikacija izdana.</string>
 
-    <string name="open_page_failed">Strani ni bilo mogoče odpreti!</string>
+    <string name="open_page_failed">Spodletelo odpiranje strani!</string>
     <string name="search_for_user">Iskanje</string>
-    <string name="search_user_history_title">Nedavni kontakti</string>
+    <string name="search_user_history_title">Nedavni stiki</string>
     <string name="search_focus_list_title">Sledite</string>
 
     <string name="submit_comment_user_style">
@@ -779,7 +779,7 @@ Zgoraj omenjene funkcije podpirajo Android 4.1+, ni potrebno root dovoljenje. Ob
     <string name="submit_add_title_image_tv">Dodajte pokrov</string>
     <string name="submit_add_title_image_error_toast">Ta slika morda ni začasno podprta. Prosimo, izberite drugo.</string>
     <string name="comment_hint_tv">Delite nekaj?</string>
-    <string name="msg_all_read">Obvestilo</string>
+    <string name="msg_all_read">Označi vse kot prebrano</string>
     <string name="msg_all_read_msg">Ali ste prepričani, da označite vse kot prebrano?</string>
     <string name="user_recommend_tip">Priporočilo uporabnikov</string>
     <string name="comments">Komentarji</string>
@@ -819,7 +819,53 @@ Zgoraj omenjene funkcije podpirajo Android 4.1+, ni potrebno root dovoljenje. Ob
     <string name="del_account_bt">Pošlji</string>
     <string name="del_account_result_warn">Po brisanju se ne boste mogli prijaviti s tem računom.</string>
     <string name="del_account_reason_hint">Zakaj želite izbrisati ta račun?</string>
-    <string name="del_account_sure">Vaš račun bo izbrisan najkasneje v 48 urah. Po brisanju se ne boste mogli prijaviti s tem računom. Če imate dodatna vprašanja, se obrnite na nas.</string>
+    <string name="del_account_sure">Vaš račun bo izbrisan najkasneje v 48 urah. Če imate dodatna vprašanja, se obrnite na nas.</string>
     <string name="reply_to">Odgovori na %1$s:</string>
+
+<string name="msg_all_read_notice">Obvestilo</string>
+    <string name="share_app_url_comment_v3">Delite <xliff:g primer="zhangsan" id="ime">%1$s</xliff:g>\'s <xliff:g primer="objava/zgodba/ocena" id="vrsta">%2$s</xliff:g> (From APKPure):<xliff:g primer="https://apkpure.com" id="url">%3$s </xliff:g></string>
+    <string name="apk_unable_upload">Prenos apk ni uspel.</string>
+    <string name="long_image">Velik izbor</string>
+    <string name="edit_tag">Uredi oznako</string>
+    <string name="save_tag_hint_msg">Sprememba ne bo shranjena. Ali ste prepričani, da želite zapustiti\?</string>
+    <string name="un_follow_xx">Ne zasleduj <xliff:g primer="Apkpure" id="ime">%1$s</xliff:g></string>
+    <string name="follow_xx">Sledi <xliff:g primer="Apkpure" id="ime">%1$s</xliff:g></string>
+    <string name="app_rating">Ocena:</string>
+    <string name="number">\"</string>
+    <string name="headline_footer_refresh">Povlecite navzdol ali tapnite to vrstico za osvežitev.</string>
+
+    <string name="download_install_obb">Namesti OBB</string>
+    <string name="download_install_apk">Namesti APK</string>
+
+    <string name="users_recommended_title">Čestitke!</string>
+    <string name="users_recommended_des">Vaše mnenje je bilo izbrano kot priporočilo uporabnika, %1$s</string>
+    <string name="recommended_posts_title">Čestitke!</string>
+    <string name="recommended_posts_des">Vaše mnenje je bilo izbrano kot priporočilo uporabnika,%1$s</string>
+    <string name="comment_removed_title">Vaša objava je bila odstranjena</string>
+    <string name="comment_removed_des">Videti je, da nekaj, kar ste objavili, ne sledi našim %1$s. Ne dovoljujemo objav, ki nadlegujejo posameznike ali jih nadlegujejo na APKPure. To lahko vključuje neprimerne slike, fotografije ali videoposnetke fizičnega ustrahovanja ali katero koli drugo objavo, ki naj bi žalila ali osramotila določeno osebo. 
+\n%2$s 
+\nČe menite, da je bila to napaka, prosimo %3$s.</string>
+    <string name="temporarily_blocked_title">Začasno ste blokirani iz objav</string>
+    <string name="temporarily_blocked_des">Ta začasna blokada bo trajala %1$s dni in ne boste mogli objavljati v APKPure, dokler se ne konča. Če objavite nekaj, kar je spet v nasprotju z našimi %2$s, bo vaš račun blokiran za nadaljnjih 30 dni. Upoštevajte, da lahko osebam, ki večkrat pošiljajo stvari, ki niso dovoljene na APKPure, lahko trajno onemogočimo njihove račune. 
+\nČe menite, da je bila to napaka, prosimo %3$s.</string>
+    <string name="pre_register_title">%1$s izdano za %2$s!</string>
+    <string name="pre_register_des">Predregistrirana igra %1$s   %2$s je na voljo za prenos.%3$s</string>
+    <string name="report_callback_title">Odstranili smo sporočeno objavo!</string>
+    <string name="report_callback_des">Pregledali smo objavljeno objavo o nadlegovanju. Ker je kršila našo %1$s, smo jo odstranili. Hvala za vaše poročilo. Obveščamo %2$s da je bila objava odstranjena, ne pa tudi osebe, ki jo je prijavila.</string>
+
+    <string name="tap_to_view">tapnite za ogled</string>
+    <string name="let_us_know">"sporočite nam "</string>
+    <string name="community_guide_lines">Smernice Skupnosti</string>
+
+    <string name="my_draft">Moj osnutek</string>
+    <string name="clear_empty">Počisti vse</string>
+    <string name="several_draft"><xliff:g primer="5" id="count">%1$s</xliff:g> osnutki</string>
+    <string name="delete_all_draft_hint">Ali želite izprazniti škatlo osnutka\?</string>
+    <string name="edit_draft">Uredi osnutek</string>
+    <string name="delete_draft">Izbriši osnutek</string>
+    <string name="empty_draft_info">Brez vsebine…</string>
+    <string name="is_save_comment_draft">Ali naj se shrani kot osnutek\?</string>
+    <string name="upload_video">Naloži video</string>
+    <string name="saved_draft">Shranjeno kot osnutek</string>
 
 </resources>
