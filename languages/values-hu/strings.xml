@@ -79,7 +79,7 @@
 
     <string name="market_response_error_success">Sikeres.</string>
     <string name="market_response_error_invalid_result">Érvénytelen eredmény.</string>
-    <string name="market_response_error_network_connect_error">Hálózat csatlakozási hiba.</string>
+    <string name="market_response_error_network_connect_error">Hálózat kapcsolódási hiba.</string>
     <string name="market_response_error_network_read_error">Hálózati olvasási hiba.</string>
     <string name="market_response_error_invalid_response_code">Érvénytelen válaszkód.</string>
     <string name="market_response_error_invalid_response_body">Érvénytelen választörzs.</string>
@@ -277,7 +277,7 @@
     <string name="app_submit_nickname">Becenév</string>
     <string name="app_submit_email">E-mail cím</string>
     <string name="app_submit_submit_title">Üzenet</string>
-    <string name="app_submit_reply_to">Válasz</string>
+    <string name="app_submit_reply_to">válaszolt</string>
 
     <string name="app_detail_tab_one">Részletek</string>
     <string name="app_detail_tab_two">Csoport</string>
@@ -706,7 +706,7 @@
 
     <string name="tab_global">KIEMELT</string>
     <string name="comment_list_see_here">Utolsó alkalommal jutott el ide. Érintse meg a frissítéshez.</string>
-    <string name="comment_list_new_num">%d új szalagcím</string>
+    <string name="comment_list_new_num">%d új aktualitás</string>
 <string name="tab_popular">NÉPSZERŰ</string>
 <string name="app_detail_tab_evaluation">Vélemények</string>
     <string name="app_detail_comment_filter_sort_score">Legjobbnak értékelt</string>
@@ -783,7 +783,7 @@
     <string name="submit_add_title_image_tv">Adjon hozzá egy borítót</string>
     <string name="submit_add_title_image_error_toast">Ez a kép lehet, hogy nem támogatott ideiglenesen. Kérjük válasszon másikat.</string>
     <string name="comment_hint_tv">Megoszt valamit?</string>
-    <string name="msg_all_read">Értesítés</string>
+    <string name="msg_all_read">Összes megjelölése olvasottként</string>
     <string name="msg_all_read_msg">Valóban megjelöli az összeset olvasottként?</string>
     <string name="user_recommend_tip">Felhasználói ajánlás</string>
     <string name="subject_comment">Hashtagek</string>
@@ -822,7 +822,53 @@
     <string name="del_account_bt">Küldés</string>
     <string name="del_account_result_warn">Törlés után nem fog tudni bejelentkezni ezzel a fiókkal.</string>
     <string name="del_account_reason_hint">Miért szeretné törölni ezt a fiókot?</string>
-    <string name="del_account_sure">Fiókja 48 órán belül törlődik. A törlés után nem tud bejelentkezni a fiókjával. Ha további kérdései vannak, forduljon hozzánk.</string>
+    <string name="del_account_sure">Fiókja 48 órán belül törlődik. Ha további kérdései vannak, forduljon hozzánk.</string>
     <string name="reply_to">%1$s válasz:</string>
+
+<string name="msg_all_read_notice">Értesítés</string>
+    <string name="share_app_url_comment_v3"><xliff:g example="zhangsan" id="name">%1$s</xliff:g> megosztása <xliff:g example="post/story/review" id="type">%2$s</xliff:g> (APKPure-ról):<xliff:g example="https://apkpure.com" id="url">%3$s </xliff:g></string>
+    <string name="apk_unable_upload">Nem sikerült feltölteni az apk-t.</string>
+    <string name="long_image">Magas kép</string>
+    <string name="edit_tag">Címke szerkesztése</string>
+    <string name="save_tag_hint_msg">A módosítás nem lesz mentve. Biztosan kilép\?</string>
+    <string name="un_follow_xx"><xliff:g example="Apkpure" id="name">%1$s</xliff:g> követésének leállítása</string>
+    <string name="follow_xx"><xliff:g example="Apkpure" id="name">%1$s</xliff:g> követése</string>
+    <string name="app_rating">Értékelés:</string>
+    <string name="number">\"</string>
+    <string name="headline_footer_refresh">Húzza le vagy érintse meg ezt a sort a frissítéshez.</string>
+
+    <string name="download_install_obb">OBB telepítése</string>
+    <string name="download_install_apk">APK telepítése</string>
+
+    <string name="users_recommended_title">Gratulálunk!</string>
+    <string name="users_recommended_des">Az Ön véleménye a(z) %1$s felhasználó ajánlásaként lett kiválasztva</string>
+    <string name="recommended_posts_title">Gratulálunk!</string>
+    <string name="recommended_posts_des">Az Ön véleménye a(z) %1$s felhasználó ajánlásaként lett kiválasztva</string>
+    <string name="comment_removed_title">Bejegyzése el lett távolítása</string>
+    <string name="comment_removed_des">Úgy tűnik, hogy valami, amit közzétett, nem követi a(z) %1$s leírásait. Nem tesszük lehetővé magánszemélyeket zaklató, illetve az APKPure-t sértő állítások közzétételét. Ez magába foglalhatja a fizikai megfélemlítést ábrázoló képeket, fotókat vagy videókat, továbbá bármely más, az adott személy lealacsonyítására vagy megszégyenítésére törekvő üzeneteket. 
+\n%2$s 
+\nHa úgy gondolja, hogy ez hiba, kérjük vegye fel velünk a kapcsolatot: %3$s.</string>
+    <string name="temporarily_blocked_title">Ideiglenesen le van tiltva a hozzászólástól</string>
+    <string name="temporarily_blocked_des">Ez az átmeneti felfüggesztés %1$s napig tart, és nem tud hozzászólni a APKPure-on, amíg véget nem ér. Ha valamit újra közzétesz, ami ellenkezik a(z) %2$s elveivel, fiókja további 30 napra felfüggesztésre kerül. Kérjük, tartsa szem előtte, hogy azoknak a személyeknek, akik ismételten közzéteszik azokat a dolgokat, amelyek nem engedélyezettek a APKPure programban, fiókja véglegesen letiltható. 
+\nHa úgy gondolja, ez tévedés, kérjük %3$s.</string>
+    <string name="pre_register_title">%1$s - %2$s kiadva!</string>
+    <string name="pre_register_des">A(z) %1$s   %2$s előregisztrált játék letölthető.%3$s</string>
+    <string name="report_callback_title">Eltávolítottuk az Ön által jelentett bejegyzést!</string>
+    <string name="report_callback_des">Megvizsgáltuk a bejelentett zaklatásnak zánt hozzászólást. Mivel megsértette a(z) % 1$s elveit, eltávolítottuk. Köszönjük a jelentést. Hagyjuk, hogy %2$s megtudja, hogy a bejegyzés eltávolításra került, de azt nem, hogy ki jelentette.</string>
+
+    <string name="tap_to_view">Érintse meg a megtekintéshez</string>
+    <string name="let_us_know">Tudassa velünk</string>
+    <string name="community_guide_lines">Közösségi iránymutatások</string>
+
+    <string name="my_draft">Saját tervezet</string>
+    <string name="clear_empty">Összes törlése</string>
+    <string name="several_draft"><xliff:g example="5" id="count">%1$s</xliff:g> piszkozat</string>
+    <string name="delete_all_draft_hint">Kiüríti a piszkozat tárolót\?</string>
+    <string name="edit_draft">Piszkozat szerkesztése</string>
+    <string name="delete_draft">Piszkozat törlése</string>
+    <string name="empty_draft_info">Nincs tartalom…</string>
+    <string name="is_save_comment_draft">Menti piszkozatként\?</string>
+    <string name="upload_video">Videó feltöltése</string>
+    <string name="saved_draft">Mentve piszkozatként</string>
 
 </resources>
