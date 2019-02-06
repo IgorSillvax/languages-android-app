@@ -3,28 +3,28 @@
     <string name="action_search">חיפוש</string>
     <string name="action_management">ניהול</string>
 
-    <string name="press_back_key_quit">לחץ שוב על לחצן \"חזרה\" כדי לצאת מהאתר</string>
+    <string name="press_back_key_quit">יש ללחוץ על חזרה פעם נוספת כדי לצאת.</string>
 
     <string name="featured">מומלצים</string>
     <string name="recommend">לחקור</string>
     <string name="games">משחקים</string>
-    <string name="apps">יישומים</string>
+    <string name="apps">יישומונים</string>
     <string name="categories">קטגוריות</string>
     <string name="updates">עדכונים</string>
 
     <string name="something_happened">משהו קרה.</string>
     <string name="load_failed_error">אופס! מופיעה שגיאה.</string>
-    <string name="load_failed_error_not_found">האפליקציה לא רשומה בחנות של APKPure!</string>
+    <string name="load_failed_error_not_found">היישומון לא נמצא ב־APKPure.</string>
     <string name="load_failed_empty">הקובץ ריק.</string>
     <string name="load_failed_all_up_to_date">כל היישומים מעודכנים.</string>
     <string name="load_failed_no_results">‬מצטערים! לא נמצאו תוצאות.</string>
     <string name="refresh">רענון</string>
 
     <string name="management">ניהול</string>
-    <string name="app_updates">עדכון אפליקציה</string>
+    <string name="app_updates">עדכוני יישומונים</string>
     <string name="app_management">‬‭‮‌‎הותקן</string>
-    <string name="app_uninstall">App Uninstall</string>
-    <string name="apk_management">ניהול אפליקציה</string>
+    <string name="app_uninstall">הסרת יישומון</string>
+    <string name="apk_management">ניהול APK</string>
     <string name="apk_xapk_management">ניהול APK/ XAPK</string>
     <string name="download_management">ניהול הורדות</string>
     <string name="settings">הגדרות</string>
@@ -45,15 +45,15 @@
     <string name="properties">מאפיינים</string>
     <string name="want_to_delete_file">האם למחוק את הקובץ?</string>
     <string name="want_to_delete_all_files">אתה רוצה למחוק את כל הקבצים?</string>
-    <string name="file_has_been_deleted">הקובץ נמחק</string>
-    <string name="failed_to_delete_file">מחיקת הקובץ נכשלה</string>
-    <string name="user_canceled">ביטול משתמש</string>
+    <string name="file_has_been_deleted">הקובץ נמחק.</string>
+    <string name="failed_to_delete_file">מחיקת הקובץ נכשלה.</string>
+    <string name="user_canceled">המשתמש ביטל.</string>
     <string name="io_error">IQ ERROR. ייתכן שאין מספיק מקום פנוי עבור התקנת האפלקציה.</string>
-    <string name="file_format_error">סוג קובץ שגוי</string>
+    <string name="file_format_error">סוג קובץ שגוי.</string>
     <string name="parsing_xapk">לחיצה על XAPK …</string>
-    <string name="installing_obb">התקנת קבצי OBB</string>
-    <string name="extracting_apk">חילוץ קובץ אפליקציה</string>
-    <string name="installing_apk">התקנת אפליקציה</string>
+    <string name="installing_obb">קובצי OBB מותקנים…</string>
+    <string name="extracting_apk">קובץ ה־APK מחולץ…</string>
+    <string name="installing_apk">ה־APK מותקן…</string>
 
     <string name="uninstall">הסרת התקנה</string>
     <string name="uninstalled">התקנה הוסרה</string>
@@ -68,12 +68,12 @@
     <string name="information">מידע</string>
     <string name="version_">גרסה:</string>
     <string name="updated_">עדכון:</string>
-    <string name="size_">גודל</string>
+    <string name="size_">גודל:</string>
     <string name="permissions_">אישורים:</string>
     <string name="other">אחר</string>
     <string name="similar_or_related">דומה או קשור</string>
     <string name="more_from_developer">עוד מאותו מפתח</string>
     <string name="more_large">עוד</string>
-    <string name="about_title">About <xliff:g example="APKPure" id="app_name">%1$s</xliff:g></string>
+    <string name="about_title">על אודות <xliff:g example="APKPure" id="app_name">%1$s</xliff:g></string>
     <string name="about_message">גרסה</string>
     </resources>
