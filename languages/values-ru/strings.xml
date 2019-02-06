@@ -380,7 +380,7 @@
     <string name="app_submit_title_toast">Напишите заглавие!</string>
     <string name="app_submit_star_toast">Дайте оценку!</string>
     <string name="app_submit_nickname">Никнейм</string>
-    <string name="app_submit_reply_to">ответить</string>
+    <string name="app_submit_reply_to">ответил</string>
     <string name="app_detail_reply_comment">Коментарий(%d)</string>
     <string name="app_detail_tab_three">Связанное</string>
 
@@ -398,7 +398,7 @@
 
     <string name="app_detail_comment_type_web">сайт</string>
     <string name="app_detail_comment_order_array_default">Сортировать по умолчанию</string>
-    <string name="recommend">Марио</string>
+    <string name="recommend"></string>
     <string name="share_app_url_comment"> Коментарии <xliff:g example="APKPure" id="user_name">%1$s</xliff:g> к
         <xliff:g example="APKPure" id="app_name">%2$s</xliff:g> :
         <xliff:g example="APKPure" id="app_name">%3$s</xliff:g> (из @<xliff:g example="APKPure" id="social_network_name">%4$s</xliff:g>)
@@ -713,7 +713,7 @@
 
     <string name="tab_global">РЕКОМЕНДАЦИЯ</string>
     <string name="comment_list_see_here">Последнее посещение здесь. Нажмите, чтобы обновить.</string>
-    <string name="comment_list_new_num">%d Новые заголовки</string>
+    <string name="comment_list_new_num">%d Новых комментариев</string>
     <string name="tab_popular">ПОПУЛЯРНЫЕ</string>
     <string name="app_detail_tab_evaluation">Отзывы</string>
     <string name="app_detail_comment_filter_sort_score">Топ рейтинг</string>
@@ -792,7 +792,7 @@
     <string name="submit_add_title_image_tv">Дабавить обложку</string>
     <string name="submit_add_title_image_error_toast">Возможно, эта картина временно не поддерживается. Выберите другую.</string>
     <string name="comment_hint_tv">Поделиться чем-нибудь?</string>
-    <string name="msg_all_read">Уведомление</string>
+    <string name="msg_all_read">Пометить как прочитанное</string>
     <string name="msg_all_read_msg">Вы уверены, что отметьте все как прочитанные?</string>
     <string name="user_recommend_tip">Рекомендация Пользователя</string>
     <string name="comments">Комментарии</string>
@@ -832,7 +832,28 @@
     <string name="del_account_bt">Отправить</string>
     <string name="del_account_result_warn">После удаления вы не сможете войти в этот аккаунт.</string>
     <string name="del_account_reason_hint">Почему вы хотите удалить этот аккаунт?</string>
-    <string name="del_account_sure">Ваш аккаунт будет удалена через не более 48 часов. После удаления вы не сможете войти в этот аккаунт. Если у вас есть дополнительные вопросы, свяжитесь с нами.</string>
+    <string name="del_account_sure">Ваш аккаунт будет удален в течении 48 часов. Если у вас есть дополнительные вопросы, свяжитесь с нами.</string>
     <string name="reply_to">Ответить %1$s:</string>
+
+<string name="apk_unable_upload">Не удалось загрузить приложение.</string>
+    <string name="long_image">Длинное изображение</string>
+    <string name="edit_tag">Править метки</string>
+    <string name="save_tag_hint_msg">Изменения не будут сохранены. Выйти в любом случае\?</string>
+    <string name="un_follow_xx">Отписаться от <xliff:g example="Apkpure" id="name">%1$s</xliff:g></string>
+    <string name="follow_xx">Подписаться на <xliff:g example="Apkpure" id="name">%1$s</xliff:g></string>
+    <string name="app_rating">Оценка:</string>
+    <string name="download_install_obb">Установить OBB</string>
+    <string name="download_install_apk">Установить APK</string>
+
+    <string name="users_recommended_title">Поздравляем!</string>
+    <string name="recommended_posts_title">Поздравляем!</string>
+    <string name="my_draft">Черновики</string>
+    <string name="several_draft"><xliff:g example="5" id="count">%1$s</xliff:g> черновиков</string>
+    <string name="delete_all_draft_hint">Удалить все черновики\?</string>
+    <string name="edit_draft">Править черновик</string>
+    <string name="delete_draft">Удалить черновик</string>
+    <string name="is_save_comment_draft">Сохранить как черновик\?</string>
+    <string name="upload_video">Загрузить видео</string>
+    <string name="saved_draft"></string>
 
 </resources>
