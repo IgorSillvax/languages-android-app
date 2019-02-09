@@ -691,7 +691,7 @@
     <string name="pre_register_link_title">Strona rejestracji wstępnej</string>
     <string name="pre_register_gift_tv">Nagrody za rejestrację</string>
     <string name="pre_register_person_num_tv">Rejestracja wstępna: %1$s</string>
-    <string name="pre_register_success">Rejestracja wstępna oznacza, że użytkownik zostanie powiadomiony, gdy aplikacja zostanie wydana.</string>
+    <string name="pre_register_success">Rejestracja wstępna oznacza, że chcesz otrzymać powiadomienie, gdy aplikacja zostanie opublikowana.</string>
 
     <string name="open_page_failed">Nie udało się otworzyć strony!</string>
     <string name="search_for_user">Szukaj</string>
@@ -812,7 +812,7 @@
 \n3. Powiadom APKPure o niezindeksowanych aplikacjach, wypełniając formularz rekomendacji.</string>
     <string name="recommend_not_fount_info">Notify APKPure to add \"%1$s\", you need to finish the forms.</string>
     <string name="msg_all_read_notice">Uwaga</string>
-    <string name="share_app_url_comment_v3">Udostępnij <xliff:g example="zhangsan" id="name">%1$s</xliff:g>\'s <xliff:g example="post/story/review" id="type">%2$s</xliff:g> (z APKPure):<xliff:g example="https://apkpure.com" id="url">%3$s </xliff:g></string>
+    <string name="share_app_url_comment_v3">Udostępnij <xliff:g example="zhangsan" id="name">%1$s</xliff:g> <xliff:g example="post/story/review" id="type">%2$s</xliff:g> (z APKPure):<xliff:g example="https://apkpure.com" id="url">%3$s </xliff:g></string>
     <string name="apk_unable_upload">Wysyłanie apk nie powiodło się.</string>
     <string name="long_image">Wysoki obraz</string>
     <string name="edit_tag">Edytuj tag</string>
@@ -833,14 +833,14 @@
     <string name="comment_removed_title">Twój post został usunięty</string>
     <string name="comment_removed_des">It looks like something you posted doesn\'t follow our %1$s. We don\'t allow posts that bully private individuals or harass anyone on APKPure. This could include inappropriate images, photos or videos of physical bullying, or any other post intended to degrade or shame a specific person. 
 \n%2$s 
-\nIf you think this was a mistake, please %3$s.</string>
-    <string name="temporarily_blocked_title">You\'re Temporarily Blocked From Posting</string>
-    <string name="temporarily_blocked_des">This temporary block will last %1$s days, and you won\'t be able to post on APKPure until it\'s finished. If you post something that goes against our %2$s again, you account will be blocked for another 30 days. Please keep in mind that people who repeatedly post things that aren\'t allowed on APKPure may have their accounts permanently disabled. 
-\nIf you think this was a mistake, please %3$s.</string>
+\nJeśli uważasz, że to pomyłka, proszę %3$s.</string>
+    <string name="temporarily_blocked_title">Tymczasowo zablokowano ci możliwość publikowania postów</string>
+    <string name="temporarily_blocked_des">Tymczasowa blokada będzie trwała %1$s dni, w międzyczasie nie będziesz w stanie zamieszczać postów na APKPure. Jeśli ponownie opublikujesz coś, co jest niezgodne z naszymi %2$s, twoje konto zostanie zablokowane na kolejne 30 dni. Pamiętaj, że konta osób, które stale zamieszczają niedozwolone treści na APKPure, mogą zostać wyłączone na stałe. 
+\nJeśli uważasz, że popełniliśmy błąd, proszę %3$s.</string>
     <string name="pre_register_title">%1$s wydany na %2$s!</string>
     <string name="pre_register_des">"Wstępnie zarejestrowana gra %1$s   %2$s jest już dostępna do pobrania.%3$s"</string>
     <string name="report_callback_title">Usunęliśmy zgłoszony przez ciebie post!</string>
-    <string name="report_callback_des">We reviewed the post you reported for harassment. Since it violated our %1$s, we removed it. Thanks for your report. We let %2$s know that the post has been removed, but not who reported it.</string>
+    <string name="report_callback_des">Sprawdziliśmy zgłoszony przez ciebie post dotyczący prześladowania. Ponieważ narusza nasze %1$s, usunęliśmy go. Dziękujemy za zgłoszenie. Poinformujemy %2$s, że post został usunięty, ale nie ujawnimy tożsamości osoby zgłaszającej.</string>
 
     <string name="tap_to_view">dotknij, aby wyświetlić</string>
     <string name="let_us_know">powiadom nas</string>
