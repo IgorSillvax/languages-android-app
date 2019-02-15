@@ -311,7 +311,7 @@
 
     <plurals name="app_detail_see_all_replies">
         <item quantity="one">全ての返信を見る<xliff:g example="2" id="count"> 1%1$d</xliff:g> 2</item>
-        <item quantity="other" />
+        <item quantity="other"/>
     </plurals>
 
     <string name="download_complete_installation_setting_entries_never">インストールしない</string>
@@ -442,7 +442,7 @@
 
     <plurals name="comment_reply_item_fold">
         <item quantity="one"><xliff:g example="2" id="count"> 1%1$d</xliff:g> 2件の返信が崩れました</item>
-        <item quantity="other" />
+        <item quantity="other"/>
     </plurals>
 
     <string name="comment_no_reply">残念! ここには何もありません。</string>
@@ -745,4 +745,27 @@
 
     <string name="choice_evaluate">おすすめレビュー</string>
     <string name="choice_comment">おすすめ投稿</string>
-</resources>
+<string name="home_message_reply">コメント</string>
+    <string name="home_message_praise">いいね</string>
+    <string name="sign_in_services_key_policy_register">プライバシーポリシー</string>
+    <string name="emoji_input_error_hint">絵文字コメントはこれ以上許可されていません!何か書いて…</string>
+    <string name="load_all_choice_evaluate">すべてのレビューを見る</string>
+    <string name="load_all_choice_comment">すべての投稿を見る</string>
+    <string name="my_reservation_and_collection">事前登録とお気に入り</string>
+    <string name="upload_apk">APK をアップロード</string>
+    <string name="developer_badge_explanation">開発者バッジの説明</string>
+
+    <string name="from_user_recommendation">ユーザーのおすすめ</string>
+    <string name="topics">トピック</string>
+    <string name="pre_register_game">事前登録</string>
+    <string name="editors_picks">編集者のチョイス</string>
+    <string name="recommend_game">おすすめゲーム</string>
+
+    <string name="bing_share_account">サードパーティアカウントに接続する</string>
+    <string name="un_bind">接続されていません</string>
+    <string name="login_out_message_hint">ログアウトしますか\?</string>
+    <string name="bind_email_title">あなたのメールを接続する</string>
+    <string name="verification_code_resend_tv">検証コードを再送します</string>
+    <string name="send_verification_code_resend_tv">検証コードを送信する</string>
+    <string name="bind_email_success">接続に成功しました。</string>
+    </resources>
