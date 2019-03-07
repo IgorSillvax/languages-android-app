@@ -88,7 +88,7 @@
 
     <string name="market_response_error_success">Sucesso.</string>
     <string name="market_response_error_invalid_result">Resultado inválido.</string>
-    <string name="market_response_error_network_connect_error">Network connection error.</string>
+    <string name="market_response_error_network_connect_error">Erro de conexão de rede.</string>
     <string name="market_response_error_network_read_error">Erro de leitura da rede.</string>
     <string name="market_response_error_invalid_response_code">Código de resposta inválido.</string>
     <string name="market_response_error_invalid_response_body">Corpo de resposta inválido.</string>
@@ -284,7 +284,7 @@ Detalhe do problema:
     <string name="app_submit_nickname">Apelido</string>
     <string name="app_submit_email">Email</string>
     <string name="app_submit_submit_title">Postar</string>
-    <string name="app_submit_reply_to">Responder a</string>
+    <string name="app_submit_reply_to">respondeu a</string>
 
     <string name="app_detail_tab_one">Detalhes</string>
     <string name="app_detail_tab_two">Grupo</string>
@@ -344,7 +344,7 @@ Que é necessário para escanear o código QR.</string>
     <string name="user_info_edit_gender_tv">Gênero</string>
     <string name="user_info_edit_birthday_tv">Nascimento</string>
     <string name="user_info_edit_change_pwd_tv">Redefinir Senha</string>
-    <string name="user_info_edit_login_out_tv">Sair</string>
+    <string name="user_info_edit_login_out_tv">Deslogar</string>
     <string name="user_info_edit_not_choose">Desconhecido</string>
     <string name="user_info_edit_gender_male">Masculino</string>
     <string name="user_info_edit_gender_female">Feminino</string>
@@ -512,7 +512,7 @@ Que é necessário para escanear o código QR.</string>
     <string name="follow_un_success">Não seguido.</string>
     <string name="canceled">Cancelado</string>
     <string name="group">Grupo</string>
-    <string name="collection">Favoritos</string>
+    <string name="collection">Favorito</string>
 
     <string name="comments">Comentários</string>
     <string name="follow">SEGUINDO</string>
@@ -726,7 +726,7 @@ Que é necessário para escanear o código QR.</string>
 
     <string name="tab_global">DESTAQUE</string>
     <string name="comment_list_see_here">Última vez que você chegou aqui. Toque para atualizar.</string>
-    <string name="comment_list_new_num">%d Novas manchetes</string>
+    <string name="comment_list_new_num">%d Novas Manchetes</string>
 <string name="tab_popular">POPULAR</string>
 <string name="properties_message_v2">&lt;b&gt;Nome do pacote:&lt;/b&gt; %1$s&lt;br&gt;&lt;b&gt;Versão:&lt;/b&gt; %2$s&lt;br&gt;&lt;b&gt;Path:&lt;/b&gt; %3$s&lt;br&gt;&lt;b&gt;Tamanho:&lt;/b&gt; %4$s&lt;br&gt;&lt;b&gt;Última modificação:&lt;/b&gt; %5$s</string>
     <string name="app_detail_tab_evaluation">Análises</string>
@@ -748,7 +748,7 @@ Que é necessário para escanear o código QR.</string>
 
 
     <string name="message_notify">Notificações</string>
-    <string name="menu_copy_link">Copiar link</string>
+    <string name="menu_copy_link">Copiar Link</string>
     <string name="web_view_copy">Copiar link</string>
 
     <string name="filter_no_comment">Ooops! Nenhum tal conteúdo!!</string>
@@ -803,10 +803,10 @@ Que é necessário para escanear o código QR.</string>
     <string name="submit_add_title_image_tv">Adicione uma capa</string>
     <string name="submit_add_title_image_error_toast">Esta imagem pode não ser suportada temporariamente. Por favor, selecione outra.</string>
     <string name="comment_hint_tv">Compartilhar algo\?</string>
-    <string name="msg_all_read">Notícia</string>
+    <string name="msg_all_read">Marcar tudo como lido</string>
     <string name="msg_all_read_msg">Tem certeza que quer marcar tudo como lido\?</string>
     <string name="user_recommend_tip">Recomendação dos usuários</string>
-    <string name="subject_comment">Hashtags</string>
+    <string name="subject_comment">hashtags</string>
     <string name="new_subject_comment">Nova hashtag</string>
     <string name="evaluating">Análises</string>
     <string name="image_text">História</string>
@@ -814,7 +814,7 @@ Que é necessário para escanear o código QR.</string>
     <string name="error_hot_data_empty">Não há hashtags em alta!</string>
     <string name="hot_subject">Hashtags em Alta</string>
     <string name="menu_follow_subject">Hashtags seguidas</string>
-    <string name="menu_follow_subject_tab">Hashtag</string>
+    <string name="menu_follow_subject_tab">hashtag</string>
     <string name="me_follow">Meus seguidores</string>
     <string name="release_dynamics">Postagem do momento</string>
     <string name="delete_success">Sucesso</string>
@@ -842,7 +842,53 @@ Que é necessário para escanear o código QR.</string>
     <string name="del_account_bt">Enviar</string>
     <string name="del_account_result_warn">Você não poderá fazer login com esta conta após a exclusão.</string>
     <string name="del_account_reason_hint">Por que você deseja excluir esta conta\?</string>
-    <string name="del_account_sure">Sua conta será excluída em no máximo 48 horas. Você não poderá fazer login com esta conta após a exclusão. Por favor contacte-nos se tiver mais questões.</string>
+    <string name="del_account_sure">Sua conta será excluída em no máximo 48 horas. Por favor, entre em contato conosco se tiver mais dúvidas.</string>
     <string name="reply_to">Responder a %1$s:</string>
+
+<string name="msg_all_read_notice">Notícia</string>
+    <string name="share_app_url_comment_v3"><xliff:g example="zhangsan" id="name">%1$s</xliff:g>\'s <xliff:g example="post/story/review" id="type">%2$s</xliff:g> (Via APKPure):<xliff:g example="https://apkpure.com" id="url">%3$s </xliff:g></string>
+    <string name="apk_unable_upload">Falha ao carregar o apk.</string>
+    <string name="long_image">Pico alto</string>
+    <string name="edit_tag">Editar Tag</string>
+    <string name="save_tag_hint_msg">A mudança não será salva. Tem certeza que deseja sair\?</string>
+    <string name="un_follow_xx">Deixar de seguir <xliff:g example="Apkpure" id="name">%1$s</xliff:g></string>
+    <string name="follow_xx">Seguir <xliff:g example="Apkpure" id="name">%1$s</xliff:g></string>
+    <string name="app_rating">Avaliação:</string>
+    <string name="number">\"</string>
+    <string name="headline_footer_refresh">Puxe para baixo ou toque nessa linha para atualizar.</string>
+
+    <string name="download_install_obb">Instale o OBB</string>
+    <string name="download_install_apk">Instalar APK</string>
+
+    <string name="users_recommended_title">Parabéns!</string>
+    <string name="users_recommended_des">Seu comentário foi selecionado como recomendação de usuário,%1$s</string>
+    <string name="recommended_posts_title">Parabéns!</string>
+    <string name="recommended_posts_des">Seu comentário foi selecionado como recomendação de usuário,%1$s</string>
+    <string name="comment_removed_title">Sua postagem foi removida</string>
+    <string name="comment_removed_des">Parece que algo que você postou não segue nossos %1$s. Não permitimos publicações que intimidem pessoas privadas ou assediem alguém no APKPure. Isso pode incluir imagens, fotos ou vídeos impróprios de bullying físico ou qualquer outro post destinado a desagradar ou envergonhar uma pessoa específica.
+\n%2$s
+\nSe você acha que isso foi um erro, por favor %3$s.</string>
+    <string name="temporarily_blocked_title">Você está temporariamente bloqueado de postagem</string>
+    <string name="temporarily_blocked_des">Este bloqueio temporário terá a duração de %1$s dias e você não poderá postar no APKPure até que esteja concluído. Se você postar algo que vai contra nossos %2$s novamente, sua conta será bloqueada por mais 30 dias. Lembre-se de que as pessoas que publicam repetidamente coisas que não são permitidas no APKPure podem ter suas contas desativadas permanentemente.
+\nSe você acha que isso foi um erro, por favor %3$s.</string>
+    <string name="pre_register_title">%1$s Liberado para %2$s!</string>
+    <string name="pre_register_des">O jogo pré-registrado %1$s %2$s está disponível para download. %3$s</string>
+    <string name="report_callback_title">Removemos a postagem que você denunciou!</string>
+    <string name="report_callback_des">Analisamos a postagem que você denunciou por assédio. Como isso violou nossos %1$s, nós os removemos. Obrigado pelo seu relatório. Deixamos %2$s saber que a postagem foi removida, mas não quem a denunciou.</string>
+
+    <string name="tap_to_view">Toque para ver</string>
+    <string name="let_us_know">Nos informe</string>
+    <string name="community_guide_lines">Diretrizes da comunidade</string>
+
+    <string name="my_draft">Meu rascunho</string>
+    <string name="clear_empty">Limpar tudo</string>
+    <string name="several_draft"><xliff:g example="5" id="count">%1$s</xliff:g> Rascunhos</string>
+    <string name="delete_all_draft_hint">Quer esvaziar a caixa de rascunho\?</string>
+    <string name="edit_draft">Edite o rascunho</string>
+    <string name="delete_draft">Excluir o rascunho</string>
+    <string name="empty_draft_info">Nenhum conteúdo…</string>
+    <string name="is_save_comment_draft">Quer salvar como um rascunho\?</string>
+    <string name="upload_video">Enviar vídeo</string>
+    <string name="saved_draft">Salvo como rascunho</string>
 
 </resources>
