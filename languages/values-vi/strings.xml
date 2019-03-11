@@ -31,17 +31,15 @@
     <string name="settings">Cài đặt</string>
     <string name="about">Thông tin</string>
     <string name="about_title">Về<xliff:g example="APKPure" id="app_name">%1$s</xliff:g></string>
-    <string name="about_message">
-        <![CDATA[<b>Phiên bản:</b> %1$s<br><br><b>Website:</b> <a href=%2$s>%2$s</a><br><b>Email:</b> <a href=mailto:%3$s>%3$s</a>]]>
-    </string>
+    <string name="about_message">&lt;b&gt;Phiên bản:&lt;/b&gt; %1$s&lt;br&gt;&lt;br&gt;&lt;b&gt;Website:&lt;/b&gt; &lt;a href=%2$s&gt;%2$s&lt;/a&gt;&lt;br&gt;&lt;b&gt;Email:&lt;/b&gt; &lt;a href=mailto:%3$s&gt;%3$s&lt;/a&gt;</string>
     <string name="check_update">Kiểm tra cập nhật</string>
     <string name="quit">Thoát</string>
-    <string name="want_to_quit">Bạn có chắc chắn muốn thoát chứ?</string>
+    <string name="want_to_quit">Bạn có chắc chắn muốn thoát chứ\?</string>
 
     <string name="install">Cài đặt app</string>
     <string name="open">Mở</string>
     <string name="delete">Xóa</string>
-    <string name="want_to_delete_file">Bạn muốn xóa tệp này?</string>
+    <string name="want_to_delete_file">Bạn muốn xóa tệp này\?</string>
     <string name="file_has_been_deleted">Tệp đã được xóa.</string>
     <string name="failed_to_delete_file">Xóa tệp đã thất bại.</string>
     <string name="install__label_">Cài đặt -<xliff:g example="APKPure" id="app_label">%1$s</xliff:g></string>
@@ -197,11 +195,9 @@
     <string name="delete_all">Xóa Tất Cả</string>
     <string name="properties">Thuộc tính</string>
 
-    <string name="properties_message">
-        <![CDATA[<b>Đường dẫn:</b> %1$s<br><b>Kích cở:</b> %2$s<br><b>Sửa đổi lần cuối:</b> %3$s]]>
-    </string>
+    <string name="properties_message">&lt;b&gt;Đường dẫn:&lt;/b&gt; %1$s&lt;br&gt;&lt;b&gt;Kích cở:&lt;/b&gt; %2$s&lt;br&gt;&lt;b&gt;Sửa đổi lần cuối:&lt;/b&gt; %3$s</string>
 
-    <string name="want_to_delete_all_files">Bạn có muốn xóa toàn bộ các tệp tin không?</string>
+    <string name="want_to_delete_all_files">Bạn có muốn xóa toàn bộ các tệp tin không\?</string>
     <string name="similar_or_related">Giống hoặc Liên quan</string>
     <string name="more_from_developer">Cùng Nhà phát triển</string>
     <string name="more_large">Thêm</string>
@@ -706,9 +702,7 @@
     <string name="comment_list_new_num">%d Tiêu đề Mới</string>
 
     <string name="tab_popular">PHỔ BIẾN</string>
-    <string name="properties_message_v2">
-        <![CDATA[<b>Tên gói:</b> %1$s<br><b>Phiên bản:</b> %2$s<br><b>Đường dẫn:</b> %3$s<br><b>Kích cỡ:</b> %4$s<br><b>Lần sửa đổi cuối:</b> %5$s]]>
-    </string>
+    <string name="properties_message_v2">&lt;b&gt;Tên gói:&lt;/b&gt; %1$s&lt;br&gt;&lt;b&gt;Phiên bản:&lt;/b&gt; %2$s&lt;br&gt;&lt;b&gt;Đường dẫn:&lt;/b&gt; %3$s&lt;br&gt;&lt;b&gt;Kích cỡ:&lt;/b&gt; %4$s&lt;br&gt;&lt;b&gt;Lần sửa đổi cuối:&lt;/b&gt; %5$s</string>
     <string name="app_detail_tab_evaluation">Đánh giá</string>
     <string name="app_detail_comment_filter_sort_score">Đánh giá hàng đầu</string>
     <string name="app_detail_comment_filter_all">Toàn bộ đánh giá</string>
