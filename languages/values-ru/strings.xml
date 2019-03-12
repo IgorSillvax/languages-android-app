@@ -398,7 +398,7 @@
 
     <string name="app_detail_comment_type_web">сайт</string>
     <string name="app_detail_comment_order_array_default">Сортировать по умолчанию</string>
-    <string name="recommend"></string>
+    <string name="recommend">"Все "</string>
     <string name="share_app_url_comment"> Коментарии <xliff:g example="APKPure" id="user_name">%1$s</xliff:g> к
         <xliff:g example="APKPure" id="app_name">%2$s</xliff:g> :
         <xliff:g example="APKPure" id="app_name">%3$s</xliff:g> (из @<xliff:g example="APKPure" id="social_network_name">%4$s</xliff:g>)
@@ -854,6 +854,31 @@
     <string name="delete_draft">Удалить черновик</string>
     <string name="is_save_comment_draft">Сохранить как черновик\?</string>
     <string name="upload_video">Загрузить видео</string>
-    <string name="saved_draft"></string>
+    <string name="saved_draft">Сохранено как черновик</string>
 
-</resources>
+<string name="msg_all_read_notice">Уведомление</string>
+    <string name="share_app_url_comment_v3">Поделиться <xliff:g example="zhangsan" id="name">1%1$s</xliff:g>2\'s <xliff:g example="post/story/review" id="type">3%2$s</xliff:g>4 (Из APKPure):<xliff:g example="https://apkpure.com" id="url">5%3$s </xliff:g>6</string>
+    <string name="number">\"</string>
+    <string name="headline_footer_refresh">Потяните вниз или коснитесь этой строки, чтобы обновить.</string>
+
+    <string name="users_recommended_des">Ваш отзыв был выбран как рекомендация пользователя,%1$s</string>
+    <string name="recommended_posts_des">Ваш отзыв был выбран как рекомендация пользователя,%1$s</string>
+    <string name="comment_removed_title">Ваше сообщение было удалено</string>
+    <string name="comment_removed_des">Похоже, что то, что вы опубликовали, не соответствует нашим %1$s. Мы не разрешаем посты, которые запугивают частных лиц или преследуют кого-либо на APKPure. Это может включать неуместные изображения, фотографии или видео о физическом запугивании или любой другой пост, предназначенный для унижения или позора конкретного человека.
+\n%2$s 
+\nЕсли вы считаете, что это ошибка,пожалуйста%3$s.</string>
+    <string name="temporarily_blocked_title">Вы временно заблокированы от публикации</string>
+    <string name="temporarily_blocked_des">Этот временный блок будет длиться %1$s дней, и вы не сможете публиковать на APKPure, пока он не будет завершен. Если вы опубликуете что-то, что противоречит нашим %2$s ещё раз, ваша учетная запись будет заблокирована еще на 30 дней. Имейте в виду, что люди, которые постоянно публикуют вещи, которые не разрешены на APKPure, могут навсегда отключить ваши учетные записи.
+\nЕсли вы считаете, что это ошибка,% 3 $ s.</string>
+    <string name="pre_register_title">%1$s выпущено %2$s！</string>
+    <string name="pre_register_des">"Предварительно зарегистрированная игра %1$s   %2$s доступна для скачивания.%3$s"</string>
+    <string name="report_callback_title">Мы удалили пост, о котором вы сообщили!</string>
+    <string name="report_callback_des">Мы просмотрели пост, о котором вы сообщили, о преследовании. Так как он нарушил наш %1$s, мы удалили его. Спасибо за вашу жалобу. Мы сообщаем %2$s, что пост был удален, но не сообщали кто жаловался.</string>
+
+    <string name="tap_to_view">нажмите, чтобы посмотреть</string>
+    <string name="let_us_know">сообщить нам</string>
+    <string name="community_guide_lines">Принципы сообщества</string>
+
+    <string name="clear_empty">Очистить все</string>
+    <string name="empty_draft_info">Нет контента…</string>
+    </resources>
