@@ -357,7 +357,7 @@
     <string name="update_pwd_new_pwd_null_tv">فیلد رمز ورود جدید نمی تواند خالی باشد</string>
     <string name="update_pwd_new_confrim_tv">رمز ورود وارد شده با هم مطابقت ندارد</string>
     <string name="update_pwd_save_bt">ذخیره</string>
-    <string name="update_save_success">با موفقیت ذخیره شد!</string>
+    <string name="update_save_success">ذخیره شد!</string>
     <string name="crop__cancel" ignore="ButtonCase">انصراف</string>
     <string name="crop__done">انجام شده</string>
     <string name="crop__pick_error">نوع فایل تصویر نامعتبر است</string>
@@ -489,7 +489,7 @@
     <string name="main_topic_selection">قالب‌ها</string>
     <string name="main_night_mode">حالت شب</string>
     <string name="please_login_first">لطفا ابتدا وارد شوید</string>
-    <string name="follow_on_success">موفقیت آمیز!</string>
+    <string name="follow_on_success">دنبال شد</string>
     <string name="canceled">لغو شد</string>
     <string name="group">گروه</string>
     <string name="collection">علاقمندی‌ها</string>
@@ -512,7 +512,7 @@
 
     <string name="favorite_title">علاقمندی</string>
     <string name="save_as_favorite">ذخیره به عنوان علاقمندی</string>
-    <string name="favorite_saved">به عنوان علاقمندی ذخیره شد</string>
+    <string name="favorite_saved">علاقمندی ذخیره شد</string>
     <string name="failed_to_save_favorite">این مورد برای علاقمندی ذخیره نشد</string>
     <string name="collection_comment">پست‌ها</string>
     <string name="collection_app">برنامه‌ها</string>
@@ -582,7 +582,7 @@
 
     <string name="menu_follow_user_tab">دوستان</string>
     <string name="choose_app">انتخاب برنامه</string>
-    <string name="publish_comment">اشتراک گذاری پست‌</string>
+    <string name="publish_comment">پست‌</string>
 
     <string name="user_focus_tab_users">دوستان</string>
     <string name="history_version">تاریخچه نسخه</string>
@@ -623,7 +623,7 @@
     <string name="app_detail_has_product">اقلام خریدنی</string>
     <string name="app_detail_no_product">هیچ اقلام خریدنی وجود ندارد</string>
     <string name="app_add_tag_hint_caution">برچسب‌های هر برنامه بیشتر از %s نباشد.</string>
-    <string name="load_failed_error_not_found">برنامه در اپ استور APKPure فهرست نشده است!</string>
+    <string name="load_failed_error_not_found">برنامه در اپ استور APK Pure فهرست نشده است!</string>
     <string name="beta">آزمایشی</string>
     <string name="user_info_edit_intro_tv">درباره من</string>
     <string name="update_intro_title">ویرایش درباره من</string>
@@ -638,32 +638,32 @@
     <string name="add_tag">اضافه کردن برچسب</string>
     <string name="error_add_tag">اضافه کردن برچسب ناموفق بود</string>
     <string name="no_collect">هنوز مورد علاقه‌ی شما نیست!</string>
-    <string name="no_comment">اولین نفری باشید که نظر خود را بیان می‌کند!</string>
+    <string name="no_comment">اولین نفری باشید که پست می گذارید!</string>
 
-    <string name="share_apk">ای‌پی‌کا را به اشتراک بگذارید</string>
-    <string name="tab_apk">ای‌پی‌کا</string>
-    <string name="commentaries">اشتراک گذاری پست</string>
+    <string name="share_apk">"اشتراک برنامه "</string>
+    <string name="tab_apk">برنامه</string>
+    <string name="commentaries">داستان</string>
 
     <string name="upload_apk_version">نسخه %s</string>
     <string name="upload_apk_downloads">دانلودها: %s</string>
 
     <string name="upload_comment_uploading">%s در حال آپلود…</string>
     <string name="upload_comment_upload_success">%s با موفقیت آپلود شد</string>
-    <string name="upload_comment_upload_failed">%s آپلود نشد</string>
+    <string name="upload_comment_upload_failed">%s آپلود شکست خورد</string>
     <string name="upload_comment_view">برای مشاهده ضربه بزنید</string>
     <string name="upload_comment_reload">برای آپلود دوباره ضربه بزنید</string>
-    <string name="upload_notification_pause">مکث</string>
+    <string name="upload_notification_pause">صبر کردن</string>
     <string name="upload_notification_start">شروع</string>
     <string name="upload_notification_cancel">انصراف</string>
     <string name="upload_notification_is_uploading">در حال آپلود پکیج به APKPure…</string>
-    <string name="upload_notification_is_pause">آپلود مکث شد</string>
-    <string name="upload_add_list_toast">موفقیت آمیز!</string>
+    <string name="upload_notification_is_pause">صبر کردن در آپلود</string>
+    <string name="upload_add_list_toast">موفق شد!</string>
 <string name="hot_tag_explain">(اضافه کردن یا رای دادن به تگ‌های موجود برای این برنامه)</string>
-    <string name="upload_add_file_list_toast">در حال آپلود برنامه لطفا صبور باشید، متشکریم!</string>
+    <string name="upload_add_file_list_toast">در حال آپلود برنامه لطفا با حوصله باشید، متشکریم!</string>
 
     <string name="your_reply_comment">پاسخ شما</string>
 
-    <string name="market_ad_title">بازار</string>
+    <string name="market_ad_title">فروشگاه</string>
     <string name="market_ad_tab_one">ویژه</string>
     <string name="market_ad_tab_two">بازی‌ها</string>
     <string name="market_ad_tab_three">ابزارها</string>
@@ -672,7 +672,7 @@
 
     <string name="cancel_collection">دوست ندارم</string>
 
-    <string name="ranking_top_countries_title">کشورهای برتر</string>
+    <string name="ranking_top_countries_title">رتبه بندی تقسیم شده</string>
     <string name="ranking_top_develop_title">توسعه دهندگان برتر</string>
 
     <string name="google_play_bug_text">خرید در گوگل پلی</string>
@@ -692,21 +692,21 @@
     <string name="copy_content">کپی محتوا</string>
 
     <string name="tab_global">ویژه</string>
-    <string name="comment_list_new_num">%d داستان جدید</string>
-<string name="pre_registered_bt">ثبت‌نام شده</string>
+    <string name="comment_list_new_num">%d سرفصل های جدید</string>
+<string name="pre_registered_bt">ثبت‌نام شد</string>
     <string name="pre_register_link_title">صفحه پیش ثبت‌نام</string>
     <string name="pre_register_gift_tv">پاداش ثبت‌نام</string>
     <string name="search_user_history_title">تماس‌های اخیر</string>
-    <string name="comment_list_see_here">آخرین بازدید از اینجا، برای تازه کردن ضربه بزنید</string>
+    <string name="comment_list_see_here">آخرین زمانی که شما حضور داشتید . برای تازه کردن ضربه بزنید.</string>
     <string name="tab_popular">محبوب</string>
 <string name="message_at_title">اشاره‌ها</string>
     <string name="message_at">به شما اشاره کرده</string>
 
     <string name="push_title_info_at">کسی به شما اشاره کرده در یک نظر، برای مشاهده ضربه بزنید</string>
 
-    <string name="pre_register_ok">باشه</string>
+    <string name="pre_register_ok">خب</string>
     <string name="pre_register_person_num_tv">پیش ثبت نام‌: %s</string>
-    <string name="pre_register_success">پیش ثبت نام به این معنی است که هنگامی که برنامه به صورت رسمی منتشر شد، یک آگاه‌سازی برای اطلاع شما در دستگاه خود دریافت می‌کنید.</string>
+    <string name="pre_register_success">پیش ثبت نام به این معنی است که هنگام انتشار برنامه، شما یک اعلان در دستگاهتان دریافت خواهید کرد</string>
 
     <string name="properties_message_v2">&lt;b&gt;نام بسته:&lt;/b&gt; %1$s&lt;br&gt;&lt;b&gt;نسخه:&lt;/b&gt; %2$s&lt;br&gt;&lt;b&gt;مسیر:&lt;/b&gt; %3$s&lt;br&gt;&lt;b&gt;اندازه:&lt;/b&gt; %4$s&lt;br&gt;&lt;b&gt;آخرین اصلاح:&lt;/b&gt; %5$s</string>
     <string name="app_detail_tab_evaluation">مرورکردن</string>
@@ -728,4 +728,145 @@
     <string name="home_message_praise">پسندها</string>
     <string name="message_notify">هشدارها</string>
     <string name="sign_in_services_key_policy_register">سياست حفظ حريم خصوصي</string>
-    </resources>
+    <string name="app_detail_discuss_filter_folded">تا شده</string>
+
+
+    <string name="menu_copy_link">کپی لینک</string>
+    <string name="web_view_copy">کپی لینک</string>
+
+    <string name="filter_no_comment">اوپس! چنین محتوا وجود ندارد</string>
+
+    <string name="follow_floating_action_button">ایجاد لحظه جدید</string>
+
+    <string name="count_down_timer_tv">%ds</string>
+    <string name="count_down_timer_btn">رد کردن</string>
+
+    <string name="choice_evaluate">نظرات ویژه</string>
+    <string name="choice_comment">پست های توصیه شده</string>
+    <string name="emoji_input_error_hint">نظرات Emoji اجازه داده نشده است بیشتر! چیزی بنویسید…</string>
+    <string name="load_all_choice_evaluate">مشاهده تمام بررسی ها</string>
+    <string name="load_all_choice_comment">مشاهده تمام پست ها</string>
+    <string name="my_reservation_and_collection">پیش ثبت نام و مورد علاقه</string>
+    <string name="upload_apk">آپلود برنامه</string>
+    <string name="developer_badge_explanation">توضیحات نشانگر توسعه دهنده</string>
+
+    <string name="from_user_recommendation">توصیه های کاربران</string>
+    <string name="topics">موضوع</string>
+    <string name="pre_register_game">پیش ثبت نام کنی</string>
+    <string name="editors_picks">انتخاب سردبیر</string>
+    <string name="recommend_game">توصیه بازی</string>
+
+    <string name="bing_share_account">اتصال به حساب شخص ثالث</string>
+    <string name="un_bind">اتصال وصل نیست</string>
+    <string name="login_out_message_hint">شما اطمینان داری که می خواهی خارج شوی ؟</string>
+    <string name="bind_email_title">وصل شدن به ایمیل شما</string>
+    <string name="bind_email_tv">آدرس ایمیل خود را به حساب خود وصل کنید تا مزایای ورود ایمیل، بازیابی رمز عبور، ارسال پست و موارد دیگر را باز کنید.</string>
+    <string name="verification_code_tv">یک کد تأیید به آدرس ایمیل شما ارسال شده است %1$s</string>
+    <string name="verification_code_second_tv">"ارسال مجدد  %d s"</string>
+    <string name="verification_code_resend_tv">دوباره تأیید کد را ارسال کنی</string>
+    <string name="send_verification_code_resend_tv">ارسال کد تأیید</string>
+    <string name="bind_email_success">اتصال موفق شد</string>
+    <string name="update_email_tv">دوباره ایمیل خود را بهروزرسانی کنید</string>
+    <string name="verification_code_tv_hint">کد تایید</string>
+    <string name="verification_success_code_toast">کد تایید ارسال شد .</string>
+    <string name="verification_null_code_toast">لطفا کد تأیید دریافتی را وارد کنید</string>
+    <string name="unbind_email">اتصال وصل نیست</string>
+    <string name="unbind_email_hint">هیچ آدرس ایمیل به حساب شما وصل نشده است.</string>
+    <string name="menu_skip">رد کردن</string>
+
+    <string name="forget_password_tv">پسورد فراموش کردی ؟</string>
+    <string name="recover_password_title">بازیابی پسورد</string>
+    <string name="email_address_hint_et">ایمیل وارد کنید.</string>
+
+    <string name="shop">داستان</string>
+    <string name="setting_region">کشور</string>
+    <string name="submit_add_title_image_tv">یک پوشش اضافه کنید</string>
+    <string name="submit_add_title_image_error_toast">این تصویر ممکن است به طور موقت پشتیبانی نشود لطفا یکی دیگر را انتخاب کنید</string>
+    <string name="comment_hint_tv">یه چیزی به اشتراک بگذار؟</string>
+    <string name="msg_all_read">همه را به عنوان خوانده شده علامت بزن</string>
+    <string name="msg_all_read_notice">اطلاعیه</string>
+    <string name="msg_all_read_msg">آیا مطمئن هستید که علامت گذاری همه به عنوان خوانده شده؟</string>
+    <string name="user_recommend_tip">توصیه ی کاربر</string>
+    <string name="subject_comment">هشتگها</string>
+    <string name="new_subject_comment">هشتگ جدید</string>
+    <string name="evaluating">نظرات</string>
+    <string name="image_text">داستان</string>
+    <string name="trends">پست</string>
+    <string name="error_hot_data_empty">هشتگ داغی نیست !</string>
+    <string name="hot_subject">هشتگ داغ</string>
+    <string name="menu_follow_subject">دنباله هشتگ ها</string>
+    <string name="menu_follow_subject_tab">هشتگ</string>
+    <string name="me_follow">پیگیری من</string>
+    <string name="release_dynamics">لحظه ارسال</string>
+    <string name="delete_success">موفق شد</string>
+    <string name="hot">داغ</string>
+    <string name="look_links">دیدن لینک</string>
+
+    <string name="headline_no_data_tv">تماس جدیدی نیست</string>
+    <string name="hint">توجه</string>
+    <string name="no_save_comment_hint">محتویات ارسال نشده است، شما مطمئن هستی می خوای خارج بشی؟</string>
+    <string name="look_all">دیدن بقیه</string>
+    <string name="history_hastag">تاریخچه هشتگ</string>
+    <string name="share_image_failed">تصویر به اشتراک گذاری نشد !</string>
+    <string name="select_image_overflow_hint">\@رشته/تصویر_پیام_حد_بالا</string>
+
+    <string name="share_select_image_overflow_hint">شما می توانید تا 9 عکس به اشتراک بگذارید</string>
+    <string name="search_or_create">جستجو یا ایجاد</string>
+
+    <string name="privacy_setting_title">تنظیمات حریم خصوصی</string>
+    <string name="privacy_setting_account">اکانت خصوصی</string>
+    <string name="privacy_setting_account_des">اگر حساب کاربری شما خصوصی شده باشد، صفحه اصلی شخصی شما دیگران نخواهد بود.</string>
+    <string name="privacy_setting_account_del">حساب و اطلاعات خود را حذف کنید</string>
+    <string name="privacy_setting_account_privacy">این یک حساب خصوصی است</string>
+    <string name="del_account_email_notify_tv">لطفا یک ایمیل معتبر برای دریافت اعلان خود تهیه کنید.</string>
+    <string name="del_account_email_reason_tv">چرا میخواهید این حساب را حذف کنید؟</string>
+    <string name="del_account_bt">ارسال</string>
+    <string name="del_account_reason_hint">چرا میخواهید این حساب را حذف کنید؟</string>
+    <string name="del_account_sure">حساب کاربری شما حداکثر 48 ساعت حذف خواهد شد. اگر سوالی دارید، لطفا با ما تماس بگیرید</string>
+    <string name="reply_to">پاسخ به %1$s:</string>
+    <string name="share_app_url_comment_v3">Share <xliff:g example="zhangsan" id="name">1%1$s</xliff:g>2\'s <xliff:g example="post/story/review" id="type">3%2$s</xliff:g>4 (From APKPure):<xliff:g example="https://apkpure.com" id="url">5%3$s </xliff:g>6</string>
+    <string name="apk_unable_upload">"برنامه  آپلود نشد"</string>
+    <string name="long_image">عکس بلند</string>
+    <string name="edit_tag">ویرایش برچسب</string>
+    <string name="save_tag_hint_msg">تغییر ذخیره نخواهد شد. آیا شما مطمئن هستید که خارج بشی؟</string>
+    <string name="un_follow_xx">UnFollow <xliff:g example="Apkpure" id="name">1%1$s</xliff:g>2
+\n</string>
+    <string name="follow_xx">Follow <xliff:g example="Apkpure" id="name">1%1$s</xliff:g>2</string>
+    <string name="app_rating">امتیاز:</string>
+    <string name="number">\"</string>
+    <string name="headline_footer_refresh">برای تازه کردن این خط را بکشید یا روی آن ضربه بزنید</string>
+
+    <string name="download_install_obb">نصب OBB</string>
+    <string name="download_install_apk">نصب برنامه</string>
+
+    <string name="users_recommended_title">تبریک !</string>
+    <string name="users_recommended_des">بازبینی شما به عنوان توصیه کاربر انتخاب شد,%1$s</string>
+    <string name="recommended_posts_title">تبریک !</string>
+    <string name="recommended_posts_des">بازبینی شما به عنوان توصیه کاربر انتخاب شد,%1$s</string>
+    <string name="comment_removed_title">پست شما حذف شده است</string>
+    <string name="comment_removed_des">به نظر می رسد چیزی که نوشته شده ما را دنبال نمی کند %1$s. ما پست هایی را که افراد خصوصی را مورد آزار و اذیت قرار می دهند یا آزار و اذیت هر کسی در APKPure اجازه نمی دهد. این می تواند شامل تصاویر نامناسب، عکس ها یا ویدیوهایی از قلدری فیزیکی یا هر پست دیگری باشد که قصد دارد شخص خاصی را از بین ببرد یا شرم کند
+\nاگر فکر می کنید این یک اشتباه بود، لطفا٪ 3 $ s.</string>
+    <string name="temporarily_blocked_title">شما به طور موقت از پست کردن مسدود شده اید</string>
+    <string name="temporarily_blocked_des">این بلوک موقت٪ 1 $ s روز گذشته است و شما نمیتوانید در APK Pure پست کنید تا آنرا به پایان برسد. اگر شما چیزی را که در برابر٪ 2 $ s شما میرسد دوباره ارسال کنید، حساب شما برای 30 روز دیگر مسدود خواهد شد. لطفا توجه داشته باشید که افرادی که مکررا پستهایی را که در APK Pure مجاز نیستند، ممکن است حسابهای خود را برای همیشه غیرفعال کنند.
+\nاگر فکر می کنید این یک اشتباه بود، لطفا٪ 3 $ s</string>
+    <string name="pre_register_title">%1$s منتشر شده برای %2$s!</string>
+    <string name="pre_register_des">"بازی مورد پیش ثبت شده %1$s   %2$s در دسترس دانلود است .%3$s"</string>
+    <string name="report_callback_title">پست شما را گزارش دادیم حذف کردیم!</string>
+    <string name="report_callback_des">پست شما را برای آزار و اذیت گزارش دادیم. از آنجا که٪ 1 $ s ما را نقض کرده است، ما آن را حذف کردیم. بابت گزارش شما متشکرم ما اجازه می دهیم٪ 2 $ s بدانیم که پست حذف شده است، اما کسی که آن را گزارش نکرده است.</string>
+
+    <string name="tap_to_view">برای مشاهده، روی ضربه بزنید</string>
+    <string name="let_us_know">به ما اطلاع دهید</string>
+    <string name="community_guide_lines">راهنمایی های انجمن</string>
+
+    <string name="my_draft">پیش نویس من</string>
+    <string name="clear_empty">پاک کردن همه</string>
+    <string name="several_draft"><xliff:g example="5" id="count">1%1$s</xliff:g>2 drafts</string>
+    <string name="delete_all_draft_hint">آیا جعبه ی پیش نویس خالی است؟</string>
+    <string name="edit_draft">پیش نویس را ویرایش کنید</string>
+    <string name="delete_draft">پیش نویس را حذف کنید</string>
+    <string name="empty_draft_info">بی محتوا…</string>
+    <string name="is_save_comment_draft">پیش نویس به هر حال ذخیره می کنی ؟</string>
+    <string name="upload_video">آپلود ویدیو</string>
+    <string name="saved_draft">به عنوان پیش نویس ذخیره شد</string>
+
+</resources>
