@@ -333,7 +333,7 @@ APKPure의 기능을 보장하기 위해，APKPure가 당신의 앱 정리“화
     <string name="download_mkdir_internal_storage_size_des">%1$s 무료, 총 %2$s</string>
     <string name="download_mkdir_internal_storage_entries">SD</string>
     <string name="download_mkdir_internal_storage_entries1">SD 1</string>
-    <string name="download_mkdir_external_storage_fill_toast">사용 가능한 스토리지 공간이 부족하여 앱을 다운로드할 수 없습니다.</string>
+    <string name="download_mkdir_external_storage_fill_toast">사용 가능한 저장 공간이 부족하여 앱을 다운로드할 수 없습니다.</string>
 
     <string name="download_mkdir_internal_storage_values">내부 스토리지</string>
     <string name="download_mkdir_external_storage_values">외부 스토리지</string>
@@ -377,7 +377,7 @@ APKPure의 기능을 보장하기 위해，APKPure가 당신의 앱 정리“화
     <string name="user_info_edit_email_tv">이메일</string>
     <string name="user_info_edit_gender_tv">성별</string>
     <string name="user_info_edit_birthday_tv">생일</string>
-    <string name="user_info_edit_change_pwd_tv">비밀번호 초기화</string>
+    <string name="user_info_edit_change_pwd_tv">비밀번호 재설정</string>
     <string name="user_info_edit_login_out_tv">로그아웃</string>
     <string name="user_info_edit_not_choose">알수없는</string>
     <string name="user_info_edit_gender_male">남자</string>
@@ -490,7 +490,7 @@ APKPure의 기능을 보장하기 위해，APKPure가 당신의 앱 정리“화
     <string name="ad_tip">광고</string>
     <string name="submit_comment_title_hint">제목</string>
 
-    <string name="comment_vote_string">투표</string>
+    <string name="comment_vote_string">좋아요</string>
     <string name="comment_no_reply">우와. 아무 것도 없어요.</string>
     <string name="comment_reply_info_name">자세히</string>
     <string name="set_updates_notification">업데이트 가능</string>
@@ -587,4 +587,17 @@ APKPure의 기능을 보장하기 위해，APKPure가 당신의 앱 정리“화
     <string name="temporarily_blocked_title">게시물이 차단되었습니다</string>
     <string name="saved_draft">초안으로 저장됨</string>
 
-</resources>
+<string name="comment_detail_original">원본 댓글 확인하기 &gt;</string>
+    <string name="sub_comment_dialog_title">비디오 추가</string>
+    <string name="sub_comment_dialog_des_tv">유튜브 비디오 추출만 지원합니다.</string>
+    <string name="sub_comment_dialog_link_et">비디오 주소를 입력하세요.</string>
+    <string name="sub_comment_dialog_link_null">비디오 주소는 빈칸으로 둘 수 없습니다</string>
+    <string name="sub_comment_progress_msg">비디오 추가중…</string>
+
+    <string name="play_button">플레이 버튼</string>
+    <string name="null_time">0:00</string>
+    <string name="open_video_in_youtube">유튜브에서 비디오 열기</string>
+    <string name="full_screen_button">전체 화면 버튼</string>
+
+    <string name="main_tab_home">홈</string>
+    </resources>
