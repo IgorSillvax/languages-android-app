@@ -32,7 +32,7 @@
     <string name="settings">설정</string>
     <string name="about">About</string>
     <string name="about_title">About <xliff:g example="APKPure" id="app_name">%1$s</xliff:g></string>
-    <string name="about_message">&lt;b&gt;Version:&lt;/b&gt; %1$s&lt;br&gt;&lt;br&gt;&lt;b&gt;Website:&lt;/b&gt; &lt;a href=%2$s&gt;%2$s&lt;/a&gt;&lt;br&gt;&lt;b&gt;Email:&lt;/b&gt; &lt;a href=mailto:%3$s&gt;%3$s&lt;/a&gt;</string>
+    <string name="about_message">&lt;b&gt;버전:&lt;/b&gt; %1$s&lt;br&gt;&lt;br&gt;&lt;b&gt;웹 사이트:&lt;/b&gt; &lt;a href=%2$s&gt;%2$s&lt;/a&gt;&lt;br&gt;&lt;b&gt;이메일:&lt;/b&gt; &lt;a href=mailto:%3$s&gt;%3$s&lt;/a&gt;</string>
     <string name="check_update">업데이트 확인</string>
     <string name="quit">종료</string>
     <string name="want_to_quit">종료 하시겠습니까?</string>
@@ -115,7 +115,7 @@
     <string name="paused">중지됨</string>
     <string name="failed">실패</string>
     <string name="file_invalid">잘못된 파일</string>
-    <string name="file_missing">파일 분실</string>
+    <string name="file_missing">파일이 없습니다</string>
     <string name="expired">만료됨</string>
     <string name="detail">세부 사항</string>
     <string name="remove">제거하기</string>
@@ -222,7 +222,7 @@
     <string name="feedback">피드백</string>
 
     <string name="changing_language">언어를 바꾸는 중, 기다려 주세요…</string>
-    <string name="enable_ultra_download">Enable ultra download</string>
+    <string name="enable_ultra_download">울트라 다운로드 활성화</string>
     <string name="auto_service_install_accessibility_title">자동 설치</string>
     <string name="auto_service_install_accessibility_summary">안드로이드 4.1 이상 지원, 루트 권한 불필요.</string>
 
@@ -260,7 +260,7 @@ APKPure의 기능을 보장하기 위해，APKPure가 당신의 앱 정리“화
     <string name="download_over_cellular_content">모바일 네트워크를 통해 다운로드하려고 합니다. 계속하시겠습니까\?</string>
 
     <string name="download_over_cellular">셀룰러로 다운로드</string>
-    <string name="similar_or_related">유사하거나 관련됨</string>
+    <string name="similar_or_related">유사하거나 관련된 제품</string>
     <string name="report">신고하기</string>
     <plurals name="app_detail_see_all_replies">
 	<item quantity="other">모든 <xliff:g example="2" id="count">%$d</xliff:g> 답장을 보기</item>
@@ -275,7 +275,7 @@ APKPure의 기능을 보장하기 위해，APKPure가 당신의 앱 정리“화
     <string name="beta">베타</string>
     <string name="history_version">버전 기록</string>
 
-    <string name="data_saver_model">Data saver</string>
+    <string name="data_saver_model">데이터 세이버</string>
     <string name="properties_message_v2">&lt;b&gt;패키지 이름:&lt;/b&gt; %1$s&lt;br&gt;&lt;b&gt;버전:&lt;/b&gt; %2$s&lt;br&gt;&lt;b&gt;경로:&lt;/b&gt; %3$s&lt;br&gt;&lt;b&gt;사이즈:&lt;/b&gt; %4$s&lt;br&gt;&lt;b&gt;마지막 수정날짜:&lt;/b&gt; %5$s</string>
     <string name="share_app_url_comment"> <xliff:g example="APKPure" id="user_name">%1$s</xliff:g>에 대한 평가입니다
 \n<xliff:g example="APKPure" id="app_name">%2$s</xliff:g> : <xliff:g example="APKPure" id="app_name">%3$s</xliff:g> (<xliff:g example="APKPure" id="social_network_name">%4$s</xliff:g> (으)로 부터) <xliff:g example="https://apkpure.com/p/com.apkpure.aegon" id="app_url">%5$s</xliff:g> </string>
