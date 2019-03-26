@@ -5,7 +5,7 @@
     <string name="action_search">검색</string>
     <string name="action_management">관리</string>
 
-    <string name="press_back_key_quit">\'뒤로가기\' 버튼을 한번더 눌러 종료합니다.</string>
+    <string name="press_back_key_quit">뒤로 키를 다시 한 번 누르고 종료하십시오.</string>
 
     <string name="featured">특색</string>
     <string name="games">게임</string>
@@ -16,10 +16,10 @@
     <string name="something_happened">&gt;_&lt; 
 \n무슨일이 있었습니다.</string>
 
-    <string name="load_failed_error">죄송합니다. 오류가 발생했습니다.</string>
+    <string name="load_failed_error">Oops!오류가 발생했습니다.</string>
     <string name="load_failed_empty">여기에는 아무것도 없습니다.</string>
-    <string name="load_failed_all_up_to_date">모든 앱이 최신입니다.</string>
-    <string name="load_failed_no_results">죄송합니다! 해당하는 검색 결과가 없습니다.</string>
+    <string name="load_failed_all_up_to_date">모든 앱이 최신 버전입니다.</string>
+    <string name="load_failed_no_results">죄송합니다! 검색 결과가 없습니다.</string>
     <string name="refresh">새로고침</string>
 
     <string name="management">관리</string>
@@ -46,7 +46,7 @@
     <string name="failed_to_delete_file">파일을 삭제하지 못했습니다.</string>
     <string name="install__label_">설치 - <xliff:g id="app_label" example="APKPure">%1$s</xliff:g></string>
     <string name="user_canceled">사용자가 취소되었습니다.</string>
-    <string name="io_error">IO 에러. 설치에 필요한 저장 공간이 부족할 수도 있습니다.</string>
+    <string name="io_error">IO 오류입니다. 설치에 필요한 저장 공간이 부족할 수도 있습니다.</string>
     <string name="file_format_error">파일 형식 오류입니다.</string>
     <string name="parsing_xapk">XAPK 구문 분석 중…</string>
     <string name="installing_obb">OBB 파일 설치중 …</string>
@@ -66,11 +66,11 @@
     <string name="version_">버전:</string>
     <string name="updated_">업데이트됨:</string>
     <string name="size_">크기:</string>
-    <string name="permissions_">권한:</string>
-    <string name="type_">타입:</string>
+    <string name="permissions_">사용 권한:</string>
+    <string name="type_">유형:</string>
     <string name="category_">카테고리:</string>
     <string name="more">더 보기</string>
-    <string name="permissions">권한</string>
+    <string name="permissions">사용 권한</string>
     <string name="other">기타</string>
     <string name="apk">APK</string>
     <string name="xapk">XAPK</string>
@@ -81,7 +81,7 @@
     <string name="market_response_error_invalid_result">잘못된 결과입니다.</string>
     <string name="market_response_error_network_connect_error">네트워크 연결 오류입니다.</string>
     <string name="market_response_error_network_read_error">네트워크 읽기 오류입니다.</string>
-    <string name="market_response_error_invalid_response_code">유효하지 않은 응답 코드입니다.</string>
+    <string name="market_response_error_invalid_response_code">잘못된 응답 코드입니다.</string>
     <string name="market_response_error_invalid_response_body">잘못된 응답 본문입니다.</string>
     <string name="market_response_error_unknown_error__error_">알 수 없는 오류 (<xliff:g id="error" example="SUCCESS">%1$s</xliff:g>).</string>
 
@@ -115,7 +115,7 @@
     <string name="paused">중지됨</string>
     <string name="failed">실패</string>
     <string name="file_invalid">잘못된 파일</string>
-    <string name="file_missing">파일이 없습니다</string>
+    <string name="file_missing">파일 분실</string>
     <string name="expired">만료됨</string>
     <string name="detail">세부 사항</string>
     <string name="remove">제거하기</string>
@@ -125,73 +125,64 @@
     <string name="search_for_apps">APKPure 검색</string>
     <string name="trending_searches">인기 검색</string>
 
-    <string name="improvement_plan_title">성능 향상 계획</string>
-    <string name="improvement_plan_message">
-        <![CDATA[Help us with submit Android Device Info, We do <b>not collect</b> 개인정보(이름, 주소, 이메일, 기타 개인 신상정보).]]>
-    </string>
-    <string name="join_us">우리와 함께하십시오.</string>
+    <string name="improvement_plan_title">실적 개선 계획</string>
+    <string name="improvement_plan_message">Help us with submit Android Device Info, We do <b>not collect</b> 개인정보(이름, 주소, 이메일, 기타 개인 신상정보).</string>
+    <string name="join_us">채용정보</string>
     <string name="skip">건너뛰기</string>
 
-    <string name="_name__is_up_to_date"><xliff:g id="name" example="APKPure">%1$s</xliff:g> 최신판이다.</string>
-    <string name="new_version_available_title">새 버전이 있습니다</string>
+    <string name="_name__is_up_to_date"><xliff:g id="name" example="APKPure">%1$s</xliff:g> 최신 상태입니다.</string>
+    <string name="new_version_available_title">사용 가능한 새 버전</string>
   <string name="new_version_available_message">
         <![CDATA[<b>최신 버전:</b> %1$s<br><br><b>새로운 기능:</b><br>%2$s]]>
     </string>
-    <string name="report__">보고서…</string>
-    <string name="report_problem__">문제점을 보고…</string>
-    <string name="report_problem_subject">문제점을 보고</string>
-    <string name="report_problem_text">문제점:\n%1$s\n\n자세한 문제:\n%2$s</string>
+    <string name="report__">신고…</string>
+    <string name="report_problem__">문제 신고…</string>
+    <string name="report_problem_subject">문제 신고</string>
+    <string name="report_problem_text">문제점:
+\n%1$s
+\n
+\n문제 세부 정보:
+\n%2$s</string>
 
     <string name="installation_failed">설치 실패</string>
-    <string name="invalid_app_detail">자세한 앱 정보가 없습니다.</string>
-    <string name="invalid_app_asset">유효하지 않은 앱 정보.</string>
-    <string name="failed_to_request_app_detail">앱 정보 요청 실패함.</string>
-    <string name="failed_to_request_app_asset">앱 정보 요청 실패함.</string>
-    <string name="incompatible_this_app">
-        <![CDATA[<big><b><font color=%1$d>이 앱은 당신의 기기와 호환되지 않습니다</font></b></big><br><br>계속 하실라우?]]>
-    </string>
+    <string name="invalid_app_detail">앱 세부 정보가 잘못되었습니다.</string>
+    <string name="invalid_app_asset">앱 자산 정보가 잘못되었습니다.</string>
+    <string name="failed_to_request_app_detail">앱 세부 정보를 요청하지 못했습니다.</string>
+    <string name="failed_to_request_app_asset">앱 자산 정보를 요청하지 못했습니다.</string>
+    <string name="incompatible_this_app">&lt;big&gt;&lt;b&gt;&lt;font color=%1$d&gt;이(가) 이 앱과 호환되지 않습니다.&lt;/font&gt;&lt;/b&gt;&lt;/b&gt;&lt;br&gt;&lt;br&gt;계속 하시겠습니까\?</string>
     <string name="this_app_not_usable">
         <![CDATA[<big><b><font color=%1$d>이 앱은 사용할 수 없습니다.</font></b></big><br><br>계속 하시겠습니까?]]>
     </string>
 
     <string name="setting">설정</string>
-    <string name="external_storage_not_usable">
-        <![CDATA[<big><b> 외부 저장 장치가 있어야 합니다. 외부 저장 장치를 사용할 수 있는지 확인하시기 바랍니다.</b></big>]]></string>
-    <string name="external_storage_permission_denied">
-        <![CDATA[<big><b>외부 저장 장치에 연결 해야합니다. 엑세스 권한이 거부되어 있는지 확인 하십시오.</b></big>]]>
-    </string>
+    <string name="external_storage_not_usable"><big><b> 외장 스토리지에 액세스해야 합니다. 사용 가능한지 확인해 주세요.</b></big></string>
+    <string name="external_storage_permission_denied"><big><b>외장 스토리지에 액세스해야 합니다. 사용 권한이 거부되지 않도록 해 주십시오.</b></big></string>
 
     <string name="share">공유</string>
     <string name="share_app_url"> 공유하기 <xliff:g example="APKPure" id="app_name">%1$s</xliff:g> 애플리케이션 (from <xliff:g example="APKPure" id="social_network_name">%2$s</xliff:g>) <xliff:g example="https://apkpure.com/p/com.apkpure.aegon" id="app_url">%3$s</xliff:g> </string>
 
-    <string name="_name__version_history"><xliff:g id="name" example="APKPure">%1$s</xliff:g> 버전 히스토리</string>
+    <string name="_name__version_history"><xliff:g id="name" example="APKPure">%1$s</xliff:g> 버전 기록</string>
     <string name="update__date___size_">업데이트: <xliff:g id="date" example="Mar 3, 2016">%1$s</xliff:g>, <xliff:g id="size" example="1024 kB">%2$s</xliff:g></string>
 
     <string name="update_all">전체 업데이트</string>
     <string name="update___count__">업데이트 (<xliff:g id="count" example="3">%1$d</xliff:g>)</string>
-    <string name="ignore">Ignore Korean</string>
+    <string name="ignore">목록에서 무시하십시오</string>
     <string name="unignore">무시하지 마시오</string>
     <string name="select">선택</string>
     <string name="cancel">취소</string>
     <string name="ignored">무시됨</string>
     <plurals name="total__count__apps__size_">
-	    <item quantity="other">
-            <![CDATA[전체: <b><font color=%1$d>%2$d</font></b> 앱, <b><font color=%1$d>%3$s</font></b>]]>
-        </item>
-    </plurals>
-    <string name="total_zero_app">
-        <![CDATA[전체: <b><font color=%1$d>0</font></b> 앱]]>
-    </string>
+	<item quantity="other">합계:&lt;b&gt;&lt;font color=%1$d&gt;%2$d&lt;/font&gt;&lt;/b&gt; 앱, &lt;b&gt;&lt;font color=%1$d&gt;%3$s&lt;/font&gt;&lt;/b&gt;</item>
+</plurals>
+    <string name="total_zero_app">합계: &lt;b&gt;&lt;font color=%1$d&gt;0&lt;/font&gt;&lt;/b&gt; 앱</string>
 
     <string name="general">일반</string>
     <string name="language">언어</string>
     <string name="auto">자동</string>
     <string name="search_history">기록</string>
-    <string name="clear_search_history">기록을 초기화 합니다</string>
+    <string name="clear_search_history">모든 기록 지우기</string>
     <string name="delete_all">전체 삭제</string>
-    <string name="properties_message">
-        <![CDATA[<b>Path:</b> %1$s<br><b>Size:</b> %2$s<br><b>최근 변경됨:</b> %3$s]]>
-    </string>
+    <string name="properties_message">&lt;b&gt;경로:&lt;/b&gt; %1$s&lt;br&gt;&lt;b&gt;크기：&lt;/b&gt; %2$s&lt;br&gt;&lt;b&gt;최근 변경됨:&lt;/b&gt; %3$s</string>
     <string name="want_to_delete_all_files">모든 파일을 삭제하시겠습니까\?</string>
     <string name="pause_all">모두 일시 중지</string>
     <string name="continue_all">전체 계속하기</string>
@@ -199,42 +190,42 @@
     <string name="deleted">삭제됨</string>
     <string name="remove_all">모두 제거</string>
     <string name="want_to_remove_all_download_items">다운로드한 모든 항목을 제거하시겠습니까\?</string>
-    <string name="delete_downloaded_file">다운로드한 파일을 삭제</string>
+    <string name="delete_downloaded_file">다운로드한 파일을 삭제하기</string>
 
-    <string name="contact_us__">우리에게 연락 …</string>
-    <string name="contact_us">우리에게 연락</string>
+    <string name="contact_us__">연락처…</string>
+    <string name="contact_us">연락처</string>
     <string name="report_content">보고서 내용</string>
 
     <string name="select_all">전체 선택</string>
-    <string name="deselect_all">전체선택 취소</string>
+    <string name="deselect_all">모두 선택 취소</string>
     <string name="installation">설치</string>
-    <string name="show_notification_after_installation">설치 후 알림</string>
-    <string name="delete_packages_after_installation">설치 후 패키지를 삭제합니다</string>
+    <string name="show_notification_after_installation">설치 후 알림 표시</string>
+    <string name="delete_packages_after_installation">설치 후 패키지 삭제</string>
 
     <string name="_name__installation_completed"><xliff:g id="name" example="APKPure">%1$s</xliff:g>설치 완료</string>
-    <string name="touch_to_open">열려면 터치합니다.</string>
+    <string name="touch_to_open">누르면 열립니다.</string>
 
-    <string name="flag_as_inappropriate">부적절한 콘텐츠로 신고</string>
+    <string name="flag_as_inappropriate">부적절한 것으로 표기</string>
 <string name="installed">설치됨</string>
-    <string name="participate_ultra_download_beta_test_title">울트라 다운로드를 활성화하고 더 빠른 다운로드 속도를 즐기세요</string>
+    <string name="participate_ultra_download_beta_test_title">울트라 다운로드를 사용하고 더 빠른 다운로드 속도를 즐기세요</string>
     <string name="enable">활성화</string>
 
     <string name="feedback">피드백</string>
 
     <string name="changing_language">언어를 바꾸는 중, 기다려 주세요…</string>
-    <string name="enable_ultra_download">울트라 다운로드 활성화</string>
+    <string name="enable_ultra_download">울트라 다운로드 사용</string>
     <string name="auto_service_install_accessibility_title">자동 설치</string>
-    <string name="auto_service_install_accessibility_summary">안드로이드 4.1 이상 지원, 루트 권한 불필요.</string>
+    <string name="auto_service_install_accessibility_summary">Android 4.1 이상을 지원하며 루트 권한이 필요하지 않습니다.</string>
 
-    <string name="auto_service_dialog_title">자동 설치 활성화</string>
+    <string name="auto_service_dialog_title">자동 설치 사용</string>
     <string name="auto_service_title">APKPure 자동 설치</string>
     <string name="auto_service_install">설치</string>
-    <string name="auto_service_ensure">확인</string>
+    <string name="auto_service_ensure">OK</string>
     <string name="auto_service_next">다음</string>
     <string name="auto_service_complete">완료</string>
 
     <string name="auto_service_install__material_">설치</string>
-    <string name="auto_service_ensure__material_">확인</string>
+    <string name="auto_service_ensure__material_">OK</string>
     <string name="auto_service_next__material_">다음</string>
     <string name="auto_service_complete__material_">완료</string>
 
@@ -244,19 +235,15 @@
     <string name="auto_service_exchange__material_">대신</string>
     <string name="download_complete_installation_setting">다운로드 후 설치 옵션</string>
     <string name="auto_service_exchange">대신</string>
-    <string name="auto_service_description">“APKPure자동 설치”사용,“자동 설치”편온하게 운행하다
-APKPure자동 설치는 앱을 설치하거나 업데이트할 때 모두 설치 버튼을 대신 노를 수 있습니다. 계속 핸드폰 집중 필요없습니다.
-이 기능을 사용할 때 당신은 위험 경고를 받겠습니다，“OK”을 노르며 이 기능을 열릴 수 있도록 하세요.
-APKPure의 기능을 보장하기 위해，APKPure가 당신의 앱 정리“화이트리스트”에 추가하세요.
-위에 기능은 안드로이드 4.1+지지，root권한 필요없습니다. 우리가 서비스접근성을 통해 개인정보를 얻지 않습니다. 문제 있으면 어젠든지 연락 주세요.</string>
+    <string name="auto_service_description">“APKPure자동 설치”사용,“자동 설치”편온하게 운행하다 APKPure자동 설치는 앱을 설치하거나 업데이트할 때 모두 설치 버튼을 대신 노를 수 있습니다. 계속 핸드폰 집중 필요없습니다. 이 기능을 사용할 때 당신은 위험 경고를 받겠습니다，“OK”을 노르며 이 기능을 열릴 수 있도록 하세요. APKPure의 기능을 보장하기 위해，APKPure가 당신의 앱 정리“화이트리스트”에 추가하세요. 위에 기능은 안드로이드 4.1+지지，root권한 필요없습니다. 우리가 서비스접근성을 통해 개인정보를 얻지 않습니다. 문제 있으면 어젠든지 연락 주세요.</string>
 
-    <string name="auto_service_dialog_message">자동 설치는 핸드폰의관한 부여해야 합니다，사용 모험 없습니다.</string>
+    <string name="auto_service_dialog_message">자동 설치는 전화로 권한을 부여해야 합니다，사용 모험 없습니다.</string>
 
-    <string name="enable_ultra_download_summary">급속 다운로드는 테스트 중，무슨 문제 있어도 알려주세요.</string>
+    <string name="enable_ultra_download_summary">Ultra Download는 베타 테스트 중이므로 문제가 있으면 알려주십시오.</string>
     <string name="download_via_wifi_only">Wi-Fi만 다운로드</string>
     <string name="more_large">더</string>
     <string name="more_from_developer">개발자의 정보 더보기</string>
-    <string name="participate_ultra_download_beta_test_content">급속 다운로드는 테스트 중，무슨 문제 있어도 알려주세요. 어젠든지 설치에 금용할 수 있습니다.</string>
+    <string name="participate_ultra_download_beta_test_content">Ultra Download는 베타 테스트 중입니다. 문제가 발생하면 저희에게 알려주십시오. 설정에서 쉽게 금할 수 있습니다.</string>
     <string name="download_over_cellular_content">모바일 네트워크를 통해 다운로드하려고 합니다. 계속하시겠습니까\?</string>
 
     <string name="download_over_cellular">셀룰러로 다운로드</string>
@@ -276,12 +263,11 @@ APKPure의 기능을 보장하기 위해，APKPure가 당신의 앱 정리“화
     <string name="history_version">버전 기록</string>
 
     <string name="data_saver_model">데이터 세이버</string>
-    <string name="properties_message_v2">&lt;b&gt;패키지 이름:&lt;/b&gt; %1$s&lt;br&gt;&lt;b&gt;버전:&lt;/b&gt; %2$s&lt;br&gt;&lt;b&gt;경로:&lt;/b&gt; %3$s&lt;br&gt;&lt;b&gt;사이즈:&lt;/b&gt; %4$s&lt;br&gt;&lt;b&gt;마지막 수정날짜:&lt;/b&gt; %5$s</string>
-    <string name="share_app_url_comment"> <xliff:g example="APKPure" id="user_name">%1$s</xliff:g>에 대한 평가입니다
-\n<xliff:g example="APKPure" id="app_name">%2$s</xliff:g> : <xliff:g example="APKPure" id="app_name">%3$s</xliff:g> (<xliff:g example="APKPure" id="social_network_name">%4$s</xliff:g> (으)로 부터) <xliff:g example="https://apkpure.com/p/com.apkpure.aegon" id="app_url">%5$s</xliff:g> </string>
-    <string name="share_app_url_group"> <xliff:g example="APKPure" id="app_name">%1$s</xliff:g> 그룹. (from <xliff:g example="APKPure" id="social_network_name">%2$s</xliff:g>) <xliff:g example="https://apkpure.com/p/com.apkpure.aegon" id="app_url">%3$s</xliff:g> </string>
+    <string name="properties_message_v2">&lt;b&gt;패키지 이름:&lt;/b&gt; %1$s&lt;br&gt;&lt;b&gt;버전:&lt;/b&gt; %2$s&lt;br&gt;&lt;b&gt;경로:&lt;/b&gt; %3$s&lt;br&gt;&lt;b&gt;크기:&lt;/b&gt; %4$s&lt;br&gt;&lt;b&gt;최근 변경됨:&lt;/b&gt; %5$s</string>
+    <string name="share_app_url_comment"> <xliff:g example="APKPure" id="user_name">%1$s</xliff:g>\'s comments on <xliff:g example="APKPure" id="app_name">%2$s</xliff:g> : <xliff:g example="APKPure" id="app_name">%3$s</xliff:g> (from <xliff:g example="APKPure" id="social_network_name">%4$s</xliff:g>) <xliff:g example="https://apkpure.com/p/com.apkpure.aegon" id="app_url">%5$s</xliff:g> </string>
+    <string name="share_app_url_group"> <xliff:g example="APKPure" id="app_name">%1$s</xliff:g> Group. (from <xliff:g example="APKPure" id="social_network_name">%2$s</xliff:g>) <xliff:g example="https://apkpure.com/p/com.apkpure.aegon" id="app_url">%3$s</xliff:g> </string>
 
-    <string name="data_saver_model_summery">이 기능을 설정하면 이미지 크기와 품질이 저하되어 셀룰러 데이터를 덜 사용할 수 있습니다.</string>
+    <string name="data_saver_model_summery">이 기능을 켜면 이미지 크기와 품질이 떨어지므로 셀룰러 데이터를 줄이는 데 도움이됩니다.</string>
     <string name="app_detail_customer_reviews">코멘트</string>
     <string name="app_detail_comment_type_web">웹</string>
     <string name="app_submit_title_toast">제목을 쓰셔야 합니다!</string>
@@ -600,4 +586,125 @@ APKPure의 기능을 보장하기 위해，APKPure가 당신의 앱 정리“화
     <string name="full_screen_button">전체 화면 버튼</string>
 
     <string name="main_tab_home">홈</string>
+    <string name="attention_on">팔로잉</string>
+    <string name="attention_off">팔로우</string>
+    <string name="no_attention">팔로잉 그룹이 아직 없습니다.</string>
+    <string name="browsing_history">검색 기록</string>
+    <string name="browsing_history_prompt">검색 기록을 삭제하시겠습니까\?</string>
+
+    <string name="ranking_tab1_title">인기 게임</string>
+    <string name="ranking_tab2_title">인기 새 게임</string>
+    <string name="ranking_tab3_title">인기 앱</string>
+    <string name="ranking_tab4_title">인기 새 앱</string>
+    <string name="ranking_top_develop_title">인기 개발자</string>
+
+    <string name="app_detail_three_fragment_foot">모든 댓글 보기</string>
+    <string name="menu_paste">붙여넣기</string>
+
+    <string name="favorite_title">즐겨찾기</string>
+    <string name="save_as_favorite">즐겨찾기로 저장</string>
+    <string name="favorite_saved">즐겨찾기입니다.</string>
+    <string name="failed_to_save_favorite">즐겨찾기를 저장하지 못했습니다</string>
+    <string name="remove_as_favorite">즐겨찾기로 제거</string>
+    <string name="remove_failed">제거 실패</string>
+
+    <string name="collection_comment">댓글</string>
+    <string name="collection_app">앱</string>
+
+    <string name="open_with_browser">브라우저로 열기</string>
+    <string name="web_view_refresh">새로 고침</string>
+    <string name="web_view_copy">링크 복사</string>
+
+    <string name="topic_switch_failed">테마 변경 실패</string>
+
+    <string name="recommend_title">추천 사항</string>
+    <string name="recommend_tab_game">앱 추천</string>
+    <string name="recommend_tab_list">추천</string>
+    <string name="recommend_installed_list_title">내 앱</string>
+    <string name="recommend_review">미리보기</string>
+    <string name="recommend_replace_img">사진 바꾸기</string>
+    <string name="recommend_app_name">앱 제목</string>
+    <string name="recommend_state_can">추천하기</string>
+    <string name="recommend_state_success">추천</string>
+    <string name="recommend_select_game">앱 추천</string>
+    <string name="recommend_comment">보내기</string>
+    <string name="recommend_comment_error">오류가 발생했습니다!</string>
+    <string name="recommend_description_title">지침:</string>
+    <string name="recommend_user_recommend">%1$s님 추천</string>
+    <string name="recommend_required">*</string>
+    <string name="recommend_not_found">색인 생성되지 않음</string>
+    <string name="user_detail_focus">팔로잉</string>
+    <string name="user_detail_fans">팔로워</string>
+    <string name="user_detail_praise">좋아요</string>
+
+    <string name="user_detail_tab_detail">댓글</string>
+    <string name="user_detail_tab_reply">코멘트</string>
+
+    <string name="user_focus_tab_users">사람</string>
+    <string name="user_focus_tab_apps">그룹</string>
+    <string name="error_add_tag">태그 추가 실패</string>
+    <string name="no_collect">아직 즐겨찾기는 없습니다!</string>
+    <string name="filter_no_comment">Ooops!그런 내용이 없습니다 !!</string>
+
+    <string name="share_apk">APK 공유</string>
+    <string name="tab_apk">APK</string>
+    <string name="commentaries">이야기</string>
+    <string name="follow_floating_action_button">새로운 모멘트를 만들기</string>
+
+    <string name="upload_apk_version">V %1$s</string>
+    <string name="upload_apk_downloads">다운로드: %1$s</string>
+
+    <string name="upload_comment_uploading">%1$s 업로드 중…</string>
+    <string name="upload_comment_upload_success">%1$s 업로드 성공</string>
+    <string name="upload_comment_upload_failed">%1$s 업로드 실패</string>
+    <string name="upload_comment_reload">다시 업로드하려면 누르십시오</string>
+    <string name="upload_notification_pause">중지</string>
+    <string name="upload_notification_start">시작</string>
+    <string name="upload_notification_cancel">취소</string>
+    <string name="upload_notification_is_uploading">APKPure로 패키지를 업로드 중…</string>
+    <string name="upload_notification_is_pause">업로드가 일시 중지됨</string>
+    <string name="upload_add_list_toast">성공!</string>
+    <string name="upload_add_file_list_toast">앱 업로드 중입니다. 조금만 기다려 주세요, 고마워요!</string>
+
+    <string name="your_reply_comment">답장</string>
+
+    <string name="market_ad_title">시장</string>
+    <string name="market_ad_tab_two">게임</string>
+    <string name="market_ad_tab_three">工具</string>
+
+    <string name="tag">태그</string>
+
+    <string name="search_tab_name_one">앱</string>
+    <string name="search_tab_name_two">사용자</string>
+    <string name="pre_register_ok">OK</string>
+    <string name="pre_register_bt">사전 등록</string>
+    <string name="pre_register_now_bt">사전 등록</string>
+    <string name="pre_register_link_title">사전 등록 페이지</string>
+    <string name="pre_register_gift_tv">보상 등록</string>
+    <string name="pre_register_person_num_tv">사전 등록자: %1$s</string>
+    <string name="pre_register_success">사전 등록은 앱이 출시될 때 장치에 대한 알림을 받는 것을 의미합니다.</string>
+
+    <string name="open_page_failed">페이지를 열지 못했습니다!</string>
+    <string name="search_for_user">검색</string>
+    <string name="search_user_history_title">최근 연락처</string>
+    <string name="copy_username">닉네임 복사</string>
+    <string name="copy_content">내용 복사</string>
+
+    <string name="tab_global">기능</string>
+    <string name="comment_list_see_here">지난번에 여기에 도착했습니다. 새로 고침하려면 누르십시오.</string>
+    <string name="comment_list_new_num">%d 새 헤드라인</string>
+
+    <string name="tab_popular">인기 있음</string>
+    <string name="count_down_timer_btn">건너뛰기</string>
+
+    <string name="save_tag_hint_msg">변경 사항은 저장되지 않습니다. 종료 하시겠습니까\?</string>
+    <string name="app_rating">등급:</string>
+    <string name="number">\"</string>
+    <string name="headline_footer_refresh">새로 고침하려면 아래로 당기거나 이 줄을 누르십시오.</string>
+
+    <string name="download_install_obb">OBB 설치</string>
+    <string name="download_install_apk">APK 설치</string>
+
+    <string name="users_recommended_title">축하해요!</string>
+    <string name="recommended_posts_title">축하해요!</string>
     </resources>
