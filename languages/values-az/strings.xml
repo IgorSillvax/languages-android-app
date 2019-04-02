@@ -291,7 +291,7 @@ Yuxarıdaki funksiyalar Android 4.1+ versiyada dəstəklənməktədir, root ehti
     <string name="app_submit_nickname">Ləqəb</string>
     <string name="app_submit_email">E-mail</string>
     <string name="app_submit_submit_title">Göndər</string>
-    <string name="app_submit_reply_to">cavab</string>
+    <string name="app_submit_reply_to">Cavab vermək</string>
     <string name="app_detail_reply_comment">Şərh(%d)</string>
     <string name="app_detail_tab_one">Ətraflı</string>
     <string name="app_detail_tab_two">Qrup</string>
@@ -408,7 +408,7 @@ Yuxarıdaki funksiyalar Android 4.1+ versiyada dəstəklənməktədir, root ehti
     <string name="app_detail_comment_order_array_new">Yeni</string>
     <string name="save_original_image">Yadda saxla</string>
     <string name="check_update_replace">Rəsmi versiya</string>
-    <string name="upload_add_list_toast">Şərhiniz sıraya daxildir!</string>
+    <string name="upload_add_list_toast">Uğurlu!</string>
 <string name="load_failed_error_not_found">Proqram APKPure də mövcud deyil.</string>
     <string name="check_update_beta">Ön-Buraxılış Beta</string>
     <string name="beta">"Beta "</string>
@@ -663,4 +663,212 @@ Yuxarıdaki funksiyalar Android 4.1+ versiyada dəstəklənməktədir, root ehti
     <string name="app_detail_has_ad">Reklam var</string>
     <string name="app_detail_no_ad">Reklam yoxdu</string>
 
-    </resources>
+    <string name="user_focus_title">%1$s tərəfindən izlənildi</string>
+
+    <string name="app_detail_has_product">Məhsulları alın</string>
+    <string name="app_detail_no_product">Satın alma məhsulu yoxdur</string>
+    <string name="tag_list">Etiket siyahısı</string>
+    <string name="hot_tag">Populyar etiketlər</string>
+    <string name="hot_tag_explain">Bu tətbiq üçün mövcud etiketləri əlavə edin və ya səs verin</string>
+    <string name="common_use">Etiketlərim</string>
+    <string name="app_add_tag_hint_caution">Hər bir tətbiq üçün% 1 $ s-dən daha çox etiket yoxdur</string>
+    <string name="app_add_tag">Yeni etiket əlavə edin</string>
+    <string name="toast_app_tag_exist">Etiket artıq mövcuddur!</string>
+    <string name="there_is_no_label">Etiket yoxdur</string>
+    <string name="add">Əlavə et</string>
+    <string name="colon">:</string>
+
+    <string name="pack_up">Çökmək</string>
+    <string name="Istop">Sabitləndi</string>
+    <string name="add_tag">Etiket əlavə et</string>
+    <string name="error_add_tag">Etiket əlavə edilmədi</string>
+    <string name="no_collect">Heç bir seçilmiş yoxdur!</string>
+    <string name="no_comment">İlk yazını siz paylaşın!</string>
+    <string name="filter_no_comment">Ooops! Belə bir məzmun yoxdur!</string>
+
+    <string name="share_apk">APK\'nı Paylaş</string>
+    <string name="tab_apk">APK</string>
+    <string name="commentaries">Hekayə</string>
+    <string name="follow_floating_action_button">Yeni anı yaradın</string>
+
+    <string name="upload_apk_version">Versiya %1$s</string>
+    <string name="upload_apk_downloads">Endirmələr %1$s</string>
+
+    <string name="upload_comment_uploading">%1$s Yüklənir…</string>
+    <string name="upload_comment_upload_success">%1$s Yükləmə uğurlu</string>
+    <string name="upload_comment_upload_failed">%1$s Yükləmə uğursuz</string>
+    <string name="upload_comment_view">Baxmaq üçün toxunun</string>
+    <string name="upload_comment_reload">Təkrar yükləmək üçün toxunun</string>
+    <string name="upload_notification_pause">Fasilə ver</string>
+    <string name="upload_notification_start">Başlat</string>
+    <string name="upload_notification_cancel">Ləğv etmək</string>
+    <string name="upload_notification_is_uploading">Paket APKPure\'a yüklənir…</string>
+    <string name="upload_notification_is_pause">Yükləməyə fasilə verildi</string>
+    <string name="upload_add_file_list_toast">Tətbiq yüklənir. Zəhmət olmasa səbrli olun, Təşəkkürlər!</string>
+
+    <string name="your_reply_comment">Cavabınız</string>
+
+    <string name="market_ad_title">Mağaza</string>
+    <string name="market_ad_tab_one">Təklif edilənlər</string>
+    <string name="market_ad_tab_two">Oyunlar</string>
+    <string name="market_ad_tab_three">Alətlər</string>
+
+    <string name="tag">Etiket</string>
+
+    <string name="search_tab_name_one">Tətbiqlər</string>
+    <string name="search_tab_name_two">İstifadəçi</string>
+    <string name="pre_register_ok">Tamam</string>
+    <string name="pre_register_bt">Ön Qeydiyyat</string>
+    <string name="pre_register_now_bt">Ön Qeydiyyat</string>
+    <string name="pre_registered_bt">Qeydiyyatdan keçdi</string>
+    <string name="pre_register_link_title">Ön Qeydiyyat Səhifəsi</string>
+    <string name="pre_register_gift_tv">Qeydiyyat Mükafatları</string>
+    <string name="pre_register_person_num_tv">Qeydiyyatdan keçənlər: %1$s</string>
+    <string name="pre_register_success">Əvvəlcədən qeydiyyatdan keçmək,tətbiq paylaşılarkən cihazınıza bildiriş gələcək deməkdir.</string>
+
+    <string name="open_page_failed">Səhifə yükləmə uğursuz oldu!</string>
+    <string name="search_for_user">Axtar</string>
+    <string name="search_user_history_title">Ən son əlaqə qurulanlar</string>
+    <string name="search_focus_list_title">İzlənildi</string>
+
+    <string name="copy_username">Nick\'i Kopyala</string>
+    <string name="copy_content">Məzmunu kopyala</string>
+
+    <string name="tab_global">Təklif edilənlər</string>
+    <string name="comment_list_see_here">Son dəfə burada oldunuz. Yeniləmək üçün toxunun.</string>
+    <string name="comment_list_new_num">$d Yeni başlıqlar</string>
+
+    <string name="tab_popular">Populyar</string>
+    <string name="count_down_timer_tv">%ds</string>
+    <string name="count_down_timer_btn">Keç</string>
+
+    <string name="choice_evaluate">Önə çıxan baxışlar</string>
+    <string name="choice_comment">Təklif olunan yazılar</string>
+    <string name="emoji_input_error_hint">Emoji şərhlərinə bir daha icazə verilmir! Bir şey yaz…</string>
+    <string name="load_all_choice_evaluate">Bütün baxışları göstər</string>
+    <string name="load_all_choice_comment">Bütün yazıları göstər</string>
+    <string name="my_reservation_and_collection">Ön qeydiyyat və seçilmişlər</string>
+    <string name="upload_apk">APK Yüklə</string>
+    <string name="developer_badge_explanation">İnkişaf etdirən rozeti açıqlaması</string>
+
+    <string name="from_user_recommendation">İstifadəçilərin tövsiyələri</string>
+    <string name="topics">Mövzu</string>
+    <string name="pre_register_game">Ön qeydiyyat</string>
+    <string name="editors_picks">Redaktor seçimi</string>
+    <string name="recommend_game">Oyun tövsiyəsi</string>
+
+    <string name="bing_share_account">Üçüncü tərəf hesablarına qoşulun</string>
+    <string name="un_bind">Bağlantı yoxdur</string>
+    <string name="login_out_message_hint">Çıxış etmək istədiyinizə əminsiniz\?</string>
+    <string name="bind_email_title">E-poçtunuzu qoşun</string>
+    <string name="bind_email_tv">E-poçt girişinin, parol bərpasının, mesaj göndərmənin və daha çox faydaların kilidini açmaq üçün e-poçt ünvanınızı hesabınıza qoşun.</string>
+    <string name="verification_code_tv">E-poçt ünvanınıza doğrulama kodu göndərildi%1$s</string>
+    <string name="verification_code_second_tv">Yenidən göndərin %d s</string>
+    <string name="verification_code_resend_tv">Doğrulama kodunu yenidən göndər</string>
+    <string name="send_verification_code_resend_tv">Doğrulama kodunu göndər</string>
+    <string name="bind_email_success">Bağlantı uğurlu oldu.</string>
+    <string name="update_email_tv">E-poçt ünvanınızı yeniləmək üçün yenidən doğrularyın</string>
+    <string name="verification_code_tv_hint">Doğrulama kodu</string>
+    <string name="verification_success_code_toast">Doğrulama kodu göndərildi.</string>
+    <string name="verification_null_code_toast">Xahiş edirik aldığınız doğrulama kodunu daxil edin.</string>
+    <string name="unbind_email">Bağlantı yoxdur</string>
+    <string name="unbind_email_hint">Hesabınıza heç bir e-poçt ünvanı qoşulmamışdır.</string>
+    <string name="menu_skip">Keç</string>
+
+    <string name="forget_password_tv">Şifrəni unutmusunuz\?</string>
+    <string name="recover_password_title">Parolun yenilənməsi</string>
+    <string name="email_address_hint_et">E-poçtunuzu daxil edin.</string>
+
+    <string name="shop">Mağaza</string>
+    <string name="setting_region">Bölgə</string>
+    <string name="submit_add_title_image_tv">Örtük əlavə et</string>
+    <string name="submit_add_title_image_error_toast">Bu şəkil müvəqqəti olaraq dəstəklənməməlidir. Xahiş edirik başqa birini seçin.</string>
+    <string name="comment_hint_tv">Bir şey paylaşmaq\?</string>
+    <string name="msg_all_read">Hamısını oxunmuş olaraq işarələ</string>
+    <string name="msg_all_read_notice">Xəbərdarlıq</string>
+    <string name="msg_all_read_msg">Hamısını oxundu olaraq işarələmək istədiyinizə əminsiniz\?</string>
+    <string name="user_recommend_tip">Istifadəçi tövsiyələri</string>
+    <string name="comments">Şərhlər</string>
+    <string name="subject_comment">Etiketlər</string>
+    <string name="new_subject_comment">Yeni etiket</string>
+    <string name="evaluating">İncələmələr</string>
+    <string name="image_text">Hekayə</string>
+    <string name="trends">Paylaşım</string>
+    <string name="error_hot_data_empty">Trend etiket yoxdur!</string>
+    <string name="hot_subject">Trend etiketlər</string>
+    <string name="menu_follow_subject">İzlənilən etiketlər</string>
+    <string name="menu_follow_subject_tab">Etiket</string>
+    <string name="me_follow">İzlədiklərim</string>
+    <string name="release_dynamics">Post anı</string>
+    <string name="delete_success">Uğurlu</string>
+    <string name="hot">Trend</string>
+    <string name="look_links">Linkə baxın</string>
+
+    <string name="headline_no_data_tv">Yeni məzmun yoxdur</string>
+    <string name="hint">Qeyd</string>
+    <string name="no_save_comment_hint">Paylaşılmayan məzmunlar var, çıxmaq istədiyinizə əminsinizmi\?</string>
+    <string name="look_all">Daha çox göstər</string>
+    <string name="history_hastag">Etiket tarixçəsi</string>
+    <string name="share_image_failed">Şəkil paylaşmaq uğursuz oldu!</string>
+    <string name="select_image_overflow_hint">\@string/picture_message_max_num.</string>
+
+    <string name="share_select_image_overflow_hint">Ən çox 9 şəkil paylaşa bilərsiniz.</string>
+    <string name="search_or_create">Axtar və ya yarat</string>
+
+    <string name="privacy_setting_title">Gizlilik Ayarları</string>
+    <string name="privacy_setting_account">Gizli Hesab</string>
+    <string name="privacy_setting_account_des">Hesabınızın şəxsi olaraq təyin olunduğu təqdirdə şəxsi ana səhifəniz başqaları tərəfindən görünməyəcək.</string>
+    <string name="privacy_setting_account_del">Hesabınızı və məlumatınızı silin</string>
+    <string name="privacy_setting_account_privacy">Bu hesab gizlidir.</string>
+    <string name="del_account_email_notify_tv">Xahiş edirik bildirişimizi almaq üçün etibarlı bir e-poçt ünvanı verin.</string>
+    <string name="del_account_email_reason_tv">Niyə bu hesabı silmək istəyirsiniz\?</string>
+    <string name="del_account_bt">Göndər</string>
+    <string name="del_account_reason_hint">Niyə bu hesabı silmək istəyirsiniz\?</string>
+    <string name="del_account_sure">Hesabınız ən çox 48 saat ərzində silinəcəkdir. Əlavə suallarınız varsa, bizə müraciət edin.</string>
+    <string name="reply_to">Cavabla %1$s:</string>
+    <string name="share_app_url_comment_v3">Share <xliff:g example="zhangsan" id="name">%1$s</xliff:g>\'s <xliff:g example="post/story/review" id="type">%2$s</xliff:g> (From APKPure):<xliff:g example="https://apkpure.com" id="url">%3$s </xliff:g></string>
+    <string name="apk_unable_upload">APK yükləməyə başlamadı.</string>
+    <string name="long_image">Uzun şəkil</string>
+    <string name="edit_tag">Etiketi düzəlt</string>
+    <string name="save_tag_hint_msg">Dəyişiklik saxlanılmayacaq. Çıxışınıza əminsinizmi\?</string>
+    <string name="un_follow_xx">UnFollow <xliff:g example="Apkpure" id="name">%1$s</xliff:g></string>
+    <string name="follow_xx">İzlə <xliff:g example="Apkpure" id="name">%1$s</xliff:g></string>
+    <string name="app_rating">Reytinq:</string>
+    <string name="number">\"</string>
+    <string name="headline_footer_refresh">Yeniləmək üçün aşağı çəkin və ya bu xəttə vurun.</string>
+
+    <string name="download_install_obb">OBB\'u quraşdır</string>
+    <string name="download_install_apk">APK\'nı quraşdır</string>
+
+    <string name="users_recommended_title">Təbriklər!</string>
+    <string name="users_recommended_des">Baxışınız istifadəçinin tövsiyəsi kimi seçildi,%1$s</string>
+    <string name="recommended_posts_title">Təbriklər!</string>
+    <string name="recommended_posts_des">Baxışınız istifadəçinin tövsiyəsi kimi seçildi,%1$s</string>
+    <string name="comment_removed_title">Postunuz silindi</string>
+    <string name="comment_removed_des">Göründüyü kimi postunuz izlənmir %1$s. APKPure-də hər hansı bir fərd fərdi şəxslərə və ya hər kəsə təzyiq göstərməsinə icazə vermirik. Bu, qeyri-adekvat şəkillər, fiziki zorakılığın fotoşəkilləri və videoları və ya müəyyən bir insanı alçaltmaq və ya utandırmaq üçün nəzərdə tutulan başqa bir yazı ola bilər.
+\n%2$s
+\nBunun səhv olduğunu düşünürsünüzsə %3$s edin.</string>
+    <string name="temporarily_blocked_title">Postu müvəqqəti olaraq blok etdiniz</string>
+    <string name="temporarily_blocked_des">Bu müvəqqəti blok,%1$s gün davam edəcək və başa çatana qədər APKPure-də paylaşım edə bilməyəcəksiniz. Yenidən%2$s əleyhinə olan bir şey göndərirsinizsə, hesabınız 30 gün ərzində bloklanacaq. Xatırlayın ki, APKPure-də icazə verilməyən şeyləri dəfələrlə göndərən insanlar hesablarını daimi olaraq itirə bilərlər.
+\nBunun səhv olduğunu düşünürsünüzsə,%3$s edin.</string>
+    <string name="pre_register_title">%1$s üçün buraxılmışdır %2$s!</string>
+    <string name="pre_register_des">"Əvvəlcədən qeydiyyatdan keçmiş oyun %1$s   %2$s yükləmək üçün mövcuddur.%3$s"</string>
+    <string name="report_callback_title">Bildirdiyiniz postu sildik!</string>
+    <string name="report_callback_des">Zorakılıq üçün bildirdiyiniz postu nəzərdən keçirdik. %1$s kodunu pozduğundan, onu sildik. Bildirdiyiniz üçün təşəkkür edirik. Biz%2$s postun silindiyini bilirik, lakin kimin bildirdiyini bildirmirik.</string>
+
+    <string name="tap_to_view">Baxmaq üçün toxun</string>
+    <string name="let_us_know">Bizə bildirin</string>
+    <string name="community_guide_lines">İcma Təlimatları</string>
+
+    <string name="my_draft">Mənim layihəm</string>
+    <string name="clear_empty">Hamısını sil</string>
+    <string name="several_draft"><xliff:g example="5" id="count">%1$s</xliff:g> drafts</string>
+    <string name="delete_all_draft_hint">Layihə qutusunu boşaltmaq istərdinizmi\?</string>
+    <string name="edit_draft">Layihəni redəktə et</string>
+    <string name="delete_draft">Layihəni sil</string>
+    <string name="empty_draft_info">Məzmun yoxdur …</string>
+    <string name="is_save_comment_draft">Layihə olaraq saxlanılsınmı\?</string>
+    <string name="upload_video">Video yükləmə</string>
+    <string name="saved_draft">Layihə olaraq saxlanıldı</string>
+
+</resources>
