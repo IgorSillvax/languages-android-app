@@ -166,8 +166,8 @@
 
     <string name="update_all">전체 업데이트</string>
     <string name="update___count__">업데이트 (<xliff:g id="count" example="3">%1$d</xliff:g>)</string>
-    <string name="ignore">목록에서 무시하십시오</string>
-    <string name="unignore">무시하지 마시오</string>
+    <string name="ignore">목록에서 무시하기</string>
+    <string name="unignore">무시 취소</string>
     <string name="select">선택</string>
     <string name="cancel">취소</string>
     <string name="ignored">무시됨</string>
@@ -194,7 +194,7 @@
 
     <string name="contact_us__">연락처…</string>
     <string name="contact_us">연락처</string>
-    <string name="report_content">보고서 내용</string>
+    <string name="report_content">콘텐츠 신고</string>
 
     <string name="select_all">전체 선택</string>
     <string name="deselect_all">모두 선택 취소</string>
@@ -205,7 +205,7 @@
     <string name="_name__installation_completed"><xliff:g id="name" example="APKPure">%1$s</xliff:g>설치 완료</string>
     <string name="touch_to_open">누르면 열립니다.</string>
 
-    <string name="flag_as_inappropriate">부적절한 것으로 표기</string>
+    <string name="flag_as_inappropriate">부적절한 콘텐츠 신고</string>
 <string name="installed">설치됨</string>
     <string name="participate_ultra_download_beta_test_title">울트라 다운로드를 사용하고 더 빠른 다운로드 속도를 즐기세요</string>
     <string name="enable">활성화</string>
@@ -247,7 +247,7 @@
     <string name="download_over_cellular_content">모바일 네트워크를 통해 다운로드하려고 합니다. 계속하시겠습니까\?</string>
 
     <string name="download_over_cellular">셀룰러로 다운로드</string>
-    <string name="similar_or_related">유사하거나 관련된 제품</string>
+    <string name="similar_or_related">관련 추천</string>
     <string name="report">신고하기</string>
     <plurals name="app_detail_see_all_replies">
 	<item quantity="other">모든 <xliff:g example="2" id="count">%$d</xliff:g> 답장을 보기</item>
@@ -389,12 +389,12 @@
 
     <string name="message_all">모든</string>
     <string name="message_reply">답글</string>
-    <string name="message_notifications_praise">귀하의 의견이 업데이트 되었습니다</string>
+    <string name="message_notifications_praise">모멘트에 \'좋아요\'를 눌렀어요</string>
     <string name="message_praise">좋아요</string>
     <string name="message_notify">알림</string>
-    <string name="message_notifications_reply">코멘트 답하기</string>
+    <string name="message_notifications_reply">코멘트 답장</string>
     <string name="message_notifications_login">이 페이지를 보려면 로그인하십시오.</string>
-    <string name="message_at_title">언급</string>
+    <string name="message_at_title">멘션</string>
     <string name="message_at">너의 언급</string>
 
     <string name="update_pwd_title">비밀번호 재설정</string>
@@ -452,7 +452,7 @@
     <string name="message">메시지</string>
 
     <string name="push_title_info_reply">%1$s 이 (가) 귀하의 댓글을 답장했습니다!</string>
-    <string name="push_title_info_upvoted">%1가 귀하의 댓글을 추천했습니다!</string>
+    <string name="push_title_info_upvoted">%1$s 이 (가) 귀하의 댓글을 추천했습니다!</string>
     <string name="push_title_info_follow">%1$s 이 (가) 당신을 팔로우했습니다!</string>
     <string name="push_title_info_update">APKPure 업데이트 도착!</string>
     <string name="push_content_info_update">새로운 버전 %1$ 이(가) 출시되었습니다! 지금 업데이트하세요!</string>
@@ -470,8 +470,8 @@
     <string name="notification_setting">알림</string>
     <string name="reply_notification">답글 알림</string>
     <string name="reply_notification_msg">답장 메시지에 대한 알림 받기</string>
-    <string name="like_notification">알림 찬성</string>
-    <string name="like_notification_msg">새 업그레이드 메시지에 대한 알림 수신</string>
+    <string name="like_notification">좋아요 누르기 알림</string>
+    <string name="like_notification_msg">좋아요에 대한 알림 수신</string>
     <string name="gif_tip">gif</string>
     <string name="ad_tip">광고</string>
     <string name="submit_comment_title_hint">제목</string>
@@ -691,7 +691,7 @@
     <string name="copy_username">닉네임 복사</string>
     <string name="copy_content">내용 복사</string>
 
-    <string name="tab_global"></string>
+    <string name="tab_global"/>
     <string name="comment_list_see_here">지난번에 여기에 도착했습니다. 새로 고침하려면 누르십시오.</string>
     <string name="comment_list_new_num">%d 새로운 헤드라인</string>
 
@@ -708,7 +708,7 @@
 
     <string name="users_recommended_title">축하해요!</string>
     <string name="recommended_posts_title">축하해요!</string>
-    <string name="comment_item_fold">댓글이 붕괴되었습니다.</string>
+    <string name="comment_item_fold">댓글이 붕괴되었습니다</string>
 
     <plurals name="comment_reply_item_fold">
 	<item quantity="other"><xliff:g example="2" id="count"> %1$d</xliff:g> 답장 접힘</item>
@@ -716,7 +716,7 @@
 
     <string name="main_tab_ranking">순위</string>
     <string name="tab_group">그룹</string>
-    <string name="main_tab_my">나</string>
+    <string name="main_tab_my">ME</string>
 
     <string name="main_comment">댓글</string>
     <string name="main_won_praise">좋아요</string>
@@ -744,7 +744,7 @@
     <string name="topic_purple_black">쿨 그레이</string>
     <string name="topic_purple_yellow">살구 오렌지</string>
     <string name="topic_purple_blue_gary">에어포스 블루</string>
-    <string name="recommend_write_des">서술</string>
+    <string name="recommend_write_des">설명</string>
     <string name="recommend_write_des_hint">귀하와 같은 관심사를 가진 많은 사용자가 유용한 리뷰를 볼 수 있습니다.</string>
     <string name="recommend_description">1. 승인된 권장 사항은 DISCOVER 섹션 아래에 나열됩니다.
 \n2. Android 기기에 현재 설치된 앱만 추천할 수 있습니다.
@@ -829,4 +829,8 @@
     <string name="empty_draft_info">콘텐츠 없음 …</string>
     <string name="is_save_comment_draft">임시 보관함으로 저장할까요\?</string>
     <string name="upload_video">동영상 업로드</string>
+    <string name="main_good_comments">나의 \'좋아요\'</string>
+    <string name="recommend_user_recommend_sys">시스템 추천</string>
+
+    <string name="long_image">이 단어를 찾을 수 없습니다</string>
     </resources>
