@@ -79,7 +79,7 @@
 
     <string name="market_response_error_success">成功しました。</string>
     <string name="market_response_error_invalid_result">無効な結果です。</string>
-    <string name="market_response_error_network_connect_error">インターネット接続エラーです。</string>
+    <string name="market_response_error_network_connect_error">ネットワーク接続エラー。</string>
     <string name="market_response_error_network_read_error">読み込みエラーです。</string>
     <string name="market_response_error_invalid_response_code">レスポンスのコードが無効です。</string>
     <string name="market_response_error_invalid_response_body">レスポンスの内容が無効です。</string>
@@ -189,7 +189,7 @@
     <string name="clear_search_history">すべての履歴を削除する</string>
 
     <string name="update_all">すべてアップデート</string>
-    <string name="ignore">無視</string>
+    <string name="ignore">リストから無視する</string>
     <string name="unignore">無視を解除</string>
     <string name="select">選択</string>
     <string name="cancel">キャンセル</string>
@@ -285,10 +285,10 @@
     <string name="app_submit_nickname">ニックネーム</string>
     <string name="app_submit_email">電子メール</string>
     <string name="app_submit_submit_title">送信</string>
-    <string name="app_submit_reply_to">返信</string>
+    <string name="app_submit_reply_to">に返信</string>
 
     <string name="app_detail_tab_one">詳細</string>
-    <string name="app_detail_tab_two">投稿</string>
+    <string name="app_detail_tab_two">グループ</string>
     <string name="app_detail_tab_three">関連</string>
 
     <string name="app_detail_comment_order_array_default">デフォルトの並び順</string>
@@ -317,7 +317,7 @@
     <string name="download_complete_installation_setting_entries_never">インストールしない</string>
 
     <string name="reply_dialog_marked_words">選択した画像を長押しして削除します。</string>
-    <string name="load_failed_click_retry">ロード失敗、再試行をタップ</string>
+    <string name="load_failed_click_retry">問題が発生したため、再試行してください</string>
     <string name="scan_qr_code_hint">QRコードをスキャンする前に、カメラ権限を有効にする必要があります。</string>
     <string name="zxing_msg_default_status">QRコードをファインダーの中央に配置してスキャンしてください。</string>
     <string name="zxing_msg_parser_status">スキャンに失敗しました。再度QRコードをスキャンしてみてください。</string>
@@ -359,7 +359,7 @@
     <string name="update_eamil_name_tv">メールアドレスを空白にすることはできません</string>
     <string name="update_nickname_error">このニックネームはすでに使用されています。別のニックネームを選んでください。</string>
     <string name="message_all">すべて</string>
-    <string name="message_reply">コメント</string>
+    <string name="message_reply">返信</string>
     <string name="message_praise">賛成</string>
     <string name="message_notifications_login">このページを表示するにはログインしてください。</string>
 
@@ -562,7 +562,7 @@
     <string name="recommend_select_game">アプリをオススメする</string>
     <string name="recommend_write_des">記述</string>
 
-    <string name="download_mkdir">ダウンロードディレクトリ</string>
+    <string name="download_mkdir">ダウンロードパス</string>
     <string name="download_mkdir_external_storage_fill_toast">ストレージの容量が不足している場合、アプリをダウンロードできない可能性があります。</string>
 
     <string name="download_mkdir_internal_storage_values">本体ストレージ</string>
@@ -605,7 +605,7 @@
     <string name="scan_qr_code_result_title">結果</string>
     <string name="scan_qr_code_result_copy_text">テキストをコピーする</string>
     <string name="scan_qr_code_result_hint">QRコードの詳細: </string>
-    <string name="scan_qr_code_copy_success">テキストをコピーしました</string>
+    <string name="scan_qr_code_copy_success">テキストがコピーされました</string>
 
     <string name="user_info_edit_large_photo">写真をもっと大きなサイズで見る</string>
 
@@ -630,7 +630,7 @@
     <string name="there_is_no_label">タグはありません。</string>
     <string name="add">追加</string>
 
-    <string name="load_failed_error_not_found">APKPureアプリストアに登録されていないアプリ！</string>
+    <string name="load_failed_error_not_found">アプリはAPKPureアプリストアに登録されていません。</string>
     <string name="beta">ベータ版</string>
     <string name="user_info_edit_intro_tv">私について</string>
     <string name="update_intro_title">私について編集する</string>
