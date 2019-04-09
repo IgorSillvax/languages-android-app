@@ -239,7 +239,7 @@
     <string name="data_saver_model">省流量模式</string>
     <string name="data_saver_model_summery">开启后会降低展示图片大小和清晰度</string>
     <string name="download_via_wifi_only">只通过 Wi-Fi 下载</string>
-    <string name="enable_ultra_download">启用超级下载</string>
+    <string name="enable_ultra_download">启用超下载</string>
     <string name="enable_ultra_download_summary">超级下载目前还是测试版本，如果在使用中发现问题请告诉我们。</string>
     <string name="installation">安装</string>
     <string name="show_notification_after_installation">安装完成后显示通知</string>
@@ -278,7 +278,7 @@
 
     <string name="app_detail_customer_reviews">评论</string>
     <string name="app_detail_comment_type_web">网站</string>
-    <string name="app_submit_submit">提交中。。。</string>
+    <string name="app_submit_submit">提交中…</string>
     <string name="app_submit_anonymous_comment">添加评论</string>
     <string name="app_submit_title_toast">请填写标题!</string>
     <string name="app_submit_msg_toast">你必须写点什么!</string>
@@ -800,15 +800,15 @@
     <string name="del_account_reason_hint">您为什么要删除账户？</string>
     <string name="del_account_sure">您的账号与信息将于48小时内删除，删除成功后您将收到通知邮件，如有其他问题请联系客服。</string>
     <string name="reply_to">回复 %1$s:</string>
-    <string name="share_app_url_comment_v3">分享&#160;<xliff:g example="zhangsan" id="name">%1$s</xliff:g>的<xliff:g example="post/story/review" id="type">%2$s</xliff:g>(来自&#160;APKPure):<xliff:g example="https://apkpure.com" id="url">%3$s&#160;</xliff:g></string>
+    <string name="share_app_url_comment_v3">分享 <xliff:g example="zhangsan" id="name">%1$s</xliff:g>的<xliff:g example="post/story/review" id="type">%2$s</xliff:g>(来自 APKPure):<xliff:g example="https://apkpure.com" id="url">%3$s </xliff:g></string>
     <string name="apk_unable_upload">Apk无法上传!</string>
     <string name="long_image">长图</string>
     <string name="edit_tag">编辑标签</string>
     <string name="save_tag_hint_msg">还有未保存的标签，确定退出？</string>
     <string name="app_rating">分级：</string>
     <string name="number">、</string>
-    <string name="un_follow_xx">取消关注&#160;<xliff:g example="Apkpure" id="name">%1$s</xliff:g></string>
-    <string name="follow_xx">关注&#160;<xliff:g example="Apkpure" id="name">%1$s</xliff:g></string>
+    <string name="un_follow_xx">取消关注 <xliff:g example="Apkpure" id="name">%1$s</xliff:g></string>
+    <string name="follow_xx">关注 <xliff:g example="Apkpure" id="name">%1$s</xliff:g></string>
     <string name="headline_footer_refresh">下拉或点击刷新</string>
 
     <string name="download_install_obb">安装OBB</string>
@@ -849,7 +849,7 @@
     <string name="is_save_comment_draft">是否保存为草稿?</string>
     <string name="upload_video">上传视频</string>
     <string name="saved_draft">已保存草稿</string>
-</resources>
+<string name="download_mkdir_internal_storage_values">内部存储器</string>
+    <string name="download_mkdir_external_storage_values">外部存储器</string>
 
-
-
+    </resources>
