@@ -90,7 +90,7 @@
 
     <string name="market_response_error_success">সফল।</string>
     <string name="market_response_error_invalid_result">ভুল ফলাফল।</string>
-    <string name="market_response_error_network_connect_error">ইন্টারনেটে কানেক্টে অসক্ষম।</string>
+    <string name="market_response_error_network_connect_error">ইন্টারনেটে কানেক্টে অক্ষম।</string>
     <string name="market_response_error_network_read_error">নেটওয়ার্ক রিড করতে ব্যার্থ।</string>
     <string name="market_response_error_invalid_response_code">ভুল রেসপন্স কোড।</string>
     <string name="market_response_error_invalid_response_body">ভুল রেসপন্স বডি।</string>
@@ -113,19 +113,19 @@
 	<item quantity="other"><xliff:g example="2" id="count">%1$d</xliff:g> বিষয়গুলো ডাউনলোড হচ্ছে</item>
 </plurals>
     <string name="downloads_complete">ডাউনলোড সম্পূণ হয়েছে</string>
-    <string name="touch_for_view_all_downloads">টাচ করে সকল ডাউনলোড দেখুন</string>
-    <string name="_name__download_failed"><xliff:g example="APKPure" id="name">%1$s</xliff:g> ডাউনলোড সফল হয়নি</string>
+    <string name="touch_for_view_all_downloads">সকল ডাউনলোড দেখতে টাচ করুন</string>
+    <string name="_name__download_failed"><xliff:g example="APKPure" id="name">%1$s</xliff:g> ব্যর্থ ডাউনলোড</string>
     <string name="touch_to_download_it_again">এটাকে আবার ডাউনলোড করতে আবার টাচ করুন</string>
 
     <string name="download_percent"><xliff:g example="৫০" id="পারসেন্ট">%1$d</xliff:g> ℅℅</string>
     <string name="pause">বিরতি</string>
     <string name="pause_all">সবগুলোতে বিরতি দিন</string>
-    <string name="continue_">অবিরত</string>
-    <string name="continue_all">সব অবিরত</string>
+    <string name="continue_">অবিরত রাখুন</string>
+    <string name="continue_all">সবগুলো অবিরত রাখুন</string>
     <string name="restart">পুনরায় চালু</string>
     <string name="download">ডাউনলোড</string>
     <string name="downloading">ডাউনলোডিং</string>
-    <string name="waiting">প্রতীক্ষা করুন</string>
+    <string name="waiting">অপেক্ষমান</string>
     <string name="preparing">তৈরি করা হচ্ছে</string>
     <string name="completed">সম্পন্ন হয়েছে</string>
     <string name="paused">বিরতি দেয়া হয়েছে</string>
@@ -597,5 +597,8 @@ The above mentioned functions support Android 4.1+, no root permission needed. W
     <string name="choose_app">অ্যাপলিকেশন নির্বাচন করুন</string>
     <string name="publish_comment">একটি মন্তব্য করুন</string>
 
-<string name="load_failed_error_not_found">Uygulama APKPure App Store\'da Listelenmemiştir！</string>
+<string name="load_failed_error_not_found">এ্যাপ APKPure এ অন্তর্ভুক্ত করা যাচ্ছে না।</string>
+    <string name="beta">বিটা</string>
+    <string name="history_version">ভার্সনের হিস্টোরি</string>
+
     </resources>
