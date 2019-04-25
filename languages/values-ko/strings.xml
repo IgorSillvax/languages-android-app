@@ -7,7 +7,7 @@
 
     <string name="press_back_key_quit">종료하려면 뒤로 키를 한 번 더 누르십시오.</string>
 
-    <string name="featured">특별한 점</string>
+    <string name="featured">특징</string>
     <string name="games">게임</string>
     <string name="apps">앱</string>
     <string name="categories">카테고리</string>
@@ -93,7 +93,7 @@
 	    <item quantity="other"><xliff:g id="count" example="1">%1$d</xliff:g> 새로운 업데이트를 사용할 수 있습니다</item>
     </plurals>
 
-    <string name="launching_please_wait">시작 중, 잠시 기다려 주십시오…</string>
+    <string name="launching_please_wait">시작 중이므로, 잠시 기다리십시오…</string>
 
     <plurals name="_count__item_is_downloading">
 	    <item quantity="other"><xliff:g id="count" example="1">%1$d</xliff:g> 아이템이 다운로드 중입니다</item>
@@ -126,7 +126,7 @@
     <string name="trending_searches">인기 검색</string>
 
     <string name="improvement_plan_title">실적 개선 계획</string>
-    <string name="improvement_plan_message">Help us with submit Android Device Info, We do <b>not collect</b> 개인정보(이름, 주소, 이메일, 기타 개인 신상정보).</string>
+    <string name="improvement_plan_message">안드로이드 기기 정보를 제출해 apkpure을 도와주세요! 저희는 개인정보(이름, 주소, 이메일, 기타 개인 신상정보)를 수집하지 않습니다.<b>not collect</b> 개인정보(이름, 주소, 이메일, 기타 개인 신상정보).</string>
     <string name="join_us">채용정보</string>
     <string name="skip">건너뛰기</string>
 
@@ -235,7 +235,15 @@
     <string name="auto_service_exchange__material_">바꾸기</string>
     <string name="download_complete_installation_setting">다운로드 후 설치 옵션</string>
     <string name="auto_service_exchange">대신</string>
-    <string name="auto_service_description">“APKPure자동 설치”사용,“자동 설치”편온하게 운행하다 APKPure자동 설치는 앱을 설치하거나 업데이트할 때 모두 설치 버튼을 대신 노를 수 있습니다. 계속 핸드폰 집중 필요없습니다. 이 기능을 사용할 때 당신은 위험 경고를 받겠습니다，“OK”을 노르며 이 기능을 열릴 수 있도록 하세요. APKPure의 기능을 보장하기 위해，APKPure가 당신의 앱 정리“화이트리스트”에 추가하세요. 위에 기능은 안드로이드 4.1+지지，root권한 필요없습니다. 우리가 서비스접근성을 통해 개인정보를 얻지 않습니다. 문제 있으면 어젠든지 연락 주세요.</string>
+    <string name="auto_service_description">APKPure의 자동 설치 기능이 잘 이뤄지도록, APKPure 자동설치를 켜십시오.
+\n
+\nAPKPure 자동 설치로 스마트폰을 일일히 확인할 필요 없이, 앱을 설치하거나 업데이트 할 때 모든 버튼을 누를 수 있게 해줍니다.
+\n
+\n이 기능을 켤 때 시스템 보안 경고가 뜬다면, OK버튼을 눌러 가용화하십시오.
+\n
+\nAPKPure이 잘 작동되도록, APKPure을 클리닝 어플리케이션 중 화이트 리스트에 추가하십시오.
+\n
+\n위 기능은 안드로이드 4.1 플러스, 루팅이 필요없는 기기에 지원됩니다. 우리는 사용자님의 개인정보를 절대 수집하지 않습니다. 문제가 생기면 연락하실 수 있습니다.</string>
 
     <string name="auto_service_dialog_message">자동 설치는 전화로 권한을 부여해야 합니다，사용 모험 없습니다.</string>
 
