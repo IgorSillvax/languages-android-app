@@ -373,7 +373,7 @@
     <string name="update_pwd_new_pwd_null_tv">新しいパスワードを空白にすることはできません</string>
     <string name="update_pwd_new_confrim_tv">入力したパスワードが一致しません</string>
     <string name="update_pwd_save_bt">保存</string>
-    <string name="update_save_success">保存されました！</string>
+    <string name="update_save_success">保存しました。</string>
     <string name="crop__cancel" ignore="ButtonCase">キャンセル</string>
     <string name="crop__done">完了</string>
     <string name="message_notifications_reply">あなたのコメントに返信しました</string>
@@ -421,7 +421,7 @@
     <string name="download_list">ダウンロードリスト</string>
     <string name="can_be_update">更新可能</string>
     <string name="install_list">インストール済み</string>
-    <string name="no_download">ノーダウンロード</string>
+    <string name="no_download">ダウンロードしたアプリはありません。</string>
     <string name="downloads">ダウンロード</string>
 
     <string name="change_language_failed">言語切り替えに失敗しました。</string>
@@ -434,7 +434,7 @@
     <string name="like_notification">通知に賛成する</string>
     <string name="like_notification_msg">新しい賛成の通知を受信する</string>
     <string name="gif_tip">gif</string>
-    <string name="submit_comment_title_hint">件名 (オプション)</string>
+    <string name="submit_comment_title_hint">タイトル</string>
 
     <string name="comment_vote_string">投票する</string>
     <string name="comment_reply_three">返信する</string>
@@ -447,7 +447,7 @@
 
     <string name="comment_no_reply">残念! ここには何もありません。</string>
     <string name="comment_reply_info_name">詳細</string>
-    <string name="set_updates_notification">利用可能なアプリのアップデート</string>
+    <string name="set_updates_notification">利用できるアップデート</string>
     <string name="set_updates_notification_msg">アプリのアップデートがいつ利用可能かを通知します。 推奨設定: オン</string>
     <string name="app_detail_unknow_text">旧バージョンAPKPureは新機能をサポートしていません。最新のものに更新してください。</string>
     <string name="comment_detail_original">元のコメントを表示 &gt;</string>
@@ -462,8 +462,8 @@
     <string name="download_history">ダウンロード履歴</string>
 
     <string name="sub_comment_dialog_title">ビデオを追加する</string>
-    <string name="sub_comment_dialog_des_tv">解析サポートはYouTube URLのみ</string>
-    <string name="sub_comment_dialog_link_et">ここに動画URLアドレスを入力してください</string>
+    <string name="sub_comment_dialog_des_tv">YouTube動画の解析のみをサポートします。</string>
+    <string name="sub_comment_dialog_link_et">ここに動画URLを入力してください。</string>
     <string name="sub_comment_dialog_link_null">動画のURLアドレスが空白にすることはできません</string>
     <string name="sub_comment_progress_msg">動画を追加しています…</string>
 
@@ -507,7 +507,7 @@
     <string name="please_login_first">まずログインしてください</string>
     <string name="no_choice">ノーチョイス</string>
     <string name="follow_on_success">フォローしました。</string>
-    <string name="follow_un_success">フォローを外しました。</string>
+    <string name="follow_un_success">アンフォロー。</string>
     <string name="canceled">キャンセル</string>
     <string name="group">グループ</string>
     <string name="collection">お気に入り</string>
@@ -771,4 +771,29 @@
     <string name="community_guide_lines">Community Guidelines</string>
 
     <string name="my_draft">My Draft</string>
+    <string name="verification_code_tv">確認コードがあなたのメールアドレス%1$sに送信されました</string>
+    <string name="verification_code_second_tv">%d sに再送信します</string>
+    <string name="update_email_tv">再確認してメールアドレスを更新してください</string>
+    <string name="verification_code_tv_hint">検証コード</string>
+    <string name="verification_success_code_toast">検証コードを送信します。</string>
+    <string name="verification_null_code_toast">受け取った検証コードを入力してください。</string>
+    <string name="unbind_email">接続されていません</string>
+    <string name="unbind_email_hint">アカウントにメールアドレスが接続されていません。</string>
+    <string name="menu_skip">スキップ</string>
+
+    <string name="forget_password_tv">パスワードをお忘れですか？</string>
+    <string name="recover_password_title">パスワードの回復</string>
+    <string name="email_address_hint_et">メールアドレスを入力してください。</string>
+
+    <string name="shop">ストア</string>
+    <string name="setting_region">地域</string>
+    <string name="submit_add_title_image_tv">カバーを追加する</string>
+    <string name="submit_add_title_image_error_toast">この画像は一時的にサポートされていない可能性があります。別のものを選択してください。</string>
+    <string name="comment_hint_tv">何かを共有しますか？</string>
+    <string name="msg_all_read">すべて既読にする</string>
+    <string name="msg_all_read_notice">通知</string>
+    <string name="msg_all_read_msg">すべてを既読にしてもよろしいですか？</string>
+    <string name="user_recommend_tip">ユーザーのおすすめ</string>
+    <string name="subject_comment">ハッシュタグ</string>
+    <string name="new_subject_comment">新しいハッシュタグ</string>
     </resources>
