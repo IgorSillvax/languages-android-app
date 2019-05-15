@@ -604,8 +604,8 @@
     <!--ranking_fragment-->
     <string name="ranking_tab1_title">Permainan Teratas</string>
     <string name="ranking_tab2_title">Permainan Baru Teratas</string>
-    <string name="ranking_tab3_title">Apl Teratas</string>
-    <string name="ranking_tab4_title">Apl Baru Teratas</string>
+    <string name="ranking_tab3_title">App Teratas</string>
+    <string name="ranking_tab4_title">App Baru Teratas</string>
     <string name="ranking_top_countries_title">Peringkat Terpisah</string>
     <string name="ranking_top_develop_title">Pengembang Teratas</string>
 
@@ -620,13 +620,13 @@
     <string name="remove_failed">Gagal Memindahkan</string>
 
     <string name="collection_comment">Pos</string>
-    <string name="collection_app">APL</string>
+    <string name="collection_app">APP</string>
 
     <string name="open_with_browser">Buka lewat Peramban</string>
     <string name="web_view_refresh">Segarkan</string>
     <string name="web_view_copy">Salin Tautan</string>
 
-    <string name="topic_red_color">Crimson</string>
+    <string name="topic_red_color">Merah Tua</string>
     <string name="topic_green_color">Hijau Lucky</string>
     <string name="topic_blue_color">Biru Azure</string>
     <string name="topic_purple_color">Violet Gelap</string>
@@ -636,15 +636,15 @@
     <string name="topic_switch_failed">Gagal mengganti tema</string>
 
     <string name="recommend_title">Rekomendasi</string>
-    <string name="recommend_tab_game">Anjurkan Apl</string>
+    <string name="recommend_tab_game">Anjurkan App</string>
     <string name="recommend_tab_list">Dianjurkan</string>
-    <string name="recommend_installed_list_title">Apl Saya</string>
+    <string name="recommend_installed_list_title">App Saya</string>
     <string name="recommend_review">Prawacana</string>
     <string name="recommend_replace_img">Ganti Gambar</string>
-    <string name="recommend_app_name">Judul Apl</string>
+    <string name="recommend_app_name">Judul App</string>
     <string name="recommend_state_can">Anjurkan</string>
     <string name="recommend_state_success">Dianjurkan</string>
-    <string name="recommend_select_game">Anjurkan Apl</string>
+    <string name="recommend_select_game">Anjurkan App</string>
     <string name="recommend_write_des">Pemaparan</string>
     <string name="recommend_write_des_hint">Ulasan berguna akan terlihat oleh lebih banyak pengguna yang berminat sama seperti Anda.</string>
     <string name="recommend_comment">Kirim</string>
@@ -692,11 +692,11 @@
 
     <string name="tag_list">Senarai tanda</string>
     <string name="hot_tag">Tanda Diminati</string>
-    <string name="hot_tag_explain">(Tambah atau vote tanda yang ada untuk apl ini)</string>
+    <string name="hot_tag_explain">(Tambah atau vote label yang ada untuk app ini)</string>
     <string name="common_use">Tanda Saya</string>
     <string name="app_add_tag_hint_caution">Tidak lebih dari %1$s untuk tiap tanda.</string>
-    <string name="app_add_tag">Tambah tanda baru</string>
-    <string name="toast_app_tag_exist">Tanda sudah ada!</string>
+    <string name="app_add_tag">Tambah label baru</string>
+    <string name="toast_app_tag_exist">Label sudah ada!</string>
     <string name="there_is_no_label">Tanpa tanda.</string>
     <string name="add">Tambah</string>
     <string name="colon">:</string>
@@ -737,7 +737,7 @@
     <string name="market_ad_tab_two">Permainan</string>
     <string name="market_ad_tab_three">Alat</string>
 
-    <string name="tag">Tanda</string>
+    <string name="tag">Label</string>
 
     <string name="search_tab_name_one">APP</string>
     <string name="search_tab_name_two">PENGGUNA</string>
@@ -878,23 +878,23 @@
     <string name="temporarily_blocked_des">Pemblokan sementara ini akan aktif %1$s hari, dan Anda tidak dapat membuat pos sebelum masanya berakhir. Jika Anda mengepos sesuatu yang bertentangan %2$s kami lagi, akun Anda akan diblok lagi selama 30 hari. Mohon diingat siapa saja yang berulang kali membuat pos yang tidak berkenan di APKPure akunnya akan dipadamkan secara tetap.
 \nJika menurut Anda ini sebuah kesalahan, harap %3$s.</string>
     <string name="pre_register_title">%1$s dirilis untuk %2$s!</string>
-    <string name="pre_register_des"/>
-    <string name="report_callback_title"/>
-    <string name="report_callback_des"/>
+    <string name="pre_register_des">"Permainan pra-daftar %1$s  %2$s tersedia untuk diunduh. %$s"</string>
+    <string name="report_callback_title">Pos yang sudah Anda laporkan sudah kami hapus!</string>
+    <string name="report_callback_des">Kami memeriksa pos yang Anda laporkan atas pelecehan. Karena melanggar %1$s, kami menghapusnya. Terima kasih atas laporan Anda. Kami ingin %$s tahu pos tersebut sudah dihapus, bukan yang melaporkan.</string>
 
-    <string name="tap_to_view"/>
-    <string name="let_us_know"/>
-    <string name="community_guide_lines"/>
+    <string name="tap_to_view">ketuk untuk melihat</string>
+    <string name="let_us_know">beritahu kami</string>
+    <string name="community_guide_lines">Panduan Komunitas</string>
 
-    <string name="my_draft"/>
-    <string name="clear_empty"/>
+    <string name="my_draft">Konsep saya</string>
+    <string name="clear_empty">Hapus semua</string>
     <string name="several_draft"><xliff:g example="5" id="count">%1$s</xliff:g> rancangan</string>
-    <string name="delete_all_draft_hint"/>
-    <string name="edit_draft"/>
-    <string name="delete_draft"/>
-    <string name="empty_draft_info"/>
-    <string name="is_save_comment_draft"/>
-    <string name="upload_video"/>
-    <string name="saved_draft"/>
+    <string name="delete_all_draft_hint">Apakah mengosongkan kotak rancangan saja\?</string>
+    <string name="edit_draft">Sunting rancangan</string>
+    <string name="delete_draft">Hapus rancangan</string>
+    <string name="empty_draft_info">Tidak ada konten…</string>
+    <string name="is_save_comment_draft">Apakah simpan sebagai rancangan\?</string>
+    <string name="upload_video">Unggah video</string>
+    <string name="saved_draft">Tersimpan sebagai rancangan</string>
 
 </resources>
