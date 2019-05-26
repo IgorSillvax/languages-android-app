@@ -1,50 +1,86 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2"><string name="action_management">Management</string>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2"><string name="action_management">മാനേജ്മെന്റ്</string>
 
-    <string name="action_settings">settings</string>
-    <string name="action_search">Search</string>
-    <string name="press_back_key_quit">Press back key once again and quit.</string>
+    <string name="action_settings">"ക്രമീകരണം "</string>
+    <string name="action_search">തിരയുക</string>
+    <string name="press_back_key_quit">"പുറത്തേക്കു പോവാൻ ബാക്ക് കീ വീണ്ടും പ്രെസ്സ് ചെയ്യുക. "</string>
 
-    <string name="featured">Featured</string>
-    <string name="recommend">Discover</string>
-    <string name="games">Games</string>
-    <string name="apps">Apps</string>
-    <string name="categories">Categories</string>
-    <string name="updates">Updates</string>
+    <string name="featured">"വരാനുള്ളത് "</string>
+    <string name="recommend">"കണ്ടു പിടിക്കൂ "</string>
+    <string name="games">"ഗെയിമുകൾ "</string>
+    <string name="apps">"ആപ്ലിക്കേഷനുകൾ "</string>
+    <string name="categories">"വിഭാഗങ്ങൾ "</string>
+    <string name="updates">"അപ്ഡേറ്റുകൾ "</string>
 
-    <string name="load_failed_empty">good</string>
-    <string name="load_failed_no_results">No results found.</string>
-    <string name="refresh">Refresh</string>
+    <string name="load_failed_empty">"ഇവിടെ ഒന്നും തന്നെ ഇല്ല. "</string>
+    <string name="load_failed_no_results">"ക്ഷമിക്കണം! റിസൾട്ട്‌ ഒന്നും തന്നെ ഇല്ല. "</string>
+    <string name="refresh">"റിഫ്രഷ് "</string>
 
-    <string name="management">Management</string>
-    <string name="app_updates">App updates</string>
-    <string name="app_management">Installed</string>
-    <string name="app_uninstall">App Uninstall</string>
-    <string name="apk_management">APK Management</string>
-    <string name="download_management">Download Management</string>
-    <string name="settings">Settings</string>
-    <string name="about">About</string>
+    <string name="management">"മാനേജ്‍മെൻറ് "</string>
+    <string name="app_updates">ആപ്ലിക്കേഷൻ അപ്ഡേറ്റുകൾ</string>
+    <string name="app_management">ഇൻസ്റ്റാൾ ചെയ്തു</string>
+    <string name="app_uninstall">ആപ്പ് അൺഇൻസ്റ്റാൾ</string>
+    <string name="apk_management">"APK മാനേജ്‍മെന്റ് "</string>
+    <string name="download_management">"ഡൗൺലോഡ് മാനേജ്‍മെന്റ് "</string>
+    <string name="settings">ക്രമീകരണം</string>
+    <string name="about">"എബൌട്ട്‌ "</string>
 
 
-    <string name="check_update"/>
-    <string name="check_update_replace"/>
-    <string name="beta">Beta</string>
-    <string name="want_to_quit"/>
+    <string name="check_update">"അപ്ഡേറ്റ് പരിശോധിക്കുക "</string>
+    <string name="check_update_replace">"ഒഫീഷ്യൽ വെർഷൻ "</string>
+    <string name="beta">"ബീറ്റ "</string>
+    <string name="want_to_quit">"പുറത്ത് കടക്കുന്നത് നിങ്ങൾ തീർച്ചപ്പെടുത്തിയോ\? "</string>
 
-    <string name="open">ENGLISH</string>
-    <string name="install"/>
-    <string name="delete"/>
-    <string name="delete_all"/>
-    <string name="want_to_delete_file"/>
-    <string name="want_to_delete_all_files"/>
-    <string name="file_has_been_deleted"/>
-    <string name="failed_to_delete_file"/>
-    <string name="something_happened">&gt;_&lt;
-\nSomething happened.</string>
-    <string name="load_failed_error">Oops! An error occurred.</string>
-    <string name="load_failed_error_not_found">التطبيق غير مدرج في متجر تطبيقات APKPure !</string>
+    <string name="open">മലയാളം</string>
+    <string name="install">ഇൻസ്റ്റാൾ</string>
+    <string name="delete">ഡിലീറ്റ്</string>
+    <string name="delete_all">എല്ലാം ഡിലീറ്റ് ചെയ്യുക</string>
+    <string name="want_to_delete_file">നിങ്ങൾക്ക് ഈ ഫയൽ ഡിലീറ്റ് ചെയ്യണോ\?</string>
+    <string name="want_to_delete_all_files">നിങ്ങൾക്ക് എല്ലാ ഫയലുകളും ഡിലീറ്റ് ചെയ്യണോ\?</string>
+    <string name="file_has_been_deleted">ഈ ഫയൽ ഡിലീറ്റ് ചെയ്തു.</string>
+    <string name="failed_to_delete_file">ഫയൽ ഡിലീറ്റ് ചെയ്യുന്നത് പരാജയപെട്ടു.</string>
+    <string name="something_happened">&gt;_&lt; 
+\nഎന്തോ സംഭവിച്ചു.</string>
+    <string name="load_failed_error">"ഓഹോ.ഒരു പിശക് സംഭവിച്ചു. "</string>
+    <string name="load_failed_error_not_found">"ആപ്ലിക്കേഷൻ APKPure ഇൽ ഇല്ല "</string>
     <string name="load_failed_all_up_to_date">All the applications are up to date.</string>
-    <string name="apk_xapk_management">APK / XAPK Management</string>
-    <string name="about_title">About <xliff:g example="APKPure" id="app_name">%1$s</xliff:g></string>
-    <string name="about_message">&lt;b&gt;Version:&lt;/b&gt; %1$s&lt;br&gt;&lt;br&gt;&lt;b&gt;Website:&lt;/b&gt; &lt;a href=%2$s&gt;%2$s&lt;/a&gt;&lt;br&gt;&lt;b&gt;Email:&lt;/b&gt; &lt;a href=mailto:%3$s&gt;%3$s&lt;/a&gt;</string>
+    <string name="apk_xapk_management">"APK / XAPK മാനേജ്‍മെന്റ് "</string>
+    <string name="about_title">എബൌട്ട്‌ <xliff:g example="APKPure" id="app_name">%1$s</xliff:g></string>
+    <string name="about_message">&lt;b&gt;വെർഷൻ:&lt;/b&gt; %1$s&lt;br&gt;&lt;br&gt;&lt;b&gt;വെബ്സൈറ്റ്:&lt;/b&gt; &lt;a href=%2$s&gt;%2$s&lt;/a&gt;&lt;br&gt;&lt;b&gt;ഇമെയിൽ:&lt;/b&gt; &lt;a href=mailto:%3$s&gt;%3$s&lt;/a&gt;</string>
+    <string name="check_update_beta">"പ്രീ-റിലീസ് ബീറ്റ "</string>
+    <string name="quit">പുറത്ത് കടക്കുക</string>
+    <string name="properties">പ്രോപ്പർട്ടീസ്</string>
+    <string name="properties_message">&lt;b&gt;Path:&lt;/b&gt; %1$s&lt;br&gt;&lt;b&gt;Size:&lt;/b&gt; %2$s&lt;br&gt;&lt;b&gt;Last Modified:&lt;/b&gt; %3$s</string>
+    <string name="properties_message_v2">&lt;b&gt;പാക്കേജ് നെയിം:&lt;/b&gt; %1$s&lt;br&gt;&lt;b&gt;വെർഷൻ:&lt;/b&gt; %2$s&lt;br&gt;&lt;b&gt;Path:&lt;/b&gt; %3$s&lt;br&gt;&lt;b&gt;Size:&lt;/b&gt; %4$s&lt;br&gt;&lt;b&gt;ലാസ്റ്റ് മോഡിഫൈഡ്:&lt;/b&gt; %5$s</string>
+    <string name="user_canceled">യൂസർ ക്യാൻസൽ ചെയ്തു.</string>
+    <string name="file_format_error">ഫയൽ ഫോർമാറ്റ്‌ എറർ.</string>
+    <string name="parsing_xapk">പാർസിങ് XAPK…</string>
+    <string name="installing_obb">ഇൻസ്റ്റാളിങ് OBB ഫയൽസ്</string>
+    <string name="installing_apk">ഇൻസ്റ്റാളിങ് APK…</string>
+
+    <string name="uninstall">അൺഇൻസ്റ്റാൾ</string>
+    <string name="all">എല്ലാം</string>
+
+    <string name="screenshots">സ്ക്രീൻഷോട്ട്സ്</string>
+    <string name="description">ഡിസ്ക്രിപ്ഷൻ</string>
+    <string name="whatsnew">എന്താണ് പുതിയത്</string>
+    <string name="information">ഇൻഫർമേഷൻ</string>
+    <string name="version_">പതിപ്പ്:</string>
+    <string name="updated_">അപ്ഡേറ്റഡ്:</string>
+    <string name="size_">വലിപ്പം:</string>
+    <string name="permissions_">പെർമിഷനുകൾ:</string>
+    <string name="type_">തരം:</string>
+    <string name="category_">വിഭാഗം:</string>
+    <string name="more">കൂടുതൽ</string>
+    <string name="permissions">പെർമിഷൻസ്</string>
+    <string name="other">മറ്റുള്ളവ</string>
+    <string name="more_from_developer">നിർമാതാക്കളിൽ നിന്നും കൂടുതൽ</string>
+    <string name="more_large">കൂടുതൽ</string>
+    <string name="apk">APK</string>
+    <string name="xapk">XAPK</string>
+    <string name="unknown">Unknown</string>
+    <string name="history_version">പതിപ്പ് ചരിത്രം</string>
+
+    <string name="market_response_error_success">വിജയകരം.</string>
+    <string name="market_response_error_invalid_result">ലഭ്യമല്ലാത്ത റിസൾട്ട്‌.</string>
     </resources>
