@@ -264,7 +264,7 @@
     <string name="auto_service_exchange__material_">ЗАМЕНА</string>
     <string name="auto_service_complete__material_">ГОТОВО</string>
 
-    <string name="login_post_as_a_guest">Войти без регистрации</string>
+    <string name="login_post_as_a_guest">Опубликовать без регистрации</string>
 
     <string name="report">Пожаловаться</string>
     <string name="auto_install_via_root_title">Автоматическая установка (Нужен Root)</string>
@@ -521,7 +521,7 @@
     <string name="push_title_info_follow">%1$s подписалися на тебя!</string>
     <string name="push_title_info_update">Доступно обновление APKPure!</string>
     <string name="push_content_info_update">Выпущена новая версия %1$s! Обновить сейчас!</string>
-    <string name="push_title_info_at">Кто-то упомянул вас в записи, нажмите, чтобы посмотреть</string>
+    <string name="push_title_info_at">Кто-то упомянул вас в пост, нажмите, чтобы посмотреть</string>
 
     <string name="play_button">Кнопка воспроизведения</string>
     <string name="open_video_in_youtube">Откройте видео в YouTube</string>
@@ -800,13 +800,13 @@
     <string name="new_subject_comment">Новый хэштег</string>
     <string name="evaluating">Отзыв</string>
     <string name="image_text">картина и текст</string>
-    <string name="trends">Запись</string>
+    <string name="trends">Пост</string>
     <string name="error_hot_data_empty">Нет горячих хэштегов!</string>
     <string name="hot_subject">Горячий хэштег</string>
     <string name="menu_follow_subject">Хэштеги</string>
     <string name="menu_follow_subject_tab">Хэштег</string>
     <string name="me_follow">Подписка</string>
-    <string name="release_dynamics">Опубликовать запись</string>
+    <string name="release_dynamics">Опубликовать пост</string>
     <string name="delete_success">Удаленно</string>
     <string name="hot">горячий</string>
     <string name="look_links">Просмотреть ссылку</string>
@@ -863,12 +863,12 @@
 
     <string name="users_recommended_des">Ваш отзыв был выбран как рекомендация пользователя,%1$s</string>
     <string name="recommended_posts_des">Ваш отзыв был выбран как рекомендация пользователя,%1$s</string>
-    <string name="comment_removed_title">Ваше сообщение было удалено</string>
+    <string name="comment_removed_title">Ваш пост был удален</string>
     <string name="comment_removed_des">Похоже, что то, что вы опубликовали, не соответствует нашим %1$s. Мы не разрешаем посты, которые запугивают частных лиц или преследуют кого-либо на APKPure. Это может включать неуместные изображения, фотографии или видео о физическом запугивании или любой другой пост, предназначенный для унижения или позора конкретного человека.
 \n%2$s 
 \nЕсли вы считаете, что это ошибка,пожалуйста%3$s.</string>
     <string name="temporarily_blocked_title">Вы временно заблокированы от публикации</string>
-    <string name="temporarily_blocked_des">Этот временный блок будет длиться %1$s дней, и вы не сможете публиковать на APKPure, пока он не будет завершен. Если вы опубликуете что-то, что противоречит нашим %2$s ещё раз, ваша учетная запись будет заблокирована еще на 30 дней. Имейте в виду, что люди, которые постоянно публикуют вещи, которые не разрешены на APKPure, могут навсегда отключить ваши учетные записи.
+    <string name="temporarily_blocked_des">Этот временный блок будет длиться %1$s дней, и вы не сможете опубликовать на APKPure, пока он не будет завершен. Если вы опубликуете что-то, что противоречит нашим %2$s ещё раз, ваша учетная запись будет заблокирована еще на 30 дней. Имейте в виду, что люди, которые постоянно опубликуют вещи, которые не разрешены на APKPure, могут навсегда отключить ваши учетные записи.
 \nЕсли вы считаете, что это ошибка,% 3 $ s.</string>
     <string name="pre_register_title">%1$s выпущено %2$s！</string>
     <string name="pre_register_des">"Предварительно зарегистрированная игра %1$s   %2$s доступна для скачивания.%3$s"</string>
