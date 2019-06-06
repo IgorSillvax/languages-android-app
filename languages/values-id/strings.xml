@@ -14,7 +14,7 @@
 
     <string name="featured">Ditampilkan</string>
     <string name="recommend">Temukan</string>
-    <string name="games">Permainan</string>
+    <string name="games">Game</string>
     <string name="apps">Aplikasi</string>
     <string name="categories">Kategori</string>
     <string name="updates">Pembaruan</string>
@@ -26,7 +26,7 @@
     <string name="load_failed_empty">Tidak ada apapun di sini.</string>
     <string name="load_failed_all_up_to_date">Semua aplikasi sudah terkini.</string>
     <string name="load_failed_no_results">Maaf! Tidak ada hasil ditemukan.</string>
-    <string name="refresh">Perbarui</string>
+    <string name="refresh">"Refresh  "</string>
 
     <string name="management">Manajemen</string>
     <string name="app_updates">Pembaruan Aplikasi</string>
@@ -84,11 +84,11 @@
     <string name="version_">Versi:</string>
     <string name="updated_">Diperbarui:</string>
     <string name="size_">Ukuran:</string>
-    <string name="permissions_">Perizinan:</string>
+    <string name="permissions_">Izin:</string>
     <string name="type_">Tipe:</string>
     <string name="category_">Kategori:</string>
     <string name="more">lebih banyak</string>
-    <string name="permissions">Perizinan</string>
+    <string name="permissions">Izin</string>
     <string name="other">Lainnya</string>
     <string name="similar_or_related">Serupa atau Terkait</string>
     <string name="more_from_developer">Lebih Banyak Dari Pengembang</string>
@@ -164,7 +164,7 @@
     <string name="improvement_plan_title">Rencana Peningkatan Performa</string>
     <string name="improvement_plan_message">Bantu kami dengan mengirimkan Info Perangkat Android, Kami <b>tidak mengumpulkan</b> informasi identifikasi pribadi (nama, alamat, e-mail, nomor keamanan sosial, atau identifikasi unik lainnya).</string>
     <string name="join_us">Bergabunglah dengan Kami</string>
-    <string name="skip">Lewatkan</string>
+    <string name="skip">Skip</string>
 
     <string name="participate_ultra_download_beta_test_title">Aktifkan Unduhan Ultra dan nikmati kecepatan mengunduh lebih cepat</string>
     <string name="participate_ultra_download_beta_test_content">Unduhan Ultra masih dalam pengujian beta, beritahu kami jika anda menemui masalah apapun. Anda bisa dengan mudah menonaktifkannya di Pengaturan.</string>
@@ -226,7 +226,7 @@
     <string name="general">Umum</string>
     <string name="language">Bahasa</string>
     <string name="auto">Otomatis</string>
-    <string name="changing_language">Mengubah bahasa, silahkan menunggu….</string>
+    <string name="changing_language">Mengubah bahasa,silahkan menunggu…</string>
     <string name="data_saver_model">Penyimpan data</string>
     <string name="data_saver_model_summery">Mengaktifkannya akan mengurangi ukuran dan kualitas gambar untuk membantu penggunaan lebih sedikit data seluler.</string>
     <string name="download_via_wifi_only">Unduh hanya menggunakan Wi-Fi</string>
@@ -246,7 +246,7 @@
     <string name="auto_service_dialog_message">Pasang Otomatis memerlukan izin ponsel, aman digunakan tanpa resiko apapun.</string>
 
     <string name="auto_service_title">Pasang Otomatis APKPure</string>
-    <string name="auto_service_description">\"Aktifkan \"\"Pasang Otomatis APKPure\"\", untuk memastikan \"\"Pasang Otomatis\"\" APKPure bekerja dengan lancar.
+    <string name="auto_service_description">Aktifkan \"\"Pasang Otomatis APKPure\"\", untuk memastikan \"\"Pasang Otomatis\"\" APKPure bekerja dengan lancar.
 \n
 \n\"\"Pasang Otomatis APKPure\"\" membantumu mengklik semua tombol pasang saat memasang atau memperbarui aplikasi, kamu tidak perlu memeriksa ponsel sepanjang waktu.
 \n
@@ -254,7 +254,7 @@
 \n
 \nUntuk memastikan APKPure berfungsi dengan baik, silahkan tambahkan APKPure ke \"\"Daftar Putih\"\" Aplikasi Pembersih Anda.
 \n
-\nFungsi yang disebutkan di atas mendukung Android 4.1+, tidak memerlukan izin root. Kami berjanji tidak pernah mengumpulkan informasi personal apapun dari Anda pada layan aksesibilitas ini. Silahkan menghubungi kami jika menemukan masalah apapun.\"</string>
+\nFungsi yang disebutkan di atas mendukung Android 4.1+, tidak memerlukan izin root. Kami berjanji tidak pernah mengumpulkan informasi personal apapun dari Anda pada layan aksesibilitas ini. Silahkan menghubungi kami jika menemukan masalah apapun.</string>
 
     <string name="auto_service_install">Pasang</string>
     <string name="auto_service_ensure">OK</string>
@@ -354,7 +354,7 @@
     <string name="download_mkdir_internal_storage_size_des">%1$s bebas, total %2$s\'</string>
     <string name="download_mkdir_internal_storage_entries">SD</string>
     <string name="download_mkdir_internal_storage_entries1">SD 1</string>
-    <string name="download_mkdir_external_storage_fill_toast">Penyimpanan terbatas mungkin mengakibatkan Anda tidak bisa mengunduh aplikasi</string>
+    <string name="download_mkdir_external_storage_fill_toast">Penyimpanan terbatas mungkin mengakibatkan Anda tidak bisa mengunduh aplikasi.</string>
 
     <string name="download_mkdir_internal_storage_values">penyimpanan_internal</string>
     <string name="download_mkdir_external_storage_values">penyimpanan_eksternal</string>
@@ -375,13 +375,14 @@
     <string name="load_failed_click_retry">Ada yang salah. Silahkan klik untuk mencoba lagi</string>
     <string name="loading">Memuat…</string>
 
-    <string name="scan_qr_code_hint">"Sebelum menggunakan Pindai Kode QR Anda perlu memberikan izin kamera yang diperlukan untuk memindai kode QR. "</string>
+    <string name="scan_qr_code_hint">"Sebelum menggunakan Pindai Kode QR Anda perlu memberikan izin kamera yang diperlukan untuk memindai kode QR.  "</string>
     <string name="zxing_msg_default_status">Silahkan tempatkan kode QR pada jendela bidik untuk memindainya.</string>
     <string name="zxing_msg_parser_status">Pemindaian gagal, silahkan coba pindai ulang kode QR.</string>
     <string name="scan_qr_code_result_title">Hasil</string>
     <string name="scan_qr_code_result_copy_text">Salin teks</string>
     <string name="scan_qr_code_result_hint">Rincian kode QR :</string>
-    <string name="scan_qr_code_copy_success">teks tersalin</string>
+    <string name="scan_qr_code_copy_success">Login
+\n</string>
 
     <string name="tip_permission_camera_storage">Tidak ada izin menggunakan kamera dan kartu SD, buka manajemen hak</string>
     <string name="permission_denied">Akses ditolak!</string>
@@ -423,7 +424,7 @@
     <string name="update_eamil_name_tv">Email tidak boleh kosong</string>
     <string name="update_nickname_error">Nama panggilan sudah digunakan, pilih lainnya!</string>
     <string name="user_info_edit_intro_tv">Tentang Aku</string>
-    <string name="update_intro_title">Sunting Tentang Saya</string>
+    <string name="update_intro_title">Edit Tentang Aku</string>
     <string name="update_intro_et">Tulis rincian tentang dirimu</string>
     <string name="update_intro_tv">Bagian tentang aku tidak boleh kosong</string>
 
@@ -467,7 +468,7 @@
     <string name="register_term_of_service">Ketentuan Layanan APKPure</string>
 
     <string name="set_contributor">Kontributor</string>
-    <string name="set_permissions">Perizinan</string>
+    <string name="set_permissions">Izin</string>
     <string name="set_open_source_licence">Lisensi sumber terbuka</string>
 
     <string name="sign_in_services">Dengan mendaftar Anda menyetujui Ketentuan dan Kebijakan Pribadi.</string>
@@ -541,7 +542,7 @@
     <string name="comment_comment_newest">Terbaru</string>
     <string name="comment_comment_oldest">Terlama</string>
 
-    <string name="edit">Sunting</string>
+    <string name="edit">Edit</string>
     <string name="menu_copy">Salin</string>
     <string name="menu_copy_link">Salin Tautan</string>
     <string name="menu_cancel">Batalkan</string>
@@ -595,296 +596,295 @@
     <string name="ranking_tab1_title">Game Teratas</string>
     <string name="ranking_tab2_title">Game Baru Teratas</string>
     <string name="ranking_tab3_title">Aplikasi Teratas</string>
-    <string name="ranking_tab4_title">App Baru Teratas</string>
+    <string name="ranking_tab4_title">Aplikasi Baru Teratas</string>
     <string name="ranking_top_countries_title">Peringkat Partisi</string>
     <string name="ranking_top_develop_title">Pengembang Teratas</string>
 
     <string name="app_detail_three_fragment_foot">Tunjukkan semua komentar</string>
-    <string name="menu_paste">Lekat</string>
+    <string name="menu_paste">Tempel</string>
 
     <string name="favorite_title">Favorit</string>
     <string name="save_as_favorite">Simpan sebagai Favorit</string>
     <string name="favorite_saved">Difavoritkan.</string>
-    <string name="failed_to_save_favorite">Gagal menyimpan favorit</string>
-    <string name="remove_as_favorite">Pindahkan sebagai Favorit</string>
-    <string name="remove_failed">Gagal Memindahkan</string>
+    <string name="failed_to_save_favorite">Gagal untuk menyimpan favorit</string>
+    <string name="remove_as_favorite">Hapus sebagai Favorit</string>
+    <string name="remove_failed">Gagal Menghapus</string>
 
-    <string name="collection_comment">Pos</string>
-    <string name="collection_app">APP</string>
+    <string name="collection_comment">Kiriman</string>
+    <string name="collection_app">Aplikasi</string>
 
-    <string name="open_with_browser">Buka lewat Peramban</string>
-    <string name="web_view_refresh">Segarkan</string>
+    <string name="open_with_browser">Buka dengan Browser</string>
+    <string name="web_view_refresh">Refresh</string>
     <string name="web_view_copy">Salin Tautan</string>
 
     <string name="topic_red_color">Merah Tua</string>
-    <string name="topic_green_color">Hijau Lucky</string>
-    <string name="topic_blue_color">Biru Azure</string>
-    <string name="topic_purple_color">Violet Gelap</string>
-    <string name="topic_purple_black">Abu Keren</string>
+    <string name="topic_green_color">Hijau Pastel</string>
+    <string name="topic_blue_color">Biru Langit</string>
+    <string name="topic_purple_color">Ungu Tua</string>
+    <string name="topic_purple_black">Abu-abu Sejuk</string>
     <string name="topic_purple_yellow">Oranye Apricot</string>
-    <string name="topic_purple_blue_gary">Biru Air Force</string>
+    <string name="topic_purple_blue_gary">Biru Angkatan Udara</string>
     <string name="topic_switch_failed">Gagal mengganti tema</string>
 
     <string name="recommend_title">Rekomendasi</string>
-    <string name="recommend_tab_game">Anjurkan App</string>
-    <string name="recommend_tab_list">Dianjurkan</string>
-    <string name="recommend_installed_list_title">App Saya</string>
-    <string name="recommend_review">Prawacana</string>
-    <string name="recommend_replace_img">Ganti Gambar</string>
-    <string name="recommend_app_name">Judul App</string>
-    <string name="recommend_state_can">Anjurkan</string>
-    <string name="recommend_state_success">Dianjurkan</string>
-    <string name="recommend_select_game">Anjurkan App</string>
-    <string name="recommend_write_des">Pemaparan</string>
-    <string name="recommend_write_des_hint">Ulasan berguna akan terlihat oleh lebih banyak pengguna yang berminat sama seperti Anda.</string>
+    <string name="recommend_tab_game">Rekomendasikan Aplikasi</string>
+    <string name="recommend_tab_list">Direkomendasikan</string>
+    <string name="recommend_installed_list_title">Aplikasiku</string>
+    <string name="recommend_review">Pratinjau</string>
+    <string name="recommend_replace_img">Ubah Gambar</string>
+    <string name="recommend_app_name">Judul Aplikasi</string>
+    <string name="recommend_state_can">Rekomendasi</string>
+    <string name="recommend_state_success">Direkomendasikan</string>
+    <string name="recommend_select_game">Rekomendasikan Aplikasi</string>
+    <string name="recommend_write_des">Deskripsi</string>
+    <string name="recommend_write_des_hint">Ulasan yang membantu akan dilihat lebih banyak pengguna yang memiliki ketertarikan sama denganmu.</string>
     <string name="recommend_comment">Kirim</string>
-    <string name="recommend_comment_error">Terjadi galat !</string>
+    <string name="recommend_comment_error">Terjadi kesalahan!</string>
     <string name="recommend_description_title">Instruksi:</string>
-    <string name="recommend_description">1. Anjuran-anjuran yang disetujui akan disenaraikan di bagian bawah TEMUKAN
-\n2. Anda hanya dapat menganjurkan aplikasi yang saat ini terpasang di perangkat Android Anda.
-\n3. Beritahu APKPure untuk menambah aplikasi yang belum terindeks, mohon selesaikan formulir anjuran lebih dulu.</string>
+    <string name="recommend_description">1. Rekomendasi yang disetujui akan terdaftar pada bagian TEMUKAN.
+\n2. Anda hanya bisa merekomendasikan aplikasi yang terpasang di perangkat Android Anda.
+\n3. Beritahu APKPure untuk menambahkan aplikasi yang tidak diindeks, silakan isi formulir rekomendasi terlebih dahulu.</string>
     <string name="recommend_user_recommend">Direkomendasikan oleh %1$s</string>
     <string name="recommend_required">*</string>
     <string name="recommend_not_found">Tidak diindeks</string>
-    <string name="recommend_not_fount_info">Beritahu APKPure untuk menambah \"%1$s\", Anda harus menyelesaikan formulirnya.</string>
-    <string name="recommend_user_recommend_sys">Ditampilkan APKPure</string>
+    <string name="recommend_not_fount_info">Beritahu APKPure untuk menambahkan \"%1$s\", kamu perlu menyelesaikan formulir.</string>
+    <string name="recommend_user_recommend_sys">Diunggulkan oleh APKPure</string>
 
     <string name="user_detail_focus">Mengikuti</string>
     <string name="user_detail_fans">Pengikut</string>
-    <string name="user_detail_praise">Suka</string>
+    <string name="user_detail_praise">SUKAI</string>
 
-    <string name="user_detail_tab_detail">Pos</string>
+    <string name="user_detail_tab_detail">Kiriman</string>
     <string name="user_detail_tab_reply">Komentar</string>
 
-    <string name="user_focus_tab_users">Warga</string>
+    <string name="user_focus_tab_users">Orang</string>
     <string name="user_focus_tab_apps">Grup</string>
-    <string name="user_focus_title_my">Saya ikuti</string>
-    <string name="user_focus_title">Diikuti %1$s</string>
+    <string name="user_focus_title_my">Yang aku ikuti</string>
+    <string name="user_focus_title">Diikuti oleh %1$s</string>
 
     <string name="google_play_name" translatable="false">Google Play</string>
     <string name="goto_google_play">Beli sekarang</string>
-    <string name="google_play_bug_text">Beli di Google Play</string>
+    <string name="google_play_bug_text">Beli sekarang di Google Play</string>
 
-    <string name="menu_follow_all">Seluruh ikutan</string>
-    <string name="menu_follow_user">Warga pengikut</string>
-    <string name="menu_follow_group">Grup diikuti</string>
+    <string name="menu_follow_all">Semua yang diikuti</string>
+    <string name="menu_follow_user">Orang yang diikuti</string>
+    <string name="menu_follow_group">Grup yang diikuti</string>
     <string name="menu_follow_all_tab">Mengikuti</string>
-    <string name="menu_follow_user_tab">Warga</string>
-    <string name="menu_follow_group_tab">Grup-grup</string>
+    <string name="menu_follow_user_tab">Orang</string>
+    <string name="menu_follow_group_tab">Grup</string>
 
     <string name="choose_app">Pilih Aplikasi</string>
-    <string name="publish_comment">Pos</string>
+    <string name="publish_comment">Kirim</string>
 
-    <string name="app_detail_has_product">Beli Barang</string>
-    <string name="app_detail_no_product">Tak ada Pembelian Barang</string>
-    <string name="app_detail_has_ad">Berisi iklan</string>
-    <string name="app_detail_no_ad">Tanpa Iklan</string>
+    <string name="app_detail_has_product">Beli Item</string>
+    <string name="app_detail_no_product">Tidak Ada Item Dibeli</string>
+    <string name="app_detail_has_ad">Mengandung iklan</string>
+    <string name="app_detail_no_ad">Tidak ada Iklan</string>
 
-    <string name="tag_list">Senarai tanda</string>
-    <string name="hot_tag">Tanda Diminati</string>
-    <string name="hot_tag_explain">(Tambah atau vote label yang ada untuk app ini)</string>
-    <string name="common_use">Tanda Saya</string>
-    <string name="app_add_tag_hint_caution">Tidak lebih dari %1$s untuk tiap tanda.</string>
-    <string name="app_add_tag">Tambah label baru</string>
-    <string name="toast_app_tag_exist">Label sudah ada!</string>
-    <string name="there_is_no_label">Tanpa tanda.</string>
-    <string name="add">Tambah</string>
+    <string name="tag_list">Daftar Tandai</string>
+    <string name="hot_tag">Tandai Populer</string>
+    <string name="hot_tag_explain">(Tambahkan atau berikan vote tanda yang ada untuk aplikasi ini)</string>
+    <string name="common_use">Tandaku</string>
+    <string name="app_add_tag_hint_caution">Tidak lebih dari %1$s tanda untuk setiap aplikasi.</string>
+    <string name="app_add_tag">Tambahkan tanda baru</string>
+    <string name="toast_app_tag_exist">Tanda sudah ada!</string>
+    <string name="there_is_no_label">Tidak ada tanda.</string>
+    <string name="add">Tambahkan</string>
     <string name="colon">:</string>
 
-    <string name="pack_up">Lipat</string>
-    <string name="Istop">Dijepit</string>
-    <string name="add_tag">Tambah tanda</string>
+    <string name="pack_up">Sembunyikan</string>
+    <string name="Istop">Disematkan</string>
+    <string name="add_tag">Tambahkan tanda</string>
     <string name="error_add_tag">Gagal menambah tanda</string>
     <string name="no_collect">Belum ada favorit!</string>
-    <string name="no_comment">Jadi yang pertama mengeposkan!</string>
-    <string name="filter_no_comment">Ups! Kontennya tidak ada!!</string>
+    <string name="no_comment">Jadilah yang pertama untuk menambahkan kiriman!</string>
+    <string name="filter_no_comment">Ups! Tidak ada konten seperti itu!!</string>
 
-    <string name="share_apk">Bagi APK</string>
+    <string name="share_apk">Bagikan APK</string>
     <string name="tab_apk">APK</string>
     <string name="commentaries">Cerita</string>
-    <string name="follow_floating_action_button">Ciptakan momen baru</string>
+    <string name="follow_floating_action_button">Buat Momen Baru</string>
 
     <string name="upload_apk_version">V %1$s</string>
     <string name="upload_apk_downloads">Unduh: %1$s</string>
 
-    <string name="upload_comment_uploading">%1$s Mengunggah…</string>
-    <string name="upload_comment_upload_success">Unggah %1$s Berhasil</string>
+    <string name="upload_comment_uploading">Mengunggah %1$s …</string>
+    <string name="upload_comment_upload_success">"Berhasil mengunggah %1$s "</string>
     <string name="upload_comment_upload_failed">"Gagal mengunggah %1$s "</string>
-    <string name="upload_comment_view">Ketuk untuk melihat</string>
-    <string name="upload_comment_reload">Ketuk untuk mengunggah lagi</string>
+    <string name="upload_comment_view">Sentuh untuk melihat</string>
+    <string name="upload_comment_reload">Sentuh untuk mengunggah ulang</string>
     <string name="upload_notification_pause">Jeda</string>
     <string name="upload_notification_start">Mulai</string>
-    <string name="upload_notification_cancel">Batal</string>
+    <string name="upload_notification_cancel">Batalkan</string>
     <string name="upload_notification_is_uploading">Mengunggah paket ke APKPure…</string>
-    <string name="upload_notification_is_pause">Unggah dijeda</string>
+    <string name="upload_notification_is_pause">Unggahan dijeda</string>
     <string name="upload_add_list_toast">Berhasil!</string>
-    <string name="upload_add_file_list_toast">Mengunggah app. Mohon bersabar, terima kasih!</string>
+    <string name="upload_add_file_list_toast">Mengunggah aplikasi. Harap bersabar, terimakasih!</string>
 
     <string name="your_reply_comment">Balasan Anda</string>
 
     <string name="market_ad_title">Pasar</string>
-    <string name="market_ad_tab_one">Fitur Tertampil</string>
-    <string name="market_ad_tab_two">Permainan</string>
-    <string name="market_ad_tab_three">Alat</string>
+    <string name="market_ad_tab_one">Ditampilkan</string>
+    <string name="market_ad_tab_two">Game</string>
+    <string name="market_ad_tab_three">Peralatan</string>
 
-    <string name="tag">Label</string>
+    <string name="tag">Tandai</string>
 
-    <string name="search_tab_name_one">APP</string>
+    <string name="search_tab_name_one">Aplikasi</string>
     <string name="search_tab_name_two">PENGGUNA</string>
     <!--pre_register-->
     <string name="pre_register_ok">OK</string>
     <string name="pre_register_bt">Pra-daftar</string>
     <string name="pre_register_now_bt">Pra-Daftar</string>
     <string name="pre_registered_bt">Terdaftar</string>
-    <string name="pre_register_link_title">Laman Pra-Daftar</string>
-    <string name="pre_register_gift_tv">Hadiah Mendaftar</string>
-    <string name="pre_register_person_num_tv">Pra-Daftar: %1$s</string>
-    <string name="pre_register_success">Melakukan Pra-Daftar berarti Anda akan menerima pemberitahuan di perangkat Anda ketika app sudah rilis.</string>
+    <string name="pre_register_link_title">Halaman Pra-Daftar</string>
+    <string name="pre_register_gift_tv">Hadiah Pendaftaran</string>
+    <string name="pre_register_person_num_tv">Pra-Pendaftar: %1$s</string>
+    <string name="pre_register_success">Pra-Pendaftaran berarti Anda akan menerima notifikasi pada perangkat Anda saat aplikasi dirilis.</string>
 
-    <string name="open_page_failed">Gagal membuka laman!</string>
+    <string name="open_page_failed">Gagal membuka halaman!</string>
     <string name="search_for_user">Cari</string>
-    <string name="search_user_history_title">Hubungan terakhir</string>
+    <string name="search_user_history_title">Kontak Terakhir</string>
     <string name="search_focus_list_title">Diikuti</string>
 
-    <string name="copy_username">Salun Nama Kecil</string>
+    <string name="copy_username">"Salin Nama Panggilan "</string>
     <string name="copy_content">Salin Konten</string>
 
-    <string name="tab_global">FiTUR TERTAMPIL</string>
-    <string name="comment_list_see_here">Terakhir Anda sampai di sini. Ketuk unruk menyegarkan.</string>
-    <string name="comment_list_new_num">%d Tajuk Baru</string>
+    <string name="tab_global">Ditampilkan</string>
+    <string name="comment_list_see_here">Terakhir kali kamu di sini. Sentuh untuk refresh.</string>
+    <string name="comment_list_new_num">%d Berita Utama Baru</string>
 
     <string name="tab_popular">POPULER</string>
     <string name="count_down_timer_tv">%ds</string>
-    <string name="count_down_timer_btn">lewati</string>
+    <string name="count_down_timer_btn">Skip</string>
 
-    <string name="choice_evaluate">Ulasan Tertampil</string>
-    <string name="choice_comment">Pos dianjurkan</string>
-    <string name="emoji_input_error_hint">Komentar emoji tidak dibolehkan lag! Tulislah sesuatu…</string>
+    <string name="choice_evaluate">Ulasan Pilihan</string>
+    <string name="choice_comment">Kiriman Direkomendasikan</string>
+    <string name="emoji_input_error_hint">Komentar emoji tidak diijinkan lagi! Tulis sesuatu…</string>
     <string name="load_all_choice_evaluate">Lihat seluruh ulasan</string>
-    <string name="load_all_choice_comment">Lihat semua pos</string>
+    <string name="load_all_choice_comment">Lihat semua kiriman</string>
     <string name="my_reservation_and_collection">Pra-daftar dan favorit</string>
     <string name="upload_apk">Unggah APK</string>
     <string name="developer_badge_explanation">Penjelasan Lencana Pengembang</string>
 
-    <string name="from_user_recommendation">Anjuran Para Pengguna</string>
+    <string name="from_user_recommendation">Rekomendasi Pengguna</string>
     <string name="topics">Topik</string>
     <string name="pre_register_game">Pra-daftar</string>
     <string name="editors_picks">Pilihan Editor</string>
-    <string name="recommend_game">Anjurkan permainan</string>
+    <string name="recommend_game">rekomendasikan game</string>
 
-    <string name="bing_share_account">Hubungkan ke Akun Pihak Ke-tiga</string>
-    <string name="un_bind">Tidak terhubung</string>
-    <string name="login_out_message_hint">Apakah Anda yakin ingin keluar log\?</string>
-    <string name="bind_email_title">Hubungkan email Anda</string>
-    <string name="bind_email_tv">Hubungkan alamat email Anda ke akun untuk membuka manfaat log masuk email, pemulihan kata sandi, mengirim pos dan lainnya.</string>
-    <string name="verification_code_tv">Kode verifikasi telag dikirim ke alamat email Anda%1$s</string>
-    <string name="verification_code_second_tv">Kirim ulang dalam %d s</string>
+    <string name="bing_share_account">Tautkan ke Akun pihak ketiga</string>
+    <string name="un_bind">Tidak ditautkan</string>
+    <string name="login_out_message_hint">Yakin hendak keluar\?</string>
+    <string name="bind_email_title">Tautkan email Anda</string>
+    <string name="bind_email_tv">Tautkan alamat email ke akun Anda untuk membuka benefit login menggunakan email, pemulihan sandi, mengirim kiriman, dan lainnya.</string>
+    <string name="verification_code_tv">Kode verifikasi sudah dikirimkan ke alamat email Anda %1$s</string>
+    <string name="verification_code_second_tv">Kirim ulang dalam %d detik</string>
     <string name="verification_code_resend_tv">Kirim ulang kode verifikasi</string>
     <string name="send_verification_code_resend_tv">Kirim kode verifikasi</string>
-    <string name="bind_email_success">Sambungan berhasil.</string>
+    <string name="bind_email_success">Tautan berhasil.</string>
     <string name="update_email_tv">Verifikasi ulang untuk memperbarui alamat email Anda</string>
     <string name="verification_code_tv_hint">Kode verifikasi</string>
     <string name="verification_success_code_toast">Kode verifikasi terkirim.</string>
-    <string name="verification_null_code_toast">Mohon masukkan kode verifikasi yang sudah Anda terima.</string>
-    <string name="unbind_email">Tidak terhubung</string>
-    <string name="unbind_email_hint">Tak ada alamat email terhubung ke akun Anda.</string>
-    <string name="menu_skip">Lewati</string>
+    <string name="verification_null_code_toast">Masukkan kode verifikasi yang Anda terima.</string>
+    <string name="unbind_email">Tidak ditautkan</string>
+    <string name="unbind_email_hint">Tidak ada alamat email yang ditautkan ke akun Anda.</string>
+    <string name="menu_skip">"Skip "</string>
 
-    <string name="forget_password_tv">Lupa kata sandi\?</string>
-    <string name="recover_password_title">Pemulihan Kata Sandi</string>
+    <string name="forget_password_tv">Lupa sandi\?</string>
+    <string name="recover_password_title">Pemulihan sandi</string>
     <string name="email_address_hint_et">Masukkan email Anda.</string>
 
     <string name="shop">TOKO</string>
-    <string name="setting_region">Daerah</string>
+    <string name="setting_region">Wilayah</string>
     <string name="submit_add_title_image_tv">Tambahkan Sampul</string>
-    <string name="submit_add_title_image_error_toast">Gambar ini untuk sementara tidak didukung. Silakan pilih gambar lain.</string>
-    <string name="comment_hint_tv">Bagi sesuatu\?</string>
-    <string name="msg_all_read">Tandai sebagai terbaca</string>
-    <string name="msg_all_read_notice">Catatan</string>
-    <string name="msg_all_read_msg">Apakah Anda yakin ingin menandai semua sebagai terbaca\?</string>
-    <string name="user_recommend_tip">Anjuran Pengguna</string>
-    <string name="comments">Komentar-komentar</string>
+    <string name="submit_add_title_image_error_toast">Gambar ini mungkin tidak didukung sementara ini. Silahkan pilih lainnya.</string>
+    <string name="comment_hint_tv">Bagikan sesuatu\?</string>
+    <string name="msg_all_read">Tandai sudah dibaca</string>
+    <string name="msg_all_read_notice">Pemberitahuan</string>
+    <string name="msg_all_read_msg">Yakin hendak tandai sudah dibaca\?</string>
+    <string name="user_recommend_tip">Rekomendasi Pengguna</string>
+    <string name="comments">Komentar</string>
     <string name="subject_comment">Tagar</string>
     <string name="new_subject_comment">Tagar baru</string>
     <string name="evaluating">Ulasan</string>
     <string name="image_text">Cerita</string>
-    <string name="trends">Post</string>
-    <string name="error_hot_data_empty">Bukan, jangan tagar!</string>
-    <string name="hot_subject">Tagar Panas</string>
+    <string name="trends">Kirim</string>
+    <string name="error_hot_data_empty">Tidak ada tagar populer!</string>
+    <string name="hot_subject">Tagar Populer</string>
     <string name="menu_follow_subject">Tagar diikuti</string>
     <string name="menu_follow_subject_tab">Tagar</string>
-    <string name="me_follow">Saya ikuti</string>
-    <string name="release_dynamics">Momen Pos</string>
+    <string name="me_follow">Yang aku ikuti</string>
+    <string name="release_dynamics">Kirimkan momen</string>
     <string name="delete_success">Berhasil</string>
-    <string name="hot">panas</string>
+    <string name="hot">populer</string>
     <string name="look_links">Lihat Tautan</string>
 
-    <string name="headline_no_data_tv">Tak ada konten baru</string>
-    <string name="hint">Catat</string>
-    <string name="no_save_comment_hint">Ada konten belum diposkan, apakah Anda yakin ingin keluar\?</string>
-    <string name="look_all">Lihat Lainnya</string>
-    <string name="history_hastag">Tagar sejarah</string>
+    <string name="headline_no_data_tv">Tidak ada konten baru</string>
+    <string name="hint">Catatan</string>
+    <string name="no_save_comment_hint">Ada konten belum terkirim, yakin hendak keluar\?</string>
+    <string name="look_all">Lihat lebih banyak</string>
+    <string name="history_hastag">Riwayat tagar</string>
     <string name="share_image_failed">Gagal membagi gambar!</string>
-    <string name="select_image_overflow_hint">\@string/jml_maks_pesan_gambar</string>
+    <string name="select_image_overflow_hint">"\@string/picture_message_max_num   "</string>
 
     <string name="share_select_image_overflow_hint">Anda bisa membagi hingga 9 gambar.</string>
     <string name="search_or_create">Cari atau buat</string>
 
     <string name="privacy_setting_title">Pengaturan Privasi</string>
     <string name="privacy_setting_account">Akun Pribadi</string>
-    <string name="privacy_setting_account_des">Halaman pribadi Anda tidak akan terlihat oleh yang lain jika akun Anda disetel ke pribadi.</string>
+    <string name="privacy_setting_account_des">Beranda pribadi Anda tidak akan bisa dilihat oleh orang lain jika diatur menjadi Pribadi.</string>
     <string name="privacy_setting_account_del">Hapus akun dan informasi Anda</string>
-    <string name="privacy_setting_account_privacy">Ini akun pribadi.</string>
-    <string name="del_account_email_notify_tv">Mohon sediakan alamat email valid untuk mendapat pemberitahuan kami.</string>
+    <string name="privacy_setting_account_privacy">Merupakan akun pribadi.</string>
+    <string name="del_account_email_notify_tv">Silahkan sediakan alamat email yang valid untuk menerima notifikasi kami.</string>
     <string name="del_account_email_reason_tv">Mengapa Anda ingin menghapus akun ini\?</string>
-    <string name="del_account_bt">Submit</string>
+    <string name="del_account_bt">Kirimkan</string>
     <string name="del_account_reason_hint">Mengapa Anda ingin menghapus akun ini\?</string>
-    <string name="del_account_sure">"Akun Anda akan terhapus paling lama 48 jam. Silakan hubungi kami jika Anda  ingin bertanya lebih jauh."</string>
+    <string name="del_account_sure">Akun Anda akan dihapus dalam 48 jam. Silahkan hubungi kami jika Anda memiliki pertanyaan lebih lanjut.</string>
     <string name="reply_to">Balas ke %1$s:</string>
-    <string name="share_app_url_comment_v3"><xliff:g example="zhangsan" id="name">%1$s</xliff:g>\'s <xliff:g example="post/story/review" id="type">%2$s</xliff:g> (From APKPure):<xliff:g example="https://apkpure.com" id="url">%3$s </xliff:g></string>
+    <string name="share_app_url_comment_v3">Bagikan <xliff:g example="zhangsan" id="name">%1$s</xliff:g>\'s <xliff:g example="post/story/review" id="type">%2$s</xliff:g> (From APKPure):<xliff:g example="https://apkpure.com" id="url">%3$s </xliff:g></string>
     <string name="apk_unable_upload">Gagal mengunggah apk.</string>
     <string name="long_image">Gambar Tinggi</string>
-    <string name="edit_tag">Sunting Label</string>
-    <string name="save_tag_hint_msg">Pengubahan tidak akan disimpan. Apakah Anda yakin ingin keluar\?</string>
-    <string name="un_follow_xx"><xliff:g example="Apkpure" id="name">%1$s</xliff:g></string>
-    <string name="follow_xx">Ikuti
-\n<xliff:g example="Apkpure" id="name">%1$s</xliff:g></string>
-    <string name="app_rating">Penilaian:</string>
+    <string name="edit_tag">Edit Tandai</string>
+    <string name="save_tag_hint_msg">Perubahan tidak akan disimpan. Yakin hendak keluar\?</string>
+    <string name="un_follow_xx">Batalkan Ikuti <xliff:g example="Apkpure" id="name">%1$s</xliff:g></string>
+    <string name="follow_xx">Ikuti <xliff:g example="Apkpure" id="name">%1$s</xliff:g></string>
+    <string name="app_rating">Rating:</string>
     <string name="number">\"</string>
-    <string name="headline_footer_refresh">Geser ke bawah atau ketum garis ini untuk memperbarui.</string>
+    <string name="headline_footer_refresh">Tarik ke bawah atau sentuh garis ini untuk refresh.</string>
 
     <string name="download_install_obb">Pasang OBB</string>
     <string name="download_install_apk">Pasang APK</string>
 
     <string name="users_recommended_title">Selamat!</string>
-    <string name="users_recommended_des">Ulasan Anda terpilih sebagai anjuran pengguna,%1$s</string>
+    <string name="users_recommended_des">Ulasan Anda terpilih sebagai rekomendasi pengguna,%1$s</string>
     <string name="recommended_posts_title">Selamat!</string>
-    <string name="recommended_posts_des">Ulasan Anda terpilih sebagai anjuran pengguna,%$s</string>
-    <string name="comment_removed_title">Pos Anda Disingkirkan</string>
-    <string name="comment_removed_des">Tampaknya yang Anda poskan tidak memenuhi %$s kami. Kami tidak mengizinkan pos yang menindas pribadi seseorang atau melecehkan siapapun di APKPure. Ini termasuk gambar yang tidak pantas, gambar atau foto tindak penindasan, atau pos lain yang bermaksud merendahkan atau membuat malu orang tertentu.
-\n%2$s
-\nJika menurut Anda ini sebuah kesalahan, harap %$s.</string>
-    <string name="temporarily_blocked_title">Anda Diblok Sementara Dari Membuat Pos</string>
-    <string name="temporarily_blocked_des">Pemblokan sementara ini akan aktif %1$s hari, dan Anda tidak dapat membuat pos sebelum masanya berakhir. Jika Anda mengepos sesuatu yang bertentangan %2$s kami lagi, akun Anda akan diblok lagi selama 30 hari. Mohon diingat siapa saja yang berulang kali membuat pos yang tidak berkenan di APKPure akunnya akan dipadamkan secara tetap.
-\nJika menurut Anda ini sebuah kesalahan, harap %3$s.</string>
+    <string name="recommended_posts_des">Ulasan Anda terpilih sebagai rekomendasi pengguna,%1$s</string>
+    <string name="comment_removed_title">Kiriman Anda Sudah Dihapus</string>
+    <string name="comment_removed_des">Sepertinya kiriman Anda tidak mengikuti %1$s kami. Kami tidak mengizinkan kiriman yang merundung individu pribadi atau melecehkan siapapun di APKPure. Ini bisa termasuk gambar tidak pantas, foto atau video dari perundungan fisik, atau kiriman lainnya yang bertujuan mempermalukan orang spesifik. 
+\n%2$s 
+\nJika Anda merasa ini adalah kesalahan, silahkan %3$s.</string>
+    <string name="temporarily_blocked_title">Anda Diblokir Sementara Untuk Mengirim</string>
+    <string name="temporarily_blocked_des">Blokir sementara ini akan berlangsung selama %1$s hari, dan Anda tidak akan bisa mengirim di APKPure hingga masa berakhir. Jika Anda mengirimkan sesuatu yang melanggar %2$s kami lagi, akun Anda akan dibloker lagi selama 30 hari. Harap dicatat bahwa orang yang berulang kali mengirimkan sesuatu yang tidak diizinkan pada APKPure maka akun mereka akan dinonaktifkan secara permanen.
+\nJika Anda merasa ini adalah kesalahan, silahkan %3$s.</string>
     <string name="pre_register_title">%1$s dirilis untuk %2$s!</string>
-    <string name="pre_register_des">"Permainan pra-daftar %1$s  %2$s tersedia untuk diunduh. %$s"</string>
-    <string name="report_callback_title">Pos yang sudah Anda laporkan sudah kami hapus!</string>
-    <string name="report_callback_des">Kami memeriksa pos yang Anda laporkan atas pelecehan. Karena melanggar %1$s, kami menghapusnya. Terima kasih atas laporan Anda. Kami ingin %$s tahu pos tersebut sudah dihapus, bukan yang melaporkan.</string>
+    <string name="pre_register_des">Pra-daftar game %1$s   %2$s tersedia untuk diunduh.%3$s</string>
+    <string name="report_callback_title">Kami menghapus kiriman yang Anda laporkan!</string>
+    <string name="report_callback_des">"Kami meninjau kiriman yang Anda laporkan atas pelecehan. Karena itu melanggar  %1$s kami, maka kami menghapusnya. Terimakasih atas laporan Anda. Kami memberitahu %2$s bahwa kirimannya telah dihapus, tetapi tidak tentang siapa yang melaporkannya."</string>
 
-    <string name="tap_to_view">ketuk untuk melihat</string>
+    <string name="tap_to_view">Sentuh untuk melihat</string>
     <string name="let_us_know">beritahu kami</string>
     <string name="community_guide_lines">Panduan Komunitas</string>
 
-    <string name="my_draft">Konsep saya</string>
+    <string name="my_draft">Drafku</string>
     <string name="clear_empty">Hapus semua</string>
-    <string name="several_draft"><xliff:g example="5" id="count">%1$s</xliff:g> rancangan</string>
-    <string name="delete_all_draft_hint">Apakah mengosongkan kotak rancangan saja\?</string>
-    <string name="edit_draft">Sunting rancangan</string>
-    <string name="delete_draft">Hapus rancangan</string>
+    <string name="several_draft"><xliff:g example="5" id="count">%1$s</xliff:g> draf</string>
+    <string name="delete_all_draft_hint">Kosongkan kotak draf\?</string>
+    <string name="edit_draft">Edit draf</string>
+    <string name="delete_draft">Hapus draf</string>
     <string name="empty_draft_info">Tidak ada konten…</string>
-    <string name="is_save_comment_draft">Apakah simpan sebagai rancangan\?</string>
+    <string name="is_save_comment_draft">Simpan sebagai draf\?</string>
     <string name="upload_video">Unggah video</string>
-    <string name="saved_draft">Tersimpan sebagai rancangan</string>
+    <string name="saved_draft">Disimpan sebagai draf</string>
 
 </resources>
