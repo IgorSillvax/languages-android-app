@@ -7,7 +7,7 @@
 
     <string name="press_back_key_quit">बैक बटन फिर से दबाए और बन्द कीजिये।</string>
 
-    <string name="featured">प्रधान</string>
+    <string name="featured">विशिष्ट प्रदर्शित</string>
     <string name="games">खेल</string>
     <string name="apps">अनुप्रयोग</string>
     <string name="categories">श्रेणियां</string>
@@ -23,18 +23,16 @@
 
     <string name="app_updates">ऐप अपडेट्स</string>
     <string name="management">प्रबंधन</string>
-    <string name="app_management">app minstangllementd</string>
+    <string name="app_management">स्थापित किया गया</string>
     <string name="app_uninstall">ऐप अनइन्सटॉल</string>
-    <string name="apk_management">APK प्रबंधन</string>
+    <string name="apk_management">एपीके प्रबंधन</string>
     <string name="apk_xapk_management">APK / XAPK प्रबंधन</string>
     <string name="download_management">डाउनलोड प्रबंधन</string>
-    <string name="settings">सेटिंग्स</string>
+    <string name="settings">सैटिंग्स</string>
     <string name="about">के बारे में</string>
-    <string name="about_title">के बारे में <xliff:g id="app_name" example="APKPure">%1$s</xliff:g></string>
-    <string name="about_message">
-        <![CDATA[<b>संस्करण:</b> %1$s<br><br><b>वेबसाइट:</b> <a href=%2$s>%2$s</a><br><b>ईमेल:</b> <a href=mailto:%3$s>%3$s</a>]]>
-    </string>
-    <string name="check_update">अपडेट देखें</string>
+    <string name="about_title">"के बारे में  "<xliff:g example="APKPure" id="app_name">%1$s</xliff:g></string>
+    <string name="about_message">&lt;b&gt;संस्करण:&lt;/b&gt; %1$s&lt;br&gt;&lt;br&gt;&lt;b&gt;वेबसाइट:&lt;/b&gt; &lt;a href=%2$s&gt;%2$s&lt;/a&gt;&lt;br&gt;&lt;b&gt;इमेल:&lt;/b&gt; &lt;a href=mailto:%3$s&gt;%3$s&lt;/a&gt;</string>
+    <string name="check_update">अपडेट जांचें</string>
     <string name="quit">छोड़ें</string>
     <string name="want_to_quit">क्या आप सचमुच छोड़ना चाहते हैं?</string>
 
@@ -265,7 +263,7 @@
     <string name="download_complete_installation_setting">डाउनलोड करने के बाद इन्स्टॉलेशन विक्लप</string>
 <string name="recommend">खोजिए</string>
     <string name="load_failed_error_not_found">यह ऐप्प हमारे ऐप्स स्टोर में सूचीबद्ध नही है !</string>
-    <string name="check_update_replace">आधिकारिक संस्करण</string>
+    <string name="check_update_replace">अधिकृत संस्करण</string>
     <string name="check_update_beta">पूर्व रिलीज़ बीटा</string>
     <string name="beta">बीटा</string>
     <string name="history_version">संस्करण इतिहास</string>
