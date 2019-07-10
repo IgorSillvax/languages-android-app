@@ -109,8 +109,6 @@
     <string name="market_response_error_invalid_response_body">無效的響應正文。</string>
     <string name="market_response_error_unknown_error__error_">未知錯誤(<xliff:g example="SUCCESS" id="error">%1$s</xliff:g>)。</string>
 
-    <string name="no_more">無更多內容。</string>
-
     <string name="update">更新</string>
     <string name="version__version___size_">版本：<xliff:g example="1.0.0" id="version">%1$s</xliff:g>, <xliff:g example="1024 kB" id="size">%2$s</xliff:g></string>
     <plurals name="_count__new_update_is_available">
@@ -272,6 +270,7 @@
     <string name="auto_service_next__material_">下一步</string>
     <string name="auto_service_exchange__material_">替換</string>
     <string name="auto_service_complete__material_">完成</string>
+    <string name="auto_service_directly__material_">直接安装</string>
 
     <string name="auto_install_via_root_title">自動安裝（Root 模式）</string>
     <string name="auto_install_via_root_summary">僅限 Root 設備。</string>
@@ -496,7 +495,6 @@
 
     <string name="comment_vote_string">贊</string>
     <string name="comment_reply_three">回復</string>
-    <string name="comment_item_fold">已摺疊</string>
 
     <plurals name="comment_reply_item_fold">
         <item quantity="one">摺疊回復(<xliff:g example="1" id="count">%1$d</xliff:g>)</item>
@@ -538,7 +536,6 @@
     <string name="main_topic_selection">主題模式</string>
     <string name="main_night_mode">夜間模式</string>
     <string name="please_login_first">請先登錄</string>
-    <string name="no_choice">沒有精選</string>
     <string name="follow_on_success">關注成功</string>
     <string name="follow_un_success">已取消</string>
     <string name="canceled">已取消</string>
@@ -839,6 +836,7 @@
     <string name="my_draft">我的草稿</string>
     <string name="clear_empty">清空</string>
     <string name="several_draft"><xliff:g example="5" id="count">%1$s</xliff:g>篇草稿</string>
+    <string name="several_drafts"><xliff:g example="5" id="count">%1$s</xliff:g>篇草稿</string>
     <string name="delete_all_draft_hint">是否清空草稿箱?</string>
     <string name="edit_draft">編輯草稿</string>
     <string name="delete_draft">删除草稿</string>
@@ -847,4 +845,20 @@
     <string name="upload_video">上傳視頻</string>
     <string name="saved_draft">已保存草稿</string>
 
+    <string name="gif_auto_title">GIF 自動播放</string>
+    <string name="gif_auto_desc">開啟後，Wi-Fi下自動播放GIF</string>
+
+    <string name="users">用戶</string>
+    <string name="choice_hashtag">精選話題</string>
+    <string name="get_it_on">来源：</string>
+    <string name="look_video">查看視頻</string>
+    <string name="app_update_auto_install">點擊開啟\"自動安裝\"</string>
+    <string name="upload_apk_to_group">上傳APK到小組</string>
+    <string name="upload_xapk">上傳XAPK</string>
+    <string name="upload_xapk_to_group">上傳XAPK到小组</string>
+    <string name="xapk_unable_upload">XAPK无法上傳!</string>
+
+    <string name="app_details_request_update_title">求更新</string>
+    <string name="app_details_request_update_msg">你已請求了《%s》更新，我們將收到反饋。</string>
+    <string name="attention_each">互相關注</string>
 </resources>

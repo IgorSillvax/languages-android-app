@@ -13,8 +13,7 @@
     <string name="categories">বিভাগসমূহ</string>
     <string name="updates">আপডেটসমূহ</string>
 
-    <string name="something_happened">&gt;_&lt;
-\nকিছু হয়েছে।.</string>
+    <string name="something_happened">&gt;_&lt;\nকিছু হয়েছে।.</string>
 
     <string name="load_failed_error">ওহোঃ! একটি ত্রুটি হয়েছে।.</string>
     <string name="load_failed_empty">এখানে কিছু নেই।.</string>
@@ -33,8 +32,9 @@
     <string name="settings">সেটিংস</string>
     <string name="about">সম্পর্কে</string>
     <string name="about_title"><xliff:g example="APKPure" id="app_name">%1$s</xliff:g> সম্পর্কে</string>
-    <string name="about_message">&lt;b&gt;সংস্করণ:&lt;/b&gt; %1$s&lt;br&gt;&lt;br&gt;&lt;b&gt;Website:&lt;/b&gt; &lt;a href=%2$s&gt;%2$s&lt;/a&gt;&lt;br&gt;&lt;b&gt;ইমেল:&lt;/b&gt; &lt;a href=mailto:%3$s&gt;%3$s&lt;/a&gt;</string>
-    <string name="check_update">আপডেট পরীক্ষা করুন</string>
+    <string name="about_message">
+        <![CDATA[<b>ভার্সন:</b> %1$s<br><br><b>ওয়েব সাইট:</b> <a href=%2$s>%2$s</a><br><b>ইমেইল:</b> <a href=mailto:%3$s>%3$s</a>]]>
+    </string>    <string name="check_update">আপডেট পরীক্ষা করুন</string>
     <string name="quit">প্রস্থান করুন</string>
     <string name="want_to_quit">আপনি কি প্রস্থান করার বিষয়ে নিশ্চিত\?</string>
 
@@ -44,7 +44,9 @@
     <string name="delete_all">সব মুছুন</string>
     <string name="properties">বৈশিষ্ট্যসমূহ</string>
     <string name="apk_xapk_management">APK / XAPK পরিচালনা</string>
-    <string name="properties_message">&lt;b&gt;পাথ:&lt;/b&gt; %1$s&lt;br&gt;&lt;b&gt;Size:&lt;/b&gt; %2$s&lt;br&gt;&lt;b&gt;শেষ সংশোধিত:&lt;/b&gt; %3$s</string>
+    <string name="properties_message">
+        <![CDATA[<b>পাথ:</b> %1$s<br><b>Size:</b> %2$s<br><b>শশেষ সংশোধিত:</b> %3$s]]>
+    </string>
     <string name="want_to_delete_file">আপনি কি এই ফাইলটি মুছতে চান\?</string>
     <string name="want_to_delete_all_files">আপনি কি সমস্ত ফাইল মুছতে চান\?</string>
     <string name="file_has_been_deleted">ফাইলটি মোছা হয়েছে।.</string>
@@ -96,17 +98,17 @@
     <string name="update">আপডেট</string>
     <string name="version__version___size_">সংস্করণ: <xliff:g example="1.0.0" id="version">%1$s</xliff:g>, <xliff:g example="1024 kB" id="size">%2$s</xliff:g></string>
     <plurals name="_count__new_update_is_available">
-	<item quantity="one"><xliff:g example="1" id="count">%1$d</xliff:g> New Update Is Available</item>
-	<item quantity="other"><xliff:g example="1" id="count">%1$d</xliff:g> নতুন আপডেট উপলভ্য</item>
-</plurals>
+        <item quantity="one"><xliff:g example="1" id="count">%1$d</xliff:g> New Update Is Available</item>
+        <item quantity="other"><xliff:g example="1" id="count">%1$d</xliff:g> নতুন আপডেট উপলভ্য</item>
+    </plurals>
 
     <string name="launching_please_wait">লঞ্চ করছে, অনুগ্রহ করে অপেক্ষা করুন…</string>
 
     <string name="failed">ব্যর্থ হয়েছে</string>
     <plurals name="_count__item_is_downloading">
-	<item quantity="one"><xliff:g example="1" id="count">%1$d</xliff:g> বিষয়টি ডাউনলোড হচ্ছে</item>
-	<item quantity="other"><xliff:g example="1" id="count">%1$d</xliff:g> আইটেম ডাউনলোড হচ্ছে</item>
-</plurals>
+        <item quantity="one"><xliff:g example="1" id="count">%1$d</xliff:g> বিষয়টি ডাউনলোড হচ্ছে</item>
+        <item quantity="other"><xliff:g example="1" id="count">%1$d</xliff:g> আইটেম ডাউনলোড হচ্ছে</item>
+    </plurals>
     <string name="downloads_complete">ডাউনলোডগুলি সম্পূর্ণ হয়েছে</string>
     <string name="touch_for_view_all_downloads">সমস্ত ডাউনলোডগুলি দেখতে স্পর্শ করুন</string>
     <string name="_name__download_failed"><xliff:g example="APKPure" id="name">%1$s</xliff:g> ডাউনলোড ব্যর্থ হয়েছে</string>
@@ -156,7 +158,9 @@
 
     <string name="_name__is_up_to_date"><xliff:g example="APKPure" id="name">%1$s</xliff:g> আপ টু ডেট।</string>
     <string name="new_version_available_title">নতুন সংস্করণ উপলভ্য</string>
-    <string name="new_version_available_message">&lt;b&gt;সাম্প্রতিক সংস্করণ:&lt;/b&gt; %1$s&lt;br&gt;&lt;br&gt;&lt;b&gt;নতুন কী:&lt;/b&gt;&lt;br&gt;%2$s</string>
+    <string name="new_version_available_message">
+        <![CDATA[<b>সাম্প্রতিক সংস্করণ:</b> %1$s<br><br><b>নতুন কী:</b><br>%2$s]]>
+    </string>
     <string name="report__">রিপোর্ট করুন…</string>
     <string name="report_problem__">সমস্যা রিপোর্ট করুন…</string>
     <string name="report_problem_subject">সমস্যা রিপোর্ট করুন</string>
@@ -172,9 +176,12 @@
     <string name="invalid_app_asset">অবৈধ অ্যাপের সম্পদের তথ্য।.</string>
     <string name="failed_to_request_app_detail">অ্যাপের বিস্তারিত তথ্য অনুরোধ করতে ব্যর্থ হয়েছে।.</string>
     <string name="failed_to_request_app_asset">অ্যাপের সম্পদের তথ্য অনুরোধ করতে ব্যর্থ হয়েছে।.</string>
-    <string name="incompatible_this_app">&lt;big&gt;&lt;b&gt;&lt;font color=%1$d&gt;আপনার ডিভাইস এই অ্যাপের সাথে সুসংগত নয়।&lt;/font&gt;&lt;/b&gt;&lt;/big&gt;&lt;br&gt;&lt;br&gt;আপনি কি অবিরত রাখতে চান\?</string>
-    <string name="this_app_not_usable">&lt;big&gt;&lt;b&gt;&lt;font color=%1$d&gt;এই অ্যাপটি ব্যবহারযোগ্য নাও হতে পারে।&lt;/font&gt;&lt;/b&gt;&lt;/big&gt;&lt;br&gt;&lt;br&gt;আপনি কি অবিরত রাখতে চান\?</string>
-
+    <string name="incompatible_this_app">
+        <![CDATA[<big><b><font color="%1$d">আপনার ডিভাইস এই এপসের সাথে কম্পেটেভল নয়।</font></b></big><br><br>আপনি কি অবিরত রাখতে চান?]]>
+    </string>
+    <string name="this_app_not_usable">
+        <![CDATA[<big><b><font color="%1$d">এই এপস ব্যাবহারে অনপযোগী।</font></b></big><br><br>আপনি কি অবিরত রাখতে চান?]]>
+    </string>
     <string name="setting">সেটিংস</string>
     <string name="external_storage_not_usable"><big><b>আমাদের আপনার বাইরের স্টোরেজ অ্যাক্সেস করতে হবে। অনুগ্রহ করে নিশ্চিত করুন যে সেটি ব্যবহারযোগ্য।</b></big></string>
     <string name="external_storage_permission_denied"><big><b>আমাদের আপনার বাইরের স্টোরেজ অ্যাক্সেস করতে হবে। অনুগ্রহ করে নিশ্চিত করুন যে সেটির অনুমতিটি যেন প্রত্যাখাত না হয়।</b></big></string>
@@ -194,12 +201,18 @@
     <string name="select_all">সব বাতিল করুন</string>
     <string name="deselect_all">সব নির্বাচনমুক্ত করুন</string>
     <string name="ignored">উপেক্ষা করা হয়েছে</string>
-    <plurals name="total__count__apps__size_">
-	<item quantity="one">মোট: &lt;b&gt;&lt;font color=%1$d&gt;%2$d&lt;/font&gt;&lt;/b&gt; অ্যাপ, &lt;b&gt;&lt;font color=%1$d&gt;%3$s&lt;/font&gt;&lt;/b&gt;</item>
-	<item quantity="other">মোট: &lt;b&gt;&lt;font color=%1$d&gt;%2$d&lt;/font&gt;&lt;/b&gt; অ্যাপস, &lt;b&gt;&lt;font color=%1$d&gt;%3$s&lt;/font&gt;&lt;/b&gt;</item>
-</plurals>
-    <string name="total_zero_app">মোট: &lt;b&gt;&lt;font color=%1$d&gt;0&lt;/font&gt;&lt;/b&gt; অ্যাপ</string>
 
+    <plurals name="total__count__apps__size_">
+        <item quantity="one">
+            <![CDATA[মোট: <b><font color="%1$d">%2$d</font></b> অ্যাপ, <b><font color="%1$d">%3$s</font></b>]]>
+        </item>
+        <item quantity="other">
+            <![CDATA[মোট: <b><font color="%1$d">%2$d</font></b> অ্যাপ, <b><font color="%1$d">%3$s</font></b>]]>
+        </item>
+    </plurals>
+    <string name="total_zero_app">
+        <![CDATA[মোট: <b><font color="%1$d">0</font></b> অ্যাপ]]>
+    </string>
     <string name="general">সাধারণ</string>
     <string name="language">ভাষা</string>
     <string name="auto">অটো</string>
@@ -234,7 +247,7 @@
 \n
 \n APKPure এর সঠিক কার্যকারিতা নিশ্চিত করতে, অনুগ্রহ করে আপনার পরিষ্করণের অ্যাপের সাদা তালিকায় \"\"\"\"APKPure\"\"\"\" যোগ করুন।
 \n
-\nউপরোক্ত কার্যকারিতাগুলি অ্যানড্রয়েড 4.1+ কে সমর্থন করে, কোনো মূল অনুমতির প্রয়োজন নেই। আমরা এই অ্যাক্সেসযোগ্যতার পরিষেবায়  কখনওই আপনার কোনো ব্যক্তিগত তথ্য সংগ্রহ না করার প্রতিশ্রুতি দিই। কোনো সমস্যা হলে অনুগ্রহ করে আমাদের সাথে যোগাযোগ করতে দ্বিধা করবেন না। 
+\nউপরোক্ত কার্যকারিতাগুলি অ্যানড্রয়েড 4.1+ কে সমর্থন করে, কোনো মূল অনুমতির প্রয়োজন নেই। আমরা এই অ্যাক্সেসযোগ্যতার পরিষেবায়  কখনওই আপনার কোনো ব্যক্তিগত তথ্য সংগ্রহ না করার প্রতিশ্রুতি দিই। কোনো সমস্যা হলে অনুগ্রহ করে আমাদের সাথে যোগাযোগ করতে দ্বিধা করবেন না।
 \n\""</string>
 
     <string name="auto_service_install">ইনস্টল করুন</string>
@@ -260,9 +273,9 @@
 
     <string name="auto_service_install__material_">ইনস্টল করুন</string>
     <plurals name="app_detail_see_all_replies">
-	<item quantity="one">সব দেখুন <xliff:g example="1" id="count">%1$d</xliff:g> উত্তর দিন</item>
-	<item quantity="other">সমস্ত <xliff:g example="1" id="count">%1$d</xliff:g> উত্তর দেখুন</item>
-</plurals>
+        <item quantity="one">সব দেখুন <xliff:g example="1" id="count">%1$d</xliff:g> উত্তর দিন</item>
+        <item quantity="other">সমস্ত <xliff:g example="1" id="count">%1$d</xliff:g> উত্তর দেখুন</item>
+    </plurals>
 
     <string name="app_detail_customer_reviews">মন্তব্যসমূহ</string>
     <string name="app_detail_comment_type_web">ওয়েব</string>
@@ -431,9 +444,9 @@
     <string name="comment_item_fold">মন্তব্য সংকুচিত করা হয়েছে</string>
 
     <plurals name="comment_reply_item_fold">
-	<item quantity="one"><xliff:g example="1" id="count">%1$d</xliff:g> উত্তর সংকুচিত করা হয়েছে</item>
-	<item quantity="other"><xliff:g example="1" id="count">%1$d</xliff:g> উত্তর ভেঙ্গে গেছে</item>
-</plurals>
+        <item quantity="one"><xliff:g example="1" id="count">%1$d</xliff:g> উত্তর সংকুচিত করা হয়েছে</item>
+        <item quantity="other"><xliff:g example="1" id="count">%1$d</xliff:g> উত্তর ভেঙ্গে গেছে</item>
+    </plurals>
 
     <string name="comment_no_reply">ওয়াও, এখানে কিছুই নেই।.</string>
     <string name="comment_reply_info_name">বিস্তারিত</string>
@@ -543,7 +556,7 @@
     <string name="recommend_user_recommend">%1$s এর দ্বারা সুপারিশকৃত</string>
     <string name="recommend_required">*</string>
 
-<string name="download_mkdir">ডাউনলোড পাথ</string>
+    <string name="download_mkdir">ডাউনলোড পাথ</string>
     <string name="download_mkdir_internal_storage_size_des">%1$s খালি, মোট %2$s\'</string>
     <string name="download_mkdir_internal_storage_entries">SD</string>
     <string name="download_mkdir_internal_storage_entries1">SD 1</string>
@@ -578,11 +591,12 @@
     <string name="choose_app">অ্যাপ্লিকেশন নির্বাচন করুন</string>
     <string name="publish_comment">পোস্ট</string>
 
-<string name="load_failed_error_not_found">অ্যাপ APKPure এর মধ্যে অন্তর্ভুক্ত করা যাবে না।.</string>
+    <string name="load_failed_error_not_found">অ্যাপ APKPure এর মধ্যে অন্তর্ভুক্ত করা যাবে না।.</string>
     <string name="beta">বিটা</string>
     <string name="history_version">সংস্করণের ইতিহাস</string>
-
-    <string name="properties_message_v2">&lt;b&gt;প্যাকেজের নাম:&lt;/b&gt; %1$s&lt;br&gt;&lt;b&gt;সংস্করণ:&lt;/b&gt; %2$s&lt;br&gt;&lt;b&gt;পাথ:&lt;/b&gt; %3$s&lt;br&gt;&lt;b&gt;আকার:&lt;/b&gt; %4$s&lt;br&gt;&lt;b&gt;শেষ সংশোধিত:&lt;/b&gt; %5$s</string>
+    <string name="properties_message_v2">
+        <![CDATA[<b>প্যাকেজের নাম:</b> %1$s<br><b>সংস্করণ:</b> %2$s<br><b>পাথ:</b> %3$s<br><b>আকার:</b> %4$s<br><b>শেষ সংশোধিত:</b> %5$s]]>
+    </string>
     <string name="share_app_url_group"> <xliff:g example="APKPure" id="app_name">%1$s</xliff:g> গ্রুপ। (<xliff:g example="APKPure" id="social_network_name">%2$s</xliff:g> থেকে) <xliff:g example="https://apkpure.com/p/com.apkpure.aegon" id="app_url">%3$s</xliff:g> </string>
 
     <string name="data_saver_model">ডেটা সাশ্রয়কারী</string>
@@ -828,7 +842,7 @@
     <string name="recommended_posts_title">অভিনন্দন!</string>
     <string name="recommended_posts_des">আপনার পর্যালোচনা ব্যবহারকারীর সুপারিশ হিসাবে নির্বাচিত হয়েছে,%1$s</string>
     <string name="comment_removed_title">আপনার পোস্ট অপসারণ করা হয়েছে</string>
-    <string name="comment_removed_des">মনে হচ্ছে আপনি এমন কিছু পোস্ট করেছেন যা আমাদের %1$s মান্য করেনি। APKPure এ স্বতন্ত্র্য ব্যক্তিকে হুমকি দেয় বা কাউকে অপমান করে এমন পোস্টগুলিকে আমরা অনুমতি দিইনা। এর মধ্যে থাকতে পারে শারীরিক হুমকির অনপুযুক্ত ছবি, ফটো বা ভিডিওসমূহ, বা একজন নির্দিষ্ট ব্যক্তিকে নিচু করা বা লজ্জায় ফেলার উদ্দেশ্যে করা অন্য কোনো পোস্ট। %2$s 
+    <string name="comment_removed_des">মনে হচ্ছে আপনি এমন কিছু পোস্ট করেছেন যা আমাদের %1$s মান্য করেনি। APKPure এ স্বতন্ত্র্য ব্যক্তিকে হুমকি দেয় বা কাউকে অপমান করে এমন পোস্টগুলিকে আমরা অনুমতি দিইনা। এর মধ্যে থাকতে পারে শারীরিক হুমকির অনপুযুক্ত ছবি, ফটো বা ভিডিওসমূহ, বা একজন নির্দিষ্ট ব্যক্তিকে নিচু করা বা লজ্জায় ফেলার উদ্দেশ্যে করা অন্য কোনো পোস্ট। %2$s
 \nআপনি যদি মনে করেন যে এটি ভুলবশত হয়ে গেছে তাহলে অনুগ্রহ করে %3$s।</string>
     <string name="temporarily_blocked_title">আপনাকে সাময়িকভাবে পোস্ট করা থেকে ব্লক করা হয়েছে</string>
     <string name="temporarily_blocked_des">এই সাময়িক ব্লক করা %1$s দিন ধরে চলবে, এবং সেটি শেষ না হয়ে যাওয়া পর্যন্ত আপনি APKPure এ পোস্ট করতে পারবেন না। আপনি যদি আবার আমাদের %2$s বিরোধী কিছু পোস্ট করেন তাহলে আপনার অ্যকাউন্ট আরও 30 দিনের জন্য ব্লক করা হবে। অনুগ্রহ করে মনে রাখবেন যে সকল ব্যক্তি বারংবার APKPure এ অনুমোদিত নয় এমন জিনিস পোস্ট করেন তাদের অ্যাকাউন্ট স্থায়ীভাবে নিষিদ্ধ করা হতে পারে। আপনি যদি মনে করেন এটি একটি ভুল ছিল, অনুগ্রহ করে %3$s।.</string>
