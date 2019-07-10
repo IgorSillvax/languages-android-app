@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
-    <string name="action_settings">セッティング</string>
+    <string name="action_settings">設定</string>
     <string name="action_search">検索</string>
     <string name="action_management">管理</string>
 
@@ -79,7 +79,7 @@
 
     <string name="market_response_error_success">成功しました。</string>
     <string name="market_response_error_invalid_result">無効な結果です。</string>
-    <string name="market_response_error_network_connect_error">インターネット接続エラーです。</string>
+    <string name="market_response_error_network_connect_error">ネットワーク接続エラー。</string>
     <string name="market_response_error_network_read_error">読み込みエラーです。</string>
     <string name="market_response_error_invalid_response_code">レスポンスのコードが無効です。</string>
     <string name="market_response_error_invalid_response_body">レスポンスの内容が無効です。</string>
@@ -189,7 +189,7 @@
     <string name="clear_search_history">すべての履歴を削除する</string>
 
     <string name="update_all">すべてアップデート</string>
-    <string name="ignore">無視</string>
+    <string name="ignore">リストから無視する</string>
     <string name="unignore">無視を解除</string>
     <string name="select">選択</string>
     <string name="cancel">キャンセル</string>
@@ -285,10 +285,10 @@
     <string name="app_submit_nickname">ニックネーム</string>
     <string name="app_submit_email">電子メール</string>
     <string name="app_submit_submit_title">送信</string>
-    <string name="app_submit_reply_to">返信</string>
+    <string name="app_submit_reply_to">に返信</string>
 
     <string name="app_detail_tab_one">詳細</string>
-    <string name="app_detail_tab_two">投稿</string>
+    <string name="app_detail_tab_two">グループ</string>
     <string name="app_detail_tab_three">関連</string>
 
     <string name="app_detail_comment_order_array_default">デフォルトの並び順</string>
@@ -311,13 +311,13 @@
 
     <plurals name="app_detail_see_all_replies">
         <item quantity="one">全ての返信を見る<xliff:g example="2" id="count"> 1%1$d</xliff:g> 2</item>
-        <item quantity="other" />
+        <item quantity="other"/>
     </plurals>
 
     <string name="download_complete_installation_setting_entries_never">インストールしない</string>
 
     <string name="reply_dialog_marked_words">選択した画像を長押しして削除します。</string>
-    <string name="load_failed_click_retry">ロード失敗、再試行をタップ</string>
+    <string name="load_failed_click_retry">問題が発生したため、再試行してください</string>
     <string name="scan_qr_code_hint">QRコードをスキャンする前に、カメラ権限を有効にする必要があります。</string>
     <string name="zxing_msg_default_status">QRコードをファインダーの中央に配置してスキャンしてください。</string>
     <string name="zxing_msg_parser_status">スキャンに失敗しました。再度QRコードをスキャンしてみてください。</string>
@@ -359,7 +359,7 @@
     <string name="update_eamil_name_tv">メールアドレスを空白にすることはできません</string>
     <string name="update_nickname_error">このニックネームはすでに使用されています。別のニックネームを選んでください。</string>
     <string name="message_all">すべて</string>
-    <string name="message_reply">コメント</string>
+    <string name="message_reply">返信</string>
     <string name="message_praise">賛成</string>
     <string name="message_notifications_login">このページを表示するにはログインしてください。</string>
 
@@ -373,7 +373,7 @@
     <string name="update_pwd_new_pwd_null_tv">新しいパスワードを空白にすることはできません</string>
     <string name="update_pwd_new_confrim_tv">入力したパスワードが一致しません</string>
     <string name="update_pwd_save_bt">保存</string>
-    <string name="update_save_success">保存されました！</string>
+    <string name="update_save_success">保存しました。</string>
     <string name="crop__cancel" ignore="ButtonCase">キャンセル</string>
     <string name="crop__done">完了</string>
     <string name="message_notifications_reply">あなたのコメントに返信しました</string>
@@ -421,7 +421,7 @@
     <string name="download_list">ダウンロードリスト</string>
     <string name="can_be_update">更新可能</string>
     <string name="install_list">インストール済み</string>
-    <string name="no_download">ノーダウンロード</string>
+    <string name="no_download">ダウンロードしたアプリはありません。</string>
     <string name="downloads">ダウンロード</string>
 
     <string name="change_language_failed">言語切り替えに失敗しました。</string>
@@ -433,8 +433,8 @@
     <string name="reply_notification_msg">新しい返信の通知を受信する</string>
     <string name="like_notification">通知に賛成する</string>
     <string name="like_notification_msg">新しい賛成の通知を受信する</string>
-    <string name="gif_tip">gif</string>
-    <string name="submit_comment_title_hint">件名 (オプション)</string>
+    <string name="gif_tip">GIF</string>
+    <string name="submit_comment_title_hint">タイトル</string>
 
     <string name="comment_vote_string">投票する</string>
     <string name="comment_reply_three">返信する</string>
@@ -442,12 +442,12 @@
 
     <plurals name="comment_reply_item_fold">
         <item quantity="one"><xliff:g example="2" id="count"> 1%1$d</xliff:g> 2件の返信が崩れました</item>
-        <item quantity="other" />
+        <item quantity="other"/>
     </plurals>
 
     <string name="comment_no_reply">残念! ここには何もありません。</string>
     <string name="comment_reply_info_name">詳細</string>
-    <string name="set_updates_notification">利用可能なアプリのアップデート</string>
+    <string name="set_updates_notification">利用できるアップデート</string>
     <string name="set_updates_notification_msg">アプリのアップデートがいつ利用可能かを通知します。 推奨設定: オン</string>
     <string name="app_detail_unknow_text">旧バージョンAPKPureは新機能をサポートしていません。最新のものに更新してください。</string>
     <string name="comment_detail_original">元のコメントを表示 &gt;</string>
@@ -462,8 +462,8 @@
     <string name="download_history">ダウンロード履歴</string>
 
     <string name="sub_comment_dialog_title">ビデオを追加する</string>
-    <string name="sub_comment_dialog_des_tv">解析サポートはYouTube URLのみ</string>
-    <string name="sub_comment_dialog_link_et">ここに動画URLアドレスを入力してください</string>
+    <string name="sub_comment_dialog_des_tv">YouTube動画の解析のみをサポートします。</string>
+    <string name="sub_comment_dialog_link_et">ここに動画URLを入力してください。</string>
     <string name="sub_comment_dialog_link_null">動画のURLアドレスが空白にすることはできません</string>
     <string name="sub_comment_progress_msg">動画を追加しています…</string>
 
@@ -484,7 +484,7 @@
     <string name="app_detail_comment_order_array_old">オールド</string>
 
     <string name="app_detail_comment_join_group_bt">グループ</string>
-    <string name="ad_tip">ad</string>
+    <string name="ad_tip">広告</string>
     <string name="play_button">再生ボタン</string>
     <string name="null_time">0:00</string>
     <string name="open_video_in_youtube">YouTubeで動画を開く</string>
@@ -507,7 +507,7 @@
     <string name="please_login_first">まずログインしてください</string>
     <string name="no_choice">ノーチョイス</string>
     <string name="follow_on_success">フォローしました。</string>
-    <string name="follow_un_success">フォローを外しました。</string>
+    <string name="follow_un_success">アンフォロー。</string>
     <string name="canceled">キャンセル</string>
     <string name="group">グループ</string>
     <string name="collection">お気に入り</string>
@@ -562,7 +562,7 @@
     <string name="recommend_select_game">アプリをオススメする</string>
     <string name="recommend_write_des">記述</string>
 
-    <string name="download_mkdir">ダウンロードディレクトリ</string>
+    <string name="download_mkdir">ダウンロードパス</string>
     <string name="download_mkdir_external_storage_fill_toast">ストレージの容量が不足している場合、アプリをダウンロードできない可能性があります。</string>
 
     <string name="download_mkdir_internal_storage_values">本体ストレージ</string>
@@ -605,7 +605,7 @@
     <string name="scan_qr_code_result_title">結果</string>
     <string name="scan_qr_code_result_copy_text">テキストをコピーする</string>
     <string name="scan_qr_code_result_hint">QRコードの詳細: </string>
-    <string name="scan_qr_code_copy_success">テキストをコピーしました</string>
+    <string name="scan_qr_code_copy_success">テキストがコピーされました</string>
 
     <string name="user_info_edit_large_photo">写真をもっと大きなサイズで見る</string>
 
@@ -630,7 +630,7 @@
     <string name="there_is_no_label">タグはありません。</string>
     <string name="add">追加</string>
 
-    <string name="load_failed_error_not_found">APKPureアプリストアに登録されていないアプリ！</string>
+    <string name="load_failed_error_not_found">アプリはAPKPureアプリストアに登録されていません。</string>
     <string name="beta">ベータ版</string>
     <string name="user_info_edit_intro_tv">私について</string>
     <string name="update_intro_title">私について編集する</string>
@@ -745,4 +745,81 @@
 
     <string name="choice_evaluate">おすすめレビュー</string>
     <string name="choice_comment">おすすめ投稿</string>
-</resources>
+<string name="home_message_reply">コメント</string>
+    <string name="home_message_praise">いいね</string>
+    <string name="sign_in_services_key_policy_register">プライバシーポリシー</string>
+    <string name="emoji_input_error_hint">絵文字コメントはこれ以上許可されていません!何か書いて…</string>
+    <string name="load_all_choice_evaluate">すべてのレビューを見る</string>
+    <string name="load_all_choice_comment">すべての投稿を見る</string>
+    <string name="my_reservation_and_collection">事前登録とお気に入り</string>
+    <string name="upload_apk">APK をアップロード</string>
+    <string name="developer_badge_explanation">開発者バッジの説明</string>
+
+    <string name="from_user_recommendation">ユーザーのおすすめ</string>
+    <string name="topics">トピック</string>
+    <string name="pre_register_game">事前登録</string>
+    <string name="editors_picks">編集者のチョイス</string>
+    <string name="recommend_game">おすすめゲーム</string>
+
+    <string name="bing_share_account">サードパーティアカウントに接続する</string>
+    <string name="un_bind">接続されていません</string>
+    <string name="login_out_message_hint">ログアウトしますか\?</string>
+    <string name="bind_email_title">あなたのメールを接続する</string>
+    <string name="verification_code_resend_tv">検証コードを再送します</string>
+    <string name="send_verification_code_resend_tv">検証コードを送信する</string>
+    <string name="bind_email_success">接続に成功しました。</string>
+    <string name="community_guide_lines">Community Guidelines</string>
+
+    <string name="my_draft">My Draft</string>
+    <string name="verification_code_tv">確認コードがあなたのメールアドレス%1$sに送信されました</string>
+    <string name="verification_code_second_tv">%d sに再送信します</string>
+    <string name="update_email_tv">再確認してメールアドレスを更新してください</string>
+    <string name="verification_code_tv_hint">検証コード</string>
+    <string name="verification_success_code_toast">検証コードを送信します。</string>
+    <string name="verification_null_code_toast">受け取った検証コードを入力してください。</string>
+    <string name="unbind_email">接続されていません</string>
+    <string name="unbind_email_hint">アカウントにメールアドレスが接続されていません。</string>
+    <string name="menu_skip">スキップ</string>
+
+    <string name="forget_password_tv">パスワードをお忘れですか？</string>
+    <string name="recover_password_title">パスワードの回復</string>
+    <string name="email_address_hint_et">メールアドレスを入力してください。</string>
+
+    <string name="shop">ストア</string>
+    <string name="setting_region">地域</string>
+    <string name="submit_add_title_image_tv">カバーを追加する</string>
+    <string name="submit_add_title_image_error_toast">この画像は一時的にサポートされていない可能性があります。別のものを選択してください。</string>
+    <string name="comment_hint_tv">何かを共有しますか？</string>
+    <string name="msg_all_read">すべて既読にする</string>
+    <string name="msg_all_read_notice">通知</string>
+    <string name="msg_all_read_msg">すべてを既読にしてもよろしいですか？</string>
+    <string name="user_recommend_tip">ユーザーのおすすめ</string>
+    <string name="subject_comment">ハッシュタグ</string>
+    <string name="new_subject_comment">新しいハッシュタグ</string>
+    <string name="bind_email_tv">メールアドレスをアカウントに接続し、メールログイン、パスワード復元、投稿送信などのメリットを引き出しましょう。</string>
+    <string name="evaluating">レビュー</string>
+    <string name="image_text">ストーリー</string>
+    <string name="trends">投稿</string>
+    <string name="error_hot_data_empty">ホットハッシュタグはありません！</string>
+    <string name="hot_subject">ホットハッシュタグ</string>
+    <string name="menu_follow_subject">フォローしているハッシュタグ</string>
+    <string name="menu_follow_subject_tab">ハッシュタグ</string>
+    <string name="me_follow">マイフォロー</string>
+    <string name="release_dynamics">ポストモーメント</string>
+    <string name="delete_success">成功しました</string>
+    <string name="hot">ホット</string>
+    <string name="look_links">リンクを見る</string>
+
+    <string name="headline_no_data_tv">新しいコンテンツはありません</string>
+    <string name="hint">注意</string>
+    <string name="no_save_comment_hint">投稿されていない内容があります、終了しますか？</string>
+    <string name="look_all">もっと見る</string>
+    <string name="history_hastag">履歴ハッシュタグ</string>
+    <string name="share_image_failed">写真を共有できませんでした!</string>
+    <string name="share_select_image_overflow_hint">最大9枚の写真を共有できます。</string>
+    <string name="search_or_create">検索または作成</string>
+
+    <string name="privacy_setting_title">プライバシー設定</string>
+    <string name="privacy_setting_account">プライベートアカウント</string>
+    <string name="share_app_url_comment_v3">Share <xliff:g example="zhangsan" id="name">%1$s</xliff:g>\'s <xliff:g example="post/story/review" id="type">%2$s</xliff:g> (From APKPure):<xliff:g example="https://apkpure.com" id="url">%3$s </xliff:g></string>
+    </resources>

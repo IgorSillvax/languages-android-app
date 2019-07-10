@@ -2,18 +2,20 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
     <string name="action_settings">Cài đặt</string>
-    <string name="action_search">Search</string>
+    <string name="action_search">Tìm kiếm</string>
     <string name="action_management">Quản lý</string>
 
     <string name="press_back_key_quit">Nhấn phím trở lại một lần nữa để thoát.</string>
 
-    <string name="featured">Tính năng</string>
+    <string name="featured">Nổi bật</string>
     <string name="games">Trò chơi</string>
-    <string name="apps">Ứng dụng</string>
-    <string name="categories">Phần còn lại</string>
-    <string name="updates">Bản Cập Nhật</string>
+    <string name="apps">Trò chơi vo làm 777</string>
+    <string name="categories">Thể loại</string>
+    <string name="updates">Bản Cập Nhật vo lam 777
+\n</string>
 
-    <string name="something_happened">(&gt;~&lt;) đã có chuyện gì xảy ra</string>
+    <string name="something_happened">&gt;_&lt;
+\nĐã có lỗi xảy ra.</string>
 
     <string name="load_failed_error">Ôi!! Đã có lỗi xảy ra.</string>
     <string name="load_failed_empty">Không có gì ở đây.</string>
@@ -21,27 +23,25 @@
     <string name="load_failed_no_results">Xin lỗi! Không kết quả nào được tìm thấy.</string>
     <string name="refresh">Làm mới</string>
 
-    <string name="management">Quản lý ứng dụng</string>
-    <string name="app_updates">Cập nhật ứng dụng</string>
+    <string name="management">Quản lý</string>
+    <string name="app_updates">Cập nhật Ứng dụng</string>
     <string name="app_management">Đã cài đặt</string>
     <string name="app_uninstall">Gỡ cài đặt ứng dụng</string>
-    <string name="apk_management">Quản lý APK</string>
-    <string name="apk_xapk_management">Quản lý APK / XAPK</string>
-    <string name="download_management">Quản lý tải về</string>
+    <string name="apk_management">Trình quản lý APK</string>
+    <string name="apk_xapk_management">Trình quản lý APK / XAPK</string>
+    <string name="download_management">Trình Quản lý tải về</string>
     <string name="settings">Cài đặt</string>
     <string name="about">Thông tin</string>
     <string name="about_title">Về<xliff:g example="APKPure" id="app_name">%1$s</xliff:g></string>
-    <string name="about_message">
-        <![CDATA[<b>Phiên bản:</b> %1$s<br><br><b>Website:</b> <a href=%2$s>%2$s</a><br><b>Email:</b> <a href=mailto:%3$s>%3$s</a>]]>
-    </string>
+    <string name="about_message">&lt;b&gt;Phiên bản:&lt;/b&gt; %1$s&lt;br&gt;&lt;br&gt;&lt;b&gt;Website:&lt;/b&gt; &lt;a href=%2$s&gt;%2$s&lt;/a&gt;&lt;br&gt;&lt;b&gt;Email:&lt;/b&gt; &lt;a href=mailto:%3$s&gt;%3$s&lt;/a&gt;</string>
     <string name="check_update">Kiểm tra cập nhật</string>
     <string name="quit">Thoát</string>
-    <string name="want_to_quit">Bạn có chắc chắn muốn thoát chứ?</string>
+    <string name="want_to_quit">Bạn có chắc chắn muốn thoát chứ\?</string>
 
     <string name="install">Cài đặt app</string>
     <string name="open">Mở</string>
     <string name="delete">Xóa</string>
-    <string name="want_to_delete_file">Bạn muốn xóa tệp này?</string>
+    <string name="want_to_delete_file">Bạn muốn xóa tệp này\?</string>
     <string name="file_has_been_deleted">Tệp đã được xóa.</string>
     <string name="failed_to_delete_file">Xóa tệp đã thất bại.</string>
     <string name="install__label_">Cài đặt -<xliff:g example="APKPure" id="app_label">%1$s</xliff:g></string>
@@ -197,11 +197,9 @@
     <string name="delete_all">Xóa Tất Cả</string>
     <string name="properties">Thuộc tính</string>
 
-    <string name="properties_message">
-        <![CDATA[<b>Đường dẫn:</b> %1$s<br><b>Kích cở:</b> %2$s<br><b>Sửa đổi lần cuối:</b> %3$s]]>
-    </string>
+    <string name="properties_message">&lt;b&gt;Đường dẫn:&lt;/b&gt; %1$s&lt;br&gt;&lt;b&gt;Kích cở:&lt;/b&gt; %2$s&lt;br&gt;&lt;b&gt;Sửa đổi lần cuối:&lt;/b&gt; %3$s</string>
 
-    <string name="want_to_delete_all_files">Bạn có muốn xóa toàn bộ các tệp tin không?</string>
+    <string name="want_to_delete_all_files">Bạn có muốn xóa toàn bộ các tệp tin không\?</string>
     <string name="similar_or_related">Giống hoặc Liên quan</string>
     <string name="more_from_developer">Cùng Nhà phát triển</string>
     <string name="more_large">Thêm</string>
@@ -556,7 +554,7 @@
         3. Thông báo cho APKPure thêm các ứng dụng không được lập chỉ mục, vui lòng hoàn tất mẫu đề xuất trước.</string>
     <string name="recommend_user_recommend">Được đề xuất bởi %1$s</string>
     <string name="recommend_required">Phần bắt buộc</string>
-    <string name="load_failed_error_not_found">Ứng dụng này không được đuợc liệt kê trong APKPure.</string>
+    <string name="load_failed_error_not_found">Ứng dụng này không tồn tại trên APKPure.</string>
     <string name="beta">Thử nghiệm</string>
     <string name="history_version">Lịch sử phiên bản</string>
 
@@ -706,9 +704,7 @@
     <string name="comment_list_new_num">%d Tiêu đề Mới</string>
 
     <string name="tab_popular">PHỔ BIẾN</string>
-    <string name="properties_message_v2">
-        <![CDATA[<b>Tên gói:</b> %1$s<br><b>Phiên bản:</b> %2$s<br><b>Đường dẫn:</b> %3$s<br><b>Kích cỡ:</b> %4$s<br><b>Lần sửa đổi cuối:</b> %5$s]]>
-    </string>
+    <string name="properties_message_v2">&lt;b&gt;Tên gói:&lt;/b&gt; %1$s&lt;br&gt;&lt;b&gt;Phiên bản:&lt;/b&gt; %2$s&lt;br&gt;&lt;b&gt;Đường dẫn:&lt;/b&gt; %3$s&lt;br&gt;&lt;b&gt;Kích cỡ:&lt;/b&gt; %4$s&lt;br&gt;&lt;b&gt;Lần sửa đổi cuối:&lt;/b&gt; %5$s</string>
     <string name="app_detail_tab_evaluation">Đánh giá</string>
     <string name="app_detail_comment_filter_sort_score">Đánh giá hàng đầu</string>
     <string name="app_detail_comment_filter_all">Toàn bộ đánh giá</string>
@@ -825,4 +821,13 @@
     <string name="del_account_sure">Tài khoản của bạn sẽ bị xóa sau tối đa 48 giờ. Bạn sẽ không thể đăng nhập bằng tài khoản này sau khi xóa. Vui lòng liên hệ với chúng tôi nếu bạn có thêm câu hỏi.</string>
     <string name="reply_to">Gửi tới %1$s:</string>
 
-</resources>
+<string name="msg_all_read_notice">Thông Báo</string>
+    <string name="apk_unable_upload">Tải apk lên thất bại.</string>
+    <string name="save_tag_hint_msg">Các thay đổi chưa được lưu lại. Bạn có chắc muốn thoát\?</string>
+    <string name="headline_footer_refresh">Trượt xuống hoặc chạm vào dòng này để làm mới.</string>
+
+    <string name="download_install_obb">Cài đặt OBB</string>
+    <string name="download_install_apk">Cài đặt APK</string>
+
+    <string name="users_recommended_title">Chúc mừng!</string>
+    </resources>

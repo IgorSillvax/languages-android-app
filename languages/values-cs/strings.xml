@@ -1,26 +1,22 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2"><string name="action_settings">Nastavení</string>
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="action_settings">Nastavení</string>
     <string name="action_search">Hledání</string>
     <string name="press_back_key_quit">"Stiskněte ještě jednou tlačítko Zpět pro  ukončení programu."</string>
-
     <string name="featured">Doporučené</string>
     <string name="action_management">Řízení
 </string>
-
     <string name="games">Hry</string>
     <string name="apps">Aplikace</string>
     <string name="categories">Kategorie</string>
     <string name="updates">Aktualizace</string>
-
     <string name="something_happened">Něco se stalo.</string>
-
     <string name="load_failed_error">Jejda! Vyskytla se chyba.</string>
     <string name="load_failed_empty">Tady nic není.</string>
     <string name="recommend">Objev</string>
     <string name="load_failed_all_up_to_date">Všechny aplikace jsou aktualizovány.</string>
     <string name="load_failed_no_results">Je nám líto! Nebyly nalezeny žádné výsledky.</string>
     <string name="refresh">Obnovit</string>
-
     <string name="management">Spravování</string>
     <string name="app_updates">Aktualizace aplikací</string>
     <string name="app_management">Instalováno</string>
@@ -31,9 +27,8 @@
     <string name="download_management">Správce stahování</string>
     <string name="settings">Nastavení</string>
     <string name="about">O nás</string>
-
-
-    <string name="about_title">"O  "<xliff:g example="APKPure" id="app_name"/></string>
+    <string name="about_title">"O  "<xliff:g example="APKPure" id="app_name"/>
+    </string>
     <string name="about_message">"&lt;b&gt;Verze:&lt;/b&gt; %1$s&lt;br&gt;&lt;br&gt;&lt;b&gt;Web:&lt;/b&gt; &lt;a href=%2$s&gt;%2$s&lt;/a&gt;&lt;br&gt;&lt;b&gt;E-mail:&lt;/b&gt; &lt;a href=mailto:%3$s&gt;%3$s&lt;/a&gt;
 \n "</string>
     <string name="check_update">Zkontrolovat aktualizace</string>
@@ -42,7 +37,6 @@
     <string name="beta">beta</string>
     <string name="quit">Odejít</string>
     <string name="want_to_quit">Opravdu si přejete odejít?</string>
-
     <string name="install">Instalovat</string>
     <string name="open">Otevřít</string>
     <string name="delete">Smazat</string>
@@ -58,11 +52,9 @@
     <string name="installing_obb">Instaluji OBB soubory …</string>
     <string name="extracting_apk">Rozbaluji soubor APK …</string>
     <string name="installing_apk">Instaluji APK …</string>
-
     <string name="uninstall">Odinstalování</string>
     <string name="uninstalled">Odinstalováno</string>
     <string name="all">Vše</string>
-
     <string name="screenshots">Screenshoty</string>
     <string name="whatsnew">Co je nového</string>
     <string name="information">Informace</string>
@@ -84,7 +76,6 @@
     <string name="flag_as_inappropriate">Označit jako nevhodné</string>
     <string name="_ellipsis_"> ... </string>
     <string name="history_version">Historie verzí</string>
-
     <string name="market_response_error_success">Úspěšně dokončeno.</string>
     <string name="market_response_error_invalid_result">Neplatný výsledek.</string>
     <string name="market_response_error_network_connect_error">Chyba spojení sítě.</string>
@@ -92,24 +83,24 @@
     <string name="market_response_error_invalid_response_code">Chybný kód.</string>
     <string name="market_response_error_invalid_response_body">Chybné tělo souboru.</string>
     <string name="market_response_error_unknown_error__error_">Neznámá chyba: (<xliff:g example="SUCCESS" id="error">%1$s</xliff:g>).</string>
-
     <string name="update">Aktualizace</string>
-    <string name="version__version___size_">Verze: <xliff:g example="1.0.0" id="version">%1$s</xliff:g>, <xliff:g example="1024 kB" id="size">%2$s</xliff:g></string>
+    <string name="version__version___size_">Verze: <xliff:g example="1.0.0" id="version">%1$s</xliff:g>, <xliff:g example="1024 kB" id="size">%2$s</xliff:g>
+    </string>
     <string name="launching_please_wait">Načítám, prosím čekejte …</string>
-
     <plurals name="_count__item_is_downloading">
-	<item quantity="one"><xliff:g example="1" id="count">
-\n%1$d</xliff:g> položka se stahuje</item>
-	<item quantity="few"><xliff:g example="2" id="count">
-\n%1$d</xliff:g> položky se stahují</item>
-	<item quantity="other"/>
-</plurals>
+        <item quantity="one">
+            <xliff:g example="1" id="count">%1$d</xliff:g> položka se stahuje</item>
+        <item quantity="few">
+            <xliff:g example="2" id="count">%1$d</xliff:g> položky se stahují</item>
+        <item quantity="other"></item>
+    </plurals>
     <string name="downloads_complete">Stahování dokončena</string>
     <string name="touch_for_view_all_downloads">Dotkni se pro zobrazení všech stahování</string>
-    <string name="_name__download_failed"><xliff:g example="APKPure" id="name">%1$s</xliff:g> chyba stahování</string>
+    <string name="_name__download_failed">
+        <xliff:g example="APKPure" id="name">%1$s</xliff:g> chyba stahování</string>
     <string name="touch_to_download_it_again">Stáhnout znova</string>
-
-    <string name="download_percent"><xliff:g example="50" id="percent">%1$d</xliff:g> % procent</string>
+    <string name="download_percent">
+        <xliff:g example="50" id="percent">%1$d</xliff:g> % procent</string>
     <string name="pause">Přerušit</string>
     <string name="pause_all">Přerušit vše</string>
     <string name="continue_">Pokračovat</string>
@@ -136,39 +127,37 @@
     <string name="delete_downloaded_file">Smazat stažený soubor</string>
     <string name="download_over_cellular">Stáhnout přes mobilní data</string>
     <string name="download_over_cellular_content">Chystáte se stahovat přes Vaše mobilní data. Přejete si pokračovat?</string>
-
     <string name="search">Vyhledat</string>
     <string name="search_for_apps">Vyhledat v APKPure</string>
     <string name="properties_message">&lt;b&gt;Cesta:&lt;/b&gt; %1$s&lt;br&gt;&lt;b&gt;Velikost:&lt;/b&gt; %2$s&lt;br&gt;&lt;b&gt;Poslední změna:&lt;/b&gt; %3$s</string>
-    <string name="install__label_">Instalování - <xliff:g example="APKPure" id="app_label">%1$s</xliff:g></string>
-    <string name="last_update__date_">Poslední aktualizace: <xliff:g id="date">%1$s</xliff:g></string>
-
+    <string name="install__label_">Instalování - <xliff:g example="APKPure" id="app_label">%1$s</xliff:g>
+    </string>
+    <string name="last_update__date_">Poslední aktualizace: <xliff:g id="date">%1$s</xliff:g>
+    </string>
     <string name="description">Vlastnosti</string>
     <string name="no_more">Nic víc.</string>
-
     <plurals name="_count__new_update_is_available">
-	<item quantity="one"><xliff:g example="1" id="count">%1$d</xliff:g> je dostupná nová aktualizace</item>
-	<item quantity="few"><xliff:g example="2" id="count">%1$d</xliff:g> Jsou dostupné nové aktualizace</item>
-	<item quantity="many"><xliff:g example="2" id="count">%1$d</xliff:g> dostupných aktualizací</item>
-	<item quantity="other"/>
-</plurals>
-
+        <item quantity="one">
+            <xliff:g example="1" id="count">%1$d</xliff:g> je dostupná nová aktualizace</item>
+        <item quantity="few">
+            <xliff:g example="2" id="count">%1$d</xliff:g> Jsou dostupné nové aktualizace</item>
+        <item quantity="many">
+            <xliff:g example="2" id="count">%1$d</xliff:g> dostupných aktualizací</item>
+        <item quantity="other"/>
+    </plurals>
     <string name="search_history">Historie</string>
     <string name="clear_search_history">Smazat celou historii</string>
-
     <string name="improvement_plan_title">Plán na zvýšení výkonu</string>
     <string name="improvement_plan_message">Pomozte nám a povolte informace o android zařízení, <b>nebudeme je uchovávat</b> žádné osobní údaje (jméno, adresu, emailovou adresu, čísla sociálních zabezpečení nebo jiné soukromé údaje). </string>
     <string name="join_us">Přidejte se k nám</string>
     <string name="skip">Přeskočit</string>
-
     <string name="participate_ultra_download_beta_test_title">Povolte Ultra Sownload a užijte si rychlejší stahování</string>
     <string name="participate_ultra_download_beta_test_content">Ultea Download je v Beta testování, prosím dejte nám vědět pokud se vyskytnou nějaké problémy. Službu můžete jednoduše deaktivovat v Nastavení.</string>
     <string name="enable">Povolit</string>
-
-    <string name="_name__is_up_to_date"><xliff:g example="APKPure" id="name">%1$s</xliff:g>"  Je aktuální."</string>
+    <string name="_name__is_up_to_date">
+        <xliff:g example="APKPure" id="name">%1$s</xliff:g>"  Je aktuální."</string>
     <string name="new_version_available_title">K dispozici nová verze</string>
     <string name="new_version_available_message">&lt;b&gt;Poslední verze:&lt;/b&gt; %1$s&lt;br&gt;&lt;br&gt;&lt;b&gt;Co je nového:&lt;/b&gt;&lt;br&gt;%2$s</string>
-
     <string name="report">Hlášení</string>
     <string name="report__">Hlášení…</string>
     <string name="report_problem__">Nahlásit problém…</string>
@@ -182,12 +171,10 @@
     <string name="contact_us">Kontaktujte nás</string>
     <string name="report_content">Obsah hlášení</string>
     <string name="feedback">Zpětná vazba</string>
-
     <string name="installation_failed">Chyba instalace</string>
     <string name="invalid_app_detail">Chybný popis aplikace.</string>
     <string name="incompatible_this_app">&lt;big&gt;&lt;b&gt;&lt;font color=%1$d&gt;Vaše zařízení není kompatibilní s touto aplikací.&lt;/font&gt;&lt;/b&gt;&lt;/big&gt;&lt;br&gt;&lt;br&gt;Přesto chcete pokračovat?</string>
     <string name="this_app_not_usable">&lt;big&gt;&lt;b&gt;&lt;font color=%1$d&gt;Tato aplikace může být nestabilní.&lt;/font&gt;&lt;/b&gt;&lt;/big&gt;&lt;br&gt;&lt;br&gt;Přejete si pokračovat?</string>
-
     <string name="setting">Nastavení</string>
     <string name="properties_message_v2">&lt;b&gt;Název balíčku:&lt;/b&gt; %1$s&lt;br&gt;&lt;b&gt;Verze:&lt;/b&gt; %2$s&lt;br&gt;&lt;b&gt;Cesta:&lt;/b&gt; %3$s&lt;br&gt;&lt;b&gt;Velikost:&lt;/b&gt; %4$s&lt;br&gt;&lt;b&gt;Naposledy upraveno:&lt;/b&gt; %5$s</string>
     <string name="parsing_xapk">Analýza XAPK…</string>
@@ -195,17 +182,29 @@
     <string name="invalid_app_asset">Neplatné informace o zdrojích aplikací.</string>
     <string name="failed_to_request_app_detail">Nepodařilo se vyžádat informace o podrobnostech aplikace.</string>
     <string name="failed_to_request_app_asset">Nepodařilo se vyžádat informace o zdrojích aplikací.</string>
-    <string name="external_storage_not_usable"><big><b>Musíme přistupovat k externímu úložišti. Ujistěte se, že je použitelný.</b></big></string>
-    <string name="external_storage_permission_denied"><big><b>Musíme přistupovat k externímu úložišti. Ujistěte se, že povolení není odmítnuto.</b></big></string>
-
+    <string name="external_storage_not_usable">
+        <big>
+            <b>Musíme přistupovat k externímu úložišti. Ujistěte se, že je použitelný.</b>
+        </big>
+    </string>
+    <string name="external_storage_permission_denied">
+        <big>
+            <b>Musíme přistupovat k externímu úložišti. Ujistěte se, že povolení není odmítnuto.</b>
+        </big>
+    </string>
     <string name="share">Sdílet</string>
-    <string name="share_app_url"> Sdílet <xliff:g example="APKPure" id="app_name">%1$s</xliff:g> APK (z <xliff:g example="APKPure" id="social_network_name">%2$s</xliff:g>) <xliff:g example="https://apkpure.com/p/com.apkpure.aegon" id="app_url">%3$s</xliff:g> </string>
-    <string name="share_app_url_comment"> <xliff:g example="APKPure" id="user_name">%1$s</xliff:g>komentáře <xliff:g example="APKPure" id="app_name">%2$s</xliff:g> : <xliff:g example="APKPure" id="app_name">%3$s</xliff:g> (z <xliff:g example="APKPure" id="social_network_name">%4$s</xliff:g>) <xliff:g example="https://apkpure.com/p/com.apkpure.aegon" id="app_url">%5$s</xliff:g> </string>
-    <string name="share_app_url_group"> <xliff:g example="APKPure" id="app_name">%1$s</xliff:g> Skupina. (z <xliff:g example="APKPure" id="social_network_name">%2$s</xliff:g>) <xliff:g example="https://apkpure.com/p/com.apkpure.aegon" id="app_url">%3$s</xliff:g> </string>
-
-    <string name="_name__version_history"><xliff:g example="APKPure" id="name">%1$s</xliff:g> Historie verzí</string>
-    <string name="update__date___size_">Update: <xliff:g example="Mar 3, 2016" id="date">%1$s</xliff:g>, <xliff:g example="1024 kB" id="size">%2$s</xliff:g></string>
-
+    <string name="share_app_url"> Sdílet <xliff:g example="APKPure" id="app_name">%1$s</xliff:g> APK (z <xliff:g example="APKPure" id="social_network_name">%2$s</xliff:g>) <xliff:g example="https://apkpure.com/p/com.apkpure.aegon" id="app_url">%3$s</xliff:g>
+    </string>
+    <string name="share_app_url_comment">
+        <xliff:g example="APKPure" id="user_name">%1$s</xliff:g>komentáře <xliff:g example="APKPure" id="app_name">%2$s</xliff:g> : <xliff:g example="APKPure" id="app_name">%3$s</xliff:g> (z <xliff:g example="APKPure" id="social_network_name">%4$s</xliff:g>) <xliff:g example="https://apkpure.com/p/com.apkpure.aegon" id="app_url">%5$s</xliff:g>
+    </string>
+    <string name="share_app_url_group">
+        <xliff:g example="APKPure" id="app_name">%1$s</xliff:g> Skupina. (z <xliff:g example="APKPure" id="social_network_name">%2$s</xliff:g>) <xliff:g example="https://apkpure.com/p/com.apkpure.aegon" id="app_url">%3$s</xliff:g>
+    </string>
+    <string name="_name__version_history">
+        <xliff:g example="APKPure" id="name">%1$s</xliff:g> Historie verzí</string>
+    <string name="update__date___size_">Update: <xliff:g example="Mar 3, 2016" id="date">%1$s</xliff:g>, <xliff:g example="1024 kB" id="size">%2$s</xliff:g>
+    </string>
     <string name="update_all">Updatovat vše</string>
     <string name="update___count__">Update (<xliff:g example="3" id="count">%1$d</xliff:g>)</string>
     <string name="ignore">Ignorovat</string>
@@ -216,12 +215,11 @@
     <string name="deselect_all">Zrušit vybrání všech</string>
     <string name="ignored">Ignorováno</string>
     <plurals name="total__count__apps__size_">
-	<item quantity="one">Celkem: &lt;b&gt;&lt;font color=%1$d&gt;%2$d&lt;/font&gt;&lt;/b&gt; aplikace, &lt;b&gt;&lt;font color=%1$d&gt;%3$s&lt;/font&gt;&lt;/b&gt;</item>
-	<item quantity="few">Celkově: &lt;b&gt;&lt;font color=%1$d&gt;%2$d&lt;/font&gt;&lt;/b&gt; aplikace, &lt;b&gt;&lt;font color=%1$d&gt;%3$s&lt;/font&gt;&lt;/b&gt;</item>
-	<item quantity="other">Celkem: &lt;b&gt;&lt;font color=%1$d&gt;%2$d&lt;/font&gt;&lt;/b&gt; aplikací, &lt;b&gt;&lt;font color=%1$d&gt;%3$s&lt;/font&gt;&lt;/b&gt;</item>
-</plurals>
+        <item quantity="one">Celkem: &lt;b&gt;&lt;font color=%1$d&gt;%2$d&lt;/font&gt;&lt;/b&gt; aplikace, &lt;b&gt;&lt;font color=%1$d&gt;%3$s&lt;/font&gt;&lt;/b&gt;</item>
+        <item quantity="few">Celkově: &lt;b&gt;&lt;font color=%1$d&gt;%2$d&lt;/font&gt;&lt;/b&gt; aplikace, &lt;b&gt;&lt;font color=%1$d&gt;%3$s&lt;/font&gt;&lt;/b&gt;</item>
+        <item quantity="other">Celkem: &lt;b&gt;&lt;font color=%1$d&gt;%2$d&lt;/font&gt;&lt;/b&gt; aplikací, &lt;b&gt;&lt;font color=%1$d&gt;%3$s&lt;/font&gt;&lt;/b&gt;</item>
+    </plurals>
     <string name="total_zero_app">Celkem: &lt;b&gt;&lt;font color=%1$d&gt;0&lt;/font&gt;&lt;/b&gt; aplikace</string>
-
     <string name="general">Hlavní</string>
     <string name="language">Jazyk</string>
     <string name="auto">Automaticky</string>
@@ -234,16 +232,13 @@
     <string name="installation">Instalace</string>
     <string name="show_notification_after_installation">Ukázat upozornění po instalaci</string>
     <string name="delete_packages_after_installation">Smazat .apk soubory po instalaci</string>
-
-    <string name="_name__installation_completed"><xliff:g example="APKPure" id="name">%1$s</xliff:g> instalace dokončena</string>
+    <string name="_name__installation_completed">
+        <xliff:g example="APKPure" id="name">%1$s</xliff:g> instalace dokončena</string>
     <string name="touch_to_open">Klepnutím otevřete.</string>
-
     <string name="auto_service_install_accessibility_title">Automatická instalace</string>
     <string name="auto_service_install_accessibility_summary">Podpora Android 4.1 a novější, není potřeba root oprávnění.</string>
-
     <string name="auto_service_dialog_title">Zapnout automatickou instalaci</string>
     <string name="auto_service_dialog_message">Automatická instalace vyžaduje autorizaci v telefonu, je to bezpečné a bez rizika.</string>
-
     <string name="auto_service_title">APKPure Automatická Instalace</string>
     <string name="auto_service_description">Aktivujte \"Automatickou instalaci APKPure\", abyste udrželi APKPure \"Auto Install\" běžící hladce
 \n
@@ -254,26 +249,22 @@
 \nChcete-li zajistit, aby APKPure dobře fungoval, přidejte APKPure do vašeho \"White Listu\" v aplikaci pro čištění
 \n
 \nVýše uvedené funkce podporují Android 4.1 a vyšší, bez potřeby rootu. Slibujeme, že nikdy nezbudete shromažďovat žádné z vašich osobních informací v této zpřístupněné službě. Neváhejte nás kontaktovat s jakýmikoli problémy.</string>
-
     <string name="auto_service_install">Instalace</string>
     <string name="auto_service_ensure">OK</string>
     <string name="auto_service_next">Další</string>
     <string name="auto_service_exchange">Přepsat</string>
     <string name="auto_service_complete">Hotovo</string>
-
     <string name="auto_service_install__material_">INSTALACE</string>
     <string name="auto_service_ensure__material_">OK</string>
     <string name="auto_service_next__material_">DALŠÍ</string>
     <string name="auto_service_exchange__material_">PŘEPSAT</string>
     <string name="auto_service_complete__material_">HOTOVO</string>
-
     <string name="auto_install_via_root_title">Automatická Instalace (Vyžadován Root)</string>
     <string name="auto_install_via_root_summary">Pouze pro ROOTnutá zařízení.</string>
-
     <string name="app_detail_customer_reviews">Komentáře</string>
     <string name="app_detail_comment_type_web">web</string>
     <string name="app_submit_submit">Odeslat…</string>
     <string name="app_submit_anonymous_comment">Přidat komentář</string>
     <string name="app_submit_title_toast">Musíte napsat nadpis!</string>
     <string name="app_submit_msg_toast">Musíte něco napsat!</string>
-    </resources>
+</resources>

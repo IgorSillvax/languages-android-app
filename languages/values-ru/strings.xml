@@ -264,7 +264,7 @@
     <string name="auto_service_exchange__material_">ЗАМЕНА</string>
     <string name="auto_service_complete__material_">ГОТОВО</string>
 
-    <string name="login_post_as_a_guest">Войти без регистрации</string>
+    <string name="login_post_as_a_guest">Опубликовать без регистрации</string>
 
     <string name="report">Пожаловаться</string>
     <string name="auto_install_via_root_title">Автоматическая установка (Нужен Root)</string>
@@ -380,7 +380,7 @@
     <string name="app_submit_title_toast">Напишите заглавие!</string>
     <string name="app_submit_star_toast">Дайте оценку!</string>
     <string name="app_submit_nickname">Никнейм</string>
-    <string name="app_submit_reply_to">ответить</string>
+    <string name="app_submit_reply_to">ответил</string>
     <string name="app_detail_reply_comment">Коментарий(%d)</string>
     <string name="app_detail_tab_three">Связанное</string>
 
@@ -398,7 +398,7 @@
 
     <string name="app_detail_comment_type_web">сайт</string>
     <string name="app_detail_comment_order_array_default">Сортировать по умолчанию</string>
-    <string name="recommend">Марио</string>
+    <string name="recommend">"Все "</string>
     <string name="share_app_url_comment"> Коментарии <xliff:g example="APKPure" id="user_name">%1$s</xliff:g> к
         <xliff:g example="APKPure" id="app_name">%2$s</xliff:g> :
         <xliff:g example="APKPure" id="app_name">%3$s</xliff:g> (из @<xliff:g example="APKPure" id="social_network_name">%4$s</xliff:g>)
@@ -480,7 +480,7 @@
     <string name="check_update_replace">Официальная версия</string>
     <string name="download_mkdir_external_storage_values">Внешнее_хранилище</string>
 
-    <string name="check_update_beta">Предварительная версия Бета</string>
+    <string name="check_update_beta">Предварительная Бета версия</string>
     <string name="history_version">История версий</string>
 
     <string name="app_detail_comment_order_array_old">Старые</string>
@@ -521,7 +521,7 @@
     <string name="push_title_info_follow">%1$s подписалися на тебя!</string>
     <string name="push_title_info_update">Доступно обновление APKPure!</string>
     <string name="push_content_info_update">Выпущена новая версия %1$s! Обновить сейчас!</string>
-    <string name="push_title_info_at">Кто-то упомянул вас в записи, нажмите, чтобы посмотреть</string>
+    <string name="push_title_info_at">Кто-то упомянул вас в пост, нажмите, чтобы посмотреть</string>
 
     <string name="play_button">Кнопка воспроизведения</string>
     <string name="open_video_in_youtube">Откройте видео в YouTube</string>
@@ -713,7 +713,7 @@
 
     <string name="tab_global">РЕКОМЕНДАЦИЯ</string>
     <string name="comment_list_see_here">Последнее посещение здесь. Нажмите, чтобы обновить.</string>
-    <string name="comment_list_new_num">%d Новые заголовки</string>
+    <string name="comment_list_new_num">%d Новых комментариев</string>
     <string name="tab_popular">ПОПУЛЯРНЫЕ</string>
     <string name="app_detail_tab_evaluation">Отзывы</string>
     <string name="app_detail_comment_filter_sort_score">Топ рейтинг</string>
@@ -792,7 +792,7 @@
     <string name="submit_add_title_image_tv">Дабавить обложку</string>
     <string name="submit_add_title_image_error_toast">Возможно, эта картина временно не поддерживается. Выберите другую.</string>
     <string name="comment_hint_tv">Поделиться чем-нибудь?</string>
-    <string name="msg_all_read">Уведомление</string>
+    <string name="msg_all_read">Пометить как прочитанное</string>
     <string name="msg_all_read_msg">Вы уверены, что отметьте все как прочитанные?</string>
     <string name="user_recommend_tip">Рекомендация Пользователя</string>
     <string name="comments">Комментарии</string>
@@ -800,13 +800,13 @@
     <string name="new_subject_comment">Новый хэштег</string>
     <string name="evaluating">Отзыв</string>
     <string name="image_text">картина и текст</string>
-    <string name="trends">Запись</string>
+    <string name="trends">Пост</string>
     <string name="error_hot_data_empty">Нет горячих хэштегов!</string>
     <string name="hot_subject">Горячий хэштег</string>
     <string name="menu_follow_subject">Хэштеги</string>
     <string name="menu_follow_subject_tab">Хэштег</string>
     <string name="me_follow">Подписка</string>
-    <string name="release_dynamics">Опубликовать запись</string>
+    <string name="release_dynamics">Опубликовать пост</string>
     <string name="delete_success">Удаленно</string>
     <string name="hot">горячий</string>
     <string name="look_links">Просмотреть ссылку</string>
@@ -832,7 +832,53 @@
     <string name="del_account_bt">Отправить</string>
     <string name="del_account_result_warn">После удаления вы не сможете войти в этот аккаунт.</string>
     <string name="del_account_reason_hint">Почему вы хотите удалить этот аккаунт?</string>
-    <string name="del_account_sure">Ваш аккаунт будет удалена через не более 48 часов. После удаления вы не сможете войти в этот аккаунт. Если у вас есть дополнительные вопросы, свяжитесь с нами.</string>
+    <string name="del_account_sure">Ваш аккаунт будет удален в течении 48 часов. Если у вас есть дополнительные вопросы, свяжитесь с нами.</string>
     <string name="reply_to">Ответить %1$s:</string>
 
-</resources>
+<string name="apk_unable_upload">Не удалось загрузить приложение.</string>
+    <string name="long_image">Длинное изображение</string>
+    <string name="edit_tag">Править метки</string>
+    <string name="save_tag_hint_msg">Изменения не будут сохранены. Выйти в любом случае\?</string>
+    <string name="un_follow_xx">Отписаться от <xliff:g example="Apkpure" id="name">%1$s</xliff:g></string>
+    <string name="follow_xx">Подписаться на <xliff:g example="Apkpure" id="name">%1$s</xliff:g></string>
+    <string name="app_rating">Оценка:</string>
+    <string name="download_install_obb">Установить OBB</string>
+    <string name="download_install_apk">Установить APK</string>
+
+    <string name="users_recommended_title">Поздравляем!</string>
+    <string name="recommended_posts_title">Поздравляем!</string>
+    <string name="my_draft">Черновики</string>
+    <string name="several_draft"><xliff:g example="5" id="count">%1$s</xliff:g> черновиков</string>
+    <string name="delete_all_draft_hint">Удалить все черновики\?</string>
+    <string name="edit_draft">Править черновик</string>
+    <string name="delete_draft">Удалить черновик</string>
+    <string name="is_save_comment_draft">Сохранить как черновик\?</string>
+    <string name="upload_video">Загрузить видео</string>
+    <string name="saved_draft">Сохранено как черновик</string>
+
+<string name="msg_all_read_notice">Уведомление</string>
+    <string name="share_app_url_comment_v3">Поделиться <xliff:g example="zhangsan" id="name">1%1$s</xliff:g>2\'s <xliff:g example="post/story/review" id="type">3%2$s</xliff:g>4 (Из APKPure):<xliff:g example="https://apkpure.com" id="url">5%3$s </xliff:g>6</string>
+    <string name="number">\"</string>
+    <string name="headline_footer_refresh">Потяните вниз или коснитесь этой строки, чтобы обновить.</string>
+
+    <string name="users_recommended_des">Ваш отзыв был выбран как рекомендация пользователя,%1$s</string>
+    <string name="recommended_posts_des">Ваш отзыв был выбран как рекомендация пользователя,%1$s</string>
+    <string name="comment_removed_title">Ваш пост был удален</string>
+    <string name="comment_removed_des">Похоже, что то, что вы опубликовали, не соответствует нашим %1$s. Мы не разрешаем посты, которые запугивают частных лиц или преследуют кого-либо на APKPure. Это может включать неуместные изображения, фотографии или видео о физическом запугивании или любой другой пост, предназначенный для унижения или позора конкретного человека.
+\n%2$s 
+\nЕсли вы считаете, что это ошибка,пожалуйста%3$s.</string>
+    <string name="temporarily_blocked_title">Вы временно заблокированы от публикации</string>
+    <string name="temporarily_blocked_des">Этот временный блок будет длиться %1$s дней, и вы не сможете опубликовать на APKPure, пока он не будет завершен. Если вы опубликуете что-то, что противоречит нашим %2$s ещё раз, ваша учетная запись будет заблокирована еще на 30 дней. Имейте в виду, что люди, которые постоянно опубликуют вещи, которые не разрешены на APKPure, могут навсегда отключить ваши учетные записи.
+\nЕсли вы считаете, что это ошибка,% 3 $ s.</string>
+    <string name="pre_register_title">%1$s выпущено %2$s！</string>
+    <string name="pre_register_des">"Предварительно зарегистрированная игра %1$s   %2$s доступна для скачивания.%3$s"</string>
+    <string name="report_callback_title">Мы удалили пост, о котором вы сообщили!</string>
+    <string name="report_callback_des">Мы просмотрели пост, о котором вы сообщили, о преследовании. Так как он нарушил наш %1$s, мы удалили его. Спасибо за вашу жалобу. Мы сообщаем %2$s, что пост был удален, но не сообщали кто жаловался.</string>
+
+    <string name="tap_to_view">нажмите, чтобы посмотреть</string>
+    <string name="let_us_know">сообщить нам</string>
+    <string name="community_guide_lines">Принципы сообщества</string>
+
+    <string name="clear_empty">Очистить все</string>
+    <string name="empty_draft_info">Нет контента…</string>
+    </resources>

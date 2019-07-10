@@ -55,7 +55,7 @@
     <string name="parsing_xapk">Parsowanie XAPK…</string>
     <string name="installing_obb">Instalowanie plików OBB …</string>
     <string name="extracting_apk">"Wypakowywanie pliku APK ... "</string>
-    <string name="installing_apk">Instalowanie APK …</string>
+    <string name="installing_apk">"Instalowanie pliku APK ... "</string>
 
     <string name="uninstall">"Odinstaluj "</string>
     <string name="uninstalled">Odinstalowano</string>
@@ -321,7 +321,7 @@
 
     <string name="no_more">To wszystko.</string>
 
-    <string name="failed_to_request_app_asset">Nie udało się uzyskać informacji o zasobach aplikacji.</string>
+    <string name="failed_to_request_app_asset">Nie udało się zażądać informacji o aktywach aplikacji</string>
     <string name="share_app_url"> Udostępnij <xliff:g example="APKPure" id="app_name">%1$s</xliff:g> APK (od <xliff:g example="APKPure" id="social_network_name">%2$s</xliff:g>) <xliff:g example="https://apkpure.com/p/com.apkpure.aegon" id="app_url">%3$s</xliff:g> </string>
     <string name="update_all">Aktualizuj wszystkie</string>
     <string name="ignore">Ignoruj z listy</string>
@@ -406,7 +406,7 @@
     <string name="app_submit_nickname">Pseudonim</string>
     <string name="app_submit_email">Email</string>
     <string name="app_submit_submit_title">Post</string>
-    <string name="app_submit_reply_to">odpowiedź</string>
+    <string name="app_submit_reply_to">odpowiedz</string>
 
     <string name="app_detail_tab_one">Szczegóły</string>
     <string name="app_detail_tab_two">Grupa</string>
@@ -424,7 +424,7 @@
 
     <string name="app_detail_comment_order_array_default">Sortuj według domyślnych</string>
     <string name="app_detail_comment_order_array_most_recent">Najnowsze</string>
-    <string name="app_detail_comment_order_array_new">Nowe</string>
+    <string name="app_detail_comment_order_array_new">Najnowsze</string>
     <string name="app_detail_comment_order_array_best">Najlepsze</string>
     <string name="app_detail_comment_order_array_old">Najstarsze</string>
 
@@ -454,7 +454,7 @@
     <string name="download_mkdir_internal_storage_values">pamięć_wewnętrzna</string>
     <string name="download_mkdir_external_storage_values">pamięć_zewnętrzna</string>
 
-    <string name="reply">Odpowiedź</string>
+    <string name="reply">Odpowiedz</string>
     <string name="input_reply_content">Wprowadź treść odpowiedzi:</string>
     <string name="publish">Post</string>
     <string name="reply_dialog_marked_words">Przytrzymaj wybrane zdjęcie, aby je usunąć.</string>
@@ -596,7 +596,7 @@
     <string name="follow_un_success">Przestań obserwować.</string>
     <string name="canceled">Anulowano</string>
     <string name="group">Grupa</string>
-    <string name="collection">Ulubione</string>
+    <string name="collection">Ulubiony</string>
     <string name="cancel_collection">Usuń z ulubionych</string>
 
     <string name="follow">OBSERWOWANE</string>
@@ -654,7 +654,7 @@
 
     <string name="share_apk">Udostępnij APK</string>
     <string name="tab_apk">APK</string>
-    <string name="commentaries">Opowieść</string>
+    <string name="commentaries">Relacja</string>
     <string name="follow_floating_action_button">Utwórz nową chwilę</string>
 
     <string name="upload_apk_version">V %1$s</string>
@@ -691,7 +691,7 @@
     <string name="pre_register_link_title">Strona rejestracji wstępnej</string>
     <string name="pre_register_gift_tv">Nagrody za rejestrację</string>
     <string name="pre_register_person_num_tv">Rejestracja wstępna: %1$s</string>
-    <string name="pre_register_success">Rejestracja wstępna oznacza, że użytkownik zostanie powiadomiony, gdy aplikacja zostanie wydana.</string>
+    <string name="pre_register_success">Rejestracja wstępna oznacza, że chcesz otrzymać powiadomienie, gdy aplikacja zostanie opublikowana.</string>
 
     <string name="open_page_failed">Nie udało się otworzyć strony!</string>
     <string name="search_for_user">Szukaj</string>
@@ -751,14 +751,14 @@
     <string name="submit_add_title_image_tv">Dodaj okładkę</string>
     <string name="submit_add_title_image_error_toast">To zdjęcie może nie być chwilowo wspierane. Proszę wybrać inne.</string>
     <string name="comment_hint_tv">Udostępnisz coś\?</string>
-    <string name="msg_all_read">Powiadomienie</string>
+    <string name="msg_all_read">Oznacz wszystkie jako przeczytane</string>
     <string name="msg_all_read_msg">Czy na pewno oznaczyć wszystkie jako przeczytane\?</string>
     <string name="user_recommend_tip">Rekomendacje użytkowników</string>
     <string name="comments">Komentarze</string>
     <string name="subject_comment">Hashtagi</string>
     <string name="new_subject_comment">Nowy hashtag</string>
     <string name="evaluating">Recenzje</string>
-    <string name="image_text">Opowieści</string>
+    <string name="image_text">Relacja</string>
     <string name="trends">Post</string>
     <string name="error_hot_data_empty">Brak gorących hashtagów!</string>
     <string name="hot_subject">Gorące Hashtagi</string>
@@ -771,7 +771,7 @@
     <string name="look_links">Wyświetl link</string>
 
     <string name="headline_no_data_tv">Brak nowych treści</string>
-    <string name="hint">Notatka</string>
+    <string name="hint">Uwaga</string>
     <string name="no_save_comment_hint">Treść nie została opublikowana, czy na pewno chcesz wyjść\?</string>
     <string name="look_all">Zobacz więcej</string>
     <string name="history_hastag">Historia hashtagów</string>
@@ -791,7 +791,7 @@
     <string name="del_account_bt">Wyślij</string>
     <string name="del_account_result_warn">Nie będziesz mógł się zalogować jeśli usuniesz konto.</string>
     <string name="del_account_reason_hint">Dlaczego chcesz usunąć to konto\?</string>
-    <string name="del_account_sure">Twoje konto zostanie usunięte w ciągu 48 godzin. Po usunięciu nie będziesz mógł się już zalogować. Skontaktuj się z nami jeśli masz dodatkowe pytania.</string>
+    <string name="del_account_sure">Twoje konto zostanie usunięte w ciągu 48 godzin. Skontaktuj się z nami jeśli masz dodatkowe pytania.</string>
     <string name="reply_to">Odpowiedz %1$s:</string>
 
 <string name="invalid_app_asset">Nieprawidłowe informacje o zasobach aplikacji.</string>
@@ -811,4 +811,50 @@
 \n2. Możesz polecić wyłącznie aplikacje zainstalowane na twoim urządzeniu z Androidem.
 \n3. Powiadom APKPure o niezindeksowanych aplikacjach, wypełniając formularz rekomendacji.</string>
     <string name="recommend_not_fount_info">Notify APKPure to add \"%1$s\", you need to finish the forms.</string>
-    </resources>
+    <string name="msg_all_read_notice">Uwaga</string>
+    <string name="share_app_url_comment_v3">Udostępnij <xliff:g example="zhangsan" id="name">%1$s</xliff:g> <xliff:g example="post/story/review" id="type">%2$s</xliff:g> (z APKPure):<xliff:g example="https://apkpure.com" id="url">%3$s </xliff:g></string>
+    <string name="apk_unable_upload">Wysyłanie apk nie powiodło się.</string>
+    <string name="long_image">Wysoki obraz</string>
+    <string name="edit_tag">Edytuj tag</string>
+    <string name="save_tag_hint_msg">Zmiana nie zostanie zapisana. Czy na pewno chcesz wyjść\?</string>
+    <string name="un_follow_xx">Przestań obserwować <xliff:g example="Apkpure" id="name">%1$s</xliff:g></string>
+    <string name="follow_xx">Obserwuj <xliff:g example="Apkpure" id="name">%1$s</xliff:g></string>
+    <string name="app_rating">Ocena:</string>
+    <string name="number">\"</string>
+    <string name="headline_footer_refresh">Pociągnij w dół lub dotknij tego wiersza, aby odświeżyć.</string>
+
+    <string name="download_install_obb">Zainstaluj OBB</string>
+    <string name="download_install_apk">Zainstaluj APK</string>
+
+    <string name="users_recommended_title">Gratulacje!</string>
+    <string name="users_recommended_des">Twoja recenzja została wybrana jako rekomendacja użytkownika,%1$s</string>
+    <string name="recommended_posts_title">Gratulacje!</string>
+    <string name="recommended_posts_des">Twoja recenzja została wybrana jako rekomendacja użytkownika,%1$s</string>
+    <string name="comment_removed_title">Twój post został usunięty</string>
+    <string name="comment_removed_des">It looks like something you posted doesn\'t follow our %1$s. We don\'t allow posts that bully private individuals or harass anyone on APKPure. This could include inappropriate images, photos or videos of physical bullying, or any other post intended to degrade or shame a specific person. 
+\n%2$s 
+\nJeśli uważasz, że to pomyłka, proszę %3$s.</string>
+    <string name="temporarily_blocked_title">Tymczasowo zablokowano ci możliwość publikowania postów</string>
+    <string name="temporarily_blocked_des">Tymczasowa blokada będzie trwała %1$s dni, w międzyczasie nie będziesz w stanie zamieszczać postów na APKPure. Jeśli ponownie opublikujesz coś, co jest niezgodne z naszym %2$s, twoje konto zostanie zablokowane na kolejne 30 dni. Pamiętaj, że konta osób, które stale zamieszczają niedozwolone treści na APKPure, mogą zostać wyłączone na stałe. 
+\nJeśli uważasz, że popełniliśmy błąd, proszę %3$s.</string>
+    <string name="pre_register_title">%1$s wydany na %2$s!</string>
+    <string name="pre_register_des">"Wstępnie zarejestrowana gra %1$s   %2$s jest już dostępna do pobrania.%3$s"</string>
+    <string name="report_callback_title">Usunęliśmy zgłoszony przez ciebie post!</string>
+    <string name="report_callback_des">Sprawdziliśmy zgłoszony przez ciebie post dotyczący prześladowania. Ponieważ narusza nasze %1$s, usunęliśmy go. Dziękujemy za zgłoszenie. Poinformujemy %2$s, że post został usunięty, ale nie ujawnimy tożsamości osoby zgłaszającej.</string>
+
+    <string name="tap_to_view">dotknij, aby wyświetlić</string>
+    <string name="let_us_know">powiadom nas</string>
+    <string name="community_guide_lines">Wytyczne dla społeczności</string>
+
+    <string name="my_draft">Moja wersje robocza</string>
+    <string name="clear_empty">Wyczyść wszystko</string>
+    <string name="several_draft"><xliff:g example="5" id="count">%1$s</xliff:g> wersje robocze</string>
+    <string name="delete_all_draft_hint">Czy opróżnić skrzynkę roboczą\?</string>
+    <string name="edit_draft">Edytuj wersję roboczą</string>
+    <string name="delete_draft">Usuń wersję roboczą</string>
+    <string name="empty_draft_info">Brak zawartości…</string>
+    <string name="is_save_comment_draft">Czy zapisać jako wersję roboczą\?</string>
+    <string name="upload_video">Wyślij wideo</string>
+    <string name="saved_draft">Zapisano jako wersja robocza</string>
+
+</resources>

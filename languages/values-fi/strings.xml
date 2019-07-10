@@ -15,16 +15,16 @@
     <string name="something_happened">&gt;_&lt;
 Jotain meni pieleen.</string>
 
-    <string name="load_failed_error">Hups! Virhe tapahtui.</string>
+    <string name="load_failed_error">Hups! Tapahtui virhe.</string>
     <string name="load_failed_empty">Täällä ei ole mitään.</string>
     <string name="load_failed_all_up_to_date">Kaikki sovellukset ovat ajan tasalla.</string>
-    <string name="load_failed_no_results">Anteeksi! Tuloksia ei löydy.</string>
-    <string name="refresh">Lataa Uudestaan</string>
+    <string name="load_failed_no_results">Pahoittelen. Tuloksia ei löytynyt.</string>
+    <string name="refresh">Lataa Uudelleen</string>
 
     <string name="management">Hallinta</string>
-    <string name="app_updates">Sovellus Päivitykset</string>
+    <string name="app_updates">Sovelluspäivitykset</string>
     <string name="app_management">Ladattu</string>
-    <string name="app_uninstall">Sovellus poisto</string>
+    <string name="app_uninstall">Poista sovellus</string>
     <string name="apk_management">APK hallinta</string>
     <string name="apk_xapk_management">APK / XAPK Hallinta</string>
     <string name="download_management">Lataus Hallinta</string>
@@ -38,7 +38,7 @@ Jotain meni pieleen.</string>
  "</string>
     <string name="check_update">Etsi päivityksiä</string>
     <string name="quit">Lopeta</string>
-    <string name="want_to_quit">Oletko ihan varma että haluat lopettaa?</string>
+    <string name="want_to_quit">Oletko varma, että haluat lopettaa\?</string>
 
     <string name="install">Lataa</string>
     <string name="open">Avaa</string>
@@ -51,10 +51,10 @@ Jotain meni pieleen.</string>
     <string name="want_to_delete_file">Haluatko poistaa tämän tiedoston?</string>
     <string name="want_to_delete_all_files">Haluatko poistaa kaikki tiedostot?</string>
     <string name="file_has_been_deleted">Tiedosto on poistettu.</string>
-    <string name="failed_to_delete_file">Epäonnistui tiedoston poistossa.</string>
+    <string name="failed_to_delete_file">Tiedoston poisto epäonnistui.</string>
     <string name="install__label_">Lataa - <xliff:g example="APKPure" id="app_label">%1$s</xliff:g></string>
-    <string name="user_canceled">Käyttäjä peruutti.</string>
-    <string name="io_error">IO virhe. Voi olla että ei ole tarpeeksi tilaa latauksen suorittamiseen.</string>
+    <string name="user_canceled">Käyttäjä perui.</string>
+    <string name="io_error">IO virhe. Voi olla että ei ole tarpeeksi tilaa asennuksen suorittamiseen.</string>
     <string name="installing_obb">Ladataan OBB Tiedostoja …</string>
     <string name="extracting_apk">Puretaan APK tiedostoa …</string>
     <string name="installing_apk">Ladataan APK …</string>
@@ -67,7 +67,7 @@ Jotain meni pieleen.</string>
 
     <string name="screenshots">Kuvankaappaukset</string>
     <string name="description">Kuvaus</string>
-    <string name="whatsnew">Mikä on uutta</string>
+    <string name="whatsnew">Mitä uutta</string>
     <string name="information">Tietoa</string>
     <string name="version_">Versio:</string>
     <string name="updated_">Päivitetty:</string>
@@ -89,8 +89,8 @@ Jotain meni pieleen.</string>
 
     <string name="market_response_error_success">Onnistui.</string>
     <string name="market_response_error_invalid_result">Epäkelpoinen tulos.</string>
-    <string name="market_response_error_network_connect_error">Netti Yhteys vika.</string>
-    <string name="market_response_error_network_read_error">Netti luku virhe.</string>
+    <string name="market_response_error_network_connect_error">Verkkoyhteydessä on ongelmia</string>
+    <string name="market_response_error_network_read_error">Verkkovirhe.</string>
     <string name="market_response_error_invalid_response_code">Epäkelpoinen vastaus koodi.</string>
     <string name="market_response_error_invalid_response_body">Epäkelpoinen vastaus muoto.</string>
     <string name="market_response_error_unknown_error__error_">Tuntematon virhe (<xliff:g example="SUCCESS" id="error">%1$s</xliff:g>).</string>
@@ -106,6 +106,6 @@ Jotain meni pieleen.</string>
 
     <string name="launching_please_wait">Laukaistaan, odota hetki…</string>
 
-    <string name="load_failed_error_not_found">Sovellus, joka ei ole APKPure App Storessa!</string>
+    <string name="load_failed_error_not_found">Sovellusta ei löydy.</string>
     <string name="check_update_replace">Virallinen versio</string>
     </resources>

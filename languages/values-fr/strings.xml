@@ -9,7 +9,7 @@
 
     <string name="featured">Mis en avant</string>
     <string name="games">Jeux</string>
-    <string name="apps">Applications</string>
+    <string name="apps">"application "</string>
     <string name="categories">Catégories</string>
     <string name="updates">Mise à jour</string>
 
@@ -74,7 +74,7 @@
     <string name="other">Autre</string>
     <string name="apk">APK</string>
     <string name="xapk">XAPK</string>
-    <string name="unknown">Unknown</string>
+    <string name="unknown">Inconnu</string>
     <string name="_ellipsis_"> … </string>
 
     <string name="market_response_error_success">Succès.</string>
@@ -166,7 +166,7 @@
     </string>
 
     <string name="share">Partager</string>
-    <string name="share_app_url">Partager <xliff:g id="app_name" example="APKPure">%1$s</xliff:g> APK (from @<xliff:g id="social_network_name" example="APKPure">%2$s</xliff:g>), <xliff:g id="app_url" example="https://apkpure.com/p/com.apkpure.aegon">%3$s</xliff:g></string>
+    <string name="share_app_url"> Partager <xliff:g id="app_name" example="APKPure">%1$s</xliff:g> APK (from @<xliff:g id="social_network_name" example="APKPure">%2$s</xliff:g>), <xliff:g id="app_url" example="https://apkpure.com/p/com.apkpure.aegon">%3$s</xliff:g></string>
 
     <string name="_name__version_history"><xliff:g id="name" example="APKPure">%1$s</xliff:g> Historique des versions</string>
     <string name="update__date___size_">Mise a jour : <xliff:g id="date" example="Mar 3, 2016">%1$s</xliff:g>, <xliff:g id="size" example="1024 kB">%2$s</xliff:g></string>
@@ -205,12 +205,10 @@
     <string name="deselect_all">Tout Déselectionner</string>
     <string name="ignored">Ignoré</string>
     <plurals name="total__count__apps__size_">
-	<item quantity="one">"
- Total: &lt;b&gt;&lt;font color=%1$d&gt;%2$d&lt;/font&gt;&lt;/b&gt; application, &lt;b&gt;&lt;font color=%1$d&gt;%3$s&lt;/font&gt;&lt;/b&gt;
- "</item>
-	<item quantity="other">"
- Total: &lt;b&gt;&lt;font color=%1$d&gt;%2$d&lt;/font&gt;&lt;/b&gt; appli, &lt;b&gt;&lt;font color=%1$d&gt;%3$s&lt;/font&gt;&lt;/b&gt;
- "</item>
+	<item quantity="one">"Total: &lt;b&gt;&lt;font color=%1$d&gt;%2$d&lt;/font&gt;&lt;/b&gt; application, &lt;b&gt;&lt;font color=%1$d&gt;%3$s&lt;/font&gt;&lt;/b&gt;
+\n "</item>
+	<item quantity="other">"Total: &lt;b&gt;&lt;font color=%1$d&gt;%2$d&lt;/font&gt;&lt;/b&gt; appli, &lt;b&gt;&lt;font color=%1$d&gt;%3$s&lt;/font&gt;&lt;/b&gt;
+\n "</item>
 </plurals>
     <string name="total_zero_app">
         <![CDATA[Total: <b><font color=%1$d>0</font></b> application]]>
@@ -730,6 +728,6 @@ Les fonctions mentionnées ci-dessus supportent Android 4.1 et +, sans besoin de
         <xliff:g example="https://apkpure.com/p/com.apkpure.aegon" id="app_url">%3$s</xliff:g>
     </string>
 
-    <string name="properties_message_v2">&lt;b&gt;Package Name:&lt;/b&gt; %1$s&lt;br&gt;&lt;b&gt;Version:&lt;/b&gt; %2$s&lt;br&gt;&lt;b&gt;Path:&lt;/b&gt; %3$s&lt;br&gt;&lt;b&gt;Size:&lt;/b&gt; %4$s&lt;br&gt;&lt;b&gt;Last Modified:&lt;/b&gt; %5$s
+    <string name="properties_message_v2">&lt;b&gt;Package nom:&lt;/b&gt; %1$s&lt;br&gt;&lt;b&gt;Version:&lt;/b&gt; %2$s&lt;br&gt;&lt;b&gt;Pâte:&lt;/b&gt; %3$s&lt;br&gt;&lt;b&gt;Size:&lt;/b&gt; %4$s&lt;br&gt;&lt;b&gt;dernier modifier :&lt;/b&gt; %5$s 
 \n</string>
     </resources>

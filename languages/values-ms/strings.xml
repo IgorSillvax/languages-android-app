@@ -16,7 +16,7 @@ Sesuatu telah berlaku.</string>
     <string name="load_failed_empty">Tiada apa-apa di sini.</string>
     <string name="load_failed_no_results">Maaf! Keputusan tidak di temui.</string>
     <string name="management">Pengurusan</string>
-    <string name="app_management">Telah Dipasang</string>
+    <string name="app_management">Installed</string>
     <string name="app_uninstall">Pembuangan aplikasi</string>
     <string name="app_updates">Pembaharuan aplikasi</string>
     <string name="load_failed_all_up_to_date">Semua aplikasi telah di kemaskini.</string>
@@ -27,8 +27,8 @@ Sesuatu telah berlaku.</string>
 
     <string name="apk_management">Pengurusan aplikasi</string>
     <string name="apk_xapk_management">Pengurusan APK/XAPK</string>
-    <string name="download_management">Pengurusan Muat Turun</string>
-    <string name="settings">Pengubahsuaian</string>
+    <string name="download_management">Download Management</string>
+    <string name="settings">Tetapan</string>
     <string name="about">Tentang</string>
 
 
@@ -55,7 +55,7 @@ Sesuatu telah berlaku.</string>
     <string name="extracting_apk">Menguraikan fail APK …</string>
     <string name="installing_apk">Memasang APK …</string>
 
-    <string name="uninstall">Tidak</string>
+    <string name="uninstall">Nyahpasang</string>
     <string name="uninstalled">Tidak Perlu Buang</string>
     <string name="all">Semua</string>
 
@@ -146,4 +146,51 @@ muat turun gagal</string>
     <string name="remove_all">Terima Kasih Tuan Atas Urusan Ini Wasalam</string>
     <string name="want_to_remove_download_item">Tidak Tuan Ia Akan Di Simpan</string>
     <string name="want_to_remove_all_download_items">"No I Dont Remove "</string>
+    <string name="properties_message_v2">&lt;b&gt;Package Name:&lt;/b&gt; %1$s&lt;br&gt;&lt;b&gt;Version:&lt;/b&gt; %2$s&lt;br&gt;&lt;b&gt;Path:&lt;/b&gt; %3$s&lt;br&gt;&lt;b&gt;Size:&lt;/b&gt; %4$s&lt;br&gt;&lt;b&gt;Last Modified:&lt;/b&gt; %5$s</string>
+    <string name="delete_downloaded_file">Padam muat turun fail</string>
+    <string name="download_over_cellular">"Muat turun melalui selular "</string>
+    <string name="download_over_cellular_content">Anda akan memuat turun melalui rangkaian mudah alih anda. Adakah anda mahu meneruskan\?</string>
+
+    <string name="search">Cari</string>
+    <string name="search_for_apps">Cari di APKPure</string>
+    <string name="trending_searches">Pencarian terkini</string>
+    <string name="search_history">Sejarah</string>
+    <string name="clear_search_history">Padam semua sejarah</string>
+
+    <string name="improvement_plan_title">Pelan Penambahbaikan Prestasi</string>
+    <string name="improvement_plan_message">Bantu kami dengan mengemukakan Maklumat Peranti Android, <b>Kami tidak mengumpulkan </b>maklumat peribadi (nama, alamat, alamat e-mel, nombor keselamatan sosial atau pengenal unik yang lain).</string>
+    <string name="join_us">Sertai kami</string>
+    <string name="skip">Langkau</string>
+
+    <string name="participate_ultra_download_beta_test_title">Dayakan Muat Turun Ultra dan nikmati kelajuan muat turun yang lebih cepat</string>
+    <string name="enable">Dayakan</string>
+
+    <string name="_name__is_up_to_date"><xliff:g example="APKPure" id="name">%1$s</xliff:g> is up to date.</string>
+    <string name="new_version_available_title">Versi terbaru tersedia</string>
+    <string name="new_version_available_message">&lt;b&gt;Versi Terkini:&lt;/b&gt; %1$s&lt;br&gt;&lt;br&gt;&lt;b&gt;Apa Yang Terbaru:&lt;/b&gt;&lt;br&gt;%2$s</string>
+
+    <string name="report">Lapor</string>
+    <string name="report__">Laporkan…</string>
+    <string name="report_problem__">Laporkan Masalah…</string>
+    <string name="report_problem_subject">"Lapor masalah "</string>
+    <string name="report_problem_text">Masalah topik:
+\n%1$s
+\n
+\nMasalah terperinci:
+\n%2$s</string>
+    <string name="contact_us__">Hubungi Kami</string>
+    <string name="contact_us">Hubungi Kami</string>
+    <string name="report_content">Laporkan kandungan</string>
+    <string name="feedback">Maklumbalas</string>
+
+    <string name="installation_failed">Pemasangan Gagal</string>
+    <string name="invalid_app_detail">Maklumat terperinci apl tidak sah</string>
+    <string name="invalid_app_asset">Maklumat aset aplikasi tidak sah.</string>
+    <string name="failed_to_request_app_detail">Gagal meminta maklumat terperinci aplikasi.</string>
+    <string name="failed_to_request_app_asset">Gagal meminta maklumat aset apl.</string>
+    <string name="incompatible_this_app">&lt;big&gt; &lt;b&gt; &lt;warna fon =% 1 $ d&gt; Peranti anda tidak serasi dengan aplikasi ini. &lt;/ font&gt; &lt;/ b&gt; &lt;/ big&gt; &lt;br&gt; &lt;br&gt; Adakah anda mahu meneruskan\?</string>
+    <string name="this_app_not_usable">&lt;big&gt; &lt;b&gt; &lt;warna fon =% 1 $ d&gt; Aplikasi ini mungkin tidak boleh digunakan. &lt;/ font&gt; &lt;/ b&gt; &lt;/ big&gt; &lt;br&gt; &lt;br&gt; Adakah anda mahu meneruskan\?</string>
+
+    <string name="setting">Tetapan</string>
+    <string name="participate_ultra_download_beta_test_content">Ultra Download is in beta testing, let us know if you encounter any problems. You can easily disable it under Settings.</string>
     </resources>
