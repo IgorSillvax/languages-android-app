@@ -27,7 +27,7 @@
     <string name="download_management">Upravljanje prenosov</string>
     <string name="settings">Nastavitve</string>
     <string name="about">O nas</string>
-    <string name="about_title">Vizitka <xliff:g primer="APKPure" id="app_name"/>
+    <string name="about_title">Vizitka <xliff:g primer="APKPure" id="app_name">%1$s</xliff:g>
     </string>
     <string name="about_message">"&lt;b&gt;Različica:&lt;/b&gt; %1$s&lt;br&gt;&lt;br&gt;&lt;b&gt;Spletna stran:&lt;/b&gt; &lt;a href=%2$s&gt;%2$s&lt;/a&gt;&lt;br&gt;&lt;b&gt;E-pošta:&lt;/b&gt; &lt;a href=mailto:%3$s&gt;%3$s&lt;/a&gt;
 \n "</string>
@@ -92,7 +92,7 @@
     <string name="market_response_error_unknown_error__error_">Neznana napaka (<xliff:g example="SUCCESS" id="error">%1$s</xliff:g>).</string>
     <string name="no_more">Ne več.</string>
     <string name="update">Posodobitev</string>
-    <string name="version__version___size_">Različica: <xliff:g example="1.0.0" id="version">%1$s</xliff:g>, <xliff:g example="1024 kB" id="size">%2$s</xliff:g>
+    <string name="version__version___size_">Različica: &lt;xliff:g xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\" primer=\"1.0.0\" id=\"različica\"&gt;%1$s&lt;/xliff:g&gt;, &lt;xliff:gxmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\" primer=\"1024 kB\" id=\"velikost\"&gt;%2$s&lt;/xliff:g&gt;<xliff:g example="1.0.0" id="version">%1$s</xliff:g>, <xliff:g example="1024 kB" id="size">%2$s</xliff:g>
     </string>
     <plurals name="_count__new_update_is_available">
         <item quantity="one">
@@ -204,7 +204,7 @@ Podrobnosti težave:
     </string>
     <string name="_name__version_history">
         <xliff:g primer="APKPure" id="name">%1$s</xliff:g> Zgodovina različice</string>
-    <string name="update__date___size_">Posodobitev: <xliff:g primer="Mar 3, 2016" id="datum">%1$s</xliff:g>, <xliff:g primer="1024 kB" id="velikost">%2$s</xliff:g>
+    <string name="update__date___size_">Posodobitev: &lt;xliff:g xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\" primer=\"Mar 3, 2016\" id=\"datum\"&gt;%1$s&lt;/xliff:g&gt;, &lt;xliff:gxmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\" primer=\"1024 kB\" id=\"velikost\"&gt;%2$s&lt;/xliff:g&gt;<xliff:g primer="Mar 3, 2016" id="datum">%1$s</xliff:g>, <xliff:g primer="1024 kB" id="velikost">%2$s</xliff:g>
     </string>
     <string name="update_all">Posodobite vse</string>
     <string name="update___count__">Posodobi (<xliff:g primer="3" id="count">%1$d</xliff:g>)</string>
@@ -738,7 +738,8 @@ Podrobnosti težave:
     <string name="del_account_sure">Vaš račun bo izbrisan v 48 urah. Če imate dodatna vprašanja, se obrnite na nas.</string>
     <string name="reply_to">Odgovori na %1$s:</string>
     <string name="msg_all_read_notice">Obvestilo</string>
-    <string name="share_app_url_comment_v3">Delite <xliff:g primer="zhangsan" id="ime">%1$s</xliff:g>\'s <xliff:g primer="objava/zgodba/ocena" id="vrsta">%2$s</xliff:g> (From APKPure):<xliff:g primer="https://apkpure.com" id="url">%3$s </xliff:g>
+    <string name="share_app_url_comment_v3">Delite &lt;xliff:g xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\" primer=\"zhangsan\" id=\"ime\"&gt;%1$s&lt;/xliff:g&gt;\'s
+\n&lt;xliff:gxmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\" primer=\"objava/zgodba/ocena\" id=\"vrsta\"&gt;%2$s&lt;/xliff:g&gt; (Iz APKPure):&lt;xliff:gxmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\" primer=\"https://apkpure.com\" id=\"url\"&gt;%3$s &lt;/xliff:g&gt;<xliff:g primer="zhangsan" id="ime">%1$s</xliff:g>\'s <xliff:g primer="objava/zgodba/ocena" id="vrsta">%2$s</xliff:g> (From APKPure):<xliff:g primer="https://apkpure.com" id="url">%3$s </xliff:g>
     </string>
     <string name="apk_unable_upload">Prenos apk ni uspel.</string>
     <string name="long_image">Velik izbor</string>
@@ -803,4 +804,59 @@ Podrobnosti težave:
     <string name="several_drafts">
         <xliff:g primer="5" id="count">%1$s</xliff:g> osnutkov</string>
     <string name="auto_service_directly__material_">NAMESTITE NEPOSREDNO</string>
+    <string name="picture_message_video_max_num">Lahko izberete največ %1$s videoposnetkov</string>
+    <string name="picture_min_img_num">Izbira slike ne more biti številka %1$s</string>
+    <string name="picture_min_video_num">Izbira videoposnetka ne more biti številka %1$s</string>
+    <string name="picture_camera_roll">Kamera teče</string>
+    <string name="xapk_upload_hint_info">Prenos datotek XAPK traja dlje časa. Ali ste prepričani, da želite prenesti\?</string>
+    <string name="packaging_failed_try_again">Pakiranje ni uspelo. Prosimo, poskusite ponovno.</string>
+    <string name="packaging_success_ready_upload">Pakiranje je končano. Pripravljeno za nalaganje.</string>
+    <string name="packaging">Pakiranje…</string>
+    <string name="preparing_upload">Priprava na nalaganje…</string>
+    <string name="upload_apk_xapk">Naloži APK/XAPK</string>
+    <string name="apk_xapk">APK/XAPK</string>
+    <string name="ucrop_mutate_exception_hint">Zato preglasite barvni vir (ucrop_color_toolbar_widget) v aplikaciji, da bo deloval na pre-L napravah</string>
+    <string name="ucrop_error_input_data_is_absent">Vhod in izhod Uri je treba navesti</string>
+    <string name="ucrop_menu_crop">Obreži</string>
+    <string name="ucrop_label_edit_photo">Uredi fotografijo</string>
+    <string name="ucrop_label_original">Izvirnik</string>
+    <string name="picture_confirm">Prekliči</string>
+    <string name="picture_audio_error">Zvok je poškodovan</string>
+    <string name="picture_video_error">Videoposnetek je poškodovan</string>
+    <string name="picture_error">Slika je poškodovana</string>
+    <string name="picture_pause_audio">Premor</string>
+    <string name="picture_quit_audio">Končaj</string>
+    <string name="picture_stop_audio">Ustavi</string>
+    <string name="picture_play_audio">Igraj</string>
+    <string name="picture_tape">Trak</string>
+    <string name="picture_all_audio">Vsi zvoki</string>
+    <string name="picture_save_success">Uspešno shranjevanje slike do</string>
+    <string name="picture_save_error">Shranjevanje slike ni uspelo</string>
+    <string name="picture_prompt_content">Ali želite shraniti slike v telefon\?</string>
+    <string name="picture_prompt">Pozivnik</string>
+    <string name="picture_warning">Predstavnostne datoteke !</string>
+    <string name="picture_long_chart">Dolgo</string>
+    <string name="picture_photograph">Fotografija</string>
+    <string name="picture_record_video">Posnemite video</string>
+    <string name="picture_video_toast">Ni predogleda videoposneteka</string>
+    <string name="picture_camera">Zavrnjen dostop do sistemske kamere</string>
+    <string name="picture_jurisdiction">Zavrnjen dostop do branja pomnilniške kartice</string>
+    <string name="picture_audio">Dostop do dovoljenja za snemanje sistema je zavrnjen</string>
+    <string name="gif_tag">gif</string>
+    <string name="picture_empty">lahko uporabite fotoaparat, da posnamete fotografije ali video posnetke</string>
+    <string name="picture_audio_empty">Za snemanje zvoka lahko uporabite sistemske posnetke</string>
+    <string name="picture_empty_audio_title">Ni zvočne datoteke
+\n</string>
+    <string name="picture_empty_title">Ni videoposnetkov ali fotografij
+\n</string>
+    <string name="picture_please_select">Prosim izberite</string>
+    <string name="picture_done">V redu</string>
+    <string name="picture_completed">Dokončano</string>
+    <string name="picture_done_front_num">%1$d/%2$d V redu</string>
+    <string name="picture_please">Prosim, pozneje...</string>
+    <string name="picture_preview">Predogled</string>
+    <string name="picture_message_max_num">Izberete lahko največ %1$s številk slik</string>
+    <string name="picture_rule">ni slik ali videoposnetka</string>
+    <string name="picture_take_picture">Strel</string>
+    <string name="picture_cancel">Prekliči</string>
 </resources>
