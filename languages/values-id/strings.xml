@@ -53,8 +53,7 @@
     <string name="want_to_delete_all_files">Hapus semua berkas\?</string>
     <string name="file_has_been_deleted">Berkas sudah dihapus.</string>
     <string name="failed_to_delete_file">Gagal menghapus berkas.</string>
-    <string name="install__label_">
-        <xliff:g example="APKPure" id="app_label">%1$s</xliff:g>
+    <string name="install__label_">Pasang - <xliff:g example="APKPure" id="app_label">%1$s</xliff:g>
     </string>
     <string name="user_canceled">Pengguna membatalkan.</string>
     <string name="io_error">Kesalahan IO. Mungkin tidak cukup ruang kosong untuk pemasangan.</string>
@@ -83,7 +82,7 @@
     <string name="other">Lainnya</string>
     <string name="similar_or_related">Serupa atau Terkait</string>
     <string name="more_from_developer">Lebih Dari Pengembang</string>
-    <string name="more_large">Lebih Banyak</string>
+    <string name="more_large">Lebih</string>
     <string name="apk">APK</string>
     <string name="xapk">XAPK</string>
     <string name="unknown">Tidak diketahui</string>
@@ -203,7 +202,7 @@
     <string name="update_all">Perbarui Semua</string>
     <string name="update___count__">Perbarui (<xliff:g example="3" id="count">%1$d</xliff:g>)</string>
     <string name="ignore">Abaikan dari Daftar</string>
-    <string name="unignore">Batalkan Abaikan</string>
+    <string name="unignore">Batalkan Pengabaian</string>
     <string name="select">Pilih</string>
     <string name="cancel">Batalkan</string>
     <string name="select_all">Pilih Semua</string>
@@ -219,8 +218,8 @@
     <string name="auto">Otomatis</string>
     <string name="changing_language">Mengubah bahasa,silahkan menunggu…</string>
     <string name="data_saver_model">Penyimpan data</string>
-    <string name="data_saver_model_summery">Mengaktifkannya akan mengurangi ukuran dan kualitas gambar untuk membantu penggunaan lebih sedikit data seluler.</string>
-    <string name="download_via_wifi_only">Unduh hanya menggunakan Wi-Fi</string>
+    <string name="data_saver_model_summery">Pengaktifan akan mengurangi ukuran dan kualitas gambar untuk mengurangi penggunaan data seluler.</string>
+    <string name="download_via_wifi_only">Unduh menggunakan Wi-Fi saja</string>
     <string name="enable_ultra_download">Aktifkan unduhan ultra</string>
     <string name="enable_ultra_download_summary">Unduhan Ultra masih dalam pengujian beta, beritahu kami jika anda menemui masalah apapun.</string>
     <string name="installation">Pemasangan</string>
@@ -313,7 +312,7 @@
     </string-array>
     <string name="download_complete_installation_setting_entries_always">Selalu pasang</string>
     <string name="download_complete_installation_setting_entries_only">Hanya pasang saat app di muka</string>
-    <string name="download_complete_installation_setting_entries_never">Tidak pernah pasang</string>
+    <string name="download_complete_installation_setting_entries_never">Jangan pernah pasang</string>
     <string-array name="download_complete_installation_setting_entry_values" translatable="false">
         <item>install_now</item>
         <item>background_not_install</item>
@@ -334,13 +333,13 @@
     <string name="reply_dialog_marked_words">Tekan lama pada gambar untuk menghapusnya.</string>
     <string name="reply_comment">Balas komentar</string>
     <string name="save_original_image">Simpan</string>
-    <string name="already_save">Menyimpan <xliff:g example="ApKPure/photo" id="path">%1$s</xliff:g>
+    <string name="already_save">Sudah disimpan <xliff:g example="ApKPure/photo" id="path">%1$s</xliff:g>
     </string>
     <string name="load_end">Tidak ada berkas lagi</string>
     <string name="load_failed_click_retry">Ada yang salah. Silahkan klik untuk mencoba lagi</string>
     <string name="loading">Memuat…</string>
     <string name="scan_qr_code_hint">"Sebelum menggunakan Pindai Kode QR Anda perlu memberikan izin kamera yang diperlukan untuk memindai kode QR.  "</string>
-    <string name="zxing_msg_default_status">Silahkan tempatkan kode QR pada jendela bidik untuk memindainya.</string>
+    <string name="zxing_msg_default_status">Tempatkan kode QR pada jendela bidik untuk memindai.</string>
     <string name="zxing_msg_parser_status">Pemindaian gagal, silahkan coba pindai ulang kode QR.</string>
     <string name="scan_qr_code_result_title">Hasil</string>
     <string name="scan_qr_code_result_copy_text">Salin teks</string>
@@ -505,7 +504,7 @@
     <string name="tab_group">GRUP</string>
     <string name="main_tab_my">SAYA</string>
     <string name="main_comment">komentar</string>
-    <string name="main_won_praise">SUKAI</string>
+    <string name="main_won_praise">SUKA</string>
     <string name="main_my_comments">Kiriman</string>
     <string name="main_my_collection">Favorit</string>
     <string name="main_my_message">Pesan</string>
@@ -516,7 +515,7 @@
     <string name="please_login_first">Silahkan login terlebih dahulu</string>
     <string name="no_choice">Tidak ada pilihan</string>
     <string name="follow_on_success">Diikuti.</string>
-    <string name="follow_un_success">Batalkan ikuti.</string>
+    <string name="follow_un_success">Batal ikut.</string>
     <string name="canceled">Batal</string>
     <string name="group">Grup</string>
     <string name="collection">Favorit</string>
