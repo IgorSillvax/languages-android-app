@@ -150,15 +150,15 @@
     <string name="improvement_plan_title">Rencana Peningkatan Performa</string>
     <string name="improvement_plan_message">Bantu kami dengan mengirimkan Info Perangkat Android, Kami <b>tidak mengumpulkan</b> informasi identifikasi pribadi (nama, alamat, e-mail, nomor keamanan sosial, atau identifikasi unik lainnya).</string>
     <string name="join_us">Bergabunglah dengan Kami</string>
-    <string name="skip">Skip</string>
+    <string name="skip">Lewati</string>
     <string name="participate_ultra_download_beta_test_title">Aktifkan Unduhan Ultra dan nikmati kecepatan mengunduh lebih cepat</string>
     <string name="participate_ultra_download_beta_test_content">Unduhan Ultra masih dalam pengujian beta, beritahu kami jika anda menemui masalah apapun. Anda bisa dengan mudah menonaktifkannya di Pengaturan.</string>
     <string name="enable">Aktifkan</string>
     <string name="_name__is_up_to_date">
         <xliff:g example="APKPure" id="name">%1$s</xliff:g> sudah terkini.</string>
-    <string name="new_version_available_title">Versi Baru Tersedia</string>
+    <string name="new_version_available_title">Versi Baru Telah Tersedia</string>
     <string name="new_version_available_message">&lt;b&gt;Versi Terakhir:&lt;/b&gt; %1$s&lt;br&gt;&lt;br&gt;&lt;b&gt;Hal Baru:&lt;/b&gt;&lt;br&gt;%2$s</string>
-    <string name="report">Lapor</string>
+    <string name="report">Laporan</string>
     <string name="report__">Lapor…</string>
     <string name="report_problem__">Lapor Masalah…</string>
     <string name="report_problem_subject">Lapor Masalah</string>
@@ -172,8 +172,8 @@
     <string name="report_content">Laporkan Konten</string>
     <string name="feedback">Umpan Balik</string>
     <string name="installation_failed">Pemasangan Gagal</string>
-    <string name="invalid_app_detail">Informasi rincian app tidak valid.</string>
-    <string name="invalid_app_asset">Informasi aset app tidak valid.</string>
+    <string name="invalid_app_detail">Informasi rincian app tidak sah.</string>
+    <string name="invalid_app_asset">Informasi aset app tidak sah.</string>
     <string name="failed_to_request_app_detail">Gagal mengajukan informasi rincian app.</string>
     <string name="failed_to_request_app_asset">Gagal mengajukan informasi aset app.</string>
     <string name="incompatible_this_app">&lt;big&gt;&lt;b&gt;&lt;font color=%1$d&gt;Perangkatmu tidak serasi dengan app ini.&lt;/font&gt;&lt;/b&gt;&lt;/big&gt;&lt;br&gt;&lt;br&gt;Apakah kamu ingin melanjutkan\?</string>
@@ -580,12 +580,12 @@
     <string name="recommend_user_recommend_sys">Diunggulkan oleh APKPure</string>
     <string name="user_detail_focus">Mengikuti</string>
     <string name="user_detail_fans">Pengikut</string>
-    <string name="user_detail_praise">SUKAI</string>
+    <string name="user_detail_praise">SUKA</string>
     <string name="user_detail_tab_detail">Kiriman</string>
     <string name="user_detail_tab_reply">Komentar</string>
-    <string name="user_focus_tab_users">Orang</string>
+    <string name="user_focus_tab_users">Pengguna</string>
     <string name="user_focus_tab_apps">Grup</string>
-    <string name="user_focus_title_my">Yang aku ikuti</string>
+    <string name="user_focus_title_my">Yang diikuti</string>
     <string name="user_focus_title">Diikuti oleh %1$s</string>
     <string name="google_play_name" translatable="false">Google Play</string>
     <string name="goto_google_play">Beli sekarang</string>
@@ -603,8 +603,8 @@
     <string name="app_detail_has_ad">Mengandung iklan</string>
     <string name="app_detail_no_ad">Tidak ada Iklan</string>
     <string name="tag_list">Daftar Tandai</string>
-    <string name="hot_tag">Tandai Populer</string>
-    <string name="hot_tag_explain">(Tambahkan atau berikan vote tanda yang ada untuk aplikasi ini)</string>
+    <string name="hot_tag">Tanda Populer</string>
+    <string name="hot_tag_explain">(Tambah atau vote tanda yang ada untuk aplikasi ini)</string>
     <string name="common_use">Tandaku</string>
     <string name="app_add_tag_hint_caution">Tidak lebih dari %1$s tanda untuk setiap aplikasi.</string>
     <string name="app_add_tag">Tambahkan tanda baru</string>
@@ -642,7 +642,7 @@
     <string name="market_ad_tab_one">Ditampilkan</string>
     <string name="market_ad_tab_two">Game</string>
     <string name="market_ad_tab_three">Peralatan</string>
-    <string name="tag">Tandai</string>
+    <string name="tag">Tanda</string>
     <string name="search_tab_name_one">Aplikasi</string>
     <string name="search_tab_name_two">PENGGUNA</string>
     <!--pre_register-->
@@ -681,7 +681,7 @@
     <string name="recommend_game">rekomendasikan game</string>
     <string name="bing_share_account">Tautkan ke Akun pihak ketiga</string>
     <string name="un_bind">Tidak ditautkan</string>
-    <string name="login_out_message_hint">Yakin hendak keluar\?</string>
+    <string name="login_out_message_hint">Yakin mau keluar\?</string>
     <string name="bind_email_title">Tautkan email Anda</string>
     <string name="bind_email_tv">Tautkan alamat email ke akun Anda untuk membuka benefit login menggunakan email, pemulihan sandi, mengirim kiriman, dan lainnya.</string>
     <string name="verification_code_tv">Kode verifikasi sudah dikirimkan ke alamat email Anda %1$s</string>
@@ -719,7 +719,7 @@
     <string name="menu_follow_subject">Tagar diikuti</string>
     <string name="menu_follow_subject_tab">Tagar</string>
     <string name="me_follow">Yang aku ikuti</string>
-    <string name="release_dynamics">Kirimkan momen</string>
+    <string name="release_dynamics">Kirim momen</string>
     <string name="delete_success">Berhasil</string>
     <string name="hot">populer</string>
     <string name="look_links">Lihat Tautan</string>
@@ -736,8 +736,8 @@
     <string name="privacy_setting_account">Akun Pribadi</string>
     <string name="privacy_setting_account_des">Beranda pribadi Anda tidak akan bisa dilihat oleh orang lain jika diatur menjadi Pribadi.</string>
     <string name="privacy_setting_account_del">Hapus akun dan informasi Anda</string>
-    <string name="privacy_setting_account_privacy">Merupakan akun pribadi.</string>
-    <string name="del_account_email_notify_tv">Silahkan sediakan alamat email yang valid untuk menerima notifikasi kami.</string>
+    <string name="privacy_setting_account_privacy">Ini akun pribadi.</string>
+    <string name="del_account_email_notify_tv">Silahkan sediakan alamat email yang sah untuk menerima notifikasi kami.</string>
     <string name="del_account_email_reason_tv">Mengapa Anda ingin menghapus akun ini\?</string>
     <string name="del_account_bt">Kirimkan</string>
     <string name="del_account_reason_hint">Mengapa Anda ingin menghapus akun ini\?</string>
@@ -747,11 +747,11 @@
     </string>
     <string name="apk_unable_upload">Gagal mengunggah apk.</string>
     <string name="long_image">Gambar Tinggi</string>
-    <string name="edit_tag">Edit Tandai</string>
+    <string name="edit_tag">Edit Tanda</string>
     <string name="save_tag_hint_msg">Perubahan tidak akan disimpan. Yakin hendak keluar\?</string>
-    <string name="un_follow_xx">Batalkan Ikuti <xliff:g example="Apkpure" id="name">%1$s</xliff:g>
+    <string name="un_follow_xx">Batal Ikut <xliff:g example="Apkpure" id="name">%1$s</xliff:g>
     </string>
-    <string name="follow_xx">Ikuti <xliff:g example="Apkpure" id="name">%1$s</xliff:g>
+    <string name="follow_xx">Ikut <xliff:g example="Apkpure" id="name">%1$s</xliff:g>
     </string>
     <string name="app_rating">Rating:</string>
     <string name="number">\"</string>
