@@ -391,12 +391,12 @@
     <string name="home_message_reply">Komentar</string>
     <string name="message_notifications_praise">Menyukai komentar Anda</string>
     <string name="message_praise">SUKAI</string>
-    <string name="home_message_praise">SUKAI</string>
+    <string name="home_message_praise">SUKA</string>
     <string name="message_notify">Notifikasi</string>
     <string name="message_notifications_reply">Membalas komentar Anda</string>
     <string name="message_notifications_login">Silahkan login untuk melihat halaman ini.</string>
     <string name="message_at_title">Sebutan</string>
-    <string name="message_at">Menyebutkan Anda</string>
+    <string name="message_at">Menyebut Anda</string>
     <!--update password-->
     <string name="update_pwd_title">Atur ulang sandiku</string>
     <string name="update_pwd_current_pwd_et">Sandi lama</string>
@@ -468,11 +468,12 @@
     <string name="gif_tip">gif</string>
     <string name="ad_tip">iklan</string>
     <string name="submit_comment_title_hint">Judul</string>
-    <string name="comment_vote_string">Sukai</string>
+    <string name="comment_vote_string">Suka</string>
     <string name="comment_reply_three">Balas</string>
     <string name="comment_item_fold">komentar disembunyikan</string>
     <plurals name="comment_reply_item_fold">
-        <item quantity="other">Balasan <xliff:g example="1" id="count">%1$d</xliff:g> disembunyikan</item>
+        <item quantity="other">Balasan disembunyikan <xliff:g example="1" id="count">%1$d</xliff:g>
+        </item>
     </plurals>
     <string name="comment_no_reply">Wow, tidak ada apapun di sini.</string>
     <string name="comment_reply_info_name">Rincian</string>
