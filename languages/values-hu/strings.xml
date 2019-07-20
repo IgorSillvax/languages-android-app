@@ -208,7 +208,8 @@
     <string name="installation">Telepítés</string>
     <string name="show_notification_after_installation">Értesítés megjelenítése telepítés után</string>
     <string name="delete_packages_after_installation">Csomagok törlése telepítés után</string>
-    <string name="_name__installation_completed">A(z) <xliff:g example="APKPure" id="name">%1$s</xliff:g> telepítése befejeződött</string>
+    <string name="_name__installation_completed">
+        <xliff:g example="APKPure" id="name">%1$s</xliff:g> installation complete</string>
     <string name="auto_service_install_accessibility_title">Automatikus telepítés</string>
     <string name="auto_service_install_accessibility_summary">Android 4.1+ támogatás, nincs szükség root jogokra.</string>
     <string name="auto_service_dialog_title">Automatikus telepítés engedélyezése</string>
