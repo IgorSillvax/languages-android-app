@@ -1,27 +1,21 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-
     <string name="action_settings">Configuración</string>
     <string name="action_search">Buscar</string>
     <string name="installation_failed">Instalación fallida</string>
     <string name="action_management">Administración</string>
-
     <string name="press_back_key_quit">Presione la tecla Atrás una vez más para salir.</string>
-
-    <string name="featured"></string>
+    <string name="featured">Featured</string>
     <string name="games">Juegos</string>
     <string name="apps">Aplicaciones</string>
     <string name="categories">Categorías</string>
     <string name="updates">"Updates "</string>
-
     <string name="something_happened">&gt;_&lt;\nOcurrió algo.</string>
-
     <string name="load_failed_error">¡Ups! Ha ocurrido un error.</string>
     <string name="load_failed_empty">No hay nada aquí.</string>
     <string name="load_failed_all_up_to_date">Todas la aplicaciones están actualizadas.</string>
     <string name="load_failed_no_results">Lo sentimos, no se hallaron resultados.</string>
     <string name="refresh">Actualizar</string>
-
     <string name="management">Administrar</string>
     <string name="app_updates">Actualizaciones de la aplicación</string>
     <string name="app_management">Instalado</string>
@@ -31,34 +25,33 @@
     <string name="download_management">Administrador de Descargas</string>
     <string name="settings">Configuraciones</string>
     <string name="about">Acerca de</string>
-    <string name="about_title">Acerca de <xliff:g id="app_name" example="APKPure">%1$s</xliff:g></string>
+    <string name="about_title">Acerca de <xliff:g id="app_name" example="APKPure">%1$s</xliff:g>
+    </string>
     <string name="about_message">
         <![CDATA[<b>Version:</b> %1$s<br><br><b>sitio_web:</b> <a href=%2$s>%2$s</a><br><b>Email:</b> <a href=mailto:%3$s>%3$s</a>]]>
     </string>
     <string name="check_update">Comprobar Actualizaciones</string>
     <string name="quit">Salir</string>
     <string name="want_to_quit">Estas seguro de que quieres salir?</string>
-
     <string name="install">Instalar</string>
     <string name="open">Abrir</string>
     <string name="delete">Borrar</string>
     <string name="want_to_delete_file">Estas seguro de querer borrar este archivo?</string>
     <string name="file_has_been_deleted">El archivo ha sido borrado.</string>
     <string name="failed_to_delete_file">Error al borrar el archivo.</string>
-    <string name="install__label_">Instalar - <xliff:g id="app_label" example="APKPure">%1$s</xliff:g></string>
+    <string name="install__label_">Instalar - <xliff:g id="app_label" example="APKPure">%1$s</xliff:g>
+    </string>
     <string name="user_canceled">Cancelado por el Usuario.</string>
     <string name="io_error">Error IO. Puede ser que no tenga suficiente almacenamiento para que la instalacion proceda.</string>
     <string name="file_format_error">Error de formato de archivo.</string>
     <string name="installing_obb">Instalando archivos OBB …</string>
     <string name="extracting_apk">Extrayendo el archivo APK …</string>
     <string name="installing_apk">Instalando APK …</string>
-
     <string name="uninstall">Desinstalar</string>
     <string name="uninstalled">Desinstalado</string>
-    <string name="last_update__date_">Ultima Actualizacion: <xliff:g id="date">%1$s</xliff:g></string>
-
+    <string name="last_update__date_">Ultima Actualizacion: <xliff:g id="date">%1$s</xliff:g>
+    </string>
     <string name="all">Todos</string>
-
     <string name="screenshots">Capturas de Pantalla</string>
     <string name="description">Descripción</string>
     <string name="whatsnew">Lo mas nuevo</string>
@@ -76,7 +69,6 @@
     <string name="xapk">XAPK</string>
     <string name="unknown">Desconocido</string>
     <string name="_ellipsis_"> … </string>
-
     <string name="market_response_error_success">Exito.</string>
     <string name="market_response_error_invalid_result">Resultado Invalido.</string>
     <string name="market_response_error_network_connect_error">error de conexion</string>
@@ -84,32 +76,33 @@
     <string name="market_response_error_invalid_response_code">Codigo de Respuesta Invalido.</string>
     <string name="market_response_error_invalid_response_body">Cuerpo de Respuesta Invalido.</string>
     <string name="market_response_error_unknown_error__error_">Error Desconocido (<xliff:g id="error" example="SUCCESS">%1$s</xliff:g> ).</string>
-
     <string name="no_more">No Hay Mas.</string>
-
     <string name="update">Actualizacion</string>
-    <string name="version__version___size_">version <xliff:g id="version" example="1.0.0">%1$s</xliff:g>, <xliff:g id="size" example="1024 kB">%2$s</xliff:g></string>
+    <string name="version__version___size_">version <xliff:g id="version" example="1.0.0">%1$s</xliff:g>, <xliff:g id="size" example="1024 kB">%2$s</xliff:g>
+    </string>
     <plurals name="_count__new_update_is_available">
-        <item quantity="one"><xliff:g id="count" example="1">%1$d</xliff:g> Una Nueva Actualizacion Esta Disponible</item>
-        <item quantity="other"><xliff:g id="count" example="2">%1$d</xliff:g> Hay Nuevas Actualizaciones Disponibles</item>
+        <item quantity="one">
+            <xliff:g id="count" example="1">%1$d</xliff:g> Una Nueva Actualizacion Esta Disponible</item>
+        <item quantity="other">
+            <xliff:g id="count" example="2">%1$d</xliff:g> Hay Nuevas Actualizaciones Disponibles</item>
     </plurals>
-
     <string name="launching_please_wait">Abriendo, espere por favor …</string>
-
     <string name="auto">Auto</string>
-
     <string name="general">General</string>
     <string name="language">Lenguaje</string>
     <plurals name="_count__item_is_downloading">
-        <item quantity="one"><xliff:g id="count" example="1">%1$d</xliff:g> El Articulo se Esta Descargando</item>
-        <item quantity="other"><xliff:g id="count" example="2">%1$d</xliff:g> Los Articulos Se Estan Descargando</item>
+        <item quantity="one">
+            <xliff:g id="count" example="1">%1$d</xliff:g> El Articulo se Esta Descargando</item>
+        <item quantity="other">
+            <xliff:g id="count" example="2">%1$d</xliff:g> Los Articulos Se Estan Descargando</item>
     </plurals>
     <string name="downloads_complete">Descargas Completadas</string>
     <string name="touch_for_view_all_downloads">Toca Para Ver Todas Las Descargas</string>
-    <string name="_name__download_failed"><xliff:g id="name" example="APKPure">%1$s</xliff:g> La Descarga Ha Fallado</string>
+    <string name="_name__download_failed">
+        <xliff:g id="name" example="APKPure">%1$s</xliff:g> La Descarga Ha Fallado</string>
     <string name="touch_to_download_it_again">Toca De Nuevo Para Descargarlo Otra Vez</string>
-
-    <string name="download_percent"><xliff:g id="percent" example="50">%1$d</xliff:g> %%</string>
+    <string name="download_percent">
+        <xliff:g id="percent" example="50">%1$d</xliff:g> %%</string>
     <string name="pause">Pausar</string>
     <string name="continue_">Continuar</string>
     <string name="restart">Reestablecer</string>
@@ -126,29 +119,25 @@
     <string name="detail">Detalles</string>
     <string name="remove">Quitar</string>
     <string name="want_to_remove_download_item">Estas segro de querer quitar este articulo descargado?</string>
-
     <string name="search">Buscar</string>
     <string name="search_for_apps">Buscar Aplicaciones</string>
     <string name="trending_searches">Lo Mas Buscado</string>
-
     <string name="improvement_plan_title">Plan de Mejora del Rendimiento</string>
     <string name="improvement_plan_message">
         <![CDATA[Ayudanos Subiendo Informacion de tu Dispocitivo Android, Nosotros <b>no recopilaremos</b> informacion personal suya (nombre, direccion, correo electronico, numero de seguridad social, u otro tipo de informacion personal).]]>
     </string>
     <string name="join_us">Unete</string>
     <string name="skip">Saltar</string>
-
-    <string name="_name__is_up_to_date"><xliff:g id="name" example="APKPure">%1$s</xliff:g> Esta Actualizado.</string>
+    <string name="_name__is_up_to_date">
+        <xliff:g id="name" example="APKPure">%1$s</xliff:g> Esta Actualizado.</string>
     <string name="new_version_available_title">Hay una Nueva Version Disponible</string>
     <string name="new_version_available_message">
         <![CDATA[<b>Ultima Version:</b> %1$s<br><br><b>Mas Nuevo:</b><br>%2$s]]>
     </string>
-
     <string name="report__">Reporte…</string>
     <string name="report_problem__">Reportar Problema…</string>
     <string name="report_problem_subject">Reporte Problema</string>
     <string name="report_problem_text">Tema del Problema:\n%1$s\n\nDetalles del Problema:\n%2$s</string>
-
     <string name="invalid_app_detail">Información de detalle de la aplicación no válida.</string>
     <string name="invalid_app_asset">La informacion de los activos de la Aplicacion no es Valida.</string>
     <string name="failed_to_request_app_detail">Error al solicitar información detallada de aplicación.</string>
@@ -159,7 +148,6 @@
     <string name="this_app_not_usable">
         <![CDATA[<big><b><font color="%1$d">Esta aplicación puede no ser utilizable.</font></b></big><br><br>Esta seguro de que quiere continuar?]]>
     </string>
-
     <string name="setting">Configuracion</string>
     <string name="external_storage_not_usable">
         <![CDATA[<big><b>Nesesitamos acceso a su Almacenamiento externo. Por Favor asegurese de que se pueda usar.</b></big>]]>
@@ -167,20 +155,19 @@
     <string name="external_storage_permission_denied">
         <![CDATA[<big><b>Nesecitamos acceso a su Almacenamiento Externo. Por Favor asegurese de que el permiso este denegado.</b></big>]]>
     </string>
-
     <string name="share">Compartir</string>
-    <string name="share_app_url"> Compartir <xliff:g id="app_name" example="APKPure">%1$s</xliff:g> APK (de @<xliff:g id="social_network_name" ejemplo="APKPure">%2$s</xliff:g>), <xliff:g id="app_url" ejemplo="https://apkpure.com/p/com.apkpure.aegon">%3$s</xliff:g></string>
-
-    <string name="_name__version_history"><xliff:g id="name" example="APKPure">%1$s</xliff:g> Versiones Anteriores</string>
-    <string name="update__date___size_">Actualizacion: <xliff:g id="date" example="Mar 3, 2016">%1$s</xliff:g>, <xliff:g id="size" example="1024 kB">%2$s</xliff:g></string>
-
+    <string name="share_app_url"> Compartir <xliff:g id="app_name" example="APKPure">%1$s</xliff:g> APK (de @<xliff:g id="social_network_name" ejemplo="APKPure">%2$s</xliff:g>), <xliff:g id="app_url" ejemplo="https://apkpure.com/p/com.apkpure.aegon">%3$s</xliff:g>
+    </string>
+    <string name="_name__version_history">
+        <xliff:g id="name" example="APKPure">%1$s</xliff:g> Versiones Anteriores</string>
+    <string name="update__date___size_">Actualizacion: <xliff:g id="date" example="Mar 3, 2016">%1$s</xliff:g>, <xliff:g id="size" example="1024 kB">%2$s</xliff:g>
+    </string>
     <string name="parsing_xapk">Analisis sintetico de XAPK …</string>
     <string name="properties">Propiedades</string>
     <string name="properties_message">
         <![CDATA[<b>路径：</b> %1$s<br><b>Tamaño:：</b> %2$s<br><b>Última modificación:</b> %3$s]]>
     </string>
     <string name="delete_downloaded_file">Eliminar el archivo descargado</string>
-
     <string name="update_all">Actualizar todo</string>
     <string name="update___count__">Actualizar (<xliff:g id="count" example="3"> 1%1$d</xliff:g> 2)</string>
     <string name="ignore">"Ignorar "</string>
@@ -210,51 +197,41 @@
     <string name="want_to_remove_all_download_items">Deseas eliminar todos los articulos descargados?</string>
     <string name="search_history">Historial</string>
     <string name="clear_search_history">Borrar el historial</string>
-
     <string name="contact_us__">Contactanos…</string>
     <string name="contact_us">Contactanos</string>
     <string name="report_content">Reportar Contenido</string>
-
     <string name="select_all">Seleccionar Todo</string>
     <string name="deselect_all">Deseleccionar todo</string>
     <string name="installation">Instalacion</string>
     <string name="show_notification_after_installation">Mostrar notificacion tras la instalacion</string>
     <string name="delete_packages_after_installation">Eliminar paquetes tras la instalacion</string>
-
-    <string name="_name__installation_completed"><xliff:g id="name" example="APKPure">%1$s</xliff:g> instalacion completada</string>
+    <string name="_name__installation_completed">
+        <xliff:g id="name" example="APKPure">%1$s</xliff:g> instalacion completada</string>
     <string name="touch_to_open">Toca para abrir.</string>
     <string name="installed">Instalado</string>
     <string name="download_over_cellular">Descargar a través del móvil</string>
     <string name="participate_ultra_download_beta_test_title">Habilitar Ultra Descarga y disfrutar de una mayor velocidad de descarga</string>
     <string name="enable">Habilitar</string>
-
     <string name="enable_ultra_download">activada descarga ultra</string>
     <string name="auto_service_exchange__material_">Reemplazar</string>
     <string name="auto_service_complete__material_">Hecho</string>
-
     <string name="auto_install_via_root_title">Instalación automática (Modo root)</string>
     <string name="auto_install_via_root_summary">Exclusivo para teléfonos con acceso root y tablet.</string>
-
     <string name="download_over_cellular_content">Estás a punto de descargar por la red móvil de tu operador, ¿Deseas continuar?</string>
-
     <string name="participate_ultra_download_beta_test_content">Ultra Download esta en version beta. déjanos saber si encuentras algún problema. puedes desactivar esta opción fácilmente en los ajustes.</string>
     <string name="download_via_wifi_only">Descarga vía Wifi solamente</string>
     <string name="enable_ultra_download_summary">Ultra Download esta en versión beta. Déjanos saber si encuentras algún problema.</string>
     <string name="auto_service_install_accessibility_title">Instalación automática</string>
     <string name="auto_service_install_accessibility_summary">Soporta Android a partir de versión 4.1, no se requieren permisos root.</string>
-
     <string name="auto_service_dialog_title">Habilitar instalación Automática</string>
     <string name="auto_service_dialog_message">Auto instalación requiere que autorices en tu teléfono. Es seguro de usar y no conlleva ningún riesgo.</string>
-
     <string name="auto_service_title">Auto instalación de APKPure</string>
     <string name="auto_service_description">Habilitar \"Auto instalación de APKPure\", para mantener la \"Auto instalación\" de APKPure fluida.\n\nLa \"Auto instalación de APKPure\" puede ayudarte a darle clic a todos los botones de instalar cuando instalas o actualizas aplicaciones. no tienes que estar atento en el teléfono todo el tiempo.\n\nCuando habilitas esta opción, recibiras una advertencia del sistema, por favor darle a \"OK\" para colocar la accesibilidad en \"ON\".\n\nPara asegurar el buen funcionamiento de APKPure, por favor agrega la aplicación a tu \"lista blanca\" de aplicaciones seguras.\n\nLas opciones de arriba soportadas a partir de Android 4.1+, no requieren permisos root. Prometemos que nunca vamos a colectar tu información personal con este servicio de accesibilidad. Por favor siéntete libre de contactarnos si surge algún problema.</string>
-
     <string name="auto_service_install">Instalar</string>
     <string name="auto_service_ensure">OK</string>
     <string name="auto_service_next">Siguiente</string>
     <string name="auto_service_exchange">Reemplazar</string>
     <string name="auto_service_complete">Hecho</string>
-
     <string name="auto_service_install__material_">Instalar</string>
     <string name="auto_service_ensure__material_">OK</string>
     <string name="auto_service_next__material_">Siguiente</string>
@@ -262,7 +239,6 @@
     <string name="more_from_developer">Mas del desarrollador</string>
     <string name="more_large">Mas</string>
     <string name="feedback">Feedback,</string>
-
     <string name="changing_language">Cambiando de idioma, por favor espere …</string>
     <string name="download_complete_installation_setting">Opción de instalación después de descargar</string>
     <string name="recommend">Descubrir</string>
@@ -285,7 +261,6 @@
     <string name="download_complete_installation_setting_entries_always">Siempre instalar</string>
     <string name="download_complete_installation_setting_entries_only">Solo instalar cuando la aplicacion este en primer plano</string>
     <string name="download_complete_installation_setting_entries_never">Nunca instalar</string>
-
     <string name="reply">Responder</string>
     <string name="publish">Publicar</string>
     <string name="reply_dialog_marked_words">Mantenga presionada la imagen seleccionada para eliminarla.</string>
@@ -294,21 +269,16 @@
     <string name="load_end">Sin más datos</string>
     <string name="load_failed_click_retry">"Carga falló , por favor dele clic orta ves "</string>
     <string name="loading">Cargando…</string>
-
     <string name="scan_qr_code_hint">Antes de usar el escaner QR necesitas brindar permisos para la camara, lo cual es requerido para escanear codigos QR.</string>
     <string name="zxing_msg_default_status">Por favor coloca el codigo QR dentro del localizador para escanearlo.</string>
     <string name="zxing_msg_parser_status">Escaneo fallido, por favor intsnta escanear el codigo QR nuevamente.</string>
-
     <string name="permission_denied">¡Acceso denegado!</string>
-
     <string name="login_title">Ingresar</string>
     <string name="sign_out">Cerrar sesion</string>
-
     <string name="delete_comment">Eliminar comentario</string>
     <string name="delete_comment_msg">Estas seguro de eliminar este comentario?</string>
     <string name="upload_cancel">La carga ha sido cancelada</string>
     <string name="login_select_way_to_login">Por favor escoge la forma de ingresar</string>
-
     <string name="user_info_edit_title">Perfil</string>
     <string name="user_info_edit_portrait_tv">Foto de perfil</string>
     <string name="user_info_edit_username_tv">Nombre de usuario</string>
@@ -326,25 +296,26 @@
         <xliff:g example="APKPure" id="app_name">%2$s</xliff:g> :
         <xliff:g example="APKPure" id="app_name">%3$s</xliff:g> (de @\n
         <xliff:g example="APKPure" id="social_network_name">%4$s\n</xliff:g>)\n
-        <xliff:g example="https://apkpure.com/p/com.apkpure.aegon" id="app_url">\n%5$s</xliff:g></string>
+        <xliff:g example="https://apkpure.com/p/com.apkpure.aegon" id="app_url">\n%5$s</xliff:g>
+    </string>
     <plurals name="app_detail_see_all_replies">
         <item quantity="one">Ver todo <xliff:g example="1" id="count">%1$d</xliff:g> respuesta</item>
         <item quantity="other">Ver todo <xliff:g example="2" id="count">%1$d</xliff:g> respuestas</item>
     </plurals>
-
     <string name="app_submit_name_toast">Por favor, complete su apodo!</string>
     <string name="app_submit_nickname">Usuario</string>
     <string name="app_detail_tab_three">Relacionado</string>
-
     <string name="app_detail_comment_order_array_default">Ordenar por defecto</string>
     <string name="app_detail_comment_order_array_most_recent">Más reciente</string>
     <string name="load_failed_error_not_found">No se encuentra la app en apkpure</string>
     <string name="history_version">Historial de Versiones</string>
-
     <string name="data_saver_model_summery">Realizando esta activación estará reduciendo el tamaño y la calidad de la imágen ayudando a utilizar menos espacio en memoria.</string>
     <string name="beta">Demo</string>
-    <string name="share_app_url_group"> <xliff:g ejemplo="APKPure" id="app_name"/><xliff:g ejemplo="APKPure" id="social_network_name"/><xliff:g ejemplo="https://apkpure.com/p/com.apkpure.aegon" id="app_url"/></string>
-
+    <string name="share_app_url_group">
+        <xliff:g ejemplo="APKPure" id="app_name"/>
+        <xliff:g ejemplo="APKPure" id="social_network_name"/>
+        <xliff:g ejemplo="https://apkpure.com/p/com.apkpure.aegon" id="app_url"/>
+    </string>
     <string name="data_saver_model">Ahorrador de datos</string>
     <string name="app_detail_comment_order_array_new">Lo más nuevo</string>
     <string name="app_detail_comment_join_group_bt">Grupo</string>
@@ -353,17 +324,14 @@
     <string name="download_mkdir_internal_storage_entries">"SD "</string>
     <string name="download_mkdir_internal_storage_entries1">SD 1</string>
     <string name="download_mkdir_external_storage_fill_toast">Espacio de almacenamiento insuficiente, es posible que no puedas descargar ninguna aplicación.</string>
-
     <string name="download_mkdir_internal_storage_values">almacenamiento_interno</string>
     <string name="download_mkdir_external_storage_values">almacenamiento_externo</string>
-
-    <string name="already_save">Guardado<xliff:g example="ApKPure/photo" id="path">%1$s</xliff:g></string>
-
+    <string name="already_save">Guardado<xliff:g example="ApKPure/photo" id="path">%1$s</xliff:g>
+    </string>
     <string name="scan_qr_code_result_title">Resultado</string>
     <string name="scan_qr_code_result_copy_text">Copiar texto</string>
     <string name="scan_qr_code_result_hint">Detalles del código QR:</string>
     <string name="scan_qr_code_copy_success">El texto a sido copiado</string>
-
     <string name="user_info_edit_nickname_tv">Apodo</string>
     <string name="user_info_edit_gender_male">Masculino</string>
     <string name="user_info_edit_gender_female">Femenino</string>
@@ -373,7 +341,6 @@
     <string name="user_info_edit_ok">Aceptar</string>
     <string name="user_info_edit_cancel">Cancelar</string>
     <string name="user_info_edit_large_photo">Ver foto en un tamaño más grande</string>
-
     <string name="update_nick_title">Cambiar apodo</string>
     <string name="update_email_title">Cambiar e-mail</string>
     <string name="update_nick_name_et">Ingrese su nuevo apodo</string>
@@ -384,13 +351,11 @@
     <string name="update_intro_title">Editar sobre mí</string>
     <string name="app_detail_comment_order_array_best">Ordenar por mejor</string>
     <string name="app_detail_comment_order_array_old">Anterior</string>
-
     <string name="input_reply_content">El contenido de entrada de la respuesta:</string>
     <string name="tip_permission_camera_storage">Sin permiso para usar la cámara y la tarjeta SD, abra la administración de derechos</string>
     <string name="update_nickname_error">¡Apodo ya tomado, por favor elija otro!</string>
     <string name="update_intro_et">Escribe algunos detalles sobre ti</string>
     <string name="update_intro_tv">El campo sobre mí no puede estar vacío</string>
-
     <string name="message_all">TODO</string>
     <string name="message_reply">Respuesta</string>
     <string name="message_notifications_praise">Votó a favor de su comentario</string>
@@ -399,7 +364,6 @@
     <string name="message_notifications_login">Por favor inicie sesión para ver esta página.</string>
     <string name="message_at_title">Menciones</string>
     <string name="message_at">Te mencionó</string>
-
     <string name="update_pwd_title">Restablecer mi contraseña</string>
     <string name="update_pwd_current_pwd_et">Contraseña anterior</string>
     <string name="update_pwd_new_pwd_et">Nueva contraseña</string>
@@ -416,60 +380,48 @@
     <string name="crop__pick_error">Tipo de archivo de imagen inválido</string>
     <string name="crop__saving">Guardando foto…</string>
     <string name="crop__wait">Por favor espere…</string>
-
     <string name="is_comment">El comentario es…</string>
     <string name="comment_cancel">El comentario ha sido cancelado</string>
     <string name="comment_submitting">Presentando…</string>
     <string name="comment_replying">Respondiendo…</string>
     <string name="register_term_of_service">Términos de servicio de APKPure</string>
-
     <string name="set_contributor">Colaborador</string>
     <string name="set_permissions">Permisos</string>
     <string name="set_open_source_licence">Licencia de Código Abierto</string>
-
     <string name="sign_in_services">Al registrarte aceptas nuestros términos y política de privacidad.</string>
-
     <string name="sign_in_services_key">Términos</string>
     <string name="sign_in_services_key_policy">Política de privacidad</string>
-
     <string name="user_sign_up">Regístrarse</string>
     <string name="user_name_hint">Nombre de usuario</string>
     <string name="login_user_name">Nombre de usuario o correo electrónico</string>
     <string name="user_email_hint">Correo electrónico</string>
     <string name="user_password">Contraseña (6–32)</string>
     <string name="user_password_confirm">Confirmar contraseña</string>
-
     <string name="user_name_error">El nombre de usuario no debe contener caracteres especiales, símbolos o espacios</string>
     <string name="user_name_null">Nombre de usuario inválido</string>
     <string name="user_nickname_error">El apodo no debe contener caracteres especiales, símbolos o espacios</string>
     <string name="user_email_error">Esta dirección de e-mail no es válida</string>
     <string name="user_password_error">Esta contraseña no es válida</string>
     <string name="user_confirm_error">Las contraseñas deben coincidir</string>
-
     <string name="login_user_password">Contraseña</string>
     <string name="login_user_sign_in">Regístrarse</string>
     <string name="login_choose">O inicia sesión con tu cuenta</string>
     <string name="login_new_user">Registro de nuevo usuario</string>
     <string name="login_post_as_a_guest">Publicar como invitado</string>
-
     <string name="message">Mensaje</string>
-
     <string name="push_title_info_reply">¡%1$s respondió a tu comentario!</string>
     <string name="push_title_info_upvoted">¡%1$s votó en tu comentario!</string>
     <string name="push_title_info_follow">¡%1$s te esta seguiendo!</string>
     <string name="push_title_info_update">¡Llegó la actualización de APKPure!</string>
     <string name="push_content_info_update">¡Nueva versión %1$s lanzado! ¡Actualizar ahora!</string>
     <string name="push_title_info_at">Alguien te mencionó en un mensaje, toque para ver</string>
-
     <string name="download_list">Descargar lista</string>
     <string name="can_be_update">Puede ser actualizado</string>
     <string name="install_list">Instalado</string>
     <string name="no_download">No hay aplicaciones descargadas.</string>
     <string name="downloads">Descargas</string>
-
     <string name="change_language_failed">¡El selector de idioma falla!</string>
     <string name="comment_reply_tell_msg">¡Este comentario ha sido eliminado!</string>
-
     <string name="notification_setting">Notificaciones</string>
     <string name="reply_notification">Notificaciones de respuesta</string>
     <string name="reply_notification_msg">Recibir notificaciones de nuevos mensajes de respuesta</string>
@@ -478,16 +430,15 @@
     <string name="gif_tip">gif</string>
     <string name="ad_tip">anuncio</string>
     <string name="submit_comment_title_hint">Titulo</string>
-
     <string name="comment_vote_string">Votar</string>
     <string name="comment_reply_three">Responder</string>
     <string name="comment_item_fold">comentario colapsado</string>
-
     <plurals name="comment_reply_item_fold">
-        <item quantity="one"><xliff:g example="1" id="count">%1$d</xliff:g> Respuesta colapsada</item>
-        <item quantity="other"><xliff:g example="2" id="count">%1$d</xliff:g> Respuestas colapsadas</item>
+        <item quantity="one">
+            <xliff:g example="1" id="count">%1$d</xliff:g> Respuesta colapsada</item>
+        <item quantity="other">
+            <xliff:g example="2" id="count">%1$d</xliff:g> Respuestas colapsadas</item>
     </plurals>
-
     <string name="comment_no_reply">Vaya, no hay nada aquí.</string>
     <string name="comment_reply_info_name">Detalles</string>
     <string name="set_updates_notification">Actualizaciones de aplicaciones disponibles</string>
@@ -496,30 +447,25 @@
     <string name="comment_detail_original">Ver comentario original &gt;</string>
     <string name="comment_comment_newest">Lo más nuevo</string>
     <string name="comment_comment_oldest">Lo más antiguo</string>
-
     <string name="edit">Editar</string>
     <string name="menu_copy">Copiar</string>
     <string name="menu_cancel">Cancelar</string>
     <string name="delete_all_download_history">¿Borrar todo el historial de descargas?</string>
     <string name="delete_the_historical_record">¿Borrar el registro histórico?</string>
     <string name="download_history">Historial de descargas</string>
-
     <string name="sub_comment_dialog_title">Añadir un Vídeo</string>
     <string name="sub_comment_dialog_des_tv">Solo soportados videos alojados en Youtube.</string>
     <string name="sub_comment_dialog_link_et">Ingrese la dirección URL del video aquí.</string>
     <string name="sub_comment_dialog_link_null">La dirección URL del vídeo no puede estar en blanco</string>
     <string name="sub_comment_progress_msg">Añadiendo vídeo…</string>
-
     <string name="play_button">Botón de reproducción</string>
     <string name="null_time">0:00</string>
     <string name="open_video_in_youtube">Abrir vídeo en YouTube</string>
     <string name="full_screen_button">Botón de pantalla completa</string>
-
     <string name="main_tab_home">INICIO</string>
     <string name="main_tab_ranking">RANKING</string>
     <string name="tab_group">GRUPO</string>
     <string name="main_tab_my">YO</string>
-
     <string name="main_comment">comentario</string>
     <string name="main_won_praise">Me gustas</string>
     <string name="main_my_comments">Publicaciones</string>
@@ -537,7 +483,6 @@
     <string name="group">Grupo</string>
     <string name="collection">Favorito</string>
     <string name="cancel_collection">No favorito</string>
-
     <string name="follow">SIGUIENDO</string>
     <string name="attention_on">Siguiendo</string>
     <string name="user_detail_focus">Siguiendo</string>
@@ -546,30 +491,24 @@
     <string name="no_attention">No hay grupos que este siguiendo, todavía.</string>
     <string name="browsing_history">Historial de navegación</string>
     <string name="browsing_history_prompt">¿Desea borrar el historial de navegación?</string>
-
     <string name="ranking_tab1_title">Top de juegos</string>
     <string name="ranking_tab2_title">Top de nuegos nuevos</string>
     <string name="ranking_tab3_title">Top de Apps</string>
     <string name="ranking_tab4_title">Top de nuevas Apps</string>
     <string name="ranking_top_countries_title">Clasificación por países</string>
     <string name="ranking_top_develop_title">Desarrolladores principales</string>
-
     <string name="app_detail_three_fragment_foot">Mostrar todos los comentarios</string>
     <string name="menu_paste">Pegar</string>
-
     <string name="favorite_title">Favorito</string>
     <string name="save_as_favorite">Guardar como favorito</string>
     <string name="favorite_saved">Favorito guardado.</string>
     <string name="failed_to_save_favorite">Fallo al guardar favorito</string>
     <string name="remove_as_favorite">Eliminar favorito</string>
     <string name="remove_failed">Eliminar fallido</string>
-
     <string name="collection_comment">Publicaciones</string>
     <string name="collection_app">APLICACIONES</string>
-
     <string name="user_detail_tab_detail">Publicaciones</string>
     <string name="user_detail_tab_reply">Comentarios</string>
-
     <string name="search_tab_name_one">APLICACIONES</string>
     <string name="search_tab_name_two">USUARIO</string>
     <string name="pre_register_ok">ACEPTAR</string>
@@ -583,7 +522,6 @@
     <string name="topic_purple_yellow">Albaricoque naranja</string>
     <string name="topic_purple_blue_gary">Fuerza aérea azul</string>
     <string name="topic_switch_failed">Falló el cambio de tema</string>
-
     <string name="recommend_title">Recomendaciones</string>
     <string name="recommend_tab_game">Recomendar una aplicación</string>
     <string name="recommend_select_game">Recomendar una aplicación</string>
@@ -607,31 +545,25 @@
     <string name="recommend_not_found">No indexado</string>
     <string name="recommend_not_fount_info">Notifique a APKPure para agregar \"%1$s\", necesita terminar las formas.</string>
     <string name="recommend_user_recommend_sys">Presentado por APKPure</string>
-
     <string name="user_detail_fans">Seguidores</string>
     <string name="user_detail_praise">Me gustas</string>
     <string name="user_focus_tab_users">Personas</string>
     <string name="user_focus_tab_apps">Grupos</string>
     <string name="user_focus_title_my">Mis seguidos</string>
     <string name="user_focus_title">Seguido por %1$s</string>
-
     <string name="goto_google_play">Comprar ahora</string>
     <string name="google_play_bug_text">Comprar en Google Play</string>
-
     <string name="menu_follow_all">Todos mis seguidos</string>
     <string name="menu_follow_user">Personas seguidas</string>
     <string name="menu_follow_group">Grupos seguidos</string>
     <string name="menu_follow_user_tab">Personas</string>
     <string name="menu_follow_group_tab">Grupos</string>
-
     <string name="choose_app">Seleccionar aplicación</string>
     <string name="publish_comment">Comentar</string>
-
     <string name="app_detail_has_product">Compra de elementos</string>
     <string name="app_detail_no_product">Sin elementos de compra</string>
     <string name="app_detail_has_ad">Contiene anuncios</string>
     <string name="app_detail_no_ad">Sin anuncios</string>
-
     <string name="tag_list">Lista de etiquetas</string>
     <string name="hot_tag">Etiquetas calientes</string>
     <string name="hot_tag_explain">(Añada o vote por etiquetas existentes para esta aplicación)</string>
@@ -642,20 +574,17 @@
     <string name="there_is_no_label">Sin etiquetas.</string>
     <string name="add">Añadir</string>
     <string name="colon">:</string>
-
     <string name="pack_up">Colapsar</string>
     <string name="Istop">Fijado</string>
     <string name="add_tag">Añadir etiquetas</string>
     <string name="error_add_tag">Fallo al añadir etiquetas</string>
     <string name="no_collect">¡Sin favoritos todavía!</string>
     <string name="no_comment">¡Sea el primero en añadir una publicación!</string>
-
     <string name="share_apk">Compartir APK</string>
     <string name="tab_apk">APK</string>
     <string name="commentaries">Comentarios</string>
     <string name="upload_apk_version">V %1$s</string>
     <string name="upload_apk_downloads">Descargas: %1$s</string>
-
     <string name="upload_comment_uploading">%1$s Subiendo…</string>
     <string name="upload_comment_upload_success">%1$s Subida exitosa</string>
     <string name="upload_comment_upload_failed">%1$s Subida fallida</string>
@@ -668,16 +597,12 @@
     <string name="upload_notification_is_pause">La carga está pausada</string>
     <string name="upload_add_list_toast">¡Exitoso!</string>
     <string name="upload_add_file_list_toast">Subiendo aplicación. ¡Por favor ten paciencia, gracias!</string>
-
     <string name="your_reply_comment">Tu respuesta</string>
-
     <string name="market_ad_title">Mercado</string>
     <string name="market_ad_tab_one">Destacados</string>
     <string name="market_ad_tab_two">Juegos</string>
     <string name="market_ad_tab_three">Herramientas</string>
-
     <string name="tag">Etiqueta</string>
-
     <string name="pre_register_bt">Pre-registro</string>
     <string name="pre_register_now_bt">Pre-registro</string>
     <string name="pre_registered_bt">Registrado</string>
@@ -685,19 +610,15 @@
     <string name="pre_register_gift_tv">Recompensas de registro</string>
     <string name="pre_register_person_num_tv">Pre-registrados: %s</string>
     <string name="pre_register_success">Pre-registrarse significa que usted recibirá una notificación en su dispositivo cuando la aplicación sea liberada.</string>
-
     <string name="open_page_failed">¡No se pudo abrir la página!</string>
     <string name="search_for_user">Buscar</string>
     <string name="search_user_history_title">Contactos recientes</string>
     <string name="search_focus_list_title">Seguidor</string>
-
     <string name="copy_username">Copiar apodo</string>
     <string name="copy_content">Copiar contenido</string>
-
     <string name="tab_global">DESTACADO</string>
     <string name="comment_list_see_here">Última visita aquí. Toque para actualizar</string>
     <string name="comment_list_new_num">%d Nuevos comentarios</string>
-
     <string name="tab_popular">POPULAR</string>
     <string name="properties_message_v2">
         <![CDATA[<b>Nombre del paquete:</b> %1$s<br><b>Versión:</b> %2$s<br><b>Ruta:</b> %3$s<br><b>Tamaño:</b> %4$s<br><b>Última modificación:</b> %5$s]]>
@@ -711,26 +632,19 @@
     <string name="app_detail_comment_score_footer">Hay %1$s reseñas en otros idiomas.</string>
     <string name="app_detail_evaluation_tool_bar_title">Compartir una reseña</string>
     <string name="app_detail_evaluation_failed_bt">Reseña</string>
-
     <string name="app_detail_comment_order_array_good">4-5</string>
     <string name="app_detail_comment_order_array_bad">1-3</string>
     <string name="app_detail_folded_footer_reviews">ver todos los %d reseñas plegadas</string>
     <string name="app_detail_folded_footer_posts">ver todos los %d publicaciones archicadas</string>
     <string name="app_detail_discuss_filter_featured">Destacados</string>
     <string name="app_detail_discuss_filter_folded">Plegado</string>
-
-
     <string name="message_notify">notificaciónes</string>
     <string name="menu_copy_link">Copiar enlace</string>
     <string name="web_view_copy">Copiar enlace</string>
-
     <string name="filter_no_comment">¡Se el primero en comentar!</string>
-
     <string name="follow_floating_action_button">Crea un nuevo momento</string>
-
     <string name="count_down_timer_tv">%ds</string>
     <string name="count_down_timer_btn">omitir</string>
-
     <string name="choice_evaluate">Reseñas destacadas</string>
     <string name="choice_comment">Publicaciones recomendadas</string>
     <string name="emoji_input_error_hint">¡Los comentarios de Emoji ya no están permitidos! Escribe algo…</string>
@@ -739,13 +653,11 @@
     <string name="my_reservation_and_collection">Pre-registro y favorito</string>
     <string name="upload_apk">Subir APK</string>
     <string name="developer_badge_explanation">Explicación de la insignia de desarrollador</string>
-
     <string name="from_user_recommendation">Recomendaciones de usuarios</string>
     <string name="topics">Tema</string>
     <string name="pre_register_game">Pre-registro</string>
     <string name="editors_picks">Selección del editor</string>
     <string name="recommend_game">juego recomendado</string>
-
     <string name="bing_share_account">Conectarse a una cuenta de terceros</string>
     <string name="un_bind">No conectado</string>
     <string name="login_out_message_hint">¿Estás seguro de que quieres cerrar la sesión?</string>
@@ -763,12 +675,10 @@
     <string name="unbind_email">No conectado</string>
     <string name="unbind_email_hint">No se ha conectado ninguna dirección de correo electrónico a su cuenta.</string>
     <string name="menu_skip">Omitir</string>
-
     <string name="forget_password_tv">¿Olvidó su contraseña?</string>
     <string name="recover_password_title">Recuperar contraseña</string>
     <string name="email_address_hint_et">Ingrese su correo electrónico.</string>
-
-<string name="home_message_praise">Likes</string>
+    <string name="home_message_praise">Likes</string>
     <string name="sign_in_services_key_policy_register">Política de Privacidad</string>
     <string name="home_message_reply">Comentarios</string>
     <string name="shop">TIENDA</string>
@@ -795,8 +705,7 @@
     <string name="delete_success">Eliminado exitosamente</string>
     <string name="hot">Caliente</string>
     <string name="look_links">Ver enlace</string>
-
     <string name="headline_no_data_tv">No hay contenido nuevo</string>
     <string name="hint">Nota</string>
     <string name="no_save_comment_hint">Estos contenidos no fueron publicados, está seguro de que quiere salir\?</string>
-    </resources>
+</resources>
