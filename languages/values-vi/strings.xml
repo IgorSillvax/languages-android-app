@@ -6,10 +6,9 @@
     <string name="press_back_key_quit">Nhấn phím trở lại một lần nữa để thoát.</string>
     <string name="featured">Nổi bật</string>
     <string name="games">Trò chơi</string>
-    <string name="apps">Trò chơi vo làm 777</string>
+    <string name="apps">Ứng dụng</string>
     <string name="categories">Thể loại</string>
-    <string name="updates">Bản Cập Nhật vo lam 777
-\n</string>
+    <string name="updates">Bản Cập Nhật</string>
     <string name="something_happened">&gt;_&lt;
 \nĐã có lỗi xảy ra.</string>
     <string name="load_failed_error">Ôi!! Đã có lỗi xảy ra.</string>
@@ -22,7 +21,7 @@
     <string name="app_management">Đã cài đặt</string>
     <string name="app_uninstall">Gỡ cài đặt ứng dụng</string>
     <string name="apk_management">Trình quản lý APK</string>
-    <string name="apk_xapk_management">11</string>
+    <string name="apk_xapk_management">Trình quản lý APK / XPAK</string>
     <string name="download_management">Trình Quản lý tải về</string>
     <string name="settings">Cài đặt</string>
     <string name="about">Thông tin</string>
@@ -32,20 +31,20 @@
     <string name="check_update">Kiểm tra cập nhật</string>
     <string name="quit">Thoát</string>
     <string name="want_to_quit">Bạn có chắc chắn muốn thoát chứ\?</string>
-    <string name="install">Cài đặt app</string>
+    <string name="install">Cài đặt</string>
     <string name="open">Mở</string>
     <string name="delete">Xóa</string>
-    <string name="want_to_delete_file">Bạn muốn xóa tệp này\?</string>
-    <string name="file_has_been_deleted">Tệp đã được xóa.</string>
-    <string name="failed_to_delete_file">Xóa tệp đã thất bại.</string>
+    <string name="want_to_delete_file">Bạn muốn xóa tệp tin này\?</string>
+    <string name="file_has_been_deleted">Tệp tin đã được xóa.</string>
+    <string name="failed_to_delete_file">Xóa tệp tin đã thất bại.</string>
     <string name="install__label_">Cài đặt -<xliff:g example="APKPure" id="app_label">%1$s</xliff:g>
     </string>
     <string name="user_canceled">Người dùng đã hủy.</string>
-    <string name="io_error">Lỗi IO. Có thể không có đủ không gian trống để cài đặt thành công.</string>
-    <string name="file_format_error">Định dạng tệp lỗi.</string>
+    <string name="io_error">Lỗi IO. Không có đủ bộ nhớ trống để cài đặt.</string>
+    <string name="file_format_error">Định dạng tệp tin lỗi.</string>
     <string name="parsing_xapk">Đang phân tích XAPK …</string>
-    <string name="installing_obb">Đang cài đặt tệp OBB …</string>
-    <string name="extracting_apk">Giải nén Tệp APK …</string>
+    <string name="installing_obb">Đang cài đặt tệp tin OBB …</string>
+    <string name="extracting_apk">Giải nén tệp tin APK …</string>
     <string name="installing_apk">Đang cài đặt APK …</string>
     <string name="uninstall">Gỡ cài đặt</string>
     <string name="uninstalled">Đã gỡ cài đặt</string>
@@ -62,7 +61,7 @@
     <string name="permissions_">Quyền truy cập:</string>
     <string name="type_">Loại:</string>
     <string name="category_">Danh mục:</string>
-    <string name="more">thêm</string>
+    <string name="more">Thêm</string>
     <string name="permissions">Quyền truy cập</string>
     <string name="other">Khác</string>
     <string name="apk">APK</string>
@@ -71,7 +70,7 @@
     <string name="_ellipsis_"> … </string>
     <string name="market_response_error_success">Thành công.</string>
     <string name="market_response_error_invalid_result">Kết quả không hợp lệ.</string>
-    <string name="market_response_error_network_connect_error">Kết nối mạng lỗi.</string>
+    <string name="market_response_error_network_connect_error">Kết nối mạng bị lỗi.</string>
     <string name="market_response_error_network_read_error">Đọc dữ liệu lỗi.</string>
     <string name="market_response_error_invalid_response_code">Mã phản hồi không hợp lệ.</string>
     <string name="market_response_error_invalid_response_body">Thân phản ứng không hợp lệ.</string>
@@ -84,7 +83,7 @@
         <item quantity="other">
             <xliff:g example="2" id="count">%1$d</xliff:g> đã có bản cập nhật mới</item>
     </plurals>
-    <string name="launching_please_wait">Đang chạy, xin chờ…</string>
+    <string name="launching_please_wait">Đang chạy... Xin chờ.</string>
     <plurals name="_count__item_is_downloading">
         <item quantity="other">Đang tải xuống<xliff:g example="2" id="count"> %1$d</xliff:g> mục</item>
     </plurals>
@@ -177,7 +176,7 @@
     <string name="delete_all">Xóa Tất Cả</string>
     <string name="properties">Thuộc tính</string>
     <string name="properties_message">&lt;b&gt;Đường dẫn:&lt;/b&gt; %1$s&lt;br&gt;&lt;b&gt;Kích cở:&lt;/b&gt; %2$s&lt;br&gt;&lt;b&gt;Sửa đổi lần cuối:&lt;/b&gt; %3$s</string>
-    <string name="want_to_delete_all_files">Bạn có muốn xóa toàn bộ các tệp tin không\?</string>
+    <string name="want_to_delete_all_files">Bạn muốn xóa toàn bộ các tệp tin này\?</string>
     <string name="similar_or_related">Giống hoặc Liên quan</string>
     <string name="more_from_developer">Cùng Nhà phát triển</string>
     <string name="more_large">Thêm</string>
