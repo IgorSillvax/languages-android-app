@@ -3,7 +3,7 @@
     <string name="action_settings">设置</string>
     <string name="action_search">搜索</string>
     <string name="action_management">管理</string>
-    <string name="press_back_key_quit">再一次返回键退出。</string>
+    <string name="press_back_key_quit">再一次点击返回键退出。</string>
     <string name="featured">精选</string>
     <string name="games">游戏</string>
     <string name="apps">应用</string>
@@ -429,7 +429,7 @@
     <string name="push_title_info_upvoted">%1$s 赞了你的评论!</string>
     <string name="push_title_info_follow">%1$s 关注了你!</string>
     <string name="push_title_info_update">APKPure 有新版本了!</string>
-    <string name="push_content_info_update">最新版本 %1$s ! 點擊更新</string>
+    <string name="push_content_info_update">最新版本%1$s已发布！立即更新！</string>
     <string name="push_title_info_at">有人提到了你，点击查看</string>
     <string name="download_list">下载列表</string>
     <string name="can_be_update">可更新</string>
@@ -605,7 +605,7 @@
     <string name="upload_notification_start">开始</string>
     <string name="upload_notification_cancel">取消</string>
     <string name="upload_notification_is_uploading">评论上传中…</string>
-    <string name="upload_notification_is_pause">评论已暂停</string>
+    <string name="upload_notification_is_pause">上传已暂停</string>
     <string name="upload_add_list_toast">成功！</string>
     <string name="upload_add_file_list_toast">感谢提交，应用上传中请稍后！</string>
     <string name="your_reply_comment">你的回复</string>
@@ -672,7 +672,7 @@
     <string name="email_address_hint_et">邮箱地址</string>
     <string name="setting_region">区域</string>
     <string name="submit_add_title_image_tv">添加题图</string>
-    <string name="submit_add_title_image_error_toast">该图片可能暂不支持,请重新选择一张图片</string>
+    <string name="submit_add_title_image_error_toast">不支持此图片的格式，请另选择一张图片。</string>
     <string name="comment_hint_tv">分享一点什么？</string>
     <string name="msg_all_read">全部已读</string>
     <string name="msg_all_read_notice">提示</string>
