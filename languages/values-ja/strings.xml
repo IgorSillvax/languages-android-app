@@ -1,26 +1,20 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-
     <string name="action_settings">設定</string>
     <string name="action_search">検索</string>
     <string name="action_management">管理</string>
-
-    <string name="press_back_key_quit">もう一度バックキーを押して終了します。</string>
-
+    <string name="press_back_key_quit">終了するにはもう一度戻るボタンをタップしてください。</string>
     <string name="featured">オススメ</string>
     <string name="games">ゲーム</string>
     <string name="apps">アプリ</string>
     <string name="categories">カテゴリー</string>
     <string name="updates">アップデート</string>
-
     <string name="something_happened">&gt;_&lt;\n問題が発生したようです。</string>
-
     <string name="load_failed_error">エラーが発生しました…</string>
     <string name="load_failed_empty">ここには何もありません</string>
     <string name="load_failed_all_up_to_date">アプリはすべて最新です</string>
     <string name="load_failed_no_results">すみません! 検索結果が見つかりませんでした。</string>
     <string name="refresh">更新</string>
-
     <string name="management">管理</string>
     <string name="app_updates">アプリ更新</string>
     <string name="app_management">インストール済み</string>
@@ -30,21 +24,22 @@
     <string name="download_management">ダウンロードの管理</string>
     <string name="settings">セッティング</string>
     <string name="about">APKPureについて</string>
-    <string name="about_title"><xliff:g example="APKPure" id="app_name">%1$s</xliff:g>について</string>
+    <string name="about_title">
+        <xliff:g example="APKPure" id="app_name">%1$s</xliff:g>について</string>
     <string name="about_message">
         <![CDATA[<b>バージョン:</b> %1$s<br><br><b>公式サイト:</b> <a href="%2$s">%2$s</a><br><b>電子メール：</b> <a href="mailto:%3$s">%3$s</a>]]>
     </string>
     <string name="check_update">アップデートをチェックする</string>
     <string name="quit">終了</string>
-    <string name="want_to_quit">本当に終了してもよろしいですか？</string>
-
+    <string name="want_to_quit">終了してもよろしいでしょうか？</string>
     <string name="install">インストール</string>
     <string name="open">開く</string>
     <string name="delete">削除</string>
-    <string name="want_to_delete_file">ファイルを削除しますか?</string>
+    <string name="want_to_delete_file">このファイルを削除してよろしいでしょうか\?</string>
     <string name="file_has_been_deleted">ファイルは既に削除されています。</string>
     <string name="failed_to_delete_file">ファイルを削除できませんでした。</string>
-    <string name="install__label_">インストール - <xliff:g example="APKPure" id="app_label">%1$s</xliff:g></string>
+    <string name="install__label_">インストール - <xliff:g example="APKPure" id="app_label">%1$s</xliff:g>
+    </string>
     <string name="user_canceled">ユーザによってキャンセルされました。</string>
     <string name="io_error">IO エラーです。インストールを成功させるための十分な空き領域がない可能性があります。</string>
     <string name="file_format_error">ファイル形式のエラーです。</string>
@@ -52,13 +47,11 @@
     <string name="installing_obb">OBBファイルをインストールしています…</string>
     <string name="extracting_apk">APKファイルを解凍しています…</string>
     <string name="installing_apk">APKをインストールしています…</string>
-
     <string name="uninstall">アンインストール</string>
     <string name="uninstalled">アンインストールされました</string>
-    <string name="last_update__date_">最新アップデート: <xliff:g id="date">%1$s</xliff:g></string>
-
+    <string name="last_update__date_">最新アップデート: <xliff:g id="date">%1$s</xliff:g>
+    </string>
     <string name="all">すべて</string>
-
     <string name="screenshots">スクリーンショット</string>
     <string name="description">説明</string>
     <string name="whatsnew">最新情報</string>
@@ -76,7 +69,6 @@
     <string name="xapk">XAPK</string>
     <string name="unknown">不明</string>
     <string name="_ellipsis_"> … </string>
-
     <string name="market_response_error_success">成功しました。</string>
     <string name="market_response_error_invalid_result">無効な結果です。</string>
     <string name="market_response_error_network_connect_error">ネットワーク接続エラー。</string>
@@ -84,28 +76,30 @@
     <string name="market_response_error_invalid_response_code">レスポンスのコードが無効です。</string>
     <string name="market_response_error_invalid_response_body">レスポンスの内容が無効です。</string>
     <string name="market_response_error_unknown_error__error_">不明なエラー: (<xliff:g example="SUCCESS" id="error">%1$s</xliff:g>).</string>
-
     <string name="no_more">これ以上はありません。</string>
-
     <string name="update">アップデート</string>
-    <string name="version__version___size_">バージョン: <xliff:g example="1.0.0" id="version">%1$s</xliff:g>, <xliff:g example="1024 kB" id="size">%2$s</xliff:g></string>
+    <string name="version__version___size_">バージョン: <xliff:g example="1.0.0" id="version">%1$s</xliff:g>, <xliff:g example="1024 kB" id="size">%2$s</xliff:g>
+    </string>
     <plurals name="_count__new_update_is_available">
-        <item quantity="one"><xliff:g example="1" id="count">%1$d</xliff:g>件のアップデートがあります</item>
-        <item quantity="other"><xliff:g example="2" id="count">%1$d</xliff:g>件のアップデートがあります</item>
+        <item quantity="one">
+            <xliff:g example="1" id="count">%1$d</xliff:g>件のアップデートがあります</item>
+        <item quantity="other">
+            <xliff:g example="2" id="count">%1$d</xliff:g>件のアップデートがあります</item>
     </plurals>
-
     <string name="launching_please_wait">しばらくお待ちください…</string>
-
     <plurals name="_count__item_is_downloading">
-        <item quantity="one"><xliff:g example="1" id="count">%1$d</xliff:g>項目をダウンロードしています</item>
-        <item quantity="other"><xliff:g example="2" id="count">%1$d</xliff:g>項目をダウンロードしています</item>
+        <item quantity="one">
+            <xliff:g example="1" id="count">%1$d</xliff:g>項目をダウンロードしています</item>
+        <item quantity="other">
+            <xliff:g example="2" id="count">%1$d</xliff:g>項目をダウンロードしています</item>
     </plurals>
     <string name="downloads_complete">ダウンロードが完了しました</string>
     <string name="touch_for_view_all_downloads">タップして全てのダウンロードを表示します</string>
-    <string name="_name__download_failed"><xliff:g example="APKPure" id="name">%1$s</xliff:g>のダウンロードに失敗しました</string>
+    <string name="_name__download_failed">
+        <xliff:g example="APKPure" id="name">%1$s</xliff:g>のダウンロードに失敗しました</string>
     <string name="touch_to_download_it_again">タップしてダウンロードの再試行をします</string>
-
-    <string name="download_percent"><xliff:g example="50" id="percent">%1$d</xliff:g> %%</string>
+    <string name="download_percent">
+        <xliff:g example="50" id="percent">%1$d</xliff:g> %%</string>
     <string name="pause">停止</string>
     <string name="continue_">続く</string>
     <string name="restart">再起動</string>
@@ -122,29 +116,25 @@
     <string name="detail">詳細</string>
     <string name="remove">削除</string>
     <string name="want_to_remove_download_item">このダウンロード項目を削除しますか?</string>
-
     <string name="search">検索</string>
     <string name="search_for_apps">APKPureを検索する</string>
     <string name="trending_searches">人気の検索ワード</string>
-
     <string name="improvement_plan_title">アプリの改善に協力する</string>
     <string name="improvement_plan_message">
         "お使いのAndroid端末に関する情報提供にご協力ください。個人情報（名前、 住所、メールアドレス、ソーシャル情報、その他の個人を特定できる情報）は"<b>収集されません</b>
     </string>
     <string name="join_us">協力する</string>
     <string name="skip">協力しない</string>
-
-    <string name="_name__is_up_to_date"><xliff:g example="APKPure" id="name">%1$s</xliff:g>を更新します。</string>
+    <string name="_name__is_up_to_date">
+        <xliff:g example="APKPure" id="name">%1$s</xliff:g>を更新します。</string>
     <string name="new_version_available_title">アップデートがあります</string>
     <string name="new_version_available_message">
         <![CDATA[<b>最新版:</b> %1$s<br><br><b>最新情報:</b><br>%2$s]]>
     </string>
-
     <string name="report__">報告…</string>
     <string name="report_problem__">問題を報告…</string>
     <string name="report_problem_subject">問題を報告する</string>
     <string name="report_problem_text">内容:\n%1$s\n\n詳細:\n%2$s</string>
-
     <string name="installation_failed">インストールに失敗しました</string>
     <string name="invalid_app_detail">アプリの詳細情報が無効です。</string>
     <string name="invalid_app_asset">アプリの追加情報が無効です。</string>
@@ -156,7 +146,6 @@
     <string name="this_app_not_usable">
         <![CDATA[<big><b><font color=%1$d>このアプリは利用できない可能性があります。</font></b></big><br><br>続行しますか?]]>
     </string>
-
     <string name="setting">設定</string>
     <string name="external_storage_not_usable">
         <![CDATA[<big><b>外部ストレージを利用する必要があります。利用できるか確認してください。</b></big>]]>
@@ -164,19 +153,19 @@
     <string name="external_storage_permission_denied">
         <![CDATA[<big><b>外部ストレージへのアクセスが必要です。アプリの権限を確認してください。</b></big>]]>
     </string>
-
     <string name="share">シェア</string>
-    <string name="share_app_url"> シェア<xliff:g example="APKPure" id="app_name">%1$s</xliff:g>APK (from <xliff:g example="APKPure" id="social_network_name">%2$s</xliff:g>) <xliff:g example="https://apkpure.com/p/com.apkpure.aegon" id="app_url">%3$s</xliff:g></string>
-
-    <string name="_name__version_history"><xliff:g example="APKPure" id="name">%1$s</xliff:g>以前バージョン</string>
-    <string name="update__date___size_">アップデート: <xliff:g example="Mar 3, 2016" id="date">%1$s</xliff:g>, <xliff:g example="1024 kB" id="size">%2$s</xliff:g></string>
+    <string name="share_app_url"> シェア<xliff:g example="APKPure" id="app_name">%1$s</xliff:g>APK (from <xliff:g example="APKPure" id="social_network_name">%2$s</xliff:g>) <xliff:g example="https://apkpure.com/p/com.apkpure.aegon" id="app_url">%3$s</xliff:g>
+    </string>
+    <string name="_name__version_history">
+        <xliff:g example="APKPure" id="name">%1$s</xliff:g>以前バージョン</string>
+    <string name="update__date___size_">アップデート: <xliff:g example="Mar 3, 2016" id="date">%1$s</xliff:g>, <xliff:g example="1024 kB" id="size">%2$s</xliff:g>
+    </string>
     <string name="contact_us">お問い合わせ</string>
     <string name="contact_us__">問い合わせる…</string>
     <string name="report_content">コンテンツを報告</string>
-
     <string name="delete_all">すべて削除</string>
     <string name="properties">プロパティ</string>
-    <string name="want_to_delete_all_files">すべてのファイルを削除しますか?</string>
+    <string name="want_to_delete_all_files">すべてのファイルを削除してよろしいでしょうか\?</string>
     <string name="pause_all">すべて一時停止</string>
     <string name="continue_all">すべて続ける</string>
     <string name="waiting_to_download">ダウンロードを待っています</string>
@@ -184,10 +173,8 @@
     <string name="remove_all">すべて削除</string>
     <string name="want_to_remove_all_download_items">ダウンロードしたデータを全て削除しますか?</string>
     <string name="delete_downloaded_file">ダウンロードしたファイルを削除</string>
-
     <string name="search_history">履歴</string>
     <string name="clear_search_history">すべての履歴を削除する</string>
-
     <string name="update_all">すべてアップデート</string>
     <string name="ignore">リストから無視する</string>
     <string name="unignore">無視を解除</string>
@@ -204,15 +191,14 @@
     <string name="total_zero_app">
         <![CDATA[合計: <b><font color=%1$d>0</font></b> 件]]>
     </string>
-
     <string name="general">一般</string>
     <string name="language">言語</string>
     <string name="auto">自動</string>
     <string name="installation">インストール</string>
     <string name="show_notification_after_installation">インストール後に通知します</string>
     <string name="delete_packages_after_installation">インストール後にパッケージを削除します</string>
-
-    <string name="_name__installation_completed"><xliff:g example="APKPure" id="name">%1$s</xliff:g>のインストールが完了しました</string>
+    <string name="_name__installation_completed">
+        <xliff:g example="APKPure" id="name">%1$s</xliff:g>のインストールが完了しました</string>
     <string name="touch_to_open">タップして開く</string>
     <string name="properties_message">
         <![CDATA[<b>パス:</b> %1$s<br><b>サイズ:</b> %2$s<br><b>最終更新日:</b> %3$s]]>
@@ -226,9 +212,7 @@
     <string name="download_complete_installation_setting">ダウンロード後、そのままインストールを実行</string>
     <string name="download_over_cellular">モバイルデータ通信経由でダウンロード</string>
     <string name="download_over_cellular_content">モバイルデータを使用してダウンロードを行いますか?</string>
-
     <string name="enable">有効</string>
-
     <string name="auto_service_ensure">OK</string>
     <string name="auto_service_next">次へ</string>
     <string name="auto_service_install">インストール</string>
@@ -243,15 +227,12 @@
     <string name="participate_ultra_download_beta_test_title">高速ダウンロードを有効にするといままでよりも速い速度でダウンロードできます。</string>
     <string name="participate_ultra_download_beta_test_content">高速ダウンロードオプションはテスト中です。問題が発生した際はご連絡をお願いいたします。設定よりこの機能をオフにすることもできます。</string>
     <string name="feedback">フィードバック</string>
-
     <string name="changing_language">言語を変更しています…</string>
     <string name="download_via_wifi_only">Wi-Fi接続時のみアプリをダウンロードする</string>
     <string name="enable_ultra_download">高速ダウンロードを有効にする</string>
     <string name="enable_ultra_download_summary">高速ダウンロードオプションはテスト中です。問題が発生した際はご連絡をお願いいたします。</string>
     <string name="auto_service_install_accessibility_summary">Android 4.1以上で利用可能です。root権限等は不要です。</string>
-
     <string name="auto_service_dialog_message">この機能を利用するために承認が必要です。OKをタップして開いた画面の「APKPure Auto Install」を選択し、スイッチを「ON」にしてください。</string>
-
     <string name="auto_service_description">アプリケーションの自動インストールを利用するためにはこの設定を有効化する必要があります。\n\n
 
 この機能を利用すると、インストールダイアログの操作が不要になります。つまり大量のアプリをインストールやアップデートする際でも、スマートフォンから手を離して放置しておくことができるようになります。\n\n
@@ -261,14 +242,10 @@
 タスクキラーアプリケーションを利用している場合は、正常に動作させるためAPKPureをホワイトリストへ追加してください。\n\n
 
 この機能はAndroid 4.1以上で利用できます。root権限等は一切不要です。またAPKPureはユーザーの個人情報等を収集することは決してありません。何か問題が発生した場合は遠慮なくお問い合わせください。</string>
-
     <string name="auto_service_complete">完了</string>
-
     <string name="auto_service_complete__material_">完了</string>
-
     <string name="auto_install_via_root_title">自動インストール(root利用モード)</string>
     <string name="auto_install_via_root_summary">root取得済みのデバイスのみ</string>
-
     <string name="report">レポート</string>
     <string name="recommend">ディスカバー</string>
     <string name="app_detail_customer_reviews">レビュー</string>
@@ -286,53 +263,44 @@
     <string name="app_submit_email">電子メール</string>
     <string name="app_submit_submit_title">送信</string>
     <string name="app_submit_reply_to">に返信</string>
-
     <string name="app_detail_tab_one">詳細</string>
     <string name="app_detail_tab_two">グループ</string>
     <string name="app_detail_tab_three">関連</string>
-
     <string name="app_detail_comment_order_array_default">デフォルトの並び順</string>
     <string name="app_detail_comment_order_array_most_recent">最近</string>
     <string name="app_detail_comment_order_array_new">最新</string>
     <string name="app_detail_comment_order_array_best">ホット</string>
-
     <string name="download_complete_installation_setting_entries_always">常にインストールする</string>
     <string name="reply">返信</string>
     <string name="input_reply_content">返信の内容を入力してください：</string>
     <string name="publish">ポスト</string>
     <string name="reply_comment">コメントに返信</string>
     <string name="save_original_image">保存</string>
-    <string name="already_save">保存する<xliff:g example="ApKPure/photo" id="path">%1$s</xliff:g></string>
-
+    <string name="already_save">保存する<xliff:g example="ApKPure/photo" id="path">%1$s</xliff:g>
+    </string>
     <string name="load_end">これ以上データがありません</string>
     <string name="loading">ローディング…</string>
-
-    <string name="share_app_url_comment"> <xliff:g example="APKPure" id="user_name">%1$s</xliff:g>\'s comments on <xliff:g example="APKPure" id="app_name">%2$s</xliff:g> : <xliff:g example="APKPure" id="app_name">%3$s</xliff:g> (from <xliff:g example="APKPure" id="social_network_name">%4$s</xliff:g>) <xliff:g example="https://apkpure.com/p/com.apkpure.aegon" id="app_url">%5$s</xliff:g></string>
-
+    <string name="share_app_url_comment">
+        <xliff:g example="APKPure" id="user_name">%1$s</xliff:g>\'s comments on <xliff:g example="APKPure" id="app_name">%2$s</xliff:g> : <xliff:g example="APKPure" id="app_name">%3$s</xliff:g> (from <xliff:g example="APKPure" id="social_network_name">%4$s</xliff:g>) <xliff:g example="https://apkpure.com/p/com.apkpure.aegon" id="app_url">%5$s</xliff:g>
+    </string>
     <plurals name="app_detail_see_all_replies">
         <item quantity="one">全ての返信を見る<xliff:g example="2" id="count"> 1%1$d</xliff:g> 2</item>
         <item quantity="other"/>
     </plurals>
-
     <string name="download_complete_installation_setting_entries_never">インストールしない</string>
-
     <string name="reply_dialog_marked_words">選択した画像を長押しして削除します。</string>
     <string name="load_failed_click_retry">問題が発生したため、再試行してください</string>
     <string name="scan_qr_code_hint">QRコードをスキャンする前に、カメラ権限を有効にする必要があります。</string>
     <string name="zxing_msg_default_status">QRコードをファインダーの中央に配置してスキャンしてください。</string>
     <string name="zxing_msg_parser_status">スキャンに失敗しました。再度QRコードをスキャンしてみてください。</string>
-
     <string name="tip_permission_camera_storage">カメラとSDカードを使用する権限がありません。アクセス許可を有効にしてください</string>
     <string name="permission_denied">アクセスが拒否されました！</string>
-
     <string name="login_title">ログイン</string>
     <string name="sign_out">サインアウト</string>
-
     <string name="delete_comment">コメント削除</string>
     <string name="delete_comment_msg">本当にこのコメントを削除してもよろしいですか？</string>
     <string name="upload_cancel">アップロードがキャンセルされました</string>
     <string name="login_select_way_to_login">ログイン方法を選択してください</string>
-
     <string name="user_info_edit_title">プロフィール</string>
     <string name="user_info_edit_portrait_tv">プロフィール画像</string>
     <string name="user_info_edit_username_tv">ユーザー名</string>
@@ -350,7 +318,6 @@
     <string name="user_info_edit_portrait_error">イメージタイプはサポートされていません</string>
     <string name="user_info_edit_ok">OK</string>
     <string name="user_info_edit_cancel">キャンセル</string>
-
     <string name="update_nick_title">ニックネームを変更する</string>
     <string name="update_email_title">メールアドレス変更</string>
     <string name="update_nick_name_et">新しいニックネームを入力してください</string>
@@ -362,7 +329,6 @@
     <string name="message_reply">返信</string>
     <string name="message_praise">賛成</string>
     <string name="message_notifications_login">このページを表示するにはログインしてください。</string>
-
     <string name="update_pwd_title">パスワードをリセットする</string>
     <string name="update_pwd_current_pwd_et">元のパスワード</string>
     <string name="update_pwd_new_pwd_et">新しいパスワード</string>
@@ -380,32 +346,25 @@
     <string name="crop__pick_error">画像ファイルの種類が無効です</string>
     <string name="crop__saving">写真を保存中…</string>
     <string name="crop__wait">お待ちください…</string>
-
     <string name="is_comment">コメントは…</string>
     <string name="comment_cancel">コメントはキャンセルされました</string>
     <string name="comment_submitting">送信中…</string>
     <string name="comment_replying">返信…</string>
     <string name="register_term_of_service">APKPureサービス期間</string>
-
     <string name="set_contributor">投稿者</string>
     <string name="set_permissions">パーミッション</string>
-
     <string name="sign_in_services">ログインすることにより、利用規約とプライバシーポリシーに同意したことになります。</string>
-
     <string name="sign_in_services_key">条項</string>
     <string name="sign_in_services_key_policy">プライバシーポリシー</string>
-
     <string name="user_sign_up">サインアップ</string>
     <string name="user_name_hint">ユーザー名</string>
     <string name="user_email_hint">電子メール</string>
     <string name="user_password">パスワード(6–32)</string>
     <string name="user_password_confirm">パスワードを認証する</string>
-
     <string name="user_name_error">ユーザー名には、特殊文字、記号またはスペースを使用しないでください</string>
     <string name="user_email_error">このメールアドレスは無効です</string>
     <string name="user_password_error">このパスワードは無効です</string>
     <string name="user_confirm_error">パスワードが一致しません</string>
-
     <string name="login_user_name">ユーザー名またはメールアドレス</string>
     <string name="login_user_password">パスワード</string>
     <string name="login_user_sign_in">サインイン</string>
@@ -413,9 +372,7 @@
     <string name="login_choose">またはアカウントでログインする</string>
     <string name="login_new_user">新規ユーザー登録</string>
     <string name="login_post_as_a_guest">ゲストとして投稿</string>
-
     <string name="message">メッセージ</string>
-
     <string name="push_title_info_reply">%sさんがあなたのコメントに返信しました。</string>
     <string name="push_title_info_upvoted">％sさんがあなたのコメントに賛成しました。</string>
     <string name="download_list">ダウンロードリスト</string>
@@ -423,10 +380,8 @@
     <string name="install_list">インストール済み</string>
     <string name="no_download">ダウンロードしたアプリはありません。</string>
     <string name="downloads">ダウンロード</string>
-
     <string name="change_language_failed">言語切り替えに失敗しました。</string>
     <string name="comment_reply_tell_msg">このコメントは削除されました…</string>
-
     <string name="notification_setting">通知</string>
     <string name="message_notifications_praise">あなたのコメントに賛成しました</string>
     <string name="reply_notification">通知を返信する</string>
@@ -435,16 +390,14 @@
     <string name="like_notification_msg">新しい賛成の通知を受信する</string>
     <string name="gif_tip">GIF</string>
     <string name="submit_comment_title_hint">タイトル</string>
-
     <string name="comment_vote_string">投票する</string>
     <string name="comment_reply_three">返信する</string>
     <string name="comment_item_fold">1件のコメントが崩れました</string>
-
     <plurals name="comment_reply_item_fold">
-        <item quantity="one"><xliff:g example="2" id="count"> 1%1$d</xliff:g> 2件の返信が崩れました</item>
+        <item quantity="one">
+            <xliff:g example="2" id="count"> 1%1$d</xliff:g> 2件の返信が崩れました</item>
         <item quantity="other"/>
     </plurals>
-
     <string name="comment_no_reply">残念! ここには何もありません。</string>
     <string name="comment_reply_info_name">詳細</string>
     <string name="set_updates_notification">利用できるアップデート</string>
@@ -453,20 +406,17 @@
     <string name="comment_detail_original">元のコメントを表示 &gt;</string>
     <string name="comment_comment_newest">最新</string>
     <string name="comment_comment_oldest">最古</string>
-
     <string name="edit">編集</string>
     <string name="menu_copy">コピー</string>
     <string name="menu_cancel">キャンセル</string>
     <string name="delete_all_download_history">すべてのダウンロード履歴を削除しますか？</string>
     <string name="delete_the_historical_record">履歴レコードを削除しますか?</string>
     <string name="download_history">ダウンロード履歴</string>
-
     <string name="sub_comment_dialog_title">ビデオを追加する</string>
     <string name="sub_comment_dialog_des_tv">YouTube動画の解析のみをサポートします。</string>
     <string name="sub_comment_dialog_link_et">ここに動画URLを入力してください。</string>
     <string name="sub_comment_dialog_link_null">動画のURLアドレスが空白にすることはできません</string>
     <string name="sub_comment_progress_msg">動画を追加しています…</string>
-
     <string name="download_complete_installation_setting_entries_only">インストールはフォアグラウンドで実行するのみ</string>
     <string name="recommend_write_des_hint">あなたと同じ興味を持っている多くのユーザーは参考になるレビューを見ることができます。</string>
     <string name="recommend_comment">送信</string>
@@ -478,23 +428,19 @@
         3.インデックスされていないアプリを追加するよう、APKPureに通知するには、まず推奨フォームを完了してください。</string>
     <string name="recommend_user_recommend">％sからのおすすめ</string>
     <string name="recommend_required">*</string>
-
     <string name="check_update_replace">正式版</string>
     <string name="check_update_beta">プレリリース版（Beta版）</string>
     <string name="app_detail_comment_order_array_old">オールド</string>
-
     <string name="app_detail_comment_join_group_bt">グループ</string>
     <string name="ad_tip">広告</string>
     <string name="play_button">再生ボタン</string>
     <string name="null_time">0:00</string>
     <string name="open_video_in_youtube">YouTubeで動画を開く</string>
     <string name="full_screen_button">フルスクリーンボタン</string>
-
     <string name="main_tab_home">ホーム</string>
     <string name="main_tab_ranking">ランキング</string>
     <string name="tab_group">グループ</string>
     <string name="main_tab_my">私</string>
-
     <string name="main_comment">コメント</string>
     <string name="main_won_praise">Likes</string>
     <string name="main_my_comments">投稿</string>
@@ -511,7 +457,6 @@
     <string name="canceled">キャンセル</string>
     <string name="group">グループ</string>
     <string name="collection">お気に入り</string>
-
     <string name="comments">ディスカッション</string>
     <string name="follow">フォロー中</string>
     <string name="attention_on">フォロー</string>
@@ -519,28 +464,22 @@
     <string name="no_attention">フォローしているグループはありません。</string>
     <string name="browsing_history">閲覧履歴</string>
     <string name="browsing_history_prompt">閲覧履歴を消去しますか?</string>
-
     <string name="ranking_tab1_title">人気ゲーム</string>
     <string name="ranking_tab2_title">最新人気アプリ</string>
     <string name="ranking_tab3_title">人気アプリ</string>
     <string name="ranking_tab4_title">最新人気アプリ</string>
-
     <string name="app_detail_three_fragment_foot">すべてのコメントを表示する</string>
     <string name="menu_paste">ペースト</string>
-
     <string name="favorite_title">お気に入り</string>
     <string name="save_as_favorite">お気に入りとして保存</string>
     <string name="favorite_saved">お気に入り保存済み</string>
     <string name="failed_to_save_favorite">お気に入りの保存に失敗しました</string>
     <string name="remove_as_favorite">お気に入りとして削除</string>
     <string name="remove_failed">削除失敗</string>
-
     <string name="collection_comment">投稿</string>
     <string name="collection_app">アプリ</string>
-
     <string name="open_with_browser">ブラウザで開く</string>
     <string name="web_view_refresh">リフレッシュ</string>
-
     <string name="topic_red_color">クリムゾン</string>
     <string name="topic_blue_color">アジュール ブルー</string>
     <string name="topic_purple_color">ダークバイオレット</string>
@@ -549,7 +488,6 @@
     <string name="topic_purple_yellow">アプリコットオレンジ</string>
     <string name="topic_purple_blue_gary">エアフォースブルー</string>
     <string name="topic_switch_failed">テーマの変更に失敗しました</string>
-
     <string name="recommend_title">オススメ</string>
     <string name="recommend_tab_game">アプリをオススメします</string>
     <string name="recommend_tab_list">オススメ</string>
@@ -561,66 +499,52 @@
     <string name="recommend_state_success">オススメ</string>
     <string name="recommend_select_game">アプリをオススメする</string>
     <string name="recommend_write_des">記述</string>
-
     <string name="download_mkdir">ダウンロードパス</string>
     <string name="download_mkdir_external_storage_fill_toast">ストレージの容量が不足している場合、アプリをダウンロードできない可能性があります。</string>
-
     <string name="download_mkdir_internal_storage_values">本体ストレージ</string>
     <string name="download_mkdir_external_storage_values">SDカードなど</string>
-
     <string name="download_mkdir_internal_storage_size_des">空き容量: %1$s / 合計: %2$s</string>
     <string name="download_mkdir_internal_storage_entries">SDカード</string>
     <string name="download_mkdir_internal_storage_entries1">SD 1</string>
     <string name="recommend_not_found">インデックスされていない</string>
     <string name="recommend_not_fount_info">\"%1$s\"を追加するよう、APKPureに通知するには、フォームを完了する必要があります。</string>
-
     <string name="user_detail_focus">フォロー中</string>
     <string name="user_detail_fans">フォロワー</string>
     <string name="user_detail_praise">Likes</string>
     <string name="user_detail_tab_detail">投稿</string>
     <string name="user_detail_tab_reply">コメント</string>
-
     <string name="user_focus_tab_apps">グループ</string>
     <string name="user_focus_title_my">MYフォロー</string>
     <string name="user_focus_title">%sにフォローされています</string>
-
     <string name="goto_google_play">今すぐ購入</string>
-
     <string name="menu_follow_all">すべてのフォロー</string>
     <string name="menu_follow_user">フォローした人</string>
     <string name="menu_follow_group">フォローしたグループ</string>
     <string name="menu_follow_all_tab">フォロー</string>
     <string name="menu_follow_user_tab">People</string>
     <string name="menu_follow_group_tab">グループ</string>
-
     <string name="choose_app">アプリケーションの選択</string>
     <string name="publish_comment">投稿を共有する</string>
-
     <string name="history_version">バージョン履歴</string>
-
     <string name="data_saver_model">データセーバー</string>
-    <string name="share_app_url_group"> <xliff:g example="APKPure" id="app_name">%1$s</xliff:g>グループ. (from <xliff:g example="APKPure" id="social_network_name">%2$s</xliff:g>) <xliff:g example="https://apkpure.com/p/com.apkpure.aegon" id="app_url">%3$s</xliff:g></string>
-
+    <string name="share_app_url_group">
+        <xliff:g example="APKPure" id="app_name">%1$s</xliff:g>グループ. (from <xliff:g example="APKPure" id="social_network_name">%2$s</xliff:g>) <xliff:g example="https://apkpure.com/p/com.apkpure.aegon" id="app_url">%3$s</xliff:g>
+    </string>
     <string name="data_saver_model_summery">スクリーンショットなどの画像の画質を落とし、通信容量を節約することができます。</string>
     <string name="scan_qr_code_result_title">結果</string>
     <string name="scan_qr_code_result_copy_text">テキストをコピーする</string>
     <string name="scan_qr_code_result_hint">QRコードの詳細: </string>
     <string name="scan_qr_code_copy_success">テキストがコピーされました</string>
-
     <string name="user_info_edit_large_photo">写真をもっと大きなサイズで見る</string>
-
     <string name="push_title_info_follow">%sがあなたをフォローしました。</string>
     <string name="push_title_info_update">APKPureのアップデートが届きました。</string>
     <string name="push_content_info_update">新しいバージョン％sがリリースされました。今すぐアップデート!</string>
-
     <string name="recommend_user_recommend_sys">APKPureからのおすすめ</string>
-
     <string name="user_focus_tab_users">People</string>
     <string name="app_detail_has_product">購入アイテム</string>
     <string name="app_detail_no_product">購入アイテムなし</string>
     <string name="app_detail_has_ad">広告が含まれています</string>
     <string name="app_detail_no_ad">広告なし</string>
-
     <string name="tag_list">タグ一覧</string>
     <string name="hot_tag">ホット・タグ</string>
     <string name="common_use">私のタグ</string>
@@ -629,31 +553,25 @@
     <string name="toast_app_tag_exist">タグは既に存在します！</string>
     <string name="there_is_no_label">タグはありません。</string>
     <string name="add">追加</string>
-
-    <string name="load_failed_error_not_found">アプリはAPKPureアプリストアに登録されていません。</string>
+    <string name="load_failed_error_not_found">このアプリはAPKPureに登録されていません。</string>
     <string name="beta">ベータ版</string>
     <string name="user_info_edit_intro_tv">私について</string>
     <string name="update_intro_title">私について編集する</string>
     <string name="update_intro_et">あなた自身について詳細を書く</string>
     <string name="update_intro_tv">私についてのフィールドを空にすることはできません</string>
-
     <string name="user_name_null">ユーザー名が無効です</string>
     <string name="colon">:</string>
-
     <string name="pack_up">折りたたみ</string>
     <string name="Istop">ピン留め</string>
     <string name="add_tag">タグを追加する</string>
     <string name="error_add_tag">タグを追加できませんでした</string>
     <string name="no_collect">お気に入りはまだありません。</string>
     <string name="no_comment">コメントを追加する最初の人になりましょう。</string>
-
     <string name="share_apk">シェアAPK</string>
     <string name="tab_apk">APK</string>
     <string name="commentaries">投稿を共有する</string>
-
     <string name="upload_apk_version">V %1$s</string>
     <string name="upload_apk_downloads">ダウンロード: ％1$s</string>
-
     <string name="upload_comment_uploading">%1$s をアップロードしています…</string>
     <string name="upload_comment_upload_success">％sのアップロードが成功しました</string>
     <string name="upload_comment_upload_failed">%1$s のアップロードが失敗しました</string>
@@ -667,9 +585,7 @@
     <string name="upload_add_list_toast">成功しました</string>
     <string name="hot_tag_explain">(このアプリのタグを追加または既存タグを投票する)</string>
     <string name="upload_add_file_list_toast">アプリをアップロードしています。少々お待ちください…</string>
-
     <string name="your_reply_comment">あなたからの返信</string>
-
     <string name="market_ad_title">マーケット</string>
     <string name="market_ad_tab_one">注目</string>
     <string name="market_ad_tab_two">ゲーム</string>
@@ -677,18 +593,12 @@
     <string name="tag">タグ</string>
     <string name="message_at_title">メンション</string>
     <string name="message_at">あなた宛のメッセージ</string>
-
     <string name="set_open_source_licence">オープンソースライセンス</string>
-
     <string name="push_title_info_at">メッセージが届いています。タップしてメッセージを開きます。</string>
-
     <string name="cancel_collection">お気に入りから削除</string>
-
     <string name="ranking_top_countries_title">国ごとのトレンド</string>
     <string name="ranking_top_develop_title">人気のデベロッパー</string>
-
     <string name="google_play_bug_text">Google Playで購入</string>
-
     <string name="search_tab_name_one">アプリ</string>
     <string name="search_tab_name_two">ユーザー</string>
     <string name="pre_register_bt">事前登録</string>
@@ -698,16 +608,13 @@
     <string name="pre_register_gift_tv">ログインボーナス</string>
     <string name="pre_register_person_num_tv">事前登録者: %1$s</string>
     <string name="pre_register_success">事前登録をすると、アプリが公開されたときに通知が届きます。</string>
-
     <string name="open_page_failed">ページを開くことができませんでした！</string>
     <string name="search_for_user">検索</string>
     <string name="search_user_history_title">最近の連絡先</string>
     <string name="search_focus_list_title">フォローした人</string>
-
     <string name="pre_register_ok">OK</string>
     <string name="copy_username">ユーザ名をコピーする</string>
     <string name="copy_content">コメントをコピーする</string>
-
     <string name="tab_global">特集</string>
     <string name="comment_list_see_here">前回アクセスしたページはこちらです。タップして更新します。</string>
     <string name="comment_list_new_num">％d新しいストーリー</string>
@@ -724,28 +631,22 @@
     <string name="app_detail_comment_score_footer">他の言語では％1 $ s件のレビューがあります。</string>
     <string name="app_detail_evaluation_tool_bar_title">レビューを投稿する</string>
     <string name="app_detail_evaluation_failed_bt">レビュー</string>
-
     <string name="app_detail_comment_order_array_good">4-5</string>
     <string name="app_detail_comment_order_array_bad">1-3</string>
     <string name="app_detail_folded_footer_reviews">すべての％dレビューを見る</string>
     <string name="app_detail_folded_footer_posts">すべての%dポストを見る</string>
     <string name="app_detail_discuss_filter_featured">ハイライト</string>
     <string name="app_detail_discuss_filter_folded">折りたたみ</string>
-
     <string name="message_notify">通知</string>
     <string name="menu_copy_link">リンクをコピーする</string>
     <string name="web_view_copy">リンクをコピーする</string>
-
     <string name="filter_no_comment">おっと！ そのようなコンテンツはありません!!</string>
-
     <string name="follow_floating_action_button">新しいモーメントを作る</string>
-
     <string name="count_down_timer_tv">%ds</string>
     <string name="count_down_timer_btn">スキップ</string>
-
     <string name="choice_evaluate">おすすめレビュー</string>
     <string name="choice_comment">おすすめ投稿</string>
-<string name="home_message_reply">コメント</string>
+    <string name="home_message_reply">コメント</string>
     <string name="home_message_praise">いいね</string>
     <string name="sign_in_services_key_policy_register">プライバシーポリシー</string>
     <string name="emoji_input_error_hint">絵文字コメントはこれ以上許可されていません!何か書いて…</string>
@@ -754,13 +655,11 @@
     <string name="my_reservation_and_collection">事前登録とお気に入り</string>
     <string name="upload_apk">APK をアップロード</string>
     <string name="developer_badge_explanation">開発者バッジの説明</string>
-
     <string name="from_user_recommendation">ユーザーのおすすめ</string>
     <string name="topics">トピック</string>
     <string name="pre_register_game">事前登録</string>
     <string name="editors_picks">編集者のチョイス</string>
     <string name="recommend_game">おすすめゲーム</string>
-
     <string name="bing_share_account">サードパーティアカウントに接続する</string>
     <string name="un_bind">接続されていません</string>
     <string name="login_out_message_hint">ログアウトしますか\?</string>
@@ -769,7 +668,6 @@
     <string name="send_verification_code_resend_tv">検証コードを送信する</string>
     <string name="bind_email_success">接続に成功しました。</string>
     <string name="community_guide_lines">Community Guidelines</string>
-
     <string name="my_draft">My Draft</string>
     <string name="verification_code_tv">確認コードがあなたのメールアドレス%1$sに送信されました</string>
     <string name="verification_code_second_tv">%d sに再送信します</string>
@@ -780,11 +678,9 @@
     <string name="unbind_email">接続されていません</string>
     <string name="unbind_email_hint">アカウントにメールアドレスが接続されていません。</string>
     <string name="menu_skip">スキップ</string>
-
     <string name="forget_password_tv">パスワードをお忘れですか？</string>
     <string name="recover_password_title">パスワードの回復</string>
     <string name="email_address_hint_et">メールアドレスを入力してください。</string>
-
     <string name="shop">ストア</string>
     <string name="setting_region">地域</string>
     <string name="submit_add_title_image_tv">カバーを追加する</string>
@@ -809,7 +705,6 @@
     <string name="delete_success">成功しました</string>
     <string name="hot">ホット</string>
     <string name="look_links">リンクを見る</string>
-
     <string name="headline_no_data_tv">新しいコンテンツはありません</string>
     <string name="hint">注意</string>
     <string name="no_save_comment_hint">投稿されていない内容があります、終了しますか？</string>
@@ -818,8 +713,8 @@
     <string name="share_image_failed">写真を共有できませんでした!</string>
     <string name="share_select_image_overflow_hint">最大9枚の写真を共有できます。</string>
     <string name="search_or_create">検索または作成</string>
-
     <string name="privacy_setting_title">プライバシー設定</string>
     <string name="privacy_setting_account">プライベートアカウント</string>
-    <string name="share_app_url_comment_v3">Share <xliff:g example="zhangsan" id="name">%1$s</xliff:g>\'s <xliff:g example="post/story/review" id="type">%2$s</xliff:g> (From APKPure):<xliff:g example="https://apkpure.com" id="url">%3$s </xliff:g></string>
-    </resources>
+    <string name="share_app_url_comment_v3">Share <xliff:g example="zhangsan" id="name">%1$s</xliff:g>\'s <xliff:g example="post/story/review" id="type">%2$s</xliff:g> (From APKPure):<xliff:g example="https://apkpure.com" id="url">%3$s </xliff:g>
+    </string>
+</resources>
