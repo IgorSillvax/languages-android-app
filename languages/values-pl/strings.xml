@@ -319,7 +319,7 @@
         <xliff:g example="APKPure" id="name">%1$s</xliff:g> Historia wersji</string>
     <string name="update__date___size_">Aktualizacja: <xliff:g example="Mar 3, 2016" id="date">%1$s</xliff:g>, <xliff:g example="1024 kB" id="size">%2$s</xliff:g>
     </string>
-    <string name="update___count__">Aktualizacja (<xliff:g example="3" id="count">%1$d</xliff:g>)</string>
+    <string name="update___count__">Aktualizuj (<xliff:g example="3" id="count">%1$d</xliff:g>)</string>
     <string name="unignore">Nie ignoruj</string>
     <string name="deselect_all">Odznacz wszystko</string>
     <string name="ignored">Ignorowane</string>
@@ -383,7 +383,7 @@
     <string name="app_detail_comment_filter_sort_score">Najwyżej oceniane</string>
     <string name="app_detail_comment_filter_all">Wszystkie recenzje</string>
     <string name="app_detail_comment_filter_version">Ostatnia wersja</string>
-    <string name="app_detail_comment_score_less">Zbyt mało recenzji użytkowników.</string>
+    <string name="app_detail_comment_score_less">Za mało recenzji użytkowników.</string>
     <string name="app_detail_comment_no_data">Nie znaleziono recenzji użytkowników. Napisz swoją recenzję już teraz.</string>
     <string name="app_detail_comment_score_footer">Istnieje %1$s recenzji w innych językach.</string>
     <string name="app_detail_evaluation_tool_bar_title">Napisz recenzję</string>
@@ -395,7 +395,7 @@
     <string name="app_detail_comment_order_array_old">Najstarsze</string>
     <string name="app_detail_comment_order_array_good">4-5</string>
     <string name="app_detail_comment_order_array_bad">1-3</string>
-    <string name="app_detail_folded_footer_reviews">Zobacz wszystkie %d zwinięte recenzje</string>
+    <string name="app_detail_folded_footer_reviews">Zobacz wszystkie %d zwiniętych recenzji</string>
     <string name="app_detail_folded_footer_posts">Pokaż wszystkie %d zwinięte posty</string>
     <string name="app_detail_discuss_filter_featured">Wyróżnienie</string>
     <string name="app_detail_discuss_filter_folded">Zwinięte</string>
@@ -708,15 +708,15 @@
     <string name="invalid_app_asset">Nieprawidłowe informacje o zasobach aplikacji.</string>
     <string name="like_notification">Powiadomienie o polubieniu</string>
     <string name="like_notification_msg">Otrzymuj powiadomienia o nowych polubieniach</string>
-    <string name="auto_service_description">Włącz \"Automatyczną instalację APKPure\", aby \"Automatyczna instalacja\" APKPure przebiegała gładko.
-\n
-\n\"Automatyczna instalacja APKPure\" może kliknąć za ciebie wszystkie przyciski instalacji podczas instalowania lub aktualizacji aplikacji, nie musisz cały czas sprawdzać telefonu.
-\n
-\nPo włączeniu tej funkcji możesz otrzymywać ostrzeżenia o zagrożeniach systemowych, kliknij \"OK\", aby ustawić przełącznik na \"WŁĄCZONY\".
-\n
-\nAby zapewnić prawidłowe funkcjonowanie APKPure, dodaj APKPure do \"białej listy\" w swojej aplikacji czyszczącej.
-\n
-\nWyżej wymienione funkcje są wspierane w Androidzie 4.1 lub nowszym, uprawnienia roota nie są wymagane. Obiecujemy, że nigdy nie będziemy zbierać żadnych danych osobowych w tej usłudze. Prosimy o kontakt z nami w przypadku jakichkolwiek problemów.</string>
+    <string name="auto_service_description">Włącz \"Automatyczna instalacja APKPure\", aby \"Automatyczna instalacja\" APKPure działa bez zarzutu. 
+\n 
+\n\"Automatyczna instalacja APKPure\" pozwala zaoszczędzić twój czas, klikając przycisk instaluj podczas instalowania lub aktualizacji aplikacji. Nie musisz cały czas sprawdzać swojego telefonu.
+\n 
+\nPo włączeniu tej funkcji możesz otrzymać ostrzeżenie o zabezpieczeniach systemu. Kliknij \"OK\", aby ustawić przełącznik na \"WŁĄCZONY\". 
+\n 
+\nAby zapewnić prawidłowe działanie APKPure, dodaj APKPure do \"Białej listy\" w swojej aplikacji antywirusowej. 
+\n 
+\nPowyższe funkcje są wspierane przez Androida 4.1 i nowszego. Uprawnienia roota nie są wymagane. Obiecujemy, że nigdy nie będziemy zbierać żadnych danych osobowych u usłudze dostępności. Prosimy o kontakt w przypadku jakichkolwiek problemów.</string>
     <string name="recommend_description">1. Zatwierdzone rekomendacje zostaną wyszczególnione w sekcji \"odkrywaj\".
 \n2. Możesz polecić wyłącznie aplikacje zainstalowane na twoim urządzeniu z Androidem.
 \n3. Powiadom APKPure o niezindeksowanych aplikacjach, wypełniając formularz rekomendacji.</string>
@@ -795,9 +795,9 @@
     <string name="picture_long_chart">Długość</string>
     <string name="picture_record_video">Nagraj wideo</string>
     <string name="picture_video_toast">Wideo bez podglądu</string>
-    <string name="picture_min_img_num">Picture Selection Cannot%1$sNumber</string>
-    <string name="picture_message_max_num">You can choose the most%1$s Number Pictures</string>
-    <string name="picture_min_video_num">Video Selection Cannot%1$sNumber</string>
+    <string name="picture_min_img_num">Nie można zaznaczyć zdjęcia numer %1$s</string>
+    <string name="picture_message_max_num">Możesz wybrać do %1$s obrazów</string>
+    <string name="picture_min_video_num">Nie można zaznaczyć wideo numer %1$s</string>
     <string name="picture_rule">Brak zdjęć lub filmów</string>
     <string name="picture_photograph">Fotografia</string>
     <string name="picture_warning">Pliki multimedialne!</string>
@@ -827,8 +827,8 @@
     <string name="picture_cancel">Anuluj</string>
     <string name="picture_camera_roll">Rolka aparatu</string>
     <string name="attention_each">Podłączono</string>
-    <string name="app_details_request_update_msg">We have received your request for the latest update of %s.
-\nThe new version will be downloadable soon if it exists.</string>
+    <string name="app_details_request_update_msg">Otrzymaliśmy twoją prośbę o aktualizację %s.
+\nNowa wersja zostanie wkrótce udostępniona do pobrania, o ile istnieje.</string>
     <string name="app_details_request_update_title">Poproś o aktualizację</string>
     <string name="xapk_unable_upload">Wysyłanie XAPK nie powiodło się!</string>
     <string name="upload_xapk_to_group">Wyślij XAPK do grupy</string>
