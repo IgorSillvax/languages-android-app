@@ -92,7 +92,7 @@
     <string name="market_response_error_unknown_error__error_">Neznana napaka (<xliff:g example="SUCCESS" id="error">%1$s</xliff:g>).</string>
     <string name="no_more">Ne več.</string>
     <string name="update">Posodobitev</string>
-    <string name="version__version___size_">Različica: &lt;xliff:g xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\" primer=\"1.0.0\" id=\"različica\"&gt;%1$s&lt;/xliff:g&gt;, &lt;xliff:gxmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\" primer=\"1024 kB\" id=\"velikost\"&gt;%2$s&lt;/xliff:g&gt;<xliff:g example="1.0.0" id="version">%1$s</xliff:g>, <xliff:g example="1024 kB" id="size">%2$s</xliff:g>
+    <string name="version__version___size_">Različica: <xliff:g primer="1.0.0" id="version">%1$s</xliff:g>, <xliff:g primer="1024 kB" id="size">%2$s</xliff:g>
     </string>
     <plurals name="_count__new_update_is_available">
         <item quantity="one">
@@ -204,7 +204,7 @@ Podrobnosti težave:
     </string>
     <string name="_name__version_history">
         <xliff:g primer="APKPure" id="name">%1$s</xliff:g> Zgodovina različice</string>
-    <string name="update__date___size_">Posodobitev: &lt;xliff:g xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\" primer=\"Mar 3, 2016\" id=\"datum\"&gt;%1$s&lt;/xliff:g&gt;, &lt;xliff:gxmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\" primer=\"1024 kB\" id=\"velikost\"&gt;%2$s&lt;/xliff:g&gt;<xliff:g primer="Mar 3, 2016" id="datum">%1$s</xliff:g>, <xliff:g primer="1024 kB" id="velikost">%2$s</xliff:g>
+    <string name="update__date___size_">Posodobitev: <xliff:g primer="Mar 3, 2016" id="date">%1$s</xliff:g>, <xliff:g primer="1024 kB" id="size">%2$s</xliff:g>
     </string>
     <string name="update_all">Posodobite vse</string>
     <string name="update___count__">Posodobi (<xliff:g primer="3" id="count">%1$d</xliff:g>)</string>
@@ -738,8 +738,7 @@ Podrobnosti težave:
     <string name="del_account_sure">Vaš račun bo izbrisan v 48 urah. Če imate dodatna vprašanja, se obrnite na nas.</string>
     <string name="reply_to">Odgovori na %1$s:</string>
     <string name="msg_all_read_notice">Obvestilo</string>
-    <string name="share_app_url_comment_v3">Delite &lt;xliff:g xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\" primer=\"zhangsan\" id=\"ime\"&gt;%1$s&lt;/xliff:g&gt;\'s
-\n&lt;xliff:gxmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\" primer=\"objava/zgodba/ocena\" id=\"vrsta\"&gt;%2$s&lt;/xliff:g&gt; (Iz APKPure):&lt;xliff:gxmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\" primer=\"https://apkpure.com\" id=\"url\"&gt;%3$s &lt;/xliff:g&gt;<xliff:g primer="zhangsan" id="ime">%1$s</xliff:g>\'s <xliff:g primer="objava/zgodba/ocena" id="vrsta">%2$s</xliff:g> (From APKPure):<xliff:g primer="https://apkpure.com" id="url">%3$s </xliff:g>
+    <string name="share_app_url_comment_v3">Delite <xliff:g primer="zhangsan" id="name">%1$s</xliff:g>\'s <xliff:g primer="post/story/review" id="type">%2$s</xliff:g> (Iz APKPure):<xliff:g primer="https://apkpure.com" id="url">%3$s </xliff:g>
     </string>
     <string name="apk_unable_upload">Prenos apk ni uspel.</string>
     <string name="long_image">Velik izbor</string>
@@ -755,9 +754,9 @@ Podrobnosti težave:
     <string name="download_install_obb">Namesti OBB</string>
     <string name="download_install_apk">Namesti APK</string>
     <string name="users_recommended_title">Čestitke!</string>
-    <string name="users_recommended_des">Vaše mnenje je bilo izbrano kot priporočilo uporabnika, %1$s</string>
+    <string name="users_recommended_des">Vaša objava je bila izbrana kot priporočilo uporabnika,, %1$s</string>
     <string name="recommended_posts_title">Čestitke!</string>
-    <string name="recommended_posts_des">Vaše mnenje je bilo izbrano kot priporočilo uporabnika,%1$s</string>
+    <string name="recommended_posts_des">Vaša objava je bila izbrana kot priporočena objava,%1$s</string>
     <string name="comment_removed_title">Vaša objava je bila odstranjena</string>
     <string name="comment_removed_des">Videti je, da nekaj, kar ste objavili, ne sledi našim %1$s. Ne dovoljujemo ustrahovanja ali nadlegovanja kakršne koli vrste, vključno z neprimernimi fotografijami, videoposnetki o fizičnem ustrahovanju ali drugimi objavami, ki bi lahko poslabšale ali ponižale določeno osebo.
 \n%2$s 
@@ -859,4 +858,7 @@ Podrobnosti težave:
     <string name="picture_rule">ni slik ali videoposnetka</string>
     <string name="picture_take_picture">Strel</string>
     <string name="picture_cancel">Prekliči</string>
+    <string name="search_tab_invitation">Objave</string>
+    <string name="home_recommended_desc">Vaša objava je bila izbrana kot priporočilo za domačo stran,%1$s</string>
+    <string name="home_recommended_title">Čestitke!</string>
 </resources>
