@@ -25,7 +25,7 @@
     <string name="download_management">Zarządzaj pobieraniem</string>
     <string name="settings">Ustawienia</string>
     <string name="about">O</string>
-    <string name="about_title">O <xliff:g id="app_name" example="APKPure">%1$s</xliff:g>
+    <string name="about_title">O <xliff:g example="APKPure" id="app_name">%1$s</xliff:g>
     </string>
     <string name="about_message">&lt;b&gt;Wersja:&lt;/b&gt; %1$s&lt;br&gt;&lt;br&gt;&lt;b&gt;Strona internetowa:&lt;/b&gt; &lt;a href=%2$s&gt;%2$s&lt;/a&gt;&lt;br&gt;&lt;b&gt;Email:&lt;/b&gt; &lt;a href=mailto:%3$s&gt;%3$s&lt;/a&gt;</string>
     <string name="check_update">Sprawdź aktualizacje</string>
@@ -636,7 +636,7 @@
     <string name="my_reservation_and_collection">Rejestracja wstępna i ulubione</string>
     <string name="upload_apk">Wyślij APK</string>
     <string name="developer_badge_explanation">Odznaka programisty</string>
-    <string name="from_user_recommendation">Rekomendacje użytkowników</string>
+    <string name="from_user_recommendation">Rekomendacja użytkowników</string>
     <string name="topics">Temat</string>
     <string name="pre_register_game">Rejestracja wstępna</string>
     <string name="editors_picks">Wybór redakcji</string>
@@ -668,7 +668,7 @@
     <string name="comment_hint_tv">Udostępnisz coś\?</string>
     <string name="msg_all_read">Oznacz wszystkie jako przeczytane</string>
     <string name="msg_all_read_msg">Czy na pewno oznaczyć wszystkie jako przeczytane\?</string>
-    <string name="user_recommend_tip">Rekomendacje użytkownika</string>
+    <string name="user_recommend_tip">Rekomendacja użytkownika</string>
     <string name="comments">Komentarze</string>
     <string name="subject_comment">Hashtagi</string>
     <string name="new_subject_comment">Nowy hashtag</string>
@@ -680,7 +680,7 @@
     <string name="menu_follow_subject">Obserwowane hashtagi</string>
     <string name="menu_follow_subject_tab">"Hashtag "</string>
     <string name="me_follow">Moje obserwowane</string>
-    <string name="release_dynamics">Opublikuj chwilę</string>
+    <string name="release_dynamics">Opublikuj post</string>
     <string name="delete_success">Sukces</string>
     <string name="hot">Gorący</string>
     <string name="look_links">Wyświetl link</string>
@@ -739,13 +739,13 @@
     <string name="download_install_obb">Zainstaluj OBB</string>
     <string name="download_install_apk">Zainstaluj APK</string>
     <string name="users_recommended_title">Gratulacje!</string>
-    <string name="users_recommended_des">Twoja recenzja została wybrana jako rekomendacja użytkownika,%1$s</string>
+    <string name="users_recommended_des">Twój post został wybrany jako rekomendacja użytkownika,%1$s</string>
     <string name="recommended_posts_title">Gratulacje!</string>
-    <string name="recommended_posts_des">Twoja recenzja została wybrana jako rekomendacja użytkownika,%1$s</string>
+    <string name="recommended_posts_des">Twój post został wybrany jako rekomendacja postu,%1$s</string>
     <string name="comment_removed_title">Twój post został usunięty</string>
-    <string name="comment_removed_des">It looks like something you posted doesn\'t follow our %1$s. We don\'t allow posts that bully private individuals or harass anyone on APKPure. This could include inappropriate images, photos or videos of physical bullying, or any other post intended to degrade or shame a specific person. 
+    <string name="comment_removed_des">Wygląda na to, że twój post jest niezgodny z naszą %1$s. Nie zezwalamy na zastraszanie lub szykanowanie jakiegokolwiek rodzaju, wliczając w to niestosowne zdjęcia, filmy przedstawiające fizyczne znęcanie lub jakiekolwiek inne posty zmierzające do poniżania lub upokorzenia konkretnej osoby. 
 \n%2$s 
-\nJeśli uważasz, że to pomyłka, proszę %3$s.</string>
+\nJeśli uważasz, że to pomyłka, %3$s.</string>
     <string name="temporarily_blocked_title">Masz tymczasowy zakaz tworzenia treści w APKPure</string>
     <string name="temporarily_blocked_des">Tymczasowa blokada będzie trwała %1$s dni, w międzyczasie nie będziesz w stanie zamieszczać postów na APKPure.
 \nJeśli ponownie opublikujesz coś, co jest niezgodne z naszym %2$s, twoje konto zostanie zablokowane na kolejne 30 dni.
@@ -770,7 +770,7 @@
     <string name="is_save_comment_draft">Czy zapisać post jako wersję roboczą\?</string>
     <string name="upload_video">Wyślij wideo</string>
     <string name="saved_draft">Zapisano jako wersja robocza</string>
-    <string name="packaging_success_ready_upload">Pakowanie ukończone. Gotowy do wysłania.</string>
+    <string name="packaging_success_ready_upload">Pakowanie ukończone. Gotowe do wysłania.</string>
     <string name="ucrop_error_input_data_is_absent">Należy określić zarówno wejście jak i wyjście Uri</string>
     <string name="picture_message_video_max_num">Możesz wybrać maksymalnie %1$s filmów</string>
     <string name="picture_save_success">Zdjęcie zostało pomyślnie zapisane do</string>
@@ -787,7 +787,7 @@
     <string name="packaging">Pakowanie…</string>
     <string name="preparing_upload">Przygotowanie do wysyłania…</string>
     <string name="upload_apk_xapk">Wyślij APK/XAPK</string>
-    <string name="ucrop_mutate_exception_hint">Therefore, override color resource (ucrop_color_toolbar_widget) in your app to make it work on pre-L devices</string>
+    <string name="ucrop_mutate_exception_hint">Zatem, zastąp źródło koloru (ucrop_color_toolbar_widget) w aplikacji, aby działał na urządzeniach pre-L</string>
     <string name="ucrop_menu_crop">Przytnij</string>
     <string name="picture_quit_audio">Zakończ</string>
     <string name="picture_prompt_content">Czy chcesz zapisać zdjęcia w telefonie\?</string>
@@ -817,7 +817,7 @@
 \n</string>
     <string name="picture_empty_title">Brak filmów lub zdjęć
 \n</string>
-    <string name="picture_please_select">Proszę wybrać</string>
+    <string name="picture_please_select">Proszę zaznaczyć</string>
     <string name="picture_done">Ok</string>
     <string name="picture_completed">Ukończono</string>
     <string name="picture_done_front_num">%1$d/%2$d Ok</string>
@@ -843,4 +843,7 @@
     <string name="gif_auto_title">Automatyczne odtwarzanie GIF</string>
     <string name="several_drafts">
         <xliff:g example="5" id="count">%1$s</xliff:g> wersje robocze</string>
+    <string name="home_recommended_desc">Twój post został wybrany jako rekomendacja strony głównej,%1$s</string>
+    <string name="search_tab_invitation">Posty</string>
+    <string name="home_recommended_title">Gratulacje!</string>
 </resources>
