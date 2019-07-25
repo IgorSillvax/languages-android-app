@@ -173,8 +173,12 @@
     <string name="invalid_app_asset">एप्प संबंधी जानकारी अवैध है.</string>
     <string name="failed_to_request_app_detail">एप्प विवरण जानकारी प्राप्त करने के निवेदन में असफल.</string>
     <string name="failed_to_request_app_asset">एप्प असेट जानकारी प्राप्त करने के निवेदन में असफल.</string>
-    <string name="incompatible_this_app">&lt;big&gt;&lt;b&gt;&lt;font color=%1$d&gt;आपकी डिवाइस इस एप्प के साथ सुसंगत नही है&lt;/font&gt;&lt;/b&gt;&lt;/big&gt;&lt;br&gt;&lt;br&gt;क्या आप जारी रखना चाहते हैं\?</string>
-    <string name="this_app_not_usable">&lt;big&gt;&lt;b&gt;&lt;font color=%1$d&gt;यह एप्प संभवत: उपयोग में नही आएगा&lt;/font&gt;&lt;/b&gt;&lt;/big&gt;&lt;br&gt;&lt;br&gt;क्या आप जारी रखना चाहते हैं\?</string>
+    <string name="incompatible_this_app">
+        <![CDATA[<big><b><font color="%1$d">आपकी डिवाइस इस एप्प के साथ सुसंगत नही है</font></b></big><br><br>क्या आप जारी रखना चाहते हैं?]]>
+    </string>
+    <string name="this_app_not_usable">
+        <![CDATA[<big><b><font color="%1$d">यह एप्प संभवत: उपयोग में नही आएगा</font></b></big><br><br>क्या आप जारी रखना चाहते हैं?]]>
+    </string>
     <string name="setting">सैटिंग</string>
     <string name="external_storage_not_usable">
         <big>

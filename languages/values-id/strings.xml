@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources xmlns:tools="http://schemas.android.com/tools" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="facebook_app_id" translatable="false">596489647167672</string>
     <string name="fb_login_protocol_scheme" translatable="false">fb596489647167672</string>
     <string name="aegon_app_name" translatable="false">APKPure</string>
@@ -13,8 +13,7 @@
     <string name="apps">Aplikasi</string>
     <string name="categories">Kategori</string>
     <string name="updates">Pembaruan</string>
-    <string name="something_happened">&gt;_&lt;
-\nSesuatu terjadi.</string>
+    <string name="something_happened">&gt;_&lt;\nSesuatu terjadi.</string>
     <string name="load_failed_error">Ups! Terjadi kesalahan.</string>
     <string name="load_failed_error_not_found">Aplikasi tidak tersedia di APKPure.</string>
     <string name="load_failed_empty">Tidak ada apapun di sini.</string>
@@ -32,7 +31,9 @@
     <string name="about">Tentang</string>
     <string name="about_title">Tentang <xliff:g example="APKPure" id="app_name">%1$s</xliff:g>
     </string>
-    <string name="about_message">&lt;b&gt;Versi:&lt;/b&gt; %1$s&lt;br&gt;&lt;br&gt;&lt;b&gt;Situs web:&lt;/b&gt; &lt;a href=%2$s&gt;%2$s&lt;/a&gt;&lt;br&gt;&lt;b&gt;Email:&lt;/b&gt; &lt;a href=mailto:%3$s&gt;%3$s&lt;/a&gt;</string>
+    <string name="about_message">
+        <![CDATA[<b>Versi:</b> %1$s<br><br><b>Situs web:</b> <a href="%2$s">%2$s</a><br><b>Email:</b> <a href="mailto:%3$s">%3$s</a>]]>
+    </string>
     <string name="check_update">Periksa pembaruan</string>
     <string name="check_update_replace">Versi resmi</string>
     <string name="check_update_beta">Pra-rilis Beta</string>
@@ -46,8 +47,12 @@
     <string name="delete">Hapus</string>
     <string name="delete_all">Hapus Semua</string>
     <string name="properties">Properti</string>
-    <string name="properties_message">&lt;b&gt;Jalur:&lt;/b&gt; %1$s&lt;br&gt;&lt;b&gt;Ukuran:&lt;/b&gt; %2$s&lt;br&gt;&lt;b&gt;Terakhir diubah:&lt;/b&gt; %3$s</string>
-    <string name="properties_message_v2">&lt;b&gt;Nama Paket:&lt;/b&gt; %1$s&lt;br&gt;&lt;b&gt;Versi:&lt;/b&gt; %2$s&lt;br&gt;&lt;b&gt;Jalur:&lt;/b&gt; %3$s&lt;br&gt;&lt;b&gt;Ukuran:&lt;/b&gt; %4$s&lt;br&gt;&lt;b&gt;Terakhir diubah:&lt;/b&gt; %5$s</string>
+    <string name="properties_message">
+        <![CDATA[<b>Jalur:</b> %1$s<br><b>Ukuran:</b> %2$s<br><b>Terakhir diubah:</b> %3$s]]>
+    </string>
+    <string name="properties_message_v2">
+        <![CDATA[<b>Nama Paket:</b> %1$s<br><b>Versi:</b> %2$s<br><b>Jalur:</b> %3$s<br><b>Ukuran:</b> %4$s<br><b>Terakhir diubah:</b> %5$s]]>
+    </string>
     <string name="want_to_delete_file">Hapus berkas ini\?</string>
     <string name="want_to_delete_all_files">Hapus semua berkas\?</string>
     <string name="file_has_been_deleted">Berkas sudah dihapus.</string>
@@ -153,7 +158,9 @@
     <string name="_name__is_up_to_date">
         <xliff:g example="APKPure" id="name">%1$s</xliff:g> sudah terkini.</string>
     <string name="new_version_available_title">Versi Baru Telah Tersedia</string>
-    <string name="new_version_available_message">&lt;b&gt;Versi Terakhir:&lt;/b&gt; %1$s&lt;br&gt;&lt;br&gt;&lt;b&gt;Hal Baru:&lt;/b&gt;&lt;br&gt;%2$s</string>
+    <string name="new_version_available_message">
+        <![CDATA[<b>Versi Terakhir:</b> %1$s<br><br><b>Hal Baru:</b><br>%2$s]]>
+    </string>
     <string name="report">Laporan</string>
     <string name="report__">Lapor…</string>
     <string name="report_problem__">Laporkan Masalah …</string>
@@ -172,8 +179,12 @@
     <string name="invalid_app_asset">Informasi aset app tidak sah.</string>
     <string name="failed_to_request_app_detail">Gagal mengajukan informasi rincian app.</string>
     <string name="failed_to_request_app_asset">Gagal mengajukan informasi aset app.</string>
-    <string name="incompatible_this_app">&lt;big&gt;&lt;b&gt;&lt;font color=%1$d&gt;Perangkatmu tidak serasi dengan app ini.&lt;/font&gt;&lt;/b&gt;&lt;/big&gt;&lt;br&gt;&lt;br&gt;Terus\?</string>
-    <string name="this_app_not_usable">&lt;big&gt;&lt;b&gt;&lt;font color=%1$d&gt;App ini mungkin tidak dapat digunakan.&lt;/font&gt;&lt;/b&gt;&lt;/big&gt;&lt;br&gt;&lt;br&gt;Terus\?</string>
+    <string name="incompatible_this_app">
+        <![CDATA[<big><b><font color="%1$d">Perangkatmu tidak serasi dengan app ini.</font></b></big><br><br>Terus\?]]>
+    </string>
+    <string name="this_app_not_usable">
+        <![CDATA[<big><b><font color="%1$d">App ini mungkin tidak dapat digunakan.</font></b></big><br><br>Terus\?]]>
+    </string>
     <string name="setting">Pengaturan</string>
     <string name="external_storage_not_usable">
         <big>
@@ -206,10 +217,14 @@
     <string name="deselect_all">Batalkan Pilih Semua</string>
     <string name="ignored">Diabaikan</string>
     <plurals name="total__count__apps__size_">
-        <item quantity="other">Total: &lt;b&gt;&lt;font color=%1$d&gt;%2$d&lt;/font&gt;&lt;/b&gt; app,
-\n&lt;b&gt;&lt;font color=%1$d&gt;%3$s&lt;/font&gt;&lt;/b&gt;</item>
+        <item quantity="other">
+            <![CDATA[Total: <b><font color="%1$d">%2$d</font></b> apps, <b><font color="%1$d">%3$s</font></b>]]>
+        </item>
     </plurals>
-    <string name="total_zero_app">Total: &lt;b&gt;&lt;font color=%1$d&gt;0&lt;/font&gt;&lt;/b&gt; aplikasi</string>
+    <string name="total_zero_app">
+        <![CDATA[Total: <b><font color="%1$d">0</font></b> aplikasi]]>
+    </string>
+
     <string name="general">Umum</string>
     <string name="language">Bahasa</string>
     <string name="auto">Otomatis</string>
@@ -252,8 +267,7 @@
     <string name="auto_install_via_root_title">Pasang Otomatis (Root)</string>
     <string name="auto_install_via_root_summary">Hanya untuk ponsel dan tablet Android yang di-rooting.</string>
     <plurals name="app_detail_see_all_replies">
-        <item quantity="other">Lihat Semua
-\n<xliff:g example="1" id="count">%1$d</xliff:g> balas</item>
+        <item quantity="other">Lihat Semua<xliff:g example="1" id="count">%1$d</xliff:g> balas</item>
     </plurals>
     <string name="app_detail_customer_reviews">Komentar</string>
     <string name="app_detail_comment_type_web">Web</string>
@@ -758,8 +772,8 @@
     <string name="recommended_posts_title">Selamat!</string>
     <string name="recommended_posts_des">Ulasan Anda terpilih sebagai rekomendasi pengguna unggulan,%1$s</string>
     <string name="comment_removed_title">Kiriman Anda Sudah Dihapus</string>
-    <string name="comment_removed_des">Sepertinya kiriman Anda tidak mengikuti %1$s kami. Kami tidak mengizinkan intimidasi atau pelecehan dalam bentuk apa pun, termasuk foto yang tidak pantas, video tentang intimidasi fisik, atau pos lainnya yang dimaksudkan untuk menurunkan atau mempermalukan orang tertentu. 
-\n%2$s 
+    <string name="comment_removed_des">Sepertinya kiriman Anda tidak mengikuti %1$s kami. Kami tidak mengizinkan intimidasi atau pelecehan dalam bentuk apa pun, termasuk foto yang tidak pantas, video tentang intimidasi fisik, atau pos lainnya yang dimaksudkan untuk menurunkan atau mempermalukan orang tertentu.
+\n%2$s
 \nJika Anda merasa ini adalah kesalahan, silahkan %3$s.</string>
     <string name="temporarily_blocked_title">Anda Diblokir Sementara Untuk Mengirim</string>
     <string name="temporarily_blocked_des">Blokir sementara ini akan berlangsung selama %1$s hari, dan Anda tidak akan bisa mengirim di APKPure hingga masa berakhir. Jika Anda mengirimkan sesuatu yang melanggar %2$s kami lagi, akun Anda akan dibloker lagi selama 30 hari. Harap dicatat bahwa orang yang berulang kali mengirimkan sesuatu yang tidak diizinkan pada APKPure maka akun mereka akan dinonaktifkan secara permanen.

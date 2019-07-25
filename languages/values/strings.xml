@@ -876,9 +876,11 @@
     <string name="download_install_apk">Install APK</string>
 
     <string name="users_recommended_title">Congrats!</string>
-    <string name="users_recommended_des">Your review has been selected as a featured user recommendation,%1$s</string>
+    <string name="users_recommended_des">Your post has been selected as a  user recommendation,,%1$s</string>
     <string name="recommended_posts_title">Congrats!</string>
-    <string name="recommended_posts_des">Your review was selected as featured user recommendation,%1$s</string>
+    <string name="recommended_posts_des">Your post has been selected as a recommended post,%1$s</string>
+    <string name="home_recommended_title">Congrats! </string>
+    <string name="home_recommended_desc">Your post has been selected as a home page recommendation,%1$s</string>
     <string name="comment_removed_title">Your Post Has Been Removed</string>
     <string name="comment_removed_des">
         It looks like something you posted doesn\'t follow our %1$s.
@@ -995,5 +997,5 @@
     <string name="packaging_success_ready_upload">Packaging finished. Ready for upload.</string>
     <string name="packaging_failed_try_again">Packaging failed. Please try again.</string>
     <string name="xapk_upload_hint_info">It takes longer to upload XAPK files. Are you sure to upload?</string>
-
+    <string name="search_tab_invitation">Posts</string>
 </resources>
