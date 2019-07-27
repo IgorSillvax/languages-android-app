@@ -1,51 +1,46 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2"><string name="action_management">മാനേജ്മെന്റ്</string>
-
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="action_management">മാനേജ്മെന്റ്</string>
     <string name="action_settings">"ക്രമീകരണം "</string>
     <string name="action_search">തിരയുക</string>
     <string name="press_back_key_quit">"പുറത്തേക്കു പോവാൻ ബാക്ക് കീ വീണ്ടും പ്രെസ്സ് ചെയ്യുക. "</string>
-
     <string name="featured">"വരാനുള്ളത് "</string>
     <string name="recommend">"കണ്ടു പിടിക്കൂ "</string>
     <string name="games">"ഗെയിമുകൾ "</string>
     <string name="apps">"ആപ്ലിക്കേഷനുകൾ "</string>
     <string name="categories">"വിഭാഗങ്ങൾ "</string>
     <string name="updates">"അപ്ഡേറ്റുകൾ "</string>
-
     <string name="load_failed_empty">"ഇവിടെ ഒന്നും തന്നെ ഇല്ല. "</string>
     <string name="load_failed_no_results">"ക്ഷമിക്കണം! റിസൾട്ട്‌ ഒന്നും തന്നെ ഇല്ല. "</string>
     <string name="refresh">"റിഫ്രഷ് "</string>
-
     <string name="management">"മാനേജ്‍മെൻറ് "</string>
     <string name="app_updates">ആപ്ലിക്കേഷൻ അപ്ഡേറ്റുകൾ</string>
     <string name="app_management">ഇൻസ്റ്റാൾ ചെയ്തു</string>
-    <string name="app_uninstall">ആപ്പ് അൺഇൻസ്റ്റാൾ</string>
+    <string name="app_uninstall">Remove app</string>
     <string name="apk_management">"APK മാനേജ്‍മെന്റ് "</string>
     <string name="download_management">"ഡൗൺലോഡ് മാനേജ്‍മെന്റ് "</string>
     <string name="settings">ക്രമീകരണം</string>
     <string name="about">"എബൌട്ട്‌ "</string>
-
-
-    <string name="check_update">"അപ്ഡേറ്റ് പരിശോധിക്കുക "</string>
+    <string name="check_update">Check app for newer version</string>
     <string name="check_update_replace">"ഒഫീഷ്യൽ വെർഷൻ "</string>
     <string name="beta">"ബീറ്റ "</string>
-    <string name="want_to_quit">"പുറത്ത് കടക്കുന്നത് നിങ്ങൾ തീർച്ചപ്പെടുത്തിയോ\? "</string>
-
+    <string name="want_to_quit">Are you sure you want to exit\?</string>
     <string name="open">മലയാളം</string>
     <string name="install">ഇൻസ്റ്റാൾ</string>
     <string name="delete">ഡിലീറ്റ്</string>
     <string name="delete_all">എല്ലാം ഡിലീറ്റ് ചെയ്യുക</string>
-    <string name="want_to_delete_file">നിങ്ങൾക്ക് ഈ ഫയൽ ഡിലീറ്റ് ചെയ്യണോ\?</string>
-    <string name="want_to_delete_all_files">നിങ്ങൾക്ക് എല്ലാ ഫയലുകളും ഡിലീറ്റ് ചെയ്യണോ\?</string>
+    <string name="want_to_delete_file">Are you sure you want to delete this file\?</string>
+    <string name="want_to_delete_all_files">Are you sure you want to delete all files\?</string>
     <string name="file_has_been_deleted">ഈ ഫയൽ ഡിലീറ്റ് ചെയ്തു.</string>
     <string name="failed_to_delete_file">ഫയൽ ഡിലീറ്റ് ചെയ്യുന്നത് പരാജയപെട്ടു.</string>
     <string name="something_happened">&gt;_&lt; 
 \nഎന്തോ സംഭവിച്ചു.</string>
     <string name="load_failed_error">"ഓഹോ.ഒരു പിശക് സംഭവിച്ചു. "</string>
-    <string name="load_failed_error_not_found">"ആപ്ലിക്കേഷൻ APKPure ഇൽ ഇല്ല "</string>
+    <string name="load_failed_error_not_found">The app hasn\'t been included in APKPure.</string>
     <string name="load_failed_all_up_to_date">All the applications are up to date.</string>
     <string name="apk_xapk_management">"APK / XAPK മാനേജ്‍മെന്റ് "</string>
-    <string name="about_title">എബൌട്ട്‌ <xliff:g example="APKPure" id="app_name">%1$s</xliff:g></string>
+    <string name="about_title">എബൌട്ട്‌ <xliff:g example="APKPure" id="app_name">%1$s</xliff:g>
+    </string>
     <string name="about_message">&lt;b&gt;വെർഷൻ:&lt;/b&gt; %1$s&lt;br&gt;&lt;br&gt;&lt;b&gt;വെബ്സൈറ്റ്:&lt;/b&gt; &lt;a href=%2$s&gt;%2$s&lt;/a&gt;&lt;br&gt;&lt;b&gt;ഇമെയിൽ:&lt;/b&gt; &lt;a href=mailto:%3$s&gt;%3$s&lt;/a&gt;</string>
     <string name="check_update_beta">"പ്രീ-റിലീസ് ബീറ്റ "</string>
     <string name="quit">പുറത്ത് കടക്കുക</string>
@@ -57,10 +52,8 @@
     <string name="parsing_xapk">പാർസിങ് XAPK…</string>
     <string name="installing_obb">ഇൻസ്റ്റാളിങ് OBB ഫയൽസ്</string>
     <string name="installing_apk">ഇൻസ്റ്റാളിങ് APK…</string>
-
     <string name="uninstall">അൺഇൻസ്റ്റാൾ</string>
     <string name="all">എല്ലാം</string>
-
     <string name="screenshots">സ്ക്രീൻഷോട്ട്സ്</string>
     <string name="description">ഡിസ്ക്രിപ്ഷൻ</string>
     <string name="whatsnew">എന്താണ് പുതിയത്</string>
@@ -80,8 +73,11 @@
     <string name="xapk">XAPK</string>
     <string name="unknown">Unknown</string>
     <string name="history_version">പതിപ്പ് ചരിത്രം</string>
-
     <string name="market_response_error_success">വിജയകരം.</string>
     <string name="market_response_error_invalid_result">ലഭ്യമല്ലാത്ത റിസൾട്ട്‌.</string>
-    <string name="install__label_">Install - <xliff:g example="APKPure" id="app_label">%1$s</xliff:g></string>
-    </resources>
+    <string name="install__label_">Installation needed<xliff:g example="APKPure" id="app_label">%1$s</xliff:g>
+    </string>
+    <string name="uninstalled">Uninstalled already</string>
+    <string name="extracting_apk">Extracting APK File... Wait till completed</string>
+    <string name="io_error">IO error. Not enough space available for installation.</string>
+</resources>
