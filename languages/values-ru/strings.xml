@@ -1,26 +1,20 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-
     <string name="action_settings">Настройки</string>
     <string name="action_search">Поиск</string>
     <string name="action_management">Управление</string>
-
     <string name="press_back_key_quit">Для выхода нажмите клавишу ещё раз.</string>
-
     <string name="featured">Рекомендация</string>
     <string name="games">Игры</string>
     <string name="apps">Приложения</string>
     <string name="categories">Категории</string>
     <string name="updates">Обновления</string>
-
     <string name="something_happened">&gt;_&lt;\nЧто-то пошло не так.</string>
-
     <string name="load_failed_error">Ой! Произошла ошибка.</string>
     <string name="load_failed_empty">Здесь ничего нет.</string>
     <string name="load_failed_all_up_to_date">Все приложения обновлены.</string>
     <string name="load_failed_no_results">Простите! Ничего не найдено.</string>
     <string name="refresh">Обновить</string>
-
     <string name="management">Управление</string>
     <string name="app_updates">Обновить приложения</string>
     <string name="app_management">Установлено</string>
@@ -30,21 +24,22 @@
     <string name="download_management">Управление загрузками\n</string>
     <string name="settings">Настройки</string>
     <string name="about">Версия</string>
-    <string name="about_title">О программе <xliff:g example="APKPure" id="app_name">%1$s</xliff:g></string>
+    <string name="about_title">О программе <xliff:g example="APKPure" id="app_name">%1$s</xliff:g>
+    </string>
     <string name="about_message">
         <![CDATA[<b>Версия:</b> %1$s<br><br><b>Наш Вебсайт:</b> <a href=%2$s>%2$s</a><br><b>Email:</b> <a href=mailto:%3$s>%3$s</a>]]>
     </string>
     <string name="check_update">Проверить обновление</string>
     <string name="quit">Выйти</string>
     <string name="want_to_quit">Вы уверены, что хотите выйти?</string>
-
     <string name="install">Установить</string>
     <string name="open">Открыть</string>
     <string name="delete">Удалить</string>
     <string name="want_to_delete_file">Вы хотите удалить этот файл?</string>
     <string name="file_has_been_deleted">Файл удалён.</string>
     <string name="failed_to_delete_file">Не удалось удалить файл.</string>
-    <string name="install__label_">Установка - <xliff:g example="APKPure" id="app_label">%1$s</xliff:g></string>
+    <string name="install__label_">Установка - <xliff:g example="APKPure" id="app_label">%1$s</xliff:g>
+    </string>
     <string name="user_canceled">Отменено пользователем.</string>
     <string name="io_error">Ошибка. Недостаточно свободного места на Вашем устройстве.</string>
     <string name="file_format_error">Не поддерживаемый формат.</string>
@@ -52,13 +47,11 @@
     <string name="installing_obb">Установка OBB-файлов …</string>
     <string name="extracting_apk">Извлечение APK-файла …</string>
     <string name="installing_apk">Установка APK …</string>
-
     <string name="uninstall">Удалить</string>
     <string name="uninstalled">Удалено</string>
-    <string name="last_update__date_">Последнее обновление: <xliff:g id="date">%1$s</xliff:g></string>
-
+    <string name="last_update__date_">Последнее обновление: <xliff:g id="date">%1$s</xliff:g>
+    </string>
     <string name="all">Все</string>
-
     <string name="screenshots">Скриншоты</string>
     <string name="description">Описание</string>
     <string name="whatsnew">Что нового</string>
@@ -69,14 +62,13 @@
     <string name="permissions_">Разрешения:</string>
     <string name="type_">Тип:</string>
     <string name="category_">Категория:</string>
-    <string name="more">ещё</string>
+    <string name="more">Ещё</string>
     <string name="permissions">Разрешения</string>
     <string name="other">Другое</string>
     <string name="apk">APK</string>
     <string name="xapk">XAPK</string>
     <string name="unknown">Неизвестно</string>
     <string name="_ellipsis_"> … </string>
-
     <string name="market_response_error_success">Успешно.</string>
     <string name="market_response_error_invalid_result">Недопустимый результат.</string>
     <string name="market_response_error_network_connect_error">Ошибка сетевого подключения.</string>
@@ -84,32 +76,36 @@
     <string name="market_response_error_invalid_response_code">Недопустимый код ответа.</string>
     <string name="market_response_error_invalid_response_body">Недействительный текст ответа.</string>
     <string name="market_response_error_unknown_error__error_">Неизвестная ошибка (<xliff:g example="SUCCESS" id="error">%1$s</xliff:g>).</string>
-
     <string name="no_more">Больше нет.</string>
-
     <string name="update">Обновить</string>
-    <string name="version__version___size_">Версия: <xliff:g example="1.0.0" id="version">%1$s</xliff:g>, <xliff:g example="1024 kB" id="size">%2$s</xliff:g></string>
+    <string name="version__version___size_">Версия: <xliff:g example="1.0.0" id="version">%1$s</xliff:g>, <xliff:g example="1024 kB" id="size">%2$s</xliff:g>
+    </string>
     <plurals name="_count__new_update_is_available">
-        <item quantity="one"><xliff:g example="1" id="count">%1$d</xliff:g> новое обновление доступно</item>
-        <item quantity="few"><xliff:g example="2" id="count">%1$d</xliff:g> новых обновлений доступны</item>
-        <item quantity="many"><xliff:g example="2" id="count">%1$d</xliff:g> новых обновлений доступно</item>
+        <item quantity="one">
+            <xliff:g example="1" id="count">%1$d</xliff:g> новое обновление доступно</item>
+        <item quantity="few">
+            <xliff:g example="2" id="count">%1$d</xliff:g> новых обновлений доступны</item>
+        <item quantity="many">
+            <xliff:g example="2" id="count">%1$d</xliff:g> новых обновлений доступно</item>
         <item quantity="other"/>
     </plurals>
-
-    <string name="launching_please_wait">Запускается, подождите, пожалуйста …</string>
-
+    <string name="launching_please_wait">Запускается…подождите, пожалуйста.</string>
     <plurals name="_count__item_is_downloading">
-        <item quantity="one"><xliff:g example="1" id="count">%1$d</xliff:g> элемент загружается</item>
-        <item quantity="few"><xliff:g example="2" id="count">%1$d</xliff:g> элемента загружаются</item>
-        <item quantity="many"><xliff:g example="5" id="count">%1$d</xliff:g> элементов загружаются</item>
+        <item quantity="one">
+            <xliff:g example="1" id="count">%1$d</xliff:g> элемент загружается</item>
+        <item quantity="few">
+            <xliff:g example="2" id="count">%1$d</xliff:g> элемента загружаются</item>
+        <item quantity="many">
+            <xliff:g example="5" id="count">%1$d</xliff:g> элементов загружаются</item>
         <item quantity="other"/>
     </plurals>
-    <string name="downloads_complete">Загрузки завершены</string>
+    <string name="downloads_complete">Все загрузки завершены</string>
     <string name="touch_for_view_all_downloads">Нажмите, чтобы увидеть все загрузки</string>
-    <string name="_name__download_failed"><xliff:g example="APKPure" id="name">%1$s</xliff:g> не удалось скачать</string>
+    <string name="_name__download_failed">
+        <xliff:g example="APKPure" id="name">%1$s</xliff:g> не удалось скачать</string>
     <string name="touch_to_download_it_again">Нажмите, чтобы скачать заново</string>
-
-    <string name="download_percent"><xliff:g example="50" id="percent">%1$d</xliff:g> %%</string>
+    <string name="download_percent">
+        <xliff:g example="50" id="percent">%1$d</xliff:g> %%</string>
     <string name="pause">Приостановить</string>
     <string name="continue_">Продолжить</string>
     <string name="restart">Перезапуск</string>
@@ -126,68 +122,62 @@
     <string name="detail">Детали</string>
     <string name="remove">Убрать</string>
     <string name="want_to_remove_download_item">Вы точно хотите убрать эту загрузку?</string>
-
     <string name="search">Поиск</string>
     <string name="search_for_apps">Поиск APKPure</string>
     <string name="trending_searches">Популярные поиски</string>
-
     <string name="improvement_plan_title">План улучшения эффективности</string>
     <string name="improvement_plan_message">Отправьте информацию о вашем устройстве, Мы <b>не собираем</b> ваши личные данные (имя, адрес, e-mail адрес, номер социального страхования, или другие личные данные).
 \n </string>
     <string name="join_us">Присоединяйтесь к нам</string>
     <string name="skip">Пропустить</string>
-
-    <string name="_name__is_up_to_date"><xliff:g example="APKPure" id="name">%1$s</xliff:g> обновлено до последней версии.</string>
+    <string name="_name__is_up_to_date">
+        <xliff:g example="APKPure" id="name">%1$s</xliff:g> обновлено до последней версии.</string>
     <string name="new_version_available_title">Доступна новая версия</string>
     <string name="new_version_available_message">
         <![CDATA[<b>Новая версия:</b> %1$s<br><br><b>Что нового:</b><br>%2$s]]>
     </string>
-
     <string name="report__">Пожаловаться…</string>
     <string name="report_problem__">Сообщить о проблеме…</string>
     <string name="report_problem_subject">Сообщить о проблеме</string>
     <string name="report_problem_text">Тема проблемы:\n%1$s\n\nОписание проблемы:\n%2$s</string>
-
-    <string name="installation_failed">Ошибка Установки</string>
+    <string name="installation_failed">Ошибка Установки.</string>
     <string name="invalid_app_detail">Неверная информация о подробностях приложения.</string>
     <string name="invalid_app_asset">Недопустимая информация об активах приложения.</string>
     <string name="failed_to_request_app_detail">Не удалось запросить подробную информацию о приложении.</string>
     <string name="failed_to_request_app_asset">Ошибка запроса ресурса приложении.</string>
-    <string name="incompatible_this_app">
-        <![CDATA[<big><b><font color="%1$d">Ваше устройство не совместимо с этим приложением.</font></b></big><br><br>Хотите продолжить?]]>
-    </string>
-    <string name="this_app_not_usable">
-        <![CDATA[<big><b><font color="%1$d">Это приложение может не работать.</font></b></big><br><br>Хотите продолжить??]]>
-    </string>
+    <string name="incompatible_this_app">&lt;big&gt;&lt;b&gt;&lt;font color=%1$d&gt;Ваше устройство не совместимо с этим приложением.&lt;/font&gt;&lt;/b&gt;&lt;/big&gt;&lt;br&gt;&lt;br&gt;Продолжать\?</string>
+    <string name="this_app_not_usable">&lt;big&gt;&lt;b&gt;&lt;font color=%1$d&gt;Это приложение может не работать.&lt;/font&gt;&lt;/b&gt;&lt;/big&gt;&lt;br&gt;&lt;br&gt;Хотите продолжить\?</string>
     <string name="setting">Настройка</string>
     <string name="external_storage_not_usable">
         <![CDATA[<big><b>Нам нужно получить доступ к вашем внешнему хранилищу. Убедитесь, что оно открыто.</b></big>]]>
     </string>
-    <string name="external_storage_permission_denied">\n <big> <b> Нам нужно получить доступ к вашему внешнему хранилищу. Пожалуйста, убедитесь, что разрешение не запрещено.</b></big>\n</string>
-
+    <string name="external_storage_permission_denied">
+        <big>
+            <b> Нам нужно получить доступ к вашему внешнему хранилищу. Пожалуйста, убедитесь, Пожалуйста, убедитесь, что разрешение предоставлено.</b>
+        </big>
+    </string>
     <string name="share">Поделиться</string>
-    <string name="share_app_url"> Поделиться <xliff:g example="APKPure" id="app_name">%1$s</xliff:g> APK (from<xliff:g example="APKPure" id="social_network_name">%2$s</xliff:g>)<xliff:g example="https://apkpure.com/p/com.apkpure.aegon" id="app_url">%3$s</xliff:g></string>
-
-    <string name="_name__version_history"><xliff:g example="APKPure" id="name">%1$s</xliff:g> История Версий</string>
-    <string name="update__date___size_">Обновить: <xliff:g example="Mar 3, 2016" id="date">%1$s</xliff:g>, <xliff:g example="1024 kB" id="size">%2$s</xliff:g></string>
+    <string name="share_app_url"> Поделиться <xliff:g example="APKPure" id="app_name">%1$s</xliff:g> APK (from<xliff:g example="APKPure" id="social_network_name">%2$s</xliff:g>)<xliff:g example="https://apkpure.com/p/com.apkpure.aegon" id="app_url">%3$s</xliff:g>
+    </string>
+    <string name="_name__version_history">
+        <xliff:g example="APKPure" id="name">%1$s</xliff:g> История Версий</string>
+    <string name="update__date___size_">Обновить: <xliff:g example="Mar 3, 2016" id="date">%1$s</xliff:g>, <xliff:g example="1024 kB" id="size">%2$s</xliff:g>
+    </string>
     <string name="general">Общее</string>
     <string name="language">Язык</string>
     <string name="auto">Авто</string>
-
     <string name="properties">Свойства</string>
     <string name="properties_message">
         <![CDATA[<b>Путь:</b> %1$s<br><b>Размер:</b> %2$s<br><b>Изменён:</b> %3$s]]>
     </string>
     <string name="delete_downloaded_file">Удалить загруженный файл</string>
-
     <string name="update_all">Обновить всё</string>
     <string name="update___count__">Обновить (<xliff:g example="3" id="count">%1$d</xliff:g>)</string>
-    <string name="ignore">Игнорировать из списка</string>
+    <string name="ignore">Игнорировать</string>
     <string name="unignore">Не игнорировать</string>
     <string name="select">Выбрать</string>
     <string name="cancel">Отменить</string>
     <string name="ignored">Игнорируемые</string>
-
     <plurals name="total__count__apps__size_">
         <item quantity="one"><![CDATA[Всего: <b><font color="%1$d">%2$d</font></b> приложение,, <b><font color="%1$d">%3$s</font></b>]]></item>
         <item quantity="few"><![CDATA[Всего: <b><font color="%1$d">%2$d</font></b> приложения, <b><font color="%1$d">%3$s</font></b>]]></item>
@@ -196,19 +186,16 @@
     <string name="total_zero_app">
         <![CDATA[Всего: <b><font color="%1$d">0</font></b> приложений]]>
     </string>
-
     <string name="waiting_to_download">В ожидании загрузки</string>
     <string name="deleted">Удалено</string>
     <string name="search_history">История</string>
     <string name="clear_search_history">Очистить всю историю</string>
-
     <string name="installation">Установка</string>
     <string name="show_notification_after_installation">Показать уведомление после установки</string>
     <string name="delete_packages_after_installation">Удалить пакеты после установки</string>
-
-    <string name="_name__installation_completed"><xliff:g example="APKPure" id="name">%1$s</xliff:g> установка завершена</string>
-    <string name="touch_to_open">Коснитесь, чтобы открыть.</string>
-
+    <string name="_name__installation_completed">
+        <xliff:g example="APKPure" id="name">%1$s</xliff:g> установка завершена</string>
+    <string name="touch_to_open">Кликните, чтобы открыть.</string>
     <string name="delete_all">Удалить всё</string>
     <string name="want_to_delete_all_files">Вы хотите удалить все файлы?</string>
     <string name="flag_as_inappropriate">Отметить как несоответствующий</string>
@@ -219,65 +206,54 @@
     <string name="contact_us__">Обратная связь…</string>
     <string name="contact_us">Обратная связь</string>
     <string name="report_content">Сообщить о контенте</string>
-
     <string name="select_all">Выбрать всё</string>
     <string name="deselect_all">Убрать выделение со всего</string>
     <string name="more_large">Ещё</string>
     <string name="installed">Установлено</string>
     <string name="download_over_cellular">Скачать через мобильную сеть</string>
     <string name="download_over_cellular_content">Вы собираетесь загружать через мобильную сеть. Продолжите или нет?</string>
-
     <string name="participate_ultra_download_beta_test_title">Включите режим Ультра Загрузки и наслаждайтесь большей скоростью загрузки</string>
     <string name="participate_ultra_download_beta_test_content">"Режим Ультра Загрузки  в стадии бета-тестирования, дайте нам знать, если у вас возникнут какие-либо проблемы. Вы можете отключить его в Настройках."</string>
     <string name="enable">Включить</string>
-
     <string name="similar_or_related">Похожие и Связанные</string>
     <string name="more_from_developer">Другие от разработчика</string>
     <string name="feedback">Обратная связь</string>
-
-    <string name="changing_language">Идёт смена языка, пожалуйста, подождите…</string>
+    <string name="changing_language">Идёт смена языка… Пожалуйста, подождите.</string>
     <string name="download_via_wifi_only">Загрузка только через Wi-Fi</string>
     <string name="enable_ultra_download">Включить режим ультра загрузки</string>
-    <string name="enable_ultra_download_summary">"Режим Ультра Загрузки  в стадии бета-тестирования, дайте нам знать, если у вас возникнут какие-либо проблемы."</string>
+    <string name="enable_ultra_download_summary">"Режим Ультра Загрузки  в стадии бета, дайте нам знать, если у вас возникнут какие-либо проблемы."</string>
     <string name="auto_service_install_accessibility_title">Автоматическая установка</string>
-    <string name="auto_service_install_accessibility_summary">Поддерживается Android 4.1+, разрешение root не требуется.</string>
-
+    <string name="auto_service_install_accessibility_summary">Поддерживается Android 4.1 и повыше, доступа root не требуется.</string>
     <string name="auto_service_dialog_title">Включить Автоматическую Установку</string>
-    <string name="auto_service_dialog_message">Для автоматической установки требуется авторизация на телефоне, ее можно безопасно использовать без никаких-либо рисков.</string>
-
+    <string name="auto_service_dialog_message">Для автоматической установки требуется разрешение от вас. 100% безопасно.</string>
     <string name="auto_service_title">Автоматическая Установка APKPure</string>
     <string name="auto_service_description">Включите \"Автоматическую Установку APKPure \", чтобы поддержать бесперебойную работу \"Автоматической Установки\" APKPure.
         \"Автоматическая Установка APKPure\" может помочь вам нажать все кнопки установки во время установки или обновления приложений, вам не нужно постоянно проверять свой телефон.
         Во время активации данной функции вы можете получить уведомление системы безопасности, пожалуйста нажмите кнопку \"OK\" чтобы предоставить доступ.
         Чтобы быть уверенным что APKPure работает корректно, пожалуйста добавьте APKPure в \"Белый Список\" вашего приложения очистки.
         Упомянутые выше функции поддерживают Android 4.1+, права суперпользователя не требуются. Мы обещаем никогда не собирать любых ваших персональных данных в данном сервисе. Пожалуйста, не стесняйтесь обращаться к нам с любыми проблемами.</string>
-
     <string name="auto_service_install">Установить</string>
     <string name="auto_service_ensure">Окей</string>
     <string name="auto_service_next">Далее</string>
     <string name="auto_service_exchange">Заменить</string>
     <string name="auto_service_complete">Готово</string>
-
     <string name="auto_service_install__material_">УСТАНОВКА</string>
     <string name="auto_service_ensure__material_">ОКЕЙ</string>
     <string name="auto_service_next__material_">ДАЛЕЕ</string>
     <string name="auto_service_exchange__material_">ЗАМЕНА</string>
     <string name="auto_service_complete__material_">ГОТОВО</string>
-
     <string name="login_post_as_a_guest">Опубликовать без регистрации</string>
-
     <string name="report">Пожаловаться</string>
     <string name="auto_install_via_root_title">Автоматическая установка (Нужен Root)</string>
-    <string name="auto_install_via_root_summary">Только для устройств с разрешением Root.</string>
-
+    <string name="auto_install_via_root_summary">Только для Android телефонов и планшетов с разрешением Root.</string>
     <string name="app_detail_customer_reviews">Комментарии</string>
     <string name="app_submit_anonymous_comment">Добавить комментарий</string>
     <string name="login_user_password">Пароль</string>
     <string name="app_submit_msg_toast">Напишите что-нибудь!</string>
-    <string name="app_submit_name_toast">Введите никнейм，пожалуйста!</string>
-    <string name="app_submit_email_toast">Введите правильный адрес электронной почты, пожалуйста!</string>
-    <string name="app_submit_title_hint">Введите заглавие</string>
-    <string name="app_submit_msg_hint">Напишите ваше мнение, пожалуйста</string>
+    <string name="app_submit_name_toast">Введите никнейм, пожалуйста!</string>
+    <string name="app_submit_email_toast">Введите действительный адрес электронной почты, пожалуйста!</string>
+    <string name="app_submit_title_hint">Введите заглавие!</string>
+    <string name="app_submit_msg_hint">Напишите ваш контени, пожалуйста!</string>
     <string name="app_submit_email">Электронная почта</string>
     <string name="app_submit_submit_title">отправить</string>
     <string name="app_detail_tab_one">Детали</string>
@@ -285,29 +261,23 @@
     <string name="app_detail_comment_order_array_recent">Недавние</string>
     <string name="app_detail_comment_order_array_newest">Новые</string>
     <string name="app_detail_comment_order_array_best">Лучшие</string>
-
     <string name="download_complete_installation_setting">Вариант установки после загрузки</string>
-
     <string name="download_complete_installation_setting_entries_always">Всегда устанавливать</string>
-    <string name="download_complete_installation_setting_entries_only">Установка только при открыте приложения</string>
+    <string name="download_complete_installation_setting_entries_only">Установка только при работе на переднем плане</string>
     <string name="download_complete_installation_setting_entries_never">Никогда не устанавливать</string>
-
     <string name="reply">Отзыв</string>
     <string name="reply_comment">Ответить на комментарий</string>
     <string name="save_original_image">Сохранить</string>
-    <string name="already_save">Сохранено<xliff:g example="ApKPure/photo" id="path">%1$s</xliff:g></string>
-
-    <string name="tip_permission_camera_storage">Нет разрешения использовать камеру и SD-карту, откройте управление правами</string>
+    <string name="already_save">Сохранено<xliff:g example="ApKPure/photo" id="path">%1$s</xliff:g>
+    </string>
+    <string name="tip_permission_camera_storage">Нет разрешения использовать камеру и SD-карту. Пожалуйста, предоставьте это в управлении разрешениями на вашем телефоне.</string>
     <string name="permission_denied">Отказано в доступе!</string>
-
     <string name="login_title">Авторизация</string>
     <string name="sign_out">Выйти</string>
-
     <string name="delete_comment">Удалить отзыв</string>
     <string name="delete_comment_msg">Вы точно хотите удалить этот отзыв?</string>
     <string name="upload_cancel">Загрузка отменена</string>
     <string name="login_select_way_to_login">Выберите способ входа, пожалуйста</string>
-
     <string name="user_info_edit_title">Профиль</string>
     <string name="user_info_edit_username_tv">Логин</string>
     <string name="user_info_edit_nickname_tv">Никнейм</string>
@@ -319,19 +289,17 @@
     <string name="user_info_edit_gender_male">Мужской</string>
     <string name="user_info_edit_gender_female">Женский</string>
     <string name="user_info_edit_portrait_album">Выбрать фото с галереи</string>
-    <string name="user_info_edit_portrait_take_photo">Сделать фото с камера</string>
-    <string name="user_info_edit_portrait_error">Данный тип изображения не поддерживается</string>
+    <string name="user_info_edit_portrait_take_photo">Сделать фото с камерой</string>
+    <string name="user_info_edit_portrait_error">Данный тип изображения не поддерживается.</string>
     <string name="user_info_edit_ok">Окей</string>
     <string name="user_info_edit_cancel">Отменить</string>
-
     <string name="update_nick_title">Изменить никнейм</string>
     <string name="update_email_title">Изменить Email</string>
     <string name="update_nick_name_et">Введите новый никнейм</string>
     <string name="update_nick_name_tv">Никнейм нельзя быть пустым</string>
-    <string name="update_email_name_et">Введите ваш email</string>
-    <string name="update_eamil_name_tv">Email нельзя быть пустым</string>
-    <string name="update_nickname_error">Никнейм уже занят, выберите другой никнейм!</string>
-
+    <string name="update_email_name_et">Введите ваш email.</string>
+    <string name="update_eamil_name_tv">Ваш Email нельзя быть пустым.</string>
+    <string name="update_nickname_error">Этот никнейм уже занят. Выберите другой никнейм!</string>
     <string name="update_pwd_title">Сбросить пароль</string>
     <string name="update_pwd_current_pwd_et">Старый пароль</string>
     <string name="update_pwd_new_pwd_et">Новый пароль</string>
@@ -339,54 +307,46 @@
     <string name="upload_avatar">Загрузка…</string>
     <string name="update_pwd_current_null_tv">Поле \"Старый пароль\" нельзя быть пустым</string>
     <string name="update_pwd_Confirm_null_tv">Поле \"Подтверждение пароля\" нельзя быть пустым</string>
-    <string name="update_pwd_new_pwd_null_tv">Поле \"Новый пароль\" не может быть пустым</string>
-    <string name="update_pwd_new_confrim_tv">Поля \"Новый пароль\" и \"Подтверждение пароля\" не совпадают</string>
+    <string name="update_pwd_new_pwd_null_tv">Поле \"Новый пароль\" не может быть пустым.</string>
+    <string name="update_pwd_new_confrim_tv">Поля \"Новый пароль\" и \"Подтверждение пароля\" не совпадают.</string>
     <string name="update_pwd_save_bt">Сохранить</string>
     <string name="update_save_success">Сохранено.</string>
     <string name="crop__cancel" ignore="ButtonCase">Отменить</string>
     <string name="crop__done">Выполнено</string>
-    <string name="crop__pick_error">Некорректной тип файла изображения</string>
+    <string name="crop__pick_error">Некорректной тип файла изображения.</string>
     <string name="crop__saving">Сохраняется изображение…</string>
     <string name="crop__wait">Подождите, пожалуйста…</string>
-
     <string name="comment_replying">Отправляется…</string>
     <string name="register_term_of_service">Критерий использования APKPure 服务准则</string>
-
     <string name="set_contributor">Благодарность</string>
     <string name="set_permissions">Разрешения</string>
-
     <string name="sign_in_services">При регистрации вы соглашаетесь с условиями использования и политикой конфиденциальности.</string>
-
     <string name="sign_in_services_key">критерий</string>
     <string name="sign_in_services_key_policy">Политика конфиденциальности</string>
-
     <string name="user_sign_up">Регистрация</string>
     <string name="user_name_hint">Логин</string>
     <string name="user_email_hint">Email</string>
-    <string name="user_password">Пароль(6-32)</string>
+    <string name="user_password">Пароль(6-32 символов)</string>
     <string name="user_password_confirm">Подтвердите пароль</string>
-
-    <string name="user_name_error">Имя пользователя не должно содержать пробелов и специальных символов</string>
-    <string name="user_nickname_error">Никнейм не должен содержать пробелов и специальных символов</string>
-    <string name="user_email_error">Неправильный адрес эллектронной почты</string>
-    <string name="user_password_error">Этот пароль недействителен</string>
-    <string name="user_confirm_error">Пароли должны быть индентичны</string>
-
+    <string name="user_name_error">Имя пользователя не должно содержать пробелов и специальных символов.</string>
+    <string name="user_nickname_error">Никнейм не должен содержать пробелов и специальных символов.</string>
+    <string name="user_email_error">Неправильный адрес эллектронной почты.</string>
+    <string name="user_password_error">Этот пароль недействителен.</string>
+    <string name="user_confirm_error">Пароли должны быть индентичны.</string>
     <string name="login_user_name">Логин или электронная почта</string>
     <string name="login_user_sign_in">Войти</string>
     <string name="login_choose">Или войдите в свой аккаунт</string>
     <string name="login_new_user">Регистрация нового пользователя</string>
-    <string name="app_submit_submit">Отправить…</string>
+    <string name="app_submit_submit">Отправляется…</string>
     <string name="app_submit_title_toast">Напишите заглавие!</string>
     <string name="app_submit_star_toast">Дайте оценку!</string>
     <string name="app_submit_nickname">Никнейм</string>
     <string name="app_submit_reply_to">ответил</string>
     <string name="app_detail_reply_comment">Коментарий(%d)</string>
     <string name="app_detail_tab_three">Связанное</string>
-
     <string name="input_reply_content">Текст ответа:</string>
     <string name="publish">Опубликовать</string>
-    <string name="load_end">Больше нет данных</string>
+    <string name="load_end">Больше нет данных.</string>
     <string name="user_info_edit_portrait_tv">Аватар</string>
     <string name="user_info_edit_not_choose">Неизвестно</string>
     <plurals name="app_detail_see_all_replies">
@@ -395,49 +355,41 @@
         <item quantity="many">Смотреть все <xliff:g example="2" id="count">%1$d</xliff:g> ответов</item>
         <item quantity="other"/>
     </plurals>
-
-    <string name="app_detail_comment_type_web">сайт</string>
+    <string name="app_detail_comment_type_web">Сайт</string>
     <string name="app_detail_comment_order_array_default">Сортировать по умолчанию</string>
     <string name="recommend">"Все "</string>
     <string name="share_app_url_comment"> Коментарии <xliff:g example="APKPure" id="user_name">%1$s</xliff:g> к
         <xliff:g example="APKPure" id="app_name">%2$s</xliff:g> :
         <xliff:g example="APKPure" id="app_name">%3$s</xliff:g> (из @<xliff:g example="APKPure" id="social_network_name">%4$s</xliff:g>)
-        <xliff:g example="https://apkpure.com/p/com.apkpure.aegon" id="app_url">%5$s</xliff:g></string>
-
+        <xliff:g example="https://apkpure.com/p/com.apkpure.aegon" id="app_url">%5$s</xliff:g>
+    </string>
     <string name="app_detail_comment_order_array_most_recent">Самые свежие</string>
     <string name="app_detail_comment_order_array_new">Новые</string>
-    <string name="reply_dialog_marked_words">Для удаления выделенного рисунка требуется длительное нажатие.</string>
+    <string name="reply_dialog_marked_words">Нажмите и удерживайте картинку, чтобы удалить ее.</string>
     <string name="load_failed_click_retry">Ошибка, повторите попытку</string>
     <string name="loading">Загрузка…</string>
-
     <string name="scan_qr_code_hint">Перед использованием сканирования QR-кода Вы должны предоставить разрешение камеры.\n которая требуется сканированием QR-кода.</string>
     <string name="zxing_msg_default_status">Пожалуйста, поместите QR-код внутри видоискателя для его сканирования.</string>
-    <string name="zxing_msg_parser_status">Не удалось выполнить сканирование, попробуйте снова отсканировать QR-код.</string>
-
+    <string name="zxing_msg_parser_status">Не удалось выполнить сканирование, попробуйте ещё раз.</string>
     <string name="message_all">ВСЕ</string>
     <string name="message_reply">КОММЕНТАРИИ</string>
     <string name="message_praise">ЛАЙК</string>
     <string name="comment_cancel">Комментарий отменён</string>
     <string name="comment_submitting">Отправляется…</string>
     <string name="message">Сообщение</string>
-
     <string name="download_list">Список загрузок</string>
     <string name="can_be_update">Обновление доступно</string>
     <string name="install_list">Установлено</string>
     <string name="no_download">Нет загруженных приложений.</string>
-    <string name="downloads">Загрузки</string>
-
+    <string name="downloads">Загрузка</string>
     <string name="change_language_failed">Ошибка переключения языка!</string>
     <string name="comment_reply_tell_msg">Этот комментарий был удалён!</string>
-
     <string name="notification_setting">Уведомления</string>
     <string name="gif_tip">gif-анимация</string>
     <string name="submit_comment_title_hint">Наглавие</string>
-
     <string name="comment_vote_string">Поставить лайк</string>
     <string name="comment_reply_three">Ответить</string>
     <string name="comment_item_fold">комментарий свернут</string>
-
     <string name="reply_notification">Уведомления об ответах</string>
     <string name="reply_notification_msg">Получать уведомления для новых ответных сообщений</string>
     <string name="like_notification">Уведомления о лайках</string>
@@ -445,53 +397,47 @@
     <string name="message_notifications_praise">Ваш комментарий понравилось</string>
     <string name="message_notifications_reply">На Ваш комментарий ответили</string>
     <string name="message_notifications_login">Войдите, пожалуйста, чтобы увидеть эту страницу.</string>
-
     <string name="is_comment">Идёт загрузка комментария…</string>
     <string name="push_title_info_reply">%1$s ответили на ваш комментарий!</string>
     <string name="push_title_info_upvoted">%1$s понравились ваш комментарий!</string>
     <plurals name="comment_reply_item_fold">
-        <item quantity="one"><xliff:g example="1" id="count">%1$d</xliff:g> ответ был свёрнут</item>
-        <item quantity="few"><xliff:g example="1" id="count">%1$d</xliff:g> ответа были свёрнуты</item>
-        <item quantity="many"><xliff:g example="2" id="count">%1$d</xliff:g> ответов были свёрнуты</item>
+        <item quantity="one">
+            <xliff:g example="1" id="count">%1$d</xliff:g> ответ был свёрнут</item>
+        <item quantity="few">
+            <xliff:g example="1" id="count">%1$d</xliff:g> ответа были свёрнуты</item>
+        <item quantity="many">
+            <xliff:g example="2" id="count">%1$d</xliff:g> ответов были свёрнуты</item>
     </plurals>
-
     <string name="comment_no_reply">Ой, здесь ничего нет.</string>
     <string name="comment_reply_info_name">Детали</string>
     <string name="set_updates_notification">Доступны обновления приложений</string>
     <string name="set_updates_notification_msg">Уведомлять, когда доступны обновления приложений. Рекомендуемая настройка: Вкл.</string>
-    <string name="app_detail_unknow_text">Старая версия APKPure не поддерживает новые функции, пожалуйста, обновите до последней версии.</string>
+    <string name="app_detail_unknow_text">Эта функция не поддерживается текущей версией. Пожалуйста, обновите до последней версии.</string>
     <string name="comment_detail_original">Посмотреть исходный комментарий&gt;</string>
     <string name="comment_comment_newest">Новейший</string>
     <string name="comment_comment_oldest">Старейший</string>
-
     <string name="edit">Редактировать</string>
     <string name="menu_copy">Копировать</string>
     <string name="menu_cancel">Отмена</string>
     <string name="delete_all_download_history">Удалить всю историю загрузок?</string>
     <string name="download_history">История загрузок</string>
-
     <string name="sub_comment_dialog_title">Добавить Видео</string>
-    <string name="sub_comment_dialog_link_et">Введите адрес видео здесь.</string>
-    <string name="sub_comment_dialog_link_null">URL-адреса видео нельзя быть пустым</string>
+    <string name="sub_comment_dialog_link_et">Введите url видео здесь.</string>
+    <string name="sub_comment_dialog_link_null">Url видео нельзя быть пустым</string>
     <string name="sub_comment_progress_msg">Добавление видео…</string>
-
     <string name="delete_the_historical_record">Удалить историю?</string>
     <string name="sub_comment_dialog_des_tv">Поддерживается только синтаксический анализ видео Youtube.</string>
     <string name="check_update_replace">Официальная версия</string>
     <string name="download_mkdir_external_storage_values">Внешнее_хранилище</string>
-
     <string name="check_update_beta">Предварительная Бета версия</string>
     <string name="history_version">История версий</string>
-
-    <string name="app_detail_comment_order_array_old">Старые</string>
-
+    <string name="app_detail_comment_order_array_old">Самые старые</string>
     <string name="app_detail_comment_join_group_bt">Группа</string>
     <string name="download_mkdir">Путь загрузки</string>
-    <string name="download_mkdir_external_storage_fill_toast">Недостаточное хранилище может привести к невозможности загрузки
-\nприложений.</string>
-
-    <string name="share_app_url_group"> <xliff:g example="APKPure" id="app_name">%1$s</xliff:g> Группа. (from <xliff:g example="APKPure" id="social_network_name">%2$s</xliff:g> ) <xliff:g example="https://apkpure.com/p/com.apkpure.aegon" id="app_url">%3$s</xliff:g></string>
-
+    <string name="download_mkdir_external_storage_fill_toast">Недостаточное хранилище. Нельзя загрузить приложения.</string>
+    <string name="share_app_url_group">
+        <xliff:g example="APKPure" id="app_name">%1$s</xliff:g> Группа. (from <xliff:g example="APKPure" id="social_network_name">%2$s</xliff:g> ) <xliff:g example="https://apkpure.com/p/com.apkpure.aegon" id="app_url">%3$s</xliff:g>
+    </string>
     <string name="load_failed_error_not_found">Это приложение не было добавлено в APKPure.</string>
     <string name="beta">Бета</string>
     <string name="data_saver_model">Экономия трафика</string>
@@ -503,35 +449,27 @@
     <string name="scan_qr_code_result_title">Результат</string>
     <string name="scan_qr_code_result_copy_text">Копировать текст</string>
     <string name="scan_qr_code_result_hint">Детали QR-кода:</string>
-    <string name="scan_qr_code_copy_success">текст скопирован</string>
-
-    <string name="user_info_edit_large_photo">Просмотреть фотографию в большом размере</string>
-
-    <string name="user_info_edit_intro_tv">Обо Мне</string>
-    <string name="update_intro_title">Редактировать</string>
+    <string name="scan_qr_code_copy_success">Текст скопирован.</string>
+    <string name="user_info_edit_large_photo">Просмотреть фотографию в полном размере</string>
+    <string name="user_info_edit_intro_tv">Биография</string>
+    <string name="update_intro_title">Редактировать биографию</string>
     <string name="update_intro_et">Напишите немножко о себе</string>
-    <string name="update_intro_tv">Поле обо мне нельзя быть пустым</string>
-
+    <string name="update_intro_tv">Ваша биография нельзя быть пустой.</string>
     <string name="message_at_title">Упоминания</string>
     <string name="message_at">Упомянул вас</string>
-
     <string name="set_open_source_licence">Лицензии на открытие ПО</string>
-
-    <string name="user_name_null">Неверный логин</string>
+    <string name="user_name_null">Неверный логин.</string>
     <string name="push_title_info_follow">%1$s подписалися на тебя!</string>
     <string name="push_title_info_update">Доступно обновление APKPure!</string>
     <string name="push_content_info_update">Выпущена новая версия %1$s! Обновить сейчас!</string>
-    <string name="push_title_info_at">Кто-то упомянул вас в пост, нажмите, чтобы посмотреть</string>
-
+    <string name="push_title_info_at">Кто-то упомянул вас в пост, нажмите, чтобы посмотреть.</string>
     <string name="play_button">Кнопка воспроизведения</string>
-    <string name="open_video_in_youtube">Откройте видео в YouTube</string>
+    <string name="open_video_in_youtube">Проиграть видео в YouTube</string>
     <string name="full_screen_button">Полноэкранная кнопка</string>
-
     <string name="main_tab_home">ГЛАВНАЯ</string>
     <string name="main_tab_ranking">РЕЙТИНГ</string>
     <string name="tab_group">ГРУППА</string>
     <string name="main_tab_my">Я</string>
-
     <string name="main_comment">комментарий</string>
     <string name="main_won_praise">Лайков</string>
     <string name="ad_tip">Реклама</string>
@@ -551,37 +489,30 @@
     <string name="group">Группа</string>
     <string name="collection">Избранное</string>
     <string name="cancel_collection">Удалить из избранного</string>
-
     <string name="follow">ПОДПИСКИ</string>
     <string name="attention_on">Подписки</string>
     <string name="attention_off">Подписаться</string>
     <string name="no_attention">Вы пока не состоите ни в одной группе.</string>
     <string name="browsing_history">История просмотров</string>
     <string name="browsing_history_prompt">Вы хотите очистить историю просмотров?</string>
-
     <string name="ranking_tab1_title">Топ игр</string>
     <string name="ranking_tab2_title">Топ Новых Игр</string>
     <string name="ranking_tab3_title">Топ Приложений</string>
     <string name="ranking_tab4_title">Топ Новых Приложений</string>
     <string name="ranking_top_countries_title">Разделенный Рейтинг</string>
     <string name="ranking_top_develop_title">Топ Разработчиков</string>
-
     <string name="app_detail_three_fragment_foot">Показать все комментарии</string>
     <string name="menu_paste">Вставить</string>
-
     <string name="favorite_title">Избранное</string>
     <string name="save_as_favorite">Сохранить в Избранное</string>
     <string name="favorite_saved">Избранное.</string>
     <string name="failed_to_save_favorite">Не удалось сохранить в избранное</string>
     <string name="remove_as_favorite">Удалено из Избранного</string>
     <string name="remove_failed">Неудалось удаленние</string>
-
     <string name="collection_comment">Записи</string>
     <string name="collection_app">ПРИЛОЖЕНИЯ</string>
-
     <string name="open_with_browser">Открыть с помощью браузеров</string>
     <string name="web_view_refresh">Обновить</string>
-
     <string name="topic_green_color">Зеленый</string>
     <string name="topic_red_color">Малиновый</string>
     <string name="topic_blue_color">Лазурно-голубой</string>
@@ -590,7 +521,6 @@
     <string name="topic_purple_yellow">Абрикосово-оранжевый</string>
     <string name="topic_purple_blue_gary">Воздушно-синий</string>
     <string name="topic_switch_failed">Ошибка изменения темы</string>
-
     <string name="recommend_title">Рекомендации</string>
     <string name="recommend_tab_game">Рекомендуемые Вам</string>
     <string name="recommend_tab_list">Рекомендуемые</string>
@@ -614,36 +544,29 @@
     <string name="recommend_not_found">Не проиндексирован</string>
     <string name="recommend_not_fount_info">Сообщите APKPure, чтобы добавить \"%1$s\", вам нужно заполнить бланк.</string>
     <string name="recommend_user_recommend_sys">Рекомендация APKPure</string>
-
     <string name="user_detail_focus">Подписка</string>
     <string name="user_detail_fans">Подписчики</string>
     <string name="user_detail_praise">Лайков</string>
     <string name="user_detail_tab_detail">Записи</string>
     <string name="user_detail_tab_reply">Комментарии</string>
-
     <string name="user_focus_tab_users">Люди</string>
     <string name="user_focus_tab_apps">Группы</string>
     <string name="user_focus_title_my">Мои подписки</string>
     <string name="user_focus_title">Подписан на %1$s</string>
-
     <string name="goto_google_play">Купить сейчас</string>
     <string name="google_play_bug_text">Купить в Google Play</string>
-
     <string name="menu_follow_all">Все подписки</string>
     <string name="menu_follow_user">"Пользователи "</string>
     <string name="menu_follow_group">Группы</string>
     <string name="menu_follow_all_tab">Подписки</string>
     <string name="menu_follow_user_tab">Люди</string>
     <string name="menu_follow_group_tab">Группы</string>
-
     <string name="choose_app">Выбрать приложения</string>
     <string name="publish_comment">Отправить</string>
-
-    <string name="app_detail_has_product">Купить предметы</string>
-    <string name="app_detail_no_product">Нет предметов для покупки</string>
+    <string name="app_detail_has_product">Содержит покупку в приложении</string>
+    <string name="app_detail_no_product">Нет покупки в приложении</string>
     <string name="app_detail_has_ad">Есть реклама</string>
     <string name="app_detail_no_ad">Нет рекламы</string>
-
     <string name="tag_list">Список тегов</string>
     <string name="hot_tag">Горячие теги</string>
     <string name="hot_tag_explain">(Добавить или проголосовать за существующие теги для этого приложения)</string>
@@ -654,21 +577,17 @@
     <string name="there_is_no_label">Нет тегов.</string>
     <string name="add">Добавить</string>
     <string name="colon">:</string>
-
     <string name="pack_up">Коллапс</string>
     <string name="Istop">Закрепленные</string>
     <string name="add_tag">Добавить теги</string>
     <string name="error_add_tag">Ошибка добавления тегов</string>
     <string name="no_collect">Пока нет избранных!</string>
     <string name="no_comment">Будьте первым, который добавит комментарий!</string>
-
     <string name="share_apk">Поделиться APK</string>
     <string name="tab_apk">APK</string>
     <string name="commentaries">Запись</string>
-
     <string name="upload_apk_version">V %1$s</string>
     <string name="upload_apk_downloads">Скачиваний: %1$s</string>
-
     <string name="upload_comment_uploading">%1$s Загрузка…</string>
     <string name="upload_comment_upload_success">%1$s Успешно загружено</string>
     <string name="upload_comment_upload_failed">%1$s Ошибка загрузки</string>
@@ -678,39 +597,32 @@
     <string name="upload_notification_start">Пуск</string>
     <string name="upload_notification_cancel">Отмена</string>
     <string name="upload_notification_is_uploading">Загрузка пакета в APKPure …</string>
-    <string name="upload_notification_is_pause">Загрузка приостановлена</string>
+    <string name="upload_notification_is_pause">Загрузка приостановлена.</string>
     <string name="upload_add_list_toast">Успешно!</string>
-    <string name="upload_add_file_list_toast">Загрузка. Подождите,пожалуйста, спасибо!</string>
-
+    <string name="upload_add_file_list_toast">Спасибо за загрузку вашего приложения. Подождите,пожалуйста, спасибо!</string>
     <string name="your_reply_comment">Ваш Ответ</string>
-
     <string name="market_ad_title">Маркет</string>
     <string name="market_ad_tab_one">Рекомендация</string>
     <string name="market_ad_tab_two">Игры</string>
     <string name="market_ad_tab_three">Инструменты</string>
-
     <string name="tag">Тег</string>
-
     <string name="search_tab_name_one">ПРИЛОЖЕНИЯ</string>
-    <string name="search_tab_name_two">ПОЛЬЗОВАТЕЛЬ</string>
+    <string name="search_tab_name_two">ПОЛЬЗОВАТЕЛИ</string>
     <string name="pre_register_ok">ОКЕЙ</string>
     <string name="pre_register_bt">Предварительная Регистрация</string>
     <string name="pre_register_now_bt">Предварительная Регистрация</string>
     <string name="pre_registered_bt">Зарегистрирован</string>
     <string name="pre_register_link_title">Страница Предварительной Регистрации</string>
-    <string name="pre_register_gift_tv">Наград Регистрации</string>
+    <string name="pre_register_gift_tv">Наград Предварительной Регистрации</string>
     <string name="pre_register_person_num_tv">Предварительные регистрации: %1$s</string>
-    <string name="pre_register_success">Предварительная регистрация означает, что вы получите уведомление, когда приложение будет выпущено.</string>
-
+    <string name="pre_register_success">После предварительной регистрации в игре, когда она будет выпущена, вы получите уведомление на своем устройстве.</string>
     <string name="open_page_failed">Не удалось открыть страницу!</string>
     <string name="search_for_user">Поиск</string>
     <string name="search_user_history_title">Последние контакты</string>
     <string name="search_focus_list_title">Подписан</string>
-
     <string name="submit_comment_user_style"><![CDATA[<font color="#007AFF">@%1$s</font>]]></string>
     <string name="copy_username">Копировать никнейм</string>
     <string name="copy_content">Скопировать текст</string>
-
     <string name="tab_global">РЕКОМЕНДАЦИЯ</string>
     <string name="comment_list_see_here">Последнее посещение здесь. Нажмите, чтобы обновить.</string>
     <string name="comment_list_new_num">%d Новых комментариев</string>
@@ -718,32 +630,25 @@
     <string name="app_detail_tab_evaluation">Отзывы</string>
     <string name="app_detail_comment_filter_sort_score">Топ рейтинг</string>
     <string name="app_detail_comment_filter_all">Все отзывы</string>
-    <string name="app_detail_comment_filter_version">Последняя версия</string>
-    <string name="app_detail_comment_score_less">Слишком мало оценок пользователей</string>
-    <string name="app_detail_comment_no_data">Не найден рейтинги пользователей, добавь ваш рейтинг.</string>
+    <string name="app_detail_comment_filter_version">Последняя Версия</string>
+    <string name="app_detail_comment_score_less">Слишком мало отзывов пользователей</string>
+    <string name="app_detail_comment_no_data">Нет отзывов, добавьте ваш отзыв.</string>
     <string name="app_detail_comment_score_footer">Здесь %1$s отзывы на других языках.</string>
     <string name="app_detail_evaluation_tool_bar_title">Написать отзыв</string>
     <string name="app_detail_evaluation_failed_bt">Отзыв</string>
-
     <string name="app_detail_comment_order_array_good">4-5</string>
     <string name="app_detail_comment_order_array_bad">1-3</string>
     <string name="app_detail_folded_footer_reviews">Смотреть все %d сложенные отзывы</string>
     <string name="app_detail_folded_footer_posts">Смотреть все %d сложенные посты</string>
     <string name="app_detail_discuss_filter_featured">Самое лучшее</string>
     <string name="app_detail_discuss_filter_folded">Сложенные</string>
-
-
     <string name="message_notify">Оповещение</string>
     <string name="menu_copy_link">Копировать ссылку</string>
     <string name="web_view_copy">Копировать ссылку</string>
-
     <string name="filter_no_comment">Ой! Ничего не найдено!</string>
-
     <string name="follow_floating_action_button">Создать новый момент</string>
-
     <string name="count_down_timer_tv">%ds</string>
     <string name="count_down_timer_btn">Пропустить</string>
-
     <string name="choice_evaluate">Избранные Отзывы</string>
     <string name="choice_comment">Рекомендуемые посты</string>
     <string name="emoji_input_error_hint">Комментарии только с эмодзи не допускаются!Напишите что-нибудь…</string>
@@ -752,35 +657,31 @@
     <string name="my_reservation_and_collection">Предварительная регистрация и избранные</string>
     <string name="upload_apk">Загрузить APK</string>
     <string name="developer_badge_explanation">Значок разработчика</string>
-
     <string name="from_user_recommendation">Рекомендации пользователей</string>
     <string name="topics">Тема</string>
     <string name="pre_register_game">Предварительная регистрация</string>
     <string name="editors_picks">Выбор редакции</string>
-    <string name="recommend_game">рекомендуемая игра</string>
-
+    <string name="recommend_game">Рекомендуемая игра</string>
     <string name="bing_share_account">Подключение к сторонному аккаунту</string>
     <string name="un_bind">Нет соединения</string>
     <string name="login_out_message_hint">Вы действительно хотите выйти?</string>
-    <string name="bind_email_title">Подключите вашу электронную почту</string>
+    <string name="bind_email_title">Подключитесь к своей электронной почте</string>
     <string name="bind_email_tv">"Подключите вашу электронную почту к  учетной записи, чтобы разблокировать преимущества входа в систему электронной почты, восстановления пароля, опубликования отзывов и т. д."</string>
     <string name="verification_code_tv">Код подтверждения отправлен на ваш адрес электронной почты%1$s</string>
     <string name="verification_code_second_tv">Отправить в %d s</string>
     <string name="verification_code_resend_tv">Отправить код подтверждения</string>
     <string name="send_verification_code_resend_tv">Отправить код подтверждения</string>
     <string name="bind_email_success">Привязка выполнена успешно.</string>
-    <string name="update_email_tv">Перепроверьте, обновляется ли ваш адрес электронной почты</string>
+    <string name="update_email_tv">Подтвердите свой адрес электронной почты, чтобы обновить его.</string>
     <string name="verification_code_tv_hint">Код подтверждения</string>
     <string name="verification_success_code_toast">Код подтверждения отправлен.</string>
     <string name="verification_null_code_toast">Пожалуйста, введите код подтверждения, который получили.</string>
     <string name="unbind_email">Нет соединения</string>
     <string name="unbind_email_hint">К вашей учетной записи не привязан адрес электронной почты.</string>
     <string name="menu_skip">Пропустить</string>
-
     <string name="forget_password_tv">Забыли пароль?</string>
     <string name="recover_password_title">Восстановление пароля</string>
     <string name="email_address_hint_et">Введите адрес электронной почты.</string>
-
     <string name="properties_message_v2">
         <![CDATA[<b>Имя Пакета:</b> %1$s<br><b>Version:</b> %2$s<br><b>Path:</b> %3$s<br><b>Size:</b> %4$s<br><b>Last Modified:</b> %5$s]]>
     </string>
@@ -790,7 +691,7 @@
     <string name="shop">МАГАЗИН</string>
     <string name="setting_region">Регион</string>
     <string name="submit_add_title_image_tv">Дабавить обложку</string>
-    <string name="submit_add_title_image_error_toast">Возможно, эта картина временно не поддерживается. Выберите другую.</string>
+    <string name="submit_add_title_image_error_toast">Формат этого изображения не поддерживается. Пожалуйста, выберите другой.</string>
     <string name="comment_hint_tv">Поделиться чем-нибудь?</string>
     <string name="msg_all_read">Пометить как прочитанное</string>
     <string name="msg_all_read_msg">Вы уверены, что отметьте все как прочитанные?</string>
@@ -810,22 +711,19 @@
     <string name="delete_success">Удаленно</string>
     <string name="hot">горячий</string>
     <string name="look_links">Просмотреть ссылку</string>
-
     <string name="headline_no_data_tv">Нет новых котентов</string>
     <string name="hint">Уведомление</string>
-    <string name="no_save_comment_hint">Есть содержание, которое не было опубликовано, вы уверены, что выйдете?</string>
+    <string name="no_save_comment_hint">Контент не будет сохранено. Ты уверен, что хочешь выйти\?</string>
     <string name="look_all">Больше</string>
     <string name="history_hastag">Предыдущий хэштег</string>
     <string name="share_image_failed">Не удалось загрузить изображение!</string>
     <string name="select_image_overflow_hint">\@строка/картина_сообщение_max_num</string>
-
-    <string name="share_select_image_overflow_hint">Вы можете загрузить до 9 снимков.</string>
+    <string name="share_select_image_overflow_hint">Вы можете поделиться не более 9 картин в посте.</string>
     <string name="search_or_create">Искать или создать</string>
-
     <string name="privacy_setting_title">Настройки конфиденциальности</string>
     <string name="privacy_setting_account">Скрытый Аккаунт</string>
     <string name="privacy_setting_account_des">Ваша личная домашняя страница не будет видна другим, если ваш аккаунт установлен в скрытую.</string>
-    <string name="privacy_setting_account_del">Удалить ваш аккаунт и информацию</string>
+    <string name="privacy_setting_account_del">Удалить ваш аккаунт &amp; информацию</string>
     <string name="privacy_setting_account_privacy">Это скрытый аккаунт.</string>
     <string name="del_account_email_notify_tv">Пожалуйста, напишите правильный адрес электронной почты, чтобы получить наше уведомление.</string>
     <string name="del_account_email_reason_tv">Почему вы хотите удалить этот аккаунт?</string>
@@ -834,51 +732,123 @@
     <string name="del_account_reason_hint">Почему вы хотите удалить этот аккаунт?</string>
     <string name="del_account_sure">Ваш аккаунт будет удален в течении 48 часов. Если у вас есть дополнительные вопросы, свяжитесь с нами.</string>
     <string name="reply_to">Ответить %1$s:</string>
-
-<string name="apk_unable_upload">Не удалось загрузить приложение.</string>
+    <string name="apk_unable_upload">Не удалось загрузить приложение.</string>
     <string name="long_image">Длинное изображение</string>
     <string name="edit_tag">Править метки</string>
-    <string name="save_tag_hint_msg">Изменения не будут сохранены. Выйти в любом случае\?</string>
-    <string name="un_follow_xx">Отписаться от <xliff:g example="Apkpure" id="name">%1$s</xliff:g></string>
-    <string name="follow_xx">Подписаться на <xliff:g example="Apkpure" id="name">%1$s</xliff:g></string>
+    <string name="save_tag_hint_msg">Изменения не будут сохранены.Ты уверен, что хочешь выйти\?</string>
+    <string name="un_follow_xx">Отписаться от <xliff:g example="Apkpure" id="name">%1$s</xliff:g>
+    </string>
+    <string name="follow_xx">Подписаться на <xliff:g example="Apkpure" id="name">%1$s</xliff:g>
+    </string>
     <string name="app_rating">Оценка:</string>
     <string name="download_install_obb">Установить OBB</string>
     <string name="download_install_apk">Установить APK</string>
-
     <string name="users_recommended_title">Поздравляем!</string>
     <string name="recommended_posts_title">Поздравляем!</string>
     <string name="my_draft">Черновики</string>
-    <string name="several_draft"><xliff:g example="5" id="count">%1$s</xliff:g> черновиков</string>
-    <string name="delete_all_draft_hint">Удалить все черновики\?</string>
+    <string name="several_draft">
+        <xliff:g example="5" id="count">%1$s</xliff:g> черновиков</string>
+    <string name="delete_all_draft_hint">Вы уверены, что хотите удалить все черновики\?</string>
     <string name="edit_draft">Править черновик</string>
     <string name="delete_draft">Удалить черновик</string>
-    <string name="is_save_comment_draft">Сохранить как черновик\?</string>
+    <string name="is_save_comment_draft">Сохранить свой пост как черновик\?</string>
     <string name="upload_video">Загрузить видео</string>
     <string name="saved_draft">Сохранено как черновик</string>
-
-<string name="msg_all_read_notice">Уведомление</string>
+    <string name="msg_all_read_notice">Уведомление</string>
     <string name="share_app_url_comment_v3">Поделиться <xliff:g example="zhangsan" id="name">1%1$s</xliff:g>2\'s <xliff:g example="post/story/review" id="type">3%2$s</xliff:g>4 (Из APKPure):<xliff:g example="https://apkpure.com" id="url">5%3$s </xliff:g>6</string>
     <string name="number">\"</string>
     <string name="headline_footer_refresh">Потяните вниз или коснитесь этой строки, чтобы обновить.</string>
-
     <string name="users_recommended_des">Ваш отзыв был выбран как рекомендация пользователя,%1$s</string>
-    <string name="recommended_posts_des">Ваш отзыв был выбран как рекомендация пользователя,%1$s</string>
+    <string name="recommended_posts_des">Ваш пост был выбран как рекомендуемый пост,%1$s</string>
     <string name="comment_removed_title">Ваш пост был удален</string>
     <string name="comment_removed_des">Похоже, что то, что вы опубликовали, не соответствует нашим %1$s. Мы не разрешаем посты, которые запугивают частных лиц или преследуют кого-либо на APKPure. Это может включать неуместные изображения, фотографии или видео о физическом запугивании или любой другой пост, предназначенный для унижения или позора конкретного человека.
 \n%2$s 
 \nЕсли вы считаете, что это ошибка,пожалуйста%3$s.</string>
-    <string name="temporarily_blocked_title">Вы временно заблокированы от публикации</string>
+    <string name="temporarily_blocked_title">Вам временно запрещено создавать контент на APKPure</string>
     <string name="temporarily_blocked_des">Этот временный блок будет длиться %1$s дней, и вы не сможете опубликовать на APKPure, пока он не будет завершен. Если вы опубликуете что-то, что противоречит нашим %2$s ещё раз, ваша учетная запись будет заблокирована еще на 30 дней. Имейте в виду, что люди, которые постоянно опубликуют вещи, которые не разрешены на APKPure, могут навсегда отключить ваши учетные записи.
 \nЕсли вы считаете, что это ошибка,% 3 $ s.</string>
     <string name="pre_register_title">%1$s выпущено %2$s！</string>
     <string name="pre_register_des">"Предварительно зарегистрированная игра %1$s   %2$s доступна для скачивания.%3$s"</string>
-    <string name="report_callback_title">Мы удалили пост, о котором вы сообщили!</string>
-    <string name="report_callback_des">Мы просмотрели пост, о котором вы сообщили, о преследовании. Так как он нарушил наш %1$s, мы удалили его. Спасибо за вашу жалобу. Мы сообщаем %2$s, что пост был удален, но не сообщали кто жаловался.</string>
-
-    <string name="tap_to_view">нажмите, чтобы посмотреть</string>
-    <string name="let_us_know">сообщить нам</string>
+    <string name="report_callback_title">Пост, о котором вы сообщили, было удалено!</string>
+    <string name="report_callback_des">Мы просмотрели пост, о котором вы сообщили, о преследовании. Так как он нарушил наш %1$s, мы удалили его. Спасибо за вашу жалобу.</string>
+    <string name="tap_to_view">Нажмите, чтобы посмотреть</string>
+    <string name="let_us_know">Сообщить нам</string>
     <string name="community_guide_lines">Принципы сообщества</string>
-
     <string name="clear_empty">Очистить все</string>
     <string name="empty_draft_info">Нет контента…</string>
-    </resources>
+    <string name="search_tab_invitation">Посты</string>
+    <string name="xapk_upload_hint_info">Загрузка файлов XAPK занимает больше времени. Вы уверены, что загружаете\?</string>
+    <string name="packaging_failed_try_again">Упаковка не удалась. Пожалуйста, попробуйте еще раз.</string>
+    <string name="packaging_success_ready_upload">Упаковка закончена. Готов к загрузке.</string>
+    <string name="packaging">Упаковка…</string>
+    <string name="preparing_upload">Подготовка к загрузке …</string>
+    <string name="upload_apk_xapk">Загрузить APK / XAPK</string>
+    <string name="apk_xapk">APK/XAPK</string>
+    <string name="ucrop_mutate_exception_hint">Поэтому переопределите ресурс цвета (ucrop_color_toolbar_widget) в своем приложении, чтобы оно работало на устройствах до L</string>
+    <string name="ucrop_error_input_data_is_absent">И вход, и выход Uri должны быть указаны</string>
+    <string name="ucrop_menu_crop">Резать</string>
+    <string name="ucrop_label_edit_photo">Редактировать фотографию</string>
+    <string name="ucrop_label_original">Оригинал</string>
+    <string name="picture_message_video_max_num">Вы можете выбрать% 1 $ s видео максимум</string>
+    <string name="picture_confirm">Отменить</string>
+    <string name="picture_audio_error">Аудио повреждено</string>
+    <string name="picture_video_error">Видео повреждено</string>
+    <string name="picture_error">Картина повреждена</string>
+    <string name="picture_pause_audio">Пауза</string>
+    <string name="picture_quit_audio">Выходить</string>
+    <string name="picture_stop_audio">Стоп</string>
+    <string name="picture_play_audio">Проиграть</string>
+    <string name="picture_tape">Запись</string>
+    <string name="picture_all_audio">Все аудио</string>
+    <string name="picture_save_success">Изображение успешно сохранено в</string>
+    <string name="picture_save_error">Не удалось сохранить изображение</string>
+    <string name="picture_prompt_content">Вы хотите сохранить фотографии на свой телефон\?</string>
+    <string name="picture_prompt">подсказка</string>
+    <string name="picture_warning">Нет медиа-файлов!</string>
+    <string name="picture_long_chart">Длинная картинка</string>
+    <string name="picture_photograph">фотографировать</string>
+    <string name="picture_record_video">Запись видео</string>
+    <string name="picture_video_toast">Нельзя предварительно просмотреть видео</string>
+    <string name="picture_camera">Получено разрешение на доступ к системной камере</string>
+    <string name="picture_jurisdiction">Доступ к карте памяти запрещен</string>
+    <string name="picture_audio">Доступ к записи системы запрещен</string>
+    <string name="gif_tag">gif</string>
+    <string name="picture_min_img_num">Выбор изображения не менее % 1 $ s</string>
+    <string name="picture_empty">Вы можете использовать свою камеру, чтобы делать фотографии или видео</string>
+    <string name="picture_audio_empty">Вы можете использовать системные записи для записи аудио</string>
+    <string name="picture_empty_audio_title">Нет аудиофайл
+\n</string>
+    <string name="picture_empty_title">Нет видео или фото
+\n</string>
+    <string name="picture_please_select">Выберите, пожалуйста</string>
+    <string name="picture_done">Завершен</string>
+    <string name="picture_completed">Завершен</string>
+    <string name="picture_done_front_num">%1$d/%2$d закончен</string>
+    <string name="picture_please">Подождите, пожалуйста...</string>
+    <string name="picture_preview">Предварительный просмотр</string>
+    <string name="picture_message_max_num">Вы можете выбрать наиболее% 1 $ s фотографий</string>
+    <string name="picture_min_video_num">Выбор видео не может менее % 1 $ s</string>
+    <string name="picture_rule">Нельзя выбрать изображение или видео одновременно</string>
+    <string name="picture_take_picture">Фотографировать</string>
+    <string name="picture_cancel">Отменить</string>
+    <string name="picture_camera_roll">Фотопленка</string>
+    <string name="attention_each">Связано</string>
+    <string name="app_details_request_update_msg">Мы получили ваш запрос на последнее обновление% s.Новая версия будет доступна для загрузки в ближайшее время, если она существует.</string>
+    <string name="app_details_request_update_title">Запросить обновление</string>
+    <string name="xapk_unable_upload">Ошибка загрузки XAPK!</string>
+    <string name="upload_xapk_to_group">Загрузить XAPK в группу</string>
+    <string name="upload_xapk">Загрузить XAPK</string>
+    <string name="upload_apk_to_group">Загрузить APK в группу</string>
+    <string name="app_update_auto_install">Нажмите, чтобы включить \"автоматическую установку\"</string>
+    <string name="look_video">Проиграть Видео</string>
+    <string name="get_it_on">Получить：</string>
+    <string name="users">Пользователи</string>
+    <string name="choice_hashtag">Рекомендуемые хэштеги</string>
+    <string name="gif_auto_desc">Авто-воспроизведение GIF-файлов на Wi-Fi</string>
+    <string name="gif_auto_title">GIF auto-play</string>
+    <string name="several_drafts">
+        <xliff:g example="5" id="count">%1$s</xliff:g> черновиков</string>
+    <string name="home_recommended_desc">Ваш пост был выбран в качестве рекомендации для главной страницы,% 1 $ s</string>
+    <string name="home_recommended_title">Поздравляю!</string>
+    <string name="auto_service_directly__material_">ПРЯМАЯ УСТАНОВКА</string>
+</resources>
