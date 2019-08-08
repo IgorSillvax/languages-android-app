@@ -3,11 +3,11 @@
     <string name="action_settings">الإعد‌دات</string>
     <string name="action_search">البحث APK</string>
     <string name="action_management">إدارة</string>
-    <string name="press_back_key_quit">‬‬‬‭‬‬‮اضغط على زر الرجوع مرة أخرى للخروج .</string>
+    <string name="press_back_key_quit">To exit, tap the back button once again.</string>
     <string name="featured">متميز</string>
     <string name="games">الألعاب</string>
     <string name="apps">التطبيقات</string>
-    <string name="categories">الفئات</string>
+    <string name="categories">الفئاتalzobairebrhem30@gmail.com</string>
     <string name="updates">التحديثات</string>
     <string name="something_happened">&gt;_&lt;
 \nحدث شئ.</string>
@@ -19,7 +19,7 @@
     <string name="management">إدارة</string>
     <string name="app_updates">تحديثات التطبيق</string>
     <string name="app_management">المثبتة</string>
-    <string name="app_uninstall">إلغاء تثبيت التطبيق</string>
+    <string name="app_uninstall">App Uninstallation</string>
     <string name="apk_management">إدارة التطبيقات</string>
     <string name="apk_xapk_management">APK / XAPK إدارة</string>
     <string name="download_management">إدارة التحميلات</string>
@@ -28,19 +28,19 @@
     <string name="about_title">حول <xliff:g id="app_name" example="APKPure">%1$s</xliff:g>
     </string>
     <string name="about_message"> <![CDATA[<b>الإصدار :</b> %1$s<br><br><b>الموقع :</b> <a href="%2$s">%2$s</a><br><b>البريد الإلكتروني :</b> <a href="mailto:%3$s">%3$s</a>]]></string>
-    <string name="check_update">التحقق من وجود تحديث</string>
+    <string name="check_update">Check for updates</string>
     <string name="quit">خروج</string>
-    <string name="want_to_quit">هل أنت متاكد من انك تريد الخروج ؟</string>
+    <string name="want_to_quit">Are you sure you want to exit\?</string>
     <string name="install">تثبيت</string>
     <string name="open">فتح</string>
     <string name="delete">حذف</string>
-    <string name="want_to_delete_file">هل تريد حذف الملف؟</string>
+    <string name="want_to_delete_file">Are you sure you want to delete this file\?</string>
     <string name="file_has_been_deleted">تم حذف الملف.</string>
     <string name="failed_to_delete_file">فشل في حذف الملف.</string>
     <string name="install__label_">تثبيت - <xliff:g example="APKPure" id="app_label">%1$s</xliff:g>
     </string>
     <string name="user_canceled">تم الإلغاء من قبل المستخدم.</string>
-    <string name="io_error">خطاء في القراءة\\الكتابة . قد لا تتوفر على مساحة كافية لتثبيت التطبيق بنجاح .</string>
+    <string name="io_error">IO error. Not enough space available for installation.</string>
     <string name="file_format_error">خطأ في صيغة الملف.</string>
     <string name="parsing_xapk">جاري تحليل XAPK …</string>
     <string name="installing_obb">جاري تثبيت ملفات OBB …</string>
@@ -61,7 +61,7 @@
     <string name="permissions_">الأذونات:</string>
     <string name="type_">النوع :</string>
     <string name="category_">الفئة:</string>
-    <string name="more">المزيد</string>
+    <string name="more">More</string>
     <string name="permissions">الأذونات</string>
     <string name="other">غير ذلك</string>
     <string name="apk">APK</string>
@@ -70,7 +70,7 @@
     <string name="_ellipsis_"> … </string>
     <string name="market_response_error_success">نجاح.</string>
     <string name="market_response_error_invalid_result">نتيجة غير صالحة.</string>
-    <string name="market_response_error_network_connect_error">خطأ في الإتصال بالشبكة.</string>
+    <string name="market_response_error_network_connect_error">Network connection error.</string>
     <string name="market_response_error_network_read_error">فشل في القراءة .</string>
     <string name="market_response_error_invalid_response_code">رمز الاستجابة غير صالح.</string>
     <string name="market_response_error_invalid_response_body">خطأ في التطبيق.</string>
@@ -88,7 +88,7 @@
         <item quantity="many">يتوفر <xliff:g example="1" id="count">%1$d</xliff:g> تحديث جديد</item>
         <item quantity="other">هنالك <xliff:g example="1" id="count">%1$d</xliff:g> تطبيق بحاجة الى تحديث</item>
     </plurals>
-    <string name="launching_please_wait">جاري التشغيل, رجاءا إنتظر …</string>
+    <string name="launching_please_wait">Launching… Please wait.</string>
     <plurals name="_count__item_is_downloading">
         <item quantity="zero">يوجد <xliff:g example="1" id="count">%1$d</xliff:g> عنصر يتم تحميله</item>
         <item quantity="one">هنالك <xliff:g example="2" id="count">%1$d</xliff:g> عنصر يتم تحميله</item>
@@ -97,17 +97,17 @@
         <item quantity="many">هنالك <xliff:g example="2" id="count">%1$d</xliff:g>عنصر يتم تحميله</item>
         <item quantity="other">يتم تحميل <xliff:g example="2" id="count">%1$d</xliff:g>عنصر</item>
     </plurals>
-    <string name="downloads_complete">تم الإنتهاء من التحميل</string>
-    <string name="touch_for_view_all_downloads">إنقر هنا لعرض جميع التحميلات</string>
+    <string name="downloads_complete">All downloads complete</string>
+    <string name="touch_for_view_all_downloads">Tap to view all downloads</string>
     <string name="_name__download_failed">فشل تحميل <xliff:g id="name" example="APKPure">%1$s</xliff:g>
     </string>
-    <string name="touch_to_download_it_again">إضغط هنا لإعادة التحميل</string>
+    <string name="touch_to_download_it_again">Tap to restart the download</string>
     <string name="download_percent">
         <xliff:g id="percent" example="50">%1$d</xliff:g> %%</string>
     <string name="pause">إيقاف مؤقت</string>
-    <string name="continue_">متابعة</string>
-    <string name="restart">إعادة بدء</string>
-    <string name="download">تحميل</string>
+    <string name="continue_">Continue</string>
+    <string name="restart">Restart</string>
+    <string name="download">‌تحميل</string>
     <string name="downloading">جاري التحميل</string>
     <string name="waiting">إنتظار</string>
     <string name="preparing">جاري تحضير الملف</string>
@@ -119,14 +119,12 @@
     <string name="expired">منتهي</string>
     <string name="detail">تفاصيل</string>
     <string name="remove">حذف</string>
-    <string name="want_to_remove_download_item">هل تريد حذف هذا الملف من القائمة؟</string>
+    <string name="want_to_remove_download_item">Are you sure you want to remove this item\?</string>
     <string name="search">بحث</string>
     <string name="search_for_apps">البحث في APKPure</string>
     <string name="trending_searches">عمليات البحث الشائعة</string>
-    <string name="improvement_plan_title">خطة تحسين الأداء</string>
-    <string name="improvement_plan_message">
- قم بمساعدتنا بتقديم معلومات عن جهاز الاندرويد , نحن<b>لا نقوم بجمع </b> معلومات شخصية عن أحد (الاسم, العنوان, البريد الالكتروني, بطاقة الرقم الاجتماعي, أو اية معلومات قد تعرف عنك).
- </string>
+    <string name="improvement_plan_title">User Experience Improvement Plan</string>
+    <string name="improvement_plan_message">قم بمساعدتنا بتقديم معلومات عن جهاز الاندرويد , نحن<b>لا نقوم بجمع </b> معلومات شخصية عن أحد (الاسم, العنوان, البريد الالكتروني, بطاقة الرقم الاجتماعي, أو اية معلومات قد تعرف عنك).</string>
     <string name="join_us">انضم إلينا</string>
     <string name="skip">تخطي</string>
     <string name="_name__is_up_to_date">
@@ -136,10 +134,10 @@
         <![CDATA[<b>آخر إصدار:</b> %1$s<br><br><b>مالجديد:</b><br>%2$s]]>
     </string>
     <string name="report__">الإبلاغ…</string>
-    <string name="report_problem__">التبليغ عن مشكلة…</string>
-    <string name="report_problem_subject">التبليغ عن مشكلة</string>
+    <string name="report_problem__">Report A Problem…</string>
+    <string name="report_problem_subject">Report a problem</string>
     <string name="report_problem_text">موضوع المشكلة :%1$sتفاصيل المشكلة:%2$s</string>
-    <string name="installation_failed">فشل التثبيت</string>
+    <string name="installation_failed">Installation Failed.</string>
     <string name="invalid_app_detail">معلومات التطبيق غير صالحة.</string>
     <string name="invalid_app_asset">فشل في الوصول لعناصر التطبيق.</string>
     <string name="failed_to_request_app_detail">فشل في الوصول لمعلومات التطبيق.</string>
@@ -171,7 +169,7 @@
     <string name="delete_downloaded_file">حذف الملف المحمل</string>
     <string name="update_all">تحديث الكل</string>
     <string name="update___count__">تحديث (<xliff:g id="count" example="3"> 1%1$d</xliff:g> 2)</string>
-    <string name="ignore">تجاهل</string>
+    <string name="ignore">Ignore</string>
     <string name="unignore">عدم تجاهل</string>
     <string name="select">اختيار</string>
     <string name="cancel">الغاء</string>
@@ -203,14 +201,14 @@
     <string name="language">اللغة</string>
     <string name="auto">تلقائي</string>
     <string name="delete_all">حذف الكل</string>
-    <string name="want_to_delete_all_files">هل تريد حذف جميع الملفات؟</string>
+    <string name="want_to_delete_all_files">Are you sure you want to delete all files\?</string>
     <string name="flag_as_inappropriate">تحديد كغير مناسب</string>
     <string name="pause_all">ايقاف مؤقت للجميع</string>
     <string name="continue_all">استكمال الجميع</string>
     <string name="waiting_to_download">بانتظار التحميل</string>
     <string name="deleted">تم الحذف</string>
     <string name="remove_all">ازالة الجميع</string>
-    <string name="want_to_remove_all_download_items">هل تريد ازالة جميع العناصر المحملة ؟</string>
+    <string name="want_to_remove_all_download_items">Are you sure you want to remove all items\?</string>
     <string name="search_history">عمليات بحث سابقة</string>
     <string name="clear_search_history">مسح كل التاريخ</string>
     <string name="contact_us__">تواصل معنا…</string>
@@ -220,9 +218,9 @@
     <string name="installation">تنصيب</string>
     <string name="show_notification_after_installation">اظهار اشعار بعد التنصيب</string>
     <string name="delete_packages_after_installation">حذف الملف بعد التنصيب</string>
-    <string name="_name__installation_completed">تم تثبيت <xliff:g id="name" example="APKPure">%1$s</xliff:g>
-    </string>
-    <string name="touch_to_open">انقر للتشغيل.</string>
+    <string name="_name__installation_completed">
+        <xliff:g example="APKPure" id="name">%1$s</xliff:g> installation complete</string>
+    <string name="touch_to_open">Tap to launch.</string>
     <string name="report_content">تبليغ عن محتوى</string>
     <string name="recommend">إكتشف</string>
     <string name="similar_or_related">مشابه او ذي صلة</string>
@@ -230,8 +228,8 @@
     <string name="more_large">المزيد</string>
     <string name="installed">تم التثبيت</string>
     <string name="download_over_cellular">تحميل عبر شبكة الجوال</string>
-    <string name="download_over_cellular_content">أنت على وشك التحميل باستخدام شبكة الهاتف. هل تريد المتابعة؟</string>
-    <string name="participate_ultra_download_beta_test_title">فعل التحميل السريع واستمتع بسرعة تحميل اكبر</string>
+    <string name="download_over_cellular_content">You are about to download over your cellular network. Continue\?</string>
+    <string name="participate_ultra_download_beta_test_title">Enable Ultra Download and enjoy a faster download speed</string>
     <string name="participate_ultra_download_beta_test_content">التحميل السريع لازال في وضع التجريب, قم بإعلامنا في حال مواجهتك لأي مشكلة. بإمكانك ايقافها بسهولة من خلال الإعدادات.</string>
     <string name="enable">تفعيل</string>
     <string name="report">تبليغ</string>
@@ -244,10 +242,10 @@
         <xliff:g example="https://apkpure.com/p/com.apkpure.aegon" id="app_url">9%5$s</xliff:g>
     </string>
     <string name="login_post_as_a_guest">نشر كزائر</string>
-    <string name="changing_language">يتم تغيير اللغه, الرجاء الانتظار…</string>
+    <string name="changing_language">Changing language… Please wait.</string>
     <string name="download_via_wifi_only">تحميل عبر شبكة Wi-Fi فقط</string>
-    <string name="enable_ultra_download">تفعيل التحميل السريع</string>
-    <string name="enable_ultra_download_summary">التحميل السريع لازال في وضع التجريب,قم بإعلامنا في حال مواجهتك لاي مشكله.</string>
+    <string name="enable_ultra_download">Enable ultra download</string>
+    <string name="enable_ultra_download_summary">Ultra Download is still in beta. Let us know if you encounter any problems.</string>
     <string name="auto_service_install_accessibility_title">تثبيت تلقائي</string>
     <string name="auto_service_install_accessibility_summary">مدعوم على اندرويد 4.1 ومافوق, ليس هنالك حاجة لصلاحيات root.</string>
     <string name="auto_service_dialog_title">تفعيل التثبيت التلقائي</string>
@@ -432,7 +430,7 @@
     <string name="reply_notification">إشعارات الرد</string>
     <string name="reply_notification_msg">تلقي إشعارات برسائل الرد الجديدة</string>
     <string name="history_version">النسخ السابقة</string>
-    <string name="data_saver_model">توفير البيانات</string>
+    <string name="data_saver_model">Data saver</string>
     <string name="data_saver_model_summery">سيؤدي تشغيل هذا إلى تقليل حجم الصورة وجودتها للمساعدة في استخدام بيانات خلوية اقل.</string>
     <string name="scan_qr_code_result_title">النتيجه</string>
     <string name="scan_qr_code_result_copy_text">نسخ النص</string>
@@ -509,7 +507,7 @@
     <string name="ranking_tab1_title">أفضل الألعاب</string>
     <string name="ranking_tab2_title">أعلى الألعاب الجديدة</string>
     <string name="ranking_tab3_title">أفضل التطبيقات</string>
-    <string name="load_failed_error_not_found">لم يتم تضمين التطبيق في APKPure.</string>
+    <string name="load_failed_error_not_found">The app hasn\'t been included in APKPure.</string>
     <string name="beta">تجريبي</string>
     <string name="user_info_edit_intro_tv">عني</string>
     <string name="update_intro_title">تعديل عني</string>
