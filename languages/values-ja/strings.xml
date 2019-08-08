@@ -18,7 +18,7 @@
     <string name="management">管理</string>
     <string name="app_updates">アプリ更新</string>
     <string name="app_management">インストール済み</string>
-    <string name="app_uninstall">アンインストール</string>
+    <string name="app_uninstall">アプリのアンインストール</string>
     <string name="apk_management">APKファイルの管理</string>
     <string name="apk_xapk_management">APK / XAPKファイルの管理</string>
     <string name="download_management">ダウンロードの管理</string>
@@ -41,7 +41,7 @@
     <string name="install__label_">インストール - <xliff:g example="APKPure" id="app_label">%1$s</xliff:g>
     </string>
     <string name="user_canceled">ユーザによってキャンセルされました。</string>
-    <string name="io_error">IO エラーです。インストールを成功させるための十分な空き領域がない可能性があります。</string>
+    <string name="io_error">IO エラーです。インストールに十分な空き容量がありません。</string>
     <string name="file_format_error">ファイル形式のエラーです。</string>
     <string name="parsing_xapk">XAPKを解析しています…</string>
     <string name="installing_obb">OBBファイルをインストールしています…</string>
@@ -86,14 +86,14 @@
         <item quantity="other">
             <xliff:g example="2" id="count">%1$d</xliff:g>件のアップデートがあります</item>
     </plurals>
-    <string name="launching_please_wait">しばらくお待ちください…</string>
+    <string name="launching_please_wait">起動しています...お待ちください。</string>
     <plurals name="_count__item_is_downloading">
         <item quantity="one">
             <xliff:g example="1" id="count">%1$d</xliff:g>項目をダウンロードしています</item>
         <item quantity="other">
             <xliff:g example="2" id="count">%1$d</xliff:g>項目をダウンロードしています</item>
     </plurals>
-    <string name="downloads_complete">ダウンロードが完了しました</string>
+    <string name="downloads_complete">すべてのダウンロードが完了しました</string>
     <string name="touch_for_view_all_downloads">タップして全てのダウンロードを表示します</string>
     <string name="_name__download_failed">
         <xliff:g example="APKPure" id="name">%1$s</xliff:g>のダウンロードに失敗しました</string>
