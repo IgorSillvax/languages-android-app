@@ -1,117 +1,104 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="action_settings">ချိန်ညှိရန်</string>
     <string name="action_search">ရှာဖွေရန်</string>
     <string name="action_management">စီမံခန့်ခွဲရန်</string>
-
-    <string name="press_back_key_quit">နောက်ဆုတ်ခလုတ်ကို နောက်တစ်ကြိမ်နှိပ်ပြီး ထွက်ပါ။</string>
-
+    <string name="press_back_key_quit">Back ခလုတ်ကို နောက်တစ်ကြိမ်နှိပ်ပြီး ထွက်ပါ။</string>
     <string name="featured">အထူးပြုလုပ်ထားသည်</string>
     <string name="recommend">ရှာဖွေတွေ့ရှိထားသော</string>
     <string name="games">ဂိမ်း</string>
     <string name="apps">အသုံးချပရိုဂရမ်များ</string>
     <string name="categories">အမျိုးအစားများ</string>
     <string name="updates">မွမ်းမံ ပြင်ဆင်မှု့များ</string>
-
     <string name="something_happened">&gt;_&lt;\nတစ်ခုခုတော့ ဖြစ်သွားပြီ.</string>
-
     <string name="load_failed_error">အိုစ့်! အမှားတစ်ခုတွေ့ခဲ့တယ်.</string>
     <string name="load_failed_empty">ဒီမှာဘာမှမရှိတော့ပါ.</string>
-    <string name="load_failed_all_up_to_date">အပ်စ်များ အားလုံးနောက်ဆုံးထွက် အသစ်များဖြစ်သည်.</string>
+    <string name="load_failed_all_up_to_date">အက်ပ်များ အားလုံးနောက်ဆုံးထွက် အသစ်များဖြစ်သည်.</string>
     <string name="load_failed_no_results">ဝမ်းနည်းပါတယ်! သင်ရှာဖွေသော အရာကို မတွေ့ရှိပါ.</string>
-    <string name="refresh">"ပြန်လည် ဆန်းသစ်ပါ "</string>
-
-    <string name="management">စီမံခန့်ခွဲမှု့</string>
-    <string name="app_updates">App အသစ်များ</string>
+    <string name="refresh">ပြန်လည် ဆန်းသစ်ပါ</string>
+    <string name="management">စီမံခန့်ခွဲမှု</string>
+    <string name="app_updates">အက်ပ် အသစ်များ</string>
     <string name="app_management">ထည့်သွင်း တပ်ဆင်ပြီး</string>
-    <string name="app_uninstall">App ပြန်လည်ဖြုတ်ချခြင်း</string>
-    <string name="apk_management">အေပီကေ စီမံခန့်ခွဲမှု့</string>
-    <string name="apk_xapk_management">APK နှင့် XAPK စီမံျခင္း</string>
+    <string name="app_uninstall">အက်ပ် ပြန်လည်ဖြုတ်ချခြင်း</string>
+    <string name="apk_management">အေပီကေ စီမံခန့်ခွဲမှု</string>
+    <string name="apk_xapk_management">အေပီကေ နှင့် XAPK စီမံခန့်ခွဲမှု</string>
     <string name="download_management">ဒေါင်းလုဒ် စီမံခန့်ခွဲခြင်း</string>
     <string name="settings">ဆက်တင်များ</string>
     <string name="about">အကြောင်းအရာ</string>
-
-
-    <string name="about_title">အကြောင်းအရာ\n<xliff:g example="APKPure" id="app_name">%1$s</xliff:g></string>
-    <string name="check_update">ဗားရှင်းအသစ်စစ်ပါ</string>
+    <string name="about_title">အကြောင်းအရာ\n<xliff:g example="APKPure" id="app_name">%1$s</xliff:g>
+    </string>
+    <string name="check_update">ဗားရှင်းအသစ် စစ်ပါ</string>
     <string name="quit">ထွက်မည်</string>
     <string name="want_to_quit">Are you sure you want to quit?</string>
     <string name="want_to_quit">ထွက်မှာသေချာပါသလား</string>
-
-    <string name="install">သွင်းမည်</string>
+    <string name="install">ထည့်သွင်းမည်</string>
     <string name="open">ဖွင့်မည်</string>
     <string name="delete">ဖျက်မည်</string>
     <string name="delete_all">အားလုံးဖျက်မယ်</string>
-    <string name="properties">အချက်အလက်</string>
-    <string name="want_to_delete_file">ဒီဖိုင်ကိုဖျက်ချင်သလား?</string>
-    <string name="want_to_delete_all_files">သင်ဖိုင် အားလုံးကို ဖျက်ချင်သလား?</string>
-    <string name="file_has_been_deleted">ဖိုင်ကိုဖျက်ပြီးပါပြီ.</string>
+    <string name="properties">အချက်အလက်များ</string>
+    <string name="want_to_delete_file">ဒီဖိုင်ကိုဖျက်မှာသေချာပါသလား\?</string>
+    <string name="want_to_delete_all_files">ဖိုင်အားလုံးကိုဖျက်မှာ သေချာပါသလား\?</string>
+    <string name="file_has_been_deleted">ဖိုင်ကိုဖျက်ပြီးပါပြီ။</string>
     <string name="failed_to_delete_file">ဖိုင်ဖျက်ခြင်း မအောင်မြင်ပါ.</string>
-    <string name="user_canceled">အသုံးပြုသူကပယ်ဖျက်ခဲ့သည်.</string>
+    <string name="user_canceled">အသုံးပြုသူက ပယ်ဖျက်ခဲ့သည်.</string>
     <string name="about_message">
         <![CDATA[<b>ဗားရှင်း:</b> %1$s<br><br><b>&gt;ဝက်ဘ်ဆိုက်:</b> <a href="%2$s">%2$s</a><br><b>အီးမေးလ်:</b> <a href="mailto:%3$s">%3$s</a>]]>
     </string>
-    <string name="load_failed_error_not_found">App did not be included in APKPure.</string>
+    <string name="load_failed_error_not_found">APKPure တွင် ဤအက်ပ် မပါဝင်သေးပါ။</string>
     <string name="check_update_replace">တရားဝင် ဗားရှင်း</string>
     <string name="check_update_beta">အကြိုစမ်းသုံးရန် ထုတ်ထားခြင်း</string>
     <string name="beta">အစမ်းသုံး</string>
-    <string name="properties_message">
-        <![CDATA[<b>Path:</b> %1$s<br><b>Size:</b> %2$s<br><b>နောက်ဆုံးပြင်ဆင်ခဲ့သော:</b> %3$s]]>
+    <string name="properties_message">&lt;b&gt;လမ်းကြောင်း:&lt;/b&gt; %1$s&lt;br&gt;&lt;b&gt;အရွယ်အစား:&lt;/b&gt; %2$s&lt;br&gt;&lt;b&gt;နောက်ဆုံးပြင်ဆင်ခဲ့သော:&lt;/b&gt; %3$s</string>
+    <string name="install__label_">ထည့်သွင်းမည် - <xliff:g example="APKPure" id="app_label">%1$s</xliff:g>
     </string>
-    <string name="install__label_">သွင်းမယ် - <xliff:g example="APKPure" id="app_label">%1$s</xliff:g></string>
-    <string name="io_error">သွင်းထုတ် အမှား. နေရာမလောက်ခြင်းကြောင့် တပ်ဆင်မရတာဖြစ်နိုင်ပါသည်.</string>
+    <string name="io_error">သွင်းထုတ် အမှား. ထည့်သွင်းတပ်ဆင်ရန်အတွက် နေရာမလုံလောက်ပါ။</string>
     <string name="file_format_error">ဖိုင် မှားနေသည်.</string>
     <string name="parsing_xapk">XAPK ကိုဖြည်နေသည်…</string>
     <string name="installing_obb">OBB file အားထည့်သွင်းနေပါသည်…</string>
     <string name="description">ဖော်ပြချက်</string>
     <string name="whatsnew">သစ်ဆန်းသောအရာများ</string>
-    <string name="extracting_apk">APK ဖိုင်အား ဖြည်နေပါသည်…</string>
-    <string name="installing_apk">APK တပ်ဆင်နေသည်…</string>
-
-    <string name="uninstall">တပ်ဆင်ထားမှုကိုဖြုတ်ပါ</string>
+    <string name="extracting_apk">အေပီကေ ဖိုင်အား ဖြည်နေပါသည်…</string>
+    <string name="installing_apk">အေပီကေ ထည့်သွင်းတပ်ဆင်နေသည်…</string>
+    <string name="uninstall">ဖြုတ်ချရန်</string>
     <string name="uninstalled">တပ်ဆင်ထားမှုကိုဖြုတ်ပြီးပြီ</string>
-    <string name="last_update__date_">နောက်ဆုံး ပြင်ဆင်ချက် : <xliff:g id="date">%1$s</xliff:g></string>
-
-    <string name="screenshots">မျက်နှာပြင်ရိုက်ချက်များ</string>
+    <string name="last_update__date_">နောက်ဆုံး ပြင်ဆင်ချက် : <xliff:g id="နေ့စွဲ">%1$s</xliff:g>
+    </string>
+    <string name="screenshots">စခရင်ရှော့</string>
     <string name="information">အချက်အလက်</string>
     <string name="version_">ဗားရှင်း:</string>
     <string name="updated_">ဗားရှင်းမြှင့်ပြီးပြီ:</string>
     <string name="size_">ဖိုင်အရွယ်အစား</string>
     <string name="permissions_">ခွင့်ပြုချက်များ:</string>
     <string name="all">အားလုံး</string>
-
     <string name="type_">ရေးသားပါ:</string>
     <string name="category_">အကြောင်းအရာ :</string>
     <string name="more">ပိုမို၍</string>
     <string name="permissions">ခွင့်ပြုချက်များ</string>
     <string name="other">အခြား</string>
     <string name="similar_or_related">အလားတူ (သို့) ဆက်စပ်နေသည်များ</string>
-    <string name="apk">APK</string>
+    <string name="apk">အေပီကေ</string>
     <string name="xapk">XAPK</string>
     <string name="unknown">အမည်မသိ</string>
     <string name="flag_as_inappropriate">မသင့်တော်ဟု အလံပြရန်</string>
-    <string name="_ellipsis_"> ...</string>
+    <string name="_ellipsis_"> ... </string>
     <string name="more_from_developer">တီထွင်ဖန်တီးခဲ့သူထံမှ ပိုမို၍</string>
     <string name="more_large">ပိုမို၍</string>
     <string name="market_response_error_success">အောင်မြင်သည်.</string>
     <string name="market_response_error_invalid_result">အတည်မပြုနိုင်သော ရလဒ်.</string>
     <string name="history_version">ဗားရှင်းသမိုင်း</string>
-
     <string name="market_response_error_network_connect_error">ကွန်ရက်ချိတ်ဆက်မှုချို့ယွင်းချက်နေသည်.</string>
     <string name="market_response_error_network_read_error">ကွန်ရက်ဖတ်ရှုရာတွင် ချွတ်ယွင်းနေသည်.</string>
     <string name="no_more">နောက်ထပ်မရှိတော့ပါ.</string>
-
     <string name="update">မွမ်းမံမှု</string>
     <string name="launching_please_wait">ဖွင့်နေသည်, ကျေးဇူးပြု၍ ခဏစောင့်ပါ…</string>
-
     <plurals name="_count__item_is_downloading">
-        <item quantity="other"><xliff:g example="2" id="count">%1$d</xliff:g> ခု ဒေါင်းလုဒ်ပြုလုပ်နေသည်။</item>
+        <item quantity="other">ဒေါင်းလုဒ်ပြုလုပ်နေသည် <xliff:g example="2" id="count">%1$d</xliff:g> ခု</item>
     </plurals>
-    <string name="downloads_complete">ဒေါင်းလုဒ်လုပ်ခြင်း ပြီးပါပြီ</string>
+    <string name="downloads_complete">ဒေါင်းလုဒ်အားလုံး ပြီးပါပြီ</string>
     <string name="touch_for_view_all_downloads">ဒေါင်းလုဒ်အားလုံးကိုကြည့်ရန် နှိပ်ပါ</string>
-    <string name="_name__download_failed"><xliff:g example="APKPure" id="name">%1$ များ</xliff:g>ဒေါင်းလုဒ်မလုပ်နိုင်ပါ</string>
+    <string name="_name__download_failed">
+        <xliff:g example="APKPure" id="name">%1$ များ</xliff:g>ဒေါင်းလုဒ်မလုပ်နိုင်ပါ</string>
     <string name="touch_to_download_it_again">နောက်တစ်ကြိမ် ဒေါင်းလုဒ်ပြုလုပ်ရန် နှိပ်ပါ</string>
-
     <string name="pause">ရပ်ထားသည်</string>
     <string name="pause_all">အားလုံးရပ်ပါ</string>
     <string name="continue_">ဆက်လုပ်ပါ</string>
@@ -129,13 +116,11 @@
     <string name="deleted">ဖျက်ပြီး</string>
     <string name="market_response_error_invalid_response_code">မှားယွင်းနေသော တုံ့ပြန်မှု ကုဒ်.</string>
     <string name="count_down_timer_btn">ကျော်မည်</string>
-
-    <string name="market_response_error_unknown_error__error_">မထင်မှတ်ထားသောအမှား (<xliff:g example="SUCCESS" id="error">1%1$s</xliff:g>2).</string>
-
+    <string name="market_response_error_unknown_error__error_">မထင်မှတ်ထားသောအမှား (<xliff:g example="အောင်မြင်သည်" id="error">1%1$s</xliff:g>2).</string>
     <plurals name="_count__new_update_is_available">
-        <item quantity="other"><xliff:g example="2" id="count">1%1$d</xliff:g>2 မွန်းမံမှုအသစ်ရရှိနိုင်ပါပြီ</item>
+        <item quantity="other">
+            <xliff:g example="2" id="count">1%1$d</xliff:g>2 မွန်းမံမှုအသစ်ရရှိနိုင်ပါပြီ</item>
     </plurals>
-
     <string name="file_invalid">မှားယွင်းသောဖိုင်</string>
     <string name="expired">သက်တမ်းကုန်သွားပါပြီ</string>
     <string name="installed">တပ်ဆင်ထည့်သွင်းပြီးပြီ</string>
@@ -147,25 +132,24 @@
     <string name="delete_downloaded_file">ဒေါင်းလုဒ်လုပ်ထားပြီးဖိုင်များကိုဖျက်မည်</string>
     <string name="download_over_cellular">မိုဘိုင်းလ်းဒေတာဖြင့်ဒေါင်းလုတ်လုပ်မည်</string>
     <string name="download_over_cellular_content">သင်သည်မိုဘိုင်းလ်းဒေတာဖြင့် ဒေါင်းလုဒ်လုပ်ပါတော့မည်။သင်ဆက်လုပ်လိုပါသလား?</string>
-
     <string name="search">ရှာဖွေပါ</string>
     <string name="market_response_error_invalid_response_body">တရားမဝင် ကိုယ်ထည် တုံ့ပြန်မှု.</string>
-    <string name="version__version___size_">ဗားရှင်း: <xliff:g example="1.0.0" id="version">%1$s</xliff:g>, <xliff:g example="1024 kB" id="size">%2$s</xliff:g></string>
-    <string name="download_percent"><xliff:g example="50" id="percent">%1$d</xliff:g> %%</string>
+    <string name="version__version___size_">ဗားရှင်း: <xliff:g example="1.0.0" id="version">%1$s</xliff:g>, <xliff:g example="1024 kB" id="size">%2$s</xliff:g>
+    </string>
+    <string name="download_percent">
+        <xliff:g example="50" id="percent">%1$d</xliff:g> %%</string>
     <string name="search_for_apps">APKPure တွင် ရှာဖွေပါ</string>
     <string name="trending_searches">ရေပန်းစားသော ရှာဖွေမှုများ</string>
     <string name="search_history">မှတ်တမ်း</string>
     <string name="clear_search_history">မှတ်တမ်းအားလုံး ရှင်းမည်</string>
-
     <string name="improvement_plan_title">စွမ်းဆောင်ရည် တိုးတက်စေရန် အစီအစဉ်</string>
     <string name="improvement_plan_message">\n စက်ပစ္စည်း အချက်အလက်ကို အတည်ပြုပေးခြင်းဖြင့် ကျွန်ုပ်တို့ကို ကူညီပါ, <b>မဖော်ပြစေချင်သော </b> ပုဂ္ဂိုလ် ရေးအချက်အလက် (နာမည်, လိပ်စာ, အီးမေးလ် လိပ်စာ, လူမှု လုံခြုံရေး နံပါတ်, သို့ အခြား သီးသန့် သက်သေခံအရာများ) ကို ကျွန်ုပ်တို့ မရယူပါ\n </string>
     <string name="join_us">ကျွန်ုပ်တို့နှင့် ပူးပေါင်းပါ</string>
     <string name="skip">ကျော်မည်</string>
-
-    <string name="_name__is_up_to_date"><xliff:g example="APKPure" id="name">%1$s</xliff:g> သည် မွမ်းမံပြီးပြီ.</string>
+    <string name="_name__is_up_to_date">
+        <xliff:g example="APKPure" id="name">%1$s</xliff:g> သည် မွမ်းမံပြီးပြီ.</string>
     <string name="new_version_available_title">ဗားရှင်းအသစ်ရပြီ</string>
     <string name="new_version_available_message">"&lt;b&gt;နောက်ဆုံး ဗားရှင်း:&lt;/b&gt; %1$s&lt;br&gt;&lt;br&gt;&lt;b&gt;ဘာတွေ အသစ်ပါလဲ:&lt;/b&gt;&lt;br&gt;%2$s"</string>
-
     <string name="report">တိုင်ကြားမည်</string>
     <string name="report__">တိုင်ကြားမည်…</string>
     <string name="report_problem__">ပြဿနာကို တိုင်ကြားမည်…</string>
@@ -178,21 +162,31 @@
     <string name="invalid_app_detail">အပ်၏အသေးစိတ်အချက်အလက် တရားမဝင်.</string>
     <string name="incompatible_this_app">&lt;big&gt;&lt;b&gt;&lt;font color=%1$d&gt;Your device isn\'t compatible with this app.&lt;/font&gt;&lt;/b&gt;&lt;/big&gt;&lt;br&gt;&lt;br&gt;Do you want to continue\?</string>
     <string name="this_app_not_usable">"&lt;big&gt;&lt;b&gt;&lt;font color=%1$d&gt;ဤအပ်အား အသုံးပြုနိုင်မည် မဟုတ်.&lt;/font&gt;&lt;/b&gt;&lt;/big&gt;&lt;br&gt;&lt;br&gt;သင်ဆက်လုပ်လိုပါသလား?"</string>
-
     <string name="setting">အပြင်အဆင်</string>
-    <string name="external_storage_not_usable"><big><b>သင်၏ပြင်ပသိုလှောင်ရာအား ကျွန်ုပ်တို့ရယူနိုင်ရန်လိုအပ်သည်. ကျေးဇူးပြု၍ ၎င်းအားရယူနိုင်ကြောင်း သေချာပါစေ.</b></big></string>
-    <string name="external_storage_permission_denied"><big><b>သင်၏ပြင်ပသိုလှောင်ရာအား ကျွန်ုပ်တို့ ရယူခွင့်ရှိရန်လိုအပ်သည်. ကျေးဇူးပြု၍ သင်ခွင့်ပြုချက်ပိတ်မထားကြောင်း သေချာပါစေ.</b></big></string>
-
+    <string name="external_storage_not_usable">
+        <big>
+            <b>သင်၏ပြင်ပသိုလှောင်ရာအား ကျွန်ုပ်တို့ရယူနိုင်ရန်လိုအပ်သည်. ကျေးဇူးပြု၍ ၎င်းအားရယူနိုင်ကြောင်း သေချာပါစေ.</b>
+        </big>
+    </string>
+    <string name="external_storage_permission_denied">
+        <big>
+            <b>သင်၏ပြင်ပသိုလှောင်ရာအား ကျွန်ုပ်တို့ ရယူခွင့်ရှိရန်လိုအပ်သည်. ကျေးဇူးပြု၍ သင်ခွင့်ပြုချက်ပိတ်မထားကြောင်း သေချာပါစေ.</b>
+        </big>
+    </string>
     <string name="share">မျှဝေ</string>
     <string name="share_app_url">မျှဝေမည် <xliff:g example="APKPure" id="app_name">%1$s</xliff:g> APK (မှ @<xliff:g example="APKPure" id="social_network_name">%2$s</xliff:g>)
         <xliff:g example="https://apkpure.com/p/com.apkpure.aegon" id="app_url">%3$s</xliff:g>
     </string>
-    <string name="share_app_url_comment"> <xliff:g example="APKPure" id="user_name">%1$s</xliff:g>၏ မှတ်ချက်များ<xliff:g example="APKPure" id="app_name">%2$s</xliff:g> : <xliff:g example="APKPure" id="app_name">%3$s</xliff:g>(မှ @<xliff:g example="APKPure" id="social_network_name">%4$s</xliff:g>)<xliff:g example="https://apkpure.com/p/com.apkpure.aegon" id="app_url">%5$s</xliff:g></string>
-    <string name="share_app_url_group"> <xliff:g example="APKPure" id="app_name">%1$s</xliff:g>အဖွဲ့. (မှ @<xliff:g example="APKPure" id="social_network_name">%2$s</xliff:g>)<xliff:g example="https://apkpure.com/p/com.apkpure.aegon" id="app_url">%3$s</xliff:g></string>
-
-    <string name="_name__version_history"><xliff:g example="APKPure" id="name">%1$s</xliff:g> ဗားရှင်းမှတ်တမ်း</string>
-    <string name="update__date___size_">မွမ်းမံ: <xliff:g example="Mar 3, 2016" id="date">%1$s</xliff:g>, <xliff:g example="1024 kB" id="size">%2$s</xliff:g></string>
-
+    <string name="share_app_url_comment">
+        <xliff:g example="APKPure" id="user_name">%1$s</xliff:g>၏ မှတ်ချက်များ<xliff:g example="APKPure" id="app_name">%2$s</xliff:g> : <xliff:g example="APKPure" id="app_name">%3$s</xliff:g>(မှ @<xliff:g example="APKPure" id="social_network_name">%4$s</xliff:g>)<xliff:g example="https://apkpure.com/p/com.apkpure.aegon" id="app_url">%5$s</xliff:g>
+    </string>
+    <string name="share_app_url_group">
+        <xliff:g example="APKPure" id="app_name">%1$s</xliff:g>အဖွဲ့. (မှ @<xliff:g example="APKPure" id="social_network_name">%2$s</xliff:g>)<xliff:g example="https://apkpure.com/p/com.apkpure.aegon" id="app_url">%3$s</xliff:g>
+    </string>
+    <string name="_name__version_history">
+        <xliff:g example="APKPure" id="name">%1$s</xliff:g> ဗားရှင်းမှတ်တမ်း</string>
+    <string name="update__date___size_">မွမ်းမံ: <xliff:g example="Mar 3, 2016" id="date">%1$s</xliff:g>, <xliff:g example="1024 kB" id="size">%2$s</xliff:g>
+    </string>
     <string name="update_all">အားလုံး မွမ်းမံ</string>
     <string name="update___count__">မွမ်းမံ (<xliff:g example="3" id="count">%1$d</xliff:g>)</string>
     <string name="ignore">လျစ်လျူရှု</string>
@@ -208,7 +202,6 @@
         </item>
     </plurals>
     <string name="total_zero_app">"စုစုပေါင်း: &lt;b&gt;&lt;font color=%1$d&gt;0&lt;/font&gt;&lt;/b&gt; အပ်"</string>
-
     <string name="general">ယေဘုယျ</string>
     <string name="language">ဘာသာစကား</string>
     <string name="auto">အလိုအလျောက်</string>
@@ -219,7 +212,6 @@
     <string name="participate_ultra_download_beta_test_title">Ultra download ကိုဖြင့္ၿပီးျမန္ဆန္တဲ့ dowload speed ကိုရယူပါ</string>
     <string name="participate_ultra_download_beta_test_content">Ultra download စနစ္မွာ စမ္းသပ္ျခင္းအဆင့္သာရိွေသး၍ အခက္အခဲမ်ားျဖစ္ေပၚလာပါက အေၾကာင္းၾကားေပးပါ။Ultra download အားလြယ္ကူစြာ disable လုပ္ရန္ setting ကိုသြားပါ</string>
     <string name="enable">ဖြင့္ပါ</string>
-
     <string name="feedback">အကြောင်းကြားစာ</string>
     <string name="properties_message_v2">
         <![CDATA[<b>Package အမည်:</b> %1$s<br><b>ဗားရှင်း:</b> %2$s<br><b>လမ်းကြောင်း:</b> %3$s<br><b>အရွယ်အစား:</b> %4$s<br><b>နောက်ဆုံးပြုပြင်ခဲ့သော:</b> %5$s]]>
@@ -229,36 +221,29 @@
     <string name="installation">တပ်ဆင်ခြင်း</string>
     <string name="show_notification_after_installation">တပ်ဆင်ပြီးပါကသတိပေးချက်ပြပါ</string>
     <string name="delete_packages_after_installation">တပ်ဆင်ပြီးလျှင် ပက်ကေ့ခ်ျများကိုဖျက်ပါ</string>
-
-    <string name="_name__installation_completed"><xliff:g example="APKPure" id="name">%1$s</xliff:g>တပ်ဆင်ပြီးပြီ။</string>
+    <string name="_name__installation_completed">
+        <xliff:g example="APKPure" id="name">%1$s</xliff:g>တပ်ဆင်ပြီးပြီ။</string>
     <string name="touch_to_open">ဖွင့်ရန်နှိပ်ပါ။.</string>
-
     <string name="auto_service_install_accessibility_title">အလိုအလျောက်တပ်ဆင်ခြင်း</string>
     <string name="auto_service_install_accessibility_summary">အန်းဒရွိုက် 4.1 နှင့်အထက်တွင်အသုံးပြုနိုင်သည်။, Root ခွင့်ပြုချက်မလိုပါ။.</string>
-
     <string name="auto_service_dialog_title">အလိုလျောက်တပ်ဆင်ခြင်းဖွင့်ပါ</string>
     <string name="auto_service_dialog_message">အလိုလျောက်တပ်ဆင်ခြင်းကိုအသုံးပြုရန် ဖုန်း၏ခွင့်ပြုချက်ကို သင်ဖွင့်ပေးရမည်။, အန္တရာယ်တော့မရှိပါ။.</string>
-
     <string name="auto_service_title">APKPure အလိုလျောက်တပ်ဆင်ခြင်း</string>
     <string name="auto_service_install">ျမန္မာဘာသာ</string>
     <string name="auto_service_ensure">ေကာင္းၿပီး</string>
     <string name="auto_service_next">ေနာက္တစ္ခု</string>
     <string name="auto_service_exchange">အစားထိုးပါ</string>
     <string name="auto_service_complete">ၿပီးၿပီး</string>
-
     <string name="auto_service_install__material_">တပ်ဆင်ပါ</string>
     <string name="auto_service_ensure__material_">ကောင်းပြီ</string>
     <string name="auto_service_next__material_">ပြီးနောက်</string>
     <string name="auto_service_exchange__material_">အစားထိုးပါ</string>
     <string name="auto_service_complete__material_">ပြီးပြီ</string>
-
     <string name="auto_install_via_root_title">အလိုအေလ်ာက္တပ္ဆင္ျခင္း</string>
     <string name="auto_install_via_root_summary">Root လုပ်ထားသော အန်းဒရွိုက်ဖုန်းနှင့် တဘလတ်များအတွက်သာ။.</string>
-
     <plurals name="app_detail_see_all_replies">
         <item quantity="other">အားလုံးကိုကြည့်ပါ <xliff:g example="2" id="count">%1$d</xliff:g> ပြန်ကြားချက်များ</item>
     </plurals>
-
     <string name="app_detail_customer_reviews">မှတ်ချက်များ</string>
     <string name="app_submit_submit">စာစုတင်ပါ…</string>
     <string name="app_submit_anonymous_comment">မှတ်ချက်တစ်ခုပေးပါ</string>
@@ -272,18 +257,15 @@
     <string name="app_submit_email">အီးမေးလ်</string>
     <string name="app_submit_submit_title">စာစုတင်ပါ</string>
     <string name="app_submit_reply_to">သို့ ပြန်ကြားမည်</string>
-
     <string name="app_detail_tab_one">အသေးစိတ်အချက်အလက်</string>
     <string name="app_detail_tab_two">စာစုများ</string>
     <string name="app_detail_tab_three">ဆက်နွှယ်နေသော</string>
-
     <string name="app_detail_comment_filter_version">နောက်ဆုံးဗားရှင်း</string>
     <string name="app_detail_comment_score_footer">\'%1$s ယောက်သည် အခြားဘာသာစကားဖြင့်ထင်မြင်ချက်ပေးထားသည်။.\'</string>
     <string name="app_detail_evaluation_tool_bar_title">ထင်မြင်ချက်တစ်ခုကိုမျှဝေပါ</string>
     <string name="app_detail_comment_order_array_new">အသစ်ဆုံးများ</string>
     <string name="app_detail_comment_order_array_best">အကောင်းဆုံး</string>
     <string name="app_detail_comment_order_array_old">အဟောင်း</string>
-
     <string name="app_detail_comment_order_array_good">၄-၅</string>
     <string name="app_detail_comment_order_array_bad">၁-၃</string>
     <string name="enable_ultra_download">အဆင့်မြင့်ဒေါင်းလုတ်ဖွင့်ပါ</string>
@@ -291,8 +273,6 @@
     <string name="app_detail_folded_footer_reviews">မကြည့်ရသေးသောသုံးသပ်ချက်စုစုပေါင်း %d ခုကိုကြည့်ပါ</string>
     <string name="app_detail_folded_footer_posts">မကြည့်ရသေးသောစာစု စုစုပောင်း %d ခုကိုကြည့်ပါ</string>
     <string name="app_detail_discuss_filter_folded">မကြည့်ရသေးသော</string>
-
-
     <string name="app_detail_comment_join_group_bt">အုပ်စု</string>
     <string name="download_complete_installation_setting_entries_always">အမြဲတမ်းတပ်ဆင်ပါ</string>
     <string name="download_mkdir">ဒေါင်းလုဒ်လမ်းကြောင်း</string>
@@ -301,12 +281,10 @@
     <string name="scan_qr_code_result_copy_text">စာသားများကိုကူးယူပါ</string>
     <string name="login_title">လော့ဂ်အင်ဝင်ပါ</string>
     <string name="sign_out">ထွက်ပါ</string>
-
     <string name="delete_comment">မှတ်ချက်ကိုဖျက်ပါ</string>
     <string name="delete_comment_msg">ဤမှတ်ချက်ကိုဖျက်လိုပါသလား?</string>
     <string name="upload_cancel">အပ်လုပ်တင်ခြင်းဖျက်သိမ်းပြီးပြီ</string>
     <string name="login_select_way_to_login">လော့ဂ်အင်ဝင်ရန်နီးလမ်းတစ်ခုခုရွေးချယ်ပေးပါ</string>
-
     <string name="user_info_edit_title">ကိုယ်ရေးမှတ်တမ်း</string>
     <string name="user_info_edit_portrait_tv">ကိုယ်ရေးမှတ်တမ်းပုံ</string>
     <string name="user_info_edit_username_tv">အသုံးပြုသူအမည်</string>
@@ -325,7 +303,6 @@
     <string name="user_info_edit_ok">ကောင်းပြီ</string>
     <string name="user_info_edit_cancel">ပယ်ဖျက်ပါ</string>
     <string name="user_info_edit_large_photo">ပုံကိုအရွယ်ကြီးကြီးဖြင့်ကြည့်ပါ</string>
-
     <string name="update_nick_title">အမည်ပြောင်ပြောင်းလဲမည်</string>
     <string name="update_email_title">အီးမေးလ်ပြောင်းမည်</string>
     <string name="update_nick_name_et">သင့်အမည်ပြောင်ကိုရိုက်ထည့်ပါ</string>
@@ -341,14 +318,12 @@
     <string name="open_with_browser">ဘရောက်ဇာဖြင့်ဖွင့်ပါ</string>
     <string name="web_view_refresh">ပြန်လည်ဆန်းသစ်ပါ</string>
     <string name="web_view_copy">လင့်ခ်ကူးယူပါ</string>
-
     <string name="topic_green_color">အစိမ်းရောင်</string>
     <string name="topic_blue_color">Azure အပြာရောင်</string>
     <string name="topic_purple_color">ခရမ်းရင့်ရောင်</string>
     <string name="topic_purple_black">မီးခိုးဖျော့ရောင်</string>
     <string name="topic_purple_yellow">Apricot လိမ္မော်ရောင်</string>
     <string name="topic_switch_failed">Theme ပြောင်စလဲခြင်းမအောင်မြင်</string>
-
     <string name="recommend_title">အကြံပြုချက်များ</string>
     <string name="recommend_tab_game">အပ်တစ်ခုအကြံပြုထားသည်</string>
     <string name="recommend_tab_list">အကြံပြုထားသည်များ</string>
@@ -367,30 +342,24 @@
     <string name="user_detail_praise">ကြိုက်နှစ်သက်မှုများ</string>
     <string name="user_detail_tab_detail">စာစုများ</string>
     <string name="user_detail_tab_reply">မှတ်ချက်များ</string>
-
     <string name="user_focus_tab_users">လူများ</string>
     <string name="user_focus_tab_apps">အုပ်စုများ</string>
     <string name="user_focus_title_my">ကျွန်ုပ်၏သတင်းလိုက်ထားမှုများ</string>
     <string name="user_focus_title">%1$s ဦးသတင်းလိုက်ထားသည်</string>
-
     <string name="goto_google_play">ယခုပဲဝယ်ပါ</string>
     <string name="google_play_bug_text">Google Play တွင်ဝယ်ပါ</string>
-
     <string name="menu_follow_all">သတင်းလိုက်ထားမှုအားလုံး</string>
     <string name="menu_follow_user">သတင်းလိုက်ထားသောလူများ</string>
     <string name="menu_follow_group">သတင်းလိုက်ထားသောအုပ်စုများ</string>
     <string name="menu_follow_all_tab">သတင်းလိုက်ထားသော</string>
     <string name="menu_follow_user_tab">လူများ</string>
     <string name="menu_follow_group_tab">အုပ်စုများ</string>
-
     <string name="choose_app">အပ်ပလီကေးရှင်းမှတ်သားပြုပါ</string>
     <string name="publish_comment">စာစုတစ်ခုကိုမျှဝေပါ</string>
-
     <string name="app_detail_has_product">ဝယ်ယူစရာများ</string>
     <string name="app_detail_no_product">ဝယ်ယူစရာမပါဝင်ပါ</string>
     <string name="app_detail_has_ad">ကြော်ငြာများပါဝင်သည်</string>
     <string name="app_detail_no_ad">ကြော်ငြာများမပါဝင်ပါ</string>
-
     <string name="tag_list">တဂ်များစာရင်း</string>
     <string name="hot_tag">ရှာဖွေမှုများသောတဂ်များ</string>
     <string name="hot_tag_explain">(ဤအပ်အတွက်ရှိပြီးသားတဂ်ကိုဦးစားပေးပါ သို့မဟုတ် အသစ်ထည့်ပါ)</string>
@@ -401,7 +370,6 @@
     <string name="there_is_no_label">တဂ်များမရှိပါ.</string>
     <string name="add">ပေါင်းထည့်ပါ</string>
     <string name="colon">:</string>
-
     <string name="pack_up">ဖျက်မည်</string>
     <string name="Istop">ပင်စိုက်ထားသော</string>
     <string name="add_tag">တဂ်ထည့်ပါ</string>
@@ -409,13 +377,11 @@
     <string name="no_collect">စိတ်ကြိုက်အရာများမရှိသေးပါ!</string>
     <string name="no_comment">ပထမဆုံးစာစုတစ်ခုတင်ပါ!</string>
     <string name="filter_no_comment">ဝမ်းနည်းပါတယ်! ဤသည်တို့မပါဝင်ပါ!!</string>
-
     <string name="share_apk">APK ကိုမျှဝေပါ</string>
     <string name="tab_apk">APK</string>
     <string name="commentaries">စာစုတစ်ခုကိုမျှဝေပါ</string>
     <string name="upload_apk_version">ဗာရှင်း %1$s</string>
     <string name="upload_apk_downloads">ဒေါင်းလုတ်များ: %1$s ခု</string>
-
     <string name="upload_comment_view">ကြည့်ရန်နှိပ်ပါ</string>
     <string name="upload_comment_reload">ပြန်တင်ရန်နှိပ်ပါ</string>
     <string name="upload_notification_pause">ခတ္တရပ်ပါ</string>
@@ -425,16 +391,12 @@
     <string name="upload_notification_is_pause">တင်ခြင်းခတ္တရပ်ဆိုင်းထားသည်။</string>
     <string name="upload_add_list_toast">အောင်မြင်သည်!</string>
     <string name="upload_add_file_list_toast">သင်၏အပ်ကိုတင်ပေးနေပါသည်။.စောင့်ဆိုင်ပေးပါ။. ကျေးဇူးတင်ပါသည်။!</string>
-
     <string name="your_reply_comment">သင့်၏ပြန်ကြားချက်</string>
-
     <string name="market_ad_title">ဈေးကွက်ကြော်ငြာ</string>
     <string name="market_ad_tab_one">အသားပေးဖော်ပြမှု</string>
     <string name="market_ad_tab_two">ဂိမ်းများ</string>
     <string name="market_ad_tab_three">ကိရိယာများ</string>
-
     <string name="tag">တဂ်</string>
-
     <string name="search_tab_name_one">အပ်စ်များ</string>
     <string name="search_tab_name_two">အသုံးပြုသူ</string>
     <string name="pre_register_ok">ကောင်းပြီ</string>
@@ -447,12 +409,9 @@
     <string name="search_for_user">ရှာဖွေပါ</string>
     <string name="search_user_history_title">မကြာသေးမီကအဆက်အသွယ်များ</string>
     <string name="search_focus_list_title">သတင်းလိုက်ထားသော</string>
-
     <string name="submit_comment_user_style">&lt;font color=#007AFF&gt;@%1$s&lt;/font&gt;</string>
-
     <string name="copy_username">အမည်ပြောင်</string>
     <string name="copy_content">အကြောင်းအရာကိုကူးယူပါ</string>
-
     <string name="tab_global">အသားပေးဖော်ပြမှု</string>
     <string name="comment_list_see_here">နောက်ဆုံးရောက်ရှိခဲ့သောနေရာ,ပြန်လည်စတင်ရန်နှိပ်ပါ</string>
     <string name="tab_popular">လူကြိုက်များသော</string>
@@ -468,7 +427,6 @@
     <string name="pre_register_game">ကြိုတင်စရင်းသွင်းခြင်း</string>
     <string name="editors_picks">EDITORS\' CHOICE</string>
     <string name="recommend_game">အကြံပြုထားသောဂိမ်း</string>
-
     <string name="bing_share_account">အခြားအကောင့်နှင့်ချိတ်ဆက်မည်</string>
     <string name="un_bind">ချိတ်ဆက်ထားခြင်းမရှိပါ</string>
     <string name="login_out_message_hint">ထွက်ဖို့သေချာပြီလား?</string>
@@ -485,10 +443,8 @@
     <string name="unbind_email">ချိတ်ဆက်၍မရပါ</string>
     <string name="unbind_email_hint">သင့်အကောင့်သည်အီးမေးလ်နှင့်ချိတ်ဆက်ထားခြင်းမရှိပါ.</string>
     <string name="menu_skip">ကျော်မည်</string>
-
     <string name="forget_password_tv">စကားဝှက်မေ့နေပါသလား?</string>
     <string name="recover_password_title">စကားဝှက်ပြန်လည်ရယူခြင်း</string>
     <string name="email_address_hint_et">သင့်အီးမေးလ်ရိုက်ထည့်ပါ.</string>
-
     <string name="failed_to_request_app_asset">အပ် အချက်အလက်ရယူ၍မရပါ။.</string>
 </resources>
