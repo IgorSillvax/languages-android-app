@@ -97,12 +97,14 @@
     <string name="market_response_error_unknown_error__error_">خطای ناشناخته (<xliff:g example="SUCCESS" id="error">%1$s</xliff:g>).</string>
     <string name="launching_please_wait">در‌حال راه‌اندازی، لطفا صبر کنید…</string>
     <plurals name="_count__item_is_downloading">
-        <item quantity="one">
-            <xliff:g id="count" example="1">%1$d</xliff:g> آیتم در حال دانلود است</item>
-        <item quantity="other">
-            <xliff:g id="count" example="2">%1$d</xliff:g> آیتم‌ در حال دانلود است</item>
+        <item quantity="one">در حال بارگیری 
+\n<xliff:g id="count" example="1">%1$d</xliff:g>
+        </item>
+        <item quantity="other">در حال بارگیری 
+\n <xliff:g id="count" example="2">%1$d</xliff:g>
+        </item>
     </plurals>
-    <string name="downloads_complete">دانلود‌ کامل شد</string>
+    <string name="downloads_complete">تمام دانلود‌ ها کامل شد</string>
     <string name="touch_for_view_all_downloads">برای مشاهده تمام دانلود‌ها، لمس کنید</string>
     <string name="_name__download_failed">
         <xliff:g example="APKPure" id="name">%1$s</xliff:g> دانلود نشد</string>
@@ -129,8 +131,8 @@
     <string name="detail">جزئیات</string>
     <string name="remove">پاک کردن</string>
     <string name="remove_all">پاک کردن همه</string>
-    <string name="want_to_remove_download_item">آیا شما می‌خواهید این دانلود را حذف کنید؟</string>
-    <string name="want_to_remove_all_download_items">آيا شما می‌خواهید تمام این دانلود‌ها را حذف کنید؟</string>
+    <string name="want_to_remove_download_item">آیا شما می‌خواهید این فایل را حذف کنید؟</string>
+    <string name="want_to_remove_all_download_items">آيا شما می‌خواهید تمام دانلود‌ها را حذف کنید؟</string>
     <string name="delete_downloaded_file">حذف فایل دانلود شده</string>
     <string name="search">جستجو</string>
     <string name="search_for_apps">جستجو APKPure</string>
@@ -153,14 +155,12 @@
     <string name="contact_us__">تماس با ما…</string>
     <string name="contact_us">تماس با ما</string>
     <string name="report_content">گزارش مطلب</string>
-    <string name="installation_failed">نصب انجام نشد</string>
+    <string name="installation_failed">نصب انجام نشد.</string>
     <string name="invalid_app_detail">جزئیات بیشتر برنامه نامعتبر است.</string>
     <string name="invalid_app_asset">اطلاعات برنامه نامعتبر است.</string>
     <string name="failed_to_request_app_detail">درخواست برنامه ناموفق است جزئیات بیشتر برنامه.</string>
     <string name="failed_to_request_app_asset">درخواست برنامه ناموفق است جزئیات دارایی برنامه.</string>
-    <string name="incompatible_this_app">
-        <![CDATA[<big><b><font color=%1$d>دستگاه شما با این برنامه سازگار نیست.</font></b></big><br><br>می‌خواهید ادامه دهید؟]]>
-    </string>
+    <string name="incompatible_this_app">&lt;big&gt;&lt;b&gt;&lt;font color=%1$d&gt;دستگاه شما با این برنامه سازگار نیست.&lt;/font&gt;&lt;/b&gt;&lt;/big&gt;&lt;br&gt;&lt;br&gt; ادامه میدهید؟</string>
     <string name="setting">تنظیمات</string>
     <string name="share">اشتراک گذاری</string>
     <string name="update_all">به‌روزرسانی همه</string>
@@ -189,13 +189,15 @@
     <string name="show_notification_after_installation">نمایش اطلاعیه بعد از نصب</string>
     <string name="delete_packages_after_installation">حذف پکیج‌ها بعد از نصب</string>
     <string name="_name__installation_completed">
-        <xliff:g example="APKPure" id="name">%1$s</xliff:g> نصب شد</string>
-    <string name="touch_to_open">برای باز کردن لمس کنید.</string>
+        <xliff:g example="APKPure" id="name">%1$s</xliff:g> نصب کامل شد</string>
+    <string name="touch_to_open">برای اجرا لمس کنید.</string>
     <string name="external_storage_not_usable">
         <![CDATA[<big><b>ما نیاز به دسترسی ذخیره سازی خارجی شما داریم. لطفا مطمئن شوید که قابل استفاده است.</b></big>]]>
     </string>
     <string name="external_storage_permission_denied">
-        <![CDATA[<big><b>ما نیاز به دسترسی ذخیره سازی خارجی شما داریم. لطفا مطمئن شوید که اجازه دسترسی رد نشده.</b></big>]]>
+        <big>
+            <b>ما نیاز به دسترسی ذخیره سازی خارجی شما داریم. لطفا مطمئن شوید که اجازه دسترسی پذیرفته شده است.</b>
+        </big>
     </string>
     <string name="share_app_url"> اشتراک گذاری <xliff:g example="APKPure" id="app_name">%1$s</xliff:g> ای‌پی‌کا (از @<xliff:g example="APKPure" id="social_network_name">%2$s</xliff:g>), <xliff:g example="https://apkpure.com/p/com.apkpure.aegon" id="app_url">%3$s</xliff:g>
     </string>
@@ -204,17 +206,15 @@
     <string name="update__date___size_">به‌روزرسانی: <xliff:g example="Mar 3, 2016" id="date">%1$s</xliff:g>, <xliff:g example="1024 kB" id="size">%2$s</xliff:g>
     </string>
     <string name="improvement_plan_message">با ثبت اطلاعات گوشی اندرویدی‌خود به ما در ارائه خدمات بهتر کمک کنید، ما اطلاعات شخصی-هویتی شما از قبیل (نام ، نشانی ، نشانی ایمیل ، شماره ملی و… ) را <b> ذخیره نمی‌کنیم</b>.</string>
-    <string name="this_app_not_usable">
-        <![CDATA[<big><b><font color=%1$d>این برنامه ممکن است قابل استفاده نباشد.</font></b></big><br><br>می‌خواهید ادامه دهید؟]]>
-    </string>
+    <string name="this_app_not_usable">&lt;big&gt;&lt;b&gt;&lt;font color=%1$d&gt;این برنامه ممکن است قابل استفاده نباشد.&lt;/font&gt;&lt;/b&gt;&lt;/big&gt;&lt;br&gt;&lt;br&gt; ادامه میدهید؟</string>
     <string name="installed">نصب شده است</string>
-    <string name="participate_ultra_download_beta_test_title">فعال کردن دانلود فوق العاده و از سرعت سریع دانلود لذت ببرید</string>
-    <string name="participate_ultra_download_beta_test_content">دانلود فوق العاده در مرحله تست می‌باشد، اگر به هرگونه مشکلی برخورد کردید به ما اطلاع دهید. شما به راحتی می‌توانید در تنظیمات غیرفعال کنید.</string>
+    <string name="participate_ultra_download_beta_test_title">با فعال کردن دانلود فوق العاده، از سرعت سریع دانلود لذت ببرید</string>
+    <string name="participate_ultra_download_beta_test_content">دانلود فوق العاده در مرحله تست می‌باشد، اگر به هرگونه مشکلی برخوردید به ما اطلاع دهید. شما به راحتی می‌توانید در تنظیمات غیرفعال کنید.</string>
     <string name="enable">فعال کردن</string>
     <string name="download_via_wifi_only">دانلود فقط از طریق Wi-Fi</string>
     <string name="enable_ultra_download">فعال کردن دانلود فوق العاده</string>
-    <string name="enable_ultra_download_summary">دانلود فوق العاده در مرحله تست می‌باشد. اگر به هرگونه مشکلی برخورد کردید به ما اطلاع دهید.</string>
-    <string name="download_over_cellular_content">دانلود شما از اینترنت تلفن شما استفاده می‌کند. آیا مایل به ادامه دادن می‌باشید؟</string>
+    <string name="enable_ultra_download_summary">دانلود فوق العاده در مرحله تست می‌باشد. اگر به هرگونه مشکلی برخوردید به ما اطلاع دهید.</string>
+    <string name="download_over_cellular_content">شما در حال دانلود از طریق اینترنت شبکه همراه می باشید. ادامه؟</string>
     <string name="download_over_cellular">دانلود با اینترنت موبایل</string>
     <string name="auto_service_install_accessibility_title">نصب خودکار</string>
     <string name="auto_service_install_accessibility_summary">پشتیبانی از اندروید 4.1 به بالا، بدون نیاز به مجوز root .</string>
