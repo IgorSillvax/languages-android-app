@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <string name="action_settings">الإعدادات</string>
-    <string name="action_search">البحث</string>
-    <string name="action_management">الإدارة</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_search">بحث</string>
+    <string name="action_management">إدارة</string>
     <string name="press_back_key_quit">لكي تخرج، إضغط على زر الرجوع مرة أخري.</string>
-    <string name="featured">مُميز</string>
+    <string name="featured">Featured</string>
     <string name="games">الألعاب</string>
     <string name="apps">التطبيقات</string>
     <string name="categories">الفئات</string>
@@ -265,9 +265,9 @@
     <string name="auto_install_via_root_title">تثبيت تلقائي (وضع مستخدم root)</string>
     <string name="auto_install_via_root_summary">لهواتف اندرويد و الاجهزة الوحية التي تملك صلاحيات Root .</string>
     <plurals name="app_detail_see_all_replies">
-        <item quantity="zero">رؤية<xliff:g example="1" id="count">%1$d</xliff:g> رد</item>
-        <item quantity="one">رؤية <xliff:g example="1" id="count"/>رد</item>
-        <item quantity="two">رؤية <xliff:g example="2" id="count"/> رد</item>
+        <item quantity="zero">See All <xliff:g example="1" id="count">%1$d</xliff:g> Reply</item>
+        <item quantity="one">See All <xliff:g example="2" id="count">%1$d</xliff:g> Replies</item>
+        <item quantity="two">See All <xliff:g example="2" id="count">%1$d</xliff:g> Replies</item>
         <item quantity="few">رؤية كافة <xliff:g example="2" id="count"/> رد</item>
         <item quantity="many">رؤية جميع الـ <xliff:g example="2" id="count">%1$d</xliff:g> رد</item>
         <item quantity="other">رؤية كافة الـ<xliff:g example="1" id="count">%1$d</xliff:g>رد</item>
@@ -278,11 +278,11 @@
     <string name="app_submit_anonymous_comment">اضافة تعليق</string>
     <string name="app_submit_title_toast">يتوجب عليك كتابة عنوان !</string>
     <string name="app_submit_msg_toast">يتوجب عليك كتابة شيئ ما!</string>
-    <string name="app_submit_name_toast">رجاءا قم بكتابة الاسم المستعار!</string>
-    <string name="app_submit_email_toast">رجاءا قم بكتابة عنوان البريد الالكتروني الصحيح !</string>
+    <string name="app_submit_name_toast">رجاءا قmegooم بكتابة الاسم المستعار!</string>
+    <string name="app_submit_email_toast">رجاءا قم بكتmajjdiابة عنوان البريد الالكتروني الصحيح !</string>
     <string name="app_submit_star_toast">يتوجب عليك وضع نجمة!</string>
-    <string name="app_submit_title_hint">رجاءا قم بكتابة العنوان</string>
-    <string name="app_submit_msg_hint">رجاءا قم بكتابة رأيك</string>
+    <string name="app_submit_title_hint">رجاءا Room rood1449blok127136قم بكتابة العنوان</string>
+    <string name="app_submit_msg_hint">رجاءا قمgood so amazing بكتابة رأيك</string>
     <string name="app_submit_nickname">اسم مستعار</string>
     <string name="app_submit_email">بريد الكتروني</string>
     <string name="app_submit_submit_title">إرسال</string>
@@ -296,17 +296,17 @@
     <string name="app_detail_comment_order_array_best">الأفضل</string>
     <string name="download_complete_installation_setting">خيار التثبيت بعد التحميل</string>
     <string name="download_complete_installation_setting_entries_always">ثبت دائماً</string>
-    <string name="download_complete_installation_setting_entries_only">قم بالتثبيت فقط عندما يكون التطبيق في المقدمة</string>
+    <string name="download_complete_installation_setting_entries_only">Only install when running in foreground</string>
     <string name="download_complete_installation_setting_entries_never">لاتثبت ابداً</string>
     <string name="reply">رد</string>
-    <string name="input_reply_content">محتوى الرد :</string>
+    <string name="input_reply_content">Please enter your reply:</string>
     <string name="publish">نشر</string>
     <string name="reply_dialog_marked_words">ضغط بشكل مطول على الصورة لحذفها.</string>
     <string name="reply_comment">رد على التعليق</string>
     <string name="save_original_image">حفظ</string>
     <string name="already_save">تم الحفظ\n<xliff:g example="ApKPure/photo" id="path">%1$s</xliff:g>
     </string>
-    <string name="load_end">لايوجد المزيد</string>
+    <string name="load_end">No more data.</string>
     <string name="load_failed_click_retry">فشل التشغيل , اضغط على اعادة المحاولة</string>
     <string name="loading">تحميل …</string>
     <string name="scan_qr_code_hint">قبل استخدام فحص رمز QR يتوجب عليك السماح باستخدام الكاميرا لأنه مطلوب للقيام بفحص رمز QR.</string>
@@ -409,8 +409,8 @@
     <string name="check_update_beta">الإصدار التجريبي</string>
     <string name="app_detail_comment_order_array_old">قديم</string>
     <string name="app_detail_comment_join_group_bt">مجموعة</string>
-    <string name="download_mkdir">مسار التحميل</string>
-    <string name="download_mkdir_internal_storage_size_des">%1$sخالي,المجموع%2$s</string>
+    <string name="download_mkdir">Download path</string>
+    <string name="download_mkdir_internal_storage_size_des">%1$s free, total %2$s</string>
     <string name="download_mkdir_internal_storage_entries">بطاقة الذاكرة</string>
     <string name="download_mkdir_internal_storage_entries1">وحدة التخزين الداخلية</string>
     <string name="download_mkdir_external_storage_fill_toast">ذاكرة التخزين الغير كافية قد تسبب عدم القدرة على تحميل اي تطبيق.</string>
@@ -611,4 +611,6 @@
     <string name="app_detail_comment_score_footer">تطبيق جيد</string>
     <string name="upload_video">رفع فيديو</string>
     <string name="saved_draft">حُفظت كمسودة</string>
+    <string name="app_detail_folded_footer_posts">View all %d folded posts</string>
+    <string name="app_detail_folded_footer_reviews">View all %d folded reviews</string>
 </resources>
