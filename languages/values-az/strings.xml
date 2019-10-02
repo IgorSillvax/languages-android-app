@@ -1,26 +1,20 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-
     <string name="action_settings">Parametrlər</string>
     <string name="action_search">Axtar</string>
     <string name="action_management">İdarəetmə</string>
-
     <string name="press_back_key_quit">Çıxmaq üçün bir daha basın.</string>
-
     <string name="featured">Önə Çıxarılan</string>
     <string name="games">Oyunlar</string>
     <string name="apps">Proqramlar</string>
     <string name="categories">Kateqoriyalar</string>
     <string name="updates">Yenilənmələr</string>
-
     <string name="something_happened">&gt;_&lt;\nSəhv baş verdi.</string>
-
     <string name="load_failed_error">Xəta ! Yenidən cəhd edin.</string>
     <string name="load_failed_empty">Məzmun boşdur.</string>
     <string name="load_failed_all_up_to_date">Bütün tətbiqlər artıq yenilənib.</string>
     <string name="load_failed_no_results">Bağışlıyın! Heçnə tapılmadı.</string>
     <string name="refresh">Yenilə</string>
-
     <string name="management">İdarəetmə</string>
     <string name="app_updates">Tətbiq Təzələmələri</string>
     <string name="app_management">Yükləndi</string>
@@ -30,14 +24,14 @@
     <string name="download_management">Yükləmələr</string>
     <string name="settings">Parametrlər</string>
     <string name="about">Haqqında</string>
-    <string name="about_title">Haqqında <xliff:g id="app_name" example="APKPure">%1$s</xliff:g></string>
+    <string name="about_title">Haqqında <xliff:g id="app_name" example="APKPure">%1$s</xliff:g>
+    </string>
     <string name="about_message">
         <![CDATA[<b>Versiya:</b> %1$s<br><br><b>Sayt:</b> <a href=%2$s>%2$s</a><br><b>Email:</b> <a href=mailto:%3$s>%3$s</a>]]>
     </string>
     <string name="check_update">Yenilənməni yoxla</string>
     <string name="quit">Çıxış</string>
     <string name="want_to_quit">Çıxmaq isdədiyinizə əminsiz?</string>
-
     <string name="install">Quraşdır</string>
     <string name="open">Açıqdır</string>
     <string name="delete">Sil</string>
@@ -50,28 +44,26 @@
     <string name="want_to_delete_all_files">Bütün faylları silmək istəyirsiniz?</string>
     <string name="file_has_been_deleted">Fayl Silindi.</string>
     <string name="failed_to_delete_file">Fayl Silinmədi.</string>
-    <string name="install__label_">Quraşdır - <xliff:g id="app_label" example="APKPure">%1$s</xliff:g></string>
+    <string name="install__label_">Quraşdır - <xliff:g id="app_label" example="APKPure">%1$s</xliff:g>
+    </string>
     <string name="user_canceled">İstifadəçi ləğv etdi.</string>
     <string name="auto">Avtomatik</string>
     <string name="language">Dil Seçimi</string>
     <string name="general">Ümumi</string>
     <string name="touch_to_open">Açmaq üçün toxun.</string>
-
     <string name="report_problem_subject">Problem bildir</string>
     <string name="new_version_available_message">
         <![CDATA[<b>Son Versiya:</b> %1$s<br><br><b>Yeni Nə Var:</b><br>%2$s]]>
     </string>
-
     <string name="report__">Bildir…</string>
     <string name="report_problem__">Problem Bildir…</string>
     <string name="new_version_available_title">Yeni Versiya Var</string>
     <string name="skip">Keç</string>
-
-    <string name="_name__is_up_to_date"><xliff:g id="name" example="APKPure">%1$s</xliff:g> bu ən son versiyadır.</string>
+    <string name="_name__is_up_to_date">
+        <xliff:g id="name" example="APKPure">%1$s</xliff:g> bu ən son versiyadır.</string>
     <string name="join_us">Bizə Qatıl</string>
     <string name="search_history">Tarixçə</string>
     <string name="clear_search_history">Bütün tarixçəni təmizlə</string>
-
     <string name="improvement_plan_title">Performans Yaxşılaşdırma Planı</string>
     <string name="search_for_apps">APKPure\' də Axtar</string>
     <string name="trending_searches">Trend Axtarışlar</string>
@@ -97,13 +89,11 @@
     <string name="invalid_app_detail">Naməlum tətbiq məllumatları.</string>
     <string name="extracting_apk">APK Fayl Çıxarılır …</string>
     <string name="installing_apk">APK Yüklənir …</string>
-
     <string name="uninstall">Sil</string>
     <string name="uninstalled">Silindi</string>
-    <string name="last_update__date_">Son yenilənmə: <xliff:g id="date">%1$s</xliff:g></string>
-
+    <string name="last_update__date_">Son yenilənmə: <xliff:g id="date">%1$s</xliff:g>
+    </string>
     <string name="all">Hamısı</string>
-
     <string name="screenshots">Ekran Görüntüləri</string>
     <string name="description">Açıqlama</string>
     <string name="whatsnew">Yeniliklər</string>
@@ -126,58 +116,55 @@
     <string name="market_response_error_network_read_error">İnternet bağlantı xətası.</string>
     <string name="market_response_error_invalid_response_code">Naməlum cavab kodu.</string>
     <string name="no_more">Daha yoxdur.</string>
-
     <string name="update">Təzələ</string>
-    <string name="version__version___size_">Versiya: <xliff:g example="1.0.0" id="version">%1$s</xliff:g>, <xliff:g example="1024 kB" id="size">%2$s</xliff:g></string>
+    <string name="version__version___size_">Versiya: <xliff:g example="1.0.0" id="version">%1$s</xliff:g>, <xliff:g example="1024 kB" id="size">%2$s</xliff:g>
+    </string>
     <string name="downloads_complete">Yükləmə Tamamlandı</string>
     <string name="touch_for_view_all_downloads">Bütün yükləmələri görmək üçün toxun</string>
     <string name="touch_to_download_it_again">Təkrar yükləmək üçün toxun</string>
-
-
-    <string name="download_percent"><xliff:g example="50" id="percent">%1$d</xliff:g>
+    <string name="download_percent">
+        <xliff:g example="50" id="percent">%1$d</xliff:g>
  %%</string>
-
     <string name="pause">Dayandır</string>
     <string name="pause_all">Hamsını Dayandır</string>
     <string name="continue_">Davam et</string>
     <string name="continue_all">Hamsını Davam etdir</string>
     <string name="restart">Yenidən başlat</string>
-       <string name="total_zero_app">
+    <string name="total_zero_app">
         <![CDATA[Cəmi: <b><font color="%1$d">0</font></b> tətbiq]]></string>
-
     <string name="select_all">Hamsını Seç</string>
     <string name="deselect_all">Hamsını Seçmə</string>
     <string name="ignored">Bloklandı</string>
     <plurals name="total__count__apps__size_">
-	<item quantity="one">"Cəmi: &lt;b&gt;&lt;font color=%1$d&gt;%2$d&lt;/font&gt;&lt;/b&gt; tətbiq, &lt;b&gt;&lt;font color=%1$d&gt;%3$s&lt;/font&gt;&lt;/b&gt;
+        <item quantity="one">"Cəmi: &lt;b&gt;&lt;font color=%1$d&gt;%2$d&lt;/font&gt;&lt;/b&gt; tətbiq, &lt;b&gt;&lt;font color=%1$d&gt;%3$s&lt;/font&gt;&lt;/b&gt;
 \n "</item>
-	<item quantity="other">"Cəmi: &lt;b&gt;&lt;font color=%1$d&gt;%2$d&lt;/font&gt;&lt;/b&gt; tətbiqlər, &lt;b&gt;&lt;font color=%1$d&gt;%3$s&lt;/font&gt;&lt;/b&gt;
+        <item quantity="other">"Cəmi: &lt;b&gt;&lt;font color=%1$d&gt;%2$d&lt;/font&gt;&lt;/b&gt; tətbiqlər, &lt;b&gt;&lt;font color=%1$d&gt;%3$s&lt;/font&gt;&lt;/b&gt;
 \n "</item>
-</plurals>
-    <string name="_name__download_failed"><xliff:g example="APKPure" id="name">%1$s</xliff:g> yükləmə uğursuz</string>
+    </plurals>
+    <string name="_name__download_failed">
+        <xliff:g example="APKPure" id="name">%1$s</xliff:g> yükləmə uğursuz</string>
     <string name="io_error">Xəta.Quraşdırma üçün lazımi qədər yer olmaya bilər.</string>
     <string name="file_format_error">Bilinməyən fayl növü.</string>
     <string name="parsing_xapk">XAPK Analiz edilir …</string>
     <string name="installing_obb">OBB Fayl Yüklənir …</string>
     <string name="flag_as_inappropriate">Spam olaraq bildir</string>
     <string name="_ellipsis_"> … </string>
-
     <string name="market_response_error_invalid_response_body">Naməlum cavab növü.</string>
     <string name="market_response_error_unknown_error__error_">Naməlum səhv (<xliff:g example="SUCCESS" id="error">%1$s</xliff:g>).</string>
-
     <plurals name="_count__new_update_is_available">
-	<item quantity="one"><xliff:g example="1" id="count">%1$d</xliff:g> yeni tətbiq yeniləmələri</item>
-	<item quantity="other"><xliff:g example="2" id="count">%1$d</xliff:g> yeni tətbiq yeniləmələri</item>
-</plurals>
-
+        <item quantity="one">
+            <xliff:g example="1" id="count">%1$d</xliff:g> yeni tətbiq yeniləmələri</item>
+        <item quantity="other">
+            <xliff:g example="2" id="count">%1$d</xliff:g> yeni tətbiq yeniləmələri</item>
+    </plurals>
     <string name="launching_please_wait">Başladılır, zəhmət olmasa gözləyin…</string>
-
     <plurals name="_count__item_is_downloading">
-	<item quantity="one"><xliff:g example="1" id="count">%1$d</xliff:g> tətbiq yüklənir</item>
-	<item quantity="other"><xliff:g example="2" id="count">%1$d</xliff:g> tətbiq yüklənir</item>
-</plurals>
+        <item quantity="one">
+            <xliff:g example="1" id="count">%1$d</xliff:g> tətbiq yüklənir</item>
+        <item quantity="other">
+            <xliff:g example="2" id="count">%1$d</xliff:g> tətbiq yüklənir</item>
+    </plurals>
     <string name="delete_downloaded_file">Faylı yaddaşdan sil</string>
-
     <string name="improvement_plan_message">
  Android Cihaz Məllumatlarını göndərməktə bizə köməkçi olun, şəxsi məllumatlarınızı (ad, unvan, e-poct unvanı, sosyal güvənlik nömrəsi və digər.) <b>almayacağız</b>.
  </string>
@@ -185,30 +172,33 @@
     <string name="contact_us__">Bizimlə Əlaqə…</string>
     <string name="contact_us">Bizimlə Əlaqə</string>
     <string name="report_content">Hesabatın Məzmunu</string>
-
     <string name="invalid_app_asset">Keçərsiz tətbiq məllumatları.</string>
     <string name="failed_to_request_app_detail">Tətbiqin məllumat istəyi uğursuz oldu.</string>
     <string name="failed_to_request_app_asset">Tətbiqin internet məllumatı istəyi uğursuz oldu.</string>
-       <string name="incompatible_this_app">&lt;big&gt;&lt;b&gt;&lt;font color=%1$d&gt;Sizin cihazınız bu tətbiqi dəstəkləmir.&lt;/font&gt;&lt;/b&gt;&lt;/big&gt;&lt;br&gt;&lt;br&gt;Davam etdirmək istəyirsiniz\?</string>
-      <string name="this_app_not_usable">"
+    <string name="incompatible_this_app">&lt;big&gt;&lt;b&gt;&lt;font color=%1$d&gt;Sizin cihazınız bu tətbiqi dəstəkləmir.&lt;/font&gt;&lt;/b&gt;&lt;/big&gt;&lt;br&gt;&lt;br&gt;Davam etdirmək istəyirsiniz\?</string>
+    <string name="this_app_not_usable">"
  &lt;big&gt;
 &lt;b&gt;&lt;font color=%1$d&gt;Bu tətbiq faydalı ola bilməyə bilər.&lt;/font&gt;&lt;/b&gt;&lt;/big&gt;&lt;br&gt;&lt;br&gt;Davam etdirmək istəyirsiniz?
  "</string>
     <string name="setting">设置</string>
     <string name="setting">Qurğu</string>
     <string name="external_storage_not_usable">
- <big><b>Bizə sizin daxili yaddaşa giriş icazəsi lazımdır. Xahiş edirik buna icazə verin.</b></big>
- </string>
+        <big>
+            <b>Bizə sizin daxili yaddaşa giriş icazəsi lazımdır. Xahiş edirik buna icazə verin.</b>
+        </big>
+    </string>
     <string name="external_storage_permission_denied">
- <big><b>Biz sizin daxili yaddaşa girmək üçün icazə lazımdır. Xahiş edirəm, icazə verdiyinizdən əmin olun.</b></big>
- </string>
-
+        <big>
+            <b>Biz sizin daxili yaddaşa girmək üçün icazə lazımdır. Xahiş edirəm, icazə verdiyinizdən əmin olun.</b>
+        </big>
+    </string>
     <string name="share">Paylaş</string>
-    <string name="share_app_url"> Paylaş <xliff:g example="APKPure" id="app_name">%1$s</xliff:g> APK (from <xliff:g example="APKPure" id="social_network_name">%2$s</xliff:g>) <xliff:g example="https://apkpure.com/p/com.apkpure.aegon" id="app_url">%3$s</xliff:g> </string>
-
-    <string name="_name__version_history"><xliff:g example="APKPure" id="name">%1$s</xliff:g> Əvvəlki Versiyalar</string>
-    <string name="update__date___size_">Yenilə: <xliff:g example="Mar 3, 2016" id="date">%1$s</xliff:g>, <xliff:g example="1024 kB" id="size">%2$s</xliff:g></string>
-
+    <string name="share_app_url"> Paylaş <xliff:g example="APKPure" id="app_name">%1$s</xliff:g> APK (from <xliff:g example="APKPure" id="social_network_name">%2$s</xliff:g>) <xliff:g example="https://apkpure.com/p/com.apkpure.aegon" id="app_url">%3$s</xliff:g>
+    </string>
+    <string name="_name__version_history">
+        <xliff:g example="APKPure" id="name">%1$s</xliff:g> Əvvəlki Versiyalar</string>
+    <string name="update__date___size_">Yenilə: <xliff:g example="Mar 3, 2016" id="date">%1$s</xliff:g>, <xliff:g example="1024 kB" id="size">%2$s</xliff:g>
+    </string>
     <string name="update_all">Hamsını Yeniləşdir</string>
     <string name="update___count__">Yenilə (<xliff:g example="3" id="count">%1$d</xliff:g>)</string>
     <string name="ignore">Siyahıdan yox say</string>
@@ -218,41 +208,34 @@
     <string name="installation">Quraşdırma</string>
     <string name="show_notification_after_installation">Quraşdırıldıqdan sonra bildiriş göstərin</string>
     <string name="delete_packages_after_installation">Paketləri quraşdırıldıqdan sonra sil</string>
-
-    <string name="_name__installation_completed"><xliff:g example="APKPure" id="name">%1$s</xliff:g> Quraşdırma başa çatıb</string>
+    <string name="_name__installation_completed">
+        <xliff:g example="APKPure" id="name">%1$s</xliff:g> Quraşdırma başa çatıb</string>
     <string name="installed">Quraşdırılıb</string>
     <string name="download_over_cellular">Yükləmə üçün Mobil Data işlət</string>
     <string name="download_over_cellular_content">Siz mobil data ilə yükləmək üzrəsiniz. Davam etdirmək istərdiniz?</string>
-
     <string name="participate_ultra_download_beta_test_title">Ultra Yükləməyi aktivləşdirərək sürətli yükləməkdən həz alın</string>
     <string name="participate_ultra_download_beta_test_content">Ultra Yükləmə test sınaqdadır, əgər hər hansı problemlər yaranarsa bizə məlumat verib. Siz asanlıqla Parlametrlərin altında bunu dayandıra bilərsiniz.</string>
     <string name="enable">İcazə Vermək</string>
-
     <string name="download_via_wifi_only">Yalnız Wi-Fi vasitəsilə yüklə</string>
     <string name="enable_ultra_download">Ultra yükləməni aktivləşdir</string>
     <string name="enable_ultra_download_summary">Ultra Yükləmə beta sınaqdadır, əgər hər hansı problemlər yaranarsa bizə məlumat verin.</string>
-<string name="auto_service_install_accessibility_title">Avtomatik quraşdırma</string>
+    <string name="auto_service_install_accessibility_title">Avtomatik quraşdırma</string>
     <string name="auto_service_install_accessibility_summary">Dəstəkləyir 4.1 + Android, root ehtiyac yoxdur.</string>
-
     <string name="auto_service_dialog_title">Avtomatik Quraşdırmayı Aktivləşdir</string>
     <string name="auto_service_dialog_message">Avtomatik Quraşdırma telefonda icazə tələb edir, bu, hər hansı risklərin istifadəsi təhlükəsizdir.</string>
-
     <string name="auto_service_title">APKPure Avtomatik Quraşdırma</string>
     <string name="auto_service_install">Quraşdır</string>
     <string name="auto_service_ensure">OK</string>
     <string name="auto_service_next">İrəli</string>
     <string name="auto_service_exchange">Dəyişmək</string>
     <string name="auto_service_complete">Hazır</string>
-
     <string name="auto_service_install__material_">QURAŞDIR</string>
     <string name="auto_service_ensure__material_">OK</string>
     <string name="auto_service_next__material_">İRƏLİ</string>
     <string name="auto_service_exchange__material_">DƏYİŞMƏK</string>
     <string name="auto_service_complete__material_">HAZIR</string>
-
     <string name="auto_install_via_root_title">Avtomatik Quraşdırma (Root Modu)</string>
     <string name="auto_install_via_root_summary">Yalnız Root olunmuş Android telfonlar və planşetlər üçün.</string>
-
     <string name="auto_service_description">"\"APKPure Avtomatik Quraşdırma\"nı aktifləştirərək, \"Avtomatik Quraşdırma\"nı problemsiz işləməsini təmin edin.
 
 \"APKPure Avtomatik Quraşdırma\" sizə yeniləmək isdədiyiniz tətbiqləri tək bir toxunma ilə avtomatik olaraq yenilənməsini təmin edər, artıq hər dəfə telefonunuzu yoxlamaq məcburətində deyilsiniz.
@@ -262,10 +245,8 @@ Bu funksiyanı aktifləştirdiyiniz zaman, sistem xəbərdarlıqlarını görəb
 APKPure\'nin düzgün işləməsini təmin etmək üçün xahiş edirik Təmizlik Tətbiqində APKPure\'yi \"Ağ Sıra\" ya əlavə edin.
 
 Yuxarıdaki funksiyalar Android 4.1+ versiyada dəstəklənməktədir, root ehtiyac yoxdur. Sizə hiç bir şəxsi məllumatları toplamayacağımıza dair söz veririk. Xahiş edirik bizimlə əlaqəyə keçerken rahat olun."</string>
-
     <string name="more_large">Daha çox</string>
     <string name="feedback">Bizimlə Əlaqə</string>
-
     <string name="similar_or_related">Oxşar Və Ya Əlaqəli</string>
     <string name="more_from_developer">Yaradıcıdan Əlavələr</string>
     <string name="changing_language">Dil dəyişdirilir, xahiş edirik gözləyin…</string>
@@ -273,10 +254,9 @@ Yuxarıdaki funksiyalar Android 4.1+ versiyada dəstəklənməktədir, root ehti
     <string name="recommend">Kəşf et</string>
     <string name="report">Hesabat</string>
     <plurals name="app_detail_see_all_replies">
-	<item quantity="one">Hamsını Seç <xliff:g example="1" id="count">%1$d</xliff:g> cavab</item>
-	<item quantity="other">Hamsını Seç <xliff:g example="2" id="count">%1$d</xliff:g> cavabla</item>
-</plurals>
-
+        <item quantity="one">Hamsını Seç <xliff:g example="1" id="count">%1$d</xliff:g> cavab</item>
+        <item quantity="other">Hamsını Seç <xliff:g example="2" id="count">%1$d</xliff:g> cavabla</item>
+    </plurals>
     <string name="app_detail_customer_reviews">Şərhlər</string>
     <string name="app_detail_comment_type_web">web</string>
     <string name="app_submit_submit">Göndər…</string>
@@ -296,34 +276,27 @@ Yuxarıdaki funksiyalar Android 4.1+ versiyada dəstəklənməktədir, root ehti
     <string name="app_detail_tab_one">Ətraflı</string>
     <string name="app_detail_tab_two">Qrup</string>
     <string name="app_detail_tab_three">Oxşar</string>
-
     <string name="app_detail_comment_order_array_recent">Sonuncu</string>
     <string name="app_detail_comment_order_array_newest">Yeni</string>
     <string name="app_detail_comment_order_array_best">Ən yaxşı</string>
-
     <string name="download_complete_installation_setting_entries_always">Həmişə quraşdırmaq</string>
     <string name="download_complete_installation_setting_entries_never">Heç vaxt quraşdırma</string>
-
     <string name="reply">Cavab</string>
     <string name="publish">Göndər</string>
     <string name="reply_dialog_marked_words">Şəkli silmək üçün basılı tutun.</string>
     <string name="reply_comment">Şərh cavab</string>
-    <string name="already_save">Saxlanıldı<xliff:g example="ApKPure/photo" id="path">%1$s</xliff:g></string>
-
+    <string name="already_save">Saxlanıldı<xliff:g example="ApKPure/photo" id="path">%1$s</xliff:g>
+    </string>
     <string name="load_end">Əlavə data yoxdur</string>
     <string name="load_failed_click_retry">Bir şey yanlış getdi. Yenidən cəhd etmək üçün basın</string>
     <string name="loading">Açılır…</string>
-
     <string name="permission_denied">Giriş qadağandır!</string>
-
     <string name="login_title">Giriş</string>
     <string name="sign_out">Çıxış</string>
-
     <string name="delete_comment">Şərhi Silmək</string>
     <string name="delete_comment_msg">Bu şərhi silmək istədiyinizə əminsinizmi?</string>
     <string name="upload_cancel">Yükləmə ləğv edilib</string>
     <string name="login_select_way_to_login">Giriş vasitəsini seçin</string>
-
     <string name="user_info_edit_title">Profil</string>
     <string name="user_info_edit_portrait_tv">Profil Şəkili</string>
     <string name="user_info_edit_username_tv">İstifadəçi adı</string>
@@ -341,7 +314,6 @@ Yuxarıdaki funksiyalar Android 4.1+ versiyada dəstəklənməktədir, root ehti
     <string name="user_info_edit_portrait_error">Şəkil formatı dəstəklənmir</string>
     <string name="user_info_edit_ok">OK</string>
     <string name="user_info_edit_cancel">Ləğv et</string>
-
     <string name="update_nick_title">Ləqəbi dəyiş</string>
     <string name="update_email_title">E-mail dəyiş</string>
     <string name="update_nick_name_et">Yeni Ləqəbi daxil edin</string>
@@ -349,7 +321,6 @@ Yuxarıdaki funksiyalar Android 4.1+ versiyada dəstəklənməktədir, root ehti
     <string name="update_email_name_et">E-mail daxil edin</string>
     <string name="update_eamil_name_tv">E-mail boş ola bilməz</string>
     <string name="update_nickname_error">Bu Ləqəb artıq isdifadə olunub, xahiş edirik başqasını yoxlayın!</string>
-
     <string name="update_pwd_title">Parolu dəyişmək</string>
     <string name="update_pwd_current_pwd_et">Köhnə parol</string>
     <string name="update_pwd_new_pwd_et">Yeni parol</string>
@@ -366,41 +337,37 @@ Yuxarıdaki funksiyalar Android 4.1+ versiyada dəstəklənməktədir, root ehti
     <string name="crop__pick_error">Etibarsız fayl növü</string>
     <string name="crop__saving">Şəkil yadda saxlanılır…</string>
     <string name="crop__wait">Zəhmət olmasa gözləyin…</string>
-
     <string name="is_comment">Şərh ondan ibarətdir…</string>
     <string name="comment_cancel">Şərh ləğv edildi</string>
     <string name="comment_replying">Cavablanır…</string>
     <string name="set_contributor">Əməkdaşlar</string>
     <string name="set_permissions">İcazələr</string>
-    
     <string name="sign_in_services_key">Şərtlər</string>
     <string name="sign_in_services_key_policy">Məxfilik siyasəti</string>
-
     <string name="user_sign_up">Qeydiyyatdan Keç</string>
     <string name="user_name_hint">İsdifadəçi adı</string>
     <string name="user_email_hint">E-mail</string>
     <string name="user_password">Parol(6–32)</string>
     <string name="user_password_confirm">Parolu Təsdiqlə</string>
-
     <string name="login_user_name">İsdifadəçi adı və ya e-poçt</string>
     <string name="login_user_password">Parol</string>
     <string name="login_user_sign_in">Giriş</string>
     <string name="user_email_error">Bu e-mail unvanı yanlışdır</string>
     <string name="user_password_error">Bu parol yanlışdır</string>
     <string name="user_confirm_error">Şifrələr üst-üstə düşməlidir</string>
-
     <string name="login_choose">Və ya digər giriş vasitələri ilə daxil olun</string>
     <string name="login_new_user">Yeni İstifadəçi Qeydiyyatı</string>
     <string name="login_post_as_a_guest">Qonaq Olaraq Yaz</string>
-
-<string name="user_name_error">İstifadəçi adı hər hansı bir xüsusi simvol simvol və ya boşluq ola bilməz</string>
+    <string name="user_name_error">İstifadəçi adı hər hansı bir xüsusi simvol simvol və ya boşluq ola bilməz</string>
     <string name="user_nickname_error">Ləqəbdə hər hansı bir xüsusi simvol və ya boşluq ola bilməz</string>
-    <string name="share_app_url_comment"> <xliff:g example="APKPure" id="user_name">%1$s</xliff:g> adlı istifadəçinin <xliff:g example="APKPure" id="app_name"> %2$s tətbiqinə şərhləri</xliff:g> : <xliff:g example="APKPure" id="app_name"> %3$s</xliff:g><xliff:g example="APKPure" id="social_network_name">%4$s</xliff:g><xliff:g example="https://apkpure.com/p/com.apkpure.aegon" id="app_url">%5$s</xliff:g></string>
-
+    <string name="share_app_url_comment">
+        <xliff:g example="APKPure" id="user_name">%1$s</xliff:g> adlı istifadəçinin <xliff:g example="APKPure" id="app_name"> %2$s tətbiqinə şərhləri</xliff:g> : <xliff:g example="APKPure" id="app_name"> %3$s</xliff:g>
+        <xliff:g example="APKPure" id="social_network_name">%4$s</xliff:g>
+        <xliff:g example="https://apkpure.com/p/com.apkpure.aegon" id="app_url">%5$s</xliff:g>
+    </string>
     <string name="app_detail_reply_esc">正序</string>
     <string name="app_detail_reply_desc">倒序</string>
     <string name="app_detail_reply_floor">%d楼</string>
-
     <string name="download_complete_installation_setting_entries_only">Yalnız tətbiq açıq ikən yüklə</string>
     <string name="input_reply_content">Cavabı daxil edin:</string>
     <string name="app_detail_comment_order_array_default">Standart sırala</string>
@@ -409,14 +376,14 @@ Yuxarıdaki funksiyalar Android 4.1+ versiyada dəstəklənməktədir, root ehti
     <string name="save_original_image">Yadda saxla</string>
     <string name="check_update_replace">Rəsmi versiya</string>
     <string name="upload_add_list_toast">Uğurlu!</string>
-<string name="load_failed_error_not_found">Proqram APKPure də mövcud deyil.</string>
+    <string name="load_failed_error_not_found">Proqram APKPure də mövcud deyil.</string>
     <string name="check_update_beta">Ön-Buraxılış Beta</string>
-    <string name="beta">"Beta "</string>
+    <string name="beta">Beta</string>
     <string name="properties_message_v2">&lt;b&gt;Paket Adı:&lt;/b&gt; %1$s&lt;br&gt;&lt;b&gt;Versiya:&lt;/b&gt; %2$s&lt;br&gt;&lt;b&gt;Path:&lt;/b&gt; %3$s&lt;br&gt;&lt;b&gt;Ölçü:&lt;/b&gt; %4$s&lt;br&gt;&lt;b&gt;Son Dəyişiklik:&lt;/b&gt; %5$s</string>
     <string name="history_version">Versiya Tarixi</string>
-
-    <string name="share_app_url_group"> <xliff:g example="APKPure" id="app_name">%1$s</xliff:g>Grup. (<xliff:g example="APKPure" id="social_network_name">%2$s</xliff:g>\'dan)<xliff:g example="https://apkpure.com/p/com.apkpure.aegon" id="app_url">%3$s</xliff:g></string>
-
+    <string name="share_app_url_group">
+        <xliff:g example="APKPure" id="app_name">%1$s</xliff:g>Grup. (<xliff:g example="APKPure" id="social_network_name">%2$s</xliff:g>\'dan)<xliff:g example="https://apkpure.com/p/com.apkpure.aegon" id="app_url">%3$s</xliff:g>
+    </string>
     <string name="data_saver_model">Data qoruyucu</string>
     <string name="data_saver_model_summery">Bunu açmaq, daha az mobil məlumatdan istifadə etmək üçün şəkil ölçüsünü və keyfiyyətini azaldır.</string>
     <string name="app_detail_tab_evaluation">Rəylər</string>
@@ -428,29 +395,21 @@ Yuxarıdaki funksiyalar Android 4.1+ versiyada dəstəklənməktədir, root ehti
     <string name="app_detail_comment_score_footer">Digər dillərdən %1$s incələmə var.</string>
     <string name="app_detail_evaluation_tool_bar_title">Bir baxış paylaş</string>
     <string name="app_detail_evaluation_failed_bt">Baxış</string>
-
     <string name="app_detail_comment_order_array_old">Köhnə</string>
-
     <string name="app_detail_comment_order_array_good">4-5</string>
     <string name="app_detail_comment_order_array_bad">1-3</string>
     <string name="app_detail_folded_footer_reviews">Gizlənmiş %d incələmənin hamısını incələ</string>
     <string name="app_detail_folded_footer_posts">Gizlənmiş %d postun hamısını gör</string>
     <string name="app_detail_discuss_filter_featured">Vurğular</string>
     <string name="app_detail_discuss_filter_folded">Gizlənmiş</string>
-
-
     <string name="app_detail_comment_join_group_bt">Grup</string>
-
-
     <string name="download_mkdir">Yükləmə yolu</string>
     <string name="download_mkdir_internal_storage_size_des">%1$s boş, cəmi %2$s</string>
     <string name="download_mkdir_internal_storage_entries">SD</string>
     <string name="download_mkdir_internal_storage_entries1">SD 1</string>
     <string name="download_mkdir_external_storage_fill_toast">Kifayət qədər boş yer olmadığından, heç bir tətbiq yükləyə bilməzsiniz.</string>
-
     <string name="download_mkdir_internal_storage_values">daxili_yaddaş</string>
     <string name="download_mkdir_external_storage_values">xarici_yaddaş</string>
-
     <string name="scan_qr_code_hint">QR Code istifadə etməzdən əvvəl, QR kodunu skanlamağa kamera icazəsi verməlisiniz.</string>
     <string name="zxing_msg_default_status">Xahiş edirik QR kodunu vizörün daxilində yerləşdirin.</string>
     <string name="zxing_msg_parser_status">Tarama aparıla bilmədi, QR kodunu tarayaraq yenidən cəhd edin.</string>
@@ -458,15 +417,12 @@ Yuxarıdaki funksiyalar Android 4.1+ versiyada dəstəklənməktədir, root ehti
     <string name="scan_qr_code_result_copy_text">Mətni kopyala</string>
     <string name="scan_qr_code_result_hint">QR code detalları：</string>
     <string name="scan_qr_code_copy_success">Mətn kopyalandı</string>
-
     <string name="tip_permission_camera_storage">Kamera və SD kartı istifadə etmək üçün icazə yoxdur, lazimi icazələri verin</string>
     <string name="user_info_edit_large_photo">Şəkili daha böyük ölçüdə göstər</string>
-
     <string name="user_info_edit_intro_tv">Haqqımda</string>
     <string name="update_intro_title">Mənim haqqında redaktə edin</string>
     <string name="update_intro_et">Özünüz haqqında bəzi məlumatlar yazın</string>
     <string name="update_intro_tv">Mənim haqqımda sahəsi boş ola bilməz</string>
-
     <string name="message_all">HAMISI</string>
     <string name="message_reply">CAVABLAR</string>
     <string name="home_message_reply">Şərhlər</string>
@@ -478,34 +434,26 @@ Yuxarıdaki funksiyalar Android 4.1+ versiyada dəstəklənməktədir, root ehti
     <string name="message_notifications_login">Bu səhifəni görmək üçün giriş yapın.</string>
     <string name="message_at_title">Danışmalar</string>
     <string name="message_at">Səndən bəhs etti</string>
-
     <string name="comment_submitting">Göndərilir…</string>
     <string name="register_term_of_service">APKPure Xidmət Şərtləri</string>
-
     <string name="set_open_source_licence">Açıq mənbə lisenziyası</string>
-
     <string name="sign_in_services">Qeydiyyatdan keçməklə bizim Şərtlər və Məxfilik Siyasətimizi qəbul edirsiniz.</string>
-
     <string name="sign_in_services_key_policy_register">Məxfilik Siyasəti</string>
     <string name="user_name_null">İstifadəçi adı etibarsızdır</string>
     <string name="message">Mesaj</string>
-
     <string name="push_title_info_reply">%1$s şərhinizə cavab verdi!</string>
     <string name="push_title_info_upvoted">%1$s şərhinizi bəyəndi!</string>
     <string name="push_title_info_follow">%1$s səni izlədi!</string>
     <string name="push_title_info_update">APKPure Yeniləmə gəldi!</string>
     <string name="push_content_info_update">Yeni versiya %1$s çıxdı! İndi yeniləyin!</string>
     <string name="push_title_info_at">Biri səni bir postda xatırlatdı, görmək üçün klikləyin</string>
-
     <string name="download_list">Yükləmə siyahısı</string>
     <string name="can_be_update">Yenilənə bilər</string>
     <string name="install_list">Yükləndi</string>
     <string name="no_download">Heç bir tətbiq endirilməyib.</string>
     <string name="downloads">Yükləmələr</string>
-
     <string name="change_language_failed">Dil dəyişdirmə uğursuz oldu!</string>
     <string name="comment_reply_tell_msg">Bu şərh ləğv edildi!</string>
-
     <string name="notification_setting">Bildirişlər</string>
     <string name="reply_notification">Cavab bildirişləri</string>
     <string name="reply_notification_msg">Yeni cavab mesajlarına dair bildirişlər alın</string>
@@ -514,16 +462,15 @@ Yuxarıdaki funksiyalar Android 4.1+ versiyada dəstəklənməktədir, root ehti
     <string name="gif_tip">Hərəkətli rəsm</string>
     <string name="ad_tip">reklam</string>
     <string name="submit_comment_title_hint">Başlıq</string>
-
     <string name="comment_vote_string">Bəyəni</string>
     <string name="comment_reply_three">Cavab</string>
     <string name="comment_item_fold">Şərh çökdü</string>
-
     <plurals name="comment_reply_item_fold">
-	<item quantity="one"><xliff:g example="1" id="count">%1$d</xliff:g> Şərh çökdü</item>
-	<item quantity="other"><xliff:g example="2" id="count">%1$d</xliff:g> Şərhlər çökdü</item>
-</plurals>
-
+        <item quantity="one">
+            <xliff:g example="1" id="count">%1$d</xliff:g> Şərh çökdü</item>
+        <item quantity="other">
+            <xliff:g example="2" id="count">%1$d</xliff:g> Şərhlər çökdü</item>
+    </plurals>
     <string name="comment_no_reply">Vau, burda heç bir şey yoxdur.</string>
     <string name="comment_reply_info_name">Detallar</string>
     <string name="set_updates_notification">Tətbiq yeniləmələri mövcuddur</string>
@@ -532,7 +479,6 @@ Yuxarıdaki funksiyalar Android 4.1+ versiyada dəstəklənməktədir, root ehti
     <string name="comment_detail_original">Orijinal Şərhə Bax&gt;</string>
     <string name="comment_comment_newest">Ən yeni</string>
     <string name="comment_comment_oldest">Ən köhnə</string>
-
     <string name="edit">Redaktə et</string>
     <string name="menu_copy">Köçür</string>
     <string name="menu_copy_link">Linki köçür</string>
@@ -540,23 +486,19 @@ Yuxarıdaki funksiyalar Android 4.1+ versiyada dəstəklənməktədir, root ehti
     <string name="delete_all_download_history">Bütün yükləmə tarixini silin\?</string>
     <string name="delete_the_historical_record">Tarixi keçmişi silmək\?</string>
     <string name="download_history">Tarixi yükləyin</string>
-
     <string name="sub_comment_dialog_title">Video əlavə et</string>
     <string name="sub_comment_dialog_des_tv">Yalnız Youtube videolarını dəstəkləyir.</string>
     <string name="sub_comment_dialog_link_et">Video ünvanını buraya daxil edin.</string>
     <string name="sub_comment_dialog_link_null">Video URL ünvanı boş ola bilməz</string>
     <string name="sub_comment_progress_msg">Video əlavə edilir …</string>
-
     <string name="play_button">Oynat düyməsi</string>
     <string name="null_time">0:00</string>
     <string name="open_video_in_youtube">Videonu YouTube də açın</string>
     <string name="full_screen_button">Tam ekran düyməsi</string>
-
     <string name="main_tab_home">ANA SƏHİFƏ</string>
     <string name="main_tab_ranking">SIRALAMA</string>
     <string name="tab_group">GRUP</string>
     <string name="main_tab_my">MƏN</string>
-
     <string name="main_comment">şərh</string>
     <string name="main_won_praise">Bəyənilər</string>
     <string name="main_my_comments">Postlar</string>
@@ -574,38 +516,31 @@ Yuxarıdaki funksiyalar Android 4.1+ versiyada dəstəklənməktədir, root ehti
     <string name="group">Grup</string>
     <string name="collection">Favoritlər</string>
     <string name="cancel_collection">Favoritlərdən çıxar</string>
-
     <string name="follow">İzlənilən</string>
     <string name="attention_on">İzlənilir</string>
     <string name="attention_off">İzlə</string>
     <string name="no_attention">Hələlik izlənilən grup yoxdur.</string>
     <string name="browsing_history">Axtarış tarixçəsi</string>
     <string name="browsing_history_prompt">Axtarış tarixini təmizləmək istəyirsiniz\?</string>
-
     <string name="ranking_tab1_title">Ən Yaxşı Oyunlar</string>
     <string name="ranking_tab2_title">Ən Yeni Oyunlar</string>
     <string name="ranking_tab3_title">Ən Yaxşı Tətbiqlər</string>
     <string name="ranking_tab4_title">Ən Yeni Tətbiqlər</string>
     <string name="ranking_top_countries_title">Bölünən Sıralama</string>
     <string name="ranking_top_develop_title">Ən Yaxşı Developerlər</string>
-
     <string name="app_detail_three_fragment_foot">Bütün şərhləri göstər</string>
     <string name="menu_paste">Yapışdır</string>
-
     <string name="favorite_title">Sevimli</string>
     <string name="save_as_favorite">Favorit olaraq saxla</string>
     <string name="favorite_saved">Favoritlərə əlavə edildi.</string>
     <string name="failed_to_save_favorite">Favoritlərdə saxlamaq uğursuz oldu</string>
     <string name="remove_as_favorite">Favoritlərdən çıxarın</string>
     <string name="remove_failed">Çıxarmaq uğursuz oldu</string>
-
     <string name="collection_comment">Paylaşımlar</string>
     <string name="collection_app">TƏTBİQLƏR</string>
-
     <string name="open_with_browser">Brauzer ilə aç</string>
     <string name="web_view_refresh">Yenilə</string>
     <string name="web_view_copy">Linki kopyala</string>
-
     <string name="topic_red_color">Qırmızı</string>
     <string name="topic_green_color">Şanslı yaşıl</string>
     <string name="topic_blue_color">Göy mavisi</string>
@@ -614,7 +549,6 @@ Yuxarıdaki funksiyalar Android 4.1+ versiyada dəstəklənməktədir, root ehti
     <string name="topic_purple_yellow">Ərik narıncı</string>
     <string name="topic_purple_blue_gary">Hava mavisi</string>
     <string name="topic_switch_failed">Mövzu dəyişmək uğursuz oldu</string>
-
     <string name="recommend_title">Tövsiyələr</string>
     <string name="recommend_tab_game">Bir tətbiq tövsiyə et</string>
     <string name="recommend_tab_list">Tövsiyə</string>
@@ -636,35 +570,27 @@ Yuxarıdaki funksiyalar Android 4.1+ versiyada dəstəklənməktədir, root ehti
     <string name="recommend_not_found">İndekslənməmiş</string>
     <string name="recommend_not_fount_info">APKPure-ə \"%1$s\" əlavə etməsini bildirin, formaları bitirmək lazımdır.</string>
     <string name="recommend_user_recommend_sys">APKPure tərəfindən səsləndirilib</string>
-
     <string name="user_detail_focus">Izlənilir</string>
     <string name="user_detail_fans">İzləyənlər</string>
     <string name="user_detail_praise">Bəyənilər</string>
-
     <string name="user_detail_tab_detail">Poçtlar</string>
     <string name="user_detail_tab_reply">Yorumlar</string>
-
     <string name="user_focus_tab_users">İnsanlar</string>
     <string name="user_focus_tab_apps">Qruplar</string>
     <string name="user_focus_title_my">Menim takiblerim</string>
     <string name="goto_google_play">İndi satın al</string>
     <string name="google_play_bug_text">Google play satın al</string>
-
     <string name="menu_follow_all">Bütün takibçiler</string>
     <string name="menu_follow_user">Takibçi insanlar</string>
     <string name="menu_follow_group">Takib eden qruplar</string>
     <string name="menu_follow_all_tab">Takibçiler</string>
     <string name="menu_follow_user_tab">İnsanlar</string>
     <string name="menu_follow_group_tab">Qruplar</string>
-
     <string name="choose_app">Seçilmiş proqram</string>
     <string name="publish_comment">Poçt</string>
-
     <string name="app_detail_has_ad">Reklam var</string>
     <string name="app_detail_no_ad">Reklam yoxdu</string>
-
     <string name="user_focus_title">%1$s tərəfindən izlənildi</string>
-
     <string name="app_detail_has_product">Məhsulları alın</string>
     <string name="app_detail_no_product">Satın alma məhsulu yoxdur</string>
     <string name="tag_list">Etiket siyahısı</string>
@@ -677,7 +603,6 @@ Yuxarıdaki funksiyalar Android 4.1+ versiyada dəstəklənməktədir, root ehti
     <string name="there_is_no_label">Etiket yoxdur</string>
     <string name="add">Əlavə et</string>
     <string name="colon">:</string>
-
     <string name="pack_up">Çökmək</string>
     <string name="Istop">Sabitləndi</string>
     <string name="add_tag">Etiket əlavə et</string>
@@ -685,15 +610,12 @@ Yuxarıdaki funksiyalar Android 4.1+ versiyada dəstəklənməktədir, root ehti
     <string name="no_collect">Heç bir seçilmiş yoxdur!</string>
     <string name="no_comment">İlk yazını siz paylaşın!</string>
     <string name="filter_no_comment">Ooops! Belə bir məzmun yoxdur!</string>
-
     <string name="share_apk">APK\'nı Paylaş</string>
     <string name="tab_apk">APK</string>
     <string name="commentaries">Hekayə</string>
     <string name="follow_floating_action_button">Yeni anı yaradın</string>
-
     <string name="upload_apk_version">Versiya %1$s</string>
     <string name="upload_apk_downloads">Endirmələr %1$s</string>
-
     <string name="upload_comment_uploading">%1$s Yüklənir…</string>
     <string name="upload_comment_upload_success">%1$s Yükləmə uğurlu</string>
     <string name="upload_comment_upload_failed">%1$s Yükləmə uğursuz</string>
@@ -705,16 +627,12 @@ Yuxarıdaki funksiyalar Android 4.1+ versiyada dəstəklənməktədir, root ehti
     <string name="upload_notification_is_uploading">Paket APKPure\'a yüklənir…</string>
     <string name="upload_notification_is_pause">Yükləməyə fasilə verildi</string>
     <string name="upload_add_file_list_toast">Tətbiq yüklənir. Zəhmət olmasa səbrli olun, Təşəkkürlər!</string>
-
     <string name="your_reply_comment">Cavabınız</string>
-
     <string name="market_ad_title">Mağaza</string>
     <string name="market_ad_tab_one">Təklif edilənlər</string>
     <string name="market_ad_tab_two">Oyunlar</string>
     <string name="market_ad_tab_three">Alətlər</string>
-
     <string name="tag">Etiket</string>
-
     <string name="search_tab_name_one">Tətbiqlər</string>
     <string name="search_tab_name_two">İstifadəçi</string>
     <string name="pre_register_ok">Tamam</string>
@@ -725,23 +643,18 @@ Yuxarıdaki funksiyalar Android 4.1+ versiyada dəstəklənməktədir, root ehti
     <string name="pre_register_gift_tv">Qeydiyyat Mükafatları</string>
     <string name="pre_register_person_num_tv">Qeydiyyatdan keçənlər: %1$s</string>
     <string name="pre_register_success">Əvvəlcədən qeydiyyatdan keçmək,tətbiq paylaşılarkən cihazınıza bildiriş gələcək deməkdir.</string>
-
     <string name="open_page_failed">Səhifə yükləmə uğursuz oldu!</string>
     <string name="search_for_user">Axtar</string>
     <string name="search_user_history_title">Ən son əlaqə qurulanlar</string>
     <string name="search_focus_list_title">İzlənildi</string>
-
     <string name="copy_username">Nick\'i Kopyala</string>
     <string name="copy_content">Məzmunu kopyala</string>
-
     <string name="tab_global">Təklif edilənlər</string>
     <string name="comment_list_see_here">Son dəfə burada oldunuz. Yeniləmək üçün toxunun.</string>
     <string name="comment_list_new_num">$d Yeni başlıqlar</string>
-
     <string name="tab_popular">Populyar</string>
     <string name="count_down_timer_tv">%ds</string>
     <string name="count_down_timer_btn">Keç</string>
-
     <string name="choice_evaluate">Önə çıxan baxışlar</string>
     <string name="choice_comment">Təklif olunan yazılar</string>
     <string name="emoji_input_error_hint">Emoji şərhlərinə bir daha icazə verilmir! Bir şey yaz…</string>
@@ -750,13 +663,11 @@ Yuxarıdaki funksiyalar Android 4.1+ versiyada dəstəklənməktədir, root ehti
     <string name="my_reservation_and_collection">Ön qeydiyyat və seçilmişlər</string>
     <string name="upload_apk">APK Yüklə</string>
     <string name="developer_badge_explanation">İnkişaf etdirən rozeti açıqlaması</string>
-
     <string name="from_user_recommendation">İstifadəçilərin tövsiyələri</string>
     <string name="topics">Mövzu</string>
     <string name="pre_register_game">Ön qeydiyyat</string>
     <string name="editors_picks">Redaktor seçimi</string>
     <string name="recommend_game">Oyun tövsiyəsi</string>
-
     <string name="bing_share_account">Üçüncü tərəf hesablarına qoşulun</string>
     <string name="un_bind">Bağlantı yoxdur</string>
     <string name="login_out_message_hint">Çıxış etmək istədiyinizə əminsiniz\?</string>
@@ -774,11 +685,9 @@ Yuxarıdaki funksiyalar Android 4.1+ versiyada dəstəklənməktədir, root ehti
     <string name="unbind_email">Bağlantı yoxdur</string>
     <string name="unbind_email_hint">Hesabınıza heç bir e-poçt ünvanı qoşulmamışdır.</string>
     <string name="menu_skip">Keç</string>
-
     <string name="forget_password_tv">Şifrəni unutmusunuz\?</string>
     <string name="recover_password_title">Parolun yenilənməsi</string>
     <string name="email_address_hint_et">E-poçtunuzu daxil edin.</string>
-
     <string name="shop">Mağaza</string>
     <string name="setting_region">Bölgə</string>
     <string name="submit_add_title_image_tv">Örtük əlavə et</string>
@@ -803,7 +712,6 @@ Yuxarıdaki funksiyalar Android 4.1+ versiyada dəstəklənməktədir, root ehti
     <string name="delete_success">Uğurlu</string>
     <string name="hot">Trend</string>
     <string name="look_links">Linkə baxın</string>
-
     <string name="headline_no_data_tv">Yeni məzmun yoxdur</string>
     <string name="hint">Qeyd</string>
     <string name="no_save_comment_hint">Paylaşılmayan məzmunlar var, çıxmaq istədiyinizə əminsinizmi\?</string>
@@ -811,10 +719,8 @@ Yuxarıdaki funksiyalar Android 4.1+ versiyada dəstəklənməktədir, root ehti
     <string name="history_hastag">Etiket tarixçəsi</string>
     <string name="share_image_failed">Şəkil paylaşmaq uğursuz oldu!</string>
     <string name="select_image_overflow_hint">\@string/picture_message_max_num.</string>
-
     <string name="share_select_image_overflow_hint">Ən çox 9 şəkil paylaşa bilərsiniz.</string>
     <string name="search_or_create">Axtar və ya yarat</string>
-
     <string name="privacy_setting_title">Gizlilik Ayarları</string>
     <string name="privacy_setting_account">Gizli Hesab</string>
     <string name="privacy_setting_account_des">Hesabınızın şəxsi olaraq təyin olunduğu təqdirdə şəxsi ana səhifəniz başqaları tərəfindən görünməyəcək.</string>
@@ -826,20 +732,21 @@ Yuxarıdaki funksiyalar Android 4.1+ versiyada dəstəklənməktədir, root ehti
     <string name="del_account_reason_hint">Niyə bu hesabı silmək istəyirsiniz\?</string>
     <string name="del_account_sure">Hesabınız ən çox 48 saat ərzində silinəcəkdir. Əlavə suallarınız varsa, bizə müraciət edin.</string>
     <string name="reply_to">Cavabla %1$s:</string>
-    <string name="share_app_url_comment_v3">Share <xliff:g example="zhangsan" id="name">%1$s</xliff:g>\'s <xliff:g example="post/story/review" id="type">%2$s</xliff:g> (From APKPure):<xliff:g example="https://apkpure.com" id="url">%3$s </xliff:g></string>
+    <string name="share_app_url_comment_v3">Share <xliff:g example="zhangsan" id="name">%1$s</xliff:g>\'s <xliff:g example="post/story/review" id="type">%2$s</xliff:g> (From APKPure):<xliff:g example="https://apkpure.com" id="url">%3$s </xliff:g>
+    </string>
     <string name="apk_unable_upload">APK yükləməyə başlamadı.</string>
     <string name="long_image">Uzun şəkil</string>
     <string name="edit_tag">Etiketi düzəlt</string>
     <string name="save_tag_hint_msg">Dəyişiklik saxlanılmayacaq. Çıxışınıza əminsinizmi\?</string>
-    <string name="un_follow_xx">UnFollow <xliff:g example="Apkpure" id="name">%1$s</xliff:g></string>
-    <string name="follow_xx">İzlə <xliff:g example="Apkpure" id="name">%1$s</xliff:g></string>
+    <string name="un_follow_xx">UnFollow <xliff:g example="Apkpure" id="name">%1$s</xliff:g>
+    </string>
+    <string name="follow_xx">İzlə <xliff:g example="Apkpure" id="name">%1$s</xliff:g>
+    </string>
     <string name="app_rating">Reytinq:</string>
     <string name="number">\"</string>
     <string name="headline_footer_refresh">Yeniləmək üçün aşağı çəkin və ya bu xəttə vurun.</string>
-
     <string name="download_install_obb">OBB\'u quraşdır</string>
     <string name="download_install_apk">APK\'nı quraşdır</string>
-
     <string name="users_recommended_title">Təbriklər!</string>
     <string name="users_recommended_des">Baxışınız istifadəçinin tövsiyəsi kimi seçildi,%1$s</string>
     <string name="recommended_posts_title">Təbriklər!</string>
@@ -855,14 +762,13 @@ Yuxarıdaki funksiyalar Android 4.1+ versiyada dəstəklənməktədir, root ehti
     <string name="pre_register_des">"Əvvəlcədən qeydiyyatdan keçmiş oyun %1$s   %2$s yükləmək üçün mövcuddur.%3$s"</string>
     <string name="report_callback_title">Bildirdiyiniz postu sildik!</string>
     <string name="report_callback_des">Zorakılıq üçün bildirdiyiniz postu nəzərdən keçirdik. %1$s kodunu pozduğundan, onu sildik. Bildirdiyiniz üçün təşəkkür edirik. Biz%2$s postun silindiyini bilirik, lakin kimin bildirdiyini bildirmirik.</string>
-
     <string name="tap_to_view">Baxmaq üçün toxun</string>
     <string name="let_us_know">Bizə bildirin</string>
     <string name="community_guide_lines">İcma Təlimatları</string>
-
     <string name="my_draft">Mənim layihəm</string>
     <string name="clear_empty">Hamısını sil</string>
-    <string name="several_draft"><xliff:g example="5" id="count">%1$s</xliff:g> drafts</string>
+    <string name="several_draft">
+        <xliff:g example="5" id="count">%1$s</xliff:g> drafts</string>
     <string name="delete_all_draft_hint">Layihə qutusunu boşaltmaq istərdinizmi\?</string>
     <string name="edit_draft">Layihəni redəktə et</string>
     <string name="delete_draft">Layihəni sil</string>
@@ -870,5 +776,4 @@ Yuxarıdaki funksiyalar Android 4.1+ versiyada dəstəklənməktədir, root ehti
     <string name="is_save_comment_draft">Layihə olaraq saxlanılsınmı\?</string>
     <string name="upload_video">Video yükləmə</string>
     <string name="saved_draft">Layihə olaraq saxlanıldı</string>
-
 </resources>
