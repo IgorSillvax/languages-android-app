@@ -3,7 +3,7 @@
     <string name="action_settings">Configurações</string>
     <string name="action_search">Pesquisar</string>
     <string name="action_management">Gestão</string>
-    <string name="press_back_key_quit">Pressione a tecla Voltar mais uma vez para sair.</string>
+    <string name="press_back_key_quit">Pressione a tecla Voltar Para sair, toque no botão Voltar mais uma vez e saia.</string>
     <string name="featured">Destaque</string>
     <string name="games">Jogos</string>
     <string name="apps">Todos</string>
@@ -18,7 +18,7 @@
     <string name="management">Gestão</string>
     <string name="app_updates">Atualizações de aplicativos</string>
     <string name="app_management">Instalado</string>
-    <string name="app_uninstall">Desinstalar App</string>
+    <string name="app_uninstall">Desinstalação de aplicativo</string>
     <string name="apk_management">Gerenciador de Apk</string>
     <string name="apk_xapk_management">Gerenciador de APK / XAPK</string>
     <string name="download_management">Gerenciador de download</string>
@@ -29,7 +29,7 @@
     <string name="about_message">
         <![CDATA[<b>Versão:</b> %1$s<br><br><b>Website:</b> <a href="%2$s">%2$s</a><br><b>Email:</b> <a href="mailto:%3$s">%3$s</a>]]>
     </string>
-    <string name="check_update">Checar Atualização</string>
+    <string name="check_update">Verifique se há atualizações</string>
     <string name="quit">Sair</string>
     <string name="want_to_quit">Você tem certeza que quer sair?</string>
     <string name="install">Instalar</string>
@@ -39,13 +39,13 @@
     <string name="properties_message">
         <![CDATA[<b>Path:</b> %1$s<br><b>Size:</b> %2$s<br><b>Última modificação:</b> %3$s]]>
     </string>
-    <string name="want_to_delete_file">Você quer deletar esse arquivo\?</string>
+    <string name="want_to_delete_file">Tem certeza de que deseja excluir este arquivo\?</string>
     <string name="file_has_been_deleted">O arquivo foi apagado.</string>
     <string name="failed_to_delete_file">Erro ao excluir o arquivo.</string>
     <string name="install__label_">Instalar - <xliff:g id="app_label" example="APKPure">%1$s</xliff:g>
     </string>
     <string name="user_canceled">Usuário Cancelado.</string>
-    <string name="io_error">de erro IO. Pode ser que não há espaço livre suficiente para a instalação de sucesso.</string>
+    <string name="io_error">Erro de E / S. Espaço insuficiente disponível para instalação.</string>
     <string name="file_format_error">Erro do formato do arquivo.</string>
     <string name="parsing_xapk">Analisando XAPK …</string>
     <string name="installing_obb">Instalação de arquivos OBB …</string>
@@ -75,7 +75,7 @@
     <string name="_ellipsis_"> … </string>
     <string name="market_response_error_success">Sucesso.</string>
     <string name="market_response_error_invalid_result">resultado inválido.</string>
-    <string name="market_response_error_network_connect_error">Erro ao Conectar na Rede.</string>
+    <string name="market_response_error_network_connect_error">Erro de conexão de rede.</string>
     <string name="market_response_error_network_read_error">Erro de Leitura da Rede.</string>
     <string name="market_response_error_invalid_response_code">código de resposta inválido.</string>
     <string name="market_response_error_invalid_response_body">Corpo de resposta inválido.</string>
@@ -90,18 +90,16 @@
         <item quantity="other">
             <xliff:g id="count" example="2">%1$d</xliff:g>novas atualizações estão disponíveis </item>
     </plurals>
-    <string name="launching_please_wait">Lançamento, aguarde…</string>
+    <string name="launching_please_wait">Iniciando ... Por favor, aguarde.</string>
     <plurals name="_count__item_is_downloading">
-        <item quantity="one">
-            <xliff:g id="count" example="1">%1$d</xliff:g> item está baixando</item>
-        <item quantity="other">
-            <xliff:g id="count" example="2">%1$d</xliff:g> itens estão baixando</item>
+        <item quantity="one">&lt;xliff: g xmlns: xliff = \"urn: oasis: nomes: tc: xliff: document: 1.2\" example = \"1\" id = \"count\"&gt;% 1 $ d &lt;/ xliff: g&gt; item.</item>
+        <item quantity="other">&lt;xliff: g xmlns: xliff = \"urn: oasis: nomes: tc: xliff: document: 1.2\" example = \"2\" id = \"count\"&gt;% 1 $ d &lt;/ xliff: g&gt; itens.</item>
     </plurals>
-    <string name="downloads_complete">Downloads completo</string>
-    <string name="touch_for_view_all_downloads">Toque para Ver todos os downloads</string>
+    <string name="downloads_complete">Todos os downloads concluídos</string>
+    <string name="touch_for_view_all_downloads">Toque para ver todos os downloads</string>
     <string name="_name__download_failed">
         <xliff:g id="name" example="APKPure">%1$s</xliff:g> transferência falhou</string>
-    <string name="touch_to_download_it_again">Toque para baixá-lo novamente</string>
+    <string name="touch_to_download_it_again">Toque para reiniciar o download</string>
     <string name="download_percent">
         <xliff:g id="percent" example="50">%1$d</xliff:g> %%</string>
     <string name="pause">Pausa</string>
@@ -119,7 +117,7 @@
     <string name="expired">Expirado</string>
     <string name="detail">Detalhe</string>
     <string name="remove">Remover</string>
-    <string name="want_to_remove_download_item">Você deseja remover este item download?</string>
+    <string name="want_to_remove_download_item">Tem certeza de que deseja remover este item\?</string>
     <string name="delete_downloaded_file">Excluir arquivo baixado</string>
     <string name="search">Pesquisar</string>
     <string name="search_for_apps">Procurando APKPure</string>
@@ -193,7 +191,7 @@
         <xliff:g id="name" example="APKPure">%1$s</xliff:g> instalação completa</string>
     <string name="touch_to_open">Toque para abrir.</string>
     <string name="delete_all">Apagar tudo</string>
-    <string name="want_to_delete_all_files">Você quer apagar todos os arquivos?</string>
+    <string name="want_to_delete_all_files">Tem certeza de que deseja excluir todos os arquivos\?</string>
     <string name="flag_as_inappropriate">Marcado como inapropriado</string>
     <string name="pause_all">Pausar Todos</string>
     <string name="continue_all">Continuar Todos</string>
@@ -296,7 +294,7 @@ Que é necessário para digitalizar o código QR.</string>
     <string name="app_detail_comment_order_array_best">Melhor</string>
     <string name="download_complete_installation_setting_entries_always">Sempre instalar</string>
     <string name="download_complete_installation_setting_entries_never">Nunca instalar</string>
-    <string name="load_failed_error_not_found">App não foi incluído no APKPure.</string>
+    <string name="load_failed_error_not_found">The app hasn\'t been included in APKPure.</string>
     <string name="check_update_replace">Versão Oficial</string>
     <string name="data_saver_model_summery">Ativar isso reduzirá o tamanho e a qualidade da imagem para ajudar a usar menos dados de celular.</string>
     <string name="app_detail_comment_join_group_bt">Grupo</string>
@@ -343,7 +341,7 @@ Que é necessário para digitalizar o código QR.</string>
     <string name="beta">"Beta "</string>
     <string name="data_saver_model">Economizador de dados</string>
     <string name="check_update_beta">"Beta  em fase de teste. "</string>
-    <string name="history_version">Histórico de versões</string>
+    <string name="history_version">Histórico de Versões</string>
     <string name="app_detail_tab_evaluation">Comentários</string>
     <string name="app_detail_comment_filter_sort_score">Mais votado</string>
     <string name="app_detail_comment_filter_all">Todos Comentários</string>
