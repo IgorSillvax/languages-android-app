@@ -25,7 +25,9 @@
     <string name="download_management">Trình quản lý tải về</string>
     <string name="settings">Cài đặt</string>
     <string name="about">Thông tin</string>
-    <string name="about_title">Về<xliff:g example="APKPure" id="app_name">%1$s</xliff:g>
+    <string name="about_title">Về
+\n<xliff:g example="APKPure" id="app_name">
+\n%1$s</xliff:g>
     </string>
     <string name="about_message">&lt;b&gt;Phiên bản:&lt;/b&gt; %1$s&lt;br&gt;&lt;br&gt;&lt;b&gt;Website:&lt;/b&gt; &lt;a href=%2$s&gt;%2$s&lt;/a&gt;&lt;br&gt;&lt;b&gt;Email:&lt;/b&gt; &lt;a href=mailto:%3$s&gt;%3$s&lt;/a&gt;</string>
     <string name="check_update">Kiểm tra cập nhật</string>
@@ -37,7 +39,7 @@
     <string name="want_to_delete_file">Bạn muốn xóa tệp này\?</string>
     <string name="file_has_been_deleted">Đã xoá tệp.</string>
     <string name="failed_to_delete_file">Thất bại khi xoá tệp.</string>
-    <string name="install__label_">Cài đặt -<xliff:g example="APKPure" id="app_label">%1$s</xliff:g>
+    <string name="install__label_">Cài đặt - <xliff:g example="APKPure" id="app_label">%1$s</xliff:g>
     </string>
     <string name="user_canceled">Người dùng đã hủy.</string>
     <string name="io_error">Lỗi IO. Không có đủ bộ nhớ trống để cài đặt.</string>
@@ -48,7 +50,7 @@
     <string name="installing_apk">Đang cài đặt APK …</string>
     <string name="uninstall">Gỡ cài đặt</string>
     <string name="uninstalled">Đã gỡ cài đặt</string>
-    <string name="last_update__date_">Cập nhật cuối:<xliff:g id="date">%1$s</xliff:g>
+    <string name="last_update__date_">Cập nhật cuối: <xliff:g id="date">%1$s</xliff:g>
     </string>
     <string name="all">Tất cả</string>
     <string name="screenshots">Ảnh chụp màn hình</string>
@@ -117,7 +119,8 @@
     <string name="join_us">Tham gia với chúng tôi</string>
     <string name="skip">Bỏ qua</string>
     <string name="_name__is_up_to_date">
-        <xliff:g example="APKPure" id="name">%1$s</xliff:g> đã cập nhật.</string>
+        <xliff:g example="APKPure" id="name">
+\n%1$s</xliff:g> đã cập nhật.</string>
     <string name="new_version_available_title">Đã có cập nhật mới</string>
     <string name="new_version_available_message">
         <![CDATA[<b>Phiên bản mới nhất:</b> %1$s<br><br><b>Có gì mới:</b><br>%2$s]]>
@@ -146,8 +149,9 @@
     <string name="share_app_url"> Chia sẻ <xliff:g example="APKPure" id="app_name"> %1$s</xliff:g> APK (từ @ <xliff:g example="APKPure" id="social_network_name"> %2$s</xliff:g>) <xliff:g example="https://apkpure.com/p/com.apkpure.aegon" id="app_url"> %3$s</xliff:g>
     </string>
     <string name="_name__version_history">
-        <xliff:g example="APKPure" id="name">%1$s</xliff:g> Lịch sử phiên bản</string>
-    <string name="update__date___size_">Cập nhật:<xliff:g example="Mar 3, 2016" id="date">%1$s</xliff:g>,<xliff:g example="1024 kB" id="size">%2$s</xliff:g>
+        <xliff:g example="APKPure" id="name">
+\n%1$s</xliff:g> Lịch sử phiên bản</string>
+    <string name="update__date___size_">Cập nhật: <xliff:g example="Mar 3, 2016" id="date">%1$s</xliff:g>,<xliff:g example="1024 kB" id="size">%2$s</xliff:g>
     </string>
     <string name="general">Chung</string>
     <string name="language">Ngôn ngữ</string>
@@ -272,7 +276,7 @@
     <string name="reply_dialog_marked_words">Chạm và giữ bức ảnh để xóa nó.</string>
     <string name="reply_comment">Trả lời nhận xét</string>
     <string name="save_original_image">Lưu</string>
-    <string name="already_save">Lưu trữ<xliff:g example="ApKPure/photo" id="path">%1$s</xliff:g>
+    <string name="already_save">Đã lưu vào <xliff:g example="ApKPure/photo" id="path">%1$s</xliff:g>
     </string>
     <string name="load_end">Hết dữ liệu.</string>
     <string name="load_failed_click_retry">Tải thất bại. Vui lòng chạm để thử lại</string>
@@ -550,7 +554,7 @@
     <string name="pack_up">Bộ sưu tầm</string>
     <string name="Istop">Đã ghim</string>
     <string name="add_tag">Thêm thẻ</string>
-    <string name="error_add_tag">Thêm thẻ thất bại</string>
+    <string name="error_add_tag">Thêm thẻ thất bại.</string>
     <string name="no_collect">Chưa có ưa thích!</string>
     <string name="no_comment">Trở thành người đầu tiên thêm bình luận nhé!</string>
     <string name="share_apk">Chia sẻ APK</string>
@@ -567,9 +571,9 @@
     <string name="upload_notification_start">Bắt đầu</string>
     <string name="upload_notification_cancel">Hủy</string>
     <string name="upload_notification_is_uploading">Đang tải gói ứng dụng lên APKPure…</string>
-    <string name="upload_notification_is_pause">Tải lên đã tạm dừng</string>
+    <string name="upload_notification_is_pause">Tải lên đã tạm dừng.</string>
     <string name="upload_add_list_toast">Thành công!</string>
-    <string name="upload_add_file_list_toast">Đang tải lên ứng dụng của bạn. Vui lòng kiên nhẫn!</string>
+    <string name="upload_add_file_list_toast">Đang tải lên ứng dụng của bạn. Vui lòng kiên nhẫn.</string>
     <string name="your_reply_comment">Trả lời của bạn</string>
     <string name="market_ad_title">Chợ</string>
     <string name="market_ad_tab_one">Đặc sắc</string>
@@ -735,12 +739,99 @@
     </string>
     <string name="un_follow_xx">Hủy theo dõi <xliff:g example="Apkpure" id="name">%1$s</xliff:g>
     </string>
-    <string name="comment_removed_des">Có vẻ như bài viết của bạn không tuân thủ luật của chúng tôi . Chúng tôi không cho phép hành động bắt nạt hay lăng mạ, những bức ảnh, video bắt nạt hay những bài viết nhằm hạ thấp hoặc hủy hoại 1 cá nhân nào đó 
-\n. Nếu bạn nghĩ đó là sai sót , hãy báo lại chúng tôi</string>
+    <string name="comment_removed_des">Có vẻ như một cái gì đó bạn đã đăng không tuân theo %1$s của chúng tôi. Chúng tôi không cho phép bắt nạt hoặc quấy rối dưới bất kỳ hình thức nào, bao gồm ảnh, video không phù hợp về bắt nạt thực tế hoặc bất kỳ bài đăng nào khác có ý định làm giảm hoặc làm nhục một người cụ thể.
+\n%2$s
+\nNếu bạn nghĩ rằng đây là một sự nhầm lẫn, vui lòng %3$s.</string>
     <string name="home_recommended_desc">Bài viết của bạn được lựa chọn cho trang chính khuyên dùng</string>
     <string name="home_recommended_title">chúc mừng!</string>
     <string name="recommended_posts_title">chúc mừng!</string>
     <string name="users_recommended_des">Bài viết của bạn đã được lựa chọn cho khuyên dùng người dùng</string>
     <string name="edit_tag">Chỉnh sữa nhãn dán</string>
     <string name="long_image">Ảnh cao</string>
+    <string name="search_tab_invitation">Bình luận</string>
+    <string name="xapk_upload_hint_info">Việc tải lên file XAPK sẽ tốn nhiều thời gian. Bạn có chắc là muốn tải lên không\?</string>
+    <string name="packaging_failed_try_again">Đóng gói thất bại. Hãy thử lại.</string>
+    <string name="packaging_success_ready_upload">Đóng gói xong. Chuẩn bị tải lên.</string>
+    <string name="packaging">Đang đóng gói…</string>
+    <string name="preparing_upload">Đang chuẩn bị tải lên…</string>
+    <string name="upload_apk_xapk">Tải APK/XAPK lên</string>
+    <string name="apk_xapk">APK/XAPK</string>
+    <string name="ucrop_mutate_exception_hint">Do đó, ghi đè tài nguyên màu (ucrop_color_toolbar_widget) trong ứng dụng của bạn để làm cho nó hoạt động trên các thiết bị tiền L</string>
+    <string name="ucrop_error_input_data_is_absent">Cả nhập và xuất Uri phải được chỉ định</string>
+    <string name="ucrop_menu_crop">Cắt</string>
+    <string name="ucrop_label_edit_photo">Sửa ảnh</string>
+    <string name="ucrop_label_original">Gốc</string>
+    <string name="picture_message_video_max_num">Bạn có thể chọn nhiều nhất %1$s video</string>
+    <string name="picture_confirm">Hủy</string>
+    <string name="picture_audio_error">Âm thanh bị hỏng</string>
+    <string name="picture_video_error">Video bị hỏng</string>
+    <string name="picture_error">Ảnh bị hỏng</string>
+    <string name="picture_pause_audio">Ngưng</string>
+    <string name="picture_quit_audio">Thoát</string>
+    <string name="picture_stop_audio">Dừng</string>
+    <string name="picture_play_audio">Phát</string>
+    <string name="picture_tape">Băng ảnh</string>
+    <string name="picture_all_audio">Tất cả âm thanh</string>
+    <string name="picture_save_success">Lưu ảnh thành công cho đến khi</string>
+    <string name="picture_save_error">Lưu ảnh thất bại</string>
+    <string name="picture_prompt_content">Bạn muốn lưu ảnh vào máy bạn không\?</string>
+    <string name="picture_prompt">Nhắc nhở</string>
+    <string name="picture_warning">File phương tiện！</string>
+    <string name="picture_long_chart">Dài</string>
+    <string name="picture_photograph">Ảnh chụp</string>
+    <string name="picture_record_video">Quay video</string>
+    <string name="picture_video_toast">Video chưa được xem trước</string>
+    <string name="picture_camera">Lấy quyền hệ thống camera bị từ chối</string>
+    <string name="picture_jurisdiction">Truy cập đọc thẻ nhớ bị từ chối</string>
+    <string name="picture_audio">Quyền truy cập ghi âm hệ thống bị từ chối</string>
+    <string name="gif_tag">GIF</string>
+    <string name="picture_min_img_num">Không thể chọn ít hơn %1$s bức ảnh</string>
+    <string name="picture_empty">Bạn có thể dùng camera để chụp ảnh hay quay video</string>
+    <string name="picture_audio_empty">Bạn có thể dùng ứng dụng ghi âm trong hệ thống để ghi âm âm thanh</string>
+    <string name="picture_empty_audio_title">Không có file âm thanh
+\n</string>
+    <string name="picture_empty_title">Không có video hoặc ảnh
+\n</string>
+    <string name="picture_please_select">Hãy chọn</string>
+    <string name="picture_done">Xong</string>
+    <string name="picture_completed">Hoàn tất</string>
+    <string name="picture_done_front_num">Đã xong %1$d/%2$d</string>
+    <string name="picture_please">Vui lòng thử lại sau...</string>
+    <string name="picture_preview">Xem trước</string>
+    <string name="picture_message_max_num">Bạn có thể chọn nhiều nhất %1$s ảnh</string>
+    <string name="picture_min_video_num">Chọn ít nhất %1$s video</string>
+    <string name="picture_rule">Không có ảnh hoặc video</string>
+    <string name="picture_take_picture">Chụp</string>
+    <string name="picture_cancel">Hủy</string>
+    <string name="picture_camera_roll">Cuộn camera</string>
+    <string name="attention_each">Đã kết nối</string>
+    <string name="app_details_request_update_msg">Chúng tôi đã nhận được yêu cầu của bạn về bản cập nhật mới nhất của %s.
+\nPhiên bản mới sẽ được tải xuống sớm nếu nó tồn tại.</string>
+    <string name="app_details_request_update_title">Yêu cầu cập nhật</string>
+    <string name="xapk_unable_upload">Tải lên XAPK thất bại!</string>
+    <string name="upload_xapk_to_group">Tải XAPK lên nhóm</string>
+    <string name="upload_xapk">Tải XAPK lên</string>
+    <string name="upload_apk_to_group">Tải APK lên nhóm</string>
+    <string name="app_update_auto_install">Nhấp để bật tính năng \"tự cài đặt\"</string>
+    <string name="look_video">Phát video</string>
+    <string name="get_it_on">Tải từ：</string>
+    <string name="users">Người dùng</string>
+    <string name="choice_hashtag">Thẻ nổi bật</string>
+    <string name="gif_auto_desc">Tự phát GIFs qua Wi-Fi</string>
+    <string name="gif_auto_title">Tự phát GIF</string>
+    <string name="saved_draft">Lưu vào nháp</string>
+    <string name="upload_video">Tải video lên</string>
+    <string name="is_save_comment_draft">Lưu bình luận của bạn vào nháp\?</string>
+    <string name="community_guide_lines">Hướng dẫn Cộng đồng</string>
+    <string name="report_callback_des">"Chúng tôi đã xem lại bài bạn báo cáo về sự quấy rối.  Vì nó đã vi phạm %1$s của chúng tôi, chúng tôi đã xóa nó.  Cảm ơn báo cáo của bạn."</string>
+    <string name="pre_register_des">Trò chơi %1$s   %2$s mà bạn đã đăng ký trước Đã có thể tải về.%3$s</string>
+    <string name="pre_register_title">%1$s đã xuất bản cho %2$s!</string>
+    <string name="temporarily_blocked_des">\"Lệnh cấm tạm thời của anh ấy sẽ kéo dài %1$s và bạn sẽ không thể tạo nội dung trên APKPure cho đến khi hết hạn.
+\n         Nếu bạn đăng thứ gì đó trái với %2$s của chúng tôi một lần nữa, tài khoản của bạn sẽ bị cấm thêm 30 ngày nữa.
+\n         Xin lưu ý rằng những người liên tục đăng nội dung không phù hợp có thể khiến tài khoản của họ bị cấm vĩnh viễn.
+\n        
+\n  Nếu bạn nghĩ rằng đây là một sự nhầm lẫn, vui lòng %3$s.</string>
+    <string name="recommended_posts_des">Bình luận của bạn được chọn là bình luận đề xuất,%1$s</string>
+    <string name="share_app_url_comment_v3">Chia sẻ <xliff:g example="zhangsan" id="name">%1$s</xliff:g>\'s <xliff:g example="post/story/review" id="type">%2$s</xliff:g> (From APKPure):<xliff:g example="https://apkpure.com" id="url">%3$s </xliff:g>
+    </string>
 </resources>
