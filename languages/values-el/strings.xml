@@ -3,7 +3,7 @@
     <string name="action_settings">Ρυθμίσεις</string>
     <string name="action_search">Ψάξιμο</string>
     <string name="action_management">Διαχείριση</string>
-    <string name="press_back_key_quit">Πατήστε ξανά το πλήκτρο και κλείστε.</string>
+    <string name="press_back_key_quit">Πατήστε ξανά το πλήκτρο για να φύγετε.</string>
     <string name="featured">Προτεινόμενα</string>
     <string name="recommend">Ανακαλύπτω</string>
     <string name="games">Παιχνίδια</string>
@@ -13,7 +13,7 @@
     <string name="something_happened">&gt;_&lt;
 \nΚάτιάτι συνέβη.</string>
     <string name="load_failed_error">"Όπα! Παρουσιάστηκε σφάλμα. "</string>
-    <string name="load_failed_error_not_found">"Η εφαρμογή δεν είναι εισηγμένη στο APKPure  κατάστημα εφαρμογών"</string>
+    <string name="load_failed_error_not_found">Η εφαρμογή δεν είναι διαθέσιμη στο APKPure.</string>
     <string name="load_failed_empty">"Δεν υπάρχει τίποτα εδώ. "</string>
     <string name="load_failed_all_up_to_date">"Όλες οι εφαρμογές είναι ενημερωμένες. "</string>
     <string name="load_failed_no_results">"Συγγνώμη! Δεν βρέθηκαν αποτέλεσμα. "</string>
@@ -32,13 +32,13 @@
     </string>
     <string name="about_message">"
 \n &lt;b&gt;Version:&lt;/b&gt; %1$s&lt;br&gt;&lt;br&gt;&lt;b&gt;Website:&lt;/b&gt; &lt;a href=%2$s&gt;%2$s&lt;/a&gt;&lt;br&gt;&lt;b&gt;Email:&lt;/b&gt; &lt;a href=mailto:%3$s&gt;%3$s&lt;/a&gt;"</string>
-    <string name="check_update">Έλεγχος αναβάθμισης</string>
+    <string name="check_update">Έλεγχος για ενημερώσεις</string>
     <string name="check_update_replace">"Επίσημη έκδοση "</string>
     <string name="check_update_beta">Προελευθέρωση Δοκιμαστικού</string>
     <string name="beta">Δοκιμαστικό
 \n</string>
     <string name="quit">"Έξοδος "</string>
-    <string name="want_to_quit">Είσαι σίγουρος οτι θέλεις να παραιτηθείς;</string>
+    <string name="want_to_quit">Είσαι σίγουρος οτι θέλεις να φύγεις;</string>
     <string name="install">"Εγκατάσταση "</string>
     <string name="open">"Άνοιγμα "</string>
     <string name="delete">"Διαγραφή "</string>
@@ -46,15 +46,15 @@
     <string name="properties">"Περιουσιακά "</string>
     <string name="properties_message">"
 \n &lt;b&gt;Path:&lt;/b&gt; %1$s&lt;br&gt;&lt;b&gt;Size:&lt;/b&gt; %2$s&lt;br&gt;&lt;b&gt;Last Modified:&lt;/b&gt;"</string>
-    <string name="want_to_delete_file">"Επιθυμείτε να διαγράψετε αυτό το αρχείο; "</string>
-    <string name="want_to_delete_all_files">"Επιθυμείτε να διαγράψετε όλα τα αρχεία; "</string>
+    <string name="want_to_delete_file">Είσαστε σίγουροι για την διαγραφή αυτού του αρχείου;</string>
+    <string name="want_to_delete_all_files">Επιθυμείτε να διαγράψετε όλα τα αρχεία;</string>
     <string name="file_has_been_deleted">"Το αρχείο έχει διεγραφεί. "</string>
     <string name="failed_to_delete_file">"Αποτυχία διαγραφής του αρχείου. "</string>
     <string name="install__label_">
         <xliff:g example="APKPure" id="app_label"/>
     </string>
     <string name="user_canceled">"Χρήστης απορρίφθηκε. "</string>
-    <string name="io_error">"IO σφάλμα. Μάλλον δεν υπάρχει διαθέσιμος χώρος για την επιτυχια της εγκατάστασης. "</string>
+    <string name="io_error">IO σφάλμα. Μάλλον δεν υπάρχει διαθέσιμος χώρος για την επιτυχια την εγκατάσταση.</string>
     <string name="file_format_error">"Σφάλμα μορφής αρχείου. "</string>
     <string name="parsing_xapk">Τεχνολογία XAPK…</string>
     <string name="properties_message_v2">&lt;b&gt;Όνομα Πακέτου:&lt;/b&gt; %1$s&lt;br&gt;&lt;b&gt;Έκδοση:&lt;/b&gt; %2$s&lt;br&gt;&lt;b&gt;Διαδρομή:&lt;/b&gt; %3$s&lt;br&gt;&lt;b&gt;Μέγεθος:&lt;/b&gt; %4$s&lt;br&gt;&lt;b&gt;Τελευταία Τροποποίηση:&lt;/b&gt; %5$s</string>
@@ -76,7 +76,7 @@
     <string name="permissions_">Άδειες:</string>
     <string name="type_">Τύπος:</string>
     <string name="category_">Κατηγορία:</string>
-    <string name="more">περισσότερα</string>
+    <string name="more">Περισσότερα</string>
     <string name="permissions">Άδειες</string>
     <string name="other">Άλλο</string>
     <string name="similar_or_related">Παρόμοιο ή Προτεινόμενο</string>
@@ -90,7 +90,7 @@
     <string name="history_version">Παλαιότερες Εκδόσεις</string>
     <string name="market_response_error_success">Επιτυχές.</string>
     <string name="market_response_error_invalid_result">Άκυρο Αποτέλεσμα.</string>
-    <string name="market_response_error_network_connect_error">Χωρίς Σύνδεση στο Διαδίκτυο.</string>
+    <string name="market_response_error_network_connect_error">Χωρίς σύνδεση στο διαδίκτυο.</string>
     <string name="market_response_error_network_read_error">Χωρίς Σύνδεση στο Διαδίκτυο.</string>
     <string name="market_response_error_invalid_response_code">Άκυρος Κωδικός Ανταπόκρισης.</string>
     <string name="market_response_error_invalid_response_body">Άκυρο σώμα ανταπόκρισης.</string>
@@ -107,16 +107,14 @@
     </plurals>
     <string name="launching_please_wait">Εκκίνηση, παρακαλώ περιμένετε…</string>
     <plurals name="_count__item_is_downloading">
-        <item quantity="one">
-            <xliff:g example="1" id="count">%1$d</xliff:g> το αντικείμενο κατεβαίνει</item>
-        <item quantity="other">
-            <xliff:g example="2" id="count">%1$d</xliff:g> τα αντικείμενα κατεβαίνουν</item>
+        <item quantity="one">Λήψη <xliff:g example="1" id="count">%1$d</xliff:g>αντικειμένου.</item>
+        <item quantity="other">Λήψη <xliff:g example="2" id="count">%1$d</xliff:g> αντικειμένων.</item>
     </plurals>
-    <string name="downloads_complete">Το κατέβασμα τελείωσε</string>
-    <string name="touch_for_view_all_downloads">Πατήστε για να Δείτε όλα τα downloads</string>
+    <string name="downloads_complete">Όλες οι λήψεις ολοκληρώθηκαν</string>
+    <string name="touch_for_view_all_downloads">Πατήστε για να δείτε όλες τις λήψεις</string>
     <string name="_name__download_failed">
         <xliff:g example="APKPure" id="name">%1$s</xliff:g> το κατέβασμα απέτυχε</string>
-    <string name="touch_to_download_it_again">Πατήστε για να κατεβεί πάλι</string>
+    <string name="touch_to_download_it_again">Πατήστε για επανεκκίνηση της λήψης</string>
     <string name="download_percent">
         <xliff:g example="50" id="percent">%1$d</xliff:g> %%</string>
     <string name="pause">Παύση</string>
@@ -140,4 +138,16 @@
     <string name="detail">Πληροφορία</string>
     <string name="remove">Διαγραφή</string>
     <string name="remove_all">Διαγραφή Όλων</string>
+    <string name="improvement_plan_message">Βοήθησέ μας να βελτιώσουμε την εμπειρία χρήστη στέλνοντας μας στοιχεία για την Android συσκευή σου. Υποσχόμαστε πως &lt;b&gt;δεν&lt;b&gt; θα συλλέξουμε προσωπικά στοιχεία (e-mail, όνομα, διεύθυνση κατοικίας, κ.α).</string>
+    <string name="improvement_plan_title">Σχέδιο βελτίωσης διεπαφής χρήστη</string>
+    <string name="clear_search_history">Διαγραφή ιστορικού</string>
+    <string name="search_history">Ιστορικό</string>
+    <string name="trending_searches">Τάσεις</string>
+    <string name="search_for_apps">Αναζήτηση APKPure</string>
+    <string name="search">Αναζήτηση</string>
+    <string name="download_over_cellular_content">Είστε σίγουροι για την λήψη μέσω δεδομένων κινητής;</string>
+    <string name="download_over_cellular">Λήψη μέσω δεδομένων κινητής</string>
+    <string name="delete_downloaded_file">Διαγραφή ληφθέντος αρχείου</string>
+    <string name="want_to_remove_all_download_items">Είσαι σίγουρος για τη διαγραφή όλων των αντικειμένων;</string>
+    <string name="want_to_remove_download_item">Είσαι σίγουρος ότι θέλεις να αφαιρέσεις αυτό το αντικείμενο;</string>
 </resources>
