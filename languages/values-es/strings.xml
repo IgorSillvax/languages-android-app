@@ -199,7 +199,8 @@
     <string name="installation">Instalacion</string>
     <string name="show_notification_after_installation">Mostrar notificacion tras la instalacion</string>
     <string name="delete_packages_after_installation">Eliminar paquetes tras la instalacion</string>
-    <string name="_name__installation_completed">&lt;xliff: g xmlns: xliff = \"urn:oasis: nombres: tc: xliff:documento:1.2\"ejemplo = \"APKPure\" id = \"nombre\"&gt;% 1 $ s &lt;/ xliff: g&gt; instalación completa<xliff:g id="name" example="APKPure">%1$s</xliff:g> instalacion completada</string>
+    <string name="_name__installation_completed">
+        <xliff:g example="APKPure" id="name">%1$s</xliff:g> instalación completa</string>
     <string name="touch_to_open">Toque para iniciar.</string>
     <string name="installed">Instalado</string>
     <string name="download_over_cellular">Descargar a través del móvil</string>
@@ -260,20 +261,20 @@
     <string name="reply_comment">Responder al comentario</string>
     <string name="save_original_image">Guardar</string>
     <string name="load_end">No más datos.</string>
-    <string name="load_failed_click_retry">"Carga falló , por favor dele clic orta ves "</string>
+    <string name="load_failed_click_retry">Fallo al cargar. Toca para volver a intentarlo</string>
     <string name="loading">Cargando…</string>
     <string name="scan_qr_code_hint">Antes de usar Escanear código QR, debe otorgar a la cámara el permiso requerido para escanear el código QR.</string>
     <string name="zxing_msg_default_status">Por favor coloca el codigo QR dentro del localizador para escanearlo.</string>
-    <string name="zxing_msg_parser_status">Escaneo fallido, por favor intsnta escanear el codigo QR nuevamente.</string>
+    <string name="zxing_msg_parser_status">Fallo al escanear. Por favor vuelva a intentarlo.</string>
     <string name="permission_denied">¡Acceso denegado!</string>
     <string name="login_title">Ingresar</string>
     <string name="sign_out">Cerrar sesion</string>
     <string name="delete_comment">Eliminar comentario</string>
     <string name="delete_comment_msg">Estas seguro de eliminar este comentario?</string>
     <string name="upload_cancel">La carga ha sido cancelada</string>
-    <string name="login_select_way_to_login">Por favor escoge la forma de ingresar</string>
+    <string name="login_select_way_to_login">Por favor selecciona un método para ingresar</string>
     <string name="user_info_edit_title">Perfil</string>
-    <string name="user_info_edit_portrait_tv">Foto de perfil</string>
+    <string name="user_info_edit_portrait_tv">Avatar</string>
     <string name="user_info_edit_username_tv">Nombre de usuario</string>
     <string name="user_info_edit_email_tv">Correo Electronico</string>
     <string name="user_info_edit_gender_tv">Género</string>
@@ -324,13 +325,13 @@
     <string name="scan_qr_code_result_title">Resultado</string>
     <string name="scan_qr_code_result_copy_text">Copiar texto</string>
     <string name="scan_qr_code_result_hint">Detalles del código QR:</string>
-    <string name="scan_qr_code_copy_success">El texto a sido copiado</string>
+    <string name="scan_qr_code_copy_success">El texto se ha copiado.</string>
     <string name="user_info_edit_nickname_tv">Apodo</string>
     <string name="user_info_edit_gender_male">Masculino</string>
     <string name="user_info_edit_gender_female">Femenino</string>
     <string name="user_info_edit_portrait_album">Seleccione una foto de la galería</string>
     <string name="user_info_edit_portrait_take_photo">Tomar foto desde la cámara</string>
-    <string name="user_info_edit_portrait_error">El tipo de imagen no es compatible</string>
+    <string name="user_info_edit_portrait_error">El tipo de imagen no es compatible.</string>
     <string name="user_info_edit_ok">Aceptar</string>
     <string name="user_info_edit_cancel">Cancelar</string>
     <string name="user_info_edit_large_photo">Ver foto en un tamaño más grande</string>
@@ -345,7 +346,7 @@
     <string name="app_detail_comment_order_array_best">Ordenar por mejor</string>
     <string name="app_detail_comment_order_array_old">Más antiguo</string>
     <string name="input_reply_content">Por favor ingrese su respuesta:</string>
-    <string name="tip_permission_camera_storage">Sin permiso para usar la cámara y la tarjeta SD, abra la administración de derechos</string>
+    <string name="tip_permission_camera_storage">No se otorgaron los permisos para usar la cámara y la tarjeta SD. Por favor concedelos en la gestión de permisos de tú teléfono.</string>
     <string name="update_nickname_error">¡Apodo ya tomado, por favor elija otro!</string>
     <string name="update_intro_et">Escribe algunos detalles sobre ti</string>
     <string name="update_intro_tv">El campo sobre mí no puede estar vacío</string>
