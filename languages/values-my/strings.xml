@@ -92,7 +92,7 @@
     <string name="update">မွမ်းမံမှု</string>
     <string name="launching_please_wait">ဖွင့်နေသည်, ကျေးဇူးပြု၍ ခဏစောင့်ပါ…</string>
     <plurals name="_count__item_is_downloading">
-        <item quantity="other">ဒေါင်းလုဒ်ပြုလုပ်နေသည် <xliff:g example="2" id="count">%1$d</xliff:g> ခု</item>
+        <item quantity="other">Downloading <xliff:g example="1" id="count">%1$d</xliff:g> item.</item>
     </plurals>
     <string name="downloads_complete">ဒေါင်းလုဒ်အားလုံး ပြီးပါပြီ</string>
     <string name="touch_for_view_all_downloads">ဒေါင်းလုဒ်အားလုံးကိုကြည့်ရန် နှိပ်ပါ</string>
@@ -387,7 +387,7 @@
     <string name="upload_notification_pause">ခတ္တရပ်ပါ</string>
     <string name="upload_notification_start">စတင်ပါ</string>
     <string name="upload_notification_cancel">ပယ်ဖျက်ပါ</string>
-    <string name="upload_notification_is_uploading">ပက်ကေ့ချ်ကို APKPure သို့တင်ပေးနေသည်...</string>
+    <string name="upload_notification_is_uploading">ပက်ကေ့ချ်ကို APKPure သို့တင်ပေးနေသည်…</string>
     <string name="upload_notification_is_pause">တင်ခြင်းခတ္တရပ်ဆိုင်းထားသည်။</string>
     <string name="upload_add_list_toast">အောင်မြင်သည်!</string>
     <string name="upload_add_file_list_toast">သင်၏အပ်ကိုတင်ပေးနေပါသည်။.စောင့်ဆိုင်ပေးပါ။. ကျေးဇူးတင်ပါသည်။!</string>
@@ -417,7 +417,7 @@
     <string name="tab_popular">လူကြိုက်များသော</string>
     <string name="choice_evaluate">ဦးစားပေးသုံးသပ်ချက်များ</string>
     <string name="choice_comment">အကြံပြုထားသောစာစုများ</string>
-    <string name="emoji_input_error_hint">အီမိုဂျီဖြင့်မှတ်ချက်ပေး၍မရပါ! တစ်ခုခုရေးရပါ...</string>
+    <string name="emoji_input_error_hint">အီမိုဂျီဖြင့်မှတ်ချက်ပေး၍မရပါ! တစ်ခုခုရေးရပါ…</string>
     <string name="load_all_choice_evaluate">ပြန်လည်သုံးသပ်ချက်အားလုံးကြည့်မည်</string>
     <string name="load_all_choice_comment">စာစုအားလုံးကြည့်မည်</string>
     <string name="my_reservation_and_collection">ကြိုတင်စရင်းသွင်းခြင်းနှင့်စိတ်ကြိုက်အရာ</string>
@@ -460,4 +460,5 @@
 \nTo ensure APKPure well functioning, please add APKPure \"White List\" in your anti-virus app.
 \n
 \nThe functions mentioned above support Android 4.1 and above. No root permissions are needed. We promise we will never ever collect any of your personal information in this accessibility service. Please feel free to contact us for any problems.</string>
+    <string name="search_tab_invitation">Posts</string>
 </resources>
