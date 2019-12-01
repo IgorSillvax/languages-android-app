@@ -1,159 +1,140 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-
-    <string name="updates">Bijwerken</string>
-
+    <string name="updates">Updates</string>
     <string name="action_settings">Instellingen</string>
     <string name="action_search">Zoeken</string>
     <string name="action_management">Beheer</string>
-
-    <string name="press_back_key_quit">Druk nogmaals op de Back-toets en sluit af.</string>
-
+    <string name="press_back_key_quit">Druk nogmaals op de terugknop om af te sluiten.</string>
     <string name="featured">Uitgelicht</string>
     <string name="games">Spellen</string>
-    <string name="apps">Toepassing</string>
+    <string name="apps">Apps</string>
     <string name="categories">Categorieën</string>
     <string name="something_happened">&gt;_&lt;\nEr is iets gebeurd.</string>
-
     <string name="load_failed_error">Oeps! Er is een fout opgetreden.</string>
-    <string name="load_failed_empty">Er is hier niets.</string>
-    <string name="load_failed_all_up_to_date">Alle apps zijn up-to-date.\n\nAl uw apps zijn up-to-date.</string>
-    <string name="load_failed_no_results">Sorry! Geen resultaten gevonden.</string>
+    <string name="load_failed_empty">Er valt hier niets te zien.</string>
+    <string name="load_failed_all_up_to_date">Alle apps zijn actueel.</string>
+    <string name="load_failed_no_results">Sorry, er zijn geen resultaten gevonden.</string>
     <string name="refresh">Vernieuwen</string>
-
     <string name="management">Beheer</string>
     <string name="app_updates">App-updates</string>
     <string name="app_management">Geïnstalleerd</string>
     <string name="app_uninstall">App verwijderen</string>
     <string name="apk_management">APK-beheer</string>
-    <string name="apk_xapk_management">APK / XAPK-beheer</string>
-    <string name="download_management">Download-beheer</string>
+    <string name="apk_xapk_management">APK-/XAPK-beheer</string>
+    <string name="download_management">Downloadbeheer</string>
     <string name="settings">Instellingen</string>
     <string name="about">Over</string>
-    <string name="about_title">Over <xliff:g example="APKPure" id="app_name">%1$s</xliff:g></string>
-    <string name="about_message">
-        <![CDATA[<b>Versie:</b> %1$s<br><br><b>Website:</b> <a href=%2$s>%2$s</a><br><b>Email:</b> <a href=mailto:%3$s>%3$s</a>]]>
+    <string name="about_title">Over <xliff:g example="APKPure" id="app_name">%1$s</xliff:g>
     </string>
-    <string name="check_update">Controleer op updates</string>
+    <string name="about_message">&lt;b&gt;Versie:&lt;/b&gt; %1$s&lt;br&gt;&lt;br&gt;&lt;b&gt;Website:&lt;/b&gt; &lt;a href=%2$s&gt;%2$s&lt;/a&gt;&lt;br&gt;&lt;b&gt;E-mailadres:&lt;/b&gt; &lt;a href=mailto:%3$s&gt;%3$s&lt;/a&gt;</string>
+    <string name="check_update">Controleren op updates</string>
     <string name="quit">Afsluiten</string>
-    <string name="want_to_quit">Weet je zeker dat je wil afsluiten?</string>
-
+    <string name="want_to_quit">Weet je zeker dat je wilt afsluiten\?</string>
     <string name="install">Installeren</string>
     <string name="open">Openen</string>
     <string name="delete">Verwijderen</string>
     <string name="properties">Eigenschappen</string>
-    <string name="properties_message">
-        <![CDATA[<b>Doel:</b> %1$s<br><b>Grootte:</b> %2$s<br><b>Laatst Gewijzigd:</b> %3$s]]>
-    </string>
-    <string name="want_to_delete_file">Wil je dit bestand verwijderen?</string>
+    <string name="properties_message">&lt;b&gt;Doel:&lt;/b&gt; %1$s&lt;br&gt;&lt;b&gt;Grootte:&lt;/b&gt; %2$s&lt;br&gt;&lt;b&gt;Laatst gewijzigd op:&lt;/b&gt; %3$s</string>
+    <string name="want_to_delete_file">Weet je zeker dat je dit bestand wilt verwijderen\?</string>
     <string name="file_has_been_deleted">Het bestand is verwijderd.</string>
-    <string name="failed_to_delete_file">Bestand verwijderen mislukt.</string>
-    <string name="install__label_">Installeren - <xliff:g example="APKPure" id="app_label">%1$s</xliff:g></string>
-    <string name="user_canceled">Gebruiker heeft geannuleerd.</string>
-    <string name="io_error">IO-fout. Er is wellicht te weinig beschikbare ruimte om de installatie te voltooien.</string>
+    <string name="failed_to_delete_file">Het bestand kan niet worden verwijderd.</string>
+    <string name="install__label_">
+        <xliff:g example="APKPure" id="app_label">%1$s</xliff:g> installeren</string>
+    <string name="user_canceled">Afgebroken door gebruiker.</string>
+    <string name="io_error">I/O-fout: onvoldoende ruimte beschikbaar om de installatie te voltooien.</string>
     <string name="file_format_error">Bestandsindelingfout.</string>
-    <string name="parsing_xapk">XAPK aan het parsen …</string>
-    <string name="installing_obb">OBB-bestanden aan het installeren …</string>
-    <string name="extracting_apk">APK-bestand aan het uitpakken …</string>
-    <string name="installing_apk">APK aan het installeren …</string>
-
-    <string name="uninstall">Deïnstalleren</string>
-    <string name="uninstalled">Gedeïnstalleerd</string>
-    <string name="last_update__date_">Laatste update: <xliff:g id="date">%1$s</xliff:g></string>
-
+    <string name="parsing_xapk">Bezig met verwerken van XAPK…</string>
+    <string name="installing_obb">Bezig met installeren van OBB-bestanden…</string>
+    <string name="extracting_apk">Bezig met uitpakken van APK-bestand…</string>
+    <string name="installing_apk">Bezig met installeren van APK-bestand…</string>
+    <string name="uninstall">Verwijderen</string>
+    <string name="uninstalled">Verwijderd</string>
+    <string name="last_update__date_">Nieuwste update: <xliff:g id="date">%1$s</xliff:g>
+    </string>
     <string name="all">Alles</string>
-
-    <string name="screenshots">Schermafbeeldingen</string>
+    <string name="screenshots">Schermfoto\'s</string>
     <string name="description">Beschrijving</string>
-    <string name="whatsnew">Wat is er nieuw</string>
+    <string name="whatsnew">Wijzigingslog</string>
     <string name="information">Informatie</string>
     <string name="version_">Versie:</string>
-    <string name="updated_">Geüpdatet:</string>
+    <string name="updated_">Bijgewerkt op:</string>
     <string name="size_">Grootte:</string>
-    <string name="permissions_">Permissies:</string>
-    <string name="type_">Type:</string>
+    <string name="permissions_">Machtigingen:</string>
+    <string name="type_">Soort:</string>
     <string name="category_">Categorie:</string>
-    <string name="more">meer</string>
-    <string name="permissions">Permissies</string>
+    <string name="more">Meer</string>
+    <string name="permissions">Machtigingen</string>
     <string name="other">Ander</string>
     <string name="apk">APK</string>
     <string name="xapk">XAPK</string>
     <string name="unknown">Onbekend</string>
     <string name="_ellipsis_"> … </string>
-
-    <string name="market_response_error_success">Gelukt.</string>
+    <string name="market_response_error_success">Voltooid.</string>
     <string name="market_response_error_invalid_result">Ongeldig resultaat.</string>
     <string name="market_response_error_network_connect_error">Netwerkverbindingsfout.</string>
     <string name="market_response_error_network_read_error">Netwerkleesfout.</string>
     <string name="market_response_error_invalid_response_code">Ongeldige reactiecode.</string>
     <string name="market_response_error_invalid_response_body">Ongeldige reactieinhoud.</string>
     <string name="market_response_error_unknown_error__error_">Onbekende fout (<xliff:g example="SUCCESS" id="error">%1$s</xliff:g>).</string>
-
     <string name="no_more">Niets meer.</string>
-
     <string name="update">Updaten</string>
-    <string name="version__version___size_">Versie: <xliff:g example="1.0.0" id="version">%1$s</xliff:g>, <xliff:g example="1024 kB" id="size">%2$s</xliff:g></string>
+    <string name="version__version___size_">Versie: <xliff:g example="1.0.0" id="version">%1$s</xliff:g>, <xliff:g example="1024 kB" id="size">%2$s</xliff:g>
+    </string>
     <plurals name="_count__new_update_is_available">
-	<item quantity="one"><xliff:g example="1" id="count">%1$d</xliff:g> nieuwe update is beschikbaar</item>
-	<item quantity="other"><xliff:g example="2" id="count">%1$d</xliff:g> nieuwe updates zijn beschikbaar</item>
-</plurals>
-
-    <string name="launching_please_wait">Aan het starten, een moment geduld…</string>
-
+        <item quantity="one">Er is <xliff:g example="1" id="count">%1$d</xliff:g> update beschikbaar</item>
+        <item quantity="other">Er zijn <xliff:g example="2" id="count">%1$d</xliff:g> updates beschikbaar</item>
+    </plurals>
+    <string name="launching_please_wait">Bezig met starten; even geduld…</string>
     <plurals name="_count__item_is_downloading">
-	<item quantity="one"><xliff:g example="1" id="count">%1$d</xliff:g> item wordt gedownload</item>
-	<item quantity="other"><xliff:g example="2" id="count">%1$d</xliff:g> items worden gedownload</item>
-</plurals>
+        <item quantity="one">Bezig met downloaden van <xliff:g example="1" id="count">%1$d</xliff:g> item…</item>
+        <item quantity="other">"Bezig met downloaden van  "<xliff:g example="2" id="count">%1$d</xliff:g> items…</item>
+    </plurals>
     <string name="downloads_complete">Downloads voltooid</string>
-    <string name="touch_for_view_all_downloads">Raak aan om alle downloads te zien</string>
-    <string name="_name__download_failed"><xliff:g example="APKPure" id="name">%1$s</xliff:g> download mislukt</string>
-    <string name="touch_to_download_it_again">Raak aan om opnieuw te downloaden</string>
-
-    <string name="download_percent"><xliff:g example="50" id="percent">%1$d</xliff:g>%%</string>
-    <string name="pause">Pauseren</string>
-    <string name="continue_">Verder gaan</string>
+    <string name="touch_for_view_all_downloads">Druk hier om alle downloads te tonen</string>
+    <string name="_name__download_failed">Het downloaden van <xliff:g example="APKPure" id="name">%1$s</xliff:g> is mislukt</string>
+    <string name="touch_to_download_it_again">Druk hier om opnieuw te downloaden</string>
+    <string name="download_percent">
+        <xliff:g example="50" id="percent">%1$d</xliff:g>%%</string>
+    <string name="pause">Onderbreken</string>
+    <string name="continue_">Doorgaan</string>
     <string name="restart">Herstarten</string>
     <string name="download">Downloaden</string>
-    <string name="downloading">Aan het downloaden</string>
-    <string name="waiting">Aan het wachten</string>
-    <string name="preparing">Aan het voorbereiden</string>
+    <string name="downloading">Bezig met downloaden</string>
+    <string name="waiting">Bezig met wachten</string>
+    <string name="preparing">Bezig met voorbereiden</string>
     <string name="completed">Voltooid</string>
-    <string name="paused">Gepauseerd</string>
+    <string name="paused">Onderbroken</string>
     <string name="failed">Mislukt</string>
     <string name="file_invalid">Bestand ongeldig</string>
     <string name="file_missing">Bestand ontbreekt</string>
     <string name="expired">Verlopen</string>
-    <string name="detail">Detail</string>
+    <string name="detail">Informatie</string>
     <string name="remove">Verwijderen</string>
-    <string name="want_to_remove_download_item">Wil je dit gedownloade item verwijderen?</string>
-    <string name="delete_downloaded_file">Verwijder gedownload bestand</string>
-
+    <string name="want_to_remove_download_item">Weet je zeker dat je dit item wilt verwijderen\?</string>
+    <string name="delete_downloaded_file">Gedownload bestand verwijderen</string>
     <string name="search">Zoeken</string>
-    <string name="search_for_apps">APK Zoeken</string>
-    <string name="trending_searches">Trends in zoekopdrachten</string>
-
-    <string name="improvement_plan_title">Prestatieverbeteringsplan</string>
-    <string name="improvement_plan_message">
- Help ons door Android toestelinformatie te sturen, We verzamelen <b>geen</b> persoonlijk identificeerbare gegevens (naam, adres, e-mailadres, telefoonnummer, of andere unieke identificatienummers).
- </string>
-    <string name="join_us">Word Lid</string>
+    <string name="search_for_apps">APKPure doorzoeken</string>
+    <string name="trending_searches">Populaire zoekopdrachten</string>
+    <string name="improvement_plan_title">Verbeteringsplan omtrent gebruikerservaring</string>
+    <string name="improvement_plan_message">Help ons jouw gebruikservaring te verbeteren door je Android-apparaatinformatie te versturen. We verzamelen <b>geen</b> persoonlijk identificeerbare gegevens (naam, adres, e-mailadres, telefoonnummer, of andere unieke identificatienummers).</string>
+    <string name="join_us">Meehelpen</string>
     <string name="skip">Overslaan</string>
-
-    <string name="_name__is_up_to_date"><xliff:g example="APKPure" id="name">%1$s</xliff:g> is up-to-date.</string>
-    <string name="new_version_available_title">Nieuwe Versie Beschikbaar</string>
-    <string name="new_version_available_message">
-        <![CDATA[<b>Laatste Versie:</b> %1$s<br><br><b>Wat Is Er Nieuw:</b><br>%2$s]]>
-    </string>
-
+    <string name="_name__is_up_to_date">
+        <xliff:g example="APKPure" id="name">%1$s</xliff:g> is actueel.</string>
+    <string name="new_version_available_title">Nieuwe versie beschikbaar</string>
+    <string name="new_version_available_message">&lt;b&gt;Nieuwste versie:&lt;/b&gt; %1$s&lt;br&gt;&lt;br&gt;&lt;b&gt;Wijzigingslog:&lt;/b&gt;&lt;br&gt;%2$s</string>
     <string name="report__">Melden…</string>
-    <string name="report_problem__">Een probleem melden…</string>
+    <string name="report_problem__">Meld een probleem…</string>
     <string name="report_problem_subject">Meld een probleem</string>
-    <string name="report_problem_text">Onderwerp probleem:\n%1$s\n\nDetail over probleem:\n%2$s</string>
-
-    <string name="installation_failed">Installatie Mislukt</string>
-    <string name="invalid_app_detail">Ongeldige app-detailinformatie.</string>
+    <string name="report_problem_text">Probleemonderwerp:
+\n%1$s
+\n
+\nInformatie omtrent probleem:
+\n%2$s</string>
+    <string name="installation_failed">Installatie mislukt.</string>
+    <string name="invalid_app_detail">Ongeldige app-informatie.</string>
     <string name="invalid_app_asset">Ongeldige appinformatie-invoer.</string>
-    <string name="failed_to_request_app_detail">Opvragen app-detailinformatie mislukt.</string>
+    <string name="failed_to_request_app_detail">Opvragen van app-informatie mislukt.</string>
     <string name="failed_to_request_app_asset">Opvragen app-invoerinformatie mislukt.</string>
     <string name="incompatible_this_app">
         <![CDATA[<big><b><font color="%1$d">Je apparaat is niet compatibel met deze app.</font></b></big><br><br>Wil je doorgaan?]]>
@@ -161,22 +142,25 @@
     <string name="this_app_not_usable">
         <![CDATA[<big><b><font color="%1$d">Deze app is mogelijk onbruikbaar.</font></b></big><br><br>Wil je doorgaan?]]>
     </string>
-
-    <string name="setting">Instelling</string>
+    <string name="setting">Instellingen</string>
     <string name="external_storage_not_usable">
- <big><b>We hebben toegang nodig tot je externe opslag. Zorg er alsjeblieft voor dat het te gebruiken is.</b></big>
- </string>
+        <big>
+            <b>APKPure heeft toegang nodig tot je externe opslag. Zorg er voor dat het te gebruiken is.</b>
+        </big>
+    </string>
     <string name="external_storage_permission_denied">
- <big><b>We hebben toegang nodig tot je externe opslag. Zorg er alsjeblieft voor dat de machtiging niet is geweigerd.</b></big>
- </string>
-
+        <big>
+            <b>APKPure heeft toegang nodig tot je externe opslag. Zorg er voor dat de machtiging niet is geweigerd.</b>
+        </big>
+    </string>
     <string name="share">Delen</string>
-    <string name="share_app_url">Download <xliff:g example="APKPure" id="app_name">%1$s</xliff:g> APK (from @<xliff:g example="APKPure" id="social_network_name">%2$s</xliff:g>), <xliff:g example="https://apkpure.com/p/com.apkpure.aegon" id="app_url">%3$s</xliff:g></string>
-
-    <string name="_name__version_history"><xliff:g example="APKPure" id="name">%1$s</xliff:g> Versiegeschiedenis</string>
-    <string name="update__date___size_">Update: <xliff:g example="Mar 3, 2016" id="date">%1$s</xliff:g>, <xliff:g example="1024 kB" id="size">%2$s</xliff:g></string>
-
-    <string name="update_all">Alles Updaten</string>
+    <string name="share_app_url"> Deel <xliff:g example="APKPure" id="app_name">%1$s</xliff:g> APK (from <xliff:g example="APKPure" id="social_network_name">%2$s</xliff:g>) <xliff:g example="https://apkpure.com/p/com.apkpure.aegon" id="app_url">%3$s</xliff:g>
+    </string>
+    <string name="_name__version_history">
+        <xliff:g example="APKPure" id="name">%1$s</xliff:g> Versiegeschiedenis</string>
+    <string name="update__date___size_">Update van <xliff:g example="Mar 3, 2016" id="date">%1$s</xliff:g>, <xliff:g example="1024 kB" id="size">%2$s</xliff:g>
+    </string>
+    <string name="update_all">Alles updaten</string>
     <string name="update___count__">(<xliff:g example="3" id="count">%1$d</xliff:g>) updaten</string>
     <string name="ignore">Negeren</string>
     <string name="unignore">Niet meer negeren</string>
@@ -194,154 +178,133 @@
     <string name="total_zero_app">
         <![CDATA[Totaal: <b><font color="%1$d">0</font></b> app]]>
     </string>
-
     <string name="general">Algemeen</string>
     <string name="language">Taal</string>
     <string name="auto">Automatisch</string>
-
     <string name="installation">Installatie</string>
-    <string name="show_notification_after_installation">Laat notificatie zien na installatie</string>
-    <string name="delete_packages_after_installation">Verwijder APK-bestanden na installatie</string>
-
-    <string name="_name__installation_completed"><xliff:g example="APKPure" id="name">%1$s</xliff:g> installatie voltooid</string>
-    <string name="touch_to_open">Raak aan om te openen.</string>
+    <string name="show_notification_after_installation">Melding tonen na voltooiien van installatie</string>
+    <string name="delete_packages_after_installation">APK-bestanden verwijderen na installatie</string>
+    <string name="_name__installation_completed">
+        <xliff:g example="APKPure" id="name">%1$s</xliff:g>-installatie voltooid</string>
+    <string name="touch_to_open">Druk hier om te openen.</string>
     <string name="search_history">Geschiedenis</string>
     <string name="clear_search_history">Geschiedenis wissen</string>
-    <string name="waiting_to_download">Aan het wachten om te downloaden</string>
+    <string name="waiting_to_download">Bezig met wachten om te downloaden</string>
     <string name="deleted">Verwijderd</string>
     <string name="flag_as_inappropriate">Markeren als ongepast</string>
-    <string name="contact_us">Neem Contact Op</string>
-    <string name="report_content">Inhoud Melden</string>
-    <string name="delete_all">Verwijder Alles</string>
-    <string name="want_to_delete_all_files">Wil je alle bestanden verwijderen?</string>
-    <string name="pause_all">Pauzeer Alles</string>
-    <string name="continue_all">Hervat Alles</string>
-    <string name="remove_all">Verwijder Alles</string>
-    <string name="want_to_remove_all_download_items">Wil je alle gedownloade bestanden verwijderen?</string>
-    <string name="contact_us__">Neem Contact Op…</string>
-    <string name="select_all">Selecteer Alles</string>
-    <string name="deselect_all">Deselecteer Alles</string>
-<string name="similar_or_related">soortgelijke of verwante</string>
-    <string name="more_from_developer">Meer van Ontwikkelaar</string>
+    <string name="contact_us">Neem contact op</string>
+    <string name="report_content">Inhoud melden</string>
+    <string name="delete_all">Alles verwijderen</string>
+    <string name="want_to_delete_all_files">Weet je zeker dat je alle bestanden wilt verwijderen\?</string>
+    <string name="pause_all">Alles onderbreken</string>
+    <string name="continue_all">Alles hervatten</string>
+    <string name="remove_all">Alles verwijderen</string>
+    <string name="want_to_remove_all_download_items">Weet je zeker dat je alle items wilt verwijderen\?</string>
+    <string name="contact_us__">Contact opnemen…</string>
+    <string name="select_all">Alles selecteren</string>
+    <string name="deselect_all">Alles deselecteren</string>
+    <string name="similar_or_related">Soortgelijke of verwante</string>
+    <string name="more_from_developer">Meer apps van ontwikkelaar</string>
     <string name="more_large">Meer</string>
     <string name="installed">Geïnstalleerd</string>
-    <string name="download_over_cellular">Download over 4G</string>
-    <string name="download_over_cellular_content">Je gaat downloaden via uw mobiele netwerk. Wilt u doorgaan?</string>
-
-    <string name="participate_ultra_download_beta_test_title">schakel Ultra Download in en geniet van een snellere download snelheid</string>
-    <string name="participate_ultra_download_beta_test_content">Ultra Download is in beta testen, laat het ons weten als u problemen ondervindt. U kunt het gemakkelijk onder Instellingen.</string>
-    <string name="enable">inschakelen</string>
-
+    <string name="download_over_cellular">Downloaden via mobiel internet</string>
+    <string name="download_over_cellular_content">Je staat op het punt iets te downloaden via mobiel internet. Wil je doorgaan\?</string>
+    <string name="participate_ultra_download_beta_test_title">Schakel supersnel downloaden in en geniet van een hogere downloadsnelheid</string>
+    <string name="participate_ultra_download_beta_test_content">Supersnel downloaden bevindt zich momenteel in het bètastadium - geef problemen aan ons door. Schakel het uit in de instellingen.</string>
+    <string name="enable">Inschakelen</string>
     <string name="feedback">Feedback</string>
-
-    <string name="changing_language">Het veranderen van de taal, even geduld …</string>
-    <string name="download_via_wifi_only">Download alleen over Wifi</string>
-    <string name="enable_ultra_download">Schakel Ultra Download in</string>
-    <string name="enable_ultra_download_summary">Ultra Download is in beta testen, laat het ons weten als u problemen ondervindt.</string>
+    <string name="changing_language">Bezig met toepassen van taal; even geduld…</string>
+    <string name="download_via_wifi_only">Alleen downloaden via Wi-Fi</string>
+    <string name="enable_ultra_download">Supersnel downloaden</string>
+    <string name="enable_ultra_download_summary">Supersnel downloaden bevindt zich momenteel in het bètastadium - geef problemen aan ons door.</string>
     <string name="auto_service_install_accessibility_title">Automatisch installeren</string>
-    <string name="auto_service_install_accessibility_summary">Ondersteuning voor Android 4.1 en hoger, geen wortel toestemming nodig.</string>
-
-    <string name="auto_service_dialog_title">Schakel Automatische installatie in</string>
-    <string name="auto_service_dialog_message">Auto Install vereist dat u toe te staan aan de telefoon, het is veilig om te gebruiken zonder risico\'s.</string>
-
-    <string name="auto_service_title">APKPure automatische installeerder</string>
+    <string name="auto_service_install_accessibility_summary">Ondersteuning voor Android 4.1 en hoger - geen roottoegang benodigd.</string>
+    <string name="auto_service_dialog_title">Automatisch installeren inschakelen</string>
+    <string name="auto_service_dialog_message">Automatisch installeren vereist jouw goedkeuring - het is 100% veilig.</string>
+    <string name="auto_service_title">APKPure automatisch installeren</string>
     <string name="auto_service_install">Installeren</string>
-    <string name="auto_service_ensure">OK</string>
+    <string name="auto_service_ensure">Oké</string>
     <string name="auto_service_next">Volgende</string>
     <string name="auto_service_exchange">Vervangen</string>
     <string name="auto_service_complete">Klaar</string>
-
     <string name="auto_service_install__material_">INSTALLEREN</string>
-    <string name="auto_service_ensure__material_">OK</string>
+    <string name="auto_service_ensure__material_">OKÉ</string>
     <string name="auto_service_next__material_">VOLGENDE</string>
     <string name="auto_service_exchange__material_">VERVANGEN</string>
     <string name="auto_service_complete__material_">KLAAR</string>
-
-    <string name="auto_install_via_root_title">Automatisch Installeren (wortel modus)</string>
-    <string name="auto_install_via_root_summary">Alleen voor gewortelde Android-telefoons en tablets.</string>
-
+    <string name="auto_install_via_root_title">Automatisch installeren (rootmodus)</string>
+    <string name="auto_install_via_root_summary">Alleen voor geroote Android-telefoons en -tablets.</string>
     <string name="download_complete_installation_setting">Installatie-optie na het downloaden</string>
-    <string name="auto_service_description">Schakel \"APKPure Auto Install\" in, om APKPures \"Auto Install\" soepel te laten werken.
-
-\"APKPure Auto Install\" kan je helpen met het aanklikken van alle installatieknoppen wanneer je apps installeert of aan het updaten bent, zodat je niet je telefoon constant hoeft te controleren.
-
-Als je deze dienst inschakelt kan je waarschuwingen voor systemrisico\'s ontvangen; klik alsjeblieft op \"OK\" om de toegankelijkheidsschakelaar op \"AAN\" te zetten.
-
-Om APKPure goed te laten functioneren moet je APKPure toevoegen aan je Clean App \"White List\".
-
-De bovengenoemde functies ondersteunen Android 4.1+, The above mentioned functions support Android 4.1+, geen root-toestemming nodig. We beloven dat persoonlijke gegevens nooit zullen worden verzameld in deze toegankelijkheidsdienst. Aarzel niet om contact met ons op te nemen in geval van eventuele problemen.</string>
-
-    <string name="recommend">Ontdek</string>
-    <string name="report">Melden</string>
-    <string name="share_app_url_comment"> Opmerking van <xliff:g example="APKPure" id="user_name">%1$s</xliff:g> op <xliff:g example="APKPure" id="app_name">%2$s</xliff:g> (via @<xliff:g example="APKPure" id="social_network_name">%3$s</xliff:g>, <xliff:g example="https://apkpure.com/p/com.apkpure.aegon" id="app_url">%4$s</xliff:g></string>
-
-    <plurals name="app_detail_see_all_replies">
-	<item quantity="one">Bekijk <xliff:g example="1" id="count">%1$d</xliff:g> opmerking</item>
-	<item quantity="other">Bekijk de <xliff:g example="2" id="count">%1$d</xliff:g> opmerkingen</item>
-</plurals>
-
-    <string name="app_detail_customer_reviews">Gebruikersopmerkingen</string>
-    <string name="app_detail_comment_type_web">Internet</string>
-    <string name="app_submit_submit">…
+    <string name="auto_service_description">Schakel \'APKPure automatisch installeren\' in om APKPures \'automatische installatie\' soepel te laten werken.
 \n
-\nVerzenden…</string>
-    <string name="app_submit_anonymous_comment">Voeg een opmerking toe</string>
-    <string name="app_submit_title_toast">Je moet een titel invoeren!</string>
-    <string name="app_submit_msg_toast">Je moet iets schrijven!</string>
-    <string name="app_submit_name_toast">Vul alsjeblieft een bijnaam in!</string>
-    <string name="app_submit_email_toast">Vul alsjeblieft het correcte e-mailadres in!</string>
-    <string name="app_submit_star_toast">Je moet sterren invoeren!</string>
-    <string name="app_submit_title_hint">Schrijf alsjeblieft een titel</string>
-    <string name="app_submit_msg_hint">Schrijf alsjeblieft je mening</string>
+\n\'APKPure automatisch installeren\' drukt alle installatieknoppen automatisch voor je in als je apps installeert of updatet. Zo hoef je je telefoon niet constant te controleren.
+\n
+\nAls je deze dienst inschakelt, kan je waarschuwingen omtrent systeemrisico\'s ontvangen. Druk op \'Oké\' om de toegankelijkheidsschakelaar aan te zetten.
+\n
+\nOm APKPure goed te laten functioneren moet je APKPure toevoegen aan de \'witte lijst\' van je anti-virusapp.
+\n
+\nBovenstaande functies ondersteunen Android 4.1 en hoger en vereisen geen roottoegang. We beloven dat persoonlijke gegevens nooit worden verzameld middels deze toegankelijkheidsdienst. Neem contact met ons op bij problemen.</string>
+    <string name="recommend">Ontdekken</string>
+    <string name="report">Melden</string>
+    <string name="share_app_url_comment">
+        <xliff:g example="APKPure" id="user_name">%1$s</xliff:g>\'s reacties op <xliff:g example="APKPure" id="app_name">%2$s</xliff:g> : <xliff:g example="APKPure" id="app_name">%3$s</xliff:g> (van <xliff:g example="APKPure" id="social_network_name">%4$s</xliff:g>) <xliff:g example="https://apkpure.com/p/com.apkpure.aegon" id="app_url">%5$s</xliff:g>
+    </string>
+    <plurals name="app_detail_see_all_replies">
+        <item quantity="one">
+            <xliff:g example="1" id="count">%1$d</xliff:g> reactie tonen</item>
+        <item quantity="other">
+            <xliff:g example="2" id="count">%1$d</xliff:g> reacties tonen</item>
+    </plurals>
+    <string name="app_detail_customer_reviews">Reacties</string>
+    <string name="app_detail_comment_type_web">Internet</string>
+    <string name="app_submit_submit">Bezig met versturen…</string>
+    <string name="app_submit_anonymous_comment">Reactie achterlaten</string>
+    <string name="app_submit_title_toast">Voer een titel in!</string>
+    <string name="app_submit_msg_toast">Typ een bericht!</string>
+    <string name="app_submit_name_toast">Voer je bijnaam in!</string>
+    <string name="app_submit_email_toast">Voer een geldig e-mailadres in!</string>
+    <string name="app_submit_star_toast">Verstuur je beoordeling!</string>
+    <string name="app_submit_title_hint">Voer een titel in!</string>
+    <string name="app_submit_msg_hint">Typ een reactie!</string>
     <string name="app_submit_nickname">Bijnaam</string>
     <string name="app_submit_email">E-mailadres</string>
-    <string name="app_submit_submit_title">verzenden</string>
-    <string name="app_submit_reply_to">reageer op</string>
+    <string name="app_submit_submit_title">Plaatsen</string>
+    <string name="app_submit_reply_to">heeft gereageerd op</string>
     <string name="app_detail_reply_comment">Opmerking(%d)</string>
     <string name="app_detail_reply_esc">Sorteer op beste</string>
     <string name="app_detail_reply_desc">Sorteer omgekeerd</string>
     <string name="app_detail_reply_floor">onderaan%d</string>
-
-    <string name="app_detail_tab_one">Details</string>
-    <string name="app_detail_tab_two">Opmerkingen</string>
-    <string name="app_detail_tab_three">Gerelateerd</string>
-
+    <string name="app_detail_tab_one">Informatie</string>
+    <string name="app_detail_tab_two">Groep</string>
+    <string name="app_detail_tab_three">Vergelijkbaar</string>
     <string name="app_detail_comment_order_array_recent">Recent</string>
     <string name="app_detail_comment_order_array_newest">Nieuwste</string>
     <string name="app_detail_comment_order_array_best">Beste</string>
-
     <string name="download_complete_installation_setting_entries_always">Altijd installeren</string>
     <string name="download_complete_installation_setting_entries_only">Alleen installeren als app actief is</string>
     <string name="download_complete_installation_setting_entries_never">Nooit installeren</string>
-
     <string name="reply">Reageren</string>
-    <string name="input_reply_content">De inhoud van je bericht:</string>
-    <string name="publish">Publiceren</string>
-    <string name="reply_dialog_marked_words">Houdt de geselecteerde afbeelding ingedrukt om deze te verwijderen.</string>
-    <string name="reply_comment">Reageren op opmerking</string>
+    <string name="input_reply_content">Typ een reactie:</string>
+    <string name="publish">Plaatsen</string>
+    <string name="reply_dialog_marked_words">Houd de afbeelding ingedrukt om deze te verwijderen.</string>
+    <string name="reply_comment">Reageren op reactie</string>
     <string name="save_original_image">Opslaan</string>
-    <string name="already_save">Opgeslagen<xliff:g example="ApKPure/photo" id="path">%1$s</xliff:g></string>
-
-    <string name="load_end">Geen gegevens meer</string>
-    <string name="load_failed_click_retry">Laden mislukt; klik om opnieuw te proberen</string>
+    <string name="already_save">
+        <xliff:g example="ApKPure/photo" id="path">%1$s</xliff:g> is opgeslagen</string>
+    <string name="load_end">Geen gegevens meer.</string>
+    <string name="load_failed_click_retry">Het laden is mislukt; druk om opnieuw te proberen.</string>
     <string name="loading">Bezig met laden…</string>
-
-    <string name="scan_qr_code_hint">Om \'Scan QR-Code\' te kunnen gebruiken, moet je de camera toestemming verlenen;
-dit is nodig om de QR-code te kunnen scannen.</string>
+    <string name="scan_qr_code_hint">Als je de functie \'QR-code scannen\' wilt gebruiken, moet je de camera machtigen. Dit is nodig om de QR-code uit te kunnen lezen.</string>
     <string name="zxing_msg_default_status">Plaats de QR-code binnen de zoeker om hem te scannen.</string>
-    <string name="zxing_msg_parser_status">Scannen mislukt; probeer de QR-code opnieuw te scannen.</string>
-
-    <string name="tip_permission_camera_storage">Geen toestemming om de camera en de SD-kaart te gebruiken; open machtigingenbeheer</string>
+    <string name="zxing_msg_parser_status">Het scannen is mislukt - probeer het opnieuw.</string>
+    <string name="tip_permission_camera_storage">Je hebt geen toegang tot de camera en sd-kaart verleend. Open machtigingen-/rechtenbeheer op je telefoon om dit alsnog te doen.</string>
     <string name="permission_denied">Toegang geweigerd!</string>
-
     <string name="login_title">Inloggen</string>
     <string name="sign_out">Uitloggen</string>
-
-    <string name="delete_comment">Opmerking verwijderen</string>
-    <string name="delete_comment_msg">Weet je zeker dat je deze opmerking wilt verwijderen?</string>
-    <string name="upload_cancel">Upload is geannuleerd</string>
+    <string name="delete_comment">Reactie verwijderen</string>
+    <string name="delete_comment_msg">Weet je zeker dat je deze reactie wilt verwijderen\?</string>
+    <string name="upload_cancel">Het uploaden is afgebroken</string>
     <string name="login_select_way_to_login">Kies een inlogmethode</string>
-
     <string name="user_info_edit_title">Profiel</string>
     <string name="user_info_edit_portrait_tv">Profielafbeelding</string>
     <string name="user_info_edit_username_tv">Gebruikersnaam</string>
@@ -354,162 +317,468 @@ dit is nodig om de QR-code te kunnen scannen.</string>
     <string name="user_info_edit_not_choose">Onbekend</string>
     <string name="user_info_edit_gender_male">Man</string>
     <string name="user_info_edit_gender_female">Vrouw</string>
-    <string name="user_info_edit_portrait_album">Selecteer foto uit galerij</string>
+    <string name="user_info_edit_portrait_album">Foto kiezen uit galerij</string>
     <string name="user_info_edit_portrait_take_photo">Foto maken met camera</string>
-    <string name="user_info_edit_portrait_error">Afbeeldingstype wordt niet ondersteund</string>
+    <string name="user_info_edit_portrait_error">Dit bestandstype wordt niet ondersteund.</string>
     <string name="user_info_edit_ok">Oké</string>
     <string name="user_info_edit_cancel">Annuleren</string>
-
     <string name="update_nick_title">Bijnaam wijzigen</string>
     <string name="update_email_title">E-mailadres wijzigen</string>
     <string name="update_nick_name_et">Voer je nieuwe bijnaam in</string>
-    <string name="update_nick_name_tv">De nieuwe bijnaam mag niet leeg zijn</string>
+    <string name="update_nick_name_tv">Geef een bijnaam op.</string>
     <string name="update_email_name_et">Voer je e-mailadres in</string>
-    <string name="update_eamil_name_tv">E-mailadres mag niet leeg zijn</string>
-    <string name="update_nickname_error">Deze bijnaam is al in gebruik; kies een andere!</string>
-
+    <string name="update_eamil_name_tv">Geef een e-mailadres op.</string>
+    <string name="update_nickname_error">Deze bijnaam is al in gebruik - kies een andere!</string>
     <string name="update_pwd_title">Mijn wachtwoord herstellen</string>
-    <string name="update_pwd_current_pwd_et">Oude wachtwoord</string>
-    <string name="update_pwd_new_pwd_et">Nieuwe wachtwoord</string>
-    <string name="update_pwd_Confirm_pwd_et">Nieuwe wachtwoord bevestigen</string>
+    <string name="update_pwd_current_pwd_et">Vorig wachtwoord</string>
+    <string name="update_pwd_new_pwd_et">Nieuw wachtwoord</string>
+    <string name="update_pwd_Confirm_pwd_et">Nieuw wachtwoord bevestigen</string>
     <string name="upload_avatar">Bezig met uploaden…</string>
-    <string name="update_pwd_current_null_tv">Oude wachtwoord mag niet leeg zijn</string>
-    <string name="update_pwd_Confirm_null_tv">Wachtwoord bevestigen mag niet leeg zijn</string>
-    <string name="update_pwd_new_pwd_null_tv">Nieuwe wachtwoord mag niet leeg zijn</string>
-    <string name="update_pwd_new_confrim_tv">De ingevoerde wachtwoorden komen niet overeen</string>
+    <string name="update_pwd_current_null_tv">Voer je vorige wachtwoord in.</string>
+    <string name="update_pwd_Confirm_null_tv">Bevestig je nieuwe wachtwoord.</string>
+    <string name="update_pwd_new_pwd_null_tv">Voer een nieuw wachtwoord in.</string>
+    <string name="update_pwd_new_confrim_tv">De ingevoerde wachtwoorden komen niet overeen.</string>
     <string name="update_pwd_save_bt">Opslaan</string>
-    <string name="update_save_success">Succesvol opgeslagen!</string>
+    <string name="update_save_success">Opgeslagen!</string>
     <string name="crop__cancel" ignore="ButtonCase">Annuleren</string>
     <string name="crop__done">Klaar</string>
-    <string name="crop__pick_error">Ongeldig afbeeldingstype</string>
+    <string name="crop__pick_error">Ongeldig bestandstype.</string>
     <string name="crop__saving">Bezig met opslaan van foto…</string>
     <string name="crop__wait">Even geduld…</string>
-
-    <string name="is_comment">Opmerking is…</string>
-    <string name="comment_cancel">Opmerking is geannuleerd</string>
-    <string name="comment_replying">Bezig met toevoegen van reactie…</string>
+    <string name="is_comment">Reactie is…</string>
+    <string name="comment_cancel">Het reageren is afgebroken</string>
+    <string name="comment_replying">Bezig met plaatsen…</string>
     <string name="register_term_of_service">APKPure-gebruiksvoorwaarden</string>
-
     <string name="set_contributor">Bijdrager</string>
     <string name="set_permissions">Machtigingen</string>
-    
-    <string name="sign_in_services">Door te registreren ga je akkoord met de voorwaarden en het privacybeleid.</string>
-
+    <string name="sign_in_services">Als je je registreert, ga je akkoord met de voorwaarden en het privacybeleid.</string>
     <string name="sign_in_services_key">Voorwaarden</string>
     <string name="sign_in_services_key_policy">Privacybeleid</string>
-
     <string name="user_sign_up">Registreren</string>
     <string name="user_name_hint">Gebruikersnaam</string>
     <string name="user_email_hint">E-mailadres</string>
-    <string name="user_password">Wachtwoord(6-32)</string>
+    <string name="user_password">Wachtwoord (6-32 tekens)</string>
     <string name="user_password_confirm">Wachtwoord bevestigen</string>
-
-    <string name="user_name_error">Gebruikersnaam mag geen speciale tekens, symbolen of spaties bevatten</string>
-    <string name="user_nickname_error">Bijnaam mag geen speciale tekens, symbolen of spaties bevatten</string>
-    <string name="user_email_error">Dit e-mailadres is ongeldig</string>
-    <string name="user_password_error">Dit wachtwoord is ongeldig</string>
-    <string name="user_confirm_error">Wachtwoorden moeten overeenkomen</string>
-
-    <string name="login_user_name">Gebruikersnaam</string>
+    <string name="user_name_error">Je gebruikersnaam mag geen speciale tekens, symbolen of spaties bevatten.</string>
+    <string name="user_nickname_error">Je bijnaam mag geen speciale tekens, symbolen of spaties bevatten.</string>
+    <string name="user_email_error">Ongeldig e-mailadres.</string>
+    <string name="user_password_error">Ongeldig wachtwoord.</string>
+    <string name="user_confirm_error">De wachtwoorden komen niet overeen.</string>
+    <string name="login_user_name">Gebruikersnaam of e-mailadres</string>
     <string name="login_user_password">Wachtwoord</string>
     <string name="login_user_sign_in">Registreren</string>
-    <string name="login_choose">Of log in met je account</string>
+    <string name="login_choose">Of log in met je socialenetwerkaccount</string>
     <string name="login_new_user">Nieuwe gebruikersregistratie</string>
-    <string name="login_post_as_a_guest">Versturen als gast</string>
-
-<string name="app_detail_comment_order_array_most_recent">Meest recente</string>
+    <string name="login_post_as_a_guest">Plaatsen als gastgebruiker</string>
+    <string name="app_detail_comment_order_array_most_recent">Meest recent</string>
     <string name="app_detail_comment_order_array_new">Nieuwste</string>
     <string name="message_reply">REACTIES</string>
     <string name="message_praise">VIND-IK-LEUKS</string>
-    <string name="message_notifications_praise">Je reactie is omhoog gestemd</string>
-    <string name="message_notifications_reply">Reactie op jouw opmerking</string>
+    <string name="message_notifications_praise">heeft je reactie omhoog gestemd</string>
+    <string name="message_notifications_reply">heeft gereageerd op jouw reactie</string>
     <string name="message_notifications_login">Log in om deze pagina te bekijken.</string>
-
     <string name="comment_submitting">Bezig met versturen…</string>
     <string name="app_detail_comment_order_array_default">Standaardvolgorde</string>
-    <string name="load_failed_error_not_found">Deze app is niet aanwezig in de APKPure app-winkel!</string>
+    <string name="load_failed_error_not_found">Deze app is niet aanwezig in APKPure!</string>
     <string name="check_update_replace">Officiële versie</string>
-    <string name="check_update_beta">Vooruitgegeven bèta</string>
+    <string name="check_update_beta">Vroegtijdig vrijgegeven bèta</string>
     <string name="beta">Bèta</string>
     <string name="history_version">Versiegeschiedenis</string>
-
-    <string name="share_app_url_group"> <xliff:g example="APKPure" id="app_name">%1$s</xliff:g> groep. (uit @<xliff:g example="APKPure" id="social_network_name">%2$s</xliff:g>) <xliff:g example="https://apkpure.com/p/com.apkpure.aegon" id="app_url">%3$s</xliff:g></string>
-
+    <string name="share_app_url_group">
+        <xliff:g example="APKPure" id="app_name">%1$s</xliff:g>-groep. (van <xliff:g example="APKPure" id="social_network_name">%2$s</xliff:g>) <xliff:g example="https://apkpure.com/p/com.apkpure.aegon" id="app_url">%3$s</xliff:g>
+    </string>
     <string name="data_saver_model">Gegevensbesparing</string>
-    <string name="data_saver_model_summery">Als dit wordt ingeschakeld, dan wordt de afbeeldingsgrootte en -kwaliteit verlaagd om mobiele gegevens te besparen.</string>
-    <string name="app_detail_comment_order_array_old">Oud</string>
-
+    <string name="data_saver_model_summery">Schakel dit in om de afbeeldingsgrootte en -kwaliteit te verlagen om mb\'s te besparen.</string>
+    <string name="app_detail_comment_order_array_old">Oudste</string>
     <string name="app_detail_comment_join_group_bt">Groep</string>
     <string name="download_mkdir">Downloadpad</string>
-    <string name="download_mkdir_internal_storage_size_des">%1$s vrij, totaal %2$s</string>
-    <string name="download_mkdir_internal_storage_entries">"SD "</string>
+    <string name="download_mkdir_internal_storage_size_des">%1$s vrij - %2$s totaal</string>
+    <string name="download_mkdir_internal_storage_entries">SD</string>
     <string name="download_mkdir_internal_storage_entries1">SD 1</string>
-    <string name="download_mkdir_external_storage_fill_toast">Te weinig opslagruimte kan leiden tot het niet kunnen downloaden van apps.</string>
-
+    <string name="download_mkdir_external_storage_fill_toast">Onvoldoende opslagruimte beschikbaar - je kunt geen apps downloaden.</string>
     <string name="download_mkdir_internal_storage_values">interne_opslag</string>
     <string name="download_mkdir_external_storage_values">externe_opslag</string>
-
     <string name="scan_qr_code_result_title">Resultaat</string>
     <string name="scan_qr_code_result_copy_text">Tekst kopiëren</string>
     <string name="scan_qr_code_result_hint">Details van QR-code:</string>
-    <string name="scan_qr_code_copy_success">tekst is gekopieerd</string>
-
-    <string name="user_info_edit_large_photo">Grotere foto weergeven</string>
-
+    <string name="scan_qr_code_copy_success">De tekst is gekopieerd.</string>
+    <string name="user_info_edit_large_photo">Volledige afbeelding tonen</string>
     <string name="user_info_edit_intro_tv">Over mij</string>
-    <string name="update_intro_title">\'Over mij\' bewerken</string>
+    <string name="update_intro_title">\'Over mij\' aanpassen</string>
     <string name="update_intro_et">Vertel iets over jezelf</string>
-    <string name="update_intro_tv">Het veld \'Over mij\' mag niet leeg zijn</string>
-
+    <string name="update_intro_tv">Voer een tekst in in \'Over mij\'.</string>
     <string name="message_all">ALLES</string>
     <string name="message_at_title">Vermeldingen</string>
     <string name="message_at">heeft je vermeld</string>
-
-    <string name="set_open_source_licence">Open bron-licentie</string>
-
-    <string name="user_name_null">Ongeldige gebruikersnaam</string>
+    <string name="set_open_source_licence">Openbronlicentie</string>
+    <string name="user_name_null">Ongeldige gebruikersnaam.</string>
     <string name="message">Bericht</string>
-
-    <string name="push_title_info_reply">%s heeft gereageerd op je opmerking!</string>
-    <string name="push_title_info_upvoted">%s heeft je opmerking omhoog gestemd!</string>
-    <string name="push_title_info_follow">%s volgt je nu!</string>
-    <string name="push_title_info_update">Er staat een APKPure-update klaar!</string>
-    <string name="push_content_info_update">Er is een nieuwe versie uitgebracht: %s Update nu!</string>
-    <string name="push_title_info_at">Iemand heeft je vermeld in een bericht; raak aan om weer te geven</string>
-
+    <string name="push_title_info_reply">%1$s heeft gereageerd op je reactie!</string>
+    <string name="push_title_info_upvoted">%1$s heeft je reactie omhoog gestemd!</string>
+    <string name="push_title_info_follow">%1$s volgt je nu!</string>
+    <string name="push_title_info_update">Er is een nieuwe versie van APKPure!</string>
+    <string name="push_content_info_update">De nieuwste versie, %1$s, is uitgebracht. Update nu!</string>
+    <string name="push_title_info_at">Iemand heeft je vermeld. Druk hier om de reactie te tonen.</string>
     <string name="download_list">Downloadlijst</string>
-    <string name="can_be_update">Kan worden bijgewerkt</string>
+    <string name="can_be_update">Beschikbare updates</string>
     <string name="install_list">Geïnstalleerd</string>
-    <string name="no_download">Geen download</string>
-    <string name="downloads">Downloads</string>
-
-    <string name="change_language_failed">Taalwijziging mislukt!</string>
-    <string name="comment_reply_tell_msg">Deze opmerking is verwijderd!</string>
-
+    <string name="no_download">Je hebt geen apps gedownload.</string>
+    <string name="downloads">Downloaden</string>
+    <string name="change_language_failed">De taal kan niet worden gewijzigd!</string>
+    <string name="comment_reply_tell_msg">Deze reactie is verwijderd!</string>
     <string name="notification_setting">Meldingen</string>
     <string name="reply_notification">Reactiemeldingen</string>
-    <string name="reply_notification_msg">Meldingen ontvangen bij nieuwe reacties</string>
-    <string name="like_notification">Stemmeldingen</string>
-    <string name="like_notification_msg">Meldingen ontvangen als reacties omhoog gestemd worden</string>
+    <string name="reply_notification_msg">Ontvang meldingen als er nieuwe reacties zijn</string>
+    <string name="like_notification">Vind-ik-leukmeldingen</string>
+    <string name="like_notification_msg">Ontvang meldingen als er nieuwe vind-ik-leuks zijn</string>
     <string name="gif_tip">gif</string>
-    <string name="ad_tip">advertentie</string>
-    <string name="submit_comment_title_hint">Onderwerp (optioneel)</string>
-
-    <string name="comment_vote_string">Stemmen</string>
+    <string name="ad_tip">reclame</string>
+    <string name="submit_comment_title_hint">Titel</string>
+    <string name="comment_vote_string">Vind ik leuk</string>
     <string name="comment_reply_three">Reageren</string>
     <string name="comment_item_fold">opmerking ingeklapt</string>
-
     <plurals name="comment_reply_item_fold">
-	<item quantity="one"><xliff:g example="1" id="count">%1$d</xliff:g> reactie ingeklapt</item>
-	<item quantity="other"><xliff:g example="2" id="count">%1$d</xliff:g> reacties ingeklapt</item>
-</plurals>
-
-    <string name="comment_no_reply">Er is hier niks.</string>
+        <item quantity="one">
+            <xliff:g example="1" id="count">%1$d</xliff:g> reactie ingeklapt</item>
+        <item quantity="other">
+            <xliff:g example="2" id="count">%1$d</xliff:g> reacties ingeklapt</item>
+    </plurals>
+    <string name="comment_no_reply">Er valt hier niks te zien.</string>
     <string name="comment_reply_info_name">Details</string>
-    <string name="set_updates_notification">Beschikbare app-updates</string>
-    <string name="set_updates_notification_msg">Melding weergeven als er app-updates beschikbaar zijn. Aanbevolen instelling: ingeschakeld</string>
-    <string name="app_detail_unknow_text">Deze verouderde versie van APKPure heeft geen ondersteuning voor nieuwe functies; installeer de nieuwste versie.</string>
-    <string name="comment_detail_original">Originele opmerking bekijken &gt;</string>
+    <string name="set_updates_notification">App-updates beschikbaar</string>
+    <string name="set_updates_notification_msg">Melding tonen als er app-updates beschikbaar zijn. Aanbevolen instelling: ingeschakeld</string>
+    <string name="app_detail_unknow_text">Deze functie wordt niet ondersteund door de huidige versie - installeer de nieuwste versie.</string>
+    <string name="comment_detail_original">Oorspronkelijke reactie tonen &gt;</string>
     <string name="comment_comment_newest">Nieuwste</string>
-    <string name="properties_message_v2">&lt;b&gt;Package Name:&lt;/b&gt; %1$s&lt;br&gt;&lt;b&gt;Version:&lt;/b&gt; %2$s&lt;br&gt;&lt;b&gt;Path:&lt;/b&gt; %3$s&lt;br&gt;&lt;b&gt;Size:&lt;/b&gt; %4$s&lt;br&gt;&lt;b&gt;Last Modified:&lt;/b&gt; %5$s</string>
-    </resources>
+    <string name="properties_message_v2">&lt;b&gt;Pakketnaam:&lt;/b&gt; %1$s&lt;br&gt;&lt;b&gt;Versie:&lt;/b&gt; %2$s&lt;br&gt;&lt;b&gt;Pad:&lt;/b&gt; %3$s&lt;br&gt;&lt;b&gt;Grootte:&lt;/b&gt; %4$s&lt;br&gt;&lt;b&gt;Laatst gewijzigd op:&lt;/b&gt; %5$s</string>
+    <string name="look_video">Video afspelen</string>
+    <string name="get_it_on">Download het op:</string>
+    <string name="users">Gebruikers</string>
+    <string name="choice_hashtag">Uitgelichte hashtags</string>
+    <string name="gif_auto_desc">Speel GIF\'s automatisch af als je verbonden bent met Wi-Fi</string>
+    <string name="gif_auto_title">GIF\'s automatisch afspelen</string>
+    <string name="saved_draft">Opgeslagen als concept</string>
+    <string name="upload_video">Video uploaden</string>
+    <string name="is_save_comment_draft">Wil je je bericht opslaan als concept\?</string>
+    <string name="empty_draft_info">Geen inhoud…</string>
+    <string name="delete_draft">Concept verwijderen</string>
+    <string name="edit_draft">Concept aanpassen</string>
+    <string name="delete_all_draft_hint">Weet je zeker dat je alle concepten wilt verwijderen\?</string>
+    <string name="several_drafts">
+        <xliff:g example="5" id="count">%1$s</xliff:g> concepten</string>
+    <string name="several_draft">
+        <xliff:g example="5" id="count">%1$s</xliff:g> concept</string>
+    <string name="clear_empty">Alles verwijderen</string>
+    <string name="my_draft">Mijn concept</string>
+    <string name="community_guide_lines">Gemeenschapsrichtlijnen</string>
+    <string name="let_us_know">Laat het ons weten</string>
+    <string name="tap_to_view">Druk hier om te tonen</string>
+    <string name="report_callback_des">We hebben het bericht dat je aan ons gemeld hebt wegens kleineren bekeken. Het overtrad onze %1$s, dus hebben we het verwijderd. Bedankt voor het melden!</string>
+    <string name="report_callback_title">Het door jou gemelde bericht is verwijderd!</string>
+    <string name="pre_register_des">Het spel \'%1s %2$s\', waarvoor je je hebt ingeschreven, is nu beschikbaar.%3$s</string>
+    <string name="pre_register_title">%1$s is uitgebracht op %2$s!</string>
+    <string name="temporarily_blocked_title">Je bent tijdelijk verbannen van APKPure</string>
+    <string name="comment_removed_des">Het lijkt erop dat je bericht niet voldoet aan onze %1$s. We staan niet toe dat je berichten plaatst waarin je anderen pest of kleineert, of dat nu in de vorm van foto\'s, video\'s of tekst is. Elke vorm van pesten, kleineren of voor schut zetten is streng verboden.
+\n%2$s
+\nAls je van mening bent dat we een fout hebben gemaakt, %3$s.</string>
+    <string name="comment_removed_title">Je bericht is verwijderd</string>
+    <string name="home_recommended_desc">Je bericht is gekozen als startpagina-aanbeveling: %1$s</string>
+    <string name="home_recommended_title">Gefeliciteerd!</string>
+    <string name="recommended_posts_des">Je bericht is gekozen als aanbevolen bericht: %1$s</string>
+    <string name="recommended_posts_title">Gefeliciteerd!</string>
+    <string name="users_recommended_des">Je bericht is gekozen als gebruikersaanbeveling: %1$s</string>
+    <string name="users_recommended_title">Gefeliciteerd!</string>
+    <string name="download_install_apk">APK installeren</string>
+    <string name="download_install_obb">OBB installeren</string>
+    <string name="headline_footer_refresh">Trek omlaag of druk hier om te verversen.</string>
+    <string name="number">\"</string>
+    <string name="app_rating">Beoordeling:</string>
+    <string name="follow_xx">
+        <xliff:g example="Apkpure" id="name">%1$s</xliff:g> volgen</string>
+    <string name="un_follow_xx">
+        <xliff:g example="Apkpure" id="name">%1$s</xliff:g> ontvolgen</string>
+    <string name="save_tag_hint_msg">De aanpassing wordt niet opgeslagen. Weet je zeker dat je wilt afsluiten\?</string>
+    <string name="edit_tag">Label aanpassen</string>
+    <string name="long_image">Uitgerekte afbeelding</string>
+    <string name="apk_unable_upload">De APK kan niet worden geüpload.</string>
+    <string name="share_app_url_comment_v3">Deel <xliff:g example="zhangsan" id="name">%1$s</xliff:g>\'s <xliff:g example="post/story/review" id="type">%2$s</xliff:g> (via APKPure):<xliff:g example="https://apkpure.com" id="url">%3$s </xliff:g>
+    </string>
+    <string name="reply_to">Reactie aan %1$s:</string>
+    <string name="del_account_sure">Je account wordt over 48 uur verwijderd. Als je vragen hebt, neem dan contact met ons op.</string>
+    <string name="del_account_reason_hint">Waarom wil je dit account verwijderen\?</string>
+    <string name="del_account_bt">Versturen</string>
+    <string name="del_account_email_reason_tv">Waarom wil je dit account verwijderen\?</string>
+    <string name="del_account_email_notify_tv">Voer een geldig e-mailadres in om onze melding te ontvangen.</string>
+    <string name="privacy_setting_account_privacy">Dit is een privéaccount.</string>
+    <string name="privacy_setting_account_del">Account verwijderen</string>
+    <string name="privacy_setting_account_des">Als je je account aanmerkt als \'privé\', dan kunnen anderen je persoonlijke startpagina niet bekijken.</string>
+    <string name="privacy_setting_account">Privéaccount</string>
+    <string name="privacy_setting_title">Privacy-instellingen</string>
+    <string name="search_or_create">Zoeken of maken</string>
+    <string name="share_select_image_overflow_hint">Je kunt niet meer dan 9 afbeeldingen per bericht delen.</string>
+    <string name="share_image_failed">De afbeelding kan niet worden gedeeld!</string>
+    <string name="history_hastag">Hashtag-geschiedenis</string>
+    <string name="look_all">Meer tonen</string>
+    <string name="no_save_comment_hint">De inhoud wordt niet opgeslagen. Weet je zeker dat je wilt afsluiten\?</string>
+    <string name="hint">Opmerking</string>
+    <string name="headline_no_data_tv">Geen nieuwe items</string>
+    <string name="look_links">Link kopiëren</string>
+    <string name="hot">populair</string>
+    <string name="delete_success">Voltooid</string>
+    <string name="release_dynamics">Moment plaatsen</string>
+    <string name="me_follow">Mijn gevolgde</string>
+    <string name="menu_follow_subject_tab">Hashtag</string>
+    <string name="menu_follow_subject">Gevolgde hashtags</string>
+    <string name="hot_subject">Populaire hashtags</string>
+    <string name="error_hot_data_empty">Er zijn geen populaire hashtags!</string>
+    <string name="trends">Bericht</string>
+    <string name="image_text">Verhaal</string>
+    <string name="evaluating">Recensies</string>
+    <string name="new_subject_comment">Nieuwe hashtag</string>
+    <string name="subject_comment">Hashtags</string>
+    <string name="comments">Reacties</string>
+    <string name="user_recommend_tip">Gebruikersaanbeveling</string>
+    <string name="msg_all_read_msg">Weet je zeker dat je alles als gelezen wilt markeren\?</string>
+    <string name="msg_all_read_notice">Opmerking</string>
+    <string name="msg_all_read">Alles markeren als gelezen</string>
+    <string name="comment_hint_tv">Wil je iets delen\?</string>
+    <string name="submit_add_title_image_error_toast">Dit bestandsformaat wordt niet ondersteund; kies een andere afbeelding.</string>
+    <string name="submit_add_title_image_tv">Omslag toevoegen</string>
+    <string name="setting_region">Regio</string>
+    <string name="shop">WINKEL</string>
+    <string name="email_address_hint_et">Voer je e-mailadres in.</string>
+    <string name="recover_password_title">Wachtwoordherstel</string>
+    <string name="forget_password_tv">Wachtwoord vergeten\?</string>
+    <string name="menu_skip">Overslaan</string>
+    <string name="unbind_email_hint">Je hebt geen e-mailadres gekoppeld aan je account.</string>
+    <string name="unbind_email">Niet gekoppeld</string>
+    <string name="verification_null_code_toast">Voer de ontvangen verificatiecode in.</string>
+    <string name="verification_success_code_toast">De verificatiecode is verstuurd.</string>
+    <string name="verification_code_tv_hint">Verificatiecode</string>
+    <string name="bind_email_success">Koppeling voltooid.</string>
+    <string name="send_verification_code_resend_tv">Verificatiecode versturen</string>
+    <string name="verification_code_resend_tv">Verificatiecode opnieuw versturen</string>
+    <string name="verification_code_second_tv">Opnieuw versturen over %ds</string>
+    <string name="verification_code_tv">Er is een verificatiecode verstuurd naar %1$s</string>
+    <string name="bind_email_tv">Koppel je e-mailadres aan je account om gebruikersvoordelen te krijgen, zoals wachtwoordherstel, berichten versturen, en nog veel meer.</string>
+    <string name="bind_email_title">Koppel je e-mailadres</string>
+    <string name="login_out_message_hint">Weet je zeker dat je wilt uitloggen\?</string>
+    <string name="un_bind">Niet gekoppeld</string>
+    <string name="bing_share_account">Extern account koppelen</string>
+    <string name="recommend_game">Aanbevolen spel</string>
+    <string name="editors_picks">Keuze van de redactie</string>
+    <string name="pre_register_game">Inschrijven</string>
+    <string name="topics">Onderwerp</string>
+    <string name="from_user_recommendation">Gebruikersaanbevelingen</string>
+    <string name="developer_badge_explanation">Uitleg over ontwikkelaarsbadges</string>
+    <string name="upload_apk">APK uploaden</string>
+    <string name="my_reservation_and_collection">Inschrijven en toev. aan favorieten</string>
+    <string name="load_all_choice_comment">Alle berichten tonen</string>
+    <string name="load_all_choice_evaluate">Alle recensies tonen</string>
+    <string name="emoji_input_error_hint">Reacties met alleen emoji\'s zijn niet meer toegestaan! Schrijf een tekst…</string>
+    <string name="choice_comment">Aanbevolen berichten</string>
+    <string name="choice_evaluate">Uitgelichte recensies</string>
+    <string name="count_down_timer_btn">overslaan</string>
+    <string name="count_down_timer_tv">%ds</string>
+    <string name="tab_popular">POPULAIR</string>
+    <string name="comment_list_new_num">%d nieuwe nieuwskoppen</string>
+    <string name="comment_list_see_here">Druk om te verversen.</string>
+    <string name="tab_global">UITGELICHT</string>
+    <string name="copy_content">Inhoud kopiëren</string>
+    <string name="copy_username">Bijnaam kopiëren</string>
+    <string name="search_focus_list_title">Volgend</string>
+    <string name="search_user_history_title">Recente contactpersonen</string>
+    <string name="search_for_user">Zoeken</string>
+    <string name="open_page_failed">De pagina kan niet worden geopend!</string>
+    <string name="pre_register_success">Als je je inschrijft voor een spel, dan krijg je een melding op je apparaat zodra het spel officieel is uitgebracht.</string>
+    <string name="pre_register_person_num_tv">Ingeschrevenen: %1$s</string>
+    <string name="pre_register_link_title">Inschrijfpagina</string>
+    <string name="pre_register_gift_tv">Inschrijfcadeau\'s</string>
+    <string name="pre_registered_bt">Ingeschreven</string>
+    <string name="pre_register_now_bt">Inschrijven</string>
+    <string name="pre_register_bt">Inschrijven</string>
+    <string name="pre_register_ok">Oké</string>
+    <string name="search_tab_name_two">Gebruikers</string>
+    <string name="search_tab_name_one">Apps</string>
+    <string name="tag">Label</string>
+    <string name="market_ad_tab_three">Hulpmiddelen</string>
+    <string name="market_ad_tab_two">Spellen</string>
+    <string name="market_ad_tab_one">Uitgelicht</string>
+    <string name="market_ad_title">Winkel</string>
+    <string name="your_reply_comment">Jouw reactie</string>
+    <string name="upload_add_file_list_toast">Bedankt voor het uploaden! De app wordt nu verwerkt.</string>
+    <string name="upload_add_list_toast">Voltooid!</string>
+    <string name="upload_notification_is_pause">Het uploaden is gepauzeerd.</string>
+    <string name="upload_notification_is_uploading">Bezig met uploaden naar APKPure…</string>
+    <string name="upload_notification_cancel">Afbreken</string>
+    <string name="upload_notification_start">Starten</string>
+    <string name="upload_notification_pause">Pauzeren</string>
+    <string name="upload_comment_reload">Druk hier om opnieuw te proberen</string>
+    <string name="upload_comment_view">Druk hier om te tonen</string>
+    <string name="upload_comment_upload_failed">%1$s kan niet worden geüpload</string>
+    <string name="upload_comment_upload_success">%1$s is geüpload</string>
+    <string name="upload_comment_uploading">Bezig met uploaden van %1$s…</string>
+    <string name="upload_apk_downloads">Downloads: %1$s</string>
+    <string name="upload_apk_version">V %1$s</string>
+    <string name="filter_no_comment">Deze pagina bevat geen inhoud!</string>
+    <string name="follow_floating_action_button">Nieuw moment vastleggen</string>
+    <string name="commentaries">Verhaal</string>
+    <string name="tab_apk">APK</string>
+    <string name="share_apk">APK delen</string>
+    <string name="no_comment">Voeg als eerste een bericht toe!</string>
+    <string name="no_collect">Je hebt nog geen favorieten!</string>
+    <string name="error_add_tag">Kan labels niet toevoegen.</string>
+    <string name="add_tag">Labels toevoegen</string>
+    <string name="Istop">Vastgezet</string>
+    <string name="pack_up">Inklappen</string>
+    <string name="colon">:</string>
+    <string name="add">Toevoegen</string>
+    <string name="there_is_no_label">Geen labels.</string>
+    <string name="toast_app_tag_exist">Dit label is al aanwezig!</string>
+    <string name="app_add_tag">Label toevoegen</string>
+    <string name="app_add_tag_hint_caution">Niet meer dan %1$s labels per app.</string>
+    <string name="common_use">Mijn labels</string>
+    <string name="hot_tag_explain">(voeg labels toe of stem op reeds aanwezige)</string>
+    <string name="hot_tag">Populaire labels</string>
+    <string name="tag_list">Lijst met labels</string>
+    <string name="app_detail_no_ad">Geen reclame</string>
+    <string name="app_detail_has_ad">Bevat reclame</string>
+    <string name="app_detail_no_product">Geen in-appaankopen</string>
+    <string name="app_detail_has_product">Bevat in-appaankopen</string>
+    <string name="publish_comment">Plaatsen</string>
+    <string name="choose_app">Kies een app</string>
+    <string name="menu_follow_group_tab">Groepen</string>
+    <string name="menu_follow_user_tab">Personen</string>
+    <string name="menu_follow_all_tab">Volgend</string>
+    <string name="menu_follow_group">Gevolgde groepen</string>
+    <string name="menu_follow_user">Gevolgde personen</string>
+    <string name="menu_follow_all">Alle gevolgden</string>
+    <string name="google_play_bug_text">Kopen op Google Play</string>
+    <string name="goto_google_play">Nu kopen</string>
+    <string name="user_focus_title">Gevolgd door %1$s</string>
+    <string name="user_focus_title_my">Personen die ik volg</string>
+    <string name="user_focus_tab_apps">Groepen</string>
+    <string name="user_focus_tab_users">Personen</string>
+    <string name="user_detail_tab_reply">Reacties</string>
+    <string name="user_detail_tab_detail">Berichten</string>
+    <string name="user_detail_praise">Vind-ik-leuks</string>
+    <string name="user_detail_fans">Volgers</string>
+    <string name="user_detail_focus">Volgend</string>
+    <string name="recommend_user_recommend_sys">Uitgelicht door APKPure</string>
+    <string name="recommend_not_fount_info">Stel APKPure op de hoogte van het toevoegen van \'%1$s\' door het formulier af te ronden.</string>
+    <string name="recommend_not_found">Niet-geïndexeerd</string>
+    <string name="recommend_required">*</string>
+    <string name="recommend_user_recommend">Aanbevolen door %1$s</string>
+    <string name="recommend_description">1 Goedgekeurde aanbevelingen zijn te vinden in de sectie \'ONTDEKKEN\'.
+\n2 Je kunt alleen apps aanbevelen die momenteel geïnstalleerd zijn op je Android-apparaat.
+\n3 Stel APKPure op de hoogte; rond hiervoor het aanbevelingenformulier af.</string>
+    <string name="recommend_description_title">Instructies:</string>
+    <string name="recommend_comment_error">Er is een fout opgetreden!</string>
+    <string name="recommend_comment">Versturen</string>
+    <string name="recommend_write_des_hint">Een behulpzame recensie wordt gelezen door meer gebruikers met dezelfde interesse.</string>
+    <string name="recommend_write_des">Omschrijving</string>
+    <string name="recommend_select_game">App aanbevelen</string>
+    <string name="recommend_state_success">Aanbevolen</string>
+    <string name="recommend_state_can">Aanbevelen</string>
+    <string name="recommend_app_name">Naam van app</string>
+    <string name="recommend_replace_img">Afbeelding wijzigen</string>
+    <string name="recommend_review">Voorvertoning</string>
+    <string name="recommend_installed_list_title">Mijn apps</string>
+    <string name="recommend_tab_list">Aanbevolen</string>
+    <string name="recommend_tab_game">App aanbeleven</string>
+    <string name="recommend_title">Aanbevelingen</string>
+    <string name="topic_switch_failed">Het thema kan niet worden gewijzigd</string>
+    <string name="topic_purple_blue_gary">Luchtmachtblauw</string>
+    <string name="topic_purple_yellow">Abrikoosoranje</string>
+    <string name="topic_purple_black">Koel grijs</string>
+    <string name="topic_purple_color">Donkerviolet</string>
+    <string name="topic_blue_color">Azuurblauw</string>
+    <string name="topic_green_color">Klavertjeviergroen</string>
+    <string name="topic_red_color">Bordeauxrood</string>
+    <string name="web_view_copy">Link kopiëren</string>
+    <string name="web_view_refresh">Verversen</string>
+    <string name="open_with_browser">Openen in webbrowser</string>
+    <string name="collection_app">APPS</string>
+    <string name="collection_comment">BERICHTEN</string>
+    <string name="remove_failed">Verwijderen mislukt</string>
+    <string name="remove_as_favorite">Verwijderen uit favorieten</string>
+    <string name="failed_to_save_favorite">Toevoegen aan favorieten mislukt</string>
+    <string name="favorite_saved">Toegev. aan favorieten.</string>
+    <string name="save_as_favorite">Opslaan in je favorieten</string>
+    <string name="favorite_title">Toev. aan favorieten</string>
+    <string name="menu_paste">Plakken</string>
+    <string name="app_detail_three_fragment_foot">Alle reacties tonen</string>
+    <string name="ranking_top_develop_title">Populaire ontwikkelaars</string>
+    <string name="ranking_top_countries_title">Populair (lokaal)</string>
+    <string name="ranking_tab4_title">Populaire nieuwe apps</string>
+    <string name="ranking_tab3_title">Populaire apps</string>
+    <string name="ranking_tab2_title">Populaire nieuwe spellen</string>
+    <string name="ranking_tab1_title">Populaire spellen</string>
+    <string name="browsing_history_prompt">Wil je de bladergeschiedenis wissen\?</string>
+    <string name="browsing_history">Bladergechiedenis</string>
+    <string name="no_attention">Je volgt nog geen groepen.</string>
+    <string name="attention_off">Volgen</string>
+    <string name="attention_on">Volgend</string>
+    <string name="follow">VOLGEND</string>
+    <string name="cancel_collection">Verw. uit favorieten</string>
+    <string name="collection">Toev. aan favorieten</string>
+    <string name="group">Groep</string>
+    <string name="canceled">Afgebroken</string>
+    <string name="follow_un_success">Heb je ontvolgd.</string>
+    <string name="follow_on_success">Volg je nu.</string>
+    <string name="please_login_first">Hiervoor moet je inloggen</string>
+    <string name="main_night_mode">Donker thema</string>
+    <string name="main_topic_selection">Thema\'s</string>
+    <string name="main_app_management">App-beheer</string>
+    <string name="main_good_comments">Omhoog gestemd</string>
+    <string name="main_my_message">Meldingen</string>
+    <string name="main_my_collection">Favorieten</string>
+    <string name="main_my_comments">Berichten</string>
+    <string name="main_won_praise">Vind-ik-leuks</string>
+    <string name="main_comment">reactie</string>
+    <string name="main_tab_my">PROFIEL</string>
+    <string name="tab_group">GROEP</string>
+    <string name="main_tab_ranking">POPULAIR</string>
+    <string name="main_tab_home">STARTPAGINA</string>
+    <string name="full_screen_button">Beeldvullende modus</string>
+    <string name="open_video_in_youtube">Video bekijken op YouTube</string>
+    <string name="null_time">0:00</string>
+    <string name="play_button">Afspeelknop</string>
+    <string name="sub_comment_progress_msg">Bezig met plaatsen…</string>
+    <string name="sub_comment_dialog_link_null">Geef een video-url op.</string>
+    <string name="sub_comment_dialog_link_et">Voer hier de video-url in.</string>
+    <string name="sub_comment_dialog_des_tv">Je kunt alleen YouTube-video\'s plaatsen.</string>
+    <string name="sub_comment_dialog_title">Video plaatsen</string>
+    <string name="download_history">Downloadgeschiedenis</string>
+    <string name="delete_the_historical_record">Wil je dit item verwijderen\?</string>
+    <string name="delete_all_download_history">Wil je alle downloadgeschiedenis verwijderen\?</string>
+    <string name="menu_cancel">Annuleren</string>
+    <string name="menu_copy_link">Link kopiëren</string>
+    <string name="menu_copy">Kopiëren</string>
+    <string name="edit">Bewerken</string>
+    <string name="comment_comment_oldest">Oudste</string>
+    <string name="sign_in_services_key_policy_register">Privacybeleid</string>
+    <string name="home_message_praise">Vind-ik-leuks</string>
+    <string name="home_message_reply">Reacties</string>
+    <string name="message_notify">Meldingen</string>
+    <string name="app_detail_discuss_filter_folded">Ingeklapt</string>
+    <string name="app_detail_discuss_filter_featured">Uitgelicht</string>
+    <string name="app_detail_folded_footer_posts">Alle reacties tonen</string>
+    <string name="app_detail_folded_footer_reviews">Alle recensies tonen</string>
+    <string name="app_detail_comment_order_array_bad">1-3</string>
+    <string name="app_detail_comment_order_array_good">4-5</string>
+    <string name="app_detail_evaluation_failed_bt">Recensie</string>
+    <string name="app_detail_evaluation_tool_bar_title">Recensie schrijven</string>
+    <string name="app_detail_comment_score_footer">Er zijn %1$s recensies beschikbaar in andere talen.</string>
+    <string name="app_detail_comment_no_data">Er zijn nog geen gebruikersrecensies. Schrijf je eigen recensie!</string>
+    <string name="app_detail_comment_score_less">Te weinig gebruikersrecensies.</string>
+    <string name="app_detail_comment_filter_version">Nieuwste versie</string>
+    <string name="app_detail_comment_filter_all">Alle recensies</string>
+    <string name="app_detail_comment_filter_sort_score">Topbeoordeling</string>
+    <string name="app_detail_tab_evaluation">Recensies</string>
+    <string name="auto_service_directly__material_">DIRECT INSTALLEREN</string>
+    <string name="app_details_request_update_msg">We hebben je updateverzoek voor %s ontvangen.
+\nDe nieuwste versie is binnenkort beschikbaar.</string>
+    <string name="app_details_request_update_title">Update aanvragen</string>
+    <string name="update_email_tv">Verifieer je e-mailadres opnieuw om het bij te werken.</string>
+</resources>
