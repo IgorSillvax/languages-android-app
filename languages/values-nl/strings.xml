@@ -188,7 +188,7 @@
         <xliff:g example="APKPure" id="name">%1$s</xliff:g>-installatie voltooid</string>
     <string name="touch_to_open">Druk hier om te openen.</string>
     <string name="search_history">Geschiedenis</string>
-    <string name="clear_search_history">Geschiedenis wissen</string>
+    <string name="clear_search_history">Alle geschiedenis wissen</string>
     <string name="waiting_to_download">Bezig met wachten om te downloaden</string>
     <string name="deleted">Verwijderd</string>
     <string name="flag_as_inappropriate">Markeren als ongepast</string>
@@ -777,8 +777,75 @@
     <string name="app_detail_comment_filter_sort_score">Topbeoordeling</string>
     <string name="app_detail_tab_evaluation">Recensies</string>
     <string name="auto_service_directly__material_">DIRECT INSTALLEREN</string>
-    <string name="app_details_request_update_msg">We hebben je updateverzoek voor %s ontvangen.
+    <string name="app_details_request_update_msg">We hebben je updateverzoek voor \'%s\' ontvangen.
 \nDe nieuwste versie is binnenkort beschikbaar.</string>
     <string name="app_details_request_update_title">Update aanvragen</string>
     <string name="update_email_tv">Verifieer je e-mailadres opnieuw om het bij te werken.</string>
+    <string name="temporarily_blocked_des">"Deze tijdelijke verbanning duurt %1$s dagen. In de tussentijd kun je geen items plaatsen op APKPure.
+\n        Als je nóg eens iets plaatst dat onze %2$s overtreedt, dan word je nog eens 30 dagen verbannen.
+\n        Oók kan het leiden tot een permanente verbanning.
+\n
+\n Als je van mening bent dat we een fout hebben gemaakt, %3$s."</string>
+    <string name="search_tab_invitation">Berichten</string>
+    <string name="xapk_upload_hint_info">Het uploaden van XAPK-bestanden duurt langer. Weet je het zeker\?</string>
+    <string name="packaging_failed_try_again">Het inpakken is mislukt. Probeer het opnieuw.</string>
+    <string name="packaging_success_ready_upload">Het inpakken is voltooid. Je kunt de app nu uploaden.</string>
+    <string name="packaging">Bezig met inpakken…</string>
+    <string name="preparing_upload">Bezig met voorbereiden…</string>
+    <string name="upload_apk_xapk">APK/XAPK uploaden</string>
+    <string name="apk_xapk">APK/XAPK</string>
+    <string name="ucrop_mutate_exception_hint">Overschrijf de kleurmodus (ucrop_color_toolbar_widget) in je app op hem te laten werken op apparaten met Android KitKat of lager</string>
+    <string name="ucrop_error_input_data_is_absent">Geef zowel een invoer- als uitvoer-uri op</string>
+    <string name="ucrop_menu_crop">Bijsnijden</string>
+    <string name="ucrop_label_edit_photo">Foto bewerken</string>
+    <string name="ucrop_label_original">Origineel</string>
+    <string name="picture_message_video_max_num">Je kunt maximaal %1$s video\'s kiezen</string>
+    <string name="picture_confirm">Annuleren</string>
+    <string name="picture_audio_error">De audio is beschadigd</string>
+    <string name="picture_video_error">De video is beschadigd</string>
+    <string name="picture_error">De afbeelding is beschadigd</string>
+    <string name="picture_quit_audio">Sluiten</string>
+    <string name="picture_pause_audio">Pauzeren</string>
+    <string name="picture_stop_audio">Stoppen</string>
+    <string name="picture_play_audio">Afspelen</string>
+    <string name="picture_tape">Galerij</string>
+    <string name="picture_all_audio">Alle audio</string>
+    <string name="picture_save_success">De afbeelding is opgeslagen</string>
+    <string name="picture_save_error">De afbeelding kan niet worden opgeslagen</string>
+    <string name="picture_prompt_content">Wil je de afbeeldingen opslaan op je telefoon\?</string>
+    <string name="picture_prompt">Vraag</string>
+    <string name="picture_warning">Mediabestanden!</string>
+    <string name="picture_long_chart">Lang</string>
+    <string name="picture_photograph">Foto</string>
+    <string name="picture_record_video">Video opnemen</string>
+    <string name="picture_video_toast">Geen videovoorvertoning</string>
+    <string name="picture_camera">Geen toegang tot camera</string>
+    <string name="picture_jurisdiction">Geen toegang tot geheugenkaart</string>
+    <string name="picture_audio">Geen toegang tot audio-opname</string>
+    <string name="gif_tag">gif</string>
+    <string name="picture_min_img_num">Je kunt maximaal %1$s afbeeldingen kiezen</string>
+    <string name="picture_empty">je kunt je camera gebruiken om foto\'s en video\'s te maken</string>
+    <string name="picture_audio_empty">Je kunt audio opnemen met je telefoon en hier gebruiken</string>
+    <string name="picture_empty_audio_title">Geen audiobestand
+\n</string>
+    <string name="picture_empty_title">Niks gekozen
+\n</string>
+    <string name="picture_please_select">Selecteer</string>
+    <string name="picture_done">Oké</string>
+    <string name="picture_completed">Uploaden voltooid</string>
+    <string name="picture_done_front_num">%1$d/%2$d geüpload</string>
+    <string name="picture_please">Later...</string>
+    <string name="picture_preview">Voorvertoning</string>
+    <string name="picture_message_max_num">Je kunt maximaal %1$s afbeeldingen kiezen</string>
+    <string name="picture_min_video_num">Je kunt maximaal %1$s video\'s kiezen</string>
+    <string name="picture_rule">geen afbeelding of video</string>
+    <string name="picture_take_picture">Foto maken</string>
+    <string name="picture_cancel">Annuleren</string>
+    <string name="picture_camera_roll">Fotogalerij</string>
+    <string name="attention_each">Verbonden</string>
+    <string name="xapk_unable_upload">De XAPK kan niet worden geüpload!</string>
+    <string name="upload_xapk_to_group">XAPK uploaden naar groep</string>
+    <string name="upload_xapk">XAPK uploaden</string>
+    <string name="upload_apk_to_group">APK uploaden naar groep</string>
+    <string name="app_update_auto_install">Druk om \'automatisch installeren\' in te schakelen</string>
 </resources>
