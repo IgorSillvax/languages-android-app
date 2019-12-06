@@ -92,12 +92,11 @@
     <string name="launching_please_wait">Запускается…подождите, пожалуйста.</string>
     <plurals name="_count__item_is_downloading">
         <item quantity="one">
-            <xliff:g example="1" id="count">%1$d</xliff:g> элемент загружается</item>
+            <xliff:g example="1" id="count">%1$d</xliff:g> элемент загружается.</item>
         <item quantity="few">
-            <xliff:g example="2" id="count">%1$d</xliff:g> элемента загружаются</item>
+            <xliff:g example="2" id="count">%1$d</xliff:g> элемента загружаются.</item>
         <item quantity="many">
-            <xliff:g example="5" id="count">%1$d</xliff:g> элементов загружаются</item>
-        <item quantity="other"/>
+            <xliff:g example="5" id="count">%1$d</xliff:g> элементов загружаются.</item>
     </plurals>
     <string name="downloads_complete">Все загрузки завершены</string>
     <string name="touch_for_view_all_downloads">Нажмите, чтобы увидеть все загрузки</string>
@@ -126,8 +125,7 @@
     <string name="search_for_apps">Поиск APKPure</string>
     <string name="trending_searches">Популярные поиски</string>
     <string name="improvement_plan_title">План улучшения эффективности</string>
-    <string name="improvement_plan_message">Отправьте информацию о вашем устройстве, Мы <b>не собираем</b> ваши личные данные (имя, адрес, e-mail адрес, номер социального страхования, или другие личные данные).
-\n </string>
+    <string name="improvement_plan_message">Отправьте информацию о вашем устройстве, Мы <b>не собираем</b> ваши личные данные (имя, адрес, e-mail адрес, номер социального страхования, или другие личные данные).</string>
     <string name="join_us">Присоединяйтесь к нам</string>
     <string name="skip">Пропустить</string>
     <string name="_name__is_up_to_date">
@@ -296,7 +294,7 @@
     <string name="update_nick_title">Изменить никнейм</string>
     <string name="update_email_title">Изменить Email</string>
     <string name="update_nick_name_et">Введите новый никнейм</string>
-    <string name="update_nick_name_tv">Никнейм нельзя быть пустым</string>
+    <string name="update_nick_name_tv">Никнейм нельзя быть пустым.</string>
     <string name="update_email_name_et">Введите ваш email.</string>
     <string name="update_eamil_name_tv">Ваш Email нельзя быть пустым.</string>
     <string name="update_nickname_error">Этот никнейм уже занят. Выберите другой никнейм!</string>
@@ -305,8 +303,8 @@
     <string name="update_pwd_new_pwd_et">Новый пароль</string>
     <string name="update_pwd_Confirm_pwd_et">Подтвердите пароль</string>
     <string name="upload_avatar">Загрузка…</string>
-    <string name="update_pwd_current_null_tv">Поле \"Старый пароль\" нельзя быть пустым</string>
-    <string name="update_pwd_Confirm_null_tv">Поле \"Подтверждение пароля\" нельзя быть пустым</string>
+    <string name="update_pwd_current_null_tv">Поле \"Старый пароль\" нельзя быть пустым.</string>
+    <string name="update_pwd_Confirm_null_tv">Поле \"Подтверждение пароля\" нельзя быть пустым.</string>
     <string name="update_pwd_new_pwd_null_tv">Поле \"Новый пароль\" не может быть пустым.</string>
     <string name="update_pwd_new_confrim_tv">Поля \"Новый пароль\" и \"Подтверждение пароля\" не совпадают.</string>
     <string name="update_pwd_save_bt">Сохранить</string>
@@ -411,7 +409,7 @@
     <string name="comment_no_reply">Ой, здесь ничего нет.</string>
     <string name="comment_reply_info_name">Детали</string>
     <string name="set_updates_notification">Доступны обновления приложений</string>
-    <string name="set_updates_notification_msg">Уведомлять, когда доступны обновления приложений. Рекомендуемая настройка: Вкл.</string>
+    <string name="set_updates_notification_msg">Уведомлять, когда доступны обновления приложений. Рекомендуемая настройка: Вкл</string>
     <string name="app_detail_unknow_text">Эта функция не поддерживается текущей версией. Пожалуйста, обновите до последней версии.</string>
     <string name="comment_detail_original">Посмотреть исходный комментарий&gt;</string>
     <string name="comment_comment_newest">Новейший</string>
@@ -423,7 +421,7 @@
     <string name="download_history">История загрузок</string>
     <string name="sub_comment_dialog_title">Добавить Видео</string>
     <string name="sub_comment_dialog_link_et">Введите url видео здесь.</string>
-    <string name="sub_comment_dialog_link_null">Url видео нельзя быть пустым</string>
+    <string name="sub_comment_dialog_link_null">Url видео нельзя быть пустым.</string>
     <string name="sub_comment_progress_msg">Добавление видео…</string>
     <string name="delete_the_historical_record">Удалить историю?</string>
     <string name="sub_comment_dialog_des_tv">Поддерживается только синтаксический анализ видео Youtube.</string>
@@ -465,7 +463,7 @@
     <string name="push_title_info_at">Кто-то упомянул вас в пост, нажмите, чтобы посмотреть.</string>
     <string name="play_button">Кнопка воспроизведения</string>
     <string name="open_video_in_youtube">Откройте видео в YouTube</string>
-    <string name="full_screen_button">Полноэкранная кнопка</string>
+    <string name="full_screen_button">Кнопка полного экрана</string>
     <string name="main_tab_home">ГЛАВНАЯ</string>
     <string name="main_tab_ranking">РЕЙТИНГ</string>
     <string name="tab_group">ГРУППА</string>
@@ -580,7 +578,7 @@
     <string name="pack_up">Коллапс</string>
     <string name="Istop">Закрепленные</string>
     <string name="add_tag">Добавить теги</string>
-    <string name="error_add_tag">Ошибка добавления тегов</string>
+    <string name="error_add_tag">Ошибка добавления тегов.</string>
     <string name="no_collect">Пока нет избранных!</string>
     <string name="no_comment">Будьте первым, который добавит комментарий!</string>
     <string name="share_apk">Поделиться APK</string>
@@ -599,7 +597,7 @@
     <string name="upload_notification_is_uploading">Загрузка пакета в APKPure …</string>
     <string name="upload_notification_is_pause">Загрузка приостановлена.</string>
     <string name="upload_add_list_toast">Успешно!</string>
-    <string name="upload_add_file_list_toast">Спасибо за загрузку вашего приложения. Подождите,пожалуйста, спасибо!</string>
+    <string name="upload_add_file_list_toast">Спасибо за загрузку вашего приложения. Подождите,пожалуйста, спасибо.</string>
     <string name="your_reply_comment">Ваш Ответ</string>
     <string name="market_ad_title">Маркет</string>
     <string name="market_ad_tab_one">Рекомендация</string>
@@ -631,7 +629,7 @@
     <string name="app_detail_comment_filter_sort_score">Топ рейтинг</string>
     <string name="app_detail_comment_filter_all">Все отзывы</string>
     <string name="app_detail_comment_filter_version">Последняя Версия</string>
-    <string name="app_detail_comment_score_less">Слишком мало отзывов пользователей</string>
+    <string name="app_detail_comment_score_less">Слишком мало отзывов пользователей.</string>
     <string name="app_detail_comment_no_data">Нет отзывов, добавьте ваш отзыв.</string>
     <string name="app_detail_comment_score_footer">Здесь %1$s отзывы на других языках.</string>
     <string name="app_detail_evaluation_tool_bar_title">Написать отзыв</string>
