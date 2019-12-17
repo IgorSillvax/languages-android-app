@@ -27,7 +27,7 @@
     <string name="download_management">Upravljanje prenosov</string>
     <string name="settings">Nastavitve</string>
     <string name="about">O nas</string>
-    <string name="about_title">Vizitka <xliff:g primer="APKPure" id="app_name">%1$s</xliff:g>
+    <string name="about_title">Vizitka <xliff:g example="APKPure" id="app_name">%1$s</xliff:g>
     </string>
     <string name="about_message">"&lt;b&gt;Različica:&lt;/b&gt; %1$s&lt;br&gt;&lt;br&gt;&lt;b&gt;Spletna stran:&lt;/b&gt; &lt;a href=%2$s&gt;%2$s&lt;/a&gt;&lt;br&gt;&lt;b&gt;E-pošta:&lt;/b&gt; &lt;a href=mailto:%3$s&gt;%3$s&lt;/a&gt;
 \n "</string>
@@ -47,7 +47,7 @@
     <string name="want_to_delete_all_files">Ali ste prepričani, da želite izbrisati vse datoteke\?</string>
     <string name="file_has_been_deleted">Datoteka je bila izbrisana.</string>
     <string name="failed_to_delete_file">Datoteke ni bilo mogoče izbrisati.</string>
-    <string name="install__label_">Namesti - <xliff:g primer="APKPure" id="app_label">%1$s</xliff:g>
+    <string name="install__label_">Namesti - <xliff:g example="APKPure" id="app_label">%1$s</xliff:g>
     </string>
     <string name="user_canceled">Uporabniška prekinitev.</string>
     <string name="io_error">IO napaka. Ni dovolj prostora za namestitev.</string>
@@ -92,17 +92,17 @@
     <string name="market_response_error_unknown_error__error_">Neznana napaka (<xliff:g example="SUCCESS" id="error">%1$s</xliff:g>).</string>
     <string name="no_more">Ne več.</string>
     <string name="update">Posodobitev</string>
-    <string name="version__version___size_">Različica: <xliff:g primer="1.0.0" id="version">%1$s</xliff:g>, <xliff:g primer="1024 kB" id="size">%2$s</xliff:g>
+    <string name="version__version___size_">Različica: <xliff:g example="1.0.0" id="version">%1$s</xliff:g>, <xliff:g example="1024 kB" id="size">%2$s</xliff:g>
     </string>
     <plurals name="_count__new_update_is_available">
         <item quantity="one">
-            <xliff:g primer="1" id="count">%1$d</xliff:g> nova posodobitev je na voljo</item>
+            <xliff:g example="1" id="count">%1$d</xliff:g> nova posodobitev je na voljo</item>
         <item quantity="two">
-            <xliff:g primer="2" id="count">%1$d</xliff:g> novi posodobitvi sta na voljo</item>
+            <xliff:g example="2" id="count">%1$d</xliff:g> novi posodobitvi sta na voljo</item>
         <item quantity="few">
-            <xliff:g primer="2" id="count">%1$d</xliff:g> novih posodobitev je na voljo</item>
+            <xliff:g example="2" id="count">%1$d</xliff:g> novih posodobitev je na voljo</item>
         <item quantity="other">
-            <xliff:g primer="2" id="count">%1$d</xliff:g> nove posodobitve so na voljo</item>
+            <xliff:g example="2" id="count">%1$d</xliff:g> nove posodobitve so na voljo</item>
     </plurals>
     <string name="launching_please_wait">"Zagon...  prosimo počakajte."</string>
     <plurals name="_count__item_is_downloading">
@@ -117,7 +117,7 @@
         <xliff:g example="APKPure" id="name">%1$s</xliff:g> prenos ni uspel</string>
     <string name="touch_to_download_it_again">Tapnite za ponovni zagon prenosa</string>
     <string name="download_percent">
-        <xliff:g primer="50" id="odstotek">%1$d</xliff:g> %%</string>
+        <xliff:g example="50" id="percent">%1$d</xliff:g> %%</string>
     <string name="pause">Odmor</string>
     <string name="pause_all">Zaustavi vse</string>
     <string name="continue_">Nadaljuj</string>
@@ -157,7 +157,7 @@
     <string name="participate_ultra_download_beta_test_content">Ultra Download je še vedno v beta fazi. Obvestite nas, če naletite na kakršne koli težave. V meniju Nastavitve ga lahko preprosto onemogočite.</string>
     <string name="enable">Omogoči</string>
     <string name="_name__is_up_to_date">
-        <xliff:g primer="APKPure" id="ime">%1$s</xliff:g> je posodobljen.</string>
+        <xliff:g example="APKPure" id="name">%1$s</xliff:g> je posodobljen.</string>
     <string name="new_version_available_title">Nova različica je na voljo</string>
     <string name="new_version_available_message">"&lt;b&gt;Najnovejša različica:&lt;/b&gt; %1$s&lt;br&gt;&lt;br&gt;&lt;b&gt;Kaj je novega:&lt;/b&gt;&lt;br&gt;%2$s
 \n "</string>
@@ -203,8 +203,9 @@ Podrobnosti težave:
         <xliff:g primer="APKPure" id="app_name">%1$s</xliff:g> Skupina. (iz @<xliff:g primer="APKPure" id="social_network_name">%2$s</xliff:g>) <xliff:g primer="https://apkpure.com/p/com.apkpure.aegon" id="app_url">%3$s</xliff:g>
     </string>
     <string name="_name__version_history">
-        <xliff:g primer="APKPure" id="name">%1$s</xliff:g> Zgodovina različice</string>
-    <string name="update__date___size_">Posodobitev: <xliff:g primer="Mar 3, 2016" id="date">%1$s</xliff:g>, <xliff:g primer="1024 kB" id="size">%2$s</xliff:g>
+        <xliff:g example="APKPure" id="name">%1$s</xliff:g> Zgodovina različice</string>
+    <string name="update__date___size_">Posodobitev: <xliff:g example="Mar 3, 2016" id="date">%1$s</xliff:g>, 
+\n<xliff:g example="1024 kB" id="size">%2$s</xliff:g>
     </string>
     <string name="update_all">Posodobite vse</string>
     <string name="update___count__">Posodobi (<xliff:g primer="3" id="count">%1$d</xliff:g>)</string>
@@ -240,7 +241,7 @@ Podrobnosti težave:
     <string name="show_notification_after_installation">Pokaži obvestilo po namestitvi</string>
     <string name="delete_packages_after_installation">Po namestitvi izbrišite pakete</string>
     <string name="_name__installation_completed">
-        <xliff:g primer="APKPure" id="ime">%1$s</xliff:g> namestitev dokončana</string>
+        <xliff:g example="APKPure" id="name">%1$s</xliff:g> namestitev dokončana</string>
     <string name="touch_to_open">Tapnite za zagon.</string>
     <string name="auto_service_install_accessibility_title">Samodejna namestitev</string>
     <string name="auto_service_install_accessibility_summary">Podpora za Android 4.1 in več. Ni potreben korenski dostop.</string>
@@ -269,8 +270,8 @@ Podrobnosti težave:
     <string name="auto_install_via_root_title">Samodejna namestitev (Root način)</string>
     <string name="auto_install_via_root_summary">Samo za korenske telefone in tablične računalnike Android.</string>
     <plurals name="app_detail_see_all_replies">
-        <item quantity="one">Poglej <xliff:g primer="1" id="count">%1$d</xliff:g> odgovor</item>
-        <item quantity="two">Poglej <xliff:g primer="2" id="count">%1$d</xliff:g> odgovora</item>
+        <item quantity="one">Poglej <xliff:g example="1" id="count">%1$d</xliff:g> odgovor</item>
+        <item quantity="two">Poglej <xliff:g example="2" id="count">%1$d</xliff:g> odgovora</item>
         <item quantity="few">Poglej <xliff:g example="2" id="count">%1$d</xliff:g> odgovore</item>
         <item quantity="other">Poglej <xliff:g example="2" id="count">%1$d</xliff:g> odgovorov</item>
     </plurals>
@@ -315,7 +316,7 @@ Podrobnosti težave:
     <string name="reply_dialog_marked_words">Tapnite in pridržite sliko, da jo izbrišete.</string>
     <string name="reply_comment">Odgovori na komentar</string>
     <string name="save_original_image">Shrani</string>
-    <string name="already_save">Shranjeno<xliff:g primer="ApKPure/photo" id="pot">%1$s</xliff:g>
+    <string name="already_save">Shranjeno<xliff:g example="ApKPure/photo" id="path">%1$s</xliff:g>
     </string>
     <string name="load_end">Ni več podatkov.</string>
     <string name="load_failed_click_retry">Nalaganje ni uspelo. Prosimo tapnite, da poskusite znova</string>
@@ -443,9 +444,9 @@ Podrobnosti težave:
     <string name="comment_item_fold">komentar se je zrušil</string>
     <plurals name="comment_reply_item_fold">
         <item quantity="one">
-            <xliff:g primer="1" id="šteje">%1$d</xliff:g> Odgovor se je zrušil</item>
+            <xliff:g example="1" id="count">%1$d</xliff:g> Odgovor se je zrušil</item>
         <item quantity="two">
-            <xliff:g primer="2" id="šteje">%1$d</xliff:g> Odgovora sta se zrušila</item>
+            <xliff:g example="2" id="count">%1$d</xliff:g> Odgovora sta se zrušila</item>
         <item quantity="few">
             <xliff:g example="2" id="count">%1$d</xliff:g> Odgovori so se zrušili</item>
         <item quantity="other">
@@ -738,15 +739,17 @@ Podrobnosti težave:
     <string name="del_account_sure">Vaš račun bo izbrisan v 48 urah. Če imate dodatna vprašanja, se obrnite na nas.</string>
     <string name="reply_to">Odgovori na %1$s:</string>
     <string name="msg_all_read_notice">Obvestilo</string>
-    <string name="share_app_url_comment_v3">Delite <xliff:g primer="zhangsan" id="name">%1$s</xliff:g>\'s <xliff:g primer="post/story/review" id="type">%2$s</xliff:g> (Iz APKPure):<xliff:g primer="https://apkpure.com" id="url">%3$s </xliff:g>
+    <string name="share_app_url_comment_v3">Delite <xliff:g example="zhangsan" id="name">%1$s</xliff:g>\'s 
+\n<xliff:g example="post/story/review" id="type">%2$s</xliff:g> (Iz APKPure):
+\n<xliff:g example="https://apkpure.com" id="url">%3$s </xliff:g>
     </string>
     <string name="apk_unable_upload">Prenos apk ni uspel.</string>
     <string name="long_image">Velik izbor</string>
     <string name="edit_tag">Uredi oznako</string>
     <string name="save_tag_hint_msg">Sprememba ne bo shranjena. Ali ste prepričani, da želite zapreti\?</string>
-    <string name="un_follow_xx">Ne zasleduj <xliff:g primer="Apkpure" id="ime">%1$s</xliff:g>
+    <string name="un_follow_xx">Ne zasleduj <xliff:g example="Apkpure" id="name">%1$s</xliff:g>
     </string>
-    <string name="follow_xx">Sledi <xliff:g primer="Apkpure" id="ime">%1$s</xliff:g>
+    <string name="follow_xx">Sledi <xliff:g example="Apkpure" id="name">%1$s</xliff:g>
     </string>
     <string name="app_rating">Ocena:</string>
     <string name="number">\"</string>
@@ -777,7 +780,7 @@ Podrobnosti težave:
     <string name="my_draft">Moj osnutek</string>
     <string name="clear_empty">Počisti vse</string>
     <string name="several_draft">
-        <xliff:g primer="5" id="count">%1$s</xliff:g> osnutek</string>
+        <xliff:g example="5" id="count">%1$s</xliff:g> osnutek</string>
     <string name="delete_all_draft_hint">Ali ste prepričani, da želite izbrisati vse osnutke\?</string>
     <string name="edit_draft">Uredi osnutek</string>
     <string name="delete_draft">Izbriši osnutek</string>
@@ -801,7 +804,7 @@ Podrobnosti težave:
     <string name="gif_auto_desc">Samodejno predvajanje GIF na Wi-Fi</string>
     <string name="gif_auto_title">Samodejno predvajanje GIF</string>
     <string name="several_drafts">
-        <xliff:g primer="5" id="count">%1$s</xliff:g> osnutkov</string>
+        <xliff:g example="5" id="count">%1$s</xliff:g> osnutkov</string>
     <string name="auto_service_directly__material_">NAMESTITE NEPOSREDNO</string>
     <string name="picture_message_video_max_num">Lahko izberete največ %1$s videoposnetkov</string>
     <string name="picture_min_img_num">Izbira slike ne more biti številka %1$s</string>
