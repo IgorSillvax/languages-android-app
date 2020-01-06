@@ -92,7 +92,7 @@
         <item quantity="other">Téléchargement<xliff:g id="count" example="2">%1$d</xliff:g> des articles.</item>
     </plurals>
     <string name="downloads_complete">Tous les téléchargements sont terminés</string>
-    <string name="touch_for_view_all_downloads">Toucher pour voir tous les téléchargements</string>
+    <string name="touch_for_view_all_downloads">Appuyez pour afficher tous les téléchargements</string>
     <string name="_name__download_failed">
         <xliff:g id="name" example="APKPure">%1$s</xliff:g> erreur de téléchargement</string>
     <string name="touch_to_download_it_again">Cliquez pour redémarrer le téléchargement</string>
@@ -130,7 +130,7 @@
     </string>
     <string name="report__">Rapport…</string>
     <string name="report_problem__">Rapporter un problème…</string>
-    <string name="report_problem_subject">Reporter un problème</string>
+    <string name="report_problem_subject">Signaler un problème</string>
     <string name="report_problem_text">Problème sujet:\n%1$s\n\nétail du problème:\n%2$s</string>
     <string name="installation_failed">L\'installation a échoué.</string>
     <string name="invalid_app_detail">Les détails de l\'application sont invalides.</string>
@@ -258,7 +258,7 @@
     <string name="app_detail_tab_one">Details</string>
     <string name="app_detail_tab_two">Groupe</string>
     <string name="app_detail_tab_three">Rapporté</string>
-    <string name="download_complete_installation_setting">Option d\'installation après le téléchargement</string>
+    <string name="download_complete_installation_setting">Option d\'installation après téléchargement</string>
     <string name="reply">Répondre</string>
     <string name="input_reply_content">Le contenu de la réponse :</string>
     <string name="publish">Envoyé</string>
@@ -285,7 +285,7 @@
     <string name="app_detail_comment_order_array_newest">Nouveautés</string>
     <string name="app_detail_comment_order_array_best">Meilleur</string>
     <string name="download_complete_installation_setting_entries_always">Toujours installer</string>
-    <string name="download_complete_installation_setting_entries_only">Installer seulement lorsque l\'application est active</string>
+    <string name="download_complete_installation_setting_entries_only">Installer uniquement lors de l\'exécution au premier plan</string>
     <string name="download_complete_installation_setting_entries_never">Ne jamais installer</string>
     <string name="reply_dialog_marked_words">Appuyez longuement l\'image sélectionner pour la supprimé.</string>
     <string name="reply_comment">Répondre au commentaire</string>
@@ -365,7 +365,7 @@
     <string name="login_choose">Ou connectez vous avec votre compte</string>
     <string name="login_new_user">Inscription</string>
     <string name="login_post_as_a_guest">Poster comme invité</string>
-    <string name="app_detail_comment_order_array_default">Tri par défaut</string>
+    <string name="app_detail_comment_order_array_default">Trier par défaut</string>
     <string name="app_detail_comment_order_array_most_recent">Plus récent</string>
     <string name="app_detail_comment_order_array_new">Le plus récent</string>
     <string name="message_all">TOUS</string>
@@ -422,7 +422,7 @@
     </plurals>
     <string name="check_update_replace">Version officielle</string>
     <string name="check_update_beta">Pré-version Béta</string>
-    <string name="app_detail_comment_order_array_old">Ancien</string>
+    <string name="app_detail_comment_order_array_old">Le plus ancien</string>
     <string name="app_detail_comment_join_group_bt">Groupe</string>
     <string name="ad_tip">annonce</string>
     <string name="play_button">Bouton jouer</string>
@@ -641,4 +641,8 @@
     <string name="app_detail_comment_score_less">Trop peu de commentaires d\'utilisateurs.</string>
     <string name="app_detail_comment_filter_version">Dernière Version</string>
     <string name="app_detail_comment_filter_all">Toutes les Activités</string>
+    <string name="app_detail_discuss_filter_folded">Plié</string>
+    <string name="app_detail_discuss_filter_featured">lesmèches</string>
+    <string name="app_detail_folded_footer_posts">Voir tous les% d messages pliés</string>
+    <string name="app_detail_folded_footer_reviews">Voir tous les avis pliés% d</string>
 </resources>
