@@ -95,10 +95,8 @@
     </plurals>
     <string name="launching_please_wait">Lançamento… Por favor aguarde.</string>
     <plurals name="_count__item_is_downloading">
-        <item quantity="one">
-            <xliff:g example="1" id="count">%1$d</xliff:g> O item está sendo baixado</item>
-        <item quantity="other">
-            <xliff:g example="2" id="count">%1$d</xliff:g> Os itens estão sendo baixados</item>
+        <item quantity="one">Baixando <xliff:g example="1" id="count">%1$d</xliff:g> item.</item>
+        <item quantity="other">Baixando <xliff:g example="2" id="count">%1$d</xliff:g> itens.</item>
     </plurals>
     <string name="downloads_complete">Todos os downloads completos</string>
     <string name="touch_for_view_all_downloads">Toque para ver todos os downloads</string>
@@ -156,17 +154,13 @@ Detalhe do problema:
     <string name="contact_us__">Entre em contato conosco…</string>
     <string name="contact_us">Entre em contato conosco</string>
     <string name="report_content">Relatório do conteúdo</string>
-    <string name="installation_failed">Falha na instalação</string>
+    <string name="installation_failed">Falha na instalação.</string>
     <string name="invalid_app_detail">Informações do aplicativo inválido.</string>
     <string name="invalid_app_asset">Informações inválidas sobre o recurso do aplicativo.</string>
     <string name="failed_to_request_app_detail">Falha ao solicitar informações detalhadas do aplicativo.</string>
     <string name="failed_to_request_app_asset">Falha ao solicitar informações sobre o recurso do aplicativo.</string>
-    <string name="incompatible_this_app">
-        <![CDATA[<big><b><font color="%1$d">Seu dispositivo não é compatível com este aplicativo.</font></b></big><br><br>Você quer continuar?]]>
-    </string>
-    <string name="this_app_not_usable">
-        <![CDATA[<big><b><font color="%1$d">Este aplicativo pode não ser utilizável.</font></b></big><br><br>Você quer continuar?]]>
-    </string>
+    <string name="incompatible_this_app">&lt;big&gt;&lt;b&gt;&lt;font color=%1$d&gt;Seu dispositivo não é compatível com este aplicativo.&lt;/font&gt;&lt;/b&gt;&lt;/big&gt;&lt;br&gt;&lt;br&gt;Continuar\?</string>
+    <string name="this_app_not_usable">&lt;big&gt;&lt;b&gt;&lt;font color=%1$d&gt;Este aplicativo pode não ser utilizável.&lt;/font&gt;&lt;/b&gt;&lt;/big&gt;&lt;br&gt;&lt;br&gt;Continuar\?</string>
     <string name="setting">Configuração</string>
     <string name="external_storage_not_usable">
         <big>
@@ -188,7 +182,7 @@ Detalhe do problema:
     </string>
     <string name="update_all">Atualizar tudo</string>
     <string name="update___count__">Atualização (<xliff:g example="3" id="count">%1$d</xliff:g>)</string>
-    <string name="ignore">Ignorar da lista</string>
+    <string name="ignore">Ignorar</string>
     <string name="unignore">Não ignorar</string>
     <string name="select">Selecionar</string>
     <string name="cancel">Cancelar</string>
@@ -214,22 +208,22 @@ Detalhe do problema:
     <string name="touch_to_open">Toque para abrir.</string>
     <string name="installed">Instalado</string>
     <string name="download_over_cellular">Transferir por telemóvel</string>
-    <string name="download_over_cellular_content">Você está prestes a fazer o download na sua rede móvel. Você gostaria de continuar?</string>
-    <string name="participate_ultra_download_beta_test_title">Ativar Ultra Download e desfrutar de uma velocidade de downloads mais rápidos</string>
-    <string name="participate_ultra_download_beta_test_content">Ultra Download está em teste beta, deixe-nos saber se você encontrar quaisquer problemas. Você pode facilmente desativá-lo em Configurações.</string>
+    <string name="download_over_cellular_content">Você está prestes a fazer o download na sua rede móvel. Continuar\?</string>
+    <string name="participate_ultra_download_beta_test_title">Ativar Ultra Download e desfrutar de downloads mais rápidos</string>
+    <string name="participate_ultra_download_beta_test_content">Ultra Download está em fase beta, informe-nos se você encontrar quaisquer problemas. Você pode facilmente desativá-lo em Configurações.</string>
     <string name="enable">Ativado</string>
     <string name="download_via_wifi_only">Baixar apenas através do Wi-Fi</string>
     <string name="enable_ultra_download">Ativar ultra download</string>
-    <string name="enable_ultra_download_summary">Ultra Download está em teste beta, deixe-nos saber se você encontrar quaisquer problemas.</string>
+    <string name="enable_ultra_download_summary">Ultra Download está em fase beta, informe-nos se você encontrar quaisquer problemas.</string>
     <string name="similar_or_related">Semelhante ou Relacionado</string>
     <string name="more_from_developer">Mais do desenvolvedor</string>
     <string name="more_large">Mais</string>
     <string name="feedback">Deixe seu feedback</string>
     <string name="changing_language">Alterando o idioma, aguarde…</string>
     <string name="auto_service_install_accessibility_title">Instalação automática</string>
-    <string name="auto_service_install_accessibility_summary">Suporte Android 4.1 ou superior, sem necessidade de permissão de Root.</string>
+    <string name="auto_service_install_accessibility_summary">Suporta Android 4.1 ou superior, sem necessidade de permissão de Root.</string>
     <string name="auto_service_dialog_title">Ativar a Instalação automática</string>
-    <string name="auto_service_dialog_message">A Instalação automática exige que você autorize no telefone, é seguro usar sem riscos.</string>
+    <string name="auto_service_dialog_message">A Instalação automática exige a sua permissão, é 100% seguro.</string>
     <string name="auto_service_title">Instalação automática do APKPure</string>
     <string name="auto_service_description">Ative a Instalação automática do APKPure, para manter a Instalação automática do APKPure funcionando sem problemas.\n\nA Instalação automática do APKPure pode ajudá-lo a clicar em todos os botões de instalação ao instalar ou atualizar aplicativos, não é necessário verificar o telefone o tempo todo.\n\nAo ativar esse recurso, você pode receber avisos de risco do sistema, toque em \"OK\" para ativar o botão de acessibilidade \"ON\".\n\nPara garantir o bom funcionamento do APKPure, adicione o APKPure à sua \"Lista Branca\" de Limpeza.\n\nAs funções acima mencionadas suportam o Android 4.1 ou superior, sem necessidade de permissão de root. Prometemos nunca recolher qualquer informação pessoal neste serviço de acessibilidade. Sinta por favor livre contatar-nos com todos os problemas.</string>
     <string name="auto_service_install">Instalar</string>
@@ -257,8 +251,8 @@ Detalhe do problema:
     <string name="app_submit_msg_toast">Você deve escrever algo!</string>
     <string name="app_submit_name_toast">Por favor, preencha o apelido!</string>
     <string name="app_submit_email_toast">Preencha o endereço de e-mail correto!</string>
-    <string name="app_submit_star_toast">Você deve enviar uma estrela!</string>
-    <string name="app_submit_title_hint">Escreva o título</string>
+    <string name="app_submit_star_toast">Você deve enviar sua avaliação!</string>
+    <string name="app_submit_title_hint">Escreva o título!</string>
     <string name="app_submit_msg_hint">Por favor escreva sua opinião</string>
     <string name="app_submit_nickname">Apelido</string>
     <string name="app_submit_email">Email</string>
@@ -268,15 +262,14 @@ Detalhe do problema:
     <string name="app_detail_tab_two">Grupo</string>
     <string name="app_detail_tab_three">Relacionado</string>
     <string name="reply">Resposta</string>
-    <string name="input_reply_content">O conteúdo de entrada da resposta:</string>
+    <string name="input_reply_content">Por favor, forneça sua resposta:</string>
     <string name="publish">Publicar</string>
-    <string name="load_end">Sem mais dados</string>
-    <string name="load_failed_click_retry">Algo deu errado. Por favor clique para tentar novamente</string>
+    <string name="load_end">Sem mais dados.</string>
+    <string name="load_failed_click_retry">Falha ao carregar. Por favor, toque para tentar novamente.</string>
     <string name="loading">Carregando…</string>
-    <string name="scan_qr_code_hint">Antes de usar o Scan QR Code, você precisa conceder a permissão da câmera↵
-Que é necessário para escanear o código QR.</string>
+    <string name="scan_qr_code_hint">"Antes de usar o Scan QR Code, você precisa conceder a permissão da câmera,  necessária para escanear o código QR."</string>
     <string name="zxing_msg_default_status">Coloque o código QR dentro do visor para escaneá-lo.</string>
-    <string name="zxing_msg_parser_status">O escaneamento falhou, tente escanear o código QR novamente.</string>
+    <string name="zxing_msg_parser_status">Falha ao escanear. Por favor, tente novamente.</string>
     <string name="recommend">Recomendado</string>
     <string name="report">Relatório</string>
     <string name="share_app_url_comment">
@@ -290,9 +283,9 @@ Que é necessário para escanear o código QR.</string>
     <string name="app_detail_comment_order_array_newest">O mais novo</string>
     <string name="app_detail_comment_order_array_best">Melhor</string>
     <string name="download_complete_installation_setting_entries_always">Sempre instalar</string>
-    <string name="download_complete_installation_setting_entries_only">Instalar apenas quando o aplicativo estiver na frente</string>
+    <string name="download_complete_installation_setting_entries_only">Instalar apenas quando executado em primeiro plano</string>
     <string name="download_complete_installation_setting_entries_never">Nunca instalar</string>
-    <string name="reply_dialog_marked_words">Pressionando a foto selecionada para excluir.</string>
+    <string name="reply_dialog_marked_words">Toque e segure a imagem para excluí-la.</string>
     <string name="reply_comment">Responder ao comentário</string>
     <string name="save_original_image">Salvar</string>
     <string name="already_save">Salvado<xliff:g example="ApKPure/photo" id="path">
@@ -319,30 +312,30 @@ Que é necessário para escanear o código QR.</string>
     <string name="user_info_edit_gender_female">Feminino</string>
     <string name="user_info_edit_portrait_album">Selecionar foto da galeria</string>
     <string name="user_info_edit_portrait_take_photo">Tirar foto usando a câmera</string>
-    <string name="user_info_edit_portrait_error">O tipo de imagem não é suportado</string>
+    <string name="user_info_edit_portrait_error">O tipo de imagem não é suportado.</string>
     <string name="user_info_edit_ok">OK</string>
     <string name="user_info_edit_cancel">Cancelar</string>
     <string name="update_nick_title">Alterar apelido</string>
     <string name="update_email_title">Alterar e-mail</string>
     <string name="update_nick_name_et">Digite seu novo apelido</string>
-    <string name="update_nick_name_tv">O novo apelido não pode ficar em branco</string>
-    <string name="update_email_name_et">Digite seu e-mail</string>
-    <string name="update_eamil_name_tv">O e-mail não pode ficar em branco</string>
+    <string name="update_nick_name_tv">Seu apelido não pode ficar em branco.</string>
+    <string name="update_email_name_et">Digite seu e-mail.</string>
+    <string name="update_eamil_name_tv">Seu e-mail não pode ficar em branco.</string>
     <string name="update_nickname_error">Apelido já usado, escolha outro!</string>
     <string name="update_pwd_title">Redefinir minha senha</string>
     <string name="update_pwd_current_pwd_et">Senha antiga</string>
     <string name="update_pwd_new_pwd_et">Nova senha</string>
     <string name="update_pwd_Confirm_pwd_et">Confirme a nova senha</string>
     <string name="upload_avatar">Enviando…</string>
-    <string name="update_pwd_current_null_tv">A senha antiga não pode ficar em branco</string>
+    <string name="update_pwd_current_null_tv">A senha antiga não pode ficar em branco.</string>
     <string name="update_pwd_Confirm_null_tv">Confirmar a senha não pode ficar em branco</string>
-    <string name="update_pwd_new_pwd_null_tv">Nova senha não pode ficar em branco</string>
-    <string name="update_pwd_new_confrim_tv">As senhas inseridas não são iguais</string>
+    <string name="update_pwd_new_pwd_null_tv">Nova senha não pode ficar em branco.</string>
+    <string name="update_pwd_new_confrim_tv">As senhas inseridas não são iguais.</string>
     <string name="update_pwd_save_bt">Salvar</string>
     <string name="update_save_success">Salvado.</string>
     <string name="crop__cancel" ignore="ButtonCase">Cancelar</string>
     <string name="crop__done">Concluído</string>
-    <string name="crop__pick_error">Tipo de arquivo de imagem inválido</string>
+    <string name="crop__pick_error">Tipo de arquivo de imagem inválido.</string>
     <string name="crop__saving">Salvando foto…</string>
     <string name="crop__wait">Por favor, espere…</string>
     <string name="is_comment">O comentário é…</string>
@@ -351,26 +344,26 @@ Que é necessário para escanear o código QR.</string>
     <string name="register_term_of_service">Termo de serviço APKPure</string>
     <string name="set_contributor">Contribuintes</string>
     <string name="set_permissions">Permissões</string>
-    <string name="sign_in_services">Ao registrar-se, você concorda com nossos Termos e Política de privacidade.</string>
+    <string name="sign_in_services">Ao registrar-se, você concorda com nossos Termos e Política de Privacidade.</string>
     <string name="sign_in_services_key">Termos</string>
     <string name="sign_in_services_key_policy">Política de privacidade</string>
     <string name="user_sign_up">Registrar-se</string>
     <string name="user_name_hint">Nome de usuário</string>
     <string name="user_email_hint">E-mail</string>
-    <string name="user_password">Senha(6–32)</string>
+    <string name="user_password">Senha (6–32 caracteres)</string>
     <string name="user_password_confirm">Confirme a senha</string>
-    <string name="user_name_error">O nome de usuário não deve conter caracteres especiais, símbolos ou espaços</string>
-    <string name="user_nickname_error">O apelido não deve conter caracteres especiais, símbolos ou espaços</string>
-    <string name="user_email_error">Este endereço de e-mail é inválido</string>
-    <string name="user_password_error">Esta senha é inválida</string>
-    <string name="user_confirm_error">As senhas devem corresponder</string>
+    <string name="user_name_error">O nome de usuário não deve conter caracteres especiais, símbolos ou espaços.</string>
+    <string name="user_nickname_error">O apelido não deve conter caracteres especiais, símbolos ou espaços.</string>
+    <string name="user_email_error">Este endereço de e-mail é inválido.</string>
+    <string name="user_password_error">Esta senha é inválida.</string>
+    <string name="user_confirm_error">As senhas devem ser iguais.</string>
     <string name="login_user_name">Nome de usuário ou Email</string>
     <string name="login_user_password">Senha</string>
     <string name="login_user_sign_in">Entrar</string>
     <string name="login_choose">Ou entre com sua conta</string>
     <string name="login_new_user">Registrar novo usuário</string>
     <string name="login_post_as_a_guest">Publicar como convidado</string>
-    <string name="app_detail_comment_order_array_default">Ordenar por padrão</string>
+    <string name="app_detail_comment_order_array_default">Ordenar por Padrão</string>
     <string name="app_detail_comment_order_array_most_recent">Mais recente</string>
     <string name="app_detail_comment_order_array_new">O mais novo</string>
     <string name="message_all">TODOS</string>
@@ -384,17 +377,17 @@ Que é necessário para escanear o código QR.</string>
     <string name="push_title_info_reply">%1$s respondeu o seu comentário!</string>
     <string name="push_title_info_upvoted">%1$s Curtiu o seu comentário!</string>
     <string name="download_list">Lista de download</string>
-    <string name="can_be_update">Pode ser atualizado</string>
+    <string name="can_be_update">Para ser atualizado</string>
     <string name="install_list">Instalado</string>
     <string name="no_download">Nenhum aplicativo baixado.</string>
-    <string name="downloads">Downloads</string>
+    <string name="downloads">Download</string>
     <string name="change_language_failed">Falha na alteração do idioma!</string>
     <string name="comment_reply_tell_msg">Este comentário foi removido!</string>
     <string name="notification_setting">Notificações</string>
-    <string name="reply_notification">Notificações de resposta</string>
-    <string name="reply_notification_msg">Receber notificações para novas mensagens de resposta</string>
+    <string name="reply_notification">Notificações de respostas</string>
+    <string name="reply_notification_msg">Receber notificações de novas respostas</string>
     <string name="like_notification">Notificações de curtida</string>
-    <string name="like_notification_msg">Receber notificações para novas mensagens de curtida</string>
+    <string name="like_notification_msg">Receber notificações de novas Curtidas</string>
     <string name="gif_tip">Gif</string>
     <string name="submit_comment_title_hint">Título</string>
     <string name="comment_vote_string">Curtida</string>
@@ -409,8 +402,8 @@ Que é necessário para escanear o código QR.</string>
     <string name="comment_no_reply">Uau, não há nada aqui.</string>
     <string name="comment_reply_info_name">Detalhe</string>
     <string name="set_updates_notification">Atualizações de aplicativos estão disponíveis</string>
-    <string name="set_updates_notification_msg">Notificar quando as atualizações de aplicativo estiverem disponíveis. Configuração recomendada: ligado</string>
-    <string name="app_detail_unknow_text">A versão antiga do APKPure não suporta novos recursos, atualize para a versão mais recente.</string>
+    <string name="set_updates_notification_msg">Notificar quando as atualizações de aplicativo estiverem disponíveis. Configuração recomendada: Ligado</string>
+    <string name="app_detail_unknow_text">Este recurso não é suportado na versão atual. Por favor, atualize para a versão mais recente.</string>
     <string name="comment_detail_original">Ver comentário original</string>
     <string name="comment_comment_newest">O mais novo</string>
     <string name="comment_comment_oldest">Mais antigo</string>
@@ -418,12 +411,12 @@ Que é necessário para escanear o código QR.</string>
     <string name="menu_copy">Copiar</string>
     <string name="menu_cancel">Cancelar</string>
     <string name="delete_all_download_history">Excluir todo o histórico de download?</string>
-    <string name="delete_the_historical_record">Excluir o registro histórico?</string>
-    <string name="download_history">Histórico de downloads</string>
+    <string name="delete_the_historical_record">Excluir este registro\?</string>
+    <string name="download_history">Histórico de Downloads</string>
     <string name="sub_comment_dialog_title">Adicionar um Vídeo</string>
     <string name="sub_comment_dialog_des_tv">Suporta apenas a análise de vídeos do Youtube.</string>
-    <string name="sub_comment_dialog_link_et">Digite o endereço do vídeo aqui.</string>
-    <string name="sub_comment_dialog_link_null">O endereço URL do vídeo não pode ficar em branco</string>
+    <string name="sub_comment_dialog_link_et">Digite a URL do vídeo aqui.</string>
+    <string name="sub_comment_dialog_link_null">O endereço URL do vídeo não pode ficar em branco.</string>
     <string name="sub_comment_progress_msg">Adicionando vídeo…</string>
     <string name="check_update_replace">Versão oficial</string>
     <string name="check_update_beta">Beta Pré-lançada</string>
@@ -432,7 +425,7 @@ Que é necessário para escanear o código QR.</string>
     <string name="ad_tip">anúncio</string>
     <string name="play_button">Botão de reprodução</string>
     <string name="null_time">0:00</string>
-    <string name="open_video_in_youtube">Abrir o vídeo no YouTube</string>
+    <string name="open_video_in_youtube">Abrir vídeo no YouTube</string>
     <string name="full_screen_button">Botão de tela cheia</string>
     <string name="main_tab_home">INÍCIO</string>
     <string name="main_tab_ranking">CLASSIFICAÇÃO</string>
@@ -471,11 +464,11 @@ Que é necessário para escanear o código QR.</string>
     <string name="save_as_favorite">Salvar como favorito</string>
     <string name="favorite_saved">Favoritado.</string>
     <string name="failed_to_save_favorite">Falha ao salvar o favorito</string>
-    <string name="remove_as_favorite">Remover favorito</string>
+    <string name="remove_as_favorite">Remover dos Favoritos</string>
     <string name="remove_failed">Falha ao remover</string>
-    <string name="collection_comment">Postagens</string>
+    <string name="collection_comment">POSTAGENS</string>
     <string name="collection_app">APLICATIVOS</string>
-    <string name="open_with_browser">Abrir com navegadores</string>
+    <string name="open_with_browser">Abrir no navegador</string>
     <string name="web_view_refresh">Atualizar</string>
     <string name="topic_red_color">Vermelho</string>
     <string name="topic_green_color">Sorte Verde</string>
@@ -511,7 +504,7 @@ Que é necessário para escanear o código QR.</string>
     <string name="download_mkdir_internal_storage_size_des">Livre, Total</string>
     <string name="download_mkdir_internal_storage_entries">SD Card</string>
     <string name="download_mkdir_internal_storage_entries1">SD 1</string>
-    <string name="download_mkdir_external_storage_fill_toast">Um armazenamento insuficiente disponível pode fazer com que você não possa baixar nenhum aplicativo.</string>
+    <string name="download_mkdir_external_storage_fill_toast">Armazenamento insuficiente. Não é possível baixar aplicativos.</string>
     <string name="download_mkdir_internal_storage_values">memória_interna</string>
     <string name="download_mkdir_external_storage_values">memória_externa</string>
     <string name="recommend_not_found">Não indexado</string>
@@ -543,10 +536,10 @@ Que é necessário para escanear o código QR.</string>
     <string name="scan_qr_code_result_title">Resultado</string>
     <string name="scan_qr_code_result_copy_text">Copiar texto</string>
     <string name="scan_qr_code_result_hint">Detalhes do código QR:</string>
-    <string name="scan_qr_code_copy_success">O texto é copiado</string>
+    <string name="scan_qr_code_copy_success">O texto foi copiado.</string>
     <string name="user_info_edit_large_photo">Ver foto em tamanho maior</string>
     <string name="push_title_info_follow">%1$s Seguiu você!</string>
-    <string name="push_title_info_update">A atualização do APKPure chegou!</string>
+    <string name="push_title_info_update">Chegou a nova versão do APKPure!</string>
     <string name="push_content_info_update">Nova versão %1$s lançada! Atualize agora!</string>
     <string name="recommend_user_recommend_sys">Apresentado pelo APKPure</string>
     <string name="app_detail_has_product">Contém compra de itens</string>
@@ -558,21 +551,21 @@ Que é necessário para escanear o código QR.</string>
     <string name="common_use">Minhas Tags</string>
     <string name="app_add_tag_hint_caution">Não há mais de %1$s tags para cada aplicativo.</string>
     <string name="app_add_tag">Adicione uma nova tag</string>
-    <string name="toast_app_tag_exist">Tag já existe!</string>
+    <string name="toast_app_tag_exist">Esta tag já existe!</string>
     <string name="there_is_no_label">Sem tags.</string>
     <string name="add">Adicionar</string>
     <string name="load_failed_error_not_found">O aplicativo não foi incluído no APKPure.</string>
     <string name="beta">beta</string>
     <string name="user_info_edit_intro_tv">Sobre mim</string>
-    <string name="update_intro_title">Editar Sobre Mim</string>
+    <string name="update_intro_title">Editar informações</string>
     <string name="update_intro_et">Escreva alguns detalhes sobre você</string>
     <string name="update_intro_tv">O campo sobre mim não pode estar vazio</string>
-    <string name="user_name_null">Nome de usuário Inválido</string>
+    <string name="user_name_null">Nome de usuário Inválido.</string>
     <string name="colon">:</string>
     <string name="pack_up">Mostrar menos</string>
     <string name="Istop">Fixado</string>
     <string name="add_tag">Adicionar tags</string>
-    <string name="error_add_tag">Falha ao adicionar tags</string>
+    <string name="error_add_tag">Falha ao adicionar tags.</string>
     <string name="no_collect">Ainda não há favoritos!</string>
     <string name="no_comment">Seja o primeiro a adicionar um post!</string>
     <string name="share_apk">Compartilhar APK</string>
@@ -601,14 +594,14 @@ Que é necessário para escanear o código QR.</string>
     <string name="hot_tag_explain">(Adicionar ou votar tags existentes para este aplicativo)</string>
     <string name="message_at_title">Menções</string>
     <string name="message_at">Mencionou você</string>
-    <string name="set_open_source_licence">Licença de código aberto</string>
-    <string name="push_title_info_at">Alguém mencionou você em uma postagem, toque para ver</string>
+    <string name="set_open_source_licence">Licença de Código Aberto</string>
+    <string name="push_title_info_at">Alguém mencionou você em uma postagem. Toque para ver.</string>
     <string name="cancel_collection">Não é favorito</string>
     <string name="ranking_top_countries_title">Ranking Particionado</string>
     <string name="ranking_top_develop_title">Principais desenvolvedores</string>
     <string name="google_play_bug_text">Compre on Google Play</string>
     <string name="search_tab_name_one">APLICATIVOS</string>
-    <string name="search_tab_name_two">USUÁRIO</string>
+    <string name="search_tab_name_two">USUÁRIOS</string>
     <string name="pre_register_bt">Pré-Registro</string>
     <string name="pre_register_now_bt">Pré-Registro</string>
     <string name="pre_registered_bt">Registrado</string>
@@ -634,10 +627,10 @@ Que é necessário para escanear o código QR.</string>
     <string name="app_detail_comment_filter_sort_score">Mais votado</string>
     <string name="app_detail_comment_filter_all">Todas análises</string>
     <string name="app_detail_comment_filter_version">Última versão</string>
-    <string name="app_detail_comment_score_less">Poucas classificações de usuários</string>
+    <string name="app_detail_comment_score_less">Poucas classificações de usuários.</string>
     <string name="app_detail_comment_no_data">Nenhuma classificação de usuários encontrada, adicione sua classificação agora.</string>
     <string name="app_detail_comment_score_footer">Há %1$s de avaliações em outros idiomas.</string>
-    <string name="app_detail_evaluation_tool_bar_title">Compartilhar um comentário</string>
+    <string name="app_detail_evaluation_tool_bar_title">Escrever um comentário</string>
     <string name="app_detail_evaluation_failed_bt">Análise</string>
     <string name="app_detail_comment_order_array_good">4 - 5</string>
     <string name="app_detail_comment_order_array_bad">1 - 3</string>
@@ -664,18 +657,18 @@ Que é necessário para escanear o código QR.</string>
     <string name="topics">Tópico</string>
     <string name="pre_register_game">Pré-registro</string>
     <string name="editors_picks">Escolha dos editores</string>
-    <string name="recommend_game">Recomendar jogo</string>
+    <string name="recommend_game">Jogo recomendado</string>
     <string name="bing_share_account">Conectar-se à conta de terceiros</string>
     <string name="un_bind">Não conectado</string>
     <string name="login_out_message_hint">Tem certeza que deseja sair?</string>
-    <string name="bind_email_title">Conecte seu email</string>
+    <string name="bind_email_title">Conecte seu e-mail</string>
     <string name="bind_email_tv">Conecte seu endereço de e-mail à sua conta para desbloquear os benefícios do login de e-mail, recuperação de senha, envio de postagens e muito mais.</string>
     <string name="verification_code_tv">Um código de verificação foi enviado para seu endereço de e-mail%1$s</string>
     <string name="verification_code_second_tv">Reenviar em %d s</string>
     <string name="verification_code_resend_tv">Reenviar código de verificação</string>
     <string name="send_verification_code_resend_tv">Enviar código de verificação</string>
     <string name="bind_email_success">Conexão bem sucedida.</string>
-    <string name="update_email_tv">Verifique para atualizar seu endereço de email</string>
+    <string name="update_email_tv">Verifique o seu endereço de e-mail para atualizá-lo.</string>
     <string name="verification_code_tv_hint">Código de verificação</string>
     <string name="verification_success_code_toast">Código de verificação enviado.</string>
     <string name="verification_null_code_toast">Por favor, insira o código de verificação que você recebeu.</string>
@@ -685,17 +678,17 @@ Que é necessário para escanear o código QR.</string>
     <string name="forget_password_tv">Esqueceu a senha?</string>
     <string name="recover_password_title">Recuperação de senha</string>
     <string name="email_address_hint_et">Insira seu email.</string>
-    <string name="home_message_reply">Comentários</string>
+    <string name="home_message_reply">Respostas</string>
     <string name="home_message_praise">Curtidas</string>
     <string name="sign_in_services_key_policy_register">Política de Privacidade</string>
     <string name="shop">LOJA</string>
     <string name="setting_region">Região</string>
     <string name="submit_add_title_image_tv">Adicione uma capa</string>
-    <string name="submit_add_title_image_error_toast">Esta imagem pode não ser suportada temporariamente. Por favor, selecione outra.</string>
+    <string name="submit_add_title_image_error_toast">O formato desta imagem não é suportado. Por favor, selecione outra.</string>
     <string name="comment_hint_tv">Compartilhar algo\?</string>
     <string name="msg_all_read">Marcar tudo como lido</string>
     <string name="msg_all_read_msg">Tem certeza que quer marcar tudo como lido\?</string>
-    <string name="user_recommend_tip">Recomendação dos usuários</string>
+    <string name="user_recommend_tip">Recomendação dos Usuários</string>
     <string name="subject_comment">hashtags</string>
     <string name="new_subject_comment">Nova hashtag</string>
     <string name="evaluating">Análises</string>
@@ -717,19 +710,19 @@ Que é necessário para escanear o código QR.</string>
     <string name="history_hastag">Hashtag da história</string>
     <string name="share_image_failed">Não foi possível compartilhar a foto!</string>
     <string name="select_image_overflow_hint">\@string/foto_mensagem_max_num</string>
-    <string name="share_select_image_overflow_hint">Você pode compartilhar até 9 fotos.</string>
+    <string name="share_select_image_overflow_hint">Você pode compartilhar até 9 fotos em uma postagem.</string>
     <string name="search_or_create">Pesquise ou crie</string>
     <string name="privacy_setting_title">Configurações de privacidade</string>
     <string name="privacy_setting_account">Conta privada</string>
     <string name="privacy_setting_account_des">Sua página pessoal não será vista por outras pessoas se sua conta estiver definida como particular.</string>
-    <string name="privacy_setting_account_del">Excluir sua conta e informações</string>
+    <string name="privacy_setting_account_del">Excluir sua conta &amp; informações</string>
     <string name="privacy_setting_account_privacy">É uma conta privada.</string>
     <string name="del_account_email_notify_tv">Por favor, forneça um endereço de e-mail válido para receber nossa notificação.</string>
     <string name="del_account_email_reason_tv">Por que você deseja excluir esta conta\?</string>
     <string name="del_account_bt">Enviar</string>
     <string name="del_account_result_warn">Você não poderá fazer login com esta conta após a exclusão.</string>
     <string name="del_account_reason_hint">Por que você deseja excluir esta conta\?</string>
-    <string name="del_account_sure">Sua conta será excluída em no máximo 48 horas. Por favor, entre em contato conosco se tiver mais dúvidas.</string>
+    <string name="del_account_sure">Sua conta será excluída em 48 horas. Por favor, entre em contato conosco se tiver mais dúvidas.</string>
     <string name="reply_to">Responder a %1$s:</string>
     <string name="msg_all_read_notice">Notícia</string>
     <string name="share_app_url_comment_v3">Compartilhar <xliff:g example="zhangsan" id="name">%1$s</xliff:g>\'s <xliff:g example="post/story/review" id="type">%2$s</xliff:g> (De APKPure):<xliff:g example="https://apkpure.com" id="url">%3$s </xliff:g>
@@ -749,14 +742,14 @@ Que é necessário para escanear o código QR.</string>
     <string name="download_install_obb">Instale o OBB</string>
     <string name="download_install_apk">Instalar APK</string>
     <string name="users_recommended_title">Parabéns!</string>
-    <string name="users_recommended_des">Seu comentário foi selecionado como recomendação de usuário,%1$s</string>
+    <string name="users_recommended_des">Seu comentário foi selecionado como recomendação de usuário, %1$s</string>
     <string name="recommended_posts_title">Parabéns!</string>
-    <string name="recommended_posts_des">Seu comentário foi selecionado como recomendação de usuário,%1$s</string>
+    <string name="recommended_posts_des">Seu comentário foi selecionado como recomendação de usuário, %1$s</string>
     <string name="comment_removed_title">Sua postagem foi removida</string>
     <string name="comment_removed_des">Parece que algo que você postou não segue nossos %1$s. Não permitimos publicações que intimidem pessoas privadas ou assediem alguém no APKPure. Isso pode incluir imagens, fotos ou vídeos impróprios de bullying físico ou qualquer outro post destinado a desagradar ou envergonhar uma pessoa específica.
 \n%2$s
 \nSe você acha que isso foi um erro, por favor %3$s.</string>
-    <string name="temporarily_blocked_title">Você está temporariamente bloqueado de postagem</string>
+    <string name="temporarily_blocked_title">Você está temporariamente bloqueado de postar no APKPure</string>
     <string name="temporarily_blocked_des">Este bloqueio temporário terá a duração de %1$s dias e você não poderá postar no APKPure até que esteja concluído. Se você postar algo que vai contra nossos %2$s novamente, sua conta será bloqueada por mais 30 dias. Lembre-se de que as pessoas que publicam repetidamente coisas que não são permitidas no APKPure podem ter suas contas desativadas permanentemente.
 \nSe você acha que isso foi um erro, por favor %3$s.</string>
     <string name="pre_register_title">%1$s Liberado para %2$s!</string>
@@ -764,17 +757,17 @@ Que é necessário para escanear o código QR.</string>
     <string name="report_callback_title">Removemos a postagem que você denunciou!</string>
     <string name="report_callback_des">Analisamos a postagem que você denunciou por assédio. Como isso violou nossos %1$s, nós os removemos. Obrigado pelo seu relatório. Deixamos %2$s saber que a postagem foi removida, mas não quem a denunciou.</string>
     <string name="tap_to_view">Toque para ver</string>
-    <string name="let_us_know">Nos informe</string>
+    <string name="let_us_know">Informe-nos</string>
     <string name="community_guide_lines">Diretrizes da comunidade</string>
     <string name="my_draft">Meu rascunho</string>
     <string name="clear_empty">Limpar tudo</string>
     <string name="several_draft">
-        <xliff:g example="5" id="count">%1$s</xliff:g> Rascunhos</string>
-    <string name="delete_all_draft_hint">Quer esvaziar a caixa de rascunho\?</string>
+        <xliff:g example="5" id="count">%1$s</xliff:g> rascunho</string>
+    <string name="delete_all_draft_hint">Deseja realmente excluir todos os rascunhos\?</string>
     <string name="edit_draft">Edite o rascunho</string>
     <string name="delete_draft">Excluir o rascunho</string>
     <string name="empty_draft_info">Nenhum conteúdo…</string>
-    <string name="is_save_comment_draft">Quer salvar como um rascunho\?</string>
+    <string name="is_save_comment_draft">Salvar sua postagem como rascunho\?</string>
     <string name="upload_video">Enviar vídeo</string>
     <string name="saved_draft">Salvo como rascunho</string>
     <string name="picture_min_video_num">Seleção de vídeo não pode%1$s</string>
@@ -803,7 +796,7 @@ Que é necessário para escanear o código QR.</string>
     <string name="picture_all_audio">Todo o áudio</string>
     <string name="picture_save_error">Falha ao salvar imagem</string>
     <string name="picture_prompt_content">Você quer salvar fotos no seu telefone\?</string>
-    <string name="picture_prompt">Prompt</string>
+    <string name="picture_prompt">Perguntar</string>
     <string name="picture_warning">Arquivos de mídia！</string>
     <string name="picture_long_chart">Longo</string>
     <string name="picture_photograph">Fotografia</string>
@@ -833,9 +826,9 @@ Que é necessário para escanear o código QR.</string>
 \n A nova versão será baixada em breve, se existir.</string>
     <string name="app_details_request_update_title">Solicitar atualização</string>
     <string name="xapk_unable_upload">O upload de XAPK falhou!</string>
-    <string name="upload_xapk_to_group">Carregar XAPK para o grupo</string>
+    <string name="upload_xapk_to_group">Enviar XAPK para o grupo</string>
     <string name="upload_xapk">Carregar XAPK</string>
-    <string name="upload_apk_to_group">Carregar APK para o grupo</string>
+    <string name="upload_apk_to_group">Enviar APK para o grupo</string>
     <string name="app_update_auto_install">Clique para ativar \"instalação automática\"</string>
     <string name="look_video">Reproduzir vídeo</string>
     <string name="get_it_on">Obtê-lo em:</string>
