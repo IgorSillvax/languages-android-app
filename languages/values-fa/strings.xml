@@ -104,7 +104,7 @@
 \n <xliff:g id="count" example="2">%1$d</xliff:g>
         </item>
     </plurals>
-    <string name="downloads_complete">All downloads complete</string>
+    <string name="downloads_complete">تمام بارگیری ها تمام شد</string>
     <string name="touch_for_view_all_downloads">برای مشاهده تمام دانلود‌ها، لمس کنید</string>
     <string name="_name__download_failed">
         <xliff:g example="APKPure" id="name">%1$s</xliff:g> دانلود نشد</string>
@@ -131,8 +131,8 @@
     <string name="detail">جزئیات</string>
     <string name="remove">پاک کردن</string>
     <string name="remove_all">پاک کردن همه</string>
-    <string name="want_to_remove_download_item">آیا شما می‌خواهید این فایل را حذف کنید؟</string>
-    <string name="want_to_remove_all_download_items">آيا شما می‌خواهید تمام دانلود‌ها را حذف کنید؟</string>
+    <string name="want_to_remove_download_item">مطمئن به حذف نمودن این فایل هستید؟</string>
+    <string name="want_to_remove_all_download_items">مطمئن به حذف تمام فایلها هستید؟</string>
     <string name="delete_downloaded_file">حذف فایل دانلود شده</string>
     <string name="search">جستجو</string>
     <string name="search_for_apps">جستجو APKPure</string>
@@ -165,7 +165,7 @@
     <string name="share">اشتراک گذاری</string>
     <string name="update_all">به‌روزرسانی همه</string>
     <string name="update___count__">به‌روزرسانی (<xliff:g example="3" id="count">%1$d</xliff:g>)</string>
-    <string name="ignore">نادیده گرفتن از فهرست</string>
+    <string name="ignore">نادیده گرفتن</string>
     <string name="unignore">نادیده نگیر</string>
     <string name="select">انتخاب</string>
     <string name="cancel">انصراف</string>
@@ -190,13 +190,13 @@
     <string name="delete_packages_after_installation">حذف پکیج‌ها بعد از نصب</string>
     <string name="_name__installation_completed">
         <xliff:g example="APKPure" id="name">%1$s</xliff:g> نصب کامل شد</string>
-    <string name="touch_to_open">برای اجرا لمس کنید.</string>
+    <string name="touch_to_open">برای اجرا ضربه بزنید.</string>
     <string name="external_storage_not_usable">
         <![CDATA[<big><b>ما نیاز به دسترسی ذخیره سازی خارجی شما داریم. لطفا مطمئن شوید که قابل استفاده است.</b></big>]]>
     </string>
     <string name="external_storage_permission_denied">
         <big>
-            <b>ما نیاز به دسترسی ذخیره سازی خارجی شما داریم. لطفا مطمئن شوید که اجازه دسترسی پذیرفته شده است.</b>
+            <b>ما نیاز به دسترسی ذخیره سازی خارجی داریم. لطفا مطمئن شوید که اجازه دسترسی پذیرفته شده است.</b>
         </big>
     </string>
     <string name="share_app_url"> اشتراک گذاری <xliff:g example="APKPure" id="app_name">%1$s</xliff:g> ای‌پی‌کا (از @<xliff:g example="APKPure" id="social_network_name">%2$s</xliff:g>), <xliff:g example="https://apkpure.com/p/com.apkpure.aegon" id="app_url">%3$s</xliff:g>
