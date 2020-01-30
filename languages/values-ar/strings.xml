@@ -263,7 +263,7 @@
     <string name="auto_service_exchange__material_">استبدال</string>
     <string name="auto_service_complete__material_">تم</string>
     <string name="auto_install_via_root_title">تثبيت تلقائي (وضع مستخدم root)</string>
-    <string name="auto_install_via_root_summary">لهواتف اندرويد و الاجهزة الوحية التي تملك صلاحيات Root .</string>
+    <string name="auto_install_via_root_summary">لهواتف اندرويد و الاجهزة اللوحية التي تملك صلاحيات Root .</string>
     <plurals name="app_detail_see_all_replies">
         <item quantity="zero">See All <xliff:g example="1" id="count">%1$d</xliff:g> Reply</item>
         <item quantity="one">See All <xliff:g example="2" id="count">%1$d</xliff:g> Replies</item>
@@ -273,19 +273,19 @@
         <item quantity="other">رؤية كافة الـ<xliff:g example="1" id="count">%1$d</xliff:g>رد</item>
     </plurals>
     <string name="app_detail_customer_reviews">تعليقات</string>
-    <string name="app_detail_comment_type_web">web</string>
-    <string name="app_submit_submit">ينشر…</string>
-    <string name="app_submit_anonymous_comment">اضافة تعليق</string>
-    <string name="app_submit_title_toast">يتوجب عليك كتابة عنوان !</string>
+    <string name="app_detail_comment_type_web">ويب</string>
+    <string name="app_submit_submit">جاري التقديم…</string>
+    <string name="app_submit_anonymous_comment">إضافة تعليق</string>
+    <string name="app_submit_title_toast">برجاء كتابة عنوان !</string>
     <string name="app_submit_msg_toast">يتوجب عليك كتابة شيئ ما!</string>
-    <string name="app_submit_name_toast">رجاءا قmegooم بكتابة الاسم المستعار!</string>
-    <string name="app_submit_email_toast">رجاءا قم بكتmajjdiابة عنوان البريد الالكتروني الصحيح !</string>
-    <string name="app_submit_star_toast">يتوجب عليك وضع نجمة!</string>
-    <string name="app_submit_title_hint">رجاءا Room rood1449blok127136قم بكتابة العنوان</string>
-    <string name="app_submit_msg_hint">رجاءا قمgood so amazing بكتابة رأيك</string>
+    <string name="app_submit_name_toast">برجاء بكتابة الاسم المستعار!</string>
+    <string name="app_submit_email_toast">برجاء كتابة عنوان البريد الإلكتروني الصحيح !</string>
+    <string name="app_submit_star_toast">يتوجب عليك وضع تقييمك!</string>
+    <string name="app_submit_title_hint">برجاءقم بكتابة العنوان</string>
+    <string name="app_submit_msg_hint">برجاءكتابة رأيك</string>
     <string name="app_submit_nickname">اسم مستعار</string>
     <string name="app_submit_email">بريد الكتروني</string>
-    <string name="app_submit_submit_title">إرسال</string>
+    <string name="app_submit_submit_title">نشر</string>
     <string name="app_submit_reply_to">رد على</string>
     <string name="app_detail_reply_comment">تعليق(%d)</string>
     <string name="app_detail_tab_one">تفاصيل</string>
@@ -297,17 +297,18 @@
     <string name="download_complete_installation_setting">خيار التثبيت بعد التحميل</string>
     <string name="download_complete_installation_setting_entries_always">ثبت دائماً</string>
     <string name="download_complete_installation_setting_entries_only">Only install when running in foreground</string>
-    <string name="download_complete_installation_setting_entries_never">لاتثبت ابداً</string>
+    <string name="download_complete_installation_setting_entries_never">لا تثبت ابداً</string>
     <string name="reply">رد</string>
-    <string name="input_reply_content">Please enter your reply:</string>
+    <string name="input_reply_content">برجاء إدخال رد:</string>
     <string name="publish">نشر</string>
-    <string name="reply_dialog_marked_words">ضغط بشكل مطول على الصورة لحذفها.</string>
+    <string name="reply_dialog_marked_words">إضغط بشكل مطول على الصورة لحذفها.</string>
     <string name="reply_comment">رد على التعليق</string>
     <string name="save_original_image">حفظ</string>
-    <string name="already_save">تم الحفظ\n<xliff:g example="ApKPure/photo" id="path">%1$s</xliff:g>
+    <string name="already_save">تم الحفظ
+\n<xliff:g example="ApKPure/photo" id="path">%1$s</xliff:g>
     </string>
     <string name="load_end">No more data.</string>
-    <string name="load_failed_click_retry">فشل التشغيل , اضغط على اعادة المحاولة</string>
+    <string name="load_failed_click_retry">فشل التشغيل , برجاء اعادة المحاولة</string>
     <string name="loading">تحميل …</string>
     <string name="scan_qr_code_hint">قبل استخدام فحص رمز QR يتوجب عليك السماح باستخدام الكاميرا لأنه مطلوب للقيام بفحص رمز QR.</string>
     <string name="zxing_msg_default_status">رجاءا قم بوضع صورة رمز الـQR ضمن المربع للقيام بفحصها .</string>
@@ -407,13 +408,13 @@
     <string name="downloads">تحميلات</string>
     <string name="check_update_replace">الإصدار الرسمي</string>
     <string name="check_update_beta">الإصدار التجريبي</string>
-    <string name="app_detail_comment_order_array_old">قديم</string>
+    <string name="app_detail_comment_order_array_old">الأقدم</string>
     <string name="app_detail_comment_join_group_bt">مجموعة</string>
-    <string name="download_mkdir">Download path</string>
+    <string name="download_mkdir">مسار التحميل</string>
     <string name="download_mkdir_internal_storage_size_des">%1$s free, total %2$s</string>
     <string name="download_mkdir_internal_storage_entries">بطاقة الذاكرة</string>
     <string name="download_mkdir_internal_storage_entries1">وحدة التخزين الداخلية</string>
-    <string name="download_mkdir_external_storage_fill_toast">ذاكرة التخزين الغير كافية قد تسبب عدم القدرة على تحميل اي تطبيق.</string>
+    <string name="download_mkdir_external_storage_fill_toast">"ذاكرة التخزين الغير كافية قد تتسبب  في عدم القدرة على تحميل اي تطبيق."</string>
     <string name="download_mkdir_internal_storage_values">ذاكرة_داخلية</string>
     <string name="download_mkdir_external_storage_values">ذاكرة_خارجية</string>
     <string name="change_language_failed">فشل تبديل اللغة!</string>
@@ -601,7 +602,7 @@
     <string name="app_detail_tab_evaluation">المراجعات</string>
     <string name="app_detail_comment_filter_sort_score">الأعلى تقييمًا</string>
     <string name="app_detail_comment_filter_all">كل المراجعات</string>
-    <string name="app_detail_comment_filter_version">الإصدار الأخير</string>
+    <string name="app_detail_comment_filter_version">احدث النسخ</string>
     <string name="app_detail_comment_score_less">مراجعات مستخدمين قليلة.</string>
     <string name="app_detail_comment_no_data">لا توجد مراجعات. اكتب مراجعتك الآن.</string>
     <string name="app_detail_evaluation_failed_bt">مراجعة</string>
@@ -614,4 +615,6 @@
     <string name="app_detail_folded_footer_posts">View all %d folded posts</string>
     <string name="app_detail_folded_footer_reviews">View all %d folded reviews</string>
     <string name="auto_service_directly__material_">العربية</string>
+    <string name="app_detail_discuss_filter_folded">مطويه</string>
+    <string name="app_detail_evaluation_tool_bar_title">اكتب مراجعة</string>
 </resources>
