@@ -219,13 +219,22 @@ Detalhe do problema:
     <string name="more_from_developer">Mais do desenvolvedor</string>
     <string name="more_large">Mais</string>
     <string name="feedback">Deixe seu feedback</string>
-    <string name="changing_language">Alterando o idioma, aguarde…</string>
+    <string name="changing_language">Alterando o idioma... Por favor, aguarde.</string>
     <string name="auto_service_install_accessibility_title">Instalação automática</string>
     <string name="auto_service_install_accessibility_summary">Suporta Android 4.1 ou superior, sem necessidade de permissão de Root.</string>
     <string name="auto_service_dialog_title">Ativar a Instalação automática</string>
     <string name="auto_service_dialog_message">A Instalação automática exige a sua permissão, é 100% seguro.</string>
     <string name="auto_service_title">Instalação automática do APKPure</string>
-    <string name="auto_service_description">Ative a Instalação automática do APKPure, para manter a Instalação automática do APKPure funcionando sem problemas.\n\nA Instalação automática do APKPure pode ajudá-lo a clicar em todos os botões de instalação ao instalar ou atualizar aplicativos, não é necessário verificar o telefone o tempo todo.\n\nAo ativar esse recurso, você pode receber avisos de risco do sistema, toque em \"OK\" para ativar o botão de acessibilidade \"ON\".\n\nPara garantir o bom funcionamento do APKPure, adicione o APKPure à sua \"Lista Branca\" de Limpeza.\n\nAs funções acima mencionadas suportam o Android 4.1 ou superior, sem necessidade de permissão de root. Prometemos nunca recolher qualquer informação pessoal neste serviço de acessibilidade. Sinta por favor livre contatar-nos com todos os problemas.</string>
+    <string name="auto_service_description">Ative a \"Instalação Automática do APKPure\" para manter a instalação automática do APKPure funcionando sem problemas.
+\n
+\nA \"Instalação Automática do APKPure\" pode economizar seu tempo clicando nos botões de instalação ao instalar ou atualizar apks, e não é necessário verificar o seu telefone o tempo todo.
+\n
+\n
+\nAo ativar esse recurso, você pode receber avisos de risco do sistema, toque em \"OK\" para ativar o botão de acessibilidade \"ON\".
+\n
+\nPara garantir o bom funcionamento do APKPure, adicione o APKPure à sua \"Lista Branca\" do seu aplicativo antivírus.
+\n
+\nAs funções acima mencionadas suportam o Android 4.1 ou superior, sem necessidade de permissão de root. Prometemos nunca recolher quaisquer informações pessoais neste serviço de acessibilidade. Por favor, sinta-se livre para contatar-nos para qualquer problema.</string>
     <string name="auto_service_install">Instalar</string>
     <string name="auto_service_ensure">OK</string>
     <string name="auto_service_next">Próximo</string>
@@ -240,20 +249,20 @@ Detalhe do problema:
     <string name="auto_install_via_root_summary">Apenas para telefones e tablets com Root.</string>
     <string name="download_complete_installation_setting">Opção de instalação após o download</string>
     <plurals name="app_detail_see_all_replies">
-        <item quantity="one">Ver tudo <xliff:g example="1" id="count"> %1$d</xliff:g> Respostas</item>
-        <item quantity="other">Ver tudo <xliff:g example="2" id="count"> %1$d</xliff:g> Respostas</item>
+        <item quantity="one">Ver <xliff:g example="1" id="count"> %1$d</xliff:g> resposta</item>
+        <item quantity="other">Ver todas as <xliff:g example="2" id="count"> %1$d</xliff:g> respostas</item>
     </plurals>
     <string name="app_detail_customer_reviews">Comentários</string>
     <string name="app_detail_comment_type_web">Internet</string>
-    <string name="app_submit_submit">Postando…</string>
+    <string name="app_submit_submit">Enviando…</string>
     <string name="app_submit_anonymous_comment">Adicionar um comentário</string>
-    <string name="app_submit_title_toast">Você deve escrever o título!</string>
-    <string name="app_submit_msg_toast">Você deve escrever algo!</string>
+    <string name="app_submit_title_toast">Por favor, digite o título!</string>
+    <string name="app_submit_msg_toast">Por favor, escreva alguma coisa!</string>
     <string name="app_submit_name_toast">Por favor, preencha o apelido!</string>
     <string name="app_submit_email_toast">Preencha o endereço de e-mail correto!</string>
     <string name="app_submit_star_toast">Você deve enviar sua avaliação!</string>
     <string name="app_submit_title_hint">Escreva o título!</string>
-    <string name="app_submit_msg_hint">Por favor escreva sua opinião</string>
+    <string name="app_submit_msg_hint">Por favor, digite sua opinião!</string>
     <string name="app_submit_nickname">Apelido</string>
     <string name="app_submit_email">Email</string>
     <string name="app_submit_submit_title">Postar</string>
@@ -265,7 +274,7 @@ Detalhe do problema:
     <string name="input_reply_content">Por favor, forneça sua resposta:</string>
     <string name="publish">Publicar</string>
     <string name="load_end">Sem mais dados.</string>
-    <string name="load_failed_click_retry">Falha ao carregar. Por favor, toque para tentar novamente.</string>
+    <string name="load_failed_click_retry">Falha ao carregar. Por favor, toque para tentar novamente</string>
     <string name="loading">Carregando…</string>
     <string name="scan_qr_code_hint">"Antes de usar o Scan QR Code, você precisa conceder a permissão da câmera,  necessária para escanear o código QR."</string>
     <string name="zxing_msg_default_status">Coloque o código QR dentro do visor para escaneá-lo.</string>
@@ -290,14 +299,14 @@ Detalhe do problema:
     <string name="save_original_image">Salvar</string>
     <string name="already_save">Salvado<xliff:g example="ApKPure/photo" id="path">
 1%1$s</xliff:g> 2</string>
-    <string name="tip_permission_camera_storage">Sem permissão para usar a câmera e o cartão SD, Abrir o gerenciamento de direitos</string>
+    <string name="tip_permission_camera_storage">Sem permissão para usar a câmera e o cartão SD. Por favor, conceda-o no gerenciamento de permissões no seu telefone.</string>
     <string name="permission_denied">Acesso negado!</string>
     <string name="login_title">Entrar</string>
     <string name="sign_out">Sair</string>
     <string name="delete_comment">Excluir comentário</string>
     <string name="delete_comment_msg">Tem certeza de que deseja excluir este comentário?</string>
     <string name="upload_cancel">O envio foi cancelado</string>
-    <string name="login_select_way_to_login">Escolha a forma de iniciar a sessão</string>
+    <string name="login_select_way_to_login">Por favor, escolha como iniciar a sessão</string>
     <string name="user_info_edit_title">Perfil</string>
     <string name="user_info_edit_portrait_tv">Foto do perfil</string>
     <string name="user_info_edit_username_tv">Nome de usuário</string>
@@ -328,7 +337,7 @@ Detalhe do problema:
     <string name="update_pwd_Confirm_pwd_et">Confirme a nova senha</string>
     <string name="upload_avatar">Enviando…</string>
     <string name="update_pwd_current_null_tv">A senha antiga não pode ficar em branco.</string>
-    <string name="update_pwd_Confirm_null_tv">Confirmar a senha não pode ficar em branco</string>
+    <string name="update_pwd_Confirm_null_tv">A confirmação da senha não pode ficar em branco.</string>
     <string name="update_pwd_new_pwd_null_tv">Nova senha não pode ficar em branco.</string>
     <string name="update_pwd_new_confrim_tv">As senhas inseridas não são iguais.</string>
     <string name="update_pwd_save_bt">Salvar</string>
@@ -360,7 +369,7 @@ Detalhe do problema:
     <string name="login_user_name">Nome de usuário ou Email</string>
     <string name="login_user_password">Senha</string>
     <string name="login_user_sign_in">Entrar</string>
-    <string name="login_choose">Ou entre com sua conta</string>
+    <string name="login_choose">Ou entre com sua conta de mídia social</string>
     <string name="login_new_user">Registrar novo usuário</string>
     <string name="login_post_as_a_guest">Publicar como convidado</string>
     <string name="app_detail_comment_order_array_default">Ordenar por Padrão</string>
@@ -494,10 +503,8 @@ Detalhe do problema:
     <string name="recommend_comment_error">Algum erro aconteceu!</string>
     <string name="recommend_description_title">Instruções:</string>
     <string name="recommend_description">1. As recomendações aprovadas serão listadas na seção RECOMENDADO.
-
-2. Você só pode recomendar os aplicativos atualmente instalados em seu dispositivo Android.
-
-3. Notificar o APKPure para adicionar aplicativos não indexados, por favor conclua os formulários de recomendação primeiro.</string>
+\n2. Você só pode recomendar os aplicativos atualmente instalados em seu dispositivo Android.
+\n3. Notificar o APKPure para adicionar aplicativos não indexados. Por favor, conclua os formulários de recomendação primeiro.</string>
     <string name="recommend_user_recommend">Recomendado por %1$s</string>
     <string name="recommend_required">* Obrigatório</string>
     <string name="download_mkdir">Local do download</string>
@@ -542,14 +549,14 @@ Detalhe do problema:
     <string name="push_title_info_update">Chegou a nova versão do APKPure!</string>
     <string name="push_content_info_update">Nova versão %1$s lançada! Atualize agora!</string>
     <string name="recommend_user_recommend_sys">Apresentado pelo APKPure</string>
-    <string name="app_detail_has_product">Contém compra de itens</string>
-    <string name="app_detail_no_product">Não há compra de Itens</string>
+    <string name="app_detail_has_product">Contém compras no app</string>
+    <string name="app_detail_no_product">Não há compras no app</string>
     <string name="app_detail_has_ad">Contém anúncios</string>
     <string name="app_detail_no_ad">Sem anúncios</string>
     <string name="tag_list">Lista de Tags</string>
     <string name="hot_tag">Tags em alta</string>
     <string name="common_use">Minhas Tags</string>
-    <string name="app_add_tag_hint_caution">Não há mais de %1$s tags para cada aplicativo.</string>
+    <string name="app_add_tag_hint_caution">Não mais do que %1$s tags para cada app.</string>
     <string name="app_add_tag">Adicione uma nova tag</string>
     <string name="toast_app_tag_exist">Esta tag já existe!</string>
     <string name="there_is_no_label">Sem tags.</string>
@@ -559,7 +566,7 @@ Detalhe do problema:
     <string name="user_info_edit_intro_tv">Sobre mim</string>
     <string name="update_intro_title">Editar informações</string>
     <string name="update_intro_et">Escreva alguns detalhes sobre você</string>
-    <string name="update_intro_tv">O campo sobre mim não pode estar vazio</string>
+    <string name="update_intro_tv">O campo \'Sobre Mim\' não pode estar vazio.</string>
     <string name="user_name_null">Nome de usuário Inválido.</string>
     <string name="colon">:</string>
     <string name="pack_up">Mostrar menos</string>
@@ -574,7 +581,7 @@ Detalhe do problema:
     <string name="upload_apk_version">V %1$s</string>
     <string name="upload_apk_downloads">Downloads: %1$s</string>
     <string name="upload_comment_uploading">%1$s Está carregando…</string>
-    <string name="upload_comment_upload_success">%1$s Carregamento completo</string>
+    <string name="upload_comment_upload_success">Upload de %1$s Bem Sucedido</string>
     <string name="upload_comment_upload_failed">%1$s Falha no carregamento</string>
     <string name="upload_comment_view">Clique para ver</string>
     <string name="upload_comment_reload">Toque para carregar de novo</string>
@@ -582,9 +589,9 @@ Detalhe do problema:
     <string name="upload_notification_start">Começar</string>
     <string name="upload_notification_cancel">Cancelar</string>
     <string name="upload_notification_is_uploading">Carregando pacote para o APKPure…</string>
-    <string name="upload_notification_is_pause">O carregamento está pausado</string>
+    <string name="upload_notification_is_pause">O upload está pausado.</string>
     <string name="upload_add_list_toast">Sucesso!</string>
-    <string name="upload_add_file_list_toast">Carregando o aplicativo. Seja paciente, obrigado!</string>
+    <string name="upload_add_file_list_toast">Obrigado pelo upload do seu app. Por favor, seja paciente.</string>
     <string name="your_reply_comment">Sua resposta</string>
     <string name="market_ad_title">Loja</string>
     <string name="market_ad_tab_one">Destaque</string>
@@ -597,7 +604,7 @@ Detalhe do problema:
     <string name="set_open_source_licence">Licença de Código Aberto</string>
     <string name="push_title_info_at">Alguém mencionou você em uma postagem. Toque para ver.</string>
     <string name="cancel_collection">Não é favorito</string>
-    <string name="ranking_top_countries_title">Ranking Particionado</string>
+    <string name="ranking_top_countries_title">Classificações Regionais</string>
     <string name="ranking_top_develop_title">Principais desenvolvedores</string>
     <string name="google_play_bug_text">Compre on Google Play</string>
     <string name="search_tab_name_one">APLICATIVOS</string>
@@ -606,9 +613,9 @@ Detalhe do problema:
     <string name="pre_register_now_bt">Pré-Registro</string>
     <string name="pre_registered_bt">Registrado</string>
     <string name="pre_register_link_title">Página de pré-registro</string>
-    <string name="pre_register_gift_tv">Registrar Recompensas</string>
+    <string name="pre_register_gift_tv">Recompensas de Pré-Registro</string>
     <string name="pre_register_person_num_tv">Pré-Registros: %1$s</string>
-    <string name="pre_register_success">O pré-registro significa que você receberá uma notificação em seu dispositivo quando o aplicativo for lançado.</string>
+    <string name="pre_register_success">Após pré-registrar para um jogo, assim que ele for lançado, você receberá uma notificação no seu dispositivo.</string>
     <string name="open_page_failed">Falha ao abrir a página!</string>
     <string name="search_for_user">Pesquisar</string>
     <string name="search_user_history_title">Contatos recentes</string>
@@ -624,11 +631,11 @@ Detalhe do problema:
     <string name="tab_popular">POPULAR</string>
     <string name="properties_message_v2">&lt;b&gt;Nome do pacote:&lt;/b&gt; %1$s&lt;br&gt;&lt;b&gt;Versão:&lt;/b&gt; %2$s&lt;br&gt;&lt;b&gt;Path:&lt;/b&gt; %3$s&lt;br&gt;&lt;b&gt;Tamanho:&lt;/b&gt; %4$s&lt;br&gt;&lt;b&gt;Última modificação:&lt;/b&gt; %5$s</string>
     <string name="app_detail_tab_evaluation">Análises</string>
-    <string name="app_detail_comment_filter_sort_score">Mais votado</string>
+    <string name="app_detail_comment_filter_sort_score">Mais Votado</string>
     <string name="app_detail_comment_filter_all">Todas análises</string>
-    <string name="app_detail_comment_filter_version">Última versão</string>
+    <string name="app_detail_comment_filter_version">Última Versão</string>
     <string name="app_detail_comment_score_less">Poucas classificações de usuários.</string>
-    <string name="app_detail_comment_no_data">Nenhuma classificação de usuários encontrada, adicione sua classificação agora.</string>
+    <string name="app_detail_comment_no_data">Nenhuma análise de usuários encontrada, adicione sua análise agora.</string>
     <string name="app_detail_comment_score_footer">Há %1$s de avaliações em outros idiomas.</string>
     <string name="app_detail_evaluation_tool_bar_title">Escrever um comentário</string>
     <string name="app_detail_evaluation_failed_bt">Análise</string>
@@ -662,7 +669,7 @@ Detalhe do problema:
     <string name="un_bind">Não conectado</string>
     <string name="login_out_message_hint">Tem certeza que deseja sair?</string>
     <string name="bind_email_title">Conecte seu e-mail</string>
-    <string name="bind_email_tv">Conecte seu endereço de e-mail à sua conta para desbloquear os benefícios do login de e-mail, recuperação de senha, envio de postagens e muito mais.</string>
+    <string name="bind_email_tv">Conecte seu endereço de e-mail à sua conta para desbloquear benefícios, como login por e-mail, recuperação de senha, envio de postagens e muito mais.</string>
     <string name="verification_code_tv">Um código de verificação foi enviado para seu endereço de e-mail%1$s</string>
     <string name="verification_code_second_tv">Reenviar em %d s</string>
     <string name="verification_code_resend_tv">Reenviar código de verificação</string>
@@ -705,9 +712,9 @@ Detalhe do problema:
     <string name="look_links">Visualizar link</string>
     <string name="headline_no_data_tv">Nenhum novo conteúdo</string>
     <string name="hint">Nota</string>
-    <string name="no_save_comment_hint">Não há conteúdo publicado, você tem certeza de sair\?</string>
+    <string name="no_save_comment_hint">O conteúdo não será salvo. Você tem certeza de sair\?</string>
     <string name="look_all">Ver Mais</string>
-    <string name="history_hastag">Hashtag da história</string>
+    <string name="history_hastag">Histórico de Hashtags</string>
     <string name="share_image_failed">Não foi possível compartilhar a foto!</string>
     <string name="select_image_overflow_hint">\@string/foto_mensagem_max_num</string>
     <string name="share_select_image_overflow_hint">Você pode compartilhar até 9 fotos em uma postagem.</string>
@@ -755,7 +762,7 @@ Detalhe do problema:
     <string name="pre_register_title">%1$s Liberado para %2$s!</string>
     <string name="pre_register_des">O jogo pré-registrado %1$s %2$s está disponível para download. %3$s</string>
     <string name="report_callback_title">Removemos a postagem que você denunciou!</string>
-    <string name="report_callback_des">Analisamos a postagem que você denunciou por assédio. Como isso violou nossos %1$s, nós os removemos. Obrigado pelo seu relatório. Deixamos %2$s saber que a postagem foi removida, mas não quem a denunciou.</string>
+    <string name="report_callback_des">Analisamos a postagem que você denunciou por assédio. Como isso violou nossos %1$s, nós os removemos. Obrigado pelo seu relatório.</string>
     <string name="tap_to_view">Toque para ver</string>
     <string name="let_us_know">Informe-nos</string>
     <string name="community_guide_lines">Diretrizes da comunidade</string>
@@ -770,11 +777,11 @@ Detalhe do problema:
     <string name="is_save_comment_draft">Salvar sua postagem como rascunho\?</string>
     <string name="upload_video">Enviar vídeo</string>
     <string name="saved_draft">Salvo como rascunho</string>
-    <string name="picture_min_video_num">Seleção de vídeo não pode%1$s</string>
-    <string name="gif_tag">gif</string>
+    <string name="picture_min_video_num">Seleção de vídeo não pode%1$sNumber</string>
+    <string name="gif_tag">GIF</string>
     <string name="picture_save_success">Salvar a foto com sucesso até</string>
     <string name="picture_video_toast">Vídeo não pré-visualizado</string>
-    <string name="picture_min_img_num">Seleção de imagem não pode%1$s</string>
+    <string name="picture_min_img_num">Seleção de imagem não pode%1$sNumber</string>
     <string name="picture_message_max_num">Você pode escolher mais%1$s</string>
     <string name="upload_apk_xapk">Carregar APK/XAPK</string>
     <string name="apk_xapk">APK/XAPK</string>
@@ -783,7 +790,7 @@ Detalhe do problema:
     <string name="ucrop_menu_crop">Cortar</string>
     <string name="ucrop_label_edit_photo">Editar foto</string>
     <string name="ucrop_label_original">Original</string>
-    <string name="picture_message_video_max_num">Você pode escolher vídeos de no máximo%1$s</string>
+    <string name="picture_message_video_max_num">"Você pode escolher %1$s  vídeos no máximo"</string>
     <string name="picture_confirm">Cancelar</string>
     <string name="picture_audio_error">O áudio está corrompido</string>
     <string name="picture_video_error">O vídeo está corrompido</string>
