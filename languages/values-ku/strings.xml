@@ -1,53 +1,48 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2"><string name="action_settings">سەرچاوە</string>
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="action_settings">سەرچاوە</string>
     <string name="action_search">lêgerîn</string>
     <string name="auto">خۆکار</string>
-
-    <string name="press_back_key_quit">دووبارە دایبگرەوە بۆ گەڕانەوە بۆ دواوە.</string>
-
+    <string name="press_back_key_quit">Ji bo derketinê, li ser bişkojka paşîn tap dîsa.‍‮‭‬‬‬‬‫</string>
     <string name="games">یاریەکان</string>
     <string name="apps">نەرمەواڵە</string>
     <string name="categories">هاوپۆڵەکان</string>
     <string name="updates">نوێکردنەوەکان</string>
-
     <string name="something_happened">&gt;_&lt;\nشتێک ڕوویدا.</string>
-
     <string name="load_failed_error">بەداخەوە! هەڵەیەک ڕوویدا.</string>
     <string name="load_failed_empty">هیچ شتێک لێرە نییە.</string>
     <string name="load_failed_all_up_to_date">هەموو نەرمەواڵەکان نوێ کراونەتەوە.</string>
     <string name="load_failed_no_results">ببوورە! هیچ ئەنجامێک نەدۆزرایەوە.</string>
     <string name="refresh">بووژاندنەوە</string>
-
     <string name="app_management">بەڕێوەبردنی بەرنامەکان</string>
     <string name="apk_xapk_management">بەڕێوەبردنی APK / XAPK</string>
     <string name="download_management">بەڕێوەبردنی داگرتن</string>
     <string name="settings">ڕێکخستنەکان</string>
     <string name="about">دەربارە</string>
-    <string name="about_title">دەربارە <xliff:g id="app_name" example="APKPure">%1$s</xliff:g></string>
+    <string name="about_title">دەربارە <xliff:g id="app_name" example="APKPure">%1$s</xliff:g>
+    </string>
     <string name="about_message">"&lt;b&gt;وەشان:&lt;/b&gt; %1$s&lt;br&gt;&lt;br&gt;&lt;b&gt;ماڵپەڕ:&lt;/b&gt; &lt;a href=%2$s&gt;%2$s&lt;/a&gt;&lt;br&gt;&lt;b&gt;ئیمێڵ::&lt;/b&gt; &lt;a href=mailto:%3$s&gt;%3$s&lt;/a&gt; "</string>
     <string name="check_update">پشکنین بۆ نوێکردنەوە</string>
     <string name="quit">دەرچوون</string>
     <string name="want_to_quit">دڵنیای لە دەرچوون؟</string>
-
     <string name="install">دامەزراندن</string>
     <string name="open">کردنەوە</string>
     <string name="delete">سڕینەوە</string>
     <string name="want_to_delete_file">دەتەوەێ ئەم پەڕگەیە بسڕیتەوە؟</string>
     <string name="file_has_been_deleted">پەڕگەکە سڕایەوە.</string>
     <string name="failed_to_delete_file">سڕینەوەی پەڕگەکە سەرنەکەوت.</string>
-    <string name="install__label_">دامەزراندن - <xliff:g id="app_label" example="APKPure">%1$s</xliff:g></string>
+    <string name="install__label_">دامەزراندن - <xliff:g id="app_label" example="APKPure">%1$s</xliff:g>
+    </string>
     <string name="io_error">هەڵەی IO. لەوانەیە شوێنی بەتاڵی پێویست نەبێت بۆ دامەزراندن بەسەرکەوتوویی.</string>
     <string name="file_format_error">هەڵەی جۆری پەڕگە.</string>
     <string name="parsing_xapk">شیکردنەوەی XAPK …</string>
     <string name="installing_obb">پەڕگەکانی OBB دادەمەزرێنێت …</string>
     <string name="extracting_apk">پەڕگەی APK دەردەهێنێت …</string>
     <string name="installing_apk">APK دادەمەزرێنێت …</string>
-
     <string name="uninstall">دامەزرێنسڕینەوە</string>
-    <string name="last_update__date_">دوا نوێکردنەوە: <xliff:g id="date">%1$s</xliff:g></string>
-
+    <string name="last_update__date_">دوا نوێکردنەوە: <xliff:g id="date">%1$s</xliff:g>
+    </string>
     <string name="all">هەموو</string>
-
     <string name="screenshots">گرتەکانی پەردە</string>
     <string name="description">پێناسە</string>
     <string name="whatsnew">چی نوێ هەیە</string>
@@ -65,35 +60,32 @@
     <string name="xapk">XAPK</string>
     <string name="unknown">نەزانراو</string>
     <string name="_ellipsis_"> … </string>
-
     <string name="market_response_error_success">سەرکەوتوو بوو.</string>
     <string name="market_response_error_invalid_result">ئەنجامی نادروست.</string>
     <string name="market_response_error_network_connect_error">هەڵەی پەیوەستبوون بە ڕایەڵە.</string>
     <string name="market_response_error_network_read_error">هەڵەی خوێندنەوەی ڕایەڵە.</string>
     <string name="market_response_error_invalid_response_code">هێما(کۆد)ی وەڵامدانەوەی نادروست.</string>
     <string name="market_response_error_unknown_error__error_">هەڵەی نەناسراو (<xliff:g id="error" example="SUCCESS">%1$s</xliff:g>).</string>
-
     <string name="no_more">زیاتر نییە.</string>
-
     <string name="update">نوێکردنەوە</string>
-    <string name="version__version___size_">وەشان: <xliff:g id="version" example="1.0.0">%1$s</xliff:g>،<xliff:g id="size" example="1024 kB">%2$s</xliff:g></string>
+    <string name="version__version___size_">وەشان: <xliff:g id="version" example="1.0.0">%1$s</xliff:g>،<xliff:g id="size" example="1024 kB">%2$s</xliff:g>
+    </string>
     <plurals name="_count__new_update_is_available">
-	<item quantity="one">یەک\n<xliff:g id="count" example="1">%1$d</xliff:g> نوێکردنەوەی نوێ بەردەستە</item>
-	<item quantity="other">هی تر\n<xliff:g id="count" example="2">%1$d</xliff:g> نوێکردنەوەی نوێ بەردەستە</item>
-</plurals>
-
+        <item quantity="one">یەک\n<xliff:g id="count" example="1">%1$d</xliff:g> نوێکردنەوەی نوێ بەردەستە</item>
+        <item quantity="other">هی تر\n<xliff:g id="count" example="2">%1$d</xliff:g> نوێکردنەوەی نوێ بەردەستە</item>
+    </plurals>
     <string name="launching_please_wait">دەخرێتە کار، تکایە چاوەڕوان بە…</string>
-
     <plurals name="_count__item_is_downloading">
-	<item quantity="one">یەک\n<xliff:g id="count" example="1">%1$d</xliff:g> بڕگە دادەگیڕێت</item>
-	<item quantity="other">هی تر\n<xliff:g id="count" example="2">%1$d</xliff:g> بڕگە دادەگیڕێت</item>
-</plurals>
+        <item quantity="one">یەک\n<xliff:g id="count" example="1">%1$d</xliff:g> بڕگە دادەگیڕێت</item>
+        <item quantity="other">هی تر\n<xliff:g id="count" example="2">%1$d</xliff:g> بڕگە دادەگیڕێت</item>
+    </plurals>
     <string name="downloads_complete">داگرتنەکان تەواو بوون</string>
     <string name="touch_for_view_all_downloads">ساو لێبدە(دەستلێدان) بۆ بینینی هەموو داگیراوەکان</string>
-    <string name="_name__download_failed"><xliff:g id="name" example="APKPure">%1$s</xliff:g> داگرتنەکە سەرکەوتوو نەبوو</string>
+    <string name="_name__download_failed">
+        <xliff:g id="name" example="APKPure">%1$s</xliff:g> داگرتنەکە سەرکەوتوو نەبوو</string>
     <string name="touch_to_download_it_again">ساو لێبدە(دەستلێدان) بۆ دووبارە داگرتنەوە</string>
-
-    <string name="download_percent"><xliff:g id="percent" example="50">%1$d</xliff:g> %%</string>
+    <string name="download_percent">
+        <xliff:g id="percent" example="50">%1$d</xliff:g> %%</string>
     <string name="pause">وچان</string>
     <string name="continue_">بەردەوامبوون</string>
     <string name="restart">دەستپێکردنەوە</string>
@@ -110,40 +102,44 @@
     <string name="detail">وردەکاری</string>
     <string name="remove">لابردن</string>
     <string name="want_to_remove_download_item">دەتەوێ‌ داگرتنی ئەم بڕگەیە لاببەیت؟</string>
-
     <string name="search">گەڕان</string>
     <string name="search_for_apps">گەڕان بۆ بەرنامەکان</string>
     <string name="improvement_plan_title">پلانی چاککردنی نواندن</string>
     <string name="improvement_plan_message">"&lt;b&gt;یارمەتیمان بدە لە ناردنی زانیاری ئامێری ئەندرۆید، ئێمە &lt;b&gt; دەکەین، &lt;/b&gt; زانیاری ناسینەوەی کەسی کۆناکەینەوە وەکو (ناو، ناونیشان، ناونیشانی ئیمێڵ، ژمارەی نهێنی تۆڕی کۆمەڵایەتی، یان زانیاری ناسینی تر). "<b> دەکەین، </b> زانیاری ناسینەوەی کەسی کۆناکەینەوە (ناو، ناونیشان، ناونیشانی ئیمەڵ، ژمارەی نهێنی کۆمەڵایەتی، یان زانیاری ناسینی تر). </string>
     <string name="join_us">بەشداربە لەگەڵمان</string>
     <string name="skip">تێپەڕاندن</string>
-
-    <string name="_name__is_up_to_date"><xliff:g id="name" example="APKPure">%1$s</xliff:g> نوێکراوەتەوە.</string>
+    <string name="_name__is_up_to_date">
+        <xliff:g id="name" example="APKPure">%1$s</xliff:g> نوێکراوەتەوە.</string>
     <string name="new_version_available_title">وەشانی نوێ بەردەستە</string>
     <string name="new_version_available_message">"&lt;b&gt;دواهەمین وەشان:&lt;/b&gt; %1$s&lt;br&gt;&lt;br&gt;&lt;b&gt;چی تازە هەیە:&lt;/b&gt;&lt;br&gt;%2$s "</string>
-
     <string name="report__">هەواڵلێدان…</string>
     <string name="report_problem__">هەواڵلێدان لە کێشەیەک…</string>
     <string name="report_problem_subject">هەواڵلێدان لە کێشەیەک</string>
     <string name="report_problem_text">بابەتی کێشە:\n%1$s\n\nوردەکاری کێشە:\n%2$s</string>
-
     <string name="installation_failed">دامەزراندن سەرنەکەوت</string>
     <string name="invalid_app_detail">نادروستی وردەکاری زانیاری نەرمەواڵە.</string>
     <string name="failed_to_request_app_detail">داواکاری بۆ زانینی وردەکاری زانیاری نەرمەواڵە سەرکەتوو نەبوو.</string>
     <string name="incompatible_this_app">"&lt;big&gt;&lt;b&gt;&lt;font color=%1$d&gt;ئامێرەکەت لەگەڵ ئەم بەرنامەیە ناگونجێت.&lt;/font&gt;&lt;/b&gt;&lt;/big&gt;&lt;br&gt;&lt;br&gt;دەتەوێت بەردەوام بیت؟ "</string>
     <string name="this_app_not_usable">"&lt;big&gt;&lt;b&gt;&lt;font color=%1$d&gt;ئەم بەرنامەیە لەوانەیە شیاو نەبێت بۆ بەکارهێنان.&lt;/font&gt;&lt;/b&gt;&lt;/big&gt;&lt;br&gt;&lt;br&gt;دەتەوێت بەردەوام بیت؟ "</string>
-
     <string name="setting">ڕێکخستن</string>
-    <string name="external_storage_not_usable"><big><b>پێویستمان بە دەستگەیشتن بە میمۆریی دەرەکی تۆ هەیە. تکایە دڵنیابەوە لەوەی شیاوی بەکارهێنانە.</b></big> </string>
-    <string name="external_storage_permission_denied"><big><b>"پێویستمان بە دەستگەیشتن بە بیرگەی دەرەکی تۆ هەیە. تکایە دڵنیابەوە  لەوەی کە مۆڵەتپێدانەکە نکۆڵی لێ ناکرێت."</b></big> </string>
-
+    <string name="external_storage_not_usable">
+        <big>
+            <b>پێویستمان بە دەستگەیشتن بە میمۆریی دەرەکی تۆ هەیە. تکایە دڵنیابەوە لەوەی شیاوی بەکارهێنانە.</b>
+        </big>
+    </string>
+    <string name="external_storage_permission_denied">
+        <big>
+            <b>"پێویستمان بە دەستگەیشتن بە بیرگەی دەرەکی تۆ هەیە. تکایە دڵنیابەوە  لەوەی کە مۆڵەتپێدانەکە نکۆڵی لێ ناکرێت."</b>
+        </big>
+    </string>
     <string name="share">هاوبەشکردن</string>
     <string name="share_app_url"> بڵاوکردنەوە <xliff:g id="app_name" example="APKPure">%1$s</xliff:g>"  APK (لە @"<xliff:g id="social_network_name" example="APKPure">%2$s</xliff:g>)،
-\n<xliff:g id="app_url" example="https://apkpure.com/p/com.apkpure.aegon">%3$s</xliff:g></string>
-
-    <string name="_name__version_history"><xliff:g id="name" example="APKPure">%1$s</xliff:g> مێژووی وەشان</string>
-    <string name="update__date___size_">نوێکردنەوە: <xliff:g id="date" example="Mar 3, 2016">%1$s</xliff:g>،<xliff:g id="size" example="1024 kB">%2$s</xliff:g></string>
-
+\n<xliff:g id="app_url" example="https://apkpure.com/p/com.apkpure.aegon">%3$s</xliff:g>
+    </string>
+    <string name="_name__version_history">
+        <xliff:g id="name" example="APKPure">%1$s</xliff:g> مێژووی وەشان</string>
+    <string name="update__date___size_">نوێکردنەوە: <xliff:g id="date" example="Mar 3, 2016">%1$s</xliff:g>،<xliff:g id="size" example="1024 kB">%2$s</xliff:g>
+    </string>
     <string name="general">گشتی</string>
     <string name="language">زمان</string>
     <string name="featured">دەرکەوت</string>
@@ -155,11 +151,9 @@
     <string name="uninstalled">دامەزرێنسڕاوە</string>
     <string name="market_response_error_invalid_response_body">نادروستی وەڵامدانەوەی ناوەڕۆک.</string>
     <string name="trending_searches">گەڕانە باوەکان</string>
-
     <string name="invalid_app_asset">نادروستی زانیاری بەنرخی نەرمەواڵە.</string>
     <string name="failed_to_request_app_asset">داواکاری زانینی زانیاری بەنرخی نەرمەواڵە سەرکەوتوو نەبوو.</string>
     <string name="action_management">Rêveberiya</string>
-
     <string name="delete_all">سڕینەوەی هەموو</string>
     <string name="properties">تایبەتمەندییەکان</string>
     <string name="properties_message">"&lt;b&gt;ڕێڕەو:&lt;/b&gt; %1$s&lt;br&gt;&lt;b&gt;قەبارە:&lt;/b&gt; %2$s&lt;br&gt;&lt;b&gt;دوا گۆڕانکاری::&lt;/b&gt; %3$s "</string>
@@ -172,10 +166,8 @@
     <string name="remove_all">لابردنی هەموویان</string>
     <string name="want_to_remove_all_download_items">ئایا دەتەوێت هەموو بڕگەکانی داگرتن لاببەی؟</string>
     <string name="delete_downloaded_file">سڕینەوەی پەڕگەی داگیراو</string>
-
     <string name="search_history">مێژوو</string>
     <string name="clear_search_history">پاکردنەوەی هەموو مێژوو</string>
-
     <string name="contact_us__">پەیوەندیمان پێوە بکەن…</string>
     <string name="contact_us">پەیوەندیمان پێوە بکەن</string>
     <string name="update_all">نوێکردنەوەی هەموویان</string>
@@ -187,23 +179,20 @@
     <string name="deselect_all">دیاری نەکردنی هەموویان</string>
     <string name="ignored">پشگوێخراو</string>
     <plurals name="total__count__apps__size_">
-	<item quantity="one">"تێکڕا: &lt;b&gt;&lt;font color=%1$d&gt;%2$d&lt;/font&gt;&lt;/b&gt; بەرنامە، &lt;b&gt;&lt;font color=%1$d&gt;%3$s&lt;/font&gt;&lt;/b&gt; "</item>
-	<item quantity="other">"تێکڕا: &lt;b&gt;&lt;font color=%1$d&gt;%2$d&lt;/font&gt;&lt;/b&gt; نەرمەواڵەکان، &lt;b&gt;&lt;font color=%1$d&gt;%3$s&lt;/font&gt;&lt;/b&gt; "</item>
-</plurals>
+        <item quantity="one">"تێکڕا: &lt;b&gt;&lt;font color=%1$d&gt;%2$d&lt;/font&gt;&lt;/b&gt; بەرنامە، &lt;b&gt;&lt;font color=%1$d&gt;%3$s&lt;/font&gt;&lt;/b&gt; "</item>
+        <item quantity="other">"تێکڕا: &lt;b&gt;&lt;font color=%1$d&gt;%2$d&lt;/font&gt;&lt;/b&gt; نەرمەواڵەکان، &lt;b&gt;&lt;font color=%1$d&gt;%3$s&lt;/font&gt;&lt;/b&gt; "</item>
+    </plurals>
     <string name="total_zero_app">" تێکڕا: &lt;b&gt;&lt;font color=%1$d&gt;0&lt;/font&gt;&lt;/b&gt; نەرمەواڵە "</string>
-
     <string name="installation">دامەزراندن</string>
     <string name="show_notification_after_installation">پیشاندانی ئاگادارکردنەوە پاش دامەزراندن</string>
     <string name="delete_packages_after_installation">سڕینەوەی گورزەکان پاش دامەزراندن</string>
-
-    <string name="_name__installation_completed"><xliff:g id="name" example="APKPure">%1$s</xliff:g> دامەزراندن تەواو بوو</string>
+    <string name="_name__installation_completed">
+        <xliff:g id="name" example="APKPure">%1$s</xliff:g> دامەزراندن تەواو بوو</string>
     <string name="touch_to_open">دەستی لێبدە بۆ کردنەوە.</string>
-
     <string name="report_content">هەواڵلێدان لە ناوەڕۆک</string>
-
     <string name="unignore">پشتگوێ نەخراو</string>
     <string name="recommend">دۆزینەوە</string>
     <string name="similar_or_related">هاوشێوە یان لێکچوو</string>
     <string name="more_from_developer">بەرهەمەکانی تری گەشەپێدەر</string>
     <string name="more_large">زیاتر</string>
-    </resources>
+</resources>
