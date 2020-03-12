@@ -102,7 +102,7 @@
         <item quantity="other">
             <xliff:g example="2" id="count">%1$d</xliff:g> עדכונים חדשים זמינים</item>
     </plurals>
-    <string name="launching_please_wait">בטעינה, נא להמתין…</string>
+    <string name="launching_please_wait">אנא המתן...</string>
     <plurals name="_count__item_is_downloading">
         <item quantity="one">פריט אחד מתקבל</item>
         <item quantity="two">
@@ -173,30 +173,30 @@
     <string name="report_content">דיווח על תוכן</string>
     <string name="feedback">משוב</string>
     <string name="installation_failed">ההתקנה נכשלה</string>
-    <string name="invalid_app_detail">פריט מידע על היישומון שגוי.</string>
-    <string name="incompatible_this_app">&lt;big&gt;&lt;b&gt;&lt;font color=%1$d&gt;המכשיר שלך אינו תואם ליישומון זה.&lt;/font&gt;&lt;/b&gt;&lt;/big&gt;&lt;br&gt;&lt;br&gt;להמשיך\?</string>
-    <string name="this_app_not_usable">&lt;big&gt;&lt;b&gt;&lt;font color=%1$d&gt;ייתכן שיישומון זה אינו שמיש.&lt;/font&gt;&lt;/b&gt;&lt;/big&gt;&lt;br&gt;&lt;br&gt;להמשיך\?</string>
-    <string name="setting">הגדרה</string>
+    <string name="invalid_app_detail">פרטי יישום לא חוקיים</string>
+    <string name="incompatible_this_app">&lt;big&gt;&lt;b&gt;&lt;font color=%1$d&gt;המכשיר שלך אינו תואם ליישום זה.&lt;/font&gt;&lt;/b&gt;&lt;/big&gt;&lt;br&gt;&lt;br&gt;להמשיך\?</string>
+    <string name="this_app_not_usable">&lt;big&gt;&lt;b&gt;&lt;font color=%1$d&gt;ייתכן שאפליקציה זו אינה ניתנת לשימוש.&lt;/font&gt;&lt;/b&gt;&lt;/big&gt;&lt;br&gt;&lt;br&gt;להמשיך\?</string>
+    <string name="setting">הגדרות</string>
     <string name="external_storage_not_usable">
         <big>
-            <b>עלינו לגשת לאחסון החיצוני. נא לוודא שהוא שמיש.</b>
+            <b>עלינו לגשת לאחסון שלך. אנא אשר הרשאה.</b>
         </big>
     </string>
     <string name="external_storage_permission_denied">
         <big>
-            <b>עלינו לגשת לאחסון החיצוני שלך. אנא וודא/י שאישרת גישה לאחסון חיצוני.</b>
+            <b>עלינו לגשת לאחסון שלך. אנא אשר הרשאה</b>
         </big>
     </string>
-    <string name="share">שיתוף</string>
+    <string name="share">שתף</string>
     <string name="_name__version_history">היסטוריית הגרסאות של <xliff:g example="APKPure" id="name">%1$s</xliff:g>
     </string>
     <string name="update__date___size_">עדכון: <xliff:g example="Mar 3, 2016" id="date">%1$s</xliff:g>, <xliff:g example="1024 kB" id="size">%2$s</xliff:g>
     </string>
-    <string name="update_all">עדכון הכול</string>
+    <string name="update_all">עדכן הכול</string>
     <string name="update___count__">עדכון (<xliff:g example="3" id="count">%1$d</xliff:g>)</string>
-    <string name="select">בחירה</string>
+    <string name="select">בחר</string>
     <string name="cancel">ביטול</string>
-    <string name="select_all">לבחור הכול</string>
+    <string name="select_all">בחר הכל</string>
     <string name="deselect_all">ביטול בחירה</string>
     <plurals name="total__count__apps__size_">
         <item quantity="one">סך הכול: יישומון &lt;b&gt;&lt;font color=%1$d&gt;אחד&lt;/font&gt;&lt;/b&gt;, &lt;b&gt;&lt;font color=%1$d&gt;%3$s&lt;/font&gt;&lt;/b&gt;</item>
@@ -208,7 +208,7 @@
     <string name="general">כללי</string>
     <string name="language">שפה</string>
     <string name="auto">אוטומטי</string>
-    <string name="changing_language">השפה מתחלפת, נא להמתין…</string>
+    <string name="changing_language">משנה שפה, נא להמתין…</string>
     <string name="data_saver_model">חוסך בצריכת נתונים</string>
     <string name="data_saver_model_summery">הפעלת התכונה הזאת תפחית את גודל התמונות ואיכותן כדי לסייע בצמצום כמות הנתונים הנצרכים דרך רשת סלולרית.</string>
     <string name="download_via_wifi_only">הורדה דרך רשת אלחוטית בלבד</string>
@@ -280,15 +280,32 @@
     <string name="app_submit_anonymous_comment">הוסף תגובה</string>
     <string name="app_detail_comment_type_web">אינטרנט</string>
     <string name="app_detail_customer_reviews">הערות</string>
-    <string name="auto_install_via_root_summary">רק למכשירי אנדרואיד עם הרשאת root</string>
-    <string name="auto_install_via_root_title">התקנה אוטומטית (נדרש root)</string>
+    <string name="auto_install_via_root_summary">רק למכשירי אנדרואיד עם הרשאת רוט.</string>
+    <string name="auto_install_via_root_title">התקנה אוטומטית (נדרש רוט)</string>
     <string name="auto_service_directly__material_">התקנה ישירה</string>
     <string name="auto_service_complete__material_">בוצע</string>
     <string name="auto_service_exchange__material_">החלף</string>
     <string name="auto_service_next__material_">הבא</string>
     <string name="auto_service_ensure__material_">אישור</string>
-    <string name="auto_service_install__material_">התקנה</string>
-    <string name="auto_service_complete">בוצע</string>
+    <string name="auto_service_install__material_">התקן</string>
+    <string name="auto_service_complete">שמור</string>
     <string name="auto_service_exchange">החלף</string>
     <string name="auto_service_next">הבא</string>
+    <string name="app_detail_tab_three">קשורים</string>
+    <string name="app_submit_submit">שולח…</string>
+    <string name="auto_service_ensure">אשר</string>
+    <string name="auto_service_install">התקן</string>
+    <string name="auto_service_dialog_message">האם אתה בטוח שברצונך לאשר התקנה אוטומטית\?</string>
+    <string name="auto_service_dialog_title">אשר התקנה אוטומטית</string>
+    <string name="auto_service_install_accessibility_summary">תומך באנדרואיד 4.1 ומעלה. אין צורך ברוט.</string>
+    <string name="auto_service_install_accessibility_title">התקן אוטומטית</string>
+    <string name="touch_to_open">הקש להפעלה.</string>
+    <string name="delete_packages_after_installation">מחק את ההורדה לאחר ההתקנה</string>
+    <string name="show_notification_after_installation">שלח התראה בסיום ההתקנה</string>
+    <string name="installation">התקנה</string>
+    <string name="enable_ultra_download_summary">הורדה מהירה עדיין חדשה, ספר לנו על בעיות.</string>
+    <string name="enable_ultra_download">אָפְשֵר הורדה מהירה</string>
+    <string name="ignored">התעלם</string>
+    <string name="failed_to_request_app_asset">בקשה נכשלה.</string>
+    <string name="invalid_app_asset">אפליקציה לא חוקית.</string>
 </resources>
