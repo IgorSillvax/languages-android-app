@@ -130,17 +130,19 @@
         <![CDATA[<b>最新版:</b> %1$s<br><br><b>最新情報:</b><br>%2$s]]>
     </string>
     <string name="report__">報告…</string>
-    <string name="report_problem__">問題を報告する</string>
+    <string name="report_problem__">問題を報告する…</string>
     <string name="report_problem_subject">問題を報告する</string>
-    <string name="report_problem_text">内容:\n%1$s\n\n詳細:\n%2$s</string>
-    <string name="installation_failed">インストールに失敗しました</string>
+    <string name="report_problem_text">問題トピック:
+\n%1$s
+\n
+\n詳細:
+\n%2$s</string>
+    <string name="installation_failed">インストールに失敗しました。</string>
     <string name="invalid_app_detail">アプリの詳細情報が無効です。</string>
     <string name="invalid_app_asset">アプリの追加情報が無効です。</string>
     <string name="failed_to_request_app_detail">詳細情報の取得に失敗しました。</string>
     <string name="failed_to_request_app_asset">追加情報の取得に失敗しました。</string>
-    <string name="incompatible_this_app">
-        <![CDATA[<big><b><font color=%1$d>お使いの端末に最適化されていないアプリです。</font></b></big><br><br>続行しますか?]]>
-    </string>
+    <string name="incompatible_this_app">&lt;big&gt;&lt;b&gt;&lt;font color=%1$d&gt;このアプリはお使いの端末用に最適化されません。&lt;/font&gt;&lt;/b&gt;&lt;/big&gt;&lt;br&gt;&lt;br&gt;続行しますか\?</string>
     <string name="this_app_not_usable">
         <![CDATA[<big><b><font color=%1$d>このアプリは利用できない可能性があります。</font></b></big><br><br>続行しますか?]]>
     </string>
@@ -149,7 +151,9 @@
         <![CDATA[<big><b>外部ストレージを利用する必要があります。利用できるか確認してください。</b></big>]]>
     </string>
     <string name="external_storage_permission_denied">
-        <![CDATA[<big><b>外部ストレージへのアクセスが必要です。アプリの権限を確認してください。</b></big>]]>
+        <big>
+            <b>外部ストレージにアクセスする必要があります。許可が与えられていることを確認してください。</b>
+        </big>
     </string>
     <string name="share">シェア</string>
     <string name="share_app_url"> シェア<xliff:g example="APKPure" id="app_name">%1$s</xliff:g>APK (from <xliff:g example="APKPure" id="social_network_name">%2$s</xliff:g>) <xliff:g example="https://apkpure.com/p/com.apkpure.aegon" id="app_url">%3$s</xliff:g>
@@ -159,8 +163,8 @@
     <string name="update__date___size_">アップデート: <xliff:g example="Mar 3, 2016" id="date">%1$s</xliff:g>, <xliff:g example="1024 kB" id="size">%2$s</xliff:g>
     </string>
     <string name="contact_us">お問い合わせ</string>
-    <string name="contact_us__">問い合わせる…</string>
-    <string name="report_content">コンテンツを報告</string>
+    <string name="contact_us__">お問い合わせ…</string>
+    <string name="report_content">コンテンツを報告する</string>
     <string name="delete_all">すべて削除</string>
     <string name="properties">プロパティ</string>
     <string name="want_to_delete_all_files">すべてのファイルを削除してよろしいでしょうか\?</string>
@@ -174,7 +178,7 @@
     <string name="search_history">履歴</string>
     <string name="clear_search_history">すべての履歴を削除する</string>
     <string name="update_all">すべてアップデート</string>
-    <string name="ignore">リストから無視する</string>
+    <string name="ignore">無視する</string>
     <string name="unignore">無視を解除</string>
     <string name="select">選択</string>
     <string name="cancel">キャンセル</string>
@@ -196,8 +200,8 @@
     <string name="show_notification_after_installation">インストール後に通知します</string>
     <string name="delete_packages_after_installation">インストール後にパッケージを削除します</string>
     <string name="_name__installation_completed">
-        <xliff:g example="APKPure" id="name">%1$s</xliff:g>のインストールが完了しました</string>
-    <string name="touch_to_open">タップして開く</string>
+        <xliff:g example="APKPure" id="name">%1$s</xliff:g>インストールが完了しました</string>
+    <string name="touch_to_open">タップして起動します。</string>
     <string name="properties_message">
         <![CDATA[<b>パス:</b> %1$s<br><b>サイズ:</b> %2$s<br><b>最終更新日:</b> %3$s]]>
     </string>
@@ -223,14 +227,14 @@
     <string name="auto_service_install__material_">インストール</string>
     <string name="auto_service_exchange">置換</string>
     <string name="participate_ultra_download_beta_test_title">高速ダウンロードを有効にし、より速いダウンロード速度を楽しんでいただけます</string>
-    <string name="participate_ultra_download_beta_test_content">高速ダウンロードオプションはテスト中です。問題が発生した際はご連絡をお願いいたします。設定よりこの機能をオフにすることもできます。</string>
+    <string name="participate_ultra_download_beta_test_content">高速ダウンロードはまだベータ版です。問題が発生した際はお知らせください。設定よりこの機能をオフにすることもできます。</string>
     <string name="feedback">フィードバック</string>
-    <string name="changing_language">言語を変更しています…</string>
+    <string name="changing_language">言語を変更しています…お待ちください。</string>
     <string name="download_via_wifi_only">Wi-Fi接続時のみアプリをダウンロードする</string>
     <string name="enable_ultra_download">高速ダウンロードを有効にする</string>
-    <string name="enable_ultra_download_summary">高速ダウンロードオプションはテスト中です。問題が発生した際はご連絡をお願いいたします。</string>
-    <string name="auto_service_install_accessibility_summary">Android 4.1以上で利用可能です。root権限等は不要です。</string>
-    <string name="auto_service_dialog_message">この機能を利用するために承認が必要です。OKをタップして開いた画面の「APKPure Auto Install」を選択し、スイッチを「ON」にしてください。</string>
+    <string name="enable_ultra_download_summary">高速ダウンロードオプションはまだテスト中です。問題が発生した際はご連絡をお願いいたします。</string>
+    <string name="auto_service_install_accessibility_summary">Android 4.1以上をサポートしています。root 権限でのアクセスは必要としません。</string>
+    <string name="auto_service_dialog_message">自動インストールには、有効にする必要があります。 100％安全です。</string>
     <string name="auto_service_description">アプリケーションの自動インストールを利用するためにはこの設定を有効化する必要があります。\n\n
 
 この機能を利用すると、インストールダイアログの操作が不要になります。つまり大量のアプリをインストールやアップデートする際でも、スマートフォンから手を離して放置しておくことができるようになります。\n\n
@@ -243,20 +247,20 @@
     <string name="auto_service_complete">完了</string>
     <string name="auto_service_complete__material_">完了</string>
     <string name="auto_install_via_root_title">自動インストール(root利用モード)</string>
-    <string name="auto_install_via_root_summary">root取得済みのデバイスのみ</string>
+    <string name="auto_install_via_root_summary">root化したAndroidスマホとタブレットのみ。</string>
     <string name="report">レポート</string>
     <string name="recommend">ディスカバー</string>
     <string name="app_detail_customer_reviews">レビュー</string>
-    <string name="app_detail_comment_type_web">Web</string>
-    <string name="app_submit_submit">送信…</string>
+    <string name="app_detail_comment_type_web">ウェブ</string>
+    <string name="app_submit_submit">送信しています…</string>
     <string name="app_submit_anonymous_comment">コメントする</string>
-    <string name="app_submit_title_toast">タイトルをお書きください！</string>
+    <string name="app_submit_title_toast">タイトルを入力してください！</string>
     <string name="app_submit_msg_toast">何か書いてください！</string>
-    <string name="app_submit_name_toast">ニックネームを記入してください</string>
-    <string name="app_submit_email_toast">正しいメールアドレスを記入してください</string>
-    <string name="app_submit_star_toast">星を付けてください</string>
-    <string name="app_submit_title_hint">タイトルをお書きください</string>
-    <string name="app_submit_msg_hint">あなたの意見を書いてください</string>
+    <string name="app_submit_name_toast">ニックネームを記入してください！</string>
+    <string name="app_submit_email_toast">有効なメールアドレスを入力してください！</string>
+    <string name="app_submit_star_toast">評価を付けてください！</string>
+    <string name="app_submit_title_hint">タイトルを入力してください！</string>
+    <string name="app_submit_msg_hint">コンテンツを入力してください！</string>
     <string name="app_submit_nickname">ニックネーム</string>
     <string name="app_submit_email">電子メール</string>
     <string name="app_submit_submit_title">送信</string>
@@ -624,7 +628,7 @@
     <string name="app_detail_comment_filter_sort_score">最高評価</string>
     <string name="app_detail_comment_filter_all">すべてのレビュー</string>
     <string name="app_detail_comment_filter_version">最新バージョン</string>
-    <string name="app_detail_comment_score_less">ユーザーの評価が少なすぎます</string>
+    <string name="app_detail_comment_score_less">ユーザーレビューがやや少ないようです。</string>
     <string name="app_detail_comment_no_data">ユーザー評価が見つかりませんでした。あなたの評価を今すぐ追加してください。</string>
     <string name="app_detail_comment_score_footer">他の言語では％1 $ s件のレビューがあります。</string>
     <string name="app_detail_evaluation_tool_bar_title">レビューを投稿する</string>
