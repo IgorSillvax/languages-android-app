@@ -1,317 +1,304 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-
     <string name="facebook_app_id" translatable="false">596489647167672</string>
     <string name="fb_login_protocol_scheme" translatable="false">fb596489647167672</string>
-
     <string name="aegon_app_name" translatable="false">APKPure</string>
-
     <string name="action_settings">Настройки</string>
     <string name="action_search">Търсене</string>
     <string name="action_management">Управление</string>
-
-    <string name="press_back_key_quit">За излизане натиснете още веднъж.</string>
-
+    <string name="press_back_key_quit">За излизане натисни още веднъж.</string>
     <string name="featured">Избрани</string>
     <string name="recommend">Открий</string>
     <string name="games">Игри</string>
     <string name="apps">Приложения</string>
     <string name="categories">Категории</string>
     <string name="updates">Актуализации</string>
-
     <string name="something_happened">&gt;_&lt;
 \nВъзникна грешка.</string>
     <string name="load_failed_error">Упс! Възникна грешка.</string>
-    <string name="load_failed_error_not_found"/>
-    <string name="load_failed_empty"/>
-    <string name="load_failed_all_up_to_date"/>
-    <string name="load_failed_no_results"/>
-    <string name="refresh"/>
-
-    <string name="management"/>
-    <string name="app_updates"/>
-    <string name="app_management"/>
-    <string name="app_uninstall"/>
-    <string name="apk_management"/>
-    <string name="apk_xapk_management"/>
-    <string name="download_management"/>
-    <string name="settings"/>
-    <string name="about"/>
-
-
-    <string name="about_title">Относно<xliff:g example="APKPure" id="app_name">%1$s</xliff:g></string>
-    <string name="about_message"/>
-    <string name="check_update"/>
-    <string name="check_update_replace"/>
-    <string name="check_update_beta"/>
-    <string name="beta"/>
+    <string name="load_failed_error_not_found">Това приложение не е включено в APKPure.</string>
+    <string name="load_failed_empty">Няма нищо тук.</string>
+    <string name="load_failed_all_up_to_date">Всички приложения са актуализирани.</string>
+    <string name="load_failed_no_results">Съжалявам! Няма резултати.</string>
+    <string name="refresh">Обнови</string>
+    <string name="management">Управление</string>
+    <string name="app_updates">Актуализации</string>
+    <string name="app_management">Инсталирани</string>
+    <string name="app_uninstall">Деинсталиране</string>
+    <string name="apk_management">Управление на APK</string>
+    <string name="apk_xapk_management">Управление на APK / XAPK</string>
+    <string name="download_management">Управление на изтеглянията</string>
+    <string name="settings">Настройки</string>
+    <string name="about">Относно</string>
+    <string name="about_title">Относно<xliff:g example="APKPure" id="app_name">%1$s</xliff:g>
+    </string>
+    <string name="about_message">&lt;b&gt;Версия:&lt;/b&gt; %1$s&lt;br&gt;&lt;br&gt;&lt;b&gt;Уебсайт:&lt;/b&gt; &lt;a href=%2$s&gt;%2$s&lt;/a&gt;&lt;br&gt;&lt;b&gt;Имейл:&lt;/b&gt; &lt;a href=mailto:%3$s&gt;%3$s&lt;/a&gt;</string>
+    <string name="check_update">Провери за актуализации</string>
+    <string name="check_update_replace">Официална версия</string>
+    <string name="check_update_beta">Предварителна версия (бета)</string>
+    <string name="beta">Бета</string>
     <string name="check_update_replace_value" translatable="false">0</string>
     <string name="check_update_beta_value" translatable="false">1</string>
-    <string name="quit"/>
-    <string name="want_to_quit"/>
-
-    <string name="install"/>
-    <string name="open"/>
-    <string name="delete"/>
-    <string name="delete_all"/>
-    <string name="properties"/>
-    <string name="properties_message"/>
-    <string name="want_to_delete_file"/>
-    <string name="want_to_delete_all_files"/>
-    <string name="file_has_been_deleted"/>
-    <string name="failed_to_delete_file"/>
-    <string name="install__label_">Инсталирай - <xliff:g example="APKPure" id="app_label">%1$s</xliff:g></string>
-    <string name="user_canceled"/>
-    <string name="io_error"/>
-    <string name="file_format_error"/>
-    <string name="parsing_xapk"/>
-    <string name="installing_obb"/>
-    <string name="extracting_apk"/>
-    <string name="installing_apk"/>
-
-    <string name="uninstall"/>
-    <string name="uninstalled"/>
-    <string name="last_update__date_">Последна актуализация: <xliff:g id="date">%1$s</xliff:g></string>
-
-    <string name="all"/>
-
-    <string name="screenshots"/>
-    <string name="description"/>
-    <string name="whatsnew"/>
-    <string name="information"/>
-    <string name="version_"/>
-    <string name="updated_"/>
-    <string name="size_"/>
-    <string name="permissions_"/>
-    <string name="type_"/>
-    <string name="category_"/>
-    <string name="more"/>
-    <string name="permissions"/>
-    <string name="other"/>
-    <string name="similar_or_related"/>
-    <string name="more_from_developer"/>
-    <string name="more_large"/>
-    <string name="apk"/>
-    <string name="xapk"/>
-    <string name="unknown"/>
-    <string name="flag_as_inappropriate"/>
-    <string name="_ellipsis_"/>
-    <string name="history_version"/>
-
-    <string name="market_response_error_success"/>
-    <string name="market_response_error_invalid_result"/>
-    <string name="market_response_error_network_connect_error"/>
-    <string name="market_response_error_network_read_error"/>
-    <string name="market_response_error_invalid_response_code"/>
-    <string name="market_response_error_invalid_response_body"/>
-    <string name="market_response_error_unknown_error__error_">Неизвестна грешка <xliff:g example="SUCCESS" id="error">%1$s</xliff:g>).</string>
-
-    <string name="no_more"/>
-
-    <string name="update"/>
-    <string name="version__version___size_">Версия: <xliff:g example="1.0.0" id="version">%1$s</xliff:g>, <xliff:g example="1024 kB" id="size">%2$s</xliff:g></string>
-    <plurals name="_count__new_update_is_available">
-	<item quantity="one"/>
-	<item quantity="other"/>
-</plurals>
-
-    <string name="launching_please_wait"/>
-
-    <plurals name="_count__item_is_downloading">
-	<item quantity="one"/>
-	<item quantity="other"/>
-</plurals>
-    <string name="downloads_complete"/>
-    <string name="touch_for_view_all_downloads"/>
-    <string name="_name__download_failed"><xliff:g example="APKPure" id="name">%1$s</xliff:g> изтеглянето се провали</string>
-    <string name="touch_to_download_it_again"/>
-
-    <string name="download_percent"><xliff:g example="50" id="percent">%1$d</xliff:g> %%</string>
-    <string name="pause"/>
-    <string name="pause_all"/>
-    <string name="continue_"/>
-    <string name="continue_all"/>
-    <string name="restart"/>
-    <string name="download"/>
-    <string name="downloading"/>
-    <string name="waiting"/>
-    <string name="preparing"/>
-    <string name="completed"/>
-    <string name="paused"/>
-    <string name="failed"/>
-    <string name="file_invalid"/>
-    <string name="file_missing"/>
-    <string name="waiting_to_download"/>
-    <string name="deleted"/>
-    <string name="expired"/>
-    <string name="installed"/>
-    <string name="detail"/>
-    <string name="remove"/>
-    <string name="remove_all"/>
-    <string name="want_to_remove_download_item"/>
-    <string name="want_to_remove_all_download_items"/>
-    <string name="delete_downloaded_file"/>
-    <string name="download_over_cellular"/>
-    <string name="download_over_cellular_content"/>
-
-    <string name="search"/>
-    <string name="search_for_apps"/>
-    <string name="trending_searches"/>
-    <string name="search_history"/>
-    <string name="clear_search_history"/>
-
-    <string name="improvement_plan_title"/>
-    <string name="improvement_plan_message"/>
-    <string name="join_us"/>
-    <string name="skip"/>
-
-    <string name="participate_ultra_download_beta_test_title"/>
-    <string name="participate_ultra_download_beta_test_content"/>
-    <string name="enable"/>
-
-    <string name="_name__is_up_to_date"><xliff:g example="APKPure" id="name">%1$s</xliff:g> is up to date.</string>
-    <string name="new_version_available_title"/>
-    <string name="new_version_available_message"/>
-
-    <string name="report"/>
-    <string name="report__"/>
-    <string name="report_problem__"/>
-    <string name="report_problem_subject"/>
-    <string name="report_problem_text"/>
-    <string name="contact_us__"/>
-    <string name="contact_us"/>
-    <string name="report_content"/>
-    <string name="feedback"/>
-
-    <string name="installation_failed"/>
-    <string name="invalid_app_detail"/>
-    <string name="invalid_app_asset"/>
-    <string name="failed_to_request_app_detail"/>
-    <string name="failed_to_request_app_asset"/>
-    <string name="incompatible_this_app"/>
-    <string name="this_app_not_usable"/>
-
-    <string name="setting"/>
-    <string name="external_storage_not_usable"/>
-    <string name="external_storage_permission_denied"/>
-
-    <string name="share"/>
-    <string name="share_app_url"><xliff:g example="APKPure" id="app_name">%1$s</xliff:g> APK (from @<xliff:g example="APKPure" id="social_network_name">%2$s</xliff:g>)
-        <xliff:g example="https://apkpure.com/p/com.apkpure.aegon" id="app_url">%3$s</xliff:g>
+    <string name="quit">Изход</string>
+    <string name="want_to_quit">Наистина ли искаш да излезеш\?</string>
+    <string name="install">Инсталирай</string>
+    <string name="open">Отвори</string>
+    <string name="delete">Изтрий</string>
+    <string name="delete_all">Изтрий всички</string>
+    <string name="properties">Свойства</string>
+    <string name="properties_message">&lt;b&gt;Път:&lt;/b&gt; %1$s&lt;br&gt;&lt;b&gt;Размер:&lt;/b&gt; %2$s&lt;br&gt;&lt;b&gt;Последна промяна:&lt;/b&gt; %3$s</string>
+    <string name="want_to_delete_file">Наистина ли искаш да изтриеш файла\?</string>
+    <string name="want_to_delete_all_files">Наистина ли искаш да изтриеш всички файлове\?</string>
+    <string name="file_has_been_deleted">Файлът е изтрит.</string>
+    <string name="failed_to_delete_file">Неуспешно изтриване на файла.</string>
+    <string name="install__label_">Инсталирай - <xliff:g example="APKPure" id="app_label">%1$s</xliff:g>
     </string>
-    <string name="share_app_url_comment"><xliff:g example="APKPure" id="user_name">%1$s</xliff:g>\'s comments on
+    <string name="user_canceled">Отказ.</string>
+    <string name="io_error">Вх.-изх. грешка. Няма достатъчно място.</string>
+    <string name="file_format_error">Грешен файлов формат.</string>
+    <string name="parsing_xapk">Анализиране на XAPK…</string>
+    <string name="installing_obb">Инсталиране на OBB файловете…</string>
+    <string name="extracting_apk">Извличане на APK…</string>
+    <string name="installing_apk">Инсталиране на APK…</string>
+    <string name="uninstall">Деинсталирай</string>
+    <string name="uninstalled">Деинсталирано</string>
+    <string name="last_update__date_">Последна актуализация: <xliff:g id="date">%1$s</xliff:g>
+    </string>
+    <string name="all">Всички</string>
+    <string name="screenshots">Екранни снимки</string>
+    <string name="description">Описание</string>
+    <string name="whatsnew">Какво е новото</string>
+    <string name="information">Информация</string>
+    <string name="version_">Версия:</string>
+    <string name="updated_">Актуализирано:</string>
+    <string name="size_">Размер:</string>
+    <string name="permissions_">Разрешения:</string>
+    <string name="type_">Вид:</string>
+    <string name="category_">Категория:</string>
+    <string name="more">Още</string>
+    <string name="permissions">Разрешения</string>
+    <string name="other">Други</string>
+    <string name="similar_or_related">Подобни</string>
+    <string name="more_from_developer">Още от разработчика</string>
+    <string name="more_large">Още</string>
+    <string name="apk">APK</string>
+    <string name="xapk">XAPK</string>
+    <string name="unknown">Неизвестно</string>
+    <string name="flag_as_inappropriate">Докладване</string>
+    <string name="_ellipsis_"> … </string>
+    <string name="history_version">История на версиите</string>
+    <string name="market_response_error_success">Успешно.</string>
+    <string name="market_response_error_invalid_result">Грешен резултат.</string>
+    <string name="market_response_error_network_connect_error">Грешка при свързване.</string>
+    <string name="market_response_error_network_read_error">Грешка във връзката.</string>
+    <string name="market_response_error_invalid_response_code">Грешен код за отговор.</string>
+    <string name="market_response_error_invalid_response_body">Грешен елемент за отговор.</string>
+    <string name="market_response_error_unknown_error__error_">Неизвестна грешка <xliff:g example="SUCCESS" id="error">%1$s</xliff:g>).</string>
+    <string name="no_more"/>
+    <string name="update">Актуализирай</string>
+    <string name="version__version___size_">Версия: <xliff:g example="1.0.0" id="version">%1$s</xliff:g>, <xliff:g example="1024 kB" id="size">%2$s</xliff:g>
+    </string>
+    <plurals name="_count__new_update_is_available">
+        <item quantity="one">
+            <xliff:g example="1" id="count">%1$d</xliff:g> има нова актуализация</item>
+        <item quantity="other">
+            <xliff:g example="2" id="count">%1$d</xliff:g> има нови актуализации</item>
+    </plurals>
+    <string name="launching_please_wait">Изпълнява се... Изчакайте.</string>
+    <plurals name="_count__item_is_downloading">
+        <item quantity="one">Изтегляне на <xliff:g example="1" id="count">%1$d</xliff:g> елемент.</item>
+        <item quantity="other">Изтегляне на <xliff:g example="2" id="count">%1$d</xliff:g> елемента.</item>
+    </plurals>
+    <string name="downloads_complete">Всички изтегляния са завършени</string>
+    <string name="touch_for_view_all_downloads">Натисни тук, за да видиш изтеглянията</string>
+    <string name="_name__download_failed">
+        <xliff:g example="APKPure" id="name">%1$s</xliff:g> изтеглянето се провали</string>
+    <string name="touch_to_download_it_again">Натисни тук, за да изтеглиш отново</string>
+    <string name="download_percent">
+        <xliff:g example="50" id="percent">%1$d</xliff:g> %%</string>
+    <string name="pause">Пауза</string>
+    <string name="pause_all">Пауза на всички</string>
+    <string name="continue_">Продължи</string>
+    <string name="continue_all">Продължи всички</string>
+    <string name="restart">Отначало</string>
+    <string name="download">Изтегли</string>
+    <string name="downloading">Изтегляне</string>
+    <string name="waiting">Изчакване</string>
+    <string name="preparing">Подготвяне</string>
+    <string name="completed">Завършено</string>
+    <string name="paused">На пауза</string>
+    <string name="failed">Неуспешно</string>
+    <string name="file_invalid">Грешен файл</string>
+    <string name="file_missing">Файлът не е открит</string>
+    <string name="waiting_to_download">Изчакване</string>
+    <string name="deleted">Изтрито</string>
+    <string name="expired">Изтекло</string>
+    <string name="installed">Инсталирано</string>
+    <string name="detail">Подробности</string>
+    <string name="remove">Премахни</string>
+    <string name="remove_all">Премахни всички</string>
+    <string name="want_to_remove_download_item">Наистина ли искате да премахнете това\?</string>
+    <string name="want_to_remove_all_download_items">Наистина ли искате да премахнете всички\?</string>
+    <string name="delete_downloaded_file">Изтрий сваления файл</string>
+    <string name="download_over_cellular">Изтегляй с мобилни данни</string>
+    <string name="download_over_cellular_content">Ще изтегляте с мобилния интернет. Продължавате ли\?</string>
+    <string name="search">Търси</string>
+    <string name="search_for_apps">Търси в APKPure</string>
+    <string name="trending_searches">Популярни</string>
+    <string name="search_history">История</string>
+    <string name="clear_search_history">Изчисти историята</string>
+    <string name="improvement_plan_title">Програма за подобряване на услугата</string>
+    <string name="improvement_plan_message">Помогнете ни да подобряваме услугата, като ни изпращате анонимни данни за устройството си. <b>Няма да</b> събираме информация, която може да ви идентифицира (име, адрес, имейл, телефон и други).</string>
+    <string name="join_us">Присъединете се към нас</string>
+    <string name="skip">Пропусни</string>
+    <string name="participate_ultra_download_beta_test_title">Включи режим ултраизтегляне и сваляй по-бързо</string>
+    <string name="participate_ultra_download_beta_test_content">Ултраизтеглянето е в бета. Съобщете ни при възникнал проблем. Функцията се спира от настройките.</string>
+    <string name="enable">Включи</string>
+    <string name="_name__is_up_to_date">
+        <xliff:g example="APKPure" id="name">%1$s</xliff:g> is up to date.</string>
+    <string name="new_version_available_title">Налична е нова версия</string>
+    <string name="new_version_available_message">&lt;b&gt;Последна версия:&lt;/b&gt; %1$s&lt;br&gt;&lt;br&gt;&lt;b&gt;Какво е новото:&lt;/b&gt;&lt;br&gt;%2$s</string>
+    <string name="report">Сигнализиране</string>
+    <string name="report__">Сигнализиране…</string>
+    <string name="report_problem__">Сигнал за проблем…</string>
+    <string name="report_problem_subject">Сигнал за проблем</string>
+    <string name="report_problem_text">Тема:
+\n%1$s
+\n
+\nПодробности:
+\n%2$s</string>
+    <string name="contact_us__">Свържете се с нас…</string>
+    <string name="contact_us">Свържете се с нас</string>
+    <string name="report_content">Докладване на съдържание</string>
+    <string name="feedback">Обратна връзка</string>
+    <string name="installation_failed">Неуспешно инсталиране.</string>
+    <string name="invalid_app_detail">Грешка в данните на приложението.</string>
+    <string name="invalid_app_asset">Грешка в приложението.</string>
+    <string name="failed_to_request_app_detail">Грешка при поискване на информация за приложението.</string>
+    <string name="failed_to_request_app_asset">Грешка при заявката за приложението.</string>
+    <string name="incompatible_this_app">&lt;big&gt;&lt;b&gt;&lt;font color=%1$d&gt;Устройството ви не е съвместимо с това приложение\?&lt;/font&gt;&lt;/b&gt;&lt;/big&gt;&lt;br&gt;&lt;br&gt;Искате ли да продължите\?</string>
+    <string name="this_app_not_usable">&lt;big&gt;&lt;b&gt;&lt;font color=%1$d&gt;Това приложение може да не e използваемо.&lt;/font&gt;&lt;/b&gt;&lt;/big&gt;&lt;br&gt;&lt;br&gt;Искате ли да продължите\?</string>
+    <string name="setting">Настройки</string>
+    <string name="external_storage_not_usable">
+        <big>
+            <b>Трябва ни достъп до вашето хранилище. Уверете се, че е използваемо.</b>
+        </big>
+    </string>
+    <string name="external_storage_permission_denied">&lt;big&gt;&lt;b&gt;Трябва да получим достъп до вашето хранилище. Уверете се, че сте разрешили.</string>
+    <string name="share">Сподели</string>
+    <string name="share_app_url"> Сподели <xliff:g example="APKPure" id="app_name">%1$s</xliff:g> APK (от <xliff:g example="APKPure" id="social_network_name">%2$s</xliff:g>)
+\n<xliff:g example="https://apkpure.com/p/com.apkpure.aegon" id="app_url">%3$s</xliff:g>
+    </string>
+    <string name="share_app_url_comment">" Коментарите на &lt;xliff:g xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\" example=\"APKPure\" id=\"user_name\"&gt; на &lt;xliff:g xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\" example=\"APKPure\" id=\"app_name\"&gt;%2$s&lt;/xliff:g&gt; :
+\n&lt;xliff:g xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\" example=\"APKPure\" id=\"app_name\"&gt;%3$s (от &lt;xliff:g xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\" example=\"APKPure\" id=\"social_network_name\"&gt;%4$s&lt;/xliff:g&gt;)
+\n&lt;xliff:g xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\" example=\"https://apkpure.com/p/com.apkpure.aegon\" id=\"app_url\"&gt;%5$s&lt;/xliff:g&gt; "<xliff:g example="APKPure" id="user_name">%1$s</xliff:g>\'s comments on
         <xliff:g example="APKPure" id="app_name">%2$s</xliff:g> : <xliff:g example="APKPure" id="app_name">%3$s</xliff:g>
         (from @<xliff:g example="APKPure" id="social_network_name">%4$s</xliff:g>)
         <xliff:g example="https://apkpure.com/p/com.apkpure.aegon" id="app_url">%5$s</xliff:g>
     </string>
-    <string name="share_app_url_group"><xliff:g example="APKPure" id="app_name">%1$s</xliff:g>
-        Group. (from @<xliff:g example="APKPure" id="social_network_name">%2$s</xliff:g>)
-        <xliff:g example="https://apkpure.com/p/com.apkpure.aegon" id="app_url">%3$s</xliff:g>
+    <string name="share_app_url_group"> Група <xliff:g example="APKPure" id="app_name">%1$s</xliff:g>. (от <xliff:g example="APKPure" id="social_network_name">%2$s</xliff:g>)
+\n<xliff:g example="https://apkpure.com/p/com.apkpure.aegon" id="app_url">%3$s</xliff:g>
     </string>
-
-    <string name="_name__version_history"><xliff:g example="APKPure" id="name">%1$s</xliff:g> История на версиите</string>
-    <string name="update__date___size_"><xliff:g example="Mar 3, 2016" id="date">%1$s</xliff:g>, <xliff:g example="1024 kB" id="size">%2$s</xliff:g></string>
-
-    <string name="update_all"/>
-    <string name="update___count__"><xliff:g example="3" id="count">%1$d</xliff:g>)</string>
-    <string name="ignore"/>
-    <string name="unignore"/>
-    <string name="select"/>
-    <string name="cancel"/>
-    <string name="select_all"/>
-    <string name="deselect_all"/>
-    <string name="ignored"/>
+    <string name="_name__version_history">
+        <xliff:g example="APKPure" id="name">%1$s</xliff:g> История на версиите</string>
+    <string name="update__date___size_">
+        <xliff:g example="Mar 3, 2016" id="date">%1$s</xliff:g>, <xliff:g example="1024 kB" id="size">%2$s</xliff:g>
+    </string>
+    <string name="update_all">Актуализирай всички</string>
+    <string name="update___count__">
+        <xliff:g example="3" id="count">%1$d</xliff:g>)</string>
+    <string name="ignore">Деактивирай</string>
+    <string name="unignore">Активирай</string>
+    <string name="select">Избери</string>
+    <string name="cancel">Откажи</string>
+    <string name="select_all">Избери всички</string>
+    <string name="deselect_all">Демаркирай всички</string>
+    <string name="ignored">Деактивирани</string>
     <plurals name="total__count__apps__size_">
-	<item quantity="one"/>
-	<item quantity="other"/>
-</plurals>
-    <string name="total_zero_app"/>
-
-    <string name="general"/>
-    <string name="language"/>
-    <string name="auto"/>
-    <string name="changing_language"/>
-    <string name="data_saver_model"/>
-    <string name="data_saver_model_summery"/>
-    <string name="download_via_wifi_only"/>
-    <string name="enable_ultra_download"/>
-    <string name="enable_ultra_download_summary"/>
-    <string name="installation"/>
-    <string name="show_notification_after_installation"/>
-    <string name="delete_packages_after_installation"/>
-
-    <string name="_name__installation_completed"><xliff:g example="APKPure" id="name">%1$s</xliff:g> инсталацията е завършена</string>
-    <string name="touch_to_open"/>
-
-    <string name="auto_service_install_accessibility_title"/>
-    <string name="auto_service_install_accessibility_summary"/>
-
-    <string name="auto_service_dialog_title"/>
-    <string name="auto_service_dialog_message"/>
-
-    <string name="auto_service_title"/>
-    <string name="auto_service_description"/>
-
-    <string name="auto_service_install"/>
-    <string name="auto_service_ensure"/>
-    <string name="auto_service_next"/>
-    <string name="auto_service_exchange"/>
-    <string name="auto_service_complete"/>
-
-    <string name="auto_service_install__material_"/>
-    <string name="auto_service_ensure__material_"/>
-    <string name="auto_service_next__material_"/>
-    <string name="auto_service_exchange__material_"/>
-    <string name="auto_service_complete__material_"/>
-
-    <string name="auto_install_via_root_title"/>
-    <string name="auto_install_via_root_summary"/>
-
+        <item quantity="one">Общо: &lt;b&gt;&lt;font color=%1$d&gt;%2$d&lt;/font&gt;&lt;/b&gt; приложение, &lt;b&gt;&lt;font color=%1$d&gt;%3$s&lt;/font&gt;&lt;/b&gt;</item>
+        <item quantity="other">Общо: &lt;b&gt;&lt;font color=%1$d&gt;%2$d&lt;/font&gt;&lt;/b&gt; приложения, &lt;b&gt;&lt;font color=%1$d&gt;%3$s&lt;/font&gt;&lt;/b&gt;</item>
+    </plurals>
+    <string name="total_zero_app">Общо: &lt;b&gt;&lt;font color=%1$d&gt;0&lt;/font&gt;&lt;/b&gt; приложения</string>
+    <string name="general">Основни</string>
+    <string name="language">Език</string>
+    <string name="auto">Автоматично</string>
+    <string name="changing_language">Смяна на езика... Изчакайте.</string>
+    <string name="data_saver_model">Пестене на данни</string>
+    <string name="data_saver_model_summery">Включвайки това, ще намалите качеството на изображенията, за да пестите данни.</string>
+    <string name="download_via_wifi_only">Изтегляй само през Wi-Fi</string>
+    <string name="enable_ultra_download">Включи ултраизтегляне</string>
+    <string name="enable_ultra_download_summary">Режим ултраизтегляне е в бета. Сигнализирайте в случай на проблем.</string>
+    <string name="installation">Инсталация</string>
+    <string name="show_notification_after_installation">Покажи известие след инсталацията</string>
+    <string name="delete_packages_after_installation">Изтрий пакетите след инсталацията</string>
+    <string name="_name__installation_completed">
+        <xliff:g example="APKPure" id="name">%1$s</xliff:g> инсталацията е завършена</string>
+    <string name="touch_to_open">Натисни, за да изпълниш</string>
+    <string name="auto_service_install_accessibility_title">Автоматична инсталация</string>
+    <string name="auto_service_install_accessibility_summary">Поддържа Android 4.1 и по-нова. Не е необходим root достъп.</string>
+    <string name="auto_service_dialog_title">Включи автоматичната инсталация</string>
+    <string name="auto_service_dialog_message">Автоматичната инсталация изисква разрешение от потребителя. 100% безопасно.</string>
+    <string name="auto_service_title">APKPure автоматична инсталация</string>
+    <string name="auto_service_description">С „APKPure автоматична инсталация“ инсталирането става по-бързо.
+\n
+\nС автоматичната инсталация не се налага да натискате бутони и да следите целия процес на инсталация или актуализация.
+\n
+\nСлед като активирате функцията, може да излязат предупреждения за системата. Тогава натиснете OK и включете настройката за достъпност.
+\n
+\nЗа по-сигурно добавете APKPure към доверените програми на вашето антивирусно приложение.
+\n
+\nИзброените функции се поддържат от Android 4.1 и по-нова. Не е необходим root достъп. Обещаваме, че няма да събираме никаква лична информация за вас. Можете да се свържете с нас по всяко време.</string>
+    <string name="auto_service_install">Инсталирай</string>
+    <string name="auto_service_ensure">ОК</string>
+    <string name="auto_service_next">Следващо</string>
+    <string name="auto_service_exchange">Замести</string>
+    <string name="auto_service_complete">Готово</string>
+    <string name="auto_service_install__material_">ИНСТАЛИРАЙ</string>
+    <string name="auto_service_ensure__material_">ОК</string>
+    <string name="auto_service_next__material_">СЛЕДВАЩО</string>
+    <string name="auto_service_exchange__material_">ЗАМЕСТИ</string>
+    <string name="auto_service_complete__material_">ГОТОВО</string>
+    <string name="auto_install_via_root_title">Автоматична инсталация (root режим)</string>
+    <string name="auto_install_via_root_summary">Само за Android устройства с root достъп.</string>
     <plurals name="app_detail_see_all_replies">
-	<item quantity="one"/>
-	<item quantity="other"/>
-</plurals>
-
-    <string name="app_detail_customer_reviews"/>
-    <string name="app_detail_comment_type_web"/>
-    <string name="app_submit_submit"/>
-    <string name="app_submit_anonymous_comment"/>
-    <string name="app_submit_title_toast"/>
-    <string name="app_submit_msg_toast"/>
-    <string name="app_submit_name_toast"/>
-    <string name="app_submit_email_toast"/>
-    <string name="app_submit_star_toast"/>
-    <string name="app_submit_title_hint"/>
-    <string name="app_submit_msg_hint"/>
-    <string name="app_submit_nickname"/>
-    <string name="app_submit_email"/>
-    <string name="app_submit_submit_title"/>
-    <string name="app_submit_reply_to"/>
-
-    <string name="app_detail_tab_one"/>
-    <string name="app_detail_tab_two"/>
-    <string name="app_detail_tab_three"/>
-
+        <item quantity="one">Виж <xliff:g example="1" id="count">%1$s</xliff:g> отговор</item>
+        <item quantity="other">Виж всички <xliff:g example="2" id="count">%1$d</xliff:g> отговори</item>
+    </plurals>
+    <string name="app_detail_customer_reviews">Коментари</string>
+    <string name="app_detail_comment_type_web">Уеб</string>
+    <string name="app_submit_submit">Изпращане…</string>
+    <string name="app_submit_anonymous_comment">Добави коментар</string>
+    <string name="app_submit_title_toast">Въведи заглавие!</string>
+    <string name="app_submit_msg_toast">Напиши нещо!</string>
+    <string name="app_submit_name_toast">Напиши някакво име (прякор)!</string>
+    <string name="app_submit_email_toast">Напиши валиден имейл адрес!</string>
+    <string name="app_submit_star_toast">Изпрати своята оценка!</string>
+    <string name="app_submit_title_hint">Въведи заглавие!</string>
+    <string name="app_submit_msg_hint">Въведи съобщението!</string>
+    <string name="app_submit_nickname">Име</string>
+    <string name="app_submit_email">Имейл</string>
+    <string name="app_submit_submit_title">Публ.</string>
+    <string name="app_submit_reply_to">отговори на</string>
+    <string name="app_detail_tab_one">Подробности</string>
+    <string name="app_detail_tab_two">Група</string>
+    <string name="app_detail_tab_three">Свързани</string>
     <array name="app_detail_comment_order_array" translatable="false">
         <item>@string/app_detail_comment_order_array_default</item>
         <item>@string/app_detail_comment_order_array_most_recent</item>
         <item>@string/app_detail_comment_order_array_new</item>
         <item>@string/app_detail_comment_order_array_best</item>
     </array>
-
     <array name="app_detail_reply_comment_order_array" translatable="false">
         <item>@string/app_detail_comment_order_array_best</item>
         <item>@string/app_detail_comment_order_array_new</item>
         <item>@string/app_detail_comment_order_array_old</item>
     </array>
-
-    <string name="app_detail_comment_order_array_default"/>
-    <string name="app_detail_comment_order_array_most_recent"/>
-    <string name="app_detail_comment_order_array_new"/>
-    <string name="app_detail_comment_order_array_best"/>
-    <string name="app_detail_comment_order_array_old"/>
-
-    <string name="app_detail_comment_join_group_bt"/>
+    <string name="app_detail_comment_order_array_default">Подреди по подразбиране</string>
+    <string name="app_detail_comment_order_array_most_recent">Скорошни</string>
+    <string name="app_detail_comment_order_array_new">Нови</string>
+    <string name="app_detail_comment_order_array_best">Най-добри</string>
+    <string name="app_detail_comment_order_array_old">Стари</string>
+    <string name="app_detail_comment_join_group_bt">Група</string>
     <string-array name="language_entries" translatable="false">
         <item>@string/auto</item>
         <item>English</item>
@@ -378,426 +365,502 @@
         <item>km</item>
         <item>pl</item>
     </string-array>
-
-    <string name="download_complete_installation_setting"/>
-
+    <string name="download_complete_installation_setting">Инсталация след изтегляне</string>
     <string-array name="download_complete_installation_setting_entries" translatable="false">
         <item>@string/download_complete_installation_setting_entries_always</item>
         <item>@string/download_complete_installation_setting_entries_only</item>
         <item>@string/download_complete_installation_setting_entries_never</item>
     </string-array>
-
-    <string name="download_complete_installation_setting_entries_always"/>
-    <string name="download_complete_installation_setting_entries_only"/>
-    <string name="download_complete_installation_setting_entries_never"/>
-
+    <string name="download_complete_installation_setting_entries_always">Винаги да се инсталира</string>
+    <string name="download_complete_installation_setting_entries_only">Да се инсталира само когато работи</string>
+    <string name="download_complete_installation_setting_entries_never">Никога да не се инсталира</string>
     <string-array name="download_complete_installation_setting_entry_values" translatable="false">
         <item>install_now</item>
         <item>background_not_install</item>
         <item>never_install</item>
     </string-array>
-
-
-    <string name="download_mkdir"/>
-    <string name="download_mkdir_internal_storage_size_des"/>
-    <string name="download_mkdir_internal_storage_entries"/>
-    <string name="download_mkdir_internal_storage_entries1"/>
-    <string name="download_mkdir_external_storage_fill_toast"/>
-
-    <string name="download_mkdir_internal_storage_values"/>
-    <string name="download_mkdir_external_storage_values"/>
-
+    <string name="download_mkdir">Път</string>
+    <string name="download_mkdir_internal_storage_size_des">%1$s свободни, общо %2$s</string>
+    <string name="download_mkdir_internal_storage_entries">SD</string>
+    <string name="download_mkdir_internal_storage_entries1">SD1</string>
+    <string name="download_mkdir_external_storage_fill_toast">Недостатъчно място. Неуспешно изтегляне.</string>
+    <string name="download_mkdir_internal_storage_values">вътрешна памет</string>
+    <string name="download_mkdir_external_storage_values">външна памет</string>
     <string name="download_complete_installation_setting_default_value" translatable="false">install_now</string>
-
     <string name="leak_canary_display_activity_label" translatable="false">APKPure Leaks</string>
-
-    <string name="reply"/>
-    <string name="input_reply_content"/>
-    <string name="publish"/>
-    <string name="reply_dialog_marked_words"/>
-    <string name="reply_comment"/>
-    <string name="save_original_image"/>
-    <string name="already_save"><xliff:g example="ApKPure/photo" id="path">%1$s</xliff:g></string>
-
-    <string name="load_end"/>
-    <string name="load_failed_click_retry"/>
-    <string name="loading"/>
-
-    <string name="scan_qr_code_hint"/>
-    <string name="zxing_msg_default_status"/>
-    <string name="zxing_msg_parser_status"/>
-    <string name="scan_qr_code_result_title"/>
-    <string name="scan_qr_code_result_copy_text"/>
-    <string name="scan_qr_code_result_hint"/>
-    <string name="scan_qr_code_copy_success"/>
-
-    <string name="tip_permission_camera_storage"/>
-    <string name="permission_denied"/>
-
-    <string name="login_title"/>
-    <string name="sign_out"/>
-
-    <string name="delete_comment"/>
-    <string name="delete_comment_msg"/>
-    <string name="upload_cancel"/>
-    <string name="login_select_way_to_login"/>
-
+    <string name="reply">Отговор</string>
+    <string name="input_reply_content">Въведи своя отговор:</string>
+    <string name="publish">Публ.</string>
+    <string name="reply_dialog_marked_words">Натисни и задръж върху снимката, за да я изтриеш.</string>
+    <string name="reply_comment">Отговори на коментара</string>
+    <string name="save_original_image">Запази</string>
+    <string name="already_save">
+        <xliff:g example="ApKPure/photo" id="path">%1$s</xliff:g>
+    </string>
+    <string name="load_end">Няма повече.</string>
+    <string name="load_failed_click_retry">Грешка при зареждането. Натиснете, за да опитате пак</string>
+    <string name="loading">Зареждане…</string>
+    <string name="scan_qr_code_hint">Преди да сканирате QR код, трябва да разрешите достъп до камерата.</string>
+    <string name="zxing_msg_default_status">Нека QR кодът да е по средата.</string>
+    <string name="zxing_msg_parser_status">Неуспешно сканиране. Опитайте пак.</string>
+    <string name="scan_qr_code_result_title">Резултат</string>
+    <string name="scan_qr_code_result_copy_text">Копирай</string>
+    <string name="scan_qr_code_result_hint">Информация от QR кода :</string>
+    <string name="scan_qr_code_copy_success">Копирано.</string>
+    <string name="tip_permission_camera_storage">Не е разрешен достъп до камерата и SD картата.</string>
+    <string name="permission_denied">Достъпът е отказан!</string>
+    <string name="login_title">Вход</string>
+    <string name="sign_out">Изход</string>
+    <string name="delete_comment">Изтрий коментара</string>
+    <string name="delete_comment_msg">Наистина ли искате да изтриете коментара\?</string>
+    <string name="upload_cancel">Качването е отказано</string>
+    <string name="login_select_way_to_login">Избери метод за влизане</string>
     <!-- UserInfoEdit -->
-    <string name="user_info_edit_title"/>
-    <string name="user_info_edit_portrait_tv"/>
-    <string name="user_info_edit_username_tv"/>
-    <string name="user_info_edit_nickname_tv"/>
-    <string name="user_info_edit_email_tv"/>
-    <string name="user_info_edit_gender_tv"/>
-    <string name="user_info_edit_birthday_tv"/>
-    <string name="user_info_edit_change_pwd_tv"/>
-    <string name="user_info_edit_login_out_tv"/>
-    <string name="user_info_edit_not_choose"/>
-    <string name="user_info_edit_gender_male"/>
-    <string name="user_info_edit_gender_female"/>
-    <string name="user_info_edit_portrait_album"/>
-    <string name="user_info_edit_portrait_take_photo"/>
-    <string name="user_info_edit_portrait_error"/>
-    <string name="user_info_edit_ok"/>
-    <string name="user_info_edit_cancel"/>
-    <string name="user_info_edit_large_photo"/>
-
+    <string name="user_info_edit_title">Профил</string>
+    <string name="user_info_edit_portrait_tv">Аватар</string>
+    <string name="user_info_edit_username_tv">Потребителско име</string>
+    <string name="user_info_edit_nickname_tv">Псевдоним</string>
+    <string name="user_info_edit_email_tv">Имейл</string>
+    <string name="user_info_edit_gender_tv">Пол</string>
+    <string name="user_info_edit_birthday_tv">Дата на раждане</string>
+    <string name="user_info_edit_change_pwd_tv">Забравена парола</string>
+    <string name="user_info_edit_login_out_tv">Изход</string>
+    <string name="user_info_edit_not_choose">Неизвестен</string>
+    <string name="user_info_edit_gender_male">Мъж</string>
+    <string name="user_info_edit_gender_female">Жена</string>
+    <string name="user_info_edit_portrait_album">Избери снимка от галерията</string>
+    <string name="user_info_edit_portrait_take_photo">Направи снимка с камерата</string>
+    <string name="user_info_edit_portrait_error">Файлът не се поддържа.</string>
+    <string name="user_info_edit_ok">ОК</string>
+    <string name="user_info_edit_cancel">Отказ</string>
+    <string name="user_info_edit_large_photo">Виж в пълен размер</string>
     <!--updateNickname-->
-    <string name="update_nick_title"/>
-    <string name="update_email_title"/>
-    <string name="update_nick_name_et"/>
-    <string name="update_nick_name_tv"/>
-    <string name="update_email_name_et"/>
-    <string name="update_eamil_name_tv"/>
-    <string name="update_nickname_error"/>
-    <string name="user_info_edit_intro_tv"/>
-    <string name="update_intro_title"/>
-    <string name="update_intro_et"/>
-    <string name="update_intro_tv"/>
-
+    <string name="update_nick_title">Промяна на псевдонима</string>
+    <string name="update_email_title">Промяна на имейла</string>
+    <string name="update_nick_name_et">Въведи нов псевдоним</string>
+    <string name="update_nick_name_tv">Не може да бъде празно.</string>
+    <string name="update_email_name_et">Въведи имейл.</string>
+    <string name="update_eamil_name_tv">Не може да бъде празно.</string>
+    <string name="update_nickname_error">Псевдонимът вече се използва. Моля, въведи друг!</string>
+    <string name="user_info_edit_intro_tv">Биография</string>
+    <string name="update_intro_title">Редактиране на биографията</string>
+    <string name="update_intro_et">Информация за теб</string>
+    <string name="update_intro_tv">Не може да бъде празно.</string>
     <!--messageFragment-->
-    <string name="message_all"/>
-    <string name="message_reply"/>
-    <string name="message_notifications_praise"/>
-    <string name="message_praise"/>
-    <string name="message_notifications_reply"/>
-    <string name="message_notifications_login"/>
-    <string name="message_at_title"/>
-    <string name="message_at"/>
-
+    <string name="message_all">ВСИЧКИ</string>
+    <string name="message_reply">ОТГОВОРИ</string>
+    <string name="message_notifications_praise">Хареса твоя коментар</string>
+    <string name="message_praise">ХАРЕСВАНИЯ</string>
+    <string name="message_notifications_reply">Отговори на коментара ти</string>
+    <string name="message_notifications_login">Влез, за да видиш тази страница.</string>
+    <string name="message_at_title">Споменавания</string>
+    <string name="message_at">Споменавания</string>
     <!--update password-->
-    <string name="update_pwd_title"/>
-    <string name="update_pwd_current_pwd_et"/>
-    <string name="update_pwd_new_pwd_et"/>
-    <string name="update_pwd_Confirm_pwd_et"/>
-    <string name="upload_avatar"/>
-    <string name="update_pwd_current_null_tv"/>
-    <string name="update_pwd_Confirm_null_tv"/>
-    <string name="update_pwd_new_pwd_null_tv"/>
-    <string name="update_pwd_new_confrim_tv"/>
-    <string name="update_pwd_save_bt"/>
-    <string name="update_save_success"/>
+    <string name="update_pwd_title">Промяна на паролата</string>
+    <string name="update_pwd_current_pwd_et">Стара парола</string>
+    <string name="update_pwd_new_pwd_et">Нова парола</string>
+    <string name="update_pwd_Confirm_pwd_et">Нова парола (още веднъж)</string>
+    <string name="upload_avatar">Качва се…</string>
+    <string name="update_pwd_current_null_tv">Не може да бъде празно.</string>
+    <string name="update_pwd_Confirm_null_tv">Не може да бъде празно.</string>
+    <string name="update_pwd_new_pwd_null_tv">Не може да бъде празно.</string>
+    <string name="update_pwd_new_confrim_tv">Паролите, които въведохте, не съвпадат.</string>
+    <string name="update_pwd_save_bt">Запази</string>
+    <string name="update_save_success">Запазено.</string>
     <!--crop image-->
-    <string name="crop__cancel" ignore="ButtonCase"/>
-    <string name="crop__done"/>
-    <string name="crop__pick_error"/>
-    <string name="crop__saving"/>
+    <string name="crop__cancel" ignore="ButtonCase">Отказ</string>
+    <string name="crop__done">Готово</string>
+    <string name="crop__pick_error">Файлът не се поддържа.</string>
+    <string name="crop__saving">Запазва се…</string>
     <!--<string name="crop__saving">Saved</string>  new add-->
-    <string name="crop__wait"/>
-
-    <string name="is_comment"/>
-    <string name="comment_cancel"/>
-    <string name="comment_submitting"/>
-    <string name="comment_replying"/>
-    <string name="register_term_of_service"/>
-
-    <string name="set_contributor"/>
-    <string name="set_permissions"/>
-    <string name="set_open_source_licence"/>
-
-    <string name="sign_in_services"/>
-
-    <string name="sign_in_services_key"/>
-    <string name="sign_in_services_key_policy"/>
-
-    <string name="user_sign_up"/>
-    <string name="user_name_hint"/>
-    <string name="user_email_hint"/>
-    <string name="user_password"/>
-    <string name="user_password_confirm"/>
-
-    <string name="user_name_error"/>
-    <string name="user_name_null"/>
-    <string name="user_nickname_error"/>
-    <string name="user_email_error"/>
-    <string name="user_password_error"/>
-    <string name="user_confirm_error"/>
-
-    <string name="login_user_name"/>
-    <string name="login_user_password"/>
-    <string name="login_user_sign_in"/>
-    <string name="login_choose"/>
-    <string name="login_new_user"/>
-    <string name="login_post_as_a_guest"/>
-
-    <string name="message"/>
-
+    <string name="crop__wait">Изчакайте…</string>
+    <string name="is_comment">Коментарът е…</string>
+    <string name="comment_cancel">Отказано</string>
+    <string name="comment_submitting">Качва се…</string>
+    <string name="comment_replying">Отговаряне…</string>
+    <string name="register_term_of_service">Условия за ползване на APKPure</string>
+    <string name="set_contributor">Сътрудник</string>
+    <string name="set_permissions">Разрешения</string>
+    <string name="set_open_source_licence">Лиценз с отворен код</string>
+    <string name="sign_in_services">Регистрирайки се, приемате нашите условия за ползване.</string>
+    <string name="sign_in_services_key">Условия</string>
+    <string name="sign_in_services_key_policy">Поверителност</string>
+    <string name="user_sign_up">Регистрация</string>
+    <string name="user_name_hint">Потребителско име</string>
+    <string name="user_email_hint">Имейл</string>
+    <string name="user_password">Парола (6-32 символа)</string>
+    <string name="user_password_confirm">Потвърди паролата</string>
+    <string name="user_name_error">Потребителското име не трябва да съдържа специални знаци.</string>
+    <string name="user_name_null">Потребителското име е невалидно.</string>
+    <string name="user_nickname_error">Псевдонимът не трябва да съдържа специални знаци.</string>
+    <string name="user_email_error">Имейл адресът е невалиден.</string>
+    <string name="user_password_error">Паролата е невалидна.</string>
+    <string name="user_confirm_error">Паролите не съвпадат.</string>
+    <string name="login_user_name">Потребителско име или имейл</string>
+    <string name="login_user_password">Парола</string>
+    <string name="login_user_sign_in">Влизане</string>
+    <string name="login_choose">Влизане с профил от социална мрежа</string>
+    <string name="login_new_user">Регистриране на нов потребител</string>
+    <string name="login_post_as_a_guest">Публикувай като гост</string>
+    <string name="message">Съобщение</string>
     <!--push-->
-    <string name="push_title_info_reply"/>
-    <string name="push_title_info_upvoted"/>
-    <string name="push_title_info_follow"/>
-    <string name="push_title_info_update"/>
-    <string name="push_content_info_update"/>
-    <string name="push_title_info_at"/>
-
-    <string name="download_list"/>
-    <string name="can_be_update"/>
-    <string name="install_list"/>
-    <string name="no_download"/>
-    <string name="downloads"/>
-
-    <string name="change_language_failed"/>
-    <string name="comment_reply_tell_msg"/>
-
-    <string name="notification_setting"/>
-    <string name="reply_notification"/>
-    <string name="reply_notification_msg"/>
-    <string name="like_notification"/>
-    <string name="like_notification_msg"/>
-    <string name="gif_tip"/>
-    <string name="ad_tip"/>
-    <string name="submit_comment_title_hint"/>
-
-    <string name="comment_vote_string"/>
-    <string name="comment_reply_three"/>
+    <string name="push_title_info_reply">%1$s отговори на коментара ти!</string>
+    <string name="push_title_info_upvoted">%1$s хареса коментара ти!</string>
+    <string name="push_title_info_follow">%1$s те последва!</string>
+    <string name="push_title_info_update">Има нова версия на APKPure!</string>
+    <string name="push_content_info_update">Новата версия %1$s е налична! Актуализирайте!</string>
+    <string name="push_title_info_at">Някой те спомена в публикация.</string>
+    <string name="download_list">Списък на изтеглянията</string>
+    <string name="can_be_update">За актуализация</string>
+    <string name="install_list">Инсталирани</string>
+    <string name="no_download">Няма изтеглени приложения.</string>
+    <string name="downloads">Изтегляне</string>
+    <string name="change_language_failed">Грешка при смяна на езика!</string>
+    <string name="comment_reply_tell_msg">Коментарът е премахнат!</string>
+    <string name="notification_setting">Известия</string>
+    <string name="reply_notification">Известия за отговори</string>
+    <string name="reply_notification_msg">Получавай известия за нови отговори</string>
+    <string name="like_notification">Известия за харесвания</string>
+    <string name="like_notification_msg">Получавай известия за нови харесвания</string>
+    <string name="gif_tip">GIF</string>
+    <string name="ad_tip">реклама</string>
+    <string name="submit_comment_title_hint">Заглавие</string>
+    <string name="comment_vote_string">Харесай</string>
+    <string name="comment_reply_three">Коментирай</string>
     <string name="comment_item_fold"/>
-
     <plurals name="comment_reply_item_fold">
-	<item quantity="one"/>
-	<item quantity="other"/>
-</plurals>
-
-    <string name="comment_no_reply"/>
-    <string name="comment_reply_info_name"/>
-    <string name="set_updates_notification"/>
-    <string name="set_updates_notification_msg"/>
-    <string name="app_detail_unknow_text"/>
-    <string name="comment_detail_original"/>
-    <string name="comment_comment_newest"/>
-    <string name="comment_comment_oldest"/>
-
-    <string name="edit"/>
-    <string name="menu_copy"/>
-    <string name="menu_copy_link"/>
-    <string name="menu_cancel"/>
-    <string name="delete_all_download_history"/>
-    <string name="delete_the_historical_record"/>
-    <string name="download_history"/>
-
+        <item quantity="one">
+            <xliff:g example="1" id="count">%1$s</xliff:g> скрит отговор</item>
+        <item quantity="other">
+            <xliff:g example="2" id="count">%1$d</xliff:g> скрити отговора</item>
+    </plurals>
+    <string name="comment_no_reply">Еха, тук няма нищо.</string>
+    <string name="comment_reply_info_name">Подробности</string>
+    <string name="set_updates_notification">Има налични актуализации</string>
+    <string name="set_updates_notification_msg">Уведоми ме, когато има нови актуализации. По подразбиране: вкл</string>
+    <string name="app_detail_unknow_text">Тази функция не се поддържа от сегашната версия. Моля, обновете до последната версия.</string>
+    <string name="comment_detail_original">Преглед на оригиналния коментар &gt;</string>
+    <string name="comment_comment_newest">Нови</string>
+    <string name="comment_comment_oldest">Стари</string>
+    <string name="edit">Редактирай</string>
+    <string name="menu_copy">Копирай</string>
+    <string name="menu_copy_link">Копирай връзката</string>
+    <string name="menu_cancel">Отказ</string>
+    <string name="delete_all_download_history">Да се изтрие ли историята на изтеглянията\?</string>
+    <string name="delete_the_historical_record">Да се изтрие ли\?</string>
+    <string name="download_history">История на изтеглянията</string>
     <!--sub_comment-->
-    <string name="sub_comment_dialog_title"/>
-    <string name="sub_comment_dialog_des_tv"/>
-    <string name="sub_comment_dialog_link_et"/>
-    <string name="sub_comment_dialog_link_null"/>
-    <string name="sub_comment_progress_msg"/>
-
-    <string name="play_button"/>
-    <string name="null_time"/>
-    <string name="open_video_in_youtube"/>
-    <string name="full_screen_button"/>
-
-    <string name="main_tab_home"/>
-    <string name="main_tab_ranking"/>
-    <string name="tab_group"/>
-    <string name="main_tab_my"/>
-
-    <string name="main_comment"/>
-    <string name="main_won_praise"/>
-    <string name="main_my_comments"/>
-    <string name="main_my_collection"/>
-    <string name="main_my_message"/>
-    <string name="main_good_comments"/>
-    <string name="main_app_management"/>
-    <string name="main_topic_selection"/>
-    <string name="main_night_mode"/>
-    <string name="please_login_first"/>
+    <string name="sub_comment_dialog_title">Добави видеоклип</string>
+    <string name="sub_comment_dialog_des_tv">Поддържат се само видеоклипове в YouTube.</string>
+    <string name="sub_comment_dialog_link_et">Постави линка към видеото тук.</string>
+    <string name="sub_comment_dialog_link_null">Не може да бъде празно.</string>
+    <string name="sub_comment_progress_msg">Добавяне на видеото…</string>
+    <string name="play_button">Възпроизвеждане</string>
+    <string name="null_time">0:00</string>
+    <string name="open_video_in_youtube">Възпроизвеждане в YouTube</string>
+    <string name="full_screen_button">Цял екран</string>
+    <string name="main_tab_home">НАЧАЛО</string>
+    <string name="main_tab_ranking">КЛАСИРАНЕ</string>
+    <string name="tab_group">ГРУПА</string>
+    <string name="main_tab_my">АЗ</string>
+    <string name="main_comment">коментар</string>
+    <string name="main_won_praise">Харесвания</string>
+    <string name="main_my_comments">Публикации</string>
+    <string name="main_my_collection">Любими</string>
+    <string name="main_my_message">Съобщения</string>
+    <string name="main_good_comments">Харесани</string>
+    <string name="main_app_management">Управление на приложенията</string>
+    <string name="main_topic_selection">Теми</string>
+    <string name="main_night_mode">Нощен режим</string>
+    <string name="please_login_first">Моля, първо влезте</string>
     <string name="no_choice"/>
-    <string name="follow_on_success"/>
-    <string name="follow_un_success"/>
-    <string name="canceled"/>
-    <string name="group"/>
-    <string name="collection"/>
-    <string name="cancel_collection"/>
-
-    <string name="follow"/>
-    <string name="attention_on"/>
-    <string name="attention_off"/>
-    <string name="no_attention"/>
-    <string name="browsing_history"/>
-    <string name="browsing_history_prompt"/>
-
+    <string name="follow_on_success">Последвано.</string>
+    <string name="follow_un_success">Готово.</string>
+    <string name="canceled">Отказано</string>
+    <string name="group">Група</string>
+    <string name="collection">Любими</string>
+    <string name="cancel_collection">Махни от любими</string>
+    <string name="follow">СЛЕДВАНЕ</string>
+    <string name="attention_on">Следване</string>
+    <string name="attention_off">Последвай</string>
+    <string name="no_attention">Няма групи, които следите.</string>
+    <string name="browsing_history">История на търсенията</string>
+    <string name="browsing_history_prompt">Да се изтрие ли историята на търсенията\?</string>
     <!--ranking_fragment-->
-    <string name="ranking_tab1_title"/>
-    <string name="ranking_tab2_title"/>
-    <string name="ranking_tab3_title"/>
-    <string name="ranking_tab4_title"/>
-    <string name="ranking_top_countries_title"/>
-    <string name="ranking_top_develop_title"/>
-
-    <string name="app_detail_three_fragment_foot"/>
-    <string name="menu_paste"/>
-
-    <string name="favorite_title"/>
-    <string name="save_as_favorite"/>
-    <string name="favorite_saved"/>
-    <string name="failed_to_save_favorite"/>
-    <string name="remove_as_favorite"/>
-    <string name="remove_failed"/>
-
-    <string name="collection_comment"/>
-    <string name="collection_app"/>
-
-    <string name="open_with_browser"/>
-    <string name="web_view_refresh"/>
-    <string name="web_view_copy"/>
-
-    <string name="topic_red_color"/>
-    <string name="topic_green_color"/>
-    <string name="topic_blue_color"/>
-    <string name="topic_purple_color"/>
-    <string name="topic_purple_black"/>
-    <string name="topic_purple_yellow"/>
-    <string name="topic_purple_blue_gary"/>
-    <string name="topic_switch_failed"/>
-
-    <string name="recommend_title"/>
-    <string name="recommend_tab_game"/>
-    <string name="recommend_tab_list"/>
-    <string name="recommend_installed_list_title"/>
-    <string name="recommend_review"/>
-    <string name="recommend_replace_img"/>
-    <string name="recommend_app_name"/>
-    <string name="recommend_state_can"/>
-    <string name="recommend_state_success"/>
-    <string name="recommend_select_game"/>
-    <string name="recommend_write_des"/>
-    <string name="recommend_write_des_hint"/>
-    <string name="recommend_comment"/>
-    <string name="recommend_comment_error"/>
-    <string name="recommend_description_title"/>
-    <string name="recommend_description"/>
-    <string name="recommend_user_recommend"/>
-    <string name="recommend_required"/>
-    <string name="recommend_not_found"/>
-    <string name="recommend_not_fount_info"/>
-    <string name="recommend_user_recommend_sys"/>
-
-    <string name="user_detail_focus"/>
-    <string name="user_detail_fans"/>
-    <string name="user_detail_praise"/>
+    <string name="ranking_tab1_title">Популярни игри</string>
+    <string name="ranking_tab2_title">Популярни нови игри</string>
+    <string name="ranking_tab3_title">Популярни приложения</string>
+    <string name="ranking_tab4_title">Популярни нови приложения</string>
+    <string name="ranking_top_countries_title">Рейтинг по области</string>
+    <string name="ranking_top_develop_title">Популярни разработчици</string>
+    <string name="app_detail_three_fragment_foot">Покажи всички коментари</string>
+    <string name="menu_paste">Постави</string>
+    <string name="favorite_title">Любими</string>
+    <string name="save_as_favorite">Запази като любими</string>
+    <string name="favorite_saved">Запазено.</string>
+    <string name="failed_to_save_favorite">Грешка при запазването</string>
+    <string name="remove_as_favorite">Махни от любими</string>
+    <string name="remove_failed">Грешка при премахването</string>
+    <string name="collection_comment">ПУБЛИКАЦИИ</string>
+    <string name="collection_app">ПРИЛОЖЕНИЯ</string>
+    <string name="open_with_browser">Отвори в браузъра</string>
+    <string name="web_view_refresh">Обнови</string>
+    <string name="web_view_copy">Копирай връзката</string>
+    <string name="topic_red_color">Пурпурно</string>
+    <string name="topic_green_color">Светлозелено</string>
+    <string name="topic_blue_color">Светлосиньо</string>
+    <string name="topic_purple_color">Тъмновиолетово</string>
+    <string name="topic_purple_black">Светлосиво</string>
+    <string name="topic_purple_yellow">Яркооранжево</string>
+    <string name="topic_purple_blue_gary">Синьо</string>
+    <string name="topic_switch_failed">Неуспешна смяна на темата</string>
+    <string name="recommend_title">Препоръчани</string>
+    <string name="recommend_tab_game">Препоръчай приложение</string>
+    <string name="recommend_tab_list">Препоръчани</string>
+    <string name="recommend_installed_list_title">Моите приложения</string>
+    <string name="recommend_review">Преглед</string>
+    <string name="recommend_replace_img">Промени снимката</string>
+    <string name="recommend_app_name">Заглавие</string>
+    <string name="recommend_state_can">Препоръчай</string>
+    <string name="recommend_state_success">Препоръчано</string>
+    <string name="recommend_select_game">Препоръчай приложение</string>
+    <string name="recommend_write_des">Описание</string>
+    <string name="recommend_write_des_hint">Информативното описание ще помогне на потребителите със същите интереси като твоя.</string>
+    <string name="recommend_comment">Изпрати</string>
+    <string name="recommend_comment_error">Възникна грешка!</string>
+    <string name="recommend_description_title">Инструкции:</string>
+    <string name="recommend_description">1. Одобрените препоръчани приложения ще излизат под секцията „Открий“
+\n 2. Можеш да препоръчваш само приложения, които си инсталирал.
+\n 3. Ако трябва, уведоми APKPure да не добавя индексирани приложения.</string>
+    <string name="recommend_user_recommend">Препоръчано от %1$s</string>
+    <string name="recommend_required">*</string>
+    <string name="recommend_not_found">Не е индексирано</string>
+    <string name="recommend_not_fount_info">Уведоми APKPure да добави %1$s.</string>
+    <string name="recommend_user_recommend_sys">Препоръчано от APKPure</string>
+    <string name="user_detail_focus">Последвани</string>
+    <string name="user_detail_fans">Последователи</string>
+    <string name="user_detail_praise">Харесвания</string>
     <string name="user_detail_default_text" translatable="false">--</string>
-
-    <string name="user_detail_tab_detail"/>
-    <string name="user_detail_tab_reply"/>
-
-    <string name="user_focus_tab_users"/>
-    <string name="user_focus_tab_apps"/>
-    <string name="user_focus_title_my"/>
-    <string name="user_focus_title"/>
-
+    <string name="user_detail_tab_detail">Публикации</string>
+    <string name="user_detail_tab_reply">Коментри</string>
+    <string name="user_focus_tab_users">Хора</string>
+    <string name="user_focus_tab_apps">Групи</string>
+    <string name="user_focus_title_my">Последвани от мен</string>
+    <string name="user_focus_title">Последван от %1$s</string>
     <string name="google_play_name" translatable="false">Google Play</string>
-    <string name="goto_google_play"/>
-    <string name="google_play_bug_text"/>
-
-    <string name="menu_follow_all"/>
-    <string name="menu_follow_user"/>
-    <string name="menu_follow_group"/>
-    <string name="menu_follow_all_tab"/>
-    <string name="menu_follow_user_tab"/>
-    <string name="menu_follow_group_tab"/>
-
-    <string name="choose_app"/>
-    <string name="publish_comment"/>
-
-    <string name="app_detail_has_product"/>
-    <string name="app_detail_no_product"/>
-    <string name="app_detail_has_ad"/>
-    <string name="app_detail_no_ad"/>
-
-    <string name="tag_list"/>
-    <string name="hot_tag"/>
-    <string name="hot_tag_explain"/>
-    <string name="common_use"/>
-    <string name="app_add_tag_hint_caution"/>
-    <string name="app_add_tag"/>
-    <string name="toast_app_tag_exist"/>
-    <string name="there_is_no_label"/>
-    <string name="add"/>
-    <string name="colon"/>
-
-    <string name="pack_up"/>
-    <string name="Istop"/>
+    <string name="goto_google_play">Закупи</string>
+    <string name="google_play_bug_text">Купи от Google Play</string>
+    <string name="menu_follow_all">Всички последвани</string>
+    <string name="menu_follow_user">Последвани хора</string>
+    <string name="menu_follow_group">Последвани групи</string>
+    <string name="menu_follow_all_tab">Последвани</string>
+    <string name="menu_follow_user_tab">Хора</string>
+    <string name="menu_follow_group_tab">Групи</string>
+    <string name="choose_app">Избери приложение</string>
+    <string name="publish_comment">Публ.</string>
+    <string name="app_detail_has_product">Съдържа покупки в приложението</string>
+    <string name="app_detail_no_product">Не съдържа покупки в приложението</string>
+    <string name="app_detail_has_ad">Съдържа реклами</string>
+    <string name="app_detail_no_ad">Не съдържа реклами</string>
+    <string name="tag_list">Категории</string>
+    <string name="hot_tag">Популярни категории</string>
+    <string name="hot_tag_explain">(Добавяне на категории или гласуване)</string>
+    <string name="common_use">Моите категории</string>
+    <string name="app_add_tag_hint_caution">Без повече от %1$s категории за всяко приложение.</string>
+    <string name="app_add_tag">Добави нова категория</string>
+    <string name="toast_app_tag_exist">Тази категория вече съществува!</string>
+    <string name="there_is_no_label">Няма категории.</string>
+    <string name="add">Добави</string>
+    <string name="colon">:</string>
+    <string name="pack_up">Събери</string>
+    <string name="Istop">Закачени</string>
     <string name="add_tag"/>
-    <string name="error_add_tag"/>
-    <string name="no_collect"/>
-    <string name="no_comment"/>
-
-    <string name="share_apk"/>
-    <string name="tab_apk"/>
-    <string name="commentaries"/>
-
-    <string name="upload_apk_version"/>
-    <string name="upload_apk_downloads"/>
-    
-    <string name="upload_comment_uploading"/>
-    <string name="upload_comment_upload_success"/>
-    <string name="upload_comment_upload_failed"/>
-    <string name="upload_comment_view"/>
-    <string name="upload_comment_reload"/>
-    <string name="upload_notification_pause"/>
-    <string name="upload_notification_start"/>
-    <string name="upload_notification_cancel"/>
-    <string name="upload_notification_is_uploading"/>
-    <string name="upload_notification_is_pause"/>
-    <string name="upload_add_list_toast"/>
-    <string name="upload_add_file_list_toast"/>
-
-    <string name="your_reply_comment"/>
-
-    <string name="market_ad_title"/>
-    <string name="market_ad_tab_one"/>
-    <string name="market_ad_tab_two"/>
-    <string name="market_ad_tab_three"/>
-
-    <string name="tag"/>
-
-    <string name="search_tab_name_one"/>
-    <string name="search_tab_name_two"/>
+    <string name="error_add_tag">Неуспешно добавяне на категории.</string>
+    <string name="no_collect">Няма запазени в любими!</string>
+    <string name="no_comment">Бъди първият, който да добави публикация!</string>
+    <string name="share_apk">Сподели APK</string>
+    <string name="tab_apk">APK</string>
+    <string name="commentaries">История</string>
+    <string name="upload_apk_version">V %1$s</string>
+    <string name="upload_apk_downloads">Изтегляния: %1$s</string>
+    <string name="upload_comment_uploading">Качват се %1$с…</string>
+    <string name="upload_comment_upload_success">%1$s успешни</string>
+    <string name="upload_comment_upload_failed">%1$s неуспешни</string>
+    <string name="upload_comment_view">Натисни за преглед</string>
+    <string name="upload_comment_reload">Натисни, за да качиш отново</string>
+    <string name="upload_notification_pause">Пауза</string>
+    <string name="upload_notification_start">Начало</string>
+    <string name="upload_notification_cancel">Отказ</string>
+    <string name="upload_notification_is_uploading">Пакетът се качва в APKPure…</string>
+    <string name="upload_notification_is_pause">Качването е на пауза.</string>
+    <string name="upload_add_list_toast">Успешно!</string>
+    <string name="upload_add_file_list_toast">Благодарим ти! Моля, изчакай.</string>
+    <string name="your_reply_comment">Твоят отговор</string>
+    <string name="market_ad_title">Магазин</string>
+    <string name="market_ad_tab_one">Препоръчани</string>
+    <string name="market_ad_tab_two">Игри</string>
+    <string name="market_ad_tab_three">Инструменти</string>
+    <string name="tag">Категория</string>
+    <string name="search_tab_name_one">Приложения</string>
+    <string name="search_tab_name_two">Потребители</string>
     <!--pre_register-->
-    <string name="pre_register_ok"/>
-    <string name="pre_register_bt"/>
-    <string name="pre_register_now_bt"/>
-    <string name="pre_registered_bt"/>
-    <string name="pre_register_link_title"/>
-    <string name="pre_register_gift_tv"/>
-    <string name="pre_register_person_num_tv"/>
-    <string name="pre_register_success"/>
-
-    <string name="open_page_failed"/>
-    <string name="search_for_user"/>
-    <string name="search_user_history_title"/>
-    <string name="search_focus_list_title"/>
-
+    <string name="pre_register_ok">ОК</string>
+    <string name="pre_register_bt">Предв. регистрация</string>
+    <string name="pre_register_now_bt">Предв. регистрация</string>
+    <string name="pre_registered_bt">Регистриран</string>
+    <string name="pre_register_link_title">Страница за предв. регистрация</string>
+    <string name="pre_register_gift_tv">Награди за предв. регистрация</string>
+    <string name="pre_register_person_num_tv">Предв. регистрирани: %1$s</string>
+    <string name="pre_register_success">След предварителна регистрация за игра ще получите известие, когато играта е излязла.</string>
+    <string name="open_page_failed">Грешка при отварянето на страницата!</string>
+    <string name="search_for_user">Търси</string>
+    <string name="search_user_history_title">Скорошни контакти</string>
+    <string name="search_focus_list_title">Последвани</string>
     <string name="submit_comment_user_style"/>
-
-    <string name="copy_username"/>
-    <string name="copy_content"/>
-
-    <string name="tab_global"/>
-    <string name="comment_list_see_here"/>
-    <string name="comment_list_new_num"/>
-
-    <string name="tab_popular"/>
-    <string name="count_down_timer_tv"/>
-    <string name="count_down_timer_btn"/>
+    <string name="copy_username">Копирай псевдонима</string>
+    <string name="copy_content">Копирай съдържанието</string>
+    <string name="tab_global">ПРЕПОРЪЧАНИ</string>
+    <string name="comment_list_see_here">Последния път стигна дотук. Натисни, за да обновиш.</string>
+    <string name="comment_list_new_num">%d нови заглавия</string>
+    <string name="tab_popular">ПОПУЛЯРНИ</string>
+    <string name="count_down_timer_tv">%d с</string>
+    <string name="count_down_timer_btn">пропусни</string>
+    <string name="sign_in_services_key_policy_register">Поверителност</string>
+    <string name="home_message_praise">Харесвания</string>
+    <string name="home_message_reply">Отговори</string>
+    <string name="message_notify">Известия</string>
+    <string name="app_detail_discuss_filter_folded">Скрити</string>
+    <string name="app_detail_discuss_filter_featured">Акценти</string>
+    <string name="app_detail_folded_footer_posts">Виж всички %d публикации</string>
+    <string name="app_detail_folded_footer_reviews">Виж всички %d отзиви</string>
+    <string name="app_detail_comment_order_array_bad">1-3</string>
+    <string name="app_detail_comment_order_array_good">4-5</string>
+    <string name="app_detail_evaluation_failed_bt">Отзив</string>
+    <string name="app_detail_evaluation_tool_bar_title">Напиши отзив</string>
+    <string name="app_detail_comment_score_footer">Има %1$s отзива на други езици.</string>
+    <string name="app_detail_comment_no_data">Засега няма отзиви. Напишете вашия.</string>
+    <string name="app_detail_comment_score_less">Твърде малко отзиви.</string>
+    <string name="app_detail_comment_filter_version">Последна версия</string>
+    <string name="app_detail_comment_filter_all">Всички отзиви</string>
+    <string name="app_detail_comment_filter_sort_score">Най-висока оценка</string>
+    <string name="app_detail_tab_evaluation">Отзиви</string>
+    <string name="auto_service_directly__material_">НАПРАВО ИНСТАЛИРАЙ</string>
+    <string name="community_guide_lines">Правила на общността</string>
+    <string name="let_us_know">Сподели ни</string>
+    <string name="tap_to_view">Натисни за преглед</string>
+    <string name="report_callback_des">Прегледахме публикацията, която докладва. Тъй като нарушаваше нашите %1$s, я премахнахме. Благодарим ти за сигнала.</string>
+    <string name="report_callback_title">Публикацията, която докладва, е премахната!</string>
+    <string name="pre_register_des">"Играта %1$s   %2$s, за която се регистрира предварително, е налична за изтегляне.%3$s"</string>
+    <string name="pre_register_title">%1$s излезе за %2$s!</string>
+    <string name="temporarily_blocked_des">"Твоята забрана е за %1$s дена и няма да можеш да качваш съдържание в APKPure, докато не изтече.
+\n        Ако отново качиш нещо, което нарушава нашите %2$s, профилът ти ще бъде забранен за 30 дена.
+\n        Please keep in mind that people who repeatedly post inappropriate content may cause their accounts permanently banned. Имай предвид, че потребители, които непрекъснато качват неподходящо съдържание, получават постоянна забрана.
+\n        
+\n Ако мислиш, че това съобщение е несправедливо показано, %3$s."</string>
+    <string name="temporarily_blocked_title">Временно ти е забранено да качваш съдържание в APKPure</string>
+    <string name="comment_removed_des">Изглежда, че нещо, което си качил, нарушава нашите %1$s. Ние не позволяваме груб език, снимки и видеоклипове с неподходящо съдържание или всякакви други действия, които уронват престижа на някого. 
+\n%2$s 
+\nАко мислиш, че това съобщение е несправедливо показано, %3$s.</string>
+    <string name="comment_removed_title">Твоята публикация е премахната</string>
+    <string name="home_recommended_desc">Твоята публикация е избрана като препоръчана за началната страница %1$s</string>
+    <string name="home_recommended_title">Браво!</string>
+    <string name="recommended_posts_des">Твоята публикация е избрана като препоръчана %1$s</string>
+    <string name="users_recommended_des">Твоята публикация е избрана като препоръчана от потребител %1$s</string>
+    <string name="recommended_posts_title">Браво!</string>
+    <string name="users_recommended_title">Браво!</string>
+    <string name="download_install_apk">Инсталирай APK</string>
+    <string name="download_install_obb">Инсталирай OBB</string>
+    <string name="headline_footer_refresh">Плъзни надолу или натисни тук, за да обновиш.</string>
+    <string name="number">\"</string>
+    <string name="app_rating">Оценка:</string>
+    <string name="follow_xx">Последвай &lt;xliff:g xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\" example=\"Apkpure\" id=\"name\"&gt;%1$s<xliff:g example="Apkpure" id="name">%1$s</xliff:g>
+    </string>
+    <string name="un_follow_xx">Спри да следваш &lt;xliff:g xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\" example=\"Apkpure\" id=\"name\"&gt;%1$s<xliff:g example="Apkpure" id="name">%1$s</xliff:g>
+    </string>
+    <string name="save_tag_hint_msg">Промените няма да бъдат запазени. Искаш ли да излезеш\?</string>
+    <string name="edit_tag">Редактирай категорията</string>
+    <string name="long_image">Голяма снимка</string>
+    <string name="apk_unable_upload">Неуспешно качване на APK.</string>
+    <string name="share_app_url_comment_v3">Сподели <xliff:g example="post/story/review" id="type">%2$s</xliff:g> на <xliff:g example="zhangsan" id="name">%1$s</xliff:g> (от APKPure):
+\n<xliff:g example="https://apkpure.com" id="url">%3$s</xliff:g>
+    </string>
+    <string name="reply_to">Отговори на %1$s:</string>
+    <string name="del_account_sure">Профилът ти ще бъде изтрит след 48 часа. Моля, свържи се с нас, ако имаш въпроси.</string>
+    <string name="del_account_reason_hint">Защо би искал да изтриеш профила си\?</string>
+    <string name="del_account_bt">Изпрати</string>
+    <string name="del_account_email_reason_tv">Защо би искал да изтриеш профила си\?</string>
+    <string name="del_account_email_notify_tv">Моля, въведи валиден имейл адрес, за да получиш известието.</string>
+    <string name="privacy_setting_account_privacy">Това е частен профил.</string>
+    <string name="privacy_setting_account_del">Изтрий своя профил и информация</string>
+    <string name="privacy_setting_account_des">Твоята лична страница няма да се вижда от другите, ако профилът ти е частен.</string>
+    <string name="privacy_setting_account">Личен профил</string>
+    <string name="privacy_setting_title">Настройки за поверителността</string>
+    <string name="search_or_create">Търси или създай</string>
+    <string name="share_select_image_overflow_hint">Не можеш да споделяш повече от 9 снимки в една публикация.</string>
+    <string name="share_image_failed">Грешка при споделянето на снимката!</string>
+    <string name="history_hastag">История на хаштаговете</string>
+    <string name="look_all">Виж още</string>
+    <string name="no_save_comment_hint">Съдържанието няма да се запази. Искате ли да излезете\?</string>
+    <string name="hint">Бележка</string>
+    <string name="headline_no_data_tv">Няма ново съдържание</string>
+    <string name="look_links">Виж връзката</string>
+    <string name="hot">популярни</string>
+    <string name="delete_success">Успешно</string>
+    <string name="release_dynamics">Сподели момента</string>
+    <string name="me_follow">Последвани от мен</string>
+    <string name="menu_follow_subject_tab">Хаштаг</string>
+    <string name="menu_follow_subject">Последвани хаштагове</string>
+    <string name="hot_subject">Популярни хаштагове</string>
+    <string name="error_hot_data_empty">Няма популярни хаштагове!</string>
+    <string name="trends">Публ.</string>
+    <string name="image_text">История</string>
+    <string name="evaluating">Отзиви</string>
+    <string name="new_subject_comment">Нов хаштаг</string>
+    <string name="subject_comment">Хаштагове</string>
+    <string name="comments">Коментари</string>
+    <string name="user_recommend_tip">Препоръчани</string>
+    <string name="msg_all_read_msg">Наистина ли искаш да отбележиш всички като прочетени\?</string>
+    <string name="msg_all_read_notice">Забележка</string>
+    <string name="msg_all_read">Отбележи всички като прочетени</string>
+    <string name="comment_hint_tv">Сподели нещо\?</string>
+    <string name="submit_add_title_image_error_toast">Файлът не се поддържа. Избери друг формат.</string>
+    <string name="submit_add_title_image_tv">Добави корица</string>
+    <string name="setting_region">Област</string>
+    <string name="shop">МАГАЗИН</string>
+    <string name="email_address_hint_et">Въведи своя имейл.</string>
+    <string name="recover_password_title">Възстановяване на паролата</string>
+    <string name="forget_password_tv">Забравена парола\?</string>
+    <string name="menu_skip">Пропусни</string>
+    <string name="unbind_email_hint">Имейл адресът ти не е свързан с твоя акаунт.</string>
+    <string name="unbind_email">Не си свързан</string>
+    <string name="verification_null_code_toast">Моля, въведи кода, който получи.</string>
+    <string name="verification_success_code_toast">Кодът е изпратен.</string>
+    <string name="verification_code_tv_hint">Код за потвърждение</string>
+    <string name="update_email_tv">Потвърди своя имейл адрес, за да го обновиш.</string>
+    <string name="bind_email_success">Успешно свързване.</string>
+    <string name="send_verification_code_resend_tv">Изпрати кода за потвърждение</string>
+    <string name="verification_code_resend_tv">Изпрати отново кода за потвърждение</string>
+    <string name="verification_code_second_tv">Изпрати отново след %d с</string>
+    <string name="verification_code_tv">На вашия имейл %1$s е изпратен код за потвърждение</string>
+    <string name="bind_email_tv">Свържи имейл адреса си с профила си, за да получиш повече екстри като влизане с имейл, възстановяване на парола и други.</string>
+    <string name="bind_email_title">Свържи имейла си</string>
+    <string name="login_out_message_hint">Наистина ли искаш да излезеш\?</string>
+    <string name="un_bind">Не си свързан</string>
+    <string name="bing_share_account">Свържи се с профил на трета страна</string>
+    <string name="recommend_game">Препоръчана игра</string>
+    <string name="editors_picks">Избор на редактора</string>
+    <string name="pre_register_game">Предв. регистрация</string>
+    <string name="topics">Тема</string>
+    <string name="from_user_recommendation">Препоръчани от потребителите</string>
+    <string name="developer_badge_explanation">Значка за разработчик</string>
+    <string name="upload_apk">Качи APK</string>
+    <string name="my_reservation_and_collection">Предв. регистрация и добавяне в любими</string>
+    <string name="load_all_choice_comment">Виж всички публикации</string>
+    <string name="load_all_choice_evaluate">Виж всички отзиви</string>
+    <string name="emoji_input_error_hint">Емотиконите не са разрешени! Напиши нещо…</string>
+    <string name="choice_comment">Препоръчани публикации</string>
+    <string name="choice_evaluate">Препоръчани отзиви</string>
+    <string name="follow_floating_action_button">Създай нов момент</string>
+    <string name="filter_no_comment">Упс! Няма такова съдържание!</string>
+    <string name="properties_message_v2">&lt;b&gt;Име:&lt;/b&gt; %1$s&lt;br&gt;&lt;b&gt;Версия:&lt;/b&gt; %2$s&lt;br&gt;&lt;b&gt;Път:&lt;/b&gt; %3$s&lt;br&gt;&lt;b&gt;Размер:&lt;/b&gt; %4$s&lt;br&gt;&lt;b&gt;Последна промяна:&lt;/b&gt; %5$s</string>
 </resources>
