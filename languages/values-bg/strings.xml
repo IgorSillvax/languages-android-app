@@ -104,7 +104,7 @@
         <item quantity="other">
             <xliff:g example="2" id="count">%1$d</xliff:g> има нови актуализации</item>
     </plurals>
-    <string name="launching_please_wait">Изпълнява се... Изчакайте.</string>
+    <string name="launching_please_wait">Изпълнява се... Изчакай.</string>
     <plurals name="_count__item_is_downloading">
         <item quantity="one">Изтегляне на <xliff:g example="1" id="count">%1$d</xliff:g> елемент.</item>
         <item quantity="other">Изтегляне на <xliff:g example="2" id="count">%1$d</xliff:g> елемента.</item>
@@ -137,22 +137,22 @@
     <string name="detail">Подробности</string>
     <string name="remove">Премахни</string>
     <string name="remove_all">Премахни всички</string>
-    <string name="want_to_remove_download_item">Наистина ли искате да премахнете това\?</string>
-    <string name="want_to_remove_all_download_items">Наистина ли искате да премахнете всички\?</string>
+    <string name="want_to_remove_download_item">Наистина ли искаш да премахнеш това\?</string>
+    <string name="want_to_remove_all_download_items">Наистина ли искаш да премахнеш всички\?</string>
     <string name="delete_downloaded_file">Изтрий сваления файл</string>
     <string name="download_over_cellular">Изтегляй с мобилни данни</string>
-    <string name="download_over_cellular_content">Ще изтегляте с мобилния интернет. Продължавате ли\?</string>
+    <string name="download_over_cellular_content">Ще изтегляш с мобилния интернет. Продължаваш ли\?</string>
     <string name="search">Търси</string>
     <string name="search_for_apps">Търси в APKPure</string>
     <string name="trending_searches">Популярни</string>
     <string name="search_history">История</string>
     <string name="clear_search_history">Изчисти историята</string>
     <string name="improvement_plan_title">Програма за подобряване на услугата</string>
-    <string name="improvement_plan_message">Помогнете ни да подобряваме услугата, като ни изпращате анонимни данни за устройството си. <b>Няма да</b> събираме информация, която може да ви идентифицира (име, адрес, имейл, телефон и други).</string>
+    <string name="improvement_plan_message">Помогни ни да подобряваме услугата, като ни изпращаш анонимни данни за устройството си. <b>Няма да</b> събираме информация, която може да те идентифицира (име, адрес, имейл, телефон и други).</string>
     <string name="join_us">Присъединете се към нас</string>
     <string name="skip">Пропусни</string>
     <string name="participate_ultra_download_beta_test_title">Включи режим ултраизтегляне и сваляй по-бързо</string>
-    <string name="participate_ultra_download_beta_test_content">Ултраизтеглянето е в бета. Съобщете ни при възникнал проблем. Функцията се спира от настройките.</string>
+    <string name="participate_ultra_download_beta_test_content">Ултраизтеглянето е в бета. Съобщи ни при възникнал проблем. Функцията се изключва от настройките.</string>
     <string name="enable">Включи</string>
     <string name="_name__is_up_to_date">
         <xliff:g example="APKPure" id="name">%1$s</xliff:g> is up to date.</string>
@@ -176,25 +176,26 @@
     <string name="invalid_app_asset">Грешка в приложението.</string>
     <string name="failed_to_request_app_detail">Грешка при поискване на информация за приложението.</string>
     <string name="failed_to_request_app_asset">Грешка при заявката за приложението.</string>
-    <string name="incompatible_this_app">&lt;big&gt;&lt;b&gt;&lt;font color=%1$d&gt;Устройството ви не е съвместимо с това приложение\?&lt;/font&gt;&lt;/b&gt;&lt;/big&gt;&lt;br&gt;&lt;br&gt;Искате ли да продължите\?</string>
+    <string name="incompatible_this_app">&lt;big&gt;&lt;b&gt;&lt;font color=%1$d&gt;Устройството ти не е съвместимо с това приложение\?&lt;/font&gt;&lt;/b&gt;&lt;/big&gt;&lt;br&gt;&lt;br&gt;Искаш ли да продължиш\?</string>
     <string name="this_app_not_usable">&lt;big&gt;&lt;b&gt;&lt;font color=%1$d&gt;Това приложение може да не e използваемо.&lt;/font&gt;&lt;/b&gt;&lt;/big&gt;&lt;br&gt;&lt;br&gt;Искате ли да продължите\?</string>
     <string name="setting">Настройки</string>
     <string name="external_storage_not_usable">
         <big>
-            <b>Трябва ни достъп до вашето хранилище. Уверете се, че е използваемо.</b>
+            <b>Трябва ни достъп до паметта. Увери се, че е използваемо.</b>
         </big>
     </string>
-    <string name="external_storage_permission_denied">&lt;big&gt;&lt;b&gt;Трябва да получим достъп до вашето хранилище. Уверете се, че сте разрешили.</string>
+    <string name="external_storage_permission_denied">
+        <big>
+            <b>Трябва да получим достъп до паметта. Увери се, че е разрешен.</b>
+        </big>
+    </string>
     <string name="share">Сподели</string>
     <string name="share_app_url"> Сподели <xliff:g example="APKPure" id="app_name">%1$s</xliff:g> APK (от <xliff:g example="APKPure" id="social_network_name">%2$s</xliff:g>)
 \n<xliff:g example="https://apkpure.com/p/com.apkpure.aegon" id="app_url">%3$s</xliff:g>
     </string>
-    <string name="share_app_url_comment">" Коментарите на &lt;xliff:g xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\" example=\"APKPure\" id=\"user_name\"&gt; на &lt;xliff:g xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\" example=\"APKPure\" id=\"app_name\"&gt;%2$s&lt;/xliff:g&gt; :
-\n&lt;xliff:g xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\" example=\"APKPure\" id=\"app_name\"&gt;%3$s (от &lt;xliff:g xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\" example=\"APKPure\" id=\"social_network_name\"&gt;%4$s&lt;/xliff:g&gt;)
-\n&lt;xliff:g xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\" example=\"https://apkpure.com/p/com.apkpure.aegon\" id=\"app_url\"&gt;%5$s&lt;/xliff:g&gt; "<xliff:g example="APKPure" id="user_name">%1$s</xliff:g>\'s comments on
-        <xliff:g example="APKPure" id="app_name">%2$s</xliff:g> : <xliff:g example="APKPure" id="app_name">%3$s</xliff:g>
-        (from @<xliff:g example="APKPure" id="social_network_name">%4$s</xliff:g>)
-        <xliff:g example="https://apkpure.com/p/com.apkpure.aegon" id="app_url">%5$s</xliff:g>
+    <string name="share_app_url_comment"> Коментарите на <xliff:g example="APKPure" id="user_name">%1$s</xliff:g> на <xliff:g example="APKPure" id="app_name">%2$s</xliff:g> :
+\n<xliff:g example="APKPure" id="app_name">%3$s</xliff:g> (от <xliff:g example="APKPure" id="social_network_name">%4$s</xliff:g>)
+\n<xliff:g example="https://apkpure.com/p/com.apkpure.aegon" id="app_url">%5$s</xliff:g>
     </string>
     <string name="share_app_url_group"> Група <xliff:g example="APKPure" id="app_name">%1$s</xliff:g>. (от <xliff:g example="APKPure" id="social_network_name">%2$s</xliff:g>)
 \n<xliff:g example="https://apkpure.com/p/com.apkpure.aegon" id="app_url">%3$s</xliff:g>
@@ -222,18 +223,18 @@
     <string name="general">Основни</string>
     <string name="language">Език</string>
     <string name="auto">Автоматично</string>
-    <string name="changing_language">Смяна на езика... Изчакайте.</string>
+    <string name="changing_language">Смяна на езика... Изчакай.</string>
     <string name="data_saver_model">Пестене на данни</string>
     <string name="data_saver_model_summery">Включвайки това, ще намалите качеството на изображенията, за да пестите данни.</string>
     <string name="download_via_wifi_only">Изтегляй само през Wi-Fi</string>
     <string name="enable_ultra_download">Включи ултраизтегляне</string>
-    <string name="enable_ultra_download_summary">Режим ултраизтегляне е в бета. Сигнализирайте в случай на проблем.</string>
+    <string name="enable_ultra_download_summary">Режим ултраизтегляне е в бета. Сигнализирай в случай на проблем.</string>
     <string name="installation">Инсталация</string>
     <string name="show_notification_after_installation">Покажи известие след инсталацията</string>
     <string name="delete_packages_after_installation">Изтрий пакетите след инсталацията</string>
     <string name="_name__installation_completed">
         <xliff:g example="APKPure" id="name">%1$s</xliff:g> инсталацията е завършена</string>
-    <string name="touch_to_open">Натисни, за да изпълниш</string>
+    <string name="touch_to_open">Натисни, за да изпълниш.</string>
     <string name="auto_service_install_accessibility_title">Автоматична инсталация</string>
     <string name="auto_service_install_accessibility_summary">Поддържа Android 4.1 и по-нова. Не е необходим root достъп.</string>
     <string name="auto_service_dialog_title">Включи автоматичната инсталация</string>
@@ -241,13 +242,13 @@
     <string name="auto_service_title">APKPure автоматична инсталация</string>
     <string name="auto_service_description">С „APKPure автоматична инсталация“ инсталирането става по-бързо.
 \n
-\nС автоматичната инсталация не се налага да натискате бутони и да следите целия процес на инсталация или актуализация.
+\nНяма да се налага да натискаш бутони и да следиш целия процес на инсталация или актуализация.
 \n
-\nСлед като активирате функцията, може да излязат предупреждения за системата. Тогава натиснете OK и включете настройката за достъпност.
+\nСлед като активираш функцията, може да излязат предупреждения за системата. Тогава натисни OK и включи настройката за достъпност.
 \n
-\nЗа по-сигурно добавете APKPure към доверените програми на вашето антивирусно приложение.
+\nЗа по-сигурно добави APKPure към доверените програми на твоето антивирусно приложение.
 \n
-\nИзброените функции се поддържат от Android 4.1 и по-нова. Не е необходим root достъп. Обещаваме, че няма да събираме никаква лична информация за вас. Можете да се свържете с нас по всяко време.</string>
+\nИзброените функции се поддържат от Android 4.1 и по-нова. Не е необходим root достъп. Обещаваме, че няма да събираме никаква лична информация за теб. Можеш да се свържеш с нас по всяко време.</string>
     <string name="auto_service_install">Инсталирай</string>
     <string name="auto_service_ensure">ОК</string>
     <string name="auto_service_next">Следващо</string>
@@ -270,7 +271,7 @@
     <string name="app_submit_anonymous_comment">Добави коментар</string>
     <string name="app_submit_title_toast">Въведи заглавие!</string>
     <string name="app_submit_msg_toast">Напиши нещо!</string>
-    <string name="app_submit_name_toast">Напиши някакво име (прякор)!</string>
+    <string name="app_submit_name_toast">Напиши името си (или прякор)!</string>
     <string name="app_submit_email_toast">Напиши валиден имейл адрес!</string>
     <string name="app_submit_star_toast">Изпрати своята оценка!</string>
     <string name="app_submit_title_hint">Въведи заглавие!</string>
@@ -398,11 +399,11 @@
         <xliff:g example="ApKPure/photo" id="path">%1$s</xliff:g>
     </string>
     <string name="load_end">Няма повече.</string>
-    <string name="load_failed_click_retry">Грешка при зареждането. Натиснете, за да опитате пак</string>
+    <string name="load_failed_click_retry">Грешка при зареждането. Натисни, за да опиташ пак</string>
     <string name="loading">Зареждане…</string>
-    <string name="scan_qr_code_hint">Преди да сканирате QR код, трябва да разрешите достъп до камерата.</string>
+    <string name="scan_qr_code_hint">Преди да сканираш QR код, трябва да разрешиш достъп до камерата.</string>
     <string name="zxing_msg_default_status">Нека QR кодът да е по средата.</string>
-    <string name="zxing_msg_parser_status">Неуспешно сканиране. Опитайте пак.</string>
+    <string name="zxing_msg_parser_status">Неуспешно сканиране. Опитай пак.</string>
     <string name="scan_qr_code_result_title">Резултат</string>
     <string name="scan_qr_code_result_copy_text">Копирай</string>
     <string name="scan_qr_code_result_hint">Информация от QR кода :</string>
@@ -412,7 +413,7 @@
     <string name="login_title">Вход</string>
     <string name="sign_out">Изход</string>
     <string name="delete_comment">Изтрий коментара</string>
-    <string name="delete_comment_msg">Наистина ли искате да изтриете коментара\?</string>
+    <string name="delete_comment_msg">Наистина ли искаш да изтриеш коментара\?</string>
     <string name="upload_cancel">Качването е отказано</string>
     <string name="login_select_way_to_login">Избери метод за влизане</string>
     <!-- UserInfoEdit -->
@@ -464,7 +465,7 @@
     <string name="update_pwd_current_null_tv">Не може да бъде празно.</string>
     <string name="update_pwd_Confirm_null_tv">Не може да бъде празно.</string>
     <string name="update_pwd_new_pwd_null_tv">Не може да бъде празно.</string>
-    <string name="update_pwd_new_confrim_tv">Паролите, които въведохте, не съвпадат.</string>
+    <string name="update_pwd_new_confrim_tv">Паролите, които въведе, не съвпадат.</string>
     <string name="update_pwd_save_bt">Запази</string>
     <string name="update_save_success">Запазено.</string>
     <!--crop image-->
@@ -473,7 +474,7 @@
     <string name="crop__pick_error">Файлът не се поддържа.</string>
     <string name="crop__saving">Запазва се…</string>
     <!--<string name="crop__saving">Saved</string>  new add-->
-    <string name="crop__wait">Изчакайте…</string>
+    <string name="crop__wait">Изчакай…</string>
     <string name="is_comment">Коментарът е…</string>
     <string name="comment_cancel">Отказано</string>
     <string name="comment_submitting">Качва се…</string>
@@ -482,7 +483,7 @@
     <string name="set_contributor">Сътрудник</string>
     <string name="set_permissions">Разрешения</string>
     <string name="set_open_source_licence">Лиценз с отворен код</string>
-    <string name="sign_in_services">Регистрирайки се, приемате нашите условия за ползване.</string>
+    <string name="sign_in_services">Регистрирайки се, приемаш нашите условия за ползване.</string>
     <string name="sign_in_services_key">Условия</string>
     <string name="sign_in_services_key_policy">Поверителност</string>
     <string name="user_sign_up">Регистрация</string>
@@ -674,7 +675,7 @@
     <string name="colon">:</string>
     <string name="pack_up">Събери</string>
     <string name="Istop">Закачени</string>
-    <string name="add_tag"/>
+    <string name="add_tag">Добави категории</string>
     <string name="error_add_tag">Неуспешно добавяне на категории.</string>
     <string name="no_collect">Няма запазени в любими!</string>
     <string name="no_comment">Бъди първият, който да добави публикация!</string>
@@ -711,7 +712,7 @@
     <string name="pre_register_link_title">Страница за предв. регистрация</string>
     <string name="pre_register_gift_tv">Награди за предв. регистрация</string>
     <string name="pre_register_person_num_tv">Предв. регистрирани: %1$s</string>
-    <string name="pre_register_success">След предварителна регистрация за игра ще получите известие, когато играта е излязла.</string>
+    <string name="pre_register_success">След предварителна регистрация за игра ще получиш известие, когато играта е излязла.</string>
     <string name="open_page_failed">Грешка при отварянето на страницата!</string>
     <string name="search_for_user">Търси</string>
     <string name="search_user_history_title">Скорошни контакти</string>
@@ -738,7 +739,7 @@
     <string name="app_detail_evaluation_failed_bt">Отзив</string>
     <string name="app_detail_evaluation_tool_bar_title">Напиши отзив</string>
     <string name="app_detail_comment_score_footer">Има %1$s отзива на други езици.</string>
-    <string name="app_detail_comment_no_data">Засега няма отзиви. Напишете вашия.</string>
+    <string name="app_detail_comment_no_data">Засега няма отзиви. Напиши твоя.</string>
     <string name="app_detail_comment_score_less">Твърде малко отзиви.</string>
     <string name="app_detail_comment_filter_version">Последна версия</string>
     <string name="app_detail_comment_filter_all">Всички отзиви</string>
@@ -773,9 +774,9 @@
     <string name="headline_footer_refresh">Плъзни надолу или натисни тук, за да обновиш.</string>
     <string name="number">\"</string>
     <string name="app_rating">Оценка:</string>
-    <string name="follow_xx">Последвай &lt;xliff:g xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\" example=\"Apkpure\" id=\"name\"&gt;%1$s<xliff:g example="Apkpure" id="name">%1$s</xliff:g>
+    <string name="follow_xx">Последвай <xliff:g example="Apkpure" id="name">%1$s</xliff:g>
     </string>
-    <string name="un_follow_xx">Спри да следваш &lt;xliff:g xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\" example=\"Apkpure\" id=\"name\"&gt;%1$s<xliff:g example="Apkpure" id="name">%1$s</xliff:g>
+    <string name="un_follow_xx">Спри да следваш <xliff:g example="Apkpure" id="name">%1$s</xliff:g>
     </string>
     <string name="save_tag_hint_msg">Промените няма да бъдат запазени. Искаш ли да излезеш\?</string>
     <string name="edit_tag">Редактирай категорията</string>
@@ -800,7 +801,7 @@
     <string name="share_image_failed">Грешка при споделянето на снимката!</string>
     <string name="history_hastag">История на хаштаговете</string>
     <string name="look_all">Виж още</string>
-    <string name="no_save_comment_hint">Съдържанието няма да се запази. Искате ли да излезете\?</string>
+    <string name="no_save_comment_hint">Съдържанието няма да се запази. Искаш ли да излезеш\?</string>
     <string name="hint">Бележка</string>
     <string name="headline_no_data_tv">Няма ново съдържание</string>
     <string name="look_links">Виж връзката</string>
@@ -841,7 +842,7 @@
     <string name="send_verification_code_resend_tv">Изпрати кода за потвърждение</string>
     <string name="verification_code_resend_tv">Изпрати отново кода за потвърждение</string>
     <string name="verification_code_second_tv">Изпрати отново след %d с</string>
-    <string name="verification_code_tv">На вашия имейл %1$s е изпратен код за потвърждение</string>
+    <string name="verification_code_tv">На твоя имейл %1$s е изпратен код за потвърждение</string>
     <string name="bind_email_tv">Свържи имейл адреса си с профила си, за да получиш повече екстри като влизане с имейл, възстановяване на парола и други.</string>
     <string name="bind_email_title">Свържи имейла си</string>
     <string name="login_out_message_hint">Наистина ли искаш да излезеш\?</string>
@@ -863,4 +864,88 @@
     <string name="follow_floating_action_button">Създай нов момент</string>
     <string name="filter_no_comment">Упс! Няма такова съдържание!</string>
     <string name="properties_message_v2">&lt;b&gt;Име:&lt;/b&gt; %1$s&lt;br&gt;&lt;b&gt;Версия:&lt;/b&gt; %2$s&lt;br&gt;&lt;b&gt;Път:&lt;/b&gt; %3$s&lt;br&gt;&lt;b&gt;Размер:&lt;/b&gt; %4$s&lt;br&gt;&lt;b&gt;Последна промяна:&lt;/b&gt; %5$s</string>
+    <string name="picture_please">Опитай по-късно...</string>
+    <string name="search_tab_invitation">Публикации</string>
+    <string name="xapk_upload_hint_info">Качването на XAPK става по-бавно. Искате ли да продължите\?</string>
+    <string name="packaging_failed_try_again">Възникна грешка. Опитай пак.</string>
+    <string name="packaging_success_ready_upload">Файлът е готов за качване.</string>
+    <string name="packaging">Опаковане…</string>
+    <string name="preparing_upload">Изчакай…</string>
+    <string name="upload_apk_xapk">Качи APK/XAPK</string>
+    <string name="apk_xapk">APK/XAPK</string>
+    <string name="ucrop_mutate_exception_hint">Затова отмени цветовите ресурси (ucrop_color_toolbar_widget) в приложението, за да може да работи на по-стари устройства</string>
+    <string name="ucrop_error_input_data_is_absent">И входния, и изходния URI трябва да е посочен</string>
+    <string name="ucrop_menu_crop">Изрежи</string>
+    <string name="ucrop_label_edit_photo">Редактирай</string>
+    <string name="ucrop_label_original">Оригинал</string>
+    <string name="picture_message_video_max_num">Може да избираш %1$s</string>
+    <string name="picture_confirm">Отказ</string>
+    <string name="picture_audio_error">Файлът е повреден</string>
+    <string name="picture_video_error">Файлът е повреден</string>
+    <string name="picture_error">Файлът е повреден</string>
+    <string name="picture_pause_audio">Пауза</string>
+    <string name="picture_quit_audio">Излез</string>
+    <string name="picture_stop_audio">Стоп</string>
+    <string name="picture_play_audio">Възпроизвеждане</string>
+    <string name="picture_tape">Запис</string>
+    <string name="picture_all_audio">Всички аудио файлове</string>
+    <string name="picture_save_success">Успешно запазване на снимката</string>
+    <string name="picture_save_error">Неуспешно запазване на снимката</string>
+    <string name="picture_prompt_content">Искаш ли да запазиш снимките в телефона\?</string>
+    <string name="picture_prompt">Въпрос</string>
+    <string name="picture_warning">Медийни файлове !</string>
+    <string name="picture_long_chart">Дължина</string>
+    <string name="picture_photograph">Снимка</string>
+    <string name="picture_record_video">Запиши видео</string>
+    <string name="picture_video_toast">Видеото не може да се възпроизведе</string>
+    <string name="picture_camera">Достъпът до камерата е отказан</string>
+    <string name="picture_jurisdiction">Достъпът до паметта е отказан</string>
+    <string name="picture_audio">Достъпът до приложението за звукозапис е отказан</string>
+    <string name="gif_tag">GIF</string>
+    <string name="picture_min_img_num">Снимките не може да са %1$s</string>
+    <string name="picture_empty">Може да снимаш с камерата</string>
+    <string name="picture_audio_empty">Може да запишеш звук</string>
+    <string name="picture_empty_audio_title">Няма аудио файл
+\n</string>
+    <string name="picture_empty_title">Няма снимки и видеоклипове
+\n</string>
+    <string name="picture_please_select">Избери</string>
+    <string name="picture_done">ОК</string>
+    <string name="picture_completed">Готово</string>
+    <string name="picture_min_video_num">Видеата не може да са %1$s</string>
+    <string name="picture_rule">Няма снимки и видеоклипове</string>
+    <string name="picture_take_picture">Снимка</string>
+    <string name="picture_cancel">Отказ</string>
+    <string name="picture_camera_roll">Галерия</string>
+    <string name="attention_each">Свързан</string>
+    <string name="app_details_request_update_msg">Получихме твоята молба за последна версия на %s.
+\nНовата версия ще е достъпна за сваляне веднага щом излезе.</string>
+    <string name="app_details_request_update_title">Поискай актуализация</string>
+    <string name="xapk_unable_upload">Неуспешно качване на XAPK!</string>
+    <string name="upload_xapk_to_group">Качи XAPK в група</string>
+    <string name="upload_xapk">Качи XAPK</string>
+    <string name="upload_apk_to_group">Качи APK в група</string>
+    <string name="app_update_auto_install">Натисни, за да включиш автоматичната инсталация</string>
+    <string name="look_video">Възпроизвеждане</string>
+    <string name="get_it_on">Свали го на :</string>
+    <string name="users">Потребители</string>
+    <string name="choice_hashtag">Препоръчани хаштагове</string>
+    <string name="gif_auto_desc">автоматично пускане на GIF само при Wi-Fi</string>
+    <string name="gif_auto_title">автоматично пускане на GIF</string>
+    <string name="saved_draft">Запазено като чернова</string>
+    <string name="upload_video">Качи видео</string>
+    <string name="is_save_comment_draft">Запази като чернова\?</string>
+    <string name="empty_draft_info">Няма съдържание…</string>
+    <string name="delete_draft">Изтрий</string>
+    <string name="edit_draft">Редактирай</string>
+    <string name="delete_all_draft_hint">Наистина ли искаш да изтриеш всички чернови\?</string>
+    <string name="several_drafts">
+        <xliff:g example="5" id="count">%1$s</xliff:g> чернови</string>
+    <string name="several_draft">
+        <xliff:g example="5" id="count">%1$s</xliff:g> чернова</string>
+    <string name="my_draft">Чернова</string>
+    <string name="clear_empty">Изтрий всички</string>
+    <string name="picture_done_front_num">%1$d/%2$d ОК</string>
+    <string name="picture_preview">Преглед</string>
+    <string name="picture_message_max_num">Може да избираш %1$s снимки</string>
 </resources>
