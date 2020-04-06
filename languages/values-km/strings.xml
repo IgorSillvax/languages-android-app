@@ -3,15 +3,15 @@
     <string name="action_settings">ការកំណត់</string>
     <string name="action_search">ស្វែងរក</string>
     <string name="action_management">ការគ្រប់គ្រង</string>
-    <string name="press_back_key_quit">ចុច ត្រលប់ក្រោយម្ដងទៀត ដើម្បីចាកចេញ។</string>
+    <string name="press_back_key_quit">ដើម្បីចេញ សូមប៉ះប៊ូតុងថយក្រោយម្តងទៀត។</string>
     <string name="featured">លក្ខណះពិសេស</string>
     <string name="games">ហ្គេម</string>
     <string name="apps">កម្មវិធី</string>
     <string name="categories">ចំណាត់ក្រុម</string>
     <string name="updates">អាប់ដេត</string>
     <string name="something_happened">&gt;_&lt;មានបញ្ហាខ្លះៗ បានកើតឡើង។</string>
-    <string name="auto_install_via_root_summary">សម្រាប់តែទូរស័ព្ទនឹងថេប្លិត ដែលមានឬសតែប៉ុណ្ណោះ។</string>
-    <string name="auto_install_via_root_title">ដំឡើងស្វ័យប្រវត្តិ</string>
+    <string name="auto_install_via_root_summary">សម្រាប់តែទូរស័ព្ទនិងថេប្លេត Android ណាដែលបាន root ប៉ុណ្ណោះ។</string>
+    <string name="auto_install_via_root_title">ដំឡើងស្វ័យប្រវត្តិ (Root Mode)</string>
     <string name="auto_service_exchange__material_">ជំនួស</string>
     <string name="auto_service_complete__material_">សម្រេច</string>
     <string name="auto_service_install__material_">តម្លើង</string>
@@ -24,13 +24,13 @@
     <string name="auto_service_next">បន្ទាប់</string>
     <string name="auto_service_title">APKPure តម្លើងស្វ័យប្រវត្តិ</string>
     <string name="auto_service_install_accessibility_title">តម្លើងស្វ័យប្រវត្តិ</string>
-    <string name="touch_to_open">ប៉ះ ដើម្បីបើក។</string>
-    <string name="auto_service_install_accessibility_summary">"គាំទ្រAndroid ជំនាន់4.1+  មិនត្រូវការសិទ្ធិអនុញ្ញាតឬសឡើយ។"</string>
+    <string name="touch_to_open">សូមប៉ះ ដើម្បីដំណើរការ។</string>
+    <string name="auto_service_install_accessibility_summary">"គាំទ្រ Android 4.1+  មិនចាំបាច់ root  ឡើយ។"</string>
     <string name="auto_service_dialog_title">បើកការតម្លើងស្វ័យប្រវត្តិ</string>
     <string name="recommend">ស្វែងយល់</string>
     <string name="load_failed_error">អូ៎! មានកំហុស​បាន​កើត​ឡើង។</string>
     <string name="load_failed_empty">គឺគ្មានអ្វីនៅទីនេះទេ។</string>
-    <string name="load_failed_all_up_to_date">កម្មវិធីទាំងអស់ទាន់សម័យ។</string>
+    <string name="load_failed_all_up_to_date">កម្មវិធីទាំងអស់ទាន់សម័យហើយ។</string>
     <string name="load_failed_no_results">សុំទោស! មិនមានលទ្ធផលរកឃើញឡើយ។</string>
     <string name="refresh">ធ្វើឲ្យស្រស់ថ្មី</string>
     <string name="management">ការគ្រប់គ្រង</string>
@@ -44,10 +44,10 @@
     <string name="about">អំពី</string>
     <string name="about_title">អំពី <xliff:g example="APKPure" id="app_name">%1$s</xliff:g>
     </string>
-    <string name="about_message">&lt;b&gt;ជំនាន់៖&lt;/b&gt; %1$s&lt;br&gt;&lt;br&gt;&lt;b&gt;វែបសាយ៖&lt;/b&gt; &lt;a href=%2$s&gt;%2$s&lt;/a&gt;&lt;br&gt;&lt;b&gt;អ៊ីម៉ែល៖&lt;/b&gt; &lt;a href=mailto:%3$s&gt;%3$s&lt;/a&gt;</string>
-    <string name="check_update">ពិនិត្យការអាប់ដេត</string>
+    <string name="about_message">&lt;b&gt;កំណែ៖&lt;/b&gt; %1$s&lt;br&gt;&lt;br&gt;&lt;b&gt;គេហទំព័រ៖&lt;/b&gt; &lt;a href=%2$s&gt;%2$s&lt;/a&gt;&lt;br&gt;&lt;b&gt;អ៊ីមែល៖&lt;/b&gt; &lt;a href=mailto:%3$s&gt;%3$s&lt;/a&gt;</string>
+    <string name="check_update">ពិនិត្យរកបច្ចុប្បន្នភាព</string>
     <string name="quit">បិទចោល</string>
-    <string name="want_to_quit">តើអ្នកពិតជាចង់បិទចោលឬ?</string>
+    <string name="want_to_quit">តើអ្នកពិតជាចង់ចាកចេញមែនទេ\?</string>
     <string name="install">តម្លើង</string>
     <string name="open">បើក</string>
     <string name="delete">លុប</string>
@@ -56,8 +56,8 @@
     <string name="properties_message">
         <![CDATA[<b>ទីតាំង៖</b> %1$s<br><b>ទំហំ</b> %2$s<br><b>កែសម្រួលចុងក្រោយ៖</b> %3$s]]>
     </string>
-    <string name="want_to_delete_file">តើអ្នកចង់លុបឯកសារនេះមែនទេ?</string>
-    <string name="want_to_delete_all_files">តើអ្នកចង់លុបឯកសារទាំងអស់មែនទេ?</string>
+    <string name="want_to_delete_file">តើអ្នកពិតជាចង់លុបឯកសារនេះឬ\?</string>
+    <string name="want_to_delete_all_files">តើអ្នកពិតជាចង់លុបឯកសារទាំងអស់មែនទេ\?</string>
     <string name="file_has_been_deleted">ឯកសារត្រូវបានលុប។</string>
     <string name="failed_to_delete_file">បរាជ័យក្នុងការលុបឯកសារនេះ។</string>
     <string name="install__label_">តម្លើង - <xliff:g example="APKPure" id="app_label">%1$s</xliff:g>
@@ -66,7 +66,7 @@
     <string name="file_format_error">ទម្រង់ឯកសារមានកំហុស។</string>
     <string name="parsing_xapk">កំពុងញែក XAPK …</string>
     <string name="installing_obb">កំពុងតម្លើងឯកសារ OBB…</string>
-    <string name="io_error">កំហុស IO។ គួរតែមិនទាន់មានទំហំទំនេរគ្រប់គ្រាន់ សម្រាប់ការតម្លើងឲ្យបានសម្រេច។</string>
+    <string name="io_error">កំហុស IO។ គ្មានកន្លែងទំនេរគ្រប់គ្រាន់សម្រាប់ការដំឡើងទេ។</string>
     <string name="installing_apk">កំពុងតម្លើង APK …</string>
     <string name="uninstall">ឈប់តម្លើង</string>
     <string name="uninstalled">ឈប់តម្លើង</string>
@@ -106,13 +106,12 @@
         <item quantity="other">
             <xliff:g example="1" id="count">%1$d</xliff:g> ការអាប់ដេតថ្មីគឺអាចប្រើបានហើយ</item>
     </plurals>
-    <string name="launching_please_wait">កំពុងបើកដំណើរការ សូមរង់ចាំ…</string>
+    <string name="launching_please_wait">កំពុងចាប់ផ្តើម…សូមរង់ចាំ។</string>
     <plurals name="_count__item_is_downloading">
-        <item quantity="other">
-            <xliff:g example="1" id="count">%1$d</xliff:g> ធាតុ គឺកំពុងទាញយក</item>
+        <item quantity="other">កំពុងទាញយក<xliff:g example="1" id="count">%1$d</xliff:g> ធាតុ។</item>
     </plurals>
     <string name="downloads_complete">ការទាញយកបានសម្រេច</string>
-    <string name="touch_for_view_all_downloads">ប៉ះ ដើម្បូីមើលការទាញយកទាំងអស់</string>
+    <string name="touch_for_view_all_downloads">"សូមប៉ះ  ដើម្បីមើលការទាញយកទាំងអស់"</string>
     <string name="_name__download_failed">ការទាញយក<xliff:g example="APKPure" id="name">%1$s</xliff:g> បានបរាជ័យ</string>
     <string name="download_percent">
         <xliff:g example="50" id="percent">%1$d</xliff:g> %</string>
@@ -148,20 +147,16 @@
     </string>
     <string name="report">រាយការណ៍</string>
     <string name="report__">រាយការណ៍…</string>
-    <string name="report_problem__">រាយការណ៍ បញ្ហា…</string>
-    <string name="report_problem_subject">រាយការណ៍បញ្ហា</string>
+    <string name="report_problem__">រាយការណ៍ពីបញ្ហា…</string>
+    <string name="report_problem_subject">រាយការណ៍ពីបញ្ហា</string>
     <string name="report_problem_text">ប្រធានបទ បញ្ហា៖%1$sបញ្ហាលម្អិត៖%2$s</string>
     <string name="contact_us__">ទាក់ទងយើង…</string>
     <string name="contact_us">ទាក់ទងពួកយើង</string>
     <string name="report_content">រាយការណ៍មាតិកា</string>
     <string name="feedback">មតិអ្នកប្រើ</string>
-    <string name="installation_failed">ការតម្លើងបានបរាជ័យ</string>
-    <string name="incompatible_this_app">
-        <![CDATA[<big><b><font color="%1$d">ឧបករណ៍របស់អ្នក គឺមិនសមស្របជាមួយកម្មវិធីនេះទេ។</font></b></big><br><br>តើអ្នកពិតជាចង់បន្តឬ?]]>
-    </string>
-    <string name="this_app_not_usable">
-        <![CDATA[<big><b><font color="%1$d">កម្មវិធីនេះគួតែមិនអាចប្រើបាន។</font></b></big><br><br>តើអ្នកពិតជាចង់បន្តឬ?]]>
-    </string>
+    <string name="installation_failed">ការដំឡើងបានបរាជ័យ។</string>
+    <string name="incompatible_this_app">&lt;big&gt;&lt;b&gt;&lt;font color=%1$d&gt;ឧបករណ៍របស់អ្នក គឺមិនសមស្របជាមួយកម្មវិធីនេះទេ។&lt;/font&gt;&lt;/b&gt;&lt;/big&gt;&lt;br&gt;&lt;br&gt;តើបន្តឬ\?</string>
+    <string name="this_app_not_usable">&lt;big&gt;&lt;b&gt;&lt;font color=%1$d&gt;កម្មវិធីនេះគួតែមិនអាចប្រើបាន។&lt;/font&gt;&lt;/b&gt;&lt;/big&gt;&lt;br&gt;&lt;br&gt;តើបន្តឬ\?</string>
     <string name="setting">ការកំណត់</string>
     <string name="share">ចែករំលែក</string>
     <string name="share_app_url"> ចែក​រំលែក​ <xliff:g example="APKPure" id="app_name">%1$s</xliff:g> APK (មកពី <xliff:g example="APKPure" id="social_network_name">%2$s</xliff:g>) <xliff:g example="https://apkpure.com/p/com.apkpure.aegon" id="app_url">%3$s</xliff:g>
@@ -173,20 +168,20 @@
     </string>
     <string name="update_all">អាប់ដេតទាំងអស់</string>
     <string name="update___count__">អាប់ដេត (<xliff:g example="3" id="count">%1$d</xliff:g>)</string>
-    <string name="ignore">មិនអើពើពីបញ្ជី</string>
+    <string name="ignore">មិនអើពើ</string>
     <string name="unignore">អើពើ</string>
     <string name="market_response_error_invalid_response_body">អង្គភាពឆ្លើយតបមិនត្រឹមត្រូវ។</string>
-    <string name="touch_to_download_it_again">ប៉ះ ដើម្បីទាញយកវាម្តងទៀត</string>
-    <string name="want_to_remove_download_item">តើអ្នកចង់លុបការទាញយកនេះចេញទេ?</string>
-    <string name="want_to_remove_all_download_items">តើអ្នកចង់លុបធាតុទាញយកទាំងអស់ទេ?</string>
+    <string name="touch_to_download_it_again">សូមប៉ះ ដើម្បីចាប់ផ្តើមការទាញយកឡើងវិញ</string>
+    <string name="want_to_remove_download_item">តើអ្នកពិតជាចង់លុបធាតុនេះចេញមែនទេ\?</string>
+    <string name="want_to_remove_all_download_items">តើអ្នកពិតជាចង់ដកធាតុទាំងអស់ចេញមែនទេ\?</string>
     <string name="delete_downloaded_file">លុបឯកសារដែលបានទាញយក</string>
     <string name="download_over_cellular">ទាញយកនៅលើទិន្នន័យទូរស័ព្ទ</string>
-    <string name="download_over_cellular_content">អ្នករៀបនឹងទាញយកតាមរយៈបណ្ដាញទូរស័ព្ទចល័តរបស់អ្នក។ តើអ្នកចូលចិត្តបន្តទេ?</string>
+    <string name="download_over_cellular_content">អ្នករៀបនឹងទាញយកតាមបណ្តាញទូរស័ព្ទរបស់អ្នក តើបន្តឬ\?</string>
     <string name="search">ស្វែងរក</string>
     <string name="search_for_apps">ស្វែងរកកម្មវិធី APKPure</string>
     <string name="search_history">ប្រវត្តិ</string>
     <string name="clear_search_history">ជម្រះប្រវត្តិទាំងអស់</string>
-    <string name="participate_ultra_download_beta_test_title">បើក​Ultra Download ដើម្បីទទួលបានល្បឿនទាញយកលឿនបំផុត</string>
+    <string name="participate_ultra_download_beta_test_title">បើកដំណើរការ ទាញយកកំរិតខ្លាំងហើយរីករាយនឹងល្បឿនទាញយកលឿនជាងមុន</string>
     <string name="_name__version_history">ប្រវត្តិនៃជំនាន់របស់<xliff:g example="APKPure" id="name">%1$s</xliff:g>
     </string>
     <string name="select">ជ្រើសយក</string>
@@ -208,28 +203,31 @@
     <string name="general">ទូទៅ</string>
     <string name="language">ភាសា</string>
     <string name="auto">អូតូ</string>
-    <string name="changing_language">កំពុងប្ដូរភាសា សូមរង់ចាំ…</string>
+    <string name="changing_language">កំពុងប្ដូរភាសា… សូមរង់ចាំ។</string>
     <string name="download_via_wifi_only">ទាញយកតាមរយះ Wi-Fi តែប៉ុណ្ណោះ</string>
     <string name="enable_ultra_download">បើកការទាញយកអ៊ុយត្រា</string>
     <string name="installation">ការតម្លើង</string>
-    <string name="_name__installation_completed">ការតម្លើង <xliff:g example="APKPure" id="name">%1$s</xliff:g> បានសម្រេច</string>
-    <string name="auto_service_description">បើក \"កម្មវិធីតម្លើងស្វ័យប្រវត្តិរបស់APKPure\", ដើម្បីទុកឲ្យ APKPure \"តម្លើងស្វ័យប្រវត្តិ\" ដំណើរការដោយរលូន។
-
-\"កម្មវិធីតម្លើងស្វ័យប្រវត្តិរបស់APKPure\" អាចជួយអ្នកក្នុងការចុចប៊ូតុង តម្លើង នៅពេលដែលតម្លើង ឬអាប់ដេតកម្មវិធី ហើយអ្នកមិនចាំបាច់ពិនិត្យមើលទូរស័ព្ទរបស់គ្រប់ពេលដែរ។
-នៅពេលដែលបើកលក្ខណៈពិសេសនេះ អ្នកគួរតែទទួលបានបម្រាមគ្រោះថា្នក់នៃប្រព័ន្ធ សូមប៉ះ​ \"OK\" ដើម្បីបើកការប្ដូរមធ្យោបាយងាយស្រួលទៅ \"ON\"។
-ដម្បីធានាថា APKPure ដំណើរការល្អ សូមបន្ថែម APKPure​ ទៅកាន់កម្មវិធីសម្អាត \"White List\"។
-
-មុខងារដែលបានរៀបរាប់ខាងលើគាំទ្រ Android 4.1+, ដោយមិនត្រូវការឬស។ ពួកយើងសូមសន្យាថាមិនប្រមូលយករាល់ព័ត៌មានបញ្ជាក់ឌត្តសញ្ញាណរបស់អ្នក ក្នុងផ្នែកសេវាកម្មងាយស្រួលនេះទេ។ សូមធ្វើការទំនាក់ទំនងពួកយើងដោយស៊េរី ជាមួយបញ្ហាទាំងនោះ។with any problems.</string>
-    <string name="app_detail_comment_type_web">វែប</string>
-    <string name="app_submit_submit">ប្រដាស…</string>
-    <string name="app_submit_anonymous_comment">បន្ថែមមតិមួយ</string>
-    <string name="app_submit_title_toast">អ្នកគួរតែសរសេរចំនងជើងសិន!</string>
-    <string name="app_submit_msg_toast">អ្នកគួរតែសរសេរអ្វីមួយសិន!</string>
-    <string name="app_submit_name_toast">សូមបំពេញឈ្មោះហៅក្រៅ!</string>
-    <string name="app_submit_email_toast">សូមបំពេញអាសយដ្ឋានអ៊ីម៉ែលត្រឹមត្រូវ!</string>
-    <string name="app_submit_star_toast">អ្នកគួរតែដាក់ស្នើផ្កាយ!</string>
-    <string name="app_submit_title_hint">សូមសរសេរចំនងជើង</string>
-    <string name="app_submit_msg_hint">សូមសរសេរគំនិតរបស់អ្នក</string>
+    <string name="_name__installation_completed">
+        <xliff:g example="APKPure" id="name">%1$s</xliff:g> ដំឡើងបានសម្រេច</string>
+    <string name="auto_service_description">"បើក \"កម្មវិធីដំឡើងស្វ័យប្រវត្តិ APKPure\" ដើម្បីទុកឲ្យ \"ការតម្លើងស្វ័យប្រវត្តិ\" APKPure  ដំណើរការដោយរលូន។
+\n
+\n\"កម្មវិធីដំឡើងស្វ័យប្រវត្តិ APKPure \" អាចសន្សំសំចៃពេលវេលារបស់អ្នកលើការចុចប៊ូតុងដំឡើង នៅពេលដំឡើង ឬធ្វើបច្ចុប្បន្នភាព Apk។ ហើយអ្នកមិនចាំបាច់ឆែកទូរស័ព្ទរបស់អ្នកគ្រប់ពេលឡើយ។
+\n
+\nនៅពេលបើកលក្ខណៈពិសេសនេះ អ្នកគួរតែទទួលបានបំរាមគ្រោះថា្នក់ពីប្រព័ន្ធ។ សូមប៉ះ​ \"OK\" ដើម្បីបើកការប្ដូរមធ្យោបាយងាយស្រួលទៅ \"ON\"។
+\n
+\nដើម្បីធានាថា APKPure ដំណើរការល្អ សូមបន្ថែម APKPure​ ទៅកាន់កម្មវិធីកម្ចាត់ \"បញ្ជីស\"។
+\n
+\nមុខងារដែលបានរៀបរាប់ខាងលើ គាំទ្រប្រព័ន្ធប្រតិបត្តិការ Android 4.1 និងខ្ពស់ជាងនេះ។  មិនត្រូវការសិទ្ធដំណើរការឡើយ។ យើងសន្យានឹងមិនប្រមូលយកនូវរាល់ពត៌មានឯកជនរបស់អ្នកឡើយ ក្នុងសេវាកម្មភាពងាយស្រួលនេះទេ។ សូមមានអារម្មណ៍រីករាយ ក្នុងការទាក់ទងមកយើងសម្រាប់បញ្ហាណាមួយ។"</string>
+    <string name="app_detail_comment_type_web">គេហទំព័រ</string>
+    <string name="app_submit_submit">កំពុងដាក់ស្នើ…</string>
+    <string name="app_submit_anonymous_comment">បន្ថែមមតិ</string>
+    <string name="app_submit_title_toast">សូមបញ្ចូលចំណងជើង!</string>
+    <string name="app_submit_msg_toast">សូមសរសេរអ្វីមួយសិន!</string>
+    <string name="app_submit_name_toast">សូមបញ្ចូលឈ្មោះហៅក្រៅរបស់អ្នក!</string>
+    <string name="app_submit_email_toast">សូមបញ្ចូលអាសយដ្ឋានអ៊ីមែលត្រឹមត្រូវ!</string>
+    <string name="app_submit_star_toast">សូមដាក់ចំណាត់ថ្នាក់របស់អ្នក!</string>
+    <string name="app_submit_title_hint">សូមបញ្ចូលចំនងជើង!</string>
+    <string name="app_submit_msg_hint">សូមបញ្ចូលមាតិការបស់អ្នក!</string>
     <string name="app_submit_nickname">ឈ្មោះហៅក្រៅ</string>
     <string name="app_submit_email">អ៊ីម៉ែល</string>
     <string name="app_submit_submit_title">ប្រកាស​</string>
@@ -241,10 +239,10 @@
     <string name="app_detail_comment_order_array_most_recent">ពេញនិយមបំផុត</string>
     <string name="app_detail_comment_order_array_new">ថ្មីបំផុត</string>
     <string name="app_detail_comment_order_array_best">ល្អបំផុត</string>
-    <string name="download_complete_installation_setting">ជម្រើសការតម្លើង បន្ទាប់ពីការទាញយក</string>
-    <string name="download_complete_installation_setting_entries_always">តម្លើងរហូត</string>
-    <string name="download_complete_installation_setting_entries_only">តម្លើងតែ នៅពេលកម្មវិធីនៅពីមុខប៉ុណ្ណោះ</string>
-    <string name="download_complete_installation_setting_entries_never">មិនដែលតម្លើង</string>
+    <string name="download_complete_installation_setting">ជម្រើសដំឡើង បន្ទាប់ពីការទាញយក</string>
+    <string name="download_complete_installation_setting_entries_always">ដំឡើងរហូត</string>
+    <string name="download_complete_installation_setting_entries_only">ដំឡើងតែ នៅពេលដំណើរការក្នុងផ្ទៃខាងមុខ</string>
+    <string name="download_complete_installation_setting_entries_never">មិនដែលដំឡើង</string>
     <string name="reply">ឆ្លើយតប</string>
     <string name="publish">ប្រកាស</string>
     <string name="reply_comment">ឆ្លើយតបទៅមតិ</string>
@@ -293,7 +291,7 @@
     <string name="invalid_app_detail">ពត៌មានលម្អិតកម្មវិធីមិនត្រឹមត្រូវ។</string>
     <string name="delete_packages_after_installation">លុបកញ្ចប់ក្រោយពេលតម្លើង</string>
     <plurals name="app_detail_see_all_replies">
-        <item quantity="other">មើល <xliff:g example="1" id="count">%1$d</xliff:g> ឆ្លើយតបទាំងអស់</item>
+        <item quantity="other">មើលការឆ្លើយតបទាំង <xliff:g example="2" id="count">%1$d</xliff:g> នេះ</item>
     </plurals>
     <string name="app_detail_customer_reviews">មតិ</string>
     <string name="extracting_apk">កំពុងស្រាយកញ្ចប់ឯកសារ APK…</string>
@@ -310,18 +308,18 @@
     <string name="sub_comment_dialog_link_null">អាស័យដ្ឋាន URL វីដេអូមិនអាចទទេរឡើយ</string>
     <string name="external_storage_permission_denied">
         <big>
-            <b>ពួកយើងត្រូវការចូលដំណើរការឃ្លាំងផ្ទុកខាងក្រៅ។ សូមប្រាកដថាការផ្ដល់សិទ្ធិគឺមិនត្រូវបានបដិសេច។</b>
+            <b>យើងត្រូវការដំណើរការឃ្លាំងផ្ទុកខាងក្រៅរបស់អ្នក។ សូមប្រាកដថាការអនុញ្ញាតត្រូវបានផ្តល់ជូន។</b>
         </big>
     </string>
-    <string name="check_update_replace">ជំនាន់ផ្លូវការ</string>
+    <string name="check_update_replace">កំណែផ្លូវការ</string>
     <string name="check_update_beta">ត្រៀមបញ្ចេញសាកល្បង</string>
     <string name="trending_searches">ការនិយមស្វែងរក</string>
     <string name="failed_to_request_app_detail">បានបរាជ័យក្នុងការស្នើសុំ ពត៌មានលម្អិតនៃកម្មវិធី។</string>
     <string name="show_notification_after_installation">បង្ហាញការជូនដំណឹង បន្ទាប់ពីការតម្លើង</string>
-    <string name="auto_service_dialog_message">តម្លើងស្វ័យប្រវត្តិ ស្នើសុំអ្នកឲ្យផ្ទៀងផ្ទាត់លើទូរស័ព្ទ វាពិតជាសុវត្ថិភាព ក្នុងការប្រើដោយគ្មានហានិភ៏យ។</string>
-    <string name="app_detail_comment_order_array_old">ចាស់</string>
+    <string name="auto_service_dialog_message">ការដំឡើងស្វ័យប្រវត្តិ ទាមទារការអនុញ្ញាតពីអ្នក។ ១០០% គឺសុវត្ថិភាព ។</string>
+    <string name="app_detail_comment_order_array_old">ចាស់បំផុត</string>
     <string name="app_detail_comment_join_group_bt">ក្រុម</string>
-    <string name="input_reply_content">ការបញ្ចូលមាតិការ នៃការឆ្លើយតប៖</string>
+    <string name="input_reply_content">សូមបញ្ចូលការឆ្លើយតបរបស់អ្នក៖</string>
     <string name="login_select_way_to_login">សូមជ្រើសរើស វិធីចូលទៅកាន់គណនី</string>
     <string name="update_nickname_error">ឈ្មោះហៅក្រៅរបស់អ្នក មានគេប្រើរួចហើយ សូមជ្រើសរើសមួយផ្សេងទៀត!</string>
     <string name="message_notifications_reply">ដែលបានឆ្លើយតបមតិអ្នក</string>
@@ -367,8 +365,8 @@
     <string name="crop__pick_error">ប្រភេទឯកសាររូបភាពមិនត្រឹមត្រូវ</string>
     <string name="is_comment">មតិ គឺជា…</string>
     <string name="null_time">0:00</string>
-    <string name="participate_ultra_download_beta_test_content">Ultra Download គឺកំពុងស្ថិតនៅក្នុងការសាកល្បង សូមឲ្យពួកយើងដឹងប្រសិនជាអ្នកបានជួបប្រទះបញ្ហាផ្សេងៗ។ អ្នកអាចបិទវាដោយងាយស្រួលនៅក្រោមការកំណត់។</string>
-    <string name="enable_ultra_download_summary">Ultra Download គឺកំពុងស្ថិតនៅក្នុងការសាកល្បង សូមឲ្យពួកយើងដឹងប្រសិនជាអ្នកបានជួបប្រទះបញ្ហាផ្សេងៗ។</string>
+    <string name="participate_ultra_download_beta_test_content">ការទាញយកកម្លាំងខ្លាំង គឺកំពុងតែសាកល្បង។ សូមឲ្យពួកយើងដឹងប្រសិនជាអ្នកបានជួបប្រទះបញ្ហាផ្សេងៗ។ អ្នកអាចបិទវាដោយងាយស្រួលនៅក្នុងការកំណត់។</string>
+    <string name="enable_ultra_download_summary">ការទាញយកកម្លាំងខ្លាំង គឺកំពុងតែសាកល្បង។ សូមឲ្យពួកយើងដឹងប្រសិនជាអ្នកបានជួបប្រទះបញ្ហាផ្សេងៗ។</string>
     <string name="zxing_msg_parser_status">ការស្កេន បានបរាជ័យ សូមព្យាយាមស្កេន QR code ម្ដងទៀត។</string>
     <string name="tip_permission_camera_storage">គ្មានសិទ្ធអនុញ្ញាតក្នុងការប្រើម៉ាស៊ីនថត និងកាតអេសឌីឡើយ សូមបើកការគ្រប់គ្រងសិទ្ធិសិន</string>
     <string name="update_pwd_new_pwd_null_tv">ពាក្យសម្ងាត់ថ្មី មិនអាចទទេឡើយ</string>
@@ -480,8 +478,8 @@
     <string name="topic_red_color">ពណ៌Crimson</string>
     <string name="set_updates_notification_msg">រំលឹកនៅពេលមានបច្ចុប្បន្នកម្មវិធីអាចប្រលប្រាស់បាន។ សូមណែនាំការកំណត់៖ បើក</string>
     <string name="zxing_msg_default_status">សូមដាក់​ QR code នៅខាងក្នុងប្រអប់ពិនិត្យរក ដើម្បីស្កេនវា។</string>
-    <string name="improvement_plan_message">ជួយពួកយើងជាមួយការបញ្ជូននូវព័ត៌មានឧបករណ៍ Android​ ពួកយើង <b>​មិនធ្វើការប្រមូលយក</b>​ នូវព័ត៌មានបញ្ជាក់អត្តសញ្ញាណផ្ទាល់ខ្លួន​ (ឈ្មោះ, អាស័យដ្ឋាន, អាស័យដ្ឋានអ៊ីម៉ែល, លេខសន្តិសុខនៃបណ្ដាញសង្គម ឬឯកសារបញ្ជាក់អត្តសញ្ញាណផ្សេងៗ)។</string>
-    <string name="improvement_plan_title">គម្រោងកែលម្អប្រព័ន្ធដំណើរការ</string>
+    <string name="improvement_plan_message">សូមជួយយើងធ្វើឱ្យបទពិសោធន៍របស់អ្នកប្រសើរជាងមុន ដោយបញ្ជូនព័ត៌មានឧបករណ៍ Android របស់អ្នក។ យើងសន្យា<b>​មិន</b>​ ប្រមូលយកនូវព័ត៌មានបញ្ជាក់អត្តសញ្ញាណផ្ទាល់ខ្លួន​ (ឈ្មោះ, អាស័យដ្ឋាន, អាស័យដ្ឋានអ៊ីម៉ែល, លេខសន្តិសុខនៃបណ្ដាញសង្គម ឬឯកសារបញ្ជាក់អត្តសញ្ញាណផ្សេងៗ)។</string>
+    <string name="improvement_plan_title">គម្រោងពង្រឹងបទពិសោធន៍អ្នកប្រើប្រាស់</string>
     <string name="invalid_app_asset">ព័ត៌មានធនធានកម្មវិធីមិនត្រឹមត្រូវឡើយ។</string>
     <string name="failed_to_request_app_asset">បរាជ័យក្នុងការស្នើសុំព័ត៌មានធនធានកម្មវិធី។</string>
     <string name="reply_dialog_marked_words">ចុចលើរូបភាពដែលជ្រើសយកឲ្យយួរ ដើម្បីលុបវា។</string>
@@ -500,10 +498,10 @@
     <string name="user_focus_tab_users">មនុស្ស</string>
     <string name="user_focus_tab_apps">ក្រុម</string>
     <string name="download_mkdir_internal_storage_size_des">%1$s នៅសល់,​ សរុប %2$s</string>
-    <string name="download_mkdir_internal_storage_entries">អេសឌី</string>
+    <string name="download_mkdir_internal_storage_entries">SD</string>
     <string name="download_mkdir_internal_storage_entries1">SD 1</string>
-    <string name="download_mkdir_external_storage_fill_toast">ឃ្លាំងផ្ទុកដែលអាចប្រើបានមិនគ្រប់គ្រាន់ អាចបណា្ខលឱ្យអ្នកមិនអាចទាញយកគ្រប់កម្មវិធី។</string>
-    <string name="download_mkdir_internal_storage_values">ឃ្លាំងផ្ទុកខាងក្នុង</string>
+    <string name="download_mkdir_external_storage_fill_toast">ទំហំផ្ទុកមិនគ្រប់គ្រាន់ មិនអាចទាញយកកម្មវិធីឡើយ។</string>
+    <string name="download_mkdir_internal_storage_values">internal_storage</string>
     <string name="download_mkdir_external_storage_values">ឃ្លាំងផ្ទុកខាងក្រៅ</string>
     <string name="recommend_not_fount_info">ការផ្ដល់ដំណឹង APKPure ដើម្បីបន្ថែម \"%1$s\" អ្នកត្រូវការទៅបញ្ចប់សំណុំបែបបទសិន។</string>
     <string name="user_focus_title">តាមដានដោយ %1$s</string>
@@ -615,16 +613,16 @@
     <string name="tab_popular">ពេញនិយម</string>
     <string name="properties_message_v2">&lt;b&gt;ឈ្មោះ​កញ្ចប់​:&lt;/b&gt; %1$s&lt;br&gt;&lt;b&gt;កំណែ:&lt;/b&gt; %2$s&lt;br&gt;&lt;b&gt;ផ្លូវកាត់:&lt;/b&gt; %3$s&lt;br&gt;&lt;b&gt;ទំហំ:&lt;/b&gt; %4$s&lt;br&gt;&lt;b&gt;កែសម្រួលចុងក្រោយ:&lt;/b&gt; %5$s</string>
     <string name="app_detail_tab_evaluation">ពិនិត្យមើល​</string>
-    <string name="app_detail_comment_filter_sort_score">ការវាយតម្លៃកំពូល</string>
+    <string name="app_detail_comment_filter_sort_score">កម្រិតកំពូល</string>
     <string name="app_detail_comment_filter_all">ការពិនិត្យ​មើល​ទាំងអស់​</string>
-    <string name="app_detail_comment_filter_version">កំណែ​ចុង​ក្រោយ​</string>
-    <string name="app_detail_comment_score_less">ការ​វាយ​តម្លៃ​របស់​អ្នក​ប្រើថ្មីៗ​</string>
-    <string name="app_detail_comment_no_data">គ្មាន​ការ​វាយតម្លៃ​របស់​អ្នក​ប្រើរក​ឃើញ​ បន្ថែម​ការ​វាយតម្លៃ​របស់​អ្នក​ឥលូវ​នេះ</string>
+    <string name="app_detail_comment_filter_version">កំណែចុងក្រោយ</string>
+    <string name="app_detail_comment_score_less">ការវាយតម្លៃនៃអ្នកប្រើតិចពេក។</string>
+    <string name="app_detail_comment_no_data">មិនទាន់មានការវាយតម្លៃពីអ្នកប្រើប្រាស់។ សរសេរវាយតម្លៃឥឡូវនេះ។</string>
     <string name="app_detail_comment_score_footer">ទាំង​នេះ​ជា​ការ​ពិនិត្យមើល %1$s ក្នុង​ភាសា​ផ្សេង​ៗ​។</string>
-    <string name="app_detail_evaluation_tool_bar_title">ចែករំលែក​ការ​ពិនិត្យមើល​</string>
+    <string name="app_detail_evaluation_tool_bar_title">សរសេការវាយតម្លៃ</string>
     <string name="app_detail_evaluation_failed_bt">ការពិនិត្យ​មើល​</string>
-    <string name="app_detail_comment_order_array_good">4-5</string>
-    <string name="app_detail_comment_order_array_bad">1-3</string>
+    <string name="app_detail_comment_order_array_good">៤៎-៥</string>
+    <string name="app_detail_comment_order_array_bad">១-៣</string>
     <string name="message_notify">ការ​ជូន​ដំណឹង​</string>
     <string name="menu_copy_link">ចម្លង​តំណ</string>
     <string name="web_view_copy">ចម្លង​តំណ</string>
@@ -649,4 +647,9 @@
     <string name="un_bind">មិនបានភ្ជាប់</string>
     <string name="login_out_message_hint">តើអ្នកពិតជាចង់ចេញក្រៅមែនទេ?</string>
     <string name="bind_email_title">ភ្ជាប់អ៊ីម៉ែលរបស់អ្នក</string>
+    <string name="app_detail_discuss_filter_folded">បានបញ្ឈប់</string>
+    <string name="app_detail_discuss_filter_featured">ផ្នែកសំខាន់</string>
+    <string name="app_detail_folded_footer_posts">មើលការប្រកាសទាំង %d</string>
+    <string name="app_detail_folded_footer_reviews">មើលវាយតម្លៃទាំង %d</string>
+    <string name="auto_service_directly__material_">ដំឡើងដោយផ្ទាល់</string>
 </resources>
