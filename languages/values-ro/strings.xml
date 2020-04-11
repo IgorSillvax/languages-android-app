@@ -1,72 +1,65 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2"><string name="action_settings">Setări</string>
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="action_settings">Setări</string>
     <string name="action_search">"Căutare "</string>
     <string name="action_management">Administrează</string>
-
-    <string name="press_back_key_quit">Apasă tasta Înapoi încă odată pentru a ieși.</string>
-
+    <string name="press_back_key_quit">Pentru ieșire, apăsați tasta înapoi încă o dată.</string>
     <string name="featured">Recomandate</string>
     <string name="recommend">Descoperă</string>
     <string name="games">Jocuri</string>
     <string name="apps">Aplicații</string>
     <string name="categories">Categorii</string>
     <string name="updates">Actualizări</string>
-
     <string name="something_happened">&gt;_&lt;
 \nCeva nu a mers cum trebuie.</string>
     <string name="load_failed_error">Oops! S-a detectat o eroare.</string>
-    <string name="load_failed_error_not_found">Aplicația nu este listată în Magazinul APKPure !</string>
+    <string name="load_failed_error_not_found">Aplicația nu se află în Magazinul APKPure !</string>
     <string name="load_failed_empty">Nu este nimic aici.</string>
     <string name="load_failed_all_up_to_date">Toate aplicațiile sunt actualizate.</string>
     <string name="load_failed_no_results">Ne pare rău ! Fără rezultat.</string>
     <string name="refresh">Reîmprospătare</string>
-
     <string name="management">Administrare</string>
     <string name="app_updates">Actualizări pentru aplicații</string>
     <string name="app_management">Instalate</string>
-    <string name="app_uninstall">Dezinstalare aplicații</string>
+    <string name="app_uninstall">Dezinstalare aplicație</string>
     <string name="apk_management">Administrare APK</string>
     <string name="apk_xapk_management">Administrare APK / XAPK</string>
     <string name="download_management">Administrează descărcările</string>
     <string name="settings">Setări</string>
     <string name="about">Despre</string>
-
-
     <string name="about_title">"Despre  "<xliff:g example="APKPure" id="app_name">1%1$s</xliff:g>2</string>
-    <string name="check_update">Verifică actualizările</string>
+    <string name="check_update">Verificați pentru actualizări</string>
     <string name="check_update_replace">Versiune oficială</string>
     <string name="check_update_beta">Pre-lansare Beta</string>
     <string name="beta">Beta</string>
     <string name="quit">Ieșire</string>
     <string name="want_to_quit">Sigur vrei să ieși?</string>
-
     <string name="install">Instalează</string>
     <string name="open">Deschide</string>
     <string name="delete">Șterge</string>
     <string name="delete_all">Șterge Tot</string>
     <string name="properties">Propietăți</string>
-    <string name="want_to_delete_file">Dorești să ștergi acest fișier?</string>
-    <string name="want_to_delete_all_files">Dorești să ștergi toate fișierele ?</string>
+    <string name="want_to_delete_file">Ești sigur că dorești ștergerea acestui fișier\?</string>
+    <string name="want_to_delete_all_files">Ești sigur că dorești ștergerea tuturor fișierelor\?</string>
     <string name="file_has_been_deleted">Fișierul a fost șters.</string>
     <string name="about_message">&lt;b&gt;Versiune:&lt;/b&gt; %1$s&lt;br&gt;&lt;br&gt;&lt;b&gt;Website:&lt;/b&gt; &lt;a href=%2$s&gt;%2$s&lt;/a&gt;&lt;br&gt;&lt;b&gt;Email:&lt;/b&gt; &lt;a href=mailto:%3$s&gt;%3$s&lt;/a&gt;</string>
     <string name="properties_message">&lt;b&gt;Cale:&lt;/b&gt; %1$s&lt;br&gt;&lt;b&gt;Dimensiune:&lt;/b&gt; %2$s&lt;br&gt;&lt;b&gt;Ultima modificare:&lt;/b&gt; %3$s</string>
     <string name="properties_message_v2">&lt;b&gt;Numele pachetului:&lt;/b&gt; %1$s&lt;br&gt;&lt;b&gt;Versiune:&lt;/b&gt; %2$s&lt;br&gt;&lt;b&gt;Cale:&lt;/b&gt; %3$s&lt;br&gt;&lt;b&gt;Dimensiune:&lt;/b&gt; %4$s&lt;br&gt;&lt;b&gt;Ultima modificare:&lt;/b&gt; %5$s</string>
     <string name="failed_to_delete_file">Încercare eșuată de a șterge fișierul.</string>
-    <string name="install__label_">Instalează - <xliff:g example="APKPure" id="app_label">%1$s</xliff:g></string>
+    <string name="install__label_">Instalează - <xliff:g example="APKPure" id="app_label">%1$s</xliff:g>
+    </string>
     <string name="user_canceled">Utilizator anulat.</string>
-    <string name="io_error">Eroare IO. Poate că nu este suficient spatiu pentru ca instalarea să se termine.</string>
+    <string name="io_error">Eroare IO. Nu există destul spațiu disponibil pentru instalare.</string>
     <string name="file_format_error">Eroare a extensiei fișierului.</string>
     <string name="parsing_xapk">Analizare XAPK …</string>
     <string name="installing_obb">Instalare fisiere OBB …</string>
     <string name="extracting_apk">Extragere fisiere APK …</string>
     <string name="installing_apk">Instalare APK …</string>
-
     <string name="uninstall">Dezinstalare</string>
     <string name="uninstalled">Dezinstalat</string>
-    <string name="last_update__date_">Ultima actualizare: <xliff:g id="date">%1$s</xliff:g></string>
-
+    <string name="last_update__date_">Ultima actualizare: <xliff:g id="date">%1$s</xliff:g>
+    </string>
     <string name="all">Tot</string>
-
     <string name="screenshots">Capturi de ecran</string>
     <string name="description">Descriere</string>
     <string name="whatsnew">Noutăți</string>
@@ -77,7 +70,7 @@
     <string name="permissions_">Permisiune:</string>
     <string name="type_">Tip:</string>
     <string name="category_">Categorie:</string>
-    <string name="more">mai multe</string>
+    <string name="more">Mai mult</string>
     <string name="permissions">Permisiuni</string>
     <string name="other">Altele</string>
     <string name="similar_or_related">Similar sau asemănător</string>
@@ -89,38 +82,41 @@
     <string name="flag_as_inappropriate">Semnalați drept nepotrivit</string>
     <string name="_ellipsis_"> ...</string>
     <string name="history_version">Istoricul versiunilor</string>
-
     <string name="market_response_error_success">Succes.</string>
     <string name="market_response_error_invalid_result">Rezultat invalid.</string>
-    <string name="market_response_error_network_connect_error">Eroare de conectare.</string>
+    <string name="market_response_error_network_connect_error">Eroare de conectare la internet.</string>
     <string name="market_response_error_network_read_error">Eroare de citire a rețelei.</string>
     <string name="market_response_error_invalid_response_code">Cod de răspuns invalid.</string>
     <string name="market_response_error_invalid_response_body">Corp invalid de răspuns.</string>
     <string name="market_response_error_unknown_error__error_">Eroare necunoscuta (<xliff:g example="SUCCESS" id="error">%1$s</xliff:g>).</string>
-
     <string name="no_more">Doar atâtea.</string>
-
     <string name="update">Actualizare</string>
-    <string name="version__version___size_">Versiune: <xliff:g example="1.0.0" id="version">%1$s</xliff:g>, <xliff:g example="1024 kB" id="size">%2$s</xliff:g></string>
+    <string name="version__version___size_">Versiune: <xliff:g example="1.0.0" id="version">%1$s</xliff:g>, <xliff:g example="1024 kB" id="size">%2$s</xliff:g>
+    </string>
     <plurals name="_count__new_update_is_available">
-	<item quantity="one"><xliff:g example="1" id="count">%1$d</xliff:g> actualizare nouă disponibilă</item>
-	<item quantity="few"><xliff:g example="2" id="count">%1$d</xliff:g> actualizări noi disponibile</item>
-	<item quantity="other"><xliff:g example="2" id="count">%1$d</xliff:g> actualizări noi disponibile</item>
-</plurals>
-
-    <string name="launching_please_wait">Lansare, vă rog așteptați…</string>
-
+        <item quantity="one">
+            <xliff:g example="1" id="count">%1$d</xliff:g> actualizare nouă disponibilă</item>
+        <item quantity="few">
+            <xliff:g example="2" id="count">%1$d</xliff:g> actualizări noi disponibile</item>
+        <item quantity="other">
+            <xliff:g example="2" id="count">%1$d</xliff:g> actualizări noi disponibile</item>
+    </plurals>
+    <string name="launching_please_wait">Lansare... Vă rugăm așteptați.</string>
     <plurals name="_count__item_is_downloading">
-	<item quantity="one"><xliff:g example="1" id="count">%1$d</xliff:g> fișier se descarcă</item>
-	<item quantity="few"><xliff:g example="2" id="count">%1$d</xliff:g> fișiere se descarcă</item>
-	<item quantity="other"><xliff:g example="2" id="count">%1$d</xliff:g> fișiere se descarcă</item>
-</plurals>
-    <string name="downloads_complete">Descărcări complete</string>
-    <string name="touch_for_view_all_downloads">Atingeți pentru a vizualiza descărcările</string>
-    <string name="_name__download_failed"><xliff:g example="APKPure" id="name">%1$s</xliff:g> descarcare nereușită</string>
-    <string name="touch_to_download_it_again">Atingeți pentru a-l descărca din nou</string>
-
-    <string name="download_percent"><xliff:g example="50" id="percent">%1$d</xliff:g> %%</string>
+        <item quantity="one">
+            <xliff:g example="1" id="count">%1$d</xliff:g> fișier se descarcă</item>
+        <item quantity="few">
+            <xliff:g example="2" id="count">%1$d</xliff:g> fișiere se descarcă</item>
+        <item quantity="other">
+            <xliff:g example="2" id="count">%1$d</xliff:g> fișiere se descarcă</item>
+    </plurals>
+    <string name="downloads_complete">Toate descărcările sunt terminate</string>
+    <string name="touch_for_view_all_downloads">Atingeți pentru a vizualiza toate descărcările</string>
+    <string name="_name__download_failed">
+        <xliff:g example="APKPure" id="name">%1$s</xliff:g> descarcare nereușită</string>
+    <string name="touch_to_download_it_again">Atingeți pentru reînceperea descărcării</string>
+    <string name="download_percent">
+        <xliff:g example="50" id="percent">%1$d</xliff:g> %%</string>
     <string name="pause">Pauză</string>
     <string name="pause_all">Pauză pentru toate</string>
     <string name="continue_">Continuă</string>
@@ -142,31 +138,27 @@
     <string name="detail">Detalii</string>
     <string name="remove">Elimină</string>
     <string name="remove_all">Elimină toate</string>
-    <string name="want_to_remove_download_item">Vrei să ștergi această descărcare?</string>
-    <string name="want_to_remove_all_download_items">Vrei să ștergi toate descărcările?</string>
+    <string name="want_to_remove_download_item">Ești sigur că dorești înlăturarea acestui fișier\?</string>
+    <string name="want_to_remove_all_download_items">Sunteți sigur că doriți ștergerea tuturor fișierelor\?</string>
     <string name="delete_downloaded_file">Șterge fișierul descărcat</string>
     <string name="download_over_cellular">Descarcă prin date mobile</string>
-    <string name="download_over_cellular_content">Ești pe cale să descărcarci prin date mobile. Continuați?</string>
-
+    <string name="download_over_cellular_content">Sunteți pe cale să descărcați peste limita dvs de date mobile. Continuați\?</string>
     <string name="search">Căutare</string>
     <string name="search_for_apps">Căutare APKPure</string>
     <string name="trending_searches">Căutări frecvente</string>
     <string name="search_history">Istorie</string>
     <string name="clear_search_history">Șterge tot istoricul</string>
-
-    <string name="improvement_plan_title">Plan de îmbunătățire a performanțelor</string>
+    <string name="improvement_plan_title">Plan de îmbunătățire a experiențelor utilizatorului</string>
     <string name="improvement_plan_message">Ajutați-ne prin distribuirea informațiilor despre dispozitivul dumneavoastră, noi <b>nu colectăm</b> date personale (nume, adresă, adresă email, numar de securitate socială, alți identificatori unici).</string>
     <string name="join_us">Alăturate nouă</string>
     <string name="skip">Sări</string>
-
     <string name="participate_ultra_download_beta_test_title">Permite Ultra Descărcarea și bucură-te de viteză mai mare</string>
     <string name="participate_ultra_download_beta_test_content">Ultra Descărcarea este in testare beta, spune-ține dacă aveți probleme. O puteți dezactiva ușor în Setări.</string>
     <string name="enable">Permite</string>
-
-    <string name="_name__is_up_to_date"><xliff:g example="APKPure" id="name">%1$s</xliff:g> este actualizat.</string>
+    <string name="_name__is_up_to_date">
+        <xliff:g example="APKPure" id="name">%1$s</xliff:g> este actualizat.</string>
     <string name="new_version_available_title">Nouă versiune disponibilă</string>
     <string name="new_version_available_message">&lt;b&gt;Ultima Versiune:&lt;/b&gt; %1$s&lt;br&gt;&lt;br&gt;&lt;b&gt;Ce este nou:&lt;/b&gt;&lt;br&gt;%2$s</string>
-
     <string name="report">Raportează</string>
     <string name="report__">Raportează…</string>
     <string name="report_problem__">Raportează problema…</string>
@@ -180,7 +172,6 @@
     <string name="contact_us">Contactați-ne</string>
     <string name="report_content">Raportează conținutul</string>
     <string name="feedback">Feedback</string>
-
     <string name="installation_failed">Instalare nereușită</string>
     <string name="invalid_app_detail">Informațiile aplicației invalide.</string>
     <string name="invalid_app_asset">Informațiile aplicației invalide.</string>
@@ -188,19 +179,28 @@
     <string name="failed_to_request_app_asset">Nu s-a reușit cererea informațiilor aplicației.</string>
     <string name="incompatible_this_app">&lt;big&gt;&lt;b&gt;&lt;font color=%1$d&gt;Dispozitivul dumneavoastră nu este compatibil cu aplicația.&lt;/font&gt;&lt;/b&gt;&lt;/big&gt;&lt;br&gt;&lt;br&gt;Vreți să continuați?</string>
     <string name="this_app_not_usable">&lt;big&gt;&lt;b&gt;&lt;font color=%1$d&gt;Această aplicație poate fi instabilă.&lt;/font&gt;&lt;/b&gt;&lt;/big&gt;&lt;br&gt;&lt;br&gt;Vreți să continuați?</string>
-
     <string name="setting">Setări</string>
-    <string name="external_storage_not_usable"><big><b>Avem nevoie de acces la memoria externă. Vă rog asigurați-vă că se poate folosi.</b></big></string>
-    <string name="external_storage_permission_denied"><big><b>Avem nevoie de acces la memoria externă. Vă rog asigurați-vă că permisiunea este activă.</b></big></string>
-
+    <string name="external_storage_not_usable">
+        <big>
+            <b>Avem nevoie de acces la memoria externă. Vă rog asigurați-vă că se poate folosi.</b>
+        </big>
+    </string>
+    <string name="external_storage_permission_denied">
+        <big>
+            <b>Avem nevoie de acces la memoria externă. Vă rog asigurați-vă că permisiunea este activă.</b>
+        </big>
+    </string>
     <string name="share">Distribuie</string>
-    <string name="share_app_url"> Distribuie <xliff:g example="APKPure" id="app_name">%1$s</xliff:g> APK (din <xliff:g example="APKPure" id="social_network_name">%2$s</xliff:g>) <xliff:g example="https://apkpure.com/p/com.apkpure.aegon" id="app_url">%3$s</xliff:g> </string>
-    <string name="share_app_url_comment"> Comentariul lui <xliff:g example="APKPure" id="user_name">%1$s</xliff:g> la <xliff:g example="APKPure" id="app_name">%2$s</xliff:g> : <xliff:g example="APKPure" id="app_name">%3$s</xliff:g> (din <xliff:g example="APKPure" id="social_network_name">%4$s</xliff:g>) <xliff:g example="https://apkpure.com/p/com.apkpure.aegon" id="app_url">%5$s</xliff:g> </string>
-    <string name="share_app_url_group"> Grupul <xliff:g example="APKPure" id="app_name">%1$s</xliff:g>. (din <xliff:g example="APKPure" id="social_network_name">%2$s</xliff:g>) <xliff:g example="https://apkpure.com/p/com.apkpure.aegon" id="app_url">%3$s</xliff:g> </string>
-
-    <string name="_name__version_history"><xliff:g example="APKPure" id="name">%1$s</xliff:g> Versiunea istoriei</string>
-    <string name="update__date___size_">Actualizare: <xliff:g example="Mar 3, 2016" id="date">%1$s</xliff:g>, <xliff:g example="1024 kB" id="size">%2$s</xliff:g></string>
-
+    <string name="share_app_url"> Distribuie <xliff:g example="APKPure" id="app_name">%1$s</xliff:g> APK (din <xliff:g example="APKPure" id="social_network_name">%2$s</xliff:g>) <xliff:g example="https://apkpure.com/p/com.apkpure.aegon" id="app_url">%3$s</xliff:g>
+    </string>
+    <string name="share_app_url_comment"> Comentariul lui <xliff:g example="APKPure" id="user_name">%1$s</xliff:g> la <xliff:g example="APKPure" id="app_name">%2$s</xliff:g> : <xliff:g example="APKPure" id="app_name">%3$s</xliff:g> (din <xliff:g example="APKPure" id="social_network_name">%4$s</xliff:g>) <xliff:g example="https://apkpure.com/p/com.apkpure.aegon" id="app_url">%5$s</xliff:g>
+    </string>
+    <string name="share_app_url_group"> Grupul <xliff:g example="APKPure" id="app_name">%1$s</xliff:g>. (din <xliff:g example="APKPure" id="social_network_name">%2$s</xliff:g>) <xliff:g example="https://apkpure.com/p/com.apkpure.aegon" id="app_url">%3$s</xliff:g>
+    </string>
+    <string name="_name__version_history">
+        <xliff:g example="APKPure" id="name">%1$s</xliff:g> Versiunea istoriei</string>
+    <string name="update__date___size_">Actualizare: <xliff:g example="Mar 3, 2016" id="date">%1$s</xliff:g>, <xliff:g example="1024 kB" id="size">%2$s</xliff:g>
+    </string>
     <string name="update_all">Actualizați toate</string>
     <string name="update___count__">(<xliff:g example="3" id="count">%1$d</xliff:g>) actualizări</string>
     <string name="ignore">Ignoranți</string>
@@ -211,12 +211,11 @@
     <string name="deselect_all">Deselectați tot</string>
     <string name="ignored">Ignorate</string>
     <plurals name="total__count__apps__size_">
-	<item quantity="one">Total: &lt;b&gt;&lt;font color=%1$d&gt;%2$d&lt;/font&gt;&lt;/b&gt; app, &lt;b&gt;&lt;font color=%1$d&gt;%3$s&lt;/font&gt;&lt;/b&gt;</item>
-	<item quantity="few">Total: &lt;b&gt;&lt;font color=%1$d&gt;%2$d&lt;/font&gt;&lt;/b&gt; apps, &lt;b&gt;&lt;font color=%1$d&gt;%3$s&lt;/font&gt;&lt;/b&gt;</item>
-	<item quantity="other">Total: &lt;b&gt;&lt;font color=%1$d&gt;%2$d&lt;/font&gt;&lt;/b&gt; apps, &lt;b&gt;&lt;font color=%1$d&gt;%3$s&lt;/font&gt;&lt;/b&gt;</item>
-</plurals>
+        <item quantity="one">Total: &lt;b&gt;&lt;font color=%1$d&gt;%2$d&lt;/font&gt;&lt;/b&gt; app, &lt;b&gt;&lt;font color=%1$d&gt;%3$s&lt;/font&gt;&lt;/b&gt;</item>
+        <item quantity="few">Total: &lt;b&gt;&lt;font color=%1$d&gt;%2$d&lt;/font&gt;&lt;/b&gt; apps, &lt;b&gt;&lt;font color=%1$d&gt;%3$s&lt;/font&gt;&lt;/b&gt;</item>
+        <item quantity="other">Total: &lt;b&gt;&lt;font color=%1$d&gt;%2$d&lt;/font&gt;&lt;/b&gt; apps, &lt;b&gt;&lt;font color=%1$d&gt;%3$s&lt;/font&gt;&lt;/b&gt;</item>
+    </plurals>
     <string name="total_zero_app">Total: &lt;b&gt;&lt;font color=%1$d&gt;0&lt;/font&gt;&lt;/b&gt; app</string>
-
     <string name="general">General</string>
     <string name="language">Limbă</string>
     <string name="auto">Auto</string>
@@ -229,16 +228,13 @@
     <string name="installation">Instalare</string>
     <string name="show_notification_after_installation">Afișează notificare după instalare</string>
     <string name="delete_packages_after_installation">Șterge pachetele după instalare</string>
-
-    <string name="_name__installation_completed"><xliff:g example="APKPure" id="name">%1$s</xliff:g> instalare completă</string>
+    <string name="_name__installation_completed">
+        <xliff:g example="APKPure" id="name">%1$s</xliff:g> instalare completă</string>
     <string name="touch_to_open">Atingeți pentru a deschide.</string>
-
     <string name="auto_service_install_accessibility_title">Auto instalare</string>
     <string name="auto_service_install_accessibility_summary">Suportă Android 4.1+, fără nevoie de permisiune root.</string>
-
     <string name="auto_service_dialog_title">Pornire auto instalare</string>
     <string name="auto_service_dialog_message">Auto instalarea are nevoie de autorizare pe telefon, este sigur să îl folosiți fără riscuri.</string>
-
     <string name="auto_service_title">APKPure Auto instalare</string>
     <string name="auto_service_description">Porniți \"APKPure Auto Instalare\", pentru a păstra APKPure \"Auto Instalare\" în funcționare.
 \n
@@ -249,28 +245,23 @@
 \nPentru a permite buna funcționare a APKPure, adăugați APKPure la \"White list\" a aplicației de curățare.
 \n
 \nFuncția menționată deasupra este disponibilă pe Android 4.1+, fără permisiune root. Promitem să nu colectăm niciodată date personale cu acest serviciu. Simțiți-vă liberi să ne contactați pentru orice probleme.</string>
-
     <string name="auto_service_install">Instalare</string>
     <string name="auto_service_ensure">OK</string>
     <string name="auto_service_next">Următorul</string>
     <string name="auto_service_exchange">Înlocuiește</string>
     <string name="auto_service_complete">Finalizat</string>
-
     <string name="auto_service_install__material_">Instalare</string>
     <string name="auto_service_ensure__material_">OK</string>
     <string name="auto_service_next__material_">Următorul</string>
     <string name="auto_service_exchange__material_">Înlocuiește</string>
     <string name="auto_service_complete__material_">Finalizat</string>
-
     <string name="auto_install_via_root_title">Auto instalarea (Mod cu Root)</string>
     <string name="auto_install_via_root_summary">Doar pentru dispozitive cu acces root.</string>
-
     <plurals name="app_detail_see_all_replies">
-	<item quantity="one">Vezi tot răspunsul</item>
-	<item quantity="few">Vezi toate <xliff:g example="2" id="count">%1$d</xliff:g> răspunsurile</item>
-	<item quantity="other">Vezi toate <xliff:g example="2" id="count">%1$d</xliff:g> răspunsurile</item>
-</plurals>
-
+        <item quantity="one">Vezi tot răspunsul</item>
+        <item quantity="few">Vezi toate <xliff:g example="2" id="count">%1$d</xliff:g> răspunsurile</item>
+        <item quantity="other">Vezi toate <xliff:g example="2" id="count">%1$d</xliff:g> răspunsurile</item>
+    </plurals>
     <string name="app_detail_customer_reviews">Comentarii</string>
     <string name="app_detail_comment_type_web">web</string>
     <string name="app_submit_submit">Postare…</string>
@@ -286,11 +277,9 @@
     <string name="app_submit_email">Email</string>
     <string name="app_submit_submit_title">Postare</string>
     <string name="app_submit_reply_to">răspunde la</string>
-
     <string name="app_detail_tab_one">Detalii</string>
     <string name="app_detail_tab_two">Postari</string>
     <string name="app_detail_tab_three">Asemănător</string>
-
     <string name="app_detail_tab_evaluation">Păreri</string>
     <string name="app_detail_comment_filter_sort_score">Top clasate</string>
     <string name="app_detail_comment_filter_all">Toate părerile</string>
@@ -300,49 +289,40 @@
     <string name="app_detail_comment_score_footer">Mai sunt %1$s păreri în alte limbi.</string>
     <string name="app_detail_evaluation_tool_bar_title">Distribuie o părere</string>
     <string name="app_detail_evaluation_failed_bt">Păreri</string>
-
     <string name="app_detail_comment_order_array_default">Sortează mod implicit</string>
     <string name="app_detail_comment_order_array_most_recent">Cele mai recente</string>
     <string name="app_detail_comment_order_array_new">Cele mai noi</string>
     <string name="app_detail_comment_order_array_best">Cele mai bune</string>
     <string name="app_detail_comment_order_array_old">Cele mai vechi</string>
-
     <string name="app_detail_comment_order_array_good">4-5</string>
     <string name="app_detail_comment_order_array_bad">1-3</string>
     <string name="app_detail_folded_footer_reviews">vezi toate %d părerile pliate</string>
     <string name="app_detail_folded_footer_posts">vezi toate %d postările pliate</string>
     <string name="app_detail_discuss_filter_featured">Repere</string>
     <string name="app_detail_discuss_filter_folded">Pliate</string>
-
-
     <string name="app_detail_comment_join_group_bt">Grup</string>
     <string name="download_complete_installation_setting">Opinia instalării după descărcare</string>
-
     <string name="download_complete_installation_setting_entries_always">Instalare mereu</string>
     <string name="download_complete_installation_setting_entries_only">Instalează doar aplicația anterioară</string>
     <string name="download_complete_installation_setting_entries_never">Niciodată nu instala</string>
-
     <string name="download_mkdir">Locatie descărcari</string>
     <string name="download_mkdir_internal_storage_size_des">%1$s liber, total %2$s</string>
     <string name="download_mkdir_internal_storage_entries">SD</string>
     <string name="download_mkdir_internal_storage_entries1">SD 1</string>
     <string name="download_mkdir_external_storage_fill_toast">Spatiul insuficient liber poate cauza incapacitatea de a descărca aplicații.</string>
-
     <string name="download_mkdir_internal_storage_values">internal_storage</string>
     <string name="download_mkdir_external_storage_values">external_storage</string>
-
     <string name="reply">Răspuns</string>
     <string name="input_reply_content">Conținutul introdus al răspunsului:</string>
     <string name="publish">Postare</string>
     <string name="reply_dialog_marked_words">Apăsați lung imaginea selectată pentru a o șterge.</string>
     <string name="reply_comment">Răspunde comentariului</string>
     <string name="save_original_image">Salvează</string>
-    <string name="already_save">Salvat <xliff:g example="ApKPure/photo" id="path">%1$s</xliff:g></string>
-
+    <string name="already_save">Salvat <xliff:g example="ApKPure/photo" id="path">%1$s</xliff:g>
+    </string>
     <string name="load_end">Lipsă alte date</string>
     <string name="load_failed_click_retry">Încărcarea nereușită, apăsați reîncărcați</string>
     <string name="loading">Încărcarea…</string>
-
     <string name="scan_qr_code_hint">Înainte să folosiți scanare cod QR trebuie să permiteți acces la cameră care este necesară pentru a scana codul QR.</string>
     <string name="zxing_msg_default_status">Vă rog plasați codul QR în aria cititorului pentru a-l scana.</string>
     <string name="zxing_msg_parser_status">Scanare nereușită, vă rugăm încercați să scanați codul QR din nou.</string>
@@ -350,18 +330,14 @@
     <string name="scan_qr_code_result_copy_text">Copiare text</string>
     <string name="scan_qr_code_result_hint">Detalii cod QR:</string>
     <string name="scan_qr_code_copy_success">text copiat</string>
-
     <string name="tip_permission_camera_storage">Nu exista permisiune pentru folosirea camerei și a cardului SD, deschideți managerul de permisiuni</string>
     <string name="permission_denied">Acces interzis!</string>
-
     <string name="login_title">Conectare</string>
     <string name="sign_out">Deconectare</string>
-
     <string name="delete_comment">Șterge comentariul</string>
     <string name="delete_comment_msg">Sigur vrei să ștergi comentariul aceasta?</string>
     <string name="upload_cancel">Încărcarea a fost anulată</string>
     <string name="login_select_way_to_login">Vă rugăm alegeți modul de conectare</string>
-
     <string name="user_info_edit_title">Profil</string>
     <string name="user_info_edit_portrait_tv">Imagine de profil</string>
     <string name="user_info_edit_username_tv">Utilizator</string>
@@ -380,7 +356,6 @@
     <string name="user_info_edit_ok">Da</string>
     <string name="user_info_edit_cancel">Anulare</string>
     <string name="user_info_edit_large_photo">"Vezi poza in format mare "</string>
-
     <string name="update_nick_title">Schimba porecla</string>
     <string name="update_email_title">Schimba emailul</string>
     <string name="update_nick_name_et">Introduceți numele poreclei noi</string>
@@ -392,7 +367,6 @@
     <string name="update_intro_title">"Editura Despre Mine "</string>
     <string name="update_intro_et">"Scrie ceva detalii despre tine "</string>
     <string name="update_intro_tv">Câmpul Despre Mine nu poate fi gol</string>
-
     <string name="message_all">Toate</string>
     <string name="message_reply">COMENTARII</string>
     <string name="message_notifications_praise">V-ați adăugat comentariul</string>
@@ -402,7 +376,6 @@
     <string name="message_notifications_login">"Vă rugăm să vă autentificați pentru a vedea această pagină "</string>
     <string name="message_at_title">Mențiuni</string>
     <string name="message_at">Te-am mentionat</string>
-
     <string name="update_pwd_title">Resetare parola</string>
     <string name="update_pwd_current_pwd_et">Parola veche</string>
     <string name="update_pwd_new_pwd_et">Parola nouă</string>
@@ -419,28 +392,22 @@
     <string name="crop__pick_error">"Tip de fișier imagine nevalid "</string>
     <string name="crop__saving">Salvare poza…</string>
     <string name="crop__wait">Te rog așteaptă…</string>
-
     <string name="is_comment">Comentariul este…</string>
     <string name="comment_cancel">"Comentariul a fost anulat "</string>
     <string name="comment_submitting">Trimiterea …</string>
     <string name="comment_replying">Se răspunde …</string>
     <string name="register_term_of_service">"APKPure Termeni De Serviciu "</string>
-
     <string name="set_contributor">Contribuie</string>
     <string name="set_permissions">Permisiunile</string>
     <string name="set_open_source_licence">Licență cu licență deschisă</string>
-
     <string name="sign_in_services">Prin înregistrare sunteți de acord cu Termenii și Politica noastră de confidențialitate.</string>
-
     <string name="sign_in_services_key">Termeni</string>
     <string name="sign_in_services_key_policy">Politica de confidentialitate</string>
-
     <string name="user_sign_up">Înregistrare</string>
     <string name="user_name_hint">Nume de utilizator</string>
     <string name="user_email_hint">E-Mail</string>
     <string name="user_password">Parolă (6-32)</string>
     <string name="user_password_confirm">Confirmă parola</string>
-
     <string name="user_name_error">Numele de utilizator nu trebuie să conțină caractere, simboluri sau spații speciale</string>
     <string name="user_name_null">Nume de utilizator invalid</string>
-    </resources>
+</resources>
