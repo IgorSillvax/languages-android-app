@@ -213,7 +213,7 @@
     <string name="download_over_cellular_content">شما در حال دانلود از طریق اینترنت شبکه همراه می باشید. ادامه؟</string>
     <string name="download_over_cellular">دانلود با اینترنت موبایل</string>
     <string name="auto_service_install_accessibility_title">نصب خودکار</string>
-    <string name="auto_service_install_accessibility_summary">پشتیبانی از اندروید 4.1 به بالا، بدون نیاز به مجوز root .</string>
+    <string name="auto_service_install_accessibility_summary">از اندروید 4.1 و بالاتر پشتیبانی می‌کند. نیازی به دسترسی روت نیست.</string>
     <string name="auto_service_dialog_title">فعال کردن نصب خودکار</string>
     <string name="auto_service_dialog_message">برای فعال کردن نصب خودکار برنامه نیاز دارد که شما اجازه دسترسی به تلفن خود را بدهید، این کار ایمن است و هیچ خطری ندارد.</string>
     <string name="auto_service_title">نصب خودکار APKPure</string>
@@ -228,8 +228,16 @@
     <string name="auto_service_exchange__material_">جایگزین کردن</string>
     <string name="auto_service_complete__material_">انجام شد</string>
     <string name="auto_install_via_root_title">نصب خودکار (حالت Root)</string>
-    <string name="auto_install_via_root_summary">تنها برای گوشی‌های اندروید و تبلت‌های روت شده است.</string>
-    <string name="auto_service_description">در برنامه APKPure \"نصب خودکار\" را روشن کنید، و در اینجا \"نصب خودکار APKPure\" را فعال کنید.\n\n\"نصب خودکار APKPure\" به شما کمک می‌کند که در هنگام مراحل نصب و به‌روزرسانی برنامه‌ها و بازی‌ها، دیگر همیشه گوشی خود را چک نکنید و این مراحل همگی به صورت خودکار انجام شود.\n\nهنگامی که این قابلیت را فعال می‌کنید، سیستم گوشی شما پنجره‌ایی هشدار برای شما نمایش می‌دهد، که برای دسترسی به برنامه مجوز‌ها را نشان می‌دهد که روی دکمه \"تایید\" کلیک کنید تا فعال شود.\n\nبرای اطمینان به کار کردن خوب برنامه APKPure, لطفا APKPure را در \"لیست سفید\" برنامه‌های خود قرار دهید.\n\nموارد بالا فقط برای اندروید 4.1 به بالا پشتیبانی می‌شود، بدون نیاز به دسترسی به root. ما هرگز اطلاعات شخصی شما را جمع آوری نمی کنیم برای این مجوز. لطفا در صورت تمایل هر گونه مشکلی داشتید از قسمت تماس با ما در برنامه تماس بگیرید. ترجمه شده به فارسی : گودرز جعفری .</string>
+    <string name="auto_install_via_root_summary">تنها برای تلفن‌ها و تبلت‌های اندرویدی روت‌شده</string>
+    <string name="auto_service_description">\"نصب خودکار APKPure\" را فعال کنید تا \"نصب خودکار\" را به‌راحتی در APKPure انجام دهید.
+\n
+\n\"نصب خودکار APKPure\" می‌تواند زمان شما را در کلیک کردن بر گزینه نصب برای نصب کردن یا به‌روزرسانی برنامه‌ها ذخیره کند؛ و دیگر مجبور نیستید که در تمام زمان تلفن خود را چک کنید.
+\n
+\nهنگامی‌که شما این ویژگی را فعال کنید، شاید هشدارهای ریسک سیستم را دریافت کنید. لطفا بر روی \"باشه\" کلیک کنید تا قابلیت دسترسی \"روشن\" شود.
+\n 
+\nبرای آنکه از عملکرد صحیح APKPure اطمینان حاصل کنید، لطفا APKPure را به لیست سفید آنتی‌ویروس خود اضافه کنید.
+\n
+\nتمام کارکردهایی که در بالا توضیح داده شد، تنها در اندروید 4.1 و بالاتر پشتیبانی می‌شوند. هیچ نیازی به دسترسی روت نیست. ما به شما قول می‌دهیم که به‌هیچ عنوان اطلاعات شخصی شما را در این خدمات دسترسی جمع‌آوری نکنیم. لطفا برای تماس با ما به‌خاطر هر مشکلی راحت باشید.</string>
     <string name="similar_or_related">مشابه یا مرتبط</string>
     <string name="more_from_developer">از این توسعه دهنده</string>
     <string name="more_large">بیشتر</string>
@@ -242,15 +250,15 @@
     </plurals>
     <string name="app_detail_customer_reviews">نظرات</string>
     <string name="app_detail_comment_type_web">وب</string>
-    <string name="app_submit_submit">پست…</string>
+    <string name="app_submit_submit">درحال ارسال…</string>
     <string name="app_submit_anonymous_comment">اضافه کردن نظر</string>
-    <string name="app_submit_title_toast">شما باید عنوان را وارد کنید !</string>
-    <string name="app_submit_msg_toast">شما باید چیزی بنویسید !</string>
-    <string name="app_submit_name_toast">لطفا یک نام مستعاروارد کنید !</string>
-    <string name="app_submit_email_toast">لطفا یک ایمیل معتبر وارد کنید !</string>
-    <string name="app_submit_star_toast">شما باید ستاره را انتخاب کنید !</string>
-    <string name="app_submit_title_hint">لطفا عنوان را وارد کنید</string>
-    <string name="app_submit_msg_hint">لطفا نظر خود را بنویسید</string>
+    <string name="app_submit_title_toast">لطفا عنوانی را وارد کنید.</string>
+    <string name="app_submit_msg_toast">لطفا چیزی بنویسید!</string>
+    <string name="app_submit_name_toast">لطفا نام مستعار خود را وارد کنید!</string>
+    <string name="app_submit_email_toast">لطفا آدرس ایمیلی معتبر وارد کنید!</string>
+    <string name="app_submit_star_toast">لطفا رتبه‌بندی خود را مشخص کنید!</string>
+    <string name="app_submit_title_hint">لطفا عنوانی را وارد کنید!</string>
+    <string name="app_submit_msg_hint">لطفا نظر خود را وارد کنید!</string>
     <string name="app_submit_nickname">نام مستعار</string>
     <string name="app_submit_email">ایمیل</string>
     <string name="app_submit_submit_title">پست</string>
@@ -415,7 +423,7 @@
     <string name="delete_the_historical_record">حذف سابقه تاریخی؟</string>
     <string name="check_update_replace">نسخه رسمی</string>
     <string name="check_update_beta">پیش‌انتشار بتا</string>
-    <string name="app_detail_comment_order_array_old">قدیمی</string>
+    <string name="app_detail_comment_order_array_old">قدیمی‌ترین</string>
     <string name="app_detail_comment_join_group_bt">گروه</string>
     <string name="ad_tip">آگهی</string>
     <string name="null_time">0:00</string>
@@ -619,11 +627,11 @@
     <string name="app_detail_tab_evaluation">مرورکردن</string>
     <string name="app_detail_comment_filter_sort_score">بالاترین امتیاز</string>
     <string name="app_detail_comment_filter_all">مرورکردن همه</string>
-    <string name="app_detail_comment_filter_version">نسخه آخر</string>
-    <string name="app_detail_comment_score_less">رای کاربران خیلی کم است</string>
-    <string name="app_detail_comment_no_data">امتیازی توسط کاربران ثبت نشده است، امتیاز خود را ثبت کنید.</string>
+    <string name="app_detail_comment_filter_version">آخرین نسخه</string>
+    <string name="app_detail_comment_score_less">بازدیدهای کاربران خیلی کم است.</string>
+    <string name="app_detail_comment_no_data">نظرات کاربران وجود ندارد. الان نظر خود را بنویسید.</string>
     <string name="app_detail_comment_score_footer">%1$ مرور در سایر زبان ها وجود دارد.</string>
-    <string name="app_detail_evaluation_tool_bar_title">به اشتراک گذاری بررسی</string>
+    <string name="app_detail_evaluation_tool_bar_title">نظری بنویسید</string>
     <string name="app_detail_evaluation_failed_bt">بررسی</string>
     <string name="app_detail_comment_order_array_good">4-5</string>
     <string name="app_detail_comment_order_array_bad">1-3</string>
@@ -759,4 +767,5 @@
     <string name="is_save_comment_draft">پیش نویس به هر حال ذخیره می کنی ؟</string>
     <string name="upload_video">آپلود ویدیو</string>
     <string name="saved_draft">به عنوان پیش نویس ذخیره شد</string>
+    <string name="auto_service_directly__material_">نصب مستقیم</string>
 </resources>
