@@ -296,7 +296,7 @@
     <string name="app_detail_comment_order_array_best">الأفضل</string>
     <string name="download_complete_installation_setting">خيار التثبيت بعد التحميل</string>
     <string name="download_complete_installation_setting_entries_always">ثبت دائماً</string>
-    <string name="download_complete_installation_setting_entries_only">Only install when running in foreground</string>
+    <string name="download_complete_installation_setting_entries_only">قم بالتثبيت فقط عند التشغيل في المقدمة</string>
     <string name="download_complete_installation_setting_entries_never">لا تثبت ابداً</string>
     <string name="reply">رد</string>
     <string name="input_reply_content">برجاء إدخال رد:</string>
@@ -307,7 +307,7 @@
     <string name="already_save">تم الحفظ
 \n<xliff:g example="ApKPure/photo" id="path">%1$s</xliff:g>
     </string>
-    <string name="load_end">No more data.</string>
+    <string name="load_end">لا مزيد من البيانات.</string>
     <string name="load_failed_click_retry">فشل التشغيل , برجاء اعادة المحاولة</string>
     <string name="loading">تحميل …</string>
     <string name="scan_qr_code_hint">قبل استخدام فحص رمز QR يتوجب عليك السماح باستخدام الكاميرا لأنه مطلوب للقيام بفحص رمز QR.</string>
@@ -411,7 +411,7 @@
     <string name="app_detail_comment_order_array_old">الأقدم</string>
     <string name="app_detail_comment_join_group_bt">مجموعة</string>
     <string name="download_mkdir">مسار التحميل</string>
-    <string name="download_mkdir_internal_storage_size_des">%1$s free, total %2$s</string>
+    <string name="download_mkdir_internal_storage_size_des">%1$s مجاناً, اجمالي %2$٪</string>
     <string name="download_mkdir_internal_storage_entries">بطاقة الذاكرة</string>
     <string name="download_mkdir_internal_storage_entries1">وحدة التخزين الداخلية</string>
     <string name="download_mkdir_external_storage_fill_toast">"ذاكرة التخزين الغير كافية قد تتسبب  في عدم القدرة على تحميل اي تطبيق."</string>
@@ -608,13 +608,13 @@
     <string name="app_detail_evaluation_failed_bt">مراجعة</string>
     <string name="app_detail_comment_order_array_good">4-5</string>
     <string name="app_detail_comment_order_array_bad">1-3</string>
-    <string name="app_detail_discuss_filter_featured">الشائعة</string>
+    <string name="app_detail_discuss_filter_featured">يسلط الضوء</string>
     <string name="app_detail_comment_score_footer">تطبيق جيد</string>
     <string name="upload_video">رفع فيديو</string>
     <string name="saved_draft">حُفظت كمسودة</string>
-    <string name="app_detail_folded_footer_posts">View all %d folded posts</string>
-    <string name="app_detail_folded_footer_reviews">View all %d folded reviews</string>
+    <string name="app_detail_folded_footer_posts">المطوية d ٪عرض كافة مشاركات</string>
+    <string name="app_detail_folded_footer_reviews">المطويه d%عرض كافة مراجعات</string>
     <string name="auto_service_directly__material_">العربية</string>
-    <string name="app_detail_discuss_filter_folded">مطويه</string>
+    <string name="app_detail_discuss_filter_folded">مطوي</string>
     <string name="app_detail_evaluation_tool_bar_title">اكتب مراجعة</string>
 </resources>
