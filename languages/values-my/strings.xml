@@ -3,7 +3,7 @@
     <string name="action_settings">ချိန်ညှိရန်</string>
     <string name="action_search">ရှာဖွေရန်</string>
     <string name="action_management">စီမံခန့်ခွဲရန်</string>
-    <string name="press_back_key_quit">နေကောင်းလား</string>
+    <string name="press_back_key_quit">ထွက်ခွာရန်နောက်တစ်ကြိမ်ထပ်နှိပ်ပေးပါ</string>
     <string name="featured">အထူးပြုလုပ်ထားသည်</string>
     <string name="recommend">ရှာဖွေတွေ့ရှိထားသော</string>
     <string name="games">ဂိမ်း</string>
@@ -30,7 +30,7 @@
     <string name="check_update">ဗားရှင်းအသစ် စစ်ပါ</string>
     <string name="quit">ထွက်မည်</string>
     <string name="want_to_quit">Are you sure you want to quit?</string>
-    <string name="want_to_quit">Are you sure you want to exit\?</string>
+    <string name="want_to_quit">သင်တကယ်ပဲထွက်ခွာတော့မှာလား\?</string>
     <string name="install">ထည့်သွင်းမည်</string>
     <string name="open">ဖွင့်မည်</string>
     <string name="delete">ဖျက်မည်</string>
@@ -460,5 +460,21 @@
 \nTo ensure APKPure well functioning, please add APKPure \"White List\" in your anti-virus app.
 \n
 \nThe functions mentioned above support Android 4.1 and above. No root permissions are needed. We promise we will never ever collect any of your personal information in this accessibility service. Please feel free to contact us for any problems.</string>
-    <string name="search_tab_invitation">Posts</string>
+    <string name="search_tab_invitation">ပိုစ့်များ</string>
+    <string name="packaging_success_ready_upload">အောင်မြင်သွားပါပြီ အပ်လုတ်တင်ရန်အဆင်သင့်ပါပဲ</string>
+    <string name="packaging">ဖြည်နေသည်</string>
+    <string name="upload_apk_xapk">အေပီကေ/အိတ်အေပီကေအားအပ်လုတ်တင်ရန်</string>
+    <string name="apk_xapk">အေပီကေ/အိတ်ချ်အေပီကေ</string>
+    <string name="ucrop_menu_crop">ဖြတ်ပါ</string>
+    <string name="ucrop_label_edit_photo">ဓာတ်ပုံအားပြင်ဆင်ပါ</string>
+    <string name="ucrop_label_original">မူရင်း</string>
+    <string name="picture_confirm">မလုပ်တော့ပါ</string>
+    <string name="picture_video_error">ဗီဒီယိုအားပြန်လည်ပြင်ဆင်ထားသည်</string>
+    <string name="picture_error">ဓာတ်ပုံအားပြန်လည်ပြင်ဆင်ထားသည်</string>
+    <string name="picture_pause_audio">ရပ်ထားသည်</string>
+    <string name="picture_quit_audio">ထွက်မည်</string>
+    <string name="picture_stop_audio">ရပ်မည်</string>
+    <string name="xapk_upload_hint_info">XAPKဖိုင်မှာအလွန်ကြီးမားနေပါသည် အပ်လုတ်တင်မှာလား\?</string>
+    <string name="packaging_failed_try_again">မအောင်မြင်ပါ ပြန်ကြိုးစားကြည့်ပါ</string>
+    <string name="preparing_upload">အပ်လုတ်တင်ရန်စောင့်ဆိုင်းနေသည်</string>
 </resources>
