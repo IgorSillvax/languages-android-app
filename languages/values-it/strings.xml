@@ -88,10 +88,8 @@
     </plurals>
     <string name="launching_please_wait">Avvio… attendere…</string>
     <plurals name="_count__item_is_downloading">
-        <item quantity="one">
-            <xliff:g id="count" example="1">%1$d</xliff:g> elemento in download</item>
-        <item quantity="other">
-            <xliff:g id="count" example="2">%1$d</xliff:g> elementi in download</item>
+        <item quantity="one">Downloading <xliff:g example="1" id="count">%1$d</xliff:g> item.</item>
+        <item quantity="other">Downloading <xliff:g example="2" id="count">%1$d</xliff:g> items.</item>
     </plurals>
     <string name="downloads_complete">Tutti i download completati</string>
     <string name="touch_for_view_all_downloads">Tocca per vedere tutti i download</string>
