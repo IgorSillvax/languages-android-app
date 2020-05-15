@@ -211,7 +211,7 @@
     <string name="similar_or_related">類似のアプリ</string>
     <string name="more_large">表示</string>
     <string name="more_from_developer">この開発者の他のアプリ</string>
-    <string name="download_complete_installation_setting">ダウンロード後、そのままインストールを実行</string>
+    <string name="download_complete_installation_setting">ダウンロード後のインストールオプション</string>
     <string name="download_over_cellular">モバイルデータ通信経由でダウンロード</string>
     <string name="download_over_cellular_content">モバイルネットワークでダウンロードしようとしています。続けますか\?</string>
     <string name="enable">有効</string>
@@ -235,15 +235,15 @@
     <string name="enable_ultra_download_summary">高速ダウンロードオプションはまだテスト中です。問題が発生した際はご連絡をお願いいたします。</string>
     <string name="auto_service_install_accessibility_summary">Android 4.1以上をサポートしています。root 権限でのアクセスは必要としません。</string>
     <string name="auto_service_dialog_message">自動インストールには、有効にする必要があります。 100％安全です。</string>
-    <string name="auto_service_description">アプリケーションの自動インストールを利用するためにはこの設定を有効化する必要があります。\n\n
-
-この機能を利用すると、インストールダイアログの操作が不要になります。つまり大量のアプリをインストールやアップデートする際でも、スマートフォンから手を離して放置しておくことができるようになります。\n\n
-
-スイッチを「ON」にすると「APKPure Auto Installを利用しますか?」というダイアログが表示されます。内容をよく読み、「OK」ボタンを押してください。\n\n
-
-タスクキラーアプリケーションを利用している場合は、正常に動作させるためAPKPureをホワイトリストへ追加してください。\n\n
-
-この機能はAndroid 4.1以上で利用できます。root権限等は一切不要です。またAPKPureはユーザーの個人情報等を収集することは決してありません。何か問題が発生した場合は遠慮なくお問い合わせください。</string>
+    <string name="auto_service_description">「APKPure自動インストール」を有効にすることで、APKPure「自動インストール」がスムーズに実行されます。
+\n
+\n 「APKPure自動インストール」はapkのインストールまたは更新時にインストールボタンを押す手間を削減できます。そして端末をいちいちチェックする必要がありません。
+\n
+\n この機能を有効にすることで、システムのリスク警告が表示されることがあります。「OK」をタップし、アクセシビリティスイッチを「ON」にしてください。
+\n
+\n APKPureを正常に動作させるには、ウイルス対策アプリにAPKPureを「ホワイトリスト」に追加してください。
+\n
+\n 上記の機能はAndroid 4.1以上をサポートしています。root権限は必要ありません。このアクセシビリティサービスにおいてお客様の個人情報を収集することは一切ないことをお約束します。ご不明な点がございましたら、お気軽にお問い合わせください。</string>
     <string name="auto_service_complete">完了</string>
     <string name="auto_service_complete__material_">完了</string>
     <string name="auto_install_via_root_title">自動インストール(root利用モード)</string>
