@@ -1,26 +1,22 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2"><string name="action_settings">Asetukset</string>
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="action_settings">Asetukset</string>
     <string name="action_search">Haku</string>
     <string name="action_management">Hallinta</string>
-
     <string name="press_back_key_quit">Paina palautusnäppäintä kerran ja lopeta.</string>
-
     <string name="featured">Suositeltu</string>
     <string name="recommend">Löydä</string>
     <string name="games">Pelit</string>
     <string name="apps">Sovellukset</string>
     <string name="categories">Kategoriat</string>
     <string name="updates">Päivitykset</string>
-
     <string name="something_happened">&gt;_&lt;
 Jotain meni pieleen.</string>
-
     <string name="load_failed_error">Hups! Tapahtui virhe.</string>
     <string name="load_failed_empty">Täällä ei ole mitään.</string>
     <string name="load_failed_all_up_to_date">Kaikki sovellukset ovat ajan tasalla.</string>
     <string name="load_failed_no_results">Pahoittelen. Tuloksia ei löytynyt.</string>
     <string name="refresh">Lataa Uudelleen</string>
-
     <string name="management">Hallinta</string>
     <string name="app_updates">Sovelluspäivitykset</string>
     <string name="app_management">Ladattu</string>
@@ -30,41 +26,34 @@ Jotain meni pieleen.</string>
     <string name="download_management">Lataus Hallinta</string>
     <string name="settings">Asetukset</string>
     <string name="about">Tietoja</string>
-
-
-    <string name="about_title">Tietoja <xliff:g example="APKPure" id="app_name">%1$s</xliff:g></string>
-    <string name="about_message">"
- &lt;b&gt;Versio:&lt;/b&gt; %1$s&lt;br&gt;&lt;br&gt;&lt;b&gt;Nettisivu:&lt;/b&gt; &lt;a href=%2$s&gt;%2$s&lt;/a&gt;&lt;br&gt;&lt;b&gt;Sähköposti:&lt;/b&gt; &lt;a href=mailto:%3$s&gt;%3$s&lt;/a&gt;
- "</string>
+    <string name="about_title">Tietoja <xliff:g example="APKPure" id="app_name">%1$s</xliff:g>
+    </string>
+    <string name="about_message">&lt;b&gt;Versio:&lt;/b&gt; %1$s&lt;br&gt;&lt;br&gt;&lt;b&gt;Nettisivu:&lt;/b&gt; &lt;a href=%2$s&gt;%2$s&lt;/a&gt;&lt;br&gt;&lt;b&gt;Sähköposti:&lt;/b&gt; &lt;a href=mailto:%3$s&gt;%3$s&lt;/a&gt;</string>
     <string name="check_update">Etsi päivityksiä</string>
     <string name="quit">Lopeta</string>
     <string name="want_to_quit">Oletko varma, että haluat lopettaa\?</string>
-
     <string name="install">Lataa</string>
     <string name="open">Avaa</string>
     <string name="delete">Poista</string>
     <string name="delete_all">Poista Kaikki</string>
     <string name="properties">Ominaisuudet</string>
-    <string name="properties_message">"
- &lt;b&gt;Polku:&lt;/b&gt; %1$s&lt;br&gt;&lt;b&gt;Koko:&lt;/b&gt; %2$s&lt;br&gt;&lt;b&gt;Viimeksi Muokattu:&lt;/b&gt; %3$s
- "</string>
+    <string name="properties_message">&lt;b&gt;Polku:&lt;/b&gt; %1$s&lt;br&gt;&lt;b&gt;Koko:&lt;/b&gt; %2$s&lt;br&gt;&lt;b&gt;Viimeksi Muokattu:&lt;/b&gt; %3$s</string>
     <string name="want_to_delete_file">Haluatko poistaa tämän tiedoston?</string>
     <string name="want_to_delete_all_files">Haluatko poistaa kaikki tiedostot?</string>
     <string name="file_has_been_deleted">Tiedosto on poistettu.</string>
     <string name="failed_to_delete_file">Tiedoston poisto epäonnistui.</string>
-    <string name="install__label_">Lataa - <xliff:g example="APKPure" id="app_label">%1$s</xliff:g></string>
+    <string name="install__label_">Lataa - <xliff:g example="APKPure" id="app_label">%1$s</xliff:g>
+    </string>
     <string name="user_canceled">Käyttäjä perui.</string>
     <string name="io_error">IO virhe. Voi olla että ei ole tarpeeksi tilaa asennuksen suorittamiseen.</string>
     <string name="installing_obb">Ladataan OBB Tiedostoja …</string>
     <string name="extracting_apk">Puretaan APK tiedostoa …</string>
     <string name="installing_apk">Ladataan APK …</string>
-
     <string name="uninstall">Poista</string>
     <string name="uninstalled">Poistettu</string>
-    <string name="last_update__date_">Viimeinen päivitys: <xliff:g id="date">%1$s</xliff:g></string>
-
+    <string name="last_update__date_">Viimeinen päivitys: <xliff:g id="date">%1$s</xliff:g>
+    </string>
     <string name="all">Kaikki</string>
-
     <string name="screenshots">Kuvankaappaukset</string>
     <string name="description">Kuvaus</string>
     <string name="whatsnew">Mitä uutta</string>
@@ -86,7 +75,6 @@ Jotain meni pieleen.</string>
     <string name="unknown">Tuntematon</string>
     <string name="flag_as_inappropriate">Ilmoita sopimattomaksi</string>
     <string name="_ellipsis_"> ... </string>
-
     <string name="market_response_error_success">Onnistui.</string>
     <string name="market_response_error_invalid_result">Epäkelpoinen tulos.</string>
     <string name="market_response_error_network_connect_error">Verkkoyhteydessä on ongelmia</string>
@@ -94,18 +82,19 @@ Jotain meni pieleen.</string>
     <string name="market_response_error_invalid_response_code">Epäkelpoinen vastaus koodi.</string>
     <string name="market_response_error_invalid_response_body">Epäkelpoinen vastaus muoto.</string>
     <string name="market_response_error_unknown_error__error_">Tuntematon virhe (<xliff:g example="SUCCESS" id="error">%1$s</xliff:g>).</string>
-
     <string name="no_more">Ei enempää.</string>
-
     <string name="update">Päivitä</string>
-    <string name="version__version___size_">Versio: <xliff:g example="1.0.0" id="version">%1$s</xliff:g>, <xliff:g example="1024 kB" id="size">%2$s</xliff:g></string>
+    <string name="version__version___size_">Versio: <xliff:g example="1.0.0" id="version">%1$s</xliff:g>, <xliff:g example="1024 kB" id="size">%2$s</xliff:g>
+    </string>
     <plurals name="_count__new_update_is_available">
-	<item quantity="one"><xliff:g example="1" id="count">%1$d</xliff:g> uusi päivitys on saatavilla</item>
-	<item quantity="other"><xliff:g example="2" id="count">%1$d</xliff:g> uudet päivitykset ovat saatavilla</item>
-</plurals>
-
+        <item quantity="one">
+            <xliff:g example="1" id="count">%1$d</xliff:g> uusi päivitys on saatavilla</item>
+        <item quantity="other">
+            <xliff:g example="2" id="count">%1$d</xliff:g> uudet päivitykset ovat saatavilla</item>
+    </plurals>
     <string name="launching_please_wait">Laukaistaan, odota hetki…</string>
-
-    <string name="load_failed_error_not_found">Sovellusta ei löydy.</string>
+    <string name="load_failed_error_not_found">Sovellusta ei löydy APKPuresta.</string>
     <string name="check_update_replace">Virallinen versio</string>
-    </resources>
+    <string name="beta">Kokeellinen versio</string>
+    <string name="check_update_beta">Ennakko julkaisu Beta</string>
+</resources>
