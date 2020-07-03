@@ -121,7 +121,7 @@
         <![CDATA[<b>Son Sürüm:</b> %1$s<br><br><b>Yenilikler:</b><br>%2$s]]>
     </string>
     <string name="report__">Bildir…</string>
-    <string name="report_problem__">https://m.apkpure.com/u/6921198Bir sorun Bildir…</string>
+    <string name="report_problem__">Bir sorun Bildir…</string>
     <string name="report_problem_subject">Bir Sorun bildir</string>
     <string name="installation_failed">Yükleme Başarısız.</string>
     <string name="invalid_app_detail">Geçersiz uygulama detay bilgileri.</string>
@@ -206,13 +206,13 @@
     </string>
     <string name="download_via_wifi_only">Sadece Wi-Fi üzerinden indir</string>
     <string name="enable_ultra_download">Ultra indirmeyi etkinleştir</string>
-    <string name="enable_ultra_download_summary">Ultra İndirme test aşamasında, herhangi bir problem olursa lütfen bize bildirin.</string>
+    <string name="enable_ultra_download_summary">Ultra İndirme test aşamasında, herhangi bir problemle karşılaşırsanız lütfen bize bildirin.</string>
     <string name="installation">Kurulum</string>
     <string name="show_notification_after_installation">Kurulumdan sonra bildirimleri göster</string>
     <string name="delete_packages_after_installation">Kurulumdan sonra paketleri sil</string>
     <string name="_name__installation_completed">
         <xliff:g example="APKPure" id="name">%1$s</xliff:g> kurulum tamamlandı</string>
-    <string name="touch_to_open">Açmak için dokun.</string>
+    <string name="touch_to_open">Çalıştırmak için dokun.</string>
     <string name="auto_service_install_accessibility_title">Otomatik kurulum</string>
     <string name="auto_service_install_accessibility_summary">Android 4.1+ destekleniyor, root erişimi gerektirmez.</string>
     <string name="auto_service_dialog_title">Otomatik Kuulumu Aktifleştir</string>
@@ -235,15 +235,15 @@
     <string name="more_from_developer">Geliştiriciden Daha Fazlası</string>
     <string name="more_large">Daha Fazla</string>
     <string name="feedback">Geri Bildirim</string>
-    <string name="changing_language">https://m.apkpure.com/u/6921198</string>
+    <string name="changing_language">Lisan değiştiriliyor... Lütfen bekleyiniz.</string>
     <string name="download_complete_installation_setting">İndirme sonrası kurulum seçeneği</string>
     <string name="report">Bildir</string>
     <string name="app_detail_customer_reviews">Yorumlar</string>
-    <string name="app_detail_comment_type_web">Web</string>
+    <string name="app_detail_comment_type_web">Ağ</string>
     <string name="app_submit_submit">Gönderiliyor…</string>
     <string name="app_submit_anonymous_comment">Yorum yaz</string>
     <string name="app_submit_title_toast">Başlık girmelisin!</string>
-    <string name="app_submit_msg_toast">Bir şeyler yazmalısın!</string>
+    <string name="app_submit_msg_toast">Lütfen bir şeyler yazınız</string>
     <string name="app_submit_star_toast">Lütfen oy verin!</string>
     <string name="app_submit_title_hint">Lütfen başlık yazın!</string>
     <string name="app_submit_msg_hint">Lütfen düşüncelerinizi yazın!</string>
@@ -268,12 +268,12 @@
         <item quantity="other">
             <xliff:g example="2" id="count">%1$d</xliff:g> yanıtların hepsini gör</item>
     </plurals>
-    <string name="app_submit_name_toast">Lütfen kullanıcı adını doldurun!</string>
-    <string name="app_submit_email_toast">Lütfen doğru bir e-posta adresi yazın!</string>
+    <string name="app_submit_name_toast">Lütfen kullanıcı adınızı giriniz!</string>
+    <string name="app_submit_email_toast">Lütfen geçerli bir e-posta adresi yazın!</string>
     <string name="app_detail_tab_one">Ayrıntılar</string>
     <string name="app_detail_tab_two">Grup</string>
     <string name="app_detail_tab_three">İlişkili</string>
-    <string name="app_detail_comment_order_array_default">Varsayılan olarak sırala</string>
+    <string name="app_detail_comment_order_array_default">Varsayılana göre sırala</string>
     <string name="app_detail_comment_order_array_most_recent">En Son</string>
     <string name="app_detail_comment_order_array_new">En Yeni</string>
     <string name="app_detail_comment_order_array_best">En İyi</string>
@@ -418,7 +418,7 @@
     <string name="push_title_info_upvoted">%1$s yorumunuzu beğendi!</string>
     <string name="check_update_replace">Resmi versiyon</string>
     <string name="check_update_beta">Beta ön sürümü</string>
-    <string name="app_detail_comment_order_array_old">Eski</string>
+    <string name="app_detail_comment_order_array_old">En Eski</string>
     <string name="app_detail_comment_join_group_bt">Grup</string>
     <string name="download_mkdir">İndirme dizini</string>
     <string name="download_mkdir_internal_storage_values">dahili_depolama</string>
@@ -619,7 +619,7 @@
     <string name="app_detail_comment_filter_version">En son sürüm</string>
     <string name="app_detail_comment_score_less">Çok az kullanıcı incelemesi</string>
     <string name="app_detail_comment_no_data">Kullanıcı incelemelesi bulunamadı, puanınızı şimdi ekleyin.</string>
-    <string name="app_detail_evaluation_tool_bar_title">Bir inceleme paylaş</string>
+    <string name="app_detail_evaluation_tool_bar_title">Bir inceleme yaz</string>
     <string name="app_detail_evaluation_failed_bt">İnceleme</string>
     <string name="app_detail_comment_order_array_good">4-5</string>
     <string name="app_detail_comment_order_array_bad">1-3</string>
