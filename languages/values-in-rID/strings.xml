@@ -108,15 +108,15 @@
     <string name="detail">Detail</string>
     <string name="remove">Hapuskan</string>
     <string name="remove_all">Hapuskan semua</string>
-    <string name="want_to_remove_download_item">Kamu ingin hapuskan item download ini?</string>
-    <string name="want_to_remove_all_download_items">Kamu ingin hapuskan semua item download ini?</string>
+    <string name="want_to_remove_download_item">Apakah Anda yakin ingin menghapus item ini\?</string>
+    <string name="want_to_remove_all_download_items">Apakah Anda yakin ingin menghapus semua item\?</string>
     <string name="delete_downloaded_file">Hapuskan file download</string>
     <string name="search">cari</string>
     <string name="search_for_apps">Mencari APKPure</string>
     <string name="trending_searches">cenderung penelusuran</string>
     <string name="search_history">Sejarah</string>
     <string name="clear_search_history">Bersihkan semua riwayat</string>
-    <string name="improvement_plan_title">Rencana peningkatan kinerja</string>
+    <string name="improvement_plan_title">Rencana Peningkatan Pengalaman Pengguna</string>
     <string name="join_us">Bergabung kami</string>
     <string name="skip">Lewati</string>
     <string name="new_version_available_title">Visi baru tersedia</string>
@@ -149,10 +149,10 @@
     <string name="launching_please_wait">启动，请稍候...</string>
     <string name="installed">Instal</string>
     <string name="download_over_cellular">Download melalui seluler</string>
-    <string name="download_over_cellular_content">Anda mendownload melalui jaringan selular. Anda ingin melanjutkan?</string>
+    <string name="download_over_cellular_content">Anda mendownload melalui jaringan selular. lanjutkan\?</string>
     <string name="enable">Aktifkan</string>
-    <string name="participate_ultra_download_beta_test_title">Boleh download dan menikmati kecepatan download yang baik</string>
-    <string name="participate_ultra_download_beta_test_content">Download dalam pengujian beta, beritahukan kami jika Anda menemui masalah .Anda dapat mudah menonaktifkan dalam pengaturan.</string>
+    <string name="participate_ultra_download_beta_test_title">Aktifkan Ultra Unduhan dan nikmati kecepatan unduh yang lebih cepat</string>
+    <string name="participate_ultra_download_beta_test_content">Ultra Download masih dalam versi beta. beri tahu kami jika Anda mengalami masalah. Anda dapat dengan mudah menonaktifkannya di Pengaturan.</string>
     <string name="properties_message">
         <![CDATA[<b>Jalan:</b> %1$s<br><b>Ukuran:</b> %2$s<br><b>Ubah terbaru:</b> %3$s]]>
     </string>
@@ -175,9 +175,7 @@
         <xliff:g example="APKPure" id="name">%1$s</xliff:g> Unduhan gagal</string>
     <string name="download_percent">
         <xliff:g example="50" id="percent">%1$d</xliff:g> %%</string>
-    <string name="improvement_plan_message">
-        <![CDATA[Membantu kami dengan mengirimkan Android Device Info, kita lakukan <b>tak kumpulkan</b> informasi pribada (nama, alamat, email, nomor jaminan sosial, atau pengenaan unuk lain).]]>
-    </string>
+    <string name="improvement_plan_message">Bantu kami menjadikan pengalaman Anda lebih baik dengan mengirimkan info Perangkat Android Anda, Kami berjanji <b> tidak </b> untuk mengumpulkan informasi pengenal pribadi Anda (nama, alamat, alamat email, nomor jaminan sosial, atau pengidentifikasi unik lainnya).</string>
     <string name="_name__is_up_to_date">
         <xliff:g example="APKPure" id="name">%1$s</xliff:g> berbaru sama waktu.</string>
     <string name="new_version_available_message">"
