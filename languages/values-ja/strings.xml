@@ -419,7 +419,7 @@
     <string name="sub_comment_dialog_link_et">ここに動画URLを入力してください。</string>
     <string name="sub_comment_dialog_link_null">動画のURLアドレスが空白にすることはできません</string>
     <string name="sub_comment_progress_msg">動画を追加しています…</string>
-    <string name="download_complete_installation_setting_entries_only">インストールはフォアグラウンドで実行するのみ</string>
+    <string name="download_complete_installation_setting_entries_only">フォアグラウンドで実行する場合にのみインストールする</string>
     <string name="recommend_write_des_hint">あなたと同じ興味を持っている多くのユーザーは参考になるレビューを見ることができます。</string>
     <string name="recommend_comment">送信</string>
     <string name="recommend_comment_error">何かエラーが発生しました！</string>
@@ -502,7 +502,7 @@
     <string name="recommend_select_game">アプリをオススメする</string>
     <string name="recommend_write_des">記述</string>
     <string name="download_mkdir">ダウンロードパス</string>
-    <string name="download_mkdir_external_storage_fill_toast">ストレージの容量が不足している場合、アプリをダウンロードできない可能性があります。</string>
+    <string name="download_mkdir_external_storage_fill_toast">ストレージ容量が不足しています。アプリをダウンロードできません。</string>
     <string name="download_mkdir_internal_storage_values">本体ストレージ</string>
     <string name="download_mkdir_external_storage_values">SDカードなど</string>
     <string name="download_mkdir_internal_storage_size_des">空き容量: %1$s / 合計: %2$s</string>
