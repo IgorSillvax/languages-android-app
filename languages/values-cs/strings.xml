@@ -46,7 +46,7 @@
     <string name="file_has_been_deleted">Soubor byl smazán.</string>
     <string name="failed_to_delete_file">Chyba při mazání souboru.</string>
     <string name="user_canceled">Zrušeno uživatelem.</string>
-    <string name="io_error">IO error. Not enough space available for installation.</string>
+    <string name="io_error">IO error. Nedostatek místa pro instalaci aplikace</string>
     <string name="file_format_error">Chybný formát souboru.</string>
     <string name="installing_obb">Instaluji OBB soubory …</string>
     <string name="extracting_apk">Rozbaluji soubor APK …</string>
@@ -80,7 +80,7 @@
     <string name="market_response_error_network_connect_error">Chyba spojení sítě.</string>
     <string name="market_response_error_network_read_error">Chyba čtení sítě.</string>
     <string name="market_response_error_invalid_response_code">Chybný kód.</string>
-    <string name="market_response_error_invalid_response_body">Chybné tělo souboru.</string>
+    <string name="market_response_error_invalid_response_body">Chybný typ souboru.</string>
     <string name="market_response_error_unknown_error__error_">Neznámá chyba: (<xliff:g example="SUCCESS" id="error">%1$s</xliff:g>).</string>
     <string name="update">Aktualizace</string>
     <string name="version__version___size_">Verze: <xliff:g example="1.0.0" id="version">%1$s</xliff:g>, <xliff:g example="1024 kB" id="size">%2$s</xliff:g>
@@ -93,11 +93,11 @@
             <xliff:g example="2" id="count">%1$d</xliff:g> položky se stahují</item>
         <item quantity="other"/>
     </plurals>
-    <string name="downloads_complete">Stahování dokončena</string>
-    <string name="touch_for_view_all_downloads">Dotkni se pro zobrazení všech stahování</string>
+    <string name="downloads_complete">Všechna stahování byla dokončena</string>
+    <string name="touch_for_view_all_downloads">Dotkněte se pro zobrazení všech stahování</string>
     <string name="_name__download_failed">
         <xliff:g example="APKPure" id="name">%1$s</xliff:g> chyba stahování</string>
-    <string name="touch_to_download_it_again">Stáhnout znova</string>
+    <string name="touch_to_download_it_again">Dotkněte se, abyste restartovali stahování</string>
     <string name="download_percent">
         <xliff:g example="50" id="percent">%1$d</xliff:g> % procent</string>
     <string name="pause">Přerušit</string>
@@ -147,11 +147,11 @@
     <string name="search_history">Historie</string>
     <string name="clear_search_history">Smazat celou historii</string>
     <string name="improvement_plan_title">Plán na zvýšení výkonu</string>
-    <string name="improvement_plan_message">Pomozte nám a povolte informace o android zařízení, <b>nebudeme je uchovávat</b> žádné osobní údaje (jméno, adresu, emailovou adresu, čísla sociálních zabezpečení nebo jiné soukromé údaje). </string>
+    <string name="improvement_plan_message">Pomozte nám a povolte informace o android zařízení, <b>nebudeme je uchovávat</b> žádné osobní údaje (jméno, adresu, emailovou adresu, čísla sociálních zabezpečení nebo jiné soukromé údaje).</string>
     <string name="join_us">Přidejte se k nám</string>
     <string name="skip">Přeskočit</string>
-    <string name="participate_ultra_download_beta_test_title">Povolte Ultra Sownload a užijte si rychlejší stahování</string>
-    <string name="participate_ultra_download_beta_test_content">Ultea Download je v Beta testování, prosím dejte nám vědět pokud se vyskytnou nějaké problémy. Službu můžete jednoduše deaktivovat v Nastavení.</string>
+    <string name="participate_ultra_download_beta_test_title">Povolte Ultra Download a užijte si rychlejší stahování</string>
+    <string name="participate_ultra_download_beta_test_content">Ultra Download je v Beta testování, prosím dejte nám vědět pokud se vyskytnou nějaké problémy. Službu můžete jednoduše deaktivovat v Nastavení.</string>
     <string name="enable">Povolit</string>
     <string name="_name__is_up_to_date">
         <xliff:g example="APKPure" id="name">%1$s</xliff:g>"  Je aktuální."</string>
