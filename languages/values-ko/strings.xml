@@ -84,10 +84,12 @@
         <item quantity="other">
             <xliff:g id="count" example="1">%1$d</xliff:g> 새로운 업데이트를 사용할 수 있습니다</item>
     </plurals>
-    <string name="launching_please_wait">시작 중이므로, 잠시 기다리십시오…</string>
+    <string name="launching_please_wait">Ja
+\n
+\n
+\n시작 중이므로, 잠시 기다리십시오…</string>
     <plurals name="_count__item_is_downloading">
-        <item quantity="other">
-            <xliff:g id="count" example="1">%1$d</xliff:g> 아이템이 다운로드 중입니다</item>
+        <item quantity="other"><xliff:g id="count" example="1">%1$d</xliff:g> 아이템이 다운로드 중입니다</item>
     </plurals>
     <string name="downloads_complete">다운로드 완료</string>
     <string name="touch_for_view_all_downloads">터치하여 모든 다운로드하기</string>
