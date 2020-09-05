@@ -33,13 +33,13 @@
     <string name="want_to_quit">Are you sure you want to quit?</string>
     <string name="want_to_quit">သင်တကယ်ပဲထွက်ခွာတော့မှာလား\?</string>
     <string name="install">ထည့်သွင်းမည်</string>
-    <string name="open">ဖွင့်မည်</string>
+    <string name="open">ဖြင့္မယ္</string>
     <string name="delete">ဖျက်မည်</string>
     <string name="delete_all">အားလုံးဖျက်မယ်</string>
     <string name="properties">အချက်အလက်များ</string>
     <string name="want_to_delete_file">ဒီဖိုင်ကိုဖျက်မှာသေချာပါသလား\?</string>
     <string name="want_to_delete_all_files">ဖိုင်အားလုံးကိုဖျက်မှာ သေချာပါသလား\?</string>
-    <string name="file_has_been_deleted">ဖိုင်ကိုဖျက်ပြီးပါပြီ။</string>
+    <string name="file_has_been_deleted">ဒီဖိုင္ကိုဖ်က္ၿပီးပါၿပီ</string>
     <string name="failed_to_delete_file">ဖိုင်ဖျက်ခြင်း မအောင်မြင်ပါ.</string>
     <string name="user_canceled">အသုံးပြုသူက ပယ်ဖျက်ခဲ့သည်.</string>
     <string name="about_message">
@@ -52,7 +52,7 @@
     <string name="properties_message">&lt;b&gt;လမ်းကြောင်း:&lt;/b&gt; %1$s&lt;br&gt;&lt;b&gt;အရွယ်အစား:&lt;/b&gt; %2$s&lt;br&gt;&lt;b&gt;နောက်ဆုံးပြင်ဆင်ခဲ့သော:&lt;/b&gt; %3$s</string>
     <string name="install__label_">ထည့်သွင်းမည် - <xliff:g example="APKPure" id="app_label">%1$s</xliff:g>
     </string>
-    <string name="io_error">သွင်းထုတ် အမှား. ထည့်သွင်းတပ်ဆင်ရန်အတွက် နေရာမလုံလောက်ပါ။</string>
+    <string name="io_error">IO ခ်ိဳ႕ယြင္းေနပါသည္။ ထၫ့္သြင္းရန္အတြက္ ေနရာလြတ္ မရိွေတာ့ပါ။</string>
     <string name="file_format_error">ဖိုင် မှားနေသည်.</string>
     <string name="parsing_xapk">XAPK ကိုဖြည်နေသည်…</string>
     <string name="installing_obb">OBB file အားထည့်သွင်းနေပါသည်…</string>
@@ -68,12 +68,12 @@
     <string name="information">အချက်အလက်</string>
     <string name="version_">ဗားရှင်း:</string>
     <string name="updated_">ဗားရှင်းမြှင့်ပြီးပြီ:</string>
-    <string name="size_">အရွယ်အစား</string>
-    <string name="permissions_">ရသ</string>
+    <string name="size_">အရြယ္အစား</string>
+    <string name="permissions_">ခြင့္ျပဳခ်က္မ်ား</string>
     <string name="all">အားလုံး</string>
     <string name="type_">ပုံစံ</string>
     <string name="category_">အကြောင်းအရာ :</string>
-    <string name="more">ပိုမို၍</string>
+    <string name="more">ပို၍</string>
     <string name="permissions">ခွင့်ပြုချက်များ</string>
     <string name="other">အခြား</string>
     <string name="similar_or_related">အလားတူ (သို့) ဆက်စပ်နေသည်များ</string>
@@ -87,19 +87,19 @@
     <string name="market_response_error_success">အောင်မြင်သည်.</string>
     <string name="market_response_error_invalid_result">အတည်မပြုနိုင်သော ရလဒ်.</string>
     <string name="history_version">ဗားရှင်းသမိုင်း</string>
-    <string name="market_response_error_network_connect_error">ကွန်ရက်ချိတ်ဆက်မှုချို့ယွင်းချက်နေသည်.</string>
+    <string name="market_response_error_network_connect_error">ကြန္ရက္ (အင္တာနက္) ခ်ိတ္ဆက္ျခင္း ခ်ိဳ႕ယြင္းေနပါသည္။</string>
     <string name="market_response_error_network_read_error">ကွန်ရက်ဖတ်ရှုရာတွင် ချွတ်ယွင်းနေသည်.</string>
     <string name="no_more">နောက်ထပ်မရှိတော့ပါ.</string>
     <string name="update">မွမ်းမံမှု</string>
-    <string name="launching_please_wait">ဖွင့်နေသည်, ကျေးဇူးပြု၍ ခဏစောင့်ပါ…</string>
+    <string name="launching_please_wait">ဖြြြင့္‌ေနပါသည္... ေက်းဇူးျပဳ၍‌ ခဏေစာင့္ေပးပါ...</string>
     <plurals name="_count__item_is_downloading">
         <item quantity="other">Downloading <xliff:g example="1" id="count">%1$d</xliff:g> item.</item>
     </plurals>
     <string name="downloads_complete">ဒေါင်းလုဒ်အားလုံး ပြီးပါပြီ</string>
-    <string name="touch_for_view_all_downloads">ဒေါင်းလုဒ်အားလုံးကိုကြည့်ရန် နှိပ်ပါ</string>
+    <string name="touch_for_view_all_downloads">ေဒါင္းလုတ္ထားသည္မ်ားကိုၾကၫ့္ရင္ ဒီကိုႏိွပ္ပါ</string>
     <string name="_name__download_failed">
         <xliff:g example="APKPure" id="name">%1$ များ</xliff:g>ဒေါင်းလုဒ်မလုပ်နိုင်ပါ</string>
-    <string name="touch_to_download_it_again">နောက်တစ်ကြိမ် ဒေါင်းလုဒ်ပြုလုပ်ရန် နှိပ်ပါ</string>
+    <string name="touch_to_download_it_again">ေနာက္တႀကိမ္ျပန္လည္ေဒါင္းလုတ္ရန္ဒီကိုႏိွပ္ပါ</string>
     <string name="pause">ရပ်ထားသည်</string>
     <string name="pause_all">အားလုံးရပ်ပါ</string>
     <string name="continue_">ဆက်လုပ်ပါ</string>
@@ -128,11 +128,11 @@
     <string name="detail">အသေးစိတ်အချက်လက်</string>
     <string name="remove">ပယ်ဖျက်ပါ</string>
     <string name="remove_all">အားလုံးကိုပယ်ဖျက်ပါ</string>
-    <string name="want_to_remove_download_item">ဤဒေါင်းလုဒ်လုပ်ထားသည့်အရာကိုပယ်ဖျက်ချင်ပါသလား?</string>
-    <string name="want_to_remove_all_download_items">ဤဒေါင်းလုဒ်လုပ်ထားသည့်အရာများအားလုံးကို ဖျက်လိုပါသလား?</string>
+    <string name="want_to_remove_download_item">ဤအရာကို ပယ္ဖ်က္ရန္ေသခ်ာပါသလား\?</string>
+    <string name="want_to_remove_all_download_items">ဤအရာအားလံုးကို ပယ္ဖ်က္ရန္ ‌ေသခ်ာပါသလား\?</string>
     <string name="delete_downloaded_file">ဒေါင်းလုဒ်လုပ်ထားပြီးဖိုင်များကိုဖျက်မည်</string>
     <string name="download_over_cellular">မိုဘိုင်းလ်းဒေတာဖြင့်ဒေါင်းလုတ်လုပ်မည်</string>
-    <string name="download_over_cellular_content">သင်သည်မိုဘိုင်းလ်းဒေတာဖြင့် ဒေါင်းလုဒ်လုပ်ပါတော့မည်။သင်ဆက်လုပ်လိုပါသလား?</string>
+    <string name="download_over_cellular_content">သင္၏မိုဘိုင္းေဒတာ (အင္တာနက္) ျဖင့္ ‌ေဒါင္းလုတ္မည္ျဖစ္ပါသည္။ဆက္လုပ္မည္လား\?</string>
     <string name="search">ရှာဖွေပါ</string>
     <string name="market_response_error_invalid_response_body">တရားမဝင် ကိုယ်ထည် တုံ့ပြန်မှု.</string>
     <string name="version__version___size_">ဗားရှင်း: <xliff:g example="1.0.0" id="version">%1$s</xliff:g>, <xliff:g example="1024 kB" id="size">%2$s</xliff:g>
@@ -143,7 +143,7 @@
     <string name="trending_searches">ရေပန်းစားသော ရှာဖွေမှုများ</string>
     <string name="search_history">မှတ်တမ်း</string>
     <string name="clear_search_history">မှတ်တမ်းအားလုံး ရှင်းမည်</string>
-    <string name="improvement_plan_title">စွမ်းဆောင်ရည် တိုးတက်စေရန် အစီအစဉ်</string>
+    <string name="improvement_plan_title">အသံုးျပဳသူ၏အေတြ့အျကံု ျမွင့္တင္ျခင္းအစီအစဥ ္</string>
     <string name="improvement_plan_message">စက်ပစ္စည်း အချက်အလက်ကို အတည်ပြုပေးခြင်းဖြင့် ကျွန်ုပ်တို့ကို ကူညီပါ, <b>မဖော်ပြစေချင်သော </b> ပုဂ္ဂိုလ် ရေးအချက်အလက် (နာမည်, လိပ်စာ, အီးမေးလ် လိပ်စာ, လူမှု လုံခြုံရေး နံပါတ်, သို့ အခြား သီးသန့် သက်သေခံအရာများ) ကို ကျွန်ုပ်တို့ မရယူပါ</string>
     <string name="join_us">ကျွန်ုပ်တို့နှင့် ပူးပေါင်းပါ</string>
     <string name="skip">ကျော်မည်</string>
