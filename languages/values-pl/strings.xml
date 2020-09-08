@@ -14,7 +14,7 @@
     <string name="load_failed_error">Ups! Wystąpił błąd.</string>
     <string name="load_failed_empty">Nic tu nie ma.</string>
     <string name="load_failed_all_up_to_date">Wszystkie aplikacje są aktualne.</string>
-    <string name="load_failed_no_results">Przepraszamy! Nie znaleziono wyników.</string>
+    <string name="load_failed_no_results">Przepraszamy! Nie znaleziono wyszukiwanej frazy.</string>
     <string name="refresh">Odśwież</string>
     <string name="management">Zarządzanie</string>
     <string name="app_updates">Aktualizacje aplikacji</string>
@@ -52,9 +52,9 @@
     <string name="file_format_error">Błąd formatu pliku.</string>
     <string name="parsing_xapk">Parsowanie XAPK…</string>
     <string name="installing_obb">Instalowanie plików OBB …</string>
-    <string name="extracting_apk">"Wypakowywanie pliku APK ... "</string>
-    <string name="installing_apk">"Instalowanie pliku APK ... "</string>
-    <string name="uninstall">"Odinstaluj "</string>
+    <string name="extracting_apk">Wypakowywanie pliku APK …</string>
+    <string name="installing_apk">Instalowanie pliku APK …</string>
+    <string name="uninstall">Odinstaluj</string>
     <string name="uninstalled">Odinstalowano</string>
     <string name="last_update__date_">Ostatnia aktualizacja: <xliff:g id="date">%1$s</xliff:g>
     </string>
@@ -211,8 +211,8 @@
     <string name="recommend_description_title">Instrukcje:</string>
     <string name="recommend_user_recommend">Polecane przez %1$s</string>
     <string name="recommend_required">*</string>
-    <string name="user_detail_focus">Obserwujących</string>
-    <string name="user_detail_fans">Obserwuje</string>
+    <string name="user_detail_focus">Obserwowani</string>
+    <string name="user_detail_fans">Obserwujący</string>
     <string name="user_detail_praise">Polubienia</string>
     <string name="user_detail_tab_detail">Posty</string>
     <string name="user_detail_tab_reply">Komentarze</string>
@@ -224,7 +224,7 @@
     <string name="menu_follow_all">Wszystkie obserwowane</string>
     <string name="menu_follow_user">Obserwowani ludzie</string>
     <string name="menu_follow_group">Obserwowane grupy</string>
-    <string name="menu_follow_all_tab">Obserwowane</string>
+    <string name="menu_follow_all_tab">Obserwowani</string>
     <string name="menu_follow_group_tab">Grupy</string>
     <string name="choose_app">Wybierz aplikację</string>
     <string name="publish_comment">Post</string>
@@ -274,7 +274,7 @@
     <string name="reply_notification">Powiadomienia o odpowiedzi</string>
     <string name="reply_notification_msg">Otrzymuj powiadomienia o nowych odpowiedziach</string>
     <string name="gif_tip">gif</string>
-    <string name="comment_vote_string">Lubię</string>
+    <string name="comment_vote_string">Lubię to</string>
     <string name="comment_reply_three">Odpowiedz</string>
     <string name="set_updates_notification">Dostępność aktualizacji aplikacji</string>
     <string name="comment_detail_original">Zobacz oryginalny komentarz &gt;</string>
@@ -443,7 +443,7 @@
     <string name="user_info_edit_nickname_tv">Pseudonim</string>
     <string name="user_info_edit_email_tv">Email</string>
     <string name="user_info_edit_gender_tv">Płeć</string>
-    <string name="user_info_edit_birthday_tv">Data urodzenia</string>
+    <string name="user_info_edit_birthday_tv">Urodziny</string>
     <string name="user_info_edit_change_pwd_tv">Zresetuj hasło</string>
     <string name="user_info_edit_login_out_tv">Wyloguj się</string>
     <string name="user_info_edit_not_choose">Nieznany</string>
@@ -539,7 +539,7 @@
     <string name="collection">Ulubiony</string>
     <string name="cancel_collection">Usuń z ulubionych</string>
     <string name="follow">OBSERWOWANE</string>
-    <string name="attention_on">Obserwowane</string>
+    <string name="attention_on">Obserwowani</string>
     <string name="attention_off">Obserwuj</string>
     <string name="no_attention">Nie śledzisz żadnej grupy.</string>
     <string name="browsing_history">Historia przeglądania</string>
@@ -549,7 +549,7 @@
     <string name="ranking_tab3_title">Najlepsze aplikacje</string>
     <string name="ranking_top_countries_title">Rankingi regionalne</string>
     <string name="ranking_top_develop_title">Najlepsi programiści</string>
-    <string name="favorite_title">Ulubione</string>
+    <string name="favorite_title">Ulubiony</string>
     <string name="save_as_favorite">Zapisz w ulubionych</string>
     <string name="favorite_saved">Ulubione.</string>
     <string name="failed_to_save_favorite">Nie można zapisać do ulubionych</string>
@@ -581,7 +581,7 @@
     <string name="error_add_tag">Nie udało się dodać tagów.</string>
     <string name="no_collect">Brak ulubionych!</string>
     <string name="no_comment">Bądź pierwszym, który doda posta!</string>
-    <string name="filter_no_comment">Ooops! Nic nie znaleziono!</string>
+    <string name="filter_no_comment">Ups! Nie ma takiej treści!!</string>
     <string name="share_apk">Udostępnij APK</string>
     <string name="tab_apk">APK</string>
     <string name="commentaries">Relacja</string>
@@ -678,11 +678,11 @@
     <string name="error_hot_data_empty">Brak gorących hashtagów!</string>
     <string name="hot_subject">Gorące Hashtagi</string>
     <string name="menu_follow_subject">Obserwowane hashtagi</string>
-    <string name="menu_follow_subject_tab">"Hashtag "</string>
+    <string name="menu_follow_subject_tab">Hashtag</string>
     <string name="me_follow">Moje obserwowane</string>
     <string name="release_dynamics">Opublikuj post</string>
     <string name="delete_success">Sukces</string>
-    <string name="hot">Gorący</string>
+    <string name="hot">gorący</string>
     <string name="look_links">Wyświetl link</string>
     <string name="headline_no_data_tv">Brak nowych treści</string>
     <string name="hint">Uwaga</string>
@@ -838,7 +838,7 @@
     <string name="look_video">Odtwórz wideo</string>
     <string name="get_it_on">Pobierz go na:</string>
     <string name="users">Użytkownicy</string>
-    <string name="choice_hashtag">Polecane Hashtagi</string>
+    <string name="choice_hashtag">Polecane hashtagi</string>
     <string name="gif_auto_desc">Automatyczne odtwarzanie GIFów w sieci Wi-Fi</string>
     <string name="gif_auto_title">Automatyczne odtwarzanie GIF</string>
     <string name="several_drafts">
