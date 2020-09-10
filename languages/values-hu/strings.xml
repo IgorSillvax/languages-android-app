@@ -154,7 +154,7 @@
         <xliff:g example="APKPure" id="app_name">%1$s</xliff:g> APK megosztása (forrás: <xliff:g example="APKPure" id="social_network_name">%2$s</xliff:g>) <xliff:g example="https://apkpure.com/p/com.apkpure.aegon" id="app_url">%3$s</xliff:g>
     </string>
     <string name="_name__version_history">
-        <xliff:g example="APKPure" id="name">%1$s</xliff:g> verzióelőzmények</string>
+        <xliff:g example="APKPure" id="name">%1$s</xliff:g> verzióelőzmény</string>
     <string name="update__date___size_">Frissítés: <xliff:g example="Mar 3, 2016" id="date">%1$s</xliff:g>, <xliff:g example="1024 kB" id="size">%2$s</xliff:g>
     </string>
     <string name="touch_to_open">Érintse meg az indításához.</string>
@@ -208,8 +208,7 @@
     <string name="installation">Telepítés</string>
     <string name="show_notification_after_installation">Értesítés megjelenítése telepítés után</string>
     <string name="delete_packages_after_installation">Csomagok törlése telepítés után</string>
-    <string name="_name__installation_completed">
-        <xliff:g example="APKPure" id="name">%1$s</xliff:g> telepítés befejezve</string>
+    <string name="_name__installation_completed">A(z) <xliff:g example="APKPure" id="name">%1$s</xliff:g> telepítése befejeződött</string>
     <string name="auto_service_install_accessibility_title">Automatikus telepítés</string>
     <string name="auto_service_install_accessibility_summary">Android 4.1+ támogatás. Nincs szükség root hozzáférésre.</string>
     <string name="auto_service_dialog_title">Automatikus telepítés engedélyezése</string>
@@ -716,8 +715,7 @@
     <string name="del_account_sure">Fiókja 48 órán belül törlődik. Ha további kérdései vannak, forduljon hozzánk.</string>
     <string name="reply_to">%1$s válasz:</string>
     <string name="msg_all_read_notice">Értesítés</string>
-    <string name="share_app_url_comment_v3">
-        <xliff:g example="zhangsan" id="name">%1$s</xliff:g> megosztása <xliff:g example="post/story/review" id="type">%2$s</xliff:g> (APKPure-ról):<xliff:g example="https://apkpure.com" id="url">%3$s </xliff:g>
+    <string name="share_app_url_comment_v3">Share <xliff:g example="zhangsan" id="name">%1$s</xliff:g> megosztása <xliff:g example="post/story/review" id="type">%2$s</xliff:g> (APKPure-ról):<xliff:g example="https://apkpure.com" id="url">%3$s </xliff:g>
     </string>
     <string name="apk_unable_upload">Nem sikerült feltölteni az apk-t.</string>
     <string name="long_image">Magas kép</string>
@@ -733,9 +731,9 @@
     <string name="download_install_obb">OBB telepítése</string>
     <string name="download_install_apk">APK telepítése</string>
     <string name="users_recommended_title">Gratulálunk!</string>
-    <string name="users_recommended_des">Az Ön véleménye egy kiemelt felhasználói ajánlásként lett kiválasztva,%1$s</string>
+    <string name="users_recommended_des">Az Ön üzenete felhasználói ajánlásként lett kiválasztva,%1$s</string>
     <string name="recommended_posts_title">Gratulálunk!</string>
-    <string name="recommended_posts_des">Az Ön véleménye kiemelt felhasználói ajánlásként lett kiválasztva,%1$s</string>
+    <string name="recommended_posts_des">Az Ön hozzászólása ajánlott posztként lett kiválasztva,%1$s</string>
     <string name="comment_removed_title">Bejegyzése el lett távolítása</string>
     <string name="comment_removed_des">Úgy tűnik, hogy valami, amit közzétett, nem követi a(z) %1$s leírásait. Nem tesszük lehetővé magánszemélyeket zaklató, illetve az APKPure-t sértő állítások közzétételét. Ez magába foglalhatja a fizikai megfélemlítést ábrázoló képeket, fotókat vagy videókat, továbbá bármely más, az adott személy lealacsonyítására vagy megszégyenítésére törekvő üzeneteket. 
 \n%2$s 
@@ -837,4 +835,7 @@
     <string name="picture_min_video_num">A videó kiválasztás nem lehet %1$s szám</string>
     <string name="several_drafts">
         <xliff:g example="5" id="count">%1$s</xliff:g> piszkozat</string>
+    <string name="search_tab_invitation">Hozzászólások</string>
+    <string name="home_recommended_desc">Az Ön üzenete kezdőlap ajánlásként lett kiválasztva,%1$s</string>
+    <string name="home_recommended_title">Gratulálunk!</string>
 </resources>

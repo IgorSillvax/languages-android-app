@@ -1,26 +1,21 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-
     <string name="action_settings">Postavke</string>
     <string name="action_search">Traži</string>
-    <string name="action_management">Upravljanje</string>
-
-    <string name="press_back_key_quit">Još jednom pritisnite tipku za natrag za napuštanje.</string>
-
+    <string name="action_management">Face 
+\nUpravljanje</string>
+    <string name="press_back_key_quit">Da biste izašli, još jednom dodirnite gumb za povratak.</string>
     <string name="featured">Istaknuto</string>
     <string name="games">Igre</string>
     <string name="apps">Aplikacije</string>
     <string name="categories">Kategorije</string>
     <string name="updates">Ažuriranja</string>
-
     <string name="something_happened">&gt;_&lt;\nNešto se dogodilo.</string>
-
     <string name="load_failed_error">Ups! Dogodila se pogreška.</string>
     <string name="load_failed_empty">Ovdje nema ničega.</string>
     <string name="load_failed_all_up_to_date">Sve aplikacije su ažurirane.</string>
     <string name="load_failed_no_results">Oprosti! Nema pronađenih rezultata.</string>
     <string name="refresh">Osvježi</string>
-
     <string name="management">Upravljanje</string>
     <string name="app_updates">Ažuriranje aplikacija</string>
     <string name="app_management">Upravitelj aplikacija</string>
@@ -30,21 +25,22 @@
     <string name="download_management">Upravitelj preuzimanja</string>
     <string name="settings">Postavke</string>
     <string name="about">O…</string>
-    <string name="about_title">O aplikaciji<xliff:g id="app_name" example="APKPure">%1$s</xliff:g></string>
+    <string name="about_title">O aplikaciji<xliff:g id="app_name" example="APKPure">%1$s</xliff:g>
+    </string>
     <string name="about_message">
         <![CDATA[<b>Verzija:</b> %1$s<br><br><b>Web stranica:</b> <a href="%2$s">%2$s</a><br><b>Email:</b> <a href="mailto:%3$s">%3$s</a>]]>
     </string>
     <string name="check_update">Provjera ažuriranja</string>
     <string name="quit">Izađi</string>
     <string name="want_to_quit">Jeste li sigurni da želite izaći?</string>
-
     <string name="install">Instaliraj</string>
     <string name="open">Otvori</string>
     <string name="delete">Izbriši</string>
-    <string name="want_to_delete_file">Želite li izbrisati ovu arhivu?</string>
+    <string name="want_to_delete_file">Želite li izbrisati ovu datoteku\?</string>
     <string name="file_has_been_deleted">Arhiva je izbrisana.</string>
     <string name="failed_to_delete_file">Arhiva se nije uspjela izbrisati.</string>
-    <string name="install__label_">Instaliraj - <xliff:g id="app_label" example="APKPure">%1$s</xliff:g></string>
+    <string name="install__label_">Instaliraj - <xliff:g id="app_label" example="APKPure">%1$s</xliff:g>
+    </string>
     <string name="user_canceled">Korisnik otkazao.</string>
     <string name="io_error">IO pogreška. Nema dovoljno slobodnog prostora za instalaciju.</string>
     <string name="file_format_error">Pogreška formata datoteke.</string>
@@ -52,13 +48,11 @@
     <string name="installing_obb">Instaliravanje OBB datoteka…</string>
     <string name="extracting_apk">Otpakiravanje APK datoteke…</string>
     <string name="installing_apk">Instaliravanje APK-a…</string>
-
     <string name="uninstall">Deinstaliraj</string>
     <string name="uninstalled">Deinstalirano</string>
-    <string name="last_update__date_">Posljednje ažuriranje: <xliff:g id="date">%1$s</xliff:g></string>
-
+    <string name="last_update__date_">Posljednje ažuriranje: <xliff:g id="date">%1$s</xliff:g>
+    </string>
     <string name="all">Sve</string>
-
     <string name="screenshots">Snimke zaslona</string>
     <string name="description">Opis</string>
     <string name="whatsnew">Što je novo</string>
@@ -69,14 +63,13 @@
     <string name="permissions_">Dozvole:</string>
     <string name="type_">Vrsta:</string>
     <string name="category_">Kategorija:</string>
-    <string name="more">više</string>
+    <string name="more">Više</string>
     <string name="permissions">Dozvole</string>
     <string name="other">Drugo</string>
     <string name="apk">APK</string>
     <string name="xapk">XAPK</string>
     <string name="unknown">Nepoznato</string>
     <string name="_ellipsis_"> … </string>
-
     <string name="market_response_error_success">Uspješno.</string>
     <string name="market_response_error_invalid_result">Nevažeći rezultat.</string>
     <string name="market_response_error_network_connect_error">Pogreška mrežne veze.</string>
@@ -84,30 +77,30 @@
     <string name="market_response_error_invalid_response_code">Nevažeći kod odgovora.</string>
     <string name="market_response_error_invalid_response_body">Nevažeći odgovor.</string>
     <string name="market_response_error_unknown_error__error_">Nepoznata pogreška (<xliff:g id="error" example="USPJEŠNO">%1$s</xliff:g>).</string>
-
     <string name="no_more">Nema više.</string>
-
-    <string name="update"></string>
-    <string name="version__version___size_">Verzija: <xliff:g id="version" example="1.0.0">%1$s</xliff:g>, <xliff:g id="size" example="1024 kB">%2$s</xliff:g></string>
+    <string name="update">Update</string>
+    <string name="version__version___size_">Verzija: <xliff:g id="version" example="1.0.0">%1$s</xliff:g>, <xliff:g id="size" example="1024 kB">%2$s</xliff:g>
+    </string>
     <plurals name="_count__new_update_is_available">
-	<item quantity="one"></item>
-	<item quantity="few"></item>
-	<item quantity="other"></item>
-</plurals>
-
-    <string name="launching_please_wait">POKRETANJE, MOLIM PRIČEKAJTE…</string>
-
+        <item quantity="one">
+            <xliff:g example="1" id="count">%1$d</xliff:g> Dostupno je jedno ažuriranje</item>
+        <item quantity="few">
+            <xliff:g example="2" id="count">%1$d</xliff:g> dostupna su ažuriranja</item>
+        <item quantity="other"></item>
+    </plurals>
+    <string name="launching_please_wait">POKRETANJE...MOLIM PRIČEKAJTE.</string>
     <plurals name="_count__item_is_downloading">
-	<item quantity="one"></item>
-	<item quantity="few"></item>
-	<item quantity="other"></item>
-</plurals>
+        <item quantity="one">Downloading <xliff:g example="1" id="count">%1$d</xliff:g> stavka.</item>
+        <item quantity="few">Downloading <xliff:g example="2" id="count">%1$d</xliff:g> stavke.</item>
+        <item quantity="other"></item>
+    </plurals>
     <string name="downloads_complete">Preuzimanja su završena</string>
     <string name="touch_for_view_all_downloads">Dotaknite da vidite sva preuzimanja</string>
-    <string name="_name__download_failed"><xliff:g id="name" example="APKPure">%1$s</xliff:g> Neuspješno preuzimanje</string>
+    <string name="_name__download_failed">
+        <xliff:g id="name" example="APKPure">%1$s</xliff:g> Neuspješno preuzimanje</string>
     <string name="touch_to_download_it_again">Dotaknite da instalirate ponovno</string>
-
-    <string name="download_percent"><xliff:g id="percent" example="50">%1$d</xliff:g> %%</string>
+    <string name="download_percent">
+        <xliff:g id="percent" example="50">%1$d</xliff:g> %%</string>
     <string name="pause">Pauza</string>
     <string name="continue_">Nastavi</string>
     <string name="restart">Ponovi</string>
@@ -124,52 +117,79 @@
     <string name="detail">Detalj</string>
     <string name="remove">Izbriši</string>
     <string name="want_to_remove_download_item">Želite li izbrisati ovu stavku?</string>
-
     <string name="search">Search</string>
-    <string name="search_for_apps">Traži aplikacije</string>
+    <string name="search_for_apps">Pretraži APKPure</string>
     <string name="trending_searches">Pretraga trendova</string>
-
-    <string name="improvement_plan_title">Unapređenje</string>
-    <string name="improvement_plan_message">
-        <![CDATA[Pomognite nam potvrditi informaciju Android uređaja, nećemo <b> prikupititi</b> Vaše osobne podatke (ime, adresu, e-poštu, broj socijalnog osiguranja, ili druge jedinstvene identifikatore).]]>
-    </string>
+    <string name="improvement_plan_title">Unapređenje korisničkog iskustva</string>
+    <string name="improvement_plan_message">Pomozite nam poboljšati vaše iskustvo slanjem informacije o uređaju. Obećajemo da <b>nećemo</b> prikupljati vaše osobne informacije (ime, adresu, e-mail adresu, društvene sigurnosne brojeve, ili bilo kakve druge informacije).</string>
     <string name="join_us">Pridružite nam se</string>
     <string name="skip">Preskoči</string>
-
-    <string name="_name__is_up_to_date"><xliff:g id="name" example="APKPure">%1$s</xliff:g> je ažuriran.</string>
+    <string name="_name__is_up_to_date">
+        <xliff:g id="name" example="APKPure">%1$s</xliff:g> je ažuriran.</string>
     <string name="new_version_available_title">Dostupna nova verzija</string>
     <string name="new_version_available_message">
         <![CDATA[<b>Posljednja verzija:</b> %1$s<br><br><b>Što je novo:</b><br>%2$s]]>
     </string>
-
     <string name="report__">Report…</string>
     <string name="report_problem__">Prijavi problem…</string>
     <string name="report_problem_subject">Prijavi problem</string>
     <string name="report_problem_text">Tema problema:\n%1$s\n\nDetalji problema:\n%2$s</string>
-
-    <string name="installation_failed">Neuspješna instalacija</string>
+    <string name="installation_failed">Neuspješna Instalacija.</string>
     <string name="invalid_app_detail">Nevažeće informacije aplikacije.</string>
     <string name="invalid_app_asset">Nevažeća informacija aplikacije.</string>
     <string name="failed_to_request_app_detail">Neuspješno zatraženje informacije o aplikaciji.</string>
     <string name="failed_to_request_app_asset">Neuspješno zatraženje informacije o aplikaciji.</string>
-    <string name="incompatible_this_app">
-        <![CDATA[<big><b><font color="%1$d">Vaš uređaj nije kompatibilan s ovom aplikacijom.</font></b></big><br><br>Želite li nastaviti?]]>
-    </string>
-    <string name="this_app_not_usable">
-        <![CDATA[<big><b><font color="%1$d">Ova aplikacija možda nije sposobna za korištenje.</font></b></big><br><br>Želite li nastaviti?]]>
-    </string>
-
+    <string name="incompatible_this_app">&lt;big&gt;&lt;b&gt;&lt;font color=%1$d&gt;Vaš uređaj nije kompatibilan s ovom aplikacijom.&lt;/font&gt;&lt;/b&gt;&lt;/big&gt;&lt;br&gt;&lt;br&gt;Nastaviti\?</string>
+    <string name="this_app_not_usable">&lt;big&gt;&lt;b&gt;&lt;font color=%1$d&gt;Ova aplikacija možda nije sposobna za korištenje.&lt;/font&gt;&lt;/b&gt;&lt;/big&gt;&lt;br&gt;&lt;br&gt;Nastaviti\?</string>
     <string name="setting">Postavke</string>
     <string name="external_storage_not_usable">
         <![CDATA[<big><b>Trebamo pristup Vašoj unutarnjoj pohrani. Molim uvjerite se da je spremna za korištenje.</b></big>]]>
     </string>
     <string name="external_storage_permission_denied">
-        <![CDATA[<big><b>Trebamo pristup Vašoj unutarnjoj pohrani. Molim uvjerite se da dozvola nije odbijena.</b></big>]]>
+        <big>
+            <b>Trebamo pristup Vašoj unutarnjoj pohrani. Molimo provjerite dali je pristup omogućen.</b>
+        </big>
     </string>
-
     <string name="share">Podijeli</string>
-    <string name="share_app_url">Instaliraj <xliff:g id="app_name" example="APKPure">%1$s</xliff:g> APK (from @<xliff:g id="social_network_name" example="APKPure">%2$s</xliff:g>), <xliff:g id="app_url" example="https://apkpure.com/p/com.apkpure.aegon">%3$s</xliff:g></string>
-
-    <string name="_name__version_history"><xliff:g id="name" example="APKPure">%1$s</xliff:g> Povijest verzija:</string>
-    <string name="update__date___size_">Ažurirano: <xliff:g id="date" example="Mar 3, 2016">%1$s</xliff:g>, <xliff:g id="size" example="1024 kB">%2$s</xliff:g></string>
+    <string name="share_app_url">Instaliraj <xliff:g id="app_name" example="APKPure">%1$s</xliff:g> APK (from @<xliff:g id="social_network_name" example="APKPure">%2$s</xliff:g>), <xliff:g id="app_url" example="https://apkpure.com/p/com.apkpure.aegon">%3$s</xliff:g>
+    </string>
+    <string name="_name__version_history">
+        <xliff:g id="name" example="APKPure">%1$s</xliff:g> Povijest verzija:</string>
+    <string name="update__date___size_">Ažurirano: <xliff:g id="date" example="Mar 3, 2016">%1$s</xliff:g>, <xliff:g id="size" example="1024 kB">%2$s</xliff:g>
+    </string>
+    <string name="feedback">Povratne informacije</string>
+    <string name="report_content">Prijavi Sadržaj</string>
+    <string name="contact_us">Kontaktirajte Nas</string>
+    <string name="contact_us__">Kontaktirajte nas. . .</string>
+    <string name="report">Prijavi</string>
+    <string name="enable">Omogući</string>
+    <string name="participate_ultra_download_beta_test_content">Ultra Preuzimanje je još uvijek u beta verziji. Kontaktirajte nas ako naiđe te na probleme. Možete jednostavno isključiti u Postavkama</string>
+    <string name="participate_ultra_download_beta_test_title">Uključi Ultra Preuzimanje i uživajte u bržem preuzimanju</string>
+    <string name="clear_search_history">Izbrisati povijest</string>
+    <string name="search_history">Povijest</string>
+    <string name="download_over_cellular_content">Preuzet ćete putem mobilnih podataka. Nastaviti\?</string>
+    <string name="download_over_cellular">Preuzimanje putem mobilnih podataka</string>
+    <string name="delete_downloaded_file">Izbrisati preuzetu datoteku</string>
+    <string name="want_to_remove_all_download_items">Želite li ukloniti sve stavke\?</string>
+    <string name="remove_all">Uklonite sve</string>
+    <string name="installed">Instalirano</string>
+    <string name="deleted">Izbrisano</string>
+    <string name="waiting_to_download">Čeka se preuzimanje</string>
+    <string name="continue_all">Nastavi Sve</string>
+    <string name="pause_all">Pauzirati sve</string>
+    <string name="history_version">Povijest Verizije</string>
+    <string name="flag_as_inappropriate">Označi Kao Neprikladno</string>
+    <string name="more_large">Više</string>
+    <string name="more_from_developer">Više Od Programerskog Izdavača</string>
+    <string name="similar_or_related">Slično Ili Povezano</string>
+    <string name="want_to_delete_all_files">Jeste li sigurni da želite izbrisati sve datoteke\?</string>
+    <string name="properties_message_v2">&lt;b&gt;Naziv Paketa:&lt;/b&gt; %1$s&lt;br&gt;&lt;b&gt;Verzija:&lt;/b&gt; %2$s&lt;br&gt;&lt;b&gt;Putanja:&lt;/b&gt; %3$s&lt;br&gt;&lt;b&gt;Veličina:&lt;/b&gt; %4$s&lt;br&gt;&lt;b&gt;Posljednje Uređivano:&lt;/b&gt; %5$s</string>
+    <string name="properties_message">&lt;b&gt;Putanja:&lt;/b&gt; %1$s&lt;br&gt;&lt;b&gt;Veličina:&lt;/b&gt; %2$s&lt;br&gt;&lt;b&gt;Posljednje uređivano:&lt;/b&gt; %3$s</string>
+    <string name="properties">Svojstva</string>
+    <string name="delete_all">Izbriši sve</string>
+    <string name="beta">Beta</string>
+    <string name="check_update_beta">pred izdanje Beta</string>
+    <string name="check_update_replace">Službena verzija</string>
+    <string name="load_failed_error_not_found">Ova aplikacija nije uključena u APKPure</string>
+    <string name="recommend">Otkrij</string>
 </resources>

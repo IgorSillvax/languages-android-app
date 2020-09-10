@@ -1,43 +1,38 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-
     <string name="action_settings">সেটিংস</string>
     <string name="action_search">অনুসন্ধান</string>
     <string name="action_management">পরিচালনা</string>
-
-    <string name="press_back_key_quit">আর একবার ব্যাক বোতাম টিপুন এবং প্রস্থান করুন .</string>
-
+    <string name="press_back_key_quit">বের হতে হলে, আবার ব্যাক বাটন চাপুন।</string>
     <string name="featured">বৈশিষ্ট্যযুক্ত</string>
     <string name="games">গেম</string>
     <string name="apps">অ্যাপ</string>
     <string name="categories">বিভাগসমূহ</string>
     <string name="updates">আপডেটসমূহ</string>
-
     <string name="something_happened">&gt;_&lt;\nকিছু হয়েছে।.</string>
-
     <string name="load_failed_error">ওহোঃ! একটি ত্রুটি হয়েছে।.</string>
     <string name="load_failed_empty">এখানে কিছু নেই।.</string>
     <string name="load_failed_all_up_to_date">সমস্ত অ্যাপ আপ টু ডেট.</string>
     <string name="load_failed_no_results">দুঃখিত! কোনো ফলাফল খুঁজে পাওয়া যায় নি।.</string>
     <string name="refresh">রিফ্রেশ করুন</string>
-
     <string name="management">পরিচালনা</string>
     <string name="app_updates">অ্যাপ আপডেটসমূহ</string>
     <string name="app_management">ইনস্টল করা হয়েছে</string>
-    <string name="app_uninstall">অ্যাপ আনইনস্টল</string>
+    <string name="app_uninstall">অ্যাপ আন ইনস্টল</string>
     <string name="apk_management">APK পরিচালনা</string>
     <string name="installation_failed">ইনস্টলেশন ব্যর্থ হয়েছে</string>
     <string name="invalid_app_detail">অবৈধ অ্যাপের বিস্তারিত তথ্য।.</string>
     <string name="download_management">ডাউনলোড পরিচালনা</string>
     <string name="settings">সেটিংস</string>
     <string name="about">সম্পর্কে</string>
-    <string name="about_title"><xliff:g example="APKPure" id="app_name">%1$s</xliff:g> সম্পর্কে</string>
+    <string name="about_title">
+        <xliff:g example="APKPure" id="app_name">%1$s</xliff:g> সম্পর্কে</string>
     <string name="about_message">
         <![CDATA[<b>ভার্সন:</b> %1$s<br><br><b>ওয়েব সাইট:</b> <a href=%2$s>%2$s</a><br><b>ইমেইল:</b> <a href=mailto:%3$s>%3$s</a>]]>
-    </string>    <string name="check_update">আপডেট পরীক্ষা করুন</string>
+    </string>
+    <string name="check_update">App আপডেট এর জন্য পরীক্ষা করুন</string>
     <string name="quit">প্রস্থান করুন</string>
     <string name="want_to_quit">আপনি কি প্রস্থান করার বিষয়ে নিশ্চিত\?</string>
-
     <string name="install">ইনস্টল করুন</string>
     <string name="open">খুলুন</string>
     <string name="delete">মুছুন</string>
@@ -47,25 +42,24 @@
     <string name="properties_message">
         <![CDATA[<b>পাথ:</b> %1$s<br><b>Size:</b> %2$s<br><b>শশেষ সংশোধিত:</b> %3$s]]>
     </string>
-    <string name="want_to_delete_file">আপনি কি এই ফাইলটি মুছতে চান\?</string>
+    <string name="want_to_delete_file">আপনি কি এই ফাইলটি মুছে ফেলার বিষয়ে নিশ্চিত \?</string>
     <string name="want_to_delete_all_files">আপনি কি সমস্ত ফাইল মুছতে চান\?</string>
     <string name="file_has_been_deleted">ফাইলটি মোছা হয়েছে।.</string>
     <string name="failed_to_delete_file">ফাইলটি মুছতে ব্যর্থ হয়েছে।.</string>
-    <string name="install__label_">ইনস্টল করুন - <xliff:g example="APKPure" id="app_label">%1$s</xliff:g></string>
+    <string name="install__label_">ইনস্টল করুন - <xliff:g example="APKPure" id="app_label">%1$s</xliff:g>
+    </string>
     <string name="user_canceled">ব্যবহারীকে বাতিল করা হয়েছে।.</string>
-    <string name="io_error">IO ত্রুটি। হতে পারে যে ইনস্টলটি সফল হওয়ার মতো পর্যাপ্ত খালি জায়গা নেই।.</string>
+    <string name="io_error">"IO ত্রুটি। হতে পারে যে ইনস্টলটি সফল হওয়ার মতো পর্যাপ্ত  জায়গা খালি নেই।."</string>
     <string name="file_format_error">ফাইল ফরম্যাটের ত্রুটি।.</string>
     <string name="parsing_xapk">XAPK শব্দবিশ্লেষণ করছে …</string>
     <string name="installing_obb">OBB ফাইলগুলি ইনস্টল করছে …</string>
     <string name="extracting_apk">"APK ফাইল আহরণ করছে  …"</string>
     <string name="installing_apk">APK ইনস্টল করছে …</string>
-
     <string name="uninstall">আনইনস্টল করুন</string>
     <string name="uninstalled">আনইনস্টল করা হয়েছে</string>
-    <string name="last_update__date_">অন্তিম আপডেট: <xliff:g id="date">%1$s</xliff:g></string>
-
+    <string name="last_update__date_">অন্তিম আপডেট: <xliff:g id="date">%1$s</xliff:g>
+    </string>
     <string name="all">সমস্ত</string>
-
     <string name="screenshots">স্ক্রিনশটসমূহ</string>
     <string name="description">বিবরণ</string>
     <string name="whatsnew">নতুন কী</string>
@@ -84,7 +78,6 @@
     <string name="unknown">অজানা</string>
     <string name="flag_as_inappropriate">অনুপযুক্ত হিসাবে ফ্ল্যাগ করুন</string>
     <string name="_ellipsis_"> … </string>
-
     <string name="market_response_error_success">সফল।.</string>
     <string name="market_response_error_invalid_result">অবৈধ ফলাফল।.</string>
     <string name="market_response_error_network_connect_error">নেটওয়ার্ক সংযোগ ত্রুটি।.</string>
@@ -92,29 +85,31 @@
     <string name="market_response_error_invalid_response_code">অবৈধ উত্তরের কোড।.</string>
     <string name="market_response_error_invalid_response_body">অবৈধ উত্তরের মূল অংশ।.</string>
     <string name="market_response_error_unknown_error__error_">অজানা ত্রুটি (<xliff:g example="SUCCESS" id="error">%1$s</xliff:g>).</string>
-
     <string name="no_more">আর নয়।.</string>
-
     <string name="update">আপডেট</string>
-    <string name="version__version___size_">সংস্করণ: <xliff:g example="1.0.0" id="version">%1$s</xliff:g>, <xliff:g example="1024 kB" id="size">%2$s</xliff:g></string>
+    <string name="version__version___size_">সংস্করণ: <xliff:g example="1.0.0" id="version">%1$s</xliff:g>, <xliff:g example="1024 kB" id="size">%2$s</xliff:g>
+    </string>
     <plurals name="_count__new_update_is_available">
-        <item quantity="one"><xliff:g example="1" id="count">%1$d</xliff:g> New Update Is Available</item>
-        <item quantity="other"><xliff:g example="1" id="count">%1$d</xliff:g> নতুন আপডেট উপলভ্য</item>
+        <item quantity="one">
+            <xliff:g example="1" id="count">%1$d</xliff:g> New Update Is Available</item>
+        <item quantity="other">
+            <xliff:g example="1" id="count">%1$d</xliff:g> নতুন আপডেট উপলভ্য</item>
     </plurals>
-
     <string name="launching_please_wait">লঞ্চ করছে, অনুগ্রহ করে অপেক্ষা করুন…</string>
-
     <string name="failed">ব্যর্থ হয়েছে</string>
     <plurals name="_count__item_is_downloading">
-        <item quantity="one"><xliff:g example="1" id="count">%1$d</xliff:g> বিষয়টি ডাউনলোড হচ্ছে</item>
-        <item quantity="other"><xliff:g example="1" id="count">%1$d</xliff:g> আইটেম ডাউনলোড হচ্ছে</item>
+        <item quantity="one">
+            <xliff:g example="1" id="count">%1$d</xliff:g> বিষয়টি ডাউনলোড হচ্ছে</item>
+        <item quantity="other">
+            <xliff:g example="1" id="count">%1$d</xliff:g> আইটেম ডাউনলোড হচ্ছে</item>
     </plurals>
-    <string name="downloads_complete">ডাউনলোডগুলি সম্পূর্ণ হয়েছে</string>
-    <string name="touch_for_view_all_downloads">সমস্ত ডাউনলোডগুলি দেখতে স্পর্শ করুন</string>
-    <string name="_name__download_failed"><xliff:g example="APKPure" id="name">%1$s</xliff:g> ডাউনলোড ব্যর্থ হয়েছে</string>
-    <string name="touch_to_download_it_again">এটি আবার ডাউনলোড করতে স্পর্শ করুন</string>
-
-    <string name="download_percent"><xliff:g example="50" id="percent">%1$d</xliff:g> %%</string>
+    <string name="downloads_complete">সকল ডাউনলোড সম্পূর্ণ হয়েছে</string>
+    <string name="touch_for_view_all_downloads">সকল ডাউনলোড দেখতে চাপ দিন</string>
+    <string name="_name__download_failed">
+        <xliff:g example="APKPure" id="name">%1$s</xliff:g> ডাউনলোড ব্যর্থ হয়েছে</string>
+    <string name="touch_to_download_it_again">পুনরায় ডাউনলোড করতে স্পর্শ করুন</string>
+    <string name="download_percent">
+        <xliff:g example="50" id="percent">%1$d</xliff:g> %%</string>
     <string name="pause">সাময়িক বন্ধ রাখুন</string>
     <string name="pause_all">সব আময়িক বন্ধ রাখুন</string>
     <string name="continue_">অবিরত রাখুন</string>
@@ -135,28 +130,25 @@
     <string name="detail">বিস্তারিত</string>
     <string name="remove">অপসারণ করুন</string>
     <string name="remove_all">সব অপসারণ করুন</string>
-    <string name="want_to_remove_download_item">আপনি কি এই ডাউনলোড আইটেমটি অপসারণ করতে চান\?</string>
-    <string name="want_to_remove_all_download_items">আপনি কি এই ডাউনলোড আইটেমগুলি অপসারণ করতে চান\?</string>
+    <string name="want_to_remove_download_item">আপনি কি এই আইটেমটি অপসারণ করতে চান\?</string>
+    <string name="want_to_remove_all_download_items">আপনি কি নিশ্চিতভাবে সব ডাউনলোড অপসারণ করতে চান\?</string>
     <string name="delete_downloaded_file">ডাউনলোড করা ফাইল মুছুন</string>
     <string name="download_over_cellular">সেলুলার দিয়ে ডাউনলোড করুন</string>
     <string name="download_over_cellular_content">আপনি আপনার মোবাইল নেটওয়ার্ক ব্যবহার করে ডাউনলোড করতে চলেছেন। আপনি কি অবিরত রাখতে চান\?</string>
-
     <string name="search">অনুসন্ধান</string>
     <string name="search_for_apps">APKPure অনুসন্ধান করুন</string>
     <string name="trending_searches">প্রচলিত অনুসন্ধানগুলি</string>
     <string name="search_history">ইতিহাস</string>
     <string name="clear_search_history">সমস্ত ইতিহাস মুছে সাফ করুন</string>
-
     <string name="improvement_plan_title">পারফরমেন্স উন্নয়ন পরিকল্পনা</string>
     <string name="improvement_plan_message">অ্যানড্রয়েড ডিভাইস তথ্য জমা করতে আমাদের সহায়তা করুন, আমরা ব্যক্তিগতভাবে-সনাক্তকরণযোগ্য তথ্য (নাম, ঠিকানা, ইমেল ঠিকানা, সোশ্যাল সিকিউরিটি নম্বর, বা অন্যান্য স্বতন্ত্র্য সনাক্তকারী) <b>করি না</b>।.</string>
     <string name="join_us">অআমাদের সাথে যোগদান করুন</string>
     <string name="skip">এড়িয়ে যান</string>
-
     <string name="participate_ultra_download_beta_test_title">আলট্রা ডাউনলোদ সক্রিয় করুন এবং একটি দ্রুততর ডাউনলোডিং গতি উপভোগ করুন</string>
     <string name="participate_ultra_download_beta_test_content">অআলট্রা ডাউনলোড বিটা টেস্টিংয়ে আছে, আপনি কোনো সমস্যার সম্মুখীন হলে আমাদের জানান। আপনি সেটিংসে এটি অনায়াসে নিষ্ক্রিয় করতে পারবেন।</string>
     <string name="enable">সক্রিয় করুন</string>
-
-    <string name="_name__is_up_to_date"><xliff:g example="APKPure" id="name">%1$s</xliff:g> আপ টু ডেট।</string>
+    <string name="_name__is_up_to_date">
+        <xliff:g example="APKPure" id="name">%1$s</xliff:g> আপ টু ডেট।</string>
     <string name="new_version_available_title">নতুন সংস্করণ উপলভ্য</string>
     <string name="new_version_available_message">
         <![CDATA[<b>সাম্প্রতিক সংস্করণ:</b> %1$s<br><br><b>নতুন কী:</b><br>%2$s]]>
@@ -172,7 +164,6 @@
     <string name="contact_us__">আমাদের সাথে যোগাযোগ করুন…</string>
     <string name="contact_us">আমাদের সাথে যোগাযোগ করুন</string>
     <string name="report_content">কন্টেন্ট রিপোর্ট করুন</string>
-
     <string name="invalid_app_asset">অবৈধ অ্যাপের সম্পদের তথ্য।.</string>
     <string name="failed_to_request_app_detail">অ্যাপের বিস্তারিত তথ্য অনুরোধ করতে ব্যর্থ হয়েছে।.</string>
     <string name="failed_to_request_app_asset">অ্যাপের সম্পদের তথ্য অনুরোধ করতে ব্যর্থ হয়েছে।.</string>
@@ -183,15 +174,23 @@
         <![CDATA[<big><b><font color="%1$d">এই এপস ব্যাবহারে অনপযোগী।</font></b></big><br><br>আপনি কি অবিরত রাখতে চান?]]>
     </string>
     <string name="setting">সেটিংস</string>
-    <string name="external_storage_not_usable"><big><b>আমাদের আপনার বাইরের স্টোরেজ অ্যাক্সেস করতে হবে। অনুগ্রহ করে নিশ্চিত করুন যে সেটি ব্যবহারযোগ্য।</b></big></string>
-    <string name="external_storage_permission_denied"><big><b>আমাদের আপনার বাইরের স্টোরেজ অ্যাক্সেস করতে হবে। অনুগ্রহ করে নিশ্চিত করুন যে সেটির অনুমতিটি যেন প্রত্যাখাত না হয়।</b></big></string>
-
+    <string name="external_storage_not_usable">
+        <big>
+            <b>আমাদের আপনার বাইরের স্টোরেজ অ্যাক্সেস করতে হবে। অনুগ্রহ করে নিশ্চিত করুন যে সেটি ব্যবহারযোগ্য।</b>
+        </big>
+    </string>
+    <string name="external_storage_permission_denied">
+        <big>
+            <b>আমাদের আপনার বাইরের স্টোরেজ অ্যাক্সেস করতে হবে। অনুগ্রহ করে নিশ্চিত করুন যে সেটির অনুমতিটি যেন প্রত্যাখাত না হয়।</b>
+        </big>
+    </string>
     <string name="share">শেয়ার করুন</string>
-    <string name="share_app_url"> <xliff:g example="APKPure" id="app_name">%1$s</xliff:g> APK (from <xliff:g example="APKPure" id="social_network_name">%2$s</xliff:g>) <xliff:g example="https://apkpure.com/p/com.apkpure.aegon" id="app_url">%3$s</xliff:g> শেয়ার করুন </string>
-
-    <string name="_name__version_history"><xliff:g example="APKPure" id="name">%1$s</xliff:g> সংস্করণের তারিখ</string>
-    <string name="update__date___size_">আপডেট: <xliff:g example="Mar 3, 2016" id="date">%1$s</xliff:g>, <xliff:g example="1024 kB" id="size">%2$s</xliff:g></string>
-
+    <string name="share_app_url">
+        <xliff:g example="APKPure" id="app_name">%1$s</xliff:g> APK (from <xliff:g example="APKPure" id="social_network_name">%2$s</xliff:g>) <xliff:g example="https://apkpure.com/p/com.apkpure.aegon" id="app_url">%3$s</xliff:g> শেয়ার করুন </string>
+    <string name="_name__version_history">
+        <xliff:g example="APKPure" id="name">%1$s</xliff:g> সংস্করণের তারিখ</string>
+    <string name="update__date___size_">আপডেট: <xliff:g example="Mar 3, 2016" id="date">%1$s</xliff:g>, <xliff:g example="1024 kB" id="size">%2$s</xliff:g>
+    </string>
     <string name="update_all">সব আপডেট করুন</string>
     <string name="update___count__">আপডেট (<xliff:g example="3" id="count">%1$d</xliff:g>)</string>
     <string name="ignore">তালিকাটি থেকে উপেক্ষা করুন</string>
@@ -201,7 +200,6 @@
     <string name="select_all">সব বাতিল করুন</string>
     <string name="deselect_all">সব নির্বাচনমুক্ত করুন</string>
     <string name="ignored">উপেক্ষা করা হয়েছে</string>
-
     <plurals name="total__count__apps__size_">
         <item quantity="one">
             <![CDATA[মোট: <b><font color="%1$d">%2$d</font></b> অ্যাপ, <b><font color="%1$d">%3$s</font></b>]]>
@@ -222,22 +220,18 @@
     <string name="installation">ইনস্টলেশন</string>
     <string name="show_notification_after_installation">ইনস্টলেশনের পরে সূচনা দেখান</string>
     <string name="delete_packages_after_installation">ইনস্টলেশনের পরে প্যাকেজগুলি মুছুন</string>
-
-    <string name="_name__installation_completed"><xliff:g example="APKPure" id="name">%1$s</xliff:g> ইনস্টলেশন সম্পূর্ণ হয়েছে</string>
+    <string name="_name__installation_completed">
+        <xliff:g example="APKPure" id="name">%1$s</xliff:g> ইনস্টলেশন সম্পূর্ণ হয়েছে</string>
     <string name="touch_to_open">খুলতে স্পর্শ করুন।.</string>
-
     <string name="more_from_developer">ডেভেলপারের থেকে আরও</string>
     <string name="more_large">আরও</string>
     <string name="similar_or_related">সদৃশ বা সম্পর্কিত</string>
     <string name="feedback">ফিডব্যাক</string>
-
     <string name="changing_language">ভাষা পরিবর্তন করছে, অনুগ্রহ করে অপেক্ষা করুন…</string>
     <string name="auto_service_install_accessibility_title">স্বয়ংক্রিয় ইনস্টল</string>
     <string name="auto_service_install_accessibility_summary">অ্যান্ড্রয়েড 4.1+ কে সমর্থন করে, কোনো মূল অনুমতির প্রয়োজন নেই।.</string>
-
     <string name="auto_service_dialog_title">স্বয়ংক্রিয় ইনস্টল সক্রিয় করুন</string>
     <string name="auto_service_dialog_message">স্বয়ংক্রিয় ইনস্টলের জন্য আপনাকে ফোনে অনুমোদন করতে হবে, এটি কোনো ঝুঁকি ছাড়া ব্যবহার করার পক্ষে নিরাপদ।</string>
-
     <string name="auto_service_title">APKPure স্বয়ংক্রিয় ইনস্টল</string>
     <string name="auto_service_description">"\"APKPure \"\"\"\"স্বয়ংক্রিয় ইনস্টল\"\"\"\" বিঘ্নহীনভাবে চালু রাখার জন্য \"\"\"\"APKPure স্বয়ংক্রিয় ইনস্টল\"\"\"\" সক্রিয় করুন।
 \n
@@ -249,34 +243,29 @@
 \n
 \nউপরোক্ত কার্যকারিতাগুলি অ্যানড্রয়েড 4.1+ কে সমর্থন করে, কোনো মূল অনুমতির প্রয়োজন নেই। আমরা এই অ্যাক্সেসযোগ্যতার পরিষেবায়  কখনওই আপনার কোনো ব্যক্তিগত তথ্য সংগ্রহ না করার প্রতিশ্রুতি দিই। কোনো সমস্যা হলে অনুগ্রহ করে আমাদের সাথে যোগাযোগ করতে দ্বিধা করবেন না।
 \n\""</string>
-
     <string name="auto_service_install">ইনস্টল করুন</string>
     <string name="auto_service_ensure">ঠিক আছে</string>
     <string name="auto_service_next">পরবর্তী</string>
     <string name="auto_service_exchange">প্রতিস্থাপন করুন</string>
     <string name="auto_service_complete">সম্পন্ন হয়েছে</string>
-
     <string name="auto_service_ensure__material_">ঠিক আছে</string>
     <string name="auto_service_next__material_">পরবর্তী</string>
     <string name="auto_service_exchange__material_">প্রতিস্থাপন করুন</string>
     <string name="auto_service_complete__material_">সম্পন্ন হয়েছে</string>
-
     <string name="auto_install_via_root_title">স্বয়ংক্রিয় ইনস্টল (রুট মোড)</string>
     <string name="auto_install_via_root_summary">শুধুমাত্র অ্যানড্রয়েড ফোন এবং ট্যাবলেটগুলির জন্য।.</string>
-
     <string name="download_complete_installation_setting">ডাউনলোড করার পরে ইনস্টলেশনের বিকল্প</string>
     <string name="recommend">আবিষ্কার করুন</string>
     <string name="check_update_replace">অফিসিয়াল সংস্করণ</string>
     <string name="check_update_beta">প্রকাশ-পূর্বক বিটা</string>
     <string name="report">রিপোর্ট করুন</string>
-    <string name="share_app_url_comment"> <xliff:g example="APKPure" id="user_name">%1$s</xliff:g> এর <xliff:g example="APKPure" id="app_name">%2$s</xliff:g> : <xliff:g example="APKPure" id="app_name">%3$s</xliff:g> (from <xliff:g example="APKPure" id="social_network_name">%4$s</xliff:g>) <xliff:g example="https://apkpure.com/p/com.apkpure.aegon" id="app_url">%5$s</xliff:g>. </string>
-
+    <string name="share_app_url_comment">
+        <xliff:g example="APKPure" id="user_name">%1$s</xliff:g> এর <xliff:g example="APKPure" id="app_name">%2$s</xliff:g> : <xliff:g example="APKPure" id="app_name">%3$s</xliff:g> (from <xliff:g example="APKPure" id="social_network_name">%4$s</xliff:g>) <xliff:g example="https://apkpure.com/p/com.apkpure.aegon" id="app_url">%5$s</xliff:g>. </string>
     <string name="auto_service_install__material_">ইনস্টল করুন</string>
     <plurals name="app_detail_see_all_replies">
         <item quantity="one">সব দেখুন <xliff:g example="1" id="count">%1$d</xliff:g> উত্তর দিন</item>
         <item quantity="other">সমস্ত <xliff:g example="1" id="count">%1$d</xliff:g> উত্তর দেখুন</item>
     </plurals>
-
     <string name="app_detail_customer_reviews">মন্তব্যসমূহ</string>
     <string name="app_detail_comment_type_web">ওয়েব</string>
     <string name="app_submit_submit">পোস্ট…</string>
@@ -292,49 +281,40 @@
     <string name="app_submit_email">ইমেল</string>
     <string name="app_submit_submit_title">পোস্ট</string>
     <string name="app_submit_reply_to">একে উত্তর দিয়েছেন</string>
-
     <string name="app_detail_tab_one">বিস্তারিত</string>
     <string name="app_detail_tab_two">গ্রুপ</string>
     <string name="app_detail_tab_three">সম্পর্কিত</string>
-
     <string name="app_detail_comment_order_array_default">ডিফল্ট অনুসারে বাছাই করুন</string>
     <string name="app_detail_comment_order_array_most_recent">সবথেকে সাম্প্রতিক</string>
     <string name="app_detail_comment_order_array_new">নতুনতম</string>
     <string name="app_detail_comment_order_array_best">সেরা</string>
     <string name="app_detail_comment_order_array_old">পুরাতন</string>
-
     <string name="app_detail_comment_join_group_bt">গ্রুপ</string>
     <string name="download_complete_installation_setting_entries_always">সবসময় ইনস্টল করুন</string>
     <string name="download_complete_installation_setting_entries_only">শুধুমাত্র অ্যাপ সামনে থাকলেই ইনস্টল করুন</string>
     <string name="download_complete_installation_setting_entries_never">কখনওই ইনস্টল করবেন না</string>
-
     <string name="reply">উত্তর দিন</string>
     <string name="input_reply_content">উত্তরের ইনপুট কন্টেন্ট:</string>
     <string name="publish">পোস্ট</string>
     <string name="reply_dialog_marked_words">নির্বাচিত ছবিটি মুছতে ছবিটিকে একটু বেশিক্ষণ টিপে থাকুন।.</string>
     <string name="reply_comment">মন্তব্যের উত্তর দিন</string>
     <string name="save_original_image">সংরক্ষণ করুন</string>
-    <string name="already_save">সংরক্ষিত হয়েছে<xliff:g example="ApKPure/photo" id="path">%1$s</xliff:g></string>
-
+    <string name="already_save">সংরক্ষিত হয়েছে<xliff:g example="ApKPure/photo" id="path">%1$s</xliff:g>
+    </string>
     <string name="load_end">আর ডেটা নেই</string>
     <string name="load_failed_click_retry">কিছু ভুল হয়েছে। আবার চেষ্টা করতে অনুগ্রহ করে ক্লিক করুন</string>
     <string name="loading">লোড হচ্ছে…</string>
-
     <string name="scan_qr_code_hint">স্ক্যান QR কোড ব্যবহার করার আগে আপনাকে ক্যামেরা অনুমতি মঞ্জুর করতে হবে যেটি QR কোড স্ক্যান করার জন্য প্রয়োজন।.</string>
     <string name="zxing_msg_default_status">QR কোডটি স্ক্যান করতে অনুগ্রহ করে সেটি ভিউফাইন্ডারে রাখুন।.</string>
     <string name="zxing_msg_parser_status">স্ক্যান করা ব্যর্থ হয়েছে, অনুগ্রহ করে আবার QR কোডটি স্ক্যান করার চষ্টা করুন।.</string>
-
     <string name="tip_permission_camera_storage">ক্যামেরা এবং SD কার্ড ব্যবহার করার অনুমতি নেই, অধিকারগুলি পরিচালনা করা খুলুন</string>
     <string name="permission_denied">অ্যাক্সেস প্রত্যাখাত!</string>
-
     <string name="login_title">লগইন করুন</string>
     <string name="sign_out">সাইন আউট করুন</string>
-
     <string name="delete_comment">মন্তব্য মুছুন</string>
     <string name="delete_comment_msg">আপনি কি এই মন্তব্যটি মোছার বিষয়ে নিশ্চিত\?</string>
     <string name="upload_cancel">আপলোড বাতিল করা হয়েছে</string>
     <string name="login_select_way_to_login">অনুগ্রহ করে লগইন করার উপায় বাছুন</string>
-
     <string name="user_info_edit_title">প্রোফাইল</string>
     <string name="user_info_edit_portrait_tv">প্রোফাইল ছবি</string>
     <string name="user_info_edit_username_tv">ইউজারনেম</string>
@@ -352,7 +332,6 @@
     <string name="user_info_edit_portrait_error">ছবির ধরণ সমর্থিত নয়</string>
     <string name="user_info_edit_ok">ঠিক আছে</string>
     <string name="user_info_edit_cancel">বাতিল করুন</string>
-
     <string name="update_nick_title">ডাকনাম পরিবর্তন করুন</string>
     <string name="update_email_title">ইমেল পরিবর্তন করুন</string>
     <string name="update_nick_name_et">আপনার নতুন ডাকনাম লিখুন</string>
@@ -366,7 +345,6 @@
     <string name="message_praise">লাইকগুলি</string>
     <string name="message_notifications_reply">আপনার মন্তব্যের উত্তর দিয়েছেন</string>
     <string name="message_notifications_login">এই পৃষ্ঠাটি দেখতে অনুগ্রহ করে লগইন করুন।.</string>
-
     <string name="update_pwd_title">আমার পাসওয়ার্ড রিসেট করুন</string>
     <string name="update_pwd_current_pwd_et">পুরানো পাসওয়ার্ড</string>
     <string name="update_pwd_new_pwd_et">নতুন পাসওয়ার্ড</string>
@@ -383,42 +361,33 @@
     <string name="crop__pick_error">অবৈধ ছবির ফাইল ধরণ</string>
     <string name="crop__saving">ফটো সংরক্ষণ করছে…</string>
     <string name="crop__wait">অনুগ্রহ করে অপেক্ষা করুন…</string>
-
     <string name="is_comment">মন্তব্য হল…</string>
     <string name="comment_cancel">মন্তব্য বাতিল করা হয়েছে</string>
     <string name="comment_submitting">জমা করছে…</string>
     <string name="comment_replying">উত্তর দিচ্ছেন…</string>
     <string name="register_term_of_service">APKPure পরিষেবার শর্তাবলী</string>
-
     <string name="set_contributor">অবদানকারী</string>
     <string name="set_permissions">অনুমতিসমূহ</string>
-
     <string name="sign_in_services">সাইন আপ করে আপনি আমাদের শর্তাবলী এবং গোপনীয়তা নীতিতে সম্মত হচ্ছেন।.</string>
-
     <string name="sign_in_services_key">শর্তাবলী</string>
     <string name="sign_in_services_key_policy">গোপনীয়তা নীতি</string>
-
     <string name="user_sign_up">সাইন আপ করুন</string>
     <string name="user_name_hint">ইউজারনেম</string>
     <string name="user_email_hint">ইমেল</string>
     <string name="user_password">পাসওয়ার্ড(6-32)</string>
     <string name="user_password_confirm">পাসওয়ার্ড নিশ্চিত করুন</string>
-
     <string name="user_name_error">ইউজারনেমে কোনো বিশেষ অক্ষর, চিহ্ন বা স্পেস রাখা যাবে না</string>
     <string name="user_nickname_error">ডাকনামে কোনো বিশেষ অক্ষর, চিহ্ন বা স্পেস রাখা যাবে না</string>
     <string name="user_email_error">এই ইমেল ঠিকানাটি অবৈধ</string>
     <string name="user_password_error">এই পাসওয়ার্ডটি অবৈধ</string>
     <string name="user_confirm_error">পাসওয়ার্ডগুলি অবশ্যই মিলতে হবে</string>
-
     <string name="login_user_name">ইউজারনেম বা ইমেল</string>
     <string name="login_user_password">পাসওয়ার্ড</string>
     <string name="login_user_sign_in">সাইন ইন করুন</string>
     <string name="login_choose">অথবা আপনার অ্যাকাউন্ট দিয়ে সাইন ইন করুন</string>
     <string name="login_new_user">নতুন ব্যবহারকারীর নিবন্ধন</string>
     <string name="login_post_as_a_guest">একজন অতিথি হিসাবে পোস্ট করুন</string>
-
     <string name="message">বার্তা</string>
-
     <string name="push_title_info_reply">%1$s আপনার মন্তব্যের উত্তর দিয়েছেন!</string>
     <string name="push_title_info_upvoted">%1$s আপনার মন্তব্যে সম্মত হয়েছেন!</string>
     <string name="download_list">ডাউনলোড তালিকা</string>
@@ -426,10 +395,8 @@
     <string name="install_list">ইনস্টল করা হয়েছে</string>
     <string name="no_download">কোনো ডাউনলোড করা অ্যাপ নেই।.</string>
     <string name="downloads">ডাউনলোডগুলি</string>
-
     <string name="change_language_failed">ভাষা পালটানো ব্যর্থ হয়েছে!</string>
     <string name="comment_reply_tell_msg">এই মন্তব্যটি সরানো হয়েছে!</string>
-
     <string name="notification_setting">সূচনাগুলি</string>
     <string name="reply_notification">উত্তরের সূচনাসমূহ</string>
     <string name="reply_notification_msg">নতুন উত্তরের বার্তাগুলির জন্য সূচনাগুলি পান</string>
@@ -438,16 +405,15 @@
     <string name="gif_tip">পদবী/শিরোনাম</string>
     <string name="ad_tip">লাইক</string>
     <string name="submit_comment_title_hint">পদবী/শিরোনাম</string>
-
     <string name="comment_vote_string">লাইক</string>
     <string name="comment_reply_three">উত্তর দিন</string>
     <string name="comment_item_fold">মন্তব্য সংকুচিত করা হয়েছে</string>
-
     <plurals name="comment_reply_item_fold">
-        <item quantity="one"><xliff:g example="1" id="count">%1$d</xliff:g> উত্তর সংকুচিত করা হয়েছে</item>
-        <item quantity="other"><xliff:g example="1" id="count">%1$d</xliff:g> উত্তর ভেঙ্গে গেছে</item>
+        <item quantity="one">
+            <xliff:g example="1" id="count">%1$d</xliff:g> উত্তর সংকুচিত করা হয়েছে</item>
+        <item quantity="other">
+            <xliff:g example="1" id="count">%1$d</xliff:g> উত্তর ভেঙ্গে গেছে</item>
     </plurals>
-
     <string name="comment_no_reply">ওয়াও, এখানে কিছুই নেই।.</string>
     <string name="comment_reply_info_name">বিস্তারিত</string>
     <string name="set_updates_notification">অ্যাপ আপডেটগুলি উপলভ্য</string>
@@ -456,30 +422,25 @@
     <string name="comment_detail_original">আসল মন্তব্য দেখুন &gt;</string>
     <string name="comment_comment_newest">নতুনতম</string>
     <string name="comment_comment_oldest">সবথেকে পুরানো</string>
-
     <string name="edit">সম্পাদনা করুন</string>
     <string name="menu_copy">কপি করুন</string>
     <string name="menu_cancel">বাতিল করুন</string>
     <string name="delete_all_download_history">সমস্ত ডাউনলোড ইতিহাস মুছবেন\?</string>
     <string name="delete_the_historical_record">ঐতিহাসিক রেকর্ডটি মুছবেন\?</string>
     <string name="download_history">ডাউনলোডের ইতিহাস</string>
-
     <string name="sub_comment_dialog_title">একটি ভিডিও যোগ করুন</string>
     <string name="sub_comment_dialog_des_tv">শুধুমাত্র Youtube ভিডিওগুলির পার্সিং সমর্থন করে।</string>
     <string name="sub_comment_dialog_link_et">এখানে ভিডিও ঠিকানাটি লিখুন।.</string>
     <string name="sub_comment_dialog_link_null">ভিডিও URL ঠিকানা খালি রাখা যাবে না</string>
     <string name="sub_comment_progress_msg">ভিডিও যোগ করছে…</string>
-
     <string name="play_button">প্লে বোতাম</string>
     <string name="null_time">0:00</string>
     <string name="open_video_in_youtube">YouTube এ ভিডিও খুলুন</string>
     <string name="full_screen_button">পূর্ণ স্ক্রিনের বোতাম</string>
-
     <string name="main_tab_home">হোম</string>
     <string name="main_tab_ranking">র‍্যাঙ্কিং</string>
     <string name="main_tab_group">দল</string>
     <string name="main_tab_my">আমি</string>
-
     <string name="main_comment">মন্তব্য</string>
     <string name="main_won_praise">লাইকগুলি</string>
     <string name="main_my_comments">পোস্টগুলি</string>
@@ -496,7 +457,6 @@
     <string name="canceled">বাতিল হয়েছে</string>
     <string name="group">গ্রুপ</string>
     <string name="collection">পছন্দসই</string>
-
     <string name="comments">মন্তব্যসমূহ</string>
     <string name="follow">অনুসরণ করছে</string>
     <string name="attention_on">অনুসরণ করছে</string>
@@ -504,28 +464,22 @@
     <string name="no_attention">এখনও কোনো অনুসরণকারী গ্রুপ নেই।.</string>
     <string name="browsing_history">ব্রাউজিংয়ের ইতিহাস</string>
     <string name="browsing_history_prompt">আপনি কি ব্রাউজিংয়ের ইতিহাস পরিষ্কার করতে চান\?</string>
-
     <string name="ranking_tab1_title">সেরা গেমগুলি</string>
     <string name="ranking_tab2_title">সেরা নতুন গেমগুলি</string>
     <string name="ranking_tab3_title">সেরা অ্যাপগুলি</string>
     <string name="ranking_tab4_title">সেরা নতুন অ্যাপগুলি</string>
-
     <string name="app_detail_three_fragment_foot">সমস্ত মন্তব্য দেখান</string>
     <string name="menu_paste">পেস্ট করুন</string>
-
     <string name="favorite_title">পছন্দসই</string>
     <string name="save_as_favorite">পছন্দসই হিসাবে সংরক্ষণ করুন</string>
     <string name="favorite_saved">পছন্দসই করা হয়েছে।.</string>
     <string name="failed_to_save_favorite">পছন্দসই সংরক্ষণ করতে ব্যর্থ হয়েছে</string>
     <string name="remove_as_favorite">পছন্দসই হওয়া থেকে অপসারণ করুন</string>
     <string name="remove_failed">অপসারণ করা ব্যর্থ হয়েছে</string>
-
     <string name="collection_comment">পোস্টগুলি</string>
     <string name="collection_app">অ্যাপ</string>
-
     <string name="open_with_browser">ব্রাউজারগুলি দিয়ে খুলুন</string>
     <string name="web_view_refresh">রিফ্রেশ করুন</string>
-
     <string name="topic_red_color">ক্রিমসন</string>
     <string name="topic_green_color">সৌভাগ্যজনক সবুজ</string>
     <string name="topic_blue_color">আকাশী নীল</string>
@@ -534,7 +488,6 @@
     <string name="topic_purple_yellow">জলপাই কমলা</string>
     <string name="topic_purple_blue_gary">এয়ারফোর্স নীল</string>
     <string name="topic_switch_failed">থীম পরিবর্তন ব্যর্থ হয়েছে</string>
-
     <string name="recommend_title">সুপারিশগুলি</string>
     <string name="recommend_tab_game">একটি অ্যাপ সুপারিশ করুন</string>
     <string name="recommend_tab_list">সুপারিশকৃত</string>
@@ -555,50 +508,42 @@
 \n3. APKPure কে ইন্ডেক্স না করা অ্যাপগুলি যোগ করতে সূচিত করুন, অনুগ্রহ করে প্রথমে সুপারিশের ফর্মটি সম্পূর্ণ করুন।.</string>
     <string name="recommend_user_recommend">%1$s এর দ্বারা সুপারিশকৃত</string>
     <string name="recommend_required">*</string>
-
     <string name="download_mkdir">ডাউনলোড পাথ</string>
     <string name="download_mkdir_internal_storage_size_des">%1$s খালি, মোট %2$s\'</string>
     <string name="download_mkdir_internal_storage_entries">SD</string>
     <string name="download_mkdir_internal_storage_entries1">SD 1</string>
     <string name="download_mkdir_internal_storage_values">অভ্যন্তরীণ_স্টোরেজ</string>
     <string name="download_mkdir_external_storage_values">বাইরের_স্টোরেজ</string>
-
     <string name="download_mkdir_external_storage_fill_toast">অপর্যাপ্ত স্টোরেজের জায়গা আপনার কোনো অ্যাপ ডাউনলোড না করার কারণ হতে পারে।.</string>
-
     <string name="recommend_not_found">ইন্ডেক্স করা নেই</string>
     <string name="recommend_not_fount_info">APKPure কে \"%1$s\" যোগ করতে সূচিত করুন, আপনাকে ফর্মগুলি সম্পূর্ণ করতে হবে।.</string>
-
     <string name="user_detail_focus">অনুসরণ করছে</string>
     <string name="user_detail_fans">অনুসরণকারীগণ</string>
     <string name="user_detail_praise">লাইকগুলি</string>
     <string name="user_detail_tab_detail">পোস্টগুলি</string>
     <string name="user_detail_tab_reply">মন্তব্যসমূহ</string>
-
     <string name="user_focus_tab_users">মানুষজন</string>
     <string name="user_focus_tab_apps">গ্রুপগুলি</string>
     <string name="user_focus_title_my">আমার অনুসরণ করা</string>
     <string name="user_focus_title">%1$s দ্বারা অনুসৃত</string>
-
     <string name="goto_google_play">এখনই ক্রয় করুন</string>
-
     <string name="menu_follow_all">সমস্ত অনুসরণ</string>
     <string name="menu_follow_user">অনুসরণ করা মানুষজন</string>
     <string name="menu_follow_group">অনুসরণ করা গ্রুপগুলি</string>
     <string name="menu_follow_all_tab">অনুসরণ করছে</string>
     <string name="menu_follow_user_tab">মানুষজন</string>
     <string name="menu_follow_group_tab">গ্রুপগুলি</string>
-
     <string name="choose_app">অ্যাপ্লিকেশন নির্বাচন করুন</string>
     <string name="publish_comment">পোস্ট</string>
-
-    <string name="load_failed_error_not_found">অ্যাপ APKPure এর মধ্যে অন্তর্ভুক্ত করা যাবে না।.</string>
+    <string name="load_failed_error_not_found">এই অ্যাপ APKPure এর মধ্যে অন্তর্ভুক্ত করা যাবে না।.</string>
     <string name="beta">বিটা</string>
     <string name="history_version">সংস্করণের ইতিহাস</string>
     <string name="properties_message_v2">
         <![CDATA[<b>প্যাকেজের নাম:</b> %1$s<br><b>সংস্করণ:</b> %2$s<br><b>পাথ:</b> %3$s<br><b>আকার:</b> %4$s<br><b>শেষ সংশোধিত:</b> %5$s]]>
     </string>
-    <string name="share_app_url_group"> <xliff:g example="APKPure" id="app_name">%1$s</xliff:g> গ্রুপ। (<xliff:g example="APKPure" id="social_network_name">%2$s</xliff:g> থেকে) <xliff:g example="https://apkpure.com/p/com.apkpure.aegon" id="app_url">%3$s</xliff:g> </string>
-
+    <string name="share_app_url_group">
+        <xliff:g example="APKPure" id="app_name">%1$s</xliff:g> গ্রুপ। (<xliff:g example="APKPure" id="social_network_name">%2$s</xliff:g> থেকে) <xliff:g example="https://apkpure.com/p/com.apkpure.aegon" id="app_url">%3$s</xliff:g>
+    </string>
     <string name="data_saver_model">ডেটা সাশ্রয়কারী</string>
     <string name="data_saver_model_summery">এটি চালু করলে কম সেলুলার ডেটা ব্যবহারে সহায়তা করতে ছবির আকার এবং মান হ্রাস করবে।.</string>
     <string name="app_detail_tab_evaluation">পর্যালোচনাগুলি</string>
@@ -610,60 +555,45 @@
     <string name="app_detail_comment_score_footer">অন্য ভাষাগুলিতে %1$sটি পর্যালোচনা আছে।.</string>
     <string name="app_detail_evaluation_tool_bar_title">একটি পর্যালোচনা শেয়ার করুন</string>
     <string name="app_detail_evaluation_failed_bt">পর্যালোচনা</string>
-
     <string name="app_detail_comment_order_array_good">4-5</string>
     <string name="app_detail_comment_order_array_bad">1-3</string>
     <string name="app_detail_folded_footer_reviews">%d ফোল্ডেড পর্যালোচনার সবগুলি দেখুন</string>
     <string name="app_detail_folded_footer_posts">%d ফোল্ডেড পোস্টগুলির সবগুলি দেখুন</string>
     <string name="app_detail_discuss_filter_featured">হাইলাইটস</string>
     <string name="app_detail_discuss_filter_folded">ফোল্ডেড</string>
-
-
     <string name="scan_qr_code_result_title">ফলাফল</string>
     <string name="scan_qr_code_result_copy_text">পাঠ্য কপি করুন</string>
     <string name="scan_qr_code_result_hint">QR কোডের বিস্তারিত :</string>
     <string name="scan_qr_code_copy_success">পাঠ্য কপি করা হয়েছে</string>
-
     <string name="user_info_edit_large_photo">একটি বড় আকারে ফটো দেখুন</string>
-
     <string name="user_info_edit_intro_tv">আমার সম্পর্কে</string>
     <string name="update_intro_title">আমার সম্পর্কে সম্পাদনা করুন</string>
     <string name="update_intro_et">আপনার নিজের সম্পর্কে বিশদে কিছু লিখুন</string>
     <string name="update_intro_tv">আমার সম্পর্কে স্থানটি খালি রাখা যাবে না</string>
-
     <string name="home_message_reply">মন্তব্যসমূহ</string>
     <string name="home_message_praise">লাইকগুলি</string>
     <string name="message_notify">সূচনাগুলি</string>
     <string name="message_at_title">উল্লেখগুলি</string>
     <string name="message_at">আপনাকে উল্লেখ করেছেন</string>
-
     <string name="set_open_source_licence">ওপেন সোর্স লাইসেন্স</string>
-
     <string name="sign_in_services_key_policy_register">গোপনীয়তা নীতি</string>
     <string name="user_name_null">ইউজারনেম অবৈধ</string>
     <string name="push_title_info_follow">%1$s আপনাকে অনুসরণ করেছেন!</string>
     <string name="push_title_info_update">APKPure আপডেট এসেছে!</string>
     <string name="push_content_info_update">নতুন সংস্করণ %1$s প্রকাশিত হয়েছে! এখনই আপডেট করুন!</string>
     <string name="push_title_info_at">কেউ আপনাকে একটি পোস্টে উল্লেখ করেছেন, দেখতে ট্যাপ করুন</string>
-
     <string name="menu_copy_link">লিঙ্ক কপি করুন</string>
     <string name="tab_group">গ্রুপ</string>
     <string name="cancel_collection">পছন্দসই নয়</string>
-
     <string name="ranking_top_countries_title">বিভক্তকৃত র‍্যাঙ্কিং</string>
     <string name="ranking_top_develop_title">সেরা ডেভেলপারগণ</string>
-
     <string name="web_view_copy">লিঙ্ক কপি করুন</string>
-
     <string name="recommend_user_recommend_sys">APKPure দ্বারা বৈশিষ্ট্যপ্রাপ্ত</string>
-
     <string name="google_play_bug_text">Google Play তে ক্রয় করুন</string>
-
     <string name="app_detail_has_product">আইটেমগুলি ক্রয় করুন</string>
     <string name="app_detail_no_product">কোনো ক্রয়ের আইটেম নেই</string>
     <string name="app_detail_has_ad">বিজ্ঞাপন আছে</string>
     <string name="app_detail_no_ad">কোনো বিজ্ঞাপন নেই</string>
-
     <string name="tag_list">ট্যাগগুলির তালিকা</string>
     <string name="hot_tag">আকর্ষক ট্যাগগুলি</string>
     <string name="hot_tag_explain">(এই অ্যপের জন্য ট্যাগগুলি যোগ করুন বা বিদ্যমান ট্যাগগুলিকে ভোট দিন)</string>
@@ -674,7 +604,6 @@
     <string name="there_is_no_label">কোনো ট্যাগ নেই।</string>
     <string name="add">যোগ করুন</string>
     <string name="colon">:</string>
-
     <string name="pack_up">সংকুচিত করুন</string>
     <string name="Istop">পিন করা হয়েছে</string>
     <string name="add_tag">ট্যাগগুলি যোগ করুন</string>
@@ -682,15 +611,12 @@
     <string name="no_collect">এখনও কোনো পছন্দসই নেই!</string>
     <string name="no_comment">একটি পোস্ট যোগ করার প্রথম ব্যক্তি হন!</string>
     <string name="filter_no_comment">উপস! এরকম কোনো কন্টেন্ট নেই!!</string>
-
     <string name="share_apk">APK শেয়ার করুন</string>
     <string name="tab_apk">APK</string>
     <string name="commentaries">কাহিনী</string>
     <string name="follow_floating_action_button">নতুন মুহূর্ত তৈরি করুন</string>
-
     <string name="upload_apk_version">V %1$s</string>
     <string name="upload_apk_downloads">ডাউনলোডসমূহ: %1$s</string>
-
     <string name="upload_comment_uploading">%1$s আপলোড করছে…</string>
     <string name="upload_comment_upload_success">%1$s আপলোড সফল</string>
     <string name="upload_comment_upload_failed">%1$s আপলোড ব্যর্থ</string>
@@ -703,16 +629,12 @@
     <string name="upload_notification_is_pause">আপলোড করা সাময়িক বন্ধ আছে</string>
     <string name="upload_add_list_toast">সফল!</string>
     <string name="upload_add_file_list_toast">অ্যাপ আপলোড করছে। অনুগ্রহ করে ধৈর্য রাখুন, ধন্যবাদ!</string>
-
     <string name="your_reply_comment">আপনার উত্তর</string>
-
     <string name="market_ad_title">বাজার</string>
     <string name="market_ad_tab_one">বৈশিষ্ট্যযুক্ত</string>
     <string name="market_ad_tab_two">গেম</string>
     <string name="market_ad_tab_three">সরঞ্জামসমূহ</string>
-
     <string name="tag">ট্যাগ</string>
-
     <string name="search_tab_name_one">অ্যাপ</string>
     <string name="search_tab_name_two">ব্যবহারকারী</string>
     <string name="pre_register_ok">ঠিক আছে</string>
@@ -723,23 +645,18 @@
     <string name="pre_register_gift_tv">পুরস্কারগুলি নিবন্ধন করুন</string>
     <string name="pre_register_person_num_tv">প্রাক-নিবন্ধনকারী: %1$s</string>
     <string name="pre_register_success">প্রাক-নিবন্ধন এর অর্থ অ্যাপটি প্রকাশিত আপনি আপনার ডিভাইসে একটি সূচনা পাবেন।.</string>
-
     <string name="open_page_failed">পৃষ্ঠাটি খুলতে ব্যর্থ হয়েছে!</string>
     <string name="search_for_user">অনুসন্ধান</string>
     <string name="search_user_history_title">সাম্প্রতিক যোগাযোগসমূহ</string>
     <string name="search_focus_list_title">অনুসরণ করা হিয়েছে</string>
-
     <string name="copy_username">ডাকনাম কপি করুন</string>
     <string name="copy_content">কন্টেন্ট কপি করুন</string>
-
     <string name="tab_global">বৈশিষ্ট্যযুক্ত</string>
     <string name="comment_list_see_here">গতবার আপনি এখানে পৌঁছেছিলেন। রিফ্রেশ করতে ট্যাপ করুন।.</string>
     <string name="comment_list_new_num">%dটি নতুন শিরোনাম\'</string>
-
     <string name="tab_popular">জনপ্রিয়</string>
     <string name="count_down_timer_tv">%ds</string>
     <string name="count_down_timer_btn">এড়িয়ে যান</string>
-
     <string name="choice_evaluate">বিশিষ্ট পর্যালোচনাগুলি</string>
     <string name="choice_comment">সুপারিশকৃত পোস্টসমূহ</string>
     <string name="emoji_input_error_hint">ইমোজি মন্তব্যগুলি আর অনুমোদিত নয়! কিছু লিখুন…</string>
@@ -748,13 +665,11 @@
     <string name="my_reservation_and_collection">প্রাক-নিবন্ধন এবং পছন্দসই</string>
     <string name="upload_apk">APK আপলোড করুন</string>
     <string name="developer_badge_explanation">ডেভেলপার ব্যাজ ব্যাখ্যা</string>
-
     <string name="from_user_recommendation">ব্যবহারকারীদের সুপারিশসমূহ</string>
     <string name="topics">বিষয়</string>
     <string name="pre_register_game">প্রাক-নিবন্ধন</string>
     <string name="editors_picks">সম্পাদকের পছন্দ</string>
     <string name="recommend_game">গেম সুপারিশ করুন</string>
-
     <string name="bing_share_account">তৃতীয়-পক্ষের অ্যাকাউন্টের সাথে সংযোগ করুন</string>
     <string name="un_bind">সংযুক্ত নয়</string>
     <string name="login_out_message_hint">অআপনি কি লগ আউট করা বিষয়ে নিশ্চিত\?</string>
@@ -772,11 +687,9 @@
     <string name="unbind_email">সংযুক্ত নয়</string>
     <string name="unbind_email_hint">অআপনার অ্যা কাউন্টের সাথে কোনো ইমেল ঠিকানা সংযুক্ত করা হয়নি।.</string>
     <string name="menu_skip">এড়িয়ে যান</string>
-
     <string name="forget_password_tv">পাসওয়ার্ড ভুলে গেছেন\?</string>
     <string name="recover_password_title">পাসওয়ার্ড পুনরুদ্ধার</string>
     <string name="email_address_hint_et">অআপনার ইমেল লিখুন।.</string>
-
     <string name="shop">স্টোর</string>
     <string name="setting_region">অঞ্চল</string>
     <string name="submit_add_title_image_tv">একটি কভার যোগ করুন</string>
@@ -800,7 +713,6 @@
     <string name="delete_success">সফল হয়েছে</string>
     <string name="hot">আকর্ষক</string>
     <string name="look_links">লিঙ্ক দেখুন</string>
-
     <string name="headline_no_data_tv">কোনো নতুন মন্তব্য নেই</string>
     <string name="hint">দ্ষ্টব্য</string>
     <string name="no_save_comment_hint">পোস্ট করা হয়নি এমন কন্টেন্ট আছে, আপনি কি প্রস্থান করার বিষয় নিশ্চিত\?</string>
@@ -808,10 +720,8 @@
     <string name="history_hastag">ইতিহাস হ্যাশট্যাগ</string>
     <string name="share_image_failed">ছবি শেয়ার করতে ব্যর্থ হয়েছে!</string>
     <string name="select_image_overflow_hint">\@string/picture_message_max_num</string>
-
     <string name="share_select_image_overflow_hint">আপনি 9টি পর্যন্ত ছবি শেয়ার করতে পারবেন।.</string>
     <string name="search_or_create">অনুসন্ধান বা তৈরি করুন</string>
-
     <string name="privacy_setting_title">গোপনীয়তা সেটিংস</string>
     <string name="privacy_setting_account">ব্যক্তিগত অ্যকাউন্ট</string>
     <string name="privacy_setting_account_des">আপনার অ্যাকাউন্ট ব্যক্তিগততে সেট করা থাকলে আপনার ব্যক্তিগত হোমপেজ অন্যরা দেখতে পাবেন না।.</string>
@@ -823,20 +733,21 @@
     <string name="del_account_reason_hint">আপনি এই অ্যাকাউন্টটি মুছতে চাইছেন কেন\?</string>
     <string name="del_account_sure">খুব বেশি হলে 48 ঘণ্টার মধ্যে আপনার অ্যাকাউন্ট মুছে ফেলা হবে। আপনার আরও কোনো প্রশ্ন থাকলে আমাদের সাথে যোগাযোগ করুন।</string>
     <string name="reply_to">%1$s কে উত্তর দিন:</string>
-    <string name="share_app_url_comment_v3"><xliff:g example="zhangsan" id="name">%1$s</xliff:g>\'s <xliff:g example="post/story/review" id="type">%2$s</xliff:g> (From APKPure):<xliff:g example="https://apkpure.com" id="url">%3$s </xliff:g> শেয়ার করুন</string>
+    <string name="share_app_url_comment_v3">
+        <xliff:g example="zhangsan" id="name">%1$s</xliff:g>\'s <xliff:g example="post/story/review" id="type">%2$s</xliff:g> (From APKPure):<xliff:g example="https://apkpure.com" id="url">%3$s </xliff:g> শেয়ার করুন</string>
     <string name="apk_unable_upload">apk আপলোড করতে ব্যর্থ হয়েছে.</string>
     <string name="long_image">টল পিক</string>
     <string name="edit_tag">ট্যাগ সম্পাদনা করুন</string>
     <string name="save_tag_hint_msg">পরিবর্তনটি সংরক্ষণ করা যাবে না। আপনি প্রস্থান করার বিষয়ে নিশ্চিত\?</string>
-    <string name="un_follow_xx"><xliff:g example="Apkpure" id="name">%1$s</xliff:g> কে আনফলো করুন</string>
-    <string name="follow_xx"><xliff:g example="Apkpure" id="name">%1$s</xliff:g> কে অনুসরণ করুন</string>
+    <string name="un_follow_xx">
+        <xliff:g example="Apkpure" id="name">%1$s</xliff:g> কে আনফলো করুন</string>
+    <string name="follow_xx">
+        <xliff:g example="Apkpure" id="name">%1$s</xliff:g> কে অনুসরণ করুন</string>
     <string name="app_rating">রেটিং:</string>
     <string name="number">\"</string>
     <string name="headline_footer_refresh">রিফ্রেশ করতে এই লাইনটিকে নিচের দিকে টানুন বা ট্যাপ করুন।.</string>
-
     <string name="download_install_obb">OBB ইনস্টল করুন</string>
     <string name="download_install_apk">APK ইনস্টল করুন</string>
-
     <string name="users_recommended_title">অভিনন্দন!</string>
     <string name="users_recommended_des">আপনার পর্যালোচনা ব্যবহারকারীর সুপারিশ হিসাবে নির্বাচিত হয়েছে,%1$s</string>
     <string name="recommended_posts_title">অভিনন্দন!</string>
@@ -850,14 +761,13 @@
     <string name="pre_register_des">প্রাক-নিবন্ধিত গেম %1$s   %2$s ডাউনলোডের জন্য উপলভ্য।%3$s</string>
     <string name="report_callback_title">আমরা পনার রিপোর্ট করা পোস্টটি অপসারণ করেছি!</string>
     <string name="report_callback_des">নির্যাতনের জন্য আপনার রিপোর্ট করা পোস্টটি আমরা পর্যালোচনা করেছি। যেহেতু এটি আমাদের %1$s লঙ্ঘন করেছে, তাই আমরা সেটি অপসারণ করেছি। আপনার রিপোর্টের জন্য ধন্যবাদ। আমরা %2$s কে জানাবো যে পোস্টটি অপসারণ করা হয়েছে, কিন্তু কে সেটি রিপোর্ট করেছে সেটি জানাবো না।.</string>
-
     <string name="tap_to_view">দেখতে ট্যাপ করুন</string>
     <string name="let_us_know">আমাদের জানান</string>
     <string name="community_guide_lines">সম্প্রদায়ের মূলনীতি</string>
-
     <string name="my_draft">আমার খসড়া</string>
     <string name="clear_empty">সব পরিষ্কার করুন</string>
-    <string name="several_draft"><xliff:g example="5" id="count">%1$s</xliff:g> টি খসড়া</string>
+    <string name="several_draft">
+        <xliff:g example="5" id="count">%1$s</xliff:g> টি খসড়া</string>
     <string name="delete_all_draft_hint">খসড়ার বক্স কোথায় খালি করতে হবে\?</string>
     <string name="edit_draft">খসড়াটি সম্পাদনা করুন</string>
     <string name="delete_draft">খসড়াটি মুছুন</string>
@@ -865,5 +775,4 @@
     <string name="is_save_comment_draft">খসড়া হিসাবে সংরক্ষণ করবেন কি না\?</string>
     <string name="upload_video">ভিডিও আপলোড করুন</string>
     <string name="saved_draft">একটি খসড়া হিসাবে সংরক্ষিত হয়েছে</string>
-
 </resources>

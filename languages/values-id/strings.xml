@@ -15,11 +15,11 @@
     <string name="updates">Pembaruan</string>
     <string name="something_happened">&gt;_&lt;\nSesuatu terjadi.</string>
     <string name="load_failed_error">Ups! Terjadi kesalahan.</string>
-    <string name="load_failed_error_not_found">Aplikasi tidak tersedia di APKPure.</string>
+    <string name="load_failed_error_not_found">منAplikasi tidak tersedia di APKPure.</string>
     <string name="load_failed_empty">Tidak ada apapun di sini.</string>
     <string name="load_failed_all_up_to_date">Semua aplikasi sudah terkini.</string>
     <string name="load_failed_no_results">Maaf! Tidak ada hasil ditemukan.</string>
-    <string name="refresh">"Refresh  "</string>
+    <string name="refresh">indonesiaRefresh</string>
     <string name="management">Manajemen</string>
     <string name="app_updates">Pembaruan Aplikasi</string>
     <string name="app_management">Terpasang</string>
@@ -224,7 +224,6 @@
     <string name="total_zero_app">
         <![CDATA[Total: <b><font color="%1$d">0</font></b> aplikasi]]>
     </string>
-
     <string name="general">Umum</string>
     <string name="language">Bahasa</string>
     <string name="auto">Otomatis</string>
@@ -768,15 +767,15 @@
     <string name="download_install_obb">Pasang OBB</string>
     <string name="download_install_apk">Pasang APK</string>
     <string name="users_recommended_title">Selamat!</string>
-    <string name="users_recommended_des">Ulasan Anda telah dipilih sebagai rekomendasi pengguna unggulan,%1$s</string>
+    <string name="users_recommended_des">Posting Anda telah dipilih sebagai rekomendasi pengguna ,,% 1 $ s</string>
     <string name="recommended_posts_title">Selamat!</string>
-    <string name="recommended_posts_des">Ulasan Anda terpilih sebagai rekomendasi pengguna unggulan,%1$s</string>
-    <string name="comment_removed_title">Kiriman Anda Sudah Dihapus</string>
+    <string name="recommended_posts_des">Your post has been selected as a recommended post,%1$sYour Post Has Been Removed</string>
+    <string name="comment_removed_title">Pos Anda Disingkirkan</string>
     <string name="comment_removed_des">Sepertinya kiriman Anda tidak mengikuti %1$s kami. Kami tidak mengizinkan intimidasi atau pelecehan dalam bentuk apa pun, termasuk foto yang tidak pantas, video tentang intimidasi fisik, atau pos lainnya yang dimaksudkan untuk menurunkan atau mempermalukan orang tertentu.
 \n%2$s
 \nJika Anda merasa ini adalah kesalahan, silahkan %3$s.</string>
-    <string name="temporarily_blocked_title">Anda Diblokir Sementara Untuk Mengirim</string>
-    <string name="temporarily_blocked_des">Blokir sementara ini akan berlangsung selama %1$s hari, dan Anda tidak akan bisa mengirim di APKPure hingga masa berakhir. Jika Anda mengirimkan sesuatu yang melanggar %2$s kami lagi, akun Anda akan dibloker lagi selama 30 hari. Harap dicatat bahwa orang yang berulang kali mengirimkan sesuatu yang tidak diizinkan pada APKPure maka akun mereka akan dinonaktifkan secara permanen.
+    <string name="temporarily_blocked_title">Anda Diblokir Sementara Untuk Membuat Conten di APKPure</string>
+    <string name="temporarily_blocked_des">Blokir sementara ini akan berlangsung selama %1$s hari, dan Anda tidak akan bisa membuat conten di APKPure hingga masa berakhir. Jika Anda mengirimkan sesuatu yang melanggar %2$s kami lagi, akun Anda akan dibloker lagi selama 30 hari. Harap dicatat bahwa orang yang berulang kali mengirimkan sesuatu yang tidak diizinkan pada APKPure maka akun mereka akan dinonaktifkan secara permanen. 
 \nJika Anda merasa ini adalah kesalahan, silahkan %3$s.</string>
     <string name="pre_register_title">%1$s dirilis untuk %2$s!</string>
     <string name="pre_register_des">"Gim %1$s   %2$ yang Anda pra-daftarkan tersedia untuk diunduh.%3$s"</string>
@@ -869,4 +868,7 @@
     <string name="ucrop_error_input_data_is_absent">Input dan output Uri harus ditentukan</string>
     <string name="xapk_upload_hint_info">Mengunggah berkas XAPK memakan waktu lebih lama. Yakin mengunggah\?</string>
     <string name="packaging_failed_try_again">Pengemasan gagal. Silakan coba lagi.</string>
+    <string name="home_recommended_title">Selamat!</string>
+    <string name="home_recommended_desc">Posting Anda telah dipilih sebagai rekomendasi pengguna ,,% 1 $ s</string>
+    <string name="search_tab_invitation">Posts</string>
 </resources>

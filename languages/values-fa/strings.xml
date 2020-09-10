@@ -19,7 +19,7 @@
     <string name="management">مدیریت</string>
     <string name="app_updates">به‌روزرسانی برنامه‌</string>
     <string name="app_management">نصب شده است</string>
-    <string name="app_uninstall">لغو نصب برنامه</string>
+    <string name="app_uninstall">لغو کردن نصب</string>
     <string name="apk_management">مدیریت ای‌پی‌کا</string>
     <string name="apk_xapk_management">مدیریت ای‌پی‌کا / اکس‌ای‌پی‌کا</string>
     <string name="download_management">مدیریت دانلود</string>
@@ -41,7 +41,7 @@
     <string name="properties_message">
         <![CDATA[<b>مسیر:</b> %1$s<br><b>حجم:</b> %2$s<br><b>آخرین تغییر:</b> %3$s]]>
     </string>
-    <string name="want_to_delete_file">آیا شما می‌خواهید این فایل را حذف کنید؟</string>
+    <string name="want_to_delete_file">از حذف این فایل اطمینان دارید؟</string>
     <string name="want_to_delete_all_files">آیا شما می‌خواهید همه فایل‌ها را حذف کنید؟</string>
     <string name="file_has_been_deleted">فایل حذف شده است.</string>
     <string name="failed_to_delete_file">فایل حذف نشد.</string>
@@ -78,7 +78,7 @@
     </plurals>
     <string name="language">زبان</string>
     <string name="user_canceled">کاربر لغو شده است.</string>
-    <string name="io_error">خطا IO. ممکن است است فضای کافی برای نصب و راه‌اندازی وجود ندارد.</string>
+    <string name="io_error">خطا IO. ممکن است فضای کافی برای نصب نباشد</string>
     <string name="file_format_error">خطای فرمت فایل.</string>
     <string name="parsing_xapk">تجزیه اکس‌ای‌پی‌کا…</string>
     <string name="installing_obb">نصب فایل‌های OBB…</string>
@@ -95,14 +95,12 @@
     <string name="market_response_error_invalid_response_code">کد پاسخ نامعتبر است.</string>
     <string name="market_response_error_invalid_response_body">متن پاسخ نامعتبر است.</string>
     <string name="market_response_error_unknown_error__error_">خطای ناشناخته (<xliff:g example="SUCCESS" id="error">%1$s</xliff:g>).</string>
-    <string name="launching_please_wait">در‌حال راه‌اندازی، لطفا صبر کنید…</string>
+    <string name="launching_please_wait">در‌حال راه‌اندازی... لطفا صبر کنید.</string>
     <plurals name="_count__item_is_downloading">
-        <item quantity="one">
-            <xliff:g id="count" example="1">%1$d</xliff:g> آیتم در حال دانلود است</item>
-        <item quantity="other">
-            <xliff:g id="count" example="2">%1$d</xliff:g> آیتم‌ در حال دانلود است</item>
+        <item quantity="one">"در حال بارگیری  "<xliff:g example="1" id="count">%1$d</xliff:g> آیتم.</item>
+        <item quantity="other">"در حال بارگیری  "<xliff:g example="2" id="count">%1$d</xliff:g> آیتم.</item>
     </plurals>
-    <string name="downloads_complete">دانلود‌ کامل شد</string>
+    <string name="downloads_complete">تمام بارگیری ها تمام شد.</string>
     <string name="touch_for_view_all_downloads">برای مشاهده تمام دانلود‌ها، لمس کنید</string>
     <string name="_name__download_failed">
         <xliff:g example="APKPure" id="name">%1$s</xliff:g> دانلود نشد</string>
@@ -129,15 +127,15 @@
     <string name="detail">جزئیات</string>
     <string name="remove">پاک کردن</string>
     <string name="remove_all">پاک کردن همه</string>
-    <string name="want_to_remove_download_item">آیا شما می‌خواهید این دانلود را حذف کنید؟</string>
-    <string name="want_to_remove_all_download_items">آيا شما می‌خواهید تمام این دانلود‌ها را حذف کنید؟</string>
+    <string name="want_to_remove_download_item">مطمئن به حذف نمودن فایل دانلود شده هستید؟</string>
+    <string name="want_to_remove_all_download_items">مطمئن به حذف تمام فایلها هستید؟</string>
     <string name="delete_downloaded_file">حذف فایل دانلود شده</string>
     <string name="search">جستجو</string>
     <string name="search_for_apps">جستجو APKPure</string>
     <string name="trending_searches">جستجو‌های پربازدید</string>
     <string name="search_history">تاریخچه</string>
     <string name="clear_search_history">پاک کردن تمام تاریخچه</string>
-    <string name="improvement_plan_title">طرح بهبود عملکرد</string>
+    <string name="improvement_plan_title">طرح بهبود عملکرد کاربر</string>
     <string name="join_us">به ما بپیوند</string>
     <string name="skip">رد کردن</string>
     <string name="_name__is_up_to_date">
@@ -153,19 +151,17 @@
     <string name="contact_us__">تماس با ما…</string>
     <string name="contact_us">تماس با ما</string>
     <string name="report_content">گزارش مطلب</string>
-    <string name="installation_failed">نصب انجام نشد</string>
+    <string name="installation_failed">نصب انجام نشد.</string>
     <string name="invalid_app_detail">جزئیات بیشتر برنامه نامعتبر است.</string>
     <string name="invalid_app_asset">اطلاعات برنامه نامعتبر است.</string>
     <string name="failed_to_request_app_detail">درخواست برنامه ناموفق است جزئیات بیشتر برنامه.</string>
     <string name="failed_to_request_app_asset">درخواست برنامه ناموفق است جزئیات دارایی برنامه.</string>
-    <string name="incompatible_this_app">
-        <![CDATA[<big><b><font color=%1$d>دستگاه شما با این برنامه سازگار نیست.</font></b></big><br><br>می‌خواهید ادامه دهید؟]]>
-    </string>
+    <string name="incompatible_this_app">&lt;big&gt;&lt;b&gt;&lt;font color=%1$d&gt;دستگاه شما با این برنامه سازگار نیست.&lt;/font&gt;&lt;/b&gt;&lt;/big&gt;&lt;br&gt;&lt;br&gt; ادامه میدهید؟</string>
     <string name="setting">تنظیمات</string>
     <string name="share">اشتراک گذاری</string>
     <string name="update_all">به‌روزرسانی همه</string>
     <string name="update___count__">به‌روزرسانی (<xliff:g example="3" id="count">%1$d</xliff:g>)</string>
-    <string name="ignore">نادیده گرفتن از فهرست</string>
+    <string name="ignore">نادیده گرفتن</string>
     <string name="unignore">نادیده نگیر</string>
     <string name="select">انتخاب</string>
     <string name="cancel">انصراف</string>
@@ -189,13 +185,15 @@
     <string name="show_notification_after_installation">نمایش اطلاعیه بعد از نصب</string>
     <string name="delete_packages_after_installation">حذف پکیج‌ها بعد از نصب</string>
     <string name="_name__installation_completed">
-        <xliff:g example="APKPure" id="name">%1$s</xliff:g> نصب شد</string>
-    <string name="touch_to_open">برای باز کردن لمس کنید.</string>
+        <xliff:g example="APKPure" id="name">%1$s</xliff:g> نصب کامل شد</string>
+    <string name="touch_to_open">برای اجرا ضربه بزنید.</string>
     <string name="external_storage_not_usable">
         <![CDATA[<big><b>ما نیاز به دسترسی ذخیره سازی خارجی شما داریم. لطفا مطمئن شوید که قابل استفاده است.</b></big>]]>
     </string>
     <string name="external_storage_permission_denied">
-        <![CDATA[<big><b>ما نیاز به دسترسی ذخیره سازی خارجی شما داریم. لطفا مطمئن شوید که اجازه دسترسی رد نشده.</b></big>]]>
+        <big>
+            <b>ما نیاز به دسترسی ذخیره سازی خارجی داریم. لطفا مطمئن شوید که اجازه دسترسی پذیرفته شده است.</b>
+        </big>
     </string>
     <string name="share_app_url"> اشتراک گذاری <xliff:g example="APKPure" id="app_name">%1$s</xliff:g> ای‌پی‌کا (از @<xliff:g example="APKPure" id="social_network_name">%2$s</xliff:g>), <xliff:g example="https://apkpure.com/p/com.apkpure.aegon" id="app_url">%3$s</xliff:g>
     </string>
@@ -203,21 +201,19 @@
         <xliff:g example="APKPure" id="name">%1$s</xliff:g> تاریخچه نسخه</string>
     <string name="update__date___size_">به‌روزرسانی: <xliff:g example="Mar 3, 2016" id="date">%1$s</xliff:g>, <xliff:g example="1024 kB" id="size">%2$s</xliff:g>
     </string>
-    <string name="improvement_plan_message">با ثبت اطلاعات گوشی اندرویدی‌خود به ما در ارائه خدمات بهتر کمک کنید، ما اطلاعات شخصی-هویتی شما از قبیل (نام ، نشانی ، نشانی ایمیل ، شماره ملی و… ) را <b> ذخیره نمی‌کنیم</b>.</string>
-    <string name="this_app_not_usable">
-        <![CDATA[<big><b><font color=%1$d>این برنامه ممکن است قابل استفاده نباشد.</font></b></big><br><br>می‌خواهید ادامه دهید؟]]>
-    </string>
+    <string name="improvement_plan_message">با ثبت اطلاعات گوشی اندرویدی‌ خود، ما را در ارائه بهتر خدمات یاری نمایید، ما اطلاعات شخصی و یا هویتی شما از قبیل (نام ، نشانی ، نشانی ایمیل ، شماره ملی و… ) را <b> ذخیره نمی‌کنیم</b>.</string>
+    <string name="this_app_not_usable">&lt;big&gt;&lt;b&gt;&lt;font color=%1$d&gt;این برنامه ممکن است قابل استفاده نباشد.&lt;/font&gt;&lt;/b&gt;&lt;/big&gt;&lt;br&gt;&lt;br&gt; ادامه میدهید؟</string>
     <string name="installed">نصب شده است</string>
-    <string name="participate_ultra_download_beta_test_title">فعال کردن دانلود فوق العاده و از سرعت سریع دانلود لذت ببرید</string>
-    <string name="participate_ultra_download_beta_test_content">دانلود فوق العاده در مرحله تست می‌باشد، اگر به هرگونه مشکلی برخورد کردید به ما اطلاع دهید. شما به راحتی می‌توانید در تنظیمات غیرفعال کنید.</string>
+    <string name="participate_ultra_download_beta_test_title">با فعال کردن دانلود فوق العاده، از سرعت سریع دانلود لذت ببرید</string>
+    <string name="participate_ultra_download_beta_test_content">دانلود فوق العاده در مرحله تست می‌باشد، اگر به هرگونه مشکلی برخوردید به ما اطلاع دهید. شما به راحتی می‌توانید در تنظیمات غیرفعال کنید.</string>
     <string name="enable">فعال کردن</string>
     <string name="download_via_wifi_only">دانلود فقط از طریق Wi-Fi</string>
     <string name="enable_ultra_download">فعال کردن دانلود فوق العاده</string>
-    <string name="enable_ultra_download_summary">دانلود فوق العاده در مرحله تست می‌باشد. اگر به هرگونه مشکلی برخورد کردید به ما اطلاع دهید.</string>
-    <string name="download_over_cellular_content">دانلود شما از اینترنت تلفن شما استفاده می‌کند. آیا مایل به ادامه دادن می‌باشید؟</string>
+    <string name="enable_ultra_download_summary">دانلود فوق العاده در مرحله تست می‌باشد. اگر به هرگونه مشکلی برخوردید به ما اطلاع دهید.</string>
+    <string name="download_over_cellular_content">شما در حال دانلود از طریق اینترنت شبکه همراه می باشید. ادامه؟</string>
     <string name="download_over_cellular">دانلود با اینترنت موبایل</string>
     <string name="auto_service_install_accessibility_title">نصب خودکار</string>
-    <string name="auto_service_install_accessibility_summary">پشتیبانی از اندروید 4.1 به بالا، بدون نیاز به مجوز root .</string>
+    <string name="auto_service_install_accessibility_summary">از اندروید 4.1 و بالاتر پشتیبانی می‌کند. نیازی به دسترسی روت نیست.</string>
     <string name="auto_service_dialog_title">فعال کردن نصب خودکار</string>
     <string name="auto_service_dialog_message">برای فعال کردن نصب خودکار برنامه نیاز دارد که شما اجازه دسترسی به تلفن خود را بدهید، این کار ایمن است و هیچ خطری ندارد.</string>
     <string name="auto_service_title">نصب خودکار APKPure</string>
@@ -232,8 +228,16 @@
     <string name="auto_service_exchange__material_">جایگزین کردن</string>
     <string name="auto_service_complete__material_">انجام شد</string>
     <string name="auto_install_via_root_title">نصب خودکار (حالت Root)</string>
-    <string name="auto_install_via_root_summary">تنها برای گوشی‌های اندروید و تبلت‌های روت شده است.</string>
-    <string name="auto_service_description">در برنامه APKPure \"نصب خودکار\" را روشن کنید، و در اینجا \"نصب خودکار APKPure\" را فعال کنید.\n\n\"نصب خودکار APKPure\" به شما کمک می‌کند که در هنگام مراحل نصب و به‌روزرسانی برنامه‌ها و بازی‌ها، دیگر همیشه گوشی خود را چک نکنید و این مراحل همگی به صورت خودکار انجام شود.\n\nهنگامی که این قابلیت را فعال می‌کنید، سیستم گوشی شما پنجره‌ایی هشدار برای شما نمایش می‌دهد، که برای دسترسی به برنامه مجوز‌ها را نشان می‌دهد که روی دکمه \"تایید\" کلیک کنید تا فعال شود.\n\nبرای اطمینان به کار کردن خوب برنامه APKPure, لطفا APKPure را در \"لیست سفید\" برنامه‌های خود قرار دهید.\n\nموارد بالا فقط برای اندروید 4.1 به بالا پشتیبانی می‌شود، بدون نیاز به دسترسی به root. ما هرگز اطلاعات شخصی شما را جمع آوری نمی کنیم برای این مجوز. لطفا در صورت تمایل هر گونه مشکلی داشتید از قسمت تماس با ما در برنامه تماس بگیرید. ترجمه شده به فارسی : گودرز جعفری .</string>
+    <string name="auto_install_via_root_summary">تنها برای تلفن‌ها و تبلت‌های اندرویدی روت‌شده</string>
+    <string name="auto_service_description">\"نصب خودکار APKPure\" را فعال کنید تا \"نصب خودکار\" را به‌راحتی در APKPure انجام دهید.
+\n
+\n\"نصب خودکار APKPure\" می‌تواند زمان شما را در کلیک کردن بر گزینه نصب برای نصب کردن یا به‌روزرسانی برنامه‌ها ذخیره کند؛ و دیگر مجبور نیستید که در تمام زمان تلفن خود را چک کنید.
+\n
+\nهنگامی‌که شما این ویژگی را فعال کنید، شاید هشدارهای ریسک سیستم را دریافت کنید. لطفا بر روی \"باشه\" کلیک کنید تا قابلیت دسترسی \"روشن\" شود.
+\n 
+\nبرای آنکه از عملکرد صحیح APKPure اطمینان حاصل کنید، لطفا APKPure را به لیست سفید آنتی‌ویروس خود اضافه کنید.
+\n
+\nتمام کارکردهایی که در بالا توضیح داده شد، تنها در اندروید 4.1 و بالاتر پشتیبانی می‌شوند. هیچ نیازی به دسترسی روت نیست. ما به شما قول می‌دهیم که به‌هیچ عنوان اطلاعات شخصی شما را در این خدمات دسترسی جمع‌آوری نکنیم. لطفا برای تماس با ما به‌خاطر هر مشکلی راحت باشید.</string>
     <string name="similar_or_related">مشابه یا مرتبط</string>
     <string name="more_from_developer">از این توسعه دهنده</string>
     <string name="more_large">بیشتر</string>
@@ -246,15 +250,15 @@
     </plurals>
     <string name="app_detail_customer_reviews">نظرات</string>
     <string name="app_detail_comment_type_web">وب</string>
-    <string name="app_submit_submit">پست…</string>
+    <string name="app_submit_submit">درحال ارسال…</string>
     <string name="app_submit_anonymous_comment">اضافه کردن نظر</string>
-    <string name="app_submit_title_toast">شما باید عنوان را وارد کنید !</string>
-    <string name="app_submit_msg_toast">شما باید چیزی بنویسید !</string>
-    <string name="app_submit_name_toast">لطفا یک نام مستعاروارد کنید !</string>
-    <string name="app_submit_email_toast">لطفا یک ایمیل معتبر وارد کنید !</string>
-    <string name="app_submit_star_toast">شما باید ستاره را انتخاب کنید !</string>
-    <string name="app_submit_title_hint">لطفا عنوان را وارد کنید</string>
-    <string name="app_submit_msg_hint">لطفا نظر خود را بنویسید</string>
+    <string name="app_submit_title_toast">لطفا عنوانی را وارد کنید.</string>
+    <string name="app_submit_msg_toast">لطفا چیزی بنویسید!</string>
+    <string name="app_submit_name_toast">لطفا نام مستعار خود را وارد کنید!</string>
+    <string name="app_submit_email_toast">لطفا آدرس ایمیلی معتبر وارد کنید!</string>
+    <string name="app_submit_star_toast">لطفا رتبه‌بندی خود را مشخص کنید!</string>
+    <string name="app_submit_title_hint">لطفا عنوانی را وارد کنید!</string>
+    <string name="app_submit_msg_hint">لطفا نظر خود را وارد کنید!</string>
     <string name="app_submit_nickname">نام مستعار</string>
     <string name="app_submit_email">ایمیل</string>
     <string name="app_submit_submit_title">پست</string>
@@ -270,7 +274,7 @@
     <string name="scan_qr_code_hint">قبل از استفاده اسکن کد QR باید شما به دوربین خود مجوز استفاده بدهید
  تا بتوانید کد QR را اسکن کند.</string>
     <string name="zxing_msg_parser_status">اسکن ناموفق بود، لطفا برای اسکن کد QR دوباره تلاش کنید.</string>
-    <string name="input_reply_content">وارد کردن محتوا برای پاسخ:</string>
+    <string name="input_reply_content">وارد کردن دیدگاه:</string>
     <string name="zxing_msg_default_status">لطفا محل کد QR را در قسمت منظره یاب برای اسکن قرار دهید.</string>
     <string name="report">گزارش</string>
     <string name="share_app_url_comment">
@@ -281,7 +285,7 @@
     <string name="app_detail_comment_order_array_newest">جدیدترین</string>
     <string name="app_detail_comment_order_array_best">بهترین</string>
     <string name="download_complete_installation_setting_entries_always">همیشه نصب شود</string>
-    <string name="download_complete_installation_setting_entries_only">فقط زمانی که برنامه باز است نصب شود</string>
+    <string name="download_complete_installation_setting_entries_only">فقط زمانی که برنامه در پس‌زمینه باز است نصب شود</string>
     <string name="download_complete_installation_setting_entries_never">هرگز نصب نشود</string>
     <string name="reply_comment">پاسخ به نظر</string>
     <string name="already_save">ذخیره شد<xliff:g example="ApKPure/photo" id="path">%1$s</xliff:g>
@@ -358,7 +362,7 @@
     <string name="login_new_user">ثبت نام کاربر جدید</string>
     <string name="login_post_as_a_guest">ارسال به عنوان مهمان</string>
     <string name="recommend">پیشنهاد‌ها</string>
-    <string name="reply_dialog_marked_words">فشار دادن طولانی بر روی عکس انتخاب شده برای حذف آن.</string>
+    <string name="reply_dialog_marked_words">برای حدف روی عکس کلیک نموده و نگهدارید.</string>
     <string name="save_original_image">ذخیره</string>
     <string name="login_select_way_to_login">لطفا یکی از راه‌ها را برای وارد شدن انتخاب کنید</string>
     <string name="app_detail_comment_order_array_default">مرتب‌سازی به‌صورت پیش‌فرض</string>
@@ -419,7 +423,7 @@
     <string name="delete_the_historical_record">حذف سابقه تاریخی؟</string>
     <string name="check_update_replace">نسخه رسمی</string>
     <string name="check_update_beta">پیش‌انتشار بتا</string>
-    <string name="app_detail_comment_order_array_old">قدیمی</string>
+    <string name="app_detail_comment_order_array_old">قدیمی‌ترین</string>
     <string name="app_detail_comment_join_group_bt">گروه</string>
     <string name="ad_tip">آگهی</string>
     <string name="null_time">0:00</string>
@@ -551,7 +555,7 @@
     <string name="app_detail_has_product">اقلام خریدنی</string>
     <string name="app_detail_no_product">هیچ اقلام خریدنی وجود ندارد</string>
     <string name="app_add_tag_hint_caution">برچسب‌های هر برنامه بیشتر از %s نباشد.</string>
-    <string name="load_failed_error_not_found">»برنامه در APKPure گنجانده نشده است.</string>
+    <string name="load_failed_error_not_found">برنامه در APKPure گنجانده نشده است.</string>
     <string name="beta">آزمایشی</string>
     <string name="user_info_edit_intro_tv">درباره من</string>
     <string name="update_intro_title">ویرایش درباره من</string>
@@ -621,13 +625,13 @@
     <string name="pre_register_success">پیش ثبت‌نام به این معنی است که هنگام انتشار برنامه، شما یک اعلان در دستگاهتان دریافت خواهید کرد.</string>
     <string name="properties_message_v2">&lt;b&gt;نام بسته:&lt;/b&gt; %1$s&lt;br&gt;&lt;b&gt;نسخه:&lt;/b&gt; %2$s&lt;br&gt;&lt;b&gt;مسیر:&lt;/b&gt; %3$s&lt;br&gt;&lt;b&gt;اندازه:&lt;/b&gt; %4$s&lt;br&gt;&lt;b&gt;آخرین اصلاح:&lt;/b&gt; %5$s</string>
     <string name="app_detail_tab_evaluation">مرورکردن</string>
-    <string name="app_detail_comment_filter_sort_score">بالاترین امتیاز</string>
+    <string name="app_detail_comment_filter_sort_score">برترین رتبه‌ها</string>
     <string name="app_detail_comment_filter_all">مرورکردن همه</string>
-    <string name="app_detail_comment_filter_version">نسخه آخر</string>
-    <string name="app_detail_comment_score_less">رای کاربران خیلی کم است</string>
-    <string name="app_detail_comment_no_data">امتیازی توسط کاربران ثبت نشده است، امتیاز خود را ثبت کنید.</string>
+    <string name="app_detail_comment_filter_version">آخرین نسخه</string>
+    <string name="app_detail_comment_score_less">بازدیدهای کاربران خیلی کم است.</string>
+    <string name="app_detail_comment_no_data">نظرات کاربران وجود ندارد. الان نظر خود را بنویسید.</string>
     <string name="app_detail_comment_score_footer">%1$ مرور در سایر زبان ها وجود دارد.</string>
-    <string name="app_detail_evaluation_tool_bar_title">به اشتراک گذاری بررسی</string>
+    <string name="app_detail_evaluation_tool_bar_title">نظری بنویسید</string>
     <string name="app_detail_evaluation_failed_bt">بررسی</string>
     <string name="app_detail_comment_order_array_good">4-5</string>
     <string name="app_detail_comment_order_array_bad">1-3</string>
@@ -763,4 +767,5 @@
     <string name="is_save_comment_draft">پیش نویس به هر حال ذخیره می کنی ؟</string>
     <string name="upload_video">آپلود ویدیو</string>
     <string name="saved_draft">به عنوان پیش نویس ذخیره شد</string>
+    <string name="auto_service_directly__material_">نصب مستقیم</string>
 </resources>

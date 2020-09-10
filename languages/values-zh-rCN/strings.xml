@@ -9,8 +9,9 @@
     <string name="apps">应用</string>
     <string name="categories">分类</string>
     <string name="recommend">最新发现</string>
-    <string name="updates">更新</string>
-    <string name="something_happened">&gt;_&lt;\n出错了</string>
+    <string name="updates">更新日期:</string>
+    <string name="something_happened">&gt;_&lt;
+\n出错了</string>
     <string name="load_failed_error">哎呀！发生错误了</string>
     <string name="load_failed_error_not_found">该应用未收录！</string>
     <string name="load_failed_empty">无内容</string>
@@ -99,10 +100,8 @@
     <string name="version__version___size_">版本：<xliff:g id="version" example="1.0.0">%1$s</xliff:g>, <xliff:g id="size" example="1024 kB">%2$s</xliff:g>
     </string>
     <plurals name="_count__new_update_is_available">
-        <item quantity="one">
-            <xliff:g id="count" example="1">%1$d</xliff:g> 个应用可更新</item>
         <item quantity="other">
-            <xliff:g id="count" example="2">%1$d</xliff:g> 个应用可更新</item>
+            <xliff:g example="2" id="count">%1$d</xliff:g> new updates are available</item>
     </plurals>
     <string name="launching_please_wait">正在启动，请稍候…</string>
     <plurals name="_count__item_is_downloading">
@@ -111,7 +110,7 @@
         <item quantity="other">
             <xliff:g id="count" example="2">%1$d</xliff:g> 个应用正在下载</item>
     </plurals>
-    <string name="downloads_complete">下载完成</string>
+    <string name="downloads_complete">全部下载已完成</string>
     <string name="touch_for_view_all_downloads">点击查看所有下载</string>
     <string name="_name__download_failed">
         <xliff:g id="name" example="APKPure">%1$s</xliff:g> 下载失败</string>

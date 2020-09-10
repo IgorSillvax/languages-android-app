@@ -1,37 +1,31 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-
     <string name="action_settings">Pengaturan</string>
     <string name="action_search">Cari</string>
-    <string name="press_back_key_quit">Tekan tombol kembali dan berhenti.</string>
-
+    <string name="press_back_key_quit">Tekan tombol kembali sekali lagi untuk keluar</string>
     <string name="featured">Unggulan</string>
     <string name="games">Permainan</string>
     <string name="apps">Aplikasi</string>
     <string name="categories">Kategori</string>
     <string name="updates">Terkini</string>
-
     <string name="something_happened">&gt;_&lt;\nTerjadi sesuatu.</string>
-
     <string name="load_failed_error">Oops! Terjadi kesalahan.</string>
     <string name="load_failed_empty">Tidak ada apapun disini.</string>
     <string name="load_failed_all_up_to_date">Semua aplikasi terbaru.</string>
     <string name="load_failed_no_results">Maaf! Tidak ada hasil yang ditemukan.</string>
     <string name="refresh">Muat ulang</string>
-
     <string name="management">Manajemen</string>
     <string name="app_updates">perbarui aplikasi</string>
     <string name="app_management">Terpasang</string>
-    <string name="app_uninstall">Aplikasi Tercopot</string>
+    <string name="app_uninstall">应用程序卸载</string>
     <string name="apk_management">Manajemen APK</string>
     <string name="apk_xapk_management">Manajemen APK/XAPK</string>
     <string name="download_management">Manajement download</string>
     <string name="settings">Mengatur</string>
     <string name="about">Tentang</string>
-    <string name="check_update">Cek Update</string>
+    <string name="check_update">检查更新</string>
     <string name="quit">Keluar</string>
-    <string name="want_to_quit">Kamu mau hentikan?</string>
-
+    <string name="want_to_quit">要停止吗？</string>
     <string name="install">Install</string>
     <string name="open">Buka</string>
     <string name="delete">Hapus</string>
@@ -40,20 +34,18 @@
     <string name="failed_to_delete_file">Gagal untuk menghapus file ini.</string>
     <string name="user_canceled">Pengguna dibatalkan.</string>
     <string name="action_management">Pengelolaan</string>
-
-    <string name="about_title">Tentang <xliff:g example="APKPure" id="app_name">%1$s</xliff:g></string>
+    <string name="about_title">Tentang <xliff:g example="APKPure" id="app_name">%1$s</xliff:g>
+    </string>
     <string name="language">Bahasa</string>
     <string name="auto">Auto</string>
-
     <string name="share">Berbagi</string>
     <string name="setting">Pengaturan</string>
-    <string name="installation_failed">Instalasi Gagal</string>
+    <string name="installation_failed">Pemasangan Gagal.</string>
     <string name="invalid_app_detail">Kesalahan informasi detail pada aplikasi.</string>
     <string name="about_message">
         <![CDATA[<b>Visi:</b> %1$s<br><br><b>Website:</b> <a href=%2$s>%2$s</a><br><b>Email:</b> <a href=mailto:%3$s>%3$s</a>]]>
     </string>
     <string name="installing_apk">Memasang APK …</string>
-
     <string name="description">Deskripsi</string>
     <string name="information">Informasi</string>
     <string name="version_">Versi:</string>
@@ -66,40 +58,36 @@
     <string name="apk">APK</string>
     <string name="xapk">XAPK</string>
     <string name="_ellipsis_"> … </string>
-
     <string name="market_response_error_success">Sukses.</string>
     <string name="delete_all">Hapus Semua</string>
-    <string name="properties">update</string>
-    <string name="want_to_delete_all_files">Kamu ingin menghapus semua file?</string>
-    <string name="io_error">Kesalahan IO. Mungkin tidak ada ruang cukup instalasi berhasil.</string>
+    <string name="properties">性能</string>
+    <string name="want_to_delete_all_files">要删除所有文件？</string>
+    <string name="io_error">IO错误。可能没有足够的空间来安装。</string>
     <string name="file_format_error">Kesalahan format file.</string>
     <string name="parsing_xapk">Mengurai XAPK …</string>
     <string name="installing_obb">Memasang file OBB …</string>
     <string name="extracting_apk">Mengekstrak APK File …</string>
     <string name="uninstall">Copot</string>
     <string name="uninstalled">Tidak terpasang</string>
-    <string name="last_update__date_">Update terbaru: <xliff:g id="date">%1$s</xliff:g></string>
-
+    <string name="last_update__date_">Update terbaru: <xliff:g id="date">%1$s</xliff:g>
+    </string>
     <string name="all">Semua</string>
-
     <string name="screenshots">Screenshot</string>
     <string name="whatsnew">Apa yang baru</string>
     <string name="updated_">Update:</string>
-    <string name="more">Lebih</string>
+    <string name="more">更多</string>
     <string name="unknown">Tidak diketahui</string>
     <string name="flag_as_inappropriate">Bendera tak cocok</string>
     <string name="market_response_error_invalid_result">Hasil nggak berlaku.</string>
-    <string name="market_response_error_network_connect_error">Koneksi Jaringan Error</string>
+    <string name="market_response_error_network_connect_error">网络连接错误</string>
     <string name="market_response_error_network_read_error">Kesalahan baca jaringan.</string>
     <string name="market_response_error_invalid_response_code">Kode respon tak berlaku.</string>
     <string name="market_response_error_invalid_response_body">Tubuh respon tak berlaku.</string>
     <string name="no_more">Tidak lebih.</string>
-
     <string name="update">Pembaruan</string>
-    <string name="downloads_complete">Download selesai</string>
-    <string name="touch_for_view_all_downloads">Sentuh untuk lihat semua unduhan</string>
-    <string name="touch_to_download_it_again">Sentuh untuk download lagi</string>
-
+    <string name="downloads_complete">下载完成</string>
+    <string name="touch_for_view_all_downloads">点击可查看所有下载</string>
+    <string name="touch_to_download_it_again">点击再次下载</string>
     <string name="pause">Jeda</string>
     <string name="pause_all">Jeda semua</string>
     <string name="continue_">Lanjutkan</string>
@@ -120,34 +108,30 @@
     <string name="detail">Detail</string>
     <string name="remove">Hapuskan</string>
     <string name="remove_all">Hapuskan semua</string>
-    <string name="want_to_remove_download_item">Kamu ingin hapuskan item download ini?</string>
-    <string name="want_to_remove_all_download_items">Kamu ingin hapuskan semua item download ini?</string>
+    <string name="want_to_remove_download_item">Apakah Anda yakin ingin menghapus item ini\?</string>
+    <string name="want_to_remove_all_download_items">Apakah Anda yakin ingin menghapus semua item\?</string>
     <string name="delete_downloaded_file">Hapuskan file download</string>
-
     <string name="search">cari</string>
     <string name="search_for_apps">Mencari APKPure</string>
     <string name="trending_searches">cenderung penelusuran</string>
     <string name="search_history">Sejarah</string>
     <string name="clear_search_history">Bersihkan semua riwayat</string>
-
-    <string name="improvement_plan_title">Rencana peningkatan kinerja</string>
+    <string name="improvement_plan_title">Rencana Peningkatan Pengalaman Pengguna</string>
     <string name="join_us">Bergabung kami</string>
     <string name="skip">Lewati</string>
-
     <string name="new_version_available_title">Visi baru tersedia</string>
     <string name="report__">Lapor…</string>
-    <string name="report_problem__">Llaporkan masalah…</string>
-    <string name="report_problem_subject">Llaporkan masalah</string>
+    <string name="report_problem__">Laporkan masalah…</string>
+    <string name="report_problem_subject">Laporkan masalah</string>
     <string name="report_problem_text">masalah topik:\n%1$s\n\nmasalah detail:\n%2$s</string>
     <string name="contact_us__">Hubungi Kami…</string>
     <string name="contact_us">Hubungi Kami</string>
     <string name="report_content">Laporkan konten</string>
-
     <string name="invalid_app_asset">Informasi aset App tak berlaku.</string>
     <string name="failed_to_request_app_detail">Gagal meminta informasi detail app.</string>
     <string name="failed_to_request_app_asset">Gagal meminta informasi aset app.</string>
     <string name="update_all">Update semua</string>
-    <string name="ignore">Mengabaikan</string>
+    <string name="ignore">Abaikan</string>
     <string name="unignore">Tak mengabaikan</string>
     <string name="select">Pilih</string>
     <string name="cancel">Batal</string>
@@ -158,67 +142,59 @@
     <string name="installation">Instalasi</string>
     <string name="show_notification_after_installation">Tampilkan pemberitahuan setelah instalasi</string>
     <string name="delete_packages_after_installation">Menghapus paket setelah instalasi</string>
-
-    <string name="touch_to_open">Sentuh untuk membuka.</string>
-
-    <string name="enable_ultra_download_summary">Ultra Download dalam pengujian beta, beritahukan kami tahu jika Anda menemui masalah.</string>
+    <string name="touch_to_open">Ketuk untuk membuka.</string>
+    <string name="enable_ultra_download_summary">Ultra Download masih dalam beta, beritahukan kami jika Anda menemui masalah.</string>
     <string name="enable_ultra_download">Mengaktifkan download</string>
     <string name="download_via_wifi_only">Download melalui Wi-fi hanya</string>
-    <string name="launching_please_wait">Meluncurkan, silahkan tunggu…</string>
-
+    <string name="launching_please_wait">启动，请稍候...</string>
     <string name="installed">Instal</string>
     <string name="download_over_cellular">Download melalui seluler</string>
-    <string name="download_over_cellular_content">Anda mendownload melalui jaringan selular. Anda ingin melanjutkan?</string>
-
+    <string name="download_over_cellular_content">Anda mendownload melalui jaringan selular. lanjutkan\?</string>
     <string name="enable">Aktifkan</string>
-
-    <string name="participate_ultra_download_beta_test_title">Boleh download dan menikmati kecepatan download yang baik</string>
-    <string name="participate_ultra_download_beta_test_content">Download dalam pengujian beta, beritahukan kami jika Anda menemui masalah .Anda dapat mudah menonaktifkan dalam pengaturan.</string>
+    <string name="participate_ultra_download_beta_test_title">Aktifkan Ultra Unduhan dan nikmati kecepatan unduh yang lebih cepat</string>
+    <string name="participate_ultra_download_beta_test_content">Ultra Download masih dalam versi beta. beri tahu kami jika Anda mengalami masalah. Anda dapat dengan mudah menonaktifkannya di Pengaturan.</string>
     <string name="properties_message">
         <![CDATA[<b>Jalan:</b> %1$s<br><b>Ukuran:</b> %2$s<br><b>Ubah terbaru:</b> %3$s]]>
     </string>
-    <string name="install__label_">Intall - <xliff:g example="APKPure" id="app_label">%1$s</xliff:g></string>
-    <string name="market_response_error_unknown_error__error_">Kesalahan tak diketahui (<xliff:g example="SUCCESS" id="error"> %1$s</xliff:g>).</string>
-
-    <string name="version__version___size_">Versi: <xliff:g example="1.0.0" id="version">%1$s</xliff:g>, <xliff:g example="1024 kB" id="size">%2$s</xliff:g></string>
-    <plurals name="_count__new_update_is_available">
-        <item quantity="one"><xliff:g example="2" id="count">%1$d</xliff:g> Pembaruan tersedia</item>
-        <item quantity="other"/>
-    </plurals>
-
-    <plurals name="_count__item_is_downloading">
-        <item quantity="one"><xliff:g example="2" id="count">%1$d</xliff:g> Item sedang mendownload</item>
-        <item quantity="other"/>
-    </plurals>
-    <string name="_name__download_failed"><xliff:g example="APKPure" id="name">%1$s</xliff:g> Unduhan gagal</string>
-    <string name="download_percent"><xliff:g example="50" id="percent">%1$d</xliff:g> %%</string>
-    <string name="improvement_plan_message">
-        <![CDATA[Membantu kami dengan mengirimkan Android Device Info, kita lakukan <b>tak kumpulkan</b> informasi pribada (nama, alamat, email, nomor jaminan sosial, atau pengenaan unuk lain).]]>
+    <string name="install__label_">Intall - <xliff:g example="APKPure" id="app_label">%1$s</xliff:g>
     </string>
-    <string name="_name__is_up_to_date"><xliff:g example="APKPure" id="name">%1$s</xliff:g> berbaru sama waktu.</string>
+    <string name="market_response_error_unknown_error__error_">Kesalahan tak diketahui (<xliff:g example="SUCCESS" id="error"> %1$s</xliff:g>).</string>
+    <string name="version__version___size_">Versi: <xliff:g example="1.0.0" id="version">%1$s</xliff:g>, <xliff:g example="1024 kB" id="size">%2$s</xliff:g>
+    </string>
+    <plurals name="_count__new_update_is_available">
+        <item quantity="one">
+            <xliff:g example="2" id="count">%1$d</xliff:g> Pembaruan tersedia</item>
+        <item quantity="other"/>
+    </plurals>
+    <plurals name="_count__item_is_downloading">
+        <item quantity="one">
+            <xliff:g example="2" id="count">%1$d</xliff:g> Item sedang mendownload</item>
+        <item quantity="other"/>
+    </plurals>
+    <string name="_name__download_failed">
+        <xliff:g example="APKPure" id="name">%1$s</xliff:g> Unduhan gagal</string>
+    <string name="download_percent">
+        <xliff:g example="50" id="percent">%1$d</xliff:g> %%</string>
+    <string name="improvement_plan_message">Bantu kami menjadikan pengalaman Anda lebih baik dengan mengirimkan info Perangkat Android Anda, Kami berjanji <b> tidak </b> untuk mengumpulkan informasi pengenal pribadi Anda (nama, alamat, alamat email, nomor jaminan sosial, atau pengidentifikasi unik lainnya).</string>
+    <string name="_name__is_up_to_date">
+        <xliff:g example="APKPure" id="name">%1$s</xliff:g> berbaru sama waktu.</string>
     <string name="new_version_available_message">"
         <![CDATA[<b>Visi terbaru:</b> %1$s<br><br><b>Apa yang baru:</b><br>%2$s]]>
     </string>
-
-    <string name="incompatible_this_app">
-        <![CDATA[<big><b><font color="%1$d">Perangkat Anda tidak kompatibel dengan app ini.</font></b></big><br><br>Anda ingin melanjutkan?]]>
-    </string>
-    <string name="this_app_not_usable">
-        <![CDATA[<big><b><font color="%1$d">Aplikasi tidak boleh digunakan.</font></b></big><br><br>Anda ingin melanjutkan?]]>
-    </string>
-
+    <string name="incompatible_this_app">&lt;big&gt;&lt;b&gt;&lt;font color=%1$d&gt;Perangkat Anda tidak kompatibel dengan app ini.&lt;/font&gt;&lt;/b&gt;&lt;/big&gt;&lt;br&gt;&lt;br&gt;Lanjutkan\?</string>
+    <string name="this_app_not_usable">&lt;big&gt;&lt;b&gt;&lt;font color=%1$d&gt;Aplikasi tidak boleh digunakan.&lt;/font&gt;&lt;/b&gt;&lt;/big&gt;&lt;br&gt;&lt;br&gt;Lanjutkan\?</string>
     <string name="external_storage_not_usable">
         <![CDATA[<big><b>Kita perlu mengakses penyimpanan eksternal Anda. Harap pastikan digunakan.</b></big>]]>
     </string>
     <string name="external_storage_permission_denied">
         <![CDATA[<big><b>Kita perlu mengakses penyimpanan eksternal Anda. Harap pastikan tak ditolak.</b></big>]]>
     </string>
-
-    <string name="share_app_url"> Bagikan <xliff:g example="APKPure" id="app_name">%1$s</xliff:g> APK (from @<xliff:g example="APKPure" id="social_network_name">%2$s</xliff:g>), <xliff:g example="https://apkpure.org/p/com.apkpure.aegon" id="app_url">%3$s</xliff:g></string>
-
-    <string name="_name__version_history"><xliff:g example="APKPure" id="name">%1$s</xliff:g> Sejarah visi</string>
-    <string name="update__date___size_">Pembaruan: <xliff:g example="Mar 3, 2016" id="date">%1$s</xliff:g>, <xliff:g example="1024 kB" id="size">%2$s</xliff:g></string>
-
+    <string name="share_app_url"> Bagikan <xliff:g example="APKPure" id="app_name">%1$s</xliff:g> APK (from @<xliff:g example="APKPure" id="social_network_name">%2$s</xliff:g>), <xliff:g example="https://apkpure.org/p/com.apkpure.aegon" id="app_url">%3$s</xliff:g>
+    </string>
+    <string name="_name__version_history">
+        <xliff:g example="APKPure" id="name">%1$s</xliff:g> Sejarah visi</string>
+    <string name="update__date___size_">Pembaruan: <xliff:g example="Mar 3, 2016" id="date">%1$s</xliff:g>, <xliff:g example="1024 kB" id="size">%2$s</xliff:g>
+    </string>
     <string name="update___count__">Pembaruan (<xliff:g example="3" id="count">%1$d</xliff:g>)</string>
     <plurals name="total__count__apps__size_">
         <item quantity="other">
@@ -228,8 +204,8 @@
     <string name="total_zero_app">
         <![CDATA[Total:：<b><font color="%1$d">0</font></b> aplikasi,]]>
     </string>
-
-    <string name="_name__installation_completed"><xliff:g example="APKPure" id="name">%1$s</xliff:g> Selesai Instalasi</string>
+    <string name="_name__installation_completed">
+        <xliff:g example="APKPure" id="name">%1$s</xliff:g> pemasangan selesai</string>
     <string name="auto_service_install_accessibility_title">Instal Otomatis</string>
     <string name="auto_service_title">APKPure Auto Instal</string>
     <string name="auto_service_install">Instal</string>
@@ -237,29 +213,30 @@
     <string name="auto_service_next">Berikutnya</string>
     <string name="auto_service_exchange">Menggantikan</string>
     <string name="auto_service_complete">Selesai</string>
-
     <string name="auto_service_install__material_">INSTAL</string>
     <string name="auto_service_ensure__material_">OK</string>
     <string name="auto_service_next__material_">BERIKUTNYA</string>
     <string name="auto_service_exchange__material_">MENGGANTIKAN</string>
     <string name="auto_service_complete__material_">SELESAI</string>
-
     <string name="auto_install_via_root_title">Pasang Otomatis (Mode Root)</string>
-    <string name="auto_service_install_accessibility_summary">Dukungan Android 4.1+, tidak akar izin diperlukan.</string>
-
+    <string name="auto_service_install_accessibility_summary">Mendukung Android 4.1 dan di atasnya, tidak akses root diperlukan.</string>
     <string name="auto_service_dialog_title">Aktifkan Auto Instal</string>
-    <string name="auto_install_via_root_summary">"Untuk perangkat Android dan tablet  yang sudah di root saja."</string>
-
-    <string name="auto_service_dialog_message">Auto Instal mengharuskan Anda untuk mengotorisasi di telepon, itu aman untuk digunakan tanpa resiko.</string>
-
-    <string name="auto_service_description">Aktifkan \"APKPure Auto Install\", untuk tetap APKPure \"Auto Instal\" berjalan lancar.\n\n\"APKPure Auto Instal\" dapat membantu Anda klik semua instal tombol ketika instalasi atau mengupdate aplikasi, Anda tidak harus mengecek telepon sepanjang waktu.\n\nKetika mengaktifkan fitur ini, Anda mungkin menerima peringatan risiko sistem, ketuk detak \"OK\" untuk mengaktifkan switch aksesibilitas \"ON\".\n\nUntuk memastikan APKPure baik fungsi, tambahkan APKPure untuk Anda Pembersih App \"Daftar Putih\".\n\nFungsi di atas disebutkan dukungan Android 4.1+, tidak akar izin diperlukan. Kami berjanji tidak pernah mengumpulkan informasi pribadi Anda di layanan aksesibilitas ini. Silahkan merasa bebas untuk kontak kami dengan apa saja masalah.</string>
-
+    <string name="auto_install_via_root_summary">"Hanya untuk perangkat Android dan tablet  yang sudah di root."</string>
+    <string name="auto_service_dialog_message">Pemasangan Otomatis membutuhkan ijin dari anda. 100% aman.</string>
+    <string name="auto_service_description">Aktifkan \"APKPure Auto Install\" untuk tetap APKPure \"Auto Instal\" berjalan lancar.
+\n
+\n\"APKPure Auto Instal\" dapat menghemat waktu saat menekan tombol install saat memasang atau mengupdate aplikasi, Anda tidak perlu mengecek telepon sepanjang waktu.
+\n
+\nSejak mengaktifkan fitur ini, Anda mungkin menerima peringatan risiko sistem. Silahkan ketuk \"OK\" untuk mengaktifkan switch aksesibilitas \"ON\".
+\n
+\nUntuk memastikan APKPure baik fungsi, tambahkan APKPure untuk Anda Pembersih App \"Daftar Putih\".
+\n
+\nFungsi di atas disebutkan dukungan Android 4.1 dan diatasnya. Tidak ada ijin root yang diperlukan. Kami berjanji tidak pernah mengumpulkan informasi pribadi Anda di layanan aksesibilitas ini. Silahkan dengan leluasa untuk kontak kami dengan apa saja masalah.</string>
     <string name="similar_or_related">Mirip atau Terkait</string>
     <string name="more_from_developer">Lebih Dari Pengembang</string>
     <string name="more_large">Lebih</string>
     <string name="feedback">Umpan Balik</string>
-
-    <string name="changing_language">Mengubah bahasa, mohon tunggu…</string>
+    <string name="changing_language">Mengubah bahasa, Silahkan tunggu.</string>
     <string name="download_complete_installation_setting">Pilihan instalasi setelah mengunduh</string>
     <string name="recommend">Temukan</string>
     <string name="sub_comment_dialog_title">Tambahkan video</string>
@@ -267,13 +244,11 @@
     <string name="sub_comment_dialog_link_et">Masukkan alamat video di sini</string>
     <string name="sub_comment_dialog_link_null">Alamat video tidak boleh kosong</string>
     <string name="sub_comment_progress_msg">Menambagkan video…</string>
-
     <string name="menu_cancel">Batal</string>
     <string name="delete_all_download_history">Hapus semua riwayat unduhan?</string>
     <string name="menu_copy">Salin</string>
     <string name="edit">Ubah</string>
     <string name="comment_comment_oldest">Terlama</string>
-
     <string name="comment_comment_newest">Terbaru</string>
     <string name="comment_reply_info_name">Rincian</string>
     <string name="set_updates_notification">Aplikasi terbaru tersedia</string>
@@ -283,49 +258,42 @@
     <string name="gif_tip">Gif</string>
     <string name="report">Laporkan</string>
     <string name="app_detail_customer_reviews">Komentar Pengunduh</string>
-    <string name="app_detail_comment_type_web">web</string>
-    <string name="app_submit_submit">Masukkan…</string>
+    <string name="app_detail_comment_type_web">Web</string>
+    <string name="app_submit_submit">Memasukkan…</string>
     <string name="app_submit_anonymous_comment">Tambahkan komentar</string>
-    <string name="app_submit_title_toast">Kamu wajib menuliskan judul!</string>
-    <string name="app_submit_msg_toast">Anda harus menuliskan sesuatu!</string>
-    <string name="app_submit_name_toast">Harap mengisi nickname!</string>
-    <string name="app_submit_email_toast">Harap mengisikan alamat email yang benar!</string>
+    <string name="app_submit_title_toast">Silahkan masukkan sebuah judul!</string>
+    <string name="app_submit_msg_toast">Mohon tuliskan sesuatu!</string>
+    <string name="app_submit_name_toast">Silahkan isi nama panggilanmu!</string>
+    <string name="app_submit_email_toast">Silahkan isi alamat email yang benar!</string>
     <string name="app_submit_star_toast">Kamu harus Memberi Bintang!</string>
-    <string name="app_submit_title_hint">Tuliskan Judul</string>
-    <string name="app_submit_msg_hint">Tuliskan Pendapat kamu</string>
+    <string name="app_submit_title_hint">Silahkan isi sebuah judul!</string>
+    <string name="app_submit_msg_hint">Silahkan isi konten kamu!</string>
     <string name="app_submit_nickname">Nama Panggilan</string>
     <string name="app_submit_email">Surel</string>
     <string name="app_submit_submit_title">Postingan</string>
-    <string name="app_submit_reply_to">Balas ke</string>
-
+    <string name="app_submit_reply_to">membalas kepada</string>
     <string name="app_detail_tab_one">Detail</string>
-    <string name="app_detail_tab_two">Komentar</string>
+    <string name="app_detail_tab_two">Grup</string>
     <string name="app_detail_comment_order_array_default">"Urutkan Sesuai Standar "</string>
     <string name="app_detail_comment_order_array_most_recent">Yang Terbaru</string>
     <string name="app_detail_comment_order_array_new">Terbaru</string>
     <string name="app_detail_comment_order_array_best">Populer</string>
-
     <string name="download_complete_installation_setting_entries_always">Selalu Pasang</string>
     <string name="download_complete_installation_setting_entries_only">Pasang ketika App di depan</string>
     <string name="download_complete_installation_setting_entries_never">Jangan pernah Pasang</string>
-
     <string name="reply">Balas</string>
     <string name="input_reply_content">Masukkan konten Balasan</string>
     <string name="publish">Publikasikan</string>
     <string name="reply_dialog_marked_words">Tekan lama gambar terpilih untuk menghapusnya</string>
     <string name="load_failed_click_retry">Gagal Memuat, Klik Coba Lagi</string>
     <string name="loading">Memuat…</string>
-
     <string name="permission_denied">Akses Ditolak!</string>
-
     <string name="login_title">Masuk</string>
     <string name="sign_out">Keluar</string>
-
     <string name="delete_comment">Hapus Komentar</string>
     <string name="delete_comment_msg">Apakah kamu yakin ingin menghapus komentar ini?</string>
     <string name="upload_cancel">Proses Upload dibatalkan</string>
     <string name="login_select_way_to_login">Pilih Cara Masuk</string>
-
     <string name="user_info_edit_title">Profil</string>
     <string name="user_info_edit_portrait_tv">Gambar Profil</string>
     <string name="user_info_edit_username_tv">Nama Pengguna</string>
@@ -343,7 +311,6 @@
     <string name="user_info_edit_portrait_error">Jenis Gambar tidak didukung</string>
     <string name="user_info_edit_ok">Oke</string>
     <string name="user_info_edit_cancel">Batal</string>
-
     <string name="update_nick_title">Ubah Nama Panggilan</string>
     <string name="update_email_title">Ubah Surel</string>
     <string name="update_nick_name_et">Masukkan Nama Pengguna Baru</string>
@@ -357,7 +324,6 @@
     <string name="message_notifications_praise">Dukung Komentarmu</string>
     <string name="message_notifications_reply">Membalas Komentarmu</string>
     <string name="message_notifications_login">Masuk untuk melihat Laman ini.</string>
-
     <string name="update_pwd_title">Atur Ulang Katasandi saya</string>
     <string name="update_pwd_current_pwd_et">Kata sandi lama</string>
     <string name="update_pwd_new_pwd_et">Kata sandi Baru</string>
@@ -374,37 +340,41 @@
     <string name="crop__pick_error">Jenis Gambar Tidak Valid</string>
     <string name="crop__saving">Menyimpan Gambar…</string>
     <string name="crop__wait">Harap Tunggu…</string>
-
     <string name="comment_cancel">Berkomentar dibatalkan</string>
     <string name="comment_submitting">Mengirim…</string>
     <string name="comment_replying">Membalas…</string>
     <string name="register_term_of_service">Ketentuan Penggunaan APKPure</string>
-
     <string name="set_contributor">Kontributor</string>
     <string name="set_permissions">Izin</string>
-
     <string name="sign_in_services">Dengan Mendaftar kamu menyetujui Kebijakan Privasi dan Ketentuan Penggunaan Kami.</string>
-
     <string name="sign_in_services_key">Ketentuan</string>
     <string name="sign_in_services_key_policy">Kebijakan Privasi</string>
-
     <string name="user_sign_up">Mendaftar</string>
     <string name="check_update_replace">Versi resmi</string>
     <string name="check_update_beta">Pra-rilis Beta</string>
-<string name="beta">Beta</string>
+    <string name="beta">Beta</string>
     <string name="history_version">Riwayat Versi</string>
-
-    <string name="load_failed_error_not_found">Aplikasi tidak termasuk di APKPure.</string>
+    <string name="load_failed_error_not_found">aplikasi ini sudah tidak ada di APKPure</string>
     <string name="properties_message_v2">&lt;b&gt;Nama Paket:&lt;/b&gt; %1$s&lt;br&gt;&lt;b&gt;Versi:&lt;/b&gt; %2$s&lt;br&gt;&lt;b&gt;Letak:&lt;/b&gt; %3$s&lt;br&gt;&lt;b&gt;Ukuran:&lt;/b&gt; %4$s&lt;br&gt;&lt;b&gt;Terkahir diperbarui:&lt;/b&gt; %5$s</string>
     <string name="app_detail_tab_three">Di Rilis</string>
-
     <string name="app_detail_tab_evaluation">Ulasan Ulasan</string>
     <string name="app_detail_comment_filter_sort_score">Rating Tertinggi</string>
     <string name="app_detail_comment_filter_all">Semua ulasan</string>
     <string name="app_detail_comment_filter_version">Versi Terbaru</string>
-    <string name="app_detail_comment_no_data">Tidak Ada Penilaian Di temukan Tambahkan Penilaian kamu sekarang</string>
+    <string name="app_detail_comment_no_data">Tidak ada penilaian pengguna di temukan. Tulis penilaian kamu sekarang</string>
     <string name="app_detail_comment_score_footer">Ada %1$s ulasan dalam bahasa lain.</string>
-    <string name="app_detail_evaluation_tool_bar_title">Bagikan Penilaian mu</string>
-    <string name="app_detail_comment_order_array_old">Lebih Lama</string>
-
-    </resources>
+    <string name="app_detail_evaluation_tool_bar_title">Tulis penilaian</string>
+    <string name="app_detail_comment_order_array_old">Paling lama</string>
+    <string name="data_saver_model">Penghemat Data</string>
+    <string name="app_detail_comment_order_array_good">4-5</string>
+    <string name="app_detail_evaluation_failed_bt">Penilaian</string>
+    <string name="app_detail_comment_score_less">Penilaian pengguna terlalu sedikit.</string>
+    <plurals name="app_detail_see_all_replies">
+        <item quantity="other">Lihat Semua <xliff:g example="1" id="count">%1$d</xliff:g> Balasan</item>
+    </plurals>
+    <string name="auto_service_directly__material_">PEMASANGAN LANGSUNG</string>
+    <string name="data_saver_model_summery">Mengaktifkan ini akan mengurangi ukuran gambar dan kualitas untuk membantu mengurangi penggunaan data seluler.</string>
+    <string name="share_app_url_comment">
+        <xliff:g example="APKPure" id="nama_pengguna">%1$s</xliff:g>berkomentar pada <xliff:g example="APKPure" id="nama_aplikasi">%2$s</xliff:g> : <xliff:g example="APKPure" id="nama_aplikasi">%3$s</xliff:g> (dari <xliff:g example="APKPure" id="nama_sosial_media">%4$s</xliff:g>) <xliff:g example="https://apkpure.com/p/com.apkpure.aegon" id="url_aplikasi">%5$s</xliff:g>
+    </string>
+</resources>
