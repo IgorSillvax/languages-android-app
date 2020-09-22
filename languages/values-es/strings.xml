@@ -702,7 +702,7 @@
     <string name="headline_no_data_tv">No hay contenido nuevo</string>
     <string name="hint">Nota</string>
     <string name="no_save_comment_hint">Elo contenido no se guardará. ¿Está seguro de que quiere salir\?</string>
-    <string name="xapk_upload_hint_info">Se tarda más en cargar archivos XAPK. ¿Estás seguro de subir\?</string>
+    <string name="xapk_upload_hint_info">It takes longer to upload XAPK files. Are you sure to upload\?</string>
     <string name="privacy_setting_account_privacy">Es una cuenta privada.</string>
     <string name="privacy_setting_account_del">Eliminar su cuenta e información</string>
     <string name="privacy_setting_account_des">Otros no verán su página de inicio personal si su cuenta está configurada como privada.</string>
@@ -751,4 +751,7 @@
     <string name="del_account_email_reason_tv">¿Por qué queréis eliminar ésta cuenta\?</string>
     <string name="del_account_email_notify_tv">Por favor, elegid un e-mail válido para recibir nuestra notificación.</string>
     <string name="un_follow_xx">Dejar de seguir <xliff:g example="Apkpure" id="name">%1$s</xliff:g></string>
+    <string name="packaging">Packaging…</string>
+    <string name="packaging_success_ready_upload">Packaging finished. Ready for upload.</string>
+    <string name="packaging_failed_try_again">Packaging failed. Please try again.</string>
 </resources>
