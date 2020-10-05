@@ -82,46 +82,46 @@
     <string name="apk">Апликација</string>
     <string name="xapk"/>
     <string name="unknown">Непознат</string>
-    <string name="flag_as_inappropriate"/>
-    <string name="_ellipsis_"/>
-    <string name="history_version"/>
-    <string name="market_response_error_success"/>
-    <string name="market_response_error_invalid_result"/>
-    <string name="market_response_error_network_connect_error"/>
-    <string name="market_response_error_network_read_error"/>
-    <string name="market_response_error_invalid_response_code"/>
-    <string name="market_response_error_invalid_response_body"/>
-    <string name="market_response_error_unknown_error__error_"/>
-    <string name="update"/>
-    <string name="version__version___size_"/>
+    <string name="flag_as_inappropriate">Обelежи као неприкладан</string>
+    <string name="_ellipsis_"> ... </string>
+    <string name="history_version">Историја верзија</string>
+    <string name="market_response_error_success">Успех.</string>
+    <string name="market_response_error_invalid_result">Неважећи резултат.</string>
+    <string name="market_response_error_network_connect_error">Грешка мрежне везе.</string>
+    <string name="market_response_error_network_read_error">Грешка при читању мреже.</string>
+    <string name="market_response_error_invalid_response_code">Неважећи код одговора.</string>
+    <string name="market_response_error_invalid_response_body">Неважеће тело одговора.</string>
+    <string name="market_response_error_unknown_error__error_">Непозната грешка (<xliff:g example="SUCCESS" id="error">%1$s</xliff:g>).</string>
+    <string name="update">ажурирање</string>
+    <string name="version__version___size_">Верзија: <xliff:g example="1.0.0" id="version">%1$s</xliff:g>, <xliff:g example="1024 kB" id="size">%2$s</xliff:g></string>
     <plurals name="_count__new_update_is_available">
-        <item quantity="one"/>
-        <item quantity="other"/>
+        <item quantity="one"><xliff:g example="1" id="count">%1$d</xliff:g> доступно је ново ажурирање</item>
+        <item quantity="other"><xliff:g example="2" id="count">%1$d</xliff:g> доступно је ново ажурирање</item>
     </plurals>
-    <string name="launching_please_wait"/>
+    <string name="launching_please_wait">Покретање ... Сачекајте.</string>
     <plurals name="_count__item_is_downloading">
         <item quantity="one"/>
         <item quantity="other"/>
     </plurals>
-    <string name="downloads_complete"/>
-    <string name="touch_for_view_all_downloads"/>
-    <string name="_name__download_failed"/>
-    <string name="touch_to_download_it_again"/>
+    <string name="downloads_complete">Сва преузимања завршена</string>
+    <string name="touch_for_view_all_downloads">Додирните за приказ свих преузимања</string>
+    <string name="_name__download_failed"><xliff:g example="APKPure" id="name">%1$s</xliff:g> преузимање није успело</string>
+    <string name="touch_to_download_it_again">Додирните да бисте поново покренули преузимање</string>
     <string name="download_percent"/>
-    <string name="pause"/>
-    <string name="pause_all"/>
-    <string name="continue_"/>
-    <string name="continue_all"/>
-    <string name="restart"/>
-    <string name="download"/>
-    <string name="downloading"/>
-    <string name="waiting"/>
-    <string name="preparing"/>
-    <string name="completed"/>
-    <string name="paused"/>
-    <string name="failed"/>
-    <string name="file_invalid"/>
-    <string name="file_missing"/>
+    <string name="pause">Пауза</string>
+    <string name="pause_all">Паузирај све</string>
+    <string name="continue_">Настави</string>
+    <string name="continue_all">Настави све</string>
+    <string name="restart">Поново покренути</string>
+    <string name="download">Преузимање</string>
+    <string name="downloading">Преузимање</string>
+    <string name="waiting">Чекање</string>
+    <string name="preparing">Припрема</string>
+    <string name="completed">Завршено</string>
+    <string name="paused">Паузирано</string>
+    <string name="failed">Није успео</string>
+    <string name="file_invalid">Датотека је неважећа</string>
+    <string name="file_missing">Датотека недостаје</string>
     <string name="waiting_to_download"/>
     <string name="deleted"/>
     <string name="expired"/>
