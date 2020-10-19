@@ -669,8 +669,8 @@
     <string name="verification_code_resend_tv">検証コードを再送します</string>
     <string name="send_verification_code_resend_tv">検証コードを送信する</string>
     <string name="bind_email_success">接続に成功しました。</string>
-    <string name="community_guide_lines">Community Guidelines</string>
-    <string name="my_draft">My Draft</string>
+    <string name="community_guide_lines">コミュニティガイドライン</string>
+    <string name="my_draft">私のドラフト</string>
     <string name="verification_code_tv">確認コードがあなたのメールアドレス%1$sに送信されました</string>
     <string name="verification_code_second_tv">%d sに再送信します</string>
     <string name="update_email_tv">再確認してメールアドレスを更新してください</string>
@@ -732,4 +732,45 @@
     <string name="privacy_setting_account_del">アカウントと情報を削除する</string>
     <string name="privacy_setting_account_des">アカウントがプライベートに設定されている場合、個人のホームページは他のユーザーに表示されません。</string>
     <string name="auto_service_directly__material_">直接インストールする</string>
+    <string name="picture_rule">写真やビデオではありません</string>
+    <string name="picture_take_picture">ショット</string>
+    <string name="picture_cancel">キャンセル</string>
+    <string name="picture_camera_roll">カメラロール</string>
+    <string name="attention_each">接続済み</string>
+    <string name="app_details_request_update_msg">％sの最新アップデートのリクエストを受け取りました。
+\n新しいバージョンが存在する場合は、すぐにダウンロードできるようになります。</string>
+    <string name="app_details_request_update_title">更新をリクエストする</string>
+    <string name="xapk_unable_upload">XAPKのアップロードに失敗しました！</string>
+    <string name="upload_xapk_to_group">XAPKをグループにアップロードする</string>
+    <string name="upload_xapk">XAPKをアップロードする</string>
+    <string name="upload_apk_to_group">APKをグループにアップロード</string>
+    <string name="app_update_auto_install">クリックして「自動インストール」を有効にします</string>
+    <string name="look_video">動画を再生します</string>
+    <string name="get_it_on">乗る：</string>
+    <string name="users">ユーザー</string>
+    <string name="choice_hashtag">注目のハッシュタグ</string>
+    <string name="gif_auto_desc">Wi-FiでGIFを自動再生する</string>
+    <string name="gif_auto_title">GIF自動再生</string>
+    <string name="saved_draft">下書きとして保存</string>
+    <string name="upload_video">ビデオをアップロードする</string>
+    <string name="is_save_comment_draft">投稿を下書きとして保存しますか？</string>
+    <string name="empty_draft_info">コンテンツなし…</string>
+    <string name="delete_draft">下書きを削除する</string>
+    <string name="edit_draft">下書きを編集する</string>
+    <string name="delete_all_draft_hint">下書きをすべて削除してもよろしいですか？</string>
+    <string name="several_drafts">&lt;xliff：g xmlns：xliff = \"urn：oasis：names：tc：xliff：document：1.2\" example = \"5\" id = \"count\"&gt;％1 $ s &lt;/ xliff：g&gt;ドラフト<xliff:g example="5" id="count">%1$s</xliff:g> drafts</string>
+    <string name="several_draft">&lt;xliff：g xmlns：xliff = \"urn：oasis：names：tc：xliff：document：1.2\" example = \"5\" id = \"count\"&gt;％1 $ s &lt;/ xliff：g&gt;ドラフト<xliff:g example="5" id="count">%1$s</xliff:g> draft</string>
+    <string name="clear_empty">すべてクリア</string>
+    <string name="let_us_know">我々に教えてください</string>
+    <string name="tap_to_view">タップして表示</string>
+    <string name="report_callback_des">嫌がらせについて報告された投稿を確認しました。 ％1 $ sに違反したため、削除しました。ご報告ありがとうございます。</string>
+    <string name="report_callback_title">あなたが報告した投稿は削除されました！</string>
+    <string name="pre_register_des">事前登録したゲーム％1 $ s％2 $ sをダウンロードできます。％3 $ s</string>
+    <string name="pre_register_title">％1 $ sが％2 $ sでリリースされました！</string>
+    <string name="temporarily_blocked_des">"「彼の一時的な禁止は％1 $ s日間続き、有効期限が切れるまでAPKPureでコンテンツを作成することはできません。
+\n        ％2 $ sに反するものを再度投稿すると、アカウントが禁止されます「彼の一時的な禁止は％1 $ s日間続き、有効期限が切れるまでAPKPureでコンテンツを作成することはできません。"</string>
+    <string name="temporarily_blocked_title">APKPureでのコンテンツ作成が一時的に禁止されています</string>
+    <string name="comment_removed_des">あなたが投稿したものが私たちの％1 $ sに従わないようです。不適切な写真、物理的ないじめに関する動画、その他の意図された投稿など、いかなる種類のいじめや嫌がらせも許可しません。</string>
+    <string name="comment_removed_title">あなたの投稿は削除されました</string>
+    <string name="home_recommended_desc">あなたの投稿がホームページのおすすめとして選択されました、％1 $ s</string>
 </resources>
