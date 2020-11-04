@@ -274,13 +274,13 @@
     <string name="app_detail_comment_order_array_best">ホット</string>
     <string name="download_complete_installation_setting_entries_always">常にインストールする</string>
     <string name="reply">返信</string>
-    <string name="input_reply_content">返信の内容を入力してください：</string>
+    <string name="input_reply_content">返信を入力してください：</string>
     <string name="publish">ポスト</string>
     <string name="reply_comment">コメントに返信</string>
     <string name="save_original_image">保存</string>
     <string name="already_save">保存する<xliff:g example="ApKPure/photo" id="path">%1$s</xliff:g>
     </string>
-    <string name="load_end">これ以上データがありません</string>
+    <string name="load_end">これ以上のデータはありません。</string>
     <string name="loading">ローディング…</string>
     <string name="share_app_url_comment">
         <xliff:g example="APKPure" id="user_name">%1$s</xliff:g>\'s comments on <xliff:g example="APKPure" id="app_name">%2$s</xliff:g> : <xliff:g example="APKPure" id="app_name">%3$s</xliff:g> (from <xliff:g example="APKPure" id="social_network_name">%4$s</xliff:g>) <xliff:g example="https://apkpure.com/p/com.apkpure.aegon" id="app_url">%5$s</xliff:g>
@@ -290,12 +290,12 @@
         <item quantity="other"/>
     </plurals>
     <string name="download_complete_installation_setting_entries_never">インストールしない</string>
-    <string name="reply_dialog_marked_words">選択した画像を長押しして削除します。</string>
-    <string name="load_failed_click_retry">問題が発生したため、再試行してください</string>
-    <string name="scan_qr_code_hint">QRコードをスキャンする前に、カメラ権限を有効にする必要があります。</string>
+    <string name="reply_dialog_marked_words">画像を長押しして削除します。</string>
+    <string name="load_failed_click_retry">読み込みに失敗しました。タップして再試行してください</string>
+    <string name="scan_qr_code_hint">QRコードのスキャンを使用する前に、QRコードのスキャンに必要なカメラの許可を与える必要があります。</string>
     <string name="zxing_msg_default_status">QRコードをファインダーの中央に配置してスキャンしてください。</string>
-    <string name="zxing_msg_parser_status">スキャンに失敗しました。再度QRコードをスキャンしてみてください。</string>
-    <string name="tip_permission_camera_storage">カメラとSDカードを使用する権限がありません。アクセス許可を有効にしてください</string>
+    <string name="zxing_msg_parser_status">スキャンに失敗しました。もう一度やり直してください。</string>
+    <string name="tip_permission_camera_storage">カメラとSDカードの使用は許可されていません。お使いの携帯電話の権限管理で付与してください。</string>
     <string name="permission_denied">アクセスが拒否されました！</string>
     <string name="login_title">ログイン</string>
     <string name="sign_out">サインアウト</string>
@@ -304,10 +304,10 @@
     <string name="upload_cancel">アップロードがキャンセルされました</string>
     <string name="login_select_way_to_login">ログイン方法を選択してください</string>
     <string name="user_info_edit_title">プロフィール</string>
-    <string name="user_info_edit_portrait_tv">プロフィール画像</string>
+    <string name="user_info_edit_portrait_tv">アバター</string>
     <string name="user_info_edit_username_tv">ユーザー名</string>
     <string name="user_info_edit_nickname_tv">ニックネーム</string>
-    <string name="user_info_edit_email_tv">電子メール</string>
+    <string name="user_info_edit_email_tv">Eメール</string>
     <string name="user_info_edit_gender_tv">性別</string>
     <string name="user_info_edit_birthday_tv">誕生日</string>
     <string name="user_info_edit_change_pwd_tv">パスワードをリセットする</string>
@@ -317,16 +317,16 @@
     <string name="user_info_edit_gender_female">女性</string>
     <string name="user_info_edit_portrait_album">ギャラリーから写真を選択</string>
     <string name="user_info_edit_portrait_take_photo">カメラで写真を撮る</string>
-    <string name="user_info_edit_portrait_error">イメージタイプはサポートされていません</string>
+    <string name="user_info_edit_portrait_error">画像タイプはサポートされていません。</string>
     <string name="user_info_edit_ok">OK</string>
     <string name="user_info_edit_cancel">キャンセル</string>
     <string name="update_nick_title">ニックネームを変更する</string>
     <string name="update_email_title">メールアドレス変更</string>
     <string name="update_nick_name_et">新しいニックネームを入力してください</string>
-    <string name="update_nick_name_tv">新しいニックネームは空白に設定できません</string>
-    <string name="update_email_name_et">メールアドレスを入力してください</string>
-    <string name="update_eamil_name_tv">メールアドレスを空白にすることはできません</string>
-    <string name="update_nickname_error">このニックネームはすでに使用されています。別のニックネームを選んでください。</string>
+    <string name="update_nick_name_tv">ニックネームを空白にすることはできません。</string>
+    <string name="update_email_name_et">メールアドレスを入力。</string>
+    <string name="update_eamil_name_tv">メールを空白にすることはできません。</string>
+    <string name="update_nickname_error">このニックネームはすでに使用されています。別のものを入力してください！</string>
     <string name="message_all">すべて</string>
     <string name="message_reply">返信</string>
     <string name="message_praise">賛成</string>
@@ -536,8 +536,8 @@
     <string name="scan_qr_code_result_title">結果</string>
     <string name="scan_qr_code_result_copy_text">テキストをコピーする</string>
     <string name="scan_qr_code_result_hint">QRコードの詳細: </string>
-    <string name="scan_qr_code_copy_success">テキストがコピーされました</string>
-    <string name="user_info_edit_large_photo">写真をもっと大きなサイズで見る</string>
+    <string name="scan_qr_code_copy_success">テキストがコピーされます。</string>
+    <string name="user_info_edit_large_photo">フルサイズのアバターを表示</string>
     <string name="push_title_info_follow">%sがあなたをフォローしました。</string>
     <string name="push_title_info_update">APKPureのアップデートが届きました。</string>
     <string name="push_content_info_update">新しいバージョン％sがリリースされました。今すぐアップデート!</string>
@@ -557,10 +557,10 @@
     <string name="add">追加</string>
     <string name="load_failed_error_not_found">このアプリはAPKPureに登録されていません。</string>
     <string name="beta">ベータ版</string>
-    <string name="user_info_edit_intro_tv">私について</string>
-    <string name="update_intro_title">私について編集する</string>
-    <string name="update_intro_et">あなた自身について詳細を書く</string>
-    <string name="update_intro_tv">私についてのフィールドを空にすることはできません</string>
+    <string name="user_info_edit_intro_tv">バイオ</string>
+    <string name="update_intro_title">略歴を編集する</string>
+    <string name="update_intro_et">あなた自身についてのいくつかの詳細</string>
+    <string name="update_intro_tv">あなたのバイオは空にすることはできません。</string>
     <string name="user_name_null">ユーザー名が無効です</string>
     <string name="colon">:</string>
     <string name="pack_up">折りたたみ</string>
