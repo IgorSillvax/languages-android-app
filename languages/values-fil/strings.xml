@@ -3,7 +3,7 @@
     <string name="facebook_app_id" translatable="false">596489647167672</string>
     <string name="fb_login_protocol_scheme" translatable="false">fb596489647167672</string>
     <string name="aegon_app_name" translatable="false">APKPure</string>
-    <string name="action_settings"/>
+    <string name="action_settings">Patakdaan</string>
     <string name="action_search">Maghanap</string>
     <string name="action_management">Pangangasiwa</string>
     <string name="press_back_key_quit">Para umalis, pindutin muli ang boton ng pagbalik.</string>
@@ -153,19 +153,23 @@
     <string name="report__">Reporte…</string>
     <string name="report_problem__">Isumbong ang Problema…</string>
     <string name="report_problem_subject">Isumbong ang Problema</string>
-    <string name="report_problem_text"/>
-    <string name="contact_us__"/>
-    <string name="contact_us"/>
-    <string name="report_content"/>
-    <string name="feedback"/>
-    <string name="installation_failed"/>
-    <string name="invalid_app_detail"/>
-    <string name="invalid_app_asset"/>
-    <string name="failed_to_request_app_detail"/>
-    <string name="failed_to_request_app_asset"/>
-    <string name="incompatible_this_app"/>
-    <string name="this_app_not_usable"/>
-    <string name="setting"/>
+    <string name="report_problem_text">Tema ng Problema:
+\n%1$s
+\n
+\nDetalye ng Problema
+\n%2$s</string>
+    <string name="contact_us__">Makipag-ugnayan sa amin…</string>
+    <string name="contact_us">Makipag-ugnayan sa amin</string>
+    <string name="report_content">Reportehin ang Nilalaman</string>
+    <string name="feedback">Puna</string>
+    <string name="installation_failed">Nabigo ang Instalasyon.</string>
+    <string name="invalid_app_detail">Imbalidong detalye ng app.</string>
+    <string name="invalid_app_asset">Imbalidong propyedad ng app.</string>
+    <string name="failed_to_request_app_detail">Nabigong humiling ng detalye ng app</string>
+    <string name="failed_to_request_app_asset">Nabigong humiling ng propyedad ng app.</string>
+    <string name="incompatible_this_app">&lt;big&gt;&lt;b&gt;&lt;font color=%1$d&gt;Ang app ay hindi kompatible sa iyong aparato o device.&lt;/font&gt;&lt;/b&gt;&lt;/big&gt;&lt;br&gt;&lt;br&gt;Tumuloy\?</string>
+    <string name="this_app_not_usable">&lt;big&gt;&lt;b&gt;&lt;font color=%1$d&gt;Itong app ay posibleng bibigo.&lt;/font&gt;&lt;/b&gt;&lt;/big&gt;&lt;br&gt;&lt;br&gt;Tumuloy\?</string>
+    <string name="setting">Patakdaan</string>
     <string name="external_storage_not_usable"/>
     <string name="external_storage_permission_denied"/>
     <string name="share"/>
