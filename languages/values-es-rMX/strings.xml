@@ -64,7 +64,7 @@
     <string name="extracting_apk">Extrayendo archivo APK …</string>
     <string name="installing_apk">Instalando APK …</string>
     <string name="uninstall">Desínstalalo</string>
-    <string name="uninstalled">Desisntalado.</string>
+    <string name="uninstalled">Desinstalado</string>
     <string name="last_update__date_">Última actualización: <xliff:g id="date">%1$s</xliff:g>
     </string>
     <string name="all">Todo</string>
@@ -87,11 +87,11 @@
     <string name="apk">APK</string>
     <string name="xapk">XAPK</string>
     <string name="unknown">Desconocido</string>
-    <string name="flag_as_inappropriate">"Bandera  de in-apropiado"</string>
+    <string name="flag_as_inappropriate">Bandera de in-apropiado</string>
     <string name="_ellipsis_"> … </string>
     <string name="history_version">Historial de versión</string>
     <string name="market_response_error_success">¡Éxito!.</string>
-    <string name="market_response_error_invalid_result">Resultado inválido</string>
+    <string name="market_response_error_invalid_result">Resultado inválido.</string>
     <string name="market_response_error_network_connect_error">Conexión a internet fallida.</string>
     <string name="market_response_error_network_read_error">Network de leer fallido.</string>
     <string name="market_response_error_invalid_response_code">Código de respuesta inválido.</string>
@@ -247,7 +247,7 @@
     <string name="auto_service_install_accessibility_title">Instalación autómatica</string>
     <string name="auto_service_install_accessibility_summary">Soporta Android 4.1 y superior. No se necesita root (raíz).</string>
     <string name="auto_service_dialog_title">Habilita Instalación autómatica</string>
-    <string name="auto_service_dialog_message">Instalación autómatica necesita tu permiso. 100% porno seguro</string>
+    <string name="auto_service_dialog_message">Instalación autómatica necesita tu permiso. 100% seguro.</string>
     <string name="auto_service_title">Instalación autómatica de APKPure</string>
     <string name="auto_service_description">Habilita \"Instalación automática de APKPure\" para mantener la \"Instalación automática de APKPure\" funcionando sin problemas.
 \n
@@ -262,7 +262,7 @@
     <string name="auto_service_ensure">Acéptalo</string>
     <string name="auto_service_next">Siguiente</string>
     <string name="auto_service_exchange">Reemplazar</string>
-    <string name="auto_service_complete">¡Hecho!</string>
+    <string name="auto_service_complete">Hecho</string>
     <string name="auto_service_install__material_">INSTALAR</string>
     <string name="auto_service_ensure__material_">SÍ</string>
     <string name="auto_service_next__material_">SIGUIENTE</string>
@@ -426,40 +426,40 @@
     <string name="update_pwd_new_pwd_null_tv">La nueva contraseña no puede ser blanca / vacía.</string>
     <string name="update_pwd_new_confrim_tv">Las contraseñas que pusiste no son iguales.</string>
     <string name="update_pwd_save_bt">Guárdalo</string>
-    <string name="update_save_success"/>
+    <string name="update_save_success">Guardado.</string>
     <!--crop image-->
-    <string name="crop__cancel" ignore="ButtonCase"/>
-    <string name="crop__done"/>
-    <string name="crop__pick_error"/>
-    <string name="crop__saving"/>
+    <string name="crop__cancel" ignore="ButtonCase">Cancelar</string>
+    <string name="crop__done">Listo</string>
+    <string name="crop__pick_error">Tipo de archivo de: Imagen inválido.</string>
+    <string name="crop__saving">Esperar: imagen guardandose…</string>
     <!--<string name="crop__saving">Saved</string>  new add-->
-    <string name="crop__wait"/>
-    <string name="is_comment"/>
-    <string name="comment_cancel"/>
-    <string name="comment_submitting"/>
-    <string name="comment_replying"/>
-    <string name="register_term_of_service"/>
-    <string name="set_contributor"/>
-    <string name="set_permissions"/>
-    <string name="set_open_source_licence"/>
-    <string name="sign_in_services"/>
-    <string name="sign_in_services_key"/>
-    <string name="sign_in_services_key_policy_register"/>
+    <string name="crop__wait">Espera…</string>
+    <string name="is_comment">El \'comment\' es…</string>
+    <string name="comment_cancel">\'comment\' cancelado</string>
+    <string name="comment_submitting">Sumición…</string>
+    <string name="comment_replying">Espere: responder</string>
+    <string name="register_term_of_service">Términos y servicios APKPure</string>
+    <string name="set_contributor">Contribuidor</string>
+    <string name="set_permissions">Permisos</string>
+    <string name="set_open_source_licence">Licencia de código abierto</string>
+    <string name="sign_in_services">Al registrarse, aceptas nuestros Términos y Política de privacidad.</string>
+    <string name="sign_in_services_key">Términos</string>
+    <string name="sign_in_services_key_policy_register">Política de privacidad</string>
     <string name="sign_in_services_key_policy"/>
-    <string name="user_sign_up"/>
-    <string name="user_name_hint"/>
+    <string name="user_sign_up">Regístrate</string>
+    <string name="user_name_hint">Nombre de usuario</string>
     <string name="user_email_hint"/>
-    <string name="user_password"/>
-    <string name="user_password_confirm"/>
-    <string name="user_name_error"/>
-    <string name="user_name_null"/>
-    <string name="user_nickname_error"/>
-    <string name="user_email_error"/>
-    <string name="user_password_error"/>
-    <string name="user_confirm_error"/>
-    <string name="login_user_name"/>
-    <string name="login_user_password"/>
-    <string name="login_user_sign_in"/>
+    <string name="user_password">Contraseña(6-32 carácteres)</string>
+    <string name="user_password_confirm">Comfirma tu contraseña</string>
+    <string name="user_name_error">El nombre de usuario no debe contener caracteres especiales, símbolos o espacios.</string>
+    <string name="user_name_null">Nombre inválido.</string>
+    <string name="user_nickname_error">El apodo no debe contener caracteres especiales, símbolos o espacios.</string>
+    <string name="user_email_error">Esta dirección de correo electrónico no es válida.</string>
+    <string name="user_password_error">Esta contraseña no es válida.</string>
+    <string name="user_confirm_error">Las contraseñas no coinciden.</string>
+    <string name="login_user_name">Nombre de usuario o correo electrónico</string>
+    <string name="login_user_password">Contraseña</string>
+    <string name="login_user_sign_in">Regístrate</string>
     <string name="login_choose"/>
     <string name="login_new_user"/>
     <string name="login_post_as_a_guest"/>
