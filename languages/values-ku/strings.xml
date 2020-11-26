@@ -1,198 +1,489 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="action_settings">Sazkarî</string>
-    <string name="action_search">‌Lêgerîn</string>
-    <string name="auto">خۆکار</string>
-    <string name="press_back_key_quit">Ji bo derketinê, li ser bişkojka paşîn tap dîsa.‍‮‭‬‬‬‬‫</string>
-    <string name="games">یاریەکان</string>
-    <string name="apps">نەرمەواڵە</string>
-    <string name="categories">هاوپۆڵەکان</string>
-    <string name="updates">نوێکردنەوەکان</string>
-    <string name="something_happened">&gt;_&lt;\nشتێک ڕوویدا.</string>
-    <string name="load_failed_error">بەداخەوە! هەڵەیەک ڕوویدا.</string>
-    <string name="load_failed_empty">هیچ شتێک لێرە نییە.</string>
-    <string name="load_failed_all_up_to_date">هەموو نەرمەواڵەکان نوێ کراونەتەوە.</string>
-    <string name="load_failed_no_results">ببوورە! هیچ ئەنجامێک نەدۆزرایەوە.</string>
-    <string name="refresh">بووژاندنەوە</string>
-    <string name="app_management">بەڕێوەبردنی بەرنامەکان</string>
-    <string name="apk_xapk_management">بەڕێوەبردنی APK / XAPK</string>
-    <string name="download_management">بەڕێوەبردنی داگرتن</string>
-    <string name="settings">ڕێکخستنەکان</string>
-    <string name="about">دەربارە</string>
-    <string name="about_title">دەربارە <xliff:g id="app_name" example="APKPure">%1$s</xliff:g>
-    </string>
-    <string name="about_message">"&lt;b&gt;وەشان:&lt;/b&gt; %1$s&lt;br&gt;&lt;br&gt;&lt;b&gt;ماڵپەڕ:&lt;/b&gt; &lt;a href=%2$s&gt;%2$s&lt;/a&gt;&lt;br&gt;&lt;b&gt;ئیمێڵ::&lt;/b&gt; &lt;a href=mailto:%3$s&gt;%3$s&lt;/a&gt; "</string>
-    <string name="check_update">پشکنین بۆ نوێکردنەوە</string>
-    <string name="quit">دەرچوون</string>
-    <string name="want_to_quit">دڵنیای لە دەرچوون؟</string>
-    <string name="install">دامەزراندن</string>
-    <string name="open">کردنەوە</string>
-    <string name="delete">سڕینەوە</string>
-    <string name="want_to_delete_file">دەتەوەێ ئەم پەڕگەیە بسڕیتەوە؟</string>
-    <string name="file_has_been_deleted">پەڕگەکە سڕایەوە.</string>
-    <string name="failed_to_delete_file">سڕینەوەی پەڕگەکە سەرنەکەوت.</string>
-    <string name="install__label_">دامەزراندن - <xliff:g id="app_label" example="APKPure">%1$s</xliff:g>
-    </string>
-    <string name="io_error">هەڵەی IO. لەوانەیە شوێنی بەتاڵی پێویست نەبێت بۆ دامەزراندن بەسەرکەوتوویی.</string>
-    <string name="file_format_error">هەڵەی جۆری پەڕگە.</string>
+    <string name="action_search">Lê bigere</string>
+    <string name="auto">Jixweber</string>
+    <string name="press_back_key_quit">Ji bo derketinê, dîsa pêlî bişkoka paşveyê bike.</string>
+    <string name="games">Lîstok</string>
+    <string name="apps">Sepan</string>
+    <string name="categories">Kategorî</string>
+    <string name="updates">Hildemandin</string>
+    <string name="something_happened">&gt;_&lt;
+\nTiştek qewimî.</string>
+    <string name="load_failed_error">Weyy! Çewtiyek derket.</string>
+    <string name="load_failed_empty">Li vir tiştek tune ye.</string>
+    <string name="load_failed_all_up_to_date">Hemû sepan hildemandî ne.</string>
+    <string name="load_failed_no_results">Bibore! Ti encam nehatin dîtin.</string>
+    <string name="refresh">Nû bike</string>
+    <string name="app_management">Sazkirî</string>
+    <string name="apk_xapk_management">Birêvebirina APK / XAPK</string>
+    <string name="download_management">Rêveberiya Daxistinê</string>
+    <string name="settings">Sazkarî</string>
+    <string name="about">Derbar</string>
+    <string name="about_title">Derbar <xliff:g example="APKPure" id="app_name">%1$s</xliff:g></string>
+    <string name="about_message">&lt;b&gt;Guherto:&lt;/b&gt; %1$s&lt;br&gt;&lt;br&gt;&lt;b&gt;Malper:&lt;/b&gt;&lt;a href=%2$s&gt;%2$s&lt;/a&gt;&lt;br&gt;&lt;b&gt;Email:&lt;/b&gt; &lt;a href=mailto:%3$s&gt;%3$s&lt;/a&gt;</string>
+    <string name="check_update">Hildemandinan kontrol bike</string>
+    <string name="quit">Derketin</string>
+    <string name="want_to_quit">Tu bi rastî jî dixwazî derkevî\?</string>
+    <string name="install">Saz bike</string>
+    <string name="open">Veke</string>
+    <string name="delete">Jê bibe</string>
+    <string name="want_to_delete_file">Tu bi rastî jî dixwazî vê dosyeyê jê bibe\?</string>
+    <string name="file_has_been_deleted">Dosye hat jêbirin.</string>
+    <string name="failed_to_delete_file">Dosye nehat jêbirin.</string>
+    <string name="install__label_">Saz bike - <xliff:g example="APKPure" id="app_label">%1$s</xliff:g></string>
+    <string name="io_error">Çewtî. Ji bo sazkirinê ciyê vala têrê nake.</string>
+    <string name="file_format_error">Çewtiya formata dosyeyê.</string>
     <string name="parsing_xapk">شیکردنەوەی XAPK …</string>
-    <string name="installing_obb">پەڕگەکانی OBB دادەمەزرێنێت …</string>
-    <string name="extracting_apk">پەڕگەی APK دەردەهێنێت …</string>
-    <string name="installing_apk">APK دادەمەزرێنێت …</string>
-    <string name="uninstall">دامەزرێنسڕینەوە</string>
-    <string name="last_update__date_">دوا نوێکردنەوە: <xliff:g id="date">%1$s</xliff:g>
-    </string>
-    <string name="all">هەموو</string>
-    <string name="screenshots">گرتەکانی پەردە</string>
-    <string name="description">پێناسە</string>
-    <string name="whatsnew">چی نوێ هەیە</string>
-    <string name="information">زانیاری</string>
-    <string name="version_">وەشان:</string>
-    <string name="updated_">نوێکراوە:</string>
-    <string name="size_">قەبارە:</string>
-    <string name="permissions_">مۆڵەتپێدانەکان:</string>
-    <string name="type_">جۆر:</string>
-    <string name="category_">هاوپۆلەکان:</string>
-    <string name="more">زیاتر</string>
-    <string name="permissions">مۆڵەتپێدانەکان</string>
-    <string name="other">هی تر</string>
+    <string name="installing_obb">Dosyeyên OBBê tên sazkirin …</string>
+    <string name="extracting_apk">Dosyeya APK tê derxistin …</string>
+    <string name="installing_apk">APK tê sazkirin …</string>
+    <string name="uninstall">Rake</string>
+    <string name="last_update__date_">Hildemandina dawî: <xliff:g id="date">%1$s</xliff:g></string>
+    <string name="all">Hemû</string>
+    <string name="screenshots">Wêneyên ekranê</string>
+    <string name="description">Ravekirin</string>
+    <string name="whatsnew">Çi Nû Ne</string>
+    <string name="information">Agahî</string>
+    <string name="version_">Guherto:</string>
+    <string name="updated_">Hat hildemandin:</string>
+    <string name="size_">Mezinahî:</string>
+    <string name="permissions_">Destûr:</string>
+    <string name="type_">Cure:</string>
+    <string name="category_">Kategorî:</string>
+    <string name="more">Zêdetir</string>
+    <string name="permissions">Destûr</string>
+    <string name="other">Wekî din</string>
     <string name="apk">APK</string>
     <string name="xapk">XAPK</string>
-    <string name="unknown">نەزانراو</string>
+    <string name="unknown">Nenas</string>
     <string name="_ellipsis_"> … </string>
-    <string name="market_response_error_success">سەرکەوتوو بوو.</string>
-    <string name="market_response_error_invalid_result">ئەنجامی نادروست.</string>
-    <string name="market_response_error_network_connect_error">هەڵەی پەیوەستبوون بە ڕایەڵە.</string>
-    <string name="market_response_error_network_read_error">هەڵەی خوێندنەوەی ڕایەڵە.</string>
-    <string name="market_response_error_invalid_response_code">هێما(کۆد)ی وەڵامدانەوەی نادروست.</string>
-    <string name="market_response_error_unknown_error__error_">هەڵەی نەناسراو (<xliff:g id="error" example="SUCCESS">%1$s</xliff:g>).</string>
+    <string name="market_response_error_success">Serkeftî.</string>
+    <string name="market_response_error_invalid_result">Encama nerderbasdar.</string>
+    <string name="market_response_error_network_connect_error">Çewtiya girêdana torê.</string>
+    <string name="market_response_error_network_read_error">Çewtiya xwendina torê.</string>
+    <string name="market_response_error_invalid_response_code">Koda bersivandinê nederbasdar e.</string>
+    <string name="market_response_error_unknown_error__error_">Çewtiya nenas (<xliff:g example="SUCCESS" id="error">%1$s</xliff:g>).</string>
     <string name="no_more">زیاتر نییە.</string>
-    <string name="update">نوێکردنەوە</string>
-    <string name="version__version___size_">وەشان: <xliff:g id="version" example="1.0.0">%1$s</xliff:g>،<xliff:g id="size" example="1024 kB">%2$s</xliff:g>
-    </string>
+    <string name="update">Hildemîne</string>
+    <string name="version__version___size_">Guherto: <xliff:g example="1.0.0" id="version">%1$s</xliff:g>, <xliff:g example="1024 kB" id="size">%2$s</xliff:g></string>
     <plurals name="_count__new_update_is_available">
-        <item quantity="one">یەک\n<xliff:g id="count" example="1">%1$d</xliff:g> نوێکردنەوەی نوێ بەردەستە</item>
-        <item quantity="other">هی تر\n<xliff:g id="count" example="2">%1$d</xliff:g> نوێکردنەوەی نوێ بەردەستە</item>
+        <item quantity="one"><xliff:g example="1" id="count">%1$d</xliff:g> hildemandina nû berdest e</item>
+        <item quantity="other"><xliff:g example="2" id="count">%1$d</xliff:g> hildemandinên nû berdest in</item>
     </plurals>
-    <string name="launching_please_wait">دەخرێتە کار، تکایە چاوەڕوان بە…</string>
+    <string name="launching_please_wait">Dest pê dike… Ji kerema xwe, bisekine.</string>
     <plurals name="_count__item_is_downloading">
-        <item quantity="one">یەک\n<xliff:g id="count" example="1">%1$d</xliff:g> بڕگە دادەگیڕێت</item>
-        <item quantity="other">هی تر\n<xliff:g id="count" example="2">%1$d</xliff:g> بڕگە دادەگیڕێت</item>
+        <item quantity="one">Hêmana <xliff:g example="1" id="count">%1$d</xliff:g>\'ê tê daxistin.</item>
+        <item quantity="other">Hêmanên <xliff:g example="2" id="count">%1$d</xliff:g>\'ê tên daxistin.</item>
     </plurals>
-    <string name="downloads_complete">داگرتنەکان تەواو بوون</string>
-    <string name="touch_for_view_all_downloads">ساو لێبدە(دەستلێدان) بۆ بینینی هەموو داگیراوەکان</string>
-    <string name="_name__download_failed">
-        <xliff:g id="name" example="APKPure">%1$s</xliff:g> داگرتنەکە سەرکەوتوو نەبوو</string>
-    <string name="touch_to_download_it_again">ساو لێبدە(دەستلێدان) بۆ دووبارە داگرتنەوە</string>
-    <string name="download_percent">
-        <xliff:g id="percent" example="50">%1$d</xliff:g> %%</string>
-    <string name="pause">وچان</string>
-    <string name="continue_">بەردەوامبوون</string>
-    <string name="restart">دەستپێکردنەوە</string>
-    <string name="download">داگرتن</string>
-    <string name="downloading">دادەگرێت</string>
-    <string name="waiting">چاوەڕوانی</string>
-    <string name="preparing">ئامادەکردن</string>
-    <string name="completed">تەواو بوو</string>
-    <string name="paused">وچاندرا</string>
-    <string name="failed">سەرنەکەوت</string>
-    <string name="file_invalid">پەڕگەی نادروست</string>
-    <string name="file_missing">پەڕگەی ونبوو</string>
-    <string name="expired">بەسەرچوو</string>
-    <string name="detail">وردەکاری</string>
-    <string name="remove">لابردن</string>
-    <string name="want_to_remove_download_item">دەتەوێ‌ داگرتنی ئەم بڕگەیە لاببەیت؟</string>
-    <string name="search">گەڕان</string>
-    <string name="search_for_apps">گەڕان بۆ بەرنامەکان</string>
-    <string name="improvement_plan_title">پلانی چاککردنی نواندن</string>
-    <string name="improvement_plan_message">"&lt;b&gt;یارمەتیمان بدە لە ناردنی زانیاری ئامێری ئەندرۆید، ئێمە &lt;b&gt; دەکەین، &lt;/b&gt; زانیاری ناسینەوەی کەسی کۆناکەینەوە وەکو (ناو، ناونیشان، ناونیشانی ئیمێڵ، ژمارەی نهێنی تۆڕی کۆمەڵایەتی، یان زانیاری ناسینی تر). "<b> دەکەین، </b> زانیاری ناسینەوەی کەسی کۆناکەینەوە (ناو، ناونیشان، ناونیشانی ئیمەڵ، ژمارەی نهێنی کۆمەڵایەتی، یان زانیاری ناسینی تر). </string>
-    <string name="join_us">بەشداربە لەگەڵمان</string>
-    <string name="skip">تێپەڕاندن</string>
-    <string name="_name__is_up_to_date">
-        <xliff:g id="name" example="APKPure">%1$s</xliff:g> نوێکراوەتەوە.</string>
-    <string name="new_version_available_title">وەشانی نوێ بەردەستە</string>
-    <string name="new_version_available_message">"&lt;b&gt;دواهەمین وەشان:&lt;/b&gt; %1$s&lt;br&gt;&lt;br&gt;&lt;b&gt;چی تازە هەیە:&lt;/b&gt;&lt;br&gt;%2$s "</string>
-    <string name="report__">هەواڵلێدان…</string>
-    <string name="report_problem__">هەواڵلێدان لە کێشەیەک…</string>
-    <string name="report_problem_subject">هەواڵلێدان لە کێشەیەک</string>
-    <string name="report_problem_text">بابەتی کێشە:\n%1$s\n\nوردەکاری کێشە:\n%2$s</string>
-    <string name="installation_failed">دامەزراندن سەرنەکەوت</string>
-    <string name="invalid_app_detail">نادروستی وردەکاری زانیاری نەرمەواڵە.</string>
-    <string name="failed_to_request_app_detail">داواکاری بۆ زانینی وردەکاری زانیاری نەرمەواڵە سەرکەتوو نەبوو.</string>
-    <string name="incompatible_this_app">"&lt;big&gt;&lt;b&gt;&lt;font color=%1$d&gt;ئامێرەکەت لەگەڵ ئەم بەرنامەیە ناگونجێت.&lt;/font&gt;&lt;/b&gt;&lt;/big&gt;&lt;br&gt;&lt;br&gt;دەتەوێت بەردەوام بیت؟ "</string>
-    <string name="this_app_not_usable">"&lt;big&gt;&lt;b&gt;&lt;font color=%1$d&gt;ئەم بەرنامەیە لەوانەیە شیاو نەبێت بۆ بەکارهێنان.&lt;/font&gt;&lt;/b&gt;&lt;/big&gt;&lt;br&gt;&lt;br&gt;دەتەوێت بەردەوام بیت؟ "</string>
-    <string name="setting">ڕێکخستن</string>
-    <string name="external_storage_not_usable">
-        <big>
-            <b>پێویستمان بە دەستگەیشتن بە میمۆریی دەرەکی تۆ هەیە. تکایە دڵنیابەوە لەوەی شیاوی بەکارهێنانە.</b>
-        </big>
-    </string>
-    <string name="external_storage_permission_denied">
-        <big>
-            <b>"پێویستمان بە دەستگەیشتن بە بیرگەی دەرەکی تۆ هەیە. تکایە دڵنیابەوە  لەوەی کە مۆڵەتپێدانەکە نکۆڵی لێ ناکرێت."</b>
-        </big>
-    </string>
-    <string name="share">هاوبەشکردن</string>
-    <string name="share_app_url"> بڵاوکردنەوە <xliff:g id="app_name" example="APKPure">%1$s</xliff:g>"  APK (لە @"<xliff:g id="social_network_name" example="APKPure">%2$s</xliff:g>)،
-\n<xliff:g id="app_url" example="https://apkpure.com/p/com.apkpure.aegon">%3$s</xliff:g>
-    </string>
-    <string name="_name__version_history">
-        <xliff:g id="name" example="APKPure">%1$s</xliff:g> مێژووی وەشان</string>
-    <string name="update__date___size_">نوێکردنەوە: <xliff:g id="date" example="Mar 3, 2016">%1$s</xliff:g>،<xliff:g id="size" example="1024 kB">%2$s</xliff:g>
-    </string>
-    <string name="general">گشتی</string>
-    <string name="language">زمان</string>
-    <string name="featured">دەرکەوت</string>
-    <string name="management">کارگێڕی</string>
-    <string name="app_updates">نوێکردنەوەکانی نەرمەواڵەکان</string>
-    <string name="app_uninstall">دامەزرێنسڕینەوەی نەرمەواڵەکان</string>
-    <string name="apk_management">بەڕێوەبردنی APK</string>
-    <string name="user_canceled">بەکارهێنەر هەڵوەشیندرایەوە.</string>
-    <string name="uninstalled">دامەزرێنسڕاوە</string>
-    <string name="market_response_error_invalid_response_body">نادروستی وەڵامدانەوەی ناوەڕۆک.</string>
-    <string name="trending_searches">گەڕانە باوەکان</string>
+    <string name="downloads_complete">Hemû daxistin temam bûn</string>
+    <string name="touch_for_view_all_downloads">Ji bo hemû daxistinan bibînî, bitikîne</string>
+    <string name="_name__download_failed"><xliff:g example="APKPure" id="name">%1$s</xliff:g> daxistin bi ser neket</string>
+    <string name="touch_to_download_it_again">Ji bo dîsa daxînî, bitikîne</string>
+    <string name="download_percent"><xliff:g example="50" id="percent">%1$d</xliff:g> %%</string>
+    <string name="pause">Bisekinîne</string>
+    <string name="continue_">Bidomîne</string>
+    <string name="restart">Dîsa bide destpêkirin</string>
+    <string name="download">Daxîne</string>
+    <string name="downloading">Tê daxistin</string>
+    <string name="waiting">Li bendê ye</string>
+    <string name="preparing">Tê amadekirin</string>
+    <string name="completed">Qediya</string>
+    <string name="paused">Hat sekinandin</string>
+    <string name="failed">Serneketî</string>
+    <string name="file_invalid">Dosye nederbardar e</string>
+    <string name="file_missing">Dosye kêm e</string>
+    <string name="expired">Derdem bûye</string>
+    <string name="detail">Hûrgulî</string>
+    <string name="remove">Rake</string>
+    <string name="want_to_remove_download_item">Tu bi rastî jî dixwazî vê hêmanê rake\?</string>
+    <string name="search">Lêgerîn</string>
+    <string name="search_for_apps">Di APKPure\'ê de lê bigere</string>
+    <string name="improvement_plan_title">Plana Baştirkirina Performansê</string>
+    <string name="improvement_plan_message">Bi rêya şandina agahiya cîhaza xwe ya Androidê ji me re bibe alîkar da ku em karibin xizmeteke baştir pêşkêş bikin. Em bi ti awayî agahiyên te yên şexsî (nav, navnîşan, e-mail, hejmara ewlehiyê ya civakî û hwd.) <b>berhev nakin</b>.</string>
+    <string name="join_us">Tevlî Me Bibe</string>
+    <string name="skip">Derbas bibe</string>
+    <string name="_name__is_up_to_date"><xliff:g example="APKPure" id="name">%1$s</xliff:g> hildemandî ye.</string>
+    <string name="new_version_available_title">Guhertoya Nû Heye</string>
+    <string name="new_version_available_message">&lt;b&gt;Guhertoya Nû:&lt;/b&gt; %1$s&lt;br&gt;&lt;br&gt;&lt;b&gt;Çi Nû Ne:&lt;/b&gt;&lt;br&gt;%2$s</string>
+    <string name="report__">Rapor bike…</string>
+    <string name="report_problem__">Pirsgirêkekê Rapor Bike…</string>
+    <string name="report_problem_subject">Pirsgirêkekê rapor bike</string>
+    <string name="report_problem_text">Mijara pirsgirêkê:
+\n%1$s
+\n
+\nHûrguliyên pirsgirêkê:
+\n%2$s</string>
+    <string name="installation_failed">Sazkirin bi ser neket.</string>
+    <string name="invalid_app_detail">Agahiyên hûrgulî yên sepana nederbasdar.</string>
+    <string name="failed_to_request_app_detail">Daxwaza agahiyên berfireh yên sepanê bi ser neket.</string>
+    <string name="incompatible_this_app">&lt;big&gt;&lt;b&gt;&lt;font color=%1$d&gt;Cîhaza te û ev sepan li hev nayên.&lt;/font&gt;&lt;/b&gt;&lt;/big&gt;&lt;br&gt;&lt;br&gt;Dîsa jî tu dixwazî dewam bikî\?</string>
+    <string name="this_app_not_usable">&lt;big&gt;&lt;b&gt;&lt;font color=%1$d&gt;Dibe ku ev sepan ne kêrhatî be.&lt;/font&gt;&lt;/b&gt;&lt;/big&gt;&lt;br&gt;&lt;br&gt;Dîsa jî tu dixwazî dewam bikî\?</string>
+    <string name="setting">Sazkarî</string>
+    <string name="external_storage_not_usable"><big><b>Divê em xwe bigihînin bîrgeha te ya derveyî. Ji kerema xwe jê guncavbûna wê piştrat bibe.</b></big></string>
+    <string name="external_storage_permission_denied"><big><b>Divê em xwe bigihînin bîrgeha te ya derveyî. Ji kerema xwe, jê dayîna destûrê piştrast bibe.</b></big></string>
+    <string name="share">Parve bike</string>
+    <string name="share_app_url"> Parve bike <xliff:g example="APKPure" id="app_name">%1$s</xliff:g> APK (ji <xliff:g example="APKPure" id="social_network_name">%2$s</xliff:g>) <xliff:g example="https://apkpure.com/p/com.apkpure.aegon" id="app_url">%3$s</xliff:g> </string>
+    <string name="_name__version_history"><xliff:g example="APKPure" id="name">%1$s</xliff:g> Raboriya Guhertoyê</string>
+    <string name="update__date___size_">Hildemandin: <xliff:g example="Mar 3, 2016" id="date">%1$s</xliff:g>, <xliff:g example="1024 kB" id="size">%2$s</xliff:g></string>
+    <string name="general">Giştî</string>
+    <string name="language">Ziman</string>
+    <string name="featured">Bijarde</string>
+    <string name="management">Bi rê ve bibe</string>
+    <string name="app_updates">Hildemandinên Sepanê</string>
+    <string name="app_uninstall">Sepanê Rake</string>
+    <string name="apk_management">Birêvebirina Sepanê</string>
+    <string name="user_canceled">Bikarhêner betal kir.</string>
+    <string name="uninstalled">Hat rakirin</string>
+    <string name="market_response_error_invalid_response_body">Cureya bersivandinê nederbasdar e.</string>
+    <string name="trending_searches">Lêgerînên Trend</string>
     <string name="invalid_app_asset">نادروستی زانیاری بەنرخی نەرمەواڵە.</string>
     <string name="failed_to_request_app_asset">داواکاری زانینی زانیاری بەنرخی نەرمەواڵە سەرکەوتوو نەبوو.</string>
-    <string name="action_management">RêveberiyaH740021</string>
-    <string name="delete_all">سڕینەوەی هەموو</string>
-    <string name="properties">تایبەتمەندییەکان</string>
-    <string name="properties_message">"&lt;b&gt;ڕێڕەو:&lt;/b&gt; %1$s&lt;br&gt;&lt;b&gt;قەبارە:&lt;/b&gt; %2$s&lt;br&gt;&lt;b&gt;دوا گۆڕانکاری::&lt;/b&gt; %3$s "</string>
-    <string name="want_to_delete_all_files">ئایا دەتەوێت هەموو پەڕگەیەک بسریتەوە؟</string>
-    <string name="flag_as_inappropriate">نیشانکردن وەک ناگونجاو</string>
-    <string name="pause_all">وەستانی هەموویان</string>
-    <string name="continue_all">بەردەوامیدانی هەموویان</string>
-    <string name="waiting_to_download">چاوەڕوان بە بۆ داگرتن</string>
-    <string name="deleted">سڕایەوە</string>
-    <string name="remove_all">لابردنی هەموویان</string>
-    <string name="want_to_remove_all_download_items">ئایا دەتەوێت هەموو بڕگەکانی داگرتن لاببەی؟</string>
-    <string name="delete_downloaded_file">سڕینەوەی پەڕگەی داگیراو</string>
-    <string name="search_history">مێژوو</string>
-    <string name="clear_search_history">پاکردنەوەی هەموو مێژوو</string>
-    <string name="contact_us__">پەیوەندیمان پێوە بکەن…</string>
-    <string name="contact_us">پەیوەندیمان پێوە بکەن</string>
-    <string name="update_all">نوێکردنەوەی هەموویان</string>
-    <string name="update___count__">نوێکردنەوە (<xliff:g id="count" example="3">%1$d</xliff:g>)</string>
+    <string name="action_management">Bi rê ve bibe</string>
+    <string name="delete_all">Gişî Jê Bibe</string>
+    <string name="properties">Taybetmendî</string>
+    <string name="properties_message">&lt;b&gt;Rê:&lt;/b&gt; %1$s&lt;br&gt;&lt;b&gt;Mezinahî:&lt;/b&gt; %2$s&lt;br&gt;&lt;b&gt;Sererastkirina Dawî:&lt;/b&gt; %3$s</string>
+    <string name="want_to_delete_all_files">Tu bi rastî jî dixwazî hemû dosyeyan jê bibe\?</string>
+    <string name="flag_as_inappropriate">Wekî neguncav nîşan bike</string>
+    <string name="pause_all">Gişî Bisekinîne</string>
+    <string name="continue_all">Gişî Bidomîne</string>
+    <string name="waiting_to_download">Li benda daxistinê ye</string>
+    <string name="deleted">Hat jêbirin</string>
+    <string name="remove_all">Gişî Rake</string>
+    <string name="want_to_remove_all_download_items">Tu bi rastî jî dixwazî hemû hêmanan rake\?</string>
+    <string name="delete_downloaded_file">Dosyeya daxistî jê bibe</string>
+    <string name="search_history">Raborî</string>
+    <string name="clear_search_history">Hemû raboriyê paqij bike</string>
+    <string name="contact_us__">Bi Me Re Têkilî Deyne…</string>
+    <string name="contact_us">Bi Me Re Têkilî Deyne</string>
+    <string name="update_all">Gişî Hildemîne</string>
+    <string name="update___count__">Hildemîne (<xliff:g example="3" id="count">%1$d</xliff:g>)</string>
     <string name="ignore">پشتگوێخستن</string>
-    <string name="select">دیاریکردن</string>
-    <string name="cancel">هەڵوەشاندنەوە</string>
-    <string name="select_all">دیاریکردنی هەموویان</string>
-    <string name="deselect_all">دیاری نەکردنی هەموویان</string>
+    <string name="select">Hilbijêre</string>
+    <string name="cancel">Betal bike</string>
+    <string name="select_all">Gişî Hilbijêre</string>
+    <string name="deselect_all">Hemû Bijartinan Rake</string>
     <string name="ignored">پشگوێخراو</string>
     <plurals name="total__count__apps__size_">
-        <item quantity="one">"تێکڕا: &lt;b&gt;&lt;font color=%1$d&gt;%2$d&lt;/font&gt;&lt;/b&gt; بەرنامە، &lt;b&gt;&lt;font color=%1$d&gt;%3$s&lt;/font&gt;&lt;/b&gt; "</item>
-        <item quantity="other">"تێکڕا: &lt;b&gt;&lt;font color=%1$d&gt;%2$d&lt;/font&gt;&lt;/b&gt; نەرمەواڵەکان، &lt;b&gt;&lt;font color=%1$d&gt;%3$s&lt;/font&gt;&lt;/b&gt; "</item>
+        <item quantity="one">Tevahî: &lt;b&gt;&lt;font color=%1$d&gt;%2$d&lt;/font&gt;&lt;/b&gt; sepan, &lt;b&gt;&lt;font color=%1$d&gt;%3$s&lt;/font&gt;&lt;/b&gt;</item>
+        <item quantity="other">Tevahî: &lt;b&gt;&lt;font color=%1$d&gt;%2$d&lt;/font&gt;&lt;/b&gt; sepan, &lt;b&gt;&lt;font color=%1$d&gt;%3$s&lt;/font&gt;&lt;/b&gt;</item>
     </plurals>
-    <string name="total_zero_app">" تێکڕا: &lt;b&gt;&lt;font color=%1$d&gt;0&lt;/font&gt;&lt;/b&gt; نەرمەواڵە "</string>
-    <string name="installation">دامەزراندن</string>
-    <string name="show_notification_after_installation">پیشاندانی ئاگادارکردنەوە پاش دامەزراندن</string>
-    <string name="delete_packages_after_installation">سڕینەوەی گورزەکان پاش دامەزراندن</string>
-    <string name="_name__installation_completed">
-        <xliff:g id="name" example="APKPure">%1$s</xliff:g> دامەزراندن تەواو بوو</string>
+    <string name="total_zero_app">Tevahî: &lt;b&gt;&lt;font color=%1$d&gt;0&lt;/font&gt;&lt;/b&gt; sepan</string>
+    <string name="installation">Sazkirin</string>
+    <string name="show_notification_after_installation">Piştî sazkirinê danezanan nîşan bide</string>
+    <string name="delete_packages_after_installation">Piştî sazkirinê pakêtan jê bibe</string>
+    <string name="_name__installation_completed"><xliff:g example="APKPure" id="name">%1$s</xliff:g> sazkirin qediya</string>
     <string name="touch_to_open">دەستی لێبدە بۆ کردنەوە.</string>
-    <string name="report_content">هەواڵلێدان لە ناوەڕۆک</string>
+    <string name="report_content">Naverokê Rapor Bike</string>
     <string name="unignore">پشتگوێ نەخراو</string>
-    <string name="recommend">دۆزینەوە</string>
-    <string name="similar_or_related">هاوشێوە یان لێکچوو</string>
-    <string name="more_from_developer">بەرهەمەکانی تری گەشەپێدەر</string>
-    <string name="more_large">زیاتر</string>
+    <string name="recommend">Keşf bike</string>
+    <string name="similar_or_related">Wekî Hev an jî Têkildar</string>
+    <string name="more_from_developer">Zêdetirî wan ji Pêşvebir</string>
+    <string name="more_large">Zêdetir</string>
+    <string name="load_all_choice_comment">Hemû şandiyan bibîne</string>
+    <string name="load_all_choice_evaluate">Hemû nirxandinan bibîne</string>
+    <string name="count_down_timer_btn">derbas bibe</string>
+    <string name="web_view_copy">Girêdanê kopî bike</string>
+    <string name="menu_copy_link">Girêdanê kopî bike</string>
+    <string name="message_notify">Danezan</string>
+    <string name="app_detail_comment_order_array_bad">1-3</string>
+    <string name="app_detail_comment_order_array_good">4-5</string>
+    <string name="app_detail_evaluation_failed_bt">Nirxandin</string>
+    <string name="app_detail_evaluation_tool_bar_title">Nirxandinekê binivîse</string>
+    <string name="copy_content">Naverokê kopî bike</string>
+    <string name="copy_username">Bernavê kopî bike</string>
+    <string name="pre_register_ok">BAŞ e</string>
+    <string name="search_focus_list_title">Hat şopandin</string>
+    <string name="search_for_user">Lê bigere</string>
+    <string name="search_tab_name_two">Bikarhêner</string>
+    <string name="search_tab_name_one">Sepan</string>
+    <string name="tag">Etîket</string>
+    <string name="market_ad_tab_three">Alav</string>
+    <string name="market_ad_tab_two">Lîstok</string>
+    <string name="market_ad_title">Market</string>
+    <string name="your_reply_comment">Bersiva Te</string>
+    <string name="tab_group">KOM</string>
+    <string name="upload_add_list_toast">Serkeftî!</string>
+    <string name="upload_notification_cancel">Betal bike</string>
+    <string name="upload_notification_start">Dest pê bike</string>
+    <string name="upload_notification_pause">Bisekinîne</string>
+    <string name="upload_comment_reload">Ji bo dîsa lê hilxînî, bitepîne</string>
+    <string name="upload_comment_view">Ji bo bibînî, bitepîne</string>
+    <string name="upload_comment_uploading">%1$s Tê hilxistin…</string>
+    <string name="upload_apk_downloads">Daxistin: %1$s</string>
+    <string name="upload_apk_version">Guherto %1$s</string>
+    <string name="commentaries">Çîrok</string>
+    <string name="tab_apk">APK</string>
+    <string name="share_apk">APK\'yê parve bike</string>
+    <string name="no_comment">Şandiya yekem tu parve bikî!</string>
+    <string name="no_collect">Hîn favorî tune ye!</string>
+    <string name="error_add_tag">Etîket nehatin tevlîkirin.</string>
+    <string name="add_tag">Etîketan tevlî bike</string>
+    <string name="Istop">Hat sabîtkirin</string>
+    <string name="colon">:</string>
+    <string name="user_name_null">Navê bikarhêner nederbasdar e.</string>
+    <string name="update_intro_tv">Derbara te nabe vala bimîne.</string>
+    <string name="update_intro_et">Di derbarê xwe de hin hûrgulî</string>
+    <string name="update_intro_title">Derbarê sererast bike</string>
+    <string name="user_info_edit_intro_tv">Derbar</string>
+    <string name="beta">Beta</string>
+    <string name="add">Tevlî bike</string>
+    <string name="there_is_no_label">Etîket tune.</string>
+    <string name="common_use">Etîketên Min</string>
+    <string name="hot_tag">Etîketên Populer</string>
+    <string name="tag_list">Lîsteya Etîketan</string>
+    <string name="app_detail_no_ad">Bêreklam</string>
+    <string name="scan_qr_code_result_copy_text">Nivîsê kopî bike</string>
+    <string name="scan_qr_code_result_title">Encam</string>
+    <string name="publish_comment">Bişîne</string>
+    <string name="menu_follow_group_tab">Kom</string>
+    <string name="menu_follow_user_tab">Mirov</string>
+    <string name="goto_google_play">Aniha bikire</string>
+    <string name="user_focus_title_my">Şopandinên Min</string>
+    <string name="user_focus_tab_apps">Kom</string>
+    <string name="user_focus_tab_users">Mirov</string>
+    <string name="user_detail_tab_reply">Şîrove</string>
+    <string name="user_detail_tab_detail">Şandî</string>
+    <string name="user_detail_praise">Ecibandin</string>
+    <string name="user_detail_fans">Şopîner</string>
+    <string name="user_detail_focus">Şopandî</string>
+    <string name="download_mkdir_internal_storage_entries1">SD 1</string>
+    <string name="download_mkdir_internal_storage_entries">SD</string>
+    <string name="recommend_required">*</string>
+    <string name="recommend_replace_img">Wêneyê Biguherîne</string>
+    <string name="recommend_review">Pêşdîtin</string>
+    <string name="recommend_installed_list_title">Sepanên Min</string>
+    <string name="web_view_refresh">Nû bike</string>
+    <string name="open_with_browser">Di gerokê de veke</string>
+    <string name="collection_app">SEPAN</string>
+    <string name="collection_comment">ŞANDÎ</string>
+    <string name="favorite_saved">Tevlî favoriyan bû.</string>
+    <string name="save_as_favorite">Wekî Favorî tomar bike</string>
+    <string name="favorite_title">Favorî</string>
+    <string name="menu_paste">Bizeliqîne</string>
+    <string name="app_detail_three_fragment_foot">Hemû şîroveyan nîşan bide</string>
+    <string name="ranking_tab4_title">Sepanên Herî Nû</string>
+    <string name="ranking_tab3_title">Sepanên Herî Baş</string>
+    <string name="ranking_tab2_title">Lîstokên Herî Nû</string>
+    <string name="ranking_tab1_title">Lîstokên Herî Baş</string>
+    <string name="browsing_history">Raboriya lêgerînê</string>
+    <string name="attention_off">Bişopîne</string>
+    <string name="attention_on">Dişopînî</string>
+    <string name="follow">DIŞOPÎNÎ</string>
+    <string name="collection">Favorî</string>
+    <string name="group">Kom</string>
+    <string name="canceled">Hat betalkirin</string>
+    <string name="follow_un_success">Ji şopê derket.</string>
+    <string name="follow_on_success">Hat şopandin.</string>
+    <string name="main_night_mode">Moda Şevê</string>
+    <string name="main_topic_selection">Rûkar</string>
+    <string name="main_my_message">Peyam</string>
+    <string name="main_my_collection">Favorî</string>
+    <string name="main_my_comments">Şandî</string>
+    <string name="main_won_praise">Ecibandin</string>
+    <string name="main_comment">şîrove</string>
+    <string name="main_tab_my">EZ</string>
+    <string name="main_tab_home">SERRÛPEL</string>
+    <string name="null_time">0:00</string>
+    <string name="app_detail_comment_join_group_bt">Kom</string>
+    <string name="app_detail_comment_order_array_old">Kevintir</string>
+    <string name="check_update_replace">Guhertoya fermî</string>
+    <string name="sub_comment_dialog_title">Vîdyoyekê tevlî bike</string>
+    <string name="download_history">Raboriyê Daxîne</string>
+    <string name="delete_the_historical_record">Vê tomarê jê bibe\?</string>
+    <string name="delete_all_download_history">Tevahiya raboriya daxistinê jê bibe\?</string>
+    <string name="menu_cancel">Betal bike</string>
+    <string name="menu_copy">Kopî bike</string>
+    <string name="edit">Sererast bike</string>
+    <string name="comment_comment_oldest">Kevintir</string>
+    <string name="comment_comment_newest">Nûtir</string>
+    <string name="comment_detail_original">Şîroveya Orijînal Bibîne &gt;</string>
+    <string name="app_detail_unknow_text">Ev taybetmendî ji aliyê guhertoya heyî ve nayê destekkirin. Ji kerema xwe, hildemîne guhertoya herî dawî.</string>
+    <string name="set_updates_notification_msg">Dema hildemandinên sepanê hatin min agahdar bike. Sazkariya Pêşniyarkirî: Vekirî</string>
+    <string name="set_updates_notification">Hildemandinên sepanê hene</string>
+    <string name="comment_reply_info_name">Hûrgulî</string>
+    <string name="comment_reply_three">Bersiv</string>
+    <string name="comment_vote_string">Ecibandin</string>
+    <string name="submit_comment_title_hint">Sernav</string>
+    <string name="gif_tip">gif</string>
+    <string name="login_new_user">Tomarbûna Bikarhênerê Nû</string>
+    <string name="login_choose">An ji bi hesabê xwe yê medyaya civakî têkeve</string>
+    <string name="login_user_sign_in">Têketin</string>
+    <string name="login_user_password">Pêborîn</string>
+    <string name="login_user_name">Navê bikarhêner an jî email</string>
+    <string name="user_confirm_error">Pêborîn li hev nayên.</string>
+    <string name="user_password_error">Ev pêborîn nederbasdar e.</string>
+    <string name="user_email_error">Vê navnîşana emailê nederbasdar e.</string>
+    <string name="user_nickname_error">Divê di bernavê de ti karekterên taybet, sembol an jî valahî tune bin.</string>
+    <string name="user_name_error">Divê di navê bikarhêner de ti karekterên taybet, sembol an jî valahî tune bin.</string>
+    <string name="user_password_confirm">Pêborînê Bipejirîne</string>
+    <string name="user_password">Pêborîn(6-32 karakter)</string>
+    <string name="user_email_hint">Email</string>
+    <string name="user_name_hint">Navê Bikarhêner</string>
+    <string name="user_sign_up">Tomar Bibe</string>
+    <string name="sign_in_services_key_policy">Polîtîkaya nihêniyê</string>
+    <string name="sign_in_services_key">Merc</string>
+    <string name="sign_in_services">Bi tomarbûnê re tu Polîtîkaya Nihêniyê û Şertên me qebûl dikî.</string>
+    <string name="set_permissions">Destûr</string>
+    <string name="set_contributor">Beşdar</string>
+    <string name="register_term_of_service">Merc û Xizmetên APKPure\'yê</string>
+    <string name="comment_replying">Tê bersivandin…</string>
+    <string name="comment_cancel">Şîrove hat betalkirin</string>
+    <string name="is_comment">Şîrove…</string>
+    <string name="crop__wait">Ji kerema xwe bisekine…</string>
+    <string name="crop__saving">Wêne tê tomarkirin…</string>
+    <string name="crop__pick_error">Cureya dosyeya wêneyê nederbasdar e.</string>
+    <string name="crop__done">Qediya</string>
+    <string name="crop__cancel" ignore="ButtonCase">Betal bike</string>
+    <string name="update_save_success">Hat tomarkirin.</string>
+    <string name="update_pwd_save_bt">Tomar bike</string>
+    <string name="update_pwd_new_confrim_tv">Pêborînên te nivîsandine ne wekhev in.</string>
+    <string name="update_pwd_new_pwd_null_tv">Pêborîna nû nabe vala bimîne.</string>
+    <string name="update_pwd_Confirm_null_tv">Pejirandina pêborînê nabe vala bimîne.</string>
+    <string name="update_pwd_current_null_tv">Pêborîna kevn nabe vala bimîne.</string>
+    <string name="upload_avatar">Tê hilxistin…</string>
+    <string name="update_pwd_Confirm_pwd_et">Pêborîna nû bipejirîne</string>
+    <string name="update_pwd_new_pwd_et">Pêborîna nû</string>
+    <string name="update_pwd_current_pwd_et">Pêborîna kevn</string>
+    <string name="update_pwd_title">Pêborîna min nûsaz bike</string>
+    <string name="update_nickname_error">Jixwe ev bernav hatiye girtin. Ji kerema xwe yekî din bikevê!</string>
+    <string name="update_eamil_name_tv">Emaila te nabe vala bimîne.</string>
+    <string name="update_email_name_et">Emaila xwe bikevê.</string>
+    <string name="update_nick_name_tv">Bernavê te nabe vala bimîne.</string>
+    <string name="update_nick_name_et">Bernavê xwe yê nû bikevê</string>
+    <string name="update_email_title">Emailê Biguherîne</string>
+    <string name="update_nick_title">Bernavê biguherîne</string>
+    <string name="user_info_edit_cancel">Betal bike</string>
+    <string name="user_info_edit_ok">BAŞ e</string>
+    <string name="user_info_edit_portrait_error">Cureya wêneyê nayê piştgirîkirin.</string>
+    <string name="user_info_edit_portrait_take_photo">Bi kamerayê wêne bikişîne</string>
+    <string name="user_info_edit_portrait_album">Wêneyekî ji galeriyê hilbijêre</string>
+    <string name="user_info_edit_gender_female">Jin</string>
+    <string name="user_info_edit_gender_male">Mêr</string>
+    <string name="user_info_edit_not_choose">Nenas</string>
+    <string name="user_info_edit_login_out_tv">Derkeve</string>
+    <string name="user_info_edit_change_pwd_tv">Pêborînê Nûsaz Bike</string>
+    <string name="user_info_edit_birthday_tv">Rojbûn</string>
+    <string name="user_info_edit_gender_tv">Zayend</string>
+    <string name="user_info_edit_email_tv">Email</string>
+    <string name="user_info_edit_nickname_tv">Bernav</string>
+    <string name="user_info_edit_username_tv">Navê bikarhêner</string>
+    <string name="user_info_edit_portrait_tv">Avatar</string>
+    <string name="user_info_edit_title">Profîl</string>
+    <string name="login_select_way_to_login">Ji kerema xwe, ji bo têketinê metodekê hilbijêre</string>
+    <string name="upload_cancel">Hilxistin hat betalkirin</string>
+    <string name="delete_comment_msg">Tu bi rastî jî dixwazî vê şîroveyê jê bibe\?</string>
+    <string name="delete_comment">Şîroveyê jê bibe</string>
+    <string name="sign_out">Derketin</string>
+    <string name="login_title">Têketin</string>
+    <string name="permission_denied">Gihîn hat redkirin!</string>
+    <string name="load_end">Daneyên zêdetir tune ye.</string>
+    <string name="already_save">Hat tomarkirin<xliff:g example="ApKPure/photo" id="path">%1$s</xliff:g></string>
+    <string name="save_original_image">Tomar bike</string>
+    <string name="reply_comment">Şîroveyê bibersivîne</string>
+    <string name="reply_dialog_marked_words">Ji bo jêbirinê li wêneyê bitepîne û li ser bihêle.</string>
+    <string name="publish">Şandî</string>
+    <string name="input_reply_content">Ji kerema xwe bibersivîne:</string>
+    <string name="reply">Bibersivîne</string>
+    <string name="download_complete_installation_setting_entries_never">Qet saz neke</string>
+    <string name="download_complete_installation_setting_entries_only">Tenê dema ku di pêşxaneyê de dixebite saz bike</string>
+    <string name="download_complete_installation_setting_entries_always">Her tim saz bike</string>
+    <string name="download_complete_installation_setting">Piştî daxistinê vebijêrka sazkirinê</string>
+    <string name="app_detail_comment_order_array_best">Herî Baş</string>
+    <string name="app_detail_tab_three">Têkildar</string>
+    <string name="app_detail_tab_two">Kom</string>
+    <string name="app_detail_tab_one">Hûrgulî</string>
+    <string name="app_submit_reply_to">bersivê bide</string>
+    <string name="app_submit_submit_title">Bişîne</string>
+    <string name="app_submit_email">Email</string>
+    <string name="app_submit_nickname">Bernav</string>
+    <string name="app_submit_msg_hint">Ji kerema xwe fikrên xwe binivîse!</string>
+    <string name="app_submit_title_hint">Ji kerma xwe, sernavekê bikevê!</string>
+    <string name="app_submit_star_toast">Ji kerema xwe, dengê xwe bide!</string>
+    <string name="app_submit_email_toast">Ji kerema xwe, navnîşaneke derbasdar a emailê bikevê!</string>
+    <string name="app_submit_name_toast">Ji kerema xwe, bernavê xwe bikevê!</string>
+    <string name="app_submit_msg_toast">Ji kerema xwe, tiştekî binivîse!</string>
+    <string name="app_submit_title_toast">Ji kerma xwe, sernavekê bikevê!</string>
+    <string name="app_submit_anonymous_comment">Şîrove bike</string>
+    <string name="app_submit_submit">Tê şandin…</string>
+    <string name="app_detail_comment_type_web">Web</string>
+    <string name="app_detail_customer_reviews">Şîrove</string>
+    <plurals name="app_detail_see_all_replies">
+        <item quantity="one">Tevahiya <xliff:g example="1" id="count">%1$d</xliff:g> Bersivê, Bibîne</item>
+        <item quantity="other">Tevahiya <xliff:g example="2" id="count">%1$d</xliff:g> Bersivan, Bibîne</item>
+    </plurals>
+    <string name="auto_install_via_root_title">Sazkirina Otomatîk (Moda Rootê)</string>
+    <string name="auto_service_complete__material_">BIQEDINE</string>
+    <string name="auto_service_exchange__material_">BIGUHERÎNE</string>
+    <string name="auto_service_next__material_">PÊŞVE</string>
+    <string name="auto_service_ensure__material_">BAŞ e</string>
+    <string name="auto_service_install__material_">SAZ BIKE</string>
+    <string name="auto_service_complete">Biqedîne</string>
+    <string name="auto_service_exchange">Biguherîne</string>
+    <string name="auto_service_next">Pêşve</string>
+    <string name="auto_service_ensure">Baş e</string>
+    <string name="auto_service_install">Saz bike</string>
+    <string name="auto_service_title">Sazkirina Otomatîk - APKPure</string>
+    <string name="auto_service_dialog_message">Sazkirina otomatîk destûrê ji te dixwaze. %100 ewle ye.</string>
+    <string name="auto_service_dialog_title">Sazkirina Otomatîk Biçalakîne</string>
+    <string name="auto_service_install_accessibility_summary">Android 4.1 û jora wê piştgirî dike. Gihîna rootê hewce nake.</string>
+    <string name="auto_service_install_accessibility_title">Sazkirina otomatîk</string>
+    <string name="enable_ultra_download_summary">Daxistina Ûltra di betayê de ye. Heke tu rastî pirsgirêkekê bê, ji me re bibêje.</string>
+    <string name="enable_ultra_download">Daxistina ûltra çalak bike</string>
+    <string name="download_via_wifi_only">Tenê bi rêya Wi-Fi daxîne</string>
+    <string name="changing_language">Ziman tê guhertin… Ji kerema xwe bisekine.</string>
+    <string name="share_app_url_comment"> Şîroveyên <xliff:g example="APKPure" id="user_name">%1$s</xliff:g> li ser sepana <xliff:g example="APKPure" id="app_name">%2$s</xliff:g> : <xliff:g example="APKPure" id="app_name">%3$s</xliff:g> (ji <xliff:g example="APKPure" id="social_network_name">%4$s</xliff:g>) <xliff:g example="https://apkpure.com/p/com.apkpure.aegon" id="app_url">%5$s</xliff:g> </string>
+    <string name="feedback">Paşragihandin</string>
+    <string name="report">Rapor bike</string>
+    <string name="enable">Biçalakîne</string>
+    <string name="download_over_cellular_content">Tu yê ji ser daneya xwe ya mobîlê daxînî. Berdewam bike\?</string>
+    <string name="download_over_cellular">Ji ser daneya mobîlê daxîne</string>
+    <string name="installed">Hat sazkirin</string>
+    <string name="home_recommended_title">Bijî!</string>
+    <string name="ucrop_label_original">Orijînal</string>
+    <string name="picture_confirm">Betal bike</string>
+    <string name="picture_pause_audio">Bisekinîne</string>
+    <string name="picture_quit_audio">Derkeve</string>
+    <string name="picture_stop_audio">Rawestîne</string>
+    <string name="picture_all_audio">Hemû deng</string>
+    <string name="picture_long_chart">Dirêj</string>
+    <string name="gif_tag">gif</string>
+    <string name="picture_please_select">Jkx Hilbijêre</string>
+    <string name="picture_done">Baş e</string>
+    <string name="picture_completed">Qediya</string>
+    <string name="picture_preview">Pêşdîtin</string>
+    <string name="picture_cancel">Betal bike</string>
+    <string name="attention_each">Hat girêdan</string>
+    <string name="users">Bikarhêner</string>
+    <string name="empty_draft_info">Naverok tune…</string>
+    <string name="delete_draft">Reşnivîsê jê bibe</string>
+    <string name="edit_draft">Reşnivîsê sererast bike</string>
+    <string name="several_draft"><xliff:g example="5" id="count">%1$s</xliff:g> reşnivîs</string>
+    <string name="clear_empty">Gişî paqij bike</string>
+    <string name="my_draft">Reşnivîsa Min</string>
+    <string name="tap_to_view">Ji bo bibînî, bitepîne</string>
+    <string name="recommended_posts_title">Bijî!</string>
+    <string name="users_recommended_title">Bijî!</string>
+    <string name="number">\"</string>
+    <string name="app_rating">Puan:</string>
+    <string name="del_account_bt">Bişîne</string>
+    <string name="privacy_setting_account">Hesabê Nihênî</string>
+    <string name="privacy_setting_title">Sazkariyên Nihêniyê</string>
+    <string name="look_all">Zêdetir Bibîne</string>
+    <string name="hint">Not</string>
+    <string name="hot">trend</string>
+    <string name="me_follow">Şopandinên Min</string>
+    <string name="trends">Şandî</string>
+    <string name="image_text">Çîrok</string>
+    <string name="evaluating">Nirxandin</string>
+    <string name="comments">Şîrove</string>
+    <string name="setting_region">Herêm</string>
+    <string name="shop">FIROŞGEH</string>
+    <string name="sign_in_services_key_policy_register">Polîtîkaya Nihêniyê</string>
+    <string name="home_message_praise">Ecibandin</string>
+    <string name="home_message_reply">Bersiv</string>
+    <string name="email_address_hint_et">Emaila xwe bikevê.</string>
+    <string name="forget_password_tv">Te pêborîna xwe ji bîr kiriye\?</string>
+    <string name="menu_skip">Derbas bibe</string>
+    <string name="topics">Mijar</string>
 </resources>
