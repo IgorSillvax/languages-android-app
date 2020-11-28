@@ -9,14 +9,14 @@
     <string name="apps">应用</string>
     <string name="categories">分类</string>
     <string name="recommend">最新发现</string>
-    <string name="updates">更新日期:</string>
+    <string name="updates">更新</string>
     <string name="something_happened">&gt;_&lt;
-\n出错了</string>
-    <string name="load_failed_error">哎呀！发生错误了</string>
-    <string name="load_failed_error_not_found">该应用未收录！</string>
-    <string name="load_failed_empty">无内容</string>
-    <string name="load_failed_all_up_to_date">所有应用程序已是最新</string>
-    <string name="load_failed_no_results">抱歉！未找到结果</string>
+\n出错了。</string>
+    <string name="load_failed_error">哎呀！发生错误了。</string>
+    <string name="load_failed_error_not_found">该应用尚未包含在APKPure中。</string>
+    <string name="load_failed_empty">无内容。</string>
+    <string name="load_failed_all_up_to_date">所有应用均已是最新版本。</string>
+    <string name="load_failed_no_results">抱歉！未找到结果。</string>
     <string name="refresh">刷新</string>
     <string name="management">管理</string>
     <string name="app_updates">应用更新</string>
@@ -27,8 +27,7 @@
     <string name="download_management">下载管理</string>
     <string name="settings">设置</string>
     <string name="about">关于</string>
-    <string name="about_title">关于 <xliff:g id="app_name" example="APKPure">%1$s</xliff:g>
-    </string>
+    <string name="about_title">关于 <xliff:g id="app_name" example="APKPure">%1$s</xliff:g></string>
     <string name="about_message">
         <![CDATA[<b>版本：</b> %1$s<br><br><b>官方网站：</b> <a href="%2$s">%2$s</a><br><b>电子邮箱：</b> <a href="mailto:%3$s">%3$s</a>]]>
     </string>
@@ -149,13 +148,11 @@
     <string name="search_history">搜索历史</string>
     <string name="clear_search_history">清空历史记录</string>
     <string name="improvement_plan_title">用户体验改善计划</string>
-    <string name="improvement_plan_message">
-        <![CDATA[帮助提交 Android 设备信息，我们 <b>不会收集</b> 您的个人信息（包括姓名，地址，电子邮件地址等等）。]]>
-    </string>
+    <string name="improvement_plan_message">帮助提交 Android 设备信息，我们 <b>不会收集</b> 您的个人信息（包括姓名，住址，电子邮件地址等等）。</string>
     <string name="join_us">加入我们</string>
     <string name="skip">跳过</string>
     <string name="participate_ultra_download_beta_test_title">启用超级下载并享受更快的下载速度</string>
-    <string name="participate_ultra_download_beta_test_content">超级下载目前还是测试版本，如果在使用中发现问题请告诉我们。你可以在设置页面很方便的关闭这个功能。</string>
+    <string name="participate_ultra_download_beta_test_content">超级下载目前还是测试版本，如果在使用中发现问题，请告诉我们。你可以在设置页面很方便地关闭这个功能。</string>
     <string name="enable">启用</string>
     <string name="_name__is_up_to_date">
         <xliff:g id="name" example="APKPure">%1$s</xliff:g> 已是最新版本。</string>
@@ -345,7 +342,7 @@
     <string name="update_pwd_current_pwd_et">旧密码</string>
     <string name="update_pwd_new_pwd_et">新密码</string>
     <string name="update_pwd_Confirm_pwd_et">确认密码</string>
-    <string name="update_pwd_current_null_tv">旧密码不能为空</string>
+    <string name="update_pwd_current_null_tv">旧密码不能为空。</string>
     <string name="update_pwd_Confirm_null_tv">确认密码不能为空</string>
     <string name="update_pwd_new_pwd_null_tv">新密码不能为空</string>
     <string name="update_pwd_new_confrim_tv">两次输入密码不一致</string>
@@ -366,7 +363,7 @@
     <string name="user_info_edit_gender_female">女</string>
     <string name="user_info_edit_portrait_album">从相册选择</string>
     <string name="user_info_edit_portrait_take_photo">拍照</string>
-    <string name="user_info_edit_portrait_error">该图片类型不支持上传</string>
+    <string name="user_info_edit_portrait_error">不支持该图片类型。</string>
     <string name="user_info_edit_ok">确认</string>
     <string name="user_info_edit_cancel">取消</string>
     <string name="user_info_edit_large_photo">查看大图</string>
@@ -380,15 +377,15 @@
     <string name="update_nick_title">修改昵称</string>
     <string name="update_email_title">修改邮箱</string>
     <string name="update_nick_name_et">请输入你的昵称</string>
-    <string name="update_nick_name_tv">昵称不能为空</string>
-    <string name="update_email_name_et">请输入你的邮箱</string>
-    <string name="update_eamil_name_tv">邮箱不能为空</string>
+    <string name="update_nick_name_tv">昵称不能为空。</string>
+    <string name="update_email_name_et">请输入你的邮箱地址。</string>
+    <string name="update_eamil_name_tv">邮箱地址不能为空。</string>
     <string name="update_save_success">保存成功!</string>
-    <string name="update_nickname_error">昵称已经在使用，请修改昵称。</string>
+    <string name="update_nickname_error">该昵称已被使用，请修改昵称！</string>
     <string name="user_info_edit_intro_tv">个人简介</string>
     <string name="update_intro_title">修改简介</string>
-    <string name="update_intro_et">用一句话介绍自己吧!</string>
-    <string name="update_intro_tv">简介不能为空</string>
+    <string name="update_intro_et">用一句话介绍自己吧</string>
+    <string name="update_intro_tv">简介不能为空。</string>
     <!--messageFragment-->
     <string name="message_all">全部</string>
     <string name="message_reply">回复</string>
@@ -396,7 +393,7 @@
     <string name="message_notify">通知</string>
     <string name="message_notifications_praise">赞了你</string>
     <string name="message_notifications_reply">回复了你</string>
-    <string name="message_notifications_login">请登录后查看</string>
+    <string name="message_notifications_login">请登录后查看。</string>
     <string name="message_at_title">\@我的</string>
     <string name="message_at">\@了你</string>
     <string name="set_contributor">贡献者</string>
@@ -828,7 +825,22 @@
     <string name="upload_apk_xapk">上传 APK/XAPK</string>
     <string name="preparing_upload">上传准备中…</string>
     <string name="packaging">打包中…</string>
-    <string name="packaging_success_ready_upload">打包完成，准备上传…</string>
+    <string name="packaging_success_ready_upload">打包完成。准备上传。</string>
     <string name="packaging_failed_try_again">打包失败，请重新上传.</string>
-    <string name="xapk_upload_hint_info">XAPK文件上传时间较长，是否上传?</string>
+    <string name="xapk_upload_hint_info">XAPK文件可能会花较长的时间上传，是否要继续\?</string>
+    <string name="ucrop_mutate_exception_hint">因此，请在您的应用中覆盖颜色资源（ucrop_color_toolbar_widget），以使其在pre-L前设备上运行</string>
+    <string name="ucrop_error_input_data_is_absent">必须指定输入和输出Uri</string>
+    <string name="home_recommended_desc">您的帖子已被选为主页推荐，％1 $ sv</string>
+    <string name="home_recommended_title">恭喜！</string>
+    <string name="hot">热门</string>
+    <string name="upload_apk_version">V %1$s</string>
+    <string name="full_screen_button">全屏按钮</string>
+    <string name="open_video_in_youtube">在YouTube上打开视频</string>
+    <string name="null_time">0:00</string>
+    <string name="play_button">播放按钮</string>
+    <string name="register_term_of_service">APKPure服务期限</string>
+    <string name="sign_in_services_key_policy_register">隐私政策</string>
+    <string name="download_mkdir_external_storage_values">外部存储</string>
+    <string name="download_mkdir_internal_storage_values">内部存储器</string>
+    <string name="search_tab_invitation">帖子</string>
 </resources>
