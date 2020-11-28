@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <string name="action_settings">Sazkarî‮‮‭‬‫‪‏‎‍‌</string>
+    <string name="action_settings">Sazkarî</string>
     <string name="action_search">Lê bigere</string>
     <string name="auto">Jixweber</string>
     <string name="press_back_key_quit">Ji bo derketinê, dîsa pêlî bişkoka paşveyê bike.</string>
@@ -132,13 +132,13 @@
     <string name="management">Bi rê ve bibe</string>
     <string name="app_updates">Hildemandinên Sepanê</string>
     <string name="app_uninstall">Sepanê Rake</string>
-    <string name="apk_management">Birêvebirina Sepanê</string>
+    <string name="apk_management">Birêvebirina APK\'yê</string>
     <string name="user_canceled">Bikarhêner betal kir.</string>
     <string name="uninstalled">Hat rakirin</string>
     <string name="market_response_error_invalid_response_body">Cureya bersivandinê nederbasdar e.</string>
     <string name="trending_searches">Lêgerînên Trend</string>
-    <string name="invalid_app_asset">نادروستی زانیاری بەنرخی نەرمەواڵە.</string>
-    <string name="failed_to_request_app_asset">داواکاری زانینی زانیاری بەنرخی نەرمەواڵە سەرکەوتوو نەبوو.</string>
+    <string name="invalid_app_asset">Agahiyên hebûna sepana nederbasdar.</string>
+    <string name="failed_to_request_app_asset">Daxwaza agahiyên daneyî yên sepanê bi ser neket.</string>
     <string name="action_management">Bi rê ve bibe</string>
     <string name="delete_all">Gişî Jê Bibe</string>
     <string name="properties">Taybetmendî</string>
@@ -158,12 +158,12 @@
     <string name="contact_us">Bi Me Re Têkilî Deyne</string>
     <string name="update_all">Gişî Hildemîne</string>
     <string name="update___count__">Hildemîne (<xliff:g example="3" id="count">%1$d</xliff:g>)</string>
-    <string name="ignore">پشتگوێخستن</string>
+    <string name="ignore">Paşguh bike</string>
     <string name="select">Hilbijêre</string>
     <string name="cancel">Betal bike</string>
     <string name="select_all">Gişî Hilbijêre</string>
     <string name="deselect_all">Hemû Bijartinan Rake</string>
-    <string name="ignored">پشگوێخراو</string>
+    <string name="ignored">Hat paşguhkirin</string>
     <plurals name="total__count__apps__size_">
         <item quantity="one">Tevahî: &lt;b&gt;&lt;font color=%1$d&gt;%2$d&lt;/font&gt;&lt;/b&gt; sepan, &lt;b&gt;&lt;font color=%1$d&gt;%3$s&lt;/font&gt;&lt;/b&gt;</item>
         <item quantity="other">Tevahî: &lt;b&gt;&lt;font color=%1$d&gt;%2$d&lt;/font&gt;&lt;/b&gt; sepan, &lt;b&gt;&lt;font color=%1$d&gt;%3$s&lt;/font&gt;&lt;/b&gt;</item>
@@ -173,9 +173,9 @@
     <string name="show_notification_after_installation">Piştî sazkirinê danezanan nîşan bide</string>
     <string name="delete_packages_after_installation">Piştî sazkirinê pakêtan jê bibe</string>
     <string name="_name__installation_completed"><xliff:g example="APKPure" id="name">%1$s</xliff:g> sazkirin qediya</string>
-    <string name="touch_to_open">دەستی لێبدە بۆ کردنەوە.</string>
+    <string name="touch_to_open">Ji bo xebitandinê, bitepîne.</string>
     <string name="report_content">Naverokê Rapor Bike</string>
-    <string name="unignore">پشتگوێ نەخراو</string>
+    <string name="unignore">Paşguh neke</string>
     <string name="recommend">Keşf bike</string>
     <string name="similar_or_related">Wekî Hev an jî Têkildar</string>
     <string name="more_from_developer">Zêdetirî wan ji Pêşvebir</string>
@@ -306,7 +306,7 @@
     <string name="comment_vote_string">Ecibandin</string>
     <string name="submit_comment_title_hint">Sernav</string>
     <string name="gif_tip">gif</string>
-    <string name="login_new_user">Tomarbûna Bikarhênerê Nû</string>
+    <string name="login_new_user">Tomar Bibe</string>
     <string name="login_choose">An ji bi hesabê xwe yê medyaya civakî têkeve</string>
     <string name="login_user_sign_in">Têketin</string>
     <string name="login_user_password">Pêborîn</string>
@@ -486,4 +486,45 @@
     <string name="forget_password_tv">Te pêborîna xwe ji bîr kiriye\?</string>
     <string name="menu_skip">Derbas bibe</string>
     <string name="topics">Mijar</string>
+    <string name="sub_comment_progress_msg">Vîdyo tê tevlîkirin…</string>
+    <string name="sub_comment_dialog_link_null">Url\'ya vîdyoyê nabe vala bimîne.</string>
+    <string name="sub_comment_dialog_link_et">Url\'ya vîdyoyê li vir bivîse.</string>
+    <string name="comment_no_reply">Bijî, li vir tiştek tune ye.</string>
+    <plurals name="comment_reply_item_fold">
+        <item quantity="one"><xliff:g example="1" id="count">%1$d</xliff:g> Bersiv hilweşiya</item>
+        <item quantity="other"><xliff:g example="2" id="count">%1$d</xliff:g> Bersiv hilweşiyan</item>
+    </plurals>
+    <string name="like_notification_msg">Ji bo ecibandinên nû danezanan bistîne</string>
+    <string name="like_notification">Danezanên ecibandinê</string>
+    <string name="reply_notification_msg">Ji bo bersivên nû danezanan bistîne</string>
+    <string name="reply_notification">Danezaên bersivan</string>
+    <string name="notification_setting">Danezan</string>
+    <string name="comment_reply_tell_msg">Ev şîrove hat rakirin!</string>
+    <string name="change_language_failed">Ziman nehate guhertin!</string>
+    <string name="downloads">Daxîne</string>
+    <string name="no_download">Sepanên daxistî tune.</string>
+    <string name="install_list">Hat sazkirin</string>
+    <string name="can_be_update">Ew ê bên hildemandin</string>
+    <string name="download_list">Lîsteya daxistinê</string>
+    <string name="push_title_info_upvoted">%1$s şîroveya te eciband!</string>
+    <string name="push_title_info_reply">%1$s bersiv da şîroveya te!</string>
+    <string name="message">Peyam</string>
+    <string name="comment_submitting">Tê şandin…</string>
+    <string name="message_notifications_login">Ji kerema xwe, ji bo vê rûpelê bibînî, têkeve.</string>
+    <string name="message_notifications_reply">Bersiv da şîroveya te</string>
+    <string name="message_notifications_praise">Deng da şîroveya te</string>
+    <string name="message_praise">ECIBANDIN</string>
+    <string name="message_reply">BERSIV</string>
+    <string name="message_all">HEMÛ</string>
+    <string name="app_detail_comment_order_array_new">Nûtir</string>
+    <string name="app_detail_comment_order_array_most_recent">Herî Dawî</string>
+    <string name="app_detail_comment_order_array_default">Li gorî jixweberê rêz bike</string>
+    <string name="login_post_as_a_guest">Wekî Mêvan Bişîne</string>
+    <string name="tip_permission_camera_storage">Ji bo bikaranîna kamera û SD kartê destûr tune. Ji kerema xwe, ji ser telefona xwe destûrên hewce bide.</string>
+    <string name="zxing_msg_parser_status">pişkînin bi ser neket. Ji kerema xwe, dîsa biceribîne.</string>
+    <string name="loading">Tê barkirin…</string>
+    <string name="load_failed_click_retry">Nehat barkirin. Ji bo dîsa biceribînî, bitepîne</string>
+    <string name="auto_install_via_root_summary">Tenê ji bo telefon û tabletên Androidî yên rootkirî.</string>
+    <string name="participate_ultra_download_beta_test_content">Daxistina Ûltra hîn beta ye. Heke tu rastî pirsgirêkekê bê, ji me re bibêje. Tu dikarî wê bi hêsanî di Sazkariyên de neçalak bikî.</string>
+    <string name="participate_ultra_download_beta_test_title">Daxistina Ûltra çalak bike û bi daxistina leztir kêf bike</string>
 </resources>
