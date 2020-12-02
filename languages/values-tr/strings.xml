@@ -173,11 +173,7 @@
     <string name="invalid_app_asset">Geçersiz uygulama öğe bilgisi.</string>
     <string name="failed_to_request_app_detail">Uygulama bilgisi isteği başarısız oldu.</string>
     <string name="failed_to_request_app_asset">Uygulama veri bilgisi isteği başarısız oldu.</string>
-    <string name="external_storage_not_usable">
-        <big>
-            <b>Dahili hafızanıza erişmemiz gerek. Kullanılabilir olduğundan emin olun.</b>
-        </big>
-    </string>
+    <string name="external_storage_not_usable">&lt;big&gt;&lt;b&gt;Dahili hafızanıza erişmemiz gerek. Kullanılabilir olduğundan emin olun.&lt;/b&gt;&lt;/big&gt;</string>
     <string name="external_storage_permission_denied">
         <big>
             <b>Dahili hafızanıza erişmemiz gerek. Lütfen iznin engellenmiş olmadığından emin olun.</b>
@@ -254,14 +250,14 @@
     <string name="app_detail_reply_comment">Yorum (%d)</string>
     <string name="app_detail_comment_order_array_newest">En yeni</string>
     <string name="recommend">Keşfet</string>
-    <string name="download_history">Geçmişi İndir</string>
+    <string name="download_history">İndirme Geçmişi</string>
     <string name="sub_comment_dialog_title">Video Ekle</string>
     <string name="sub_comment_dialog_link_et">Video adresini buraya girin.</string>
     <string name="sub_comment_dialog_link_null">Video URL adresi boş bırakılamaz.</string>
     <string name="sub_comment_progress_msg">Video ekleniyor…</string>
     <string name="menu_cancel">İptal</string>
     <string name="delete_all_download_history">indirme geçmişini sil?</string>
-    <string name="delete_the_historical_record">Geçmiş kaydı silinsin mi?</string>
+    <string name="delete_the_historical_record">Bu kayıt silinsin mi\?</string>
     <plurals name="app_detail_see_all_replies">
         <item quantity="one">&lt;xliff:g xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\" example=\"1\" id=\"count\"&gt;%1$d&lt;/xliff:g&gt; Yanıtın hepsini gör</item>
         <item quantity="other">&lt;xliff:g xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\" example=\"2\" id=\"count\"&gt;%1$d&lt;/xliff:g&gt; Yanıtların hepsini gör</item>
@@ -299,7 +295,7 @@
     <string name="delete_comment">Yorumu Sil</string>
     <string name="delete_comment_msg">Bu yorumu silmek istediğinizden emin misiniz?</string>
     <string name="upload_cancel">Yükleme iptal edildi</string>
-    <string name="login_select_way_to_login">Lütfen giriş yapma metodunuzu seçin seçin</string>
+    <string name="login_select_way_to_login">Lütfen giriş yapma metodunuzu seçin</string>
     <string name="user_info_edit_title">Profil</string>
     <string name="user_info_edit_portrait_tv">Profil Fotoğrafı</string>
     <string name="user_info_edit_username_tv">Kullanıcı adı</string>
@@ -400,7 +396,7 @@
     <string name="comment_reply_info_name">Detaylar</string>
     <string name="set_updates_notification">Uygulama güncellemeleri mevcut</string>
     <string name="set_updates_notification_msg">Uygulamaya güncelleme geldiğinde haber verin. Önerilen Ayar: Açık</string>
-    <string name="app_detail_unknow_text">Eski sürüm APKPure yeni özellikleri desteklemez; lütfen en son sürüme geçin.</string>
+    <string name="app_detail_unknow_text">Bu özellik mevcut versiyonda desteklenmez; lütfen en son sürüme geçin.</string>
     <string name="comment_detail_original">Orijinal Yorumu Görüntüle &gt;</string>
     <string name="comment_comment_newest">En yeni</string>
     <string name="comment_comment_oldest">En eski</string>
@@ -408,11 +404,7 @@
     <string name="menu_copy">Kopyala</string>
     <string name="sub_comment_dialog_des_tv">Sadece Youtube video ayrıştırmayı destekler.</string>
     <string name="message_notifications_praise">Yorumunuzu oyladı</string>
-    <string name="share_app_url_comment">
-        <xliff:g example="APKPure" id="user_name">%1$s</xliff:g> adlı kullanıcının <xliff:g example="APKPure" id="app_name"> %2$s uygulamasına yorumları</xliff:g> : <xliff:g example="APKPure" id="app_name"> %3$s</xliff:g>
-        <xliff:g example="APKPure" id="social_network_name">%4$s</xliff:g>
-        <xliff:g example="https://apkpure.com/p/com.apkpure.aegon" id="app_url">%5$s</xliff:g>
-    </string>
+    <string name="share_app_url_comment">" &lt;xliff:g xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\" example=\"APKPure\" id=\"user_name\"&gt;%1$s&lt;/xliff:g&gt; adlı kullanıcının &lt;xliff:g xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\" example=\"APKPure\" id=\"app_name\"&gt; %2$s uygulamasına yorumları&lt;/xliff:g&gt; : &lt;xliff:g xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\" example=\"APKPure\" id=\"app_name\"&gt; %3$s&lt;/xliff:g&gt;&lt;xliff:g xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\" example=\"APKPure\" id=\"social_network_name\"&gt;%4$s&lt;/xliff:g&gt;&lt;xliff:g xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\" example=\"https://apkpure.com/p/com.apkpure.aegon\" id=\"app_url\"&gt;%5$s&lt;/xliff:g&gt; "</string>
     <string name="push_title_info_upvoted">%1$s yorumunuzu beğendi!</string>
     <string name="check_update_replace">Resmi versiyon</string>
     <string name="check_update_beta">Beta ön sürümü</string>
@@ -424,7 +416,7 @@
     <string name="download_mkdir_internal_storage_entries1">SD 1</string>
     <string name="download_mkdir_external_storage_fill_toast">Yeterli boş alan olmaması nedeniyle hiçbir uygulamayı indiremeyebilirsiniz.</string>
     <string name="download_mkdir_internal_storage_size_des">%1$s boş, toplam %2$s</string>
-    <string name="download_mkdir_internal_storage_entries">"SD "</string>
+    <string name="download_mkdir_internal_storage_entries">SD</string>
     <string name="ad_tip">ekle</string>
     <string name="play_button">Başlat düğmesi</string>
     <string name="null_time">0:00</string>
@@ -730,7 +722,7 @@
     <string name="app_rating">Puan:</string>
     <string name="number">\"</string>
     <string name="download_install_obb">OBB\'yi yükle</string>
-    <string name="download_install_apk">APK yükle</string>
+    <string name="download_install_apk">APK\'yı yükle</string>
     <string name="users_recommended_title">Tebrikler!</string>
     <string name="saved_draft">Taslak kaydedildi</string>
     <string name="packaging_failed_try_again">Paket işlemi başarısız oldu. Lütfen tekrar dene.</string>
