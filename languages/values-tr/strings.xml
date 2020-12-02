@@ -3,7 +3,7 @@
     <string name="action_settings">Ayarlar</string>
     <string name="action_search">Ara</string>
     <string name="action_management">Yönet</string>
-    <string name="press_back_key_quit">"Çıkmak için geri tuşuna  tekrar bas."</string>
+    <string name="press_back_key_quit">Çıkmak için geri tuşuna tekrar bas.</string>
     <string name="featured">Önerilen</string>
     <string name="games">Oyunlar</string>
     <string name="apps">Uygulamalar</string>
@@ -11,7 +11,7 @@
     <string name="updates">Güncellemeler</string>
     <string name="something_happened">&gt;_&lt;
 \nBir şey oldu.</string>
-    <string name="load_failed_error">Hay aksi! bir hata oluştu.</string>
+    <string name="load_failed_error">Hay aksi! Bir hata oluştu.</string>
     <string name="refresh">Yenile</string>
     <string name="management">Yönetim</string>
     <string name="app_updates">Uygulama Güncellemeleri</string>
@@ -81,7 +81,7 @@
         <item quantity="other">
             <xliff:g example="2" id="count">%1$d</xliff:g> yeni güncellemeler kullanılabilir</item>
     </plurals>
-    <string name="launching_please_wait">Başlatılıyor, lütfen bekleyin…</string>
+    <string name="launching_please_wait">Başlatılıyor… lütfen bekleyin.</string>
     <plurals name="_count__item_is_downloading">
         <item quantity="one">
             <xliff:g example="1" id="count">%1$d</xliff:g> öğesi İndiriliyor</item>
@@ -211,8 +211,7 @@
     <string name="installation">Kurulum</string>
     <string name="show_notification_after_installation">Kurulumdan sonra bildirimleri göster</string>
     <string name="delete_packages_after_installation">Kurulumdan sonra paketleri sil</string>
-    <string name="_name__installation_completed">
-        <xliff:g example="APKPure" id="name">%1$s</xliff:g> kurulum tamamlandı</string>
+    <string name="_name__installation_completed">&lt;xliff:g xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\" example=\"APKPure\" id=\"name\"&gt;%1$s&lt;/xliff:g&gt; kurulum tamamlandı</string>
     <string name="touch_to_open">Çalıştırmak için dokun.</string>
     <string name="auto_service_install_accessibility_title">Otomatik kurulum</string>
     <string name="auto_service_install_accessibility_summary">Android 4.1+ destekleniyor, root erişimi gerektirmez.</string>
@@ -264,10 +263,8 @@
     <string name="delete_all_download_history">indirme geçmişini sil?</string>
     <string name="delete_the_historical_record">Geçmiş kaydı silinsin mi?</string>
     <plurals name="app_detail_see_all_replies">
-        <item quantity="one">
-            <xliff:g example="1" id="count">%1$d</xliff:g> yanıtın hepsini gör</item>
-        <item quantity="other">
-            <xliff:g example="2" id="count">%1$d</xliff:g> yanıtların hepsini gör</item>
+        <item quantity="one">&lt;xliff:g xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\" example=\"1\" id=\"count\"&gt;%1$d&lt;/xliff:g&gt; Yanıtın hepsini gör</item>
+        <item quantity="other">&lt;xliff:g xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\" example=\"2\" id=\"count\"&gt;%1$d&lt;/xliff:g&gt; Yanıtların hepsini gör</item>
     </plurals>
     <string name="app_submit_name_toast">Lütfen kullanıcı adınızı giriniz!</string>
     <string name="app_submit_email_toast">Lütfen geçerli bir e-posta adresi yazın!</string>
@@ -290,7 +287,7 @@
     <string name="already_save">Kaydedildi<xliff:g example="ApKPure/photo" id="path">%1$s</xliff:g>
     </string>
     <string name="load_end">Daha fazla veri yok.</string>
-    <string name="load_failed_click_retry">Bir şeyler yanlış gitti. Tekrar denemek için dokunun</string>
+    <string name="load_failed_click_retry">Bir şeyler yanlış gitti. Tekrar denemek için tıklayın</string>
     <string name="loading">Yükleniyor…</string>
     <string name="scan_qr_code_hint">QR Kodu kullanmadan önce, QR kodu taramak için gereken kamera iznini vermeniz gerekir.</string>
     <string name="zxing_msg_default_status">Lütfen taramak için QR kodunu vizörün içine yerleştirin.</string>
@@ -302,7 +299,7 @@
     <string name="delete_comment">Yorumu Sil</string>
     <string name="delete_comment_msg">Bu yorumu silmek istediğinizden emin misiniz?</string>
     <string name="upload_cancel">Yükleme iptal edildi</string>
-    <string name="login_select_way_to_login">Lütfen giriş yapma yolunuzu seçin</string>
+    <string name="login_select_way_to_login">Lütfen giriş yapma metodunuzu seçin seçin</string>
     <string name="user_info_edit_title">Profil</string>
     <string name="user_info_edit_portrait_tv">Profil Fotoğrafı</string>
     <string name="user_info_edit_username_tv">Kullanıcı adı</string>
@@ -316,7 +313,7 @@
     <string name="user_info_edit_gender_male">Erkek</string>
     <string name="user_info_edit_gender_female">Kadın</string>
     <string name="user_info_edit_portrait_album">Galeriden bir fotoğraf seç</string>
-    <string name="user_info_edit_portrait_take_photo">Kameradan fotoğraf çek</string>
+    <string name="user_info_edit_portrait_take_photo">Kamera ile fotoğraf çek</string>
     <string name="user_info_edit_portrait_error">Fotoğraf türü desteklenmiyor.</string>
     <string name="user_info_edit_ok">Tamam</string>
     <string name="user_info_edit_cancel">İptal</string>
@@ -530,7 +527,7 @@
     <string name="scan_qr_code_result_copy_text">Metni kopyala</string>
     <string name="scan_qr_code_copy_success">Metin kopyalandı.</string>
     <string name="user_info_edit_intro_tv">Hakkımda</string>
-    <string name="update_intro_title">Hakkımdayı Düzenle</string>
+    <string name="update_intro_title">Hakkımda\'yı Düzenle</string>
     <string name="user_name_null">Kullanıcı adı geçersiz.</string>
     <string name="push_title_info_follow">%1$s seni takip etti!</string>
     <string name="tab_group">GRUP</string>
@@ -565,7 +562,7 @@
     <string name="push_content_info_update">Yepyeni %1$s sürümü yayınlandı! Şimdi güncelleyin!</string>
     <string name="data_saver_model_summery">Bunu açmak daha az hücresel veri kullanmak için resim boyutunu ve kalitesini azaltır.</string>
     <string name="scan_qr_code_result_hint">QR kod detayları:</string>
-    <string name="user_info_edit_large_photo">Fotoğrafı daha büyük boyutta görüntüle</string>
+    <string name="user_info_edit_large_photo">Fotoğrafı tam boyutta görüntüle</string>
     <string name="update_intro_et">Kendin hakkında birkaç şey yaz</string>
     <string name="update_intro_tv">Hakkımda alanı boş bırakılamaz.</string>
     <string name="set_open_source_licence">Açık kaynak lisansı</string>
@@ -721,8 +718,7 @@
     <string name="del_account_sure">Hesabınız 48 saat içerisinde silinecektir. Daha fazla sorunuz var ise bizimle iletişime geçin.</string>
     <string name="reply_to">Yanıtla %1$s:</string>
     <string name="msg_all_read_notice">Duyuru</string>
-    <string name="share_app_url_comment_v3">&lt;xliff:g xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\" example=\"zhangsan\" id=\"name\"&gt;<xliff:g xmlns:xliff="urn:oasisnames:tc:xliff:document:1.2" example="zhangsan" id="name">%1$s</xliff:g>\'s <xliff:g example="post/story/review" id="type">%2$s</xliff:g> (From APKPure):<xliff:g example="https://apkpure.com" id="url">%3$s </xliff:g>
-    </string>
+    <string name="share_app_url_comment_v3">Paylaş &lt;xliff:g xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\" example=\"zhangsan\" id=\"name\"&gt;%1$s&lt;/xliff:g&gt;\'s &lt;xliff:g xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\" example=\"post/story/review\" id=\"type\"&gt;%2$s&lt;/xliff:g&gt; (APKPure\' den):&lt;xliff:g xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\" example=\"https://apkpure.com\" id=\"url\"&gt;%3$s &lt;/xliff:g&gt;</string>
     <string name="apk_unable_upload">Apk yüklemesi başarısız.</string>
     <string name="long_image">Uzun fotoğraf.</string>
     <string name="edit_tag">Başlığı düzenle</string>
@@ -737,7 +733,7 @@
     <string name="download_install_apk">APK yükle</string>
     <string name="users_recommended_title">Tebrikler!</string>
     <string name="saved_draft">Taslak kaydedildi</string>
-    <string name="packaging_failed_try_again">"Paket işlemi başarısız oldu.  Lütfen tekrar dene."</string>
+    <string name="packaging_failed_try_again">Paket işlemi başarısız oldu. Lütfen tekrar dene.</string>
     <string name="packaging_success_ready_upload">Paket bitti. Yüklenmeye hazır.</string>
     <string name="packaging">Çıkartılıyor…</string>
     <string name="preparing_upload">Yükleme İşlemi Hazırlanıyor…</string>
@@ -830,11 +826,15 @@
     <string name="temporarily_blocked_title">APKPure\'da içerik oluşturmaktan geçici olarak uzaklaştırılıyorsunuz</string>
     <string name="comment_removed_des">Gönderdiğiniz bir şey, Gizlilik Politakımıza ve Kullanım Koşullarımıza uymuyor gibi görünüyor. Uygunsuz fotoğraflar, fiziksel zorbalıkla ilgili videolar veya belirli bir kişiyi alçaltmak ve küçük düşürmek isteyen diğer içerikler dahil olmak üzere, herhangi bir şekilde zorbalık veya taciz edilmesine izin vermiyoruz. Bunun bir hata olduğunu düşünüyorsanız, lütfen bizimle iletişime geçin.</string>
     <string name="comment_removed_title">Gönderin Silindi</string>
-    <string name="home_recommended_desc">"Gönderiniz, bir  anasayfa\'da öneri olarak seçildi %1$s"</string>
+    <string name="home_recommended_desc">Gönderiniz, bir anasayfa\'da öneri olarak seçildi %1$s</string>
     <string name="home_recommended_title">Tebrikler!</string>
     <string name="recommended_posts_des">Gönderiniz bir kullanıcının önerisi olarak seçildi, %1$</string>
     <string name="recommended_posts_title">Tebrikler!</string>
     <string name="users_recommended_des">Gönderiniz bir kullanıcının önerisi olarak seçildi, %1$</string>
     <string name="headline_footer_refresh">Yenilemek için aşağıya çekin veya bu çizgiye dokunun.</string>
     <string name="auto_service_directly__material_">Direkt kurulum</string>
+    <string name="search_tab_invitation">Paylaşımlar</string>
+    <string name="xapk_upload_hint_info">XAPK dosyalarını yüklemek uzun sürer. Yüklemek istediğinizden emin misiniz\?</string>
+    <string name="picture_done_front_num">%1$d/%2$d Tamam</string>
+    <string name="pre_register_title">%1$s %2$s için yayınlandı!</string>
 </resources>
