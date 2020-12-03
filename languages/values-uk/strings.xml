@@ -1,24 +1,18 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-
     <string name="facebook_app_id" translatable="false">596489647167672</string>
     <string name="fb_login_protocol_scheme" translatable="false">fb596489647167672</string>
-
     <string name="aegon_app_name" translatable="false">APKPure</string>
-
     <string name="action_settings">Налаштування</string>
     <string name="action_search">Пошук</string>
     <string name="action_management">Управління</string>
-
     <string name="press_back_key_quit">Торкніться кнопки \"Назад\" ще раз, щоб вийти.</string>
-
     <string name="featured">Рекомендовані</string>
     <string name="recommend">Знайти</string>
     <string name="games">Ігри</string>
     <string name="apps">Додатки</string>
     <string name="categories">Категорії</string>
     <string name="updates">Оновлення</string>
-
     <string name="something_happened">&gt;_&lt;\nЩось сталося.</string>
     <string name="load_failed_error">Ой! Сталася помилка.</string>
     <string name="load_failed_error_not_found">Додаток відсутній у магазині додатків APKPure!</string>
@@ -26,7 +20,6 @@
     <string name="load_failed_all_up_to_date">Усі додатки оновлені.</string>
     <string name="load_failed_no_results">Вибачте! Результатів не знайдено.</string>
     <string name="refresh">Оновити</string>
-
     <string name="management">Управління</string>
     <string name="app_updates">Оновлення додатків</string>
     <string name="app_management">Встановлені</string>
@@ -36,8 +29,6 @@
     <string name="download_management">Управління завантаженнями</string>
     <string name="settings">Налаштування</string>
     <string name="about">Про додаток</string>
-
-
     <string name="about_title">Про <xliff:g example="APKPure" id="app_name">%1$s</xliff:g></string>
     <string name="about_message">&lt;b&gt;Версія:&lt;/b&gt; %1$s&lt;br&gt;&lt;br&gt;&lt;b&gt;Вебсайт:&lt;/b&gt; &lt;a href=%2$s&gt;%2$s&lt;/a&gt;&lt;br&gt;&lt;b&gt;Email:&lt;/b&gt; &lt;a href=mailto:%3$s&gt;%3$s&lt;/a&gt;</string>
     <string name="check_update">Перевірити оновлення</string>
@@ -48,7 +39,6 @@
     <string name="check_update_beta_value" translatable="false">1</string>
     <string name="quit">Вийти</string>
     <string name="want_to_quit">Ви впевнені, що хочете вийти?</string>
-
     <string name="install">Встановити</string>
     <string name="open">Відкрити</string>
     <string name="delete">Видалити</string>
@@ -67,13 +57,10 @@
     <string name="installing_obb">Встановлення OBB-файлів …</string>
     <string name="extracting_apk">Розпакування файлу APK …</string>
     <string name="installing_apk">Встановлення APK …</string>
-
     <string name="uninstall">Видалити</string>
     <string name="uninstalled">Видалено</string>
     <string name="last_update__date_">Останнє оновлення: <xliff:g id="date">%1$s</xliff:g></string>
-
     <string name="all">Всі</string>
-
     <string name="screenshots">Скріншоти</string>
     <string name="description">Опис</string>
     <string name="whatsnew">Що нового</string>
@@ -96,7 +83,6 @@
     <string name="flag_as_inappropriate">Відмітити як невідповідний</string>
     <string name="_ellipsis_"> … </string>
     <string name="history_version">Історія версій</string>
-
     <string name="market_response_error_success">Успіх.</string>
     <string name="market_response_error_invalid_result">Невірний результат.</string>
     <string name="market_response_error_network_connect_error">Помилка підключення до мережі.</string>
@@ -104,29 +90,24 @@
     <string name="market_response_error_invalid_response_code">Невірний код відповіді.</string>
     <string name="market_response_error_invalid_response_body">Невірне тіло відповіді.</string>
     <string name="market_response_error_unknown_error__error_">Невідома помилка (<xliff:g example="SUCCESS" id="error">%1$s</xliff:g>).</string>
-
     <string name="no_more">Більше нема.</string>
-
     <string name="update">Оновити</string>
     <string name="version__version___size_"><xliff:g example="1.0.0" id="version">%1$s</xliff:g>, <xliff:g example="1024 kB" id="size">%2$s</xliff:g></string>
     <plurals name="_count__new_update_is_available">
-    <item quantity="one"><xliff:g example="1" id="count">%1$d</xliff:g> нове оновлення доступне</item>
-    <item quantity="few"><xliff:g example="2" id="count">%1$d</xliff:g> нових оновлення доступно</item>
-    <item quantity="many"><xliff:g example="2" id="count">%1$d</xliff:g> нових оновлень доступно</item>
-</plurals>
-
+        <item quantity="one"><xliff:g example="1" id="count">%1$d</xliff:g> нове оновлення доступне</item>
+        <item quantity="few"><xliff:g example="2" id="count">%1$d</xliff:g> нових оновлення доступно</item>
+        <item quantity="many"><xliff:g example="2" id="count">%1$d</xliff:g> нових оновлень доступно</item>
+    </plurals>
     <string name="launching_please_wait">Запускається, будь ласка, зачекайте…</string>
-
     <plurals name="_count__item_is_downloading">
-	<item quantity="one"><xliff:g example="1" id="count">%1$d</xliff:g> елемент завантажується</item>
-	<item quantity="few"><xliff:g example="2" id="count">%1$d</xliff:g> елементи завантажуються</item>
-	<item quantity="many"><xliff:g example="2" id="count">%1$d</xliff:g> елементів завантажуються</item>
-</plurals>
+        <item quantity="one"><xliff:g example="1" id="count">%1$d</xliff:g> елемент завантажується</item>
+        <item quantity="few"><xliff:g example="2" id="count">%1$d</xliff:g> елементи завантажуються</item>
+        <item quantity="many"><xliff:g example="2" id="count">%1$d</xliff:g> елементів завантажуються</item>
+    </plurals>
     <string name="downloads_complete">Завантаження завершені</string>
     <string name="touch_for_view_all_downloads">Торкніться, щоб побачити всі завантаження</string>
     <string name="_name__download_failed"><xliff:g example="APKPure" id="name">%1$s</xliff:g> не вдалося завантажити</string>
     <string name="touch_to_download_it_again">Торкніться, щоб завантажити знову</string>
-
     <string name="download_percent"><xliff:g example="50" id="percent">%1$d</xliff:g> %%</string>
     <string name="pause">Пауза</string>
     <string name="pause_all">Призупинити усі</string>
@@ -154,26 +135,21 @@
     <string name="delete_downloaded_file">Видалити завантаженний файл</string>
     <string name="download_over_cellular">Завантажити через мобільну мережу</string>
     <string name="download_over_cellular_content">Ви збираєтесь завантажити файл через мобільну мережу. Продовжити?</string>
-
     <string name="search">Пошук</string>
     <string name="search_for_apps">Пошук по APKPure</string>
     <string name="trending_searches">Часто шукають</string>
     <string name="search_history">Історія</string>
     <string name="clear_search_history">Очистити всю історію</string>
-
     <string name="improvement_plan_title">План підвищення продуктивності</string>
     <string name="improvement_plan_message">Допоможіть нам, відправивши інформацію про ваш пристрій. Ми <b>не збираємо</b> персональні дані (ім\'я, адресу, електронну пошту, номер соціального страхування чи інші ідентифікаційні дані).</string>
     <string name="join_us">Приєднуйтесь до нас</string>
     <string name="skip">Пропустити</string>
-
     <string name="participate_ultra_download_beta_test_title">Увімкніть режим ультра-завантаження і насолоджуйтесь більшою швидкістю завантаження</string>
     <string name="participate_ultra_download_beta_test_content">Режим ультра-завантаження знаходится на стадії бета-тесту. Зв\'яжіться з нами, якщо виникнуть якісь проблеми. Ви можете легкго відключити цей режим у налаштуваннях.</string>
     <string name="enable">Включити</string>
-
     <string name="_name__is_up_to_date"><xliff:g example="APKPure" id="name">%1$s</xliff:g> оновлено до останньої версії.</string>
     <string name="new_version_available_title">Доступна нова версія</string>
     <string name="new_version_available_message">&lt;b&gt;Остання версія:&lt;/b&gt; %1$s&lt;br&gt;&lt;br&gt;&lt;b&gt;Що нового:&lt;/b&gt;&lt;br&gt;%2$s</string>
-
     <string name="report">Поскаржитись</string>
     <string name="report__">Поскаржитись…</string>
     <string name="report_problem__">Повідомити про ваду…</string>
@@ -183,7 +159,6 @@
     <string name="contact_us">Зв\'яжіться з нами</string>
     <string name="report_content">Поскаржитись на вміст</string>
     <string name="feedback">Відгук</string>
-
     <string name="installation_failed">Не вдалося встановити</string>
     <string name="invalid_app_detail">Недійсна інформація про додаток.</string>
     <string name="invalid_app_asset">Недійсна інформація про ресурси додатку.</string>
@@ -191,19 +166,15 @@
     <string name="failed_to_request_app_asset">Не вдалося отримати інформацію про ресурси додатку.</string>
     <string name="incompatible_this_app">&lt;big&gt;&lt;b&gt;&lt;font color=%1$d&gt;Ваш пристрій несумісний з цим додатком.&lt;/font&gt;&lt;/b&gt;&lt;/big&gt;&lt;br&gt;&lt;br&gt;Продовжити?</string>
     <string name="this_app_not_usable">&lt;big&gt;&lt;b&gt;&lt;font color=%1$d&gt;Цей додаток може не працювати.&lt;/font&gt;&lt;/b&gt;&lt;/big&gt;&lt;br&gt;&lt;br&gt;Продовжити?</string>
-
     <string name="setting">Налаштувати</string>
     <string name="external_storage_not_usable"><big><b>Потрібен доступ до вашого зовнішнього сховища. Будь ласка, переконайтесь, що його можна використовувати.</b></big></string>
     <string name="external_storage_permission_denied"><big><b>Потрібен доступ до вашого зовнішнього сховища. Будь ласка, переконайтеся, що у доступі не відмовлено.</b></big></string>
-
     <string name="share">Поділитися</string>
     <string name="share_app_url"> Поділитися <xliff:g example="APKPure" id="app_name">%1$s</xliff:g> APK (з <xliff:g example="APKPure" id="social_network_name">%2$s</xliff:g>) <xliff:g example="https://apkpure.com/p/com.apkpure.aegon" id="app_url">%3$s</xliff:g> </string>
     <string name="share_app_url_comment"> Коментарі <xliff:g example="APKPure" id="user_name">%1$s</xliff:g> до додатку <xliff:g example="APKPure" id="app_name">%2$s</xliff:g> : <xliff:g example="APKPure" id="app_name">%3$s</xliff:g> (з <xliff:g example="APKPure" id="social_network_name">%4$s</xliff:g>) <xliff:g example="https://apkpure.com/p/com.apkpure.aegon" id="app_url">%5$s</xliff:g> </string>
     <string name="share_app_url_group"> Група <xliff:g example="APKPure" id="app_name">%1$s</xliff:g>. (з <xliff:g example="APKPure" id="social_network_name">%2$s</xliff:g>) <xliff:g example="https://apkpure.com/p/com.apkpure.aegon" id="app_url">%3$s</xliff:g> </string>
-
     <string name="_name__version_history">Історія версій <xliff:g example="APKPure" id="name">%1$s</xliff:g></string>
     <string name="update__date___size_">Оновлено: <xliff:g example="Mar 3, 2016" id="date">%1$s</xliff:g>, <xliff:g example="1024 kB" id="size">%2$s</xliff:g></string>
-
     <string name="update_all">Оновити все</string>
     <string name="update___count__">Оновити (<xliff:g example="3" id="count">%1$d</xliff:g>)</string>
     <string name="ignore">Ігнорувати</string>
@@ -214,12 +185,11 @@
     <string name="deselect_all">Прибрати виділення з усього</string>
     <string name="ignored">Ігноруються</string>
     <plurals name="total__count__apps__size_">
-    <item quantity="one">Усього: &lt;b&gt;&lt;font color=%1$d&gt;%2$d&lt;/font&gt;&lt;/b&gt; додаток, &lt;b&gt;&lt;font color=%1$d&gt;%3$s&lt;/font&gt;&lt;/b&gt;</item>
-    <item quantity="few">Усього: &lt;b&gt;&lt;font color=%1$d&gt;%2$d&lt;/font&gt;&lt;/b&gt; додатки, &lt;b&gt;&lt;font color=%1$d&gt;%3$s&lt;/font&gt;&lt;/b&gt;</item>
-    <item quantity="many">Усього: &lt;b&gt;&lt;font color=%1$d&gt;%2$d&lt;/font&gt;&lt;/b&gt; додатків, &lt;b&gt;&lt;font color=%1$d&gt;%3$s&lt;/font&gt;&lt;/b&gt;</item>
-</plurals>
+        <item quantity="one">Усього: &lt;b&gt;&lt;font color=%1$d&gt;%2$d&lt;/font&gt;&lt;/b&gt; додаток, &lt;b&gt;&lt;font color=%1$d&gt;%3$s&lt;/font&gt;&lt;/b&gt;</item>
+        <item quantity="few">Усього: &lt;b&gt;&lt;font color=%1$d&gt;%2$d&lt;/font&gt;&lt;/b&gt; додатки, &lt;b&gt;&lt;font color=%1$d&gt;%3$s&lt;/font&gt;&lt;/b&gt;</item>
+        <item quantity="many">Усього: &lt;b&gt;&lt;font color=%1$d&gt;%2$d&lt;/font&gt;&lt;/b&gt; додатків, &lt;b&gt;&lt;font color=%1$d&gt;%3$s&lt;/font&gt;&lt;/b&gt;</item>
+    </plurals>
     <string name="total_zero_app">Усього: &lt;b&gt;&lt;font color=%1$d&gt;0&lt;/font&gt;&lt;/b&gt; додатків</string>
-
     <string name="general">Загальні</string>
     <string name="language">Мова</string>
     <string name="auto">Авто</string>
@@ -232,16 +202,12 @@
     <string name="installation">Встановлення</string>
     <string name="show_notification_after_installation">Сповіщати після встановлення</string>
     <string name="delete_packages_after_installation">Видаляти файли після встановлення</string>
-
     <string name="_name__installation_completed">Встановлення <xliff:g example="APKPure" id="name">%1$s</xliff:g> завершене</string>
     <string name="touch_to_open">Торкніться, щоб відкрити.</string>
-
     <string name="auto_service_install_accessibility_title">Авто-встановлення</string>
     <string name="auto_service_install_accessibility_summary">Підтримує Android 4.1+, права Root не потрібні.</string>
-
     <string name="auto_service_dialog_title">Включити авто-встановлення</string>
     <string name="auto_service_dialog_message">Авто-встановлення вимагає авторизації на телефоні, це безпечно і не несе в собі ризиків.</string>
-
     <string name="auto_service_title">Авто-встановлення APKPure</string>
     <string name="auto_service_description">Увімкніть \"Авто-встановлення APKPure\", щоб \"Авто-встановлення\" працювало без перебоїв.
 \n
@@ -252,28 +218,23 @@
 \nЩоб бути впевненим, що APKPure працюватиме корректно, будь ласка, додайте APKPure до білого списку додатку-очищувача (якщо у вас він є).
 \n
 \nВищезгадані функції підтримують Android 4.1+, права суперкористувача не потрібні. Ми обіцяємо не збирати ваші персональні дані . Зв\'яжіться з нами у разі будь-якої проблеми.</string>
-
     <string name="auto_service_install">Встановити</string>
     <string name="auto_service_ensure">ОК</string>
     <string name="auto_service_next">Наступний</string>
     <string name="auto_service_exchange">Замінити</string>
     <string name="auto_service_complete">Виконано</string>
-
     <string name="auto_service_install__material_">ВСТАНОВЛЕННЯ</string>
     <string name="auto_service_ensure__material_">ОК</string>
     <string name="auto_service_next__material_">НАСТУПНИЙ</string>
     <string name="auto_service_exchange__material_">ЗАМІНИТИ</string>
     <string name="auto_service_complete__material_">ВИКОНАНО</string>
-
     <string name="auto_install_via_root_title">Авто-встановлення (режим root)</string>
     <string name="auto_install_via_root_summary">Тільки для пристроїв з правами суперкористувача.</string>
-
     <plurals name="app_detail_see_all_replies">
-    <item quantity="one">Подивитись <xliff:g example="1" id="count">%1$d</xliff:g> відповідь</item>
-    <item quantity="few">Подивитись <xliff:g example="2" id="count">%1$d</xliff:g> відповіді</item>
-    <item quantity="many">Подивитись усі <xliff:g example="5" id="count">%1$d</xliff:g> відповідей</item>
-</plurals>
-
+        <item quantity="one">Подивитись <xliff:g example="1" id="count">%1$d</xliff:g> відповідь</item>
+        <item quantity="few">Подивитись <xliff:g example="2" id="count">%1$d</xliff:g> відповіді</item>
+        <item quantity="many">Подивитись усі <xliff:g example="5" id="count">%1$d</xliff:g> відповідей</item>
+    </plurals>
     <string name="app_detail_customer_reviews">Коментарі</string>
     <string name="app_detail_comment_type_web">веб</string>
     <string name="app_submit_submit">Відправити…</string>
@@ -289,64 +250,49 @@
     <string name="app_submit_email">Email</string>
     <string name="app_submit_submit_title">Відправити</string>
     <string name="app_submit_reply_to">відповісти на</string>
-
     <string name="app_detail_tab_one">Деталі</string>
     <string name="app_detail_tab_two">Публікації</string>
     <string name="app_detail_tab_three">Пов\'язані</string>
-
     <array name="app_detail_comment_order_array" translatable="false">
         <item>@string/app_detail_comment_order_array_default</item>
         <item>@string/app_detail_comment_order_array_most_recent</item>
         <item>@string/app_detail_comment_order_array_new</item>
         <item>@string/app_detail_comment_order_array_best</item>
     </array>
-
     <array name="app_detail_reply_comment_order_array" translatable="false">
         <item>@string/app_detail_comment_order_array_best</item>
         <item>@string/app_detail_comment_order_array_new</item>
         <item>@string/app_detail_comment_order_array_old</item>
     </array>
-
     <string name="app_detail_comment_order_array_default">Сортування за змовчуванням</string>
     <string name="app_detail_comment_order_array_most_recent">Останні</string>
     <string name="app_detail_comment_order_array_new">Нові</string>
     <string name="app_detail_comment_order_array_best">Кращі</string>
     <string name="app_detail_comment_order_array_old">Старі</string>
-
     <string name="app_detail_comment_join_group_bt">Група</string>
-
     <string name="download_complete_installation_setting">Встановлення після завантаження</string>
-
     <string-array name="download_complete_installation_setting_entries" translatable="false">
         <item>@string/download_complete_installation_setting_entries_always</item>
         <item>@string/download_complete_installation_setting_entries_only</item>
         <item>@string/download_complete_installation_setting_entries_never</item>
     </string-array>
-
     <string name="download_complete_installation_setting_entries_always">Завжди встановлювати</string>
     <string name="download_complete_installation_setting_entries_only">Лише коли додаток відкрито</string>
     <string name="download_complete_installation_setting_entries_never">Ніколи не встановлювати</string>
-
     <string-array name="download_complete_installation_setting_entry_values" translatable="false">
         <item>install_now</item>
         <item>background_not_install</item>
         <item>never_install</item>
     </string-array>
-
-
     <string name="download_mkdir">Шлях завантаження</string>
     <string name="download_mkdir_internal_storage_size_des">%1$s вільно, усього %2$s</string>
     <string name="download_mkdir_internal_storage_entries">SD</string>
     <string name="download_mkdir_internal_storage_entries1">SD 1</string>
     <string name="download_mkdir_external_storage_fill_toast">Нестача вільного місця може привести до неможливості завантаження додатків.</string>
-
     <string name="download_mkdir_internal_storage_values">Внутрішнє сховище</string>
     <string name="download_mkdir_external_storage_values">Зовнішнє сховище</string>
-
     <string name="download_complete_installation_setting_default_value" translatable="false">install_now</string>
-
     <string name="leak_canary_display_activity_label" translatable="false">APKPure Leaks</string>
-
     <string name="reply">Відповісти</string>
     <string name="input_reply_content">Текст відповіді:</string>
     <string name="publish">Опублікувати</string>
@@ -354,11 +300,9 @@
     <string name="reply_comment">Відповісти на коментар</string>
     <string name="save_original_image">Зберегти</string>
     <string name="already_save">Збережено <xliff:g example="ApKPure/photo" id="path">%1$s</xliff:g></string>
-
     <string name="load_end">Завантаження завершене</string>
     <string name="load_failed_click_retry">Не вдалося завантажити, натисніть \"повторити спробу\"</string>
     <string name="loading">Завантаження…</string>
-
     <string name="scan_qr_code_hint">Для сканування QR коду необхідно дозволити доступ до камери.</string>
     <string name="zxing_msg_default_status">Помістіть QR код у видошукач, щоб зісканувати його.</string>
     <string name="zxing_msg_parser_status">Не вдалося зісканувати QR код, повторіть спробу.</string>
@@ -366,18 +310,14 @@
     <string name="scan_qr_code_result_copy_text">Скопіювати текст</string>
     <string name="scan_qr_code_result_hint">Деталі QR коду :</string>
     <string name="scan_qr_code_copy_success">текст скопійовано</string>
-
     <string name="tip_permission_camera_storage">Немає дозволу на доступ до камери та карти пам\'яті, відкрийте вікно управління дозволами</string>
     <string name="permission_denied">Відмовлено в доступі!</string>
-
     <string name="login_title">Логін</string>
     <string name="sign_out">Вийти з аккаунту</string>
-
     <string name="delete_comment">Видалити відгук</string>
     <string name="delete_comment_msg">Ви впевнені, що хочете видалити цей коментар?</string>
     <string name="upload_cancel">Відправку скасовано</string>
     <string name="login_select_way_to_login">Виберіть спосіб входу в аккаунт</string>
-
     <!-- UserInfoEdit -->
     <string name="user_info_edit_title">Профіль</string>
     <string name="user_info_edit_portrait_tv">Фото профілю</string>
@@ -397,7 +337,6 @@
     <string name="user_info_edit_ok">ОК</string>
     <string name="user_info_edit_cancel">Скасувати</string>
     <string name="user_info_edit_large_photo">Показати фото у більшому розмірі</string>
-
     <!--updateNickname-->
     <string name="update_nick_title">Виберіть новий нікнейм</string>
     <string name="update_email_title">Змінити Email</string>
@@ -410,7 +349,6 @@
     <string name="update_intro_title">Редагувати \"Про мене\"</string>
     <string name="update_intro_et">Напишіть деякі подробиці про себе</string>
     <string name="update_intro_tv">Поле \"Про мене\" не може бути порожнім</string>
-
     <!--messageFragment-->
     <string name="message_all">ВСІ</string>
     <string name="message_reply">КОМЕНТАРІ</string>
@@ -420,7 +358,6 @@
     <string name="message_notifications_login">Будь ласка, увійдіть в аккаунт, щоб подивитися цю сторінку.</string>
     <string name="message_at_title">Згадки</string>
     <string name="message_at">Згадав вас</string>
-
     <!--update password-->
     <string name="update_pwd_title">Скинути мій пароль</string>
     <string name="update_pwd_current_pwd_et">Старий пароль</string>
@@ -440,44 +377,35 @@
     <string name="crop__saving">Збереження фото…</string>
     <!--<string name="crop__saving">Saved</string>  new add-->
     <string name="crop__wait">Будь ласка, зачекайте…</string>
-
     <string name="is_comment">Коментар…</string>
     <string name="comment_cancel">Коментар скасовано</string>
     <string name="comment_submitting">Відправлення…</string>
     <string name="comment_replying">Відповідаємо…</string>
     <string name="register_term_of_service">Умови користування APKPure</string>
-
     <string name="set_contributor">Зробити внесок</string>
     <string name="set_permissions">Дозволи</string>
     <string name="set_open_source_licence">Ліцензії відкритого ПЗ</string>
-
     <string name="sign_in_services">Реєструючись, ви погоджуєтесь з умовами користування і політикою конфіденційності.</string>
-
     <string name="sign_in_services_key">Умови</string>
     <string name="sign_in_services_key_policy">Політика конфіденційності</string>
-
     <string name="user_sign_up">Реєстрація</string>
     <string name="user_name_hint">Ім\'я користувача</string>
     <string name="user_email_hint">Email</string>
     <string name="user_password">Пароль (6–32)</string>
     <string name="user_password_confirm">Підтвердіть пароль</string>
-
     <string name="user_name_error">Ім\'я користувача не має містити жодних спеціальних знаків, символів чи пробілів</string>
     <string name="user_name_null">Недійсне ім\'я користувача</string>
     <string name="user_nickname_error">Нікнейм не має містити жодних спеціальних знаків, символів чи пробілів</string>
     <string name="user_email_error">Ця адреса електронної пошти недійсна</string>
     <string name="user_password_error">Пароль недійсний</string>
     <string name="user_confirm_error">Паролі мають збігатися</string>
-
     <string name="login_user_name">Ім\'я користувача</string>
     <string name="login_user_password">Пароль</string>
     <string name="login_user_sign_in">Увійти</string>
     <string name="login_choose">Або увійдіть в свій аккаунт</string>
     <string name="login_new_user">Реєстрація нового користувача</string>
     <string name="login_post_as_a_guest">Опублікувати як гість</string>
-
     <string name="message">Повідомлення</string>
-
     <!--push-->
     <string name="push_title_info_reply">%s відповів (-ла) на ваш коментар!</string>
     <string name="push_title_info_upvoted">%s проголосував (-ла) за ваш коментар!</string>
@@ -485,16 +413,13 @@
     <string name="push_title_info_update">Доступне оновлення APKPure!</string>
     <string name="push_content_info_update">Вийшла нова версія %s! Оновіть зараз!</string>
     <string name="push_title_info_at">Хтось згадав вас у публікації, торкніться, щоб подивитись</string>
-
     <string name="download_list">Список завантажень</string>
     <string name="can_be_update">Може бути оновлене</string>
     <string name="install_list">Встановлено</string>
     <string name="no_download">Немає завантажень</string>
     <string name="downloads">Завантаження</string>
-
     <string name="change_language_failed">Не вдалося змінити мову!</string>
     <string name="comment_reply_tell_msg">Цей коментар було видалено!</string>
-
     <string name="notification_setting">Сповіщення</string>
     <string name="reply_notification">Сповіщення про відповіді</string>
     <string name="reply_notification_msg">Отримувати сповіщення про нові відповіді</string>
@@ -503,17 +428,14 @@
     <string name="gif_tip">GIF</string>
     <string name="ad_tip">Реклама</string>
     <string name="submit_comment_title_hint">Тема (опціонально)</string>
-
     <string name="comment_vote_string">Голосувати</string>
     <string name="comment_reply_three">Відповісти</string>
     <string name="comment_item_fold">коментар приховано</string>
-
     <plurals name="comment_reply_item_fold">
-    <item quantity="one"><xliff:g example="1" id="count">%1$d</xliff:g> відповідь згорнута</item>
-    <item quantity="few"><xliff:g example="2" id="count">%1$d</xliff:g> відповіді згорнуто</item>
-    <item quantity="many"><xliff:g example="5" id="count">%1$d</xliff:g> відповідей згорнуто</item>
-</plurals>
-
+        <item quantity="one"><xliff:g example="1" id="count">%1$d</xliff:g> відповідь згорнута</item>
+        <item quantity="few"><xliff:g example="2" id="count">%1$d</xliff:g> відповіді згорнуто</item>
+        <item quantity="many"><xliff:g example="5" id="count">%1$d</xliff:g> відповідей згорнуто</item>
+    </plurals>
     <string name="comment_no_reply">Ой, тут нічого нема.</string>
     <string name="comment_reply_info_name">Деталі</string>
     <string name="set_updates_notification">Доступні оновлення додатків</string>
@@ -522,7 +444,6 @@
     <string name="comment_detail_original">Подивитись оригінальний коментар &gt;</string>
     <string name="comment_comment_newest">Найновіші</string>
     <string name="comment_comment_oldest">Найстаріші</string>
-
     <string name="edit">Редагувати</string>
     <string name="menu_copy">Скопіювати</string>
     <string name="menu_copy_link">Скопіювати посилання</string>
@@ -530,24 +451,20 @@
     <string name="delete_all_download_history">Видалити всю історію завантажень?</string>
     <string name="delete_the_historical_record">Видалити всі записи з історії?</string>
     <string name="download_history">Історія завантажень</string>
-
     <!--sub_comment-->
     <string name="sub_comment_dialog_title">Додати відео</string>
     <string name="sub_comment_dialog_des_tv">Підтримуються лише посилання на YouTube</string>
     <string name="sub_comment_dialog_link_et">Введіть URL-адресу відео</string>
     <string name="sub_comment_dialog_link_null">URL-адреса відео не може бути порожньою</string>
     <string name="sub_comment_progress_msg">Додаємо відео…</string>
-
     <string name="play_button">Кнопка \"Відтворити\"</string>
     <string name="null_time">0:00</string>
     <string name="open_video_in_youtube">Відкрити відео в YouTube</string>
     <string name="full_screen_button">Кнопка \"На повний екран\"</string>
-
     <string name="main_tab_home">ГОЛОВНА</string>
     <string name="main_tab_ranking">ТОП</string>
     <string name="tab_group">СПІЛЬНОТА</string>
     <string name="main_tab_my">Я</string>
-
     <string name="main_comment">коментар</string>
     <string name="main_won_praise">Вподобань</string>
     <string name="main_my_comments">Публікації</string>
@@ -565,14 +482,12 @@
     <string name="group">Спільнота</string>
     <string name="collection">Улюблені</string>
     <string name="cancel_collection">Видалити з улюблених</string>
-
     <string name="follow">ВІДСТЕЖУЮТЬСЯ</string>
     <string name="attention_on">Відстежуються</string>
     <string name="attention_off">Підписатися</string>
     <string name="no_attention">Поки що немає підписок на спільноти.</string>
     <string name="browsing_history">Історія переглядів</string>
     <string name="browsing_history_prompt">Ви хочете очистити історію переглядів?</string>
-
     <!--ranking_fragment-->
     <string name="ranking_tab1_title">Кращі ігри</string>
     <string name="ranking_tab2_title">Кращі нові ігри</string>
@@ -580,24 +495,19 @@
     <string name="ranking_tab4_title">Кращі нові додатки</string>
     <string name="ranking_top_countries_title">Топ по країнах</string>
     <string name="ranking_top_develop_title">Кращі розробники</string>
-
     <string name="app_detail_three_fragment_foot">Показати всі коментарі</string>
     <string name="menu_paste">Вставити</string>
-
     <string name="favorite_title">Улюблене</string>
     <string name="save_as_favorite">Зберегти в Улюблені</string>
     <string name="favorite_saved">Збережено в Улюблених</string>
     <string name="failed_to_save_favorite">Не вдалося зберегти в Улюблені</string>
     <string name="remove_as_favorite">Видалити з Улюблених</string>
     <string name="remove_failed">Не вдалося видалити</string>
-
     <string name="collection_comment">Пости</string>
     <string name="collection_app">ДОДАТКИ</string>
-
     <string name="open_with_browser">Відкрити у браузері</string>
     <string name="web_view_refresh">Оновити</string>
     <string name="web_view_copy">Скопіювати посилання</string>
-
     <string name="topic_red_color">Малиновий</string>
     <string name="topic_green_color">Щасливий зелений</string>
     <string name="topic_blue_color">Лазурово-синій</string>
@@ -606,7 +516,6 @@
     <string name="topic_purple_yellow">Абрикосово-оранжевий</string>
     <string name="topic_purple_blue_gary">Синій колір Повітряних Сил</string>
     <string name="topic_switch_failed">Не вдалося змінити тему</string>
-
     <string name="recommend_title">Рекомендації</string>
     <string name="recommend_tab_game">Рекомендувати додаток</string>
     <string name="recommend_tab_list">Рекомендовані</string>
@@ -630,39 +539,31 @@
     <string name="recommend_not_found">Не індексовані</string>
     <string name="recommend_not_fount_info">Заповніть форму, щоб APKPure додали \"%s\".</string>
     <string name="recommend_user_recommend_sys">Вибрані редакцією APKPure</string>
-
     <string name="user_detail_focus">Підписки</string>
     <string name="user_detail_fans">Підписник</string>
     <string name="user_detail_praise">Вподобань</string>
     <string name="user_detail_default_text" translatable="false">--</string>
-
     <string name="user_detail_tab_detail">Публікації</string>
     <string name="user_detail_tab_reply">Коментарі</string>
-
     <string name="user_focus_tab_users">Люди</string>
     <string name="user_focus_tab_apps">Спільноти</string>
     <string name="user_focus_title_my">Мої підписки</string>
     <string name="user_focus_title">%s підписаний</string>
-
     <string name="google_play_name" translatable="false">Google Play</string>
     <string name="goto_google_play">Придбати зараз</string>
     <string name="google_play_bug_text">Придбати в Google Play</string>
-
     <string name="menu_follow_all">Всі підписки</string>
     <string name="menu_follow_user">Підписки на людей</string>
     <string name="menu_follow_group">Підписки на спільноти</string>
     <string name="menu_follow_all_tab">Підписки</string>
     <string name="menu_follow_user_tab">Люди</string>
     <string name="menu_follow_group_tab">Спільноти</string>
-
     <string name="choose_app">Виберіть додаток</string>
     <string name="publish_comment">Поділитися публікацією</string>
-
     <string name="app_detail_has_product">Придбання предметів</string>
     <string name="app_detail_no_product">Немає покупок предметів</string>
     <string name="app_detail_has_ad">Містить рекламу</string>
     <string name="app_detail_no_ad">Без реклами</string>
-
     <string name="tag_list">Список теґів</string>
     <string name="hot_tag">Популярні теґи</string>
     <string name="hot_tag_explain">(Додайте теґи до додатку або проголосуйте за існуючі)</string>
@@ -673,21 +574,17 @@
     <string name="there_is_no_label">Немає теґів.</string>
     <string name="add">Додати</string>
     <string name="colon">:</string>
-
     <string name="pack_up">Згорнути</string>
     <string name="Istop">Закріплені</string>
     <string name="add_tag">Додати теґи</string>
     <string name="error_add_tag">Не вдалося додати теґи</string>
     <string name="no_collect">Улюблених поки немає!</string>
     <string name="no_comment">Будьте першим, хто додасть пост!</string>
-
     <string name="share_apk">Поділитися APK-файлом</string>
     <string name="tab_apk">APK</string>
     <string name="commentaries">Поділитися публікацією</string>
-
     <string name="upload_apk_version">Версія %s</string>
     <string name="upload_apk_downloads">Завантажень: %s</string>
-    
     <string name="upload_comment_uploading">%s Відправлення…</string>
     <string name="upload_comment_upload_success">%s успішно відправлене</string>
     <string name="upload_comment_upload_failed">Не вдалося відправити %s</string>
@@ -700,16 +597,12 @@
     <string name="upload_notification_is_pause">Завантаження призупинене</string>
     <string name="upload_add_list_toast">Успіх!</string>
     <string name="upload_add_file_list_toast">Відправлення додатку. Будь ласка, будте терплячими, дякуємо!</string>
-
     <string name="your_reply_comment">Ваша відповідь</string>
-
     <string name="market_ad_title">Магазин</string>
     <string name="market_ad_tab_one">Вибрані</string>
     <string name="market_ad_tab_two">Ігри</string>
     <string name="market_ad_tab_three">Інструменти</string>
-
     <string name="tag">Теґ</string>
-
     <string name="search_tab_name_one">ДОДАТКИ</string>
     <string name="search_tab_name_two">КОРИСТУВАЧ</string>
     <!--pre_register-->
@@ -721,25 +614,20 @@
     <string name="pre_register_gift_tv">Нагорода за реєстрацію</string>
     <string name="pre_register_person_num_tv">Попередньо зареєстрованих: %s</string>
     <string name="pre_register_success">Попередня реєстрація означає, що ви отримаєте сповіщення, коли додаток буде випущено.</string>
-
     <string name="open_page_failed">Не вдалося відкрити сторінку!</string>
     <string name="search_for_user">Пошук</string>
     <string name="search_user_history_title">Останні контакти</string>
     <string name="search_focus_list_title">Підписаний</string>
-
     <string name="submit_comment_user_style">&lt;font color=#007AFF&gt;@%1$s&lt;/font&gt;</string>
-
     <string name="copy_username">Скопіювати нікнейм</string>
     <string name="copy_content">Скопіювати вміст</string>
-
     <string name="tab_global">ВИБРАНЕ</string>
     <string name="comment_list_see_here">В останній раз ви були тут, торкніться, щоб оновити</string>
     <string name="comment_list_new_num">%d нових історій</string>
-
     <string name="tab_popular">ПОПУЛЯРНІ</string>
     <string name="count_down_timer_tv">%ds</string>
     <string name="count_down_timer_btn">пропустити</string>
-<string name="app_detail_tab_evaluation">Огляди</string>
+    <string name="app_detail_tab_evaluation">Огляди</string>
     <string name="app_detail_comment_filter_sort_score">Найрейтинговіші</string>
     <string name="app_detail_comment_filter_all">Всі огляди</string>
     <string name="app_detail_comment_filter_version">Остання версія</string>
@@ -748,18 +636,14 @@
     <string name="app_detail_comment_score_footer">Є %s оглядів іншими мовами.</string>
     <string name="app_detail_evaluation_tool_bar_title">Поділитися оглядом</string>
     <string name="app_detail_evaluation_failed_bt">Огляд</string>
-
     <string name="app_detail_comment_order_array_good">4-5</string>
     <string name="app_detail_comment_order_array_bad">1-3</string>
     <string name="app_detail_folded_footer_reviews">показати всі %d згорнутих оглядів</string>
     <string name="app_detail_folded_footer_posts">показати всі %d згорнутих постів</string>
     <string name="app_detail_discuss_filter_featured">відмінні</string>
     <string name="app_detail_discuss_filter_folded">згорнуті</string>
-
-
     <string name="message_notify">сповіщення</string>
     <string name="follow_floating_action_button">Створити новий Момент</string>
-
     <string name="choice_evaluate">Вибрані огляди</string>
     <string name="choice_comment">Рекомендовані пости</string>
     <string name="emoji_input_error_hint">Коментарі, що складаються тільки з Emoji, більше не дозволені! Напишіть щось…</string>
@@ -768,9 +652,21 @@
     <string name="my_reservation_and_collection">Попередньо зареєструватись і додати в улюблені</string>
     <string name="upload_apk">Завантажити APK</string>
     <string name="developer_badge_explanation">Пояснення Значку Розробника</string>
-
     <string name="from_user_recommendation">Рекомендація користувача</string>
     <string name="topics">Тема</string>
     <string name="pre_register_game">Попередня реєстрація</string>
     <string name="editors_picks">Вибір редакції</string>
+    <string name="bind_email_title">Підключіть свою адресу електронної пошти</string>
+    <string name="login_out_message_hint">Ви дійсно хочете вийти\?</string>
+    <string name="un_bind">Немає з\'єднання</string>
+    <string name="recommend_game">Рекомендуєма гра</string>
+    <string name="filter_no_comment">Ой лишенько! Нічого не знайдено!!</string>
+    <string name="sign_in_services_key_policy_register">Політика конфіденційності</string>
+    <string name="home_message_praise">Подобається</string>
+    <string name="home_message_reply">Коментар</string>
+    <string name="properties_message_v2">&lt;b&gt;Ім\'я пакета:&lt;/b&gt; %1$s
+\n&lt;br&gt;&lt;b&gt;Версія:&lt;/b&gt; %2$s
+\n&lt;br&gt;&lt;b&gt;Шлях:&lt;/b&gt; %3$s
+\n&lt;br&gt;&lt;b&gt;Розмір:&lt;/b&gt; %4$s
+\n&lt;br&gt;&lt;b&gt;Останні зміни:&lt;/b&gt; %5$s</string>
 </resources>
