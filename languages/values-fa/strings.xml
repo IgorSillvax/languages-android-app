@@ -245,8 +245,8 @@
     <string name="changing_language">در حال تغییر زبان، لطفا صبر کنید…</string>
     <string name="download_complete_installation_setting">گزینه نصب پس از دانلود</string>
     <plurals name="app_detail_see_all_replies">
-        <item quantity="one">مشاهده تمام <xliff:g example="1" id="count">%1$d</xliff:g> پاسخ</item>
-        <item quantity="other">مشاهده تمام <xliff:g example="2" id="count">%1$d</xliff:g> پاسخ‌ها</item>
+        <item quantity="one">&lt;xliff:g xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\" example=\"1\" id=\"count\"&gt;%1$d&lt;/xliff:g&gt; پاسخ جمع شده است</item>
+        <item quantity="other">&lt;xliff:g xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\" example=\"1\" id=\"count\"&gt;%1$d&lt;/xliff:g&gt; پاسخ جمع شده است</item>
     </plurals>
     <string name="app_detail_customer_reviews">نظرات</string>
     <string name="app_detail_comment_type_web">وب</string>
@@ -695,7 +695,7 @@
     <string name="new_subject_comment">هشتگ جدید</string>
     <string name="evaluating">نظرات</string>
     <string name="image_text">داستان</string>
-    <string name="trends">پست</string>
+    <string name="trends">Post</string>
     <string name="error_hot_data_empty">هشتگ داغی نیست !</string>
     <string name="hot_subject">هشتگ داغ</string>
     <string name="menu_follow_subject">دنباله هشتگ ها</string>
