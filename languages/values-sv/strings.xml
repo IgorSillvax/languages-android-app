@@ -36,10 +36,9 @@ Någonting hände.</string>
     <string name="delete">Ta bort</string>
     <string name="delete_all">Ta bort alla</string>
     <string name="properties">Egenskaper</string>
-    <string name="properties_message">"&lt;b&gt;Genväg:&lt;/b&gt; %1$s&lt;br&gt;&lt;b&gt;Storlek:&lt;/b&gt; %2$s&lt;br&gt;&lt;b&gt;Ändrades senast:&lt;/b&gt; %3$s
-\n "</string>
-    <string name="want_to_delete_file">Vill du radera den här filen?</string>
-    <string name="want_to_delete_all_files">Vill du radera alla filer?</string>
+    <string name="properties_message">&lt;b&gt;Genväg:&lt;/b&gt; %1$s&lt;br&gt;&lt;b&gt;Storlek:&lt;/b&gt; %2$s&lt;br&gt;&lt;b&gt;Senast Ändrad:&lt;/b&gt; %3$s</string>
+    <string name="want_to_delete_file">Är du säker att du vill radera denna filen\?</string>
+    <string name="want_to_delete_all_files">Är du säker du vill radera alla filer\?</string>
     <string name="file_has_been_deleted">Filen har tagits bort.</string>
     <string name="failed_to_delete_file">Misslyckades med att ta bort filen.</string>
     <string name="install__label_">Installera - <xliff:g example="APKPure" id="app_label">%1$s</xliff:g>
@@ -64,7 +63,7 @@ Någonting hände.</string>
     <string name="permissions_">Tillstånd:</string>
     <string name="type_">Typ:</string>
     <string name="category_">Kategori:</string>
-    <string name="more">fler</string>
+    <string name="more">flera</string>
     <string name="permissions">Tillstånd</string>
     <string name="similar_or_related">Liknande eller Relaterade</string>
     <string name="more_large">Mer</string>
@@ -86,13 +85,20 @@ Någonting hände.</string>
     <string name="market_response_error_invalid_response_code">Ogiltig svarskod.</string>
     <string name="no_more">Ej mer.</string>
     <string name="update">Uppdatera</string>
-    <string name="launching_please_wait">Laddar, var god vänta…</string>
+    <string name="launching_please_wait">Startar… var god vänta.</string>
     <string name="featured">Dagens</string>
     <string name="properties_message_v2">&lt;b&gt;Paket namn:&lt;/b&gt; %1$s&lt;br&gt;&lt;b&gt;Version:&lt;/b&gt; %2$s&lt;br&gt;&lt;b&gt;Sökväg:&lt;/b&gt; %3$s&lt;br&gt;&lt;b&gt;Storlek:&lt;/b&gt; %4$s&lt;br&gt;&lt;b&gt;Sist ändrad:&lt;/b&gt; %5$s</string>
-    <string name="io_error">IO fel. Det är troligen inte något minne kvar för att installera.</string>
+    <string name="io_error">IO fel. Det finns ej tillräckligt med utrymme för och installera</string>
     <string name="history_version">Version Historik</string>
     <string name="market_response_error_network_connect_error">Nätverksfel.</string>
     <string name="market_response_error_network_read_error">Nätverksfel.</string>
     <string name="market_response_error_invalid_response_body">Ogiltig respons.</string>
     <string name="market_response_error_unknown_error__error_">Okänd fel (<xliff:g example="SUCCESS" id="error">1%1$s</xliff:g>2).</string>
+    <string name="check_update_beta">Tidig Beta-release</string>
+    <string name="downloads_complete">All nedladdning utförd</string>
+    <plurals name="_count__new_update_is_available">
+        <item quantity="one">&lt;xliff:g xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\" example=\"1\" id=\"count\"&gt;%1$d&lt;/xliff:g&gt; ny uppdatering tillgänglig</item>
+        <item quantity="other">&lt;xliff:g xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\" example=\"2\" id=\"count\"&gt;%1$d&lt;/xliff:g&gt; nya uppdateringar är tillgängliga</item>
+    </plurals>
+    <string name="version__version___size_">Version: &lt;xliff:g xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\" example=\"1.0.0\" id=\"version\"&gt;%1$s&lt;/xliff:g&gt;, &lt;xliff:g xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\" example=\"1024 kB\" id=\"size\"&gt;%2$s&lt;/xliff:g&gt;</string>
 </resources>
