@@ -9,7 +9,8 @@
     <string name="apps">កម្មវិធី</string>
     <string name="categories">ចំណាត់ក្រុម</string>
     <string name="updates">អាប់ដេត</string>
-    <string name="something_happened">&gt;_&lt;មានបញ្ហាខ្លះៗ បានកើតឡើង។</string>
+    <string name="something_happened">&gt;_&lt;
+\nមានបញ្ហាខ្លះៗ បានកើតឡើង។</string>
     <string name="auto_install_via_root_summary">សម្រាប់តែទូរស័ព្ទនិងថេប្លេត Android ណាដែលបាន root ប៉ុណ្ណោះ។</string>
     <string name="auto_install_via_root_title">ដំឡើងស្វ័យប្រវត្តិ (Root Mode)</string>
     <string name="auto_service_exchange__material_">ជំនួស</string>
@@ -25,7 +26,7 @@
     <string name="auto_service_title">APKPure តម្លើងស្វ័យប្រវត្តិ</string>
     <string name="auto_service_install_accessibility_title">តម្លើងស្វ័យប្រវត្តិ</string>
     <string name="touch_to_open">សូមប៉ះ ដើម្បីដំណើរការ។</string>
-    <string name="auto_service_install_accessibility_summary">"គាំទ្រ Android 4.1+  មិនចាំបាច់ root  ឡើយ។"</string>
+    <string name="auto_service_install_accessibility_summary">គាំទ្រ Android 4.1+ មិនចាំបាច់ root ឡើយ។</string>
     <string name="auto_service_dialog_title">បើកការតម្លើងស្វ័យប្រវត្តិ</string>
     <string name="recommend">ស្វែងយល់</string>
     <string name="load_failed_error">អូ៎! មានកំហុស​បាន​កើត​ឡើង។</string>
@@ -111,7 +112,7 @@
         <item quantity="other">កំពុងទាញយក<xliff:g example="1" id="count">%1$d</xliff:g> ធាតុ។</item>
     </plurals>
     <string name="downloads_complete">ការទាញយកបានសម្រេច</string>
-    <string name="touch_for_view_all_downloads">"សូមប៉ះ  ដើម្បីមើលការទាញយកទាំងអស់"</string>
+    <string name="touch_for_view_all_downloads">សូមប៉ះ ដើម្បីមើលការទាញយកទាំងអស់</string>
     <string name="_name__download_failed">ការទាញយក<xliff:g example="APKPure" id="name">%1$s</xliff:g> បានបរាជ័យ</string>
     <string name="download_percent">
         <xliff:g example="50" id="percent">%1$d</xliff:g> %</string>
@@ -149,7 +150,11 @@
     <string name="report__">រាយការណ៍…</string>
     <string name="report_problem__">រាយការណ៍ពីបញ្ហា…</string>
     <string name="report_problem_subject">រាយការណ៍ពីបញ្ហា</string>
-    <string name="report_problem_text">ប្រធានបទ បញ្ហា៖%1$sបញ្ហាលម្អិត៖%2$s</string>
+    <string name="report_problem_text">ប្រធានបទ បញ្ហា៖
+\n%1$s
+\n
+\nបញ្ហាលម្អិត៖
+\n%2$s</string>
     <string name="contact_us__">ទាក់ទងយើង…</string>
     <string name="contact_us">ទាក់ទងពួកយើង</string>
     <string name="report_content">រាយការណ៍មាតិកា</string>
@@ -209,7 +214,7 @@
     <string name="installation">ការតម្លើង</string>
     <string name="_name__installation_completed">
         <xliff:g example="APKPure" id="name">%1$s</xliff:g> ដំឡើងបានសម្រេច</string>
-    <string name="auto_service_description">"បើក \"កម្មវិធីដំឡើងស្វ័យប្រវត្តិ APKPure\" ដើម្បីទុកឲ្យ \"ការតម្លើងស្វ័យប្រវត្តិ\" APKPure  ដំណើរការដោយរលូន។
+    <string name="auto_service_description">បើក \"កម្មវិធីដំឡើងស្វ័យប្រវត្តិ APKPure\" ដើម្បីទុកឲ្យ \"ការតម្លើងស្វ័យប្រវត្តិ\" APKPure ដំណើរការដោយរលូន។
 \n
 \n\"កម្មវិធីដំឡើងស្វ័យប្រវត្តិ APKPure \" អាចសន្សំសំចៃពេលវេលារបស់អ្នកលើការចុចប៊ូតុងដំឡើង នៅពេលដំឡើង ឬធ្វើបច្ចុប្បន្នភាព Apk។ ហើយអ្នកមិនចាំបាច់ឆែកទូរស័ព្ទរបស់អ្នកគ្រប់ពេលឡើយ។
 \n
@@ -217,7 +222,7 @@
 \n
 \nដើម្បីធានាថា APKPure ដំណើរការល្អ សូមបន្ថែម APKPure​ ទៅកាន់កម្មវិធីកម្ចាត់ \"បញ្ជីស\"។
 \n
-\nមុខងារដែលបានរៀបរាប់ខាងលើ គាំទ្រប្រព័ន្ធប្រតិបត្តិការ Android 4.1 និងខ្ពស់ជាងនេះ។  មិនត្រូវការសិទ្ធដំណើរការឡើយ។ យើងសន្យានឹងមិនប្រមូលយកនូវរាល់ពត៌មានឯកជនរបស់អ្នកឡើយ ក្នុងសេវាកម្មភាពងាយស្រួលនេះទេ។ សូមមានអារម្មណ៍រីករាយ ក្នុងការទាក់ទងមកយើងសម្រាប់បញ្ហាណាមួយ។"</string>
+\nមុខងារដែលបានរៀបរាប់ខាងលើ គាំទ្រប្រព័ន្ធប្រតិបត្តិការ Android 4.1 និងខ្ពស់ជាងនេះ។  មិនត្រូវការសិទ្ធដំណើរការឡើយ។ យើងសន្យានឹងមិនប្រមូលយកនូវរាល់ពត៌មានឯកជនរបស់អ្នកឡើយ ក្នុងសេវាកម្មភាពងាយស្រួលនេះទេ។ សូមមានអារម្មណ៍រីករាយ ក្នុងការទាក់ទងមកយើងសម្រាប់បញ្ហាណាមួយ។</string>
     <string name="app_detail_comment_type_web">គេហទំព័រ</string>
     <string name="app_submit_submit">កំពុងដាក់ស្នើ…</string>
     <string name="app_submit_anonymous_comment">បន្ថែមមតិ</string>
@@ -294,11 +299,7 @@
     </plurals>
     <string name="app_detail_customer_reviews">មតិ</string>
     <string name="extracting_apk">កំពុងស្រាយកញ្ចប់ឯកសារ APK…</string>
-    <string name="external_storage_not_usable">
-        <big>
-            <b>ពួកយើងត្រូវការចូលដំណើរការឃ្លាំងផ្ទុកខាងក្រៅ។ សូមប្រាកដថាវាអាចប្រើការបាន។</b>
-        </big>
-    </string>
+    <string name="external_storage_not_usable"><big><b>ពួកយើងត្រូវការចូលដំណើរការឃ្លាំងផ្ទុកខាងក្រៅ។ សូមប្រាកដថាវាអាចប្រើការបាន។</b></big></string>
     <string name="sub_comment_progress_msg">កំពុងបន្ថែមវីដេអូ…</string>
     <string name="download_history">ប្រវត្តិការទាញយក</string>
     <string name="sub_comment_dialog_title">បន្ថែមវីដេអូ</string>
@@ -503,7 +504,7 @@
     <string name="download_mkdir_internal_storage_values">ឧបករណ៍ផ្ទុកខាងក្នុង</string>
     <string name="download_mkdir_external_storage_values">ឃ្លាំងផ្ទុកខាងក្រៅ</string>
     <string name="recommend_not_fount_info">ការផ្ដល់ដំណឹង APKPure ដើម្បីបន្ថែម \"%1$s\" អ្នកត្រូវការទៅបញ្ចប់សំណុំបែបបទសិន។</string>
-    <string name="user_focus_title">"បានតាមដានដោយ  %1$s"</string>
+    <string name="user_focus_title">បានតាមដានដោយ %1$s</string>
     <string name="goto_google_play">ទិញឥឡូវ</string>
     <string name="menu_follow_group_tab">ក្រុម</string>
     <string name="menu_follow_user_tab">មនុស្ស</string>
@@ -721,7 +722,7 @@
     <string name="bind_email_success">ការតភ្ជាប់បានជោគជ័យ។</string>
     <string name="send_verification_code_resend_tv">ផ្ងើកូដផ្ទៀងផ្ទាត់</string>
     <string name="verification_code_resend_tv">ផ្ញើកូដផ្ទៀងផ្ទាត់ម្ដងទៀត</string>
-    <string name="verification_code_second_tv">"ផ្ងើម្ដងទៀតក្នុងពេល  %d វិ"</string>
+    <string name="verification_code_second_tv">ផ្ងើម្ដងទៀតក្នុងពេល %d វិ</string>
     <string name="verification_code_tv">កូដផ្ទៀងផ្ទាត់ ត្រូវបានផ្ងើទៅអាសយដ្ឋានអ៊ីមែល %1$s របស់អ្នក</string>
     <string name="bind_email_tv">តភ្ជាប់អាសយដ្ឋានអ៊ីមែលអ្នកទៅគណនីរបស់អ្នកដើម្បីដោះសោរអត្ថប្រយោជន៍ដូចជាចូលគណនីតាមម៉ែល ស្ដារគណនីឡើងវិញ ការប្រកាស និងផ្សេងទៀត។</string>
     <string name="home_message_praise">ពេញចិត្ត</string>
@@ -786,7 +787,7 @@
 \nកំណែថ្មីនឹងអាចទាញយកបានឆាប់ៗ ប្រសិនបើវាមាន។</string>
     <string name="app_details_request_update_title">ស្នើសុំធ្វើបច្ចុប្បន្នភាព</string>
     <string name="xapk_unable_upload">អាប់ឡូត XAPK បរាជ័យ!</string>
-    <string name="upload_xapk_to_group">"អាប់ឡូត XAPK  ទៅក្រុម"</string>
+    <string name="upload_xapk_to_group">អាប់ឡូត XAPK ទៅក្រុម</string>
     <string name="upload_xapk">អាប់ឡូត XAPK</string>
     <string name="upload_apk_to_group">អាប់ឡូតឯកសារ APKទៅក្រុម</string>
     <string name="app_update_auto_install">ចុចដើម្បីបើក \"ដំឡើងស្វ័យប្រវត្តិ\"</string>

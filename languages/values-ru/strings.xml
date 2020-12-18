@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <string name="action_settings">»-“»»…\tSettingsjdjdvdjdhdbf fudbd fbfjdbrhdhdjd;_+_8;_-_(&amp;:_!_!_:_(;_(_;_(_;_+_(_jfkdhdikfufbfhfnfnf</string>
-    <string name="action_search">Искать Приложения</string>
-    <string name="action_management">Hfjfjfjdjdbjfjfbfjf fjdnf cjd fbf dbfbfbfnf dhd fjdkd do you want to go to the store and get some re</string>
-    <string name="press_back_key_quit">To exit, tap the back button once again.</string>
-    <string name="featured">Рекомендация</string>
+    <string name="action_settings">Настройки</string>
+    <string name="action_search">Поиск</string>
+    <string name="action_management">Управление</string>
+    <string name="press_back_key_quit">Чтобы выйти, ещё раз нажмите кнопку «Назад».</string>
+    <string name="featured">Рекомендуемые</string>
     <string name="games">Игры</string>
     <string name="apps">Приложения</string>
     <string name="categories">Категории</string>
@@ -13,45 +13,44 @@
 \nЧто-то пошло не так.</string>
     <string name="load_failed_error">Ой! Произошла ошибка.</string>
     <string name="load_failed_empty">Здесь ничего нет.</string>
-    <string name="load_failed_all_up_to_date">Все приложения обновлены.</string>
-    <string name="load_failed_no_results">Простите! Ничего не найдено.</string>
+    <string name="load_failed_all_up_to_date">Все приложения находятся в актуальном состоянии.</string>
+    <string name="load_failed_no_results">Простите! Никаких результатов не найдено.</string>
     <string name="refresh">Обновить</string>
     <string name="management">Управление</string>
-    <string name="app_updates">Обновить приложения</string>
+    <string name="app_updates">Обновления приложений</string>
     <string name="app_management">Установлено</string>
-    <string name="app_uninstall">Удаление приложений</string>
+    <string name="app_uninstall">Удаление приложения</string>
     <string name="apk_management">Управление APK</string>
     <string name="apk_xapk_management">Управление APK / XAPK</string>
-    <string name="download_management">Управление загрузками\n</string>
+    <string name="download_management">Управление загрузками</string>
     <string name="settings">Настройки</string>
-    <string name="about">Версия</string>
-    <string name="about_title">О программе <xliff:g example="APKPure" id="app_name">%1$s</xliff:g>
-    </string>
-    <string name="about_message">&lt;b&gt;Версия:&lt;/b&gt; %1$s&lt;br&gt;&lt;br&gt;&lt;b&gt;Наш Вебсайт:&lt;/b&gt; &lt;a href=%2$s&gt;%2$s&lt;/a&gt;&lt;br&gt;&lt;b&gt;Email:&lt;/b&gt; &lt;a href=mailto:%3$s&gt;%3$s&lt;/a&gt;</string>
-    <string name="check_update">Проверить обновление</string>
+    <string name="about">О приложении</string>
+    <string name="about_title">О приложении <xliff:g example="APKPure" id="app_name">%1$s</xliff:g></string>
+    <string name="about_message">&lt;b&gt;Версия:&lt;/b&gt; %1$s&lt;br&gt;&lt;br&gt;&lt;b&gt;Веб-сайт:&lt;/b&gt; &lt;a href=%2$s&gt;%2$s&lt;/a&gt;&lt;br&gt;&lt;b&gt;Адрес электронной почты:&lt;/b&gt; &lt;a href=mailto:%3$s&gt;%3$s&lt;/a&gt;</string>
+    <string name="check_update">Проверить наличие обновлений</string>
     <string name="quit">Выйти</string>
     <string name="want_to_quit">Вы уверены, что хотите выйти?</string>
     <string name="install">Установить</string>
     <string name="open">Открыть</string>
     <string name="delete">Удалить</string>
-    <string name="want_to_delete_file">Вы хотите удалить этот файл?</string>
-    <string name="file_has_been_deleted">Файл удалён.</string>
+    <string name="want_to_delete_file">Вы уверены, что хотите удалить этот файл\?</string>
+    <string name="file_has_been_deleted">Файл был удалён.</string>
     <string name="failed_to_delete_file">Не удалось удалить файл.</string>
     <string name="install__label_">Установка - <xliff:g example="APKPure" id="app_label">%1$s</xliff:g>
     </string>
     <string name="user_canceled">Отменено пользователем.</string>
-    <string name="io_error">Ошибка. Недостаточно свободного места на Вашем устройстве.</string>
-    <string name="file_format_error">Не поддерживаемый формат.</string>
+    <string name="io_error">Ошибка ввода-вывода. Недостаточно места для установки.</string>
+    <string name="file_format_error">Ошибка формата файла.</string>
     <string name="parsing_xapk">Разбор XAPK …</string>
-    <string name="installing_obb">Установка OBB-файлов …</string>
-    <string name="extracting_apk">Извлечение APK-файла …</string>
+    <string name="installing_obb">Установка файлов OBB …</string>
+    <string name="extracting_apk">Извлечение файла APK …</string>
     <string name="installing_apk">Установка APK …</string>
     <string name="uninstall">Удалить</string>
     <string name="uninstalled">Удалено</string>
     <string name="last_update__date_">Последнее обновление: <xliff:g id="date">%1$s</xliff:g>
     </string>
     <string name="all">Все</string>
-    <string name="screenshots">Скриншоты</string>
+    <string name="screenshots">Снимки экрана</string>
     <string name="description">Описание</string>
     <string name="whatsnew">Что нового</string>
     <string name="information">Информация</string>
@@ -164,9 +163,7 @@
     <string name="language">Язык</string>
     <string name="auto">Авто</string>
     <string name="properties">Свойства</string>
-    <string name="properties_message">
-        <![CDATA[<b>Путь:</b> %1$s<br><b>Размер:</b> %2$s<br><b>Изменён:</b> %3$s]]>
-    </string>
+    <string name="properties_message">&lt;b&gt;Путь:&lt;/b&gt; %1$s&lt;br&gt;&lt;b&gt;Размер:&lt;/b&gt; %2$s&lt;br&gt;&lt;b&gt;Последнее изменение:&lt;/b&gt; %3$s</string>
     <string name="delete_downloaded_file">Удалить загруженный файл</string>
     <string name="update_all">Обновить всё</string>
     <string name="update___count__">Обновить (<xliff:g example="3" id="count">%1$d</xliff:g>)</string>
@@ -194,8 +191,8 @@
         <xliff:g example="APKPure" id="name">%1$s</xliff:g> установка завершена</string>
     <string name="touch_to_open">Кликните, чтобы открыть.</string>
     <string name="delete_all">Удалить всё</string>
-    <string name="want_to_delete_all_files">Вы хотите удалить все файлы?</string>
-    <string name="flag_as_inappropriate">Отметить как несоответствующий</string>
+    <string name="want_to_delete_all_files">Вы уверены, что хотите удалить все файлы\?</string>
+    <string name="flag_as_inappropriate">Отметить как неприемлемый</string>
     <string name="pause_all">Приостановить всё</string>
     <string name="continue_all">Продолжить всё</string>
     <string name="remove_all">Убрать всё</string>
@@ -212,8 +209,8 @@
     <string name="participate_ultra_download_beta_test_title">Включите режим Ультра Загрузки и наслаждайтесь большей скоростью загрузки</string>
     <string name="participate_ultra_download_beta_test_content">"Режим Ультра Загрузки  в стадии бета-тестирования, дайте нам знать, если у вас возникнут какие-либо проблемы. Вы можете отключить его в Настройках."</string>
     <string name="enable">Включить</string>
-    <string name="similar_or_related">Похожие и Связанные</string>
-    <string name="more_from_developer">Другие от разработчика</string>
+    <string name="similar_or_related">Похожие или связанные</string>
+    <string name="more_from_developer">Ещё от разработчика</string>
     <string name="feedback">Обратная связь</string>
     <string name="changing_language">Идёт смена языка… Пожалуйста, подождите.</string>
     <string name="download_via_wifi_only">Загрузка только через Wi-Fi</string>
@@ -354,7 +351,7 @@
     </plurals>
     <string name="app_detail_comment_type_web">Сайт</string>
     <string name="app_detail_comment_order_array_default">Сортировать по умолчанию</string>
-    <string name="recommend">"Все "</string>
+    <string name="recommend">Найти</string>
     <string name="share_app_url_comment"> Коментарии <xliff:g example="APKPure" id="user_name">%1$s</xliff:g> к
         <xliff:g example="APKPure" id="app_name">%2$s</xliff:g> :
         <xliff:g example="APKPure" id="app_name">%3$s</xliff:g> (из @<xliff:g example="APKPure" id="social_network_name">%4$s</xliff:g>)
@@ -426,7 +423,7 @@
     <string name="sub_comment_dialog_des_tv">Поддерживается только синтаксический анализ видео Youtube.</string>
     <string name="check_update_replace">Официальная версия</string>
     <string name="download_mkdir_external_storage_values">Внешнее_хранилище</string>
-    <string name="check_update_beta">Предварительная Бета версия</string>
+    <string name="check_update_beta">Предварительная бета-версия</string>
     <string name="history_version">История версий</string>
     <string name="app_detail_comment_order_array_old">Самые старые</string>
     <string name="app_detail_comment_join_group_bt">Группа</string>
@@ -435,7 +432,7 @@
     <string name="share_app_url_group">
         <xliff:g example="APKPure" id="app_name">%1$s</xliff:g> Группа. (from <xliff:g example="APKPure" id="social_network_name">%2$s</xliff:g> ) <xliff:g example="https://apkpure.com/p/com.apkpure.aegon" id="app_url">%3$s</xliff:g>
     </string>
-    <string name="load_failed_error_not_found">Это приложение не было добавлено в APKPure.</string>
+    <string name="load_failed_error_not_found">Приложение не было включено в APKPure.</string>
     <string name="beta">Бета</string>
     <string name="data_saver_model">Экономия трафика</string>
     <string name="data_saver_model_summery">Включение этого приведет к уменьшению размера и качества изображения, что поможет использовать меньше мобильных данных.</string>
@@ -679,9 +676,7 @@
     <string name="forget_password_tv">Забыли пароль?</string>
     <string name="recover_password_title">Восстановление пароля</string>
     <string name="email_address_hint_et">Введите адрес электронной почты.</string>
-    <string name="properties_message_v2">
-        <![CDATA[<b>Имя Пакета:</b> %1$s<br><b>Version:</b> %2$s<br><b>Path:</b> %3$s<br><b>Size:</b> %4$s<br><b>Last Modified:</b> %5$s]]>
-    </string>
+    <string name="properties_message_v2">&lt;b&gt;Имя пакета:&lt;/b&gt; %1$s&lt;br&gt;&lt;b&gt;Версия:&lt;/b&gt; %2$s&lt;br&gt;&lt;b&gt;Путь:&lt;/b&gt; %3$s&lt;br&gt;&lt;b&gt;Размер:&lt;/b&gt; %4$s&lt;br&gt;&lt;b&gt;Последнее изменение:&lt;/b&gt; %5$s</string>
     <string name="home_message_reply">Комментарий</string>
     <string name="home_message_praise">Лайк</string>
     <string name="sign_in_services_key_policy_register">Политика Конфиденциальности</string>
