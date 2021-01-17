@@ -149,7 +149,7 @@
     <string name="search_history">Istorie</string>
     <string name="clear_search_history">Șterge tot istoricul</string>
     <string name="improvement_plan_title">Plan de îmbunătățire a experiențelor utilizatorului</string>
-    <string name="improvement_plan_message">Ajutați-ne prin distribuirea informațiilor despre dispozitivul dumneavoastră, noi <b>nu colectăm</b> date personale (nume, adresă, adresă email, numar de securitate socială, alți identificatori unici).</string>
+    <string name="improvement_plan_message">Ajutați-ne prin distribuirea informațiilor despre dispozitivul dumneavoastră. Noi promitem ca,&lt;b&gt;nu&lt;/b&gt;colectam&lt;/b&gt;datele tale personale (nume, adresă, adresă email, CNP saul alți identificatori unici).</string>
     <string name="join_us">Alăturate nouă</string>
     <string name="skip">Sări</string>
     <string name="participate_ultra_download_beta_test_title">Permite Ultra Descărcare și bucură-te de viteză mai mare</string>
@@ -172,12 +172,12 @@
     <string name="contact_us">Contactați-ne</string>
     <string name="report_content">Raportează conținutul</string>
     <string name="feedback">Feedback</string>
-    <string name="installation_failed">Instalare nereușită</string>
+    <string name="installation_failed">Instalare Nereușită.</string>
     <string name="invalid_app_detail">Informațiile aplicației invalide.</string>
     <string name="invalid_app_asset">Informațiile aplicației invalide.</string>
     <string name="failed_to_request_app_detail">Nu s-a reușit cererea informațiilor aplicației.</string>
     <string name="failed_to_request_app_asset">Nu s-a reușit cererea informațiilor aplicației.</string>
-    <string name="incompatible_this_app">&lt;big&gt;&lt;b&gt;&lt;font color=%1$d&gt;Dispozitivul dumneavoastră nu este compatibil cu aplicația.&lt;/font&gt;&lt;/b&gt;&lt;/big&gt;&lt;br&gt;&lt;br&gt;Vreți să continuați?</string>
+    <string name="incompatible_this_app">&lt;big&gt;&lt;b&gt;&lt;font color=%1$d&gt;Dispozitivul dumneavoastră nu este compatibil cu această aplicație.&lt;/font&gt;&lt;/b&gt;&lt;/big&gt;&lt;br&gt;&lt;br&gt;Vreți să continuați\?</string>
     <string name="this_app_not_usable">&lt;big&gt;&lt;b&gt;&lt;font color=%1$d&gt;Această aplicație poate fi instabilă.&lt;/font&gt;&lt;/b&gt;&lt;/big&gt;&lt;br&gt;&lt;br&gt;Vreți să continuați?</string>
     <string name="setting">Setări</string>
     <string name="external_storage_not_usable">
@@ -203,7 +203,7 @@
     </string>
     <string name="update_all">Actualizați toate</string>
     <string name="update___count__">(<xliff:g example="3" id="count">%1$d</xliff:g>) actualizări</string>
-    <string name="ignore">Ignoranți</string>
+    <string name="ignore">Ignoră</string>
     <string name="unignore">Dezignorați</string>
     <string name="select">Selectați</string>
     <string name="cancel">Anulare</string>
@@ -219,22 +219,22 @@
     <string name="general">General</string>
     <string name="language">Limbă</string>
     <string name="auto">Auto</string>
-    <string name="changing_language">Schimbăm limba, vă rog așteptați…</string>
-    <string name="data_saver_model">Salvator date</string>
+    <string name="changing_language">Schimbăm limba, vă rog să așteptați…</string>
+    <string name="data_saver_model">Economisire Date</string>
     <string name="data_saver_model_summery">Pornind asta vei reduce dimensiunea și calitatea imaginii pentru a folosi mai puține date mobile.</string>
     <string name="download_via_wifi_only">Descărcare doar prin Wi-Fi</string>
-    <string name="enable_ultra_download">Porniți Ultra Descărcare</string>
-    <string name="enable_ultra_download_summary">Ultra Descărcarea este in testare beta, spune-ține dacă aveți probleme.</string>
+    <string name="enable_ultra_download">Porniți descărcarea ultra</string>
+    <string name="enable_ultra_download_summary">Ultra Descărcarea este in testare beta, spune-ţi-ne dacă aveți probleme.</string>
     <string name="installation">Instalare</string>
     <string name="show_notification_after_installation">Afișează notificare după instalare</string>
     <string name="delete_packages_after_installation">Șterge pachetele după instalare</string>
     <string name="_name__installation_completed">
         <xliff:g example="APKPure" id="name">%1$s</xliff:g> instalare completă</string>
-    <string name="touch_to_open">Atingeți pentru a deschide.</string>
+    <string name="touch_to_open">Atinge pentru a porni aplicația.</string>
     <string name="auto_service_install_accessibility_title">Auto instalare</string>
     <string name="auto_service_install_accessibility_summary">Suportă Android 4.1+, fără nevoie de permisiune root.</string>
     <string name="auto_service_dialog_title">Pornire auto instalare</string>
-    <string name="auto_service_dialog_message">Auto instalarea are nevoie de autorizare pe telefon, este sigur să îl folosiți fără riscuri.</string>
+    <string name="auto_service_dialog_message">Auto instalarea are nevoie de permisiune pe telefon-ul tau!, Aplicatia este 100% sigură.</string>
     <string name="auto_service_title">APKPure Auto instalare</string>
     <string name="auto_service_description">Porniți \"APKPure Auto Instalare\", pentru a păstra APKPure \"Auto Instalare\" în funcționare.
 \n
@@ -256,7 +256,7 @@
     <string name="auto_service_exchange__material_">Înlocuiește</string>
     <string name="auto_service_complete__material_">Finalizat</string>
     <string name="auto_install_via_root_title">Auto instalarea (Mod cu Root)</string>
-    <string name="auto_install_via_root_summary">Doar pentru dispozitive cu acces root.</string>
+    <string name="auto_install_via_root_summary">Doar pentru telefoane sau tablete cu acces root.</string>
     <plurals name="app_detail_see_all_replies">
         <item quantity="one">Vezi tot răspunsul</item>
         <item quantity="few">Vezi toate <xliff:g example="2" id="count">%1$d</xliff:g> răspunsurile</item>
@@ -270,7 +270,7 @@
     <string name="app_submit_msg_toast">Trebuie să scrii ceva!</string>
     <string name="app_submit_name_toast">Te rog completează utilizatorul!</string>
     <string name="app_submit_email_toast">Te rog completează o adresă corectă de email!</string>
-    <string name="app_submit_star_toast">Trebuie sa bifezi steaua!</string>
+    <string name="app_submit_star_toast">Trebuie să trimiți evaluarea ta!</string>
     <string name="app_submit_title_hint">Te rog scrie titlul</string>
     <string name="app_submit_msg_hint">Vă rog să scrieți opinia</string>
     <string name="app_submit_nickname">Utilizator</string>
@@ -278,18 +278,18 @@
     <string name="app_submit_submit_title">Postare</string>
     <string name="app_submit_reply_to">răspunde la</string>
     <string name="app_detail_tab_one">Detalii</string>
-    <string name="app_detail_tab_two">Postari</string>
+    <string name="app_detail_tab_two">Grup</string>
     <string name="app_detail_tab_three">Asemănător</string>
     <string name="app_detail_tab_evaluation">Păreri</string>
-    <string name="app_detail_comment_filter_sort_score">Top clasate</string>
+    <string name="app_detail_comment_filter_sort_score">Top Evaluări</string>
     <string name="app_detail_comment_filter_all">Toate părerile</string>
     <string name="app_detail_comment_filter_version">Ultima Versiune</string>
-    <string name="app_detail_comment_score_less">Prea puține păreri utilizator</string>
-    <string name="app_detail_comment_no_data">Nu s-au găsit păreri, adăugă părerea ta.</string>
+    <string name="app_detail_comment_score_less">Prea puține păreri de la utilizatorii</string>
+    <string name="app_detail_comment_no_data">Nu s-au găsit păreri. Adaugă o recenzia acum.</string>
     <string name="app_detail_comment_score_footer">Mai sunt %1$s păreri în alte limbi.</string>
-    <string name="app_detail_evaluation_tool_bar_title">Distribuie o părere</string>
+    <string name="app_detail_evaluation_tool_bar_title">Scrie o recenzie</string>
     <string name="app_detail_evaluation_failed_bt">Păreri</string>
-    <string name="app_detail_comment_order_array_default">Sortează mod implicit</string>
+    <string name="app_detail_comment_order_array_default">Sortează după mod implicit</string>
     <string name="app_detail_comment_order_array_most_recent">Cele mai recente</string>
     <string name="app_detail_comment_order_array_new">Cele mai noi</string>
     <string name="app_detail_comment_order_array_best">Cele mai bune</string>
@@ -410,4 +410,5 @@
     <string name="user_password_confirm">Confirmă parola</string>
     <string name="user_name_error">Numele de utilizator nu trebuie să conțină caractere, simboluri sau spații speciale</string>
     <string name="user_name_null">Nume de utilizator invalid</string>
+    <string name="auto_service_directly__material_">Instalați direct</string>
 </resources>
