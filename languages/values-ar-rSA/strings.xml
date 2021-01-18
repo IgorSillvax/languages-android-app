@@ -3,104 +3,105 @@
     <string name="facebook_app_id" translatable="false">596489647167672</string>
     <string name="fb_login_protocol_scheme" translatable="false">fb596489647167672</string>
     <string name="aegon_app_name" translatable="false">APKPure</string>
-    <string name="action_settings">‮لا</string>
-    <string name="action_search">‌لا</string>
-    <string name="action_management"/>
-    <string name="press_back_key_quit"/>
+    <string name="action_settings">إعدادات</string>
+    <string name="action_search">بحث</string>
+    <string name="action_management">إدارة</string>
+    <string name="press_back_key_quit">To exit, tap the back button once again.</string>
     <string name="featured"/>
     <string name="recommend"/>
-    <string name="games"/>
-    <string name="apps"/>
-    <string name="categories"/>
-    <string name="updates"/>
-    <string name="something_happened"/>
+    <string name="games">ألعاب</string>
+    <string name="apps">تطبيقات</string>
+    <string name="categories">الدليل</string>
+    <string name="updates">تحديثات</string>
+    <string name="something_happened">"حدث شيء ما    (~_~)"</string>
     <string name="load_failed_error"/>
     <string name="load_failed_error_not_found"/>
-    <string name="load_failed_empty"/>
-    <string name="load_failed_all_up_to_date"/>
-    <string name="load_failed_no_results"/>
-    <string name="refresh"/>
-    <string name="management"/>
-    <string name="app_updates"/>
-    <string name="app_management"/>
-    <string name="app_uninstall"/>
-    <string name="apk_management"/>
-    <string name="apk_xapk_management"/>
-    <string name="download_management"/>
-    <string name="settings"/>
-    <string name="about"/>
-    <string name="about_title"><xliff:g example="APKPure" id="app_name">%1$s</xliff:g></string>
-    <string name="about_message"/>
-    <string name="check_update"/>
-    <string name="check_update_replace"/>
+    <string name="load_failed_empty">لايوجد شيء هنا</string>
+    <string name="load_failed_all_up_to_date">كل التطبيقات محدثة</string>
+    <string name="load_failed_no_results">عفوا! لا يوجد نتيجة</string>
+    <string name="refresh">تحديث</string>
+    <string name="management">إدارة</string>
+    <string name="app_updates">تحديثات التطبيق</string>
+    <string name="app_management">تم التثبيت</string>
+    <string name="app_uninstall">إزالة التطبيق</string>
+    <string name="apk_management">إدارة التطبيق</string>
+    <string name="apk_xapk_management">"إدارة  APK / XAPK"</string>
+    <string name="download_management">إدارة التنزيل</string>
+    <string name="settings">إعدادات</string>
+    <string name="about">عن</string>
+    <string name="about_title">&lt;xliff:g xmlns:xliff=\"urn:oasis:أسماء:tc:xliff:مستند:1.2\" مثال=\"APKPure\" id=\"اسم_التطبيق\"&gt;%1$s&lt;/xliff:g&gt;</string>
+    <string name="about_message">&lt;b&gt;إصدار:&lt;/b&gt; %1$s&lt;br&gt;&lt;br&gt;&lt;b&gt;الموقع:&lt;/b&gt; &lt;a href=%2$s&gt;%2$s&lt;/a&gt;&lt;br&gt;&lt;b&gt;البريد الإلكتروني:&lt;/b&gt; &lt;a href=mailto:%3$s&gt;%3$s&lt;/a&gt;</string>
+    <string name="check_update">تأكد من وجود تحديثات</string>
+    <string name="check_update_replace">الإصدار الرسمي</string>
     <string name="check_update_beta"/>
-    <string name="beta"/>
+    <string name="beta">نسخة تجريبية</string>
     <string name="check_update_replace_value" translatable="false">0</string>
     <string name="check_update_beta_value" translatable="false">1</string>
-    <string name="quit"/>
-    <string name="want_to_quit"/>
-    <string name="install"/>
-    <string name="open"/>
-    <string name="delete"/>
-    <string name="delete_all"/>
-    <string name="properties"/>
-    <string name="properties_message"/>
-    <string name="properties_message_v2"/>
-    <string name="want_to_delete_file"/>
-    <string name="want_to_delete_all_files"/>
-    <string name="file_has_been_deleted"/>
-    <string name="failed_to_delete_file"/>
-    <string name="install__label_"><xliff:g example="APKPure" id="app_label">%1$s</xliff:g></string>
-    <string name="user_canceled"/>
-    <string name="io_error"/>
-    <string name="file_format_error"/>
+    <string name="quit">خروج</string>
+    <string name="want_to_quit">هل أنت متأكد أنك ترغب في الخروج؟؟</string>
+    <string name="install">تثبيت</string>
+    <string name="open">فتح</string>
+    <string name="delete">حذف</string>
+    <string name="delete_all">حذف الكل</string>
+    <string name="properties">خصائص</string>
+    <string name="properties_message">&lt;b&gt;مسار:&lt;/b&gt; %1$s&lt;br&gt;&lt;b&gt;حجم:&lt;/b&gt; %2$s&lt;br&gt;&lt;b&gt;التعديل الأخير:&lt;/b&gt; %3$s</string>
+    <string name="properties_message_v2">&lt;b&gt;اسم الحزمة:&lt;/b&gt; %1$s&lt;br&gt;&lt;b&gt;إصدار:&lt;/b&gt; %2$s&lt;br&gt;&lt;b&gt;مسار:&lt;/b&gt; %3$s&lt;br&gt;&lt;b&gt;حجم:&lt;/b&gt; %4$s&lt;br&gt;&lt;b&gt;التعديل الأخير:&lt;/b&gt; %5$s</string>
+    <string name="want_to_delete_file">هل أنت متأكد من أنك ترغب في حذف هذا الملف؟؟</string>
+    <string name="want_to_delete_all_files">هل أنت متأكد من أنك ترغب في حذف كل الملفات؟؟</string>
+    <string name="file_has_been_deleted">تم حذف الملف</string>
+    <string name="failed_to_delete_file">خطأ في حذف الملف</string>
+    <string name="install__label_">&lt;xliff:g xmlns:xliff=\"urn:oasisأسماء:tc:xliff:مستند:1.2\" مثال=\"APKPure\" id=\"نموذج\"&gt;%1$s&lt;/xliff:g&gt;</string>
+    <string name="user_canceled">مستخدم ملغي</string>
+    <string name="io_error">خطأ في النظام.. المساحة المتاحة غير كافية للتثبيت</string>
+    <string name="file_format_error">معلومات الملف خطأ</string>
     <string name="parsing_xapk"/>
-    <string name="installing_obb"/>
-    <string name="extracting_apk"/>
-    <string name="installing_apk"/>
-    <string name="uninstall"/>
-    <string name="uninstalled"/>
-    <string name="last_update__date_"><xliff:g id="date">%1$s</xliff:g></string>
-    <string name="all"/>
-    <string name="screenshots"/>
-    <string name="description"/>
-    <string name="whatsnew"/>
-    <string name="information"/>
-    <string name="version_"/>
-    <string name="updated_"/>
-    <string name="size_"/>
-    <string name="permissions_"/>
-    <string name="type_"/>
-    <string name="category_"/>
-    <string name="more"/>
-    <string name="permissions"/>
-    <string name="other"/>
+    <string name="installing_obb">جاري تثبيت ملفات OBB . . .</string>
+    <string name="extracting_apk">جاري استخراج ملف APK . . .</string>
+    <string name="installing_apk">جاري تثبيت APK. . .</string>
+    <string name="uninstall">إزالة</string>
+    <string name="uninstalled">تمت الإزالة</string>
+    <string name="last_update__date_">&lt;xliff:g xmlns:xliff=\"urn:oasis:أسماء:tc:xliff:مستند:1.2\" id=\"تاريخ\"&gt;%1$s&lt;/xliff:g&gt;</string>
+    <string name="all">الكل</string>
+    <string name="screenshots">لقطة للشاشة</string>
+    <string name="description">الوصف</string>
+    <string name="whatsnew">مالجديد</string>
+    <string name="information">معلومات</string>
+    <string name="version_">الإصدار</string>
+    <string name="updated_">تم التحديث</string>
+    <string name="size_">الحجم</string>
+    <string name="permissions_">الصلاحيات</string>
+    <string name="type_">النوع</string>
+    <string name="category_">الألبوم</string>
+    <string name="more">المزيد</string>
+    <string name="permissions">الصلاحيات</string>
+    <string name="other">أخرى</string>
     <string name="similar_or_related"/>
-    <string name="more_from_developer"/>
-    <string name="more_large"/>
-    <string name="apk"/>
-    <string name="xapk"/>
-    <string name="unknown"/>
+    <string name="more_from_developer">المزيد من المطور</string>
+    <string name="more_large">المزيد</string>
+    <string name="apk">APK</string>
+    <string name="xapk">XAPK</string>
+    <string name="unknown">مجهول</string>
     <string name="flag_as_inappropriate"/>
-    <string name="_ellipsis_"/>
-    <string name="history_version"/>
-    <string name="market_response_error_success"/>
-    <string name="market_response_error_invalid_result"/>
-    <string name="market_response_error_network_connect_error"/>
-    <string name="market_response_error_network_read_error"/>
+    <string name="_ellipsis_"> … </string>
+    <string name="history_version">تاريخ الإصدار</string>
+    <string name="market_response_error_success">نجاح</string>
+    <string name="market_response_error_invalid_result">نتيجة خاطئة</string>
+    <string name="market_response_error_network_connect_error">خطأ في اتصال الشبكة</string>
+    <string name="market_response_error_network_read_error">خطأ في قراءة الشبكة</string>
     <string name="market_response_error_invalid_response_code"/>
     <string name="market_response_error_invalid_response_body"/>
-    <string name="market_response_error_unknown_error__error_"><xliff:g example="SUCCESS" id="error">%1$s</xliff:g>).</string>
+    <string name="market_response_error_unknown_error__error_">خطأ غير معروف (&lt;xliff:g xmlns:xliff=\"urn:oasis:أسماء:tc:xliff:مستند:1.2\" مثال=\"نجاح\" id=\"خطأ\"&gt;%1$s&lt;/xliff:g&gt;).</string>
     <string name="no_more"/>
-    <string name="update"/>
-    <string name="version__version___size_"><xliff:g example="1.0.0" id="version">%1$s</xliff:g>, <xliff:g example="1024 kB" id="size">%2$s</xliff:g></string>
+    <string name="update">تحديث</string>
+    <string name="version__version___size_">الإصدار (&lt;xliff:g xmlns:xliff=\"urn:oasis:أسماء:tc:xliff:مستند:1.2\" مثال=\"1.0.0\" id=\"الإصدار\"&gt;%1$s&lt;/xliff:g&gt;),
+\n&lt;xliff:g xmlns:xliff=\"urn:oasis:أسماء:tc:xliff:مستند:1.2\" مثال=\"1024 KB\" id=\"الحجم\"&gt;%1$s&lt;/xliff:g&gt;</string>
     <plurals name="_count__new_update_is_available">
-        <item quantity="zero"/>
-        <item quantity="one"/>
-        <item quantity="two"/>
-        <item quantity="few"/>
-        <item quantity="many"/>
-        <item quantity="other"/>
+        <item quantity="zero">&lt;xliff:g xmlns:xliff=\"urn:oasis:أسماء:tc:xliff:مستند:1.2\" مثال=\"2\" id=\"عدد\"&gt;%1$s&lt;/xliff:g&gt; يوجد تحديثات متاحة</item>
+        <item quantity="one"></item>
+        <item quantity="two"></item>
+        <item quantity="few"></item>
+        <item quantity="many"></item>
+        <item quantity="other"></item>
     </plurals>
     <string name="launching_please_wait"/>
     <plurals name="_count__item_is_downloading">
