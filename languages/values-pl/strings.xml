@@ -25,8 +25,7 @@
     <string name="download_management">Zarządzaj pobieraniem</string>
     <string name="settings">Ustawienia</string>
     <string name="about">O</string>
-    <string name="about_title">O <xliff:g example="APKPure" id="app_name">%1$s</xliff:g>
-    </string>
+    <string name="about_title">O &lt;xliff:g xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\" example=\"APKPure\" id=\"app_name\"&gt;%1$s&lt;/xliff:g&gt;</string>
     <string name="about_message">&lt;b&gt;Wersja:&lt;/b&gt; %1$s&lt;br&gt;&lt;br&gt;&lt;b&gt;Strona internetowa:&lt;/b&gt; &lt;a href=%2$s&gt;%2$s&lt;/a&gt;&lt;br&gt;&lt;b&gt;Email:&lt;/b&gt; &lt;a href=mailto:%3$s&gt;%3$s&lt;/a&gt;</string>
     <string name="check_update">Sprawdź aktualizacje</string>
     <string name="quit">Wyjdź</string>
@@ -46,8 +45,7 @@
     <string name="want_to_delete_all_files">Czy na pewno chcesz usunąć wszystkie pliki\?</string>
     <string name="file_has_been_deleted">Plik został usunięty.</string>
     <string name="failed_to_delete_file">Nie udało się usunąć pliku.</string>
-    <string name="install__label_">Zainstaluj - <xliff:g example="APKPure" id="app_label">%1$s</xliff:g>
-    </string>
+    <string name="install__label_">Zainstaluj - &lt;xliff:g xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\" example=\"APKPure\" id=\"app_label\"&gt;%1$s&lt;/xliff:g&gt;</string>
     <string name="io_error">Błąd wejścia/wyjścia. Brak wystarczającej ilości wolnego miejsca na dysku do przeprowadzenia instalacji.</string>
     <string name="file_format_error">Błąd formatu pliku.</string>
     <string name="parsing_xapk">Parsowanie XAPK…</string>
@@ -56,8 +54,7 @@
     <string name="installing_apk">Instalowanie pliku APK …</string>
     <string name="uninstall">Odinstaluj</string>
     <string name="uninstalled">Odinstalowano</string>
-    <string name="last_update__date_">Ostatnia aktualizacja: <xliff:g id="date">%1$s</xliff:g>
-    </string>
+    <string name="last_update__date_">Ostatnia aktualizacja: &lt;xliff:g xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\" id=\"date\"&gt;%1$s&lt;/xliff:g&gt;</string>
     <string name="all">Wszystko</string>
     <string name="screenshots">Zrzuty ekranu</string>
     <string name="description">Opis</string>
@@ -86,15 +83,12 @@
     <string name="market_response_error_network_read_error">Błąd sieci.</string>
     <string name="market_response_error_unknown_error__error_">Nieznany błąd (<xliff:g example="SUCCESS" id="error">%1$s</xliff:g>).</string>
     <string name="update">Aktualizuj</string>
-    <string name="version__version___size_">Wersja: <xliff:g example="1.0.0" id="version">%1$s</xliff:g>, <xliff:g example="1024 kB" id="size">%2$s</xliff:g>
-    </string>
+    <string name="version__version___size_">Wersja: &lt;xliff:g xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\" example=\"1.0.0\" id=\"version\"&gt;%1$s&lt;/xliff:g&gt;, &lt;xliff:g xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\" example=\"1024 kB\" id=\"size\"&gt;%2$s&lt;/xliff:g&gt;</string>
     <plurals name="_count__new_update_is_available">
-        <item quantity="one">
-            <xliff:g example="1" id="count">%1$d</xliff:g> nowa aktualizacja jest dostępna</item>
-        <item quantity="few">
-            <xliff:g example="2" id="count">%1$d</xliff:g> nowe aktualizacje są dostępne</item>
-        <item quantity="many">
-            <xliff:g example="2" id="count">%1$d</xliff:g> nowych aktualizacji jest dostępnych</item>
+        <item quantity="one">&lt;xliff:g xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\" example=\"1\" id=\"count\"&gt;%1$d&lt;/xliff:g&gt; nowa aktualizacja jest dostępna</item>
+        <item quantity="few">&lt;xliff:g xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\" example=\"2\" id=\"count\"&gt;%1$d&lt;/xliff:g&gt; nowe aktualizacje są dostępne</item>
+        <item quantity="many">&lt;xliff:g xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\" example=\"2\" id=\"count\"&gt;%1$d&lt;/xliff:g&gt; nowych aktualizacji jest dostępnych</item>
+        <item quantity="other">&lt;xliff:g xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\" example=\"2\" id=\"count\"&gt;%1$d&lt;/xliff:g&gt; nowych aktualizacji jest dostępnych</item>
     </plurals>
     <string name="launching_please_wait">Uruchamianie… Proszę czekać.</string>
     <plurals name="_count__item_is_downloading">
@@ -106,8 +100,7 @@
     <string name="touch_for_view_all_downloads">Dotknij, aby wyświetlić wszystkie pobrania</string>
     <string name="_name__download_failed">Pobieranie <xliff:g example="APKPure" id="name">%1$s</xliff:g> zakończone niepowodzeniem</string>
     <string name="touch_to_download_it_again">Dotknij, aby pobrać ponownie</string>
-    <string name="download_percent">
-        <xliff:g example="50" id="percent">%1$d</xliff:g> %%</string>
+    <string name="download_percent">&lt;xliff:g xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\" example=\"50\" id=\"percent\"&gt;%1$d&lt;/xliff:g&gt; %%</string>
     <string name="pause">Zatrzymaj</string>
     <string name="pause_all">Zatrzymaj wszystkie</string>
     <string name="continue_">Kontynuuj</string>
@@ -146,8 +139,7 @@
     <string name="participate_ultra_download_beta_test_title">Włącz szybkie pobieranie i ciesz się większą prędkością pobierania</string>
     <string name="participate_ultra_download_beta_test_content">Szybkie pobieranie jest nadal w fazach beta. Daj znać, jeżeli napotkasz jakiekolwiek problemy. Funkcję możesz wyłączyć z poziomu ustawień.</string>
     <string name="enable">Włącz</string>
-    <string name="_name__is_up_to_date">
-        <xliff:g example="APKPure" id="name">%1$s</xliff:g> jest aktualny.</string>
+    <string name="_name__is_up_to_date">&lt;xliff:g xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\" example=\"APKPure\" id=\"name\"&gt;%1$s&lt;/xliff:g&gt; jest aktualny.</string>
     <string name="new_version_available_title">Dostępna jest nowa wersja</string>
     <string name="new_version_available_message">&lt;b&gt;Ostatnia wersja:&lt;/b&gt; %1$s&lt;br&gt;&lt;br&gt;&lt;b&gt;Co nowego:&lt;/b&gt;&lt;br&gt;%2$s</string>
     <string name="report">Zgłoś</string>
@@ -169,16 +161,8 @@
     <string name="incompatible_this_app">&lt;big&gt;&lt;b&gt;&lt;font color=%1$d&gt;Twoje urządzenie nie jest kompatybilne z tą aplikacją.&lt;/font&gt;&lt;/b&gt;&lt;/big&gt;&lt;br&gt;&lt;br&gt;Kontynuować\?</string>
     <string name="this_app_not_usable">&lt;big&gt;&lt;b&gt;&lt;font color=%1$d&gt;Ta aplikacja może nie działać.&lt;/font&gt;&lt;/b&gt;&lt;/big&gt;&lt;br&gt;&lt;br&gt;Kontynuować\?</string>
     <string name="setting">Ustawienia</string>
-    <string name="external_storage_not_usable">
-        <big>
-            <b>Musimy uzyskać dostęp do pamięci zewnętrznej. Upewnij się, że możemy jej użyć.</b>
-        </big>
-    </string>
-    <string name="external_storage_permission_denied">
-        <big>
-            <b>Musimy uzyskać dostęp do pamięci zewnętrznej. Upewnij się, że uprawnienia zostały udzielone.</b>
-        </big>
-    </string>
+    <string name="external_storage_not_usable">&lt;big&gt; &lt;b&gt;Musimy uzyskać dostęp do pamięci zewnętrznej. Upewnij się, że możemy jej użyć.&lt;/b&gt; &lt;/big&gt;</string>
+    <string name="external_storage_permission_denied">&lt;big&gt; &lt;b&gt;Musimy uzyskać dostęp do pamięci zewnętrznej. Upewnij się, że uprawnienia zostały udzielone.&lt;/b&gt; &lt;/big&gt;</string>
     <string name="share">Udostępnij</string>
     <string name="ranking_tab4_title">Najlepsze nowe aplikacje</string>
     <string name="app_detail_three_fragment_foot">Pokaż wszystkie komentarze</string>
@@ -295,7 +279,7 @@
     <string name="user_canceled">Anulowane przez użytkownika.</string>
     <string name="history_version">Historia wersji</string>
     <string name="no_more">To wszystko.</string>
-    <string name="failed_to_request_app_asset">Nie udało się zażądać informacji o aktywach aplikacji</string>
+    <string name="failed_to_request_app_asset">Nie udało się zażądać informacji o zasobach aplikacji.</string>
     <string name="share_app_url"> Udostępnij <xliff:g example="APKPure" id="app_name">%1$s</xliff:g> APK (od <xliff:g example="APKPure" id="social_network_name">%2$s</xliff:g>) <xliff:g example="https://apkpure.com/p/com.apkpure.aegon" id="app_url">%3$s</xliff:g>
     </string>
     <string name="update_all">Aktualizuj wszystkie</string>
@@ -316,10 +300,8 @@
     <string name="share_app_url_group">
         <xliff:g example="APKPure" id="app_name">%1$s</xliff:g> Grupa. (od <xliff:g example="APKPure" id="social_network_name">%2$s</xliff:g>) <xliff:g example="https://apkpure.com/p/com.apkpure.aegon" id="app_url">%3$s</xliff:g>
     </string>
-    <string name="_name__version_history">
-        <xliff:g example="APKPure" id="name">%1$s</xliff:g> Historia wersji</string>
-    <string name="update__date___size_">Aktualizacja: <xliff:g example="Mar 3, 2016" id="date">%1$s</xliff:g>, <xliff:g example="1024 kB" id="size">%2$s</xliff:g>
-    </string>
+    <string name="_name__version_history">&lt;xliff:g xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\" example=\"APKPure\" id=\"name\"&gt;%1$s&lt;/xliff:g&gt; Historia wersji</string>
+    <string name="update__date___size_">Aktualizacja: &lt;xliff:g xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\" example=\"Mar 3, 2016\" id=\"date\"&gt;%1$s&lt;/xliff:g&gt;, &lt;xliff:g xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\" example=\"1024 kB\" id=\"size\"&gt;%2$s&lt;/xliff:g&gt;</string>
     <string name="update___count__">Aktualizuj (<xliff:g example="3" id="count">%1$d</xliff:g>)</string>
     <string name="unignore">Nie ignoruj</string>
     <string name="deselect_all">Odznacz wszystko</string>
@@ -337,8 +319,7 @@
     <string name="installation">Instalacja</string>
     <string name="show_notification_after_installation">Pokaż powiadomienie po zainstalowaniu</string>
     <string name="delete_packages_after_installation">Usuń pakiety po zainstalowaniu</string>
-    <string name="_name__installation_completed">Zakończono instalację <xliff:g example="APKPure" id="name">%1$s</xliff:g>
-    </string>
+    <string name="_name__installation_completed">Zakończono instalację &lt;xliff:g xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\" example=\"APKPure\" id=\"name\"&gt;%1$s&lt;/xliff:g&gt;</string>
     <string name="touch_to_open">Dotknij, aby uruchomić.</string>
     <string name="auto_service_install_accessibility_title">Automatyczna instalacja</string>
     <string name="auto_service_install_accessibility_summary">Wspiera Androida 4.1 i nowsze. Nie wymaga uprawnień roota.</string>
@@ -418,8 +399,7 @@
     <string name="reply_dialog_marked_words">Dotknij i przytrzymaj zdjęcie, aby je usunąć.</string>
     <string name="reply_comment">Odpowiedz na komentarz</string>
     <string name="save_original_image">Zapisz</string>
-    <string name="already_save">Zapisano<xliff:g example="ApKPure/photo" id="path">%1$s</xliff:g>
-    </string>
+    <string name="already_save">Zapisano&lt;xliff:g xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\" example=\"ApKPure/photo\" id=\"path\"&gt;%1$s&lt;/xliff:g&gt;</string>
     <string name="load_end">Nie ma więcej danych.</string>
     <string name="load_failed_click_retry">Wczytywanie nie powiodło się. Dotknij, aby spróbować ponownie</string>
     <string name="loading">Ładowanie…</string>
@@ -495,12 +475,10 @@
     <string name="submit_comment_title_hint">Tytuł</string>
     <string name="comment_item_fold">zwiń komentarz</string>
     <plurals name="comment_reply_item_fold">
-        <item quantity="one">
-            <xliff:g example="1" id="count">%1$d</xliff:g> Zwiń odpowiedź</item>
-        <item quantity="few">
-            <xliff:g example="2" id="count">%1$d</xliff:g> Zwiń odpowiedzi</item>
-        <item quantity="many">
-            <xliff:g example="2" id="count">%1$d</xliff:g> Zwiń odpowiedzi</item>
+        <item quantity="one">&lt;xliff:g xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\" example=\"1\" id=\"count\"&gt;%1$d&lt;/xliff:g&gt; Zwiń odpowiedź</item>
+        <item quantity="few">&lt;xliff:g xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\" example=\"2\" id=\"count\"&gt;%1$d&lt;/xliff:g&gt; Zwiń odpowiedzi</item>
+        <item quantity="many">&lt;xliff:g xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\" example=\"2\" id=\"count\"&gt;%1$d&lt;/xliff:g&gt; Zwiń odpowiedzi</item>
+        <item quantity="other">&lt;xliff:g xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\" example=\"2\" id=\"count\"&gt;%1$d&lt;/xliff:g&gt; Zwiń odpowiedzi</item>
     </plurals>
     <string name="comment_no_reply">Oj, tu nic nie ma.</string>
     <string name="comment_reply_info_name">Szczegóły</string>
@@ -723,17 +701,13 @@
 \n3. Powiadom APKPure o niezindeksowanych aplikacjach, wypełniając formularz rekomendacji.</string>
     <string name="recommend_not_fount_info">Notify APKPure to add \"%1$s\", you need to finish the forms.</string>
     <string name="msg_all_read_notice">Uwaga</string>
-    <string name="share_app_url_comment_v3">Udostępnij <xliff:g example="zhangsan" id="name">%1$s</xliff:g>
-        <xliff:g example="post/story/review" id="type">%2$s</xliff:g> (z APKPure):<xliff:g example="https://apkpure.com" id="url">%3$s </xliff:g>
-    </string>
+    <string name="share_app_url_comment_v3">Udostępnij &lt;xliff:g xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\" example=\"zhangsan\" id=\"name\"&gt;%1$s&lt;/xliff:g&gt; &lt;xliff:g xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\" example=\"post/story/review\" id=\"type\"&gt;%2$s&lt;/xliff:g&gt; (z APKPure):&lt;xliff:g xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\" example=\"https://apkpure.com\" id=\"url\"&gt;%3$s &lt;/xliff:g&gt;</string>
     <string name="apk_unable_upload">Wysyłanie apk nie powiodło się.</string>
     <string name="long_image">Wysoki obraz</string>
     <string name="edit_tag">Edytuj tag</string>
     <string name="save_tag_hint_msg">Zmiana nie zostanie zapisana. Czy na pewno chcesz wyjść\?</string>
-    <string name="un_follow_xx">Przestań obserwować <xliff:g example="Apkpure" id="name">%1$s</xliff:g>
-    </string>
-    <string name="follow_xx">Obserwuj <xliff:g example="Apkpure" id="name">%1$s</xliff:g>
-    </string>
+    <string name="un_follow_xx">Przestań obserwować &lt;xliff:g xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\" example=\"Apkpure\" id=\"name\"&gt;%1$s&lt;/xliff:g&gt;</string>
+    <string name="follow_xx">Obserwuj &lt;xliff:g xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\" example=\"Apkpure\" id=\"name\"&gt;%1$s&lt;/xliff:g&gt;</string>
     <string name="app_rating">Ocena:</string>
     <string name="number">\"</string>
     <string name="headline_footer_refresh">Pociągnij w dół lub dotknij tego wiersza, aby odświeżyć.</string>
@@ -762,8 +736,7 @@
     <string name="community_guide_lines">Wytyczne dla społeczności</string>
     <string name="my_draft">Moja wersje robocza</string>
     <string name="clear_empty">Wyczyść wszystko</string>
-    <string name="several_draft">
-        <xliff:g example="5" id="count">%1$s</xliff:g> wersja robocza</string>
+    <string name="several_draft">&lt;xliff:g xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\" example=\"5\" id=\"count\"&gt;%1$s&lt;/xliff:g&gt; wersja robocza</string>
     <string name="delete_all_draft_hint">Czy na pewno chcesz usunąć wszystkie wersje robocze\?</string>
     <string name="edit_draft">Edytuj wersję roboczą</string>
     <string name="delete_draft">Usuń wersję roboczą</string>
@@ -842,8 +815,7 @@
     <string name="choice_hashtag">Polecane hashtagi</string>
     <string name="gif_auto_desc">Automatyczne odtwarzanie GIFów w sieci Wi-Fi</string>
     <string name="gif_auto_title">Automatyczne odtwarzanie GIF</string>
-    <string name="several_drafts">
-        <xliff:g example="5" id="count">%1$s</xliff:g> wersje robocze</string>
+    <string name="several_drafts">&lt;xliff:g xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\" example=\"5\" id=\"count\"&gt;%1$s&lt;/xliff:g&gt; wersje robocze</string>
     <string name="home_recommended_desc">Twój post został wybrany jako rekomendacja strony głównej,%1$s</string>
     <string name="search_tab_invitation">Posty</string>
     <string name="home_recommended_title">Gratulacje!</string>
