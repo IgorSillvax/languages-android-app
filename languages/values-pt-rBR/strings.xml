@@ -9,7 +9,8 @@
     <string name="apps">Tudo</string>
     <string name="categories">Categorias</string>
     <string name="updates">Atualizações</string>
-    <string name="something_happened">Algo aconteceu.</string>
+    <string name="something_happened">&gt;_&lt;
+\nAlgo aconteceu.</string>
     <string name="load_failed_error">Oops! Ocorreu um erro.</string>
     <string name="load_failed_empty">Não há nada aqui.</string>
     <string name="load_failed_all_up_to_date">Todos os apps estão atualizados.</string>
@@ -47,7 +48,7 @@
     <string name="install__label_">Inatalar - <xliff:g example="APKPure" id="app_label"> %1$s</xliff:g>
     </string>
     <string name="user_canceled">Usuário cancelado.</string>
-    <string name="io_error">"Erro IO.  Não há espaço suficiente disponível para instalação."</string>
+    <string name="io_error">Erro de IO. O dispositivo não possuí mais espaço disponível para instalação.</string>
     <string name="file_format_error">Erro do formato do arquivo.</string>
     <string name="parsing_xapk">Analisando XAPK …</string>
     <string name="installing_obb">Instalando arquivos OBB…</string>
@@ -134,7 +135,7 @@
     <string name="search_history">Histórico</string>
     <string name="clear_search_history">Limpar todo o histórico</string>
     <string name="improvement_plan_title">Plano de melhoria da experiência do usuário</string>
-    <string name="improvement_plan_message">"Ajude-nos a melhorar sua experiência enviando suas informações do dispositivo Android.  Prometemos "<b>não</b> coletar suas informações pessoais identificáveis (nome, endereço, endereço de e-mail, número do seguro social ou outros identificadores exclusivos).</string>
+    <string name="improvement_plan_message">Ajude a melhorar sua experiência no aplicativo enviando informações do seu celular com Android. Prometemos &lt;b&gt;não&lt;/b&gt; coletar suas informações pessoais importantes (nome, endereço, endereço de e-mail, número do seguro social ou outros dados exclusivos).</string>
     <string name="join_us">Junte-se a nós</string>
     <string name="skip">Pular</string>
     <string name="_name__is_up_to_date">
@@ -146,11 +147,11 @@
     <string name="report__">Relatório…</string>
     <string name="report_problem__">Reportar problema…</string>
     <string name="report_problem_subject">Reportar problema</string>
-    <string name="report_problem_text">Tópico do problema:
-%1$s
-
-Detalhe do problema:
-%2$s</string>
+    <string name="report_problem_text">Típico do problema:
+\n%1$s
+\n
+\nDetalhes do problema:
+\n%2$s</string>
     <string name="contact_us__">Entre em contato conosco…</string>
     <string name="contact_us">Entre em contato conosco</string>
     <string name="report_content">Relatório do conteúdo</string>
@@ -190,10 +191,8 @@ Detalhe do problema:
     <string name="deselect_all">Desmarcar todos</string>
     <string name="ignored">Ignorado</string>
     <plurals name="total__count__apps__size_">
-        <item quantity="one">"Total: &lt;b&gt;&lt;font cor=%1$d&gt;%2$d&lt;/font&gt;&lt;/b&gt; app, &lt;b&gt;&lt;font color=%1$d&gt;%3$s&lt;/font&gt;&lt;/b&gt;
-\n "</item>
-        <item quantity="other">"Total: &lt;b&gt;&lt;font cor=%1$d&gt;%2$d&lt;/font&gt;&lt;/b&gt; apps, &lt;b&gt;&lt;font color=%1$d&gt;%3$s&lt;/font&gt;&lt;/b&gt;
-\n "</item>
+        <item quantity="one">Total: &lt;b&gt;&lt;font cor=%1$d&gt;%2$d&lt;/font&gt;&lt;/b&gt; app, &lt;b&gt;&lt;font color=%1$d&gt;%3$s&lt;/font&gt;&lt;/b&gt;</item>
+        <item quantity="other">Total: &lt;b&gt;&lt;font cor=%1$d&gt;%2$d&lt;/font&gt;&lt;/b&gt; apps, &lt;b&gt;&lt;font color=%1$d&gt;%3$s&lt;/font&gt;&lt;/b&gt;</item>
     </plurals>
     <string name="total_zero_app">"Total: &lt;b&gt;&lt;font cor=%1$d&gt;0&lt;/font&gt;&lt;/b&gt; app
 \n "</string>
