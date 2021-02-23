@@ -28,7 +28,7 @@
     <string name="about">အကြောင်းအရာ</string>
     <string name="about_title">About <xliff:g example="APKPure" id="app_name">%1$s</xliff:g>
     </string>
-    <string name="check_update"></string>
+    <string name="check_update">နောက်ဆုံးသတင်းများကိုစစ်ဆေးပါ</string>
     <string name="quit">ထွက်မည်</string>
     <string name="want_to_quit">Are you sure you want to quit?</string>
     <string name="want_to_quit">သင်တကယ်ပဲထွက်ခွာတော့မှာလား\?</string>
@@ -71,7 +71,7 @@
     <string name="size_">အရြယ္အစား</string>
     <string name="permissions_">ခြင့္ျပဳခ်က္မ်ား</string>
     <string name="all">အားလုံး</string>
-    <string name="type_">ပုံစံ</string>
+    <string name="type_">အမျိုးအစား:</string>
     <string name="category_">အကြောင်းအရာ :</string>
     <string name="more">ပို၍</string>
     <string name="permissions">ခွင့်ပြုချက်များ</string>
@@ -93,7 +93,7 @@
     <string name="update">မွမ်းမံမှု</string>
     <string name="launching_please_wait">ဖြြြင့္‌ေနပါသည္... ေက်းဇူးျပဳ၍‌ ခဏေစာင့္ေပးပါ...</string>
     <plurals name="_count__item_is_downloading">
-        <item quantity="other">Downloading <xliff:g example="1" id="count">%1$d</xliff:g> item.</item>
+        <item quantity="other">ဒေါင်းလုပ်ရယူပါ &lt;xliff: g xmlns: xliff = \"urn: oasis: names: tc: xliff: document: 1.2\" example = \"2\" id = \"count\"&gt;% 1 $ ။&lt;/ xliff: g&gt; ပစ္စည်းတွေ။</item>
     </plurals>
     <string name="downloads_complete">ဒေါင်းလုဒ်အားလုံး ပြီးပါပြီ</string>
     <string name="touch_for_view_all_downloads">ေဒါင္းလုတ္ထားသည္မ်ားကိုၾကၫ့္ရင္ ဒီကိုႏိွပ္ပါ</string>
@@ -152,7 +152,7 @@
     <string name="new_version_available_title">ဗားရှင်းအသစ်ရပြီ</string>
     <string name="new_version_available_message">"&lt;b&gt;နောက်ဆုံး ဗားရှင်း:&lt;/b&gt; %1$s&lt;br&gt;&lt;br&gt;&lt;b&gt;ဘာတွေ အသစ်ပါလဲ:&lt;/b&gt;&lt;br&gt;%2$s"</string>
     <string name="report">တိုင်ကြားမည်</string>
-    <string name="report__">တိုင်ကြားမည်…</string>
+    <string name="report__">တိုင်ကြားသည်..…</string>
     <string name="report_problem__">ပြဿနာတစ်ခုကို တိုင်ကြားမည်…</string>
     <string name="report_problem_subject">ပြဿနာတစ်ခုအား တိုင်ကြားမည်</string>
     <string name="report_problem_text">ပြဿနာ အကြောင်းအရာ:%1$sပြဿနာ အသေးစိတ်:%2$s</string>
@@ -161,7 +161,7 @@
     <string name="report_content">အကြောင်းအရာအား တိုင်ကြားမည်</string>
     <string name="installation_failed">တပ်ဆင်ခြင်း မအောင်မြင်</string>
     <string name="invalid_app_detail">အပ်၏အသေးစိတ်အချက်အလက် တရားမဝင်.</string>
-    <string name="incompatible_this_app">&lt;big&gt;&lt;b&gt;&lt;font color=%1$d&gt;Your device isn\'t compatible with this app.&lt;/font&gt;&lt;/b&gt;&lt;/big&gt;&lt;br&gt;&lt;br&gt;Do you want to continue\?</string>
+    <string name="incompatible_this_app">&lt;big&gt; &lt;b&gt; &lt;font color =% 1 $ ။&gt; သင်၏ကိရိယာသည်ဤအက်ပလီကေးရှင်းနှင့်မကိုက်ညီပါ။ &lt;/font&gt; &lt;/b&gt; &lt;/big&gt; &lt;br&gt; &lt;br&gt; Continue\?</string>
     <string name="this_app_not_usable">"&lt;big&gt;&lt;b&gt;&lt;font color=%1$d&gt;ဤအပ်အား အသုံးပြုနိုင်မည် မဟုတ်.&lt;/font&gt;&lt;/b&gt;&lt;/big&gt;&lt;br&gt;&lt;br&gt;သင်ဆက်လုပ်လိုပါသလား?"</string>
     <string name="setting">အပြင်အဆင်</string>
     <string name="external_storage_not_usable">
@@ -211,7 +211,7 @@
     <string name="data_saver_model_summery">၎င်းအားဖွင့်ထားခြင်းဖြင့် ပုံအရွယ်အစားနှင့် အရည်အသွေးအား လျှော့ချ၍ ဆယ်လူလာအချက်အလက် သုံးစွဲမှုနည်းအောင် ကူညီလိမ့်မည်.</string>
     <string name="download_via_wifi_only">ဝိုင်ဖိုင်ပေါ်တွင်သာ ဒေါင်းလုဒ်လုပ်ရန်</string>
     <string name="participate_ultra_download_beta_test_title">Ultra download ဖြင့်မတတ်နိုင်ပါ၊ပိုမြန်‌ေသာdowload speed ကိုရယူပါ</string>
-    <string name="participate_ultra_download_beta_test_content">Ultra download သည်betaတွင်ရှိတုန်းပဲ။သင်သည်မည်သည့်ပြသနာများရှိလျှင်ကျွန်‌ေတာ်တုိ့ကုိသိခွင့်ပြုပါ။သင်သည်settingတွင်ထုိအရာကုိလွယ်ကူစွာတတ်နုိင်သည်။</string>
+    <string name="participate_ultra_download_beta_test_content">Ultra ဒေါင်းလုပ် သည် beta တွင်ရှိတုန်းပဲ။သင်သည်မည်သည့်ပြသနာများရှိလျှင်ကျွန်‌တော်တို့ကိုသိခွင့်ပြုပါ။သင်သည်အပြင်အဆင်တွင်ထိုအရာကိုလွယ်ကူစွာတတ်နိုင်သည်။</string>
     <string name="enable">ဖြင့္ပါ</string>
     <string name="feedback">အကြောင်းကြားစာ</string>
     <string name="properties_message_v2">
@@ -449,18 +449,18 @@
     <string name="email_address_hint_et">သင့်အီးမေးလ်ရိုက်ထည့်ပါ.</string>
     <string name="failed_to_request_app_asset">အပ် အချက်အလက်ရယူ၍မရပါ။.</string>
     <string name="app_detail_tab_evaluation">ပြန်လည်ဆန်းစစ်ခြင်းများ</string>
-    <string name="app_submit_star_toast">ကျေးဇူးပြု၍သင်၏နှုန်းထားစာစုတင်သည်</string>
+    <string name="app_submit_star_toast">ကျေးဇူးပြု၍သင်၏အဆင့်ကိုတင်ပေးပါ။</string>
     <string name="app_detail_comment_type_web">စာမျက်နှာ</string>
     <string name="auto_service_directly__material_">တိုက်ရိုက်တပ်ဆင်သည်</string>
-    <string name="auto_service_description">Enable \"APKPure Auto Install\" to keep APKPure \"Auto Install\" running smoothly.
+    <string name="auto_service_description">APKPure \"အလိုလျှောက်ထည့်သွင်းပါ\" ကိုချောချောမွေ့မွေ့လည်ပတ်စေရန် \"APKPure အလိုလျှောက်ထည့်သွင်ပါ\" ကိုဖွင့်ပါ။
 \n
-\n\"APKPure Auto Install\" can save your time on clicking install buttons when installing or updating apks. And you don\'t have to check your phone all the time.
+\n\"APKPure အလိုလျှောက်ထည့်သွင်းပါ\" သည် apk များထည့်သွင်းခြင်းသို့မဟုတ်အသစ်ပြောင်းခြင်းတွင် ထည့်သွင်းရန် ခလုပ်များကိုနှိပ်ခြင်းဖြင့်သင်၏အချိန်ကိုသက်သာစေသည်။ ပြီးတော့မင်းဖုန်းကိုတစ်ချိန်လုံးစစ်ဆေးစရာမလိုဘူး။
 \n
-\nOnce enabling this feature, you may receive system risk warnings. Please tap \"OK\" to turn the accessibility switch \"ON\".
+\nဤအင်္ဂါရပ်ကိုဖွင့်ပြီးသည်နှင့်သင်သည်စနစ်အန္တရာယ်သတိပေးချက်များကိုရရှိနိုင်သည်။ ကျေးဇူးပြု၍ အိုကေ ကိုနှိပ်ပြီးအသုံးပြုခွင့်ခလုတ်ကို“ နိုး” ဖွင့်ပါ။
 \n
-\nTo ensure APKPure well functioning, please add APKPure \"White List\" in your anti-virus app.
+\nAPKPure ကောင်းစွာလည်ပတ်စေရန်သင်၏ဗိုင်းရပ်စ်နှိမ်နင်းရေး အက်(ပ်) တွင် APKPure \"White List\" ကိုထည့်ပါ။
 \n
-\nThe functions mentioned above support Android 4.1 and above. No root permissions are needed. We promise we will never ever collect any of your personal information in this accessibility service. Please feel free to contact us for any problems.</string>
+\nအထက်တွင်ဖော်ပြခဲ့သောလုပ်ဆောင်ချက်များသည် အန်းဒရိုက် ၄.၁ နှင့်အထက်ကိုထောက်ပံ့သည်။ root ခွင့်ပြုချက်မလိုအပ်ပါ။ သင်၏ကိုယ်ရေးကိုယ်တာအချက်အလက်များကိုဤလက်လှမ်းမီမှု ၀ န်ဆောင်မှုတွင်မည်သည့်အခါမှကောက်ယူမည်ဟုကျွန်ုပ်တို့ကတိပြုသည်။ မည်သည့်ပြသနာများအတွက်မဆိုကျွန်ုပ်တို့ကိုဆက်သွယ်ပါ။</string>
     <string name="search_tab_invitation">ပိုစ့်များ</string>
     <string name="packaging_success_ready_upload">အောင်မြင်သွားပါပြီ အပ်လုတ်တင်ရန်အဆင်သင့်ပါပဲ</string>
     <string name="packaging">ဖြည်နေသည်</string>
@@ -478,4 +478,55 @@
     <string name="xapk_upload_hint_info">XAPKဖိုင်မှာအလွန်ကြီးမားနေပါသည် အပ်လုတ်တင်မှာလား\?</string>
     <string name="packaging_failed_try_again">မအောင်မြင်ပါ ပြန်ကြိုးစားကြည့်ပါ</string>
     <string name="preparing_upload">အပ်လုတ်တင်ရန်စောင့်ဆိုင်းနေသည်</string>
+    <string name="update_pwd_new_pwd_null_tv">စကားဝှက်အသစ်သည်အလွတ်မဖြစ်နိုင်ပါ။</string>
+    <string name="update_pwd_Confirm_null_tv">လျှို့ဝှက်နံပါတ်အတည်ပြုချက်သည်အလွတ်မဖြစ်နိုင်ပါ။</string>
+    <string name="update_pwd_current_null_tv">စကားဝှက်အဟောင်းကိုအလွတ်မဖြစ်နိုင်ပါ။</string>
+    <string name="upload_avatar">တင်နေသည်</string>
+    <string name="update_pwd_Confirm_pwd_et">စကားဝှက်အသစ်ကိုအတည်ပြုပါ</string>
+    <string name="update_pwd_new_pwd_et">စကားဝှက်အသစ်</string>
+    <string name="update_pwd_current_pwd_et">စကားဝှက်အဟောင်း</string>
+    <string name="update_pwd_title">ကျွန်ုပ်၏စကားဝှက်ကိုပြန်လည်သတ်မှတ်ပါ</string>
+    <string name="message_notifications_login">ကျေးဇူးပြုပြီးဒီစာမျက်နှာကိုကြည့်ရှုရန်</string>
+    <string name="message_notifications_praise">သင်၏ထင်မြင်ချက်ကိုမြှင့်တင်ခဲ့သည်</string>
+    <string name="message_at_title">ဖယောင်းတိုင်</string>
+    <string name="home_message_praise">ကြိုက်တယ်</string>
+    <string name="home_message_reply">ပြန်ကြားချက်များ</string>
+    <string name="message_at">မင်းကိုဖော်ပြခဲ့တယ်</string>
+    <string name="message_notify">အသိပေးချက်များ</string>
+    <string name="update_intro_tv">သင့်ရဲ့ဇီဝဟာအချည်းနှီးမဖြစ်နိုင်ဘူး</string>
+    <string name="update_intro_et">သင့်အကြောင်းအချို့အသေးစိတ်အချက်အလက်များ</string>
+    <string name="update_nickname_error">ဒီအမည်ပြောင်ယူပြီးဖြစ်သည် ကျေးဇူးပြုပြီးနောက်တစ်ခုရိုက်ထည့်ပါ</string>
+    <string name="permission_denied">ဝင်ရောက်ချိတ်ဆက်ရန်ငြင်းဆိုခြင်း!</string>
+    <string name="tip_permission_camera_storage">ကင်မရာနှင့် SD ကဒ်သုံးရန်ခွင့်ပြုချက်မရှိပါ။ ကျေးဇူးပြု၍ သင့်ဖုန်းရှိခွင့်ပြုချက်စီမံခန့်ခွဲမှု၌ပေးပါ။</string>
+    <string name="scan_qr_code_copy_success">စာသားကူးယူထားသည်</string>
+    <string name="scan_qr_code_result_hint">QR ကုဒ်အသေးစိတ်ကို：</string>
+    <string name="zxing_msg_default_status">ကျေးဇူးပြု၍ ၎င်းကိုစကင်ဖတ်စစ်ဆေးရန် viewfinder အတွင်းရှိ QR ကုဒ်ကိုထည့်ပါ။</string>
+    <string name="scan_qr_code_hint">QR ကုဒ်ကိုစကင်ဖတ်ရန်ကိုအသုံးမပြုမီ QR ကုဒ်စစ်ဆေးရန်လိုအပ်သည့်ကင်မရာခွင့်ပြုချက်ကိုသင်ပေးရမည်။</string>
+    <string name="loading">တင်နေသည်…</string>
+    <string name="load_failed_click_retry">တင်ရန်မအောင်မြင်ပါ ကျေးဇူးပြု၍ နောက်တစ်ကြိမ်ကြိုးစားရန်ကိုနှိပ်ပါ</string>
+    <string name="load_end">နောက်ထပ်အချက်အလက်မရှိပါ။</string>
+    <string name="already_save">သိမ်းပြီး&lt;xliff: g xmlns: xliff = \"urn: oasis: names: tc: xliff: document: 1.2\" ဥပမာ = \"ApKPure / ဓာတ်ပုံ\" id = \"path\"&gt;% 1 $ s&lt;/ xliff: g&gt;</string>
+    <string name="save_original_image">သိမ်းဆည်းပါ</string>
+    <string name="reply_comment">မှတ်ချက်ပေးရန်ပြန်ကြားချက်</string>
+    <string name="reply_dialog_marked_words">၎င်းကိုဖျက်ရန်ရုပ်ပုံကိုအသာပုတ်။ ကိုင်ထားပါ။</string>
+    <string name="publish">ပို့စ်တင်</string>
+    <string name="input_reply_content">ကျေးဇူးပြု၍ သင့်ပြန်ကြားချက်ကိုရိုက်ထည့်ပါ</string>
+    <string name="reply">ပြန်ပြောပါ</string>
+    <string name="download_mkdir_external_storage_values">ပြင်ပသိုလှောင်ခန်း</string>
+    <string name="download_mkdir_internal_storage_values">ဖုန်းတွင်းသိုလှောင်ခန်း</string>
+    <string name="download_mkdir_external_storage_fill_toast">သိုလှောင်ရန်မလုံလောက်ပါ။ အက်ပ်များကိုဒေါင်းလုတ် လုပ်၍ ရသည်။</string>
+    <string name="download_mkdir_internal_storage_entries1">အက်(စ်)ဒီကဒ် ၁</string>
+    <string name="download_mkdir_internal_storage_entries">အက်(စ်)ဒီကဒ်</string>
+    <string name="download_mkdir_internal_storage_size_des">% 1 $ s အခမဲ့စုစုပေါင်း % 2 $ s</string>
+    <string name="download_complete_installation_setting_entries_never">ဘယ်တော့မှ install မလုပ်ပါနဲ့</string>
+    <string name="download_complete_installation_setting_entries_only">ရှေ့တန်းတွင်အလုပ်လုပ်သောအခါသာတပ်ဆင်ပါ</string>
+    <string name="download_complete_installation_setting">ဒေါင်းလုပ် ပြီးနောက်တပ်ဆင်ခြင်း ရွေးချယ်စရာများကို</string>
+    <string name="app_detail_discuss_filter_featured">အဓိက</string>
+    <string name="app_detail_comment_order_array_most_recent">လတ်တလောလတ်တလော</string>
+    <string name="app_detail_comment_order_array_default">ပုံမှန်အားဖြင့် Sort</string>
+    <string name="app_detail_evaluation_failed_bt">ပြန်လည်သုံးသပ်</string>
+    <string name="app_detail_comment_no_data">အသုံးပြုသူများ၏သုံးသပ်ချက်များမရှိပါ။ သင်၏သုံးသပ်ချက်ကိုယခုရေးပါ</string>
+    <string name="app_detail_comment_score_less">သုံးစွဲသူအနည်းငယ်သာပြန်လည်သုံးသပ်ခြင်း</string>
+    <string name="app_detail_comment_filter_all">သုံးသပ်ချက်များအားလုံး</string>
+    <string name="app_detail_comment_filter_sort_score">ထိပ်တန်းအဆင့်သတ်မှတ်ချက်</string>
 </resources>
