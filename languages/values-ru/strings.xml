@@ -115,7 +115,7 @@
     <string name="failed">Не удалось</string>
     <string name="file_invalid">Некорректный файл</string>
     <string name="file_missing">Файл отсутствует</string>
-    <string name="expired">просроченно</string>
+    <string name="expired">Истекший</string>
     <string name="detail">Детали</string>
     <string name="remove">Убрать</string>
     <string name="want_to_remove_download_item">Вы точно хотите убрать эту загрузку?</string>
@@ -153,8 +153,7 @@
         </big>
     </string>
     <string name="share">Поделиться</string>
-    <string name="share_app_url"> Поделиться <xliff:g example="APKPure" id="app_name">%1$s</xliff:g> APK (from<xliff:g example="APKPure" id="social_network_name">%2$s</xliff:g>)<xliff:g example="https://apkpure.com/p/com.apkpure.aegon" id="app_url">%3$s</xliff:g>
-    </string>
+    <string name="share_app_url">" Поделиться &lt;xliff:g xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\" example=\"APKPure\" id=\"app_name\"&gt;%1$s&lt;/xliff:g&gt; APK (from &lt;xliff:g xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\" example=\"APKPure\" id=\"social_network_name\"&gt;%2$s&lt;/xliff:g&gt;) &lt;xliff:g xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\" example=\"https://apkpure.com/p/com.apkpure.aegon\" id=\"app_url\"&gt;%3$s&lt;/xliff:g&gt; "</string>
     <string name="_name__version_history">
         <xliff:g example="APKPure" id="name">%1$s</xliff:g> История Версий</string>
     <string name="update__date___size_">Обновить: <xliff:g example="Mar 3, 2016" id="date">%1$s</xliff:g>, <xliff:g example="1024 kB" id="size">%2$s</xliff:g>
@@ -205,9 +204,9 @@
     <string name="more_large">Ещё</string>
     <string name="installed">Установлено</string>
     <string name="download_over_cellular">Скачать через мобильную сеть</string>
-    <string name="download_over_cellular_content">Вы собираетесь загружать через мобильную сеть. Продолжите или нет?</string>
+    <string name="download_over_cellular_content">Вы собираетесь загружать через мобильную сеть. Продолжить или нет\?</string>
     <string name="participate_ultra_download_beta_test_title">Включите режим Ультра Загрузки и наслаждайтесь большей скоростью загрузки</string>
-    <string name="participate_ultra_download_beta_test_content">"Режим Ультра Загрузки  в стадии бета-тестирования, дайте нам знать, если у вас возникнут какие-либо проблемы. Вы можете отключить его в Настройках."</string>
+    <string name="participate_ultra_download_beta_test_content">Режим Ультра Загрузки в стадии бета-тестирования, дайте нам знать, если у вас возникнут какие-либо проблемы. Вы можете отключить его в Настройках.</string>
     <string name="enable">Включить</string>
     <string name="similar_or_related">Похожие или связанные</string>
     <string name="more_from_developer">Ещё от разработчика</string>
@@ -215,24 +214,28 @@
     <string name="changing_language">Идёт смена языка… Пожалуйста, подождите.</string>
     <string name="download_via_wifi_only">Загрузка только через Wi-Fi</string>
     <string name="enable_ultra_download">Включить режим ультра загрузки</string>
-    <string name="enable_ultra_download_summary">"Режим Ультра Загрузки  в стадии бета, дайте нам знать, если у вас возникнут какие-либо проблемы."</string>
+    <string name="enable_ultra_download_summary">Режим Ультра Загрузки в стадии бета, дайте нам знать, если у вас возникнут какие-либо проблемы.</string>
     <string name="auto_service_install_accessibility_title">Автоматическая установка</string>
     <string name="auto_service_install_accessibility_summary">Поддерживается Android 4.1 и повыше, доступа root не требуется.</string>
     <string name="auto_service_dialog_title">Включить Автоматическую Установку</string>
     <string name="auto_service_dialog_message">Для автоматической установки требуется разрешение от вас. 100% безопасно.</string>
     <string name="auto_service_title">Автоматическая Установка APKPure</string>
-    <string name="auto_service_description">Включите \"Автоматическую Установку APKPure \", чтобы поддержать бесперебойную работу \"Автоматической Установки\" APKPure.
-        \"Автоматическая Установка APKPure\" может помочь вам нажать все кнопки установки во время установки или обновления приложений, вам не нужно постоянно проверять свой телефон.
-        Во время активации данной функции вы можете получить уведомление системы безопасности, пожалуйста нажмите кнопку \"OK\" чтобы предоставить доступ.
-        Чтобы быть уверенным что APKPure работает корректно, пожалуйста добавьте APKPure в \"Белый Список\" вашего приложения очистки.
-        Упомянутые выше функции поддерживают Android 4.1+, права суперпользователя не требуются. Мы обещаем никогда не собирать любых ваших персональных данных в данном сервисе. Пожалуйста, не стесняйтесь обращаться к нам с любыми проблемами.</string>
+    <string name="auto_service_description">Включите «Автоустановка APKPure», чтобы обеспечить бесперебойную работу «Автоустановки» APKPure.
+\n
+\n«Автоматическая установка APKPure» может сэкономить ваше время при нажатии кнопки установки при установке или обновлении apk. И вам не нужно все время проверять свой телефон.
+\n
+\nПосле включения этой функции вы можете получать предупреждения о системных рисках. Нажмите «ОК», чтобы включить переключатель специальных возможностей.
+\n
+\nЧтобы APKPure работала нормально, добавьте APKPure «Белый список» в свое антивирусное приложение.
+\n
+\nУпомянутые выше функции поддерживают Android 4.1 и выше. Никаких root-прав не требуется. Мы обещаем, что никогда не будем собирать вашу личную информацию в этой службе доступности. Пожалуйста, не стесняйтесь обращаться к нам по любым вопросам.</string>
     <string name="auto_service_install">Установить</string>
-    <string name="auto_service_ensure">Окей</string>
+    <string name="auto_service_ensure">ОК</string>
     <string name="auto_service_next">Далее</string>
     <string name="auto_service_exchange">Заменить</string>
     <string name="auto_service_complete">Готово</string>
     <string name="auto_service_install__material_">УСТАНОВКА</string>
-    <string name="auto_service_ensure__material_">ОКЕЙ</string>
+    <string name="auto_service_ensure__material_">ОК</string>
     <string name="auto_service_next__material_">ДАЛЕЕ</string>
     <string name="auto_service_exchange__material_">ЗАМЕНА</string>
     <string name="auto_service_complete__material_">ГОТОВО</string>
@@ -245,11 +248,11 @@
     <string name="login_user_password">Пароль</string>
     <string name="app_submit_msg_toast">Напишите что-нибудь!</string>
     <string name="app_submit_name_toast">Введите никнейм, пожалуйста!</string>
-    <string name="app_submit_email_toast">Введите действительный адрес электронной почты, пожалуйста!</string>
+    <string name="app_submit_email_toast">Пожалуйста, введите действительный адрес электронной почты!</string>
     <string name="app_submit_title_hint">Введите заглавие!</string>
-    <string name="app_submit_msg_hint">Напишите ваш контени, пожалуйста!</string>
+    <string name="app_submit_msg_hint">Пожалуйста, введите ваше содержание!</string>
     <string name="app_submit_email">Электронная почта</string>
-    <string name="app_submit_submit_title">отправить</string>
+    <string name="app_submit_submit_title">Отправить</string>
     <string name="app_detail_tab_one">Детали</string>
     <string name="app_detail_tab_two">Группа</string>
     <string name="app_detail_comment_order_array_recent">Недавние</string>
@@ -259,7 +262,7 @@
     <string name="download_complete_installation_setting_entries_always">Всегда устанавливать</string>
     <string name="download_complete_installation_setting_entries_only">Установка только при работе на переднем плане</string>
     <string name="download_complete_installation_setting_entries_never">Никогда не устанавливать</string>
-    <string name="reply">Отзыв</string>
+    <string name="reply">Ответить</string>
     <string name="reply_comment">Ответить на комментарий</string>
     <string name="save_original_image">Сохранить</string>
     <string name="already_save">Сохранено<xliff:g example="ApKPure/photo" id="path">%1$s</xliff:g>
@@ -331,14 +334,14 @@
     <string name="login_user_sign_in">Войти</string>
     <string name="login_choose">Или войдите в свой аккаунт</string>
     <string name="login_new_user">Регистрация нового пользователя</string>
-    <string name="app_submit_submit">Отправляется…</string>
+    <string name="app_submit_submit">Отправка…</string>
     <string name="app_submit_title_toast">Напишите заглавие!</string>
     <string name="app_submit_star_toast">Дайте оценку!</string>
     <string name="app_submit_nickname">Никнейм</string>
-    <string name="app_submit_reply_to">ответил</string>
+    <string name="app_submit_reply_to">ответить</string>
     <string name="app_detail_reply_comment">Коментарий(%d)</string>
     <string name="app_detail_tab_three">Связанное</string>
-    <string name="input_reply_content">Текст ответа:</string>
+    <string name="input_reply_content">Пожалуйста, введите свой ответ:</string>
     <string name="publish">Опубликовать</string>
     <string name="load_end">Больше нет данных.</string>
     <string name="user_info_edit_portrait_tv">Аватар</string>
@@ -352,17 +355,13 @@
     <string name="app_detail_comment_type_web">Сайт</string>
     <string name="app_detail_comment_order_array_default">Сортировать по умолчанию</string>
     <string name="recommend">Найти</string>
-    <string name="share_app_url_comment"> Коментарии <xliff:g example="APKPure" id="user_name">%1$s</xliff:g> к
-        <xliff:g example="APKPure" id="app_name">%2$s</xliff:g> :
-        <xliff:g example="APKPure" id="app_name">%3$s</xliff:g> (из @<xliff:g example="APKPure" id="social_network_name">%4$s</xliff:g>)
-        <xliff:g example="https://apkpure.com/p/com.apkpure.aegon" id="app_url">%5$s</xliff:g>
-    </string>
+    <string name="share_app_url_comment">" &lt;xliff:g xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\" example=\"APKPure\" id=\"user_name\"&gt;%1$s&lt;/xliff:g&gt;\'s комментарии на &lt;xliff:g xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\" example=\"APKPure\" id=\"app_name\"&gt;%2$s&lt;/xliff:g&gt; : &lt;xliff:g xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\" example=\"APKPure\" id=\"app_name\"&gt;%3$s&lt;/xliff:g&gt; (from &lt;xliff:g xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\" example=\"APKPure\" id=\"social_network_name\"&gt;%4$s&lt;/xliff:g&gt;) &lt;xliff:g xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\" example=\"https://apkpure.com/p/com.apkpure.aegon\" id=\"app_url\"&gt;%5$s&lt;/xliff:g&gt; "</string>
     <string name="app_detail_comment_order_array_most_recent">Самые свежие</string>
     <string name="app_detail_comment_order_array_new">Новые</string>
     <string name="reply_dialog_marked_words">Нажмите и удерживайте картинку, чтобы удалить ее.</string>
     <string name="load_failed_click_retry">Ошибка, повторите попытку</string>
     <string name="loading">Загрузка…</string>
-    <string name="scan_qr_code_hint">Перед использованием сканирования QR-кода Вы должны предоставить разрешение камеры.\n которая требуется сканированием QR-кода.</string>
+    <string name="scan_qr_code_hint">Перед использованием сканирования QR-кода вам необходимо предоставить разрешение камеры, необходимое для сканирования QR-кода.</string>
     <string name="zxing_msg_default_status">Пожалуйста, поместите QR-код внутри видоискателя для его сканирования.</string>
     <string name="zxing_msg_parser_status">Не удалось выполнить сканирование, попробуйте ещё раз.</string>
     <string name="message_all">ВСЕ</string>
@@ -422,22 +421,20 @@
     <string name="delete_the_historical_record">Удалить историю?</string>
     <string name="sub_comment_dialog_des_tv">Поддерживается только синтаксический анализ видео Youtube.</string>
     <string name="check_update_replace">Официальная версия</string>
-    <string name="download_mkdir_external_storage_values">Внешнее_хранилище</string>
+    <string name="download_mkdir_external_storage_values">внешнее_хранилище</string>
     <string name="check_update_beta">Предварительная бета-версия</string>
     <string name="history_version">История версий</string>
     <string name="app_detail_comment_order_array_old">Самые старые</string>
     <string name="app_detail_comment_join_group_bt">Группа</string>
     <string name="download_mkdir">Путь загрузки</string>
     <string name="download_mkdir_external_storage_fill_toast">Недостаточное хранилище. Нельзя загрузить приложения.</string>
-    <string name="share_app_url_group">
-        <xliff:g example="APKPure" id="app_name">%1$s</xliff:g> Группа. (from <xliff:g example="APKPure" id="social_network_name">%2$s</xliff:g> ) <xliff:g example="https://apkpure.com/p/com.apkpure.aegon" id="app_url">%3$s</xliff:g>
-    </string>
+    <string name="share_app_url_group">" &lt;xliff:g xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\" example=\"APKPure\" id=\"app_name\"&gt;%1$s&lt;/xliff:g&gt; Группа. (from &lt;xliff:g xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\" example=\"APKPure\" id=\"social_network_name\"&gt;%2$s&lt;/xliff:g&gt;) &lt;xliff:g xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\" example=\"https://apkpure.com/p/com.apkpure.aegon\" id=\"app_url\"&gt;%3$s&lt;/xliff:g&gt; "</string>
     <string name="load_failed_error_not_found">Приложение не было включено в APKPure.</string>
     <string name="beta">Бета</string>
     <string name="data_saver_model">Экономия трафика</string>
     <string name="data_saver_model_summery">Включение этого приведет к уменьшению размера и качества изображения, что поможет использовать меньше мобильных данных.</string>
     <string name="download_mkdir_internal_storage_size_des">%1$s свободно, всего %2$s</string>
-    <string name="download_mkdir_internal_storage_entries">"SD "</string>
+    <string name="download_mkdir_internal_storage_entries">SD</string>
     <string name="download_mkdir_internal_storage_entries1">SD 1</string>
     <string name="download_mkdir_internal_storage_values">внутреннее_хранилище</string>
     <string name="scan_qr_code_result_title">Результат</string>
@@ -550,7 +547,7 @@
     <string name="goto_google_play">Купить сейчас</string>
     <string name="google_play_bug_text">Купить в Google Play</string>
     <string name="menu_follow_all">Все подписки</string>
-    <string name="menu_follow_user">"Пользователи "</string>
+    <string name="menu_follow_user">Подписанные люди</string>
     <string name="menu_follow_group">Группы</string>
     <string name="menu_follow_all_tab">Подписки</string>
     <string name="menu_follow_user_tab">Люди</string>
