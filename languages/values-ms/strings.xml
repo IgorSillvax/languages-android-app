@@ -44,7 +44,7 @@ Sesuatu telah berlaku.</string>
 </xliff:g>
     </string>
     <string name="user_canceled">Pengguna dibatalkan.</string>
-    <string name="io_error">Kesalahan IO.Mungkin tidak ada ruang lagi untuk memuat turun.</string>
+    <string name="io_error">Kesalahan IO. Storan tidak mencukupi untuk pemasangan</string>
     <string name="file_format_error">Kesalahan penghapusan fail.</string>
     <string name="installing_obb">Pemasangan fail OBB …</string>
     <string name="extracting_apk">Menguraikan fail APK …</string>
@@ -106,7 +106,7 @@ Sesuatu telah berlaku.</string>
             <xliff:g example="2" id="count">%1$d</xliff:g> item sedang dimuat turun</item>
         <item quantity="other"/>
     </plurals>
-    <string name="downloads_complete">Muat turun selesai</string>
+    <string name="downloads_complete">Semua muat turun selesai</string>
     <string name="touch_for_view_all_downloads">Sentuh untuk melihat semua muat turun</string>
     <string name="_name__download_failed">
         <xliff:g example="APKPure" id="name">%1$s</xliff:g>
@@ -135,8 +135,8 @@ muat turun gagal</string>
     <string name="detail">Keterangan</string>
     <string name="remove">Buang</string>
     <string name="remove_all">Terima Kasih Tuan Atas Urusan Ini Wasalam</string>
-    <string name="want_to_remove_download_item">Tidak Tuan Ia Akan Di Simpan</string>
-    <string name="want_to_remove_all_download_items">"No I Dont Remove "</string>
+    <string name="want_to_remove_download_item">Anda pasti ingin membuang item ini</string>
+    <string name="want_to_remove_all_download_items">Anda pasti membuang semua item ini\?</string>
     <string name="properties_message_v2">&lt;b&gt;Package Name:&lt;/b&gt; %1$s&lt;br&gt;&lt;b&gt;Version:&lt;/b&gt; %2$s&lt;br&gt;&lt;b&gt;Path:&lt;/b&gt; %3$s&lt;br&gt;&lt;b&gt;Size:&lt;/b&gt; %4$s&lt;br&gt;&lt;b&gt;Last Modified:&lt;/b&gt; %5$s</string>
     <string name="delete_downloaded_file">Padam muat turun fail</string>
     <string name="download_over_cellular">"Muat turun melalui selular "</string>
@@ -147,19 +147,18 @@ muat turun gagal</string>
     <string name="search_history">Sejarah</string>
     <string name="clear_search_history">Padam semua sejarah</string>
     <string name="improvement_plan_title">Pelan Penambahbaikan Prestasi</string>
-    <string name="improvement_plan_message">Bantu kami dengan mengemukakan Maklumat Peranti Android, <b>Kami tidak mengumpulkan </b>maklumat peribadi (nama, alamat, alamat e-mel, nombor keselamatan sosial atau pengenal unik yang lain).</string>
+    <string name="improvement_plan_message">Bantu kami dengan mengemukakan Maklumat Peranti Android, Kami berjanji&lt;b&gt;tidak akan mengumpulkan &lt;/b&gt;maklumat peribadi (nama, alamat, alamat e-mel, nombor keselamatan sosial atau pengenal unik yang lain).</string>
     <string name="join_us">Sertai kami</string>
     <string name="skip">Langkau</string>
-    <string name="participate_ultra_download_beta_test_title">Dayakan Muat Turun Ultra dan nikmati kelajuan muat turun yang lebih cepat</string>
+    <string name="participate_ultra_download_beta_test_title">Hidupkan Muat Turun Ultra dan nikmati kelajuan muat turun yang lebih cepat</string>
     <string name="enable">Dayakan</string>
-    <string name="_name__is_up_to_date">
-        <xliff:g example="APKPure" id="name">%1$s</xliff:g> is up to date.</string>
+    <string name="_name__is_up_to_date">&lt;xliff:g xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\" example=\"APKPure\" id=\"name\"&gt;%1$s&lt;/xliff:g&gt; terkini.</string>
     <string name="new_version_available_title">Versi terbaru tersedia</string>
     <string name="new_version_available_message">&lt;b&gt;Versi Terkini:&lt;/b&gt; %1$s&lt;br&gt;&lt;br&gt;&lt;b&gt;Apa Yang Terbaru:&lt;/b&gt;&lt;br&gt;%2$s</string>
     <string name="report">Lapor</string>
     <string name="report__">Laporkan…</string>
     <string name="report_problem__">Laporkan Masalah…</string>
-    <string name="report_problem_subject">"Lapor masalah "</string>
+    <string name="report_problem_subject">Lapor masalah</string>
     <string name="report_problem_text">Masalah topik:
 \n%1$s
 \n
@@ -177,6 +176,46 @@ muat turun gagal</string>
     <string name="incompatible_this_app">&lt;big&gt; &lt;b&gt; &lt;warna fon =% 1 $ d&gt; Peranti anda tidak serasi dengan aplikasi ini. &lt;/ font&gt; &lt;/ b&gt; &lt;/ big&gt; &lt;br&gt; &lt;br&gt; Adakah anda mahu meneruskan\?</string>
     <string name="this_app_not_usable">&lt;big&gt; &lt;b&gt; &lt;warna fon =% 1 $ d&gt; Aplikasi ini mungkin tidak boleh digunakan. &lt;/ font&gt; &lt;/ b&gt; &lt;/ big&gt; &lt;br&gt; &lt;br&gt; Adakah anda mahu meneruskan\?</string>
     <string name="setting">Tetapan</string>
-    <string name="participate_ultra_download_beta_test_content">Ultra Download is in beta testing, let us know if you encounter any problems. You can easily disable it under Settings.</string>
+    <string name="participate_ultra_download_beta_test_content">Muat Turun Ultra masih dalam beta, beritahu kami jika anda mengalami sebarang masalah. Anda boleh mematikannya di tetapan.</string>
     <string name="xapk_upload_hint_info">English</string>
+    <string name="auto_service_title">Pemasangan Auto APKPure</string>
+    <string name="auto_service_dialog_message">Pemasangan Auto memerlukan kebenaran daripada anda, 100% selamat.</string>
+    <string name="auto_service_dialog_title">Hidupkan Pemasangan Auto</string>
+    <string name="auto_service_install_accessibility_summary">Menyokong Android 4.1 dan keatas. Aksess root tidak diperlukan.</string>
+    <string name="auto_service_install_accessibility_title">Pemasangan auto</string>
+    <string name="touch_to_open">Sentuh untuk buka.</string>
+    <string name="_name__installation_completed">&lt;xliff:g xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\" example=\"APKPure\" id=\"name\"&gt;%1$s&lt;/xliff:g&gt; pemasangan selesai</string>
+    <string name="delete_packages_after_installation">Buang pakej selepas pemasangan</string>
+    <string name="show_notification_after_installation">Tunjukan notifikasi selepas pemasangan</string>
+    <string name="installation">Pemasangan</string>
+    <string name="enable_ultra_download_summary">Muat Turun Ultra masih dalam beta. Beritahu kami jika anda mengalami sebarang masalah.</string>
+    <string name="enable_ultra_download">Hidupkan Muat Turun Ultra</string>
+    <string name="download_via_wifi_only">Muat turun melalui Wi-Fi sahaja</string>
+    <string name="data_saver_model_summery">Jika dihidupkan, ia mengurangkan saiz dan kualiti gambar untuk membantu pengurangan data selular.</string>
+    <string name="data_saver_model">Penjimatan Data</string>
+    <string name="changing_language">Mengubah bahasa... Sila tunggu.</string>
+    <string name="auto">Auto</string>
+    <string name="language">Bahasa</string>
+    <string name="general">Umum</string>
+    <string name="total_zero_app">Jumlah: &lt;b&gt;&lt;font color=%1$d&gt;0&lt;/font&gt;&lt;/b&gt; app</string>
+    <plurals name="total__count__apps__size_">
+        <item quantity="other">Jumlah: &lt;b&gt;&lt;font color=%1$d&gt;%2$d&lt;/font&gt;&lt;/b&gt; apps, &lt;b&gt;&lt;font color=%1$d&gt;%3$s&lt;/font&gt;&lt;/b&gt;</item>
+    </plurals>
+    <string name="ignored">Telah diabaikan</string>
+    <string name="deselect_all">Nyahpilih Semua</string>
+    <string name="select_all">Pilih Semua</string>
+    <string name="cancel">Batal</string>
+    <string name="select">Pilih</string>
+    <string name="unignore">Tolak</string>
+    <string name="ignore">Abaikan</string>
+    <string name="update___count__">Kemaskini (&lt;xliff:g xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\" example=\"3\" id=\"count\"&gt;%1$d&lt;/xliff:g&gt;)</string>
+    <string name="update_all">Kemaskini Semua</string>
+    <string name="update__date___size_">Kemaskini: &lt;xliff:g xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\" example=\"Mar 3, 2016\" id=\"date\"&gt;%1$s&lt;/xliff:g&gt;, &lt;xliff:g xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\" example=\"1024 kB\" id=\"size\"&gt;%2$s&lt;/xliff:g&gt;</string>
+    <string name="_name__version_history">&lt;xliff:g xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\" example=\"APKPure\" id=\"name\"&gt;%1$s&lt;/xliff:g&gt; Sejarah Versi</string>
+    <string name="share_app_url_group">" &lt;xliff:g xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\" example=\"APKPure\" id=\"app_name\"&gt;%1$s&lt;/xliff:g&gt; Kumpulan. (from &lt;xliff:g xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\" example=\"APKPure\" id=\"social_network_name\"&gt;%2$s&lt;/xliff:g&gt;) &lt;xliff:g xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\" example=\"https://apkpure.com/p/com.apkpure.aegon\" id=\"app_url\"&gt;%3$s&lt;/xliff:g&gt; "</string>
+    <string name="share_app_url_comment">" &lt;xliff:g xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\" example=\"APKPure\" id=\"user_name\"&gt;%1$s&lt;/xliff:g&gt;\'s komen di &lt;xliff:g xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\" example=\"APKPure\" id=\"app_name\"&gt;%2$s&lt;/xliff:g&gt; : &lt;xliff:g xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\" example=\"APKPure\" id=\"app_name\"&gt;%3$s&lt;/xliff:g&gt; (from &lt;xliff:g xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\" example=\"APKPure\" id=\"social_network_name\"&gt;%4$s&lt;/xliff:g&gt;) &lt;xliff:g xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\" example=\"https://apkpure.com/p/com.apkpure.aegon\" id=\"app_url\"&gt;%5$s&lt;/xliff:g&gt; "</string>
+    <string name="share_app_url">" Kongsi &lt;xliff:g xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\" example=\"APKPure\" id=\"app_name\"&gt;%1$s&lt;/xliff:g&gt; APK (from &lt;xliff:g xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\" example=\"APKPure\" id=\"social_network_name\"&gt;%2$s&lt;/xliff:g&gt;) &lt;xliff:g xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\" example=\"https://apkpure.com/p/com.apkpure.aegon\" id=\"app_url\"&gt;%3$s&lt;/xliff:g&gt; "</string>
+    <string name="share">Kongsi</string>
+    <string name="external_storage_permission_denied">&lt;big&gt;&lt;b&gt;Kami memerlukan aksess storan luaran anda. Pastikan kebenaran telah diberikan&lt;/b&gt;&lt;/big&gt;</string>
+    <string name="external_storage_not_usable">&lt;big&gt;&lt;b&gt;Kami memerlukan aksess storan dalaman anda. Pastikan ianya boleh digunakan&lt;/b&gt;&lt;/big&gt;</string>
 </resources>
