@@ -354,7 +354,7 @@
     <string name="message_reply">RESPUESTAS</string>
     <string name="message_notifications_praise">Votó a favor de su comentario</string>
     <string name="message_praise">ME GUSTAS</string>
-    <string name="message_notifications_reply">Respondió tu comentario</string>
+    <string name="message_notifications_reply">Respondió a tu comentario.</string>
     <string name="message_notifications_login">Por favor inicie sesión para ver esta página.</string>
     <string name="message_at_title">Menciones</string>
     <string name="message_at">Te mencionó</string>
@@ -406,7 +406,7 @@
     <string name="push_title_info_reply">¡ %1$s respondió a tu comentario !</string>
     <string name="push_title_info_upvoted">¡ %1$s votó en tu comentario !</string>
     <string name="push_title_info_follow">¡ %1$s te siguió !</string>
-    <string name="push_title_info_update">¡Llegó la actualización de APKPure!</string>
+    <string name="push_title_info_update">¡Una nueva versión de APKPure ha llegado!</string>
     <string name="push_content_info_update">¡Nueva versión %1$s lanzado! ¡Actualízalo ahora!</string>
     <string name="push_title_info_at">Alguien te mencionó en un mensaje. Toca para verlo.</string>
     <string name="download_list">Descargar lista</string>
@@ -420,7 +420,7 @@
     <string name="reply_notification">Notificaciones de respuesta</string>
     <string name="reply_notification_msg">Recibir notificaciones de nuevas respuestas</string>
     <string name="like_notification">Notificaciones de votaciones</string>
-    <string name="like_notification_msg">Recibir notificaciones de nuevos mensajes de votaciones</string>
+    <string name="like_notification_msg">Recibir notificaciones de nuevos \"me gusta\"</string>
     <string name="gif_tip">gif</string>
     <string name="ad_tip">anuncio</string>
     <string name="submit_comment_title_hint">Titulo</string>
@@ -482,19 +482,19 @@
     <string name="user_detail_focus">Siguiendo</string>
     <string name="menu_follow_all_tab">Siguiendo</string>
     <string name="attention_off">Seguir</string>
-    <string name="no_attention">No hay grupos que este siguiendo, todavía.</string>
+    <string name="no_attention">Todavía no hay grupos que esté siguiendo.</string>
     <string name="browsing_history">Historial de navegación</string>
     <string name="browsing_history_prompt">¿Desea borrar el historial de navegación?</string>
     <string name="ranking_tab1_title">Top de juegos</string>
     <string name="ranking_tab2_title">Top de nuegos nuevos</string>
     <string name="ranking_tab3_title">Top de Apps</string>
     <string name="ranking_tab4_title">Top de nuevas Apps</string>
-    <string name="ranking_top_countries_title">Clasificación por países</string>
+    <string name="ranking_top_countries_title">Clasificación por países.</string>
     <string name="ranking_top_develop_title">Desarrolladores principales</string>
     <string name="app_detail_three_fragment_foot">Mostrar todos los comentarios</string>
     <string name="menu_paste">Pegar</string>
     <string name="favorite_title">Favorito</string>
-    <string name="save_as_favorite">Guardar como favorito</string>
+    <string name="save_as_favorite">Guardar como favorito.</string>
     <string name="favorite_saved">Favorito guardado.</string>
     <string name="failed_to_save_favorite">Fallo al guardar favorito</string>
     <string name="remove_as_favorite">Eliminar de favoritos</string>
@@ -503,7 +503,7 @@
     <string name="collection_app">APLICACIONES</string>
     <string name="user_detail_tab_detail">Publicaciones</string>
     <string name="user_detail_tab_reply">Comentarios</string>
-    <string name="search_tab_name_one">APLICACIONES</string>
+    <string name="search_tab_name_one">Aplicaciones</string>
     <string name="search_tab_name_two">Usuarios</string>
     <string name="pre_register_ok">ACEPTAR</string>
     <string name="open_with_browser">Abrir en navegador</string>
@@ -531,8 +531,8 @@
     <string name="recommend_comment">Enviar</string>
     <string name="recommend_comment_error">¡Ha ocurrido algo inesperado!</string>
     <string name="recommend_description_title">Instrucciones:</string>
-    <string name="recommend_description">1. Las recomendaciones aprobadas se enumerarán en la sección DESCUBRIR.
-\n2. Solo puedes recomendar las aplicaciones actualmente instaladas en tu dispositivo Android.
+    <string name="recommend_description">1. Las recomendaciones aprobadas serán enlistadas en la sección DESCUBRIR. 
+\n2. Solo puedes recomendar las aplicaciones actualmente instaladas en tu dispositivo Android. 
 \n3. Notifique a APKPure para que agregue aplicaciones no indexadas, por favor complete los formularios de recomendación primero.</string>
     <string name="recommend_user_recommend">Recomendado por %1$s</string>
     <string name="recommend_required">*</string>
@@ -580,7 +580,7 @@
     <string name="upload_apk_version">V %1$s</string>
     <string name="upload_apk_downloads">Descargas: %1$s</string>
     <string name="upload_comment_uploading">%1$s Subiendo…</string>
-    <string name="upload_comment_upload_success">%1$s Subida exitosa</string>
+    <string name="upload_comment_upload_success">%1$s Subida exitosamente.</string>
     <string name="upload_comment_upload_failed">%1$s Subida fallida</string>
     <string name="upload_comment_view">Toca para ver</string>
     <string name="upload_comment_reload">Toca para subir de nuevo</string>
@@ -754,4 +754,26 @@
     <string name="packaging">Packaging…</string>
     <string name="packaging_success_ready_upload">Packaging finished. Ready for upload.</string>
     <string name="packaging_failed_try_again">Packaging failed. Please try again.</string>
+    <string name="look_video">Reproducir vídeo</string>
+    <string name="get_it_on">Obténlo en:</string>
+    <string name="users">Usuarios</string>
+    <string name="choice_hashtag">Presentación de hashtags</string>
+    <string name="gif_auto_desc">Auto reproducir GIFs con Wi-Fi</string>
+    <string name="gif_auto_title">Auto reproducir GIFs</string>
+    <string name="saved_draft">Guardado como borrador</string>
+    <string name="upload_video">Subir vídeo</string>
+    <string name="is_save_comment_draft">¿Guardar tu post como un borrador\?</string>
+    <string name="empty_draft_info">Sin contenido…</string>
+    <string name="delete_draft">Eliminar el borrador</string>
+    <string name="edit_draft">Editar el borrador</string>
+    <string name="delete_all_draft_hint">¿Estás seguro de eliminar todos los borradores\?</string>
+    <string name="several_drafts">&lt;xliff:g xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\" example=\"5\" id=\"count\"&gt; borradores</string>
+    <string name="several_draft">&lt;xliff:g xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\" example=\"5\" id=\"count\"&gt; borrador</string>
+    <string name="clear_empty">Limpiar todo</string>
+    <string name="my_draft">Mi borrador</string>
+    <string name="temporarily_blocked_des">\" su baneo temporal durará %1$s días, y no podrás hacer crear contenido en APKPure hasta que expire.
+\nSi tú posteas algo que va en contra de nuestra %2$s otra vez, tu cuenta será baneada por otros 30 días.
+\nPor favor, mantén en mente que personas que repetidamente postea contenido ilícito puede causar que sus cuentas se baneen permanentemente.
+\nSi piensas que esto es un error, por favor %3$s.</string>
+    <string name="share_app_url_comment_v3">&lt;xliff:g xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\" example=\"zhangsan\" id=\"name\"&gt; &lt;xliff:g xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\" example=\"post/story/review\" id=\"type\"&gt; (De APKPure):&lt;xliff:g xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\" example=\"https://apkpure.com\" id=\"url\"&gt;</string>
 </resources>
