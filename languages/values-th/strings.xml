@@ -64,8 +64,7 @@
     <string name="category_">ประเภท:</string>
     <string name="install__label_">ติดตั้ง - <xliff:g example="APKPure" id="app_label">%1$s</xliff:g>
     </string>
-    <string name="update__date___size_">อัพเดท: <xliff:g example="Mar 3, 2016" id="date">%1$s</xliff:g>, <xliff:g example="1024 kB" id="size">%2$s</xliff:g>
-    </string>
+    <string name="update__date___size_">อัพเดท: &lt;xliff:g xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\" example=\"Mar 3, 2016\" id=\"date\"&gt;%1$s&lt;/xliff:g&gt;, &lt;xliff:g xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\" example=\"1024 kB\" id=\"size\"&gt;%2$s&lt;/xliff:g&gt;</string>
     <string name="installation_failed">การติดตั้งล้มเหลว</string>
     <string name="io_error">ข้อผิดพลาด IO อาจจะมี เนื้อที่ว่างไม่ เพียงพอ สำหรับการติดตั้ง จึงไม่สำเร็จ</string>
     <string name="extracting_apk">กำลังแยกไฟล์ APK …</string>
@@ -76,8 +75,7 @@
     <string name="market_response_error_network_connect_error">การเชื่อมต่อเครือข่ายล้มเหลว</string>
     <string name="market_response_error_network_read_error">เครือข่ายผิดพลาดจากการอ่าน</string>
     <string name="market_response_error_unknown_error__error_">เกิดข้อผิดพลาดที่ไม่รู้จัก (<xliff:g example="SUCCESS" id="error">%1$s</xliff:g>).</string>
-    <string name="_name__version_history">
-        <xliff:g example="APKPure" id="name">%1$s</xliff:g> ประวัติของเวอร์ชัน</string>
+    <string name="_name__version_history">&lt;xliff:g xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\" example=\"APKPure\" id=\"name\"&gt;%1$s&lt;/xliff:g&gt; ประวัติของเวอร์ชัน</string>
     <string name="no_more">เหมือนเดิม</string>
     <string name="update">อัพเดท</string>
     <string name="version__version___size_">เวอร์ชัน: <xliff:g example="1.0.0" id="version">%1$s</xliff:g>, <xliff:g example="1024 kB" id="size">%2$s</xliff:g>
@@ -97,7 +95,7 @@
     <string name="want_to_delete_all_files">แน่ใจไหมว่าต้องการลบไฟล์ทั้งหมด</string>
     <string name="similar_or_related">Pradeep Singh</string>
     <string name="more_from_developer">เพิ่มเติมจากนักพัฒนา</string>
-    <string name="more_large"/>
+    <string name="more_large">ไทย</string>
     <string name="check_update_replace">เวอร์ชั่นทางการ</string>
     <string name="check_update_beta">ตัวทดลองก่อนวางจำหน่าย</string>
     <string name="recommend_required">สิ่งที่ร้องขอ</string>
@@ -108,4 +106,11 @@
     <string name="email_address_hint_et">Enter your email.</string>
     <string name="preparing_upload">Preparing to upload…</string>
     <string name="history_version">Version History</string>
+    <string name="scan_qr_code_result_title">Result</string>
+    <string name="download">Gbon</string>
+    <string name="restart"> </string>
+    <string name="picture_photograph">\t</string>
+    <string name="touch_to_download_it_again">Tap to restart the download</string>
+    <string name="market_response_error_invalid_response_code">Invalid response code.thai</string>
+    <string name="flag_as_inappropriate">ไทย</string>
 </resources>
