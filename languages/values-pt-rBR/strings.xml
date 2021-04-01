@@ -10,7 +10,7 @@
     <string name="categories">Categorias</string>
     <string name="updates">Atualizações</string>
     <string name="something_happened">&gt;_&lt;
-\nAconteceu algo.</string>
+\nAlgo deu errado.</string>
     <string name="load_failed_error">Oops! Ocorreu um erro.</string>
     <string name="load_failed_empty">Não há nada aqui.</string>
     <string name="load_failed_all_up_to_date">Todos os apps estão atualizados.</string>
@@ -128,16 +128,16 @@
     <string name="improvement_plan_message">Ajude-nos a melhorar sua experiência enviando suas informações para o dispositivo Android. Prometemos &lt;b&gt;não&lt;/b&gt; coletar suas informações de identificação pessoal (nome, endereço, e-mail, número de segurança social ou outros identificadores exclusivos).</string>
     <string name="join_us">Junte-se a nós</string>
     <string name="skip">Pular</string>
-    <string name="_name__is_up_to_date">&lt;xliff:g xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\" example=\"APKPure\" id=\"name\"&gt;%1$s&lt;/xliff:g&gt; está atualizado.</string>
+    <string name="_name__is_up_to_date">&lt;xliff:g xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\" example=\"APKPure\" id=\"name\"&gt;%1$s&lt;/xliff:g&gt; está atualizado.</string>
     <string name="new_version_available_title">Nova versão disponível</string>
     <string name="new_version_available_message">&lt;b&gt;Última versão:&lt;/b&gt; %1$s&lt;br&gt;&lt;br&gt;&lt;b&gt;Novidades:&lt;/b&gt;&lt;br&gt;%2$s</string>
     <string name="report__">Denunciar…</string>
     <string name="report_problem__">Relatar um problema…</string>
     <string name="report_problem_subject">Reportar um problema</string>
-    <string name="report_problem_text">Tópico de problema: 
+    <string name="report_problem_text">Tópico do problema:
 \n%1$s
 \n
-\nDetalhes do problema: 
+\nDetalhe do problema:
 \n%2$s</string>
     <string name="contact_us__">Contate-nos…</string>
     <string name="contact_us">Entre em contato conosco</string>
@@ -153,7 +153,7 @@
     <string name="external_storage_not_usable">&lt;big&gt;&lt;b&gt;Precisamos acessar seu armazenamento externo. Certifique-se de que ele seja utilizável.&lt;/b&gt;&lt;/big&gt;</string>
     <string name="external_storage_permission_denied">&lt;big&gt;&lt;b&gt;Precisamos acessar seu armazenamento externo. Certifique-se de que a permissão esteja concedida.&lt;/b&gt;&lt;/big&gt;</string>
     <string name="share">Compartilhar</string>
-    <string name="share_app_url">" Compartilhar &lt;xliff:g xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\" example=\"APKPure\" id=\"app_name\"&gt;%1$s&lt;/xliff:g&gt; APK (Através do APKPure&lt;xliff:g xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\" example=\"APKPure\" id=\"social_network_name\"&gt;%2$s&lt;/xliff:g&gt;) &lt;xliff:g xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\" example=\"https://apkpure.com/p/com.apkpure.aegon\" id=\"app_url\"&gt;%3$s&lt;/xliff:g&gt; "</string>
+    <string name="share_app_url">" Compartilhar &lt;xliff:g xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\" example=\"APKPure\" id=\"app_name\"&gt;%1$s&lt;/xliff:g&gt; APK (Através do APKPure &lt;xliff:g xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\" example=\"APKPure\" id=\"social_network_name\"&gt;%2$s&lt;/xliff:g&gt;) &lt;xliff:g xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\" example=\"https://apkpure.com/p/com.apkpure.aegon\" id=\"app_url\"&gt;%3$s&lt;/xliff:g&gt; "</string>
     <string name="_name__version_history">&lt;xliff:g xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\" example=\"APKPure\" id=\"name\"&gt;%1$s&lt;/xliff:g&gt; Histórico de versões</string>
     <string name="update__date___size_">Atualização: &lt;xliff:g xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\" example=\"Mar 3, 2016\" id=\"date\"&gt;%1$s&lt;/xliff:g&gt;, &lt;xliff:g xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\" example=\"1024 kB\" id=\"size\"&gt;%2$s&lt;/xliff:g&gt;</string>
     <string name="update_all">Atualizar todos</string>
@@ -176,7 +176,7 @@
     <string name="installation">Instalação</string>
     <string name="show_notification_after_installation">Mostrar notificação após a instalação</string>
     <string name="delete_packages_after_installation">Excluir pacotes após a instalação</string>
-    <string name="_name__installation_completed">&lt;xliff:g xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\" example=\"APKPure\" id=\"name\"&gt;%1$s&lt;/xliff:g&gt; instalação completa</string>
+    <string name="_name__installation_completed">&lt;xliff:g xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\" example=\"APKPure\" id=\"name\"&gt;%1$s&lt;/xliff:g&gt; Instalação completa</string>
     <string name="touch_to_open">Toque para iniciar.</string>
     <string name="installed">Instalado</string>
     <string name="download_over_cellular">Baixar via rede móvel de celular</string>
@@ -236,14 +236,14 @@
     <string name="app_submit_msg_hint">Por favor, insira o seu conteúdo!</string>
     <string name="app_submit_nickname">Apelido</string>
     <string name="app_submit_email">Email</string>
-    <string name="app_submit_submit_title">Publicação</string>
+    <string name="app_submit_submit_title">Publicar</string>
     <string name="app_submit_reply_to">respondeu a</string>
     <string name="app_detail_tab_one">Detalhes</string>
     <string name="app_detail_tab_two">Grupo</string>
     <string name="app_detail_tab_three">Relacionado</string>
     <string name="reply">Responder</string>
     <string name="input_reply_content">Por favor, digite sua resposta:</string>
-    <string name="publish">Publicação</string>
+    <string name="publish">Publicar</string>
     <string name="load_end">Não há mais dados.</string>
     <string name="load_failed_click_retry">Falha ao carregar. Toque para tentar novamente</string>
     <string name="loading">Carregando…</string>
@@ -252,7 +252,7 @@
     <string name="zxing_msg_parser_status">Falha ao verificar. Por favor, tente novamente.</string>
     <string name="recommend">Descobrir</string>
     <string name="report">Denunciar</string>
-    <string name="share_app_url_comment">" &lt;xliff:g xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\" example=\"APKPure\" id=\"user_name\"&gt;%1$s&lt;/xliff:g&gt;\'s comments on &lt;xliff:g xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\" example=\"APKPure\" id=\"app_name\"&gt;%2$s&lt;/xliff:g&gt; : &lt;xliff:g xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\" example=\"APKPure\" id=\"app_name\"&gt;%3$s&lt;/xliff:g&gt; (através do APKPure &lt;xliff:g xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\" example=\"APKPure\" id=\"social_network_name\"&gt;%4$s&lt;/xliff:g&gt;) &lt;xliff:g xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\" example=\"https://apkpure.com/p/com.apkpure.aegon\" id=\"app_url\"&gt;%5$s&lt;/xliff:g&gt; "</string>
+    <string name="share_app_url_comment">" &lt;xliff:g xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\" example=\"APKPure\" id=\"user_name\"&gt;%1$s&lt;/xliff:g&gt;\'s comentários no &lt;xliff:g xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\" example=\"APKPure\" id=\"app_name\"&gt;%2$s&lt;/xliff:g&gt; : &lt;xliff:g xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\" example=\"APKPure\" id=\"app_name\"&gt;%3$s&lt;/xliff:g&gt; (Através do APKPure &lt;xliff:g xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\" example=\"APKPure\" id=\"social_network_name\"&gt;%4$s&lt;/xliff:g&gt;) &lt;xliff:g xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\" example=\"https://apkpure.com/p/com.apkpure.aegon\" id=\"app_url\"&gt;%5$s&lt;/xliff:g&gt; "</string>
     <string name="app_detail_reply_comment">Comentário(%d)</string>
     <string name="app_detail_reply_esc">Sequência positiva</string>
     <string name="app_detail_reply_desc">Reversa</string>
@@ -276,7 +276,7 @@
     <string name="upload_cancel">O upload foi cancelado</string>
     <string name="login_select_way_to_login">Por favor, escolha um método de login</string>
     <string name="user_info_edit_title">Perfil</string>
-    <string name="user_info_edit_portrait_tv">Avatar</string>
+    <string name="user_info_edit_portrait_tv">Foto de perfil</string>
     <string name="user_info_edit_username_tv">Usuário</string>
     <string name="user_info_edit_nickname_tv">Apelido</string>
     <string name="user_info_edit_email_tv">Email</string>
@@ -346,7 +346,7 @@
     <string name="message_all">TODOS</string>
     <string name="message_reply">RESPOSTAS</string>
     <string name="message_praise">CURTIDAS</string>
-    <string name="message_notifications_praise">Votou no seu comentário</string>
+    <string name="message_notifications_praise">Curtiu seu comentário</string>
     <string name="message_notifications_reply">Respondeu ao seu comentário</string>
     <string name="message_notifications_login">Por favor, faça login para ver esta página.</string>
     <string name="comment_submitting">Enviando…</string>
@@ -365,7 +365,7 @@
     <string name="reply_notification_msg">Receber notificações de novas respostas</string>
     <string name="like_notification">Notificações de curtidas</string>
     <string name="like_notification_msg">Receber notificações de novas curtidas</string>
-    <string name="gif_tip">Gif</string>
+    <string name="gif_tip">gif</string>
     <string name="submit_comment_title_hint">Título</string>
     <string name="comment_vote_string">Curtir</string>
     <string name="comment_reply_three">Responder</string>
@@ -437,7 +437,7 @@
     <string name="ranking_tab4_title">Melhores aplicativos novos</string>
     <string name="app_detail_three_fragment_foot">Mostrar todos os comentários</string>
     <string name="menu_paste">Colar</string>
-    <string name="favorite_title">Favorito</string>
+    <string name="favorite_title">Favoritar</string>
     <string name="save_as_favorite">Salvar como favorito</string>
     <string name="favorite_saved">Favoritado.</string>
     <string name="failed_to_save_favorite">Falha ao salvar favorito</string>
@@ -447,13 +447,13 @@
     <string name="collection_app">APLICATIVOS</string>
     <string name="open_with_browser">Abrir no navegador</string>
     <string name="web_view_refresh">Atualizar</string>
-    <string name="topic_red_color">Vermelho vivo</string>
-    <string name="topic_green_color">Verde da sorte</string>
-    <string name="topic_blue_color">Azul celeste</string>
-    <string name="topic_purple_color">Violeta escuro</string>
+    <string name="topic_red_color">Vermelho Vivo</string>
+    <string name="topic_green_color">Verde da Sorte</string>
+    <string name="topic_blue_color">Azul Celeste</string>
+    <string name="topic_purple_color">Violeta Escuro</string>
     <string name="topic_purple_black">Cinza Legal</string>
-    <string name="topic_purple_yellow">Laranja de abril</string>
-    <string name="topic_purple_blue_gary">Azul força aérea</string>
+    <string name="topic_purple_yellow">Laranja Damasco</string>
+    <string name="topic_purple_blue_gary">Azul Força Aérea</string>
     <string name="topic_switch_failed">Falha ao alterar tema</string>
     <string name="recommend_title">Recomendações</string>
     <string name="recommend_tab_game">Recomendar um aplicativo</string>
@@ -501,7 +501,7 @@
     <string name="menu_follow_user_tab">Pessoas</string>
     <string name="menu_follow_group_tab">Grupos</string>
     <string name="choose_app">Selecionar aplicativo</string>
-    <string name="publish_comment">Publicação</string>
+    <string name="publish_comment">Publicar</string>
     <string name="history_version">Histórico de versões</string>
     <string name="share_app_url_group">" &lt;xliff:g xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\" example=\"APKPure\" id=\"app_name\"&gt;%1$s&lt;/xliff:g&gt; Grupo. (de &lt;xliff:g xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\" example=\"APKPure\" id=\"social_network_name\"&gt;%2$s&lt;/xliff:g&gt;) &lt;xliff:g xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\" example=\"https://apkpure.com/p/com.apkpure.aegon\" id=\"app_url\"&gt;%3$s&lt;/xliff:g&gt; "</string>
     <string name="data_saver_model">Economia de dados</string>
@@ -510,7 +510,7 @@
     <string name="scan_qr_code_result_copy_text">Copiar texto</string>
     <string name="scan_qr_code_result_hint">Detalhes do código QR：</string>
     <string name="scan_qr_code_copy_success">O texto foi copiado.</string>
-    <string name="user_info_edit_large_photo">Ver tamanho total do avatar</string>
+    <string name="user_info_edit_large_photo">Ver tamanho original da foto de perfil</string>
     <string name="push_title_info_follow">%1$s seguiu você!</string>
     <string name="push_title_info_update">Uma nova versão do APKPure chegou!</string>
     <string name="push_content_info_update">A nova versão %1$s foi lançada! Atualize agora!</string>
@@ -536,7 +536,7 @@
     <string name="user_name_null">O nome de usuário é inválido.</string>
     <string name="colon">:</string>
     <string name="pack_up">Menos</string>
-    <string name="Istop">Fixada</string>
+    <string name="Istop">Fixado</string>
     <string name="add_tag">Adicionar tags</string>
     <string name="error_add_tag">Falha ao adicionar tags.</string>
     <string name="no_collect">Ainda não há favoritos!</string>
@@ -624,7 +624,7 @@
     <string name="load_all_choice_evaluate">Ver todas as avaliações</string>
     <string name="load_all_choice_comment">Ver todas as publicações</string>
     <string name="my_reservation_and_collection">Pré-registro e favorito</string>
-    <string name="upload_apk">Upload de APK</string>
+    <string name="upload_apk">Upload do APK</string>
     <string name="developer_badge_explanation">Explicação da medalha de desenvolvedor</string>
     <string name="from_user_recommendation">Recomendações de usuário</string>
     <string name="topics">Tópico</string>
@@ -792,8 +792,8 @@
     <string name="picture_cancel">Cancelar</string>
     <string name="picture_camera_roll">Rolo da câmera</string>
     <string name="attention_each">Conectado</string>
-    <string name="app_details_request_update_msg">Recebemos sua solicitação para a atualização mais recente de %s. 
-\nA nova versão poderá ser baixada em breve, caso exista.</string>
+    <string name="app_details_request_update_msg">Recebemos o seu pedido para a última atualização do %s.
+\n A nova versão poderá ser baixada em breve, caso exista.</string>
     <string name="app_details_request_update_title">Solicitar atualização</string>
     <string name="xapk_unable_upload">Falha no upload do XAPK!</string>
     <string name="upload_xapk_to_group">Fazer upload do XAPK para o grupo</string>
