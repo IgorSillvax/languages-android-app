@@ -84,10 +84,10 @@
         <item quantity="one">Er is <xliff:g example="1" id="count">%1$d</xliff:g> update beschikbaar</item>
         <item quantity="other">Er zijn <xliff:g example="2" id="count">%1$d</xliff:g> updates beschikbaar</item>
     </plurals>
-    <string name="launching_please_wait">Bezig met starten; even geduld…</string>
+    <string name="launching_please_wait">Bezig met starten… Even geduld.</string>
     <plurals name="_count__item_is_downloading">
-        <item quantity="one">Bezig met downloaden van <xliff:g example="1" id="count">%1$d</xliff:g> item…</item>
-        <item quantity="other">"Bezig met downloaden van  "<xliff:g example="2" id="count">%1$d</xliff:g> items…</item>
+        <item quantity="one">Bezig met downloaden van &lt;xliff:g xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\" example=\"1\" id=\"count\"&gt;%1$d&lt;/xliff:g&gt; item.</item>
+        <item quantity="other">"Bezig met downloaden van  &lt;xliff:g xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\" example=\"2\" id=\"count\"&gt;%1$d&lt;/xliff:g&gt; items."</item>
     </plurals>
     <string name="downloads_complete">Downloads voltooid</string>
     <string name="touch_for_view_all_downloads">Druk hier om alle downloads te tonen</string>
@@ -213,7 +213,7 @@
     <string name="participate_ultra_download_beta_test_content">Supersnel downloaden bevindt zich momenteel in het bètastadium - geef problemen aan ons door. Schakel het uit in de instellingen.</string>
     <string name="enable">Inschakelen</string>
     <string name="feedback">Feedback</string>
-    <string name="changing_language">Bezig met toepassen van taal; even geduld…</string>
+    <string name="changing_language">Bezig met aanpassen van taal… Even geduld.</string>
     <string name="download_via_wifi_only">Alleen downloaden via Wi-Fi</string>
     <string name="enable_ultra_download">Supersnel downloaden</string>
     <string name="enable_ultra_download_summary">Supersnel downloaden bevindt zich momenteel in het bètastadium - geef problemen aan ons door.</string>
@@ -292,7 +292,7 @@
     <string name="already_save">
         <xliff:g example="ApKPure/photo" id="path">%1$s</xliff:g> is opgeslagen</string>
     <string name="load_end">Geen gegevens meer.</string>
-    <string name="load_failed_click_retry">Het laden is mislukt; druk om opnieuw te proberen.</string>
+    <string name="load_failed_click_retry">Het laden is mislukt. Druk om opnieuw te proberen.</string>
     <string name="loading">Bezig met laden…</string>
     <string name="scan_qr_code_hint">Als je de functie \'QR-code scannen\' wilt gebruiken, moet je de camera machtigen. Dit is nodig om de QR-code uit te kunnen lezen.</string>
     <string name="zxing_msg_default_status">Plaats de QR-code binnen de zoeker om hem te scannen.</string>
@@ -326,7 +326,7 @@
     <string name="update_email_title">E-mailadres wijzigen</string>
     <string name="update_nick_name_et">Voer je nieuwe bijnaam in</string>
     <string name="update_nick_name_tv">Geef een bijnaam op.</string>
-    <string name="update_email_name_et">Voer je e-mailadres in</string>
+    <string name="update_email_name_et">Voer je e-mailadres in.</string>
     <string name="update_eamil_name_tv">Geef een e-mailadres op.</string>
     <string name="update_nickname_error">Deze bijnaam is al in gebruik - kies een andere!</string>
     <string name="update_pwd_title">Mijn wachtwoord herstellen</string>
@@ -339,7 +339,7 @@
     <string name="update_pwd_new_pwd_null_tv">Voer een nieuw wachtwoord in.</string>
     <string name="update_pwd_new_confrim_tv">De ingevoerde wachtwoorden komen niet overeen.</string>
     <string name="update_pwd_save_bt">Opslaan</string>
-    <string name="update_save_success">Opgeslagen!</string>
+    <string name="update_save_success">Opgeslagen.</string>
     <string name="crop__cancel" ignore="ButtonCase">Annuleren</string>
     <string name="crop__done">Klaar</string>
     <string name="crop__pick_error">Ongeldig bestandstype.</string>
@@ -379,7 +379,7 @@
     <string name="message_notifications_login">Log in om deze pagina te bekijken.</string>
     <string name="comment_submitting">Bezig met versturen…</string>
     <string name="app_detail_comment_order_array_default">Standaardvolgorde</string>
-    <string name="load_failed_error_not_found">Deze app is niet aanwezig in APKPure!</string>
+    <string name="load_failed_error_not_found">Deze app is niet aanwezig in APKPure.</string>
     <string name="check_update_replace">Officiële versie</string>
     <string name="check_update_beta">Vroegtijdig vrijgegeven bèta</string>
     <string name="beta">Bèta</string>
@@ -406,7 +406,7 @@
     <string name="user_info_edit_intro_tv">Over mij</string>
     <string name="update_intro_title">\'Over mij\' aanpassen</string>
     <string name="update_intro_et">Vertel iets over jezelf</string>
-    <string name="update_intro_tv">Voer een tekst in in \'Over mij\'.</string>
+    <string name="update_intro_tv">Je bio kan niet leeg zijn.</string>
     <string name="message_all">ALLES</string>
     <string name="message_at_title">Vermeldingen</string>
     <string name="message_at">heeft je vermeld</string>
@@ -763,14 +763,14 @@
     <string name="message_notify">Meldingen</string>
     <string name="app_detail_discuss_filter_folded">Ingeklapt</string>
     <string name="app_detail_discuss_filter_featured">Uitgelicht</string>
-    <string name="app_detail_folded_footer_posts">Alle reacties tonen</string>
-    <string name="app_detail_folded_footer_reviews">Alle recensies tonen</string>
+    <string name="app_detail_folded_footer_posts">Alle %d reacties tonen</string>
+    <string name="app_detail_folded_footer_reviews">Alle %d recensies tonen</string>
     <string name="app_detail_comment_order_array_bad">1-3</string>
     <string name="app_detail_comment_order_array_good">4-5</string>
     <string name="app_detail_evaluation_failed_bt">Recensie</string>
     <string name="app_detail_evaluation_tool_bar_title">Recensie schrijven</string>
     <string name="app_detail_comment_score_footer">Er zijn %1$s recensies beschikbaar in andere talen.</string>
-    <string name="app_detail_comment_no_data">Er zijn nog geen gebruikersrecensies. Schrijf je eigen recensie!</string>
+    <string name="app_detail_comment_no_data">Er zijn nog geen gebruikersrecensies. Schrijf nu je eigen recensie.</string>
     <string name="app_detail_comment_score_less">Te weinig gebruikersrecensies.</string>
     <string name="app_detail_comment_filter_version">Nieuwste versie</string>
     <string name="app_detail_comment_filter_all">Alle recensies</string>
