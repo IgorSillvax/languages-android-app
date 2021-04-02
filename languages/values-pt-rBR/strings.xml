@@ -91,7 +91,7 @@
         <item quantity="one">Baixando <xliff:g example="1" id="count">%1$d</xliff:g> item.</item>
         <item quantity="other">Baixando <xliff:g example="2" id="count">%1$d</xliff:g> itens.</item>
     </plurals>
-    <string name="downloads_complete">Todos os downloads completos</string>
+    <string name="downloads_complete">Todos os downloads foram concluídos</string>
     <string name="touch_for_view_all_downloads">Toque para ver todos os downloads</string>
     <string name="_name__download_failed">&lt;xliff:g xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\" example=\"APKPure\" id=\"name\"&gt;%1$s&lt;/xliff:g&gt; falha no download</string>
     <string name="touch_to_download_it_again">Toque para reiniciar o download</string>
@@ -176,7 +176,7 @@
     <string name="installation">Instalação</string>
     <string name="show_notification_after_installation">Mostrar notificação após a instalação</string>
     <string name="delete_packages_after_installation">Excluir pacotes após a instalação</string>
-    <string name="_name__installation_completed">&lt;xliff:g xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\" example=\"APKPure\" id=\"name\"&gt;%1$s&lt;/xliff:g&gt; Instalação completa</string>
+    <string name="_name__installation_completed">&lt;xliff:g xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\" example=\"APKPure\" id=\"name\"&gt;%1$s&lt;/xliff:g&gt; Instalação concluída</string>
     <string name="touch_to_open">Toque para iniciar.</string>
     <string name="installed">Instalado</string>
     <string name="download_over_cellular">Baixar via rede móvel de celular</string>
@@ -341,7 +341,7 @@
     <string name="login_new_user">Cadastrar novo usuário</string>
     <string name="login_post_as_a_guest">Publicar como convidado</string>
     <string name="app_detail_comment_order_array_default">Ordenar por padrão</string>
-    <string name="app_detail_comment_order_array_most_recent">Mais Recente</string>
+    <string name="app_detail_comment_order_array_most_recent">Mais recente</string>
     <string name="app_detail_comment_order_array_new">Novo</string>
     <string name="message_all">TODOS</string>
     <string name="message_reply">RESPOSTAS</string>
@@ -358,7 +358,7 @@
     <string name="install_list">Instalado</string>
     <string name="no_download">Nenhum aplicativo baixado.</string>
     <string name="downloads">Downloads</string>
-    <string name="change_language_failed">Falha ao trocar de idiomas!</string>
+    <string name="change_language_failed">Falha ao trocar de idioma!</string>
     <string name="comment_reply_tell_msg">Este comentário foi removido!</string>
     <string name="notification_setting">Notificações</string>
     <string name="reply_notification">Notificações de respostas</string>
