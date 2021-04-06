@@ -27,7 +27,7 @@
     <string name="download_management">下载管理</string>
     <string name="settings">设置</string>
     <string name="about">关于</string>
-    <string name="about_title">关于 <xliff:g id="app_name" example="APKPure">%1$s</xliff:g></string>
+    <string name="about_title">关于 &lt;xliff:g xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\" example=\"APKPure\" id=\"app_name\"&gt;%1$s&lt;/xliff:g&gt;</string>
     <string name="about_message">
         <![CDATA[<b>版本：</b> %1$s<br><br><b>官方网站：</b> <a href="%2$s">%2$s</a><br><b>电子邮箱：</b> <a href="mailto:%3$s">%3$s</a>]]>
     </string>
@@ -52,8 +52,7 @@
     <string name="want_to_delete_all_files">您确定要删除全部文件吗？</string>
     <string name="file_has_been_deleted">文件已被删除。</string>
     <string name="failed_to_delete_file">删除文件失败。</string>
-    <string name="install__label_">安装 - <xliff:g id="app_label" example="APKPure">%1$s</xliff:g>
-    </string>
+    <string name="install__label_">安装 - &lt;xliff:g xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\" example=\"APKPure\" id=\"app_label\"&gt;%1$s&lt;/xliff:g&gt;</string>
     <string name="user_canceled">用户已取消。</string>
     <string name="io_error">IO 接口错误，可能是可用空间不足无法完成安装。</string>
     <string name="file_format_error">文件格式不正确。</string>
@@ -63,8 +62,7 @@
     <string name="installing_apk">正在安装 APK …</string>
     <string name="uninstall">卸载</string>
     <string name="uninstalled">已卸载</string>
-    <string name="last_update__date_">最后更新：<xliff:g id="date">%1$s</xliff:g>
-    </string>
+    <string name="last_update__date_">最后更新： &lt;xliff:g xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\" id=\"date\"&gt;%1$s&lt;/xliff:g&gt;</string>
     <string name="all">所有</string>
     <string name="screenshots">截图</string>
     <string name="description">描述</string>
@@ -86,7 +84,7 @@
     <string name="xapk">XAPK</string>
     <string name="unknown">未知</string>
     <string name="flag_as_inappropriate">举报不当内容</string>
-    <string name="_ellipsis_"> … </string>
+    <string name="_ellipsis_"> … </string>
     <string name="history_version">历史版本</string>
     <string name="market_response_error_success">成功。</string>
     <string name="market_response_error_invalid_result">&lt;a href=\"https://translate.apkpure.com/engage/apkpure/\"&gt;
@@ -95,28 +93,23 @@
     <string name="market_response_error_network_read_error">网络读取错误。</string>
     <string name="market_response_error_invalid_response_code">无效的响应代码。</string>
     <string name="market_response_error_invalid_response_body">无效的响应主体。</string>
-    <string name="market_response_error_unknown_error__error_">未知错误(<xliff:g id="error" example="SUCCESS">%1$s</xliff:g>)。</string>
+    <string name="market_response_error_unknown_error__error_">未知错误 (&lt;xliff:g xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\" id=\"error\" example=\"SUCCESS\"&gt;%1$s&lt;/xliff:g&gt;)。</string>
     <string name="update">更新</string>
-    <string name="version__version___size_">版本：<xliff:g id="version" example="1.0.0">%1$s</xliff:g>, <xliff:g id="size" example="1024 kB">%2$s</xliff:g>
-    </string>
+    <string name="version__version___size_">版本：&lt;xliff:g xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\" example=\"1.0.0\" id=\"version\"&gt;%1$s&lt;/xliff:g&gt;,
+\n&lt;xliff:g xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\" example=\"1024 kB\" id=\"size\"&gt;%2$s&lt;/xliff:g&gt;</string>
     <plurals name="_count__new_update_is_available">
         <item quantity="other">
             <xliff:g example="2" id="count">%1$d</xliff:g> new updates are available</item>
     </plurals>
     <string name="launching_please_wait">正在启动，请稍候…</string>
     <plurals name="_count__item_is_downloading">
-        <item quantity="one">
-            <xliff:g id="count" example="1">%1$d</xliff:g> 个应用正在下载</item>
-        <item quantity="other">
-            <xliff:g id="count" example="2">%1$d</xliff:g> 个应用正在下载</item>
+        <item quantity="other">&lt;xliff:g xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\" example=\"2\" id=\"count\"&gt;%1$d&lt;/xliff:g&gt;个应用正在下载。</item>
     </plurals>
     <string name="downloads_complete">全部下载已完成</string>
     <string name="touch_for_view_all_downloads">点击查看所有下载内容</string>
-    <string name="_name__download_failed">
-        <xliff:g id="name" example="APKPure">%1$s</xliff:g> 下载失败</string>
+    <string name="_name__download_failed">&lt;xliff:g xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\" example=\"APKPure\" id=\"name\"&gt;%1$s&lt;/xliff:g&gt; 下载失败</string>
     <string name="touch_to_download_it_again">点击重新下载</string>
-    <string name="download_percent">
-        <xliff:g id="percent" example="50">%1$d</xliff:g> %%</string>
+    <string name="download_percent">&lt;xliff:g xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\" example=\"50\" id=\"percent\"&gt;%1$d&lt;/xliff:g&gt; %%</string>
     <string name="pause">暂停</string>
     <string name="pause_all">暂停全部</string>
     <string name="continue_">继续</string>
@@ -155,8 +148,7 @@
     <string name="participate_ultra_download_beta_test_title">启用超级下载以享受更快的下载速度</string>
     <string name="participate_ultra_download_beta_test_content">超级下载目前还是测试版本，如果在使用中发现问题，请告诉我们。你可以在设置页面很方便地关闭这个功能。</string>
     <string name="enable">启用</string>
-    <string name="_name__is_up_to_date">
-        <xliff:g id="name" example="APKPure">%1$s</xliff:g> 已是最新版本。</string>
+    <string name="_name__is_up_to_date">&lt;xliff:g xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\" example=\"APKPure\" id=\"name\"&gt;%1$s&lt;/xliff:g&gt; 已是最新版本。</string>
     <string name="new_version_available_title">发现新版本</string>
     <string name="new_version_available_message">
         <![CDATA[<b>最新版本：</b> %1$s<br><br><b>更新内容：</b><br>%2$s]]>
@@ -187,20 +179,21 @@
     </string>
     <string name="external_storage_permission_denied">&lt;big&gt;&lt;b&gt;我们需要访问外部存储，请您确保已授予访问权限。&lt;/b&gt;&lt;/big&gt;</string>
     <string name="share">分享</string>
-    <string name="share_app_url">分享 <xliff:g id="app_name" example="APKPure">%1$s</xliff:g> APK (来自 <xliff:g id="social_network_name" example="APKPure">%2$s</xliff:g>)  <xliff:g id="app_url" example="https://apkpure.com/p/com.apkpure.aegon">%3$s</xliff:g>
-    </string>
+    <string name="share_app_url">" 分享 &lt;xliff:g xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\" example=\"APKPure\" id=\"app_name\"&gt;%1$s&lt;/xliff:g&gt; APK (来自
+\n&lt;xliff:g xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\" example=\"APKPure\" id=\"social_network_name\"&gt;%2$s&lt;/xliff:g&gt;)
+\n&lt;xliff:g xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\" example=\"https://apkpure.com/p/com.apkpure.aegon\" id=\"app_url\"&gt;%3$s
+\n&lt;/xliff:g&gt; "</string>
     <string name="share_app_url_comment">
         <xliff:g example="APKPure" id="user_name">%1$s</xliff:g> 评论了 <xliff:g example="APKPure" id="app_name">%2$s</xliff:g> : <xliff:g example="APKPure" id="app_name">%3$s</xliff:g> (来自 <xliff:g example="APKPure" id="social_network_name">%4$s</xliff:g>) <xliff:g example="https://apkpure.com/p/com.apkpure.aegon" id="app_url">%5$s</xliff:g>
     </string>
     <string name="share_app_url_group">
         <xliff:g example="APKPure" id="app_name">%1$s</xliff:g> 小组 (来自 <xliff:g example="APKPure" id="social_network_name">%2$s</xliff:g>) <xliff:g example="https://apkpure.com/p/com.apkpure.aegon" id="app_url">%3$s</xliff:g>
     </string>
-    <string name="_name__version_history">
-        <xliff:g id="name" example="APKPure">%1$s</xliff:g> 的版本历史</string>
-    <string name="update__date___size_">更新：<xliff:g id="date" example="Mar 3, 2016">%1$s</xliff:g>, <xliff:g id="size" example="1024 kB">%2$s</xliff:g>
-    </string>
+    <string name="_name__version_history">&lt;xliff:g xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\" id=\"name\" example=\"APKPure\"&gt;%1$s&lt;/xliff:g&gt; 的版本历史</string>
+    <string name="update__date___size_">更新: &lt;xliff:g xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\" example=\"Mar 3, 2016\" id=\"date\"&gt;%1$s&lt;/xliff:g&gt;,
+\n&lt;xliff:g xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\" example=\"1024 kB\" id=\"size\"&gt;%2$s&lt;/xliff:g&gt;</string>
     <string name="update_all">全部更新</string>
-    <string name="update___count__">更新 (<xliff:g id="count" example="3">%1$d</xliff:g>)</string>
+    <string name="update___count__">更新 (&lt;xliff:g xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\" example=\"3\" id=\"count\"&gt;%1$d&lt;/xliff:g&gt;)</string>
     <string name="ignore">忽略</string>
     <string name="unignore">取消忽略</string>
     <string name="select">选择</string>
@@ -221,7 +214,7 @@
     <string name="auto">自动</string>
     <string name="changing_language">正在切换语言，请稍候…</string>
     <string name="data_saver_model">省流量模式</string>
-    <string name="data_saver_model_summery">开启后会降低展示图片大小和清晰度</string>
+    <string name="data_saver_model_summery">开启后会降低展示图片大小和清晰度。</string>
     <string name="download_via_wifi_only">只通过 Wi-Fi 下载</string>
     <string name="enable_ultra_download">启用超级下载</string>
     <string name="enable_ultra_download_summary">超级下载目前还是测试版本，如果在使用中发现问题，请告诉我们。</string>
@@ -250,12 +243,11 @@
     <string name="auto_install_via_root_title">自动安装（Root 模式）</string>
     <string name="auto_install_via_root_summary">仅限已经 Root 的 Android 手机或平板电脑。</string>
     <plurals name="app_detail_see_all_replies">
-        <item quantity="one">全部<xliff:g id="count" example="1">%1$d</xliff:g>条回复</item>
-        <item quantity="other">全部<xliff:g id="count" example="2">%1$d</xliff:g>条回复</item>
+        <item quantity="other">查看全部 &lt;xliff:g xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\" example=\"2\" id=\"count\"&gt;%1$d&lt;/xliff:g&gt; 条回复</item>
     </plurals>
     <string name="app_detail_customer_reviews">评论</string>
     <string name="app_detail_comment_type_web">网站</string>
-    <string name="app_submit_submit">提交中。。。</string>
+    <string name="app_submit_submit">提交中…</string>
     <string name="app_submit_anonymous_comment">添加评论</string>
     <string name="app_submit_title_toast">请填写标题!</string>
     <string name="app_submit_msg_toast">您必须写点什么!</string>
@@ -279,9 +271,9 @@
     <string name="app_detail_comment_filter_sort_score">最高评分</string>
     <string name="app_detail_comment_filter_all">全部</string>
     <string name="app_detail_comment_filter_version">最新版本</string>
-    <string name="app_detail_comment_score_less">用户评分过少</string>
-    <string name="app_detail_comment_no_data">没有用户评分，现在就添加你的评分</string>
-    <string name="app_detail_comment_score_footer">还有%1$s条其他语言评价</string>
+    <string name="app_detail_comment_score_less">用户评分过少。</string>
+    <string name="app_detail_comment_no_data">还没有用户评分。现在就添加你的评分。</string>
+    <string name="app_detail_comment_score_footer">还有 %1$s 条其他语言评价</string>
     <string name="app_detail_evaluation_tool_bar_title">写评价</string>
     <string name="app_detail_evaluation_failed_bt">评价</string>
     <string name="app_detail_comment_order_array_default">默认排序</string>
@@ -308,21 +300,20 @@
     <string name="reply">回复</string>
     <string name="input_reply_content">请输入回复内容:</string>
     <string name="publish">发表</string>
-    <string name="reply_dialog_marked_words">长按图片可删除图片</string>
+    <string name="reply_dialog_marked_words">长按可删除图片。</string>
     <string name="reply_comment">回复评论</string>
     <string name="save_original_image">保存原图</string>
-    <string name="already_save">已保存<xliff:g id="path" example="ApKPure/photo">%1$s</xliff:g>
-    </string>
+    <string name="already_save">已保存 &lt;xliff:g xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\" example=\"ApKPure/photo\" id=\"path\"&gt;%1$s&lt;/xliff:g&gt;</string>
     <string name="load_end">没有更多数据。</string>
     <string name="load_failed_click_retry">加载失败，点击重试</string>
     <string name="loading">正在加载…</string>
-    <string name="scan_qr_code_hint">使用此功能前，您必须同意打开相机的权限</string>
-    <string name="zxing_msg_default_status">请将二维码置于取景框内扫描</string>
-    <string name="zxing_msg_parser_status">扫描失败,请重试</string>
+    <string name="scan_qr_code_hint">在使用扫描二维码之前，您需要授予相机扫描二维码的权限。</string>
+    <string name="zxing_msg_default_status">请将二维码置于取景框内扫描。</string>
+    <string name="zxing_msg_parser_status">扫描失败，请重试。</string>
     <string name="scan_qr_code_result_title">扫描结果</string>
     <string name="scan_qr_code_result_copy_text">复制文本内容</string>
     <string name="scan_qr_code_result_hint">文本内容：</string>
-    <string name="scan_qr_code_copy_success">复制成功</string>
+    <string name="scan_qr_code_copy_success">复制成功。</string>
     <string name="tip_permission_camera_storage">没有使用相机和SD卡的权限，请在权限管理中开启。</string>
     <string name="permission_denied">访问被拒绝!</string>
     <string name="login_title">登录</string>
@@ -378,7 +369,7 @@
     <string name="update_nick_name_tv">昵称不能为空。</string>
     <string name="update_email_name_et">请输入你的邮箱地址。</string>
     <string name="update_eamil_name_tv">邮箱地址不能为空。</string>
-    <string name="update_save_success">保存成功!</string>
+    <string name="update_save_success">保存成功。</string>
     <string name="update_nickname_error">该昵称已被使用，请修改昵称！</string>
     <string name="user_info_edit_intro_tv">个人简介</string>
     <string name="update_intro_title">修改简介</string>
@@ -405,7 +396,7 @@
     <string name="user_email_hint">邮箱</string>
     <string name="user_password">密码(6–32位)</string>
     <string name="user_password_confirm">确认密码</string>
-    <string name="user_name_error">不能包含特殊字符</string>
+    <string name="user_name_error">不能包含特殊字符。</string>
     <string name="user_name_null">用户名格式不正确。</string>
     <string name="user_nickname_error">用户昵称不能包含特殊字符。</string>
     <string name="user_email_error">邮箱格式不正确。</string>
@@ -428,7 +419,7 @@
     <string name="download_list">下载列表</string>
     <string name="can_be_update">可以更新</string>
     <string name="install_list">已安装</string>
-    <string name="no_download">暂无下载</string>
+    <string name="no_download">暂无下载可用。</string>
     <string name="downloads">下载</string>
     <string name="change_language_failed">切换语言失败！</string>
     <string name="comment_reply_tell_msg">该评论已删除！</string>
@@ -446,7 +437,7 @@
         <item quantity="one">折叠回复(<xliff:g example="1" id="count">%1$d</xliff:g>)</item>
         <item quantity="other">折叠回复(<xliff:g example="2" id="count">%1$d</xliff:g>)</item>
     </plurals>
-    <string name="comment_no_reply">暂无回复</string>
+    <string name="comment_no_reply">哦豁，这里暂无回复。</string>
     <string name="comment_reply_info_name">详情</string>
     <string name="set_updates_notification">应用有新版本</string>
     <string name="set_updates_notification_msg">应用有新版本时通知我，建议开启。</string>
@@ -464,8 +455,8 @@
     <string name="menu_cancel">取消</string>
     <!--sub_comment-->
     <string name="sub_comment_dialog_title">添加视频</string>
-    <string name="sub_comment_dialog_des_tv">仅支持解析YouTube视频</string>
-    <string name="sub_comment_dialog_link_et">在此输入链接</string>
+    <string name="sub_comment_dialog_des_tv">仅支持解析YouTube上的视频。</string>
+    <string name="sub_comment_dialog_link_et">在此输入视频链接。</string>
     <string name="sub_comment_dialog_link_null">视频地址不能为空。</string>
     <string name="sub_comment_progress_msg">正在添加视频…</string>
     <string name="main_tab_home">首页</string>
@@ -483,8 +474,8 @@
     <string name="main_topic_selection">主题模式</string>
     <string name="main_night_mode">夜间模式</string>
     <string name="please_login_first">请先登录</string>
-    <string name="follow_on_success">关注成功</string>
-    <string name="follow_un_success">已取消</string>
+    <string name="follow_on_success">关注成功。</string>
+    <string name="follow_un_success">已取消关注。</string>
     <string name="canceled">已取消</string>
     <string name="group">论坛</string>
     <string name="collection">收藏</string>
@@ -493,7 +484,7 @@
     <string name="follow">关注</string>
     <string name="attention_on">已关注</string>
     <string name="attention_off">关注</string>
-    <string name="no_attention">没有关注</string>
+    <string name="no_attention">没有关注。</string>
     <string name="browsing_history">浏览历史</string>
     <string name="browsing_history_prompt">是否清除浏览历史记录?</string>
     <!--ranking_fragment-->
@@ -507,7 +498,7 @@
     <string name="menu_paste">粘贴</string>
     <string name="favorite_title">收藏</string>
     <string name="save_as_favorite">收藏</string>
-    <string name="favorite_saved">收藏成功</string>
+    <string name="favorite_saved">收藏成功。</string>
     <string name="failed_to_save_favorite">收藏失败</string>
     <string name="remove_as_favorite">从收藏中删除</string>
     <string name="remove_failed">删除失败</string>
@@ -538,7 +529,7 @@
     <string name="recommend_write_des_hint">描述优秀，可增加入选几率！</string>
     <string name="recommend_comment">提交</string>
     <string name="recommend_comment_error">发生错误了！</string>
-    <string name="recommend_description_title">推荐说明</string>
+    <string name="recommend_description_title">推荐说明：</string>
     <string name="recommend_description">1、如果推荐成功，就可以入选首页最新发现。
 \n2、暂时能可推荐已安装应用。
 \n3、如要通知 APKPure 添加未收录应用，请先完成推荐表单。</string>
@@ -574,19 +565,19 @@
     <string name="hot_tag">热门标签</string>
     <string name="hot_tag_explain">(添加或投票热门标签)</string>
     <string name="common_use">常用标签</string>
-    <string name="app_add_tag_hint_caution">最多只能添加%1$s个标签</string>
+    <string name="app_add_tag_hint_caution">每个应用程序不能超过 %1$s 个标签。</string>
     <string name="app_add_tag">添加新标签</string>
     <string name="toast_app_tag_exist">标签已存在!</string>
-    <string name="there_is_no_label">没有标签!</string>
+    <string name="there_is_no_label">没有标签。</string>
     <string name="add">添加</string>
     <string name="colon">：</string>
     <string name="pack_up">收起</string>
     <string name="Istop">置顶</string>
     <string name="add_tag">添加标签</string>
     <string name="error_add_tag">标签添加失败。</string>
-    <string name="no_collect">收藏夹里什么都没有…</string>
+    <string name="no_collect">收藏夹里什么也没有！</string>
     <string name="no_comment">暂无评论，快来抢沙发!</string>
-    <string name="filter_no_comment">没有符合条件的内容</string>
+    <string name="filter_no_comment">天哪！没有符合条件的内容！！</string>
     <string name="share_apk">分享APK</string>
     <string name="tab_apk">APK文件</string>
     <string name="commentaries">图文</string>
@@ -601,9 +592,9 @@
     <string name="upload_notification_start">开始</string>
     <string name="upload_notification_cancel">取消</string>
     <string name="upload_notification_is_uploading">评论上传中…</string>
-    <string name="upload_notification_is_pause">上传已暂停</string>
+    <string name="upload_notification_is_pause">上传已暂停。</string>
     <string name="upload_add_list_toast">成功！</string>
-    <string name="upload_add_file_list_toast">感谢提交。您的应用正在上传中，请稍后！</string>
+    <string name="upload_add_file_list_toast">感谢提交。您的应用正在上传中，请稍后。</string>
     <string name="your_reply_comment">你的回复</string>
     <string name="market_ad_title">市场</string>
     <string name="market_ad_tab_one">推荐</string>
@@ -628,7 +619,7 @@
     <string name="copy_username">复制昵称</string>
     <string name="copy_content">复制内容</string>
     <string name="tab_global">推荐</string>
-    <string name="comment_list_see_here">上次看到这里，点击刷新</string>
+    <string name="comment_list_see_here">上次看到这里，点击刷新。</string>
     <string name="comment_list_new_num">%d条新内容</string>
     <string name="tab_popular">热门</string>
     <string name="count_down_timer_tv">%ds</string>
@@ -655,17 +646,17 @@
     <string name="verification_code_second_tv">%ds后重新发送</string>
     <string name="verification_code_resend_tv">重新发送</string>
     <string name="send_verification_code_resend_tv">发送验证码</string>
-    <string name="bind_email_success">绑定成功</string>
+    <string name="bind_email_success">绑定成功。</string>
     <string name="update_email_tv">更换电子邮箱后需要重新验证新的电子邮箱。</string>
     <string name="verification_code_tv_hint">验证码</string>
-    <string name="verification_success_code_toast">验证码发送成功</string>
-    <string name="verification_null_code_toast">请填写验证码</string>
+    <string name="verification_success_code_toast">验证码发送成功。</string>
+    <string name="verification_null_code_toast">请输入验证码。</string>
     <string name="unbind_email">未绑定</string>
-    <string name="unbind_email_hint">邮箱未绑定</string>
+    <string name="unbind_email_hint">未绑定邮箱。</string>
     <string name="menu_skip">跳过</string>
-    <string name="forget_password_tv">忘记密码</string>
+    <string name="forget_password_tv">忘记密码？</string>
     <string name="recover_password_title">找回密码</string>
-    <string name="email_address_hint_et">邮箱地址</string>
+    <string name="email_address_hint_et">输入你的电子邮箱地址。</string>
     <string name="setting_region">区域</string>
     <string name="submit_add_title_image_tv">添加题图</string>
     <string name="submit_add_title_image_error_toast">不支持此图片的格式，请另选择一张图片。</string>
@@ -695,32 +686,33 @@
     <string name="look_all">查看更多</string>
     <string name="history_hastag">历史话题</string>
     <string name="share_image_failed">分享图片失败!</string>
-    <string name="share_select_image_overflow_hint">最多分享9张图片!</string>
+    <string name="share_select_image_overflow_hint">最多分享9张图片。</string>
     <string name="search_or_create">搜索或创建</string>
     <string name="privacy_setting_title">隐私设置</string>
     <string name="privacy_setting_account">私密账户</string>
-    <string name="privacy_setting_account_des">账户设为私密时，其他人将无法查看你的个人主页</string>
+    <string name="privacy_setting_account_des">当账户设为私密时，其他人将无法查看你的个人主页。</string>
     <string name="privacy_setting_account_del">删除您的账号与信息</string>
-    <string name="privacy_setting_account_privacy">已设为私密账户</string>
-    <string name="del_account_email_notify_tv">该邮箱用于接收删除成功的通知邮件</string>
+    <string name="privacy_setting_account_privacy">已设为私密账户。</string>
+    <string name="del_account_email_notify_tv">请提供有效的电子邮件地址以接收我们的通知。</string>
     <string name="del_account_email_reason_tv">您为什么要删除账户？</string>
     <string name="del_account_bt">提交</string>
     <string name="del_account_reason_hint">您为什么要删除账户？</string>
     <string name="del_account_sure">您的账号与信息将于48小时后删除，删除成功后您将收到通知邮件，如有其他问题请联系客服。</string>
     <string name="reply_to">回复 %1$s:</string>
-    <string name="share_app_url_comment_v3">分享 <xliff:g example="zhangsan" id="name">%1$s</xliff:g>的<xliff:g example="post/story/review" id="type">%2$s</xliff:g>(来自 APKPure):<xliff:g example="https://apkpure.com" id="url">%3$s </xliff:g>
-    </string>
-    <string name="apk_unable_upload">Apk无法上传!</string>
+    <string name="share_app_url_comment_v3">"分享   &lt;xliff:g xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\" example=\"zhangsan\" id=\"name\"&gt;%1$s
+\n&lt;/xliff:g&gt;\'s &lt;xliff:g xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\" example=\"post/story/review\" id=\"type\"&gt;
+\n%2$s&lt;/xliff:g&gt; (来自 APKPure):
+\n&lt;xliff:g xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\" example=\"https://apkpure.com\" id=\"url\"&gt;%3$s
+\n&lt;/xliff:g&gt;"</string>
+    <string name="apk_unable_upload">APK无法上传。</string>
     <string name="long_image">长图</string>
     <string name="edit_tag">编辑标签</string>
     <string name="save_tag_hint_msg">还有未保存的标签，确定退出？</string>
     <string name="app_rating">分级：</string>
     <string name="number">、</string>
-    <string name="un_follow_xx">取消关注 <xliff:g example="Apkpure" id="name">%1$s</xliff:g>
-    </string>
-    <string name="follow_xx">关注 <xliff:g example="Apkpure" id="name">%1$s</xliff:g>
-    </string>
-    <string name="headline_footer_refresh">下拉或点击刷新</string>
+    <string name="un_follow_xx">取消关注 &lt;xliff:g xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\" example=\"Apkpure\" id=\"name\"&gt;%1$s&lt;/xliff:g&gt;</string>
+    <string name="follow_xx">关注 &lt;xliff:g xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\" example=\"Apkpure\" id=\"name\"&gt;%1$s&lt;/xliff:g&gt;</string>
+    <string name="headline_footer_refresh">下拉或点击以刷新。</string>
     <string name="download_install_obb">安装OBB</string>
     <string name="download_install_apk">安装APK</string>
     <string name="users_recommended_title">恭喜！</string>
@@ -728,27 +720,23 @@
     <string name="recommended_posts_title">恭喜！</string>
     <string name="recommended_posts_des">您的评论被选入用户推荐,%1$s</string>
     <string name="comment_removed_title">您的帖子被删除</string>
-    <string name="comment_removed_des">
-        您的发帖内容似乎没有遵守我们的%1$s。
-        我们不允许在APKPure上发布欺凌或骚扰任何人的帖子。
-        这可能包括进行人身欺凌的不适当的图片、照片或视频，或其他任何意图贬低或羞辱某人的言语内容。
-        \n%2$s
-        \n如果您对处理结果有异议，请%3$s</string>
-    <string name="temporarily_blocked_title">您暂时不能发帖。</string>
-    <string name="temporarily_blocked_des">这个临时处罚将持续%1$s天，您将不能在APKPure发帖，直到时间结束。 如果您再次发布违反我们%2$s的内容，您的帐号将会被冻结30天。 请记住，那些反复在APKPure上发布不被允许内容的人，他们的账号可能将被永久停用。 
+    <string name="comment_removed_des">您的发帖内容似乎没有遵守我们的%1$s。 我们不允许在APKPure上发布任何有关欺凌或骚扰任何人的帖子。 这可能包括进行人身欺凌的不适当的图片、照片或视频，或其他任何意图贬低或羞辱某人的言语内容。 
+\n%2$s 
+\n如果您对处理结果有异议，请%3$s。</string>
+    <string name="temporarily_blocked_title">您暂时不能发帖</string>
+    <string name="temporarily_blocked_des">这个临时处罚将持续%1$s天。在处罚结束前，您将不能在APKPure上发帖。 如果您再次发布违反我们%2$s的内容，您的帐号将会被冻结30天。 请记住，那些反复在APKPure上发布不被允许内容的人，他们的账号可能将被永久停用。 
 \n如果您对处理结果有异议，请%3$s。</string>
     <string name="pre_register_title">%1$s已发布%2$s！</string>
     <string name="pre_register_des">预注册游戏%1$s %2$s现在可以下载了。%3$s</string>
     <string name="report_callback_title">我们删除了您举报的帖子！</string>
-    <string name="report_callback_des">我们审核了您举报的帖子。因为它违反了我们的%1$s，所以我们删除了该贴，并通知了%2$s。感谢您的反馈。</string>
+    <string name="report_callback_des">我们审核了您举报的帖子。因为它违反了我们的%1$s，所以我们删除了该贴，并通知了%1$s。感谢您的反馈。</string>
     <string name="tap_to_view">点击查看</string>
     <string name="let_us_know">告诉我们</string>
     <string name="community_guide_lines">社区规范</string>
     <string name="my_draft">我的草稿</string>
     <string name="clear_empty">清空</string>
     <string name="several_draft">&lt;xliff:g xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\" example=\"5\" id=\"count\"&gt;%1$s&lt;/xliff:g&gt; 篇草稿</string>
-    <string name="several_drafts">
-        <xliff:g example="5" id="count">%1$s</xliff:g>篇草稿</string>
+    <string name="several_drafts">&lt;xliff:g xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\" example=\"5\" id=\"count\"&gt;%1$s&lt;/xliff:g&gt;篇草稿</string>
     <string name="delete_all_draft_hint">是否清空草稿箱?</string>
     <string name="edit_draft">编辑草稿</string>
     <string name="delete_draft">删除草稿</string>
@@ -768,7 +756,8 @@
     <string name="upload_xapk_to_group">上传XAPK到小组</string>
     <string name="xapk_unable_upload">XAPK无法上传!</string>
     <string name="app_details_request_update_title">求更新</string>
-    <string name="app_details_request_update_msg">你已请求了《%s》更新，我们将收到反馈。</string>
+    <string name="app_details_request_update_msg">你已请求了《%s》更新。
+\n我们将收到反馈。</string>
     <string name="attention_each">互相关注</string>
     <!-- //////////////////////////////////选择照片  start /////////////////////////////////////////////////////////////////////////////////////////////-->
     <string name="picture_camera_roll">相机胶卷</string>
@@ -825,7 +814,7 @@
     <string name="xapk_upload_hint_info">XAPK文件可能会花较长的时间上传，是否要继续\?</string>
     <string name="ucrop_mutate_exception_hint">因此，请在您的应用中覆盖颜色资源（ucrop_color_toolbar_widget），以使其在pre-L前设备上运行</string>
     <string name="ucrop_error_input_data_is_absent">必须指定输入和输出Uri</string>
-    <string name="home_recommended_desc">您的帖子已被选为主页推荐，％1 $ sv</string>
+    <string name="home_recommended_desc">您的帖子已被 %1$s 选为主页推荐。</string>
     <string name="home_recommended_title">恭喜！</string>
     <string name="hot">热门</string>
     <string name="upload_apk_version">V %1$s</string>

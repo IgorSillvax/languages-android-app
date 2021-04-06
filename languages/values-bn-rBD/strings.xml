@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="recommend">আবিষ্কার করুন</string>
-    <string name="action_settings">Bangladesh</string>
-    <string name="action_search">ဗိုလ် မိုက်ကယ်</string>
+    <string name="action_settings">সেটিংস</string>
+    <string name="action_search">খুঁজুন</string>
     <string name="action_management">ম্যানেজমেন্ট</string>
-    <string name="press_back_key_quit">বাহির হতে পুনরায় ব্যাক বাটন চাপুন</string>
+    <string name="press_back_key_quit">বের হতে আবার ব্যাক বাটন চাপুন।</string>
     <string name="featured">বৈশিষ্ট্যযুক্ত</string>
     <string name="games">গেম</string>
     <string name="apps">অ্যাপস</string>
@@ -13,11 +13,11 @@
     <string name="something_happened">&gt;_&lt;
 \nকিছু একটা ঘটেছে.</string>
     <string name="load_failed_error">ওহো! একটি ত্রুটি ঘটেছে.</string>
-    <string name="load_failed_error_not_found">অ্যাপটি APKPure অন্তর্ভুক্ত করা হয় নি</string>
+    <string name="load_failed_error_not_found">অ্যাপটি এখানে অন্তর্ভুক্ত করা হয়নি।</string>
     <string name="load_failed_empty">এখানে কিছুই নেই।</string>
     <string name="load_failed_all_up_to_date">সমস্ত অ্যাপ্লিকেশন আপ টু ডেট।</string>
     <string name="load_failed_no_results">দুঃখিত! কোন ফলাফল পাওয়া যায়নি.</string>
-    <string name="refresh">সতেজ করা</string>
+    <string name="refresh">রিফ্রেশ</string>
     <string name="management">ম্যানেজমেন্ট</string>
     <string name="app_updates">অ্যাপ আপডেট</string>
     <string name="app_management">ইনস্টল</string>
@@ -27,12 +27,12 @@
     <string name="download_management">ব্যবস্থাপনা ডাউনলোড করুন</string>
     <string name="settings">সেটিংস</string>
     <string name="about">সম্পর্কিত</string>
-    <string name="check_update">আপডেট চেক কর</string>
+    <string name="check_update">আপডেট চেক করুন</string>
     <string name="check_update_replace">অফিসিয়াল সংস্করণ</string>
     <string name="check_update_beta">প্রাক মুক্তি বিটা</string>
     <string name="beta">বিটা</string>
     <string name="quit">অব্যাহতিপ্রাপ্ত</string>
-    <string name="want_to_quit">আপনি কি নিশ্চিত যে আপনি পরিত্যাগ করতে চান\?</string>
+    <string name="want_to_quit">আপনি কি নিশ্চিত যে আপনি বের হতে চান\?</string>
     <string name="install">ইনস্টল করুন</string>
     <string name="open">খোলা</string>
     <string name="delete">মুছে ফেলা</string>
@@ -43,7 +43,7 @@
     <string name="file_has_been_deleted">ফাইল মুছে ফেলা হয়েছে।</string>
     <string name="failed_to_delete_file">ফাইল মুছে ফেলতে ব্যর্থ হয়েছে।</string>
     <string name="user_canceled">ব্যবহারকারী বাতিল।</string>
-    <string name="io_error">আইও ত্রুটি। ইনস্টলেশনের সফল হওয়ার জন্য পর্যাপ্ত স্থান নেই।</string>
+    <string name="io_error">আইও ত্রুটি। ইনস্টলেশন সফল হওয়ার জন্য পর্যাপ্ত স্থান নেই।</string>
     <string name="file_format_error">ফাইল বিন্যাস ত্রুটি।</string>
     <string name="parsing_xapk">পার্সিং XAPK …</string>
     <string name="installing_obb">ওবিবি ফাইল ইনস্টল করা হচ্ছে …</string>
@@ -100,8 +100,8 @@
     <string name="file_invalid">ফাইল অবৈধ</string>
     <string name="about_title">
         <xliff:g example="APKPure" id="app_name">%1$s</xliff:g> সম্পর্কে জানুন</string>
-    <string name="about_message">&lt;b&gt;Version:&lt;/b&gt; %1$s&lt;br&gt;&lt;br&gt;&lt;b&gt;Website:&lt;/b&gt; &lt;a href=%2$s&gt;%2$s&lt;/a&gt;&lt;br&gt;&lt;b&gt;Email:&lt;/b&gt; &lt;a href=mailto:%3$s&gt;%3$s&lt;/a&gt;</string>
-    <string name="properties_message">&lt;b&gt;Path:&lt;/b&gt; %1$s&lt;br&gt;&lt;b&gt;Size:&lt;/b&gt; %2$s&lt;br&gt;&lt;b&gt;Last Modified:&lt;/b&gt; %3$s</string>
-    <string name="properties_message_v2">&lt;b&gt;Package Name:&lt;/b&gt; %1$s&lt;br&gt;&lt;b&gt;Version:&lt;/b&gt; %2$s&lt;br&gt;&lt;b&gt;Path:&lt;/b&gt; %3$s&lt;br&gt;&lt;b&gt;Size:&lt;/b&gt; %4$s&lt;br&gt;&lt;b&gt;Last Modified:&lt;/b&gt; %5$s</string>
+    <string name="about_message">&lt;b&gt;ভার্সন:&lt;/b&gt; %1$s&lt;br&gt;&lt;br&gt;&lt;b&gt;ওয়েবসাইট:&lt;/b&gt; &lt;a href=%2$s&gt;%2$s&lt;/a&gt;&lt;br&gt;&lt;b&gt;ই-মেইল:&lt;/b&gt; &lt;a href=mailto:%3$s&gt;%3$s&lt;/a&gt;</string>
+    <string name="properties_message">&lt;b&gt;প্যাথ:&lt;/b&gt; %1$s&lt;br&gt;&lt;b&gt;সাইজ:&lt;/b&gt; %2$s&lt;br&gt;&lt;b&gt;সর্বশেষ সংশোধন:&lt;/b&gt; %3$s</string>
+    <string name="properties_message_v2">&lt;b&gt;প্যাকেজের নাম:&lt;/b&gt; %1$s&lt;br&gt;&lt;b&gt;ভার্সন:&lt;/b&gt; %2$s&lt;br&gt;&lt;b&gt;প্যাথ:&lt;/b&gt; %3$s&lt;br&gt;&lt;b&gt;সাইজ:&lt;/b&gt; %4$s&lt;br&gt;&lt;b&gt;সর্বশেষ সংশোধন:&lt;/b&gt; %5$s</string>
     <string name="open_video_in_youtube">asdasd</string>
 </resources>
