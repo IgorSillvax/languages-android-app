@@ -190,16 +190,16 @@
         </big>
     </string>
     <string name="share">Сподели</string>
-    <string name="share_app_url"> Сподели <xliff:g example="APKPure" id="app_name">%1$s</xliff:g> APK (от <xliff:g example="APKPure" id="social_network_name">%2$s</xliff:g>)
-\n<xliff:g example="https://apkpure.com/p/com.apkpure.aegon" id="app_url">%3$s</xliff:g>
-    </string>
-    <string name="share_app_url_comment"> Коментарите на <xliff:g example="APKPure" id="user_name">%1$s</xliff:g> на <xliff:g example="APKPure" id="app_name">%2$s</xliff:g> :
-\n<xliff:g example="APKPure" id="app_name">%3$s</xliff:g> (от <xliff:g example="APKPure" id="social_network_name">%4$s</xliff:g>)
-\n<xliff:g example="https://apkpure.com/p/com.apkpure.aegon" id="app_url">%5$s</xliff:g>
-    </string>
-    <string name="share_app_url_group"> Група <xliff:g example="APKPure" id="app_name">%1$s</xliff:g>. (от <xliff:g example="APKPure" id="social_network_name">%2$s</xliff:g>)
-\n<xliff:g example="https://apkpure.com/p/com.apkpure.aegon" id="app_url">%3$s</xliff:g>
-    </string>
+    <string name="share_app_url">" Сподели
+\n &lt;xliff:g xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\" example=\"APKPure\" id=\"app_name\"&gt;%1$s&lt;/xliff:g&gt; APK (от &lt;xliff:g xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\" example=\"APKPure\" id=\"social_network_name\"&gt;%2$s&lt;/xliff:g&gt;)
+\n&lt;xliff:g xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\" example=\"https://apkpure.com/p/com.apkpure.aegon\" id=\"app_url\"&gt;%3$s&lt;/xliff:g&gt; "</string>
+    <string name="share_app_url_comment">" Коментарите на
+\n&lt;xliff:g xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\" example=\"APKPure\" id=\"user_name\"&gt;%1$s&lt;/xliff:g&gt; на &lt;xliff:g xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\" example=\"APKPure\" id=\"app_name\"&gt;%2$s&lt;/xliff:g&gt; :
+\n&lt;xliff:g xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\" example=\"APKPure\" id=\"app_name\"&gt;%3$s&lt;/xliff:g&gt; (от &lt;xliff:g xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\" example=\"APKPure\" id=\"social_network_name\"&gt;%4$s&lt;/xliff:g&gt;)
+\n&lt;xliff:g xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\" example=\"https://apkpure.com/p/com.apkpure.aegon\" id=\"app_url\"&gt;%5$s&lt;/xliff:g&gt; "</string>
+    <string name="share_app_url_group">" Група 
+\n&lt;xliff:g xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\" example=\"APKPure\" id=\"app_name\"&gt;%1$s&lt;/xliff:g&gt;. (от &lt;xliff:g xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\" example=\"APKPure\" id=\"social_network_name\"&gt;%2$s&lt;/xliff:g&gt;)
+\n&lt;xliff:g xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\" example=\"https://apkpure.com/p/com.apkpure.aegon\" id=\"app_url\"&gt;%3$s&lt;/xliff:g&gt; "</string>
     <string name="_name__version_history">
         <xliff:g example="APKPure" id="name">%1$s</xliff:g> История на версиите</string>
     <string name="update__date___size_">
@@ -262,8 +262,9 @@
     <string name="auto_install_via_root_title">Автоматична инсталация (root режим)</string>
     <string name="auto_install_via_root_summary">Само за Android устройства с root достъп.</string>
     <plurals name="app_detail_see_all_replies">
-        <item quantity="one">Виж <xliff:g example="1" id="count">%1$s</xliff:g> отговор</item>
-        <item quantity="other">Виж всички <xliff:g example="2" id="count">%1$d</xliff:g> отговори</item>
+        <item quantity="one">Виж&lt;xliff:g xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\" example=\"1\" id=\"count\"&gt;%1$d&lt;/xliff:g&gt; отговор</item>
+        <item quantity="other">Виж всички
+\n&lt;xliff:g xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\" example=\"2\" id=\"count\"&gt;%1$d&lt;/xliff:g&gt; отговори</item>
     </plurals>
     <string name="app_detail_customer_reviews">Коментари</string>
     <string name="app_detail_comment_type_web">Уеб</string>
@@ -751,7 +752,7 @@
     <string name="tap_to_view">Натисни за преглед</string>
     <string name="report_callback_des">Прегледахме публикацията, която докладва. Тъй като нарушаваше нашите %1$s, я премахнахме. Благодарим ти за сигнала.</string>
     <string name="report_callback_title">Публикацията, която докладва, е премахната!</string>
-    <string name="pre_register_des">"Играта %1$s   %2$s, за която се регистрира предварително, е налична за изтегляне.%3$s"</string>
+    <string name="pre_register_des">Играта %1$s %2$s, за която се регистрира предварително, е налична за изтегляне.%3$s</string>
     <string name="pre_register_title">%1$s излезе за %2$s!</string>
     <string name="temporarily_blocked_des">"Твоята забрана е за %1$s дена и няма да можеш да качваш съдържание в APKPure, докато не изтече.
 \n        Ако отново качиш нещо, което нарушава нашите %2$s, профилът ти ще бъде забранен за 30 дена.
