@@ -5,17 +5,17 @@
     <string name="aegon_app_name" translatable="false">APKPure</string>
     <string name="action_settings">ترتيبات</string>
     <string name="action_search">تلاش کريں</string>
-    <string name="action_management"/>
+    <string name="action_management">انتظام</string>
     <string name="press_back_key_quit">باہر نکلنے کے لئے ، ایک بار پھر پیچھے کے بٹن پر ٹیپ کریں۔</string>
     <string name="featured">نمایاں</string>
     <string name="recommend">دریافت</string>
     <string name="games">کھیل</string>
     <string name="apps">ايپس</string>
-    <string name="categories"/>
-    <string name="updates"/>
+    <string name="categories">زمرہ‌جات</string>
+    <string name="updates">تازہ ترین</string>
     <string name="something_happened"/>
     <string name="load_failed_error"/>
-    <string name="load_failed_error_not_found"/>
+    <string name="load_failed_error_not_found">ایپ کو APKPure میں شامل نہیں کیا گیا ہے۔</string>
     <string name="load_failed_empty"/>
     <string name="load_failed_all_up_to_date"/>
     <string name="load_failed_no_results"/>
@@ -29,7 +29,7 @@
     <string name="download_management"/>
     <string name="settings"/>
     <string name="about"/>
-    <string name="about_title"/>
+    <string name="about_title">متعلق &lt;xliff:g xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\" example=\"APKPure\" id=\"app_name\"&gt;%1$s&lt;/xliff:g&gt;</string>
     <string name="about_message"/>
     <string name="check_update"/>
     <string name="check_update_replace"/>
@@ -43,15 +43,15 @@
     <string name="open"/>
     <string name="delete"/>
     <string name="delete_all"/>
-    <string name="properties"/>
+    <string name="properties">خووصیات</string>
     <string name="properties_message"/>
     <string name="properties_message_v2"/>
-    <string name="want_to_delete_file"/>
-    <string name="want_to_delete_all_files"/>
-    <string name="file_has_been_deleted"/>
-    <string name="failed_to_delete_file"/>
+    <string name="want_to_delete_file">کیا آپ واقعی اس فائل کو حذف کرنا چاہتے ہیں؟</string>
+    <string name="want_to_delete_all_files">کیا آپ واقعی تمام فائلوں کو حذف کرنا چاہتے ہیں؟</string>
+    <string name="file_has_been_deleted">فائل حذف ہو گئی ہے۔</string>
+    <string name="failed_to_delete_file">فائل کو حذف کرنے میں ناکام۔</string>
     <string name="install__label_"/>
-    <string name="user_canceled"/>
+    <string name="user_canceled">صارف منسوخ۔</string>
     <string name="io_error"/>
     <string name="file_format_error"/>
     <string name="parsing_xapk"/>
