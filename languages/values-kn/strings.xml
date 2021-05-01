@@ -96,12 +96,12 @@
     <string name="version__version___size_">ಆವೃತ್ತಿ: &lt;xliff:g xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\" example=\"1.0.0\" id=\"version\"&gt;%1$s&lt;/xliff:g&gt;, &lt;xliff:g xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\" example=\"1024 kB\" id=\"size\"&gt;%2$s&lt;/xliff:g&gt;</string>
     <plurals name="_count__new_update_is_available">
         <item quantity="one">&lt;xliff:g xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\" example=\"2\" id=\"count\"&gt;%1$d&lt;/xliff:g&gt; ಹೊಸ ನವೀಕರಣಗಳು ಲಭ್ಯವಿದೆ</item>
-        <item quantity="other"></item>
+        <item quantity="other"/>
     </plurals>
     <string name="launching_please_wait">ಪ್ರಾರಂಭಿಸಲಾಗುತ್ತಿದೆ… ದಯವಿಟ್ಟು ಕಾಯಿರಿ.</string>
     <plurals name="_count__item_is_downloading">
         <item quantity="one">ಡೌನ್‌ಲೋಡ್ ಮಾಡಲಾಗುತ್ತಿದೆ &lt;xliff:g xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\" example=\"1\" id=\"count\"&gt;%1$d&lt;/xliff:g&gt; item.</item>
-        <item quantity="other"></item>
+        <item quantity="other"/>
     </plurals>
     <string name="downloads_complete">ಎಲ್ಲಾ ಡೌನ್‌ಲೋಡ್‌ಗಳು ಪೂರ್ಣಗೊಂಡಿವೆ</string>
     <string name="touch_for_view_all_downloads">ಎಲ್ಲಾ ಡೌನ್‌ಲೋಡ್‌ಗಳನ್ನು ವೀಕ್ಷಿಸಲು ಕ್ಲಿಕ್ ಮಾಡಿ</string>
@@ -713,23 +713,23 @@
     <string name="del_account_reason_hint">ಈ ಖಾತೆಯನ್ನು ಏಕೆ ಅಳಿಸಲು ನೀವು ಬಯಸುತ್ತೀರಿ\?</string>
     <string name="del_account_sure">ನಿಮ್ಮ ಖಾತೆಯನ್ನು 48 ಗಂಟೆಗಳಲ್ಲಿ ಅಳಿಸಲಾಗುತ್ತದೆ. ನೀವು ಹೆಚ್ಚಿನ ಪ್ರಶ್ನೆಗಳನ್ನು ಹೊಂದಿದ್ದರೆ ದಯವಿಟ್ಟು ನಮ್ಮನ್ನು ಸಂಪರ್ಕಿಸಿ.</string>
     <string name="reply_to">ಇದಕ್ಕೆ ಪ್ರತ್ಯುತ್ತರಿಸಿ %1$s:</string>
-    <string name="share_app_url_comment_v3"/>
-    <string name="apk_unable_upload"/>
-    <string name="long_image"/>
-    <string name="edit_tag"/>
-    <string name="save_tag_hint_msg"/>
-    <string name="un_follow_xx"/>
-    <string name="follow_xx"/>
-    <string name="app_rating"/>
-    <string name="number"/>
-    <string name="headline_footer_refresh"/>
-    <string name="download_install_obb"/>
-    <string name="download_install_apk"/>
-    <string name="users_recommended_title"/>
-    <string name="users_recommended_des"/>
-    <string name="recommended_posts_title"/>
-    <string name="recommended_posts_des"/>
-    <string name="home_recommended_title"/>
+    <string name="share_app_url_comment_v3">ಹಂಚಿಕೊಳ್ಳಿ &lt;xliff:g xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\" example=\"zhangsan\" id=\"name\"&gt;%1$s&lt;/xliff:g&gt;\'s &lt;xliff:g xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\" example=\"post/story/review\" id=\"type\"&gt;%2$s&lt;/xliff:g&gt; (From APKPure):&lt;xliff:g xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\" example=\"https://apkpure.com\" id=\"url\"&gt;%3$s &lt;/xliff:g&gt;</string>
+    <string name="apk_unable_upload">ಎಪಿಕೆ ಅಪ್‌ಲೋಡ್ ಮಾಡಲು ವಿಫಲವಾಗಿದೆ.</string>
+    <string name="long_image">ಎತ್ತರದ ಚಿತ್ರ</string>
+    <string name="edit_tag">ಟ್ಯಾಗ್ ಸಂಪಾದಿಸಿ</string>
+    <string name="save_tag_hint_msg">ಬದಲಾವಣೆಯನ್ನು ಉಳಿಸಲಾಗುವುದಿಲ್ಲ. ನೀನು ನಿಜವಾಗಲೂ ಹೊರಗೆ ಹೂಗಬಯಸುತ್ತೀಯಾ\?</string>
+    <string name="un_follow_xx">ಅನುಸರಿಸಬೇಡಿ &lt;xliff:g xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\" example=\"Apkpure\" id=\"name\"&gt;%1$s&lt;/xliff:g&gt;</string>
+    <string name="follow_xx">ಅನುಸರಿಸಿ &lt;xliff:g xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\" example=\"Apkpure\" id=\"name\"&gt;%1$s&lt;/xliff:g&gt;</string>
+    <string name="app_rating">ರೇಟಿಂಗ್:</string>
+    <string name="number">\"</string>
+    <string name="headline_footer_refresh">ರಿಫ್ರೆಶ್ ಮಾಡಲು ಈ ಸಾಲನ್ನು ಕೆಳಗೆ ಎಳೆಯಿರಿ ಅಥವಾ ಟ್ಯಾಪ್ ಮಾಡಿ.</string>
+    <string name="download_install_obb">ಒಬಿಬಿ ಸ್ಥಾಪಿಸಿ</string>
+    <string name="download_install_apk">ಎಪಿಕೆ ಸ್ಥಾಪಿಸಿ</string>
+    <string name="users_recommended_title">ಅಭಿನಂದನೆಗಳು!</string>
+    <string name="users_recommended_des">ನಿಮ್ಮ ಪೋಸ್ಟ್ ಅನ್ನು ಬಳಕೆದಾರರ ಶಿಫಾರಸಾಗಿ ಆಯ್ಕೆ ಮಾಡಲಾಗಿದೆ,%1$s</string>
+    <string name="recommended_posts_title">ಅಭಿನಂದನೆಗಳು!</string>
+    <string name="recommended_posts_des">ನಿಮ್ಮ ಪೋಸ್ಟ್ ಅನ್ನು ಶಿಫಾರಸು ಮಾಡಿದ ಪೋಸ್ಟ್ ಆಗಿ ಆಯ್ಕೆ ಮಾಡಲಾಗಿದೆ,%1$s</string>
+    <string name="home_recommended_title">ಅಭಿನಂದನೆಗಳು!</string>
     <string name="home_recommended_desc"/>
     <string name="comment_removed_title"/>
     <string name="comment_removed_des"/>
