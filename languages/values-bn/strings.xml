@@ -220,8 +220,7 @@
     <string name="installation">ইনস্টলেশন</string>
     <string name="show_notification_after_installation">ইনস্টলেশনের পরে সূচনা দেখান</string>
     <string name="delete_packages_after_installation">ইনস্টলেশনের পরে প্যাকেজগুলি মুছুন</string>
-    <string name="_name__installation_completed">
-        <xliff:g example="APKPure" id="name">%1$s</xliff:g> ইনস্টলেশন সম্পূর্ণ হয়েছে</string>
+    <string name="_name__installation_completed">&lt;xliff:g xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\" example=\"APKPure\" id=\"name\"&gt;%1$s&lt;/xliff:g&gt; installation complete</string>
     <string name="touch_to_open">খুলতে স্পর্শ করুন।.</string>
     <string name="more_from_developer">ডেভেলপারের থেকে আরও</string>
     <string name="more_large">আরও</string>
@@ -267,7 +266,7 @@
         <item quantity="other">সমস্ত <xliff:g example="1" id="count">%1$d</xliff:g> উত্তর দেখুন</item>
     </plurals>
     <string name="app_detail_customer_reviews">মন্তব্যসমূহ</string>
-    <string name="app_detail_comment_type_web">ওয়েব</string>
+    <string name="app_detail_comment_type_web">Web</string>
     <string name="app_submit_submit">পোস্ট…</string>
     <string name="app_submit_anonymous_comment">একটি মন্তব্য যোগ করুন</string>
     <string name="app_submit_title_toast">আপনার অবশ্যই লেখা পদবী!</string>
