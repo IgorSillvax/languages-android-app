@@ -33,8 +33,8 @@
     <string name="apk_xapk_management">จัดการไฟล์ APK / XAPK</string>
     <string name="apk_management">จัดการไฟล์ APK</string>
     <string name="about_title">เกี่ยวกับ &lt;xliff:g xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\" example=\"APKPure\" id=\"app_name\"&gt;%1$s&lt;/xliff:g&gt;</string>
-    <string name="file_has_been_deleted">ไฟล์นี้ถูกลบแล้ว</string>
-    <string name="failed_to_delete_file">ลบไฟล์ไม่ได้</string>
+    <string name="file_has_been_deleted">ไฟล์ถูกลบแล้ว</string>
+    <string name="failed_to_delete_file">ลบไฟล์ไม่สำเร็จ</string>
     <string name="user_canceled">ยกเลิกโดยผู้ใช้</string>
     <string name="file_format_error">รูปแบบไฟล์ไม่ถูกต้อง</string>
     <string name="installing_obb">กำลังติดตั้งไฟล์ OBB …</string>
@@ -43,11 +43,11 @@
     <string name="type_">ประเภท:</string>
     <string name="other">อื่นๆ</string>
     <string name="version_">เวอร์ชัน:</string>
-    <string name="updated_">ปรับปรุง:</string>
+    <string name="updated_">ปรับปรุงแล้ว:</string>
     <string name="size_">ขนาด:</string>
     <string name="permissions_">การเข้าถึง:</string>
-    <string name="more">อื่นๆ</string>
-    <string name="unknown">ไม่รู้</string>
+    <string name="more">เพิ่มเติม</string>
+    <string name="unknown">ไม่ทราบ</string>
     <string name="market_response_error_success">สำเร็จ</string>
     <string name="about_message">
         <![CDATA[<b>เวอร์ชัน:</b> %1$s<br><br><b>เว็บไซต์:</b> <a href="%2$s">%2$s</a><br><b>Email:</b> <a href="mailto:%3$s">%3$s</a>]]>
@@ -55,9 +55,9 @@
     <string name="parsing_xapk">กำลังแยกไฟล์ XAPK …</string>
     <string name="installing_apk">กำลังติดตั้งไฟล์ APK …</string>
     <string name="all">ทั้งหมด</string>
-    <string name="screenshots">ถ่ายภาพหน้าจอ</string>
-    <string name="description">ลักษณะ</string>
-    <string name="uninstalled">ถอนการติดตั้ง</string>
+    <string name="screenshots">จับภาพหน้าจอ</string>
+    <string name="description">คำอธิบาย</string>
+    <string name="uninstalled">ถอนการติดตั้งแล้ว</string>
     <string name="last_update__date_">อัพเดตล่าสุด: <xliff:g id="date">%1$s</xliff:g>
     </string>
     <string name="information">ข้อมูล</string>
@@ -66,16 +66,16 @@
     </string>
     <string name="update__date___size_">อัพเดท: &lt;xliff:g xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\" example=\"Mar 3, 2016\" id=\"date\"&gt;%1$s&lt;/xliff:g&gt;, &lt;xliff:g xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\" example=\"1024 kB\" id=\"size\"&gt;%2$s&lt;/xliff:g&gt;</string>
     <string name="installation_failed">การติดตั้งล้มเหลว</string>
-    <string name="io_error">ข้อผิดพลาด IO อาจจะมี เนื้อที่ว่างไม่ เพียงพอ สำหรับการติดตั้ง จึงไม่สำเร็จ</string>
+    <string name="io_error">ข้อผิดพลาด IO. มีเนื้อที่ว่างไม่เพียงพอสำหรับการติดตั้ง</string>
     <string name="extracting_apk">กำลังแยกไฟล์ APK …</string>
     <string name="permissions">การเข้าถึง</string>
     <string name="apk">APK</string>
     <string name="xapk">XAPK</string>
     <string name="_ellipsis_"> … </string>
     <string name="market_response_error_network_connect_error">การเชื่อมต่อเครือข่ายล้มเหลว</string>
-    <string name="market_response_error_network_read_error">เครือข่ายผิดพลาดจากการอ่าน</string>
+    <string name="market_response_error_network_read_error">ข้อผิดพลาดในการอ่านเครือข่าย</string>
     <string name="market_response_error_unknown_error__error_">เกิดข้อผิดพลาดที่ไม่รู้จัก (<xliff:g example="SUCCESS" id="error">%1$s</xliff:g>).</string>
-    <string name="_name__version_history">&lt;xliff:g xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\" example=\"APKPure\" id=\"name\"&gt;%1$s&lt;/xliff:g&gt; ประวัติของเวอร์ชัน</string>
+    <string name="_name__version_history">&lt;xliff:g xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\" example=\"APKPure\" id=\"name\"&gt;%1$s&lt;/xliff:g&gt; ประวัติเวอร์ชัน</string>
     <string name="no_more">เหมือนเดิม</string>
     <string name="update">อัพเดท</string>
     <string name="version__version___size_">เวอร์ชัน: <xliff:g example="1.0.0" id="version">%1$s</xliff:g>, <xliff:g example="1024 kB" id="size">%2$s</xliff:g>
@@ -85,63 +85,251 @@
             <xliff:g example="1" id="count">%1$d</xliff:g> มีการอัพเดทใหม่</item>
         <item quantity="other"/>
     </plurals>
-    <string name="launching_please_wait">กำลังรัน กรุณารอสักครู่ …</string>
+    <string name="launching_please_wait">กำลังเปิด กรุณารอสักครู่ …</string>
     <string name="recommend">ค้นพบ</string>
     <string name="delete_all">ลบทั้งหมด</string>
     <string name="properties">คุณสมบัติ</string>
-    <string name="properties_message">
-        <![CDATA[<b>Path:</b> %1$s<br><b>Размер:</b> %2$s<br><b>Изменён:</b> %3$s]]>
-    </string>
+    <string name="properties_message">&lt;b&gt;Path:&lt;/b&gt; %1$s&lt;br&gt;&lt;b&gt;ขนาด&lt;/b&gt; %2$s&lt;br&gt;&lt;b&gt;แก้ไขล่าสุด&lt;/b&gt; %3$s</string>
     <string name="want_to_delete_all_files">คุณแน่ใจใช่ไหมว่าต้องการลบไฟล์ทั้งหมด</string>
-    <string name="similar_or_related">Pradeep Singh</string>
-    <string name="more_from_developer">เพิ่มเติมจากนักพัฒนา</string>
-    <string name="more_large">ไทย</string>
+    <string name="similar_or_related">คล้าย หรือ เกี่ยวข้องกัน</string>
+    <string name="more_from_developer">เพิ่มเติมจากผู้พัฒนา</string>
+    <string name="more_large">เพิ่มเติม</string>
     <string name="check_update_replace">เวอร์ชั่นทางการ</string>
     <string name="check_update_beta">ตัวทดลองก่อนวางจำหน่าย</string>
     <string name="recommend_required">สิ่งที่ร้องขอ</string>
     <string name="load_failed_error_not_found">แอปยังไม่รวมอยู่ใน APKPure</string>
     <string name="beta">เบต้า</string>
     <string name="downloading">กำลังดาวน์โหลด</string>
-    <string name="properties_message_v2">&lt;b&gt;Package Name:&lt;/b&gt; %1$s&lt;br&gt;&lt;b&gt;Version:&lt;/b&gt; %2$s&lt;br&gt;&lt;b&gt;Path:&lt;/b&gt; %3$s&lt;br&gt;&lt;b&gt;Size:&lt;/b&gt; %4$s&lt;br&gt;&lt;b&gt;Last Modified:&lt;/b&gt; %5$s</string>
+    <string name="properties_message_v2">&lt;b&gt;ชื่อแพ็คเกจ:&lt;/b&gt; %1$s&lt;br&gt;&lt;b&gt;เวอร์ชัน:&lt;/b&gt; %2$s&lt;br&gt;&lt;b&gt;Path:&lt;/b&gt; %3$s&lt;br&gt;&lt;b&gt;ขนาด:&lt;/b&gt; %4$s&lt;br&gt;&lt;b&gt;แก้ไขล่าสุด:&lt;/b&gt; %5$s</string>
     <string name="email_address_hint_et">Enter your email.</string>
     <string name="preparing_upload">Preparing to upload…</string>
     <string name="history_version">เวอร์ชั่นก่อนๆ</string>
-    <string name="scan_qr_code_result_title">Result</string>
-    <string name="download">Gbon</string>
-    <string name="restart">รีสตาร์ท</string>
+    <string name="scan_qr_code_result_title">ผลลัพธ์</string>
+    <string name="download">ดาวน์โหลด</string>
+    <string name="restart">เริ่มต้นใหม่</string>
     <string name="picture_photograph">\t</string>
     <string name="touch_to_download_it_again">แตะเพื่อดาวน์โหลดใหม่</string>
-    <string name="market_response_error_invalid_response_code">Invalid response code.thai</string>
-    <string name="flag_as_inappropriate">ไทย</string>
-    <string name="want_to_remove_all_download_items">คุณแน่ใจว่าจะลบสิ่งนี้หรือไม่</string>
+    <string name="market_response_error_invalid_response_code">รหัสตอบกลับไม่ถูกต้อง</string>
+    <string name="flag_as_inappropriate">แจ้งว่าไม่เหมาะสม</string>
+    <string name="want_to_remove_all_download_items">แน่ใจไหมว่าต้องการลบรายการทั้งหมด</string>
     <string name="download_over_cellular">ดาวน์โหลดผ่านเครือข่ายมือถือ</string>
     <string name="delete_downloaded_file">กำลังลบไฟล์ที่ดาวน์โหลด</string>
-    <string name="want_to_remove_download_item">คุณแน่ใจว่าจะลบสิ่งนี้หรือไม่ \?</string>
+    <string name="want_to_remove_download_item">แน่ใจไหมว่าต้องการลบรายการนี้</string>
     <string name="remove_all">ลบทั้งหมด</string>
     <string name="remove">ลบ</string>
     <string name="detail">รายละเอียด</string>
     <string name="installed">ติดตั้งแล้ว</string>
     <string name="expired">หมดอายุ</string>
-    <string name="deleted">กำลังลบ</string>
+    <string name="deleted">ลบแล้ว</string>
     <string name="waiting_to_download">กำลังรอดาวน์โหลด</string>
     <string name="file_missing">ไม่พบไฟล์</string>
     <string name="file_invalid">ไฟล์ไม่ถูกต้อง</string>
     <string name="failed">ล้มเหลว</string>
-    <string name="paused">หยุดดาวน์โหลด</string>
+    <string name="paused">หยุดชั่วคราวแล้ว</string>
     <string name="completed">เสร็จแล้ว</string>
-    <string name="preparing">จัดเตรียม</string>
+    <string name="preparing">กำลังเตรียม</string>
     <string name="waiting">กำลังรอ</string>
-    <string name="continue_all">ดาวน์โหลดต่อทั้งหมด</string>
-    <string name="continue_">ต่อ</string>
-    <string name="pause_all">หยุดทั้งหมด</string>
-    <string name="pause">หยุด</string>
-    <string name="download_percent">&lt;xliff:g xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\" example=\"50\" id=\"เปอร์เซ็นต์\"&gt;%1$d&lt;/xliff:g&gt; %%</string>
-    <string name="_name__download_failed">การดาวน์โหลดล้มเหลว</string>
+    <string name="continue_all">ดำเนินการต่อต่อทั้งหมด</string>
+    <string name="continue_">ดำเนินการต่อ</string>
+    <string name="pause_all">หยุดทั้งหมดชั่วคราว</string>
+    <string name="pause">หยุดชั่วคราว</string>
+    <string name="download_percent">&lt;xliff:g xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\" example=\"50\" id=\"percent\"&gt;%1$d&lt;/xliff:g&gt; %%</string>
+    <string name="_name__download_failed">&lt;xliff:g xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\" example=\"APKPure\" id=\"name\"&gt; ดาวน์โหลดล้มเหลว</string>
     <string name="touch_for_view_all_downloads">แตะเพื่อดูการดาวน์โหลดทั้งหมด</string>
-    <string name="downloads_complete">ดาวน์โหลดทั้งหมดเสร็จแล้ว</string>
+    <string name="downloads_complete">ดาวน์โหลดเสร็จสมบูรณ์ทั้งหมด</string>
     <plurals name="_count__item_is_downloading">
-        <item quantity="other">กำลังดาวน์โหลด</item>
+        <item quantity="other">กำลังดาวน์โหลด &lt;xliff:g xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\" example=\"2\" id=\"count\"&gt; รายการ</item>
     </plurals>
     <string name="market_response_error_invalid_response_body">เนื้อหาตอบสนองไม่ถูกต้อง</string>
-    <string name="market_response_error_invalid_result">ผลลัพธ์ผิดพลาด</string>
+    <string name="market_response_error_invalid_result">ผลลัพธ์ไม่ถูกต้อง</string>
+    <string name="user_info_edit_ok">โอเค</string>
+    <string name="user_info_edit_portrait_error">ไม่รองรับรูปภาพประเภทนี้</string>
+    <string name="user_info_edit_portrait_take_photo">ถ่ายภาพด้วยกล้อง</string>
+    <string name="user_info_edit_portrait_album">เลือกภาพจากแกลเลอรี่</string>
+    <string name="user_info_edit_gender_female">หญิง</string>
+    <string name="user_info_edit_gender_male">ชาย</string>
+    <string name="user_info_edit_not_choose">ไม่รู้จัก</string>
+    <string name="user_info_edit_login_out_tv">ออกจากระบบ</string>
+    <string name="user_info_edit_change_pwd_tv">ตั้งรหัสผ่านใหม่</string>
+    <string name="user_info_edit_birthday_tv">วันเกิด</string>
+    <string name="user_info_edit_gender_tv">เพศ</string>
+    <string name="user_info_edit_email_tv">อีเมล์</string>
+    <string name="user_info_edit_nickname_tv">ชื่อเล่น</string>
+    <string name="user_info_edit_username_tv">ชื่อผู้ใช้</string>
+    <string name="user_info_edit_portrait_tv">ตัวตนจำลอง</string>
+    <string name="user_info_edit_title">ข้อมูลส่วนตัว</string>
+    <string name="login_select_way_to_login">กรุณาเลือกวิธีการเข้าสู่ระบบ</string>
+    <string name="upload_cancel">ยกเลิกการอัปโหลดแล้ว</string>
+    <string name="delete_comment_msg">คุณแน่ใจหรือว่าต้องการลบความคิดเห็นนี้</string>
+    <string name="delete_comment">ลบความคิดเห็น</string>
+    <string name="sign_out">ออกจากระบบ</string>
+    <string name="login_title">เข้าสู่ระบบ</string>
+    <string name="permission_denied">ปฏิเสธการเข้าถึง!</string>
+    <string name="tip_permission_camera_storage">ไม่ได้รับอนุญาตให้ใช้กล้องและการ์ด SD โปรดให้สิทธิ์ในการจัดการสิทธิ์บนโทรศัพท์ของคุณ</string>
+    <string name="scan_qr_code_copy_success">คัดลอกข้อความแล้ว</string>
+    <string name="scan_qr_code_result_hint">รายละเอียด QR โค้ด：</string>
+    <string name="scan_qr_code_result_copy_text">คัดลอกข้อความ</string>
+    <string name="zxing_msg_parser_status">สแกนไม่สำเร็จ กรุณาลองอีกครั้ง</string>
+    <string name="zxing_msg_default_status">โปรดวาง QR โค้ด ไว้ในกรอบภาพเพื่อสแกน</string>
+    <string name="scan_qr_code_hint">ก่อนที่จะใช้ สแกน QR โค้ด คุณต้องให้สิทธิ์กล้อง สำหรับการสแกน QR โค้ด</string>
+    <string name="loading">กำลังโหลด …</string>
+    <string name="load_failed_click_retry">โหลดไม่สำเร็จ แตะเพื่อลองอีกครั้ง</string>
+    <string name="load_end">ไม่มีข้อมูลเพิ่มเติม</string>
+    <string name="already_save">บันทึกแล้ว&lt;xliff:g xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\" example=\"ApKPure/photo\" id=\"path\"&gt;%1$s&lt;/xliff:g&gt;</string>
+    <string name="save_original_image">บันทึก</string>
+    <string name="reply_comment">ตอบกลับความคิดเห็น</string>
+    <string name="reply_dialog_marked_words">แตะรูปภาพค้างไว้เพื่อลบ</string>
+    <string name="publish">โพสต์</string>
+    <string name="input_reply_content">กรุณากรอกคำตอบกลับของคุณ:</string>
+    <string name="reply">ตอบกลับ</string>
+    <string name="download_mkdir_external_storage_values">ที่เก็บข้อมูลภายนอก</string>
+    <string name="download_mkdir_internal_storage_values">ที่เก็บข้อมูลภายใน</string>
+    <string name="download_mkdir_external_storage_fill_toast">มีพื้นที่เก็บข้อมูลไม่เพียงพอ ไม่สามารถดาวน์โหลดแอพได้</string>
+    <string name="download_mkdir_internal_storage_entries1">SD 1</string>
+    <string name="download_mkdir_internal_storage_entries">SD</string>
+    <string name="download_mkdir_internal_storage_size_des">%1$s ว่าง, ทั้งหมด %2$s</string>
+    <string name="download_mkdir">เส้นทางการดาวน์โหลด</string>
+    <string name="download_complete_installation_setting_entries_never">อย่าติดตั้ง</string>
+    <string name="download_complete_installation_setting_entries_only">ติดตั้งเฉพาะเมื่อทำงานอยู่เบื้องหน้า</string>
+    <string name="download_complete_installation_setting_entries_always">ติดตั้งเสมอ</string>
+    <string name="download_complete_installation_setting">ตัวเลือกการติดตั้งหลังจากดาวน์โหลด</string>
+    <string name="app_detail_comment_join_group_bt">กลุ่ม</string>
+    <string name="app_detail_discuss_filter_folded">ปิด</string>
+    <string name="app_detail_folded_footer_posts">ดูโพสต์ที่ถูกปิด %d โพสต์</string>
+    <string name="app_detail_folded_footer_reviews">ดูรีวิวที่ถูกปิด %d รีวิว</string>
+    <string name="app_detail_discuss_filter_featured">จุดเด่น</string>
+    <string name="app_detail_comment_order_array_bad">1-3</string>
+    <string name="app_detail_comment_order_array_good">4-5</string>
+    <string name="app_detail_comment_order_array_old">เก่าที่สุด</string>
+    <string name="app_detail_comment_order_array_best">ดีที่สุด</string>
+    <string name="app_detail_comment_order_array_new">ใหม่ล่าสุด</string>
+    <string name="app_detail_comment_order_array_most_recent">ล่าสุด</string>
+    <string name="app_detail_comment_order_array_default">เรียงตามค่าเริ่มต้น</string>
+    <string name="app_detail_evaluation_failed_bt">รีวิว</string>
+    <string name="app_detail_evaluation_tool_bar_title">เขียนรีวิว</string>
+    <string name="app_detail_comment_score_footer">มี %1$s บทรีวิวในภาษาอื่น ๆ</string>
+    <string name="app_detail_comment_no_data">ไม่พบรีวิวจากผู้ใช้ เขียนบทวิจารณ์ของคุณตอนนี้</string>
+    <string name="app_detail_comment_score_less">รีวิวจากผู้ใช้น้อยเกินไป</string>
+    <string name="app_detail_comment_filter_version">เวอร์ชันล่าสุด</string>
+    <string name="app_detail_comment_filter_all">รีวิวทั้งหมด</string>
+    <string name="app_detail_comment_filter_sort_score">คะแนนสูงสุด</string>
+    <string name="app_detail_tab_evaluation">รีวิว</string>
+    <string name="app_detail_tab_three">ที่เกี่ยวข้อง</string>
+    <string name="app_detail_tab_two">กลุ่ม</string>
+    <string name="app_detail_tab_one">รายละเอียด</string>
+    <string name="app_submit_reply_to">ตอบกลับถึง</string>
+    <string name="app_submit_submit_title">โพสต์</string>
+    <string name="app_submit_email">อีเมล์</string>
+    <string name="app_submit_nickname">ชื่อเล่น</string>
+    <string name="app_submit_msg_hint">กรุณาใส่เนื้อหาของคุณ!</string>
+    <string name="app_submit_title_hint">กรุณาใส่หัวข้อ!</string>
+    <string name="app_submit_star_toast">โปรดส่งคะแนนของคุณ!</string>
+    <string name="app_submit_email_toast">กรุณาใส่อีเมล์ที่ถูกต้อง!</string>
+    <string name="app_submit_name_toast">กรุณากรอกชื่อเล่นของคุณ!</string>
+    <string name="app_submit_msg_toast">กรุณาเขียนบางอย่าง!</string>
+    <string name="app_submit_title_toast">กรุณาใส่หัวข้อ!</string>
+    <string name="app_submit_anonymous_comment">เพิ่มความคิดเห็น</string>
+    <string name="app_submit_submit">กำลังส่ง …</string>
+    <string name="app_detail_comment_type_web">เว็บ</string>
+    <string name="app_detail_customer_reviews">ความคิดเห็น</string>
+    <plurals name="app_detail_see_all_replies">
+        <item quantity="other">ดูทั้ง &lt;xliff:g xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\" example=\"2\" id=\"count\"&gt;%1$d&lt;/xliff:g&gt; การตอบกลับ</item>
+    </plurals>
+    <string name="auto_install_via_root_summary">สำหรับโทรศัพท์และแท็บเล็ตแอนดรอยด์ที่รูทแล้วเท่านั้น</string>
+    <string name="auto_install_via_root_title">ติดตั้งอัตโนมัติ (โหมดรูท)</string>
+    <string name="auto_service_directly__material_">ติดตั้งโดยตรง</string>
+    <string name="auto_service_complete__material_">เสร็จสิ้น</string>
+    <string name="auto_service_exchange__material_">แทนที่</string>
+    <string name="auto_service_next__material_">ถัดไป</string>
+    <string name="auto_service_ensure__material_">โอเค</string>
+    <string name="auto_service_install__material_">ติดตั้ง</string>
+    <string name="auto_service_complete">เสร็จแล้ว</string>
+    <string name="auto_service_exchange">แทนที่</string>
+    <string name="auto_service_next">ถัดไป</string>
+    <string name="auto_service_ensure">โอเค</string>
+    <string name="auto_service_install">ติดตั้ง</string>
+    <string name="auto_service_description">เปิดใช้งาน \"APKPure ติดตั้งอัตโนมัติ\" เพื่อให้ APKPure \"ติดตั้งอัตโนมัติ\" ทำงานได้อย่างราบรื่น
+\n
+\n\"APKPure ติดตั้งอัตโนมัติ\" จะช่วยประหยัดเวลาในการคลิกปุ่มติดตั้งเมื่อติดตั้งหรืออัพเดท apk หลายไฟล์ และคุณไม่จำเป็นต้องตรวจสอบโทรศัพท์ของคุณตลอดเวลา
+\n
+\nเมื่อเปิดใช้งานคุณสมบัตินี้คุณอาจได้รับคำเตือนเกี่ยวกับความเสี่ยงของระบบ โปรดแตะ \"ตกลง\" เพื่อเปิดสวิตช์การช่วยการเข้าถึง \"ON\"
+\n
+\nเพื่อให้แน่ใจว่า APKPure ทำงานได้ดีโปรดเพิ่ม APKPure \"รายการที่อนุญาต\" ในแอปป้องกันไวรัสของคุณ
+\n
+\nฟังก์ชั่นดังกล่าวข้างต้นรองรับ Android 4.1 ขึ้นไป ไม่จำเป็นต้องมีสิทธิ์รูท เราสัญญาว่าเราจะไม่รวบรวมข้อมูลส่วนบุคคลของคุณในบริการการเข้าถึงนี้ โปรดอย่าลังเลที่จะติดต่อเราหากมีปัญหาใด ๆ</string>
+    <string name="auto_service_title">APKPure ติดตั้งอัตโนมัติ</string>
+    <string name="auto_service_dialog_message">การติดตั้งอัตโนมัติต้องได้รับอนุญาตจากคุณ 
+\nปลอดภัย 100%.</string>
+    <string name="auto_service_dialog_title">เปิดใช้งานการติดตั้งอัตโนมัติ</string>
+    <string name="auto_service_install_accessibility_summary">รองรับ Android 4.1 ขึ้นไป ไม่จำเป็นต้องเข้าถึงรูท</string>
+    <string name="auto_service_install_accessibility_title">ติดตั้งอัตโนมัติ</string>
+    <string name="touch_to_open">แตะเพื่อเปิด</string>
+    <string name="_name__installation_completed">&lt;xliff:g xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\" example=\"APKPure\" id=\"name\"&gt;%1$s&lt;/xliff:g&gt; การติดตั้งเสร็จสมบูรณ์</string>
+    <string name="delete_packages_after_installation">ลบแพ็คเกจหลังการติดตั้ง</string>
+    <string name="show_notification_after_installation">แสดงการแจ้งเตือนหลังการติดตั้ง</string>
+    <string name="installation">การติดตั้ง</string>
+    <string name="enable_ultra_download_summary">อัลตร้าดาวน์โหลด ยังอยู่ในรุ่นเบต้า แจ้งให้เราทราบหากคุณพบปัญหาใด ๆ</string>
+    <string name="enable_ultra_download">เปิดใช้งานอัลตร้าดาวน์โหลด</string>
+    <string name="download_via_wifi_only">ดาวน์โหลดผ่าน Wi-Fi เท่านั้น</string>
+    <string name="data_saver_model">โหมดประหยัดอินเทอร์เน็ต</string>
+    <string name="data_saver_model_summery">การเปิดโหมดประหยัดอินเทอร์เน็ต จะทำให้ลดขนาดและคุณภาพของภาพเพื่อช่วยให้ใช้ข้อมูลมือถือน้อยลง</string>
+    <string name="changing_language">กำลังเปลี่ยนภาษา โปรดรอสักครู่</string>
+    <string name="auto">อัตโนมัติ</string>
+    <string name="language">ภาษา</string>
+    <string name="general">ทั้วไป</string>
+    <string name="total_zero_app">ทั้งหมด: &lt;b&gt;&lt;font color=%1$d&gt;0&lt;/font&gt;&lt;/b&gt; app</string>
+    <plurals name="total__count__apps__size_">
+        <item quantity="other">ทั้งหมด: &lt;b&gt;&lt;font color=%1$d&gt;%2$d&lt;/font&gt;&lt;/b&gt; apps, &lt;b&gt;&lt;font color=%1$d&gt;%3$s&lt;/font&gt;&lt;/b&gt;</item>
+    </plurals>
+    <string name="ignored">ละเว้นแล้ว</string>
+    <string name="deselect_all">ยกเลิกการเลือกทั้งหมด</string>
+    <string name="select_all">เลือกทั้งหมด</string>
+    <string name="cancel">ยกเลิก</string>
+    <string name="select">เลือก</string>
+    <string name="unignore">เลิกสนใจ</string>
+    <string name="ignore">ละเว้น</string>
+    <string name="update___count__">อัพเดท (&lt;xliff:g xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\" example=\"3\" id=\"count\"&gt;%1$d&lt;/xliff:g&gt;)</string>
+    <string name="update_all">อัพเดททั้งหมด</string>
+    <string name="share_app_url_group">" &lt;xliff:g xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\" example=\"APKPure\" id=\"app_name\"&gt;%1$s&lt;/xliff:g&gt; กลุ่ม. (จาก &lt;xliff:g xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\" example=\"APKPure\" id=\"social_network_name\"&gt;%2$s&lt;/xliff:g&gt;) &lt;xliff:g xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\" example=\"https://apkpure.com/p/com.apkpure.aegon\" id=\"app_url\"&gt;%3$s&lt;/xliff:g&gt; "</string>
+    <string name="share_app_url_comment">" &lt;xliff:g xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\" example=\"APKPure\" id=\"user_name\"&gt;%1$s&lt;/xliff:g&gt;\'s ความคิดเห็นเกี่ยวกับ &lt;xliff:g xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\" example=\"APKPure\" id=\"app_name\"&gt;%2$s&lt;/xliff:g&gt; : &lt;xliff:g xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\" example=\"APKPure\" id=\"app_name\"&gt;%3$s&lt;/xliff:g&gt; (จาก &lt;xliff:g xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\" example=\"APKPure\" id=\"social_network_name\"&gt;%4$s&lt;/xliff:g&gt;) &lt;xliff:g xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\" example=\"https://apkpure.com/p/com.apkpure.aegon\" id=\"app_url\"&gt;%5$s&lt;/xliff:g&gt; "</string>
+    <string name="share_app_url">" แบ่งปัน &lt;xliff:g xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\" example=\"APKPure\" id=\"app_name\"&gt;%1$s&lt;/xliff:g&gt; APK (จาก &lt;xliff:g xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\" example=\"APKPure\" id=\"social_network_name\"&gt;%2$s&lt;/xliff:g&gt;) &lt;xliff:g xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\" example=\"https://apkpure.com/p/com.apkpure.aegon\" id=\"app_url\"&gt;%3$s&lt;/xliff:g&gt; "</string>
+    <string name="share">แบ่งปัน</string>
+    <string name="external_storage_permission_denied">&lt;big&gt;&lt;b&gt; เราจำเป็นต้องเข้าถึงที่เก็บข้อมูลภายนอกของคุณ โปรดตรวจสอบให้แน่ใจว่าได้รับอนุญาตแล้ว &lt;/b&gt;&lt;/big&gt;</string>
+    <string name="external_storage_not_usable">&lt;big&gt;&lt;b&gt; เราจำเป็นต้องเข้าถึงที่เก็บข้อมูลภายนอกของคุณ โปรดตรวจสอบให้แน่ใจว่าสามารถใช้งานได้ &lt;/b&gt;&lt;/big&gt;</string>
+    <string name="setting">ตั้งค่า</string>
+    <string name="this_app_not_usable">&lt;big&gt;&lt;b&gt;&lt;font color=%1$d&gt;แอปนี้อาจไม่สามารถใช้งานได้&lt;/font&gt;&lt;/b&gt;&lt;/big&gt;&lt;br&gt;&lt;br&gt;ดำเนินการต่อไหม</string>
+    <string name="incompatible_this_app">&lt;big&gt;&lt;b&gt;&lt;font color=%1$d&gt;อุปกรณ์ของคุณเข้ากันไม่ได้กับแอพนี้.&lt;/font&gt;&lt;/b&gt;&lt;/big&gt;&lt;br&gt;&lt;br&gt;ดำเนินการต่อไหม</string>
+    <string name="failed_to_request_app_asset">ขอข้อมูลเนื้อหาของแอปไม่สำเร็จ</string>
+    <string name="failed_to_request_app_detail">ขอข้อมูลรายละเอียดแอปไม่สำเร็จ</string>
+    <string name="invalid_app_asset">ข้อมูลเนื้อหาของแอปไม่ถูกต้อง</string>
+    <string name="invalid_app_detail">ข้อมูลรายละเอียดแอปไม่ถูกต้อง</string>
+    <string name="feedback">ข้อเสนอแนะ</string>
+    <string name="report_content">รายงานเนื้อหา</string>
+    <string name="contact_us">ติดต่อเรา</string>
+    <string name="contact_us__">ติดต่อเรา…</string>
+    <string name="report_problem_text">หัวข้อปัญหา:
+\n%1$s
+\n
+\nรายละเอียดปัญหา:
+\n%2$s</string>
+    <string name="report_problem_subject">รายงานปัญหา</string>
+    <string name="report_problem__">รายงานปัญหา…</string>
+    <string name="report__">รายงาน…</string>
+    <string name="report">รายงาน</string>
+    <string name="new_version_available_message">&lt;b&gt;เวอร์ชันล่าสุด:&lt;/b&gt; %1$s&lt;br&gt;&lt;br&gt;&lt;b&gt;มีอะไรใหม่:&lt;/b&gt;&lt;br&gt;%2$s</string>
+    <string name="new_version_available_title">มีเวอร์ชันใหม่แล้ว</string>
+    <string name="_name__is_up_to_date">&lt;xliff:g xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\" example=\"APKPure\" id=\"name\"&gt;%1$s&lt;/xliff:g&gt; เป็นเวอร์ชันล่าสุดแล้ว</string>
+    <string name="enable">เปิดใช้งาน</string>
+    <string name="participate_ultra_download_beta_test_content">อัลตร้าดาวน์โหลดยังอยู่ในรุ่นเบต้า แจ้งให้เราทราบหากคุณพบปัญหาใด ๆ คุณสามารถปิดการใช้งานได้ง่ายๆ ในการตั้งค่า</string>
+    <string name="participate_ultra_download_beta_test_title">เปิดใช้งานอัลตร้าดาวน์โหลด และเพลิดเพลินกับความเร็วในการดาวน์โหลดที่เร็วขึ้น</string>
+    <string name="skip">ข้าม</string>
+    <string name="join_us">เข้าร่วมกับเรา</string>
+    <string name="improvement_plan_message">ช่วยเราปรับปรุงประสบการณ์ของคุณให้ดีขึ้นโดยการส่งข้อมูลอุปกรณ์แอนดรอยด์ของคุณ เราสัญญาว่า &lt;b&gt; จะไม่ &lt;/b&gt; รวบรวมข้อมูลส่วนบุคคลของคุณ (ชื่อที่อยู่อีเมลหมายเลขประกันสังคมหรือตัวระบุเฉพาะอื่น ๆ )</string>
+    <string name="improvement_plan_title">แผนการปรับปรุงประสบการณ์ของผู้ใช้</string>
+    <string name="clear_search_history">ล้างประวัติทั้งหมด</string>
+    <string name="search_history">ประวัติ</string>
+    <string name="trending_searches">การค้นหาที่กำลังมาแรง</string>
+    <string name="search_for_apps">ค้นหา APKPure</string>
+    <string name="search">ค้นหา</string>
+    <string name="download_over_cellular_content">คุณกำลังจะดาวน์โหลดผ่านเครือมือถือ ดำเนินการต่อหรือไม่</string>
 </resources>
