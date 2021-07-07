@@ -3,7 +3,7 @@
     <string name="action_settings">تنظیمات</string>
     <string name="action_search">جستجو</string>
     <string name="action_management">مدیریت</string>
-    <string name="press_back_key_quit">برای خارج شدن یکبار دیگر کلید را فشار دهید.</string>
+    <string name="press_back_key_quit">برای خارج شدن یکبار دیگر کلید بازگشت را فشار دهید.</string>
     <string name="featured">ویژه</string>
     <string name="games">بازی‌ها</string>
     <string name="apps">برنامه‌ها</string>
@@ -25,8 +25,7 @@
     <string name="download_management">مدیریت دانلود</string>
     <string name="settings">تنظیمات</string>
     <string name="about">درباره</string>
-    <string name="about_title">درباره <xliff:g example="APKPure" id="app_name">%1$s</xliff:g>
-    </string>
+    <string name="about_title">درباره &lt;xliff:g xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\" example=\"APKPure\" id=\"app_name\"&gt;%1$s&lt;/xliff:g&gt;</string>
     <string name="about_message">
         <![CDATA[<b>نسخه:</b> %1$s<br><br><b>وب‌سایت:</b> <a href=%2$s>%2$s</a><br><b>ایمیل:</b> <a href=mailto:%3$s>%3$s</a><br><b>مترجم: گودرز جعفری</b> <a href=mailto:Jafari@NoavaranJavan.com</a>]]>
     </string>
@@ -45,8 +44,7 @@
     <string name="want_to_delete_all_files">آیا شما می‌خواهید همه فایل‌ها را حذف کنید؟</string>
     <string name="file_has_been_deleted">فایل حذف شده است.</string>
     <string name="failed_to_delete_file">فایل حذف نشد.</string>
-    <string name="install__label_">نصب - <xliff:g example="APKPure" id="app_label">%1$s</xliff:g>
-    </string>
+    <string name="install__label_">نصب - &lt;xliff:g xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\" example=\"APKPure\" id=\"app_label\"&gt;%1$s&lt;/xliff:g&gt;</string>
     <string name="all">همه</string>
     <string name="screenshots">تصاویر</string>
     <string name="description">توضیحات</string>
@@ -71,14 +69,12 @@
     <string name="no_more">دیگر چیز بیشتری وجود ندارد.</string>
     <string name="update">به‌روزرسانی</string>
     <plurals name="_count__new_update_is_available">
-        <item quantity="one">
-            <xliff:g example="1" id="count">%1$d</xliff:g> به‌روزرسانی جدید در دسترس است</item>
-        <item quantity="other">
-            <xliff:g id="count" example="2">%1$d</xliff:g> به‌روزرسانی جدید در دسترس است</item>
+        <item quantity="one">&lt;xliff:g xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\" example=\"1\" id=\"count\"&gt;%1$d&lt;/xliff:g&gt; بروز رسانی جدید موجود است</item>
+        <item quantity="other">&lt;xliff:g xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\" example=\"1\" id=\"count\"&gt;%1$d&lt;/xliff:g&gt; بروزرسانی های جدید موجود است</item>
     </plurals>
     <string name="language">زبان</string>
     <string name="user_canceled">کاربر لغو شده است.</string>
-    <string name="io_error">خطا IO. ممکن است فضای کافی برای نصب نباشد</string>
+    <string name="io_error">خطا IO. فضای کافی برای نصب وجود ندارد.</string>
     <string name="file_format_error">خطای فرمت فایل.</string>
     <string name="parsing_xapk">تجزیه اکس‌ای‌پی‌کا…</string>
     <string name="installing_obb">نصب فایل‌های OBB…</string>
@@ -86,8 +82,7 @@
     <string name="installing_apk">در حال نصب ای‌پی‌کا …</string>
     <string name="uninstall">لغو نصب</string>
     <string name="uninstalled">پاک شد</string>
-    <string name="last_update__date_">آخرین بروزرسانی: <xliff:g id="date">%1$s</xliff:g>
-    </string>
+    <string name="last_update__date_">آخرین بروزرسانی: &lt;xliff:g xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\" id=\"date\"&gt;%1$s&lt;/xliff:g&gt;</string>
     <string name="market_response_error_success">موفقیت آمیز.</string>
     <string name="market_response_error_invalid_result">نتیجه نامعتبر است.</string>
     <string name="market_response_error_network_connect_error">خطا اینترنت متصل نیست.</string>
@@ -97,10 +92,10 @@
     <string name="market_response_error_unknown_error__error_">خطای ناشناخته (<xliff:g example="SUCCESS" id="error">%1$s</xliff:g>).</string>
     <string name="launching_please_wait">در‌حال راه‌اندازی... لطفا صبر کنید.</string>
     <plurals name="_count__item_is_downloading">
-        <item quantity="one">"در حال بارگیری  "<xliff:g example="1" id="count">%1$d</xliff:g> آیتم.</item>
-        <item quantity="other">"در حال بارگیری  "<xliff:g example="2" id="count">%1$d</xliff:g> آیتم.</item>
+        <item quantity="one">در حال بارگیری &lt;xliff:g xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\" example=\"1\" id=\"count\"&gt;%1$d&lt;/xliff:g&gt; آیتم.</item>
+        <item quantity="other">در حال بارگیری &lt;xliff:g xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\" example=\"2\" id=\"count\"&gt;%1$d&lt;/xliff:g&gt; آیتم.</item>
     </plurals>
-    <string name="downloads_complete">تمام بارگیری ها تمام شد.</string>
+    <string name="downloads_complete">تمام بارگیری ها تمام شد</string>
     <string name="touch_for_view_all_downloads">برای مشاهده تمام دانلود‌ها، لمس کنید</string>
     <string name="_name__download_failed">
         <xliff:g example="APKPure" id="name">%1$s</xliff:g> دانلود نشد</string>
@@ -138,8 +133,7 @@
     <string name="improvement_plan_title">طرح بهبود عملکرد کاربر</string>
     <string name="join_us">به ما بپیوند</string>
     <string name="skip">رد کردن</string>
-    <string name="_name__is_up_to_date">
-        <xliff:g example="APKPure" id="name">%1$s</xliff:g> به‌روز است.</string>
+    <string name="_name__is_up_to_date">&lt;xliff:g xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\" example=\"APKPure\" id=\"name\"&gt;%1$s&lt;/xliff:g&gt; به‌روز است.</string>
     <string name="new_version_available_title">نسخه جدید در‌دسترس است</string>
     <string name="new_version_available_message">
         <![CDATA[<b>آخرین نسخه:</b> %1$s<br><br><b>چه خبر نسخه جدید:</b><br>%2$s]]>
@@ -197,11 +191,9 @@
     </string>
     <string name="share_app_url"> اشتراک گذاری <xliff:g example="APKPure" id="app_name">%1$s</xliff:g> ای‌پی‌کا (از @<xliff:g example="APKPure" id="social_network_name">%2$s</xliff:g>), <xliff:g example="https://apkpure.com/p/com.apkpure.aegon" id="app_url">%3$s</xliff:g>
     </string>
-    <string name="_name__version_history">
-        <xliff:g example="APKPure" id="name">%1$s</xliff:g> تاریخچه نسخه</string>
-    <string name="update__date___size_">به‌روزرسانی: <xliff:g example="Mar 3, 2016" id="date">%1$s</xliff:g>, <xliff:g example="1024 kB" id="size">%2$s</xliff:g>
-    </string>
-    <string name="improvement_plan_message">با ثبت اطلاعات گوشی اندرویدی‌ خود، ما را در ارائه بهتر خدمات یاری نمایید، ما اطلاعات شخصی و یا هویتی شما از قبیل (نام ، نشانی ، نشانی ایمیل ، شماره ملی و… ) را <b> ذخیره نمی‌کنیم</b>.</string>
+    <string name="_name__version_history">&lt;xliff:g xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\" example=\"APKPure\" id=\"name\"&gt;%1$s&lt;/xliff:g&gt; تاریخچه نسخه</string>
+    <string name="update__date___size_">بروزرسانی: &lt;xliff:g xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\" example=\"Mar 3, 2016\" id=\"date\"&gt;%1$s&lt;/xliff:g&gt;, &lt;xliff:g xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\" example=\"1024 kB\" id=\"size\"&gt;%2$s&lt;/xliff:g&gt;</string>
+    <string name="improvement_plan_message">با ثبت اطلاعات گوشی اندرویدی‌ خود، ما را در ارائه خدمات بهتر یاری نمایید. ما اطلاعات شخصی و یا هویتی شما از قبیل (نام، نشانی، آدرس ایمیل، شماره ملی و شناس های یکتا دیگر ) را ذخیره &lt;b&gt;نمی‌کنیم&lt;/b&gt;.</string>
     <string name="this_app_not_usable">&lt;big&gt;&lt;b&gt;&lt;font color=%1$d&gt;این برنامه ممکن است قابل استفاده نباشد.&lt;/font&gt;&lt;/b&gt;&lt;/big&gt;&lt;br&gt;&lt;br&gt; ادامه میدهید؟</string>
     <string name="installed">نصب شده است</string>
     <string name="participate_ultra_download_beta_test_title">با فعال کردن دانلود فوق العاده، از سرعت سریع دانلود لذت ببرید</string>
@@ -228,7 +220,7 @@
     <string name="auto_service_exchange__material_">جایگزین کردن</string>
     <string name="auto_service_complete__material_">انجام شد</string>
     <string name="auto_install_via_root_title">نصب خودکار (حالت Root)</string>
-    <string name="auto_install_via_root_summary">تنها برای تلفن‌ها و تبلت‌های اندرویدی روت‌شده</string>
+    <string name="auto_install_via_root_summary">تنها برای تلفن‌ها و تبلت‌های اندرویدی روت‌شده.</string>
     <string name="auto_service_description">\"نصب خودکار APKPure\" را فعال کنید تا \"نصب خودکار\" را به‌راحتی در APKPure انجام دهید.
 \n
 \n\"نصب خودکار APKPure\" می‌تواند زمان شما را در کلیک کردن بر گزینه نصب برای نصب کردن یا به‌روزرسانی برنامه‌ها ذخیره کند؛ و دیگر مجبور نیستید که در تمام زمان تلفن خود را چک کنید.
@@ -242,17 +234,17 @@
     <string name="more_from_developer">از این توسعه دهنده</string>
     <string name="more_large">بیشتر</string>
     <string name="feedback">تماس با ما</string>
-    <string name="changing_language">در حال تغییر زبان، لطفا صبر کنید…</string>
+    <string name="changing_language">در حال تغییر زبان... لطفا صبر کنید.</string>
     <string name="download_complete_installation_setting">گزینه نصب پس از دانلود</string>
     <plurals name="app_detail_see_all_replies">
-        <item quantity="one">&lt;xliff:g xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\" example=\"1\" id=\"count\"&gt;%1$d&lt;/xliff:g&gt; پاسخ جمع شده است</item>
-        <item quantity="other">&lt;xliff:g xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\" example=\"1\" id=\"count\"&gt;%1$d&lt;/xliff:g&gt; پاسخ جمع شده است</item>
+        <item quantity="one">مشاهده همه &lt;xliff:g xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\" example=\"1\" id=\"count\"&gt;%1$d&lt;/xliff:g&gt; پاسخ</item>
+        <item quantity="other">مشاهده همه &lt;xliff:g xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\" example=\"1\" id=\"count\"&gt;%1$d&lt;/xliff:g&gt; پاسخ ها</item>
     </plurals>
     <string name="app_detail_customer_reviews">نظرات</string>
     <string name="app_detail_comment_type_web">‌‍‎‏‪‫‬‬‮‌‌وب</string>
     <string name="app_submit_submit">درحال ارسال…</string>
     <string name="app_submit_anonymous_comment">اضافه کردن نظر</string>
-    <string name="app_submit_title_toast">لطفا عنوانی را وارد کنید.</string>
+    <string name="app_submit_title_toast">لطفا عنوانی را وارد کنید!</string>
     <string name="app_submit_msg_toast">لطفا چیزی بنویسید!</string>
     <string name="app_submit_name_toast">لطفا نام مستعار خود را وارد کنید!</string>
     <string name="app_submit_email_toast">لطفا آدرس ایمیلی معتبر وارد کنید!</string>
@@ -268,12 +260,12 @@
     <string name="app_detail_tab_three">مربوط</string>
     <string name="reply">پاسخ</string>
     <string name="publish">پست کردن</string>
-    <string name="load_end">محتوای بیشتری موجود نیست</string>
+    <string name="load_end">محتوای بیشتری موجود نیست.</string>
     <string name="load_failed_click_retry">بارگذاری ناموفق بود، برای تلاش دوباره کلیک کنید</string>
     <string name="loading">در حال بارگذاری…</string>
     <string name="scan_qr_code_hint">قبل از استفاده اسکن کد QR باید شما به دوربین خود مجوز استفاده بدهید
  تا بتوانید کد QR را اسکن کند.</string>
-    <string name="zxing_msg_parser_status">اسکن ناموفق بود، لطفا برای اسکن کد QR دوباره تلاش کنید.</string>
+    <string name="zxing_msg_parser_status">اسکن ناموفق بود، لطفا دوباره تلاش کنید.</string>
     <string name="input_reply_content">وارد کردن دیدگاه:</string>
     <string name="zxing_msg_default_status">لطفا محل کد QR را در قسمت منظره یاب برای اسکن قرار دهید.</string>
     <string name="report">گزارش</string>
@@ -288,8 +280,7 @@
     <string name="download_complete_installation_setting_entries_only">فقط زمانی که برنامه در پس‌زمینه باز است نصب شود</string>
     <string name="download_complete_installation_setting_entries_never">هرگز نصب نشود</string>
     <string name="reply_comment">پاسخ به نظر</string>
-    <string name="already_save">ذخیره شد<xliff:g example="ApKPure/photo" id="path">%1$s</xliff:g>
-    </string>
+    <string name="already_save">ذخیره شد&lt;xliff:g xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\" example=\"ApKPure/photo\" id=\"path\"&gt;%1$s&lt;/xliff:g&gt;</string>
     <string name="tip_permission_camera_storage">اجازه استفاده از دوربین و مموری کارت را ندارد، لطفا از بخش مدیریت اجازه های دستگاه خود اجازه های لازم را صادر کنید.</string>
     <string name="permission_denied">دسترسی نپذیرفته شده!</string>
     <string name="login_title">ورود</string>
@@ -317,7 +308,7 @@
     <string name="update_nick_title">تغییر نام مستعار</string>
     <string name="update_email_title">تغییر ایمیل</string>
     <string name="update_nick_name_et">نام مستعار جدید خود را وارد کنید</string>
-    <string name="update_nick_name_tv">فیلد نام مستعار جدید نمی تواند خالی باشد</string>
+    <string name="update_nick_name_tv">نام مستعار شما نمی تواند خالی باشد.</string>
     <string name="update_email_name_et">ایمیل خود را وارد کنید .</string>
     <string name="update_eamil_name_tv">فیلد ایمیل شما نمی تواند خالی باشد .</string>
     <string name="update_nickname_error">این نام مستعار قبلا استفاده شده ، لطفا یکی دیگر را انتخاب کنید!</string>
@@ -358,10 +349,10 @@
     <string name="login_user_name">نام‌کاربری یا ایمیل</string>
     <string name="login_user_password">گذرواژه</string>
     <string name="login_user_sign_in">ورود</string>
-    <string name="login_choose">"یا با حساب‌ خود در شبکه های اجتماعی  وارد شوید."</string>
+    <string name="login_choose">یا با حساب‌ خود در شبکه های اجتماعی وارد شوید</string>
     <string name="login_new_user">ثبت نام کاربر جدید</string>
     <string name="login_post_as_a_guest">ارسال به عنوان مهمان</string>
-    <string name="recommend">پیشنهاد‌ها</string>
+    <string name="recommend">اکتشاف</string>
     <string name="reply_dialog_marked_words">فشار دادن طولانی بر روی عکس انتخاب شده برای حذف آن.</string>
     <string name="save_original_image">ذخیره</string>
     <string name="login_select_way_to_login">لطفا یک روش را برای ورود انتخاب کنید</string>
@@ -374,10 +365,10 @@
     <string name="comment_submitting">در حال ارسال…</string>
     <string name="message">پیام</string>
     <string name="download_list">فهرست دانلود</string>
-    <string name="can_be_update">نیاز به‌بروز رسانی دارد.</string>
+    <string name="can_be_update">نیاز به‌بروز رسانی دارد</string>
     <string name="install_list">نصب شده است</string>
     <string name="no_download">هیچ برنامه‌ای هنوز دانلود نشده.</string>
-    <string name="downloads">دانلود‌ها</string>
+    <string name="downloads">دانلود‌</string>
     <string name="change_language_failed">در تغییر بین زبان ها خطایی رخ داد!</string>
     <string name="comment_reply_tell_msg">این نظر حذف شده است!</string>
     <string name="notification_setting">آگاه‌سازی‌ها</string>
@@ -409,16 +400,14 @@
     <string name="app_detail_comment_order_array_most_recent">ارسال‌های اخیر</string>
     <string name="comment_detail_original">مشاهده نظر اصلی &gt;</string>
     <string name="message_notifications_praise">رای‌موافق نظر شما</string>
-    <string name="message_notifications_reply">به نظر شما پاسخ داد.</string>
+    <string name="message_notifications_reply">به نظر شما پاسخ داد</string>
     <string name="is_comment">نظر هست…</string>
-    <string name="push_title_info_reply">%s پاسخ‌داده‌اند به نظر شما!</string>
-    <string name="push_title_info_upvoted">%s رای‌موافق به نظر شما داده‌اند!</string>
+    <string name="push_title_info_reply">%1$s به نظر شما پاسخ‌ داده‌اند!</string>
+    <string name="push_title_info_upvoted">%1$s رای‌موافق به نظر شما داده‌اند!</string>
     <string name="comment_item_fold">نظر جمع شده است</string>
     <plurals name="comment_reply_item_fold">
-        <item quantity="one">
-            <xliff:g example="1" id="count">%1$d</xliff:g> پاسخ جمع شده است</item>
-        <item quantity="other">
-            <xliff:g example="2" id="count">%1$d</xliff:g> پاسخ جمع شده است</item>
+        <item quantity="one">&lt;xliff:g xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\" example=\"1\" id=\"count\"&gt;%1$d&lt;/xliff:g&gt; پاسخ جمع شده است</item>
+        <item quantity="other">&lt;xliff:g xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\" example=\"2\" id=\"count\"&gt;%1$d&lt;/xliff:g&gt; پاسخ جمع شده است</item>
     </plurals>
     <string name="delete_the_historical_record">آیا این سابقه حذف شود؟</string>
     <string name="check_update_replace">نسخه رسمی</string>
@@ -482,7 +471,7 @@
     <string name="recommend_comment">ارسال</string>
     <string name="recommend_comment_error">خطایی رخ داده است!</string>
     <string name="recommend_description_title">دستورالعمل‌ها:</string>
-    <string name="recommend_user_recommend">توصیه شده توسط %s</string>
+    <string name="recommend_user_recommend">توصیه شده توسط %1$s</string>
     <string name="recommend_required">*</string>
     <string name="play_button">دکمه پخش</string>
     <string name="follow_un_success">دنبال نکن.</string>
@@ -495,9 +484,9 @@
     <string name="topic_purple_black">خاکستری خنک</string>
     <string name="topic_purple_yellow">نارنجی زردآلویی</string>
     <string name="topic_switch_failed">تغییر قالب ناموفق بود</string>
-    <string name="recommend_description">1. توصیه‌های تایید شده در زیر بخش \"پیشنهاد‌ها\" نمایش داده می‌شود.
-2. شما فقط می توانید برنامه‌های در حال حاضر در دستگاه شما نصب شده است را توصیه کنید.
-3. به APKPure اطلاع دهید برنامه‌های فهرست نشده را اضافه کند، لطفاً ابتدا فرم پیشنهادی را تکمیل نمائید.</string>
+    <string name="recommend_description">1. توصیه‌های تایید شده در زیر بخش \"اکتشاف\" نمایش داده می‌شود. 
+\n2. شما فقط می توانید برنامه‌هایی که در حال حاضر در دستگاه شما نصب شده است را توصیه کنید.
+\n3. به APKPure اطلاع دهید برنامه‌های فهرست نشده را اضافه کند، لطفاً ابتدا فرم پیشنهادی را تکمیل نمائید.</string>
     <string name="no_choice">انتخاب دیگری ندارید</string>
     <string name="topic_purple_blue_gary">نیروی هوایی آبی</string>
     <string name="recommend_write_des_hint">پیشنهادهای مفید توسط کاربران زیادی که مثل شما علاقه‌ای مشابه دارند، دیده می‌شود.</string>
@@ -514,7 +503,7 @@
     <string name="user_detail_tab_reply">پاسخ‌ها</string>
     <string name="user_focus_tab_apps">گروه‌ها</string>
     <string name="user_focus_title_my">دنبال شونده‌های من</string>
-    <string name="user_focus_title">دنبال شده‌اید توسط %s</string>
+    <string name="user_focus_title">دنبال شده‌اید توسط %1$s</string>
     <string name="goto_google_play">خرید کن</string>
     <string name="menu_follow_all">همه کسانی که دنبال می‌کنید</string>
     <string name="menu_follow_group">گروه‌های دنبال‌ کرده‌اید</string>
@@ -535,10 +524,10 @@
     <string name="scan_qr_code_result_title">نتیجه</string>
     <string name="scan_qr_code_result_copy_text">کپی متن</string>
     <string name="scan_qr_code_result_hint">جزئیات کیوآر کد:</string>
-    <string name="scan_qr_code_copy_success">متن کپی شد</string>
+    <string name="scan_qr_code_copy_success">متن کپی شد.</string>
     <string name="user_info_edit_large_photo">مشاهده عکس در اندازه واقعی</string>
     <string name="push_title_info_follow">%1$s نفر شما را دنبال می‌کند!</string>
-    <string name="push_title_info_update">به‌روزرسانی جدید APKPure آماده هست!</string>
+    <string name="push_title_info_update">نسخه جدید APKPure آماده است!</string>
     <string name="push_content_info_update">نسخه جدید %1$s منتشر شده است! همین حالا به‌روزرسانی کنید!</string>
     <string name="recommend_user_recommend_sys">توسط APKPure ویژه شده است</string>
     <string name="menu_follow_user">کاربران دنبال شده</string>
@@ -551,15 +540,15 @@
     <string name="hot_tag">برچسب‌های داغ</string>
     <string name="common_use">برچسب‌های من</string>
     <string name="app_add_tag">یک برچسب جدید اضافه کنید</string>
-    <string name="recommend_not_fount_info">به APKPure اطلاع دهید که \"%s\" را اضافه کند، شما باید فرم‌ها را تکمیل نمائید.</string>
+    <string name="recommend_not_fount_info">به APKPure اطلاع دهید که \"%1$s\" را اضافه کند، شما باید فرم‌ها را تکمیل نمائید.</string>
     <string name="app_detail_has_product">شامل پرداخت درون برنامه ای</string>
     <string name="app_detail_no_product">بدون پرداخت درون برنامه ای</string>
-    <string name="app_add_tag_hint_caution">برچسب‌های هر برنامه بیشتر از %s نباشد.</string>
+    <string name="app_add_tag_hint_caution">برچسب‌های هر برنامه بیشتر از %1$s نباشد.</string>
     <string name="load_failed_error_not_found">برنامه در APKPure گنجانده نشده است.</string>
     <string name="beta">آزمایشی</string>
     <string name="user_info_edit_intro_tv">درباره من</string>
     <string name="update_intro_title">درباره من</string>
-    <string name="update_intro_et">در مورد خود بنویسید...</string>
+    <string name="update_intro_et">در مورد خود بنویسید</string>
     <string name="update_intro_tv">فیلد درباره من نمی‌تواند خالی باشد.</string>
     <string name="user_name_null">نام کاربری نامعتبر است.</string>
     <string name="colon">:</string>
@@ -569,14 +558,14 @@
     <string name="error_add_tag">اضافه کردن برچسب ناموفق بود.</string>
     <string name="no_collect">هنوز مورد علاقه‌ی شما نیست!</string>
     <string name="no_comment">اولین نفری باشید که پست می گذارید!</string>
-    <string name="share_apk">"اشتراک برنامه "</string>
+    <string name="share_apk">اشتراک برنامه</string>
     <string name="tab_apk">برنامه</string>
     <string name="commentaries">داستان</string>
-    <string name="upload_apk_version">نسخه %s</string>
-    <string name="upload_apk_downloads">دانلودها: %s</string>
-    <string name="upload_comment_uploading">%s در حال آپلود…</string>
-    <string name="upload_comment_upload_success">%s آپلود موفقیت آمیز بود.</string>
-    <string name="upload_comment_upload_failed">%s آپلود شکست خورد</string>
+    <string name="upload_apk_version">نسخه %1$s</string>
+    <string name="upload_apk_downloads">دانلودها: %1$s</string>
+    <string name="upload_comment_uploading">%1$s در حال آپلود…</string>
+    <string name="upload_comment_upload_success">%1$s آپلود موفقیت آمیز بود</string>
+    <string name="upload_comment_upload_failed">%1$s آپلود شکست خورد</string>
     <string name="upload_comment_view">برای مشاهده ضربه بزنید</string>
     <string name="upload_comment_reload">برای آپلود دوباره ضربه بزنید</string>
     <string name="upload_notification_pause">صبر کردن</string>
@@ -621,8 +610,8 @@
     <string name="message_at">به شما اشاره کرده</string>
     <string name="push_title_info_at">شخصی در یک پست به شما اشره کرده است، برای مشاهده ضربه بزنید.</string>
     <string name="pre_register_ok">خب</string>
-    <string name="pre_register_person_num_tv">پیش ثبت‌نام‌: %s</string>
-    <string name="pre_register_success">پیش ثبت‌نام به این معنی است که هنگام انتشار برنامه، شما یک اعلان در دستگاهتان دریافت خواهید کرد.</string>
+    <string name="pre_register_person_num_tv">تعداد پیش ثبت‌نام‌: %1$s</string>
+    <string name="pre_register_success">پس از پیش ثبت‌نام به محض انتشار بازی، شما یک اعلان در دستگاهتان دریافت خواهید کرد.</string>
     <string name="properties_message_v2">&lt;b&gt;نام بسته:&lt;/b&gt; %1$s&lt;br&gt;&lt;b&gt;نسخه:&lt;/b&gt; %2$s&lt;br&gt;&lt;b&gt;مسیر:&lt;/b&gt; %3$s&lt;br&gt;&lt;b&gt;اندازه:&lt;/b&gt; %4$s&lt;br&gt;&lt;b&gt;آخرین اصلاح:&lt;/b&gt; %5$s</string>
     <string name="app_detail_tab_evaluation">مرورکردن</string>
     <string name="app_detail_comment_filter_sort_score">برترین رتبه‌ها</string>
@@ -630,7 +619,7 @@
     <string name="app_detail_comment_filter_version">آخرین نسخه</string>
     <string name="app_detail_comment_score_less">بازدیدهای کاربران خیلی کم است.</string>
     <string name="app_detail_comment_no_data">نظرات کاربران وجود ندارد. الان نظر خود را بنویسید.</string>
-    <string name="app_detail_comment_score_footer">%1$ مرور در سایر زبان ها وجود دارد.</string>
+    <string name="app_detail_comment_score_footer">%1$s مرور در سایر زبان ها وجود دارد.</string>
     <string name="app_detail_evaluation_tool_bar_title">نظری بنویسید</string>
     <string name="app_detail_evaluation_failed_bt">بررسی</string>
     <string name="app_detail_comment_order_array_good">4-5</string>
@@ -661,18 +650,18 @@
     <string name="topics">موضوع</string>
     <string name="pre_register_game">پیش ثبت نام کنی</string>
     <string name="editors_picks">انتخاب سردبیر</string>
-    <string name="recommend_game">توصیه بازی</string>
-    <string name="bing_share_account">اتصال به حساب شخص ثالث</string>
+    <string name="recommend_game">بازی توصیه شده</string>
+    <string name="bing_share_account">اتصال به یک حساب شخص ثالث</string>
     <string name="un_bind">اتصال وصل نیست</string>
     <string name="login_out_message_hint">شما اطمینان داری که می خواهی خارج شوی ؟</string>
     <string name="bind_email_title">وصل شدن به ایمیل شما</string>
-    <string name="bind_email_tv">آدرس ایمیل خود را به حساب خود وصل کنید تا مزایای ورود ایمیل، بازیابی رمز عبور، ارسال پست و موارد دیگر را باز کنید.</string>
+    <string name="bind_email_tv">آدرس ایمیل خود را به حساب خود وصل کنید تا از مزایای ورود ایمیل، بازیابی رمز عبور، ارسال پست و موارد دیگر برخوردار شوید.</string>
     <string name="verification_code_tv">یک کد تأیید به آدرس ایمیل شما ارسال شده است %1$s</string>
-    <string name="verification_code_second_tv">"ارسال مجدد  %d s"</string>
+    <string name="verification_code_second_tv">ارسال مجدد %d s</string>
     <string name="verification_code_resend_tv">دوباره تأیید کد را ارسال کنی</string>
     <string name="send_verification_code_resend_tv">ارسال کد تأیید</string>
     <string name="bind_email_success">اتصال موفق شد.</string>
-    <string name="update_email_tv">دوباره ایمیل خود را بهروزرسانی کنید</string>
+    <string name="update_email_tv">به منظور بروزرسانی ایمیل، دوباره آن را صحت سنجی کنید.</string>
     <string name="verification_code_tv_hint">کد تایید</string>
     <string name="verification_success_code_toast">کد تایید ارسال شد .</string>
     <string name="verification_null_code_toast">لطفا کد تأیید دریافتی را وارد کنید.</string>
@@ -685,17 +674,17 @@
     <string name="shop">داستان</string>
     <string name="setting_region">کشور</string>
     <string name="submit_add_title_image_tv">یک پوشش اضافه کنید</string>
-    <string name="submit_add_title_image_error_toast">این تصویر ممکن است به طور موقت پشتیبانی نشود. لطفا یکی دیگر را انتخاب کنید.</string>
+    <string name="submit_add_title_image_error_toast">فرمت این تصویر پشتیبانی نمی شود. لطفا عکس دیگری را انتخاب کنید.</string>
     <string name="comment_hint_tv">یه چیزی به اشتراک بگذار؟</string>
     <string name="msg_all_read">همه را به عنوان خوانده شده علامت بزن</string>
     <string name="msg_all_read_notice">اطلاعیه</string>
-    <string name="msg_all_read_msg">آیا مطمئن هستید که علامت گذاری همه به عنوان خوانده شده؟</string>
-    <string name="user_recommend_tip">توصیه ی کاربر</string>
+    <string name="msg_all_read_msg">آیا مطمئن هستید که می خواهید همه به عنوان خوانده شده علامت گذاری شوند؟</string>
+    <string name="user_recommend_tip">توصیه کاربر</string>
     <string name="subject_comment">هشتگها</string>
     <string name="new_subject_comment">هشتگ جدید</string>
     <string name="evaluating">نظرات</string>
     <string name="image_text">داستان</string>
-    <string name="trends">Post</string>
+    <string name="trends">پست</string>
     <string name="error_hot_data_empty">هشتگ داغی نیست !</string>
     <string name="hot_subject">هشتگ داغ</string>
     <string name="menu_follow_subject">دنباله هشتگ ها</string>
@@ -707,32 +696,30 @@
     <string name="look_links">دیدن لینک</string>
     <string name="headline_no_data_tv">تماس جدیدی نیست</string>
     <string name="hint">توجه</string>
-    <string name="no_save_comment_hint">محتویات ارسال نشده است، شما مطمئن هستی می خوای خارج بشی؟</string>
+    <string name="no_save_comment_hint">محتویات ارسال نشده است، برای خروج اطمینان دارید؟</string>
     <string name="look_all">دیدن بقیه</string>
-    <string name="history_hastag">تاریخچه هشتگ</string>
+    <string name="history_hastag">تاریخچه هشتگ ها</string>
     <string name="share_image_failed">تصویر به اشتراک گذاری نشد !</string>
     <string name="select_image_overflow_hint">\@string/picture_message_max_num</string>
-    <string name="share_select_image_overflow_hint">شما می‌توانید تا ۹ عکس به اشتراک بگذارید.</string>
+    <string name="share_select_image_overflow_hint">شما در یک پست می‌توانید تا ۹ عکس به اشتراک بگذارید.</string>
     <string name="search_or_create">جستجو یا ایجاد</string>
     <string name="privacy_setting_title">تنظیمات حریم خصوصی</string>
     <string name="privacy_setting_account">اکانت خصوصی</string>
     <string name="privacy_setting_account_des">اگر حساب کاربری شما خصوصی شده باشد، صفحه اصلی شخصی شما دیگران نخواهد بود.</string>
-    <string name="privacy_setting_account_del">حساب و اطلاعات خود را حذف کنید</string>
+    <string name="privacy_setting_account_del">حساب کاربری و اطلاعات خود را حذف کنید</string>
     <string name="privacy_setting_account_privacy">این یک حساب خصوصی است.</string>
     <string name="del_account_email_notify_tv">لطفا یک ایمیل معتبر برای دریافت اعلان خود تهیه کنید.</string>
     <string name="del_account_email_reason_tv">چرا میخواهید این حساب را حذف کنید؟</string>
     <string name="del_account_bt">ارسال</string>
     <string name="del_account_reason_hint">چرا میخواهید این حساب را حذف کنید؟</string>
-    <string name="del_account_sure">حساب کاربری شما حداکثر ۴۸ ساعت دیگر حذف خواهد شد. اگر سوالی دارید، لطفا با ما تماس بگیرید.</string>
+    <string name="del_account_sure">حساب کاربری شما ۴۸ ساعت دیگر حذف خواهد شد. اگر سوالی دارید، لطفا با ما تماس بگیرید.</string>
     <string name="reply_to">پاسخ به %1$s:</string>
-    <string name="share_app_url_comment_v3">به اشتراک بگذارید <xliff:g example="zhangsan" id="name">%1$s</xliff:g>\'s <xliff:g example="post/story/review" id="type">%2$s</xliff:g> (از APKPure):<xliff:g example="https://apkpure.com" id="url">%3$s </xliff:g>
-    </string>
-    <string name="apk_unable_upload">"برنامه  آپلود نشد."</string>
+    <string name="share_app_url_comment_v3">اشتراک گذاری &lt;xliff:g xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\" example=\"zhangsan\" id=\"name\"&gt;%1$s&lt;/xliff:g&gt;\'s &lt;xliff:g xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\" example=\"post/story/review\" id=\"type\"&gt;%2$s&lt;/xliff:g&gt; (From APKPure):&lt;xliff:g xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\" example=\"https://apkpure.com\" id=\"url\"&gt;%3$s &lt;/xliff:g&gt;</string>
+    <string name="apk_unable_upload">برنامه آپلود نشد.</string>
     <string name="long_image">عکس بلند</string>
     <string name="edit_tag">ویرایش برچسب</string>
-    <string name="save_tag_hint_msg">تغییر ذخیره نخواهد شد. آیا شما مطمئن هستید که خارج بشی؟</string>
-    <string name="un_follow_xx">UnFollow <xliff:g example="Apkpure" id="name">1%1$s</xliff:g>2
-\n</string>
+    <string name="save_tag_hint_msg">تغییر ذخیره نخواهد شد. آیا برای خروج مطمئن هستید؟</string>
+    <string name="un_follow_xx">دنبال نکن &lt;xliff:g xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\" example=\"Apkpure\" id=\"name\"&gt;%1$s&lt;/xliff:g&gt;</string>
     <string name="follow_xx">Follow <xliff:g example="Apkpure" id="name">1%1$s</xliff:g>2</string>
     <string name="app_rating">امتیاز:</string>
     <string name="number">\"</string>
@@ -740,41 +727,44 @@
     <string name="download_install_obb">نصب OBB</string>
     <string name="download_install_apk">نصب برنامه</string>
     <string name="users_recommended_title">تبریک !</string>
-    <string name="users_recommended_des">بازبینی شما به عنوان توصیه کاربر انتخاب شد,%1$s</string>
+    <string name="users_recommended_des">بازبینی شما به عنوان توصیه یک کاربر انتخاب شد,%1$s</string>
     <string name="recommended_posts_title">تبریک !</string>
-    <string name="recommended_posts_des">بازبینی شما به عنوان توصیه کاربر انتخاب شد,%1$s</string>
+    <string name="recommended_posts_des">بازبینی شما به عنوان توصیه یک کاربر انتخاب شد,%1$s</string>
     <string name="comment_removed_title">پست شما حذف شده است</string>
-    <string name="comment_removed_des">به نظر می رسد چیزی که نوشته شده ما را دنبال نمی کند %1$s. ما پست هایی را که افراد خصوصی را مورد آزار و اذیت قرار می دهند یا آزار و اذیت هر کسی در APKPure اجازه نمی دهد. این می تواند شامل تصاویر نامناسب، عکس ها یا ویدیوهایی از قلدری فیزیکی یا هر پست دیگری باشد که قصد دارد شخص خاصی را از بین ببرد یا شرم کند
-\nاگر فکر می کنید این یک اشتباه بود، لطفا٪ 3 $ s.</string>
-    <string name="temporarily_blocked_title">شما به طور موقت از پست کردن مسدود شده اید</string>
-    <string name="temporarily_blocked_des">این بلوک موقت٪ 1 $ s روز گذشته است و شما نمیتوانید در APK Pure پست کنید تا آنرا به پایان برسد. اگر شما چیزی را که در برابر٪ 2 $ s شما میرسد دوباره ارسال کنید، حساب شما برای 30 روز دیگر مسدود خواهد شد. لطفا توجه داشته باشید که افرادی که مکررا پستهایی را که در APK Pure مجاز نیستند، ممکن است حسابهای خود را برای همیشه غیرفعال کنند.
-\nاگر فکر می کنید این یک اشتباه بود، لطفا٪ 3 $ s</string>
+    <string name="comment_removed_des">به نظر می رسد چیزی که نوشته اید %1$s ما را دنبال نمی کند. ما اجازه انتشار پست هایی را که افراد خصوصی را مورد آزار و اذیت قرار می دهند یا آزار و اذیت هر کسی را شامل می شود، نمی دهیم. این می تواند شامل تصاویر نامناسب، عکس ها یا ویدیوهایی از قلدری فیزیکی یا هر پست دیگری باشد که قصد دارد شخص خاصی را از بین ببرد یا تحقیر کند.
+\n%2$s. 
+\nاگر فکر می کنید این یک اشتباه بوده است، لطفا %3$s.</string>
+    <string name="temporarily_blocked_title">شما به طور موقت از ایجاد محتوا در APKPure منع شده اید</string>
+    <string name="temporarily_blocked_des">"این منع موقت %1$s روز طول خواهد کشید. در این مدت شما نمیتوانید در APK Pure پست کنید تا محدودیت به پایان برسد.
+\n         اگر شما چیزی را که در برابر %2$s ما مغایرت دارد دوباره ارسال کنید، حساب شما برای 30 روز دیگر مسدود خواهد شد. 
+\n        لطفا توجه داشته باشید، حساب افرادی که مکررا پست هایی  را که در APKPure مجاز نیستند، منتشر می کنند، ممکن است برای همیشه مسدود شود. 
+\n        
+\n  اگر فکر می کنید این یک اشتباه بوده است، لطفا %3$s."</string>
     <string name="pre_register_title">%1$s منتشر شده برای %2$s!</string>
-    <string name="pre_register_des">"بازی مورد پیش ثبت شده %1$s   %2$s در دسترس دانلود است .%3$s"</string>
-    <string name="report_callback_title">پست شما را گزارش دادیم حذف کردیم!</string>
-    <string name="report_callback_des">پست شما را برای آزار و اذیت گزارش دادیم. از آنجا که٪ 1 $ s ما را نقض کرده است، ما آن را حذف کردیم. بابت گزارش شما متشکرم ما اجازه می دهیم٪ 2 $ s بدانیم که پست حذف شده است، اما کسی که آن را گزارش نکرده است.</string>
-    <string name="tap_to_view">برای مشاهده، روی ضربه بزنید</string>
+    <string name="pre_register_des">بازی که شما پیش ثبت نام کرده بودید %1$s %2$s برای دانلود آماده است.%3$s</string>
+    <string name="report_callback_title">پستی را که شما گزارش داده بودید حذف شد!</string>
+    <string name="report_callback_des">پست شما را که در مورد آزار و اذیت گزارش داده بودید دریافت کردیم . از آنجا که %1$s ما را نقض کرده است، ما آن را حذف کردیم. بابت گزارش شما متشکریم.</string>
+    <string name="tap_to_view">برای مشاهده، ضربه بزنید</string>
     <string name="let_us_know">به ما اطلاع دهید</string>
     <string name="community_guide_lines">راهنمایی های انجمن</string>
     <string name="my_draft">پیش نویس من</string>
     <string name="clear_empty">پاک کردن همه</string>
-    <string name="several_draft">
-        <xliff:g example="5" id="count">1%1$s</xliff:g>2 drafts</string>
-    <string name="delete_all_draft_hint">آیا جعبه ی پیش نویس خالی است؟</string>
+    <string name="several_draft">&lt;xliff:g xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\" example=\"5\" id=\"count\"&gt;%1$s&lt;/xliff:g&gt; پیش نویس</string>
+    <string name="delete_all_draft_hint">آیا برای حذف کل پیش نویس ها مطمئن هستید؟</string>
     <string name="edit_draft">پیش نویس را ویرایش کنید</string>
     <string name="delete_draft">پیش نویس را حذف کنید</string>
     <string name="empty_draft_info">بی محتوا…</string>
-    <string name="is_save_comment_draft">پیش نویس به هر حال ذخیره می کنی ؟</string>
+    <string name="is_save_comment_draft">پست شما به عنوان پیش نویس ذخیره شود ؟</string>
     <string name="upload_video">آپلود ویدیو</string>
     <string name="saved_draft">به عنوان پیش نویس ذخیره شد</string>
     <string name="auto_service_directly__material_">نصب مستقیم</string>
     <string name="picture_record_video">ضبط ویدیو</string>
     <string name="picture_video_toast">این ویدیو پیش نمایش نیست</string>
     <string name="picture_camera">اجازه دسترسی به دوربین دستگاه رد شد</string>
-    <string name="picture_jurisdiction">اجازه دسترسی به حافظه دستگاه رد شد.</string>
+    <string name="picture_jurisdiction">اجازه دسترسی به حافظه دستگاه رد شد</string>
     <string name="picture_audio">اجازه دسترسی به میکروفون داده نشد</string>
     <string name="picture_empty">شما می توانید از دوربینتان برای ثبت تصاویر و ویدیو ها استفاده کنید</string>
-    <string name="picture_audio_empty">شما می توانید از ضبط های سیستمی برای ضبط صدا استفاده کنید</string>
+    <string name="picture_audio_empty">شما می توانید از ضبط های سیستم جهت ضبط صدا استفاده کنید</string>
     <string name="picture_empty_audio_title">فایل صدا موجود نیست
 \n</string>
     <string name="picture_empty_title">رسانه ای وجود ندارد‬
@@ -793,7 +783,7 @@
     <string name="upload_xapk_to_group">آپلود فایل XAPK در گروه</string>
     <string name="upload_xapk">آپلود XAPK</string>
     <string name="upload_apk_to_group">آپلود فایل APK در گروه</string>
-    <string name="app_update_auto_install">کلیک کنید تا \"نصب خودکار\" فعال شود.</string>
+    <string name="app_update_auto_install">کلیک کنید تا \"نصب خودکار\" فعال شود</string>
     <string name="look_video">پخش ویدئو</string>
     <string name="get_it_on">دریافت از:</string>
     <string name="users">کاربران</string>
@@ -802,4 +792,44 @@
     <string name="gif_auto_title">پخش خودکار GIF</string>
     <string name="home_recommended_desc">پست شما به عنوان یک پیشنهاد در صفحه اصلی برنامه انتخاب شد، %1$s</string>
     <string name="home_recommended_title">تبریک!</string>
+    <string name="picture_camera_roll">رول دوربین</string>
+    <string name="picture_save_success">تصویر را به صورت موفق ذخیره کن تا</string>
+    <string name="picture_min_img_num">انتخاب تصویر نمی تواند %1$s عدد باشد</string>
+    <string name="gif_tag">گیف</string>
+    <string name="several_drafts">&lt;xliff:g xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\" example=\"5\" id=\"count\"&gt;%1$s&lt;/xliff:g&gt; پیش نویس ها</string>
+    <string name="ucrop_mutate_exception_hint">بنابراین، منبع رنگ (ucrop_color_toolbar_widget) را در برنامه خود بازنویسی کنید تا در دستگاه هایی با اندروید L به پایین نیز کار کند</string>
+    <string name="picture_min_video_num">انتخاب ویدئو نمی تواند %1$s عدد باشد</string>
+    <string name="picture_long_chart">دراز</string>
+    <string name="picture_done_front_num">%1$d/%2$d باشه</string>
+    <string name="picture_message_max_num">شما حداکتر می توانید %1$s تصویر انتخاب کنید</string>
+    <string name="app_details_request_update_msg">ما درخواست شما رت برای آخرین بروزرسانی %s دریافت کردیم.
+\nنسخه جدید به محض موجود شدن قابل دانلود خواهد بود.</string>
+    <string name="search_tab_invitation">پست ها</string>
+    <string name="xapk_upload_hint_info">آپلود فایل XAPK زمان بیشتری می برد. برای آپلود مطمئن هستید؟</string>
+    <string name="packaging_failed_try_again">بسته بندی ناموفق بود. لطفا دوباره امتحان کنید.</string>
+    <string name="packaging_success_ready_upload">بسته بندی تمام شد. آماده آپلود فایل.</string>
+    <string name="packaging">در حال بسته بندی…</string>
+    <string name="preparing_upload">درحال آماده شدن برای بارگزاری…</string>
+    <string name="upload_apk_xapk">آپلود APK/XAPK</string>
+    <string name="apk_xapk">APK/XAPK</string>
+    <string name="ucrop_error_input_data_is_absent">Uri ورودی و خروجی هردو بایستی مشخص شوند</string>
+    <string name="ucrop_menu_crop">برش تصویر</string>
+    <string name="ucrop_label_edit_photo">ویرایش تصویر</string>
+    <string name="ucrop_label_original">اصلی</string>
+    <string name="picture_message_video_max_num">شما حداکثر %1$s ویدئو می توانید انتخاب کنید‍</string>
+    <string name="picture_confirm">لغو</string>
+    <string name="picture_audio_error">صدا خراب است</string>
+    <string name="picture_video_error">ویدئو خراب است</string>
+    <string name="picture_error">تصویر خراب است</string>
+    <string name="picture_pause_audio">توقف</string>
+    <string name="picture_quit_audio">خروج</string>
+    <string name="picture_stop_audio">توقف</string>
+    <string name="picture_play_audio">پخش</string>
+    <string name="picture_tape">نوار</string>
+    <string name="picture_all_audio">همه صداها</string>
+    <string name="picture_save_error">ذخیره تصویر ناموفق</string>
+    <string name="picture_prompt_content">آیا می خواهید تصاویر را در گوشی خود ذخیره کنید؟</string>
+    <string name="picture_prompt">فوری</string>
+    <string name="picture_warning">فایل های رسانه!</string>
+    <string name="picture_photograph">عکس</string>
 </resources>
