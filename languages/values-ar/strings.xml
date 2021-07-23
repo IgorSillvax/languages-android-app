@@ -328,7 +328,7 @@
     <string name="user_info_edit_gender_tv">الجنس</string>
     <string name="user_info_edit_birthday_tv">تاريخ الميلاد</string>
     <string name="user_info_edit_change_pwd_tv">Reset Password</string>
-    <string name="user_info_edit_login_out_tv">Sign Out</string>
+    <string name="user_info_edit_login_out_tv">تسجيل الخروج</string>
     <string name="user_info_edit_not_choose">غير معروف</string>
     <string name="user_info_edit_gender_male">ذكر</string>
     <string name="user_info_edit_gender_female">انثى</string>
@@ -350,9 +350,9 @@
     <string name="update_pwd_Confirm_pwd_et">تاكيد كلمة المرور الجديدة</string>
     <string name="upload_avatar">جاري الرفع…</string>
     <string name="update_pwd_current_null_tv">كلمة المرور القديمة لايمكن ان تكون فارغة</string>
-    <string name="update_pwd_Confirm_null_tv">تاكيد كلمة المرور لايمكن ان تكون فارغة</string>
-    <string name="update_pwd_new_pwd_null_tv">كلمة المرور الجديدة لايمكن ان تكون فارغة</string>
-    <string name="update_pwd_new_confrim_tv">كلمات المرور التي قمت بادخالها لاتتطابق</string>
+    <string name="update_pwd_Confirm_null_tv">تاكيد كلمة المرور لا يمكن ان يكون فارغة</string>
+    <string name="update_pwd_new_pwd_null_tv">كلمة المرور الجديدة لا يمكن ان تكون فارغة</string>
+    <string name="update_pwd_new_confrim_tv">كلمات المرور التي أدخلتها غير متطابقة.</string>
     <string name="update_pwd_save_bt">حفظ</string>
     <string name="update_save_success">تم الحفظ بنجاح!</string>
     <string name="crop__cancel" ignore="ButtonCase">الغاء</string>
@@ -366,23 +366,23 @@
     <string name="register_term_of_service">شروط الخدمة لـ APKPure</string>
     <string name="set_contributor">المساهمون</string>
     <string name="set_permissions">الاذونات</string>
-    <string name="sign_in_services">بتسجيلك لمستخدم جديد انت توافق على سياسة الخصوصية والشروط لدينا.</string>
+    <string name="sign_in_services">بالتسجيل ، فإنك توافق على الشروط وسياسة الخصوصية الخاصة بنا.</string>
     <string name="sign_in_services_key">شروط</string>
     <string name="sign_in_services_key_policy">سياسة الخصوصية</string>
     <string name="user_sign_up">تسجيل مستخدم جديد</string>
     <string name="user_name_hint">اسم مستخدم</string>
     <string name="user_email_hint">البريد الالكتروني</string>
-    <string name="user_password">كلمة المرور (6-32)</string>
+    <string name="user_password">كلمة المرور (6–32 حرفًا)</string>
     <string name="user_password_confirm">تاكيد كلمة المرور</string>
-    <string name="user_name_error">اسم المستخدم يجب ان لايحتوي على حروف خاصة,اشكال او فراغات</string>
-    <string name="user_nickname_error">الاسم المستعار يجب ان لا يحتوي على احرف خاصة, اشكال او فراغات</string>
-    <string name="user_email_error">البريد الالكتروني غير صالح</string>
-    <string name="user_password_error">كلمة المرور غير صالحة</string>
-    <string name="user_confirm_error">كلمتا المرور غير متطابقتان</string>
-    <string name="login_user_name">اسم المستخدم</string>
+    <string name="user_name_error">يجب ألا يحتوي اسم المستخدم على أي أحرف أو رموز أو مسافات خاصة.</string>
+    <string name="user_nickname_error">يجب ألا يحتوي الاسم المستعار على أي أحرف أو رموز أو مسافات خاصة.</string>
+    <string name="user_email_error">عنوان البريد الإلكتروني هذا غير صالح.</string>
+    <string name="user_password_error">كلمة المرور هذه غير صحيحة.</string>
+    <string name="user_confirm_error">كلمات المرور غير متطابقة.</string>
+    <string name="login_user_name">اسم المستخدم أو البريد الالكتروني</string>
     <string name="login_user_password">كلمة المرور</string>
     <string name="login_user_sign_in">تسجيل الدخول</string>
-    <string name="login_choose">او قم بتسجيل الدخول باستخدام حسابك</string>
+    <string name="login_choose">أو قم بتسجيل الدخول باستخدام حساب التواصل الاجتماعي الخاص بك</string>
     <string name="login_new_user">تسجيل مستخدم جديد</string>
     <string name="app_detail_reply_esc">تصاعدي</string>
     <string name="app_detail_reply_desc">تنازلي</string>
@@ -398,8 +398,8 @@
     <string name="message_notifications_login">رجاءا قم بتسجيل الدخول لرؤية هذه الصفحه.</string>
     <string name="comment_submitting">يتم النشر…</string>
     <string name="message">رسائل</string>
-    <string name="push_title_info_reply">%1$s قام بالرد على تعليقك!</string>
-    <string name="push_title_info_upvoted">%1$s اعجبه تعليقك!</string>
+    <string name="push_title_info_reply">%1$s رد على تعليقك!</string>
+    <string name="push_title_info_upvoted">%1$s لقد صوّت على تعليقك!</string>
     <string name="download_list">قائمة التحميلات</string>
     <string name="can_be_update">يمكن تحديثها</string>
     <string name="install_list">تم تنصيبها</string>
@@ -431,14 +431,14 @@
 \nremoveable</string>
     <string name="user_info_edit_large_photo">View full size avatar</string>
     <string name="push_title_info_follow">"%1$s  يتابعك!"</string>
-    <string name="push_title_info_update">وصل تحديث لـ APKPure!</string>
+    <string name="push_title_info_update">لقد وصلت نسخة جديدة من APKPure!</string>
     <string name="share_app_url_group">" &lt;xliff:g xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\" example=\"APKPure\" id=\"app_name\"&gt;%1$s جروب. (من &lt;xliff:g xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\" example=\"APKPure\" id=\"social_network_name\"&gt;%2$s&lt;/xliff:g&gt;) &lt;xliff:g xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\" example=\"https://apkpure.com/p/com.apkpure.aegon\" id=\"app_url\"&gt;%3$s&lt;/xliff:g&gt;. "<xliff:g example="APKPure" id="user_name">1%1$s</xliff:g>2\'s comments on
         <xliff:g example="APKPure" id="app_name">3%2$s</xliff:g>4 :
         <xliff:g example="APKPure" id="app_name">5%3$s</xliff:g>6 (from
         <xliff:g example="APKPure" id="social_network_name">7%4$s</xliff:g>8)
         <xliff:g example="https://apkpure.com/p/com.apkpure.aegon" id="app_url">9%5$s</xliff:g>
     </string>
-    <string name="push_content_info_update">اصدار جديد%1$s صدر! حدث الان!</string>
+    <string name="push_content_info_update">تم إطلاق الإصدار الجديد %1$s تحديث الان!</string>
     <string name="like_notification">إشعارات التصويت كمفيد</string>
     <string name="like_notification_msg">تلقي الإخطارات للرسائل أوبفوت جديدة</string>
     <string name="gif_tip">صور متحركه</string>
@@ -504,8 +504,8 @@
     <string name="user_info_edit_intro_tv">عني</string>
     <string name="update_intro_title">تعديل عني</string>
     <string name="update_intro_et">اكتب بعض التفاصيل عن نفسك</string>
-    <string name="update_intro_tv">الحقل عني لا يمكن ان يكون فارغ</string>
-    <string name="user_name_null">اسم المستخدم غير صالح</string>
+    <string name="update_intro_tv">لا يمكن أن يكون الحقل عني فارغة.</string>
+    <string name="user_name_null">اسم المستخدم غير صالح.</string>
     <string name="tab_group">مجموعة</string>
     <string name="ranking_tab4_title">أفضل التطبيقات الجديدة</string>
     <string name="message_at_title">يذكر</string>
@@ -618,4 +618,8 @@
     <string name="app_detail_discuss_filter_folded">مطوي</string>
     <string name="app_detail_evaluation_tool_bar_title">اكتب مراجعة</string>
     <string name="search_tab_invitation">نشر</string>
+    <string name="sign_in_services_key_policy_register">سياسة الخصوصية</string>
+    <string name="home_message_praise">الإعجابات</string>
+    <string name="home_message_reply">الردود</string>
+    <string name="message_notify">الإشعارات</string>
 </resources>
