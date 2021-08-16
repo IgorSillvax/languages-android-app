@@ -260,4 +260,27 @@
     <string name="properties_message_v2">&lt;b&gt;შეფუთვის სახელი:&lt;/b&gt; %1$s&lt;br&gt;&lt;b&gt;ვერსია:&lt;/b&gt; %2$s&lt;br&gt;&lt;b&gt;Path:&lt;/b&gt; %3$s&lt;br&gt;&lt;b&gt;Size:&lt;/b&gt; %4$s&lt;br&gt;&lt;b&gt;უკანასკნელად მოდიფიცირებული:&lt;/b&gt; %5$s</string>
     <string name="check_update_beta">გამოსვლამდელი ვერსია</string>
     <string name="load_failed_error_not_found">აპლიკაცია ვერ იქნა მოძებნილი</string>
+    <string name="app_detail_comment_no_data">მომხმარებელთა მიმოხილვა არ მოიძებნა. დაწერეთ თქვენი მიმოხილვა.</string>
+    <string name="app_detail_comment_score_less">მომხმარებელთა ძალიან მცირე მიმოხილვა.</string>
+    <string name="app_detail_comment_filter_version">უახლესი ვერსია</string>
+    <string name="app_submit_name_toast">გთხოვთ, მიუთითეთ თქვენი მეტსახელი!</string>
+    <string name="app_detail_comment_filter_all">ყველა მიმოხილვა</string>
+    <string name="app_detail_tab_evaluation">მიმოხილვა</string>
+    <string name="app_detail_tab_two">ჯგუფი</string>
+    <string name="app_detail_tab_one">დეტალები</string>
+    <string name="app_submit_email">ელ-ფოსტა</string>
+    <string name="app_submit_nickname">მეტსახელი</string>
+    <string name="app_submit_title_hint">გთხოვთ, მიუთითეთ სათაური!</string>
+    <string name="app_submit_star_toast">გთხოვთ, შეაფასეთ!</string>
+    <string name="app_submit_email_toast">გთხოვთ, მიუთითეთ მოქმედი ელ-ფოსტა!</string>
+    <string name="app_submit_msg_toast">გთხოვთ, რაღაც დაწერეთ!</string>
+    <string name="app_submit_title_toast">გთხოვთ, მიუთითეთ სათაური!</string>
+    <string name="app_submit_anonymous_comment">კომენტარის დამატება</string>
+    <string name="app_detail_comment_type_web">Web</string>
+    <string name="app_detail_customer_reviews">კომენტარები</string>
+    <plurals name="app_detail_see_all_replies">
+        <item quantity="one">ნახეთ ყველა &lt;xliff:g xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\" example=\"1\" id=\"count\"&gt;%1$d&lt;/xliff:g&gt; პასუხი</item>
+        <item quantity="other">ნახეთ ყველა &lt;xliff:g xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\" example=\"2\" id=\"count\"&gt;%1$d&lt;/xliff:g&gt; პასუხი</item>
+    </plurals>
+    <string name="auto_service_directly__material_">პირდაპირი ინსტალაცია</string>
 </resources>
