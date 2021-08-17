@@ -50,7 +50,7 @@
     <string name="last_update__date_">Последнее обновление: <xliff:g id="date">%1$s</xliff:g>
     </string>
     <string name="all">Все</string>
-    <string name="screenshots">Снимки экрана</string>
+    <string name="screenshots">Скриншоты</string>
     <string name="description">Описание</string>
     <string name="whatsnew">Что нового</string>
     <string name="information">Информация</string>
@@ -87,7 +87,7 @@
             <xliff:g example="2" id="count">%1$d</xliff:g> новых обновлений доступно</item>
         <item quantity="other"/>
     </plurals>
-    <string name="launching_please_wait">Запускается…подождите, пожалуйста.</string>
+    <string name="launching_please_wait">Запускается… подождите.</string>
     <plurals name="_count__item_is_downloading">
         <item quantity="one">
             <xliff:g example="1" id="count">%1$d</xliff:g> элемент загружается.</item>
@@ -140,18 +140,14 @@
     <string name="invalid_app_detail">Неверная информация о подробностях приложения.</string>
     <string name="invalid_app_asset">Недопустимая информация об активах приложения.</string>
     <string name="failed_to_request_app_detail">Не удалось запросить подробную информацию о приложении.</string>
-    <string name="failed_to_request_app_asset">Ошибка запроса ресурса приложении.</string>
-    <string name="incompatible_this_app">&lt;big&gt;&lt;b&gt;&lt;font color=%1$d&gt;Ваше устройство не совместимо с этим приложением.&lt;/font&gt;&lt;/b&gt;&lt;/big&gt;&lt;br&gt;&lt;br&gt;Продолжать\?</string>
+    <string name="failed_to_request_app_asset">Ошибка запроса ресурса приложению.</string>
+    <string name="incompatible_this_app">&lt;big&gt;&lt;b&gt;&lt;font color=%1$d&gt;Ваше устройство не совместимо с этим приложением.&lt;/font&gt;&lt;/b&gt;&lt;/big&gt;&lt;br&gt;&lt;br&gt;Продолжить\?</string>
     <string name="this_app_not_usable">&lt;big&gt;&lt;b&gt;&lt;font color=%1$d&gt;Это приложение может не работать.&lt;/font&gt;&lt;/b&gt;&lt;/big&gt;&lt;br&gt;&lt;br&gt;Хотите продолжить\?</string>
     <string name="setting">Настройка</string>
     <string name="external_storage_not_usable">
         <![CDATA[<big><b>Нам нужно получить доступ к вашем внешнему хранилищу. Убедитесь, что оно открыто.</b></big>]]>
     </string>
-    <string name="external_storage_permission_denied">
-        <big>
-            <b> Нам нужно получить доступ к вашему внешнему хранилищу. Пожалуйста, убедитесь, Пожалуйста, убедитесь, что разрешение предоставлено.</b>
-        </big>
-    </string>
+    <string name="external_storage_permission_denied">&lt;big&gt; &lt;b&gt; Нам нужно получить доступ к вашему внешнему хранилищу. Пожалуйста, убедитесь, что разрешение предоставлено.&lt;/b&gt;&lt;/big&gt;</string>
     <string name="share">Поделиться</string>
     <string name="share_app_url">" Поделиться &lt;xliff:g xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\" example=\"APKPure\" id=\"app_name\"&gt;%1$s&lt;/xliff:g&gt; APK (from &lt;xliff:g xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\" example=\"APKPure\" id=\"social_network_name\"&gt;%2$s&lt;/xliff:g&gt;) &lt;xliff:g xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\" example=\"https://apkpure.com/p/com.apkpure.aegon\" id=\"app_url\"&gt;%3$s&lt;/xliff:g&gt; "</string>
     <string name="_name__version_history">
@@ -204,7 +200,7 @@
     <string name="more_large">Ещё</string>
     <string name="installed">Установлено</string>
     <string name="download_over_cellular">Скачать через мобильную сеть</string>
-    <string name="download_over_cellular_content">Вы собираетесь загружать через мобильную сеть. Продолжить или нет\?</string>
+    <string name="download_over_cellular_content">Вы собираетесь загружать через мобильную сеть. Продолжить\?</string>
     <string name="participate_ultra_download_beta_test_title">Включите режим Ультра Загрузки и наслаждайтесь большей скоростью загрузки</string>
     <string name="participate_ultra_download_beta_test_content">Режим Ультра Загрузки в стадии бета-тестирования, дайте нам знать, если у вас возникнут какие-либо проблемы. Вы можете отключить его в Настройках.</string>
     <string name="enable">Включить</string>
