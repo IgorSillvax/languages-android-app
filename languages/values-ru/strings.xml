@@ -382,7 +382,7 @@
     <string name="reply_notification_msg">Получать уведомления для новых ответных сообщений</string>
     <string name="like_notification">Уведомления о лайках</string>
     <string name="like_notification_msg">Получать уведомления для новых сообщений о лайках</string>
-    <string name="message_notifications_praise">Ваш комментарий понравилось</string>
+    <string name="message_notifications_praise">Ваш комментарий понравился</string>
     <string name="message_notifications_reply">На Ваш комментарий ответили</string>
     <string name="message_notifications_login">Войдите, пожалуйста, чтобы увидеть эту страницу.</string>
     <string name="is_comment">Идёт загрузка комментария…</string>
@@ -554,7 +554,7 @@
     <string name="app_detail_has_ad">Есть реклама</string>
     <string name="app_detail_no_ad">Нет рекламы</string>
     <string name="tag_list">Список тегов</string>
-    <string name="hot_tag">Горячие теги</string>
+    <string name="hot_tag">Рекомендуемые теги</string>
     <string name="hot_tag_explain">(Добавить или проголосовать за существующие теги для этого приложения)</string>
     <string name="common_use">Мои теги</string>
     <string name="app_add_tag_hint_caution">Не более %1$s тегов для каждого приложения.</string>
@@ -569,7 +569,7 @@
     <string name="error_add_tag">Ошибка добавления тегов.</string>
     <string name="no_collect">Пока нет избранных!</string>
     <string name="no_comment">Будьте первым, который добавит комментарий!</string>
-    <string name="share_apk">Поделиться APK</string>
+    <string name="share_apk">Поделиться APK-файлом</string>
     <string name="tab_apk">APK</string>
     <string name="commentaries">Запись</string>
     <string name="upload_apk_version">V %1$s</string>
@@ -582,10 +582,10 @@
     <string name="upload_notification_pause">Пауза</string>
     <string name="upload_notification_start">Пуск</string>
     <string name="upload_notification_cancel">Отмена</string>
-    <string name="upload_notification_is_uploading">Загрузка пакета в APKPure …</string>
+    <string name="upload_notification_is_uploading">Загрузка пакета в APKPure…</string>
     <string name="upload_notification_is_pause">Загрузка приостановлена.</string>
     <string name="upload_add_list_toast">Успешно!</string>
-    <string name="upload_add_file_list_toast">Спасибо за загрузку вашего приложения. Подождите,пожалуйста, спасибо.</string>
+    <string name="upload_add_file_list_toast">Спасибо за загрузку вашего приложения. Пожалуйста, подождите...</string>
     <string name="your_reply_comment">Ваш Ответ</string>
     <string name="market_ad_title">Маркет</string>
     <string name="market_ad_tab_one">Рекомендация</string>
@@ -637,7 +637,7 @@
     <string name="count_down_timer_btn">Пропустить</string>
     <string name="choice_evaluate">Избранные Отзывы</string>
     <string name="choice_comment">Рекомендуемые посты</string>
-    <string name="emoji_input_error_hint">Комментарии только с эмодзи не допускаются!Напишите что-нибудь…</string>
+    <string name="emoji_input_error_hint">Комментарии только с эмодзи не допускаются! Напишите что-нибудь…</string>
     <string name="load_all_choice_evaluate">Смотреть все отзывы</string>
     <string name="load_all_choice_comment">Смотреть все посты</string>
     <string name="my_reservation_and_collection">Предварительная регистрация и избранные</string>
@@ -670,11 +670,11 @@
     <string name="email_address_hint_et">Введите адрес электронной почты.</string>
     <string name="properties_message_v2">&lt;b&gt;Имя пакета:&lt;/b&gt; %1$s&lt;br&gt;&lt;b&gt;Версия:&lt;/b&gt; %2$s&lt;br&gt;&lt;b&gt;Путь:&lt;/b&gt; %3$s&lt;br&gt;&lt;b&gt;Размер:&lt;/b&gt; %4$s&lt;br&gt;&lt;b&gt;Последнее изменение:&lt;/b&gt; %5$s</string>
     <string name="home_message_reply">Ответы</string>
-    <string name="home_message_praise">Лайк</string>
+    <string name="home_message_praise">Лайки</string>
     <string name="sign_in_services_key_policy_register">Политика Конфиденциальности</string>
     <string name="shop">МАГАЗИН</string>
     <string name="setting_region">Регион</string>
-    <string name="submit_add_title_image_tv">Дабавить обложку</string>
+    <string name="submit_add_title_image_tv">Добавить обложку</string>
     <string name="submit_add_title_image_error_toast">Формат этого изображения не поддерживается. Пожалуйста, выберите другой.</string>
     <string name="comment_hint_tv">Поделиться чем-нибудь?</string>
     <string name="msg_all_read">Пометить всё, как прочитанное</string>
@@ -697,12 +697,12 @@
     <string name="look_links">Просмотреть ссылку</string>
     <string name="headline_no_data_tv">Нет новых котентов</string>
     <string name="hint">Уведомление</string>
-    <string name="no_save_comment_hint">Контент не будет сохранено. Ты уверен, что хочешь выйти\?</string>
+    <string name="no_save_comment_hint">Контент не будет сохранён. Ты уверен, что хочешь выйти\?</string>
     <string name="look_all">Больше</string>
     <string name="history_hastag">Предыдущий хэштег</string>
     <string name="share_image_failed">Не удалось загрузить изображение!</string>
     <string name="select_image_overflow_hint">\@строка/картина_сообщение_max_num</string>
-    <string name="share_select_image_overflow_hint">Вы можете поделиться не более 9 картин в посте.</string>
+    <string name="share_select_image_overflow_hint">Вы можете поделиться не более 9 картинок в посте.</string>
     <string name="search_or_create">Искать или создать</string>
     <string name="privacy_setting_title">Настройки конфиденциальности</string>
     <string name="privacy_setting_account">Скрытый Аккаунт</string>
@@ -718,8 +718,8 @@
     <string name="reply_to">Ответить %1$s:</string>
     <string name="apk_unable_upload">Не удалось загрузить приложение.</string>
     <string name="long_image">Длинное изображение</string>
-    <string name="edit_tag">Править метки</string>
-    <string name="save_tag_hint_msg">Изменения не будут сохранены.Ты уверен, что хочешь выйти\?</string>
+    <string name="edit_tag">Править тэг</string>
+    <string name="save_tag_hint_msg">Изменения не будут сохранены. Ты уверен, что хочешь выйти\?</string>
     <string name="un_follow_xx">Отписаться от <xliff:g example="Apkpure" id="name">%1$s</xliff:g>
     </string>
     <string name="follow_xx">Подписаться на <xliff:g example="Apkpure" id="name">%1$s</xliff:g>
@@ -832,8 +832,8 @@
     <string name="get_it_on">Получить：</string>
     <string name="users">Пользователи</string>
     <string name="choice_hashtag">Рекомендуемые хэштеги</string>
-    <string name="gif_auto_desc">Авто-воспроизведение GIF-файлов на Wi-Fi</string>
-    <string name="gif_auto_title">Автопроигрывание GIF-файлов</string>
+    <string name="gif_auto_desc">Авто-воспроизведение GIF-файлов по Wi-Fi</string>
+    <string name="gif_auto_title">Авто-воспроизведение GIF-файлов</string>
     <string name="several_drafts">
         <xliff:g example="5" id="count">%1$s</xliff:g> черновиков</string>
     <string name="home_recommended_desc">Ваш пост был выбран в качестве рекомендации для главной страницы,%1$s</string>
