@@ -152,8 +152,7 @@
     <string name="share_app_url">" Поделиться &lt;xliff:g xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\" example=\"APKPure\" id=\"app_name\"&gt;%1$s&lt;/xliff:g&gt; APK (from &lt;xliff:g xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\" example=\"APKPure\" id=\"social_network_name\"&gt;%2$s&lt;/xliff:g&gt;) &lt;xliff:g xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\" example=\"https://apkpure.com/p/com.apkpure.aegon\" id=\"app_url\"&gt;%3$s&lt;/xliff:g&gt; "</string>
     <string name="_name__version_history">
         <xliff:g example="APKPure" id="name">%1$s</xliff:g> История Версий</string>
-    <string name="update__date___size_">Обновить: <xliff:g example="Mar 3, 2016" id="date">%1$s</xliff:g>, <xliff:g example="1024 kB" id="size">%2$s</xliff:g>
-    </string>
+    <string name="update__date___size_">Обновлено: &lt;xliff:g xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\" example=\"Mar 3, 2016\" id=\"date\"&gt;%1$s&lt;/xliff:g&gt;, &lt;xliff:g xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\" example=\"1024 kB\" id=\"size\"&gt;%2$s&lt;/xliff:g&gt;</string>
     <string name="general">Общее</string>
     <string name="language">Язык</string>
     <string name="auto">Авто</string>
@@ -659,7 +658,7 @@
     <string name="verification_code_resend_tv">Отправить код подтверждения</string>
     <string name="send_verification_code_resend_tv">Отправить код подтверждения</string>
     <string name="bind_email_success">Привязка выполнена успешно.</string>
-    <string name="update_email_tv">Подтвердите свой адрес электронной почты, чтобы обновить его.</string>
+    <string name="update_email_tv">Переподтвердите свой адрес электронной почты, чтобы обновить его.</string>
     <string name="verification_code_tv_hint">Код подтверждения</string>
     <string name="verification_success_code_toast">Код подтверждения отправлен.</string>
     <string name="verification_null_code_toast">Пожалуйста, введите код подтверждения, который получили.</string>
@@ -834,7 +833,7 @@
     <string name="users">Пользователи</string>
     <string name="choice_hashtag">Рекомендуемые хэштеги</string>
     <string name="gif_auto_desc">Авто-воспроизведение GIF-файлов на Wi-Fi</string>
-    <string name="gif_auto_title">GIF auto-play</string>
+    <string name="gif_auto_title">Автопроигрывание GIF-файлов</string>
     <string name="several_drafts">
         <xliff:g example="5" id="count">%1$s</xliff:g> черновиков</string>
     <string name="home_recommended_desc">Ваш пост был выбран в качестве рекомендации для главной страницы,%1$s</string>
