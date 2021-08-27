@@ -29,8 +29,7 @@
     <string name="download_management">Manajemen Unduhan</string>
     <string name="settings">Pengaturan</string>
     <string name="about">Tentang</string>
-    <string name="about_title">Tentang <xliff:g example="APKPure" id="app_name">%1$s</xliff:g>
-    </string>
+    <string name="about_title">Tentang &lt;xliff:g xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\" example=\"APKPure\" id=\"app_name\"&gt;%1$s&lt;/xliff:g&gt;</string>
     <string name="about_message">
         <![CDATA[<b>Versi:</b> %1$s<br><br><b>Situs web:</b> <a href="%2$s">%2$s</a><br><b>Email:</b> <a href="mailto:%3$s">%3$s</a>]]>
     </string>
@@ -57,8 +56,7 @@
     <string name="want_to_delete_all_files">Hapus semua berkas\?</string>
     <string name="file_has_been_deleted">Berkas sudah dihapus.</string>
     <string name="failed_to_delete_file">Gagal menghapus berkas.</string>
-    <string name="install__label_">Pasang - <xliff:g example="APKPure" id="app_label">%1$s</xliff:g>
-    </string>
+    <string name="install__label_">Pasang - &lt;xliff:g xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\" example=\"APKPure\" id=\"app_label\"&gt;%1$s&lt;/xliff:g&gt;</string>
     <string name="user_canceled">Pengguna membatalkan.</string>
     <string name="io_error">Kesalahan IO. Mungkin tidak cukup ruang kosong untuk pemasangan.</string>
     <string name="file_format_error">Format berkas error.</string>
@@ -68,8 +66,7 @@
     <string name="installing_apk">Memasang APK …</string>
     <string name="uninstall">Hapus Pemasangan</string>
     <string name="uninstalled">Pemasangan Sudah Dihapus</string>
-    <string name="last_update__date_">Pembaruan terakhir:<xliff:g id="date">%1$s</xliff:g>
-    </string>
+    <string name="last_update__date_">Pembaruan terakhir:&lt;xliff:g xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\" id=\"date\"&gt;%1$s&lt;/xliff:g&gt;</string>
     <string name="all">Semua</string>
     <string name="screenshots">Tangkapan Layar</string>
     <string name="description">Deskripsi</string>
@@ -102,8 +99,7 @@
     <string name="market_response_error_unknown_error__error_">Kesalahan tidak diketahui (<xliff:g example="SUCCESS" id="error">%1$s</xliff:g>).</string>
     <string name="no_more">Tidak ada lagi.</string>
     <string name="update">Pembaruan</string>
-    <string name="version__version___size_">Versi: <xliff:g example="1.0.0" id="version">%1$s</xliff:g>, <xliff:g example="1024 kB" id="size">%2$s</xliff:g>
-    </string>
+    <string name="version__version___size_">Versi: &lt;xliff:g xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\" example=\"1.0.0\" id=\"version\"&gt;%1$s&lt;/xliff:g&gt;, &lt;xliff:g xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\" example=\"1024 kB\" id=\"size\"&gt;%2$s&lt;/xliff:g&gt;</string>
     <plurals name="_count__new_update_is_available">
         <item quantity="other">Pembaruan terbaru <xliff:g example="1" id="count">%1$d</xliff:g> telah tersedia</item>
     </plurals>
@@ -115,8 +111,7 @@
     <string name="touch_for_view_all_downloads">Ketuk untuk melihat semua unduhan</string>
     <string name="_name__download_failed">Unduhan <xliff:g example="APKPure" id="name">%1$s</xliff:g> gagal</string>
     <string name="touch_to_download_it_again">Ketuk untuk memulai kembali unduhan</string>
-    <string name="download_percent">
-        <xliff:g example="50" id="percent">%1$d</xliff:g> %%</string>
+    <string name="download_percent">&lt;xliff:g xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\" example=\"50\" id=\"percent\"&gt;%1$d&lt;/xliff:g&gt; %%</string>
     <string name="pause">Jeda</string>
     <string name="pause_all">Jeda Semua</string>
     <string name="continue_">Lanjutkan</string>
@@ -155,8 +150,7 @@
     <string name="participate_ultra_download_beta_test_title">Aktifkan Ultra Unduhan dan nikmati kecepatan unduh yang lebih cepat</string>
     <string name="participate_ultra_download_beta_test_content">Ultra Download masih dalam versi beta. beri tahu kami jika Anda mengalami masalah. Anda dapat dengan mudah menonaktifkannya di Pengaturan.</string>
     <string name="enable">Aktifkan</string>
-    <string name="_name__is_up_to_date">
-        <xliff:g example="APKPure" id="name">%1$s</xliff:g> sudah terkini.</string>
+    <string name="_name__is_up_to_date">&lt;xliff:g xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\" example=\"APKPure\" id=\"name\"&gt;%1$s&lt;/xliff:g&gt; sudah terkini.</string>
     <string name="new_version_available_title">Versi Baru Telah Tersedia</string>
     <string name="new_version_available_message">
         <![CDATA[<b>Versi Terakhir:</b> %1$s<br><br><b>Hal Baru:</b><br>%2$s]]>
@@ -186,16 +180,8 @@
         <![CDATA[<big><b><font color="%1$d">App ini mungkin tidak dapat digunakan.</font></b></big><br><br>Terus\?]]>
     </string>
     <string name="setting">Pengaturan</string>
-    <string name="external_storage_not_usable">
-        <big>
-            <b>Kami perlu mengakses penyimpanan eksternal Anda. Harap pastikan bisa digunakan.</b>
-        </big>
-    </string>
-    <string name="external_storage_permission_denied">
-        <big>
-            <b>Kami perlu mengakses penyimpanan eksternal Anda. Harap pastikan izin tidak ditolak.</b>
-        </big>
-    </string>
+    <string name="external_storage_not_usable">&lt;big&gt;&lt;b&gt;Kami memerlukan akses terhadap penyimpanan eksternal Anda. Harap pastikan bisa digunakan.&lt;/b&gt;&lt;/big&gt;</string>
+    <string name="external_storage_permission_denied">&lt;big&gt;&lt;b&gt;Kami memerlukan akses ke penyimpanan eksternal Anda. Harap pastikan izin telah diberikan.&lt;/b&gt;&lt;/big&gt;</string>
     <string name="share">Bagikan</string>
     <string name="share_app_url"> Bagikan <xliff:g example="APKPure" id="app_name">%1$s</xliff:g> APK (from <xliff:g example="APKPure" id="social_network_name">%2$s</xliff:g>) <xliff:g example="https://apkpure.com/p/com.apkpure.aegon" id="app_url">%3$s</xliff:g>
     </string>
@@ -203,10 +189,8 @@
     </string>
     <string name="share_app_url_group"> Grup <xliff:g example="APKPure" id="app_name">%1$s</xliff:g>. (from <xliff:g example="APKPure" id="social_network_name">%2$s</xliff:g>) <xliff:g example="https://apkpure.com/p/com.apkpure.aegon" id="app_url">%3$s</xliff:g>
     </string>
-    <string name="_name__version_history">
-        <xliff:g example="APKPure" id="name">%1$s</xliff:g> Riwayat Versi</string>
-    <string name="update__date___size_">Pembaruan: <xliff:g example="Mar 3, 2016" id="date">%1$s</xliff:g>, <xliff:g example="1024 kB" id="size">%2$s</xliff:g>
-    </string>
+    <string name="_name__version_history">&lt;xliff:g xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\" example=\"APKPure\" id=\"name\"&gt;%1$s&lt;/xliff:g&gt; Riwayat Versi</string>
+    <string name="update__date___size_">Pembaharuan: &lt;xliff:g xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\" example=\"Mar 3, 2016\" id=\"date\"&gt;%1$s&lt;/xliff:g&gt;, &lt;xliff:g xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\" example=\"1024 kB\" id=\"size\"&gt;%2$s&lt;/xliff:g&gt;</string>
     <string name="update_all">Perbarui Semua</string>
     <string name="update___count__">Perbarui (<xliff:g example="3" id="count">%1$d</xliff:g>)</string>
     <string name="ignore">Mengabaikan</string>
@@ -236,8 +220,7 @@
     <string name="installation">Pemasangan</string>
     <string name="show_notification_after_installation">Tampilkan notifikasi setelah pemasangan</string>
     <string name="delete_packages_after_installation">Hapus paket setelah pemasangan</string>
-    <string name="_name__installation_completed">
-        <xliff:g example="APKPure" id="name">%1$s</xliff:g> pemasangan dituntaskan</string>
+    <string name="_name__installation_completed">Proses pemasangan &lt;xliff:g xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\" example=\"APKPure\" id=\"name\"&gt;%1$s&lt;/xliff:g&gt; selesai</string>
     <string name="touch_to_open">Ketuk untuk meluncurkan.</string>
     <string name="auto_service_install_accessibility_title">Pasang otomatis</string>
     <string name="auto_service_install_accessibility_summary">Mendukung Android 4.1 dan lebih tinggi. Tidak diperlukan akses root.</string>
@@ -309,7 +292,7 @@
     <string name="app_detail_comment_order_array_good">4-5</string>
     <string name="app_detail_comment_order_array_bad">1-3</string>
     <string name="app_detail_folded_footer_reviews">Lihat semua %d ulasan terlipat</string>
-    <string name="app_detail_folded_footer_posts">"Lihat semua %d kiriman terlipat "</string>
+    <string name="app_detail_folded_footer_posts">Lihat semua %d kiriman terlipat</string>
     <string name="app_detail_discuss_filter_featured">Sorotan</string>
     <string name="app_detail_discuss_filter_folded">Terlipat</string>
     <string name="app_detail_comment_join_group_bt">Grup</string>
@@ -342,8 +325,7 @@
     <string name="reply_dialog_marked_words">Ketuk dan tahan gambar untuk menghapusnya.</string>
     <string name="reply_comment">Balas komentar</string>
     <string name="save_original_image">Simpan</string>
-    <string name="already_save">Sudah disimpan <xliff:g example="ApKPure/photo" id="path">%1$s</xliff:g>
-    </string>
+    <string name="already_save">Sudah disimpan &lt;xliff:g xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\" example=\"ApKPure/photo\" id=\"path\"&gt;%1$s&lt;/xliff:g&gt;</string>
     <string name="load_end">Tidak ada berkas lagi.</string>
     <string name="load_failed_click_retry">Gagal untuk memuat. Silakan ketuk untuk mencoba lagi</string>
     <string name="loading">Memuat…</string>
@@ -390,7 +372,7 @@
     <string name="update_eamil_name_tv">Email Anda tidak boleh kosong.</string>
     <string name="update_nickname_error">Julukan ini sudah diambil. Silakan masukkan yang lain!</string>
     <string name="user_info_edit_intro_tv">Bio</string>
-    <string name="update_intro_title">Edit bio</string>
+    <string name="update_intro_title">Ubah bio</string>
     <string name="update_intro_et">Beberapa perincian tentang diri Anda</string>
     <string name="update_intro_tv">Bio Anda tidak boleh kosong.</string>
     <!--messageFragment-->
@@ -480,8 +462,7 @@
     <string name="comment_reply_three">Balas</string>
     <string name="comment_item_fold">komentar disembunyikan</string>
     <plurals name="comment_reply_item_fold">
-        <item quantity="other">Balasan disembunyikan <xliff:g example="1" id="count">%1$d</xliff:g>
-        </item>
+        <item quantity="other">Balasan disembunyikan &lt;xliff:g xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\" example=\"1\" id=\"count\"&gt;%1$d&lt;/xliff:g&gt;</item>
     </plurals>
     <string name="comment_no_reply">Wow, tidak ada apapun di sini.</string>
     <string name="comment_reply_info_name">Rincian</string>
@@ -635,7 +616,7 @@
     <string name="upload_apk_downloads">Unduh: %1$s</string>
     <string name="upload_comment_uploading">Mengunggah %1$s …</string>
     <string name="upload_comment_upload_success">Berhasil mengunggah %1$s</string>
-    <string name="upload_comment_upload_failed">"Gagal mengunggah %1$s "</string>
+    <string name="upload_comment_upload_failed">%1$s Gagal Diunggah</string>
     <string name="upload_comment_view">Sentuh untuk melihat</string>
     <string name="upload_comment_reload">Sentuh untuk mengunggah ulang</string>
     <string name="upload_notification_pause">Jeda</string>
@@ -666,7 +647,7 @@
     <string name="search_for_user">Cari</string>
     <string name="search_user_history_title">Kontak Terakhir</string>
     <string name="search_focus_list_title">Diikuti</string>
-    <string name="copy_username">"Salin Nama Panggilan "</string>
+    <string name="copy_username">Salin Nama Panggilan</string>
     <string name="copy_content">Salin Konten</string>
     <string name="tab_global">Ditampilkan</string>
     <string name="comment_list_see_here">Terakhir kali kamu di sini. Sentuh untuk refresh.</string>
@@ -703,7 +684,7 @@
     <string name="verification_null_code_toast">Masukkan kode verifikasi yang Anda terima.</string>
     <string name="unbind_email">Tidak ditautkan</string>
     <string name="unbind_email_hint">Tidak ada alamat email yang ditautkan ke akun Anda.</string>
-    <string name="menu_skip">"Skip "</string>
+    <string name="menu_skip">Lewati</string>
     <string name="forget_password_tv">Lupa sandi\?</string>
     <string name="recover_password_title">Pemulihan sandi</string>
     <string name="email_address_hint_et">Masukkan email Anda.</string>
@@ -751,22 +732,20 @@
     <string name="del_account_reason_hint">Mengapa Anda ingin menghapus akun ini\?</string>
     <string name="del_account_sure">Akun Anda akan dihapus dalam 48 jam. Silahkan hubungi kami jika Anda memiliki pertanyaan lebih lanjut.</string>
     <string name="reply_to">Balas ke %1$s:</string>
-    <string name="share_app_url_comment_v3">Bagikan <xliff:g example="zhangsan" id="name">%1$s</xliff:g>\'s <xliff:g example="post/story/review" id="type">%2$s</xliff:g> (From APKPure):<xliff:g example="https://apkpure.com" id="url">%3$s </xliff:g>
-    </string>
+    <string name="share_app_url_comment_v3">Bagikan &lt;xliff:g xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\" example=\"zhangsan\" id=\"name\"&gt;%1$s&lt;/xliff:g&gt;\'s &lt;xliff:g xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\" example=\"post/story/review\" id=\"type\"&gt;%2$s&lt;/xliff:g&gt; (dari APKPure):&lt;xliff:g xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\" example=\"https://apkpure.com\" id=\"url\"&gt;%3$s &lt;/xliff:g&gt;</string>
     <string name="apk_unable_upload">Gagal mengunggah apk.</string>
     <string name="long_image">Gambar Tinggi</string>
     <string name="edit_tag">Edit Tanda</string>
     <string name="save_tag_hint_msg">Perubahan tidak akan disimpan. Anda yakin ingin keluar\?</string>
     <string name="un_follow_xx">Batal Ikut &lt;xliff:g xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\" example=\"Apkpure\" id=\"name\"&gt;%1$s&lt;/xliff:g&gt;</string>
-    <string name="follow_xx">Ikut <xliff:g example="Apkpure" id="name">%1$s</xliff:g>
-    </string>
+    <string name="follow_xx">Ikuti &lt;xliff:g xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\" example=\"Apkpure\" id=\"name\"&gt;%1$s&lt;/xliff:g&gt;</string>
     <string name="app_rating">Peringkat:</string>
     <string name="number">\"</string>
     <string name="headline_footer_refresh">Tarik ke bawah atau sentuh garis ini untuk refresh.</string>
     <string name="download_install_obb">Pasang OBB</string>
     <string name="download_install_apk">Pasang APK</string>
     <string name="users_recommended_title">Selamat!</string>
-    <string name="users_recommended_des">Posting Anda telah dipilih sebagai rekomendasi pengguna ,,% 1 $ s</string>
+    <string name="users_recommended_des">Ulasan Anda telah dipilih sebagai rekomendasi pengguna unggulan,,%1$s</string>
     <string name="recommended_posts_title">Selamat!</string>
     <string name="recommended_posts_des">Postingan Anda telah dipilih sebagai postingan yang direkomendasikan,%1$s</string>
     <string name="comment_removed_title">Pos Anda Disingkirkan</string>
@@ -774,19 +753,21 @@
 \n%2$s
 \nJika Anda merasa ini adalah kesalahan, silahkan %3$s.</string>
     <string name="temporarily_blocked_title">Anda Diblokir Sementara Untuk Membuat Conten di APKPure</string>
-    <string name="temporarily_blocked_des">Blokir sementara ini akan berlangsung selama %1$s hari, dan Anda tidak akan bisa membuat conten di APKPure hingga masa berakhir. Jika Anda mengirimkan sesuatu yang melanggar %2$s kami lagi, akun Anda akan dibloker lagi selama 30 hari. Harap dicatat bahwa orang yang berulang kali mengirimkan sesuatu yang tidak diizinkan pada APKPure maka akun mereka akan dinonaktifkan secara permanen. 
-\nJika Anda merasa ini adalah kesalahan, silahkan %3$s.</string>
+    <string name="temporarily_blocked_des">Blokir sementara ini akan berlangsung selama %1$s hari, dan Anda tidak dapat membuat konten di APKPure hingga masa berakhir.
+\n\tJika Anda mengirimkan sesuatu yang melanggar %2$s kami lagi, akun Anda akan dibloker lagi selama 30 hari. 
+\n\tHarap dicatat bahwa orang yang berulang kali mengirimkan konten yang melanggar aturan maka akun mereka akan dinonaktifkan secara permanen. 
+\n\t
+\nJika Anda merasa ini adalah sebuah kesalahan, silahkan %3$s.</string>
     <string name="pre_register_title">%1$s dirilis untuk %2$s!</string>
-    <string name="pre_register_des">"Gim %1$s   %2$ yang Anda pra-daftarkan tersedia untuk diunduh.%3$s"</string>
+    <string name="pre_register_des">Permainan %1$s %2$s yang Anda pra-daftarkan tersedia untuk diunduh.%3$s</string>
     <string name="report_callback_title">Pos yang Anda laporkan telah dihapus!</string>
-    <string name="report_callback_des">"Kami meninjau kiriman yang Anda laporkan atas pelecehan. Karena itu melanggar  %1$s kami, maka kami menghapusnya. Terimakasih atas laporan Anda."</string>
+    <string name="report_callback_des">Kami meninjau kiriman yang Anda laporkan atas pelecehan. Karena itu melanggar %1$s kami, maka kami menghapusnya. Terimakasih atas laporan Anda.</string>
     <string name="tap_to_view">Sentuh untuk melihat</string>
     <string name="let_us_know">Beritahu kami</string>
     <string name="community_guide_lines">Panduan Komunitas</string>
     <string name="my_draft">Drafku</string>
     <string name="clear_empty">Hapus semua</string>
-    <string name="several_draft">
-        <xliff:g example="5" id="count">%1$s</xliff:g> draf</string>
+    <string name="several_draft">&lt;xliff:g xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\" example=\"5\" id=\"count\"&gt;%1$s&lt;/xliff:g&gt; draf</string>
     <string name="delete_all_draft_hint">Anda yakin ingin menghapus semua konsep\?</string>
     <string name="edit_draft">Edit draf</string>
     <string name="delete_draft">Hapus draf</string>
@@ -812,8 +793,7 @@
     <string name="choice_hashtag">Tagar Pilihan</string>
     <string name="gif_auto_desc">Pakai Wi-Fi GIF Otomatis</string>
     <string name="gif_auto_title">GIF Otomatis</string>
-    <string name="several_drafts">
-        <xliff:g example="5" id="count">%1$s</xliff:g> draf</string>
+    <string name="several_drafts">&lt;xliff:g xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\" example=\"5\" id=\"count\"&gt;%1$s&lt;/xliff:g&gt; draf</string>
     <string name="auto_service_directly__material_">Unduh Langsung</string>
     <string name="picture_preview">Peninjauan</string>
     <string name="picture_please">Nanti silakan...</string>
