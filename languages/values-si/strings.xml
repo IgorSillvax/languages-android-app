@@ -24,7 +24,7 @@
     <string name="management">කළමනාකරණය</string>
     <string name="app_updates">යෙදුම් යාවත්කාල</string>
     <string name="app_management">ස්ථාපිතයි</string>
-    <string name="app_uninstall"/>
+    <string name="app_uninstall">යෙදුම අස්ථාපනය</string>
     <string name="apk_management">APK කළමනාකරණය</string>
     <string name="apk_xapk_management">APK / XAPK කළමනාකරණය</string>
     <string name="download_management">බාගැනීම් කළමනාකරණය</string>
@@ -39,8 +39,8 @@
     <string name="check_update_replace_value" translatable="false">0</string>
     <string name="check_update_beta_value" translatable="false">1</string>
     <string name="quit">ඉවත්වන්න</string>
-    <string name="want_to_quit"/>
-    <string name="install">ස්ථාපනය කරන්න</string>
+    <string name="want_to_quit">පිටවීමට අවශ්‍ය බව විශ්වාසද\?</string>
+    <string name="install">ස්ථාපනය</string>
     <string name="open">විවෘත කරන්න</string>
     <string name="delete"/>
     <string name="delete_all"/>
@@ -59,8 +59,8 @@
     <string name="installing_obb">OBB ගොනු ස්ථාපනය වෙමින්…</string>
     <string name="extracting_apk"/>
     <string name="installing_apk">APK ස්ථාපනය වෙමින්…</string>
-    <string name="uninstall"/>
-    <string name="uninstalled"/>
+    <string name="uninstall">අස්ථාපනය</string>
+    <string name="uninstalled">අස්ථාපනය විය</string>
     <string name="last_update__date_">අවසන් අනුවාදය: &lt;xliff:g xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\" id=\"date\"&gt;%1$s&lt;/xliff:g&gt;</string>
     <string name="all">සියල්ල</string>
     <string name="screenshots">තිර සේයා</string>
@@ -70,15 +70,15 @@
     <string name="version_">අනුවාදය:</string>
     <string name="updated_"/>
     <string name="size_">ප්‍රමාණය:</string>
-    <string name="permissions_">අවසරයන්:</string>
-    <string name="type_">ආකාරය:</string>
-    <string name="category_">වර්ගය:</string>
-    <string name="more"/>
-    <string name="permissions">අවසරයන්</string>
+    <string name="permissions_">අවසර:</string>
+    <string name="type_">වර්ගය:</string>
+    <string name="category_">ප්‍රවර්ගය:</string>
+    <string name="more">තව</string>
+    <string name="permissions">අවසර</string>
     <string name="other">වෙනත්</string>
     <string name="similar_or_related">සමාන හෝ ආශ්‍රිත</string>
-    <string name="more_from_developer"/>
-    <string name="more_large">තවත්</string>
+    <string name="more_from_developer">සංවර්ධකගෙන් තවත්</string>
+    <string name="more_large">තව</string>
     <string name="apk">APK</string>
     <string name="xapk">XAPK</string>
     <string name="unknown">නොදන්නා</string>
