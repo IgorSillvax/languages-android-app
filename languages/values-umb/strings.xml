@@ -4,13 +4,13 @@
     <string name="fb_login_protocol_scheme" translatable="false">fb596489647167672</string>
     <string name="aegon_app_name" translatable="false">APKPure</string>
     <string name="action_settings">Settings</string>
-    <string name="action_search">Search</string>
-    <string name="action_management">Management</string>
-    <string name="press_back_key_quit">To exit, tap the back button once again.</string>
-    <string name="featured">Featured</string>
-    <string name="recommend">Discover</string>
+    <string name="action_search"/>
+    <string name="action_management"/>
+    <string name="press_back_key_quit"/>
+    <string name="featured"/>
+    <string name="recommend"/>
     <string name="games"/>
-    <string name="apps">Apps</string>
+    <string name="apps"/>
     <string name="categories"/>
     <string name="updates"/>
     <string name="something_happened"/>
@@ -26,12 +26,10 @@
     <string name="app_uninstall"/>
     <string name="apk_management"/>
     <string name="apk_xapk_management"/>
-    <string name="download_management">Grindr</string>
+    <string name="download_management"/>
     <string name="settings"/>
     <string name="about"/>
-    <string name="about_title">
-        <xliff:g example="APKPure" id="app_name">%1$s</xliff:g>
-    </string>
+    <string name="about_title"/>
     <string name="about_message"/>
     <string name="check_update"/>
     <string name="check_update_replace"/>
@@ -52,9 +50,7 @@
     <string name="want_to_delete_all_files"/>
     <string name="file_has_been_deleted"/>
     <string name="failed_to_delete_file"/>
-    <string name="install__label_">
-        <xliff:g example="APKPure" id="app_label">%1$s</xliff:g>
-    </string>
+    <string name="install__label_"/>
     <string name="user_canceled"/>
     <string name="io_error"/>
     <string name="file_format_error"/>
@@ -64,9 +60,7 @@
     <string name="installing_apk"/>
     <string name="uninstall"/>
     <string name="uninstalled"/>
-    <string name="last_update__date_">
-        <xliff:g id="date">%1$s</xliff:g>
-    </string>
+    <string name="last_update__date_"/>
     <string name="all"/>
     <string name="screenshots"/>
     <string name="description"/>
@@ -96,12 +90,9 @@
     <string name="market_response_error_network_read_error"/>
     <string name="market_response_error_invalid_response_code"/>
     <string name="market_response_error_invalid_response_body"/>
-    <string name="market_response_error_unknown_error__error_">
-        <xliff:g example="SUCCESS" id="error">%1$s</xliff:g>).</string>
+    <string name="market_response_error_unknown_error__error_"/>
     <string name="update"/>
-    <string name="version__version___size_">
-        <xliff:g example="1.0.0" id="version">%1$s</xliff:g>, <xliff:g example="1024 kB" id="size">%2$s</xliff:g>
-    </string>
+    <string name="version__version___size_"/>
     <plurals name="_count__new_update_is_available">
         <item quantity="one"/>
         <item quantity="other"/>
@@ -113,11 +104,9 @@
     </plurals>
     <string name="downloads_complete"/>
     <string name="touch_for_view_all_downloads"/>
-    <string name="_name__download_failed">
-        <xliff:g example="APKPure" id="name">%1$s</xliff:g> download failed</string>
+    <string name="_name__download_failed"/>
     <string name="touch_to_download_it_again"/>
-    <string name="download_percent">
-        <xliff:g example="50" id="percent">%1$d</xliff:g> %%</string>
+    <string name="download_percent"/>
     <string name="pause"/>
     <string name="pause_all"/>
     <string name="continue_"/>
@@ -156,8 +145,7 @@
     <string name="participate_ultra_download_beta_test_title"/>
     <string name="participate_ultra_download_beta_test_content"/>
     <string name="enable"/>
-    <string name="_name__is_up_to_date">
-        <xliff:g example="APKPure" id="name">%1$s</xliff:g> is up to date.</string>
+    <string name="_name__is_up_to_date"/>
     <string name="new_version_available_title"/>
     <string name="new_version_available_message"/>
     <string name="report"/>
@@ -180,29 +168,13 @@
     <string name="external_storage_not_usable"/>
     <string name="external_storage_permission_denied"/>
     <string name="share"/>
-    <string name="share_app_url">
-        <xliff:g example="APKPure" id="app_name">%1$s</xliff:g> APK (from <xliff:g example="APKPure" id="social_network_name">%2$s</xliff:g>)
-        <xliff:g example="https://apkpure.com/p/com.apkpure.aegon" id="app_url">%3$s</xliff:g>
-    </string>
-    <string name="share_app_url_comment">
-        <xliff:g example="APKPure" id="user_name">%1$s</xliff:g>\'s comments on
-        <xliff:g example="APKPure" id="app_name">%2$s</xliff:g> : <xliff:g example="APKPure" id="app_name">%3$s</xliff:g>
-        (from <xliff:g example="APKPure" id="social_network_name">%4$s</xliff:g>)
-        <xliff:g example="https://apkpure.com/p/com.apkpure.aegon" id="app_url">%5$s</xliff:g>
-    </string>
-    <string name="share_app_url_group">
-        <xliff:g example="APKPure" id="app_name">%1$s</xliff:g>
-        Group. (from <xliff:g example="APKPure" id="social_network_name">%2$s</xliff:g>)
-        <xliff:g example="https://apkpure.com/p/com.apkpure.aegon" id="app_url">%3$s</xliff:g>
-    </string>
-    <string name="_name__version_history">
-        <xliff:g example="APKPure" id="name">%1$s</xliff:g> Version History</string>
-    <string name="update__date___size_">
-        <xliff:g example="Mar 3, 2016" id="date">%1$s</xliff:g>, <xliff:g example="1024 kB" id="size">%2$s</xliff:g>
-    </string>
+    <string name="share_app_url"/>
+    <string name="share_app_url_comment"/>
+    <string name="share_app_url_group"/>
+    <string name="_name__version_history"/>
+    <string name="update__date___size_"/>
     <string name="update_all"/>
-    <string name="update___count__">
-        <xliff:g example="3" id="count">%1$d</xliff:g>)</string>
+    <string name="update___count__"/>
     <string name="ignore"/>
     <string name="unignore"/>
     <string name="select"/>
@@ -227,8 +199,7 @@
     <string name="installation"/>
     <string name="show_notification_after_installation"/>
     <string name="delete_packages_after_installation"/>
-    <string name="_name__installation_completed">
-        <xliff:g example="APKPure" id="name">%1$s</xliff:g> installation complete</string>
+    <string name="_name__installation_completed"/>
     <string name="touch_to_open"/>
     <string name="auto_service_install_accessibility_title"/>
     <string name="auto_service_install_accessibility_summary"/>
@@ -327,9 +298,7 @@
     <string name="reply_dialog_marked_words"/>
     <string name="reply_comment"/>
     <string name="save_original_image"/>
-    <string name="already_save">
-        <xliff:g example="ApKPure/photo" id="path">%1$s</xliff:g>
-    </string>
+    <string name="already_save"/>
     <string name="load_end"/>
     <string name="load_failed_click_retry"/>
     <string name="loading"/>
@@ -732,19 +701,13 @@
     <string name="del_account_reason_hint"/>
     <string name="del_account_sure"/>
     <string name="reply_to"/>
-    <string name="share_app_url_comment_v3">
-        <xliff:g example="zhangsan" id="name">%1$s</xliff:g>\'s <xliff:g example="post/story/review" id="type">%2$s</xliff:g> (From APKPure):<xliff:g example="https://apkpure.com" id="url">%3$s </xliff:g>
-    </string>
+    <string name="share_app_url_comment_v3"/>
     <string name="apk_unable_upload"/>
     <string name="long_image"/>
     <string name="edit_tag"/>
     <string name="save_tag_hint_msg"/>
-    <string name="un_follow_xx">
-        <xliff:g example="Apkpure" id="name">%1$s</xliff:g>
-    </string>
-    <string name="follow_xx">
-        <xliff:g example="Apkpure" id="name">%1$s</xliff:g>
-    </string>
+    <string name="un_follow_xx"/>
+    <string name="follow_xx"/>
     <string name="app_rating"/>
     <string name="number"/>
     <string name="headline_footer_refresh"/>
@@ -769,10 +732,8 @@
     <string name="community_guide_lines"/>
     <string name="my_draft"/>
     <string name="clear_empty"/>
-    <string name="several_draft">
-        <xliff:g example="5" id="count">%1$s</xliff:g> draft</string>
-    <string name="several_drafts">
-        <xliff:g example="5" id="count">%1$s</xliff:g> drafts</string>
+    <string name="several_draft"/>
+    <string name="several_drafts"/>
     <string name="delete_all_draft_hint"/>
     <string name="edit_draft"/>
     <string name="delete_draft"/>
