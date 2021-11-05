@@ -12,7 +12,7 @@
     <string name="something_happened">&gt;_&lt;
 \nNěco se stalo.</string>
     <string name="load_failed_error">Jejda! Vyskytla se chyba.</string>
-    <string name="load_failed_empty">Tady nic není.</string>
+    <string name="load_failed_empty">Nic tu není.</string>
     <string name="recommend">Objevte</string>
     <string name="load_failed_all_up_to_date">Všechny aplikace jsou aktuální.</string>
     <string name="load_failed_no_results">Je nám líto! Nebyly nalezeny žádné výsledky.</string>
@@ -27,21 +27,20 @@
     <string name="download_management">Správa Stahování</string>
     <string name="settings">Nastavení</string>
     <string name="about">O</string>
-    <string name="about_title">"&lt;xliff:g xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\" example=\"APKPure\" id=\"app_name\"&gt;&lt;xliff:g xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\" example=\"APKPure\" id=\"app_name\"&gt;O  &lt;xliff:g xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\" example=\"APKPure\" id=\"app_name\"/&gt;"<xliff:g example="APKPure" id="app_name"/>
-    </string>
-    <string name="about_message">&lt;b&gt;Verze:&lt;/b&gt; %1$s&lt;br&gt;&lt;br&gt;&lt;b&gt;Web:&lt;/b&gt; &lt;a href=%2$s&gt;%2$s&lt;/a&gt;&lt;br&gt;&lt;b&gt;E-mail:&lt;/b&gt; &lt;a href=mailto:%3$s&gt;%3$s&lt;/a&gt;</string>
+    <string name="about_title">O &lt;xliff:g xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\" example=\"APKPure\" id=\"app_name\"&gt;%1$s&lt;/xliff:g&gt;</string>
+    <string name="about_message">&lt;b&gt;Verze:&lt;/b&gt; %1$s&lt;br&gt;&lt;br&gt;&lt;b&gt;Webové stránky:&lt;/b&gt; &lt;a href=%2$s&gt;%2$s&lt;/a&gt;&lt;br&gt;&lt;b&gt;Email:&lt;/b&gt; &lt;a href=mailto:%3$s&gt;%3$s&lt;/a&gt;</string>
     <string name="check_update">Zkontrolovat aktualizace</string>
     <string name="check_update_replace">Oficiální verze</string>
     <string name="check_update_beta">Předběžná Beta</string>
     <string name="beta">beta</string>
     <string name="quit">Odejít</string>
     <string name="want_to_quit">on</string>
-    <string name="install">Install</string>
+    <string name="install">Instalovat</string>
     <string name="open">santali wallpaper</string>
     <string name="delete">Smazat</string>
     <string name="delete_all">Smazat vše</string>
     <string name="properties">Vlastnosti</string>
-    <string name="want_to_delete_file">Chcete smazat tento soubor?</string>
+    <string name="want_to_delete_file">Opravdu chcete smazat tento soubor\?</string>
     <string name="want_to_delete_all_files">Opravdu chcete smazat všechny soubory\?</string>
     <string name="file_has_been_deleted">Soubor byl smazán.</string>
     <string name="failed_to_delete_file">Chyba při mazání souboru.</string>
@@ -125,8 +124,7 @@
     <string name="search">Vyhledat</string>
     <string name="search_for_apps">Vyhledat v APKPure</string>
     <string name="properties_message">&lt;b&gt;Cesta:&lt;/b&gt; %1$s&lt;br&gt;&lt;b&gt;Velikost:&lt;/b&gt; %2$s&lt;br&gt;&lt;b&gt;Poslední změna:&lt;/b&gt; %3$s</string>
-    <string name="install__label_">Instalování - <xliff:g example="APKPure" id="app_label">%1$s</xliff:g>
-    </string>
+    <string name="install__label_">Install - &lt;xliff:g xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\" example=\"APKPure\" id=\"app_label\"&gt;%1$s&lt;/xliff:g&gt;</string>
     <string name="last_update__date_">Poslední aktualizace: <xliff:g id="date">%1$s</xliff:g>
     </string>
     <string name="description">Vlastnosti</string>
@@ -249,4 +247,25 @@
     <string name="app_submit_title_toast">Musíte napsat nadpis!</string>
     <string name="app_submit_msg_toast">Musíte něco napsat!</string>
     <string name="search_tab_invitation">Příspěvky</string>
+    <string name="picture_record_video">Nahrát video</string>
+    <string name="picture_empty_title">Není video ani obrázek
+\n</string>
+    <string name="picture_please_select">Prosím vyberte</string>
+    <string name="picture_cancel">Zrušit</string>
+    <string name="upload_xapk">Nahrát XAPK</string>
+    <string name="users">Uživatel</string>
+    <string name="app_update_auto_install">Zapnout auto install</string>
+    <string name="look_video">Přehrát Video</string>
+    <string name="attention_each">Připojeno</string>
+    <string name="picture_empty_audio_title">Zvukový soubor nenalezen
+\n</string>
+    <string name="picture_prompt_content">Chcete uložit obrázek do vašeho zařízení\?</string>
+    <string name="ucrop_label_original">Originál</string>
+    <string name="upload_apk_xapk">Nahrát APK/XAPK</string>
+    <string name="packaging_failed_try_again">komprimace selhala. Zkuste to, prosím, znovu</string>
+    <string name="packaging_success_ready_upload">Komprimace byla dokončena. Připravenou k uploadu</string>
+    <string name="packaging">Komprimace</string>
+    <string name="ucrop_menu_crop">Oříznout</string>
+    <string name="picture_pause_audio">Pauza</string>
+    <string name="picture_confirm">Zrušit</string>
 </resources>
