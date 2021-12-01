@@ -9,7 +9,8 @@
     <string name="apps">アプリ</string>
     <string name="categories">カテゴリー</string>
     <string name="updates">アップデート</string>
-    <string name="something_happened">問題が発生したようです。</string>
+    <string name="something_happened">&gt;_&lt;
+\n問題が発生したようです。</string>
     <string name="load_failed_error">おっと！エラーが発生しました。</string>
     <string name="load_failed_empty">ここには何もありません。</string>
     <string name="load_failed_all_up_to_date">全てのアプリをアップデートします。</string>
@@ -24,7 +25,7 @@
     <string name="download_management">ダウンロードの管理</string>
     <string name="settings">セッティング</string>
     <string name="about">APKPureについて</string>
-    <string name="about_title">&lt;xliff：g xmlns：xliff = \"urn：oasis：names：tc：xliff：document：1.2\" example = \"APKPure\" id = \"app_name\"&gt;％1 $ s &lt;/ xliff：g&gt;について</string>
+    <string name="about_title">&lt;xliff:g xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\" example=\"APKPure\" id=\"app_name\"&gt;%1$s&lt;/xliff:g&gt;について</string>
     <string name="about_message">
         <![CDATA[<b>バージョン:</b> %1$s<br><br><b>公式サイト:</b> <a href="%2$s">%2$s</a><br><b>電子メール：</b> <a href="mailto:%3$s">%3$s</a>]]>
     </string>
@@ -37,7 +38,7 @@
     <string name="want_to_delete_file">このファイルを削除してよろしいでしょうか\?</string>
     <string name="file_has_been_deleted">ファイルは既に削除されています。</string>
     <string name="failed_to_delete_file">ファイルを削除できませんでした。</string>
-    <string name="install__label_">インストール-&lt;xliff：g xmlns：xliff = \"urn：oasis：names：tc：xliff：document：1.2\" example = \"APKPure\" id = \"app_label\"&gt;％1 $ s &lt;/ xliff：g&gt;</string>
+    <string name="install__label_">インストール - &lt;xliff:g xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\" example=\"APKPure\" id=\"app_label\"&gt;%1$s&lt;/xliff:g&gt;</string>
     <string name="user_canceled">ユーザによってキャンセルされました。</string>
     <string name="io_error">IO エラーです。インストールに十分な空き容量がありません。</string>
     <string name="file_format_error">ファイル形式のエラーです。</string>
@@ -47,7 +48,7 @@
     <string name="installing_apk">APKをインストールしています…</string>
     <string name="uninstall">アンインストール</string>
     <string name="uninstalled">アンインストールされました</string>
-    <string name="last_update__date_">最終更新：&lt;xliff：g xmlns：xliff = \"urn：oasis：names：tc：xliff：document：1.2\" id = \"date\"&gt;％1 $ s &lt;/ xliff：g&gt;</string>
+    <string name="last_update__date_">最終更新： &lt;xliff:g xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\" id=\"date\"&gt;%1$s&lt;/xliff:g&gt;</string>
     <string name="all">すべて</string>
     <string name="screenshots">スクリーンショット</string>
     <string name="description">説明</string>
@@ -75,19 +76,19 @@
     <string name="market_response_error_unknown_error__error_">不明なエラー: (<xliff:g example="SUCCESS" id="error">%1$s</xliff:g>).</string>
     <string name="no_more">これ以上はありません。</string>
     <string name="update">アップデート</string>
-    <string name="version__version___size_">バージョン：&lt;xliff：g xmlns：xliff = \"urn：oasis：names：tc：xliff：document：1.2\" example = \"1.0.0\" id = \"version\"&gt;％1 $ s &lt;/ xliff：g&gt;、&lt; xliff：g xmlns：xliff = \"urn：oasis：names：tc：xliff：document：1.2\" example = \"1024 kB\" id = \"si</string>
+    <string name="version__version___size_">バージョン： &lt;xliff:g xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\" example=\"1.0.0\" id=\"version\"&gt;%1$s&lt;/xliff:g&gt;, &lt;xliff:g xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\" example=\"1024 kB\" id=\"size\"&gt;%2$s&lt;/xliff:g&gt;</string>
     <plurals name="_count__new_update_is_available">
-        <item quantity="other">&lt;xliff：g xmlns：xliff = \"urn：oasis：names：tc：xliff：document：1.2\" example = \"2\" id = \"count\"&gt;％1 $ d &lt;/ xliff：g&gt;新しいアップデートが利用可能です</item>
+        <item quantity="other">&lt;xliff:g xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\" example=\"1\" id=\"count\"&gt;%1$d&lt;/xliff:g&gt; 新更新が利用可能です</item>
     </plurals>
     <string name="launching_please_wait">起動しています...お待ちください。</string>
     <plurals name="_count__item_is_downloading">
-        <item quantity="other">&lt;xliff：g xmlns：xliff = \"urn：oasis：names：tc：xliff：document：1.2\" example = \"2\" id = \"count\"&gt;％1 $ d &lt;/ xliff：g&gt;アイテムをダウンロードしています。しばらくお待ち下さい。</item>
+        <item quantity="other">&lt;xliff:g xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\" example=\"1\" id=\"count\"&gt;%1$d&lt;/xliff:g&gt; アイテムをダウンロード中です。しばらくお待ち下さい。</item>
     </plurals>
     <string name="downloads_complete">すべてのダウンロードが完了しました</string>
     <string name="touch_for_view_all_downloads">タップして全てのダウンロードを表示します</string>
-    <string name="_name__download_failed">&lt;xliff：g xmlns：xliff = \"urn：oasis：names：tc：xliff：document：1.2\" example = \"APKPure\" id = \"name\"&gt;％1 $ s &lt;/ xliff：g&gt;のダウンロードに失敗しました</string>
+    <string name="_name__download_failed">&lt;xliff:g xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\" example=\"APKPure\" id=\"name\"&gt;%1$s&lt;/xliff:g&gt;のダウンロードに失敗しました</string>
     <string name="touch_to_download_it_again">タップしてダウンロードの再試行をします</string>
-    <string name="download_percent">&lt;xliff：g xmlns：xliff = \"urn：oasis：names：tc：xliff：document：1.2\" example = \"50\" id = \"percent\"&gt;％1 $ d &lt;/ xliff：g&gt; %%</string>
+    <string name="download_percent">&lt;xliff:g xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\" example=\"50\" id=\"percent\"&gt;%1$d&lt;/xliff:g&gt; %%</string>
     <string name="pause">停止</string>
     <string name="continue_">続く</string>
     <string name="restart">再起動</string>
@@ -111,7 +112,7 @@
     <string name="improvement_plan_message">お使いのAndroid端末に関する情報を提供することで、あなたのエクスペリエンスををより良くするのに役立ちます。個人を特定できる情報（名前、住所、メールアドレス、社会保障番号、またはその他の一意識別子）を収集<b>しない</b>ことをお約束します。</string>
     <string name="join_us">協力する</string>
     <string name="skip">協力しない</string>
-    <string name="_name__is_up_to_date">&lt;xliff：g xmlns：xliff = \"urn：oasis：names：tc：xliff：document：1.2\" example = \"APKPure\" id = \"name\"&gt;％1 $ s &lt;/ xliff：g&gt;は最新です。</string>
+    <string name="_name__is_up_to_date">&lt;xliff:g xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\" example=\"APKPure\" id=\"name\"&gt;%1$s&lt;/xliff:g&gt;は最新です。</string>
     <string name="new_version_available_title">アップデートがあります</string>
     <string name="new_version_available_message">
         <![CDATA[<b>最新版:</b> %1$s<br><br><b>最新情報:</b><br>%2$s]]>
@@ -145,9 +146,8 @@
     <string name="share">シェア</string>
     <string name="share_app_url"> シェア<xliff:g example="APKPure" id="app_name">%1$s</xliff:g>APK (from <xliff:g example="APKPure" id="social_network_name">%2$s</xliff:g>) <xliff:g example="https://apkpure.com/p/com.apkpure.aegon" id="app_url">%3$s</xliff:g>
     </string>
-    <string name="_name__version_history">&lt;xliff：g xmlns：xliff = \"urn：oasis：names：tc：xliff：document：1.2\" example = \"APKPure\" id = \"name\"&gt;％1 $ s &lt;/ xliff：g&gt;バージョン履歴</string>
-    <string name="update__date___size_">アップデート: <xliff:g example="Mar 3, 2016" id="date">%1$s</xliff:g>, <xliff:g example="1024 kB" id="size">%2$s</xliff:g>
-    </string>
+    <string name="_name__version_history">&lt;xliff:g xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\" example=\"APKPure\" id=\"name\"&gt;%1$s&lt;/xliff:g&gt; バージョン履歴</string>
+    <string name="update__date___size_">更新: &lt;xliff:g xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\" example=\"Mar 3, 2016\" id=\"date\"&gt;%1$s&lt;/xliff:g&gt;, &lt;xliff:g xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\" example=\"1024 kB\" id=\"size\"&gt;%2$s&lt;/xliff:g&gt;</string>
     <string name="contact_us">お問い合わせ</string>
     <string name="contact_us__">お問い合わせ…</string>
     <string name="report_content">コンテンツを報告する</string>
@@ -264,11 +264,10 @@
     <string name="publish">ポスト</string>
     <string name="reply_comment">コメントに返信</string>
     <string name="save_original_image">保存</string>
-    <string name="already_save">保存する<xliff:g example="ApKPure/photo" id="path">%1$s</xliff:g>
-    </string>
+    <string name="already_save">保存する&lt;xliff:g xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\" example=\"ApKPure/photo\" id=\"path\"&gt;%1$s&lt;/xliff:g&gt;</string>
     <string name="load_end">これ以上のデータはありません。</string>
     <string name="loading">ローディング…</string>
-    <string name="share_app_url_comment">" &lt;xliff：g xmlns：xliff = \"urn：oasis：names：tc：xliff：document：1.2\" example = \"APKPure\" id = \"user_name\"&gt;％1 $ s &lt;/ xliff：g&gt;の&lt;xliffに対するコメント：g xmlns：xliff = \"urn：oasis：names：tc：xliff：document：1.2\" example = \"APKPur "</string>
+    <string name="share_app_url_comment">" &lt;xliff:g xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\" example=\"APKPure\" id=\"user_name\"&gt;%1$s&lt;/xliff:g&gt;のコメント&lt;xliff:g xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\" example=\"APKPure\" id=\"app_name\"&gt;%2$s&lt;/xliff:g&gt; ： &lt;xliff:g xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\" example=\"APKPure\" id=\"app_name\"&gt;%3$s&lt;/xliff:g&gt; (&lt;xliff:g xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\" example=\"APKPure\" id=\"social_network_name\"&gt;%4$s&lt;/xliff:g&gt;から) &lt;xliff:g xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\" example=\"https://apkpure.com/p/com.apkpure.aegon\" id=\"app_url\"&gt;%5$s&lt;/xliff:g&gt; "</string>
     <plurals name="app_detail_see_all_replies">
         <item quantity="one">全ての返信を見る<xliff:g example="2" id="count"> 1%1$d</xliff:g> 2</item>
         <item quantity="other"/>
@@ -359,15 +358,15 @@
     <string name="login_new_user">新規ユーザー登録</string>
     <string name="login_post_as_a_guest">ゲストとして投稿</string>
     <string name="message">メッセージ</string>
-    <string name="push_title_info_reply">％1 $ sがあなたのコメントに返信しました！</string>
-    <string name="push_title_info_upvoted">％sさんがあなたのコメントに賛成しました。</string>
+    <string name="push_title_info_reply">%1$sさんがあなたのコメントに返信しました！</string>
+    <string name="push_title_info_upvoted">%1$sさんがあなたのコメントに賛成しました！</string>
     <string name="download_list">ダウンロードリスト</string>
     <string name="can_be_update">更新予定</string>
     <string name="install_list">インストール済み</string>
     <string name="no_download">ダウンロードしたアプリはありません。</string>
     <string name="downloads">ダウンロード</string>
     <string name="change_language_failed">言語の切り替えに失敗しました！</string>
-    <string name="comment_reply_tell_msg">このコメントは削除されました…</string>
+    <string name="comment_reply_tell_msg">このコメントは削除されました！</string>
     <string name="notification_setting">通知</string>
     <string name="message_notifications_praise">あなたのコメントに賛成しました</string>
     <string name="reply_notification">通知に返信します</string>
@@ -380,9 +379,7 @@
     <string name="comment_reply_three">返信する</string>
     <string name="comment_item_fold">1件のコメントが崩れました</string>
     <plurals name="comment_reply_item_fold">
-        <item quantity="one">
-            <xliff:g example="2" id="count"> 1%1$d</xliff:g> 2件の返信が崩れました</item>
-        <item quantity="other"/>
+        <item quantity="other">&lt;xliff:g xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\" example=\"2\" id=\"count\"&gt; 1%1$d&lt;/xliff:g&gt;件の返信が崩れました</item>
     </plurals>
     <string name="comment_no_reply">残念! ここには何もありません。</string>
     <string name="comment_reply_info_name">詳細</string>
@@ -411,7 +408,7 @@
     <string name="recommend_description">1.承認された推奨事項は、[検出]セクションに一覧表示されます。
 \n 2.Androidデバイスに現在インストールされているアプリのみを推奨できます。
 \n 3. APKPureに通知して、インデックスに登録されていないアプリを追加します。</string>
-    <string name="recommend_user_recommend">％sからのおすすめ</string>
+    <string name="recommend_user_recommend">%1$sが推奨します</string>
     <string name="recommend_required">*</string>
     <string name="check_update_replace">正式版</string>
     <string name="check_update_beta">プレリリース版（Beta版）</string>
@@ -500,7 +497,7 @@
     <string name="user_detail_tab_reply">コメント</string>
     <string name="user_focus_tab_apps">グループ</string>
     <string name="user_focus_title_my">私のフォロー</string>
-    <string name="user_focus_title">%sにフォローされています</string>
+    <string name="user_focus_title">%1$sにフォローされています</string>
     <string name="goto_google_play">今すぐ購入</string>
     <string name="menu_follow_all">以下のすべて</string>
     <string name="menu_follow_user">フォローしている人</string>
@@ -521,9 +518,9 @@
     <string name="scan_qr_code_result_hint">QRコードの詳細: </string>
     <string name="scan_qr_code_copy_success">テキストがコピーされます。</string>
     <string name="user_info_edit_large_photo">フルサイズのアバターを表示</string>
-    <string name="push_title_info_follow">%sがあなたをフォローしました。</string>
+    <string name="push_title_info_follow">%1$sさんがあなたをフォローしました！</string>
     <string name="push_title_info_update">APKPureの新しいバージョンが到着しました！</string>
-    <string name="push_content_info_update">新しいバージョン％1 $ sがリリースされました！今すぐアップデート！</string>
+    <string name="push_content_info_update">新しいバージョン %1$s がリリースしました！ 今すぐ更新！</string>
     <string name="recommend_user_recommend_sys">APKPureからのおすすめ</string>
     <string name="user_focus_tab_users">People</string>
     <string name="app_detail_has_product">アプリ内購入が含まれています</string>
@@ -533,7 +530,7 @@
     <string name="tag_list">タグリスト</string>
     <string name="hot_tag">ホットタグ</string>
     <string name="common_use">私のタグ</string>
-    <string name="app_add_tag_hint_caution">各アプリのタグは％1 $ s以下です。</string>
+    <string name="app_add_tag_hint_caution">アプリごとに%1$sつ以下のタグ。</string>
     <string name="app_add_tag">新しいタグを追加する</string>
     <string name="toast_app_tag_exist">このタグはすでに存在します！</string>
     <string name="there_is_no_label">タグはありません。</string>
@@ -556,10 +553,10 @@
     <string name="tab_apk">APK</string>
     <string name="commentaries">ポストトリーを共有する</string>
     <string name="upload_apk_version">V %1$s</string>
-    <string name="upload_apk_downloads">ダウンロード: ％1$s</string>
+    <string name="upload_apk_downloads">ダウンロード： %1$s</string>
     <string name="upload_comment_uploading">%1$s をアップロードしています…</string>
-    <string name="upload_comment_upload_success">％1 $ sアップロードが成功しました</string>
-    <string name="upload_comment_upload_failed">％1 $ sのアップロードに失敗しました</string>
+    <string name="upload_comment_upload_success">%1$s アップロードが成功しました</string>
+    <string name="upload_comment_upload_failed">%1$s アップロードが失敗しました</string>
     <string name="upload_comment_view">タップして表示</string>
     <string name="upload_comment_reload">タップしてリロードする</string>
     <string name="upload_notification_pause">一時停止</string>
@@ -567,7 +564,7 @@
     <string name="upload_notification_cancel">キャンセル</string>
     <string name="upload_notification_is_uploading">APKPureにパッケージをアップロード中…</string>
     <string name="upload_notification_is_pause">アップロードが一時停止されます。</string>
-    <string name="upload_add_list_toast">成功しました</string>
+    <string name="upload_add_list_toast">成功しました！</string>
     <string name="hot_tag_explain">（このアプリの既存のタグを追加または投票します）</string>
     <string name="upload_add_file_list_toast">アプリをアップロードしていただきありがとうございます。しばらくお待ちください。</string>
     <string name="your_reply_comment">あなたからの返信</string>
@@ -602,7 +599,7 @@
     <string name="copy_content">コメントをコピーする</string>
     <string name="tab_global">特集</string>
     <string name="comment_list_see_here">前回ここに着いた時。タップして更新します。</string>
-    <string name="comment_list_new_num">％d新しい見出し</string>
+    <string name="comment_list_new_num">%dつ新見出し</string>
     <string name="tab_popular">人気</string>
     <string name="properties_message_v2">
         <![CDATA[<b>パッケージ名:</b> %1$s<br><b>バージョン:</b> %2$s<br><b>Path:</b> %3$s<br><b>Size:</b> %4$s<br><b>最終更新日:</b> %5$s]]>
@@ -613,12 +610,12 @@
     <string name="app_detail_comment_filter_version">最新バージョン</string>
     <string name="app_detail_comment_score_less">ユーザーレビューがやや少ないようです。</string>
     <string name="app_detail_comment_no_data">ユーザーレビューは見つかりませんでした。今すぐレビューを書いてください。</string>
-    <string name="app_detail_comment_score_footer">他の言語では％1 $ s件のレビューがあります。</string>
+    <string name="app_detail_comment_score_footer">他の言語で%1$s件のレビューがあります。</string>
     <string name="app_detail_evaluation_tool_bar_title">レビューを書く</string>
     <string name="app_detail_evaluation_failed_bt">レビュー</string>
     <string name="app_detail_comment_order_array_good">4-5</string>
     <string name="app_detail_comment_order_array_bad">1-3</string>
-    <string name="app_detail_folded_footer_reviews">すべての％dレビューを見る</string>
+    <string name="app_detail_folded_footer_reviews">%dつの折りたたまれたレビューをすべて表示</string>
     <string name="app_detail_folded_footer_posts">すべての%dポストを見る</string>
     <string name="app_detail_discuss_filter_featured">ハイライト</string>
     <string name="app_detail_discuss_filter_folded">折りたたみ</string>
@@ -700,7 +697,7 @@
     <string name="search_or_create">検索または作成</string>
     <string name="privacy_setting_title">プライバシー設定</string>
     <string name="privacy_setting_account">プライベートアカウント</string>
-    <string name="share_app_url_comment_v3">Share &lt;xliff:g xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\" example=\"zhangsan\" id=\"name\"&gt;%1$s&lt;/xliff:g&gt;\'s &lt;xliff:g xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\" example=\"post/story/review\" id=\"type\"&gt;%2$s&lt;/xliff:g&gt; (From APKPure):&lt;xliff:g xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\" example=\"https://apkpure.com\" id=\"url\"&gt;%3$s &lt;/xliff:g&gt;</string>
+    <string name="share_app_url_comment_v3">シェア &lt;xliff:g xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\" example=\"zhangsan\" id=\"name\"&gt;%1$s&lt;/xliff:g&gt;\'s &lt;xliff:g xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\" example=\"post/story/review\" id=\"type\"&gt;%2$s&lt;/xliff:g&gt; (APKPureから):&lt;xliff:g xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\" example=\"https://apkpure.com\" id=\"url\"&gt;%3$s &lt;/xliff:g&gt;</string>
     <string name="save_tag_hint_msg">変更は保存されていません。本当に終了してもよろしいですか？</string>
     <string name="edit_tag">タグの編集</string>
     <string name="apk_unable_upload">APKのアップロードに失敗しました。</string>
@@ -719,7 +716,7 @@
     <string name="picture_cancel">キャンセル</string>
     <string name="picture_camera_roll">カメラロール</string>
     <string name="attention_each">接続済み</string>
-    <string name="app_details_request_update_msg">％sの最新アップデートのリクエストを受け取りました。
+    <string name="app_details_request_update_msg">%sの最新アップデートのリクエストを受け取りました。
 \n新しいバージョンが存在する場合は、すぐにダウンロードできるようになります。</string>
     <string name="app_details_request_update_title">更新をリクエストする</string>
     <string name="xapk_unable_upload">XAPKのアップロードに失敗しました！</string>
@@ -740,21 +737,26 @@
     <string name="delete_draft">下書きを削除する</string>
     <string name="edit_draft">下書きを編集する</string>
     <string name="delete_all_draft_hint">下書きをすべて削除してもよろしいですか？</string>
-    <string name="several_drafts">&lt;xliff：g xmlns：xliff = \"urn：oasis：names：tc：xliff：document：1.2\" example = \"5\" id = \"count\"&gt;％1 $ s &lt;/ xliff：g&gt;ドラフト<xliff:g example="5" id="count">%1$s</xliff:g> drafts</string>
-    <string name="several_draft">&lt;xliff：g xmlns：xliff = \"urn：oasis：names：tc：xliff：document：1.2\" example = \"5\" id = \"count\"&gt;％1 $ s &lt;/ xliff：g&gt;ドラフト<xliff:g example="5" id="count">%1$s</xliff:g> draft</string>
+    <string name="several_drafts">&lt;xliff:g xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\" example=\"5\" id=\"count\"&gt;%1$s&lt;/xliff:g&gt;ドラフト</string>
+    <string name="several_draft">&lt;xliff:g xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\" example=\"5\" id=\"count\"&gt;%1$s&lt;/xliff:g&gt;ドラフト</string>
     <string name="clear_empty">すべてクリア</string>
     <string name="let_us_know">我々に教えてください</string>
     <string name="tap_to_view">タップして表示</string>
-    <string name="report_callback_des">嫌がらせについて報告された投稿を確認しました。 ％1 $ sに違反したため、削除しました。ご報告ありがとうございます。</string>
+    <string name="report_callback_des">嫌がらせについて報告された投稿を確認しました。 %1$sに違反したため、削除しました。ご報告ありがとうございます。</string>
     <string name="report_callback_title">あなたが報告した投稿は削除されました！</string>
-    <string name="pre_register_des">事前登録したゲーム％1 $ s％2 $ sをダウンロードできます。％3 $ s</string>
-    <string name="pre_register_title">％1 $ sが％2 $ sでリリースされました！</string>
-    <string name="temporarily_blocked_des">"「彼の一時的な禁止は％1 $ s日間続き、有効期限が切れるまでAPKPureでコンテンツを作成することはできません。
-\n        ％2 $ sに反するものを再度投稿すると、アカウントが禁止されます「彼の一時的な禁止は％1 $ s日間続き、有効期限が切れるまでAPKPureでコンテンツを作成することはできません。"</string>
+    <string name="pre_register_des">事前登録したゲーム%1$s %2$sをダウンロードできます。%3$s</string>
+    <string name="pre_register_title">%1$sが%2$sでリリースされました！</string>
+    <string name="temporarily_blocked_des">"%1$s\"彼の一時的な禁止は%1$s日間続き、有効期限が切れるまでAPKPureでコンテンツを作成することはできません。
+\n        %2$sに反するものを再度投稿すると、アカウントはさらに30日間禁止されます。
+\n        不適切なコンテンツを繰り返し投稿すると、アカウントが永久に禁止される可能性があることに注意してください。
+\n        
+\n これが間違いだと思われる場合は、%3$sください。"</string>
     <string name="temporarily_blocked_title">APKPureでのコンテンツ作成が一時的に禁止されています</string>
-    <string name="comment_removed_des">あなたが投稿したものが私たちの％1 $ sに従わないようです。不適切な写真、物理的ないじめに関する動画、その他の意図された投稿など、いかなる種類のいじめや嫌がらせも許可しません。</string>
+    <string name="comment_removed_des">あなたが投稿したものが私たちの%1$sに準拠していないようです。不適切な写真、物理的ないじめに関する動画、特定の人物を堕落させたり屈辱を与えることを目的としたその他の投稿など、いかなる種類のいじめや嫌がらせも許可しません。 
+\n%2$s 
+\nこれが間違いだと思われる場合は、%3$sください。</string>
     <string name="comment_removed_title">あなたの投稿は削除されました</string>
-    <string name="home_recommended_desc">あなたの投稿がホームページのおすすめとして選択されました、％1 $ s</string>
+    <string name="home_recommended_desc">あなたの投稿がホームページのおすすめとして選択されました、%1$s</string>
     <string name="search_tab_invitation">投稿</string>
     <string name="xapk_upload_hint_info">XAPKファイルのアップロードに時間がかかります。アップロードしてもよろしいですか？</string>
     <string name="packaging_failed_try_again">パッケージングに失敗しました。もう一度やり直してください。</string>
@@ -792,7 +794,7 @@
     <string name="picture_jurisdiction">メモリーカードの読み取りアクセスが拒否されました</string>
     <string name="picture_audio">システム記録許可へのアクセスが拒否されました</string>
     <string name="gif_tag">GIF</string>
-    <string name="picture_min_img_num">画像選択できません%1$Number</string>
+    <string name="picture_min_img_num">画像選択できません%1$s番号</string>
     <string name="picture_empty">カメラを使って写真やビデオを撮ることができます</string>
     <string name="picture_audio_empty">システム録音を使用してオーディオを録音できます</string>
     <string name="picture_empty_audio_title">オーディオファイルがありません
