@@ -32,7 +32,7 @@
     <string name="about_title">
         <xliff:g example="APKPure" id="app_name">%1$s</xliff:g>
     </string>
-    <string name="about_message">&lt;b&gt;Version:&lt;/b&gt; %1$s&lt;br&gt;&lt;br&gt;&lt;b&gt;Website:&lt;/b&gt; &lt;a href=%2$s&gt;%2$s&lt;/a&gt;&lt;br&gt;&lt;b&gt;Email:&lt;/b&gt; &lt;a href=mailto:%3$s&gt;%3$s&lt;/a&gt;</string>
+    <string name="about_message">عن الرسائل</string>
     <string name="check_update">التحقق من وجود تحديثات</string>
     <string name="check_update_replace">الإصدار الرسمي</string>
     <string name="check_update_beta">الإصدار التجريبي</string>
@@ -55,9 +55,9 @@
     <string name="install__label_">
         <xliff:g example="APKPure" id="app_label">%1$s</xliff:g>
     </string>
-    <string name="user_canceled"/>
-    <string name="io_error"/>
-    <string name="file_format_error"/>
+    <string name="user_canceled">حساب ملغي</string>
+    <string name="io_error">خطأ في معالجة البرمجة للبرنامج (التطبيق)</string>
+    <string name="file_format_error">خطأ في معالجة او تنسيق المحتوى أو (الملف)</string>
     <string name="parsing_xapk"/>
     <string name="installing_obb"/>
     <string name="extracting_apk"/>
