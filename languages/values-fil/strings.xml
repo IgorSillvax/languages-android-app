@@ -170,9 +170,9 @@
     <string name="incompatible_this_app">&lt;big&gt;&lt;b&gt;&lt;font color=%1$d&gt;Ang app ay hindi kompatible sa iyong aparato o device.&lt;/font&gt;&lt;/b&gt;&lt;/big&gt;&lt;br&gt;&lt;br&gt;Tumuloy\?</string>
     <string name="this_app_not_usable">&lt;big&gt;&lt;b&gt;&lt;font color=%1$d&gt;Itong app ay posibleng bibigo.&lt;/font&gt;&lt;/b&gt;&lt;/big&gt;&lt;br&gt;&lt;br&gt;Tumuloy\?</string>
     <string name="setting">Patakdaan</string>
-    <string name="external_storage_not_usable"/>
+    <string name="external_storage_not_usable">&lt;big&gt;&lt;b&gt;Kailangan namin ng access sa iyong external storage. Pakiusap dapat ito ay pwedeng gamitin.&lt;/b&gt;&lt;/big&gt;</string>
     <string name="external_storage_permission_denied"/>
-    <string name="share"/>
+    <string name="share">Share</string>
     <string name="share_app_url"/>
     <string name="share_app_url_comment"/>
     <string name="share_app_url_group"/>
@@ -814,6 +814,6 @@
     <string name="packaging"/>
     <string name="packaging_success_ready_upload"/>
     <string name="packaging_failed_try_again"/>
-    <string name="xapk_upload_hint_info"/>
+    <string name="xapk_upload_hint_info">Mas matagal mag upload ng XAPK. Gusto mo ba talagang mag upload\?</string>
     <string name="search_tab_invitation"/>
 </resources>
