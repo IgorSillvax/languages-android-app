@@ -191,10 +191,48 @@
         <xliff:g example="APKPure" id="name">%1$s</xliff:g> είναι ενημερωμένο..</string>
     <string name="participate_ultra_download_beta_test_content">Το Ultra Download είναι ακόμα σε δοκιμαστική λειτουργία. Ενημερώστε μας αν αντιμετωπίσετε κάποιο πρόβλημα. Μπορείτε εύκολα να το απενεργοποιήσετε στις ρυθμίσεις.</string>
     <string name="participate_ultra_download_beta_test_title">Ενεργοποιήσετε το Ultra Download για να απολαύσετε γρηγορότερη ταχύτητα ληψης</string>
-    <string name="failed_to_request_app_detail">Failed to request app detail information.</string>
+    <string name="failed_to_request_app_detail">Αποτυχία αιτήματος πληροφοριών λεπτομερειών εφαρμογής.</string>
     <string name="invalid_app_asset">Μη έγκυρες πληροφορίες στοιχείων εφαρμογής.</string>
     <string name="share_app_url_comment">" &lt;xliff:g xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\" example=\"APKPure\" id=\"user_name\"&gt;%1$s&lt;/xliff:g&gt;\'ς σχόλια σε &lt;xliff:g xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\" example=\"APKPure\" id=\"app_name\"&gt;%2$s&lt;/xliff:g&gt; : &lt;xliff:g xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\" example=\"APKPure\" id=\"app_name\"&gt;%3$s&lt;/xliff:g&gt; (από &lt;xliff:g xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\" example=\"APKPure\" id=\"social_network_name\"&gt;%4$s&lt;/xliff:g&gt;)&lt;xliff:g xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\" example=\"https://apkpure.com/p/com.apkpure.aegon\" id=\"app_url\"&gt;%5$s&lt;/xliff:g&gt; "</string>
     <string name="share_app_url">" Κοινή χρήση &lt;xliff:g xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\" example=\"APKPure\" id=\"app_name\"&gt;%1$s&lt;/xliff:g&gt; APK (από &lt;xliff:g xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\" example=\"APKPure\" id=\"social_network_name\"&gt;%2$s&lt;/xliff:g&gt; ) &lt;xliff:g xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\" example=\"https://apkpure.com/p/com.apkpure.aegon\" id=\"app_url\"&gt;%3$s&lt;/xliff:g&gt; "</string>
     <string name="failed_to_request_app_asset">Αποτυχία αιτήματος πληροφοριών στοιχείων εφαρμογής.</string>
     <string name="invalid_app_detail">Μη έγκυρες πληροφορίες λεπτομερειών εφαρμογής.</string>
+    <string name="app_detail_tab_two">Ομάδα</string>
+    <string name="app_detail_tab_one">Λεπτομέρειες</string>
+    <string name="app_submit_title_hint">Παρακαλώ προσθέστε τίτλο</string>
+    <string name="app_submit_msg_toast">Παρακαλώ γράψτε κάτι</string>
+    <string name="app_submit_title_toast">Παρακαλώ προσθέστε τίτλο</string>
+    <string name="app_submit_anonymous_comment">Προσθήκη σχολίου</string>
+    <string name="app_detail_comment_type_web">Διαδίκτυο</string>
+    <string name="app_detail_customer_reviews">Σχόλια</string>
+    <string name="auto_service_directly__material_">ΑΠΕΥΘΕΊΑΣ ΛΉΨΗ</string>
+    <string name="auto_service_complete__material_">ΟΛΟΚΛΗΡΏΘΗΚΕ</string>
+    <string name="auto_service_exchange__material_">ΑΝΤΙΚΑΤΆΣΤΑΣΗ</string>
+    <string name="auto_service_next__material_">ΕΠΌΜΕΝΟ</string>
+    <string name="auto_service_ensure__material_">ΟΚ</string>
+    <string name="auto_service_install__material_">ΕΓΚΑΤΆΣΤΑΣΗ</string>
+    <string name="auto_service_complete">Ολοκληρώθηκε</string>
+    <string name="auto_service_exchange">Αντικατάσταση</string>
+    <string name="auto_service_next">Επόμενο</string>
+    <string name="auto_service_ensure">ΟΚ</string>
+    <string name="auto_service_install">Εγκατάσταση</string>
+    <string name="auto_service_title">APKPure Αυτόματη εγκατάσταση</string>
+    <string name="auto_service_dialog_title">Αυτόματη εγκατάσταση ΕΝΕΡΓΉ</string>
+    <string name="auto_service_install_accessibility_title">Αυτόματη εγκατάσταση</string>
+    <string name="_name__installation_completed">Εγκατάσταση ολοκληρώθηκε</string>
+    <string name="delete_packages_after_installation">Διαγραφή των πακέτων μετά από την εγκατάσταση</string>
+    <string name="show_notification_after_installation">Προβολή ειδοποίησης εγκατεστημένης εφαρμογής</string>
+    <string name="installation">Εγκατεστημένη</string>
+    <string name="enable_ultra_download">Ενεργοποίηση Υπέρ-λήψης</string>
+    <string name="download_via_wifi_only">Λήψη με Wi-Fi μόνο</string>
+    <string name="data_saver_model">Αποθήκευση δεδομένων</string>
+    <string name="changing_language">Αλλαγή γλώσσας... Παρακαλώ περιμένετε.</string>
+    <string name="auto">Αυτόματο</string>
+    <string name="language">Γλώσσα</string>
+    <string name="general">Γενικά</string>
+    <string name="deselect_all">Αποεπιλογή όλων</string>
+    <string name="select_all">Επιλογή όλων</string>
+    <string name="cancel">Ακύρωση</string>
+    <string name="select">Επιλογή</string>
+    <string name="share_app_url_group">" &lt;xliff:g xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\" example=\"APKPure\" id=\"app_name\"&gt;%1$s&lt;/xliff:g&gt; Ομάδα. (from &lt;xliff:g xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\" example=\"APKPure\" id=\"social_network_name\"&gt;%2$s&lt;/xliff:g&gt;) &lt;xliff:g xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\" example=\"https://apkpure.com/p/com.apkpure.aegon\" id=\"app_url\"&gt;%3$s&lt;/xliff:g&gt; "</string>
 </resources>
