@@ -1,33 +1,31 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <string name="action_settings">إعداداتnguthie</string>
+    <string name="action_settings">الإعدادات</string>
     <string name="action_search">بحث</string>
-    <string name="action_management">الإدارة‍janabilalhanani302867134488</string>
+    <string name="action_management">الإدارة</string>
     <string name="press_back_key_quit">لكي تخرج، إضغط على زر الرجوع مرة أخري.</string>
-    <string name="featured">Featured</string>
+    <string name="featured">الخلاصة</string>
     <string name="games">الألعاب</string>
-    <string name="apps">TopSpy</string>
-    <string name="categories">ترجمة</string>
+    <string name="apps">تطبيقات</string>
+    <string name="categories">تصنيف</string>
     <string name="updates">التحديثات</string>
     <string name="something_happened">&gt;_&lt;
-\nحدث شئ ما.
-\nحدث شئ ما.</string>
+\nحدث خطأ ما.</string>
     <string name="load_failed_error">عذراً! حدث خطأ ما.</string>
-    <string name="load_failed_empty">لايوجد شيء هنا.</string>
+    <string name="load_failed_empty">لا يوجد شيء هنا.</string>
     <string name="load_failed_all_up_to_date">جميع التطبيقات محدثة.</string>
     <string name="load_failed_no_results">عذراً! لا توجد نتائج.</string>
     <string name="refresh">تحديث</string>
     <string name="management">الإدارة</string>
     <string name="app_updates">تحديثات التطبيق</string>
-    <string name="app_management">المثبتة</string>
+    <string name="app_management">تم التثبيت</string>
     <string name="app_uninstall">إلغاء تثبيت التطبيق</string>
     <string name="apk_management">إدارة ملفات الAPK</string>
     <string name="apk_xapk_management">إدارة ملفات APK / XAPK</string>
     <string name="download_management">إدارة التحميلات</string>
     <string name="settings">الإعدادات</string>
-    <string name="about">عن</string>
-    <string name="about_title">عن <xliff:g example="APKPure" id="app_name">%1$s</xliff:g>
-    </string>
+    <string name="about">حول</string>
+    <string name="about_title">حول &lt;xliff:g xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\" example=\"APKPure\" id=\"app_name\"&gt;%1$s&lt;/xliff:g&gt;</string>
     <string name="about_message"> <![CDATA[<b>الإصدار :</b> %1$s<br><br><b>الموقع :</b> <a href="%2$s">%2$s</a><br><b>البريد الإلكتروني :</b> <a href="mailto:%3$s">%3$s</a>]]></string>
     <string name="check_update">البحث عن تحديثات</string>
     <string name="quit">خروج</string>
@@ -215,7 +213,7 @@
         <xliff:g example="APKPure" id="name">%1$s</xliff:g> أكتمل التحميل</string>
     <string name="touch_to_open">أضغط للتشغيل.</string>
     <string name="report_content">تبليغ عن محتوى</string>
-    <string name="recommend">أستكشف</string>
+    <string name="recommend">أحدث الاكتشاف</string>
     <string name="similar_or_related">مشابه او ذي صلة</string>
     <string name="more_from_developer">المزيد من المطور</string>
     <string name="more_large">المزيد</string>
