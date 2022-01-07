@@ -33,7 +33,7 @@
     <string name="install">تثبيت</string>
     <string name="open">فتح</string>
     <string name="delete">حذف</string>
-    <string name="want_to_delete_file">هل أنت متأكد من مسح هذا الملف؟</string>
+    <string name="want_to_delete_file">هل أنت متأكد من حذف هذا الملف؟</string>
     <string name="file_has_been_deleted">تم حذف الملف.</string>
     <string name="failed_to_delete_file">فشل في حذف الملف.</string>
     <string name="install__label_">تثبيت - <xliff:g example="APKPure" id="app_label">%1$s</xliff:g>
@@ -43,7 +43,7 @@
     <string name="file_format_error">خطأ في صيغة الملف.</string>
     <string name="parsing_xapk">جاري تحليل ملف XAPK …</string>
     <string name="installing_obb">جاري تثبيت ملفات OBB …</string>
-    <string name="extracting_apk">جاري استخراج التطبيق …</string>
+    <string name="extracting_apk">جاري استخراج ملف APK …</string>
     <string name="installing_apk">جاري تثبيت التطبيق …</string>
     <string name="uninstall">إلغاء التثبيت</string>
     <string name="uninstalled">تم إلغاء التثبيت</string>
@@ -55,11 +55,11 @@
     <string name="whatsnew">ما الجديد</string>
     <string name="information">معلومات</string>
     <string name="version_">الإصدار :</string>
-    <string name="updated_">حُدث:</string>
+    <string name="updated_">محدثة:</string>
     <string name="size_">الحجم:</string>
     <string name="permissions_">الأذونات:</string>
     <string name="type_">النوع:</string>
-    <string name="category_">الفئة:</string>
+    <string name="category_">التصنيف:</string>
     <string name="more">المزيد</string>
     <string name="permissions">الأذونات</string>
     <string name="other">غير ذلك</string>
@@ -72,56 +72,50 @@
     <string name="market_response_error_network_connect_error">خطأ في الإتصال بالشبكة.</string>
     <string name="market_response_error_network_read_error">فشل في القراءة .</string>
     <string name="market_response_error_invalid_response_code">رمز الاستجابة غير صالح.</string>
-    <string name="market_response_error_invalid_response_body">خطأ في التطبيق.</string>
-    <string name="market_response_error_unknown_error__error_">خطأ غيرمعلوم (<xliff:g example="SUCCESS" id="error">%1$s</xliff:g>).</string>
+    <string name="market_response_error_invalid_response_body">ردّ غير صالح.</string>
+    <string name="market_response_error_unknown_error__error_">خطأ غير معلوم (&lt;xliff:g xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\" example=\"SUCCESS\" id=\"error\"&gt;%1$s&lt;/xliff:g&gt;).</string>
     <string name="no_more">لايوجد مزيد .</string>
     <string name="update">تحديث</string>
     <string name="version__version___size_">الإصدار: <xliff:g example="1.0.0" id="version">%1$s</xliff:g>, <xliff:g example="1024 kB" id="size">%2$s</xliff:g>
     </string>
     <plurals name="_count__new_update_is_available">
-        <item quantity="zero">
-            <xliff:g example="1" id="count">%1$d</xliff:g> تحديث جديد</item>
-        <item quantity="one">
-            <xliff:g example="1" id="count">%1$d</xliff:g> تحديث جديد</item>
-        <item quantity="two">
-            <xliff:g example="1" id="count">%1$d</xliff:g> تحديث جديد</item>
-        <item quantity="few">
-            <xliff:g example="1" id="count">%1$d</xliff:g> تحديثات جديدة</item>
-        <item quantity="many">
-            <xliff:g example="1" id="count">%1$d</xliff:g> تحديث جديد</item>
-        <item quantity="other">
-            <xliff:g example="1" id="count">%1$d</xliff:g> تطبيق بحاجة إلى التحديث</item>
+        <item quantity="zero">&lt;xliff:g xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\" example=\"1\" id=\"count\"&gt;%1$d&lt;/xliff:g&gt; تحديث جديد</item>
+        <item quantity="one">&lt;xliff:g xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\" example=\"1\" id=\"count\"&gt;%1$d&lt;/xliff:g&gt; تحديث جديد</item>
+        <item quantity="two">&lt;xliff:g xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\" example=\"1\" id=\"count\"&gt;%1$d&lt;/xliff:g&gt; تحديثان جديدان</item>
+        <item quantity="few">&lt;xliff:g xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\" example=\"1\" id=\"count\"&gt;%1$d&lt;/xliff:g&gt; تحديثات جديدة</item>
+        <item quantity="many">&lt;xliff:g xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\" example=\"1\" id=\"count\"&gt;%1$d&lt;/xliff:g&gt; تحديثات جديدة</item>
+        <item quantity="other">&lt;xliff:g xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\" example=\"1\" id=\"count\"&gt;%1$d&lt;/xliff:g&gt;تحديثات جديدة</item>
     </plurals>
-    <string name="launching_please_wait">تشغيل... من فضلك إنتظر.</string>
+    <string name="launching_please_wait">تشغيل... من فضلك انتظر.</string>
     <plurals name="_count__item_is_downloading">
-        <item quantity="zero">يُحمل <xliff:g example="1" id="count">%1$d</xliff:g> عنصر.</item>
-        <item quantity="one">يُحمل <xliff:g example="2" id="count">%1$d</xliff:g> عنصر.</item>
-        <item quantity="two">يُحمل <xliff:g example="2" id="count">%1$d</xliff:g>"  عنصر."</item>
-        <item quantity="few">يُحمل <xliff:g example="2" id="count">%1$d</xliff:g>عناصر.</item>
-        <item quantity="many">يُحمل <xliff:g example="2" id="count">%1$d</xliff:g>عنصر.</item>
-        <item quantity="other">يُحمل <xliff:g example="2" id="count">%1$d</xliff:g>عنصر.</item>
+        <item quantity="zero">يُحمل &lt;xliff:g xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\" example=\"1\" id=\"count\"&gt;%1$d&lt;/xliff:g&gt; عنصر.</item>
+        <item quantity="one">يُحمل &lt;xliff:g xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\" example=\"2\" id=\"count\"&gt;%1$d&lt;/xliff:g&gt; عنصر.</item>
+        <item quantity="two">"يُحمل &lt;xliff:g xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\" example=\"2\" id=\"count\"&gt;%1$d&lt;/xliff:g&gt;  عنصران."</item>
+        <item quantity="few">يُحمل &lt;xliff:g xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\" example=\"2\" id=\"count\"&gt;%1$d&lt;/xliff:g&gt;عناصر.</item>
+        <item quantity="many">يُحمل &lt;xliff:g xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\" example=\"2\" id=\"count\"&gt;%1$d&lt;/xliff:g&gt;عناصر.</item>
+        <item quantity="other">يُحمل &lt;xliff:g xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\" example=\"2\" id=\"count\"&gt;%1$d&lt;/xliff:g&gt;عناصر.</item>
     </plurals>
-    <string name="downloads_complete">اكتملت كل التحميلات</string>
+    <string name="downloads_complete">تم كل التحميلات</string>
     <string name="touch_for_view_all_downloads">اضغط لرؤية كل التحميلات</string>
     <string name="_name__download_failed">فشل تحميل <xliff:g example="APKPure" id="name">%1$s</xliff:g>
     </string>
     <string name="touch_to_download_it_again">اضغط لإعادة التحميل</string>
     <string name="download_percent">
         <xliff:g example="50" id="percent">%1$d</xliff:g>%%</string>
-    <string name="pause">إيقاف مؤقت</string>
-    <string name="continue_">إكمال</string>
+    <string name="pause">وقف</string>
+    <string name="continue_">استكمال</string>
     <string name="restart">إعادة تشغيل</string>
     <string name="download">‌تحميل</string>
     <string name="downloading">جاري التحميل</string>
-    <string name="waiting">ينتظر</string>
+    <string name="waiting">من فضلك انتظر</string>
     <string name="preparing">يُحضر</string>
-    <string name="completed">إكتمل</string>
+    <string name="completed">اكتمال</string>
     <string name="paused">موقف مؤقتًا</string>
     <string name="failed">فشل</string>
     <string name="file_invalid">الملف غير صالح</string>
     <string name="file_missing">الملف مفقود</string>
     <string name="expired">منتهي</string>
-    <string name="detail">تفاصيل</string>
+    <string name="detail">التفاصيل</string>
     <string name="remove">حذف</string>
     <string name="want_to_remove_download_item">هل أنت متأكد من حذف هذا العنصر؟</string>
     <string name="search">بحث</string>
@@ -192,9 +186,9 @@
     <string name="language">اللغة</string>
     <string name="auto">تلقائي</string>
     <string name="delete_all">حذف الكل</string>
-    <string name="want_to_delete_all_files">هل أنت متأكد من مسح جميع الملفات؟</string>
+    <string name="want_to_delete_all_files">هل أنت متأكد من حذف جميع الملفات؟</string>
     <string name="flag_as_inappropriate">إبلاغ كغير مناسب</string>
-    <string name="pause_all">ايقاف مؤقت للجميع</string>
+    <string name="pause_all">وقف الجميع</string>
     <string name="continue_all">استكمال الجميع</string>
     <string name="waiting_to_download">بانتظار التحميل</string>
     <string name="deleted">حُذف</string>
@@ -214,12 +208,12 @@
     <string name="touch_to_open">أضغط للتشغيل.</string>
     <string name="report_content">تبليغ عن محتوى</string>
     <string name="recommend">أحدث الاكتشاف</string>
-    <string name="similar_or_related">مشابه او ذي صلة</string>
+    <string name="similar_or_related">مماثلة أو مترابطة</string>
     <string name="more_from_developer">المزيد من المطور</string>
     <string name="more_large">المزيد</string>
     <string name="installed">تم التثبيت</string>
-    <string name="download_over_cellular">تحميل عبر شبكة الجوال</string>
-    <string name="download_over_cellular_content">ستقوم بالتحميل من خلال إنترنت شبكة الجوال.المتابعة؟</string>
+    <string name="download_over_cellular">تحميل عبر البيانات الخلوية</string>
+    <string name="download_over_cellular_content">ستقوم بالتحميل من خلال إنترنت البيانات الخلوية.المتابعة؟</string>
     <string name="participate_ultra_download_beta_test_title">قم بتمكين التحميل الفائق وتمتع بسرعة تحميل أسرع</string>
     <string name="participate_ultra_download_beta_test_content">لا يزال التحميل الفائق في مرحلة تجريبية. راسلنا إذا كنت تواجه أي مشاكل. يمكنك تعطيله بسهولة في الإعدادات.</string>
     <string name="enable">تفعيل</string>
@@ -597,7 +591,7 @@
     <string name="app_detail_no_product">لاتوجد مشتريات</string>
     <string name="app_detail_has_ad">يحتوي على إعلانات</string>
     <string name="app_detail_no_ad">خال من إعلانات</string>
-    <string name="properties_message_v2">&lt;b&gt;المسار:&lt;/b&gt; %1$s&lt;br&gt;&lt;b&gt;الحجم:&lt;/b&gt; %2$s&lt;br&gt;&lt;b&gt;Path:&lt;/b&gt; %3$s&lt;br&gt;&lt;b&gt;Size:&lt;/b&gt; %4$s&lt;br&gt;&lt;b&gt;آخر تعديل:&lt;/b&gt; %5$s</string>
+    <string name="properties_message_v2">&lt;b&gt;الاسم:&lt;/b&gt; %1$s&lt;br&gt;&lt;b&gt;الصدار:&lt;/b&gt; %2$s&lt;br&gt;&lt;b&gt;المسار:&lt;/b&gt; %3$s&lt;br&gt;&lt;b&gt;الحجم:&lt;/b&gt; %4$s&lt;br&gt;&lt;b&gt;آخر تعديل:&lt;/b&gt; %5$s</string>
     <string name="app_detail_tab_evaluation">المراجعات</string>
     <string name="app_detail_comment_filter_sort_score">الأعلى تقييمًا</string>
     <string name="app_detail_comment_filter_all">كل المراجعات</string>
