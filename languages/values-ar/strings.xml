@@ -128,13 +128,15 @@
     <string name="_name__is_up_to_date">
         <xliff:g example="APKPure" id="name">%1$s</xliff:g> محدث لآخر إصدار.</string>
     <string name="new_version_available_title">يوجد إصدار جديد</string>
-    <string name="new_version_available_message">
-        <![CDATA[<b>آخر إصدار:</b> %1$s<br><br><b>مالجديد:</b><br>%2$s]]>
-    </string>
-    <string name="report__">الإبلاغ…</string>
-    <string name="report_problem__">أبلغ عن مشكلة…</string>
-    <string name="report_problem_subject">أبلغ عن مشكلة</string>
-    <string name="report_problem_text">موضوع المشكلة :%1$sتفاصيل المشكلة:%2$s</string>
+    <string name="new_version_available_message">&lt;b&gt;آخر إصدار:&lt;/b&gt; %1$s&lt;br&gt;&lt;br&gt;&lt;b&gt;ماالجديد:&lt;/b&gt;&lt;br&gt;%2$s</string>
+    <string name="report__">ردود فعل…</string>
+    <string name="report_problem__">الإبلاغ عن مشكلة…</string>
+    <string name="report_problem_subject">الإبلاغ عن مشكلة</string>
+    <string name="report_problem_text">موضوع المشكلة :
+\n%1$s
+\n
+\nتفاصيل المشكلة:
+\n%2$s</string>
     <string name="installation_failed">فشل التثبيت.</string>
     <string name="invalid_app_detail">معلومات التطبيق غير صالحة.</string>
     <string name="invalid_app_asset">فشل في الوصول لعناصر التطبيق.</string>
@@ -142,7 +144,7 @@
     <string name="failed_to_request_app_asset">فشل في طلب الوصول لعناصر التطبيق.</string>
     <string name="incompatible_this_app">&lt;big&gt;&lt;b&gt;&lt;font color=%1$d&gt;جهازك غير متوافق مع هذا التطبيق.&lt;/font&gt;&lt;/b&gt;&lt;/big&gt;&lt;br&gt;&lt;br&gt; المتابعة؟</string>
     <string name="this_app_not_usable">&lt;big&gt;&lt;b&gt;&lt;font color=%1$d&gt; هذا التطبيق قد لايكون مستقرًا.&lt;/font&gt;&lt;/b&gt;&lt;/big&gt;&lt;br&gt;&lt;br&gt; المتابعة؟</string>
-    <string name="setting">الضبط</string>
+    <string name="setting">الإعدادات</string>
     <string name="external_storage_not_usable">
         <![CDATA[<big><b>نحن بحاجة إلى الوصول إلى الذاكرة الخارجية.الرجاء التأكد من أنها صالحة للاستخدام.</b></big>]]>
     </string>
@@ -152,12 +154,11 @@
         </big>
     </string>
     <string name="share">مشاركة التطبيق</string>
-    <string name="share_app_url">\n شارك تطبيق
-        <xliff:g example="APKPure" id="app_name">%1$s</xliff:g>(من @
-        <xliff:g example="APKPure" id="social_network_name">%2$s</xliff:g>)\n
-        <xliff:g example="https://apkpure.com/p/com.apkpure.aegon" id="app_url">%3$s</xliff:g>\n </string>
-    <string name="_name__version_history">إصدارات سابقة لـ<xliff:g example="APKPure" id="name">%1$s</xliff:g>
-    </string>
+    <string name="share_app_url">" شارك تطبيق &lt;xliff:g xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\" example=\"APKPure\" id=\"app_name\"&gt;%1$s&lt;/xliff:g&gt; 
+\n(من)&lt;xliff:g xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\" example=\"APKPure\" id=\"social_network_name\"&gt;%2$s&lt;/xliff:g&gt;)
+\n&lt;xliff:g xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\" example=\"https://apkpure.com/p/com.apkpure.aegon\" id=\"app_url\"&gt;%3$s
+\n&lt;/xliff:g&gt; "</string>
+    <string name="_name__version_history">تاريخ الإصدار&lt;xliff:g xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\" id=\"name\" example=\"APKPure\"&gt;%1$s&lt;/xliff:g&gt;</string>
     <string name="update__date___size_">تحديث: <xliff:g example="Mar 3, 2016" id="date">%1$s</xliff:g>
         <xliff:g example="1024 kB" id="size">%2$s</xliff:g>
     </string>
@@ -165,7 +166,7 @@
     <string name="properties_message">&lt;b&gt;المسار:&lt;/b&gt; %1$s&lt;br&gt;&lt;b&gt;الحجم:&lt;/b&gt; %2$s&lt;br&gt;&lt;b&gt;آخر تعديل:&lt;/b&gt; %3$s</string>
     <string name="delete_downloaded_file">حذف الملف المحمل</string>
     <string name="update_all">تحديث الكل</string>
-    <string name="update___count__">تحديث (<xliff:g id="count" example="3"> 1%1$d</xliff:g> 2)</string>
+    <string name="update___count__">تحديث (&lt;xliff:g xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\" id=\"count\" example=\"3\"&gt; 1%1$d&lt;/xliff:g&gt; 2)</string>
     <string name="ignore">تجاهل</string>
     <string name="unignore">عدم تجاهل</string>
     <string name="select">اختيار</string>
@@ -197,14 +198,13 @@
     <string name="search_history">تاريخ البحث</string>
     <string name="clear_search_history">مسح تاريخ البحث</string>
     <string name="contact_us__">تواصل معنا…</string>
-    <string name="contact_us">تواصل معنا</string>
+    <string name="contact_us">اتصل بنا</string>
     <string name="select_all">اختيار الكل</string>
     <string name="deselect_all">عدم اختيار الكل</string>
     <string name="installation">تنصيب</string>
     <string name="show_notification_after_installation">اظهار اشعار بعد التنصيب</string>
     <string name="delete_packages_after_installation">حذف الملف بعد التنصيب</string>
-    <string name="_name__installation_completed">
-        <xliff:g example="APKPure" id="name">%1$s</xliff:g> أكتمل التحميل</string>
+    <string name="_name__installation_completed">&lt;xliff:g xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\" example=\"APKPure\" id=\"name\"&gt;%1$s&lt;/xliff:g&gt; تام التحميل</string>
     <string name="touch_to_open">أضغط للتشغيل.</string>
     <string name="report_content">تبليغ عن محتوى</string>
     <string name="recommend">أحدث الاكتشاف</string>
@@ -218,33 +218,27 @@
     <string name="participate_ultra_download_beta_test_content">لا يزال التحميل الفائق في مرحلة تجريبية. راسلنا إذا كنت تواجه أي مشاكل. يمكنك تعطيله بسهولة في الإعدادات.</string>
     <string name="enable">تفعيل</string>
     <string name="report">تبليغ</string>
-    <string name="feedback">الدعم</string>
-    <string name="share_app_url_comment">
-        <xliff:g example="APKPure" id="user_name">1%1$s</xliff:g>2\'s comments on
-        <xliff:g example="APKPure" id="app_name">3%2$s</xliff:g>4 :
-        <xliff:g example="APKPure" id="app_name">5%3$s</xliff:g>6 (from
-        <xliff:g example="APKPure" id="social_network_name">7%4$s</xliff:g>8)
-        <xliff:g example="https://apkpure.com/p/com.apkpure.aegon" id="app_url">9%5$s</xliff:g>
-    </string>
+    <string name="feedback">ردود فعل</string>
+    <string name="share_app_url_comment">" &lt;xliff:g xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\" example=\"APKPure\" id=\"user_name\"&gt;%1$s&lt;/xliff:g&gt; التعليقات على
+\n&lt;xliff:g xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\" example=\"APKPure\" id=\"app_name\"&gt;%2$s&lt;/xliff:g&gt; :
+\n&lt;xliff:g xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\" example=\"APKPure\" id=\"app_name\"&gt;%3$s&lt;/xliff:g&gt; (من
+\n&lt;xliff:g xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\" example=\"APKPure\" id=\"social_network_name\"&gt;%4$s&lt;/xliff:g&gt;)
+\n&lt;xliff:g xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\" example=\"https://apkpure.com/p/com.apkpure.aegon\" id=\"app_url\"&gt;%5$s&lt;/xliff:g&gt; "</string>
     <string name="login_post_as_a_guest">نشر كزائر</string>
     <string name="changing_language">جاري تغيير اللغة... من فضلك إنتظر.</string>
     <string name="download_via_wifi_only">تحميل عبر شبكة Wi-Fi فقط</string>
     <string name="enable_ultra_download">تفعيل التحميل الفائق</string>
-    <string name="enable_ultra_download_summary">لا يزال التحميل الفائق في مرحلة تجريبية. أعلمنا إذا واجهتك أي مشاكل.</string>
+    <string name="enable_ultra_download_summary">لا يزال التحميل الفائق في مرحلة تجريبية. أخبرنا إذا واجهت أي مشكلة.</string>
     <string name="auto_service_install_accessibility_title">التثبيت التلقائي</string>
     <string name="auto_service_install_accessibility_summary">"يدعم أندرويد 4.1 فما أعلى،  لا يتطلب  صلاحيات الروت."</string>
     <string name="auto_service_dialog_title">تفعيل التثبيت التلقائي</string>
     <string name="auto_service_dialog_message">يحتاج التثبيت التلقائي الإذن منك، آمن 100%.</string>
     <string name="auto_service_title">التثبيت التلقائي لـ APKPure</string>
-    <string name="auto_service_description">فعل \"التثبيت التلقائي لـAPKPure\", وذلك للابقاء على \" التثبيت التلقائي\" فعال بشكل سلس .
-
-\" التثبيت التلقائي لـ APKPure \" بامكانه المساعدة بالضغط على كافة ازرار التثبيت عند تثبيت او تحديث التطبيقات, لست بحاجة لتفقد الهاتف في كل لحظة.
-
-عند تفعيل هذه الميزة, قد يتم تنبيهك برسالة خطر , رجاءا قم بالضغط على \"موافق\" لتفعيل الميزة.
-
-للتاكد بان APKPure يعمل بشكل جيد, الرجاء اضافة APKPure الى اللائحة البيضاء في برنامج التنظيف.
-
-الميزات المذكورة اعلاه تدعم اندرويد 4.1 ومافوق, ليس هنالك اي حاجه لصلاحيات مستخدم root. نحن نعدكم بعدم جمع اي معلومات شخصيه ابدا في هذه الميزة. رجاءا قوموا بالاتصال بنا في حال اية مشكلة.</string>
+    <string name="auto_service_description">فعل「التثبيت التلقائي لAPKPure」 وذلك للابقاء على 「 التثبيت التلقائي」 فعال بشكل سلس .
+\n「التثبيت التلقائي ل APKPure 」 بامكانه المساعدة بالضغط على كافة ازرار التثبيت عند تثبيت او تحديث التطبيقات, لست بحاجة لتفقد الهاتف في كل لحظة.
+\nعند تفعيل هذه الميزة, قد يتم تنبيهك برسالة خطر , رجاءا قم بالضغط على 「موافق」 لتفعيل الميزة. 
+\nللتاكد بان APKPure يعمل بشكل جيد, الرجاء اضافة APKPure الى اللائحة البيضاء في برنامج التنظيف. 
+\nالميزات المذكورة اعلاه تدعم اندرويد 4.1 ومافوق, ليس هنالك اي حاجه لصلاحيات مستخدم root. نحن نعدكم بعدم جمع اي معلومات شخصيه ابدا في هذه الميزة. رجاءا قوموا بالاتصال بنا في حال اية مشكلة.</string>
     <string name="auto_service_install">تثبيت</string>
     <string name="auto_service_ensure">موافق</string>
     <string name="auto_service_next">التالي</string>
@@ -258,14 +252,14 @@
     <string name="auto_install_via_root_title">تثبيت تلقائي (وضع مستخدم root)</string>
     <string name="auto_install_via_root_summary">لهواتف اندرويد و الاجهزة اللوحية التي تملك صلاحيات Root .</string>
     <plurals name="app_detail_see_all_replies">
-        <item quantity="zero">See All <xliff:g example="1" id="count">%1$d</xliff:g> Reply</item>
-        <item quantity="one">See All <xliff:g example="2" id="count">%1$d</xliff:g> Replies</item>
-        <item quantity="two">See All <xliff:g example="2" id="count">%1$d</xliff:g> Replies</item>
-        <item quantity="few">رؤية كافة <xliff:g example="2" id="count"/> رد</item>
-        <item quantity="many">رؤية جميع الـ <xliff:g example="2" id="count">%1$d</xliff:g> رد</item>
-        <item quantity="other">رؤية كافة الـ<xliff:g example="1" id="count">%1$d</xliff:g>رد</item>
+        <item quantity="zero">رؤية كافة ال &lt;xliff:g xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\" example=\"1\" id=\"count\"&gt;%1$d&lt;/xliff:g&gt; رد</item>
+        <item quantity="one">رؤية كافة ال&lt;xliff:g xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\" example=\"2\" id=\"count\"&gt;%1$d&lt;/xliff:g&gt; رد</item>
+        <item quantity="two">رؤية كافة ال &lt;xliff:g xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\" example=\"2\" id=\"count\"&gt;%1$d&lt;/xliff:g&gt; ردان</item>
+        <item quantity="few">رؤية كافة ال &lt;xliff:g xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\" example=\"2\" id=\"count\"/&gt; ردود</item>
+        <item quantity="many">رؤية كافة ال &lt;xliff:g xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\" example=\"2\" id=\"count\"&gt;%1$d&lt;/xliff:g&gt; ردود</item>
+        <item quantity="other">رؤية كافة الـ&lt;xliff:g xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\" example=\"1\" id=\"count\"&gt;%1$d&lt;/xliff:g&gt;ردود</item>
     </plurals>
-    <string name="app_detail_customer_reviews">تعليقات</string>
+    <string name="app_detail_customer_reviews">التعليقات</string>
     <string name="app_detail_comment_type_web">ويب</string>
     <string name="app_submit_submit">جاري التقديم…</string>
     <string name="app_submit_anonymous_comment">إضافة تعليق</string>
@@ -274,10 +268,10 @@
     <string name="app_submit_name_toast">برجاء بكتابة الاسم المستعار!</string>
     <string name="app_submit_email_toast">برجاء كتابة عنوان البريد الإلكتروني الصحيح !</string>
     <string name="app_submit_star_toast">يتوجب عليك وضع تقييمك!</string>
-    <string name="app_submit_title_hint">برجاءقم بكتابة العنوان</string>
-    <string name="app_submit_msg_hint">برجاءكتابة رأيك</string>
+    <string name="app_submit_title_hint">برجاء كتابة عنوان !</string>
+    <string name="app_submit_msg_hint">برجاء كتابة تعليقك!</string>
     <string name="app_submit_nickname">اسم مستعار</string>
-    <string name="app_submit_email">بريد الكتروني</string>
+    <string name="app_submit_email">البريد الالكتروني</string>
     <string name="app_submit_submit_title">نشر</string>
     <string name="app_submit_reply_to">رد على</string>
     <string name="app_detail_reply_comment">تعليق(%d)</string>
@@ -288,8 +282,8 @@
     <string name="app_detail_comment_order_array_newest">حديثة</string>
     <string name="app_detail_comment_order_array_best">الأفضل</string>
     <string name="download_complete_installation_setting">خيار التثبيت بعد التحميل</string>
-    <string name="download_complete_installation_setting_entries_always">ثبت دائماً</string>
-    <string name="download_complete_installation_setting_entries_only">قم بالتثبيت فقط عند التشغيل في المقدمة</string>
+    <string name="download_complete_installation_setting_entries_always">تثبيت دائماً</string>
+    <string name="download_complete_installation_setting_entries_only">قم بالتثبيت عند التشغيل في المقدمة فقط</string>
     <string name="download_complete_installation_setting_entries_never">لا تثبت ابداً</string>
     <string name="reply">رد</string>
     <string name="input_reply_content">برجاء إدخال رد:</string>
@@ -300,7 +294,7 @@
     <string name="already_save">تم الحفظ<xliff:g example="ApKPure/photo" id="path">%1$s</xliff:g>
     </string>
     <string name="load_end">لا مزيد من البيانات.</string>
-    <string name="load_failed_click_retry">"فشل تحميل  برجاء اعادة المحاولة"</string>
+    <string name="load_failed_click_retry">فشل تحميل برجاء اعادة المحاولة</string>
     <string name="loading">تحميل …</string>
     <string name="scan_qr_code_hint">قبل استخدام فحص رمز QR يتوجب عليك السماح باستخدام الكاميرا لأنه مطلوب للقيام بفحص رمز QR.</string>
     <string name="zxing_msg_default_status">رجاءا قم بوضع صورة رمز الـQR ضمن المربع للقيام بفحصها .</string>
@@ -381,7 +375,7 @@
     <string name="app_detail_reply_desc">تنازلي</string>
     <string name="app_detail_reply_floor">%d</string>
     <string name="app_detail_comment_order_array_default">تصنيف إفتراضي</string>
-    <string name="app_detail_comment_order_array_most_recent">مؤخراً</string>
+    <string name="app_detail_comment_order_array_most_recent">الأحدث</string>
     <string name="app_detail_comment_order_array_new">الأحدث</string>
     <string name="message_all">جميع</string>
     <string name="message_reply">الردود</string>
@@ -403,10 +397,10 @@
     <string name="app_detail_comment_order_array_old">الأقدم</string>
     <string name="app_detail_comment_join_group_bt">مجموعة</string>
     <string name="download_mkdir">مسار التحميل</string>
-    <string name="download_mkdir_internal_storage_size_des">%1$s مجاناً, اجمالي %2$٪</string>
+    <string name="download_mkdir_internal_storage_size_des">%1$s مجاناً, اجمالي %2$s</string>
     <string name="download_mkdir_internal_storage_entries">بطاقة الذاكرة</string>
-    <string name="download_mkdir_internal_storage_entries1">وحدة التخزين الداخلية</string>
-    <string name="download_mkdir_external_storage_fill_toast">"ذاكرة التخزين الغير كافية قد تتسبب  في عدم القدرة على تحميل اي تطبيق."</string>
+    <string name="download_mkdir_internal_storage_entries1">بطاقة الذاكرة 1</string>
+    <string name="download_mkdir_external_storage_fill_toast">بطاقة الذاكرة غير كافية قد تتسبب في عدم تحميل اي تطبيق.</string>
     <string name="download_mkdir_internal_storage_values">ذاكرة_داخلية</string>
     <string name="download_mkdir_external_storage_values">ذاكرة_خارجية</string>
     <string name="change_language_failed">فشل تبديل اللغة!</string>
@@ -425,12 +419,9 @@
     <string name="user_info_edit_large_photo">View full size avatar</string>
     <string name="push_title_info_follow">"%1$s  يتابعك!"</string>
     <string name="push_title_info_update">لقد وصلت نسخة جديدة من APKPure!</string>
-    <string name="share_app_url_group">" &lt;xliff:g xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\" example=\"APKPure\" id=\"app_name\"&gt;%1$s جروب. (من &lt;xliff:g xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\" example=\"APKPure\" id=\"social_network_name\"&gt;%2$s&lt;/xliff:g&gt;) &lt;xliff:g xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\" example=\"https://apkpure.com/p/com.apkpure.aegon\" id=\"app_url\"&gt;%3$s&lt;/xliff:g&gt;. "<xliff:g example="APKPure" id="user_name">1%1$s</xliff:g>2\'s comments on
-        <xliff:g example="APKPure" id="app_name">3%2$s</xliff:g>4 :
-        <xliff:g example="APKPure" id="app_name">5%3$s</xliff:g>6 (from
-        <xliff:g example="APKPure" id="social_network_name">7%4$s</xliff:g>8)
-        <xliff:g example="https://apkpure.com/p/com.apkpure.aegon" id="app_url">9%5$s</xliff:g>
-    </string>
+    <string name="share_app_url_group">" جروب &lt;xliff:g xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\" example=\"APKPure\" id=\"app_name\"&gt;%1$s&lt;/xliff:g&gt; 
+\nمن(&lt;xliff:g xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\" example=\"APKPure\" id=\"social_network_name\"&gt;%2$s&lt;/xliff:g&gt;)
+\n&lt;xliff:g xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\" example=\"https://apkpure.com/p/com.apkpure.aegon\" id=\"app_url\"&gt;%3$s&lt;/xliff:g&gt; "</string>
     <string name="push_content_info_update">تم إطلاق الإصدار الجديد %1$s تحديث الان!</string>
     <string name="like_notification">إشعارات التصويت كمفيد</string>
     <string name="like_notification_msg">تلقي الإخطارات للرسائل أوبفوت جديدة</string>
@@ -595,19 +586,19 @@
     <string name="app_detail_tab_evaluation">المراجعات</string>
     <string name="app_detail_comment_filter_sort_score">الأعلى تقييمًا</string>
     <string name="app_detail_comment_filter_all">كل المراجعات</string>
-    <string name="app_detail_comment_filter_version">احدث النسخ</string>
+    <string name="app_detail_comment_filter_version">احدث اصدار</string>
     <string name="app_detail_comment_score_less">مراجعات مستخدمين قليلة.</string>
     <string name="app_detail_comment_no_data">لا توجد مراجعات. اكتب مراجعتك الآن.</string>
     <string name="app_detail_evaluation_failed_bt">مراجعة</string>
     <string name="app_detail_comment_order_array_good">4-5</string>
     <string name="app_detail_comment_order_array_bad">1-3</string>
     <string name="app_detail_discuss_filter_featured">يسلط الضوء</string>
-    <string name="app_detail_comment_score_footer">تطبيق جيد</string>
+    <string name="app_detail_comment_score_footer">هناك %1$s المراجعات بلغات أخرى.</string>
     <string name="upload_video">رفع فيديو</string>
     <string name="saved_draft">حُفظت كمسودة</string>
-    <string name="app_detail_folded_footer_posts">المطوية d ٪عرض كافة مشاركات</string>
-    <string name="app_detail_folded_footer_reviews">المطويه d%عرض كافة مراجعات</string>
-    <string name="auto_service_directly__material_">العربية</string>
+    <string name="app_detail_folded_footer_posts">المطوية %d عرض كافة مشاركات</string>
+    <string name="app_detail_folded_footer_reviews">المطويه %d عرض كافة مراجعات</string>
+    <string name="auto_service_directly__material_">تثبيت مباشر</string>
     <string name="app_detail_discuss_filter_folded">مطوي</string>
     <string name="app_detail_evaluation_tool_bar_title">اكتب مراجعة</string>
     <string name="search_tab_invitation">نشر</string>
