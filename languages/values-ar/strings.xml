@@ -422,33 +422,33 @@
 \nمن(&lt;xliff:g xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\" example=\"APKPure\" id=\"social_network_name\"&gt;%2$s&lt;/xliff:g&gt;)
 \n&lt;xliff:g xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\" example=\"https://apkpure.com/p/com.apkpure.aegon\" id=\"app_url\"&gt;%3$s&lt;/xliff:g&gt; "</string>
     <string name="push_content_info_update">تم إطلاق الإصدار الجديد %1$s تحديث الان!</string>
-    <string name="like_notification">إشعارات التصويت كمفيد</string>
-    <string name="like_notification_msg">تلقي الإخطارات للرسائل أوبفوت جديدة</string>
+    <string name="like_notification">إشعارات الإعجاب</string>
+    <string name="like_notification_msg">تلقي إشعارات الإعجاب جديدة</string>
     <string name="gif_tip">صور متحركه</string>
     <string name="ad_tip">اعلان</string>
-    <string name="submit_comment_title_hint">الموضوع (اختياري)</string>
-    <string name="comment_vote_string">تصويت</string>
-    <string name="comment_reply_three">الرد</string>
+    <string name="submit_comment_title_hint">عنوان</string>
+    <string name="comment_vote_string">اعجاب</string>
+    <string name="comment_reply_three">رد</string>
     <string name="comment_item_fold">تم تصغير التعليق</string>
-    <string name="comment_no_reply">نجاح باهر، لا يوجد شيء هنا.</string>
+    <string name="comment_no_reply">واو، لا يوجد شيء هنا.</string>
     <string name="comment_reply_info_name">التفاصيل</string>
     <string name="set_updates_notification">تحديثات متاحة</string>
     <string name="set_updates_notification_msg">إعلام عندما تتوفر تحديثات التطبيق. الإعداد الموصى به: تشغيل</string>
     <string name="app_detail_unknow_text">الإصدار القديم APKPure لا يدعم ميزات جديدة، يرجى تحديث إلى أحدث.</string>
-    <string name="comment_detail_original">عرض التعليق الأصلي </string>
+    <string name="comment_detail_original">عرض التعليق الأصلي&gt;</string>
     <string name="comment_comment_newest">الأحدث</string>
     <string name="comment_comment_oldest">أقدم</string>
     <string name="edit">تعديل</string>
     <string name="menu_copy">نسخ</string>
     <string name="menu_cancel">الغاء</string>
-    <string name="delete_all_download_history">هل تريد حذف سجل التنزيلات بالكامل؟</string>
+    <string name="delete_all_download_history">هل تريد حذف تاريخ التحميل بالكامل؟</string>
     <string name="delete_the_historical_record">هل تريد حذف السجل التاريخي؟</string>
-    <string name="download_history">تحميل التاريخ</string>
+    <string name="download_history">تاريخ التحميل</string>
     <string name="sub_comment_dialog_title">إضافة فيديو</string>
     <string name="sub_comment_dialog_des_tv">"دعم تحليل عناوين  يوتيوب فقط"</string>
     <string name="sub_comment_dialog_link_et">أدخل عنوان رابط الفيديو هنا</string>
-    <string name="sub_comment_dialog_link_null">لا يمكن ترك حقل عنوان رابط الفيديو فارغا</string>
-    <string name="sub_comment_progress_msg">جار إضافة الفيديو …</string>
+    <string name="sub_comment_dialog_link_null">لا يمكن ترك حقل عنوان رابط الفيديو فارغا.</string>
+    <string name="sub_comment_progress_msg">جاري إضافة الفيديو …</string>
     <string name="play_button">زر التشغيل</string>
     <string name="null_time">٠:٠٠</string>
     <string name="open_video_in_youtube">افتح الفيديو في يوتيوب</string>
@@ -496,18 +496,12 @@
     <string name="set_open_source_licence">رخصة مفتوحة المصدر</string>
     <string name="push_title_info_at">شخص ما قد أشار إليك في منشور, أنقر للعرض.</string>
     <plurals name="comment_reply_item_fold">
-        <item quantity="zero">
-            <xliff:g example="1" id="count">%1$d</xliff:g> رد مُغلق</item>
-        <item quantity="one">
-            <xliff:g example="2" id="count">%1$d</xliff:g> رد مُغلق</item>
-        <item quantity="two">
-            <xliff:g example="2" id="count">%1$d</xliff:g> رد مُغلق</item>
-        <item quantity="few">
-            <xliff:g example="2" id="count">%1$d</xliff:g>ردود مغلقة</item>
-        <item quantity="many">
-            <xliff:g example="2" id="count">%1$d</xliff:g> ردود مغلقة</item>
-        <item quantity="other">
-            <xliff:g example="2" id="count">%1$d</xliff:g> رد مغلق</item>
+        <item quantity="zero">&lt;xliff:g xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\" example=\"1\" id=\"count\"&gt;%1$d&lt;/xliff:g&gt; رد مُغلق</item>
+        <item quantity="one">&lt;xliff:g xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\" example=\"2\" id=\"count\"&gt;%1$d&lt;/xliff:g&gt; رد مُغلق</item>
+        <item quantity="two">&lt;xliff:g xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\" example=\"2\" id=\"count\"&gt;%1$d&lt;/xliff:g&gt; ردان مُغلق</item>
+        <item quantity="few">&lt;xliff:g xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\" example=\"2\" id=\"count\"&gt;%1$d&lt;/xliff:g&gt;ردود مغلقة</item>
+        <item quantity="many">&lt;xliff:g xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\" example=\"2\" id=\"count\"&gt;%1$d&lt;/xliff:g&gt; ردود مغلقة</item>
+        <item quantity="other">&lt;xliff:g xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\" example=\"2\" id=\"count\"&gt;%1$d&lt;/xliff:g&gt; ردود مغلق</item>
     </plurals>
     <string name="main_good_comments">أعبجني</string>
     <string name="cancel_collection">إزالة من المفضلة</string>
