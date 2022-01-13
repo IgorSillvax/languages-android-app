@@ -472,7 +472,7 @@
     <string name="canceled">ألغيت</string>
     <string name="group">مجموعة</string>
     <string name="collection">المفضلة</string>
-    <string name="comments">مناقشات</string>
+    <string name="comments">التعليقات</string>
     <string name="follow">متابعة</string>
     <string name="attention_on">متابعة</string>
     <string name="attention_off">متابعة</string>
@@ -594,7 +594,7 @@
     <string name="auto_service_directly__material_">تثبيت مباشر</string>
     <string name="app_detail_discuss_filter_folded">مطوي</string>
     <string name="app_detail_evaluation_tool_bar_title">اكتب مراجعة</string>
-    <string name="search_tab_invitation">نشر</string>
+    <string name="search_tab_invitation">منشورات</string>
     <string name="sign_in_services_key_policy_register">سياسة الخصوصية</string>
     <string name="home_message_praise">الإعجابات</string>
     <string name="home_message_reply">الردود</string>
@@ -697,4 +697,156 @@
     <string name="common_use">بطاقاتي</string>
     <string name="hot_tag_explain">(إضافة أو التصويت على تاغ الموجودة لهذا التطبيق)</string>
     <string name="hot_tag">تاغ الشائعة</string>
+    <string name="xapk_upload_hint_info">سيستغرق الأمر وقتا طويلا لتحميل XAPK الملفات. هل أنت متأكد من رفع ؟</string>
+    <string name="packaging_failed_try_again">فشل التعبئة. الرجاء محاولة مرة أخرى.</string>
+    <string name="packaging_success_ready_upload">انتهى التغليف. جاهز للرفع.</string>
+    <string name="packaging">تغليف…</string>
+    <string name="preparing_upload">استعد للتحميل…</string>
+    <string name="upload_apk_xapk">تحميل APK/XAPK</string>
+    <string name="apk_xapk">APK/XAPK</string>
+    <string name="ucrop_mutate_exception_hint">لذلك، تجاوز المورد اللوني في تطبيقك（ucrop_color_toolbar_widget）لجعله يعمل على أجهزة pre-L</string>
+    <string name="ucrop_error_input_data_is_absent">يجب تحديد كل من الإدخال والمخرجات Uri</string>
+    <string name="ucrop_menu_crop">تسوية</string>
+    <string name="ucrop_label_edit_photo">تحرير صور</string>
+    <string name="ucrop_label_original">أصلية</string>
+    <string name="picture_message_video_max_num">يمكنك اختيار %1$s فيديو على الأكثر</string>
+    <string name="picture_confirm">الغاء</string>
+    <string name="picture_audio_error">الصوت مفسد</string>
+    <string name="picture_video_error">الصورة مفسدة</string>
+    <string name="picture_error">الصورة مفسدة</string>
+    <string name="picture_pause_audio">وقف</string>
+    <string name="picture_quit_audio">خروج</string>
+    <string name="picture_stop_audio">وقوف</string>
+    <string name="picture_play_audio">لعب</string>
+    <string name="picture_tape">تسجيل</string>
+    <string name="picture_all_audio">جميع الصوتية</string>
+    <string name="picture_save_success">تم حفظ الصورة بنجاح إلى</string>
+    <string name="picture_save_error">فشل الحفظ صورة</string>
+    <string name="picture_prompt_content">هل تريد حفظ الصور لهاتفك ؟</string>
+    <string name="picture_prompt">الاشعار</string>
+    <string name="picture_warning">ولا توجد ملفات إعلامية حاليا!</string>
+    <string name="picture_long_chart">صورة طويلة</string>
+    <string name="picture_photograph">صورة</string>
+    <string name="picture_record_video">تسجيل فيديو</string>
+    <string name="picture_video_toast">لا يمكن معاينة الفيديو</string>
+    <string name="picture_camera">مرفوضة احصل على تصريح كاميرا النظام</string>
+    <string name="picture_jurisdiction">مرفوضة قراءة اذن الذاكرة الداخلية</string>
+    <string name="picture_audio">مرفوض الحصول على إذن تسجيل النظام</string>
+    <string name="gif_tag">صور متحركه</string>
+    <string name="picture_min_img_num">لا يمكن ختيار الصورة أقل من %1$s</string>
+    <string name="picture_empty">يمكنك استخدام كاميرتك لالتقاط الصور أو الفيديوهات</string>
+    <string name="picture_audio_empty">يمكنك استخدام تسجيلات النظام لتسجيل الصوت</string>
+    <string name="picture_empty_audio_title">لا يوجد ملفات صوتية
+\n</string>
+    <string name="picture_empty_title">لا يوجد فيديو أو صور
+\n</string>
+    <string name="picture_please_select">الرجاء تحديد</string>
+    <string name="picture_done">Ok</string>
+    <string name="picture_completed">اكتمال</string>
+    <string name="picture_done_front_num">%1$d/%2$d إكمال</string>
+    <string name="picture_please">أرجوك إنتظر لحظه...</string>
+    <string name="picture_preview">معاينة</string>
+    <string name="picture_min_video_num">لا يستطيع اختيار الفيديو أقل من %1$s</string>
+    <string name="picture_message_max_num">يمكنك اختيار 34 صورة %1$s على الأكثر</string>
+    <string name="picture_rule">لا يمكن اختيار الصور أو الفيديو في نفس الوقت</string>
+    <string name="picture_take_picture">أخذ الصور</string>
+    <string name="picture_cancel">الغاء</string>
+    <string name="picture_camera_roll">الألبومات</string>
+    <string name="attention_each">متابعة بعضنا البعض</string>
+    <string name="app_details_request_update_msg">لقد تلقينا طلبك لأحدث تحديث من %s.
+\nالنسخة الجديدة ستكون قابلة للتحميل قريباً إذا وجدت.</string>
+    <string name="app_details_request_update_title">طلب تحديث</string>
+    <string name="xapk_unable_upload">فشل تحميل XAPK!</string>
+    <string name="upload_xapk_to_group">تحميل XAPK إلى المجموعة</string>
+    <string name="upload_xapk">تحميل XAPK</string>
+    <string name="upload_apk_to_group">تحميل APK إلى المجموعة</string>
+    <string name="app_update_auto_install">انقر لتمكين \"تركيب تلقائي\"</string>
+    <string name="look_video">لعب الفيديو</string>
+    <string name="get_it_on">مصادر:</string>
+    <string name="users">المستخدمين</string>
+    <string name="choice_hashtag">هاشتاق مميز</string>
+    <string name="gif_auto_desc">تشغيل تلقائي GIFs تحت Wi-Fi</string>
+    <string name="gif_auto_title">GIF تشغيل تلقائي</string>
+    <string name="is_save_comment_draft">حفظ كمسودة؟</string>
+    <string name="empty_draft_info">لا يوجد محتوى…</string>
+    <string name="delete_draft">حذف مشروع</string>
+    <string name="edit_draft">تحرير المسودة</string>
+    <string name="delete_all_draft_hint">هل أنت متأكد أنك تريد حذف كل المسودات ؟</string>
+    <string name="several_drafts">&lt;xliff:g xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\" example=\"5\" id=\"count\"&gt;%1$s&lt;/xliff:g&gt;مسودة</string>
+    <string name="several_draft">&lt;xliff:g xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\" example=\"5\" id=\"count\"&gt;%1$s&lt;/xliff:g&gt;مسودة</string>
+    <string name="my_draft">مسودتي</string>
+    <string name="clear_empty">مسح كل</string>
+    <string name="community_guide_lines">التوجيهية المجتمعة</string>
+    <string name="let_us_know">أخبرنا</string>
+    <string name="tap_to_view">اضغط لعرض</string>
+    <string name="report_callback_des">راجعنا التدوينة التي أبلغت عنها وحذفناها لأنها انتهكت%1$s، شكرا لتقريرك.</string>
+    <string name="report_callback_title">تم حذف التدوينة التي أبلغت عنها!</string>
+    <string name="pre_register_des">اللعبة %1$s%2$s التي سجلتها مسبقا متاحة للتنزيل.%3$s</string>
+    <string name="pre_register_title">%1$s منشور %2$s!</string>
+    <string name="temporarily_blocked_des">سيدوم هذا الحظر المؤقت %1$s أيام ، ولن تتمكن من إنشاء محتوى على APKPure. إذا قمت بنشر شيء يتعارض مع %2$s ثانية، سيتم حظر حسابك في حساب آخر.يرجى الانتباه إلى أن الأشخاص الذين ينشرون محتوى غير لائق بشكل متكرر قد يتسببون في حظر حساباتهم بشكل دائم.
+\nإذا كنت تعتقد أن هذا كان خطأ ، من فضلك %3$s.</string>
+    <string name="temporarily_blocked_title">أنت مؤقتا المحظورة من إنشاء محتوى على APKPure</string>
+    <string name="comment_removed_des">يبدو أن شيئا نشرته لا يتبع %1$s.نحن لا نسمح بالتنمر أو المضايقة من أي نوع،بما في ذلك الصور غير الملائمة، وأشرطة الفيديو عن التنمر الجسدي،أو أي وظائف أخرى تهدف إلى إضعاف أو إذلال شخص معين.
+\n%2$s 
+\nإذا كنت تعتقد أن هذا كان خطأ ، من فضلك %3$s.</string>
+    <string name="recommended_posts_des">تم اختيار موقعك كتوصية للمستخدم،%1$s</string>
+    <string name="comment_removed_title">تم حذف موقعك</string>
+    <string name="home_recommended_desc">تم اختيار موقعك كتوصية للصفحة الرئيسية، %1$s</string>
+    <string name="home_recommended_title">مبروك!</string>
+    <string name="recommended_posts_title">مبروك!</string>
+    <string name="users_recommended_des">تم اختيار موقعك كتوصية للمستخدم،%1$s</string>
+    <string name="users_recommended_title">مبروك!</string>
+    <string name="download_install_apk">تركيب APK</string>
+    <string name="download_install_obb">تركيب OBB</string>
+    <string name="headline_footer_refresh">سحب أسفل أو الاستفادة من هذا الخط لإنعاش.</string>
+    <string name="number">\"</string>
+    <string name="app_rating">تصنيف:</string>
+    <string name="follow_xx">متابعة &lt;xliff:g xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\" example=\"Apkpure\" id=\"name\"&gt;%1$s&lt;/xliff:g&gt;</string>
+    <string name="un_follow_xx">إلغاء متابعة &lt;xliff:g xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\" example=\"Apkpure\" id=\"name\"&gt;%1$s&lt;/xliff:g&gt;</string>
+    <string name="save_tag_hint_msg">التغيير لن يتم إنقاذه. هل أنت متأكد أنك تريد الخروج ؟</string>
+    <string name="edit_tag">تحرير تاغ</string>
+    <string name="long_image">صورة طويلة</string>
+    <string name="apk_unable_upload">فشل التحميل.</string>
+    <string name="share_app_url_comment_v3">مشاركة &lt;xliff:g xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\" example=\"zhangsan\" id=\"name\"&gt;%1$s&lt;/xliff:g&gt;\'s 
+\n&lt;xliff:g xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\" example=\"post/story/review\" id=\"type\"&gt;%2$s&lt;/xliff:g&gt; (من APKPure):
+\n&lt;xliff:g xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\" example=\"https://apkpure.com\" id=\"url\"&gt;%3$s &lt;/xliff:g&gt;</string>
+    <string name="reply_to">الرد على %1$s:</string>
+    <string name="del_account_sure">سيتم حذف حسابك في 48 ساعة. الرجاء الاتصال بنا إذا كان لديك المزيد من الأسئلة.</string>
+    <string name="del_account_reason_hint">لماذا تريد حذف هذا الحساب؟</string>
+    <string name="del_account_bt">ارسال</string>
+    <string name="del_account_email_reason_tv">لماذا تريد حذف هذا الحساب؟</string>
+    <string name="del_account_email_notify_tv">الرجاء تقديم عنوان بريد إلكتروني صالح لتلقي إخطارنا.</string>
+    <string name="privacy_setting_account_privacy">ان هذا الحساب خاص.</string>
+    <string name="privacy_setting_account_del">حذف الحساب والمعلومات</string>
+    <string name="privacy_setting_account_des">لن يرى صفحتك الشخصية الآخرين إذا تم تحديد حسابك على الخاصة.</string>
+    <string name="privacy_setting_account">حساب خاص</string>
+    <string name="privacy_setting_title">إعدادات الخصوصية</string>
+    <string name="search_or_create">البحث أو الإنشاء</string>
+    <string name="share_select_image_overflow_hint">لا يمكنك مشاركة أكثر من 9 صور.</string>
+    <string name="share_image_failed">فشل في مشاركة الصورة!</string>
+    <string name="history_hastag">الهاشتاجات السوابق</string>
+    <string name="look_all">لعرض المزيد</string>
+    <string name="no_save_comment_hint">لم يتم حفظ المحتوى. هل أنت متأكد أنك تريد الخروج ؟</string>
+    <string name="hint">الاشعار</string>
+    <string name="headline_no_data_tv">لا يوجد المحتوى الجديد</string>
+    <string name="look_links">مشاهدة الرابطة</string>
+    <string name="hot">منشور</string>
+    <string name="delete_success">نجاح</string>
+    <string name="release_dynamics">نشر منشور</string>
+    <string name="trends">منشور</string>
+    <string name="me_follow">متابعتي</string>
+    <string name="menu_follow_subject_tab">الهاشتاقات</string>
+    <string name="menu_follow_subject">الهاشتاقات المتبعة</string>
+    <string name="hot_subject">الهاشتاقات مشهورة</string>
+    <string name="error_hot_data_empty">لا يوجد الهاشتاقات!</string>
+    <string name="image_text">الصور والقصص</string>
+    <string name="evaluating">المراجعات</string>
+    <string name="new_subject_comment">الهاشتاقات الجديدة</string>
+    <string name="subject_comment">الهاشتاقات</string>
+    <string name="user_recommend_tip">توصيات المستخدم</string>
+    <string name="msg_all_read_msg">هل أنت متأكد من أنك تريد تمييز كل كمقروءة ؟</string>
+    <string name="msg_all_read_notice">الاشعار</string>
+    <string name="msg_all_read">تمييز كل كمقروءة</string>
+    <string name="comment_hint_tv">مشاركة شيء ما؟</string>
+    <string name="submit_add_title_image_error_toast">تنسيق هذه الصورة غير مدعوم. الرجاء تحديد واحد آخر.</string>
 </resources>
