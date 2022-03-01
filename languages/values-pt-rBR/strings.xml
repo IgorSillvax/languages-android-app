@@ -176,7 +176,7 @@
     <string name="installation">Instalação</string>
     <string name="show_notification_after_installation">Mostrar notificação após a instalação</string>
     <string name="delete_packages_after_installation">Excluir pacotes após a instalação</string>
-    <string name="_name__installation_completed">%1$s instalação concluída</string>
+    <string name="_name__installation_completed">&lt;xliff:g xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\" example=\"APKPure\" id=\"name\"&gt;%1$s&lt;/xliff:g&gt; instalação concluída</string>
     <string name="touch_to_open">Toque para iniciar.</string>
     <string name="installed">Instalado</string>
     <string name="download_over_cellular">Baixar via Rede Móvel de Celular</string>
@@ -185,23 +185,23 @@
     <string name="participate_ultra_download_beta_test_content">O Ultra Download ainda está em beta. Avise-nos se você encontrar algum problema. Você pode desativá-lo facilmente nas Configurações.</string>
     <string name="enable">Ativado</string>
     <string name="download_via_wifi_only">Baixar somente via Wi-Fi</string>
-    <string name="enable_ultra_download">Ativar Ultra Download</string>
+    <string name="enable_ultra_download">Ativar ultra download</string>
     <string name="enable_ultra_download_summary">O Ultra Download ainda está em beta. Avise-nos se encontrar algum problema.</string>
     <string name="similar_or_related">Similar ou Relacionado</string>
     <string name="more_from_developer">Mais do Desenvolvedor</string>
     <string name="more_large">Mais</string>
     <string name="feedback">Feedback</string>
     <string name="changing_language">Alterando o idioma… Por favor, aguarde.</string>
-    <string name="auto_service_install_accessibility_title">Instalar automaticamente</string>
-    <string name="auto_service_install_accessibility_summary">Suporta Android 4.1 e superior. Não é necessário acesso Root.</string>
-    <string name="auto_service_dialog_title">Ativar instalação automática</string>
-    <string name="auto_service_dialog_message">A instalação automática requer a sua permissão. 100% seguro.</string>
-    <string name="auto_service_title">Ativar instalação automática</string>
-    <string name="auto_service_description">Habilite \"APKPure Instalação automática\" para manter o APKPure \"Instalação automática\" rodando sem problemas.
+    <string name="auto_service_install_accessibility_title">Instalação automática</string>
+    <string name="auto_service_install_accessibility_summary">Suporta Android 4.1 e superior. Não é necessário acesso root.</string>
+    <string name="auto_service_dialog_title">Ativar Instalação Automática</string>
+    <string name="auto_service_dialog_message">A Instalação Automática requer a sua permissão. 100% seguro.</string>
+    <string name="auto_service_title">Instalação Automática do APKPure</string>
+    <string name="auto_service_description">Ative \"Instalação Automática do APKPure\" para manter o APKPure \"Instalação Automática\" rodando sem problemas.
 \n
-\nO \"APKPure Instalação automática\" pode salvar seu tempo clicando nos botões de instalação ao instalar ou atualizar aplicativos. E você não precisa verificar seu telefone o tempo todo.
+\nA \"Instalação Automática do APKPure\" pode salvar seu tempo clicando nos botões de instalação ao instalar ou atualizar aplicativos. E você não precisa verificar seu celular o tempo todo.
 \n
-\nUma vez ativado esse recurso, você poderá receber avisos de risco do sistema. Por favor, toque em \"OK\" para ativar a opção de acessibilidade.
+\nUma vez ativando esse recurso, você poderá receber avisos de risco do sistema. Por favor, toque em \"OK\" para ativar a opção de acessibilidade.
 \n
 \nPara garantir que o APKPure funcione bem, adicione o APKPure na \"Lista Branca\" no seu aplicativo anti-vírus.
 \n
@@ -214,14 +214,14 @@
     <string name="auto_service_install__material_">INSTALAR</string>
     <string name="auto_service_ensure__material_">Certo</string>
     <string name="auto_service_next__material_">PRÓXIMO</string>
-    <string name="auto_service_exchange__material_">RESPONDER</string>
+    <string name="auto_service_exchange__material_">SUBSTITUIR</string>
     <string name="auto_service_complete__material_">CONCLUÍDO</string>
-    <string name="auto_install_via_root_title">Instalar automaticamente (Modo Root)</string>
-    <string name="auto_install_via_root_summary">Apenas para smartphones e tablets com root.</string>
+    <string name="auto_install_via_root_title">Instalação Automática (Modo Root)</string>
+    <string name="auto_install_via_root_summary">Apenas para celulares e tablets Android com root.</string>
     <string name="download_complete_installation_setting">Opção de instalação depois de baixar</string>
     <plurals name="app_detail_see_all_replies">
-        <item quantity="one">Ver <xliff:g example="1" id="count"> %1$d</xliff:g> resposta</item>
-        <item quantity="other">Ver todas as <xliff:g example="2" id="count"> %1$d</xliff:g> respostas</item>
+        <item quantity="one">Ver &lt;xliff:g xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\" example=\"1\" id=\"count\"&gt; %1$d&lt;/xliff:g&gt; Resposta</item>
+        <item quantity="other">Ver Todas as &lt;xliff:g xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\" example=\"2\" id=\"count\"&gt; %1$d&lt;/xliff:g&gt; Respostas</item>
     </plurals>
     <string name="app_detail_customer_reviews">Comentários</string>
     <string name="app_detail_comment_type_web">Internet</string>
@@ -242,14 +242,14 @@
     <string name="app_detail_tab_two">Grupo</string>
     <string name="app_detail_tab_three">Relacionado</string>
     <string name="reply">Responder</string>
-    <string name="input_reply_content">Por favor, digite sua resposta:</string>
+    <string name="input_reply_content">Por favor, insira sua resposta:</string>
     <string name="publish">Publicar</string>
     <string name="load_end">Não há mais dados.</string>
     <string name="load_failed_click_retry">Falha ao carregar. Toque para tentar novamente</string>
     <string name="loading">Carregando…</string>
-    <string name="scan_qr_code_hint">Antes de usar o Código QR para digitalizar o Código QR, você precisa conceder a permissão da câmera necessária para escanear o código QR.</string>
+    <string name="scan_qr_code_hint">Antes de usar Digitalizando o Código QR, você precisa conceder a permissão necessária da câmera para digitalizar o código QR.</string>
     <string name="zxing_msg_default_status">Por favor, coloque o código QR dentro do visor para digitalizá-lo.</string>
-    <string name="zxing_msg_parser_status">Falha ao verificar. Por favor, tente novamente.</string>
+    <string name="zxing_msg_parser_status">Falha ao Digitalizar. Por favor, tente novamente.</string>
     <string name="recommend">Descobrir</string>
     <string name="report">Denunciar</string>
     <string name="share_app_url_comment">" Comentários do &lt;xliff:g xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\" example=\"APKPure\" id=\"user_name\"&gt;%1$s&lt;/xliff:g&gt; no &lt;xliff:g xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\" example=\"APKPure\" id=\"app_name\"&gt;%2$s&lt;/xliff:g&gt; :&lt;xliff:g xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\" example=\"APKPure\" id=\"app_name\"&gt;%3$s&lt;/xliff:g&gt; (através do &lt;xliff:g xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\" example=\"APKPure\" id=\"social_network_name\"&gt;%4$s&lt;/xliff:g&gt;) &lt;xliff:g xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\" example=\"https://apkpure.com/p/com.apkpure.aegon\" id=\"app_url\"&gt;%5$s&lt;/xliff:g&gt; "</string>
@@ -259,19 +259,19 @@
     <string name="app_detail_reply_floor">%dPavimento</string>
     <string name="app_detail_comment_order_array_recent">Recente</string>
     <string name="app_detail_comment_order_array_newest">O mais novo</string>
-    <string name="app_detail_comment_order_array_best">Melhor</string>
+    <string name="app_detail_comment_order_array_best">O Melhor</string>
     <string name="download_complete_installation_setting_entries_always">Sempre instalar</string>
     <string name="download_complete_installation_setting_entries_only">Só instalar quando estiver executando em primeiro plano</string>
     <string name="download_complete_installation_setting_entries_never">Nunca instalar</string>
     <string name="reply_dialog_marked_words">Toque e segure a imagem para excluí-la.</string>
     <string name="reply_comment">Responder ao comentário</string>
     <string name="save_original_image">Salvar</string>
-    <string name="already_save">Salvo%1$s</string>
-    <string name="tip_permission_camera_storage">Sem permissão para usar a câmera e o cartão SD. Por favor, conceda-a no gerenciamento de permissão no seu smartphone.</string>
+    <string name="already_save">Salvo&lt;xliff:g xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\" example=\"ApKPure/photo\" id=\"path\"&gt;%1$s&lt;/xliff:g&gt;</string>
+    <string name="tip_permission_camera_storage">Sem permissão para usar a câmera e o cartão SD. Por favor, conceda-a no gerenciamento de permissão no seu celular.</string>
     <string name="permission_denied">Acesso negado!</string>
     <string name="login_title">Entrar</string>
-    <string name="sign_out">Encerrar sessão</string>
-    <string name="delete_comment">Excluir comentário</string>
+    <string name="sign_out">Sair</string>
+    <string name="delete_comment">Excluir Comentário</string>
     <string name="delete_comment_msg">Tem certeza que deseja excluir este comentário\?</string>
     <string name="upload_cancel">O upload foi cancelado</string>
     <string name="login_select_way_to_login">Por favor, escolha um método de login</string>
@@ -279,11 +279,11 @@
     <string name="user_info_edit_portrait_tv">Foto de perfil</string>
     <string name="user_info_edit_username_tv">Usuário</string>
     <string name="user_info_edit_nickname_tv">Apelido</string>
-    <string name="user_info_edit_email_tv">Email</string>
+    <string name="user_info_edit_email_tv">E-mail</string>
     <string name="user_info_edit_gender_tv">Gênero</string>
     <string name="user_info_edit_birthday_tv">Aniversário</string>
-    <string name="user_info_edit_change_pwd_tv">Redefinir senha</string>
-    <string name="user_info_edit_login_out_tv">Encerrar sessão</string>
+    <string name="user_info_edit_change_pwd_tv">Redefinir Senha</string>
+    <string name="user_info_edit_login_out_tv">Sair</string>
     <string name="user_info_edit_not_choose">Desconhecido</string>
     <string name="user_info_edit_gender_male">Masculino</string>
     <string name="user_info_edit_gender_female">Feminino</string>
@@ -292,11 +292,11 @@
     <string name="user_info_edit_portrait_error">O tipo de imagem não é suportado.</string>
     <string name="user_info_edit_ok">OK</string>
     <string name="user_info_edit_cancel">Cancelar</string>
-    <string name="update_nick_title">Mudar Apelido</string>
-    <string name="update_email_title">Alterar e-mail</string>
+    <string name="update_nick_title">Mudar apelido</string>
+    <string name="update_email_title">Alterar E-mail</string>
     <string name="update_nick_name_et">Digite seu novo apelido</string>
     <string name="update_nick_name_tv">Seu apelido não pode estar em branco.</string>
-    <string name="update_email_name_et">Insira o seu e-mail</string>
+    <string name="update_email_name_et">Insira o seu e-mail.</string>
     <string name="update_eamil_name_tv">Seu e-mail não pode estar em branco.</string>
     <string name="update_nickname_error">Esse apelido já está em uso. Por favor, digite outro!</string>
     <string name="update_pwd_title">Redefinir minha senha</string>
@@ -340,9 +340,9 @@
     <string name="login_choose">Ou entre com a sua conta social</string>
     <string name="login_new_user">Cadastrar novo usuário</string>
     <string name="login_post_as_a_guest">Publicar como convidado</string>
-    <string name="app_detail_comment_order_array_default">Ordenar por padrão</string>
-    <string name="app_detail_comment_order_array_most_recent">Mais recente</string>
-    <string name="app_detail_comment_order_array_new">Novo</string>
+    <string name="app_detail_comment_order_array_default">Ordenar por Padrão</string>
+    <string name="app_detail_comment_order_array_most_recent">O Mais Recente</string>
+    <string name="app_detail_comment_order_array_new">O Mais Novo</string>
     <string name="message_all">TODOS</string>
     <string name="message_reply">RESPOSTAS</string>
     <string name="message_praise">CURTIDAS</string>
@@ -397,7 +397,7 @@
     <string name="sub_comment_progress_msg">Adicionando vídeo…</string>
     <string name="check_update_replace">Versão oficial</string>
     <string name="check_update_beta">Versão beta de pré-lançamento</string>
-    <string name="app_detail_comment_order_array_old">Antigo</string>
+    <string name="app_detail_comment_order_array_old">O Mais Antigo</string>
     <string name="app_detail_comment_join_group_bt">Grupo</string>
     <string name="ad_tip">anúncio</string>
     <string name="play_button">Botão reproduzir</string>
@@ -509,7 +509,7 @@
     <string name="scan_qr_code_result_title">Resultado</string>
     <string name="scan_qr_code_result_copy_text">Copiar texto</string>
     <string name="scan_qr_code_result_hint">Detalhes do código QR：</string>
-    <string name="scan_qr_code_copy_success">O link foi copiado.</string>
+    <string name="scan_qr_code_copy_success">O texto foi copiado.</string>
     <string name="user_info_edit_large_photo">Ver tamanho original da foto de perfil</string>
     <string name="push_title_info_follow">%1$s seguiu você!</string>
     <string name="push_title_info_update">Uma nova versão do APKPure chegou!</string>
@@ -567,7 +567,7 @@
     <string name="hot_tag_explain">(Adicionar ou votar tags existentes para este aplicativo)</string>
     <string name="message_at_title">Menções</string>
     <string name="message_at">Mencionou você</string>
-    <string name="set_open_source_licence">Licença de código aberto</string>
+    <string name="set_open_source_licence">Licença de Código Aberto</string>
     <string name="push_title_info_at">Alguém mencionou você em uma publicação. Toque para ver.</string>
     <string name="cancel_collection">Desfavorável</string>
     <string name="ranking_top_countries_title">Classificações regionais</string>
@@ -597,10 +597,10 @@
     <string name="tab_popular">POPULAR</string>
     <string name="properties_message_v2">&lt;b&gt;Nome do Pacote:&lt;/b&gt; %1$s&lt;br&gt;&lt;b&gt;Versão:&lt;/b&gt; %2$s&lt;br&gt;&lt;b&gt;Caminho:&lt;/b&gt; %3$s&lt;br&gt;&lt;b&gt;Tamanho:&lt;/b&gt; %4$s&lt;br&gt;&lt;b&gt;Última Modificação:&lt;/b&gt; %5$s</string>
     <string name="app_detail_tab_evaluation">Avaliações</string>
-    <string name="app_detail_comment_filter_sort_score">Melhor classificação</string>
+    <string name="app_detail_comment_filter_sort_score">Melhor Classificação</string>
     <string name="app_detail_comment_filter_all">Todas as Avaliações</string>
-    <string name="app_detail_comment_filter_version">Versão mais recente</string>
-    <string name="app_detail_comment_score_less">Muito poucas avaliações de usuários.</string>
+    <string name="app_detail_comment_filter_version">Versão Mais Recente</string>
+    <string name="app_detail_comment_score_less">Poucas avaliações de usuários.</string>
     <string name="app_detail_comment_no_data">Nenhuma avaliação de usuários encontrada. Escreva sua avaliação agora.</string>
     <string name="app_detail_comment_score_footer">Existem %1$s avaliações em outros idiomas.</string>
     <string name="app_detail_evaluation_tool_bar_title">Escrever uma avaliação</string>
@@ -653,7 +653,7 @@
     <string name="email_address_hint_et">Insira o seu e-mail</string>
     <string name="home_message_reply">Respostas</string>
     <string name="home_message_praise">Curtidas</string>
-    <string name="sign_in_services_key_policy_register">Política de privacidade</string>
+    <string name="sign_in_services_key_policy_register">Política de Privacidade</string>
     <string name="shop">LOJA</string>
     <string name="setting_region">Região</string>
     <string name="submit_add_title_image_tv">Adicionar uma capa</string>
