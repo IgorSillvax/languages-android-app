@@ -58,7 +58,7 @@
     <string name="parsing_xapk">解析XAPK …</string>
     <string name="installing_obb">安装中OBB文件啊 …</string>
     <string name="extracting_apk">提取中APK文件啊 …</string>
-    <string name="installing_apk">安装中APK …</string>
+    <string name="installing_apk">正在安装APK文件 …</string>
     <string name="uninstall">卸载</string>
     <string name="uninstalled">已卸载了</string>
     <string name="last_update__date_">最后更新： &lt;xliff:g xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\" id=\"date\"&gt;%1$s&lt;/xliff:g&gt;</string>
@@ -85,9 +85,9 @@
     <string name="flag_as_inappropriate">举报是不当内容</string>
     <string name="_ellipsis_"> … </string>
     <string name="history_version">版本历史</string>
-    <string name="market_response_error_success">成功了。</string>
+    <string name="market_response_error_success">成功。</string>
     <string name="market_response_error_invalid_result">结果无效。</string>
-    <string name="market_response_error_network_connect_error">网络连接有问题了，检查你的网络吧。</string>
+    <string name="market_response_error_network_connect_error">网络错误。</string>
     <string name="market_response_error_network_read_error">网络读取错误。</string>
     <string name="market_response_error_invalid_response_code">无效的响应码。</string>
     <string name="market_response_error_invalid_response_body">无效响应正文。</string>
@@ -207,7 +207,7 @@
     <string name="_name__installation_completed">&lt;xliff:g xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\" example=\"APKPure\" id=\"name\"&gt;%1$s&lt;/xliff:g&gt; 安装完成</string>
     <string name="touch_to_open">点击为启动。</string>
     <string name="auto_service_install_accessibility_title">自动安装</string>
-    <string name="auto_service_install_accessibility_summary">支持Android 4.1 级以上。无需root权。</string>
+    <string name="auto_service_install_accessibility_summary">支持Android 4.1 及以上。无需ROOT权限。</string>
     <string name="auto_service_dialog_title">启用自动安装</string>
     <string name="auto_service_dialog_message">自动安装需权限从你哦。100%安全，真的。</string>
     <string name="auto_service_title">APKPure 自动安装</string>
@@ -232,7 +232,7 @@
     <string name="auto_service_complete__material_">完成</string>
     <string name="auto_service_directly__material_">直接安裝</string>
     <string name="auto_install_via_root_title">自动安装（root模式）</string>
-    <string name="auto_install_via_root_summary">仅适用于已植根的 Android 手机和平板电脑。</string>
+    <string name="auto_install_via_root_summary">仅适用于已ROOT的 Android 手机和平板电脑。</string>
     <plurals name="app_detail_see_all_replies">
         <item quantity="one">看全 &lt;xliff:g xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\" example=\"1\" id=\"count\"&gt;%1$d&lt;/xliff:g&gt; 回复</item>
         <item quantity="other"/>
@@ -259,7 +259,7 @@
     <string name="app_detail_comment_filter_sort_score">最高评价</string>
     <string name="app_detail_comment_filter_all">全部评价</string>
     <string name="app_detail_comment_filter_version">最新版本</string>
-    <string name="app_detail_comment_score_less">用户评价太少啊。</string>
+    <string name="app_detail_comment_score_less">用户评价过少。</string>
     <string name="app_detail_comment_no_data">未找到用户评价。马上写下评价了吧。</string>
     <string name="app_detail_comment_score_footer">那有%1$s评价在其他语言。</string>
     <string name="app_detail_evaluation_tool_bar_title">写下评价</string>
@@ -274,7 +274,7 @@
     <string name="app_detail_comment_order_array_most_recent">最近</string>
     <string name="app_detail_comment_order_array_new">最新</string>
     <string name="app_detail_comment_order_array_best">最好</string>
-    <string name="app_detail_comment_order_array_old">最老</string>
+    <string name="app_detail_comment_order_array_old">最旧</string>
     <string name="app_detail_comment_order_array_good">4-5</string>
     <string name="app_detail_comment_order_array_bad">1-3</string>
     <string name="app_detail_folded_footer_reviews">看全%d条折叠评论</string>
@@ -487,7 +487,7 @@
     <string name="main_good_comments">上票了</string>
     <string name="main_app_management">应用管理</string>
     <string name="main_topic_selection">主题</string>
-    <string name="main_night_mode">黑夜模式</string>
+    <string name="main_night_mode">黑暗模式</string>
     <string name="please_login_first">请先登录</string>
     <string name="follow_on_success">已关注。</string>
     <string name="follow_un_success">已取消关注。</string>
@@ -498,7 +498,7 @@
     <string name="follow">关注</string>
     <string name="attention_on">关注中</string>
     <string name="attention_off">关注</string>
-    <string name="no_attention">还冇关注哪群lah。</string>
+    <string name="no_attention">没有关注的群组。</string>
     <string name="browsing_history">浏览历史</string>
     <string name="browsing_history_prompt">你要删除浏览历史meh\?</string>
     <!--ranking_fragment-->
@@ -581,9 +581,9 @@
     <string name="hot_tag_explain">（为此应用添加或投票现有标签）</string>
     <string name="common_use">我的标签</string>
     <string name="app_add_tag_hint_caution">每个应用程序不超过%1$s个标签。</string>
-    <string name="app_add_tag">加新标签</string>
+    <string name="app_add_tag">添加新标签</string>
     <string name="toast_app_tag_exist">这标签已存在！</string>
-    <string name="there_is_no_label">冇标签。</string>
+    <string name="there_is_no_label">没有标签。</string>
     <string name="add">添加</string>
     <string name="colon">：</string>
     <string name="pack_up">收起</string>
@@ -668,7 +668,7 @@
     <string name="verification_success_code_toast">验证码已发送。</string>
     <string name="verification_null_code_toast">请输入你收到的验证码。</string>
     <string name="unbind_email">未连接</string>
-    <string name="unbind_email_hint">冇email地址与你的帐户相关联。</string>
+    <string name="unbind_email_hint">没有电子邮件地址与你的帐户关联。</string>
     <string name="menu_skip">跳过</string>
     <string name="forget_password_tv">忘记密码？</string>
     <string name="recover_password_title">找回密码</string>
@@ -758,7 +758,7 @@
     <string name="delete_all_draft_hint">你确定要删除全部草稿meh\?</string>
     <string name="edit_draft">编辑草稿</string>
     <string name="delete_draft">删除草稿</string>
-    <string name="empty_draft_info">冇内容…</string>
+    <string name="empty_draft_info">无内容…</string>
     <string name="is_save_comment_draft">保存你的发帖为草稿meh\?</string>
     <string name="upload_video">上载视频</string>
     <string name="saved_draft">保存为草稿</string>
@@ -780,7 +780,7 @@
     <!-- //////////////////////////////////选择照片  start /////////////////////////////////////////////////////////////////////////////////////////////-->
     <string name="picture_camera_roll">CameraRoll</string>
     <string name="picture_cancel">取消</string>
-    <string name="picture_take_picture">拍一拍</string>
+    <string name="picture_take_picture">拍照</string>
     <string name="picture_rule">不是图片或视频</string>
     <string name="picture_min_video_num">视频最低选择不能少于%1$s张</string>
     <string name="picture_message_max_num">你可以选择最多%1$s张图片</string>
@@ -790,7 +790,7 @@
     <string name="picture_completed">完成了</string>
     <string name="picture_done">Ok</string>
     <string name="picture_please_select">请选择</string>
-    <string name="picture_empty_title">冇视频或图片
+    <string name="picture_empty_title">没有视频或图片
 \n</string>
     <string name="picture_empty_audio_title">冇音频文件
 \n</string>
@@ -805,9 +805,9 @@
     <string name="picture_record_video">记录视频</string>
     <string name="picture_photograph">照片</string>
     <string name="picture_long_chart">长图</string>
-    <string name="picture_warning">冇媒体文件！</string>
+    <string name="picture_warning">没有媒体文件！</string>
     <string name="picture_prompt">提示</string>
-    <string name="picture_prompt_content">你要保存图片在手机meh\?</string>
+    <string name="picture_prompt_content">你想将图片保存到手机吗\?</string>
     <string name="picture_save_error">图片保存失败了</string>
     <string name="picture_save_success">成功保存图片直到</string>
     <string name="picture_all_audio">全部音频</string>
