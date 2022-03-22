@@ -30,8 +30,8 @@
     <string name="download_management">Menaxhimi i shkarkimit</string>
     <string name="settings">Cilësimet</string>
     <string name="about">Rreth</string>
-    <string name="about_title"/>
-    <string name="about_message"/>
+    <string name="about_title">Rreth &lt;xliff:g xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\" example=\"APKPure\" id=\"app_name\"&gt;%1$s&lt;/xliff:g&gt;</string>
+    <string name="about_message">&lt;b&gt;Versioni:&lt;/b&gt; %1$s&lt;br&gt;&lt;br&gt;&lt;b&gt;Uebsajti:&lt;/b&gt; &lt;a href=%2$s&gt;%2$s&lt;/a&gt;&lt;br&gt;&lt;b &gt;Email:&lt;/b&gt; &lt;a href=mailto:%3$s&gt;%3$s&lt;/a&gt;</string>
     <string name="check_update">Kontrolloni për përditësime</string>
     <string name="check_update_replace">Versioni zyrtar</string>
     <string name="check_update_beta">Beta para publikimit</string>
@@ -45,16 +45,16 @@
     <string name="delete">Fshije</string>
     <string name="delete_all">Fshij të gjitha</string>
     <string name="properties">Vetitë</string>
-    <string name="properties_message"/>
-    <string name="properties_message_v2"/>
-    <string name="want_to_delete_file"/>
-    <string name="want_to_delete_all_files"/>
-    <string name="file_has_been_deleted"/>
-    <string name="failed_to_delete_file"/>
-    <string name="install__label_"/>
-    <string name="user_canceled"/>
-    <string name="io_error"/>
-    <string name="file_format_error"/>
+    <string name="properties_message">&lt;b&gt;Rruga:&lt;/b&gt; %1$s&lt;br&gt;&lt;b&gt;Madhësia:&lt;/b&gt; %2$s&lt;br&gt;&lt;b&gt;Ndryshimi i fundit:&lt;/b&gt; %3$s</string>
+    <string name="properties_message_v2">&lt;b&gt;Emri i paketës:&lt;/b&gt; %1$s&lt;br&gt;&lt;b&gt;Versioni:&lt;/b&gt; %2$s&lt;br&gt;&lt;b&gt;Shtegu:&lt;/b&gt; %3$s&lt;br&gt;&lt; b&gt;Madhësia:&lt;/b&gt; %4$s&lt;br&gt;&lt;b&gt;Ndryshimi i fundit:&lt;/b&gt; %5$s</string>
+    <string name="want_to_delete_file">Jeni i sigurt që dëshironi ta fshini këtë skedar\?</string>
+    <string name="want_to_delete_all_files">Jeni i sigurt që dëshironi të fshini të gjithë skedarët\?</string>
+    <string name="file_has_been_deleted">Skedari është fshirë.</string>
+    <string name="failed_to_delete_file">Fshirja e skedarit dështoi.</string>
+    <string name="install__label_">Instalo - &lt;xliff:g xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\" example=\"APKPure\" id=\"app_label\"&gt;%1$s&lt;/xliff:g&gt;</string>
+    <string name="user_canceled">Përdoruesi u anulua.</string>
+    <string name="io_error">Gabim IO. Nuk ka hapësirë të mjaftueshme për instalim.</string>
+    <string name="file_format_error">Gabim në formatin e skedarit.</string>
     <string name="parsing_xapk"/>
     <string name="installing_obb"/>
     <string name="extracting_apk"/>
