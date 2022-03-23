@@ -101,4 +101,191 @@ Någonting hände.</string>
         <item quantity="other">&lt;xliff:g xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\" example=\"2\" id=\"count\"&gt;%1$d&lt;/xliff:g&gt; nya uppdateringar är tillgängliga</item>
     </plurals>
     <string name="version__version___size_">Version: &lt;xliff:g xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\" example=\"1.0.0\" id=\"version\"&gt;%1$s&lt;/xliff:g&gt;, &lt;xliff:g xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\" example=\"1024 kB\" id=\"size\"&gt;%2$s&lt;/xliff:g&gt;</string>
+    <string name="user_info_edit_cancel">Avbryt</string>
+    <string name="user_info_edit_ok">OK</string>
+    <string name="user_info_edit_portrait_error">Bildtypen stöds inte.</string>
+    <string name="user_info_edit_portrait_take_photo">Ta foto med kamera</string>
+    <string name="user_info_edit_portrait_album">Välj foto från galleriet</string>
+    <string name="user_info_edit_gender_female">Kvinna</string>
+    <string name="user_info_edit_gender_male">Man</string>
+    <string name="user_info_edit_not_choose">Okänd</string>
+    <string name="user_info_edit_login_out_tv">Logga ut</string>
+    <string name="user_info_edit_change_pwd_tv">Återställ lösenord</string>
+    <string name="user_info_edit_birthday_tv">Födelsedag</string>
+    <string name="user_info_edit_gender_tv">Kön</string>
+    <string name="user_info_edit_email_tv">E-postadress</string>
+    <string name="user_info_edit_nickname_tv">Smeknamn</string>
+    <string name="user_info_edit_username_tv">Användarnamn</string>
+    <string name="user_info_edit_portrait_tv">Avatar</string>
+    <string name="user_info_edit_title">Profil</string>
+    <string name="login_select_way_to_login">Vänligen välj en metod för att logga in</string>
+    <string name="upload_cancel">Uppladdningen har avbrutits</string>
+    <string name="delete_comment_msg">Är du säker på att du vill ta bort den här kommentaren\?</string>
+    <string name="delete_comment">Ta bort kommentaren</string>
+    <string name="sign_out">Logga ut</string>
+    <string name="login_title">Logga in</string>
+    <string name="permission_denied">Åtkomst nekades!</string>
+    <string name="scan_qr_code_copy_success">Texten kopierades.</string>
+    <string name="scan_qr_code_result_hint">QR-kodens detaljer：</string>
+    <string name="scan_qr_code_result_copy_text">Kopiera text</string>
+    <string name="scan_qr_code_result_title">Resultat</string>
+    <string name="zxing_msg_parser_status">Skanningen misslyckades. Vänligen försök igen.</string>
+    <string name="scan_qr_code_hint">Före användning av Skanna QR-kod så behöver du godkänna åtkomst till kamera som behövs för att skanna QR-koder.</string>
+    <string name="loading">Laddar…</string>
+    <string name="load_failed_click_retry">Laddningen misslyckades. Vänligen tryck för att försöka igen</string>
+    <string name="load_end">Ingen mer data.</string>
+    <string name="already_save">&lt;xliff:g xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\" example=\"ApKPure/photo\" id=\"path\"&gt;%1$s&lt;/xliff:g&gt;</string>
+    <string name="save_original_image">Spara</string>
+    <string name="reply_comment">Svara på kommentar</string>
+    <string name="reply_dialog_marked_words">Tryck och håll bilden för att ta bort den.</string>
+    <string name="input_reply_content">Vänligen ange ditt svar:</string>
+    <string name="reply">Svar</string>
+    <string name="download_mkdir_external_storage_values">extern_lagringsplats</string>
+    <string name="download_mkdir_internal_storage_values">intern_lagringsplats</string>
+    <string name="download_mkdir_internal_storage_entries1">SD 1</string>
+    <string name="download_mkdir_internal_storage_entries">SD</string>
+    <string name="download_mkdir_internal_storage_size_des">%1$s fritt, totalt %2$s</string>
+    <string name="download_mkdir">Nerladdningsgenväg</string>
+    <string name="download_complete_installation_setting_entries_never">Installera aldrig</string>
+    <string name="download_complete_installation_setting_entries_only">Installera endast under förgrundskörning</string>
+    <string name="download_complete_installation_setting_entries_always">Installera alltid</string>
+    <string name="app_detail_comment_join_group_bt">Grupp</string>
+    <string name="app_detail_discuss_filter_featured">Höjdpunkter</string>
+    <string name="app_detail_comment_order_array_bad">1-3</string>
+    <string name="app_detail_comment_order_array_good">4-5</string>
+    <string name="app_detail_comment_order_array_old">Äldst</string>
+    <string name="app_detail_comment_order_array_best">Bästa</string>
+    <string name="app_detail_comment_order_array_new">Nyaste</string>
+    <string name="app_detail_comment_order_array_most_recent">Senaste</string>
+    <string name="app_detail_comment_order_array_default">Sortera efter Standard</string>
+    <string name="app_detail_evaluation_failed_bt">Recension</string>
+    <string name="app_detail_evaluation_tool_bar_title">Skriv en recension</string>
+    <string name="app_detail_comment_score_footer">Det finns %1$s recensioner på andra språk.</string>
+    <string name="app_detail_comment_no_data">Inga användarrecensioner hittades. Skriv din recension nu.</string>
+    <string name="app_detail_comment_score_less">För få användarrecensioner.</string>
+    <string name="app_detail_comment_filter_version">Senaste versionen</string>
+    <string name="app_detail_comment_filter_all">Alla recensioner</string>
+    <string name="app_detail_tab_evaluation">Recensioner</string>
+    <string name="app_detail_tab_three">Relaterade</string>
+    <string name="app_detail_tab_two">Grupp</string>
+    <string name="app_detail_tab_one">Detaljer</string>
+    <string name="app_submit_reply_to">svarade till</string>
+    <string name="app_submit_email">E-postadress</string>
+    <string name="app_submit_nickname">Smeknamn</string>
+    <string name="app_submit_title_hint">Vänligen ange en titel!</string>
+    <string name="app_submit_email_toast">Vänligen ange en giltig e-postadress!</string>
+    <string name="app_submit_name_toast">Vänligen ange ditt smeknamn!</string>
+    <string name="app_submit_msg_toast">Vänligen skriv någonting!</string>
+    <string name="app_submit_title_toast">Vänligen ange en titel!</string>
+    <string name="app_submit_anonymous_comment">Lägg till en kommentar</string>
+    <string name="app_submit_submit">Skickar in…</string>
+    <string name="app_detail_comment_type_web">Web</string>
+    <string name="app_detail_customer_reviews">Kommentarer</string>
+    <string name="auto_install_via_root_summary">Endast för rootade Android-telefoner och surfplattor.</string>
+    <string name="auto_install_via_root_title">Installera automatiskt (Root-läge)</string>
+    <string name="auto_service_directly__material_">INSTALLERA DIREKT</string>
+    <string name="auto_service_complete__material_">FÄRDIG</string>
+    <string name="auto_service_exchange__material_">ERSÄTT</string>
+    <string name="auto_service_next__material_">NÄSTA</string>
+    <string name="auto_service_ensure__material_">OK</string>
+    <string name="auto_service_install__material_">INSTALLERA</string>
+    <string name="auto_service_complete">Färdig</string>
+    <string name="auto_service_exchange">Ersätt</string>
+    <string name="auto_service_next">Nästa</string>
+    <string name="auto_service_ensure">OK</string>
+    <string name="auto_service_install">Installera</string>
+    <string name="auto_service_title">Installera APKPure automatiskt</string>
+    <string name="auto_service_dialog_message">Automatisk installation kräver tillstånd från dig. 100% säkert.</string>
+    <string name="auto_service_dialog_title">Aktivera automatisk installation</string>
+    <string name="auto_service_install_accessibility_summary">Stöder Android 4.1 och uppåt. Ingen root-åtkomst behövs.</string>
+    <string name="auto_service_install_accessibility_title">Installera automatiskt</string>
+    <string name="touch_to_open">Tryck för att starta upp.</string>
+    <string name="_name__installation_completed">&lt;xliff:g xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\" example=\"APKPure\" id=\"name\"&gt;%1$s&lt;/xliff:g&gt; installationen slutfördes</string>
+    <string name="delete_packages_after_installation">Ta bort paketen efter installation</string>
+    <string name="show_notification_after_installation">Visa avisering efter installationen</string>
+    <string name="installation">Installation</string>
+    <string name="enable_ultra_download_summary">Ultra-nerladdning är fortfarande i beta-stadiet. Låt oss veta om du upplever några problem.</string>
+    <string name="enable_ultra_download">Aktivera Ultra-nerladdning</string>
+    <string name="download_via_wifi_only">Ladda endast ner via WiFi</string>
+    <string name="data_saver_model">Datasparare</string>
+    <string name="changing_language">Byter språk... Vänligen vänta.</string>
+    <string name="auto">Auto</string>
+    <string name="language">Språk</string>
+    <string name="total_zero_app">Totalt: &lt;b&gt;&lt;font color=%1$d&gt;0&lt;/font&gt;&lt;/b&gt; app</string>
+    <string name="ignored">Ignorerades</string>
+    <string name="deselect_all">Ta bort alla val</string>
+    <string name="select_all">Välj alla</string>
+    <string name="cancel">Avbryt</string>
+    <string name="select">Välj</string>
+    <string name="unignore">Sluta ignorera</string>
+    <string name="ignore">Ignorera</string>
+    <string name="update___count__">Uppdatera (&lt;xliff:g xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\" example=\"3\" id=\"count\"&gt;%1$d&lt;/xliff:g&gt;)</string>
+    <string name="update_all">Uppdatera alla</string>
+    <string name="update__date___size_">&lt;xliff:g xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\" example=\"Mar 3, 2016\" id=\"date\"&gt;%1$s&lt;/xliff:g&gt;, &lt;xliff:g xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\" example=\"1024 kB\" id=\"size\"&gt;%2$s&lt;/xliff:g&gt;</string>
+    <string name="_name__version_history">&lt;xliff:g xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\" example=\"APKPure\" id=\"name\"&gt;%1$s&lt;/xliff:g&gt;Versionshistorik</string>
+    <string name="share_app_url">" Dela &lt;xliff:g xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\" example=\"APKPure\" id=\"app_name\"&gt;%1$s&lt;/xliff:g&gt; APK (från &lt;xliff:g xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\" example=\"APKPure\" id=\"social_network_name\"&gt;%2$s&lt;/xliff:g&gt;) &lt;xliff:g xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\" example=\"https://apkpure.com/p/com.apkpure.aegon\" id=\"app_url\"&gt;%3$s&lt;/xliff:g&gt; "</string>
+    <string name="share">Dela</string>
+    <string name="external_storage_permission_denied">&lt;big&gt;&lt;b&gt;Vi behöver åtkomst till din externa lagringsplats. Vänligen se till att åtkomsten är godkänd.&lt;/b&gt;&lt;/big&gt;</string>
+    <string name="external_storage_not_usable">&lt;big&gt;&lt;b&gt;Vi behöver åtkomst till din externa lagringsplats. Vänligen se till att den är användbar. &lt;/b&gt;&lt;/big&gt;</string>
+    <string name="setting">Inställning</string>
+    <string name="this_app_not_usable">&lt;big&gt;&lt;b&gt;&lt;font color=%1$d&gt;Den här appen kanske inte kan användas.&lt;/font&gt;&lt;/b&gt;&lt;/big&gt;&lt;br&gt;&lt;br&gt;Fortsätt\?</string>
+    <string name="incompatible_this_app">&lt;big&gt;&lt;b&gt;&lt;font color=%1$d&gt;Din enhet är inte kompatibel med den här appen.&lt;/font&gt;&lt;/b&gt;&lt;/big&gt;&lt;br&gt;&lt;br&gt;Fortsätt\?</string>
+    <string name="invalid_app_detail">Ogiltig detaljinformation för appen.</string>
+    <string name="report__">Rapportera…</string>
+    <string name="report">Rapportera</string>
+    <string name="improvement_plan_message">Hjälp oss att göra din upplevelse bättre genom att skicka in information om din Android-enhet. Vi lovar att vi &lt;b&gt;inte&lt;/b&gt; samlar in din personliga identifierbara information (namn, adress, e-postadress, personnummer eller andra unika identifierare).</string>
+    <string name="want_to_remove_all_download_items">Är du säker på att du vill ta bort alla objekt\?</string>
+    <string name="want_to_remove_download_item">Är du säker på att du vill ta bort det här objektet\?</string>
+    <string name="pause">Pause</string>
+    <string name="download_percent">&lt;xliff:g xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\" example=\"50\" id=\"percent\"&gt;%1$d&lt;/xliff:g&gt; %%</string>
+    <string name="installation_failed">Installationen misslyckades.</string>
+    <string name="feedback">Återkoppling</string>
+    <string name="report_content">Rapportera innehåll</string>
+    <string name="contact_us">Kontakta oss</string>
+    <string name="contact_us__">Kontakta oss…</string>
+    <string name="report_problem_subject">Rapportera ett problem</string>
+    <string name="report_problem__">Rapportera ett problem…</string>
+    <string name="new_version_available_message">&lt;b&gt;Senaste version:&lt;/b&gt;%1$s&lt;br&gt;&lt;br&gt;&lt;b&gt;Vad är nytt:&lt;/b&gt;&lt;br&gt;%2$s</string>
+    <string name="new_version_available_title">Ny version tillgänglig</string>
+    <string name="_name__is_up_to_date">&lt;xliff:g xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\" example=\"APKPure\" id=\"name\"&gt;%1$s&lt;/xliff:g&gt; är uppdaterad.</string>
+    <string name="enable">Aktivera</string>
+    <string name="participate_ultra_download_beta_test_content">Ultra-nerladdning är fortfarande i beta-stadiet. Låt oss veta om du upplever några problem. Du kan enkelt stänga av det i Inställningar.</string>
+    <string name="participate_ultra_download_beta_test_title">Aktivera Ultra-nerladdning och njut av en snabbare nerladdningshastighet</string>
+    <string name="skip">Hoppa över</string>
+    <string name="join_us">Gå med</string>
+    <string name="clear_search_history">Rensa all historik</string>
+    <string name="search_history">Historik</string>
+    <string name="trending_searches">Trendande sökningar</string>
+    <string name="search_for_apps">Sök på APKPure</string>
+    <string name="search">Sök</string>
+    <string name="download_over_cellular_content">Du är på väg att ladda ner med din telefons nät. Fortsätt\?</string>
+    <string name="download_over_cellular">Ladda ner med telefonens nät</string>
+    <string name="delete_downloaded_file">Ta bort nerladdad fil</string>
+    <string name="remove_all">Ta bort alla</string>
+    <string name="remove">Ta bort</string>
+    <string name="detail">Detaljer</string>
+    <string name="installed">Installerades</string>
+    <string name="expired">Slutade gälla</string>
+    <string name="deleted">Tog bort</string>
+    <string name="waiting_to_download">Väntar på nerladdning</string>
+    <string name="file_missing">Filen saknas</string>
+    <string name="file_invalid">Filen ogiltig</string>
+    <string name="failed">Misslyckades</string>
+    <string name="paused">Pausad</string>
+    <string name="completed">Slutförd</string>
+    <string name="preparing">Förbereder</string>
+    <string name="waiting">Väntar</string>
+    <string name="downloading">Laddar ner</string>
+    <string name="download">Ladda ner</string>
+    <string name="restart">Starta om</string>
+    <string name="continue_all">Fortsätt allt</string>
+    <string name="continue_">Fortsätta</string>
+    <string name="pause_all">Pausa allt</string>
+    <string name="touch_to_download_it_again">Tryck för att starta om nerladdningen</string>
+    <string name="_name__download_failed">&lt;xliff:g xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\" example=\"APKPure\" id=\"name\"&gt; %1$s&lt;/xliff:g&gt; nerladdningen misslyckades</string>
+    <string name="touch_for_view_all_downloads">Klicka för att visa alla nerladdningar</string>
+    <plurals name="_count__item_is_downloading">
+        <item quantity="one">Laddar ner &lt;xliff:g xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\" example=\"2\" id=\"count\"&gt; sak.</item>
+        <item quantity="other">Laddar ner &lt;xliff:g xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\" example=\"2\" id=\"count\"&gt; saker.</item>
+    </plurals>
 </resources>
