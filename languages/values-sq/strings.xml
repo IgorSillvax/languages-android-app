@@ -3,57 +3,58 @@
     <string name="facebook_app_id" translatable="false">596489647167672</string>
     <string name="fb_login_protocol_scheme" translatable="false">fb596489647167672</string>
     <string name="aegon_app_name" translatable="false">APKPure</string>
-    <string name="action_settings">ABASS TV</string>
-    <string name="action_search"/>
-    <string name="action_management"/>
-    <string name="press_back_key_quit"/>
-    <string name="featured"/>
-    <string name="recommend"/>
-    <string name="games"/>
-    <string name="apps"/>
-    <string name="categories"/>
-    <string name="updates"/>
-    <string name="something_happened"/>
-    <string name="load_failed_error"/>
-    <string name="load_failed_error_not_found"/>
-    <string name="load_failed_empty"/>
-    <string name="load_failed_all_up_to_date"/>
-    <string name="load_failed_no_results"/>
-    <string name="refresh"/>
-    <string name="management"/>
-    <string name="app_updates"/>
-    <string name="app_management"/>
-    <string name="app_uninstall"/>
-    <string name="apk_management"/>
-    <string name="apk_xapk_management"/>
-    <string name="download_management"/>
-    <string name="settings"/>
-    <string name="about"/>
-    <string name="about_title"/>
-    <string name="about_message"/>
-    <string name="check_update"/>
-    <string name="check_update_replace"/>
-    <string name="check_update_beta"/>
-    <string name="beta"/>
+    <string name="action_settings">Cilësimet</string>
+    <string name="action_search">Kërko</string>
+    <string name="action_management">Menaxhimi</string>
+    <string name="press_back_key_quit">Për të dalë, trokitni edhe një herë butonin prapa.</string>
+    <string name="featured">Të paraqitura</string>
+    <string name="recommend">Zbuloni</string>
+    <string name="games">Lojëra</string>
+    <string name="apps">Aplikacionet</string>
+    <string name="categories">Kategoritë</string>
+    <string name="updates">Përditësimet</string>
+    <string name="something_happened">&gt;_&lt;
+\nDiçka ndodhi.</string>
+    <string name="load_failed_error">Oops! Ndodhi një gabim.</string>
+    <string name="load_failed_error_not_found">Aplikacioni nuk është përfshirë në APKPure.</string>
+    <string name="load_failed_empty">Këtu nuk ka asgjë.</string>
+    <string name="load_failed_all_up_to_date">Të gjitha aplikacionet janë të përditësuara.</string>
+    <string name="load_failed_no_results">Na vjen keq! Nuk u gjet asnjë rezultat.</string>
+    <string name="refresh">Rifresko</string>
+    <string name="management">Menaxhimi</string>
+    <string name="app_updates">Përditësimet e aplikacioneve</string>
+    <string name="app_management">Instaluar</string>
+    <string name="app_uninstall">Çinstalimi i aplikacionit</string>
+    <string name="apk_management">Menaxhimi i APK-së</string>
+    <string name="apk_xapk_management">Menaxhimi i APK / XAPK</string>
+    <string name="download_management">Menaxhimi i shkarkimit</string>
+    <string name="settings">Cilësimet</string>
+    <string name="about">Rreth</string>
+    <string name="about_title">Rreth &lt;xliff:g xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\" example=\"APKPure\" id=\"app_name\"&gt;%1$s&lt;/xliff:g&gt;</string>
+    <string name="about_message">&lt;b&gt;Versioni:&lt;/b&gt; %1$s&lt;br&gt;&lt;br&gt;&lt;b&gt;Uebsajti:&lt;/b&gt; &lt;a href=%2$s&gt;%2$s&lt;/a&gt;&lt;br&gt;&lt;b &gt;Email:&lt;/b&gt; &lt;a href=mailto:%3$s&gt;%3$s&lt;/a&gt;</string>
+    <string name="check_update">Kontrolloni për përditësime</string>
+    <string name="check_update_replace">Versioni zyrtar</string>
+    <string name="check_update_beta">Beta para publikimit</string>
+    <string name="beta">Beta</string>
     <string name="check_update_replace_value" translatable="false">0</string>
     <string name="check_update_beta_value" translatable="false">1</string>
-    <string name="quit"/>
-    <string name="want_to_quit"/>
-    <string name="install"/>
-    <string name="open"/>
-    <string name="delete"/>
-    <string name="delete_all"/>
-    <string name="properties"/>
-    <string name="properties_message"/>
-    <string name="properties_message_v2"/>
-    <string name="want_to_delete_file"/>
-    <string name="want_to_delete_all_files"/>
-    <string name="file_has_been_deleted"/>
-    <string name="failed_to_delete_file"/>
-    <string name="install__label_"/>
-    <string name="user_canceled"/>
-    <string name="io_error"/>
-    <string name="file_format_error"/>
+    <string name="quit">Dil</string>
+    <string name="want_to_quit">Je i sigurt që dëshiron të dalësh\?</string>
+    <string name="install">Instaloni</string>
+    <string name="open">Hapur</string>
+    <string name="delete">Fshije</string>
+    <string name="delete_all">Fshij të gjitha</string>
+    <string name="properties">Vetitë</string>
+    <string name="properties_message">&lt;b&gt;Rruga:&lt;/b&gt; %1$s&lt;br&gt;&lt;b&gt;Madhësia:&lt;/b&gt; %2$s&lt;br&gt;&lt;b&gt;Ndryshimi i fundit:&lt;/b&gt; %3$s</string>
+    <string name="properties_message_v2">&lt;b&gt;Emri i paketës:&lt;/b&gt; %1$s&lt;br&gt;&lt;b&gt;Versioni:&lt;/b&gt; %2$s&lt;br&gt;&lt;b&gt;Shtegu:&lt;/b&gt; %3$s&lt;br&gt;&lt; b&gt;Madhësia:&lt;/b&gt; %4$s&lt;br&gt;&lt;b&gt;Ndryshimi i fundit:&lt;/b&gt; %5$s</string>
+    <string name="want_to_delete_file">Jeni i sigurt që dëshironi ta fshini këtë skedar\?</string>
+    <string name="want_to_delete_all_files">Jeni i sigurt që dëshironi të fshini të gjithë skedarët\?</string>
+    <string name="file_has_been_deleted">Skedari është fshirë.</string>
+    <string name="failed_to_delete_file">Fshirja e skedarit dështoi.</string>
+    <string name="install__label_">Instalo - &lt;xliff:g xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\" example=\"APKPure\" id=\"app_label\"&gt;%1$s&lt;/xliff:g&gt;</string>
+    <string name="user_canceled">Përdoruesi u anulua.</string>
+    <string name="io_error">Gabim IO. Nuk ka hapësirë të mjaftueshme për instalim.</string>
+    <string name="file_format_error">Gabim në formatin e skedarit.</string>
     <string name="parsing_xapk"/>
     <string name="installing_obb"/>
     <string name="extracting_apk"/>
