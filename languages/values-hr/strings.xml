@@ -2,8 +2,7 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="action_settings">Postavke</string>
     <string name="action_search">Traži</string>
-    <string name="action_management">Face 
-\nUpravljanje</string>
+    <string name="action_management">Upravljanje</string>
     <string name="press_back_key_quit">Da biste izašli, još jednom dodirnite gumb za povratak.</string>
     <string name="featured">Istaknuto</string>
     <string name="games">Igre</string>
@@ -18,19 +17,18 @@
     <string name="refresh">Osvježi</string>
     <string name="management">Upravljanje</string>
     <string name="app_updates">Ažuriranje aplikacija</string>
-    <string name="app_management">Upravitelj aplikacija</string>
-    <string name="app_uninstall">Deinstaliraj aplikacije</string>
+    <string name="app_management">Instalirano</string>
+    <string name="app_uninstall">Obriši aplikaciju</string>
     <string name="apk_management">APK upravitelj</string>
     <string name="apk_xapk_management">APK / XAPK upravitelj</string>
     <string name="download_management">Upravitelj preuzimanja</string>
     <string name="settings">Postavke</string>
-    <string name="about">O…</string>
-    <string name="about_title">O aplikaciji<xliff:g id="app_name" example="APKPure">%1$s</xliff:g>
-    </string>
+    <string name="about">O programu</string>
+    <string name="about_title">O programu &lt;xliff:g xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\" example=\"APKPure\" id=\"app_name\"&gt;</string>
     <string name="about_message">
         <![CDATA[<b>Verzija:</b> %1$s<br><br><b>Web stranica:</b> <a href="%2$s">%2$s</a><br><b>Email:</b> <a href="mailto:%3$s">%3$s</a>]]>
     </string>
-    <string name="check_update">Provjera ažuriranja</string>
+    <string name="check_update">Provjera za ažuriranja</string>
     <string name="quit">Izađi</string>
     <string name="want_to_quit">Jeste li sigurni da želite izaći?</string>
     <string name="install">Instaliraj</string>
@@ -39,8 +37,7 @@
     <string name="want_to_delete_file">Želite li izbrisati ovu datoteku\?</string>
     <string name="file_has_been_deleted">Arhiva je izbrisana.</string>
     <string name="failed_to_delete_file">Arhiva se nije uspjela izbrisati.</string>
-    <string name="install__label_">Instaliraj - <xliff:g id="app_label" example="APKPure">%1$s</xliff:g>
-    </string>
+    <string name="install__label_">Instaliraj - &lt;xliff:g xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\" example=\"APKPure\" id=\"app_label\"&gt;%1$s&lt;/xliff:g&gt;</string>
     <string name="user_canceled">Korisnik otkazao.</string>
     <string name="io_error">IO pogreška. Nema dovoljno slobodnog prostora za instalaciju.</string>
     <string name="file_format_error">Pogreška formata datoteke.</string>
@@ -86,13 +83,13 @@
             <xliff:g example="1" id="count">%1$d</xliff:g> Dostupno je jedno ažuriranje</item>
         <item quantity="few">
             <xliff:g example="2" id="count">%1$d</xliff:g> dostupna su ažuriranja</item>
-        <item quantity="other"></item>
+        <item quantity="other"/>
     </plurals>
     <string name="launching_please_wait">POKRETANJE...MOLIM PRIČEKAJTE.</string>
     <plurals name="_count__item_is_downloading">
         <item quantity="one">Downloading <xliff:g example="1" id="count">%1$d</xliff:g> stavka.</item>
         <item quantity="few">Downloading <xliff:g example="2" id="count">%1$d</xliff:g> stavke.</item>
-        <item quantity="other"></item>
+        <item quantity="other"/>
     </plurals>
     <string name="downloads_complete">Preuzimanja su završena</string>
     <string name="touch_for_view_all_downloads">Dotaknite da vidite sva preuzimanja</string>
@@ -190,6 +187,6 @@
     <string name="beta">Beta</string>
     <string name="check_update_beta">pred izdanje Beta</string>
     <string name="check_update_replace">Službena verzija</string>
-    <string name="load_failed_error_not_found">Ova aplikacija nije uključena u APKPure</string>
+    <string name="load_failed_error_not_found">Ova aplikacija nije uključena u APKPure.</string>
     <string name="recommend">Otkrij</string>
 </resources>
